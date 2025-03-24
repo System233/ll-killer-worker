@@ -42,7 +42,7 @@ push:
 	git -C $(PKG_WORK_DIR) pull --rebase
 	git -C $(PKG_WORK_DIR) add $(PKG)
 	git -C $(PKG_WORK_DIR) diff --cached --quiet || git -C $(PKG_WORK_DIR) commit -m "Update $(PKG)"
-	git push
+	git push origin artifacts
 
 upload: build
 ifneq ($(FTP_URL),)

@@ -18,10 +18,12 @@ jobs:
       - name: Check
         id: check
         run: |
-          make index push tasks
+          git submodule update --remote
+          make index tasks
           echo "TASKS=<<EOF" >> "$GITHUB_OUTPUT"
           cat "tasks.json" >> "$GITHUB_OUTPUT"
           echo "EOF" >> "$GITHUB_OUTPUT"
+          make push
   build:
     needs: check
     strategy:
