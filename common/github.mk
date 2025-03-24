@@ -6,8 +6,7 @@ PATTERN?= \\.deb
 TARGET_INDEX=$(INDEX)
 
 $(TARGET_INDEX):
-	#RESP=$$(curl -fsSL "$(URL)");
-	@RESP="$$(cat test.json)";\
+	@RESP=$$(curl -fsSL "$(URL)");\
 	TAG_NAME=$$(printf "%s" "$$RESP" | jq -r '.tag_name');\
 	ASSETS=$$(printf "%s" "$$RESP" | jq 'limit(1; .assets[] | select(.name | test("$(PATTERN)")))');\
 	URL=$$(printf "%s" "$$ASSETS" | jq -r '.browser_download_url');\
