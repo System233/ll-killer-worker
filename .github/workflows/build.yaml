@@ -1,0 +1,39 @@
+name: Build
+permissions:
+  contents: write
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    outputs:
+      TASK: ${{steps.check.outputs.TASKS}}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+      - name: Check
+        id: check
+        run: |
+          make index push tasks
+          echo "TASKS=<<EOF" >> "$GITHUB_OUTPUT"
+          cat "tasks.json" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+  build:
+    needs: check
+    strategy:
+      matrix:
+        pkg: ${{fromJson(needs.check.outputs.TASK)}}
+      fail-fast: false
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+      - name: Build
+        run: |
+          make build PKG=${{matrix.pkg}}
