@@ -1,0 +1,27 @@
+Package: angband-data
+Version: 1:4.2.5+dfsg1-1
+Priority: optional
+Section: universe/games
+Source: angband
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3554 kB
+Depends: libjs-sphinxdoc (>= 5.2), fonts-noto-mono
+Recommends: xfonts-base
+Breaks: angband-audio (<= 1:3.1.0-1)
+Replaces: angband (<< 1:3.3.2)
+Homepage: https://rephial.org
+Download-Size: 2242 kB
+APT-Sources: https://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+Description: Game data for angband
+ Angband is a single-player, text-based, dungeon simulation derived
+ from the game Moria, which was in turn based on Rogue. It is
+ often described as a "roguelike" game because the look and feel of
+ the game is still quite similar to Rogue (though there are now graphical
+ tiles available if you dislike ASCII gaming). Angband has been in more or
+ less continuous development since the early 1990s.
+ .
+ This package contains the data files for the game.
+

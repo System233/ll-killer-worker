@@ -1,0 +1,15 @@
+正在测试: APPID=angband-data.linyaps LAYER=angband-data.linyaps_4.2.5.1_x86_64_binary.layer
+[K[?25l0% prepare for installing layer[?25h[K[?25l10% Installing base main:org.deepin.base/23.1.0.3/x86_64[?25h[K[?25l30% [?25h[K[?25l100% install layer successfully[?25h
+[正在测试快捷方式/服务单元]
+find: ‘/opt/apps/angband-data.linyaps/files/share/icons’: No such file or directory
+find: ‘/opt/apps/angband-data.linyaps/files/share/pixmaps’: No such file or directory
+[31m[失败] angband.desktop:angband: 找不到此图标 [0m
+[成功] /opt/apps/angband-data.linyaps/files/share/applications/angband.desktop: /opt/apps/angband-data.linyaps/files/entrypoint.sh sh -c "if [ \$XDG_SESSION_TYPE == "wayland" ]; then env SDL_VIDEODRIVER=wayland angband -msdl2; else angband -msdl2; fi"
+Error: CODE=-1
+./libs/linglong/src/linglong/runtime/container.cpp:189 run container bWFpbjphbmdiYW5kLWRhdGEubGlueWFwcy80LjIuNS4xL3g4Nl82NC17MmJiNzdkOGItOWZmZS00NjYyLWFhNTgtNDEyYTIwNTVlYWExfQ==: cli run: run command failed: /usr/bin/ll-box --cgroup-manager=disabled run -b /run/user/1001/linglong/bWFpbjphbmdiYW5kLWRhdGEubGlueWFwcy80LjIuNS4xL3g4Nl82NC17MmJiNzdkOGItOWZmZS00NjYyLWFhNTgtNDEyYTIwNTVlYWExfQ== bWFpbjphbmdiYW5kLWRhdGEubGlueWFwcy80LjIuNS4xL3g4Nl82NC17MmJiNzdkOGItOWZmZS00NjYyLWFhNTgtNDEyYTIwNTVlYWExfQ== retval=65280
+[正在测试启动项]
+启动项排除列表：NoDisplay Hidden
+[PID ?] 启动进程: /usr/bin/ll-cli run angband-data.linyaps -- /opt/apps/angband-data.linyaps/files/entrypoint.sh sh -c "if [ \$XDG_SESSION_TYPE == "wayland" ]; then env SDL_VIDEODRIVER=wayland angband -msdl2; else angband -msdl2; fi"
+[PID 8454] 进程已启动
+[PID 8454] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
