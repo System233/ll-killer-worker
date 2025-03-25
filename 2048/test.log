@@ -1,0 +1,12 @@
+正在测试: APPID=2048.linyaps LAYER=2048.linyaps_0.20221023.1237.1_x86_64_binary.layer
+[K[?25l0% prepare for installing layer[?25h[K[?25l10% Installing base main:org.deepin.base/23.1.0.3/x86_64[?25h[K[?25l30% Downloading metadata[?25h[K[?25l30% Downloading metadata[?25h[K[?25l100% install layer successfully[?25h
+[正在测试快捷方式/服务单元]
+find: ‘/opt/apps/2048.linyaps/files/share/icons’: No such file or directory
+[成功] 2048.desktop: 2048 -> /opt/apps/2048.linyaps/files/share/pixmaps/2048.png
+[成功] /opt/apps/2048.linyaps/files/share/applications/2048.desktop: /opt/apps/2048.linyaps/files/entrypoint.sh sh -c '/usr/games/2048;echo;echo PRESS ENTER TO EXIT;read line'
+[正在测试启动项]
+启动项排除列表：NoDisplay Hidden
+[PID ?] 启动进程: /usr/bin/ll-cli run 2048.linyaps -- /opt/apps/2048.linyaps/files/entrypoint.sh sh -c '/usr/games/2048;echo;echo PRESS ENTER TO EXIT;read line'
+[PID 8197] 进程已启动
+[PID 8197] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
