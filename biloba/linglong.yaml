@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: biloba.linyaps
+  name: biloba
+  version: 0.9.3.11
+  kind: app
+  description: |-
+    turn based strategy board game for up to 4 players
+    Biloba is an abstract strategy board game for 1 to 4 players. At each
+    turn the player moves pawns on an octagonal shaped board (but squared
+    cells) trying to remove opponent's pawns from it.
+
+    Biloba includes an AI opponent for single player mode, and supports
+    local or network play for 2 or more (up to 4) players.
+command:
+- /opt/apps/biloba.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
