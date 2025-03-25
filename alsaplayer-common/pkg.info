@@ -1,0 +1,25 @@
+Package: alsaplayer-common
+Version: 0.99.81-2build6
+Priority: optional
+Section: universe/sound
+Source: alsaplayer
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Paul Brossier <piem@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 496 kB
+Provides: alsaplayer
+Depends: libc6 (>= 2.38), libflac12t64 (>= 1.3.0), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.12.0), libmad0 (>= 0.15.1b-3), libmikmod3 (>= 3.3.3), libsndfile1 (>= 1.0.20), libstdc++6 (>= 13.1), libvorbis0a (>= 1.1.2), libvorbisfile3 (>= 1.1.2), alsaplayer-alsa | alsaplayer-output, alsaplayer-gtk | alsaplayer-interface
+Homepage: http://alsaplayer.sourceforge.net/
+Download-Size: 149 kB
+APT-Sources: https://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+Description: audio player (common files)
+ Alsaplayer is a PCM player designed specifically for use with ALSA, but
+ works great with OSS or EsounD. It's heavily threaded which cuts down on
+ skipping, offers optional and even simultaneous visual scopes, plays
+ mp3, mp2, ogg, cdda, audiofs, and lots more.
+ .
+ This package contains the main alsaplayer program, and needs one interface
+ plugin and one output plugin. By default, GTK+ interface and alsa output will
+ be installed.
+
