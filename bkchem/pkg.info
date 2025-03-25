@@ -1,0 +1,25 @@
+Package: bkchem
+Version: 0.14.0~pre4+git20211228-3
+Priority: optional
+Section: universe/science
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3897 kB
+Depends: python3-pil, python3:any
+Suggests: python3-cairo
+Homepage: https://bkchem.zirael.org
+Download-Size: 717 kB
+APT-Sources: https://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+Description: Chemical structures editor
+ BKchem is a free chemical drawing program, which is written in Python.
+ .
+ Some of the features, you can expect:
+  * Drawing (bond-by-bond drawing; templates for common rings; expanding of
+    common-groups; draws radicals, charges, arrows; color support ...)
+  * Editing (unlimited undo and redo capabilities; aligning; scaling;
+    rotation (2D, 3D) ...)
+  * Export/Import (fully supported SVG-, OpenOffice.org-Draw-, EPS-export;
+    basic support for CML1 and CML2 import and export)
+

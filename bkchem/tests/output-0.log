@@ -1,0 +1,45 @@
+/usr/share/bkchem/bkchem/dom_extensions.py:81: SyntaxWarning: invalid escape sequence '\s'
+  empty = re.compile('^\s*$')
+/usr/share/bkchem/bkchem/misc.py:104: SyntaxWarning: invalid escape sequence '\d'
+  cutter = re.compile( "([+-]?\d*\.?\d*)\s*([a-zA-Z]*)")
+/usr/share/bkchem/bkchem/oasa/oasa/periodic_table.py:347: SyntaxWarning: invalid escape sequence '\d'
+  a = re.match( '^([a-z]{1,2})(h)(\d*)$', text.lower())
+/usr/share/bkchem/bkchem/oasa/oasa/periodic_table.py:352: SyntaxWarning: invalid escape sequence '\d'
+  a = re.match( '^(h)(\d*)([a-z]{1,2})$', text.lower())
+/usr/share/bkchem/bkchem/oasa/oasa/misc.py:115: SyntaxWarning: invalid escape sequence '\d'
+  cutter = re.compile( "([+-]?\d*\.?\d*)\s*([a-zA-Z]*)")
+/usr/share/bkchem/bkchem/oasa/oasa/query_atom.py:111: SyntaxWarning: invalid escape sequence '\['
+  matcher = re.compile( "\[([A-Z][a-z]?,)*[A-Z][a-z]?\]")
+/usr/share/bkchem/bkchem/oasa/oasa/smiles.py:97: SyntaxWarning: invalid escape sequence '\['
+  chunks = re.split( "(\[.*?\]|[A-Z][a-z]?|%[0-9]{1,2}|[^A-Z]|[a-z])", text)
+/usr/share/bkchem/bkchem/oasa/oasa/smiles.py:193: SyntaxWarning: invalid escape sequence '\['
+  bracketed_atom = re.compile("^\[(\d*)([A-z][a-z]?)(.*?)\]")
+/usr/share/bkchem/bkchem/oasa/oasa/smiles.py:206: SyntaxWarning: invalid escape sequence '\d'
+  _hydrogens = re.search( "H(\d*)", rest)
+/usr/share/bkchem/bkchem/oasa/oasa/smiles.py:224: SyntaxWarning: invalid escape sequence '\d'
+  _charge = re.search( "([-+])(\d?)", rest)
+/usr/share/bkchem/bkchem/oasa/oasa/coords_generator.py:532: SyntaxWarning: invalid escape sequence '\O'
+  sm = "C/C(Cl)=C(\O)C"
+/usr/share/bkchem/bkchem/oasa/oasa/molfile.py:101: SyntaxWarning: invalid escape sequence '\s'
+  m = re.match( "M\s+RAD\s+(\d+)(.*)", prop)
+/usr/share/bkchem/bkchem/oasa/oasa/molfile.py:103: SyntaxWarning: invalid escape sequence '\d'
+  for at,rad in re.findall( "(\d+)\s+(\d+)", m.group( 2)):
+/usr/share/bkchem/bkchem/oasa/oasa/molfile.py:107: SyntaxWarning: invalid escape sequence '\s'
+  m = re.match( "M\s+CHG\s+(\d+)(.*)", prop)
+/usr/share/bkchem/bkchem/oasa/oasa/molfile.py:109: SyntaxWarning: invalid escape sequence '\d'
+  for at,chg in re.findall( "(\d+)\s+(-?\d+)", m.group( 2)):
+/usr/share/bkchem/bkchem/oasa/oasa/inchi.py:282: SyntaxWarning: invalid escape sequence '\('
+  re_for_brackets = "\([H\d,\-]+?\)"
+/usr/share/bkchem/bkchem/oasa/oasa/inchi.py:299: SyntaxWarning: invalid escape sequence '\('
+  re_for_brackets = "\([H\d,\-]+?\)"
+/usr/share/bkchem/bkchem/oasa/oasa/inchi.py:498: SyntaxWarning: invalid escape sequence '\d'
+  for a1,a2,sign in re.findall( "(\d+)-(\d+)([-+?u])", layer):
+/usr/share/bkchem/bkchem/oasa/oasa/inchi.py:536: SyntaxWarning: invalid escape sequence '\('
+  re_for_brackets = "\([H\d,\-]+?\)"
+/usr/share/bkchem/bkchem/oasa/oasa/dom_extensions.py:80: SyntaxWarning: invalid escape sequence '\s'
+  empty = re.compile('^\s*$')
+/usr/share/bkchem/bkchem/oasa/oasa/inchi_key.py:1278: SyntaxWarning: invalid escape sequence '\d'
+  m = re.match( "(\d)(S)?", parts[0])
+/usr/share/bkchem/bkchem/oasa/oasa/structure_database.py:166: SyntaxWarning: invalid escape sequence '\['
+  if re.search( "\[\d", smile):
+b'UNABLE TO IMPORT PMW\n\nSorry, but BKChem relies too heavily on Pmw to be usable without it. Please install Pmw and try again.\n(for more info on Pmw see documentation)'

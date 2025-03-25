@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: bkchem.linyaps
+  name: bkchem
+  version: 0.14.0.3
+  kind: app
+  description: |-
+    Chemical structures editor
+    BKchem is a free chemical drawing program, which is written in Python.
+
+    Some of the features, you can expect:
+    * Drawing (bond-by-bond drawing; templates for common rings; expanding of
+    common-groups; draws radicals, charges, arrows; color support ...)
+    * Editing (unlimited undo and redo capabilities; aligning; scaling;
+    rotation (2D, 3D) ...)
+    * Export/Import (fully supported SVG-, OpenOffice.org-Draw-, EPS-export;
+    basic support for CML1 and CML2 import and export)
+command:
+- /opt/apps/bkchem.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
