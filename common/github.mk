@@ -12,7 +12,7 @@ $(TARGET_INDEX):
 	URL=$$(printf "%s" "$$ASSETS" | jq -r '.browser_download_url');\
 	FILENAME=$$(printf "%s" "$$ASSETS" | jq -r '.name');\
 	test -n "$$URL"||(echo "$(CONFIG):找不到匹配项" && exit 0);\
-	echo "$(PKG),$$TAG_NAME,$$CONFIG,$$URL,$$FILENAME"|tee "$@~";\
+	echo "$(PKGID),$$TAG_NAME,$$CONFIG,$$URL,$$FILENAME"|tee "$@~";\
 	mv $@~ $@
 
 index: $(TARGET_INDEX)

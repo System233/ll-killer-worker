@@ -13,20 +13,31 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-        with:
-          submodules: true
+      - name: Setup Essentials
+        run: |
+          sudo apt update
+          sudo apt install apt-file -y
       - name: Check
         id: check
         run: |
-          git submodule update --remote
-          make index tasks
-          echo "TASKS=<<EOF" >> "$GITHUB_OUTPUT"
+          sudo sysctl -w kernel.unprivileged_userns_clone=1
+          sudo sysctl -w user.max_user_namespaces=28633
+          sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+          sudo sysctl -w kernel.apparmor_restrict_unprivileged_unconfined=0
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git submodule update --init --remote
+          make index
+          make tasks
+          echo "TASKS<<EOF" >> "$GITHUB_OUTPUT"
           cat "tasks.json" >> "$GITHUB_OUTPUT"
           echo "EOF" >> "$GITHUB_OUTPUT"
-          make push
+          make push-index
   build:
     needs: check
+    if: ${{needs.check.outputs.TASK!=''&&needs.check.outputs.TASK!='[]'}}
     strategy:
+      max-parallel: 16
       matrix:
         pkg: ${{fromJson(needs.check.outputs.TASK)}}
       fail-fast: false
@@ -36,6 +47,112 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: true
+      - name: Setup linglong
+        run: |
+          sudo apt install -y apt-transport-https ca-certificates curl gpg
+          sudo mkdir -p /etc/apt/keyrings/
+          curl -fsSL https://download.opensuse.org/repositories/home:/kamiyadm/xUbuntu_24.04/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/linglong-apt-keyring.gpg
+          echo "deb [signed-by=/etc/apt/keyrings/linglong-apt-keyring.gpg] https://download.opensuse.org/repositories/home:/kamiyadm/xUbuntu_24.04/ ./" | sudo tee /etc/apt/sources.list.d/linglong.list
+          sudo apt update
+          sudo apt install linglong-builder linglong-box linglong-bin xdg-utils -y
+          ll-cli --version
+      - name: Setup Essentials
+        run: |
+          # sudo apt update
+          sudo apt install ostree xdotool scrot xvfb -y
+          wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O cloudflared
+          chmod +x cloudflared
+      - name: Check
+        id: check
+        run: |
+          BASE=$(make -s base)
+          echo "base=$BASE">>"$GITHUB_OUTPUT"
+        env:
+          ARCH: amd64
+          PKGID: ${{matrix.pkg}}
+      - name: Cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/linglong-builder/
+          key: linglong-builder-cache-${{steps.check.outputs.base}}
+      - name: CLI Cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/data.tar
+          key: linglong-cli-cache-${{steps.check.outputs.base}}
+      - name: Setup CLI Cache
+        run: |
+          if test -e ~/data.tar;then
+            sudo mkdir -p /var/lib/linglong/repo
+            sudo chown deepin-linglong:deepin-linglong -R /var/lib/linglong
+            sudo tar xf ~/data.tar -C /var/lib/linglong/repo
+          fi
+      - name: Init
+        run: |
+          sudo sysctl -w kernel.unprivileged_userns_clone=1
+          sudo sysctl -w user.max_user_namespaces=28633
+          sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+          sudo sysctl -w kernel.apparmor_restrict_unprivileged_unconfined=0
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Build
         run: |
-          make build PKG=${{matrix.pkg}}
+          make build
+        env:
+          ARCH: amd64
+          PKGID: ${{matrix.pkg}}
+          # KILLER_DEBUG: "1"
+      - name: Test
+        id: test
+        run: |
+          make test
+          layer=no
+          desktop=no
+          fail=no
+          if find "artifacts/$PKGID" -name "$PKGID*.layer" -quit;then
+            layer=yes
+          fi
+          if find "artifacts/$PKGID/tests" -name "screen*.jpg" -quit;then
+            desktop=yes
+          fi
+          if [ "$layer" = "no" ]||[ "$desktop" = "no" ];then
+            fail=yes
+            echo -n "-fail">>artifacts/$PKGID/version
+          fi
+          echo "desktop=$desktop" >>$GITHUB_OUTPUT
+          echo "layer=$layer" >>$GITHUB_OUTPUT
+          echo "fail=$fail" >>$GITHUB_OUTPUT
+        env:
+          ARCH: amd64
+          PKGID: ${{matrix.pkg}}
+      - name: Upload
+        if: ${{steps.test.outputs.fail=='no'}}
+        run: |
+          #echo "::group::masked"
+          if [ -n "$SSH_URL" ];then
+            mkdir -p ~/.ssh
+            echo "$SSH_HOST_KEY" >> ~/.ssh/known_hosts
+            echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_key
+            chmod 700 -R ~/.ssh
+          fi
+          export SSH_ARGS="-i ~/.ssh/id_key $SSH_ARGS"
+          make upload
+          #echo "::endgroup::"
+        env:
+          ARCH: amd64
+          PKGID: ${{matrix.pkg}}
+          FTP_URL: ${{secrets.FTP_URL}}
+          SSH_URL: ${{secrets.SSH_URL}}
+          SSH_HOST_KEY: ${{secrets.SSH_HOST_KEY}}
+          SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
+          SSH_ARGS: ${{secrets.SSH_ARGS}}
+      - name: Commit
+        run: |
+          make push
+        env:
+          ARCH: amd64
+          PKGID: ${{matrix.pkg}}
+      # - uses: valeriangalliat/action-sshd-cloudflared@v3
+      #   if: failure()

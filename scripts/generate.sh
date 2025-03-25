@@ -1,11 +1,11 @@
 #!/bin/bash
 # OUTPUT="$1"
 # apt update -y
-NAME="$1"
+CONFIG="$1"
 function check() {
     while read -r PKG; do
         VERSION=$(apt-cache show "$PKG" --no-all-versions | grep -oP '^Version:\s(\d+:)?\K\S+')
-        echo "$PKG,$VERSION,$NAME"
+        echo "$PKG,$VERSION,$CONFIG"
     done
 }
 export -f check 

@@ -15,7 +15,7 @@ index: $(KILLER)
 	cd $(TARGET_APT_DIR);\
 	$(KILLER) init -f;\
 	$(KILLER) apt -- apt update -y && \
-	$(KILLER) apt -- "$(PWD)/scripts/generate.sh" "$(NAME)"|tee "$(TARGET_INDEX)~";
+	$(KILLER) apt -- "$(PWD)/scripts/generate.sh" "$(CONFIG)"|tee "$(TARGET_INDEX)~";
 	mv "$(TARGET_INDEX)~" "$(TARGET_INDEX)"
 
 .PHONY: build
