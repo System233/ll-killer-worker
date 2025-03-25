@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: blupimania.linyaps
+  name: blupimania
+  version: 1.6.2.1
+  kind: app
+  description: |-
+    A mind boggling (brain twisting) game of logic
+    Blupi comes out of a hole holding on to a balloon. Unfortunately he
+    let's it blow away. Blupi is lost, he turns to the left or the right
+    and does various unpredictable things of his own. The object of the
+    game is to help him find another balloon, so that he can move on to the
+    next riddle.
+command:
+- /opt/apps/blupimania.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
