@@ -49,7 +49,7 @@ jobs:
         run: |
           # sudo apt update
           sudo apt install ostree xdotool scrot xvfb apt-file -y
-          wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O cloudflared
+          wget -nv https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O cloudflared
           chmod +x cloudflared
       - name: Check
         id: check
@@ -100,16 +100,20 @@ jobs:
           layer=no
           desktop=no
           fail=no
-          if find "artifacts/$PKGID" -name "$PKGID*.layer" -quit;then
+          if ls $PKGID*.layer >/dev/null;then
             layer=yes
           fi
-          if find "artifacts/$PKGID/tests" -name "screen*.jpg" -quit;then
+          if ls artifacts/$PKGID/tests/screen*.jpg >/dev/null;then
             desktop=yes
           fi
           if [ "$layer" = "no" ]||[ "$desktop" = "no" ];then
             fail=yes
             echo -n "-fail">>artifacts/$PKGID/version
           fi
+          echo "desktop=$desktop"
+          echo "layer=$layer"
+          echo "fail=$fail"
+
           echo "desktop=$desktop" >>$GITHUB_OUTPUT
           echo "layer=$layer" >>$GITHUB_OUTPUT
           echo "fail=$fail" >>$GITHUB_OUTPUT
