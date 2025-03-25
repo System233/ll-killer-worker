@@ -1,0 +1,32 @@
+Package: apt-offline-gui
+Version: 1.8.5-1
+Priority: optional
+Section: universe/admin
+Source: apt-offline
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ritesh Raj Sarraf <rrs@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 271 kB
+Depends: python3:any, apt-offline (= 1.8.5-1), python3-pyqt5
+Homepage: https://github.com/rickysarraf/apt-offline
+Download-Size: 61.7 kB
+APT-Sources: https://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+Description: offline APT package manager - GUI
+ apt-offline is an Offline APT Package Manager.
+ .
+ apt-offline can fully update and upgrade an APT based distribution without
+ connecting to the network, all of it transparent to APT.
+ .
+ apt-offline can be used to generate a signature on a machine (with no network).
+ This signature contains all download information required for the APT database
+ system. This signature file can be used on another machine connected to the
+ internet (which need not be a Debian box and can even be running windows) to
+ download the updates.
+ The downloaded data will contain all updates in a format understood by APT and
+ this data can be used by apt-offline to update the non-networked machine.
+ .
+ apt-offline can also fetch bug reports and make them available offline.
+ .
+ This package contains the graphical user interface to apt-offline.
+
