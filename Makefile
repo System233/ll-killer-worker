@@ -33,7 +33,7 @@ base:
 	make -f $(CONFIG_DIR)/$$CONFIG.mk show-base
 
 tasks: 
-	./scripts/check.sh "$(PKG_INDEX)" | tail -n +1 | head -n 200 |jq -R .| jq -s . >tasks.json
+	./scripts/check.sh "$(PKG_INDEX)" | tail -n +1 | head -n 220 |jq -R .| jq -s . >tasks.json
 
 .PHONY: index build tasks base test upload push push-index
 .DEFAULT_GOAL := index 
