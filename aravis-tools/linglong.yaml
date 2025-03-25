@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: aravis-tools.linyaps
+  name: aravis-tools
+  version: 0.8.30.1
+  kind: app
+  description: |-
+    Aravis based tools for GenICam cameras
+    Basic viewer for aravis compatible cameras, real-time camera control using
+    GenICam implemented properties (arv-viewer-0.8).
+command:
+- /opt/apps/aravis-tools.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
