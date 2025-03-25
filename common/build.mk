@@ -52,23 +52,8 @@ endif
 	cd $(PKG_WORK_DIR); sha256sum *.layer >SHA256SUMS
 test:
 	$(MAKE) -C "$(PKG_WORK_DIR)" test
-push:
-	git -C $(WORK_DIR) add .
-	git -C $(WORK_DIR) diff --cached --quiet || git -C $(WORK_DIR) commit -m "Update $(PKGID)"
-	git -C $(WORK_DIR) pull origin artifacts --rebase --strategy=ours
-	git -C $(WORK_DIR) push -u origin HEAD:artifacts
 
-upload:
-ifneq ($(FTP_URL),)
-	echo "Uploading to ftp"
-	curl -T $(PKG_WORK_DIR)/*.layer $(FTP_URL)
-endif
-ifneq ($(SSH_URL),)
-	echo "Uploading to scp"
-	scp $(SSH_ARGS) $(PKG_WORK_DIR)/*.layer $(SSH_URL)
-endif
+all: build
 
-all: build push upload
-
-.PHONY: all build push upload test
+.PHONY: all build test
 .DEFAULT_GOAL := all 

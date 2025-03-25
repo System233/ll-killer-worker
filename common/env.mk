@@ -1,5 +1,3 @@
-
-PKG_DIR=$(PWD)/pkgs
-PKG_INDEX=$(PKG_DIR)/index.csv
+PKG_INDEX=build/$(ARCH)/index.csv
 CACHE_DIR=$(PWD)/caches
 CONFIG_DIR=$(PWD)/config

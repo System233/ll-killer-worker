@@ -18,14 +18,9 @@ index: $(TARGET_INDEX)
 MAKE_BUILD=IFS=, read -r PKGID VERSION CONFIG URL FILENAME <<<$$(grep -P "^$(PKGID)," "$(PKG_INDEX)" );\
 	make -f common/build.mk $@ "PKGID=$$PKGID" "CONFIG=$$CONFIG" "URL=$$URL" "FILENAME=$$FILENAME" "VERSION=$$VERSION"
 CHECK_PKGID=$(if $(PKGID),,$(error "未提供PKGID参数"))
-build test upload push: $(PKG_INDEX)
+build test: $(PKG_INDEX)
 	$(CHECK_PKGID)
 	$(MAKE_BUILD)
-
-push-index: $(TARGET_INDEX)
-	git add $(PKG_INDEX)
-	git diff --cached --quiet || git commit -m "Update Index"
-	git pull --rebase && git push
 
 base:
 	$(CHECK_PKGID)
@@ -35,5 +30,5 @@ base:
 tasks: 
 	./scripts/check.sh "$(PKG_INDEX)" | head -n 220 |jq -R .| jq -s . >tasks.json
 
-.PHONY: index build tasks base test upload push push-index
+.PHONY: index build tasks base test
 .DEFAULT_GOAL := index 
