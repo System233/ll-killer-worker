@@ -1,0 +1,22 @@
+Package: alsamixergui
+Version: 0.9.0rc2-1-10.2build2
+Priority: optional
+Section: universe/sound
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Paul Brossier <piem@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 99.3 kB
+Provides: x-audio-mixer
+Depends: libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libfltk1.3 (>= 1.3.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 5), alsa-utils
+Download-Size: 26.8 kB
+APT-Sources: https://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+Description: graphical soundcard mixer for ALSA soundcard driver
+ alsamixergui is an FLTK based mixer program for use with the ALSA soundcard
+ drivers. It supports multiple soundcards with multiple devices.
+ .
+ alsamixergui is a frontend for alsamixer, written directly on top of the
+ alsamixer source, leaving the original source intact, only adding a couple of
+ ifdefs, and some calls to the gui part. It provides exactly the same
+ functionality, but with a graphical user interface.
+
