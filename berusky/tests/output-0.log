@@ -1,0 +1,43 @@
+Berusky v.1.7.2 (C) Anakreon 2006, http://www.anakreon.cz/
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Built Apr  1 2024, 05:34:57
+
+argv[0] = berusky
+
+Checking /home/runner/.berusky/...
+missing, try to create it...ok
+Checking /home/runner/.berusky/User/...
+missing, try to create it...ok
+Checking /home/runner/.berusky/Profiles/...
+missing, try to create it...ok
+Checking ~/.berusky/berusky.ini...missing, try to copy it from /etc/berusky/berusky.ini...ok
+ 
+Checking config file ./berusky.ini...fails
+Checking config file ~/.berusky/berusky.ini...ok
+Selected config file ~/.berusky/berusky.ini
+ 
+ 
+level_data: /usr/share/berusky/Levels
+game_data: /usr/share/berusky/GameData
+graphics_data: /usr/share/berusky/Graphics
+level_data_user: /home/runner/.berusky/User
+tmp_data: /tmp
+current working dir: /run/host/rootfs/home/runner/work/ll-killer-worker/ll-killer-worker/artifacts/berusky
+ 
+SDL Init...
+Seting up screen 640x480, color depth 32 bits, fullscreen = 0...
+Init video surface...
+
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+ 
+Graphics dir '/usr/share/berusky/Graphics'
+Loading menu graphics...
+25 sprites loaded...
+Data dir '/usr/share/berusky/GameData'
+Loading items repository....
+ 
+Error: CODE=-1
+./libs/linglong/src/linglong/runtime/container.cpp:189 run container bWFpbjpiZXJ1c2t5LmxpbnlhcHMvMS43LjIuMy94ODZfNjQte2UzOGU1YzU3LTdjNjAtNGMwYS1hYWFjLTE1MWJkYzkxMTkzZn0=: cli run: run command failed: /usr/bin/ll-box --cgroup-manager=disabled run -b /run/user/1001/linglong/bWFpbjpiZXJ1c2t5LmxpbnlhcHMvMS43LjIuMy94ODZfNjQte2UzOGU1YzU3LTdjNjAtNGMwYS1hYWFjLTE1MWJkYzkxMTkzZn0= bWFpbjpiZXJ1c2t5LmxpbnlhcHMvMS43LjIuMy94ODZfNjQte2UzOGU1YzU3LTdjNjAtNGMwYS1hYWFjLTE1MWJkYzkxMTkzZn0= retval=9
