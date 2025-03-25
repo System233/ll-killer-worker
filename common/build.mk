@@ -57,10 +57,10 @@ endif
 test:
 	$(MAKE) -C "$(PKG_WORK_DIR)" test
 push:
-	git -C $(PKG_WORK_DIR) add .
-	git -C $(PKG_WORK_DIR) diff --cached --quiet || git -C $(PKG_WORK_DIR) commit -m "Update $(PKGID)"
-	git -C $(PKG_WORK_DIR) pull origin artifacts --rebase --strategy=ours
-	git -C $(PKG_WORK_DIR) push -u origin HEAD:artifacts
+	git -C $(WORK_DIR) add .
+	git -C $(WORK_DIR) diff --cached --quiet || git -C $(WORK_DIR) commit -m "Update $(PKGID)"
+	git -C $(WORK_DIR) pull origin artifacts --rebase --strategy=ours
+	git -C $(WORK_DIR) push -u origin HEAD:artifacts
 
 upload:
 ifneq ($(FTP_URL),)
