@@ -1,0 +1,37 @@
+Package: artha
+Version: 1.0.5-3build2
+Priority: optional
+Section: universe/utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 194 kB
+Depends: libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libglib2.0-0t64 (>= 2.75.3), libgtk2.0-0t64 (>= 2.24.0), libx11-6, wordnet
+Recommends: wordnet-sense-index, libnotify4, libenchant-2-2
+Suggests: aspell-en
+Homepage: http://artha.sourceforge.net/
+Download-Size: 65.4 kB
+APT-Sources: https://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+Description: Handy off-line thesaurus based on WordNet
+ Artha is a off-line English thesaurus with distinct features like:
+   * hot-key press word look-up (select text on any window and press
+     a preset hot-key for look-up)
+   * regular expressions based search (broaden search using wild-cards
+     like *, ?, etc.)
+   * passive desktop notifications (of word definitions for
+     uninterrupted work-flow)
+   * spelling suggestions (when the exact spelling is vague/not known)
+ .
+ Once launched, it monitors for a preset hot-key combination. When
+ some text is selected on any window and the hot-key is pressed, it
+ pops-up with the word looked-up. Should the user prefer passive
+ notifications, this can be done by enabling the notifications option.
+ .
+ When the term looked for is vague/not known, then either the search
+ can be broadened with the use of regular expressions (*, ?, etc.) in
+ the search string or spelling suggestions when a term is incorrect.
+ .
+ For regular expressions based search to work, wordnet-sense-index
+ package is required.
+
