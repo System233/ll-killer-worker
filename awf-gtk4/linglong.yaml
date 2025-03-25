@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: awf-gtk4.linyaps
+  name: awf-gtk4
+  version: 2.8.0.1
+  kind: app
+  description: |-
+    theme preview application for GTK 4
+    A widget factory is a theme preview application for GTK. It displays the
+    various widget types provided by GTK in a single window allowing to see
+    the visual effect of the applied theme.
+
+    This package provides the GTK 4 version.
+command:
+- /opt/apps/awf-gtk4.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
