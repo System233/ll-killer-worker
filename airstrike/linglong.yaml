@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: airstrike.linyaps
+  name: airstrike
+  version: 0.99.0.11
+  kind: app
+  description: |-
+    2d dogfight game in the tradition of 'Biplanes' and 'BIP'
+    Airstrike is a 2d dogfight game in the tradition of the Intellivision and
+    Amiga games 'Biplanes' and 'BIP'. It features a robust physics engine and
+    several other extensions of the original games. Playable by
+    1 or 2 persons.
+command:
+- /opt/apps/airstrike.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
