@@ -53,7 +53,6 @@ endif
 	echo "cat /etc/resolv.conf" | $(MAKE) -C "$(PKG_WORK_DIR)" build
 	$(MAKE) -C "$(PKG_WORK_DIR)" layer
 	cd $(PKG_WORK_DIR); sha256sum *.layer >SHA256SUMS
-	cat $(PKG_WORK_DIR)/SHA256SUMS >> $(WORK_DIR)/SHA256SUMS
 test:
 	$(MAKE) -C "$(PKG_WORK_DIR)" test
 push:

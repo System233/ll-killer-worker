@@ -26,7 +26,7 @@ jobs:
     needs: check
     if: ${{needs.check.outputs.TASK!=''&&needs.check.outputs.TASK!='[]'}}
     strategy:
-      max-parallel: 16
+      max-parallel: 32
       matrix:
         pkg: ${{fromJson(needs.check.outputs.TASK)}}
       fail-fast: false
@@ -51,6 +51,7 @@ jobs:
           sudo apt install ostree xdotool scrot xvfb apt-file -y
           wget -nv https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O cloudflared
           chmod +x cloudflared
+          git -C artifacts pull origin artifacts
       - name: Check
         id: check
         run: |
@@ -100,7 +101,7 @@ jobs:
           layer=no
           desktop=no
           fail=no
-          if ls $PKGID*.layer >/dev/null;then
+          if ls artifacts/$PKGID/*.layer >/dev/null;then
             layer=yes
           fi
           if ls artifacts/$PKGID/tests/screen*.jpg >/dev/null;then
