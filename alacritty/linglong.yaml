@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: alacritty.linyaps
+  name: alacritty
+  version: 0.13.2.2
+  kind: app
+  description: |-
+    Fast, cross-platform, OpenGL terminal emulator
+    Alacritty is a modern terminal emulator that comes with sensible defaults, but
+    allows for extensive configuration. By integrating with other applications,
+    rather than reimplementing their functionality, it manages to provide a
+    flexible set of features with high performance.
+command:
+- /opt/apps/alacritty.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
