@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: aconnectgui.linyaps
+  name: aconnectgui
+  version: 0.9.0.10
+  kind: app
+  description: |-
+    graphical ALSA sequencer connection manager
+    aconnectgui is a graphical utility to connect and disconnect two existing
+    ports on ALSA sequencer system. The ports with the arbitrary subscription
+    permission, such as created by aseqview, can be connected to any (MIDI) device
+    ports.
+
+    aconnectgui is a frontend for aconnect, written directly on top of the
+    aconnect source, leaving the original source intact, only adding a couple of
+    ifdefs, and some calls to the gui part. It provides exactly the same
+    functionality, but with a graphical user interface.
+command:
+- /opt/apps/aconnectgui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

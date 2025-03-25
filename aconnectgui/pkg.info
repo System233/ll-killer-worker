@@ -1,0 +1,24 @@
+Package: aconnectgui
+Version: 0.9.0rc2-1-10.3build2
+Priority: optional
+Section: universe/sound
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Paul Brossier <piem@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 76.8 kB
+Depends: libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libfltk1.3 (>= 1.3.4), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
+Homepage: http://www.iua.upf.es/~mdeboer/projects/aconnectgui/
+Download-Size: 21.0 kB
+APT-Sources: https://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+Description: graphical ALSA sequencer connection manager
+ aconnectgui is a graphical utility to connect and disconnect two existing
+ ports on ALSA sequencer system. The ports with the arbitrary subscription
+ permission, such as created by aseqview, can be connected to any (MIDI) device
+ ports.
+ .
+ aconnectgui is a frontend for aconnect, written directly on top of the
+ aconnect source, leaving the original source intact, only adding a couple of
+ ifdefs, and some calls to the gui part. It provides exactly the same
+ functionality, but with a graphical user interface.
+
