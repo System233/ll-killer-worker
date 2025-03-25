@@ -11,11 +11,9 @@ TARGET_INDEX:=$(foreach item,$(TARGET),$(PKG_DIR)/$(item).index)
 $(PKG_DIR)/%.index: $(CONFIG_DIR)/%.mk
 	make -f $(CONFIG_DIR)/$*.mk index INDEX=$@ CONFIG=$*
 
-$(PKG_INDEX): $(TARGET_INDEX)
+index: $(TARGET_INDEX)
 	cat $(TARGET_INDEX)|"$(PWD)/scripts/compare.sh"| sort -u | tee  "$(PKG_INDEX)~"
 	mv "$(PKG_INDEX)~" "$(PKG_INDEX)"
-
-index: $(TARGET_INDEX) $(PKG_INDEX) 
 
 MAKE_BUILD=IFS=, read -r PKGID VERSION CONFIG URL FILENAME <<<$$(grep -P "^$(PKGID)," "$(PKG_INDEX)" );\
 	make -f common/build.mk $@ "PKGID=$$PKGID" "CONFIG=$$CONFIG" "URL=$$URL" "FILENAME=$$FILENAME" "VERSION=$$VERSION"
@@ -35,7 +33,7 @@ base:
 	make -f $(CONFIG_DIR)/$$CONFIG.mk show-base
 
 tasks: 
-	./scripts/check.sh "$(PKG_INDEX)" |head -n 200|jq -R .| jq -s . >tasks.json
+	./scripts/check.sh "$(PKG_INDEX)" | tail -n +1 | head -n 200 |jq -R .| jq -s . >tasks.json
 
 .PHONY: index build tasks base test upload push push-index
 .DEFAULT_GOAL := index 

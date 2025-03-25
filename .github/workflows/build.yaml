@@ -4,7 +4,7 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
-      - cron: '0 0 * * *'
+      - cron: '30 0/6 * * *'
 
 jobs:
   check:
@@ -14,26 +14,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - name: Setup Essentials
-        run: |
-          sudo apt update
-          sudo apt install apt-file -y
       - name: Check
         id: check
         run: |
-          sudo sysctl -w kernel.unprivileged_userns_clone=1
-          sudo sysctl -w user.max_user_namespaces=28633
-          sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
-          sudo sysctl -w kernel.apparmor_restrict_unprivileged_unconfined=0
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git submodule update --init --remote
-          make index
           make tasks
           echo "TASKS<<EOF" >> "$GITHUB_OUTPUT"
           cat "tasks.json" >> "$GITHUB_OUTPUT"
           echo "EOF" >> "$GITHUB_OUTPUT"
-          make push-index
   build:
     needs: check
     if: ${{needs.check.outputs.TASK!=''&&needs.check.outputs.TASK!='[]'}}
@@ -60,7 +48,7 @@ jobs:
       - name: Setup Essentials
         run: |
           # sudo apt update
-          sudo apt install ostree xdotool scrot xvfb -y
+          sudo apt install ostree xdotool scrot xvfb apt-file -y
           wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O cloudflared
           chmod +x cloudflared
       - name: Check
