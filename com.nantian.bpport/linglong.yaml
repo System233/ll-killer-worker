@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.nantian.bpport.linyaps
+  name: com.nantian.bpport
+  version: 1.0.0.20210910
+  kind: app
+  description: 南天BP8901_BP8902
+command:
+- /opt/apps/com.nantian.bpport.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
