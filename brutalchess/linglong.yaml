@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: brutalchess.linyaps
+  name: brutalchess
+  version: 0.5.2.8
+  kind: app
+  description: |-
+    3D chess game with reflection of the chessmen
+    Brutal Chess features full 3D graphics, an advanced particle engine, and
+    several different levels of intelligent AI, inspired by the once popular
+    "Battle Chess" released by Interplay circa 1988.
+command:
+- /opt/apps/brutalchess.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
