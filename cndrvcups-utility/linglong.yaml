@@ -1,0 +1,12 @@
+version: "1"
+package:
+  id: cndrvcups-utility.linyaps
+  name: cndrvcups-utility
+  version: 1.10.0.1
+  kind: app
+  description: This utility is used to select installed printer drivers and register
+    printers.
+command:
+- /opt/apps/cndrvcups-utility.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
