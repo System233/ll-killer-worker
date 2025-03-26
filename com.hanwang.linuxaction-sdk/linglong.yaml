@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.hanwang.linuxaction-sdk.linyaps
+  name: com.hanwang.linuxaction-sdk
+  version: 2.1.53.20
+  kind: app
+  description: The HanWang scanner's backend and scan utility.
+command:
+- /opt/apps/com.hanwang.linuxaction-sdk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
