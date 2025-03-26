@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: bookworm.linyaps
+  name: bookworm
+  version: 1.1.2.4
+  kind: app
+  description: |-
+    Simple, focused eBook Reader
+    The bookworm tool helps you to read eBooks of different
+    formats, including epub, pdf, mobi, cbr, etc. It provides
+    an easy, simple layout to read books irrespective of the
+    ebook format.
+command:
+- /opt/apps/bookworm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

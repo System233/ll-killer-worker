@@ -1,0 +1,45 @@
+包名:bookworm.linyaps
+Layer文件:bookworm.linyaps_1.1.2.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: bookworm.linyaps_1.1.2.4_arm64_binary.layer
+offset: 573
+mountpoint: /tmp/tmp.b6aOEl2B0D/mnt
+dbglevel: 0
+(process:36): GLib-GIO-[1;32mDEBUG[0m: [34m17:39:22.308[0m: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ?gio-vfs?
+** (process:36): [1;32mDEBUG[0m: [34m17:39:22.314[0m: bookworm.vala:128: Bookworm Install Directory: /usr/share
+** (process:36): [1;32mDEBUG[0m: [34m17:39:22.314[0m: bookworm.vala:129: Bookworm Install Tasks Scripts Directory: /usr/share/com.github.babluboy.bookworm/scripts/tasks
+** (process:36): [1;32mDEBUG[0m: [34m17:39:22.314[0m: bookworm.vala:130: Bookworm Install Mobi Scripts Directory: /usr/share/com.github.babluboy.bookworm/scripts/mobi_lib
+** (process:36): [1;32mDEBUG[0m: [34m17:39:22.314[0m: bookworm.vala:131: Bookworm User Data Directory: /home/runner/.local/share/com.github.babluboy.bookworm
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+(com.github.babluboy.bookworm:36): GLib-GIO-[1;32mDEBUG[0m: [34m17:39:22.736[0m: Using cross-namespace EXTERNAL authentication (this will deadlock if server is GDBus < 2.73.3)
+(com.github.babluboy.bookworm:36): GLib-[1;32mDEBUG[0m: [34m17:39:22.738[0m: unsetenv() is not thread-safe and should not be used after threads are created
+(com.github.babluboy.bookworm:36): Gtk-[1;32mDEBUG[0m: [34m17:39:22.738[0m: Connecting to session manager
+(com.github.babluboy.bookworm:36): Gtk-[1;32mDEBUG[0m: [34m17:39:22.738[0m: Failed to get the GNOME session proxy: The name org.gnome.SessionManager is not owned
+(com.github.babluboy.bookworm:36): Gtk-[1;32mDEBUG[0m: [34m17:39:22.738[0m: Failed to get the Xfce session proxy: The name org.xfce.SessionManager is not owned
+(com.github.babluboy.bookworm:36): Gtk-[1;32mDEBUG[0m: [34m17:39:22.739[0m: Failed to get an inhibit portal proxy: The name org.freedesktop.portal.Desktop is not owned
+(com.github.babluboy.bookworm:36): dconf-[1;32mDEBUG[0m: [34m17:39:22.767[0m: watch_fast: "/com/github/babluboy/bookworm/" (establishing: 0, active: 0)
+(com.github.babluboy.bookworm:36): dconf-[1;32mDEBUG[0m: [34m17:39:22.768[0m: watch_fast: "/com/github/babluboy/bookworm/shortcuts/" (establishing: 0, active: 0)
+(com.github.babluboy.bookworm:36): dconf-[1;32mDEBUG[0m: [34m17:39:22.768[0m: watch_established: "/com/github/babluboy/bookworm/" (establishing: 1)
+(com.github.babluboy.bookworm:36): dconf-[1;32mDEBUG[0m: [34m17:39:22.768[0m: watch_established: "/com/github/babluboy/bookworm/shortcuts/" (establishing: 1)
+MESA: error: ZINK: failed to choose pdev
+libEGL warning: egl: failed to create dri2 screen
+[93m[WARNING 17:39:28.507248][0m [GLib] Invalid file descriptor.
+[93m[WARNING 17:39:28.507498][0m [GLib] Invalid file descriptor.
+[93m[WARNING 17:39:28.507584][0m [GLib] Invalid file descriptor.
+(process:65): GLib-GIO-[1;32mDEBUG[0m: [34m17:39:28.600[0m: Failed to initialize portal (GNetworkMonitorPortal) for gio-network-monitor: Not using portals
+(process:65): GLib-GIO-[1;32mDEBUG[0m: [34m17:39:28.600[0m: Using cross-namespace EXTERNAL authentication (this will deadlock if server is GDBus < 2.73.3)
+(process:65): GLib-GIO-[1;32mDEBUG[0m: [34m17:39:28.601[0m: Failed to initialize networkmanager (GNetworkMonitorNM) for gio-network-monitor: NetworkManager not running
+(process:65): GLib-GIO-[1;32mDEBUG[0m: [34m17:39:28.602[0m: _g_io_module_get_default: Found default implementation netlink (GNetworkMonitorNetlink) for ?gio-network-monitor?
+(com.github.babluboy.bookworm:36): dconf-[1;32mDEBUG[0m: [34m17:39:28.982[0m: change_fast
+(com.github.babluboy.bookworm:36): dconf-[1;32mDEBUG[0m: [34m17:39:28.982[0m: change_notify: /com/github/babluboy/bookworm/pos-x
+(com.github.babluboy.bookworm:36): dconf-[1;32mDEBUG[0m: [34m17:39:28.982[0m: change_fast
+(com.github.babluboy.bookworm:36): dconf-[1;32mDEBUG[0m: [34m17:39:28.982[0m: change_notify: /com/github/babluboy/bookworm/pos-y
+(com.github.babluboy.bookworm:36): dconf-[1;32mDEBUG[0m: [34m17:39:28.982[0m: change_fast
+(com.github.babluboy.bookworm:36): dconf-[1;32mDEBUG[0m: [34m17:39:28.982[0m: change_notify: /com/github/babluboy/bookworm/window-height
+(process:65): GLib-GIO-[1;32mDEBUG[0m: [34m17:39:29.033[0m: Failed to initialize portal (GPowerProfileMonitorPortal) for gio-power-profile-monitor: Not using portals
+(process:65): GLib-GIO-[1;32mDEBUG[0m: [34m17:39:29.033[0m: _g_io_module_get_default: Found default implementation dbus (GPowerProfileMonitorDBus) for ?gio-power-profile-monitor?
+(process:65): GLib-GIO-[1;32mDEBUG[0m: [34m17:39:29.033[0m: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ?gio-vfs?
+(process:65): GLib-GIO-[1;32mDEBUG[0m: [34m17:39:29.034[0m: Using cross-namespace EXTERNAL authentication (this will deadlock if server is GDBus < 2.73.3)
