@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: cn.com.hsic.demo.linyaps
+  name: cn.com.hsic.demo
+  version: 1.0.0.1
+  kind: app
+  description: ukey
+command:
+- /opt/apps/cn.com.hsic.demo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
