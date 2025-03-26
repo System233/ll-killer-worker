@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: com.deepin.lianliankan.linyaps
+  name: com.deepin.lianliankan
+  version: 1.0.12.0
+  kind: app
+  description: |-
+    Lianliankan is a puzzle game.
+    Lianliankan is an easy-to-play puzzle game with cute interface and countdown timer.
+command:
+- /opt/apps/com.deepin.lianliankan.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
