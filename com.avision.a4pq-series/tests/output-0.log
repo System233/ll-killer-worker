@@ -1,0 +1,52 @@
+包名:com.avision.a4pq-series.linyaps
+Layer文件:com.avision.a4pq-series.linyaps_1.0.0.23293_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: com.avision.a4pq-series.linyaps_1.0.0.23293_x86_64_binary.layer
+offset: 442
+mountpoint: /tmp/tmp.Si5Dw50nq2/mnt
+dbglevel: 0
+argv[0] = /opt/apps/com.avision.a4pq-series/files/bin/NetworkSetupTool/networkst
+nExePath = /opt/apps/com.avision.a4pq-series/files/bin/NetworkSetupTool/networkst
+nExePath = /opt/apps/com.avision.a4pq-series/files/bin/NetworkSetupTool
+DEBUG: checkProcessNumber:: In 
+DEBUG: checkProcessNumber:: Command = pgrep -l -x "networkst" | grep -c "networkst" 
+1
+DEBUG: process number = 1 
+DEBUG: Only me. 
+DEBUG: ReadINISetting:: ReadINISetting In 
+DEBUG: ReadINISetting:: inipath /opt/apps/com.avision.a4pq-series/files/bin/NetworkSetupTool/avinetmonitor 
+DEBUG: ReadINISetting:: read file fail! 
+DEBUG: ReadINISetting:: create file fail! 
+DEBUG: LoadLibraryFunction:: Path = /opt/apps/com.avision.a4pq-series/files/bin/NetworkSetupTool/netprnctl.so 
+DEBUG: LoadLibraryFunction:: Open prnctl.so.1.0 success.
+ 
+DEBUG: LoadLibraryFunction:: Get GetPrinterList_s success.
+ 
+DEBUG: LoadLibraryFunction:: Get GetDLLVersion success. 
+DEBUG: LoadLibraryFunction:: Get CommunicateWithDevice success. 
+SDK[2025/03/26 16:53:28] [--GetDLLVersion--] In
+
+SDK[2025/03/26 16:53:28] [--getFilePath--] Current working dir: /home/runner/work/ll-killer-worker/ll-killer-worker/caches/com.avision.a4pq-series
+
+SDK[2025/03/26 16:53:28] [--GetDLLVersion--] Out. Version = 1.74
+
+DEBUG: LoadLibraryFunction:: SDK Version = 1.74 
+DEBUG: LoadLibraryFunction:: Out. rc = 1 
+SDK[2025/03/26 16:53:28] [--getFilePath--] Current working dir: /home/runner/work/ll-killer-worker/ll-killer-worker/caches/com.avision.a4pq-series
+
+DEBUG: GetPrinterList_s::  In 
+DEBUG: GetPrinterList_s::  Allocate myPrinters success. 
+SDK[2025/03/26 16:53:28] [--BuildPrinterList--] In. printerSize =  0
+
+SDK[2025/03/26 16:53:28] [--BuildPrinterList--] User Printer num_dests = 0
+
+SDK[2025/03/26 16:53:28] [--BuildPrinterList--] printerNum = 0. rc = 1
+
+DEBUG: GetPrinterList_s:: ONLY get printer number  = 0 
+DEBUG: GetPrinterList_s::  Out, rc = 0 
+DEBUG: Net_BuildPrinterList:: printer request num = 0 
+DEBUG: Net_BuildPrinterList:: GetPrinterList(1) failed. rc = 0 
+DEBUG: Net_BuildPrinterList:: Out. printer total num = 0 
+DEBUG: Main:: No Printer. 
+DEBUG: MessageBoxOK:: In 
