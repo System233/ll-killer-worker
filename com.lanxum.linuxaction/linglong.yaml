@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.lanxum.linuxaction.linyaps
+  name: com.lanxum.linuxaction
+  version: 2.1.91.20
+  kind: app
+  description: The LANXUM scanner's backend and scan utility.
+command:
+- /opt/apps/com.lanxum.linuxaction.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
