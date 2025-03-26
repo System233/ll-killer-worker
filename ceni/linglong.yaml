@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: ceni.linyaps
+  name: ceni
+  version: 2.33.0.4
+  kind: app
+  description: |-
+    Curses interface to /etc/network/interfaces
+    A Curses user interface for configuring network interfaces with ifupdown.
+    Ceni can manage basic network interface ifupdown configuration stanzas for
+    ethernet and wireless devices.
+command:
+- /opt/apps/ceni.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
