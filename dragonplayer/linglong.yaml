@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: dragonplayer.linyaps
+  name: dragonplayer
+  version: 21.8.0.1
+  kind: app
+  description: |-
+    simple video player
+    A video player with a different philosophy: Simple, uncluttered interface.
+
+    Features:
+    - Plays DVDs, VCDs, all video formats supported by the Phonon backend in use.
+    - Bundled with a simple web-page KPart.
+    - Starts quickly.
+
+    This package is part of the KDE multimedia module.
+command:
+- /opt/apps/dragonplayer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
