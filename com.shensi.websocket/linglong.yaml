@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.shensi.websocket.linyaps
+  name: com.shensi.websocket
+  version: 1.58.0.0
+  kind: app
+  description: <insert up to 60 chars description>
+command:
+- /opt/apps/com.shensi.websocket.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
