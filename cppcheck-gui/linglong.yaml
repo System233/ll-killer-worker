@@ -1,0 +1,46 @@
+version: "1"
+package:
+  id: cppcheck-gui.linyaps
+  name: cppcheck-gui
+  version: 2.13.0.2
+  kind: app
+  description: |-
+    tool for static C/C++ code analysis (GUI)
+    Cppcheck is a command-line tool that tries to detect bugs that your
+    C/C++ compiler doesn't see. It is versatile, and can check non-standard
+    code including various compiler extensions, inline assembly code, etc.
+    Its internal preprocessor can handle includes, macros, and several
+    preprocessor commands. While Cppcheck is highly configurable,
+    you can start using it just by giving it a path to the source code.
+
+    It includes checks for:
+    * pointers to out-of-scope auto variables;
+    * assignment of auto variables to an effective parameter of a function;
+    * out-of-bounds errors in arrays and STL;
+    * missing class constructors;
+    * variables not initialized by a constructor;
+    * use of memset, memcpy, etcetera on a class;
+    * non-virtual destructors for base classes;
+    * operator= not returning a constant reference to itself;
+    * use of deprecated functions (mktemp, gets, scanf);
+    * exceptions thrown in destructors;
+    * memory leaks in class or function variables;
+    * C-style pointer cast in C++ code;
+    * redundant if;
+    * misuse of the strtol or sprintf functions;
+    * unsigned division or division by zero;
+    * unused functions and struct members;
+    * passing parameters by value;
+    * misuse of signed char variables;
+    * unusual pointer arithmetic (such as "abc" + 'd');
+    * dereferenced null pointers;
+    * incomplete statements;
+    * misuse of iterators when iterating through a container;
+    * dereferencing of erased iterators;
+    * use of invalidated vector iterators/pointers
+
+    This package contains the graphical user interface for cppcheck.
+command:
+- /opt/apps/cppcheck-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
