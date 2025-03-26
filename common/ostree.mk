@@ -1,4 +1,4 @@
-OSTREE_ROOT ?= $(shell realpath ~/.cache/linglong-builder/repo)
+OSTREE_ROOT ?= $(HOME)/.cache/linglong-builder/repo
 OSTREE_NAME ?= stable
 OSTREE_REMOTE ?= https://mirror-repo-linglong.deepin.com/repos/stable
 OSTREE=ostree --repo=$(OSTREE_ROOT)
