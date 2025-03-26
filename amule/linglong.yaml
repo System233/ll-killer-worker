@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: amule.linyaps
+  name: amule
+  version: 2.3.3.3
+  kind: app
+  description: |-
+    client for the eD2k and Kad networks, like eMule
+    aMule is a peer-to-peer file sharing application, designed to connect
+    to the eDonkey and Kad networks. It has a wide range of features,
+    including many of the original eMule client, like:
+
+    * online signature, source exchange, compressed transfers, secure
+    identification, and IP filter support
+    * boolean search, which can be local, global, or in the Kad network
+    * checks against aggressive clients
+    * slot allocation, to decide the number of remote clients
+    * systray works well both in GNOME and KDE
+    * translations to many languages
+
+    A daemonized version of the application that does not need a graphic
+    environment to run is available in the amule-daemon package, and
+    various utilities of interest can be found in the amule-utils and
+    amule-utils-gui packages, including the ed2k link handler.
+command:
+- /opt/apps/amule.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
