@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: cn.hzchancel.fouthfootprint.linyaps
+  name: cn.hzchancel.fouthfootprint
+  version: 0.0.1.0
+  kind: app
+  description: 第四代采集器客户端
+command:
+- /opt/apps/cn.hzchancel.fouthfootprint.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
