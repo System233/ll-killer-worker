@@ -1,0 +1,27 @@
+正在测试: APPID=com.toec.toeca4printer.linyaps LAYER=com.toec.toeca4printer.linyaps_1.0.0.18_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install com.toec.toeca4printer.linyaps_1.0.0.18_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:com.toec.toeca4printer.linyaps
+Layer文件:com.toec.toeca4printer.linyaps_1.0.0.18_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: com.toec.toeca4printer.linyaps_1.0.0.18_x86_64_binary.layer
+offset: 426
+mountpoint: /tmp/tmp.nNP0fW03JF/mnt
+dbglevel: 0
+grep: /opt/apps/com.toec.toeca4printer.linyaps/files/share/applications/com.toec.toeca4printer.desktop: No such file or directory
+grep: /opt/apps/com.toec.toeca4printer.linyaps/files/share/applications/com.toec.toeca4printer.desktop: No such file or directory
+[31m[失败] /opt/apps/com.toec.toeca4printer.linyaps/files/share/applications/com.toec.toeca4printer.desktop:: 找不到此启动文件 [0m
+[正在测试启动项]
+包名:com.toec.toeca4printer.linyaps
+Layer文件:com.toec.toeca4printer.linyaps_1.0.0.18_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: com.toec.toeca4printer.linyaps_1.0.0.18_x86_64_binary.layer
+offset: 426
+mountpoint: /tmp/tmp.wrTzwmyG0T/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+awk: fatal: cannot open file `/opt/apps/com.toec.toeca4printer.linyaps/files/share/applications/com.toec.toeca4printer.desktop' for reading: No such file or directory
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall com.toec.toeca4printer.linyaps
