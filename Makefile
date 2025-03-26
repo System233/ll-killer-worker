@@ -9,6 +9,7 @@ MAX_TASK?=10
 TARGET_INDEX:=$(foreach item,$(TARGET),$(CACHE_DIR)/$(item).index)
 
 $(CACHE_DIR)/%.index: $(CONFIG_DIR)/%.mk
+	mkdir -p $(CACHE_DIR)
 	make -f $(CONFIG_DIR)/$*.mk index INDEX=$@ CONFIG=$* ARCH=$(ARCH)
 
 $(PKG_INDEX): $(TARGET_INDEX)
