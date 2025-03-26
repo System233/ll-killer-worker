@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: colmap.linyaps
+  name: colmap
+  version: 3.9.1.2
+  kind: app
+  description: |-
+    Structure-from-Motion and Multi-View Stereo
+    This is a general-purpose Structure-from-Motion (SfM) and Multi-View
+    Stereo (MVS) pipeline with a graphical and command-line interface. It
+    offers a wide range of features for reconstruction of ordered and
+    unordered image collections.
+command:
+- /opt/apps/colmap.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
