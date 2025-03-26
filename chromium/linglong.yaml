@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: chromium.linyaps
+  name: chromium
+  version: 128.0.6613.1
+  kind: app
+  description: |-
+    web browser
+    Web browser that aims to build a safer, faster, and more stable internet
+    browsing experience.
+
+    This package contains the web browser component.
+command:
+- /opt/apps/chromium.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
