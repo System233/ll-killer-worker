@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: blockout2.linyaps
+  name: blockout2
+  version: 2.5.0.1
+  kind: app
+  description: |-
+    Tetris like game (3D-tetris)
+    BlockOut II is a free adaptation of the original BlockOut
+    DOS game edited by California Dreams in 1989. BlockOut II
+    has the same features than the original game with few graphic
+    improvements. The score calculation is also nearly similar to
+    the original game. BlockOut II has been designed by an addicted
+    player for addicted players. BlockOut II is an open source
+    project available for both Windows and Linux.
+command:
+- /opt/apps/blockout2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
