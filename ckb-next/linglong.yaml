@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: ckb-next.linyaps
+  name: ckb-next
+  version: 0.6.0.0
+  kind: app
+  description: |-
+    driver for Corsair keyboards and mice
+    ckb-next is an open-source driver for Corsair keyboards and mice.
+    It aims to bring the features of Corsair's proprietary CUE
+    software to the Linux and Mac operating systems.
+command:
+- /opt/apps/ckb-next.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
