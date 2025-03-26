@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: cc.lotuscard.demo.linyaps
+  name: cc.lotuscard.demo
+  version: 1.0.0.0
+  kind: app
+  description: |-
+    <读卡器测试DEMO>
+    <诺塔斯读卡器测试DEMO>
+command:
+- /opt/apps/cc.lotuscard.demo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
