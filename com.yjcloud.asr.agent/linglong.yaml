@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.yjcloud.asr.agent.linyaps
+  name: com.yjcloud.asr.agent
+  version: 5.0.0.0
+  kind: app
+  description: description from pom
+command:
+- /opt/apps/com.yjcloud.asr.agent.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
