@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: alsaplayer-common.linyaps
+  name: alsaplayer-common
+  version: 0.99.81.2
+  kind: app
+  description: |-
+    audio player (common files)
+    Alsaplayer is a PCM player designed specifically for use with ALSA, but
+    works great with OSS or EsounD. It's heavily threaded which cuts down on
+    skipping, offers optional and even simultaneous visual scopes, plays
+    mp3, mp2, ogg, cdda, audiofs, and lots more.
+
+    This package contains the main alsaplayer program, and needs one interface
+    plugin and one output plugin. By default, GTK+ interface and alsa output will
+    be installed.
+command:
+- /opt/apps/alsaplayer-common.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
