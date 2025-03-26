@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: blinken.linyaps
+  name: blinken
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    KDE version of the Simon electronic memory game
+    Blinken is based on an electronic game released in 1978, which
+    challenges players to remember sequences of increasing length.  On
+    the face of the device, there are 4 different color buttons, each
+    with its own distinctive sound.  These buttons light up randomly,
+    creating the sequence that the player must then recall.  If the
+    player is successful in remembering the sequence of lights in the
+    correct order, they advance to the next stage, where an identical
+    sequence with one extra step is presented.
+
+    This package is part of the KDE education module.
+command:
+- /opt/apps/blinken.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
