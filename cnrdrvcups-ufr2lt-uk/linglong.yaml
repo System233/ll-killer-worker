@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: cnrdrvcups-ufr2lt-uk.linyaps
+  name: cnrdrvcups-ufr2lt-uk
+  version: 5.0.0.1
+  kind: app
+  description: |-
+    Canon UFRII LT Printer Driver for Linux
+    Canon UFRII LT Printer Driver for Linux.
+    This UFRII LT printer driver provides printing functions for Canon LBP
+    printers operating under the CUPS (Common UNIX Printing System) environment.
+command:
+- /opt/apps/cnrdrvcups-ufr2lt-uk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
