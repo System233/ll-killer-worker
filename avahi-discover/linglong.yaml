@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: avahi-discover.linyaps
+  name: avahi-discover
+  version: 0.8.0.5
+  kind: app
+  description: |-
+    Service discover user interface for avahi
+    Avahi is a fully LGPL framework for Multicast DNS Service Discovery.
+    It allows programs to publish and discover services and hosts
+    running on a local network with no specific configuration. For
+    example you can plug into a network and instantly find printers to
+    print to, files to look at and people to talk to.
+
+    This package contains a user interface for discovering services.
+command:
+- /opt/apps/avahi-discover.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

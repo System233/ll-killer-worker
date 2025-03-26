@@ -1,0 +1,29 @@
+正在测试: APPID=avahi-discover.linyaps LAYER=avahi-discover.linyaps_0.8.0.5_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install avahi-discover.linyaps_0.8.0.5_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:avahi-discover.linyaps
+Layer文件:avahi-discover.linyaps_0.8.0.5_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: avahi-discover.linyaps_0.8.0.5_x86_64_binary.layer
+offset: 801
+mountpoint: /tmp/tmp.xkl5vf5INN/mnt
+dbglevel: 0
+find: ‘/opt/apps/avahi-discover.linyaps/files/share/icons’: No such file or directory
+[成功] avahi-discover.desktop: network-wired -> /usr/share/icons/ubuntu-mono-light/status/24/network-wired.svg
+[成功] /opt/apps/avahi-discover.linyaps/files/share/applications/avahi-discover.desktop: /opt/apps/avahi-discover.linyaps/files/entrypoint.sh /usr/bin/avahi-discover
+[正在测试启动项]
+包名:avahi-discover.linyaps
+Layer文件:avahi-discover.linyaps_0.8.0.5_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: avahi-discover.linyaps_0.8.0.5_x86_64_binary.layer
+offset: 801
+mountpoint: /tmp/tmp.ewsyamvCrM/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run avahi-discover.linyaps -- /opt/apps/avahi-discover.linyaps/files/entrypoint.sh /usr/bin/avahi-discover
+[PID 8665] 进程已启动
+[PID 8665] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall avahi-discover.linyaps
