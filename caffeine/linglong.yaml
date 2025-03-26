@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: caffeine.linyaps
+  name: caffeine
+  version: 2.9.12.1
+  kind: app
+  description: |-
+    prevent the desktop becoming idle in full-screen mode
+    Caffeine prevents the desktop from becoming idle when an application
+    is running full-screen. A desktop indicator ‘caffeine-indicator’
+    supplies a manual toggle, and the command ‘caffeinate’ can be used
+    to prevent idleness for the duration of any command.
+command:
+- /opt/apps/caffeine.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
