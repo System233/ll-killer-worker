@@ -1,0 +1,41 @@
+Package: aerc
+Version: 0.17.0-1ubuntu0.24.04.2
+Built-Using: golang-1.22 (= 1.22.2-2ubuntu0.3), golang-fsnotify (= 1.7.0-1), golang-github-arran4-golang-ical (= 0.0~git20220517.fd89fef-3), golang-github-cloudflare-circl (= 1.3.7-1), golang-github-creack-pty (= 1.1.21-1), golang-github-danwakefield-fnmatch (= 0.0~git20160403.cbb64ac-3), golang-github-emersion-go-imap (= 1.2.1-1), golang-github-emersion-go-imap-sortthread (= 1.2.0-2), golang-github-emersion-go-maildir (= 0.4.1-1), golang-github-emersion-go-mbox (= 1.0.3-2), golang-github-emersion-go-message (= 0.17.0-1), golang-github-emersion-go-msgauth (= 0.6.6-2ubuntu0.24.04.1), golang-github-emersion-go-pgpmail (= 0.2.1-1), golang-github-emersion-go-sasl (= 0.0~git20230613.1d333a0-1), golang-github-emersion-go-smtp (= 0.12.1-1), golang-github-emersion-go-textwrapper (= 0.0~git20160606.d0e65e5-2), golang-github-gatherstars-com-jwz (= 1.4.0-1), golang-github-gdamore-encoding (= 1.0.0-3), golang-github-gdamore-tcell.v2 (= 2.6.0-1), golang-github-go-ini-ini (= 1.55.0-1), golang-github-golang-snappy (= 0.0.2-3), golang-github-lithammer-fuzzysearch (= 1.1.3-1), golang-github-lucasb-eyer-go-colorful (= 1.2.0-1), golang-github-mattn-go-isatty (= 0.0.20-1), golang-github-mattn-go-runewidth (= 0.0.15-2), golang-github-pkg-errors (= 0.9.1-3), golang-github-protonmail-go-crypto (= 0.0~git20230626.7e9e0390.0~really~git20230619.3fbb1f1-2), golang-github-rivo-uniseg (= 0.4.4-1), golang-github-riywo-loginshell (= 0.0~git20190610.2ed199a-3), golang-github-xo-terminfo (= 0.0~git20210125.ca9a967-2build1), golang-go.crypto (= 1:0.19.0-1), golang-golang-x-mod (= 0.15.0-1), golang-golang-x-oauth2 (= 0.15.0-1), golang-golang-x-sys (= 0.17.0-1), golang-golang-x-term (= 0.17.0-1), golang-golang-x-text (= 0.14.0-2), golang-golang-x-tools (= 1:0.18.0+ds-1ubuntu0.24.04.1), golang-goleveldb (= 0.0~git20200815.5c35d60-2), golang-sourcehut-rjarry-go-opt (= 1.4.0-2), golang-sourcehut-rockorager-go-jmap (= 0.4.4-2), golang-sourcehut-rockorager-tcell-term (= 0.10.0-1)
+Priority: optional
+Section: universe/devel
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 16.8 MB
+Depends: libc6 (>= 2.34), libnotmuch5t64 (>= 0.32~rc0), python3
+Recommends: dante-client, gnupg, w3m
+Suggests: notmuch, python3-vobject
+Homepage: https://aerc-mail.org
+Download-Size: 5288 kB
+APT-Sources: https://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages
+Description: Pretty Good Email Client
+ aerc is an email client that runs in your terminal. It's highly efficient and
+ extensible, perfect for the discerning hacker. Some of its more interesting
+ features include:
+ .
+  * Editing emails in an embedded terminal tmux-style, allowing you to check on
+    incoming emails and reference other threads while you compose your replies
+  * Render HTML emails with an interactive terminal web browser, highlight
+    patches with diffs, and browse with an embedded less session
+  * Vim-style keybindings and ex-command system, allowing for powerful
+    automation at a single keystroke
+  * First-class support for working with git & email
+  * Open a new tab with a terminal emulator and a shell running for easy access
+    to nearby git repos for parallel work
+  * Support for multiple accounts, with IMAP, Maildir, Notmuch, Mbox and JMAP
+    backends. Along with IMAP, JMAP, SMTP, and sendmail transfer protocols.
+  * Asynchronous IMAP and JMAP support ensures the UI never gets locked up by
+    a flaky network.
+  * Efficient network usage - aerc only downloads the information which is
+    necessary to present the UI, making for a snappy and bandwidth-efficient
+    experience
+  * Email threading (with and/or without IMAP server support).
+  * PGP signing, encryption and verification using GNUpg.
+  * 100% free and open source software!
+
