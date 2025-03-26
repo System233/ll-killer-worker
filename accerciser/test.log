@@ -1,0 +1,29 @@
+正在测试: APPID=accerciser.linyaps LAYER=accerciser.linyaps_3.38.0.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install accerciser.linyaps_3.38.0.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:accerciser.linyaps
+Layer文件:accerciser.linyaps_3.38.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: accerciser.linyaps_3.38.0.1_x86_64_binary.layer
+offset: 721
+mountpoint: /tmp/tmp.75R2qbTE1X/mnt
+dbglevel: 0
+[成功] accerciser.desktop: accerciser -> /opt/apps/accerciser.linyaps/files/share/icons/hicolor/16x16/apps/accerciser.png
+[成功] accerciser.desktop: accerciser -> /opt/apps/accerciser.linyaps/files/share/icons/hicolor/16x16/apps/accerciser.png
+[成功] /opt/apps/accerciser.linyaps/files/share/applications/accerciser.desktop: /opt/apps/accerciser.linyaps/files/entrypoint.sh accerciser
+[正在测试启动项]
+包名:accerciser.linyaps
+Layer文件:accerciser.linyaps_3.38.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: accerciser.linyaps_3.38.0.1_x86_64_binary.layer
+offset: 721
+mountpoint: /tmp/tmp.vvDzRwJlbx/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run accerciser.linyaps -- /opt/apps/accerciser.linyaps/files/entrypoint.sh accerciser
+[PID 18881] 进程已启动
+[PID 18881] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall accerciser.linyaps
