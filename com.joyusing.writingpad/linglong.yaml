@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.joyusing.writingpad.linyaps
+  name: com.joyusing.writingpad
+  version: 1.0.0.0
+  kind: app
+  description: JOYUSING writingpad..
+command:
+- /opt/apps/com.joyusing.writingpad.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
