@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: algobox.linyaps
+  name: algobox
+  version: 1.1.1.1
+  kind: app
+  description: |-
+    algorithmics introduction - French UI
+    AlgoBox is an algorithm creation and execution helper, targeted to
+    French high school students. It’s based on an educational logic
+    (learning via logical structures instead of piling up code lines).
+command:
+- /opt/apps/algobox.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
