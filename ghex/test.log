@@ -1,0 +1,34 @@
+正在测试: APPID=ghex.linyaps LAYER=ghex.linyaps_3.41.0.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install ghex.linyaps_3.41.0.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:ghex.linyaps
+Layer文件:ghex.linyaps_3.41.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: ghex.linyaps_3.41.0.1_x86_64_binary.layer
+offset: 477
+mountpoint: /tmp/tmp.6lEbzP9aeO/mnt
+dbglevel: 0
+[成功] org.gnome.GHex.desktop: org.gnome.GHex -> /opt/apps/ghex.linyaps/files/share/icons/hicolor/scalable/apps/org.gnome.GHex.svg
+[成功] /opt/apps/ghex.linyaps/files/share/applications/org.gnome.GHex.desktop: /opt/apps/ghex.linyaps/files/entrypoint.sh ghex %F
+[正在测试启动项]
+包名:ghex.linyaps
+Layer文件:ghex.linyaps_3.41.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: ghex.linyaps_3.41.0.1_x86_64_binary.layer
+offset: 477
+mountpoint: /tmp/tmp.aaeU9GJ5nA/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run ghex.linyaps -- /opt/apps/ghex.linyaps/files/entrypoint.sh ghex
+[PID 6663] 进程已启动
+[PID 6663] 已检测到窗口:PID=37
+[PID 6663] 正在截图 0秒: tests/screen0-0.jpg
+[PID 6663] 正在截图 1秒: tests/screen0-1.jpg
+[PID 6663] 正在截图 3秒: tests/screen0-3.jpg
+[PID 6663] 正在截图 5秒: tests/screen0-5.jpg
+[PID 6663] 正在通知并等待进程退出
+[PID 6663] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall ghex.linyaps

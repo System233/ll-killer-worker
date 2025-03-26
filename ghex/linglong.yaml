@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: ghex.linyaps
+  name: ghex
+  version: 3.41.0.1
+  kind: app
+  description: |-
+    GNOME Hex editor for files
+    The GHex program can view and edit files in two ways, hex or ascii. Good
+    for editing saved game files.
+command:
+- /opt/apps/ghex.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

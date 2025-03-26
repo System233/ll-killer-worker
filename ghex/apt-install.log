@@ -1,0 +1,72 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  at-spi2-core gtk-update-icon-cache libgail-3-0 libgtk-3-0 libgtk-3-common
+  libgtkhex-3-0
+Suggested packages:
+  gvfs
+Recommended packages:
+  libgtk-3-bin librsvg2-common
+The following NEW packages will be installed:
+  at-spi2-core ghex libgail-3-0 libgtkhex-3-0
+The following packages will be upgraded:
+  gtk-update-icon-cache libgtk-3-0 libgtk-3-common
+3 upgraded, 4 newly installed, 0 to remove and 233 not upgraded.
+Need to get 8934 kB of archives.
+After this operation, 4500 kB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main amd64 at-spi2-core amd64 2.50.0-1 [59.4 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main amd64 libgtk-3-common all 3.24.41-1deepin3 [4634 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main amd64 libgtk-3-0 amd64 3.24.41-1deepin3 [2734 kB]
+Get:4 https://community-packages.deepin.com/beige beige/main amd64 libgail-3-0 amd64 3.24.41-1deepin3 [42.6 kB]
+Get:5 https://community-packages.deepin.com/beige beige/main amd64 libgtkhex-3-0 amd64 3.41.0-1 [28.5 kB]
+Get:6 https://community-packages.deepin.com/beige beige/main amd64 ghex amd64 3.41.0-1 [1389 kB]
+Get:7 https://community-packages.deepin.com/beige beige/main amd64 gtk-update-icon-cache amd64 3.24.41-1deepin3 [46.0 kB]
+Fetched 8934 kB in 1s (6186 kB/s)
+Selecting previously unselected package at-spi2-core.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../0-at-spi2-core_2.50.0-1_amd64.deb ...
+Unpacking at-spi2-core (2.50.0-1) ...
+Preparing to unpack .../1-libgtk-3-common_3.24.41-1deepin3_all.deb ...
+Unpacking libgtk-3-common (3.24.41-1deepin3) over (3.24.41-1deepin1) ...
+Preparing to unpack .../2-libgtk-3-0_3.24.41-1deepin3_amd64.deb ...
+Unpacking libgtk-3-0:amd64 (3.24.41-1deepin3) over (3.24.41-1deepin1) ...
+Selecting previously unselected package libgail-3-0:amd64.
+Preparing to unpack .../3-libgail-3-0_3.24.41-1deepin3_amd64.deb ...
+Unpacking libgail-3-0:amd64 (3.24.41-1deepin3) ...
+Selecting previously unselected package libgtkhex-3-0:amd64.
+Preparing to unpack .../4-libgtkhex-3-0_3.41.0-1_amd64.deb ...
+Unpacking libgtkhex-3-0:amd64 (3.41.0-1) ...
+Selecting previously unselected package ghex.
+Preparing to unpack .../5-ghex_3.41.0-1_amd64.deb ...
+Unpacking ghex (3.41.0-1) ...
+Preparing to unpack .../6-gtk-update-icon-cache_3.24.41-1deepin3_amd64.deb ...
+Unpacking gtk-update-icon-cache (3.24.41-1deepin3) over (3.24.41-1deepin1) ...
+Setting up gtk-update-icon-cache (3.24.41-1deepin3) ...
+Setting up at-spi2-core (2.50.0-1) ...
+
+Configuration file '/etc/X11/Xsession.d/90qt-a11y', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/environment.d/90qt-a11y.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/xdg/Xwayland-session.d/00-at-spi', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/xdg/autostart/at-spi-dbus-bus.desktop', does not exist on system.
+Installing new config file as you requested.
+Setting up libgtk-3-common (3.24.41-1deepin3) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libglib2.0-0:amd64 (2.80.1-1deepin1) ...
+Setting up libgtk-3-0:amd64 (3.24.41-1deepin3) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Setting up libgail-3-0:amd64 (3.24.41-1deepin3) ...
+Setting up libgtkhex-3-0:amd64 (3.41.0-1) ...
+Setting up ghex (3.41.0-1) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
