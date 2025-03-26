@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: bovo.linyaps
+  name: bovo
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    gomoku (five in line) board game
+    Bovo is a game where two players take turns placing markers on the board,
+    the winner being the first to complete a line of five markers.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/bovo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
