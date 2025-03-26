@@ -1,0 +1,25 @@
+Package: calc-common
+Version: 2.15.0.4-1build2
+Priority: optional
+Section: universe/math
+Source: calc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Martin Buck <mbuck@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4433 kB
+Breaks: apcalc-common (<< 2.12.7.2-3~)
+Replaces: apcalc-common (<< 2.12.7.2-3~)
+Homepage: http://www.isthe.com/chongo/tech/comp/calc/
+Download-Size: 551 kB
+APT-Sources: https://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+Description: Arbitrary precision calculator (common files)
+ Calc is an arbitrary precision arithmetic system that uses a C-like
+ language. Calc is useful as a calculator, an algorithm prototyper and as a
+ mathematical research tool. More importantly, calc provides one with a
+ machine independent means of computation. Calc comes with a rich set of
+ builtin mathematical and programmatic functions.
+ .
+ This package contains architecture independent files required by the main
+ package `calc'.
+

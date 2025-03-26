@@ -1,0 +1,15 @@
+正在测试: APPID=calc-common.linyaps LAYER=calc-common.linyaps_2.15.0.1_x86_64_binary.layer
+[K[?25l0% prepare for installing layer[?25h[K[?25l10% Installing base main:org.deepin.base/23.1.0.3/x86_64[?25h[K[?25l30% Downloading metadata[?25h[K[?25l30% Downloading metadata[?25h[K[?25l100% install layer successfully[?25h
+[正在测试快捷方式/服务单元]
+find: ‘/opt/apps/calc-common.linyaps/files/share/icons’: No such file or directory
+find: ‘/opt/apps/calc-common.linyaps/files/share/pixmaps’: No such file or directory
+[成功] calc-common.desktop: accessories-calculator -> /usr/share/icons/Humanity/apps/16/accessories-calculator.svg
+[31m[失败] /opt/apps/calc-common.linyaps/files/share/applications/calc-common.desktop:calc: 找不到此启动文件 [0m
+Error: CODE=-1
+./libs/linglong/src/linglong/runtime/container.cpp:189 run container bWFpbjpjYWxjLWNvbW1vbi5saW55YXBzLzIuMTUuMC4xL3g4Nl82NC17NTJhYmIxZmQtMGUzNy00ZmFjLWJkZmUtNDQ2ZTZiYzY3M2UxfQ==: cli run: run command failed: /usr/bin/ll-box --cgroup-manager=disabled run -b /run/user/1001/linglong/bWFpbjpjYWxjLWNvbW1vbi5saW55YXBzLzIuMTUuMC4xL3g4Nl82NC17NTJhYmIxZmQtMGUzNy00ZmFjLWJkZmUtNDQ2ZTZiYzY3M2UxfQ== bWFpbjpjYWxjLWNvbW1vbi5saW55YXBzLzIuMTUuMC4xL3g4Nl82NC17NTJhYmIxZmQtMGUzNy00ZmFjLWJkZmUtNDQ2ZTZiYzY3M2UxfQ== retval=65280
+[正在测试启动项]
+启动项排除列表：NoDisplay Hidden
+[PID ?] 启动进程: /usr/bin/ll-cli run calc-common.linyaps -- /opt/apps/calc-common.linyaps/files/entrypoint.sh calc
+[PID 8236] 进程已启动
+[PID 8236] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。

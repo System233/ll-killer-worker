@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: calc-common.linyaps
+  name: calc-common
+  version: 2.15.0.1
+  kind: app
+  description: |-
+    Arbitrary precision calculator (common files)
+    Calc is an arbitrary precision arithmetic system that uses a C-like
+    language. Calc is useful as a calculator, an algorithm prototyper and as a
+    mathematical research tool. More importantly, calc provides one with a
+    machine independent means of computation. Calc comes with a rich set of
+    builtin mathematical and programmatic functions.
+
+    This package contains architecture independent files required by the main
+    package `calc'.
+command:
+- /opt/apps/calc-common.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
