@@ -68,9 +68,6 @@ jobs:
         run: |
           BASE=$(make -s base)
           echo "base=$BASE">>"$GITHUB_OUTPUT"
-        env:
-          ARCH: amd64
-          PKGID: ${{matrix.pkg}}
       - name: Cache
         uses: actions/cache@v4
         with:
@@ -117,7 +114,6 @@ jobs:
       - name: Upload
         if: ${{steps.test.outputs.fail=='no'}}
         run: |
-          #echo "::group::masked"
           if [ -n "$SSH_URL" ];then
             mkdir -p ~/.ssh
             echo "$SSH_HOST_KEY" >> ~/.ssh/known_hosts
@@ -126,7 +122,6 @@ jobs:
           fi
           export SSH_ARGS="-i ~/.ssh/id_key $SSH_ARGS"
           make upload
-          #echo "::endgroup::"
         env:
           FTP_URL: ${{secrets.FTP_URL}}
           SSH_URL: ${{secrets.SSH_URL}}
@@ -135,6 +130,15 @@ jobs:
           SSH_ARGS: ${{secrets.SSH_ARGS}}
       - name: Commit
         run: |
-          make push
+            SRC_DIR="$PWD/caches/$PKGID"
+            WORK_DIR=build/$ARCH
+            cd $WORK_DIR
+            git pull origin $ARCH --rebase --strategy=ours
+            rm -rf "$PKGID"
+            mkdir -p "$PKGID"
+            cp -arf $SRC_DIR/*.log $SRC_DIR/tests $SRC_DIR/*.mk $SRC_DIR/*.yaml :$PKGID"
+            git add "$PKGID"
+            git diff --cached --quiet || git commit -m "Update $(PKGID)"
+            git push -u origin HEAD:$ARCH
       - uses: valeriangalliat/action-sshd-cloudflared@v3
         if: failure()
