@@ -1,0 +1,54 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  rsync ssh-askpass
+Suggested packages:
+  openssh-client openssh-server python3-braceexpand
+The following NEW packages will be installed:
+  grsync rsync ssh-askpass
+0 upgraded, 3 newly installed, 0 to remove and 236 not upgraded.
+Need to get 606 kB of archives.
+After this operation, 1592 kB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main amd64 rsync amd64 3.3.0+ds1-4 [425 kB]
+Get:2 https://community-packages.deepin.com/beige beige/community amd64 grsync amd64 1.3.0-1 [150 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main amd64 ssh-askpass amd64 1:1.2.4.1-13 [31.0 kB]
+Fetched 606 kB in 1s (524 kB/s)
+Selecting previously unselected package rsync.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../rsync_3.3.0+ds1-4_amd64.deb ...
+Unpacking rsync (3.3.0+ds1-4) ...
+Selecting previously unselected package grsync.
+Preparing to unpack .../grsync_1.3.0-1_amd64.deb ...
+Unpacking grsync (1.3.0-1) ...
+Selecting previously unselected package ssh-askpass.
+Preparing to unpack .../ssh-askpass_1%3a1.2.4.1-13_amd64.deb ...
+Unpacking ssh-askpass (1:1.2.4.1-13) ...
+Setting up ssh-askpass (1:1.2.4.1-13) ...
+
+Configuration file '/etc/X11/app-defaults/SshAskpass', does not exist on system.
+Installing new config file as you requested.
+update-alternatives: using /usr/lib/ssh/x11-ssh-askpass to provide /usr/bin/ssh-askpass (ssh-askpass) in auto mode
+Setting up rsync (3.3.0+ds1-4) ...
+
+Configuration file '/etc/default/rsync', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/init.d/rsync', does not exist on system.
+Installing new config file as you requested.
+Can't exec "systemctl": No such file or directory at /usr/sbin/update-rc.d line 98.
+/usr/sbin/invoke-rc.d: 290: systemctl: not found
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: WARNING: No init system and policy-rc.d missing! Defaulting to block.
+/var/lib/dpkg/info/rsync.postinst: 36: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+rsync.service is a disabled or a static unit, not starting it.
+Setting up grsync (1.3.0-1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for shared-mime-info (2.2-1) ...
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
