@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: caja.linyaps
+  name: caja
+  version: 1.26.3.1
+  kind: app
+  description: |-
+    file manager for the MATE desktop
+    Caja is the official file manager for the MATE desktop. It allows one
+    to browse directories, preview files and launch applications associated
+    with them. It is also responsible for handling the icons on the MATE
+    desktop. It works on local and remote filesystems.
+command:
+- /opt/apps/caja.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
