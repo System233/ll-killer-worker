@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-ocr.linyaps
+  name: deepin-ocr
+  version: 1.1.2.0
+  kind: app
+  description: |-
+    Ocr for UOS
+    Ocr is a text recognition software.
+command:
+- /opt/apps/deepin-ocr.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
