@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: ark.linyaps
+  name: ark
+  version: 21.8.3.1
+  kind: app
+  description: |-
+    archive utility
+    Ark manages various archive formats, including tar, gzip, bzip2, rar and zip,
+    as well as CD-ROM images.  Ark can be used to browse, extract, create, and
+    modify archives.
+
+    This package is part of the KDE SC utilities module.
+command:
+- /opt/apps/ark.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
