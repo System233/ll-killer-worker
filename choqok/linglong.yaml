@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: choqok.linyaps
+  name: choqok
+  version: 1.7.0.2
+  kind: app
+  description: |-
+    KDE micro-blogging client
+    Choqok is a fast, efficient and simple to use micro-blogging client for KDE.
+    It currently supports the twitter.com and identi.ca microblogging services.
+
+    Other notable features include:
+    * Support for user + friends time-lines.
+    * Support for @Reply time-lines.
+    * Support for sending and receiving direct messages.
+    * Twitpic.com integration.
+    * The ability to use multiple accounts simultaneously.
+    * Support for search APIs for all services.
+    * KWallet integration.
+    * Support for automatic shortening urls with more than 30 characters.
+    * Support for configuring status lists appearance.
+command:
+- /opt/apps/choqok.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
