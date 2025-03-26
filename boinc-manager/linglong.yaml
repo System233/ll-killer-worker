@@ -1,0 +1,31 @@
+version: "1"
+package:
+  id: boinc-manager.linyaps
+  name: boinc-manager
+  version: 7.24.1.4
+  kind: app
+  description: |-
+    GUI to control and monitor the BOINC core client
+    The Berkeley Open Infrastructure for Network Computing (BOINC) is a
+    software platform for distributed computing using volunteered computer
+    resources.
+
+    This package contains the BOINC Manager, a graphical monitor and
+    control utility for the BOINC core client. It gives a detailed
+    overview of the state of the client it is monitoring, as there are
+    * attached projects
+    * running tasks
+    * file transfers between the client and project servers
+    * statistics about granted credits and disk usage for every project
+    * constraints on CPU usage
+    The BOINC Manager has two modes of operation, the "Simple View" in which
+    it only displays the most important information and the "Advanced View"
+    in which all information and all control elements are available.
+
+    For active participation in any BOINC project the recommended
+    boinc-client package, not the boinc-manager, is required for every
+    machine contributing.
+command:
+- /opt/apps/boinc-manager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
