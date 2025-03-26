@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.everspry.escaps.linyaps
+  name: com.everspry.escaps
+  version: 24.7.8.8
+  kind: app
+  description: Everspry Acquisition Instrument Client Service
+command:
+- /opt/apps/com.everspry.escaps.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
