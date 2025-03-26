@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: biniax2.linyaps
+  name: biniax2
+  version: 1.30.0.7
+  kind: app
+  description: |-
+    logic game with arcade and tactics modes
+    Biniax-2 is an original and entertaining game. It only takes a minute to learn
+    and gives you hours and hours of game play. There are three game modes (two
+    single-player and one multi-player), a hall of fame, dynamic music and a nice
+    cartoon look.
+command:
+- /opt/apps/biniax2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
