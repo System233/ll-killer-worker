@@ -1,0 +1,31 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  billard-gl-data libglut3.12
+The following NEW packages will be installed:
+  billard-gl billard-gl-data libglut3.12
+0 upgraded, 3 newly installed, 0 to remove and 450 not upgraded.
+Need to get 660 kB of archives.
+After this operation, 8399 kB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 billard-gl-data all 1.75-17build2 [490 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libglut3.12 arm64 3.4.0-1build1 [96.2 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 billard-gl arm64 1.75-17build2 [74.4 kB]
+Fetched 660 kB in 1s (670 kB/s)
+Selecting previously unselected package billard-gl-data.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../billard-gl-data_1.75-17build2_all.deb ...
+Unpacking billard-gl-data (1.75-17build2) ...
+Selecting previously unselected package libglut3.12:arm64.
+Preparing to unpack .../libglut3.12_3.4.0-1build1_arm64.deb ...
+Unpacking libglut3.12:arm64 (3.4.0-1build1) ...
+Selecting previously unselected package billard-gl.
+Preparing to unpack .../billard-gl_1.75-17build2_arm64.deb ...
+Unpacking billard-gl (1.75-17build2) ...
+Setting up libglut3.12:arm64 (3.4.0-1build1) ...
+Setting up billard-gl-data (1.75-17build2) ...
+Setting up billard-gl (1.75-17build2) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
