@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: com.fytech.pfs408.linyaps
+  name: com.fytech.pfs408
+  version: 2021.5.8.0
+  kind: app
+  description: |-
+    <PIV Single Finger Capture Devices>
+    <single finger plainscan capture device without membrane at 500 ppi>
+command:
+- /opt/apps/com.fytech.pfs408.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
