@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: atanks.linyaps
+  name: atanks
+  version: 6.6.0.1
+  kind: app
+  description: |-
+    tank-battling game
+    Atomic tanks is a multi-player game in which you attempt to destroy
+    other tanks while trying to protect your own. You earn money for
+    destroying other tanks; with this money you can buy upgrades and better
+    weapons for your tank.
+
+    This game is similar Scorched Earth or the Worms series of games.
+command:
+- /opt/apps/atanks.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
