@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: ballerburg.linyaps
+  name: ballerburg
+  version: 1.2.1.1
+  kind: app
+  description: |-
+    Classical castle combat game
+    Two castles, separated by a mountain, try to defeat each other with their
+    cannonballs, either by killing the opponent's king or by weakening the
+    opponent enough so that the king capitulates.
+
+    Ballerburg was originally written 1987 by Eckhard Kruse, for the Atari ST
+    machines (which were brand new computers at that point in time). Over 25
+    years later, here's finally the adaption of the original source code to
+    modern operating systems.
+command:
+- /opt/apps/ballerburg.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
