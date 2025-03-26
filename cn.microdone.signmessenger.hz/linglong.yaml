@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: cn.microdone.signmessenger.hz.linyaps
+  name: cn.microdone.signmessenger.hz
+  version: 1.0.0.0
+  kind: app
+  description: 签名信使（杭州银行）
+command:
+- /opt/apps/cn.microdone.signmessenger.hz.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
