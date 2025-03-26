@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: arandr.linyaps
+  name: arandr
+  version: 0.1.11.1
+  kind: app
+  description: |-
+    Simple visual front end for XRandR
+    ARandR is a visual front end for XRandR, which provides full control over the
+    relative positioning and rotation of monitors, as well as saving and loading
+    to/from shell scripts.
+command:
+- /opt/apps/arandr.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
