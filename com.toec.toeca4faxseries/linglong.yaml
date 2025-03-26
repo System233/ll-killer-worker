@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.toec.toeca4faxseries.linyaps
+  name: com.toec.toeca4faxseries
+  version: 2.6.0.4
+  kind: app
+  description: Driver for TOEC A4 Fax Series.
+command:
+- /opt/apps/com.toec.toeca4faxseries.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
