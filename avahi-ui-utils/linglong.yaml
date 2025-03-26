@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: avahi-ui-utils.linyaps
+  name: avahi-ui-utils
+  version: 0.8.0.13
+  kind: app
+  description: |-
+    Avahi GTK+ utilities
+    Avahi is a fully LGPL framework for Multicast DNS Service Discovery.
+    It allows programs to publish and discover services and hosts
+    running on a local network with no specific configuration. For
+    example you can plug into a network and instantly find printers to
+    print to, files to look at and people to talk to.
+
+    This package contains some small GTK+ utilities to discover ssh and vnc
+    servers.
+command:
+- /opt/apps/avahi-ui-utils.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
