@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.avision.avision-sane.linyaps
+  name: com.avision.avision-sane
+  version: 20231120.0.0.8
+  kind: app
+  description: Avision Document Scanning Software
+command:
+- /opt/apps/com.avision.avision-sane.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
