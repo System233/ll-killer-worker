@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: clusterssh.linyaps
+  name: clusterssh
+  version: 4.16.0.4
+  kind: app
+  description: |-
+    administer multiple ssh or rsh shells simultaneously
+    ClusterSSH (cssh, crsh, ctel) allows you to control multiple ssh, rsh
+    or telnet sessions from a single input window.  You can also configure
+    clusters of machines for easy invocation and interact with individual
+    terminal windows during a session.
+command:
+- /opt/apps/clusterssh.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
