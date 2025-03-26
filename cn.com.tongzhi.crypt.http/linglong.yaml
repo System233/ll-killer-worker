@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: cn.com.tongzhi.crypt.http.linyaps
+  name: cn.com.tongzhi.crypt.http
+  version: 1.0.3.1
+  kind: app
+  description: |-
+    the plugin for key opertion
+    the plugin for key opertion, now we supper yuweng longmai and so on.
+command:
+- /opt/apps/cn.com.tongzhi.crypt.http.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
