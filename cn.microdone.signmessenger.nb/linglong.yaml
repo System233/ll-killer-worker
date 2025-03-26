@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: cn.microdone.signmessenger.nb.linyaps
+  name: cn.microdone.signmessenger.nb
+  version: 1.0.0.2
+  kind: app
+  description: 签名信使（宁波银行）
+command:
+- /opt/apps/cn.microdone.signmessenger.nb.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
