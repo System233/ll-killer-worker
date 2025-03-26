@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: cn.com.signpro.hwtabletserv.linyaps
+  name: cn.com.signpro.hwtabletserv
+  version: 2.7.0.0
+  kind: app
+  description: 汉王签名板手写服务程序_2.7b69
+command:
+- /opt/apps/cn.com.signpro.hwtabletserv.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
