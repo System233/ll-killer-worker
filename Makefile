@@ -4,7 +4,7 @@ SHELL=/bin/bash
 
 PKGID ?=
 TARGET:= $(basename $(notdir $(wildcard config/*.mk)))
-MAX_TASK?=10
+MAX_TASKS?=10
 
 TARGET_INDEX:=$(foreach item,$(TARGET),$(CACHE_DIR)/$(item).index)
 
@@ -31,7 +31,7 @@ base:
 	make -f $(CONFIG_DIR)/$$CONFIG.mk show-base
 
 tasks: 
-	./scripts/check.sh "$(PKG_INDEX)" | head -n $(MAX_TASK) |jq -R .| jq -s . >tasks.json
+	./scripts/check.sh "$(PKG_INDEX)" | head -n $(MAX_TASKS) |jq -R .| jq -s . >tasks.json
 
 .PHONY: index build tasks base test
 .DEFAULT_GOAL := index 

@@ -2,8 +2,40 @@ name: Build
 permissions:
   contents: write
 on:
-  workflow_dispatch:
   workflow_call:
+    inputs: 
+      runner:
+        type: string
+        description: '运行器'
+        required: true
+        default: 'ubuntu-24.04'
+      arch:
+        type: string
+        description: '架构'
+        required: true
+        default: 'amd64'
+      max-tasks:
+        type: number
+        description: '最大任务数'
+        required: false
+        default: 10
+      debug:
+        type: boolean
+        description: '启用调试'
+        required: false
+        default: ${{fromJSON(vars.ENABLE_DEBUG||'false')}}
+    secrets:
+      FTP_URL: 
+        description: 'FTP地址'
+      SSH_URL: 
+        description: 'SSH地址'
+      SSH_HOST_KEY:
+        description: 'SSH服务器公钥'
+      SSH_PRIVATE_KEY:
+        description: 'SSH客户端私钥'
+      CF_PROXY:
+        description: 'CF代理'
+  workflow_dispatch: 
     inputs:
       runner:
         type: string
@@ -15,11 +47,16 @@ on:
         description: '架构'
         required: true
         default: 'amd64'
-      max-task:
+      max-tasks:
         type: number
         description: '最大任务数'
         required: false
         default: 10
+      debug:
+        type: boolean
+        description: '启用调试'
+        required: false
+        default: false
   
 jobs:
   list:
@@ -33,7 +70,7 @@ jobs:
         id: check
         run: |
           git submodule update --init --remote
-          make tasks MAX_TASK=${{inputs.max-task}}
+          make tasks MAX_TASKS=${{inputs.max-tasks}}
           echo "TASKS<<EOF" >> "$GITHUB_OUTPUT"
           cat "tasks.json" >> "$GITHUB_OUTPUT"
           echo "EOF" >> "$GITHUB_OUTPUT"
@@ -62,8 +99,7 @@ jobs:
         run: |
           # sudo apt update
           sudo apt install ostree xdotool scrot xvfb apt-file erofs-utils erofsfuse -y
-          wget -nv https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-$ARCH -O cloudflared
-          chmod +x cloudflared
+          
           git -C build/$ARCH pull origin $ARCH
       - name: Check
         id: check
@@ -88,7 +124,7 @@ jobs:
         # if: ${{true}}
       - name: Build
         run: |
-          make build
+          make build||true
       - name: Test
         id: test
         run: |
@@ -112,28 +148,37 @@ jobs:
       - name: Upload
         if: ${{steps.test.outputs.fail=='no'}}
         run: |
+          SSH_ARGS=()
+          FTP_ARGS=()
+          if [ -n "$CF_PROXY" ];then
+            wget -nv https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-$ARCH -O cloudflared
+            chmod +x cloudflared
+            SSH_ARGS=(-o ProxyCommand='./cloudflared access tcp --hostname $CF_PROXY')
+          fi
           if [ -n "$SSH_URL" ];then
+            echo "Upload via SSH"
             mkdir -p ~/.ssh
             echo "$SSH_HOST_KEY" >> ~/.ssh/known_hosts
             echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_key
             chmod 700 -R ~/.ssh
-            scp -i ~/.ssh/id_key $SSH_ARGS ${PKG_WORK_DIR}/*.layer "${SSH_URL}"
+            scp -i ~/.ssh/id_key "${SSH_ARGS[@]}" ${PKG_WORK_DIR}/*.layer "${SSH_URL}"
           fi
           if [ -n "$FTP_URL" ];then
-            curl -T ${PKG_WORK_DIR}/*.layer "${FTP_URL}"
+            echo "Upload via FTP"
+            curl "${FTP_ARGS[@]}" -T ${PKG_WORK_DIR}/*.layer "${FTP_URL}"
           fi
         env:
           FTP_URL: ${{secrets.FTP_URL}}
           SSH_URL: ${{secrets.SSH_URL}}
           SSH_HOST_KEY: ${{secrets.SSH_HOST_KEY}}
           SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
-          SSH_ARGS: ${{secrets.SSH_ARGS}}
+          CF_PROXY: ${{secrets.CF_PROXY}}
       - name: Commit
         run: |
             SRC_DIR="$PWD/$PKG_WORK_DIR"
             WORK_DIR=build/$ARCH
             cd $WORK_DIR
-            git pull origin $ARCH --rebase --strategy=ours
+            git pull origin $ARCH --rebase
             rm -rf "$PKGID"
             mkdir -p "$PKGID"
             shopt -s nullglob
@@ -145,6 +190,7 @@ jobs:
             
             git add "$PKGID"
             git diff --cached --quiet || git commit -m "Update ${PKGID}"
+            git pull origin $ARCH --rebase
             git push -u origin HEAD:$ARCH
       - uses: valeriangalliat/action-sshd-cloudflared@v3
-        if: failure()
+        if: ${{failure() && inputs.debug }}

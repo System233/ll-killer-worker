@@ -51,5 +51,5 @@ jobs:
           git add index.csv
           git diff --cached --quiet || git commit -m "Update Index"
           git pull origin $ARCH --rebase && git push origin HEAD:$ARCH
-      # - uses: valeriangalliat/action-sshd-cloudflared@v3
-      #   if: failure()
+      - uses: valeriangalliat/action-sshd-cloudflared@v3
+        if: ${{failure() && vars.ENABLE_DEBUG=='1'}}

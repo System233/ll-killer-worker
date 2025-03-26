@@ -3,8 +3,19 @@ permissions:
   contents: write
 on:
   workflow_dispatch:
+    inputs:
+      max-tasks:
+        type: number
+        description: "最大任务数"
+        required: false
+        default: 10
+      debug:
+        type: boolean
+        description: "启用调试"
+        required: false
+        default: false
   schedule:
-      - cron: '30 0/6 * * *'
+    - cron: "30 0/6 * * *"
 
 jobs:
   build-amd64:
@@ -12,10 +23,25 @@ jobs:
     with:
       runner: ubuntu-24.04
       arch: amd64
-      max-task: ${{vars.MAX_TASK || 10}}
+      max-tasks: ${{fromJSON(inputs.max-tasks|| vars.MAX_TASKS || '10')}}
+      debug: ${{fromJSON(inputs.debug||vars.ENABLE_DEBUG||'false')}}
+    secrets:
+      FTP_URL: ${{secrets.FTP_URL}}
+      SSH_URL: ${{secrets.SSH_URL}}
+      SSH_HOST_KEY: ${{secrets.SSH_HOST_KEY}}
+      SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
+      CF_PROXY: ${{secrets.CF_PROXY}}
+
   build-arm64:
     uses: ./.github/workflows/build.yaml
     with:
       runner: ubuntu-24.04-arm
       arch: arm64
-      max-task: ${{vars.MAX_TASK || 10}}
+      max-tasks: ${{fromJSON(inputs.max-tasks|| vars.MAX_TASKS || '10')}}
+      debug: ${{fromJSON(inputs.debug||vars.ENABLE_DEBUG||'false')}}
+    secrets:
+      FTP_URL: ${{secrets.FTP_URL}}
+      SSH_URL: ${{secrets.SSH_URL}}
+      SSH_HOST_KEY: ${{secrets.SSH_HOST_KEY}}
+      SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
+      CF_PROXY: ${{secrets.CF_PROXY}}
