@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.rightcolor.linyaps
+  name: com.rightcolor
+  version: 1.0.7.0
+  kind: app
+  description: rightcolor
+command:
+- /opt/apps/com.rightcolor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
