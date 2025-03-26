@@ -2,7 +2,7 @@ MESA: error: ZINK: failed to choose pdev
 glx: failed to create drisw screen
 failed to load driver: zink
 
-(cadabra2-gtk:36): dbind-[1;33mWARNING[0m **: [34m19:23:18.857[0m: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.Spawn.ExecFailed: Failed to execute program org.a11y.Bus: No such file or directory
+(cadabra2-gtk:36): dbind-[1;33mWARNING[0m **: [34m02:45:07.339[0m: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.Spawn.ExecFailed: Failed to execute program org.a11y.Bus: No such file or directory
 terminate called after throwing an instance of 'std::runtime_error'
   what():  FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/lib/python3.12/dist-packages/cadabra2_defaults.py'
 
@@ -13,4 +13,4 @@ terminate called after throwing an instance of 'std::logic_error'
   what():  Failed to read port from server.
 正在等待所有后台进程退出...
 Error: CODE=-1
-./libs/linglong/src/linglong/runtime/container.cpp:189 run container bWFpbjpjYWRhYnJhMi5saW55YXBzLzIuNC41LjAveDg2XzY0LXswZGU5ZGEzMi0xMGY0LTQyOWUtYjM0Yy0zNjI4MjQ0OTQzYjF9: cli run: run command failed: /usr/bin/ll-box --cgroup-manager=disabled run -b /run/user/1001/linglong/bWFpbjpjYWRhYnJhMi5saW55YXBzLzIuNC41LjAveDg2XzY0LXswZGU5ZGEzMi0xMGY0LTQyOWUtYjM0Yy0zNjI4MjQ0OTQzYjF9 bWFpbjpjYWRhYnJhMi5saW55YXBzLzIuNC41LjAveDg2XzY0LXswZGU5ZGEzMi0xMGY0LTQyOWUtYjM0Yy0zNjI4MjQ0OTQzYjF9 retval=65280
+./libs/linglong/src/linglong/runtime/container.cpp:189 run container bWFpbjpjYWRhYnJhMi5saW55YXBzLzIuNC41LjAveDg2XzY0LXs0MmU1OWQ2Yi0zYTY2LTRjNTAtYTU4Mi1hOTI1NmU5YmE1ZDR9: cli run: run command failed: /usr/bin/ll-box --cgroup-manager=disabled run -b /run/user/1001/linglong/bWFpbjpjYWRhYnJhMi5saW55YXBzLzIuNC41LjAveDg2XzY0LXs0MmU1OWQ2Yi0zYTY2LTRjNTAtYTU4Mi1hOTI1NmU5YmE1ZDR9 bWFpbjpjYWRhYnJhMi5saW55YXBzLzIuNC41LjAveDg2XzY0LXs0MmU1OWQ2Yi0zYTY2LTRjNTAtYTU4Mi1hOTI1NmU5YmE1ZDR9 retval=65280
