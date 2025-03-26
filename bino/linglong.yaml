@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: bino.linyaps
+  name: bino
+  version: 2.1.0.1
+  kind: app
+  description: |-
+    3D video player
+    Bino is a video player with support for a wide variety
+    of stereoscopic video layouts and formats.
+
+    Bino can display monoscopic videos, as well as
+    videos with the left and right view stored either
+    in separate streams or displayed side by side.
+    It can output these videos for several types
+    of anaglyph glasses or 3D displays.
+command:
+- /opt/apps/bino.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
