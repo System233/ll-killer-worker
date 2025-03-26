@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-manual.linyaps
+  name: deepin-manual
+  version: 6.5.6.1
+  kind: app
+  description: |-
+    Manual provides user guides of the system and applications.
+    Manual is designed to help users learn the operating system and its applications, providing specific instructions and function descriptions.
+command:
+- /opt/apps/deepin-manual.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
