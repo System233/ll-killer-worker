@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: cn.net.zonewin.smartscanner.linyaps
+  name: cn.net.zonewin.smartscanner
+  version: 1.0.11.0
+  kind: app
+  description: 中盈三合一打印机 扫描工具
+command:
+- /opt/apps/cn.net.zonewin.smartscanner.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
