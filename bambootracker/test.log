@@ -1,0 +1,28 @@
+正在测试: APPID=bambootracker.linyaps LAYER=bambootracker.linyaps_0.6.1.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install bambootracker.linyaps_0.6.1.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:bambootracker.linyaps
+Layer文件:bambootracker.linyaps_0.6.1.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: bambootracker.linyaps_0.6.1.1_arm64_binary.layer
+offset: 539
+mountpoint: /tmp/tmp.SM0ueEw5MH/mnt
+dbglevel: 0
+[成功] BambooTracker.desktop: BambooTracker -> /opt/apps/bambootracker.linyaps/files/share/icons/hicolor/128x128/apps/BambooTracker.png
+[成功] /opt/apps/bambootracker.linyaps/files/share/applications/BambooTracker.desktop: /opt/apps/bambootracker.linyaps/files/entrypoint.sh BambooTracker
+[正在测试启动项]
+包名:bambootracker.linyaps
+Layer文件:bambootracker.linyaps_0.6.1.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: bambootracker.linyaps_0.6.1.1_arm64_binary.layer
+offset: 539
+mountpoint: /tmp/tmp.D8Hl9Phcuo/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run bambootracker.linyaps -- /opt/apps/bambootracker.linyaps/files/entrypoint.sh BambooTracker
+[PID 9698] 进程已启动
+[PID 9698] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall bambootracker.linyaps
