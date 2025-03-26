@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: com.pantum.pantumprint.linyaps
+  name: com.pantum.pantumprint
+  version: 1.1.24.1
+  kind: app
+  description: |-
+    CUPS and SANE drivers for Pantum series printer and scanner.
+    No Extended Description.
+command:
+- /opt/apps/com.pantum.pantumprint.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
