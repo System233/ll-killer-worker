@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: fritzing.linyaps
+  name: fritzing
+  version: 0.9.6.1
+  kind: app
+  description: |-
+    Easy-to-use electronic design software
+    Fritzing is an open source project designed to help one transition from a
+    prototype to a finished project. Aimed at users who want to produce or document
+    circuits and experiments, one starts by building a physical prototype, then
+    recreating it with Fritzing’s graphical editor. From there one can generate a
+    schematic, PCB artwork, and PCB production files.
+command:
+- /opt/apps/fritzing.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
