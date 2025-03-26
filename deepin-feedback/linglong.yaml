@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-feedback.linyaps
+  name: deepin-feedback
+  version: 6.0.0.0
+  kind: app
+  description: |-
+    report crash information to deepin for debugging
+    this is customer feedback honor
+command:
+- /opt/apps/deepin-feedback.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
