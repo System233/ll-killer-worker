@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: alsamixergui.linyaps
+  name: alsamixergui
+  version: 0.9.0.10
+  kind: app
+  description: |-
+    graphical soundcard mixer for ALSA soundcard driver
+    alsamixergui is an FLTK based mixer program for use with the ALSA soundcard
+    drivers. It supports multiple soundcards with multiple devices.
+
+    alsamixergui is a frontend for alsamixer, written directly on top of the
+    alsamixer source, leaving the original source intact, only adding a couple of
+    ifdefs, and some calls to the gui part. It provides exactly the same
+    functionality, but with a graphical user interface.
+command:
+- /opt/apps/alsamixergui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
