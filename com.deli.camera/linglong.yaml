@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.deli.camera.linyaps
+  name: com.deli.camera
+  version: 2.1.7.9
+  kind: app
+  description: com.deli.camera
+command:
+- /opt/apps/com.deli.camera.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
