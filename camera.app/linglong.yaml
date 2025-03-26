@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: camera.app.linyaps
+  name: camera.app
+  version: 0.8.0.13
+  kind: app
+  description: |-
+    GNUstep application for digital still cameras
+    Camera is a simple GNUstep application to download files from a digital
+    camera. The files can be optionally deleted after download. During
+    download, a thumbnail of the currently downloaded file is displayed.
+command:
+- /opt/apps/camera.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
