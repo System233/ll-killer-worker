@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.nantian.clientscreen.linyaps
+  name: com.nantian.clientscreen
+  version: 1.0.2.2261802
+  kind: app
+  description: 南天柜外清Linux版
+command:
+- /opt/apps/com.nantian.clientscreen.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
