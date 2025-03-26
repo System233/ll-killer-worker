@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: fltk1.3-games.linyaps
+  name: fltk1.3-games
+  version: 1.3.8.5
+  kind: app
+  description: |-
+    Fast Light Toolkit - example games: checkers, sudoku
+    This package contains the example games that accompany FLTK.
+    Specifically, it contains the following two programs:
+    - flblocks:   clear groups of adjacent blocks before they fill the screen;
+    - flcheckers: classic board game, also known as draughts;
+    - flsudoku:   Sudoku puzzle (place numbers in a grid).
+
+    The Fast Light Toolkit (FLTK) is a cross-platform graphical user interface
+    toolkit originally based on libForms.
+command:
+- /opt/apps/fltk1.3-games.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
