@@ -1,0 +1,50 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  gcc-13-base libgcc-s1 libgomp1 libquadmath0 libstdc++6
+The following NEW packages will be installed:
+  galculator libquadmath0
+The following packages will be upgraded:
+  gcc-13-base libgcc-s1 libgomp1 libstdc++6
+4 upgraded, 2 newly installed, 0 to remove and 232 not upgraded.
+Need to get 1239 kB of archives.
+After this operation, 1807 kB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main amd64 gcc-13-base amd64 13.2.0-3deepin4 [39.9 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main amd64 libstdc++6 amd64 13.2.0-3deepin4 [694 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main amd64 libgomp1 amd64 13.2.0-3deepin4 [131 kB]
+Get:4 https://community-packages.deepin.com/beige beige/main amd64 libgcc-s1 amd64 13.2.0-3deepin4 [57.7 kB]
+Get:5 https://community-packages.deepin.com/beige beige/main amd64 libquadmath0 amd64 13.2.0-3deepin4 [145 kB]
+Get:6 https://community-packages.deepin.com/beige beige/main amd64 galculator amd64 2.1.4-1.1 [171 kB]
+Fetched 1239 kB in 1s (896 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../gcc-13-base_13.2.0-3deepin4_amd64.deb ...
+Unpacking gcc-13-base:amd64 (13.2.0-3deepin4) over (13.2.0-3deepin2) ...
+Setting up gcc-13-base:amd64 (13.2.0-3deepin4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libstdc++6_13.2.0-3deepin4_amd64.deb ...
+Unpacking libstdc++6:amd64 (13.2.0-3deepin4) over (13.2.0-3deepin2) ...
+Setting up libstdc++6:amd64 (13.2.0-3deepin4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libgomp1_13.2.0-3deepin4_amd64.deb ...
+Unpacking libgomp1:amd64 (13.2.0-3deepin4) over (13.2.0-3deepin2) ...
+Preparing to unpack .../libgcc-s1_13.2.0-3deepin4_amd64.deb ...
+Unpacking libgcc-s1:amd64 (13.2.0-3deepin4) over (13.2.0-3deepin2) ...
+Setting up libgcc-s1:amd64 (13.2.0-3deepin4) ...
+Selecting previously unselected package libquadmath0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libquadmath0_13.2.0-3deepin4_amd64.deb ...
+Unpacking libquadmath0:amd64 (13.2.0-3deepin4) ...
+Selecting previously unselected package galculator.
+Preparing to unpack .../galculator_2.1.4-1.1_amd64.deb ...
+Unpacking galculator (2.1.4-1.1) ...
+Setting up libgomp1:amd64 (13.2.0-3deepin4) ...
+Setting up libquadmath0:amd64 (13.2.0-3deepin4) ...
+Setting up galculator (2.1.4-1.1) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
