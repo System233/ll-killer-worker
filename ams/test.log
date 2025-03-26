@@ -1,0 +1,28 @@
+正在测试: APPID=ams.linyaps LAYER=ams.linyaps_2.2.1.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install ams.linyaps_2.2.1.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:ams.linyaps
+Layer文件:ams.linyaps_2.2.1.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: ams.linyaps_2.2.1.1_arm64_binary.layer
+offset: 728
+mountpoint: /tmp/tmp.b4iB0LVwL2/mnt
+dbglevel: 0
+[成功] ams.desktop: ams_32 -> /opt/apps/ams.linyaps/files/share/pixmaps/ams_32.xpm
+[成功] /opt/apps/ams.linyaps/files/share/applications/ams.desktop: /opt/apps/ams.linyaps/files/entrypoint.sh ams
+[正在测试启动项]
+包名:ams.linyaps
+Layer文件:ams.linyaps_2.2.1.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: ams.linyaps_2.2.1.1_arm64_binary.layer
+offset: 728
+mountpoint: /tmp/tmp.HJ4ve4HeOp/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run ams.linyaps -- /opt/apps/ams.linyaps/files/entrypoint.sh ams
+[PID 17719] 进程已启动
+[PID 17719] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall ams.linyaps
