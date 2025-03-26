@@ -59,7 +59,7 @@ jobs:
       - name: Setup Essentials
         run: |
           # sudo apt update
-          sudo apt install ostree xdotool scrot xvfb apt-file erofs-utils -y
+          sudo apt install ostree xdotool scrot xvfb apt-file erofs-utils erofsfuse -y
           wget -nv https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-$ARCH -O cloudflared
           chmod +x cloudflared
           git -C build/$ARCH pull origin $ARCH
