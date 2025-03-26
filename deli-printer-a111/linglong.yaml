@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deli-printer-a111.linyaps
+  name: deli-printer-a111
+  version: 1.1.22.0
+  kind: app
+  description: |-
+    Deli Printer Driver.
+    No Extended Description.
+command:
+- /opt/apps/deli-printer-a111.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
