@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: colobot.linyaps
+  name: colobot
+  version: 0.2.1.1
+  kind: app
+  description: |-
+    educational programming strategy game
+    Colobot (Colonize with Bots) is an educational game aiming to teach
+    programming through entertainment. You are playing as an astronaut on a
+    journey with robot helpers to find a planet for colonization. It features 3D
+    real-time graphics and a C++ and Java-like, object-oriented language, CBOT,
+    which can be used to program the robots available in the game.
+command:
+- /opt/apps/colobot.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
