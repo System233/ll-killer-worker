@@ -1,0 +1,31 @@
+包名:deepin-system-monitor.linyaps
+Layer文件:deepin-system-monitor.linyaps_6.5.2.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: deepin-system-monitor.linyaps_6.5.2.0_x86_64_binary.layer
+offset: 700
+mountpoint: /tmp/tmp.Q5eUGWd5xu/mnt
+dbglevel: 0
+# dmidecode 3.3
+/sys/firmware/dmi/tables/smbios_entry_point: Permission denied
+/dev/mem: Permission denied
+2025-03-26, 19:20:21.549 [[32mInfo[0m] [process_table_model.cpp ProcessTableModel::ProcessTableModel 26] ProcessTableModel Constructor line 41: new model with name ""
+2025-03-26, 19:20:21.551 [[32mInfo[0m] [process_table_view.cpp ProcessTableView::initConnections   882] 'processControlResultReady' signal is connect? false
+2025-03-26, 19:20:21.552 [[32mInfo[0m] [user_page_widget.cpp UserPageWidget::UserPageWidget      38] UserPageWidget Construction: currentuser: "runner"
+2025-03-26, 19:20:21.552 [[32mInfo[0m] [process_table_model.cpp ProcessTableModel::ProcessTableModel 26] ProcessTableModel Constructor line 41: new model with name "runner"
+2025-03-26, 19:20:21.553 [[32mInfo[0m] [process_table_view.cpp ProcessTableView::initConnections   882] 'processControlResultReady' signal is connect? true
+2025-03-26, 19:20:21.553 [[32mInfo[0m] [helper.hpp           common::systemInfo                  155] Running desktop environment version is: "23" , versionNumber: 23
+2025-03-26, 19:20:21.556 [[32mInfo[0m] [accounts_info_model.cpp AccountsInfoModel::AccountsInfoModel 29] AccountsInfoModel constructor line 26 m_currentUserName: "runner"
+2025-03-26, 19:20:21.556 [[32mInfo[0m] [accounts_info_model.cpp AccountsInfoModel::updateUserOnlineStatus 108] AccountsInfoModel updateUserOnlineStatus line 88 updateUserOnlineStatus begins!
+2025-03-26, 19:20:21.557 [[32mInfo[0m] [accounts_info_model.cpp AccountsInfoModel::AccountsInfoModel 33] AccountsInfoModel constructor line 29 online user list: ()
+2025-03-26, 19:20:21.557 [[32mInfo[0m] [accounts_info_model.cpp AccountsInfoModel::updateUserList   77] AccountsInfoModel updateUserList line 61 updateUserList begins!
+2025-03-26, 19:20:21.557 [[32mInfo[0m] [accounts_info_model.cpp AccountsInfoModel::AccountsInfoModel 38] AccountsInfoModel constructor line 31 Accounts user list: ()
+2025-03-26, 19:20:21.558 [[32mInfo[0m] [accounts_widget.cpp  AccountsWidget::AccountsWidget      20] AccountsWidget Constructor line 20: current user type: 2
+2025-03-26, 19:20:21.558 [[32mInfo[0m] [accounts_info_model.cpp AccountsInfoModel::userList         137] AccountsInfoModel userList get online users: ()
+2025-03-26, 19:20:21.559 [[32mInfo[0m] [accounts_widget.cpp  AccountsWidget::addInfo             126] AccountsWidget addInfo line 130: add info from list: ()
+2025-03-26, 19:20:21.559 [[32mInfo[0m] [accounts_info_model.cpp AccountsInfoModel::userList         137] AccountsInfoModel userList get online users: ()
+2025-03-26, 19:20:21.559 [[33mWarning[0m] [  ] QLayout: Cannot add a null widget to QHBoxLayout/
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+2025-03-26, 19:20:21.678 [[32mInfo[0m] [perf.cpp             DebugTimeManager::endPointLinux     40] "[GRABPOINT] POINT-01  time=1791ms"
