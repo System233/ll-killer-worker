@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.fenglinkeji.scanner.linyaps
+  name: com.fenglinkeji.scanner
+  version: 0.0.1.1
+  kind: app
+  description: 枫林高拍仪
+command:
+- /opt/apps/com.fenglinkeji.scanner.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
