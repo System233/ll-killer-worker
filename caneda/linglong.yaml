@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: caneda.linyaps
+  name: caneda
+  version: 0.3.1.1
+  kind: app
+  description: |-
+    Electronic Design Automation software focused on easy of use and portability
+    Caneda is an open source Electronic Design Automation (EDA) application
+    focused on easy of use and portability. It's goal is to handle the complete
+    design process from schematic capture, through simulation and into circuit
+    layout and PCB.
+
+    The software aims to support all kinds of circuit simulation types, e.g. DC,
+    AC, S-parameter and harmonic balance analysis.
+command:
+- /opt/apps/caneda.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
