@@ -1,0 +1,28 @@
+正在测试: APPID=aeolus.linyaps LAYER=aeolus.linyaps_0.10.4.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install aeolus.linyaps_0.10.4.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:aeolus.linyaps
+Layer文件:aeolus.linyaps_0.10.4.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: aeolus.linyaps_0.10.4.1_arm64_binary.layer
+offset: 1010
+mountpoint: /tmp/tmp.16DgGxJ4T9/mnt
+dbglevel: 0
+[成功] aeolus.desktop: audio-x-generic -> /opt/apps/aeolus.linyaps/files/share/pixmaps/audio-x-generic.xpm
+[成功] /opt/apps/aeolus.linyaps/files/share/applications/aeolus.desktop: /opt/apps/aeolus.linyaps/files/entrypoint.sh /usr/bin/aeolus
+[正在测试启动项]
+包名:aeolus.linyaps
+Layer文件:aeolus.linyaps_0.10.4.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: aeolus.linyaps_0.10.4.1_arm64_binary.layer
+offset: 1010
+mountpoint: /tmp/tmp.MLK5IB2Rml/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run aeolus.linyaps -- /opt/apps/aeolus.linyaps/files/entrypoint.sh /usr/bin/aeolus
+[PID 11834] 进程已启动
+[PID 11834] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall aeolus.linyaps
