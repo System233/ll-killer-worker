@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: cairo-dock-core.linyaps
+  name: cairo-dock-core
+  version: 3.4.1.1
+  kind: app
+  description: |-
+    Light eye-candy fully themable animated dock for Linux desktop
+    Cairo-dock has a family-likeness with OS X dock, but with more options.
+    It uses cairo to render nice graphics, and Glitz to use hardware acceleration.
+    It's fully configurable and can be a taskbar too.
+    You can easily plug applets into it.
+
+    This package provides Cairo-dock-core application.
+command:
+- /opt/apps/cairo-dock-core.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
