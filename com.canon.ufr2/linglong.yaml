@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: com.canon.ufr2.linyaps
+  name: com.canon.ufr2
+  version: 6.0.0.1
+  kind: app
+  description: |-
+    Canon UFR2 Printer Driver for Linux
+    Canon UFR2 Printer Driver for Linux.
+    This UFR2 printer driver provides printing functions for Canon LBP/iR
+    printers operating under the CUPS (Common UNIX Printing System) environment.
+command:
+- /opt/apps/com.canon.ufr2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
