@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: alsa-tools-gui.linyaps
+  name: alsa-tools-gui
+  version: 1.2.11.1
+  kind: app
+  description: |-
+    GUI based ALSA utilities for specific hardware
+    A collection of GUI based ALSA utilities for specific sound hardware:
+
+    echomixer - control tool for Echoaudio soundcards
+    envy24control - control tool for Envy24 (ice1712) based soundcards
+    hdajackretask - retask jacks on HDA Intel hardware
+    hdspconf - GUI program to control the Hammerfall HDSP Alsa Settings.
+    hdspmixer - tool to control the advanced routing features of the
+    RME Hammerfall DSP.
+    rmedigicontrol - control tool for RME Digi32 and RME Digi96 soundcards
+command:
+- /opt/apps/alsa-tools-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
