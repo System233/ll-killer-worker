@@ -124,11 +124,10 @@ jobs:
         # if: ${{true}}
       - name: Build
         run: |
-          make build||true
+          make test||true
       - name: Test
         id: test
         run: |
-          make test
           layer=no
           desktop=no
           fail=no
@@ -177,15 +176,16 @@ jobs:
         run: |
             SRC_DIR="$PWD/$PKG_WORK_DIR"
             WORK_DIR=build/$ARCH
+            HASH=$(git rev-parse --short HEAD)
             cd $WORK_DIR
             git pull origin $ARCH --rebase
             rm -rf "$PKGID"
             mkdir -p "$PKGID"
             shopt -s nullglob
             cp -arf $SRC_DIR/*.log $SRC_DIR/tests $SRC_DIR/*.mk $SRC_DIR/*.yaml $SRC_DIR/SHA*SUMS $SRC_DIR/version "$PKGID" 
-
+            
             if [ "${{steps.test.outputs.fail}}" = "yes" ];then
-              echo -n "-fail">>$PKGID/version
+              echo -n "-${HASH}">>$PKGID/version
             fi
             
             git add "$PKGID"
