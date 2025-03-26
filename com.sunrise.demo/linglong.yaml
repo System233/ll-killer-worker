@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: com.sunrise.demo.linyaps
+  name: com.sunrise.demo
+  version: 2.2.2.0
+  kind: app
+  description: |-
+    <insert up to 60 chars description>
+    <insert long description, indented with spaces>
+command:
+- /opt/apps/com.sunrise.demo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
