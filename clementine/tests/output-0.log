@@ -1,0 +1,15 @@
+包名:clementine.linyaps
+Layer文件:clementine.linyaps_1.4.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: clementine.linyaps_1.4.0.1_arm64_binary.layer
+offset: 1599
+mountpoint: /tmp/tmp.gWZGBMuOek/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+19:39:53.105 ERROR Database:601                     db error:  QSqlError("14", "Unable to fetch row", "unable to open database file")
+19:39:53.105 ERROR Database:602                     faulty query:  "DROP TABLE playlist_items_fts"
+19:39:53.105 ERROR Database:603                     bound values:  QMap()
+19:39:53.106 ERROR unknown                          Unable to update music library database 
