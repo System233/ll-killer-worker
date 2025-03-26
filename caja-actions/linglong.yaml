@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: caja-actions.linyaps
+  name: caja-actions
+  version: 1.27.0.1
+  kind: app
+  description: |-
+    Caja extension to create custom actions
+    Caja-actions is an extension for Caja file manager which allows the user to
+    add arbitrary program to be launched through the Caja file manager popup
+    menu of selected files.
+command:
+- /opt/apps/caja-actions.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
