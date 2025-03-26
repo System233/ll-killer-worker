@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: cloudcompare.linyaps
+  name: cloudcompare
+  version: 2.11.3.7
+  kind: app
+  description: |-
+    3D point cloud and mesh processing software
+    This is a 3D point cloud (and triangular mesh) processing software. It has
+    been originally designed to perform comparison between two 3D points clouds
+    (such as the ones obtained with a laser scanner) or between a point cloud
+    and a triangular mesh.
+
+    It relies on a specific octree structure that enables great performances in
+    this particular function. It was also meant to deal with huge point clouds
+    (typically more than 10 millions points, and up to 120 millions with 2 GB
+    of memory)
+command:
+- /opt/apps/cloudcompare.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
