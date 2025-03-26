@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.contexscan.linyaps
+  name: com.contexscan
+  version: 1.0.7.0
+  kind: app
+  description: contex_scan
+command:
+- /opt/apps/com.contexscan.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
