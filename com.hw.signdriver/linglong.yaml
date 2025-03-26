@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.hw.signdriver.linyaps
+  name: com.hw.signdriver
+  version: 1.0.0.0
+  kind: app
+  description: 手写签名板驱动
+command:
+- /opt/apps/com.hw.signdriver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
