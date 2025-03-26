@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: aurora-printer-a121.linyaps
+  name: aurora-printer-a121
+  version: 1.0.3.0
+  kind: app
+  description: |-
+    Aurora Printer Driver.
+    No Extended Description.
+command:
+- /opt/apps/aurora-printer-a121.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
