@@ -1,0 +1,28 @@
+正在测试: APPID=bbpager.linyaps LAYER=bbpager.linyaps_0.4.7.10_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install bbpager.linyaps_0.4.7.10_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:bbpager.linyaps
+Layer文件:bbpager.linyaps_0.4.7.10_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: bbpager.linyaps_0.4.7.10_arm64_binary.layer
+offset: 707
+mountpoint: /tmp/tmp.LKPw2UQZ1h/mnt
+dbglevel: 0
+[成功] net.sourceforge.bbpager.desktop: bbpager -> /opt/apps/bbpager.linyaps/files/share/icons/hicolor/64x64/apps/bbpager.png
+[成功] /opt/apps/bbpager.linyaps/files/share/applications/net.sourceforge.bbpager.desktop: /opt/apps/bbpager.linyaps/files/entrypoint.sh bbpager
+[正在测试启动项]
+包名:bbpager.linyaps
+Layer文件:bbpager.linyaps_0.4.7.10_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: bbpager.linyaps_0.4.7.10_arm64_binary.layer
+offset: 707
+mountpoint: /tmp/tmp.1dF5bO8hBi/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run bbpager.linyaps -- /opt/apps/bbpager.linyaps/files/entrypoint.sh bbpager
+[PID 5029] 进程已启动
+[PID 5029] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall bbpager.linyaps
