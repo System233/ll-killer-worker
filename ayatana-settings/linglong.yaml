@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: ayatana-settings.linyaps
+  name: ayatana-settings
+  version: 23.11.14.1
+  kind: app
+  description: |-
+    Ayatana Indicators Settings
+    Ayatana Indicators are available on desktop environments that provide a
+    renderer for system indicators (such as MATE, Xfce, Lomiri, etc.).
+
+    Ayatana Settings allows you to configure all your Ayatana Syystem
+    Indicators.
+command:
+- /opt/apps/ayatana-settings.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
