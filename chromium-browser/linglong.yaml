@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: chromium-browser.linyaps
+  name: chromium-browser
+  version: 1.0.0.0
+  kind: app
+  description: |-
+    Transitional package - chromium-browser -> chromium snap
+    This is a transitional dummy package. It can safely be removed.
+
+    chromium-browser is now replaced by the chromium snap.
+command:
+- /opt/apps/chromium-browser.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
