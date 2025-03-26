@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: aseba.linyaps
+  name: aseba
+  version: 1.6.99.9
+  kind: app
+  description: |-
+    Event-based framework for distributed mobile robots control
+    Aseba's core is a lightweight virtual machine, small enough to run on
+    any 16 bits microcontroller.  In Aseba, all virtual machines are
+    linked in a network and all their programs are developed and debugged
+    from a single application, Aseba Studio.
+
+    Aseba allows one to program Thymio, a small robot to discover the
+    universe of robotics and learn a robot's language.
+command:
+- /opt/apps/aseba.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

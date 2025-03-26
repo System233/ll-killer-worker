@@ -1,0 +1,109 @@
+正在测试: APPID=aseba.linyaps LAYER=aseba.linyaps_1.6.99.9_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install aseba.linyaps_1.6.99.9_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:aseba.linyaps
+Layer文件:aseba.linyaps_1.6.99.9_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: aseba.linyaps_1.6.99.9_arm64_binary.layer
+offset: 778
+mountpoint: /tmp/tmp.dFU2783u59/mnt
+dbglevel: 0
+[成功] asebachallenge.desktop: asebachallenge -> /opt/apps/aseba.linyaps/files/share/icons/hicolor/48x48/apps/asebachallenge.png
+[成功] /opt/apps/aseba.linyaps/files/share/applications/asebachallenge.desktop: /opt/apps/aseba.linyaps/files/entrypoint.sh asebachallenge
+[成功] asebaonlinehelp.desktop: asebahelp -> /opt/apps/aseba.linyaps/files/share/icons/hicolor/48x48/apps/asebahelp.png
+[成功] /opt/apps/aseba.linyaps/files/share/applications/asebaonlinehelp.desktop: /opt/apps/aseba.linyaps/files/entrypoint.sh xdg-open http://www.thymio.org/en:start
+[成功] asebaplayground.desktop: asebaplayground -> /opt/apps/aseba.linyaps/files/share/icons/hicolor/48x48/apps/asebaplayground.png
+[成功] /opt/apps/aseba.linyaps/files/share/applications/asebaplayground.desktop: /opt/apps/aseba.linyaps/files/entrypoint.sh asebaplayground
+[成功] asebastudio.desktop: asebastudio -> /opt/apps/aseba.linyaps/files/share/icons/hicolor/48x48/apps/asebastudio.png
+[成功] /opt/apps/aseba.linyaps/files/share/applications/asebastudio.desktop: /opt/apps/aseba.linyaps/files/entrypoint.sh asebastudio
+[成功] asebastudiothymio.desktop: asebastudiothymio -> /opt/apps/aseba.linyaps/files/share/icons/hicolor/48x48/apps/asebastudiothymio.png
+[成功] /opt/apps/aseba.linyaps/files/share/applications/asebastudiothymio.desktop: /opt/apps/aseba.linyaps/files/entrypoint.sh asebastudio "ser:name=Thymio-II"
+[成功] asebawebridge.desktop: asebachallenge -> /opt/apps/aseba.linyaps/files/share/icons/hicolor/48x48/apps/asebachallenge.png
+[成功] /opt/apps/aseba.linyaps/files/share/applications/asebawebridge.desktop: /opt/apps/aseba.linyaps/files/entrypoint.sh asebahttp --autorestart -s 33333 "ser:name=Thymio"
+[成功] thymioupgrader.desktop: thymioupgrader -> /opt/apps/aseba.linyaps/files/share/icons/hicolor/48x48/apps/thymioupgrader.png
+[成功] /opt/apps/aseba.linyaps/files/share/applications/thymioupgrader.desktop: /opt/apps/aseba.linyaps/files/entrypoint.sh thymioupgrader
+[成功] thymiovpl.desktop: thymiovpl -> /opt/apps/aseba.linyaps/files/share/icons/hicolor/48x48/apps/thymiovpl.png
+[31m[失败] /opt/apps/aseba.linyaps/files/share/applications/thymiovpl.desktop:thymiovpl: 找不到此启动文件 [0m
+[成功] thymiownetconfig.desktop: thymiownetconfig -> /opt/apps/aseba.linyaps/files/share/icons/hicolor/48x48/apps/thymiownetconfig.png
+[成功] /opt/apps/aseba.linyaps/files/share/applications/thymiownetconfig.desktop: /opt/apps/aseba.linyaps/files/entrypoint.sh thymiownetconfig
+[正在测试启动项]
+包名:aseba.linyaps
+Layer文件:aseba.linyaps_1.6.99.9_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: aseba.linyaps_1.6.99.9_arm64_binary.layer
+offset: 778
+mountpoint: /tmp/tmp.bYkyyeSQos/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run aseba.linyaps -- /opt/apps/aseba.linyaps/files/entrypoint.sh asebachallenge
+[PID 9945] 进程已启动
+[PID 9945] 已检测到窗口:PID=36
+[PID 9945] 正在截图 0秒: tests/screen0-0.jpg
+[PID 9945] 正在截图 1秒: tests/screen0-1.jpg
+[PID 9945] 正在截图 3秒: tests/screen0-3.jpg
+[PID 9945] 正在截图 5秒: tests/screen0-5.jpg
+[PID 9945] 正在通知并等待进程退出
+[PID 9945] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run aseba.linyaps -- /opt/apps/aseba.linyaps/files/entrypoint.sh xdg-open http://www.thymio.org/en:start
+[PID 10133] 进程已启动
+[PID 10133] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run aseba.linyaps -- /opt/apps/aseba.linyaps/files/entrypoint.sh asebaplayground
+[PID 10266] 进程已启动
+[PID 10266] 已检测到窗口:PID=36
+[PID 10266] 正在截图 0秒: tests/screen2-0.jpg
+[PID 10266] 正在截图 1秒: tests/screen2-1.jpg
+[PID 10266] 正在截图 3秒: tests/screen2-3.jpg
+[PID 10266] 正在截图 5秒: tests/screen2-5.jpg
+[PID 10266] 正在通知并等待进程退出
+[PID 10266] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run aseba.linyaps -- /opt/apps/aseba.linyaps/files/entrypoint.sh asebastudio
+[PID 10441] 进程已启动
+[PID 10441] 已检测到窗口:PID=36
+[PID 10441] 正在截图 0秒: tests/screen3-0.jpg
+[PID 10441] 正在截图 1秒: tests/screen3-1.jpg
+[PID 10441] 正在截图 3秒: tests/screen3-3.jpg
+[PID 10441] 正在截图 5秒: tests/screen3-5.jpg
+[PID 10441] 正在通知并等待进程退出
+[PID 10441] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run aseba.linyaps -- /opt/apps/aseba.linyaps/files/entrypoint.sh asebastudio "ser:name=Thymio-II"
+[PID 10598] 进程已启动
+[PID 10598] 已检测到窗口:PID=36
+[PID 10598] 正在截图 0秒: tests/screen4-0.jpg
+[PID 10598] 正在截图 1秒: tests/screen4-1.jpg
+[PID 10598] 正在截图 3秒: tests/screen4-3.jpg
+[PID 10598] 正在截图 5秒: tests/screen4-5.jpg
+[PID 10598] 正在通知并等待进程退出
+[PID 10598] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run aseba.linyaps -- /opt/apps/aseba.linyaps/files/entrypoint.sh asebahttp --autorestart -s 33333 "ser:name=Thymio"
+[PID 10753] 进程已启动
+[PID 10753] 正在截图 0秒: tests/screen5-0.jpg
+[PID 10753] 正在截图 1秒: tests/screen5-1.jpg
+[PID 10753] 正在截图 3秒: tests/screen5-3.jpg
+[PID 10753] 正在截图 5秒: tests/screen5-5.jpg
+[PID 10753] 正在通知并等待进程退出
+[PID 10753] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run aseba.linyaps -- /opt/apps/aseba.linyaps/files/entrypoint.sh thymioupgrader
+[PID 11217] 进程已启动
+[PID 11217] 已检测到窗口:PID=36
+[PID 11217] 正在截图 0秒: tests/screen6-0.jpg
+[PID 11217] 正在截图 1秒: tests/screen6-1.jpg
+[PID 11217] 正在截图 3秒: tests/screen6-3.jpg
+[PID 11217] 正在截图 5秒: tests/screen6-5.jpg
+[PID 11217] 正在通知并等待进程退出
+[PID 11217] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run aseba.linyaps -- /opt/apps/aseba.linyaps/files/entrypoint.sh thymiovpl "ser:name=Thymio-II"
+[PID 11374] 进程已启动
+[PID 11374] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run aseba.linyaps -- /opt/apps/aseba.linyaps/files/entrypoint.sh thymiownetconfig
+[PID 11499] 进程已启动
+[PID 11499] 已检测到窗口:PID=36
+[PID 11499] 正在截图 0秒: tests/screen8-0.jpg
+[PID 11499] 正在截图 1秒: tests/screen8-1.jpg
+[PID 11499] 正在截图 3秒: tests/screen8-3.jpg
+[PID 11499] 正在截图 5秒: tests/screen8-5.jpg
+[PID 11499] 正在通知并等待进程退出
+[PID 11499] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall aseba.linyaps

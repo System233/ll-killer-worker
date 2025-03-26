@@ -1,0 +1,9 @@
+/usr/bin/ll-cli run aseba.linyaps -- /opt/apps/aseba.linyaps/files/entrypoint.sh asebachallenge
+/usr/bin/ll-cli run aseba.linyaps -- /opt/apps/aseba.linyaps/files/entrypoint.sh xdg-open http://www.thymio.org/en:start
+/usr/bin/ll-cli run aseba.linyaps -- /opt/apps/aseba.linyaps/files/entrypoint.sh asebaplayground
+/usr/bin/ll-cli run aseba.linyaps -- /opt/apps/aseba.linyaps/files/entrypoint.sh asebastudio
+/usr/bin/ll-cli run aseba.linyaps -- /opt/apps/aseba.linyaps/files/entrypoint.sh asebastudio "ser:name=Thymio-II"
+/usr/bin/ll-cli run aseba.linyaps -- /opt/apps/aseba.linyaps/files/entrypoint.sh asebahttp --autorestart -s 33333 "ser:name=Thymio"
+/usr/bin/ll-cli run aseba.linyaps -- /opt/apps/aseba.linyaps/files/entrypoint.sh thymioupgrader
+/usr/bin/ll-cli run aseba.linyaps -- /opt/apps/aseba.linyaps/files/entrypoint.sh thymiovpl "ser:name=Thymio-II"
+/usr/bin/ll-cli run aseba.linyaps -- /opt/apps/aseba.linyaps/files/entrypoint.sh thymiownetconfig
