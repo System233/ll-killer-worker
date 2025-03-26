@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: cinnamon-screensaver.linyaps
+  name: cinnamon-screensaver
+  version: 6.0.3.1
+  kind: app
+  description: |-
+    Cinnamon screen saver and locker
+    cinnamon-screensaver is a screen saver and locker that aims to have simple,
+    sane and secure defaults, and be well integrated with the Cinnamon desktop.
+command:
+- /opt/apps/cinnamon-screensaver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
