@@ -1,0 +1,33 @@
+version: "1"
+package:
+  id: calibre.linyaps
+  name: calibre
+  version: 7.6.0.1
+  kind: app
+  description: |-
+    powerful and easy to use e-book manager
+    Calibre is a complete e-library solution. It includes library management,
+    format conversion, news feeds to e-book conversion, e-book viewer and editor,
+    and e-book reader sync features.
+
+    Calibre is primarily an e-book cataloging program. It manages your e-book
+    collection for you. It is designed around the concept of the logical book,
+    i.e. a single entry in the database that may correspond to e-books in several
+    formats. It also supports conversion to and from a dozen different e-book
+    formats.
+
+    Calibre supports almost every single e-Reader (e.g., Kindle, Kobo, Nook) and
+    is compatible with more devices with every update. Calibre can transfer your
+    e-books from one device to another in seconds, wirelessly or with a cable.
+    It will send the best file format for your device converting it if
+    needed, automatically.
+
+    Calibre can automatically fetch news from a number of websites/RSS feeds,
+    format the news into a e-book and upload to a connected device.
+
+    Calibre has also a built-in e-book viewer that can display all the major e-book
+    formats.
+command:
+- /opt/apps/calibre.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
