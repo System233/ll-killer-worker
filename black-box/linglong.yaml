@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: black-box.linyaps
+  name: black-box
+  version: 1.4.8.4
+  kind: app
+  description: |-
+    Find the crystals
+    There's a black box. You can shoot in and watch, where the shot leaves
+    the box. In the box, crystals are reflecting the shots. You have to
+    guess where the crystals are hidden, by watching your shots.
+command:
+- /opt/apps/black-box.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
