@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: cn.com.hisign.hsivlive.linyaps
+  name: cn.com.hisign.hsivlive
+  version: 3.10.8.0
+  kind: app
+  description: Intelligent binocular living body detector
+command:
+- /opt/apps/cn.com.hisign.hsivlive.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
