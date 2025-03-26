@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: com.everfine.finger.linyaps
+  name: com.everfine.finger
+  version: 2021.11.5.1
+  kind: app
+  description: |-
+    C/C++ smart IDE
+    <insert long description, indented with spaces>
+command:
+- /opt/apps/com.everfine.finger.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
