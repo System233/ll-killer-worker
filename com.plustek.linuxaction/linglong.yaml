@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.plustek.linuxaction.linyaps
+  name: com.plustek.linuxaction
+  version: 3.0.3.20
+  kind: app
+  description: LinuxAction is the scan utility of Plustek scanners.
+command:
+- /opt/apps/com.plustek.linuxaction.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
