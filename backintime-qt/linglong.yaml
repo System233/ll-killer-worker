@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: backintime-qt.linyaps
+  name: backintime-qt
+  version: 1.4.3.1
+  kind: app
+  description: |-
+    simple backup/snapshot system (graphical interface)
+    Back In Time is a framework for rsync and cron for the purpose of
+    taking snapshots and backups of specified folders. It minimizes disk space use
+    by taking a snapshot only if the directory has been changed, and hard links
+    for unmodified files if it has. The user can schedule regular backups using
+    cron.
+
+    This is the graphical interface for Back In Time.
+command:
+- /opt/apps/backintime-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
