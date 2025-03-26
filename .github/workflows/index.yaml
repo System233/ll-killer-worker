@@ -17,6 +17,10 @@ jobs:
          - runner: ubuntu-24.04-arm
            arch: arm64
       fail-fast: false
+    env:
+      ARCH: ${{matrix.arch}}
+      RUNNER: ${{matrix.runner}}
+      WORK_DIR: build/${{matrix.arch}}
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -26,24 +30,23 @@ jobs:
         run: |
           sudo apt update
           sudo apt install apt-file -y
-      - name: Check
-        id: check
+      - name: Init
         run: |
           sudo sysctl -w kernel.unprivileged_userns_clone=1
           sudo sysctl -w user.max_user_namespaces=28633
           sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
           sudo sysctl -w kernel.apparmor_restrict_unprivileged_unconfined=0
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull origin $ARCH --rebase
+          git -C "$WORK_DIR" pull origin $ARCH --rebase
+      - name: Check
+        id: check
+        run: |
           make index
-          WORK_DIR="build/$ARCH"
+      - name: Commit
+        id: commit
+        run: |
           cd "$WORK_DIR"
           git add index.csv
           git diff --cached --quiet || git commit -m "Update Index"
           git pull origin $ARCH --rebase && git push origin HEAD:$ARCH
-        env:
-          ARCH: ${{matrix.arch}}
-          RUNNER: ${{matrix.runner}}
       # - uses: valeriangalliat/action-sshd-cloudflared@v3
       #   if: failure()
