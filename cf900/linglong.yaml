@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: cf900.linyaps
+  name: cf900
+  version: 1.0.0.0
+  kind: app
+  description: CF900滚动指纹采集仪动态库和测试程序
+command:
+- /opt/apps/cf900.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
