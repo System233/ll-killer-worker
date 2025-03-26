@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.toec.toecscanner.linyaps
+  name: com.toec.toecscanner
+  version: 2.6.0.4
+  kind: app
+  description: Driver for TOEC Scanner.
+command:
+- /opt/apps/com.toec.toecscanner.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
