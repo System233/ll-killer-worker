@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: dde-desktop.linyaps
+  name: dde-desktop
+  version: 6.5.10.4
+  kind: app
+  description: |-
+    deepin desktop-environment - desktop module
+    Deepin Desktop Environment (DDE) - desktop module.
+command:
+- /opt/apps/dde-desktop.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
