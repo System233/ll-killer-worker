@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.toec.oem3000dn.linyaps
+  name: com.toec.oem3000dn
+  version: 2.6.0.4
+  kind: app
+  description: Driver for TOEC OEM3000DN MFP.
+command:
+- /opt/apps/com.toec.oem3000dn.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
