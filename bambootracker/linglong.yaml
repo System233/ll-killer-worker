@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: bambootracker.linyaps
+  name: bambootracker
+  version: 0.6.1.1
+  kind: app
+  description: |-
+    YM2608 (OPNA, sound chip of Yamaha) music tracker
+    This is a music tracker for the Yamaha sound chip YM2608 (OPNA) which was used
+    in NEC PC-8801/9801 series computers.
+command:
+- /opt/apps/bambootracker.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
