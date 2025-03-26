@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: calligrasheets.linyaps
+  name: calligrasheets
+  version: 3.2.1.8
+  kind: app
+  description: |-
+    spreadsheet for the Calligra Suite
+    Tables is a powerful spreadsheet application.  It is scriptable and
+    provides both table-oriented sheets and support for complex mathematical
+    formulae and statistics. It is the successor of KSpread.
+
+    This package is part of the Calligra Suite.
+command:
+- /opt/apps/calligrasheets.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
