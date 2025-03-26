@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: bastet.linyaps
+  name: bastet
+  version: 0.43.0.7
+  kind: app
+  description: |-
+    ncurses Tetris clone with a bastard algorithm
+    Bastet ("bastard Tetris") is a free clone of Tetris which tries to
+    compute how useful blocks are and gives you the worst possible brick.
+    Playing bastet can be a painful experience, especially if you usually
+    make "canyons" and wait for the long I-shaped block.
+command:
+- /opt/apps/bastet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
