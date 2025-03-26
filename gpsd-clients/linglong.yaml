@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: gpsd-clients.linyaps
+  name: gpsd-clients
+  version: 3.25.0.2
+  kind: app
+  description: |-
+    Global Positioning System - clients
+    The gpsd service daemon can monitor one or more GPS devices connected to
+    a host computer, making all data on the location and movements of the
+    sensors available to be queried on TCP port 2947.
+
+    This package contains auxiliary tools and example clients for monitoring,
+    testing, latency-profiling, device configuration and simulating gpsd.
+command:
+- /opt/apps/gpsd-clients.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
