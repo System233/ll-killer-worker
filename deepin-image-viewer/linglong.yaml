@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-image-viewer.linyaps
+  name: deepin-image-viewer
+  version: 5.9.20.0
+  kind: app
+  description: |-
+    Image Viewer is an image viewing tool with fashion interface and smooth performance.
+    Deepin Image Viewer is an image viewing tool with fashion interface and smooth performance.
+command:
+- /opt/apps/deepin-image-viewer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
