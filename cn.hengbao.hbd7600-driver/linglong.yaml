@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: cn.hengbao.hbd7600-driver.linyaps
+  name: cn.hengbao.hbd7600-driver
+  version: 1.0.8.0
+  kind: app
+  description: HENGBAO HBD7600 Series Printers Driver
+command:
+- /opt/apps/cn.hengbao.hbd7600-driver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
