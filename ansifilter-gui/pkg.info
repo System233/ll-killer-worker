@@ -1,0 +1,27 @@
+Package: ansifilter-gui
+Version: 2.18+dfsg1-2build2
+Priority: optional
+Section: universe/devel
+Source: ansifilter
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Sebastian Humenda <shumenda@gmx.de>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 349 kB
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5t64 (>= 5.2.0~alpha1), libstdc++6 (>= 13.1)
+Homepage: http://andre-simon.de/doku/ansifilter/en/ansifilter.php
+Download-Size: 120 kB
+APT-Sources: https://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+Description: parse common (terminal) ANSI codes and remove or convert them (GUI)
+ ANSI codes are commands embedded in a text stream to add formatting
+ instructions into text. These codes are interpreted by terminal emulators like
+ xterm or Putty.
+ .
+ ANSIFilter parses common ANSI codes to remove them or to convert them to
+ another colored text file format (HTML, TeX, LaTeX, RTF, Pango or BBCode).
+ Support for ANSI art files (based on codepage 437 and ANSI.SYS sequences or BIN
+ /XBIN/TND files) is enabled with the --art-cp437, --art-bin and --art-tundra
+ options.
+ .
+ This package provides a GUI application.
+
