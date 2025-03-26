@@ -184,7 +184,7 @@ jobs:
             rm -rf "$PKGID"
             mkdir -p "$PKGID"
             shopt -s nullglob
-            cp -arf $SRC_DIR/*.log $SRC_DIR/tests $SRC_DIR/*.mk $SRC_DIR/*.yaml $SRC_DIR/SHA*SUMS $SRC_DIR/version "$PKGID" 
+            cp -arf $SRC_DIR/*.log $SRC_DIR/tests $SRC_DIR/*.mk $SRC_DIR/*.yaml $SRC_DIR/SHA*SUMS $SRC_DIR/version "$PKGID" || true
             
             if [ "${{steps.test.outputs.fail}}" = "yes" ];then
               echo -n "-${HASH}">>$PKGID/version
