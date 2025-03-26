@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: alacarte.linyaps
+  name: alacarte
+  version: 3.52.0.1
+  kind: app
+  description: |-
+    easy GNOME menu editing tool
+    Alacarte is an easy-to-use menu editor for GNOME that can add
+    and edit new entries and menus. It works with the freedesktop.org
+    menu specification and should work with any desktop environment
+    that uses the spec.
+command:
+- /opt/apps/alacarte.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
