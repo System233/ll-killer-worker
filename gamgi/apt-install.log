@@ -1,0 +1,39 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  fonts-dejavu fonts-dejavu-extra libgtkglext1
+Suggested packages:
+  gamgi-data gamgi-doc
+The following NEW packages will be installed:
+  fonts-dejavu fonts-dejavu-extra gamgi libgtkglext1
+0 upgraded, 4 newly installed, 0 to remove and 236 not upgraded.
+Need to get 2815 kB of archives.
+After this operation, 10.7 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main amd64 fonts-dejavu-extra all 2.37-deepin [1984 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main amd64 fonts-dejavu all 2.37-deepin [26.9 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main amd64 libgtkglext1 amd64 1.2.0-11 [91.1 kB]
+Get:4 https://community-packages.deepin.com/beige beige/community amd64 gamgi amd64 0.17.5-1 [713 kB]
+Fetched 2815 kB in 1s (1883 kB/s)
+Selecting previously unselected package fonts-dejavu-extra.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../fonts-dejavu-extra_2.37-deepin_all.deb ...
+Unpacking fonts-dejavu-extra (2.37-deepin) ...
+Selecting previously unselected package fonts-dejavu.
+Preparing to unpack .../fonts-dejavu_2.37-deepin_all.deb ...
+Unpacking fonts-dejavu (2.37-deepin) ...
+Selecting previously unselected package libgtkglext1:amd64.
+Preparing to unpack .../libgtkglext1_1.2.0-11_amd64.deb ...
+Unpacking libgtkglext1:amd64 (1.2.0-11) ...
+Selecting previously unselected package gamgi.
+Preparing to unpack .../gamgi_0.17.5-1_amd64.deb ...
+Unpacking gamgi (0.17.5-1) ...
+Setting up libgtkglext1:amd64 (1.2.0-11) ...
+Setting up fonts-dejavu-extra (2.37-deepin) ...
+Setting up fonts-dejavu (2.37-deepin) ...
+Setting up gamgi (0.17.5-1) ...
+Processing triggers for fontconfig (2.14.2-6) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
