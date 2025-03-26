@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: dde-device-formatter.linyaps
+  name: dde-device-formatter
+  version: 0.0.1.16
+  kind: app
+  description: |-
+    Device formatter
+    A simple graphical interface for creating file system in a block device.
+command:
+- /opt/apps/dde-device-formatter.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
