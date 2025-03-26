@@ -1,0 +1,27 @@
+正在测试: APPID=com.toec.toeca3series.linyaps LAYER=com.toec.toeca3series.linyaps_2.5.0.7_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install com.toec.toeca3series.linyaps_2.5.0.7_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:com.toec.toeca3series.linyaps
+Layer文件:com.toec.toeca3series.linyaps_2.5.0.7_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: com.toec.toeca3series.linyaps_2.5.0.7_x86_64_binary.layer
+offset: 420
+mountpoint: /tmp/tmp.aJEJZt17yR/mnt
+dbglevel: 0
+grep: /opt/apps/com.toec.toeca3series.linyaps/files/share/applications/com.toec.toeca3series.desktop: No such file or directory
+grep: /opt/apps/com.toec.toeca3series.linyaps/files/share/applications/com.toec.toeca3series.desktop: No such file or directory
+[31m[失败] /opt/apps/com.toec.toeca3series.linyaps/files/share/applications/com.toec.toeca3series.desktop:: 找不到此启动文件 [0m
+[正在测试启动项]
+包名:com.toec.toeca3series.linyaps
+Layer文件:com.toec.toeca3series.linyaps_2.5.0.7_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: com.toec.toeca3series.linyaps_2.5.0.7_x86_64_binary.layer
+offset: 420
+mountpoint: /tmp/tmp.g0QIY8R4OO/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+awk: fatal: cannot open file `/opt/apps/com.toec.toeca3series.linyaps/files/share/applications/com.toec.toeca3series.desktop' for reading: No such file or directory
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall com.toec.toeca3series.linyaps
