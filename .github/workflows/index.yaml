@@ -44,5 +44,5 @@ jobs:
         env:
           ARCH: ${{matrix.arch}}
           RUNNER: ${{matrix.runner}}
-      - uses: valeriangalliat/action-sshd-cloudflared@v3
-        if: failure()
+      # - uses: valeriangalliat/action-sshd-cloudflared@v3
+      #   if: failure()
