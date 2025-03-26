@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: com.racertech.usbdisp.linyaps
+  name: com.racertech.usbdisp
+  version: 1.0.0.1
+  kind: app
+  description: |-
+    A driver for usbdisp device
+    usbdisp is display management driver for usbdisp devices.
+    usbdisp let the display extend or mirror on usbdisp monitor.
+command:
+- /opt/apps/com.racertech.usbdisp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
