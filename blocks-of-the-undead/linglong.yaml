@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: blocks-of-the-undead.linyaps
+  name: blocks-of-the-undead
+  version: 1.0.0.7
+  kind: app
+  description: |-
+    Tetris Attack clone with spooky undertones
+    Blocks of the Undead is a puzzle game.
+    You have to remove all the blocks on the field by swapping these
+    around.
+command:
+- /opt/apps/blocks-of-the-undead.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
