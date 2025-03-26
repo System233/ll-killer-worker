@@ -1,0 +1,60 @@
+包名:chocolate-doom.linyaps
+Layer文件:chocolate-doom.linyaps_3.0.1.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: chocolate-doom.linyaps_3.0.1.1_arm64_binary.layer
+offset: 1510
+mountpoint: /tmp/tmp.rhTyXMApM8/mnt
+dbglevel: 0
+                         Chocolate Doom 3.0.0
+Z_Init: Init zone memory allocation daemon. 
+zone memory: 0xff6ce5800010, 1000000 allocated for zone
+Using /home/runner/.local/share/chocolate-doom/ for configuration and saves
+V_Init: allocate screens.
+M_LoadDefaults: Load system defaults.
+saving config in /home/runner/.local/share/chocolate-doom/default.cfg
+W_Init: Init WADfiles.
+ adding /usr/share/games/doom/freedoom2.wad
+===========================================================================
+                           Freedoom: Phase 2
+===========================================================================
+ Chocolate Doom is free software, covered by the GNU General Public
+ License.  There is NO warranty; not even for MERCHANTABILITY or FITNESS
+ FOR A PARTICULAR PURPOSE. You are welcome to change and distribute
+ copies under certain conditions. See the source for more information.
+===========================================================================
+I_Init: Setting up machine state.
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2721:(snd_pcm_open_noupdate) Unknown PCM default
+Error initialising SDL_mixer: ALSA: Couldn't open audio device: No such file or directory
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2721:(snd_pcm_open_noupdate) Unknown PCM default
+Error initialising SDL_mixer: ALSA: Couldn't open audio device: No such file or directory
+OPL_Init: Failed to find a working driver.
+Dude.  The Adlib isn't responding.
+NET_Init: Init network subsystem.
+M_Init: Init miscellaneous info.
+R_Init: Init DOOM refresh daemon - [                                               ]...............................................
+P_Init: Init Playloop state.
+S_Init: Setting up sound.
+D_CheckNetGame: Checking network game status.
+startskill 2  deathmatch: 0  startmap: 1  startepisode: 1
+player 1 of 1 (1 nodes)
+Emulating the behavior of the 'Doom 1.9' executable.
+HU_Init: Setting up heads up display.
+ST_Init: Init status bar.
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink

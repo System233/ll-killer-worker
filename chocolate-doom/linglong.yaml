@@ -1,0 +1,34 @@
+version: "1"
+package:
+  id: chocolate-doom.linyaps
+  name: chocolate-doom
+  version: 3.0.1.1
+  kind: app
+  description: |-
+    Doom engines closely-compatible with Vanilla Doom
+    Chocolate Doom aims to accurately reproduce the original DOS version of
+    Doom and other games based on the Doom engine in a form that can be
+    run on modern computers. Unlike most modern Doom engines, Chocolate Doom
+    is not derived from the Boom source port and does not inherit its
+    features (or bugs).
+
+    This package contains:
+    * Chocolate Doom, a port of Id Software's "Doom" (1993)
+    * Chocolate Heretic, a port of Raven Software's "Heretic" (1994)
+    * Chocolate Hexen, a port of Raven Software's "Hexen" (1995)
+    * Chocolate Strife, a recreation of Rogue Entertainment's "Strife" (1996)
+
+    These games are designed to behave as similar to the original DOS version as
+    is possible.
+
+    Chocolate Doom supports all flavors of Doom, including The Ultimate Doom, Doom
+    2 and Final Doom as well as Chex(R) Quest, HacX, Freedoom: Phase 1 and Phase 2
+    and FreeDM.
+
+    All Chocolate game engines require game data to play. For Chocolate Doom,
+    free game data is available in the freedoom package. Commercial game data for
+    all four engines can be packaged using "game-data-packager".
+command:
+- /opt/apps/chocolate-doom.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
