@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: cenon.app.linyaps
+  name: cenon.app
+  version: 4.0.6.2
+  kind: app
+  description: |-
+    Vector graphics tool for GNUstep
+    Cenon is a graphical tool of a special kind. Build upon a modular graphical
+    core, Cenon offers a wide variety of possibilities and applications - not
+    only Desktop Publishing. The best of all, Cenon is free software, available
+    with full source codes, and at home on many computer platforms.
+
+    Convert, import and export DXF, PostScript, Adobe Illustrator, DIN formats,
+    HPGL, Gerber and PDF.
+command:
+- /opt/apps/cenon.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
