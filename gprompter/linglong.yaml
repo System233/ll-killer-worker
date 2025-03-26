@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: gprompter.linyaps
+  name: gprompter
+  version: 0.9.1.1
+  kind: app
+  description: |-
+    intelligent predictive GTK+ text editor
+    gprompter is a cross-platform predictive text editor, based on
+    presage, the intelligent predictive text entry platform.
+
+    gprompter displays predictions in a contextual pop-up box as each
+    letter is typed. Predictions can be easily selected and inserted in
+    the document.
+command:
+- /opt/apps/gprompter.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
