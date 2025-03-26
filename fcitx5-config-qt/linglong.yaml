@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: fcitx5-config-qt.linyaps
+  name: fcitx5-config-qt
+  version: 5.1.2.1
+  kind: app
+  description: |-
+    configuration tool for Fcitx5 (Qt version)
+    This is a configuration tool for Fcitx Input Method Framework v5.
+
+    It provides several tools:
+    - fcitx5-config-qt.
+    - kbd-layout-viewer5.
+    - fcitx5-migrator, which helps to migrate data from Fcitx4.
+    To migrate Fcitx4 pinyin and table data, it needs tools from
+    libime-bin package.
+command:
+- /opt/apps/fcitx5-config-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
