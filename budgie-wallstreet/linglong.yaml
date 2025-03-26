@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: budgie-wallstreet.linyaps
+  name: budgie-wallstreet
+  version: 1.8.0.1
+  kind: app
+  description: |-
+    Change wallpaper from a folder on a schedule
+    This is part of a suite of python3 and Vala based applets & mini-apps
+    created for the Budgie Desktop that provide additional user orientated
+    capabilities. These can be used individually or as a set.
+
+    Wallstreet allows for a directory of pictures to be shown on
+    a schedule.
+command:
+- /opt/apps/budgie-wallstreet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
