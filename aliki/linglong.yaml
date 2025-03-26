@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: aliki.linyaps
+  name: aliki
+  version: 0.3.0.6
+  kind: app
+  description: |-
+    Measurement tool for Impulse Responses
+    Measure Impulse Responses using a sine sweep and deconvolution.
+    For more complete introduction to this method, see
+    https://kokkinizita.linuxaudio.org/linuxaudio/downloads/aliki-manual.pdf
+command:
+- /opt/apps/aliki.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
