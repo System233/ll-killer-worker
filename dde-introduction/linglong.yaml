@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: dde-introduction.linyaps
+  name: dde-introduction
+  version: 7.0.9.0
+  kind: app
+  description: |-
+    Introduction for UOS
+    When you log into the system for the first time, a welcome program will automatically start.
+    Watch the introduction video to get new features, customize your desktop, enable the window
+    effect and know more about UnionTech OS.
+command:
+- /opt/apps/dde-introduction.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
