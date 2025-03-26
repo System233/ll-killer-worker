@@ -9,16 +9,16 @@ Thank you
 
 Version: 0.17.0 +notmuch-5.6.0 (go1.22.2 amd64 linux 2024-10-24)
 
-This error was also written to: /tmp/aerc-crash-20250326-021549.log
+This error was also written to: /tmp/aerc-crash-20250326-064919.log
 panic: exit status 1 [recovered]
 	panic: exit status 1
 
 goroutine 1 [running]:
 git.sr.ht/~rjarry/aerc/log.PanicHandler()
 	git.sr.ht/~rjarry/aerc/log/panic-logger.go:51 +0x6fe
-panic({0x55f7c56346e0?, 0xc0000ef5e0?})
+panic({0x55994e3796e0?, 0xc0000a7380?})
 	runtime/panic.go:770 +0x132
 main.main()
 	git.sr.ht/~rjarry/aerc/main.go:218 +0xa91
 Error: CODE=-1
-./libs/linglong/src/linglong/runtime/container.cpp:189 run container bWFpbjphZXJjLmxpbnlhcHMvMC4xNy4wLjEveDg2XzY0LXs5YTQwYTdkMC1mYzU5LTQ2MjktYmI3ZS01MTAyMzk0MGQzYzJ9: cli run: run command failed: /usr/bin/ll-box --cgroup-manager=disabled run -b /run/user/1001/linglong/bWFpbjphZXJjLmxpbnlhcHMvMC4xNy4wLjEveDg2XzY0LXs5YTQwYTdkMC1mYzU5LTQ2MjktYmI3ZS01MTAyMzk0MGQzYzJ9 bWFpbjphZXJjLmxpbnlhcHMvMC4xNy4wLjEveDg2XzY0LXs5YTQwYTdkMC1mYzU5LTQ2MjktYmI3ZS01MTAyMzk0MGQzYzJ9 retval=65280
+./libs/linglong/src/linglong/runtime/container.cpp:189 run container bWFpbjphZXJjLmxpbnlhcHMvMC4xNy4wLjEveDg2XzY0LXtkZDQyY2Q4ZC1lYzRlLTQxNTMtOTMyMC05MzA1MDQxN2ExMzJ9: cli run: run command failed: /usr/bin/ll-box --cgroup-manager=disabled run -b /run/user/1001/linglong/bWFpbjphZXJjLmxpbnlhcHMvMC4xNy4wLjEveDg2XzY0LXtkZDQyY2Q4ZC1lYzRlLTQxNTMtOTMyMC05MzA1MDQxN2ExMzJ9 bWFpbjphZXJjLmxpbnlhcHMvMC4xNy4wLjEveDg2XzY0LXtkZDQyY2Q4ZC1lYzRlLTQxNTMtOTMyMC05MzA1MDQxN2ExMzJ9 retval=65280
