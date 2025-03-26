@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.neutralchina.neuscan.linyaps
+  name: com.neutralchina.neuscan
+  version: 4.52.26520.24289
+  kind: app
+  description: Neutral scanner SANE driver and application.
+command:
+- /opt/apps/com.neutralchina.neuscan.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
