@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: cinnamon-settings-daemon.linyaps
+  name: cinnamon-settings-daemon
+  version: 6.0.0.1
+  kind: app
+  description: |-
+    daemon handling the Cinnamon session settings
+    This package contains the daemon which is responsible for setting the
+    various parameters of a Cinnamon session and the applications that run
+    under it. It handles the following kinds of settings:
+
+    * Keyboard: layout, accessibility options, shortcuts, media keys
+    * Clipboard management
+    * Theming: background, icons, GTK+ applications
+    * Cleanup of unused files
+    * Startup of other daemons: screensaver
+    * Typing break
+
+    It also sets various application settings through X resources and
+    freedesktop.org XSETTINGS.
+command:
+- /opt/apps/cinnamon-settings-daemon.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
