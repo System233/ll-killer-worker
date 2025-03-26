@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-reader.linyaps
+  name: deepin-reader
+  version: 6.5.2.0
+  kind: app
+  description: |-
+    a tool for reading document files.
+    Document Viewer is a tool for reading document files,supporting PDF, DJVU, DOCX etc
+command:
+- /opt/apps/deepin-reader.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
