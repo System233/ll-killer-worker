@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: bb.linyaps
+  name: bb
+  version: 1.3.0.13
+  kind: app
+  description: |-
+    ASCII-art demo based on AAlib
+    This package contains a 'high quality audio-visual demonstration'
+    of ASCII-art using AAlib, a portable ASCII-art graphics library.
+    This demonstration can be displayed in a text- or X11-terminal.
+command:
+- /opt/apps/bb.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
