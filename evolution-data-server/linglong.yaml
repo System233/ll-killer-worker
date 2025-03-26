@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: evolution-data-server.linyaps
+  name: evolution-data-server
+  version: 3.50.1.1
+  kind: app
+  description: |-
+    evolution database backend server
+    The data server, called "Evolution Data Server" is responsible for managing
+    mail, calendar, addressbook, tasks and memo information.
+command:
+- /opt/apps/evolution-data-server.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
