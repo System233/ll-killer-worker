@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: budgie-quickchar.linyaps
+  name: budgie-quickchar
+  version: 1.8.0.1
+  kind: app
+  description: |-
+    GUI to find and choose locale characters
+    This is part of a suite of python3 and Vala based applets & mini-apps
+    created for the Budgie Desktop that provide additional user orientated
+    capabilities. These can be used individually or as a set.
+
+    Quickly find and choose the equivalent locale character for an ascii
+    character.
+
+    Quickchar can be used on most desktop environments invoked by a shortcut key.
+command:
+- /opt/apps/budgie-quickchar.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
