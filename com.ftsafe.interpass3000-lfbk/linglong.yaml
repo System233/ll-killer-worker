@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.ftsafe.interpass3000-lfbk.linyaps
+  name: com.ftsafe.interpass3000-lfbk
+  version: 1.0.7.1
+  kind: app
+  description: InterPass3000 for ftsafe
+command:
+- /opt/apps/com.ftsafe.interpass3000-lfbk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
