@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: 0install.linyaps
+  name: 0install
+  version: 2.18.0.2
+  kind: app
+  description: |-
+    cross-distribution packaging system
+    Zero Install is a decentralised cross-distribution software installation
+    system available under the LGPL. It allows software developers to publish
+    programs directly from their own web-sites, while supporting features familiar
+    from centralised distribution repositories such as shared libraries, automatic
+    updates and digital signatures. It is intended to complement, rather than
+    replace, the operating system's package management. 0install packages never
+    interfere with those provided by the distribution.
+
+    This package includes the GTK GUI for 0install. If you have a headless system,
+    install just the 0install-core package to avoid pulling in any GUI
+    dependencies.
+command:
+- /opt/apps/0install.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
