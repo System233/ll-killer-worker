@@ -1,0 +1,24 @@
+Package: autokey-qt
+Version: 0.95.10-2.1
+Priority: optional
+Section: universe/kde
+Source: autokey
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 660 kB
+Depends: autokey-common (= 0.95.10-2.1), python3-pyqt5, python3-pyqt5.qsci, python3-pyqt5.qtsvg, python3:any
+Suggests: gnome-shell-extension-appindicator
+Homepage: https://github.com/autokey/autokey
+Download-Size: 133 kB
+APT-Sources: https://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+Description: desktop automation utility - Qt version
+ AutoKey is a desktop automation utility for Linux and X11. It allows the
+ automation of virtually any task by responding to typed abbreviations and
+ hotkeys. It offers a full-featured GUI that makes it highly accessible for
+ novices, as well as a scripting interface offering the full flexibility and
+ power of the Python language.
+ .
+ This package contains the Qt frontend.
+
