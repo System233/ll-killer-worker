@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: aegisub.linyaps
+  name: aegisub
+  version: 3.2.2.7
+  kind: app
+  description: |-
+    advanced subtitle editor
+    Originally created as tool to make typesetting, particularly in anime
+    fansubs, a less painful experience, Aegisub has grown into a fully
+    fledged, highly customizable subtitle editor.
+
+    It features a lot of convenient tools to help you with timing, typesetting,
+    editing and translating subtitles, as well as a powerful scripting environment
+    called Automation (originally mostly intended for creating karaoke effects,
+    Automation can now be used much else, including creating macros and various
+    other convenient tools).
+command:
+- /opt/apps/aegisub.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

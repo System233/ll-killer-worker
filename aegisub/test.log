@@ -1,0 +1,28 @@
+正在测试: APPID=aegisub.linyaps LAYER=aegisub.linyaps_3.2.2.7_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install aegisub.linyaps_3.2.2.7_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:aegisub.linyaps
+Layer文件:aegisub.linyaps_3.2.2.7_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: aegisub.linyaps_3.2.2.7_arm64_binary.layer
+offset: 902
+mountpoint: /tmp/tmp.tWZvqmxGS1/mnt
+dbglevel: 0
+[成功] aegisub.desktop: aegisub -> /opt/apps/aegisub.linyaps/files/share/icons/hicolor/16x16/apps/aegisub.png
+[成功] /opt/apps/aegisub.linyaps/files/share/applications/aegisub.desktop: /opt/apps/aegisub.linyaps/files/entrypoint.sh aegisub-3.2 %f
+[正在测试启动项]
+包名:aegisub.linyaps
+Layer文件:aegisub.linyaps_3.2.2.7_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: aegisub.linyaps_3.2.2.7_arm64_binary.layer
+offset: 902
+mountpoint: /tmp/tmp.X1Hu2qNqZR/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run aegisub.linyaps -- /opt/apps/aegisub.linyaps/files/entrypoint.sh aegisub-3.2
+[PID 9378] 进程已启动
+[PID 9378] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall aegisub.linyaps
