@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: atril.linyaps
+  name: atril
+  version: 1.26.2.3
+  kind: app
+  description: |-
+    MATE document viewer
+    Atril is a simple multi-page document viewer.  It can display
+    and print PostScript (PS), Encapsulated PostScript (EPS), DJVU, DVI, EPUB,
+    ComicBook and Portable Document Format (PDF) files.
+
+    When supported by the document, it also allows searching for text,
+    copying text to the clipboard, hypertext navigation, and
+    table-of-contents bookmarks.
+command:
+- /opt/apps/atril.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
