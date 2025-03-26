@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: gpac.linyaps
+  name: gpac
+  version: 2.2.1.3
+  kind: app
+  description: |-
+    GPAC Project on Advanced Content - utilities
+    GPAC stands for GPAC Project on Advanced Content (a recursive acronym). It is
+    an Open Source multimedia framework for research and academic purposes. The
+    project covers different aspects of multimedia, with a focus on presentation
+    technologies (graphics, animation and interactivity).
+
+    This package contains the following utilities:
+    - MP4Box
+command:
+- /opt/apps/gpac.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
