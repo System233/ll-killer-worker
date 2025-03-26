@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: firefox.linyaps
+  name: firefox
+  version: 131.0.3.1
+  kind: app
+  description: |-
+    Mozilla Firefox web browser
+    Firefox is a powerful, extensible web browser with support for modern
+    web application technologies.
+command:
+- /opt/apps/firefox.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

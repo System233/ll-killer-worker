@@ -1,0 +1,37 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libnss3
+Suggested packages:
+  fonts-stix | otf-stix fonts-lmodern libcanberra0
+The following NEW packages will be installed:
+  firefox
+The following packages will be upgraded:
+  libnss3
+1 upgraded, 1 newly installed, 0 to remove and 235 not upgraded.
+Need to get 66.7 MB of archives.
+After this operation, 249 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main amd64 libnss3 amd64 2:3.105-2 [1380 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main amd64 firefox amd64 131.0.3-1deepin1 [65.3 MB]
+Fetched 66.7 MB in 3s (20.5 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libnss3_2%3a3.105-2_amd64.deb ...
+Unpacking libnss3:amd64 (2:3.105-2) over (2:3.100-1) ...
+Selecting previously unselected package firefox.
+Preparing to unpack .../firefox_131.0.3-1deepin1_amd64.deb ...
+Unpacking firefox (131.0.3-1deepin1) ...
+Setting up libnss3:amd64 (2:3.105-2) ...
+Setting up firefox (131.0.3-1deepin1) ...
+
+Configuration file '/etc/firefox/firefox.js', does not exist on system.
+Installing new config file as you requested.
+update-alternatives: using /usr/bin/firefox to provide /usr/bin/x-www-browser (x-www-browser) in auto mode
+update-alternatives: using /usr/bin/firefox to provide /usr/bin/gnome-www-browser (gnome-www-browser) in auto mode
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libc-bin (2.38-6deepin4) ...
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
