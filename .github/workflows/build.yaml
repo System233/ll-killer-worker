@@ -80,7 +80,7 @@ jobs:
     needs: list
     if: ${{needs.list.outputs.tasks!=''&&needs.list.outputs.tasks!='[]'}}
     strategy:
-      max-parallel: 32
+      max-parallel: 100
       matrix:
         pkg: ${{fromJson(needs.list.outputs.tasks)}}
       fail-fast: false
@@ -124,7 +124,7 @@ jobs:
         # if: ${{true}}
       - name: Build
         run: |
-          make test||true
+          make build test||true
       - name: Test
         id: test
         run: |
