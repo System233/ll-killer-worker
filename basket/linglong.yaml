@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: basket.linyaps
+  name: basket
+  version: 2.49.0.1
+  kind: app
+  description: |-
+    multi-purpose note-taking application
+    This application provides as many baskets (drawers) as you wish; Several
+    kinds of objects (texts, URLs, images,...) can be drag-n-drop'd into it.
+
+    Objects can be edited, copied, dragged... So, they can be arranged
+    according to users' taste. Moreover, Basket allows you to keep all objects
+    you want in one place, keep data on hand, take notes...
+command:
+- /opt/apps/basket.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
