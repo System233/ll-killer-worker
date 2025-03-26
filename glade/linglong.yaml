@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: glade.linyaps
+  name: glade
+  version: 3.40.0.3
+  kind: app
+  description: |-
+    GTK+ User Interface Builder
+    Glade is a RAD tool to enable quick and easy development of user
+    interfaces for the GTK+ toolkit.
+
+    The user interfaces designed in Glade are stored in the well-known
+    XML format, enabling easy integration with external tools. You will
+    probably want to use it with tools such as GtkBuilder, which can load
+    the XML files and create the interfaces at runtime.
+
+    This version is more modular than previous ones, so you can install
+    modules to add additional widgets for Glade to use.
+command:
+- /opt/apps/glade.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
