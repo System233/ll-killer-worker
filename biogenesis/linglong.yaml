@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: biogenesis.linyaps
+  name: biogenesis
+  version: 0.8.0.3
+  kind: app
+  description: |-
+    artificial life program that simulates evolution of organisms
+    Biogenesis is an artificial life program that simulates the processes
+    involved in the evolution of organisms. It shows colored segment based
+    organisms that mutate and evolve in a 2D environment. Biogenesis is based
+    on Primordial Life.
+command:
+- /opt/apps/biogenesis.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
