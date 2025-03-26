@@ -1,6 +1,6 @@
 
-LAYER_ROOT ?= $(HOME)/.cache/linglong-builder/
-OSTREE_ROOT ?= $(LAYER_ROOT)/repo1
+LAYER_ROOT ?= $(HOME)/.cache/linglong-builder
+OSTREE_ROOT ?= $(LAYER_ROOT)/repo
 OSTREE_NAME ?= stable
 OSTREE_REMOTE ?= https://mirror-repo-linglong.deepin.com/repos/stable
 OSTREE=ostree --repo=$(OSTREE_ROOT)
