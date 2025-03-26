@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: com.microtek.scaner.linyaps
+  name: com.microtek.scaner
+  version: 1.0.0.9
+  kind: app
+  description: |-
+    Scanner Application
+    扫描应用软件
+command:
+- /opt/apps/com.microtek.scaner.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
