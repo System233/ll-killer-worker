@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.hanlongbj.omniscan.linyaps
+  name: com.hanlongbj.omniscan
+  version: 1.0.0.0
+  kind: app
+  description: 适用于OS15000和OS12000的OmniScan
+command:
+- /opt/apps/com.hanlongbj.omniscan.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
