@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: ansifilter-gui.linyaps
+  name: ansifilter-gui
+  version: 2.18.0.2
+  kind: app
+  description: |-
+    parse common (terminal) ANSI codes and remove or convert them (GUI)
+    ANSI codes are commands embedded in a text stream to add formatting
+    instructions into text. These codes are interpreted by terminal emulators like
+    xterm or Putty.
+
+    ANSIFilter parses common ANSI codes to remove them or to convert them to
+    another colored text file format (HTML, TeX, LaTeX, RTF, Pango or BBCode).
+    Support for ANSI art files (based on codepage 437 and ANSI.SYS sequences or BIN
+    /XBIN/TND files) is enabled with the --art-cp437, --art-bin and --art-tundra
+    options.
+
+    This package provides a GUI application.
+command:
+- /opt/apps/ansifilter-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
