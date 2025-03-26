@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: dde-cooperation.linyaps
+  name: dde-cooperation
+  version: 1.0.2.1
+  kind: app
+  description: |-
+    deepin cooperation application
+    Deepin Desktop Environment (DDE) - cooperation application.
+command:
+- /opt/apps/dde-cooperation.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
