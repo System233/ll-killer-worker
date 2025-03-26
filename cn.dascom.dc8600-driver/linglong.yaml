@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: cn.dascom.dc8600-driver.linyaps
+  name: cn.dascom.dc8600-driver
+  version: 1.0.0.0
+  kind: app
+  description: DASCOM DC8600 Series Printers Driver
+command:
+- /opt/apps/cn.dascom.dc8600-driver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
