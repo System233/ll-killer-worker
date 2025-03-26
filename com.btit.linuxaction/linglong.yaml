@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.btit.linuxaction.linyaps
+  name: com.btit.linuxaction
+  version: 3.1.10.20
+  kind: app
+  description: The BTIT scanner's backend and scan utility.
+command:
+- /opt/apps/com.btit.linuxaction.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
