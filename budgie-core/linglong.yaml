@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: budgie-core.linyaps
+  name: budgie-core
+  version: 10.9.1.3
+  kind: app
+  description: |-
+    Core package for Budgie-Desktop
+    Budgie-Desktop is a GTK+ based desktop environment which focuses on
+    simplicity and elegance.  It provides a traditional desktop metaphor
+    based interface utilising customisable panel based menu driven system.
+    Budgie-Desktop is written from scratch utilising many GNOME based
+    sub-systems such as GVC and gnome-settings-daemon.
+
+    This is the base package for budgie-desktop.  This package provides:
+    GNOME Network Manager autostart file specifically for Budgie
+    budgie-desktop plugins
+    locales and icons for budgie-desktop
+    budgie-desktop executables
+    GLib schemas for budgie-desktop
+    Session file for budgie-desktop
+command:
+- /opt/apps/budgie-core.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
