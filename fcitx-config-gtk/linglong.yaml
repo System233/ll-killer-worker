@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: fcitx-config-gtk.linyaps
+  name: fcitx-config-gtk
+  version: 0.4.10.2
+  kind: app
+  description: |-
+    graphic Fcitx configuration tool
+    Fcitx is the Free Chinese Input Toy of X, which was initially designed
+    for Chinese users, and used XIM protocol. Now it has already evolved
+    into a highly modularized, feature rich input method framework for
+    Unix-like platforms supporting a considerable amount of frontends,
+    backends and modules.
+
+    It is an ideal choice for the vast majority. Many of its features make
+    users of Unix-like platforms have a fully modern input experience for
+    the first time. It has also greatly lower the threshold for developers,
+    making the development of extended functions much easier than ever before.
+
+    This package provides a graphical configuration tool.
+command:
+- /opt/apps/fcitx-config-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
