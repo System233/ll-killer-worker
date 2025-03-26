@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.winuim.wmr06.linyaps
+  name: com.winuim.wmr06
+  version: 1.0.0.1
+  kind: app
+  description: Winuim WMR06 Fingerprint Reader WMRAPI SDK Library
+command:
+- /opt/apps/com.winuim.wmr06.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
