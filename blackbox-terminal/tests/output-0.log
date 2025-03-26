@@ -1,0 +1,15 @@
+包名:blackbox-terminal.linyaps
+Layer文件:blackbox-terminal.linyaps_0.14.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: blackbox-terminal.linyaps_0.14.0.2_arm64_binary.layer
+offset: 851
+mountpoint: /tmp/tmp.Ir2C5epPcB/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+libEGL warning: egl: failed to create dri2 screen
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+
+(blackbox-terminal:37): VTE-[1;35mCRITICAL[0m **: [34m17:39:16.364[0m: void vte_pty_spawn_with_fds_async(VtePty*, const char*, const char* const*, const char* const*, const int*, int, const int*, int, GSpawnFlags, GSpawnChildSetupFunc, gpointer, GDestroyNotify, int, GCancellable*, GAsyncReadyCallback, gpointer): assertion 'argv[0] != nullptr' failed
