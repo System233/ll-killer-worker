@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: bisheng-engine.linyaps
+  name: bisheng-engine
+  version: 2.0.13.1
+  kind: app
+  description: |-
+    WINE Is Not An Emulator - runs MS Windows programs
+    Wine is a program which allows running Microsoft Windows programs
+    (including DOS, Windows 3.x and Win32 executables) on Unix. It
+    consists of a program loader which loads and executes a Microsoft
+    Windows binary, and a library (called Winelib) that implements Windows
+    API calls using their Unix or X11 equivalents.  The library may also
+    be used for porting Win32 code into native Unix executables.
+command:
+- /opt/apps/bisheng-engine.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
