@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: android-file-transfer.linyaps
+  name: android-file-transfer
+  version: 4.3.0.1
+  kind: app
+  description: |-
+    reliable MTP client with minimalistic UI
+    Android-File-Transfer is a reliable MTP client with minimalistic UI.
+    Its features are:
+    1. Simple Qt UI with progress dialogs.
+    2. FUSE wrapper, supporting partial read/writes, allowing instant access
+    to your files.
+    3. No file size limits.
+    4. Automatically renames album cover to make it visible from media player.
+    5. USB ‘Zerocopy’ support found in recent Linux kernel (no user/kernel
+    data copying).
+    6. No extra dependencies (e.g. libptp/libmtp).
+    7. Available as static/shared library.
+    8. Command line tool (aft-mtp-cli).
+command:
+- /opt/apps/android-file-transfer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
