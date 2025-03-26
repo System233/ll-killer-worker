@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: firewall-config.linyaps
+  name: firewall-config
+  version: 2.1.2.1
+  kind: app
+  description: |-
+    graphical configuration tool to change the firewall settings
+    firewalld is a dynamically managed firewall daemon with support for
+    network/firewall zones to define the trust level of network connections
+    or interfaces. It has support for IPv4, IPv6 firewall settings and for
+    ethernet bridges and has a separation of runtime and persistent
+    configuration options.
+    It also provides a D-Bus interface for services or applications to add
+    and apply firewall rules on-the-fly.
+
+    This package provides a graphical configuration tool to change the
+    firewall settings.
+command:
+- /opt/apps/firewall-config.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
