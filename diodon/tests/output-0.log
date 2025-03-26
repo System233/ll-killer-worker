@@ -1,0 +1,19 @@
+包名:diodon.linyaps
+Layer文件:diodon.linyaps_1.11.2.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: diodon.linyaps_1.11.2.1_x86_64_binary.layer
+offset: 707
+mountpoint: /tmp/tmp.Jw3HbwxCzv/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+
+(diodon:36): dbind-[1;33mWARNING[0m **: [34m19:20:59.778[0m: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(diodon:36): GLib-[1;35mCRITICAL[0m **: [34m19:20:59.822[0m: g_file_test: assertion 'filename != NULL' failed
+
+** (diodon:36): [1;33mWARNING[0m **: [34m19:20:59.823[0m: zeitgeist-clipboard-storage.vala:313: Get recent items not successful, error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.zeitgeist.Engine was not provided by any .service files
+
+** (diodon:36): [1;33mWARNING[0m **: [34m19:20:59.823[0m: zeitgeist-clipboard-storage.vala:125: Could not determine state of privacy mode: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.zeitgeist.Engine was not provided by any .service files
