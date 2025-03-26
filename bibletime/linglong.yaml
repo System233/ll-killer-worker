@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: bibletime.linyaps
+  name: bibletime
+  version: 3.0.3.3
+  kind: app
+  description: |-
+    bible study tool for Qt
+    BibleTime is a free and easy to use bible study tool.
+    It uses the Qt and SWORD software libraries.
+    BibleTime provides easy handling of digitized texts (Bibles, commentaries
+    and lexicons) and powerful features to work with these texts (search in
+    texts, write own notes, save, print etc.) in the SWORD module format.
+command:
+- /opt/apps/bibletime.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
