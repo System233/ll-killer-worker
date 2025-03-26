@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: anymeal.linyaps
+  name: anymeal
+  version: 1.26.0.1
+  kind: app
+  description: |-
+    Recipe management software
+    AnyMeal is a free recipe management software developed using
+    SQLite3 and Qt5. It can manage a cookbook with more than
+    250000 MealMaster recipes, thereby allowing to import,
+    export, search, display, edit, and print them.
+command:
+- /opt/apps/anymeal.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
