@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: biz.zcjt.scanner.linyaps
+  name: biz.zcjt.scanner
+  version: 1.0.2.0
+  kind: app
+  description: |-
+    Scanner Application
+    扫描应用软件 ZC LnxScan
+command:
+- /opt/apps/biz.zcjt.scanner.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
