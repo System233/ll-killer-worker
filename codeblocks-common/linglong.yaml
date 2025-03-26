@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: codeblocks-common.linyaps
+  name: codeblocks-common
+  version: 20.3.0.0
+  kind: app
+  description: |-
+    common files for Code::Blocks IDE
+    Code::Blocks is a cross-platform Integrated Development Environment (IDE).
+    It is based on a self-developed plugin framework allowing unlimited
+    extensibility. Most of its functionality is already provided by plugins.
+
+    This package contains the architecture-independent files of Code::Blocks.
+command:
+- /opt/apps/codeblocks-common.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
