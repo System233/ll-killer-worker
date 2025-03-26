@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: bibshelf.linyaps
+  name: bibshelf
+  version: 1.6.0.0
+  kind: app
+  description: |-
+    book organizer for GNOME
+    helps you to keep track of your book collection. You can
+    fill in such things as the book summary, review, rating and
+    the ISBN. Never forget when it was that you read a book,
+    BibShelf lets you save the date so you do no longer need to
+    waste your brain capacity for storing this information.
+command:
+- /opt/apps/bibshelf.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
