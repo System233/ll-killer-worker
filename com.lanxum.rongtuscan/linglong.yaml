@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.lanxum.rongtuscan.linyaps
+  name: com.lanxum.rongtuscan
+  version: 2.0.9.0
+  kind: app
+  description: rongtu_scan
+command:
+- /opt/apps/com.lanxum.rongtuscan.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
