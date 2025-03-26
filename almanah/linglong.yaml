@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: almanah.linyaps
+  name: almanah
+  version: 0.12.3.2
+  kind: app
+  description: |-
+    Application to ease management of a personal diary
+    Almanah is a small application to ease management of a personal diary.
+    It has basic editing and linking abilities like:
+
+    - adding links to other content to diary entries
+    - database encryption
+    - search and printing support
+command:
+- /opt/apps/almanah.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
