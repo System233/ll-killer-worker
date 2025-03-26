@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.ftsafe.interpass3000-wfbank.linyaps
+  name: com.ftsafe.interpass3000-wfbank
+  version: 1.0.0.1
+  kind: app
+  description: InterPass3000-wfbank for ftsafe
+command:
+- /opt/apps/com.ftsafe.interpass3000-wfbank.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
