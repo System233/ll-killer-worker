@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: balsa.linyaps
+  name: balsa
+  version: 2.6.4.2
+  kind: app
+  description: |-
+    e-mail client for GNOME
+    Balsa is a highly configurable and robust mail client for the GNOME desktop.
+    It supports both POP3 and IMAP servers as well as the mbox, maildir and mh
+    local mailbox formats. Balsa also supports SMTP and/or the use of a local MTA
+    such as Sendmail.
+
+    Some of Balsa's other features include:
+    * Allowing nested mailboxes
+    * Printing
+    * Spell Checking
+    * Multi-threaded mail retrieval
+    * MIME support (view images inline, save parts)
+    * GPE Palmtop, LDAP, LDIF and vCard address book support
+    * Multiple character sets for composing and reading messages
+    * File attachments on outgoing messages
+    * GPG/OpenPGP mail signing and encryption
+
+    Support for Kerberos and SSL has been enabled in this package.
+command:
+- /opt/apps/balsa.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
