@@ -1,0 +1,28 @@
+正在测试: APPID=citizen-cx-02-printerdriver.linyaps LAYER=citizen-cx-02-printerdriver.linyaps_1.0.0.0_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install citizen-cx-02-printerdriver.linyaps_1.0.0.0_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:citizen-cx-02-printerdriver.linyaps
+Layer文件:citizen-cx-02-printerdriver.linyaps_1.0.0.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: citizen-cx-02-printerdriver.linyaps_1.0.0.0_x86_64_binary.layer
+offset: 507
+mountpoint: /tmp/tmp.gY85PyS5SZ/mnt
+dbglevel: 0
+[成功] citizen_cx02_status.sh.desktop: citizen-cx-02-printerdriver.linyaps-printer_icon -> /opt/apps/citizen-cx-02-printerdriver.linyaps/files/share/icons/hicolor/256x256/apps/citizen-cx-02-printerdriver.linyaps-printer_icon.png
+[成功] /opt/apps/citizen-cx-02-printerdriver.linyaps/files/share/applications/citizen_cx02_status.sh.desktop: /opt/apps/citizen-cx-02-printerdriver.linyaps/files/entrypoint.sh /opt/citizen_systems/citizen_cx02_status/citizen_cx02_status.sh
+[正在测试启动项]
+包名:citizen-cx-02-printerdriver.linyaps
+Layer文件:citizen-cx-02-printerdriver.linyaps_1.0.0.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: citizen-cx-02-printerdriver.linyaps_1.0.0.0_x86_64_binary.layer
+offset: 507
+mountpoint: /tmp/tmp.Kw0A2UhMPE/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run citizen-cx-02-printerdriver.linyaps -- /opt/apps/citizen-cx-02-printerdriver.linyaps/files/entrypoint.sh /opt/citizen_systems/citizen_cx02_status/citizen_cx02_status.sh
+[PID 5293] 进程已启动
+[PID 5293] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall citizen-cx-02-printerdriver.linyaps

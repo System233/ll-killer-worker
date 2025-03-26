@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: citizen-cx-02-printerdriver.linyaps
+  name: citizen-cx-02-printerdriver
+  version: 1.0.0.0
+  kind: app
+  description: |-
+    Digital Photo Printer Driver
+    This package includes the printer driver for the CITIZEN CX-02.
+command:
+- /opt/apps/citizen-cx-02-printerdriver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
