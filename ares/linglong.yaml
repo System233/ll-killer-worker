@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ares.linyaps
+  name: ares
+  version: 134.0.0.1
+  kind: app
+  description: |-
+    Accurate multi-system emulator
+    ares is an emulator for systems from Atari, Nintendo, Sega, Sony, NEC, SNK,
+    Microsoft, Coleco, Bandai and Benesse. It is a descendent of higan and bsnes
+    and focuses on accuracy and preservation. The SNES emulation is especially
+    complete and polished.
+command:
+- /opt/apps/ares.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
