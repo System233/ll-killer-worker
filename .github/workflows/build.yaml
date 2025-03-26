@@ -117,9 +117,11 @@ jobs:
             echo "$SSH_HOST_KEY" >> ~/.ssh/known_hosts
             echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_key
             chmod 700 -R ~/.ssh
+            scp -i ~/.ssh/id_key $SSH_ARGS ${PKG_WORK_DIR}/*.layer "${SSH_URL}"
           fi
-          export SSH_ARGS="-i ~/.ssh/id_key $SSH_ARGS"
-          make upload
+          if [ -n "$FTP_URL" ];then
+            curl -T ${PKG_WORK_DIR}/*.layer "${FTP_URL}"
+          fi
         env:
           FTP_URL: ${{secrets.FTP_URL}}
           SSH_URL: ${{secrets.SSH_URL}}
@@ -136,7 +138,7 @@ jobs:
             mkdir -p "$PKGID"
             shopt -s nullglob
             cp -arf $SRC_DIR/*.log $SRC_DIR/tests $SRC_DIR/*.mk $SRC_DIR/*.yaml $SRC_DIR/SHA*SUMS $SRC_DIR/version "$PKGID" 
-            
+
             if [ "${{steps.test.outputs.fail}}" = "yes" ];then
               echo -n "-fail">>$PKGID/version
             fi
