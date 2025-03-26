@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: com.wendouscanner.linyaps
+  name: com.wendouscanner
+  version: 1.1.0.0
+  kind: app
+  description: |-
+    <insert up to 60 chars description>
+    <Wendouscanner v1.1>
+command:
+- /opt/apps/com.wendouscanner.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
