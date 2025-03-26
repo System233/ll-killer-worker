@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: antimony.linyaps
+  name: antimony
+  version: 0.9.3.2
+  kind: app
+  description: |-
+    Computer-aided design CAD tool
+    Antimony is a computer-aided design (CAD) tool from a
+    parallel universe in which CAD software evolved
+    from Lisp machines rather than drafting tables.
+
+    Antimony provides the Python3 Fab that is
+    a set of software tools for personal fabrication,
+    intended for use with machines common to fab labs.
+    For info about Fab visit kokompe.cba.mit.edu/.
+command:
+- /opt/apps/antimony.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
