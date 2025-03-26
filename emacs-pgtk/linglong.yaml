@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: emacs-pgtk.linyaps
+  name: emacs-pgtk
+  version: 29.1.0.5
+  kind: app
+  description: |-
+    GNU Emacs editor (with GTK+ Wayland GUI support)
+    GNU Emacs is the extensible self-documenting text editor.  This
+    package contains a version of Emacs with a graphical user interface
+    based on GTK+ for Wayland.
+
+    If you are using exclusively X11, install emacs-gtk instead.  The
+    PGTK port works less well than the standard GTK+ build in a number of
+    respects.
+command:
+- /opt/apps/emacs-pgtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
