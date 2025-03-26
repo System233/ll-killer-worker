@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.lanxum.printdevicemanager.linyaps
+  name: com.lanxum.printdevicemanager
+  version: 2.0.0.2
+  kind: app
+  description: LANXUM com.lanxum.printdevicemanager 2.0.0-2+0
+command:
+- /opt/apps/com.lanxum.printdevicemanager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
