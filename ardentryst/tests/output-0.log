@@ -1,0 +1,42 @@
+包名:ardentryst.linyaps
+Layer文件:ardentryst.linyaps_1.71.0.10_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: ardentryst.linyaps_1.71.0.10_arm64_binary.layer
+offset: 675
+mountpoint: /tmp/tmp.dfGzvH7pXT/mnt
+dbglevel: 0
+pygame 2.5.2 (SDL 2.30.0, Python 3.12.3)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Ext.reader.Sax2 not found
+
+-------------------------------------------------------------------------------
+            Ardentryst v.20090726 (1.71-Comet Unstable) 1:11 PM AEST           
+                               by Jordan Trudgett                              
+-------------------------------------------------------------------------------
+
+    Ardentryst Copyright (C) 2007, 2008, 2009 Jordan Trudgett
+    This program comes with ABSOLUTELY NO WARRANTY.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions; for details, see the COPYING file.
+
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2721:(snd_pcm_open_noupdate) Unknown PCM default
+Warning: Sound disabled! (ALSA: Couldn't open audio device: No such file or directory)
+Is your sound in use?
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+An error has occurred. 
+Traceback (most recent call last):
+  File "/usr/share/games/ardentryst/ardentryst.py", line 4724, in <module>
+    main()
+  File "/usr/share/games/ardentryst/ardentryst.py", line 3949, in main
+    pygame.mixer.music.load(os.path.join("Music", "theme1.ogg"))
+pygame.error: mixer not initialized

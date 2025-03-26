@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ardentryst.linyaps
+  name: ardentryst
+  version: 1.71.0.10
+  kind: app
+  description: |-
+    Action/RPG sidescoller, focused on story and character development
+    Ardentryst is an action/RPG sidescoller, focused not just on fighting, but on
+    story, and character development. It features two playable characters and a
+    variety of weapons, items, armour, monsters, and beautiful level scenery and
+    graphics.
+command:
+- /opt/apps/ardentryst.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
