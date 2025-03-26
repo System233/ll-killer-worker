@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: dde-calendar.linyaps
+  name: dde-calendar
+  version: 5.14.7.0
+  kind: app
+  description: |-
+    Calendar is a smart daily planner to schedule all things in life.
+    Calendar is a small management tool for personal life that combines time
+    and events and integrates the function of memorizing and scheduling.
+command:
+- /opt/apps/dde-calendar.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
