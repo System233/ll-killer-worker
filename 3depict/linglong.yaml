@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: 3depict.linyaps
+  name: 3depict
+  version: 0.0.23.2
+  kind: app
+  description: |-
+    visualisation and analysis for single valued point data
+    This program provides a graphical interface for the scientific analysis
+    of real valued point data (x,y,z,value). This is primarily targeted
+    towards Atom probe tomography applications, but may prove useful to
+    other applications as well.
+command:
+- /opt/apps/3depict.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
