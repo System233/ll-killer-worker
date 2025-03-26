@@ -13,6 +13,8 @@ jobs:
         base: ["org.deepin.base/23.1.0","org.deepin.foundation/20.0.0","org.deepin.foundation/23.0.0","com.uniontech.foundation/20.0.1"]
       fail-fast: false
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
       - name: Setup Cache
         uses: actions/cache@v4
         with:
