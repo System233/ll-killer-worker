@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: cheesecutter.linyaps
+  name: cheesecutter
+  version: 2.9.0.2
+  kind: app
+  description: |-
+    SID music editor
+    This is a tracker program for composing music for the SID chip. It uses the
+    reSID engine for SID emulation. The packed files can be played on a real C64.
+command:
+- /opt/apps/cheesecutter.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
