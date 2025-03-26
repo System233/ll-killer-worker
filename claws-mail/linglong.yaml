@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: claws-mail.linyaps
+  name: claws-mail
+  version: 4.2.0.2
+  kind: app
+  description: |-
+    Fast, lightweight and user-friendly GTK based email client
+    Claws Mail is a powerful and full-featured mail client formerly called
+    Sylpheed-Claws. It is also extensible using loadable plugins, which can
+    provide support for additional features, like other storage formats,
+    feed reader, calendar management, mail filtering, etc.
+command:
+- /opt/apps/claws-mail.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
