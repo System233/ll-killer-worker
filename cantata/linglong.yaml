@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: cantata.linyaps
+  name: cantata
+  version: 2.5.0.2
+  kind: app
+  description: |-
+    Qt client for the music player daemon (MPD)
+    Cantata is a graphical front-end for the music player daemon, MPD. It provides
+    many tools to view and manage the music collection including:
+
+    * library - sorted by album, artist, track, directory
+    * albums with cover art
+    * user defined playlists
+    * dynamic playlists
+    * streams, internet radio
+    * lyrics
+    * artist information from Wikipedia
+    * device support for USB mass storage, MTP and CDs
+command:
+- /opt/apps/cantata.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
