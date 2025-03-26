@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: akregator.linyaps
+  name: akregator
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    RSS/Atom feed aggregator
+    Akregator is a news feed reader. It enables you to follow
+    news sites, blogs and other RSS/Atom-enabled websites without the need to
+    manually check for updates using a web browser. Akregator is designed to be
+    both easy to use and to be powerful enough to read hundreds of news sources
+    conveniently. It comes with Konqueror integration for adding news feeds and
+    with an internal browser for easy news reading.
+
+    This package is part of the KDE PIM module.
+command:
+- /opt/apps/akregator.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
