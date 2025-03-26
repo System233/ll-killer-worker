@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: budgie-previews.linyaps
+  name: budgie-previews
+  version: 1.8.0.1
+  kind: app
+  description: |-
+    Provides window previews capabilities for the Budgie Desktop
+    This is part of a suite of python3 and Vala based applets & mini-apps
+    created for the Budgie Desktop that provide additional user orientated
+    capabilities. These can be used individually or as a set.
+
+    budgie-previews can be used on most desktop environments.
+
+    Previews shows an overview of windows in an expose like way.
+command:
+- /opt/apps/budgie-previews.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
