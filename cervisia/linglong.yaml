@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: cervisia.linyaps
+  name: cervisia
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    graphical CVS client
+    Cervisia is a front-end for the CVS version control system client.
+
+    In addition to basic and advanced CVS operations, it provides a convenient
+    graphical interface for viewing, editing, and manipulating files in a CVS
+    repository or working directory.  It includes tools designed to ease the use
+    of CVS, such as a log browser, conflict resolver, and changelog editor that
+    checks for incorrect formatting.
+
+    This package is part of the KDE Software Development Kit module.
+command:
+- /opt/apps/cervisia.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
