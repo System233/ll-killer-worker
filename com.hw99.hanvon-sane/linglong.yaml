@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.hw99.hanvon-sane.linyaps
+  name: com.hw99.hanvon-sane
+  version: 20230206.0.0.9
+  kind: app
+  description: Hanvon Document Scanning Software
+command:
+- /opt/apps/com.hw99.hanvon-sane.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
