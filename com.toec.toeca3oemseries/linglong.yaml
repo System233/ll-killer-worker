@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.toec.toeca3oemseries.linyaps
+  name: com.toec.toeca3oemseries
+  version: 1.0.0.0
+  kind: app
+  description: Driver for TOEC Series.
+command:
+- /opt/apps/com.toec.toeca3oemseries.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
