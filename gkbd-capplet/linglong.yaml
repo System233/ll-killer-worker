@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gkbd-capplet.linyaps
+  name: gkbd-capplet
+  version: 3.28.1.1
+  kind: app
+  description: |-
+    GNOME control center tools for libgnomekbd
+    libgnomekbd offers an API to manage the keyboard in GNOME applications.
+
+    This package contains a helper for the GNOME control center to
+    configure and display keyboard mappings.
+command:
+- /opt/apps/gkbd-capplet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
