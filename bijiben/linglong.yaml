@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: bijiben.linyaps
+  name: bijiben
+  version: 40.1.0.6
+  kind: app
+  description: |-
+    intuitive note editor integrated with GNOME 3
+    Bijiben is a note editor that is designed to be intuitive and easy to use,
+    and well integrated with GNOME 3. It aims to be simple and has an emphasis
+    on visuals: quickly write notes, and quickly retrieve them.
+command:
+- /opt/apps/bijiben.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
