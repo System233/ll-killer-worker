@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: briquolo.linyaps
+  name: briquolo
+  version: 0.5.7.11
+  kind: app
+  description: |-
+    fast paced 3d Breakout game
+    Briquolo is a Breakout like game which takes place on a colourful 3d playing
+    field. It features 23 fancy levels with moving bricks, great explosions and
+    sounds, different camera perspectives and an editor to create your own
+    custom levels.
+
+    Briquolo uses OpenGL to offer modern graphical effects and is very portable
+    thanks to the SDL library.
+command:
+- /opt/apps/briquolo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
