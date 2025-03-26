@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: budgie-arm-environment.linyaps
+  name: budgie-arm-environment
+  version: 0.20.13.0
+  kind: app
+  description: |-
+    ARM based desktop environment customisation for Ubuntu Budgie
+    Adds a support application and settings to optimize the display and
+    usage of Ubuntu Budgie on ARM based devices such as the Raspberry Pi4.
+
+    The default Ubuntu Budgie desktop environment - its layout, font sizes,
+    panel and theme can be selected depending upon the display form-factor
+    being used.
+command:
+- /opt/apps/budgie-arm-environment.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
