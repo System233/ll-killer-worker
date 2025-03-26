@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: bookletimposer.linyaps
+  name: bookletimposer
+  version: 0.3.1.4
+  kind: app
+  description: |-
+    PDF imposition toolkit
+    pdfimposer is a Python module to achieve some basic imposition on PDF
+    documents, especially designed to work on booklets.
+
+    BookletImposer is a commandline and GTK+ interface to pdfimposer.
+
+    The bookletimposer package ships both.
+command:
+- /opt/apps/bookletimposer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
