@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.arc-uds.smartscan.linyaps
+  name: com.arc-uds.smartscan
+  version: 3.1.0.1
+  kind: app
+  description: 紫图SmartScan影像平台
+command:
+- /opt/apps/com.arc-uds.smartscan.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
