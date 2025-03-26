@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: foot.linyaps
+  name: foot
+  version: 1.15.3.2
+  kind: app
+  description: |-
+    Fast, lightweight and minimalistic Wayland terminal emulator
+    The fast, lightweight and minimalistic Wayland terminal emulator.
+    Features
+
+    * Fast
+    * Lightweight, in dependencies, on-disk and in-memory
+    * Wayland native
+    * DE agnostic
+    * User configurable font fallback
+    * On-the-fly DPI font size adjustment
+    * Scrollback search
+    * Color emoji support
+    * Server/daemon mode
+    * Multi-seat
+    * Synchronized Updates support
+    * Sixel image support
+command:
+- /opt/apps/foot.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
