@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: cn.huahom.pam.unlock.linyaps
+  name: cn.huahom.pam.unlock
+  version: 0.1.0.0
+  kind: app
+  description: Biometric Authentication Driver
+command:
+- /opt/apps/cn.huahom.pam.unlock.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
