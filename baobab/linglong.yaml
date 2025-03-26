@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: baobab.linyaps
+  name: baobab
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    GNOME disk usage analyzer
+    Disk Usage Analyzer is a graphical, menu-driven application to analyse
+    disk usage in a GNOME environment. It can easily scan either the whole
+    filesystem tree, or a specific user-requested directory branch (local or
+    remote).
+
+    It also auto-detects in real-time any changes made to your home
+    directory as far as any mounted/unmounted device. Disk Usage Analyzer
+    also provides a full graphical treemap window for each selected folder.
+command:
+- /opt/apps/baobab.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
