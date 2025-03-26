@@ -7,7 +7,7 @@ on:
       - cron: '0 0 * * *'
 jobs:
   check:
-    runs-on: ubuntu-24.04
+    runs-on: ${{matrix.runner}}
     strategy:
       max-parallel: 32
       matrix:
@@ -36,12 +36,11 @@ jobs:
           sudo sysctl -w kernel.apparmor_restrict_unprivileged_unconfined=0
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git submodule update --init --remote
           make index
           WORK_DIR="build/$ARCH"
           git -C "$WORK_DIR" add build/$ARCH/index.csv
-          git -C "$WORK_DIR" diff --cached --quiet || git commit -m "Update Index"
-          git -C "$WORK_DIR" pull --rebase && git push
+          git -C "$WORK_DIR" diff --cached --quiet || git -C "$WORK_DIR" commit -m "Update Index"
+          git -C "$WORK_DIR" pull origin $ARCH --rebase && git push origin $ARCH
         env:
           ARCH: ${{matrix.arch}}
           RUNNER: ${{matrix.runner}}
