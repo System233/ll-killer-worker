@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.ftsafe.interpass3000-cmbc.linyaps
+  name: com.ftsafe.interpass3000-cmbc
+  version: 1.3.13.1
+  kind: app
+  description: InterPass3000-CMBC for ftsafe
+command:
+- /opt/apps/com.ftsafe.interpass3000-cmbc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
