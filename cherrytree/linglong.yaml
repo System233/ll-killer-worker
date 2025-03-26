@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: cherrytree.linyaps
+  name: cherrytree
+  version: 1.0.2.1
+  kind: app
+  description: |-
+    hierarchical note taking application
+    CherryTree is a hierarchical note taking application, featuring rich text,
+    syntax highlighting, images handling, hyperlinks, import/export with support
+    for multiple formats, support for multiple languages, and more.
+command:
+- /opt/apps/cherrytree.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
