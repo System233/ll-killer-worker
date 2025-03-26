@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.comet.comet-sane.linyaps
+  name: com.comet.comet-sane
+  version: 20240814.0.0.11
+  kind: app
+  description: Comet Document Scanning Software
+command:
+- /opt/apps/com.comet.comet-sane.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
