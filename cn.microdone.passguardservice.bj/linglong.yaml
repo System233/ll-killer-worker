@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: cn.microdone.passguardservice.bj.linyaps
+  name: cn.microdone.passguardservice.bj
+  version: 1.0.0.0
+  kind: app
+  description: 密码卫士（北京银行）
+command:
+- /opt/apps/cn.microdone.passguardservice.bj.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
