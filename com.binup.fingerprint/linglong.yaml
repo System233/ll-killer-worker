@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.binup.fingerprint.linyaps
+  name: com.binup.fingerprint
+  version: 1.0.0.1
+  kind: app
+  description: com.binup.fingerprint
+command:
+- /opt/apps/com.binup.fingerprint.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
