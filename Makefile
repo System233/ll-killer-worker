@@ -4,31 +4,33 @@ SHELL=/bin/bash
 
 PKGID ?=
 TARGET:= $(basename $(notdir $(wildcard config/*.mk)))
+MAX_TASK?=10
 
+TARGET_INDEX:=$(foreach item,$(TARGET),$(CACHE_DIR)/$(item).index)
 
-TARGET_INDEX:=$(foreach item,$(TARGET),$(PKG_DIR)/$(item).index)
+$(CACHE_DIR)/%.index: $(CONFIG_DIR)/%.mk
+	make -f $(CONFIG_DIR)/$*.mk index INDEX=$@ CONFIG=$* ARCH=$(ARCH)
 
-$(PKG_DIR)/%.index: $(CONFIG_DIR)/%.mk
-	make -f $(CONFIG_DIR)/$*.mk index INDEX=$@ CONFIG=$*
+$(PKG_INDEX): $(TARGET_INDEX)
+	cat $(TARGET_INDEX)|"$(PWD)/scripts/compare.sh"| sort -u | tee  "$@~"
+	mv "$@~" "$@"
 
-index: $(TARGET_INDEX)
-	cat $(TARGET_INDEX)|"$(PWD)/scripts/compare.sh"| sort -u | tee  "$(PKG_INDEX)~"
-	mv "$(PKG_INDEX)~" "$(PKG_INDEX)"
+index: $(PKG_INDEX)
 
-MAKE_BUILD=IFS=, read -r PKGID VERSION CONFIG URL FILENAME <<<$$(grep -P "^$(PKGID)," "$(PKG_INDEX)" );\
-	make -f common/build.mk $@ "PKGID=$$PKGID" "CONFIG=$$CONFIG" "URL=$$URL" "FILENAME=$$FILENAME" "VERSION=$$VERSION"
 CHECK_PKGID=$(if $(PKGID),,$(error "未提供PKGID参数"))
-build test: $(PKG_INDEX)
+READ_CONFIG=IFS=, read -r PKGID VERSION CONFIG URL FILENAME <<<$$(grep -P "^$(PKGID)," "$(PKG_INDEX)" )
+build test: 
 	$(CHECK_PKGID)
-	$(MAKE_BUILD)
+	$(READ_CONFIG);\
+	make -f common/build.mk $@ "PKGID=$$PKGID" "CONFIG=$$CONFIG" "URL=$$URL" "FILENAME=$$FILENAME" "VERSION=$$VERSION"
 
 base:
 	$(CHECK_PKGID)
-	IFS=, read -r PKGID VERSION CONFIG URL FILENAME <<<$$(grep -P "^$(PKGID)," "$(PKG_INDEX)" );\
+	$(READ_CONFIG);\
 	make -f $(CONFIG_DIR)/$$CONFIG.mk show-base
 
 tasks: 
-	./scripts/check.sh "$(PKG_INDEX)" | head -n 220 |jq -R .| jq -s . >tasks.json
+	./scripts/check.sh "$(PKG_INDEX)" | head -n $(MAX_TASK) |jq -R .| jq -s . >tasks.json
 
 .PHONY: index build tasks base test
 .DEFAULT_GOAL := index 

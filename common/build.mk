@@ -25,10 +25,10 @@ GITHUB_REPOSITORY ?=
 
 WORK_DIR ?= caches
 PKG_WORK_DIR ?= $(WORK_DIR)/$(PKGID)
-PKG_RESOURCE_DIR ?=	"$(PKG_DIR)/$(PKGID)" \
-					"$(PKG_DIR)/$(PKGID)-$(ARCH)" \
-					"$(PKG_DIR)/$(PKGID)-$(CONFIG)" \
-					"$(PKG_DIR)/$(PKGID)-$(ARCH)-$(CONFIG)"
+PKG_RESOURCE_DIR ?=	"$(OVERRIDE_DIR)/$(PKGID)" \
+					"$(OVERRIDE_DIR)/$(PKGID)-$(ARCH)" \
+					"$(OVERRIDE_DIR)/$(PKGID)-$(CONFIG)" \
+					"$(OVERRIDE_DIR)/$(PKGID)-$(ARCH)-$(CONFIG)"
 PKG_RESOURCE_DIR := $(foreach dir, $(PKG_RESOURCE_DIR), $(if $(wildcard $(dir)), $(dir),))
 PKG_RESOURCE_DIR := $(filter-out ,$(PKG_RESOURCE_DIR))
 

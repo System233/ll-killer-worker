@@ -8,9 +8,20 @@ on:
 jobs:
   check:
     runs-on: ubuntu-24.04
+    strategy:
+      max-parallel: 32
+      matrix:
+        include:
+         - runner: ubuntu-24.04
+           arch: amd64
+         - runner: ubuntu-24.04-arm
+           arch: arm64
+      fail-fast: false
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          submodules: true
       - name: Setup Essentials
         run: |
           sudo apt update
@@ -26,4 +37,10 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git submodule update --init --remote
           make index
-          make push-index
+          WORK_DIR="build/$ARCH"
+          git -C "$WORK_DIR" add build/$ARCH/index.csv
+          git -C "$WORK_DIR" diff --cached --quiet || git commit -m "Update Index"
+          git -C "$WORK_DIR" pull --rebase && git push
+        env:
+          ARCH: ${{matrix.arch}}
+          RUNNER: ${{matrix.runner}}
