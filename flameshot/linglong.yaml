@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: flameshot.linyaps
+  name: flameshot
+  version: 12.1.0.3
+  kind: app
+  description: |-
+    Powerful yet simple-to-use screenshot software
+    Flameshot is a powerful yet simple-to-use screenshot software.
+    Notable features include customizable appearance, in-app screenshot editing,
+    D-Bus interface, experimental GNOME/KDE Wayland support, integration with
+    Imgur and support for both GUI and CLI interface.
+command:
+- /opt/apps/flameshot.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
