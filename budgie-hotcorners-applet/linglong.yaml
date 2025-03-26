@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: budgie-hotcorners-applet.linyaps
+  name: budgie-hotcorners-applet
+  version: 1.8.0.1
+  kind: app
+  description: |-
+    Applet providing hotcorners capabilities for the Budgie Desktop
+    This is part of a suite of python3 and Vala based applets for the Budgie
+    Desktop that provide additional user orientated capabilities.
+    The applets can be used individually or as a set.
+
+    The hotcorners applet allow user defined commands to be executed
+    when the mouse cursor is pushed into a corner of the main desktop.
+command:
+- /opt/apps/budgie-hotcorners-applet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
