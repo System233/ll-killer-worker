@@ -1,0 +1,34 @@
+正在测试: APPID=abe.linyaps LAYER=abe.linyaps_1.1.0.5_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install abe.linyaps_1.1.0.5_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:abe.linyaps
+Layer文件:abe.linyaps_1.1.0.5_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: abe.linyaps_1.1.0.5_arm64_binary.layer
+offset: 608
+mountpoint: /tmp/tmp.PQ95DD2izh/mnt
+dbglevel: 0
+find: ‘/opt/apps/abe.linyaps/files/share/icons’: No such file or directory
+[成功] abe.desktop: abe -> /opt/apps/abe.linyaps/files/share/pixmaps/abe.png
+[成功] /opt/apps/abe.linyaps/files/share/applications/abe.desktop: /opt/apps/abe.linyaps/files/entrypoint.sh abe
+[正在测试启动项]
+包名:abe.linyaps
+Layer文件:abe.linyaps_1.1.0.5_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: abe.linyaps_1.1.0.5_arm64_binary.layer
+offset: 608
+mountpoint: /tmp/tmp.UPdAP3EoOp/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run abe.linyaps -- /opt/apps/abe.linyaps/files/entrypoint.sh abe
+[PID 7153] 进程已启动
+[PID 7153] 已检测到窗口:PID=36
+[PID 7153] 正在截图 0秒: tests/screen0-0.jpg
+[PID 7153] 正在截图 1秒: tests/screen0-1.jpg
+[PID 7153] 正在截图 3秒: tests/screen0-3.jpg
+[PID 7153] 正在截图 5秒: tests/screen0-5.jpg
+[PID 7153] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall abe.linyaps
