@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.lanxum.ga7030dn-psm-2in1.linyaps
+  name: com.lanxum.ga7030dn-psm-2in1
+  version: 1.0.0.21034
+  kind: app
+  description: Lanxum GA7030dn Driver
+command:
+- /opt/apps/com.lanxum.ga7030dn-psm-2in1.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
