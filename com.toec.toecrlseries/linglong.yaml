@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.toec.toecrlseries.linyaps
+  name: com.toec.toecrlseries
+  version: 1.1.0.7
+  kind: app
+  description: Driver for TOEC RL Series.
+command:
+- /opt/apps/com.toec.toecrlseries.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
