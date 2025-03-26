@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: 2048-qt.linyaps
+  name: 2048-qt
+  version: 0.1.6.2
+  kind: app
+  description: |-
+    mathematics based puzzle game
+    2048 puzzle is mathematics based puzzle game where you have to slide
+    tiles on a grid to combine them and create a tile with the number 2048.
+    You have to merge the similar number tiles (2n) by moving the arrow keys
+    in four different directions. When two tiles with the same number touch,
+    they will merge into one.
+command:
+- /opt/apps/2048-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
