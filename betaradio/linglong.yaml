@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: betaradio.linyaps
+  name: betaradio
+  version: 1.6.0.1
+  kind: app
+  description: |-
+    Internet radio of Taiwan
+    With this client you can listen to internet radio of Taiwan without opening a
+    browser. It displays a icon on system tray that you can click and select the
+    channel you want to listen to.
+command:
+- /opt/apps/betaradio.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
