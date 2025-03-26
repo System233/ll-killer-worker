@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: asc.linyaps
+  name: asc
+  version: 2.6.1.9
+  kind: app
+  description: |-
+    turn-based strategy game
+    Advanced Strategic Command is a free strategy game in the tradition
+    of Battle Isle 2/3. The game is turn-based and can be played against
+    human or computer.
+command:
+- /opt/apps/asc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
