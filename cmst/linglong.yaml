@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: cmst.linyaps
+  name: cmst
+  version: 2023.3.14.1
+  kind: app
+  description: |-
+    QT GUI for Connman with system tray icon
+    Graphical user interface to control the connman daemon.
+    The connman daemon must be started as you normally would,
+    this program just interfaces with that daemon.
+    You can see what technologies and services connman has found,
+    and for wifi services an agent is registered to assist in
+    obtaining the information from you necessary to logon to the
+    wifi service.
+command:
+- /opt/apps/cmst.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
