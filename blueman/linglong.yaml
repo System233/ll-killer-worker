@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: blueman.linyaps
+  name: blueman
+  version: 2.3.5.3
+  kind: app
+  description: |-
+    Graphical bluetooth manager
+    Blueman is a GTK+ bluetooth management utility for GNOME using bluez D-Bus
+    backend.
+command:
+- /opt/apps/blueman.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
