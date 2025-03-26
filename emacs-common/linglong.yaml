@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: emacs-common.linyaps
+  name: emacs-common
+  version: 29.1.0.5
+  kind: app
+  description: |-
+    GNU Emacs editor's shared, architecture independent infrastructure
+    GNU Emacs is the extensible self-documenting text editor.
+    This package contains the architecture independent infrastructure
+    that's shared by emacs-gtk, emacs-pgtk, emacs-lucid, and emacs-nox.
+command:
+- /opt/apps/emacs-common.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

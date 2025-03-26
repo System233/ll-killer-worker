@@ -1,0 +1,1 @@
+/usr/bin/ll-cli run emacs-common.linyaps -- /opt/apps/emacs-common.linyaps/files/entrypoint.sh sh -c "if [ -n \\"\\$*\\" ]; then exec /usr/bin/emacsclient --alternate-editor= --display=\\"\\$DISPLAY\\" \\"\\$@\\"; else exec emacsclient --alternate-editor= --create-frame; fi" sh 
