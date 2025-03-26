@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: artemis.linyaps
+  name: artemis
+  version: 18.2.0.3
+  kind: app
+  description: |-
+    genome browser and annotation tool
+    Artemis is a genome browser and annotation tool that allows visualisation of
+    sequence features, next generation data and the results of analyses within the
+    context of the sequence, and also its six-frame translation.
+
+    This package includes the Artemis genome browser, the Artemis Comparison
+    Tool (ACT), and the DNAplotter and BamView utilities.
+command:
+- /opt/apps/artemis.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
