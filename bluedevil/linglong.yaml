@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: bluedevil.linyaps
+  name: bluedevil
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    KDE Bluetooth stack
+    BlueDevil is a set of components which integrate Bluetooth in KDE.
+    It contains:
+    * A KDE Control Module (KCM) to configure all the Bluetooth-related options.
+    * Integration with the KDE input/output system (KIO), which allows you to
+    discover and explore Bluetooth devices from your favorite file browser.
+    * A wizard to pair your devices and connect directly to services they offer,
+    such as input (mouse, keyboard, Wiimote) and audio (headsets, phones).
+    * A system tray application from where all BlueDevil actions can be done
+    (disconnect devices, send files, configure, etc).
+    * A daemon which listens to incoming requests, for example to receive files
+    or to introduce a requested PIN.
+command:
+- /opt/apps/bluedevil.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
