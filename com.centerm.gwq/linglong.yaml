@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.centerm.gwq.linyaps
+  name: com.centerm.gwq
+  version: 2021.1.29.1
+  kind: app
+  description: centerm tool
+command:
+- /opt/apps/com.centerm.gwq.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
