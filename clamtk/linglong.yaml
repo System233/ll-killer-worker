@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: clamtk.linyaps
+  name: clamtk
+  version: 6.7.0.1
+  kind: app
+  description: |-
+    graphical front-end for ClamAV
+    ClamTk is a graphical front-end for Clam Antivirus.
+
+    It is designed to be an easy-to-use, lightweight, on-demand antivirus scanner
+    for Linux systems.
+
+    Context menu support for KDE's Plasma Desktop (Dolphin file manager) and
+    Nemo and Thunar sendto is included.  Context menu support for GNOME (Nautilus
+    file manager), but due to additional dependencies required, it is in a
+    separate package: clamtk-gnome.
+command:
+- /opt/apps/clamtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
