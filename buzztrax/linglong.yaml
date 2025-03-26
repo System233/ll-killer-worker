@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: buzztrax.linyaps
+  name: buzztrax
+  version: 0.10.2.9
+  kind: app
+  description: |-
+    Modular music composer
+    Buzztrax aims to be a music studio that allows one to compose songs using
+    only a computer with a soundcard. If you’ve used tracker programs like
+    FastTracker, Impulse Tracker, or the original AMIGA SoundTracker, that will
+    give you an idea of how one can sequence music in Buzztrax. The Buzztrax
+    editor uses a similar concept, where a song consists of a sequence with
+    tracks and in each track one uses patterns with events (musical notes and
+    control changes). In contrast to other Tracker programs, tracks are not
+    simply sample players: a user can make a song using an arrangement of virtual
+    audio plugins that are linked together to create different effects. Each of
+    these machines can be controlled realtime or via patterns in the sequencer.
+command:
+- /opt/apps/buzztrax.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
