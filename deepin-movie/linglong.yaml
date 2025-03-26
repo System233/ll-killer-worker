@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-movie.linyaps
+  name: deepin-movie
+  version: 6.0.13.1
+  kind: app
+  description: |-
+    movie player
+    Movie is a full-featured video player, supporting playing local and streaming media in multiple video formats.
+command:
+- /opt/apps/deepin-movie.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
