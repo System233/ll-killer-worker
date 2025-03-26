@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: astromenace.linyaps
+  name: astromenace
+  version: 1.3.2.7
+  kind: app
+  description: |-
+    hardcore 3D space shooter with spaceship upgrade possibilities
+    AstroMenace is an astonishing hardcore scroll-shooter where brave space
+    warriors may find a great opportunity to hone their combat skills.
+    Gather money during the battle to spend them on turning your spaceship
+    into an ultimate weapon of mass destruction and give hell to swarms of
+    adversaries. Enjoy the wonderfully crafted 3d graphics and high-quality
+    special effects along with a detailed difficulty adjustment and a handy
+    interface of AstroMenace.
+command:
+- /opt/apps/astromenace.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
