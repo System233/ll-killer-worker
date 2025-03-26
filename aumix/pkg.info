@@ -1,0 +1,26 @@
+Package: aumix
+Version: 2.9.1-7.1
+Priority: extra
+Section: universe/sound
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Samuel Thibault <sthibault@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 202 kB
+Provides: audio-mixer
+Depends: libc6 (>= 2.34), libgpm2 (>= 1.20.7), libncursesw6 (>= 6), libtinfo6 (>= 6), aumix-common
+Conflicts: aumix-gtk
+Replaces: aumix-gtk
+Homepage: https://sourceforge.net/projects/aumix/
+Download-Size: 45.4 kB
+APT-Sources: https://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+Description: Simple text-based mixer control program
+ aumix is a small, easy-to-use program to control the mixer of your sound
+ card. It runs in text mode using the ncurses library, or from the command
+ line (non-interactively). It can read default settings from a file, and it
+ can also automatically save and restore the mixer settings at shutdown and
+ boot.
+ .
+ A wrapper script xaumix is provided that finds and invokes xterm or a
+ replacement. This is primarily for creating the best sized terminal window.
+

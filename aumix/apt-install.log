@@ -1,0 +1,45 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  aumix-common libgpm2 oss-compat
+Suggested packages:
+  gpm
+Recommended packages:
+  osspd
+The following NEW packages will be installed:
+  aumix aumix-common libgpm2 oss-compat
+0 upgraded, 4 newly installed, 0 to remove and 452 not upgraded.
+Need to get 84.1 kB of archives.
+After this operation, 318 kB of additional disk space will be used.
+Get:1 https://archive.ubuntu.com/ubuntu noble/main amd64 libgpm2 amd64 1.20.7-11 [14.1 kB]
+Get:2 https://archive.ubuntu.com/ubuntu noble/universe amd64 oss-compat amd64 8 [3884 B]
+Get:3 https://archive.ubuntu.com/ubuntu noble/universe amd64 aumix-common all 2.9.1-7.1 [20.7 kB]
+Get:4 https://archive.ubuntu.com/ubuntu noble/universe amd64 aumix amd64 2.9.1-7.1 [45.4 kB]
+Fetched 84.1 kB in 1s (133 kB/s)
+Selecting previously unselected package libgpm2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libgpm2_1.20.7-11_amd64.deb ...
+Unpacking libgpm2:amd64 (1.20.7-11) ...
+Selecting previously unselected package oss-compat.
+Preparing to unpack .../oss-compat_8_amd64.deb ...
+Unpacking oss-compat (8) ...
+Selecting previously unselected package aumix-common.
+Preparing to unpack .../aumix-common_2.9.1-7.1_all.deb ...
+Unpacking aumix-common (2.9.1-7.1) ...
+Selecting previously unselected package aumix.
+Preparing to unpack .../aumix_2.9.1-7.1_amd64.deb ...
+Unpacking aumix (2.9.1-7.1) ...
+Setting up libgpm2:amd64 (1.20.7-11) ...
+Setting up oss-compat (8) ...
+Setting up aumix-common (2.9.1-7.1) ...
+
+Configuration file '/etc/init.d/aumix', does not exist on system.
+Installing new config file as you requested.
+update-rc.d: warning: start and stop actions are no longer supported; falling back to defaults
+Can't exec "systemctl": No such file or directory at /usr/sbin/update-rc.d line 98.
+Setting up aumix (2.9.1-7.1) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
