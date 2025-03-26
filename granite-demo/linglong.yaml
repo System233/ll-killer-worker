@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: granite-demo.linyaps
+  name: granite-demo
+  version: 6.1.2.1
+  kind: app
+  description: |-
+    extension of GTK+ libraries (demo binary)
+    Granite is an extension of GTK+. Among other things, it provides
+    complex widgets and convenience functions designed for use in apps
+    built for elementary OS.
+
+    This package contains a small demo application to show Granite Widgets.
+command:
+- /opt/apps/granite-demo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
