@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.elineprint.e-gm3001-an-3in1.linyaps
+  name: com.elineprint.e-gm3001-an-3in1
+  version: 1.0.0.20206
+  kind: app
+  description: Elean E-GM3001-AN Driver
+command:
+- /opt/apps/com.elineprint.e-gm3001-an-3in1.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
