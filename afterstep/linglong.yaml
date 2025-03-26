@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: afterstep.linyaps
+  name: afterstep
+  version: 2.2.12.17
+  kind: app
+  description: |-
+    window manager with the NEXTSTEP look and feel
+    AfterStep is a window manager based on FVWM which attempts to emulate
+    the NEXTSTEP look and feel, while retaining the configurability of its
+    predecessor.  Note that this window manager makes extensive use of the
+    color palette.  If you have only an 8-bit color display, it will run
+    as packaged, but you may want to modify the configuration to use fewer
+    colors.
+
+    AfterStep is a continuation of the BowMan window manager project, but
+    the name was changed to reflect the desire that it do more than
+    simply emulate and become a valuable window manager in its own right.
+command:
+- /opt/apps/afterstep.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
