@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: colossal-cave-adventure.linyaps
+  name: colossal-cave-adventure
+  version: 1.4.0.1
+  kind: app
+  description: |-
+    Colossal Cave Adventure game
+    Explore Colossal Cave, where others have found fortunes in treasure and
+    gold, though it is rumored that some who enter are never seen again.
+
+    Colossal Cave Adventure (originally named “ADVENT” or “Adventure”) is
+    the seminal text adventure game, written by Will Crowther and Don
+    Woods.
+
+    This is a re-implementation of the “350-point” version, using the
+    same game content from the PDP-10 source code of the late 1970s.
+
+    It uses the original text exactly, and emits responses slow enough to
+    read as the contemporary terminal interfaces did.
+command:
+- /opt/apps/colossal-cave-adventure.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
