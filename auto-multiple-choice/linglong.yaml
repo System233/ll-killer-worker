@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: auto-multiple-choice.linyaps
+  name: auto-multiple-choice
+  version: 1.6.0.3
+  kind: app
+  description: |-
+    Auto Multiple Choice - multiple choice papers management
+    Utility to manage multiple choice questionnaires, with optionally
+    mixed questions and answers. AMC provides automatic marking from papers'
+    scans. Annotated papers are produced. Marks can be exported as a
+    LibreOffice sheet file.
+command:
+- /opt/apps/auto-multiple-choice.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
