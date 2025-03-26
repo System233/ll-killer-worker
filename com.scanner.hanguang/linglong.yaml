@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: com.scanner.hanguang.linyaps
+  name: com.scanner.hanguang
+  version: 1.0.0.1
+  kind: app
+  description: |-
+    HG is a graphical frontend for scanners. It uses the library SANE.
+    HG is a grahical frontend for sane. Install this if you want a grahpical
+    frontend for sane for use in the X Windowing System.
+
+    (Converted from a rpm package by alien version 8.95.)
+command:
+- /opt/apps/com.scanner.hanguang.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
