@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: deepin-compatibility-mode.linyaps
+  name: deepin-compatibility-mode
+  version: 0.1.2.0
+  kind: app
+  description: distrobox wrapper for install and running debs inside a v20.8 container
+command:
+- /opt/apps/deepin-compatibility-mode.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
