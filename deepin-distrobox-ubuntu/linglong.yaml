@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: deepin-distrobox-ubuntu.linyaps
+  name: deepin-distrobox-ubuntu
+  version: 0.0.0.0
+  kind: app
+  description: Ubuntu 20.04 Distrobox container for deepin.
+command:
+- /opt/apps/deepin-distrobox-ubuntu.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
