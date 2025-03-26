@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: cavepacker.linyaps
+  name: cavepacker
+  version: 2.5.2.2
+  kind: app
+  description: |-
+    sokoban game with network based multiplayer gaming
+    CavePacker is a sokoban game. It is a puzzle game where you have to move the
+    packages onto their targets without getting stuck. The lesser steps you made
+    for solving a level, the better. You may only push but not pull packages.
+command:
+- /opt/apps/cavepacker.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
