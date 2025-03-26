@@ -1,0 +1,33 @@
+正在测试: APPID=deepin-log-viewer.linyaps LAYER=deepin-log-viewer.linyaps_6.5.2.0_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install deepin-log-viewer.linyaps_6.5.2.0_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:deepin-log-viewer.linyaps
+Layer文件:deepin-log-viewer.linyaps_6.5.2.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: deepin-log-viewer.linyaps_6.5.2.0_x86_64_binary.layer
+offset: 682
+mountpoint: /tmp/tmp.a06oS7WIXe/mnt
+dbglevel: 0
+[成功] deepin-log-viewer.desktop: deepin-log-viewer -> /opt/apps/deepin-log-viewer.linyaps/files/share/icons/hicolor/scalable/apps/deepin-log-viewer.svg
+[成功] /opt/apps/deepin-log-viewer.linyaps/files/share/applications/deepin-log-viewer.desktop: /opt/apps/deepin-log-viewer.linyaps/files/entrypoint.sh deepin-log-viewer %f
+[正在测试启动项]
+包名:deepin-log-viewer.linyaps
+Layer文件:deepin-log-viewer.linyaps_6.5.2.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: deepin-log-viewer.linyaps_6.5.2.0_x86_64_binary.layer
+offset: 682
+mountpoint: /tmp/tmp.KdiZavUesR/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run deepin-log-viewer.linyaps -- /opt/apps/deepin-log-viewer.linyaps/files/entrypoint.sh deepin-log-viewer
+[PID 8781] 进程已启动
+[PID 8781] 已检测到窗口:PID=36
+[PID 8781] 正在截图 0秒: tests/screen0-0.jpg
+[PID 8781] 正在截图 2秒: tests/screen0-2.jpg
+[PID 8781] 正在截图 4秒: tests/screen0-4.jpg
+[PID 8781] 正在截图 5秒: tests/screen0-5.jpg
+[PID 8781] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall deepin-log-viewer.linyaps
