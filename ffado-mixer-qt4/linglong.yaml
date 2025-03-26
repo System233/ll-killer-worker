@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: ffado-mixer-qt4.linyaps
+  name: ffado-mixer-qt4
+  version: 2.4.9.1
+  kind: app
+  description: |-
+    FFADO D-Bus mixer applets
+    FFADO is a Linux driver for FireWire (IEEE1394) audio devices.
+
+    The FFADO library permits discovering and configuring such
+    devices and provides an API for streaming clients.
+
+    This package holds the mixer and control applications that
+    communicate with ffado-dbus-server.
+
+    Despite the package name, the GUI has been updated.
+command:
+- /opt/apps/ffado-mixer-qt4.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
