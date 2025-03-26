@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: btanks.linyaps
+  name: btanks
+  version: 0.9.8083.9
+  kind: app
+  description: |-
+    fast 2D tank arcade game with multiplayer and split-screen modes
+    Battle Tanks is a funny battle on your desk, where you can choose one of three
+    vehicles and eliminate your enemy using the whole arsenal of weapons. It has
+    original cartoon-like graphics and cool music, is fun and dynamic and has
+    death-match and cooperative network modes.
+command:
+- /opt/apps/btanks.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
