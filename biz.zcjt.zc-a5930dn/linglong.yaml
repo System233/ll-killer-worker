@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: biz.zcjt.zc-a5930dn.linyaps
+  name: biz.zcjt.zc-a5930dn
+  version: 1.0.0.23166
+  kind: app
+  description: Linux driver for ZHONGCHU ZC-A5930DN.
+command:
+- /opt/apps/biz.zcjt.zc-a5930dn.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
