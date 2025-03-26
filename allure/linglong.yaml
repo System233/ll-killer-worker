@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: allure.linyaps
+  name: allure
+  version: 0.11.0.1
+  kind: app
+  description: |-
+    near-future Sci-Fi roguelike and tactical squad game
+    Allure of the Stars is a near-future Sci-Fi roguelike and tactical
+    squad game.
+
+    Not a single picture in this game. You have to imagine everything
+    yourself, like with a book (a grown-up book, without pictures).
+    Once you learn to imagine things, though, you can keep exploring
+    and mastering the world and making up stories for a long time.
+
+    The game is written in Haskell using the free software LambdaHack engine.
+    Please see the changelog file for recent improvements
+    and the issue tracker for short-term plans. Long term goals
+    are high replayability and auto-balancing through procedural
+    content generation and persistent content modification
+    based on player behaviour. Contributions are welcome.
+command:
+- /opt/apps/allure.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
