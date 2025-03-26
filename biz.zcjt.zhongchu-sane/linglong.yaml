@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: biz.zcjt.zhongchu-sane.linyaps
+  name: biz.zcjt.zhongchu-sane
+  version: 20240911.0.0.6
+  kind: app
+  description: ZhongChu Security Document Scanning Software
+command:
+- /opt/apps/biz.zcjt.zhongchu-sane.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
