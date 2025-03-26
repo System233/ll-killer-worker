@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: blobandconquer.linyaps
+  name: blobandconquer
+  version: 1.11.0.2
+  kind: app
+  description: |-
+    3D platform shooting game
+    Blob Wars episode II: Blob and Conquer is the sequel to Blob Wars:
+    Metal Blob Solid.
+
+    With the apparent defeat of Galdov and the reclaiming of the Fire,
+    Time, Space and Reality Crystals the Blobs' battle was only just
+    beginning. Bob had rescued many Blobs and fought many battles, but now
+    he had an ever bigger task ahead of him. The Blobs' homeworld is still
+    littered with the alien forces and Bob once again makes it his task to
+    lead the counter attack. But even without Galdov the aliens are still
+    extremely well organised...
+command:
+- /opt/apps/blobandconquer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

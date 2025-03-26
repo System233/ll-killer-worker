@@ -1,0 +1,28 @@
+正在测试: APPID=blobandconquer.linyaps LAYER=blobandconquer.linyaps_1.11.0.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install blobandconquer.linyaps_1.11.0.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:blobandconquer.linyaps
+Layer文件:blobandconquer.linyaps_1.11.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: blobandconquer.linyaps_1.11.0.2_arm64_binary.layer
+offset: 939
+mountpoint: /tmp/tmp.dplrWA83KZ/mnt
+dbglevel: 0
+[成功] blobAndConquer.desktop: blobAndConquer -> /opt/apps/blobandconquer.linyaps/files/share/icons/32x32/apps/blobAndConquer.png
+[成功] /opt/apps/blobandconquer.linyaps/files/share/applications/blobAndConquer.desktop: /opt/apps/blobandconquer.linyaps/files/entrypoint.sh blobAndConquer
+[正在测试启动项]
+包名:blobandconquer.linyaps
+Layer文件:blobandconquer.linyaps_1.11.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: blobandconquer.linyaps_1.11.0.2_arm64_binary.layer
+offset: 939
+mountpoint: /tmp/tmp.ucTgjlvdX0/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run blobandconquer.linyaps -- /opt/apps/blobandconquer.linyaps/files/entrypoint.sh blobAndConquer
+[PID 7805] 进程已启动
+[PID 7805] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall blobandconquer.linyaps
