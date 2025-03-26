@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: cutecom.linyaps
+  name: cutecom
+  version: 0.30.3.1
+  kind: app
+  description: |-
+    Graphical serial terminal, like minicom
+    Cutecom is a graphical serial terminal, like minicom.
+    It is aimed mainly at hardware developers or other people who need a
+    terminal to talk to their devices. It features lineoriented interface
+    instead of character-oriented, xmodem, ymodem, zmodem support
+    (requires the lrzsz package) and hexadecimal input and output among
+    other things.
+    It is written using the Qt library originally by Trolltech (www.trolltech.com).
+command:
+- /opt/apps/cutecom.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
