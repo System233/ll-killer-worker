@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-mail.linyaps
+  name: deepin-mail
+  version: 6.4.10.0
+  kind: app
+  description: |-
+    Mail is an easy-to-use desktop mail client that can manage multiple email accounts,supporting IMAP and POP3 protocols.
+    Mail, developed by UnionTech Software, provides users with safe, convenient, free and value-added email services.
+command:
+- /opt/apps/deepin-mail.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
