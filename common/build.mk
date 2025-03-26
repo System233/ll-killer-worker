@@ -23,15 +23,12 @@ SSH_ARGS?=
 GITHUB_SERVER_URL ?=
 GITHUB_REPOSITORY ?=
 
-REPO_URL ?= $(GITHUB_SERVER_URL)/$(GITHUB_REPOSITORY).git
-REPO_BRANCH ?= artifacts
-
-WORK_DIR = $(REPO_BRANCH)
+WORK_DIR ?= caches
 PKG_WORK_DIR ?= $(WORK_DIR)/$(PKGID)
-PKG_RESOURCE_DIR ?=	"$(PKG_DIR)/$(PKGID)" \
-					"$(PKG_DIR)/$(PKGID)-$(ARCH)" \
-					"$(PKG_DIR)/$(PKGID)-$(CONFIG)" \
-					"$(PKG_DIR)/$(PKGID)-$(ARCH)-$(CONFIG)"
+PKG_RESOURCE_DIR ?=	"$(OVERRIDE_DIR)/$(PKGID)" \
+					"$(OVERRIDE_DIR)/$(PKGID)-$(ARCH)" \
+					"$(OVERRIDE_DIR)/$(PKGID)-$(CONFIG)" \
+					"$(OVERRIDE_DIR)/$(PKGID)-$(ARCH)-$(CONFIG)"
 PKG_RESOURCE_DIR := $(foreach dir, $(PKG_RESOURCE_DIR), $(if $(wildcard $(dir)), $(dir),))
 PKG_RESOURCE_DIR := $(filter-out ,$(PKG_RESOURCE_DIR))
 
@@ -55,23 +52,8 @@ endif
 	cd $(PKG_WORK_DIR); sha256sum *.layer >SHA256SUMS
 test:
 	$(MAKE) -C "$(PKG_WORK_DIR)" test
-push:
-	git -C $(WORK_DIR) add .
-	git -C $(WORK_DIR) diff --cached --quiet || git -C $(WORK_DIR) commit -m "Update $(PKGID)"
-	git -C $(WORK_DIR) pull origin artifacts --rebase --strategy=ours
-	git -C $(WORK_DIR) push -u origin HEAD:artifacts
 
-upload:
-ifneq ($(FTP_URL),)
-	echo "Uploading to ftp"
-	curl -T $(PKG_WORK_DIR)/*.layer $(FTP_URL)
-endif
-ifneq ($(SSH_URL),)
-	echo "Uploading to scp"
-	scp $(SSH_ARGS) $(PKG_WORK_DIR)/*.layer $(SSH_URL)
-endif
+all: build
 
-all: build push upload
-
-.PHONY: all build push upload test
+.PHONY: all build test
 .DEFAULT_GOAL := all 

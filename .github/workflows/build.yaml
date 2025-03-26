@@ -2,15 +2,29 @@ name: Build
 permissions:
   contents: write
 on:
-  workflow_dispatch:
-  schedule:
-      - cron: '30 0/6 * * *'
-
+  workflow_call:
+    inputs:
+      runner:
+        type: string
+        description: '运行器'
+        required: true
+        default: 'ubuntu-24.04'
+      arch:
+        type: string
+        description: '架构'
+        required: true
+        default: 'amd64'
+      max-task:
+        type: number
+        description: '最大任务数'
+        required: true
+        default: 10
+  
 jobs:
-  check:
-    runs-on: ubuntu-24.04
+  list:
+    runs-on: ${{inputs.runner}}
     outputs:
-      TASK: ${{steps.check.outputs.TASKS}}
+      tasks: ${{steps.check.outputs.TASKS}}
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -18,40 +32,36 @@ jobs:
         id: check
         run: |
           git submodule update --init --remote
-          make tasks
+          make tasks MAX_TASK=${{inputs.max-task}}
           echo "TASKS<<EOF" >> "$GITHUB_OUTPUT"
           cat "tasks.json" >> "$GITHUB_OUTPUT"
           echo "EOF" >> "$GITHUB_OUTPUT"
+        env:
+          ARCH: ${{inputs.arch}}
   build:
-    needs: check
-    if: ${{needs.check.outputs.TASK!=''&&needs.check.outputs.TASK!='[]'}}
+    needs: list
+    if: ${{needs.list.outputs.tasks!=''&&needs.list.outputs.tasks!='[]'}}
     strategy:
       max-parallel: 32
       matrix:
-        pkg: ${{fromJson(needs.check.outputs.TASK)}}
+        pkg: ${{fromJson(needs.list.outputs.tasks)}}
       fail-fast: false
-    runs-on: ubuntu-24.04
+    runs-on: ${{inputs.runner}}
+    env:
+      ARCH: ${{inputs.arch}}
+      PKGID: ${{matrix.pkg}}
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
           submodules: true
-      - name: Setup linglong
-        run: |
-          sudo apt install -y apt-transport-https ca-certificates curl gpg
-          sudo mkdir -p /etc/apt/keyrings/
-          curl -fsSL https://download.opensuse.org/repositories/home:/kamiyadm/xUbuntu_24.04/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/linglong-apt-keyring.gpg
-          echo "deb [signed-by=/etc/apt/keyrings/linglong-apt-keyring.gpg] https://download.opensuse.org/repositories/home:/kamiyadm/xUbuntu_24.04/ ./" | sudo tee /etc/apt/sources.list.d/linglong.list
-          sudo apt update
-          sudo apt install linglong-builder linglong-box linglong-bin xdg-utils -y
-          ll-cli --version
       - name: Setup Essentials
         run: |
           # sudo apt update
           sudo apt install ostree xdotool scrot xvfb apt-file -y
-          wget -nv https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O cloudflared
+          wget -nv https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-$ARCH -O cloudflared
           chmod +x cloudflared
-          git -C artifacts pull origin artifacts
+          git -C build/$ARCH pull origin $ARCH
       - name: Check
         id: check
         run: |
@@ -65,20 +75,7 @@ jobs:
         with:
           path: |
             ~/.cache/linglong-builder/
-          key: linglong-builder-cache-${{steps.check.outputs.base}}
-      - name: CLI Cache
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/data.tar
-          key: linglong-cli-cache-${{steps.check.outputs.base}}
-      - name: Setup CLI Cache
-        run: |
-          if test -e ~/data.tar;then
-            sudo mkdir -p /var/lib/linglong/repo
-            sudo chown deepin-linglong:deepin-linglong -R /var/lib/linglong
-            sudo tar xf ~/data.tar -C /var/lib/linglong/repo
-          fi
+          key: linglong-${{env.ARCH}}-${{steps.check.outputs.base}}
       - name: Init
         run: |
           sudo sysctl -w kernel.unprivileged_userns_clone=1
@@ -90,10 +87,6 @@ jobs:
       - name: Build
         run: |
           make build
-        env:
-          ARCH: amd64
-          PKGID: ${{matrix.pkg}}
-          # KILLER_DEBUG: "1"
       - name: Test
         id: test
         run: |
@@ -118,9 +111,6 @@ jobs:
           echo "desktop=$desktop" >>$GITHUB_OUTPUT
           echo "layer=$layer" >>$GITHUB_OUTPUT
           echo "fail=$fail" >>$GITHUB_OUTPUT
-        env:
-          ARCH: amd64
-          PKGID: ${{matrix.pkg}}
       - name: Upload
         if: ${{steps.test.outputs.fail=='no'}}
         run: |
@@ -135,8 +125,6 @@ jobs:
           make upload
           #echo "::endgroup::"
         env:
-          ARCH: amd64
-          PKGID: ${{matrix.pkg}}
           FTP_URL: ${{secrets.FTP_URL}}
           SSH_URL: ${{secrets.SSH_URL}}
           SSH_HOST_KEY: ${{secrets.SSH_HOST_KEY}}
@@ -145,8 +133,5 @@ jobs:
       - name: Commit
         run: |
           make push
-        env:
-          ARCH: amd64
-          PKGID: ${{matrix.pkg}}
       # - uses: valeriangalliat/action-sshd-cloudflared@v3
       #   if: failure()

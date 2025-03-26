@@ -9,59 +9,29 @@ jobs:
     runs-on: ubuntu-24.04
     strategy:
       matrix:
-        type: [builder,cli]
+        arch: [amd64,arm64]
         base: ["org.deepin.base/23.1.0","org.deepin.foundation/20.0.0","org.deepin.foundation/23.0.0","com.uniontech.foundation/20.0.1"]
       fail-fast: false
     steps:
-      - name: install
-        run: |
-          sudo apt install -y apt-transport-https ca-certificates curl gpg xdg-utils
-          sudo mkdir -p /etc/apt/keyrings/
-          curl -fsSL https://download.opensuse.org/repositories/home:/kamiyadm/xUbuntu_24.04/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/linglong-apt-keyring.gpg
-          echo "deb [signed-by=/etc/apt/keyrings/linglong-apt-keyring.gpg] https://download.opensuse.org/repositories/home:/kamiyadm/xUbuntu_24.04/ ./" | sudo tee /etc/apt/sources.list.d/linglong.list
-          sudo apt update
-          sudo apt install linglong-builder linglong-box linglong-bin
-          ll-cli --version
-      - name: Cache
-        if: ${{matrix.type=='builder'}}
+      - name: Setup Cache
         uses: actions/cache@v4
         with:
           path: |
             ~/.cache/linglong-builder/
-          key: linglong-builder-cache-${{matrix.base}}
+          key: linglong-${{matrix.arch}}-${{matrix.base}}
       - name: Build Cache
-        if: ${{matrix.type=='builder'}}
         run: |
-          echo "$YAML"> linglong.yaml
-          ll-builder build
+          XARGH=$ARCH
+          case "$ARCH" in
+          "amd64")
+              XARGH="x86_64"
+              ;;
+          "arm64")
+              XARGH="arm64"
+              ;;
+          esac
+          make -f common/ostree.mk MODULE=binary ID="$CHANNEL:$BASE/$XARGH"
         env:
-          YAML: |
-            version: "1"
-            package:
-              id: cache
-              name: Build Cache
-              version: 0.0.0.1
-              kind: app
-              description: Cache
-            command: [bash] 
-            base: ${{matrix.base}}
-            build: |
-              echo hello
-      - name: CLI Cache
-        if: ${{matrix.type=='cli'}}
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/data.tar
-          key: linglong-cli-cache-${{matrix.base}}
-      - name: Build CLI Cache
-        if: ${{matrix.type=='cli'}}
-        run: |
-          if test -e ~/data.tar;then
-            sudo mkdir -p /var/lib/linglong/repo
-            sudo chown deepin-linglong:deepin-linglong -R /var/lib/linglong
-            sudo tar xf ~/data.tar -C /var/lib/linglong/repo
-          fi
-          ll-cli install "${{matrix.base}}"
-          sudo rm -rf /var/lib/linglong/repo/.lock
-          sudo tar cf ~/data.tar -C /var/lib/linglong/repo .
+          BASE: ${{matrix.base}}
+          ARCH: ${{matrix.arch}}
+          CHANNEL: main

@@ -1,8 +1,7 @@
 #!/bin/bash
 
 PKG_INDEX=$1
-REPO_BRANCH=artifacts
-WORK_DIR="${REPO_BRANCH}"
+WORK_DIR="build/${ARCH}"
 trap exit SIGPIPE
 while IFS=, read -r PKG VERSION SRC; do
     PKG_WORK_DIR="${WORK_DIR}/${PKG}"
