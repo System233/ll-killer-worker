@@ -37,7 +37,7 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           make index
           WORK_DIR="build/$ARCH"
-          git -C "$WORK_DIR" add build/$ARCH/index.csv
+          git -C "$WORK_DIR" add index.csv
           git -C "$WORK_DIR" diff --cached --quiet || git -C "$WORK_DIR" commit -m "Update Index"
           git -C "$WORK_DIR" pull origin $ARCH --rebase && git push origin $ARCH
         env:
