@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: citizen-cy-printerdriver.linyaps
+  name: citizen-cy-printerdriver
+  version: 1.0.0.0
+  kind: app
+  description: |-
+    Digital Photo Printer Driver
+    This package includes the printer driver for the CITIZEN CY.
+command:
+- /opt/apps/citizen-cy-printerdriver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
