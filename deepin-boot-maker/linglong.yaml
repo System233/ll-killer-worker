@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: deepin-boot-maker.linyaps
+  name: deepin-boot-maker
+  version: 5.7.10.0
+  kind: app
+  description: |-
+    Simple tool for user to create a boot usb stick quickly and easily
+    It's designed to support deepin system iso, it can works for Debian and ubuntu
+    iso too.
+command:
+- /opt/apps/deepin-boot-maker.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
