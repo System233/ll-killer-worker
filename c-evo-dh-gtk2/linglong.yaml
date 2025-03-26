@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: c-evo-dh-gtk2.linyaps
+  name: c-evo-dh-gtk2
+  version: 1.10.0.1
+  kind: app
+  description: |-
+    Empire Building Game (GTK2), C-evo: Distant Horizon
+    A civilization style, turn based strategy game, of the Civ II era.
+
+    With a time scope of several thousand years, it covers aspects of exploration
+    and expansion, industry and agriculture, warfare and diplomacy, science and
+    administration. C-evo follows the spirit of popular turn-based strategy games
+    from the mid 90s, but with more emphasis on powerful AI and careful design
+    of the rules, resulting in a true challenge.
+command:
+- /opt/apps/c-evo-dh-gtk2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
