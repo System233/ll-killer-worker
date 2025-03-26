@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com-huashuoaf-finger.linyaps
+  name: com-huashuoaf-finger
+  version: 1.0.0.3
+  kind: app
+  description: Huashuoaf Fingerprint device for UOS
+command:
+- /opt/apps/com-huashuoaf-finger.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
