@@ -1,0 +1,67 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  fonts-noto-mono javascript-common libjs-jquery libjs-sphinxdoc
+  libjs-underscore xfonts-base
+Suggested packages:
+  apache2 | lighttpd | httpd xfs | xserver
+The following NEW packages will be installed:
+  angband-data fonts-noto-mono javascript-common libjs-jquery libjs-sphinxdoc
+  libjs-underscore xfonts-base
+0 upgraded, 7 newly installed, 0 to remove and 450 not upgraded.
+Need to get 9219 kB of archives.
+After this operation, 13.4 MB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjs-jquery all 3.6.1+dfsg+~3.5.14-1 [328 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjs-underscore all 1.13.4~dfsg+~1.11.4-3 [118 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjs-sphinxdoc all 7.2.6-6 [149 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 fonts-noto-mono all 20201225-2 [435 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 angband-data all 1:4.2.5+dfsg1-1 [2242 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 javascript-common all 11+nmu1 [5936 B]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 xfonts-base all 1:1.0.5+nmu1 [5941 kB]
+Fetched 9219 kB in 1s (6539 kB/s)
+Selecting previously unselected package libjs-jquery.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../0-libjs-jquery_3.6.1+dfsg+~3.5.14-1_all.deb ...
+Unpacking libjs-jquery (3.6.1+dfsg+~3.5.14-1) ...
+Selecting previously unselected package libjs-underscore.
+Preparing to unpack .../1-libjs-underscore_1.13.4~dfsg+~1.11.4-3_all.deb ...
+Unpacking libjs-underscore (1.13.4~dfsg+~1.11.4-3) ...
+Selecting previously unselected package libjs-sphinxdoc.
+Preparing to unpack .../2-libjs-sphinxdoc_7.2.6-6_all.deb ...
+Unpacking libjs-sphinxdoc (7.2.6-6) ...
+Selecting previously unselected package fonts-noto-mono.
+Preparing to unpack .../3-fonts-noto-mono_20201225-2_all.deb ...
+Unpacking fonts-noto-mono (20201225-2) ...
+Selecting previously unselected package angband-data.
+Preparing to unpack .../4-angband-data_1%3a4.2.5+dfsg1-1_all.deb ...
+Unpacking angband-data (1:4.2.5+dfsg1-1) ...
+Selecting previously unselected package javascript-common.
+Preparing to unpack .../5-javascript-common_11+nmu1_all.deb ...
+Unpacking javascript-common (11+nmu1) ...
+Selecting previously unselected package xfonts-base.
+Preparing to unpack .../6-xfonts-base_1%3a1.0.5+nmu1_all.deb ...
+Unpacking xfonts-base (1:1.0.5+nmu1) ...
+Setting up javascript-common (11+nmu1) ...
+
+Configuration file '/etc/apache2/conf-available/javascript-common.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/lighttpd/conf-available/90-javascript-alias.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up fonts-noto-mono (20201225-2) ...
+
+Configuration file '/etc/fonts/conf.avail/30-droid-noto-mono.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up xfonts-base (1:1.0.5+nmu1) ...
+
+Configuration file '/etc/X11/fonts/misc/xfonts-base.alias', does not exist on system.
+Installing new config file as you requested.
+Setting up libjs-jquery (3.6.1+dfsg+~3.5.14-1) ...
+Setting up libjs-underscore (1.13.4~dfsg+~1.11.4-3) ...
+Setting up libjs-sphinxdoc (7.2.6-6) ...
+Setting up angband-data (1:4.2.5+dfsg1-1) ...
+Processing triggers for fontconfig (2.14.2-6) ...
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
