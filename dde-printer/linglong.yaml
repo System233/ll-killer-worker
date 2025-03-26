@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: dde-printer.linyaps
+  name: dde-printer
+  version: 1.0.25.1
+  kind: app
+  description: |-
+    Deepin Print Manager is a eazy tool to manage printers.
+    Deepin Print Manager is a printer management tool,which supports adding and removing printers,managing print jobs and so on.
+command:
+- /opt/apps/dde-printer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
