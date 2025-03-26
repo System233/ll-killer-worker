@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: agordejo.linyaps
+  name: agordejo
+  version: 0.4.2.0
+  kind: app
+  description: |-
+    Music Production Session Manager
+    Agordejo (Esperanto: ‘place to set things up’) is a music production session
+    manager. It is used to start your programs, remember their (JACK)
+    interconnections and make your life easier in general.
+command:
+- /opt/apps/agordejo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

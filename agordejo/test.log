@@ -1,0 +1,35 @@
+正在测试: APPID=agordejo.linyaps LAYER=agordejo.linyaps_0.4.2.0_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install agordejo.linyaps_0.4.2.0_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:agordejo.linyaps
+Layer文件:agordejo.linyaps_0.4.2.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: agordejo.linyaps_0.4.2.0_arm64_binary.layer
+offset: 593
+mountpoint: /tmp/tmp.rfnyqwlSPY/mnt
+dbglevel: 0
+[成功] org.laborejo.agordejo-continue.desktop: agordejo -> /opt/apps/agordejo.linyaps/files/share/icons/hicolor/128x128/apps/agordejo.png
+[成功] /opt/apps/agordejo.linyaps/files/share/applications/org.laborejo.agordejo-continue.desktop: /opt/apps/agordejo.linyaps/files/entrypoint.sh agordejo --continue --hide
+[成功] org.laborejo.agordejo.desktop: agordejo -> /opt/apps/agordejo.linyaps/files/share/icons/hicolor/128x128/apps/agordejo.png
+[成功] /opt/apps/agordejo.linyaps/files/share/applications/org.laborejo.agordejo.desktop: /opt/apps/agordejo.linyaps/files/entrypoint.sh agordejo
+[成功] org.laborejo.nsm-data.desktop: agordejo -> /opt/apps/agordejo.linyaps/files/share/icons/hicolor/128x128/apps/agordejo.png
+[成功] /opt/apps/agordejo.linyaps/files/share/applications/org.laborejo.nsm-data.desktop: /opt/apps/agordejo.linyaps/files/entrypoint.sh nsm-data
+[正在测试启动项]
+包名:agordejo.linyaps
+Layer文件:agordejo.linyaps_0.4.2.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: agordejo.linyaps_0.4.2.0_arm64_binary.layer
+offset: 593
+mountpoint: /tmp/tmp.KAwrGAj7E8/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run agordejo.linyaps -- /opt/apps/agordejo.linyaps/files/entrypoint.sh agordejo --continue --hide
+[PID 11849] 进程已启动
+[PID 11849] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run agordejo.linyaps -- /opt/apps/agordejo.linyaps/files/entrypoint.sh agordejo
+[PID 11973] 进程已启动
+[PID 11973] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall agordejo.linyaps
