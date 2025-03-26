@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: com.ggimage.ggimage-printer.linyaps
+  name: com.ggimage.ggimage-printer
+  version: 1.0.3.1
+  kind: app
+  description: |-
+    CUPS and SANE Drivers For G[REPLACE_DESCRIPTION]G Series Printer and Scanner.
+    No Extended Description.
+command:
+- /opt/apps/com.ggimage.ggimage-printer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
