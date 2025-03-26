@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: com.deepin.gomoku.linyaps
+  name: com.deepin.gomoku
+  version: 1.0.11.0
+  kind: app
+  description: |-
+    Gomoku is a small chess game for two players.
+    Gomoku is an easy and funny chess game that is suitable for all ages.
+command:
+- /opt/apps/com.deepin.gomoku.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
