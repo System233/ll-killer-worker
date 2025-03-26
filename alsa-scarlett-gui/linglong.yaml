@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: alsa-scarlett-gui.linyaps
+  name: alsa-scarlett-gui
+  version: 0.4.0.1
+  kind: app
+  description: |-
+    Gtk4 GUI for the Focusrite Scarlett/Clarett ALSA controls
+    This package contains a Gtk4 GUI for the ALSA controls
+    exposed by the Focusrite Scarlett/Clarett kernel driver
+command:
+- /opt/apps/alsa-scarlett-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
