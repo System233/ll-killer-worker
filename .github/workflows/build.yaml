@@ -2,6 +2,7 @@ name: Build
 permissions:
   contents: write
 on:
+  workflow_dispatch:
   workflow_call:
     inputs:
       runner:
@@ -17,7 +18,7 @@ on:
       max-task:
         type: number
         description: '最大任务数'
-        required: true
+        required: false
         default: 10
   
 jobs:
@@ -50,6 +51,8 @@ jobs:
     env:
       ARCH: ${{inputs.arch}}
       PKGID: ${{matrix.pkg}}
+      CACHE_DIR: caches
+      PKG_WORK_DIR: caches/${{matrix.pkg}}
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -58,7 +61,7 @@ jobs:
       - name: Setup Essentials
         run: |
           # sudo apt update
-          sudo apt install ostree xdotool scrot xvfb apt-file -y
+          sudo apt install ostree xdotool scrot xvfb apt-file erofs-utils erofsfuse -y
           wget -nv https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-$ARCH -O cloudflared
           chmod +x cloudflared
           git -C build/$ARCH pull origin $ARCH
@@ -67,9 +70,6 @@ jobs:
         run: |
           BASE=$(make -s base)
           echo "base=$BASE">>"$GITHUB_OUTPUT"
-        env:
-          ARCH: amd64
-          PKGID: ${{matrix.pkg}}
       - name: Cache
         uses: actions/cache@v4
         with:
@@ -84,6 +84,8 @@ jobs:
           sudo sysctl -w kernel.apparmor_restrict_unprivileged_unconfined=0
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      # - uses: valeriangalliat/action-sshd-cloudflared@v3
+        # if: ${{true}}
       - name: Build
         run: |
           make build
@@ -94,15 +96,11 @@ jobs:
           layer=no
           desktop=no
           fail=no
-          if ls artifacts/$PKGID/*.layer >/dev/null;then
+          if ls $PKG_WORK_DIR/*.layer >/dev/null;then
             layer=yes
           fi
-          if ls artifacts/$PKGID/tests/screen*.jpg >/dev/null;then
+          if ls $PKG_WORK_DIR/tests/screen*.jpg >/dev/null;then
             desktop=yes
-          fi
-          if [ "$layer" = "no" ]||[ "$desktop" = "no" ];then
-            fail=yes
-            echo -n "-fail">>artifacts/$PKGID/version
           fi
           echo "desktop=$desktop"
           echo "layer=$layer"
@@ -114,16 +112,16 @@ jobs:
       - name: Upload
         if: ${{steps.test.outputs.fail=='no'}}
         run: |
-          #echo "::group::masked"
           if [ -n "$SSH_URL" ];then
             mkdir -p ~/.ssh
             echo "$SSH_HOST_KEY" >> ~/.ssh/known_hosts
             echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_key
             chmod 700 -R ~/.ssh
+            scp -i ~/.ssh/id_key $SSH_ARGS ${PKG_WORK_DIR}/*.layer "${SSH_URL}"
           fi
-          export SSH_ARGS="-i ~/.ssh/id_key $SSH_ARGS"
-          make upload
-          #echo "::endgroup::"
+          if [ -n "$FTP_URL" ];then
+            curl -T ${PKG_WORK_DIR}/*.layer "${FTP_URL}"
+          fi
         env:
           FTP_URL: ${{secrets.FTP_URL}}
           SSH_URL: ${{secrets.SSH_URL}}
@@ -132,6 +130,21 @@ jobs:
           SSH_ARGS: ${{secrets.SSH_ARGS}}
       - name: Commit
         run: |
-          make push
-      # - uses: valeriangalliat/action-sshd-cloudflared@v3
-      #   if: failure()
+            SRC_DIR="$PWD/$PKG_WORK_DIR"
+            WORK_DIR=build/$ARCH
+            cd $WORK_DIR
+            git pull origin $ARCH --rebase --strategy=ours
+            rm -rf "$PKGID"
+            mkdir -p "$PKGID"
+            shopt -s nullglob
+            cp -arf $SRC_DIR/*.log $SRC_DIR/tests $SRC_DIR/*.mk $SRC_DIR/*.yaml $SRC_DIR/SHA*SUMS $SRC_DIR/version "$PKGID" 
+
+            if [ "${{steps.test.outputs.fail}}" = "yes" ];then
+              echo -n "-fail">>$PKGID/version
+            fi
+            
+            git add "$PKGID"
+            git diff --cached --quiet || git commit -m "Update ${PKGID}"
+            git push -u origin HEAD:$ARCH
+      - uses: valeriangalliat/action-sshd-cloudflared@v3
+        if: failure()

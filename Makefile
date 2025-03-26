@@ -9,7 +9,8 @@ MAX_TASK?=10
 TARGET_INDEX:=$(foreach item,$(TARGET),$(CACHE_DIR)/$(item).index)
 
 $(CACHE_DIR)/%.index: $(CONFIG_DIR)/%.mk
-	make -f $(CONFIG_DIR)/$*.mk index INDEX=$@ CONFIG=$* ARCH=$(ARCH)
+	mkdir -p $(CACHE_DIR)
+	make -f $(CONFIG_DIR)/$*.mk index INDEX=$@ CONFIG=$* ARCH=$(ARCH) || touch $@
 
 $(PKG_INDEX): $(TARGET_INDEX)
 	cat $(TARGET_INDEX)|"$(PWD)/scripts/compare.sh"| sort -u | tee  "$@~"

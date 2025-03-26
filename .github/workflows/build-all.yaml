@@ -1,4 +1,4 @@
-name: Build
+name: Build All
 permissions:
   contents: write
 on:
@@ -8,12 +8,14 @@ on:
 
 jobs:
   build-amd64:
-    uses: ./.github/workflows/build.yml
+    uses: ./.github/workflows/build.yaml
     with:
       runner: ubuntu-24.04
       arch: amd64
+      max-task: ${{vars.MAX_TASK || 10}}
   build-arm64:
-    uses: ./.github/workflows/build.yml
+    uses: ./.github/workflows/build.yaml
     with:
       runner: ubuntu-24.04-arm
       arch: arm64
+      max-task: ${{vars.MAX_TASK || 10}}
