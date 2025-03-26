@@ -1,0 +1,30 @@
+version: "1"
+package:
+  id: audacious.linyaps
+  name: audacious
+  version: 4.3.1.2
+  kind: app
+  description: |-
+    small and fast audio player which supports lots of formats
+    Audacious is a fork of beep-media-player which supports Winamp skins
+    and many codecs.
+
+    In the default install, the following codecs are supported:
+
+    * MP3
+    * Ogg Vorbis / Theora
+    * AAC and AAC+
+    * FLAC
+    * ALAC
+    * Windows Media (WMA)
+    * WAVE
+
+    Additionally, Audacious is extendable through plugins, and contains
+    other useful features like LIRC support. Support for many more codecs
+    can also be added through plugins.
+
+    This package contains the core player and its localization.
+command:
+- /opt/apps/audacious.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
