@@ -1,0 +1,66 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  lsb-release
+The following NEW packages will be installed:
+  com.canon.ufr2 lsb-release
+0 upgraded, 2 newly installed, 0 to remove and 236 not upgraded.
+Need to get 7736 kB of archives.
+After this operation, 111 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main amd64 lsb-release all 12.0-2 [6556 B]
+Get:2 https://community-packages.deepin.com/driver-23 driver/non-free amd64 com.canon.ufr2 amd64 6.00-1.00 [7730 kB]
+Fetched 7736 kB in 2s (4309 kB/s)
+Selecting previously unselected package lsb-release.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../lsb-release_12.0-2_all.deb ...
+Unpacking lsb-release (12.0-2) ...
+Selecting previously unselected package com.canon.ufr2.
+Preparing to unpack .../com.canon.ufr2_6.00-1.00_amd64.deb ...
+Unpacking com.canon.ufr2 (6.00-1.00) ...
+Setting up lsb-release (12.0-2) ...
+Setting up com.canon.ufr2 (6.00-1.00) ...
+Restarting Common Unix Printing System: cupsd.
+Usage: usermod [options] LOGIN
+
+Options:
+  -a, --append                  append the user to the supplemental GROUPS
+                                mentioned by the -G option without removing
+                                the user from other groups
+  -b, --badname                 allow bad names
+  -c, --comment COMMENT         new value of the GECOS field
+  -d, --home HOME_DIR           new home directory for the user account
+  -e, --expiredate EXPIRE_DATE  set account expiration date to EXPIRE_DATE
+  -f, --inactive INACTIVE       set password inactive after expiration
+                                to INACTIVE
+  -g, --gid GROUP               force use GROUP as new primary group
+  -G, --groups GROUPS           new list of supplementary GROUPS
+  -h, --help                    display this help message and exit
+  -l, --login NEW_LOGIN         new value of the login name
+  -L, --lock                    lock the user account
+  -m, --move-home               move contents of the home directory to the
+                                new location (use only with -d)
+  -o, --non-unique              allow using duplicate (non-unique) UID
+  -p, --password PASSWORD       use encrypted password for the new password
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+  -r, --remove                  remove the user from only the supplemental GROUPS
+                                mentioned by the -G option without removing
+                                the user from other groups
+  -R, --root CHROOT_DIR         directory to chroot into
+  -s, --shell SHELL             new login shell for the user account
+  -u, --uid UID                 new UID for the user account
+  -U, --unlock                  unlock the user account
+  -v, --add-subuids FIRST-LAST  add range of subordinate uids
+  -V, --del-subuids FIRST-LAST  remove range of subordinate uids
+  -w, --add-subgids FIRST-LAST  add range of subordinate gids
+  -W, --del-subgids FIRST-LAST  remove range of subordinate gids
+  -Z, --selinux-user SEUSER     new SELinux user mapping for the user account
+      --selinux-range SERANGE   new SELinux MLS range for the user account
+
+runuser: user xhost does not exist or the user entry does not contain all the required fields
+
+(cnsetuputil2:84): Gtk-[1;33mWARNING[0m **: [34m18:45:12.216[0m: cannot open display: :0
+Processing triggers for libc-bin (2.38-6deepin4) ...
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)

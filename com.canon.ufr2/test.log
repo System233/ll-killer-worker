@@ -1,0 +1,30 @@
+正在测试: APPID=com.canon.ufr2.linyaps LAYER=com.canon.ufr2.linyaps_6.0.0.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install com.canon.ufr2.linyaps_6.0.0.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:com.canon.ufr2.linyaps
+Layer文件:com.canon.ufr2.linyaps_6.0.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: com.canon.ufr2.linyaps_6.0.0.1_x86_64_binary.layer
+offset: 598
+mountpoint: /tmp/tmp.f4KrsBPdzG/mnt
+dbglevel: 0
+grep: /opt/apps/com.canon.ufr2.linyaps/files/share/applications/cngplp2.desktop: No such file or directory
+grep: /opt/apps/com.canon.ufr2.linyaps/files/share/applications/cngplp2.desktop: No such file or directory
+[31m[失败] /opt/apps/com.canon.ufr2.linyaps/files/share/applications/cngplp2.desktop:: 找不到此启动文件 [0m
+grep: /opt/apps/com.canon.ufr2.linyaps/files/share/applications/cnsetuputil2.desktop: No such file or directory
+grep: /opt/apps/com.canon.ufr2.linyaps/files/share/applications/cnsetuputil2.desktop: No such file or directory
+[31m[失败] /opt/apps/com.canon.ufr2.linyaps/files/share/applications/cnsetuputil2.desktop:: 找不到此启动文件 [0m
+[正在测试启动项]
+包名:com.canon.ufr2.linyaps
+Layer文件:com.canon.ufr2.linyaps_6.0.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: com.canon.ufr2.linyaps_6.0.0.1_x86_64_binary.layer
+offset: 598
+mountpoint: /tmp/tmp.tgiYoZTgmC/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+awk: fatal: cannot open file `/opt/apps/com.canon.ufr2.linyaps/files/share/applications/cngplp2.desktop' for reading: No such file or directory
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall com.canon.ufr2.linyaps
