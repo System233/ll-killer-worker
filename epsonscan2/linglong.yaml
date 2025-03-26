@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: epsonscan2.linyaps
+  name: epsonscan2
+  version: 6.7.42.1
+  kind: app
+  description: This is scanner driver.
+command:
+- /opt/apps/epsonscan2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
