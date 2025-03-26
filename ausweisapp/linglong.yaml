@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ausweisapp.linyaps
+  name: ausweisapp
+  version: 2.1.0.1
+  kind: app
+  description: |-
+    Official authentication app for German ID cards and residence permits
+    This app is developed and issued by the German government to be
+    used for online authentication with electronic German ID cards
+    and residence titles. To use this app, a supported RFID card
+    reader or compatible NFC smart phone is required.
+command:
+- /opt/apps/ausweisapp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

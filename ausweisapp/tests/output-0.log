@@ -1,0 +1,260 @@
+包名:ausweisapp.linyaps
+Layer文件:ausweisapp.linyaps_2.1.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: ausweisapp.linyaps_2.1.0.1_arm64_binary.layer
+offset: 673
+mountpoint: /tmp/tmp.xSmJgaitS1/mnt
+dbglevel: 0
+default       2025.03.26 17:16:36.796 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::SignalHandler
+init          2025.03.26 17:16:36.796 37   printInfo(init/Bootstrap.cpp:59)                                           : Logging to "/tmp/AusweisApp.JnNmUR.log"
+init          2025.03.26 17:16:36.796 37 I printInfo(init/Bootstrap.cpp:61)                                           : ##################################################
+init          2025.03.26 17:16:36.796 37 I printInfo(init/Bootstrap.cpp:65)                                           : ### Application: AusweisApp
+init          2025.03.26 17:16:36.797 37 I printInfo(init/Bootstrap.cpp:65)                                           : ### Application Version: 2.1.0
+init          2025.03.26 17:16:36.797 37 I printInfo(init/Bootstrap.cpp:65)                                           : ### Organization: 
+init          2025.03.26 17:16:36.797 37 I printInfo(init/Bootstrap.cpp:65)                                           : ### Organization Domain: 
+init          2025.03.26 17:16:36.797 37 I printInfo(init/Bootstrap.cpp:65)                                           : ### System: Deepin 23
+init          2025.03.26 17:16:36.797 37 I printInfo(init/Bootstrap.cpp:65)                                           : ### Kernel: 6.8.0-1021-azure
+init          2025.03.26 17:16:36.797 37 I printInfo(init/Bootstrap.cpp:65)                                           : ### Architecture: arm64
+init          2025.03.26 17:16:36.797 37 I printInfo(init/Bootstrap.cpp:65)                                           : ### Device: fv-az2136-442
+init          2025.03.26 17:16:36.797 37 I printInfo(init/Bootstrap.cpp:65)                                           : ### Qt Version: 6.4.2
+init          2025.03.26 17:16:36.797 37 I printInfo(init/Bootstrap.cpp:65)                                           : ### OpenSSL Version: OpenSSL 3.0.13 30 Jan 2024
+init          2025.03.26 17:16:36.798 37 I printInfo(init/Bootstrap.cpp:67)                                           : ##################################################
+init          2025.03.26 17:16:36.825 37   printInfo(init/Bootstrap.cpp:77)                                           : Library path: "/usr/lib/aarch64-linux-gnu/qt6/plugins"
+init          2025.03.26 17:16:36.825 37   printInfo(init/Bootstrap.cpp:77)                                           : Library path: "/usr/bin"
+init          2025.03.26 17:16:36.825 37   printInfo(init/Bootstrap.cpp:80)                                           : TLS backends: QList("openssl", "cert-only") | using: "openssl"
+default       2025.03.26 17:16:36.825 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::VolatileSettings
+default       2025.03.26 17:16:36.827 37   ResourceLoader::init(global/ResourceLoader.cpp:41)                         : Register resource: "/usr/share/AusweisApp/AusweisApp.rcc" | true
+default       2025.03.26 17:16:36.827 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::AppSettings
+language      2025.03.26 17:16:36.865 37   LanguageLoader::load(global/LanguageLoader.cpp:137)                        : Use path: ":/translations"
+language      2025.03.26 17:16:36.865 37   LanguageLoader::load(global/LanguageLoader.cpp:143)                        : UI language: "C"
+language      2025.03.26 17:16:36.865 37   LanguageLoader::loadTranslationFiles(global/LanguageLoader.cpp:194)        : Using fallback language: "English"
+network       2025.03.26 17:16:36.865 37   NetworkManager::setApplicationProxyFactory(network/NetworkManager.cpp:498) : proxy -> system
+default       2025.03.26 17:16:36.865 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::NetworkManager
+default       2025.03.26 17:16:36.885 37   FileDestination::getPath(global/FileDestination.h:62)                      : "config.json" not found in following destinations | QStandardPaths::LocateFile
+default       2025.03.26 17:16:36.885 37   FileDestination::getPath(global/FileDestination.h:66)                      : "/home/runner/.local/share/AusweisApp"
+default       2025.03.26 17:16:36.886 37   FileDestination::getPath(global/FileDestination.h:66)                      : "/usr/local/share/AusweisApp"
+default       2025.03.26 17:16:36.886 37   FileDestination::getPath(global/FileDestination.h:66)                      : "/usr/share/AusweisApp"
+default       2025.03.26 17:16:36.886 37   SecureStorage::load(secure_storage/SecureStorage.cpp:185)                  : QList("", "", ":/config.json")
+securestorage 2025.03.26 17:16:36.886 37   SecureStorage::loadFile(secure_storage/SecureStorage.cpp:152)              : Load SecureStorage: ":/config.json"
+securestorage 2025.03.26 17:16:36.891 37   SecureStorage::load(secure_storage/SecureStorage.cpp:272)                  : SecureStorage loaded: true
+securestorage 2025.03.26 17:16:36.891 37 I SecureStorage::load(secure_storage/SecureStorage.cpp:273)                  : Vendor ""
+default       2025.03.26 17:16:36.892 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::UILoader
+gui           2025.03.26 17:16:36.892 37   UILoader::load(ui/base/UILoader.cpp:109)                                   : Try to load UI plugin: "qml"
+gui           2025.03.26 17:16:36.892 37   UILoader::load(ui/base/UILoader.cpp:123)                                   : Load plugin: QJsonObject({"IID":"governikus.UIPlugIn","MetaData":{"default":true,"userInteractive":true},"archlevel":0,"className":"UIPlugInQml","debug":false,"version":394240})
+default       2025.03.26 17:16:38.575 37   UIPlugInQml::onUseSystemFontChanged(ui/qml/UIPlugInQml.cpp:1002)           : Using "AusweisApp_Roboto" with styles QList("Regular", "Medium", "Bold")
+init          2025.03.26 17:16:38.575 37   AppController::onUiPlugin(core/controller/AppController.cpp:420)           : Register UI: governikus::UIPlugInQml
+gui           2025.03.26 17:16:38.575 37   UILoader::load(ui/base/UILoader.cpp:109)                                   : Try to load UI plugin: "webservice"
+gui           2025.03.26 17:16:38.575 37   UILoader::load(ui/base/UILoader.cpp:123)                                   : Load plugin: QJsonObject({"IID":"governikus.UIPlugIn","MetaData":{"default":true,"passive":true,"readerManager":false},"archlevel":0,"className":"UIPlugInWebService","debug":false,"version":394240})
+init          2025.03.26 17:16:38.575 37   AppController::onUiPlugin(core/controller/AppController.cpp:420)           : Register UI: governikus::UIPlugInWebService
+gui           2025.03.26 17:16:38.575 37   UILoader::load(ui/base/UILoader.cpp:109)                                   : Try to load UI plugin: "websocket"
+gui           2025.03.26 17:16:38.575 37   UILoader::load(ui/base/UILoader.cpp:123)                                   : Load plugin: QJsonObject({"IID":"governikus.UIPlugIn","MetaData":{"default":true},"archlevel":0,"className":"UIPlugInWebSocket","debug":false,"version":394240})
+init          2025.03.26 17:16:38.576 37   AppController::onUiPlugin(core/controller/AppController.cpp:420)           : Register UI: governikus::UIPlugInWebSocket
+default       2025.03.26 17:16:38.576 37   Env::getShared(global/Env.h:336)                                           : Spawn shared instance: governikus::HttpServer
+network       2025.03.26 17:16:38.576 37   HttpServer::bindAddresses(network/HttpServer.cpp:77)                       : Listening on port: 24727 | QHostAddress("127.0.0.1")
+network       2025.03.26 17:16:38.576 37   HttpServer::bindAddresses(network/HttpServer.cpp:77)                       : Listening on port: 24727 | QHostAddress("::1")
+gui           2025.03.26 17:16:38.576 37   UILoader::load(ui/base/UILoader.cpp:109)                                   : Try to load UI plugin: "json"
+gui           2025.03.26 17:16:38.576 37   UILoader::load(ui/base/UILoader.cpp:123)                                   : Load plugin: QJsonObject({"IID":"governikus.UIPlugIn","MetaData":{"passive":true},"archlevel":0,"className":"UIPlugInJson","debug":false,"version":394240})
+init          2025.03.26 17:16:38.577 37   AppController::onUiPlugin(core/controller/AppController.cpp:420)           : Register UI: governikus::UIPlugInJson
+websocket     2025.03.26 17:16:38.577 37   UIPlugInWebSocket::initialize(ui/websocket/UIPlugInWebSocket.cpp:61)       : Enable WebSocket...
+default       2025.03.26 17:16:38.577 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::ReaderManager
+default       2025.03.26 17:16:38.577 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::RemoteIfdClient
+default       2025.03.26 17:16:38.577 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::AuthModel
+default       2025.03.26 17:16:38.577 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::SmartModel
+default       2025.03.26 17:16:38.578 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::ApplicationModel
+network       2025.03.26 17:16:38.578 37   WifiInfo::WifiInfo(network/WifiInfo_generic.cpp:21)                        : NOT IMPLEMENTED
+card          2025.03.26 17:16:38.578 40   ReaderManagerWorker::onThreadStarted(card/base/ReaderManagerWorker.cpp:69) : Thread started
+card          2025.03.26 17:16:38.578 40   ReaderManagerWorker::registerPlugIns(card/base/ReaderManagerWorker.cpp:78) : Try to register plugins
+default       2025.03.26 17:16:38.578 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::ChangePinModel
+card          2025.03.26 17:16:38.578 40   ReaderManagerWorker::registerPlugIns(card/base/ReaderManagerWorker.cpp:84) : Register and initialize plugin: QJsonObject({"IID":"governikus.ReaderManagerPlugIn","MetaData":{"dependencies":[],"name":"SimulatorReaderManagerPlugIn"},"archlevel":0,"className":"SimulatorReaderManagerPlugIn","debug":false,"version":394240})
+default       2025.03.26 17:16:38.578 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::SelfAuthModel
+card          2025.03.26 17:16:38.579 40   ReaderManagerWorker::registerPlugIns(card/base/ReaderManagerWorker.cpp:84) : Register and initialize plugin: QJsonObject({"IID":"governikus.ReaderManagerPlugIn","MetaData":{"dependencies":[],"name":"RemoteIfdReaderManagerPlugIn"},"archlevel":0,"className":"RemoteIfdReaderManagerPlugIn","debug":false,"version":394240})
+default       2025.03.26 17:16:38.579 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::RemoteServiceModel
+card          2025.03.26 17:16:38.579 40   ReaderManagerWorker::registerPlugIns(card/base/ReaderManagerWorker.cpp:84) : Register and initialize plugin: QJsonObject({"IID":"governikus.ReaderManagerPlugIn","MetaData":{"dependencies":[],"name":"PcscReaderManagerPlugIn"},"archlevel":0,"className":"PcscReaderManagerPlugIn","debug":false,"version":394240})
+default       2025.03.26 17:16:38.581 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::PersonalizationModel
+default       2025.03.26 17:16:38.581 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::SettingsModel
+default       2025.03.26 17:16:38.581 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::AppUpdateDataModel
+default       2025.03.26 17:16:38.581 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::AppUpdater
+default       2025.03.26 17:16:38.581 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::Service
+default       2025.03.26 17:16:38.581 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::ProviderConfiguration
+fileprovider  2025.03.26 17:16:38.581 37   UpdatableFile::makeSectionCachePath(file_provider/UpdatableFile.cpp:141)   : Created cache folder: "/home/runner/.cache/AusweisApp/"
+default       2025.03.26 17:16:38.584 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::ReaderConfiguration
+qt.scenegr... 2025.03.26 17:16:39.956 37   (:0)                                                                       : Using QRhi with backend OpenGL
+  Graphics API debug/validation layers: 0
+  QRhi profiling and debug markers: 0
+  Shader/pipeline cache collection: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+qt.scenegr... 2025.03.26 17:16:40.108 37   (:0)                                                                       : threaded render loop
+qt.scenegr... 2025.03.26 17:16:40.108 37   (:0)                                                                       : Using sg animation driver
+qt.scenegr... 2025.03.26 17:16:40.108 37   (:0)                                                                       : Animation Driver: using vsync: 16.67 ms
+default       2025.03.26 17:16:40.175 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::NotificationModel
+default       2025.03.26 17:16:40.184 37 W (/qml/Governikus/Global/Crossed.qml:54)                                    : qrc:/qml/Governikus/Global/Crossed.qml:54:2: QML TintableIcon: Error decoding: qrc:///images/desktop/warning.svg: Unsupported image format
+default       2025.03.26 17:16:40.189 37 W (/qml/Governikus/MainView/Tile.qml:37)                                     : qrc:/qml/Governikus/MainView/Tile.qml:37:3: QML TintableIcon: Error decoding: qrc:/images/desktop/help.svg: Unsupported image format
+default       2025.03.26 17:16:40.190 37 W (/qml/Governikus/MainView/Tile.qml:37)                                     : qrc:/qml/Governikus/MainView/Tile.qml:37:3: QML TintableIcon: Error decoding: qrc:/images/desktop/settings.svg: Unsupported image format
+default       2025.03.26 17:16:40.191 37 W (/qml/Governikus/MainView/Tile.qml:37)                                     : qrc:/qml/Governikus/MainView/Tile.qml:37:3: QML TintableIcon: Error decoding: qrc:/images/mydata.svg: Unsupported image format
+default       2025.03.26 17:16:40.193 37 W (/qml/Governikus/MainView/Tile.qml:37)                                     : qrc:/qml/Governikus/MainView/Tile.qml:37:3: QML TintableIcon: Error decoding: qrc:/images/lock.svg: Unsupported image format
+default       2025.03.26 17:16:40.194 37 W (/qml/main.qml:305)                                                        : qrc:/qml/main.qml:305:2: QML QQuickImage: Error decoding: qrc:///images/logo_beta_testing.svg: Unsupported image format
+default       2025.03.26 17:16:40.197 37 W (/qml/Governikus/Global/GCheckBox.qml:41)                                  : qrc:/qml/Governikus/Global/GCheckBox.qml:41:4: QML TintableIcon: Error decoding: qrc:///images/checkbox_indicator.svg: Unsupported image format
+default       2025.03.26 17:16:40.199 37 W (/qml/Governikus/Global/GCheckBox.qml:41)                                  : qrc:/qml/Governikus/Global/GCheckBox.qml:41:4: QML TintableIcon: Error decoding: qrc:///images/checkbox_indicator.svg: Unsupported image format
+default       2025.03.26 17:16:40.203 37 W (/qml/Governikus/Global/GButton.qml:64)                                    : qrc:/qml/Governikus/Global/GButton.qml:64:4: QML TintableIcon: Error decoding: qrc:///images/material_arrow_back.svg: Unsupported image format
+default       2025.03.26 17:16:40.204 37 W (/qml/Governikus/TitleBar/TitleBarButton.qml:32)                           : qrc:/qml/Governikus/TitleBar/TitleBarButton.qml:32:3: QML TintableIcon: Error decoding: qrc:///images/desktop/notifications_off.svg: Unsupported image format
+default       2025.03.26 17:16:40.205 37 W (/qml/Governikus/TitleBar/TitleBarButton.qml:32)                           : qrc:/qml/Governikus/TitleBar/TitleBarButton.qml:32:3: QML TintableIcon: Error decoding: qrc:///images/desktop/material_settings_white.svg: Unsupported image format
+default       2025.03.26 17:16:40.206 37 W (/qml/Governikus/Global/GButton.qml:64)                                    : qrc:/qml/Governikus/Global/GButton.qml:64:4: QML TintableIcon: Error decoding: qrc:///images/desktop/home.svg: Unsupported image format
+default       2025.03.26 17:16:40.207 37 W (/qml/Governikus/TitleBar/TitleBarButton.qml:32)                           : qrc:/qml/Governikus/TitleBar/TitleBarButton.qml:32:3: QML TintableIcon: Error decoding: qrc:///images/desktop/notifications_off.svg: Unsupported image format
+default       2025.03.26 17:16:40.208 37 W (/qml/Governikus/TitleBar/TitleBarButton.qml:32)                           : qrc:/qml/Governikus/TitleBar/TitleBarButton.qml:32:3: QML TintableIcon: Error decoding: qrc:///images/desktop/notifications_off.svg: Unsupported image format
+default       2025.03.26 17:16:40.209 37 W (/qml/Governikus/TitleBar/TitleBarButton.qml:32)                           : qrc:/qml/Governikus/TitleBar/TitleBarButton.qml:32:3: QML TintableIcon: Error decoding: qrc:///images/desktop/notifications_off.svg: Unsupported image format
+default       2025.03.26 17:16:40.210 37 W (/qml/Governikus/TitleBar/TitleBarButton.qml:32)                           : qrc:/qml/Governikus/TitleBar/TitleBarButton.qml:32:3: QML TintableIcon: Error decoding: qrc:///images/desktop/material_settings_white.svg: Unsupported image format
+default       2025.03.26 17:16:40.211 37 W (/qml/Governikus/TitleBar/TitleBarButton.qml:32)                           : qrc:/qml/Governikus/TitleBar/TitleBarButton.qml:32:3: QML TintableIcon: Error decoding: qrc:///images/desktop/material_settings_white.svg: Unsupported image format
+default       2025.03.26 17:16:40.212 37 W (/qml/Governikus/TitleBar/TitleBarButton.qml:32)                           : qrc:/qml/Governikus/TitleBar/TitleBarButton.qml:32:3: QML TintableIcon: Error decoding: qrc:///images/desktop/material_settings_white.svg: Unsupported image format
+qml           2025.03.26 17:16:40.250 37   UIPlugInQml::init(ui/qml/UIPlugInQml.cpp:296)                              : Using renderer interface: 3
+init          2025.03.26 17:16:40.250 37   initApp(init/Bootstrap.cpp:191)                                            : Enter main event loop...
+card          2025.03.26 17:16:40.251 37   ReaderManager::doUpdatePluginCache(card/base/ReaderManager.cpp:258)        : Update cache entry: SIMULATOR
+card          2025.03.26 17:16:40.251 37   ReaderManager::doUpdatePluginCache(card/base/ReaderManager.cpp:258)        : Update cache entry: REMOTE_IFD
+card          2025.03.26 17:16:40.251 37   ReaderManager::doUpdatePluginCache(card/base/ReaderManager.cpp:258)        : Update cache entry: PCSC
+qml           2025.03.26 17:16:40.252 37   UIPlugInQml::onQmlObjectCreated(ui/qml/UIPlugInQml.cpp:747)                : QML engine initialization finished with 18 warnings.
+qt.scenegr... 2025.03.26 17:16:40.262 52   (:0)                                                                       : Using sg animation driver
+qt.scenegr... 2025.03.26 17:16:40.262 52   (:0)                                                                       : Animation Driver: using vsync: 16.67 ms
+qt.rhi.gen... 2025.03.26 17:16:40.271 52   (:0)                                                                       : Created OpenGL context QSurfaceFormat(version 4.5, options QFlags<QSurfaceFormat::FormatOption>(DeprecatedFunctions), depthBufferSize 24, redBufferSize 8, greenBufferSize 8, blueBufferSize 8, alphaBufferSize 0, stencilBufferSize 8, samples -1, swapBehavior QSurfaceFormat::DoubleBuffer, swapInterval 1, colorSpace QColorSpace(), profile  QSurfaceFormat::CompatibilityProfile)
+qt.rhi.gen... 2025.03.26 17:16:40.272 52   (:0)                                                                       : OpenGL VENDOR: Mesa RENDERER: llvmpipe (LLVM 17.0.6, 128 bits) VERSION: 4.5 (Compatibility Profile) Mesa 24.0.1-1deepin3
+qt.scenegr... 2025.03.26 17:16:40.273 52   (:0)                                                                       : MSAA sample count for the swapchain is 1. Alpha channel requested = no.
+qt.scenegr... 2025.03.26 17:16:40.273 52   (:0)                                                                       : rhi texture atlas dimensions: 1024x1024
+fileprovider  2025.03.26 17:16:40.886 37   UpdatableFile::update(file_provider/UpdatableFile.cpp:351)                 : Update Triggered for Name: "supported-providers.json"  with URL: QUrl("https://updates.autentapp.de/updatable-files/supported-providers.json")
+default       2025.03.26 17:16:40.886 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::Downloader
+fileprovider  2025.03.26 17:16:40.886 37   Downloader::download(file_provider/Downloader.cpp:194)                     : Download: QUrl("https://updates.autentapp.de/updatable-files/supported-providers.json")
+network       2025.03.26 17:16:40.886 37   ...nymous}::SystemProxyFactory::queryProxy(network/NetworkManager.cpp:454) : ProxyQuery(type: QNetworkProxyQuery::UrlRequest, protocol: "https", peerPort: -1, peerHostName: "updates.autentapp.de", localPort: -1, url: QUrl("https://updates.autentapp.de/updatable-files/supported-providers.json"))
+network       2025.03.26 17:16:40.895 37   ...nymous}::SystemProxyFactory::queryProxy(network/NetworkManager.cpp:456) : Found proxies QList(NoProxy """:0" ["Tunnel Listen UDP SctpTunnel SctpListen"])
+network       2025.03.26 17:16:41.986 37 I NetworkManager::processUpdaterRequest(network/NetworkManager.cpp:170)      : Used session cipher QSslCipher(name=ECDHE-ECDSA-AES256-GCM-SHA384, bits=256, proto=TLSv1.2)
+network       2025.03.26 17:16:41.986 37 I NetworkManager::processUpdaterRequest(network/NetworkManager.cpp:170)      : Used session protocol: "TlsV1_2"
+network       2025.03.26 17:16:41.986 37 I NetworkManager::processUpdaterRequest(network/NetworkManager.cpp:170)      : Used ephemeral server key: QSslKey(PublicKey, EC, 256)
+network       2025.03.26 17:16:41.987 37 I NetworkManager::processUpdaterRequest(network/NetworkManager.cpp:170)      : Used peer certificate: QSslCertificate("3", "7a:70:ab:a4:a6:6d:aa:ff", "hUFmV5s48mTAtg6MJzbMEQ==", "Governikus CA 9:PN", "updates.autentapp.de", QMultiMap((1, "updates.autentapp.de")), QDateTime(2021-12-06 10:18:22.000 UTC Qt::UTC), QDateTime(2027-12-31 23:59:00.000 UTC Qt::UTC))
+network       2025.03.26 17:16:41.987 37 I NetworkManager::processUpdaterRequest(network/NetworkManager.cpp:170)      : Used ssl session: "e427e0e10427093c062f35e8fa85b9108a33c3f8a76fba8ee1c11af73bec5561"
+network       2025.03.26 17:16:41.987 37 I NetworkManager::processUpdaterRequest(network/NetworkManager.cpp:170)      : Handshake of tls connection done!
+fileprovider  2025.03.26 17:16:42.100 37   Downloader::onMetadataChanged(file_provider/Downloader.cpp:61)             : Continue request for "supported-providers.json"
+fileprovider  2025.03.26 17:16:42.198 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:72)        : Downloader finished: "supported-providers.json"
+network       2025.03.26 17:16:42.198 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Status Code: 200 "OK"
+network       2025.03.26 17:16:42.198 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Date: Wed, 26 Mar 2025 17:16:42 GMT
+network       2025.03.26 17:16:42.199 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Server: Apache
+network       2025.03.26 17:16:42.199 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Strict-Transport-Security: max-age=31536000;includeSubdomains;
+network       2025.03.26 17:16:42.199 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Upgrade: h2,h2c
+network       2025.03.26 17:16:42.199 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Connection: Upgrade, Keep-Alive
+network       2025.03.26 17:16:42.199 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Last-Modified: Fri, 21 Mar 2025 08:03:59 GMT
+network       2025.03.26 17:16:42.199 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | ETag: "1df91-630d5b25ef9c0-gzip"
+network       2025.03.26 17:16:42.199 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Accept-Ranges: bytes
+network       2025.03.26 17:16:42.199 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Cache-Control: no-cache, public
+network       2025.03.26 17:16:42.200 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Expires: Wed, 26 Mar 2025 17:36:42 GMT
+network       2025.03.26 17:16:42.200 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Vary: Accept-Encoding,User-Agent
+network       2025.03.26 17:16:42.200 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Content-Encoding: gzip
+network       2025.03.26 17:16:42.200 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | X-Content-Type-Options: nosniff
+network       2025.03.26 17:16:42.200 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | X-Frame-Options: sameorigin
+network       2025.03.26 17:16:42.200 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Pragma: public
+network       2025.03.26 17:16:42.200 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Keep-Alive: timeout=5, max=100
+network       2025.03.26 17:16:42.200 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Content-Type: application/json
+fileprovider  2025.03.26 17:16:42.201 37   UpdatableFile::writeDataToFile(file_provider/UpdatableFile.cpp:235)        : Data written to file: "/home/runner/.cache/AusweisApp//supported-providers.json_20250321080359UTC"
+fileprovider  2025.03.26 17:16:42.203 37   UpdatableFile::makeSectionCachePath(file_provider/UpdatableFile.cpp:141)   : Created cache folder: "/home/runner/.cache/AusweisApp/provider"
+fileprovider  2025.03.26 17:16:42.207 37   UpdatableFile::update(file_provider/UpdatableFile.cpp:351)                 : Update Triggered for Name: "supported-readers.json"  with URL: QUrl("https://updates.autentapp.de/updatable-files/supported-readers.json")
+fileprovider  2025.03.26 17:16:42.208 37   Downloader::download(file_provider/Downloader.cpp:194)                     : Download: QUrl("https://updates.autentapp.de/updatable-files/supported-readers.json")
+fileprovider  2025.03.26 17:16:42.208 37   Downloader::startDownloadIfPending(file_provider/Downloader.cpp:37)        : A download is already in progress... delaying.
+network       2025.03.26 17:16:42.208 37   ...nymous}::SystemProxyFactory::queryProxy(network/NetworkManager.cpp:454) : ProxyQuery(type: QNetworkProxyQuery::UrlRequest, protocol: "https", peerPort: -1, peerHostName: "updates.autentapp.de", localPort: -1, url: QUrl("https://updates.autentapp.de/updatable-files/supported-readers.json"))
+network       2025.03.26 17:16:42.208 37   ...nymous}::SystemProxyFactory::queryProxy(network/NetworkManager.cpp:456) : Found proxies QList(NoProxy """:0" ["Tunnel Listen UDP SctpTunnel SctpListen"])
+fileprovider  2025.03.26 17:16:42.310 37   Downloader::onMetadataChanged(file_provider/Downloader.cpp:61)             : Continue request for "supported-readers.json"
+fileprovider  2025.03.26 17:16:42.310 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:72)        : Downloader finished: "supported-readers.json"
+network       2025.03.26 17:16:42.310 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Status Code: 200 "OK"
+network       2025.03.26 17:16:42.311 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Date: Wed, 26 Mar 2025 17:16:42 GMT
+network       2025.03.26 17:16:42.311 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Server: Apache
+network       2025.03.26 17:16:42.311 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Strict-Transport-Security: max-age=31536000;includeSubdomains;
+network       2025.03.26 17:16:42.311 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Last-Modified: Mon, 10 Mar 2025 12:13:10 GMT
+network       2025.03.26 17:16:42.311 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | ETag: "a6e6-62ffbe5440180-gzip"
+network       2025.03.26 17:16:42.311 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Accept-Ranges: bytes
+network       2025.03.26 17:16:42.311 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Cache-Control: no-cache, public
+network       2025.03.26 17:16:42.311 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Expires: Wed, 26 Mar 2025 17:36:42 GMT
+network       2025.03.26 17:16:42.312 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Vary: Accept-Encoding,User-Agent
+network       2025.03.26 17:16:42.312 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Content-Encoding: gzip
+network       2025.03.26 17:16:42.312 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | X-Content-Type-Options: nosniff
+network       2025.03.26 17:16:42.312 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | X-Frame-Options: sameorigin
+network       2025.03.26 17:16:42.312 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Pragma: public
+network       2025.03.26 17:16:42.312 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Keep-Alive: timeout=5, max=99
+network       2025.03.26 17:16:42.312 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Connection: Keep-Alive
+network       2025.03.26 17:16:42.312 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Content-Type: application/json
+fileprovider  2025.03.26 17:16:42.313 37   UpdatableFile::writeDataToFile(file_provider/UpdatableFile.cpp:235)        : Data written to file: "/home/runner/.cache/AusweisApp//supported-readers.json_20250310121310UTC"
+fileprovider  2025.03.26 17:16:42.313 37   UpdatableFile::makeSectionCachePath(file_provider/UpdatableFile.cpp:141)   : Created cache folder: "/home/runner/.cache/AusweisApp/reader"
+default       2025.03.26 17:16:42.314 37   Env::createSingleton(global/Env.h:127)                                     : Create singleton: governikus::ReleaseInformationConfiguration
+fileprovider  2025.03.26 17:16:42.314 37   UpdatableFile::makeSectionCachePath(file_provider/UpdatableFile.cpp:141)   : Created cache folder: "/home/runner/.cache/AusweisApp/releasenotes/en"
+fileprovider  2025.03.26 17:16:42.315 37   UpdatableFile::update(file_provider/UpdatableFile.cpp:351)                 : Update Triggered for Name: "2.1.0.txt"  with URL: QUrl("https://updates.autentapp.de/updatable-files/releasenotes/en/2.1.0.txt")
+fileprovider  2025.03.26 17:16:42.315 37   Downloader::download(file_provider/Downloader.cpp:194)                     : Download: QUrl("https://updates.autentapp.de/updatable-files/releasenotes/en/2.1.0.txt")
+fileprovider  2025.03.26 17:16:42.315 37   Downloader::startDownloadIfPending(file_provider/Downloader.cpp:37)        : A download is already in progress... delaying.
+fileprovider  2025.03.26 17:16:42.315 37   UpdatableFile::update(file_provider/UpdatableFile.cpp:351)                 : Update Triggered for Name: "announce.txt"  with URL: QUrl("https://updates.autentapp.de/updatable-files/releasenotes/en/announce.txt")
+fileprovider  2025.03.26 17:16:42.315 37   Downloader::download(file_provider/Downloader.cpp:194)                     : Download: QUrl("https://updates.autentapp.de/updatable-files/releasenotes/en/announce.txt")
+fileprovider  2025.03.26 17:16:42.315 37   Downloader::startDownloadIfPending(file_provider/Downloader.cpp:37)        : A download is already in progress... delaying.
+fileprovider  2025.03.26 17:16:42.315 37   UpdatableFile::update(file_provider/UpdatableFile.cpp:351)                 : Update Triggered for Name: "issues.txt"  with URL: QUrl("https://updates.autentapp.de/updatable-files/releasenotes/en/issues.txt")
+fileprovider  2025.03.26 17:16:42.316 37   Downloader::download(file_provider/Downloader.cpp:194)                     : Download: QUrl("https://updates.autentapp.de/updatable-files/releasenotes/en/issues.txt")
+fileprovider  2025.03.26 17:16:42.316 37   Downloader::startDownloadIfPending(file_provider/Downloader.cpp:37)        : A download is already in progress... delaying.
+network       2025.03.26 17:16:42.316 37   ...nymous}::SystemProxyFactory::queryProxy(network/NetworkManager.cpp:454) : ProxyQuery(type: QNetworkProxyQuery::UrlRequest, protocol: "https", peerPort: -1, peerHostName: "updates.autentapp.de", localPort: -1, url: QUrl("https://updates.autentapp.de/updatable-files/releasenotes/en/2.1.0.txt"))
+network       2025.03.26 17:16:42.316 37   ...nymous}::SystemProxyFactory::queryProxy(network/NetworkManager.cpp:456) : Found proxies QList(NoProxy """:0" ["Tunnel Listen UDP SctpTunnel SctpListen"])
+fileprovider  2025.03.26 17:16:42.416 37   Downloader::onMetadataChanged(file_provider/Downloader.cpp:61)             : Continue request for "2.1.0.txt"
+fileprovider  2025.03.26 17:16:42.416 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:72)        : Downloader finished: "2.1.0.txt"
+network       2025.03.26 17:16:42.416 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Status Code: 200 "OK"
+network       2025.03.26 17:16:42.416 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Date: Wed, 26 Mar 2025 17:16:42 GMT
+network       2025.03.26 17:16:42.417 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Server: Apache
+network       2025.03.26 17:16:42.417 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Strict-Transport-Security: max-age=31536000;includeSubdomains;
+network       2025.03.26 17:16:42.417 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Last-Modified: Mon, 10 Mar 2025 12:13:10 GMT
+network       2025.03.26 17:16:42.417 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | ETag: "3a7-62ffbe5440180-gzip"
+network       2025.03.26 17:16:42.417 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Accept-Ranges: bytes
+network       2025.03.26 17:16:42.417 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Cache-Control: no-cache, public
+network       2025.03.26 17:16:42.417 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Expires: Wed, 26 Mar 2025 18:16:42 GMT
+network       2025.03.26 17:16:42.417 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Vary: Accept-Encoding,User-Agent
+network       2025.03.26 17:16:42.417 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Content-Encoding: gzip
+network       2025.03.26 17:16:42.418 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | X-Content-Type-Options: nosniff
+network       2025.03.26 17:16:42.418 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | X-Frame-Options: sameorigin
+network       2025.03.26 17:16:42.418 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Pragma: public
+network       2025.03.26 17:16:42.418 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Keep-Alive: timeout=5, max=98
+network       2025.03.26 17:16:42.418 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Connection: Keep-Alive
+network       2025.03.26 17:16:42.418 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Content-Type: text/plain
+fileprovider  2025.03.26 17:16:42.418 37   UpdatableFile::writeDataToFile(file_provider/UpdatableFile.cpp:235)        : Data written to file: "/home/runner/.cache/AusweisApp/releasenotes/en/2.1.0.txt_20250310121310UTC"
+network       2025.03.26 17:16:42.419 37   ...nymous}::SystemProxyFactory::queryProxy(network/NetworkManager.cpp:454) : ProxyQuery(type: QNetworkProxyQuery::UrlRequest, protocol: "https", peerPort: -1, peerHostName: "updates.autentapp.de", localPort: -1, url: QUrl("https://updates.autentapp.de/updatable-files/releasenotes/en/announce.txt"))
+network       2025.03.26 17:16:42.419 37   ...nymous}::SystemProxyFactory::queryProxy(network/NetworkManager.cpp:456) : Found proxies QList(NoProxy """:0" ["Tunnel Listen UDP SctpTunnel SctpListen"])
+fileprovider  2025.03.26 17:16:42.519 37   Downloader::onMetadataChanged(file_provider/Downloader.cpp:61)             : Continue request for "announce.txt"
+fileprovider  2025.03.26 17:16:42.519 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:72)        : Downloader finished: "announce.txt"
+network       2025.03.26 17:16:42.519 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Status Code: 200 "OK"
+network       2025.03.26 17:16:42.519 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Date: Wed, 26 Mar 2025 17:16:42 GMT
+network       2025.03.26 17:16:42.519 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Server: Apache
+network       2025.03.26 17:16:42.519 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Strict-Transport-Security: max-age=31536000;includeSubdomains;
+network       2025.03.26 17:16:42.519 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Last-Modified: Mon, 10 Mar 2025 12:13:10 GMT
+network       2025.03.26 17:16:42.520 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | ETag: "171-62ffbe5440180-gzip"
+network       2025.03.26 17:16:42.520 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Accept-Ranges: bytes
+network       2025.03.26 17:16:42.520 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Cache-Control: no-cache, public
+network       2025.03.26 17:16:42.520 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Expires: Wed, 26 Mar 2025 18:16:42 GMT
+network       2025.03.26 17:16:42.520 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Vary: Accept-Encoding,User-Agent
+network       2025.03.26 17:16:42.520 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Content-Encoding: gzip
+network       2025.03.26 17:16:42.520 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | X-Content-Type-Options: nosniff
+network       2025.03.26 17:16:42.520 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | X-Frame-Options: sameorigin
+network       2025.03.26 17:16:42.521 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Pragma: public
+network       2025.03.26 17:16:42.521 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Keep-Alive: timeout=5, max=97
+network       2025.03.26 17:16:42.521 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Connection: Keep-Alive
+network       2025.03.26 17:16:42.521 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Content-Type: text/plain
+fileprovider  2025.03.26 17:16:42.521 37   UpdatableFile::writeDataToFile(file_provider/UpdatableFile.cpp:235)        : Data written to file: "/home/runner/.cache/AusweisApp/releasenotes/en/announce.txt_20250310121310UTC"
+network       2025.03.26 17:16:42.521 37   ...nymous}::SystemProxyFactory::queryProxy(network/NetworkManager.cpp:454) : ProxyQuery(type: QNetworkProxyQuery::UrlRequest, protocol: "https", peerPort: -1, peerHostName: "updates.autentapp.de", localPort: -1, url: QUrl("https://updates.autentapp.de/updatable-files/releasenotes/en/issues.txt"))
+network       2025.03.26 17:16:42.521 37   ...nymous}::SystemProxyFactory::queryProxy(network/NetworkManager.cpp:456) : Found proxies QList(NoProxy """:0" ["Tunnel Listen UDP SctpTunnel SctpListen"])
+fileprovider  2025.03.26 17:16:42.622 37   Downloader::onMetadataChanged(file_provider/Downloader.cpp:61)             : Continue request for "issues.txt"
+fileprovider  2025.03.26 17:16:42.622 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:72)        : Downloader finished: "issues.txt"
+network       2025.03.26 17:16:42.622 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Status Code: 200 "OK"
+network       2025.03.26 17:16:42.622 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Date: Wed, 26 Mar 2025 17:16:42 GMT
+network       2025.03.26 17:16:42.622 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Server: Apache
+network       2025.03.26 17:16:42.623 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Strict-Transport-Security: max-age=31536000;includeSubdomains;
+network       2025.03.26 17:16:42.623 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Last-Modified: Tue, 18 Mar 2025 10:24:54 GMT
+network       2025.03.26 17:16:42.623 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | ETag: "952-6309b50cde980-gzip"
+network       2025.03.26 17:16:42.623 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Accept-Ranges: bytes
+network       2025.03.26 17:16:42.623 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Cache-Control: no-cache, public
+network       2025.03.26 17:16:42.623 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Expires: Wed, 26 Mar 2025 18:16:42 GMT
+network       2025.03.26 17:16:42.623 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Vary: Accept-Encoding,User-Agent
+network       2025.03.26 17:16:42.623 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Content-Encoding: gzip
+network       2025.03.26 17:16:42.624 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | X-Content-Type-Options: nosniff
+network       2025.03.26 17:16:42.624 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | X-Frame-Options: sameorigin
+network       2025.03.26 17:16:42.624 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Pragma: public
+network       2025.03.26 17:16:42.624 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Keep-Alive: timeout=5, max=96
+network       2025.03.26 17:16:42.624 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Connection: Keep-Alive
+network       2025.03.26 17:16:42.624 37   Downloader::onNetworkReplyFinished(file_provider/Downloader.cpp:89)        : Header | Content-Type: text/plain
+fileprovider  2025.03.26 17:16:42.624 37   UpdatableFile::writeDataToFile(file_provider/UpdatableFile.cpp:235)        : Data written to file: "/home/runner/.cache/AusweisApp/releasenotes/en/issues.txt_20250318102454UTC"
+fileprovider  2025.03.26 17:16:42.624 37   Downloader::startDownloadIfPending(file_provider/Downloader.cpp:43)        : No pending requests to be started.
+system        2025.03.26 17:16:46.669 37 W ...ndler::onSignalSocketActivated(init/SignalHandler_bsd_linux_osx.cpp:64) : Got signal: 15
