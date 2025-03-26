@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: com.zhiankeji.hs110.linyaps
+  name: com.zhiankeji.hs110
+  version: 1.0.1.1
+  kind: app
+  description: |-
+    <insert up to 60 chars description>
+    <insert long description, indented with spaces>
+command:
+- /opt/apps/com.zhiankeji.hs110.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
