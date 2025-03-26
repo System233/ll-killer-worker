@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: brewtarget.linyaps
+  name: brewtarget
+  version: 3.0.6.1
+  kind: app
+  description: |-
+    GUI beer brewing software
+    Brewtarget is a calculator for brewing beer. It is a Qt-based program which
+    allows you to create recipes from a database of ingredients. It calculates all
+    the important parameters, helps you with mash temperatures, and just makes the
+    process of recipe formulation much easier.
+command:
+- /opt/apps/brewtarget.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
