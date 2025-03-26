@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.za.ld8800.linyaps
+  name: com.za.ld8800
+  version: 3.0.1.2
+  kind: app
+  description: ZHIANG Fingerprint Reader SDK Library
+command:
+- /opt/apps/com.za.ld8800.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
