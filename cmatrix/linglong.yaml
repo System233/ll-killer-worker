@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: cmatrix.linyaps
+  name: cmatrix
+  version: 2.0.0.6
+  kind: app
+  description: |-
+    simulates the display from "The Matrix"
+    Screen saver for the terminal based in the movie "The Matrix". It works in
+    terminals of all dimensions and have the following features:
+    * Support terminal resize.
+    * Screen saver mode: any key closes it.
+    * Selectable color.
+    * Change text scroll rate.
+command:
+- /opt/apps/cmatrix.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
