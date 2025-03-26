@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: com.joyusing.gwq.linyaps
+  name: com.joyusing.gwq
+  version: 1.0.0.0
+  kind: app
+  description: |-
+    Eye of GNOME graphics viewer program
+    eog or the Eye of GNOME is a simple graphics viewer for the GNOME
+    desktop which uses the gdk-pixbuf library.  It can deal with large
+    images, and zoom and scroll with constant memory usage.  Its goals are
+    simplicity and standards compliance.
+command:
+- /opt/apps/com.joyusing.gwq.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
