@@ -39,7 +39,7 @@ jobs:
           WORK_DIR="build/$ARCH"
           git -C "$WORK_DIR" add index.csv
           git -C "$WORK_DIR" diff --cached --quiet || git -C "$WORK_DIR" commit -m "Update Index"
-          git -C "$WORK_DIR" pull origin $ARCH --rebase && git push origin $ARCH
+          git -C "$WORK_DIR" pull origin $ARCH --rebase && git push origin HEAD:$ARCH
         env:
           ARCH: ${{matrix.arch}}
           RUNNER: ${{matrix.runner}}
