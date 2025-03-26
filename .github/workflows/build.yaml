@@ -128,14 +128,16 @@ jobs:
       - name: Test
         id: test
         run: |
-          layer=no
-          desktop=no
+          layer=yes
+          desktop=yes
           fail=no
-          if ls $PKG_WORK_DIR/*.layer >/dev/null;then
-            layer=yes
+          if ! ls $PKG_WORK_DIR/*.layer >/dev/null;then
+            layer=no
+            fail=yes
           fi
-          if ls $PKG_WORK_DIR/tests/screen*.jpg >/dev/null;then
-            desktop=yes
+          if ! ls $PKG_WORK_DIR/tests/screen*.jpg >/dev/null;then
+            desktop=no
+            fail=yes
           fi
           echo "desktop=$desktop"
           echo "layer=$layer"
