@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: bsdgames.linyaps
+  name: bsdgames
+  version: 2.17.0.33
+  kind: app
+  description: |-
+    collection of classic textual unix games
+    This is a collection of some of the text-based games and amusements that
+    have been enjoyed for decades on unix systems.
+
+    It includes these programs: adventure, arithmetic, atc, backgammon,
+    battlestar, caesar, canfield, cribbage, dab, go-fish, gomoku, hack, hangman,
+    pom, primes, robots, sail, snake, tetris, trek, worm, wtf, wump
+command:
+- /opt/apps/bsdgames.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
