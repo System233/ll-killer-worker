@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: aghermann.linyaps
+  name: aghermann
+  version: 1.1.2.5
+  kind: app
+  description: |-
+    Sleep-research experiment manager
+    Aghermann is a program designed around a common workflow in
+    sleep-research, complete with scoring facility; cairo subpixel
+    drawing on screen or to file; conventional PSD and EEG Micrcontinuity
+    profiles; Independent Component Analysis; artifact detection; and
+    Process S simulation following Achermann et al, 1993.
+command:
+- /opt/apps/aghermann.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
