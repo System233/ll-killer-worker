@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: clipit.linyaps
+  name: clipit
+  version: 1.4.4.2
+  kind: app
+  description: |-
+    lightweight GTK+ clipboard manager (deprecated)
+    Clipboard manager with features such as:
+    * Save history of your last copied items
+    * Search through the history
+    * Global hotkeys for most used functions
+    * Execute actions with clipboard items
+    * Exclude specific items from history
+
+    ClipIt was forked from Parcellite and adds many bugfixes and features to the
+    project.
+
+    Diodon is a replacement for ClipIt, which is no longer supported.
+
+    This package may be safely removed after the migration to Diodon is complete.
+command:
+- /opt/apps/clipit.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
