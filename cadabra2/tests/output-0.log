@@ -1,0 +1,19 @@
+包名:cadabra2.linyaps
+Layer文件:cadabra2.linyaps_2.4.5.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: cadabra2.linyaps_2.4.5.0_arm64_binary.layer
+offset: 813
+mountpoint: /tmp/tmp.ePAPSJTxrq/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/lib/python3.12/dist-packages/cadabra2_defaults.py'
+
+At:
+  Notebook Cell (Line 1): f=open(r'/usr/local/lib/python3.12/dist-packages/cadabra2_defaults.py'); code=compile(f.read(), 'cadabra2_defaults.py', 'exec'); exec(code); f.close()
+
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Failed to read port from server.
