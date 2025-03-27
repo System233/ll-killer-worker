@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.ricoh.pfu.fsane.linyaps
+  name: com.ricoh.pfu.fsane
+  version: 4.0.1.1
+  kind: app
+  description: a linux scan application for pfu scanners on linux platform
+command:
+- /opt/apps/com.ricoh.pfu.fsane.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
