@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: apostrophe.linyaps
+  name: apostrophe
+  version: 2.6.3.4
+  kind: app
+  description: |-
+    Distraction free Markdown editor
+    Apostrophe is a GTK+ based distraction free Markdown editor.
+    It uses pandoc as back-end for parsing Markdown and offers a very
+    clean and sleek user interface.
+command:
+- /opt/apps/apostrophe.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
