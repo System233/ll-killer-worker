@@ -1,0 +1,27 @@
+正在测试: APPID=content-hub.linyaps LAYER=content-hub.linyaps_1.1.1.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install content-hub.linyaps_1.1.1.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:content-hub.linyaps
+Layer文件:content-hub.linyaps_1.1.1.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: content-hub.linyaps_1.1.1.1_arm64_binary.layer
+offset: 584
+mountpoint: /tmp/tmp.XBX1tDBgRq/mnt
+dbglevel: 0
+[成功] /opt/apps/content-hub.linyaps/files/share/applications/content-hub-send.desktop: /opt/apps/content-hub.linyaps/files/entrypoint.sh content-hub-send %U
+[正在测试启动项]
+包名:content-hub.linyaps
+Layer文件:content-hub.linyaps_1.1.1.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: content-hub.linyaps_1.1.1.1_arm64_binary.layer
+offset: 584
+mountpoint: /tmp/tmp.uTjEFDu4XZ/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run content-hub.linyaps -- /opt/apps/content-hub.linyaps/files/entrypoint.sh content-hub-send
+[PID 16872] 进程已启动
+[PID 16872] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall content-hub.linyaps
