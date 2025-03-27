@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: configure-debian.linyaps
+  name: configure-debian
+  version: 1.0.3.0
+  kind: app
+  description: |-
+    central configuration program for packages using debconf
+    configure-debian is a program which presents a list of packages which
+    use Debconf, Debian's configuration management system.
+
+    Debconf provides first-time installation wizards that run when a
+    package is installed. You may reconfigure these packages at a later
+    time, if you wish, and configure-debian makes that very easy.
+
+    configure-debian splits the package lists into the subsections which
+    make up the Debian archive, such as x11, base, gnome, or kde.
+command:
+- /opt/apps/configure-debian.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
