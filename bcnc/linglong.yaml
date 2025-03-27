@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: bcnc.linyaps
+  name: bcnc
+  version: 0.9.14.4
+  kind: app
+  description: |-
+    GRBL CNC command sender, autoleveler and g-code editor
+    GrblHAL (formerly GRBL) CNC command sender, autoleveler, g-code editor,
+    digitizer, CAM and swiss army knife for all your CNC needs.
+command:
+- /opt/apps/bcnc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
