@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.tdr.uosicbc.linyaps
+  name: com.tdr.uosicbc
+  version: 9.0.6.5
+  kind: app
+  description: OnKeyICBC
+command:
+- /opt/apps/com.tdr.uosicbc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
