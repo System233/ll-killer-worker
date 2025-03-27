@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: aqemu.linyaps
+  name: aqemu
+  version: 0.9.2.3
+  kind: app
+  description: |-
+    Qt5 front-end for QEMU and KVM
+    aqemu is a Qt5 graphical interface used to manage QEMU and KVM virtual
+    machines. It has a user-friendly interface and allows one to set up the
+    majority of QEMU and KVM options.
+command:
+- /opt/apps/aqemu.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
