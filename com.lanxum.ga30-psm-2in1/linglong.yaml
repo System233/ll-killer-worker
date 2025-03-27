@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.lanxum.ga30-psm-2in1.linyaps
+  name: com.lanxum.ga30-psm-2in1
+  version: 1.0.0.21032
+  kind: app
+  description: Lanxum GA30 Driver
+command:
+- /opt/apps/com.lanxum.ga30-psm-2in1.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
