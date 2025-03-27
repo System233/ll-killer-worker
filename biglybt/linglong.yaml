@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: biglybt.linyaps
+  name: biglybt
+  version: 3.4.0.1
+  kind: app
+  description: |-
+    BitTorrent client
+    BiglyBT is a feature filled, open source, ad-free, BitTorrent client used
+    to transfer files via the BitTorrent protocol. BiglyBT is the continuation
+    of the Vuze/Azureus project first created in 2003, and is being actively
+    developed by the original coders.
+command:
+- /opt/apps/biglybt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
