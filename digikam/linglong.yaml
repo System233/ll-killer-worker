@@ -1,0 +1,38 @@
+version: "1"
+package:
+  id: digikam.linyaps
+  name: digikam
+  version: 8.2.0.0
+  kind: app
+  description: |-
+    digital photo management application for KDE
+    Digital photo management program designed to import, organize, enhance, search
+    and export your digital images to and from your computer.
+
+    It provides a simple interface which makes importing and organizing digital
+    photographs a "snap". digiKam enables you to manage large numbers of
+    digital photographs in albums and to organize these photographs for easy
+    retrieval using tags (keywords), captions, collections, dates, geolocation
+    and searches. It has many features for viewing, organizing, processing and
+    sharing your images. Thus, digiKam is a formidable digital asset management
+    (DAM) software including powerful image editing functions.
+
+    An easy-to-use camera interface is provided, that will connect to your
+    digital camera and download photographs directly into digiKam albums.
+    More than 1000 digital cameras are supported by the gphoto2 library.
+    Of course, any media or card reader supported by your operating system
+    will interface with digiKam.
+
+    digiKam incorporates a fast Image Editor with many image editing tools.
+    You can use the Image Editor to view your photographs, comment and rate
+    them, correct, enhance and alter them. The editing power can be easily
+    extended by a set of plugins, the KDE Image Plugins Interface (manual)
+
+    While digiKam remains easy to use, it provides professional level features
+    by the dozens. It is fully 16 bit enabled including all available plugins,
+    supports RAW format conversion through libraw, DNG export and ICC color
+    management work flow.
+command:
+- /opt/apps/digikam.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
