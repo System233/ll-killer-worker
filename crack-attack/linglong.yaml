@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: crack-attack.linyaps
+  name: crack-attack
+  version: 1.1.14.9
+  kind: app
+  description: |-
+    multiplayer OpenGL puzzle game like "Tetris Attack"
+    Crack Attack is an OpenGL puzzle game similar to the Super Nintendo
+    game "Tetris Attack".  Slowly, your stack of colored blocks grows
+    from the bottom, and you've got to make sure it never reaches the
+    top. If it does, you lose. To eliminate blocks from the stack, line
+    up at least three of one color, horizontally or vertically. Once you
+    do, those blocks disappear, and put off slightly your inevitable
+    demise.
+
+    Crack Attack is very slow without hardware acceleration.  For Xorg
+    users, this means you want DRI.
+
+    More information can be found at http://www.nongnu.org/crack-attack/
+command:
+- /opt/apps/crack-attack.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
