@@ -1,0 +1,50 @@
+包名:brewtarget.linyaps
+Layer文件:brewtarget.linyaps_3.0.6.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: brewtarget.linyaps_3.0.6.1_x86_64_binary.layer
+offset: 670
+mountpoint: /tmp/tmp.i1oRSyUyGQ/mnt
+dbglevel: 0
+ObjectStore::ObjectStore(const TableDefinition&, const JunctionTableDefinitions&) Construct of object store for primary table brewnote
+ObjectStore::ObjectStore(const TableDefinition&, const JunctionTableDefinitions&) Construct of object store for primary table equipment
+ObjectStore::ObjectStore(const TableDefinition&, const JunctionTableDefinitions&) Construct of object store for primary table fermentable
+ObjectStore::ObjectStore(const TableDefinition&, const JunctionTableDefinitions&) Construct of object store for primary table hop
+ObjectStore::ObjectStore(const TableDefinition&, const JunctionTableDefinitions&) Construct of object store for primary table instruction
+ObjectStore::ObjectStore(const TableDefinition&, const JunctionTableDefinitions&) Construct of object store for primary table fermentable_in_inventory
+ObjectStore::ObjectStore(const TableDefinition&, const JunctionTableDefinitions&) Construct of object store for primary table hop_in_inventory
+ObjectStore::ObjectStore(const TableDefinition&, const JunctionTableDefinitions&) Construct of object store for primary table misc_in_inventory
+ObjectStore::ObjectStore(const TableDefinition&, const JunctionTableDefinitions&) Construct of object store for primary table yeast_in_inventory
+ObjectStore::ObjectStore(const TableDefinition&, const JunctionTableDefinitions&) Construct of object store for primary table mash
+ObjectStore::ObjectStore(const TableDefinition&, const JunctionTableDefinitions&) Construct of object store for primary table mashstep
+ObjectStore::ObjectStore(const TableDefinition&, const JunctionTableDefinitions&) Construct of object store for primary table misc
+ObjectStore::ObjectStore(const TableDefinition&, const JunctionTableDefinitions&) Construct of object store for primary table recipe
+ObjectStore::ObjectStore(const TableDefinition&, const JunctionTableDefinitions&) Construct of object store for primary table salt
+ObjectStore::ObjectStore(const TableDefinition&, const JunctionTableDefinitions&) Construct of object store for primary table style
+ObjectStore::ObjectStore(const TableDefinition&, const JunctionTableDefinitions&) Construct of object store for primary table water
+ObjectStore::ObjectStore(const TableDefinition&, const JunctionTableDefinitions&) Construct of object store for primary table yeast
+void PersistentSettings::initialise(QString) Qt-proposed directories for user-specific configuration files are: ("/home/runner/.config/brewtarget", "/etc/xdg/brewtarget")
+void PersistentSettings::initialise(QString) Preferred writeable directory for user-specific configuration files is: "/home/runner/.config/brewtarget"
+void PersistentSettings::initialise(QString) Persistent settings file: "/home/runner/.config/brewtarget/brewtargetPersistentSettings.conf"
+int main(int, char**) Persistent Settings initialised
+bool Logging::setDirectory(std::optional<QDir>, PersistNewDirectory)
+bool Logging::setDirectory(std::optional<QDir>, PersistNewDirectory) Logging to configuration directory:  ""
+bool Logging::setDirectory(std::optional<QDir>, PersistNewDirectory) "" does not exist, creating
+QDir::mkpath: Empty or null file name
+"Could not create new log file directory" "" " reverting to " "/home/runner/work/ll-killer-worker/ll-killer-worker/caches/brewtarget"
+[08:06:18.254] (1djmei6280) INFO : Starting Brewtarget v 3.0.6  (app name "brewtarget" ) on  "Deepin 23"  [main.cpp:194]
+[08:06:18.254] (1djmei6280) INFO : Built at 2024-04-01 05:35:46 (UTC)  with  GNU compiler  [main.cpp:197]
+[08:06:18.254] (1djmei6280) INFO : Log directory: "/home/runner/work/ll-killer-worker/ll-killer-worker/caches/brewtarget"  [main.cpp:200]
+[08:06:18.255] (1djmei6280) INFO : Using Qt runtime v 5.15.13  (compiled against Qt v 5.15.12 )  [main.cpp:201]
+[08:06:18.255] (1djmei6280) INFO : Configuration directory: "/home/runner/.config/brewtarget"  [main.cpp:202]
+[08:06:18.255] (1djmei6280) INFO : Data directory: "/home/runner/.config/brewtarget"  [main.cpp:203]
+[08:06:18.255] (1djmei6280) INFO : void {anonymous}::initResourceDir(QDir&) Determined resource directory is "/usr/share/brewtarget"  [Application.cpp:342]
+[08:06:18.255] (1djmei6280) INFO : Resource directory: "/usr/share/brewtarget"  [main.cpp:204]
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+[08:06:19.601] (1djmei6280) INFO : bool Database::load() Known DB drivers:  ("QSQLITE")  [database/Database.cpp:638]
+[08:06:19.601] (1djmei6280) INFO : bool Database::impl::loadSQLite(Database&) dbFileName = " /home/runner/.config/brewtarget/database.sqlite "
+dataDbFileName=" /usr/bin/../share/brewtarget/default_db.sqlite "  [database/Database.cpp:251]
+[08:06:19.609] (1djmei6280) INFO : bool Database::impl::loadSQLite(Database&) SQLite version QVariant(QString, "3.45.1")  [database/Database.cpp:303]
+[08:06:19.610] (1djmei6280) INFO : bool Database::impl::updateSchema(Database&, bool*) Schema version in DB: 9 , current schema version in code: 10  [database/Database.cpp:399]
