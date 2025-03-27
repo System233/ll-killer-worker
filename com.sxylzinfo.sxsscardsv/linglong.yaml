@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.sxylzinfo.sxsscardsv.linyaps
+  name: com.sxylzinfo.sxsscardsv
+  version: 3.5.15.0
+  kind: app
+  description: sxsscard
+command:
+- /opt/apps/com.sxylzinfo.sxsscardsv.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
