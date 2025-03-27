@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: dwww.linyaps
+  name: dwww
+  version: 1.16.0.0
+  kind: app
+  description: |-
+    Read all on-line documentation with a WWW browser
+    All installed on-line documentation will be served via a local HTTP
+    server at http://localhost/dwww/. This package runs cron scripts to
+    convert available resources to the HTML pages.  Executing the dwww
+    command starts a sensible WWW browser locally to access them.
+
+    You need to install a CGI-capable HTTP server and enable its CGI script
+    capability manually (CGI may be disabled by default for the security
+    consideration).  For apache2, do something along the following:
+
+    $ sudo a2enmod cgid
+    $ sudo systemctl restart apache2
+
+    The default for the HTTP/CGI access is limited to the local user for
+    the security consideration.
+command:
+- /opt/apps/dwww.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
