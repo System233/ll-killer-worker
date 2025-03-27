@@ -1,0 +1,19 @@
+包名:endeavour.linyaps
+Layer文件:endeavour.linyaps_43.0.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: endeavour.linyaps_43.0.0.1_arm64_binary.layer
+offset: 703
+mountpoint: /tmp/tmp.GrTbJNLsIQ/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+libEGL warning: egl: failed to create dri2 screen
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+
+(endeavour:37): GLib-GObject-[1;35mCRITICAL[0m **: [34m20:00:31.330[0m: invalid (NULL) pointer instance
+
+(endeavour:37): GLib-GObject-[1;35mCRITICAL[0m **: [34m20:00:31.330[0m: g_signal_connect_object: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(endeavour:37): GtdWindow-[1;35mCRITICAL[0m **: [34m20:00:31.330[0m: gtd_window_get_current_workspace: assertion 'GTD_IS_WINDOW (self)' failed
