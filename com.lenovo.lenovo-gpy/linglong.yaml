@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.lenovo.lenovo-gpy.linyaps
+  name: com.lenovo.lenovo-gpy
+  version: 2.1.7.3
+  kind: app
+  description: com.lenovo.lenovo-gpy
+command:
+- /opt/apps/com.lenovo.lenovo-gpy.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
