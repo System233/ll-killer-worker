@@ -13,28 +13,38 @@ The following packages have unmet dependencies:
  clapper : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
            Recommends: gstreamer1.0-libav but it is not installable
            Recommends: gstreamer1.0-plugins-bad but it is not installable
- gir1.2-gtk-3.0 : Depends: gir1.2-cairo-1.0
-                  Depends: gir1.2-xlib-2.0
-                  Depends: libgtk-3-0t64 (>= 3.24.30) but it is not installable
- gir1.2-gtk-4.0 : Depends: gir1.2-cairo-1.0
-                  Depends: gir1.2-xlib-2.0
- gir1.2-pango-1.0 : Depends: gir1.2-cairo-1.0
-                    Depends: gir1.2-fontconfig-2.0
-                    Depends: gir1.2-freetype2-2.0
-                    Depends: gir1.2-harfbuzz-0.0 but it is not going to be installed
-                    Depends: gir1.2-xft-2.0
-                    Depends: gir1.2-xlib-2.0
+ gir1.2-freedesktop : Depends: libcairo-gobject2 (>= 1.10.0) but it is not going to be installed
+ gir1.2-gst-plugins-base-1.0 : Depends: libgstreamer-plugins-base1.0-0 (>= 1.23.2) but 1.22.6-1deepin1 is to be installed
+ gir1.2-gstreamer-1.0 : Depends: libgstreamer1.0-0 (>= 1.23.90) but 1.22.6-1 is to be installed
+ gir1.2-gtk-3.0 : Depends: libgtk-3-0t64 (>= 3.24.30) but it is not installable
+ gjs : Depends: libglib2.0-0t64 (>= 2.70.0) but it is not installable
+ gstreamer1.0-plugins-base : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                             Depends: libgstreamer-plugins-base1.0-0 (>= 1.24.0) but 1.22.6-1deepin1 is to be installed
+                             Depends: libgstreamer1.0-0 (>= 1.24.0) but 1.22.6-1 is to be installed
  gstreamer1.0-plugins-good : Depends: libcairo-gobject2 (>= 1.10.0) but it is not going to be installed
+                             Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                             Depends: libgstreamer-plugins-base1.0-0 (>= 1.24.0) but 1.22.6-1deepin1 is to be installed
+                             Depends: libgstreamer1.0-0 (>= 1.24.0) but 1.22.6-1 is to be installed
+                             Recommends: gstreamer1.0-x but it is not installable
  libadwaita-1-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libappstream5 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libgirepository-1.0-1 : Depends: libglib2.0-0t64 (>= 2.80.0) but it is not installable
  libgjs0g : Depends: libcairo-gobject2 (>= 1.10.0) but it is not going to be installed
+            Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
  libgraphene-1.0-0 : Depends: libglib2.0-0t64 (>= 2.14.0) but it is not installable
+ libgstreamer-gl1.0-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                        Depends: libgstreamer-plugins-base1.0-0 (>= 1.23.1) but 1.22.6-1deepin1 is to be installed
+                        Depends: libgstreamer1.0-0 (>= 1.24.0) but 1.22.6-1 is to be installed
+                        Recommends: gstreamer1.0-gl but it is not installable
+ libgstreamer-plugins-good1.0-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                                  Depends: libgstreamer-plugins-base1.0-0 (>= 1.24.0) but 1.22.6-1deepin1 is to be installed
+                                  Depends: libgstreamer1.0-0 (>= 1.24.0) but 1.22.6-1 is to be installed
  libgtk-4-1 : Depends: libcairo-gobject2 (>= 1.10.0) but it is not going to be installed
               Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
               Recommends: libgtk-4-bin but it is not installable
               Recommends: librsvg2-common (>= 2.52.0) but it is not installable
               Recommends: libgtk-4-media-gstreamer but it is not installable
  libgudev-1.0-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
- libjpeg8 : PreDepends: multiarch-support but it is not installable
  libsoup-3.0-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
  libxmlb2 : Depends: libglib2.0-0t64 (>= 2.54.0) but it is not installable
 E: Unable to correct problems, you have held broken packages.
