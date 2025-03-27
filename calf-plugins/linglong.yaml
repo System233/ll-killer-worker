@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: calf-plugins.linyaps
+  name: calf-plugins
+  version: 0.90.3.4
+  kind: app
+  description: |-
+    Calf Studio Gear - audio effects and sound generators
+    The Calf plugins include all todays frequently used studio effects
+    along with some feature-rich sound processors.
+
+    Calf Studiogear is designed to run under the most flexible plugin
+    standard in Linux, namely LV2. So you're able to insert them in lots of
+    plugin-capable audio software like Ardour, Rosegarden and others.
+
+    The Calf Rack offers you all Calf effects and synthesizers in an
+    easy-to-use studio rack. Wire the effects through Jack to build your own
+    studio environment and trigger the sound processors live or through a
+    MIDI sequencer or tracker.
+command:
+- /opt/apps/calf-plugins.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
