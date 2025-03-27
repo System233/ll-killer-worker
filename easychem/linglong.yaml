@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: easychem.linyaps
+  name: easychem
+  version: 0.6.0.9
+  kind: app
+  description: |-
+    Draw high-quality molecules and 2D chemical formulas
+    EasyChem is a program that helps you creating high quality diagrams of
+    molecules and 2D chemical formulas that can be exported to PDF, PS, LaTeX
+    and fig.
+
+    EasyChem was originally developed to create diagrams for chemistry books and
+    is now frequently used for this purpose in commercial and non-commercial
+    chemistry-related books.
+command:
+- /opt/apps/easychem.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
