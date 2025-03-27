@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: aisleriot.linyaps
+  name: aisleriot
+  version: 3.22.31.1
+  kind: app
+  description: |-
+    GNOME solitaire card game collection
+    This is a collection of over eighty different solitaire card games, including
+    popular variants such as spider, freecell, klondike, thirteen (pyramid),
+    yukon, canfield and many more.
+command:
+- /opt/apps/aisleriot.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
