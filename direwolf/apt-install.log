@@ -1,0 +1,84 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libasound2-data libasound2t64 libgps30t64 libhamlib4t64 libindi-data
+  libindiclient1 libnova-0.16-0t64
+Suggested packages:
+  gpsd alsa-utils
+Recommended packages:
+  alsa-ucm-conf alsa-topology-conf
+The following packages will be REMOVED:
+  libasound2
+The following NEW packages will be installed:
+  direwolf libasound2t64 libgps30t64 libhamlib4t64 libindi-data libindiclient1
+  libnova-0.16-0t64
+The following packages will be upgraded:
+  libasound2-data
+1 upgraded, 7 newly installed, 1 to remove and 451 not upgraded.
+Need to get 3133 kB of archives.
+After this operation, 17.5 MB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libasound2-data all 1.2.11-1build2 [21.0 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libasound2t64 amd64 1.2.11-1build2 [399 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgps30t64 amd64 3.25-3ubuntu3.1 [65.6 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libindi-data all 1.9.9+dfsg-3build3 [10.6 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libnova-0.16-0t64 amd64 0.16-5.1build1 [953 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libindiclient1 amd64 1.9.9+dfsg-3build3 [149 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libhamlib4t64 amd64 4.5.5-3.2build2 [1054 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 direwolf amd64 1.7+dfsg-2build2 [482 kB]
+Fetched 3133 kB in 1s (5959 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libasound2-data_1.2.11-1build2_all.deb ...
+Unpacking libasound2-data (1.2.11-1build2) over (1.2.8-1) ...
+dpkg: libasound2:amd64: dependency problems, but removing anyway as you requested:
+ pulseaudio depends on libasound2 (>= 1.2.1.1).
+ pipewire-bin depends on libasound2 (>= 1.2.1.1).
+ libspa-0.2-modules:amd64 depends on libasound2 (>= 1.2.1.1).
+ libasound2-plugins:amd64 depends on libasound2 (>= 1.2.5).
+ bluez depends on libasound2 (>= 1.0.17).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing libasound2:amd64 (1.2.8-1) ...
+Selecting previously unselected package libasound2t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27587 files and directories currently installed.)
+Preparing to unpack .../0-libasound2t64_1.2.11-1build2_amd64.deb ...
+Unpacking libasound2t64:amd64 (1.2.11-1build2) ...
+Selecting previously unselected package libgps30t64:amd64.
+Preparing to unpack .../1-libgps30t64_3.25-3ubuntu3.1_amd64.deb ...
+Unpacking libgps30t64:amd64 (3.25-3ubuntu3.1) ...
+Selecting previously unselected package libindi-data.
+Preparing to unpack .../2-libindi-data_1.9.9+dfsg-3build3_all.deb ...
+Unpacking libindi-data (1.9.9+dfsg-3build3) ...
+Selecting previously unselected package libnova-0.16-0t64:amd64.
+Preparing to unpack .../3-libnova-0.16-0t64_0.16-5.1build1_amd64.deb ...
+Unpacking libnova-0.16-0t64:amd64 (0.16-5.1build1) ...
+Selecting previously unselected package libindiclient1:amd64.
+Preparing to unpack .../4-libindiclient1_1.9.9+dfsg-3build3_amd64.deb ...
+Unpacking libindiclient1:amd64 (1.9.9+dfsg-3build3) ...
+Selecting previously unselected package libhamlib4t64:amd64.
+Preparing to unpack .../5-libhamlib4t64_4.5.5-3.2build2_amd64.deb ...
+Adding 'diversion of /lib/udev/rules.d/60-libhamlib4.rules to /lib/udev/rules.d/60-libhamlib4.rules.usr-is-merged by usr-is-merged'
+Unpacking libhamlib4t64:amd64 (4.5.5-3.2build2) ...
+Selecting previously unselected package direwolf.
+Preparing to unpack .../6-direwolf_1.7+dfsg-2build2_amd64.deb ...
+Unpacking direwolf (1.7+dfsg-2build2) ...
+Setting up libgps30t64:amd64 (3.25-3ubuntu3.1) ...
+Setting up libasound2-data (1.2.11-1build2) ...
+Setting up libasound2t64:amd64 (1.2.11-1build2) ...
+Setting up libnova-0.16-0t64:amd64 (0.16-5.1build1) ...
+Setting up libindi-data (1.9.9+dfsg-3build3) ...
+Setting up libindiclient1:amd64 (1.9.9+dfsg-3build3) ...
+Setting up libhamlib4t64:amd64 (4.5.5-3.2build2) ...
+Setting up direwolf (1.7+dfsg-2build2) ...
+Adding group `direwolf' (GID 109) ...
+Done.
+adduser: Warning: The home dir /var/lib/direwolf you specified already exists.
+Adding system user `direwolf' (UID 103) ...
+Adding new user `direwolf' (UID 103) with group `direwolf' ...
+adduser: The home directory `/var/lib/direwolf' already exists.  Not touching this directory.
+adduser: Warning: The home directory `/var/lib/direwolf' does not belong to the user you are currently creating.
+Adding user `direwolf' to group `dialout' ...
+Done.
+Processing triggers for libc-bin (2.38-6deepin4) ...
