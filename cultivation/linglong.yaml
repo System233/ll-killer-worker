@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: cultivation.linyaps
+  name: cultivation
+  version: 9.0.0.2
+  kind: app
+  description: |-
+    game about the interactions within a gardening community
+    Cultivation is a game about a community of gardeners growing food for
+    themselves in a shared space.
+
+    Cultivation is quite different from most other games. It is a social
+    simulation, and the primary form of conflict is over land and plant
+    resources. There is no shooting, but there are plenty of angry looks. It is
+    also an evolution simulation. Within the world of Cultivation, you can
+    explore a virtually infinite spectrum of different plant and gardener
+    varieties.
+command:
+- /opt/apps/cultivation.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
