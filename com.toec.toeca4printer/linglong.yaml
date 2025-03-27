@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.toec.toeca4printer.linyaps
+  name: com.toec.toeca4printer
+  version: 1.0.0.18
+  kind: app
+  description: Driver for toeca4printer.
+command:
+- /opt/apps/com.toec.toeca4printer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
