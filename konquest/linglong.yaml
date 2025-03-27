@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: konquest.linyaps
+  name: konquest
+  version: 21.8.0.1
+  kind: app
+  description: |-
+    simple turn-based strategy game
+    Konquest is a game of galactic conquest for KDE, where rival empires vie to
+    conquer planets and crush all opposition.  The game can be played with up to
+    nine empires, commanded either by the computer or by puny earthlings.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/konquest.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
