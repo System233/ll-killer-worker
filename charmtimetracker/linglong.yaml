@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: charmtimetracker.linyaps
+  name: charmtimetracker
+  version: 1.12.0.3
+  kind: app
+  description: |-
+    task based Time Tracker
+    It is built around two major ideas - tasks and events.
+    Tasks are the things time is spend on, repeatedly. Tasks
+    are done in events.
+
+    For example, ironing laundry is a task. The laundry done
+    for two hours on last Tuesday is an event in that task.
+command:
+- /opt/apps/charmtimetracker.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
