@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.tg.aqdl.linyaps
+  name: com.tg.aqdl
+  version: 5.1.0.4
+  kind: app
+  description: provide fingervein pam module
+command:
+- /opt/apps/com.tg.aqdl.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
