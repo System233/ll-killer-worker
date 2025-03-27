@@ -1,0 +1,29 @@
+包名:cheese.linyaps
+Layer文件:cheese.linyaps_44.1.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: cheese.linyaps_44.1.0.1_arm64_binary.layer
+offset: 695
+mountpoint: /tmp/tmp.lQVtO7InsL/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+** [1;32mMessage[0m: [34m07:25:29.018[0m: cheese-application.vala:222: Error during camera setup: No device found
+
+
+(cheese:37): cheese-[1;35mCRITICAL[0m **: [34m07:25:29.061[0m: cheese_camera_device_get_name: assertion 'CHEESE_IS_CAMERA_DEVICE (device)' failed
+
+(cheese:37): GLib-[1;35mCRITICAL[0m **: [34m07:25:29.061[0m: g_variant_new_string: assertion 'string != NULL' failed
+
+(cheese:37): GLib-[1;35mCRITICAL[0m **: [34m07:25:29.061[0m: g_variant_ref_sink: assertion 'value != NULL' failed
+
+(cheese:37): GLib-GIO-[1;35mCRITICAL[0m **: [34m07:25:29.061[0m: g_settings_schema_key_type_check: assertion 'value != NULL' failed
+
+(cheese:37): GLib-[1;35mCRITICAL[0m **: [34m07:25:29.061[0m: g_variant_get_type_string: assertion 'value != NULL' failed
+
+(cheese:37): GLib-GIO-[1;35mCRITICAL[0m **: [34m07:25:29.061[0m: g_settings_set_value: key 'camera' in 'org.gnome.Cheese' expects type 's', but a GVariant of type '(null)' was given
+
+(cheese:37): GLib-[1;35mCRITICAL[0m **: [34m07:25:29.061[0m: g_variant_unref: assertion 'value != NULL' failed
+
+** (cheese:37): [1;35mCRITICAL[0m **: [34m07:25:29.061[0m: cheese_preferences_dialog_setup_resolutions_for_device: assertion 'device != NULL' failed
