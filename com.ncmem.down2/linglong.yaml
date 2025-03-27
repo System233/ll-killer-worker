@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: com.ncmem.down2.linyaps
+  name: com.ncmem.down2
+  version: 2020.12.3.1
+  kind: app
+  description: |-
+    泽优Web大文件下载控件
+    为web系统提供大文件、文件夹下载及续传功能。
+command:
+- /opt/apps/com.ncmem.down2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
