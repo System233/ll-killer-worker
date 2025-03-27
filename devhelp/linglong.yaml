@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: devhelp.linyaps
+  name: devhelp
+  version: 43.0.0.4
+  kind: app
+  description: |-
+    GNOME developers help program
+    Devhelp's primary goal is to be an API documentation browser for GNOME.
+    It is able to scan for .devhelp files generated automatically for
+    packages that use gtk-doc-tools to generate documentation for libraries
+    and programs.
+
+    Devhelp provides some integration capabilities, which is used to allow
+    command-line searches, emacs integration and embedding in applications like
+    the Anjuta IDE.
+command:
+- /opt/apps/devhelp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
