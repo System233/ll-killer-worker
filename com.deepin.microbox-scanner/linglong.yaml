@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.deepin.microbox-scanner.linyaps
+  name: com.deepin.microbox-scanner
+  version: 1.2.2.0
+  kind: app
+  description: MBScanner
+command:
+- /opt/apps/com.deepin.microbox-scanner.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
