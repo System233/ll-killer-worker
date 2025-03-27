@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: edfbrowser.linyaps
+  name: edfbrowser
+  version: 2.6.0.1
+  kind: app
+  description: |-
+    viewer for biosignal storage files such as bdf and edf
+    EDFbrowser is a viewer for medical timeseries storage files containing data
+    such as EEG, EMG, and ECG signals.  It supports EDF(+) and BDF(+) file
+    formats.
+    Apart from viewing the files, it also supports some editing operations and
+    can convert the biomedical files to other formats.
+command:
+- /opt/apps/edfbrowser.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
