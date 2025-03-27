@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: chiaki.linyaps
+  name: chiaki
+  version: 2.2.0.1
+  kind: app
+  description: |-
+    PlayStation remote play client
+    Chiaki is an unofficial, free and open source PlayStation Remote Play Client.
+    While not an official Sony software, Chiaki doesn't require having a jailbroken
+    console.
+
+    Everything necessary for a full streaming session, including the initial
+    registration and wakeup of the console, is supported.
+command:
+- /opt/apps/chiaki.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
