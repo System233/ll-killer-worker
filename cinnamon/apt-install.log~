@@ -10,8 +10,10 @@ or been moved out of Incoming.
 The following information may help to resolve the situation:
 
 The following packages have unmet dependencies:
+ accountsservice : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                   Recommends: polkitd but it is not installable
  at-spi2-core : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
- cinnamon : Depends: python3-gi but it is not installable
+ cinnamon : Depends: python3-dbus but it is not installable
             Depends: libatk-bridge2.0-0t64 (>= 2.5.3) but it is not installable
             Depends: libatk1.0-0t64 (>= 1.12.4) but it is not installable
             Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
@@ -28,11 +30,9 @@ The following packages have unmet dependencies:
  cinnamon-control-center : Depends: libatk1.0-0t64 (>= 1.12.4) but it is not installable
                            Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
                            Depends: libgtk-3-0t64 (>= 3.21.5) but it is not installable
- cinnamon-screensaver : Depends: python3-gi but it is not installable
-                        Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ cinnamon-screensaver : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
                         Depends: libgtk-3-0t64 (>= 3.21.4) but it is not installable
- cinnamon-session : Depends: python3-gi but it is not installable
-                    Depends: upower but it is not installable
+ cinnamon-session : Depends: upower but it is not installable
                     Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
                     Depends: libgtk-3-0t64 (>= 3.0.0) but it is not installable
  cinnamon-settings-daemon : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
@@ -40,35 +40,21 @@ The following packages have unmet dependencies:
  cjs : Depends: libglib2.0-0t64 (>= 2.70.0) but it is not installable
  cups-pk-helper : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
  desktop-file-utils : Depends: libglib2.0-0t64 (>= 2.50.0) but it is not installable
- gir1.2-camel-1.2 : Depends: gir1.2-libxml2-2.0
- gir1.2-edataserver-1.2 : Depends: gir1.2-libxml2-2.0
- gir1.2-gkbd-3.0 : Depends: gir1.2-xlib-2.0
- gir1.2-gtk-3.0 : Depends: gir1.2-cairo-1.0
-                  Depends: gir1.2-xlib-2.0
-                  Depends: libgtk-3-0t64 (>= 3.24.30) but it is not installable
- gir1.2-meta-muffin-0.0 : Depends: gir1.2-cairo-1.0
-                          Depends: gir1.2-gl-1.0
-                          Depends: gir1.2-xfixes-4.0
-                          Depends: gir1.2-xlib-2.0
- gir1.2-pango-1.0 : Depends: gir1.2-cairo-1.0
-                    Depends: gir1.2-fontconfig-2.0
-                    Depends: gir1.2-freetype2-2.0
-                    Depends: gir1.2-harfbuzz-0.0 but it is not going to be installed
-                    Depends: gir1.2-xft-2.0
-                    Depends: gir1.2-xlib-2.0
- gir1.2-xkl-1.0 : Depends: gir1.2-xlib-2.0
+ gir1.2-freedesktop : Depends: libcairo-gobject2 (>= 1.10.0) but it is not going to be installed
+ gir1.2-gtk-3.0 : Depends: libgtk-3-0t64 (>= 3.24.30) but it is not installable
  gkbd-capplet : Depends: libglib2.0-0t64 (>= 2.12.0) but it is not installable
                 Depends: libgtk-3-0t64 (>= 3.9.10) but it is not installable
  gnome-themes-extra : Depends: libglib2.0-0t64 (>= 2.38.0) but it is not installable
+ gtk2-engines-pixbuf : Depends: libglib2.0-0t64 (>= 2.27.3) but it is not installable
  gvfs : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
  gvfs-daemons : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
  gvfs-libs : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libaccountsservice0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
  libadwaita-1-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
- libasound2-data : Breaks: libasound2 (< 1.2.12-1deepin1)
-                   Recommends: alsa-ucm-conf but it is not going to be installed
-                   Recommends: alsa-topology-conf but it is not going to be installed
+ libappstream5 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
  libatspi2.0-0t64 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
- libayatana-appindicator3-1 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libayatana-appindicator3-1 : Depends: libdbusmenu-gtk3-4 (>= 0.4.2) but it is not installable
+                              Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
                               Depends: libgtk-3-0t64 (>= 3.0.0) but it is not installable
  libayatana-ido3-0.4-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
                          Depends: libgtk-3-0t64 (>= 3.21.4) but it is not installable
@@ -99,6 +85,7 @@ The following packages have unmet dependencies:
  libcscreensaver0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
                     Depends: libgtk-3-0t64 (>= 3.19.12) but it is not installable
  libcvc0t64 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libdbusmenu-glib4 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
  libecal-2.0-3 : Depends: libglib2.0-0t64 (>= 2.62.0) but it is not installable
  libedataserver-1.2-27t64 : Depends: libglib2.0-0t64 (>= 2.68.0) but it is not installable
  libgail-3-0t64 : Depends: libatk1.0-0t64 (>= 2.35.1) but it is not installable
@@ -107,6 +94,7 @@ The following packages have unmet dependencies:
  libgck-2-2 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
  libgcr-4-4 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
  libgee-0.8-2 : Depends: libglib2.0-0t64 (>= 2.44.0) but it is not installable
+ libgirepository-1.0-1 : Depends: libglib2.0-0t64 (>= 2.80.0) but it is not installable
  libgnomekbd8 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
                 Depends: libgtk-3-0t64 (>= 3.21.4) but it is not installable
  libgraphene-1.0-0 : Depends: libglib2.0-0t64 (>= 2.14.0) but it is not installable
@@ -119,10 +107,10 @@ The following packages have unmet dependencies:
               Recommends: libgtk-4-media-gstreamer but it is not installable
  libgtk2.0-0t64 : Depends: libatk1.0-0t64 (>= 1.32.0) but it is not installable
                   Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                  Recommends: libgail-common but it is not installable
                   Recommends: librsvg2-common but it is not installable
  libgudev-1.0-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
  libical3t64 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
- libjpeg8 : PreDepends: multiarch-support but it is not installable
  libjson-glib-1.0-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
  libkeybinder-3.0-0 : Depends: libglib2.0-0t64 (>= 2.12.0) but it is not installable
                       Depends: libgtk-3-0t64 (>= 3.0.0) but it is not installable
@@ -143,12 +131,12 @@ The following packages have unmet dependencies:
  libpolkit-gobject-1-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
  libsecret-1-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
  libsoup-3.0-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
- libtimezonemap1 : Depends: libgtk-3-0 (>= 3.1.4)
+ libtimezonemap1 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                   Depends: libgtk-3-0t64 (>= 3.1.4) but it is not installable
  libudisks2-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
  libupower-glib3 : Depends: libglib2.0-0t64 (>= 2.66) but it is not installable
                    Recommends: upower but it is not installable
- libwacom2 : Depends: libwacom-common (= 1.12-1) but 2.10.0-2 is to be installed
-             Recommends: libwacom-bin (= 1.12-1) but it is not going to be installed
+ libvolume-key1 : Depends: libglib2.0-0t64 (>= 2.18.0) but it is not installable
  libwacom9 : Depends: libglib2.0-0t64 (>= 2.68.0) but it is not installable
  libxapp1 : Depends: libcairo-gobject2 (>= 1.10.0) but it is not going to be installed
             Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
@@ -172,17 +160,19 @@ The following packages have unmet dependencies:
  network-manager : Depends: libglib2.0-0t64 (>= 2.68.0) but it is not installable
                    Recommends: modemmanager but it is not installable
                    Recommends: network-manager-pptp but it is not installable
- network-manager-gnome : Depends: libgtk-3-0 (>= 3.21.6)
+ network-manager-gnome : Depends: libatk1.0-0t64 (>= 1.12.4) but it is not installable
+                         Depends: libglib2.0-0t64 (>= 2.44.0) but it is not installable
+                         Depends: libgtk-3-0t64 (>= 3.21.6) but it is not installable
                          Recommends: gnome-keyring but it is not installable
-                         Recommends: gnome-icon-theme but it is not installable
  pkexec : Depends: polkitd (= 124-2ubuntu1.24.04.2) but it is not installable
           Depends: libglib2.0-0t64 (>= 2.36.0) but it is not installable
  policykit-1 : Depends: polkitd (>= 124-2ubuntu1.24.04.2) but it is not installable
- policykit-1-gnome : Depends: libgtk-3-0 (>= 3.0.0)
- python3-gi-cairo : Depends: python3-gi (= 3.48.2-1) but it is not installable
-                    Depends: libcairo-gobject2 (>= 1.12.16) but it is not going to be installed
+ policykit-1-gnome : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                     Depends: libgtk-3-0t64 (>= 3.0.0) but it is not installable
+ python3-gi : Depends: libglib2.0-0t64 (>= 2.77.0) but it is not installable
+ python3-gi-cairo : Depends: libcairo-gobject2 (>= 1.12.16) but it is not going to be installed
                     Depends: libglib2.0-0t64 (>= 2.64.0) but it is not installable
  udisks2 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
            Recommends: polkitd but it is not installable
- xapps-common : Depends: python3-gi but it is not installable
+ zenity : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
 E: Unable to correct problems, you have held broken packages.
