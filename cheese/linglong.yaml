@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: cheese.linyaps
+  name: cheese
+  version: 44.1.0.1
+  kind: app
+  description: |-
+    tool to take pictures and videos from your webcam
+    A webcam application that supports image and video capture. Makes
+    it easy to take photos and videos of you, your friends, pets or whatever
+    you want. Allows you to apply fancy visual effects, fine-control image
+    settings and has features such as Multi-Burst mode, Countdown timer
+    for photos.
+command:
+- /opt/apps/cheese.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
