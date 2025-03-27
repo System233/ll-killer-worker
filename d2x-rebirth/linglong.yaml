@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: d2x-rebirth.linyaps
+  name: d2x-rebirth
+  version: 0.58.1.1
+  kind: app
+  description: |-
+    port of the 1996 classic game Descent 2: Counterstrike
+    DXX-Rebirth is a Source Port of the Descent & Descent ][ Engines and
+    provides classical Gameplay combined with OpenGL graphics and effects,
+    a bunch of improvements and new features.
+
+    Original game data is needed to play this game.
+command:
+- /opt/apps/d2x-rebirth.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
