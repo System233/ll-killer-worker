@@ -1,0 +1,28 @@
+正在测试: APPID=aravis-tools.linyaps LAYER=aravis-tools.linyaps_0.8.30.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install aravis-tools.linyaps_0.8.30.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:aravis-tools.linyaps
+Layer文件:aravis-tools.linyaps_0.8.30.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: aravis-tools.linyaps_0.8.30.1_x86_64_binary.layer
+offset: 534
+mountpoint: /tmp/tmp.eOtIEq7jCh/mnt
+dbglevel: 0
+[成功] org.aravis.viewer-0.8.desktop: aravis-0.8 -> /opt/apps/aravis-tools.linyaps/files/share/icons/hicolor/128x128/apps/aravis-0.8.png
+[成功] /opt/apps/aravis-tools.linyaps/files/share/applications/org.aravis.viewer-0.8.desktop: /opt/apps/aravis-tools.linyaps/files/entrypoint.sh arv-viewer-0.8
+[正在测试启动项]
+包名:aravis-tools.linyaps
+Layer文件:aravis-tools.linyaps_0.8.30.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: aravis-tools.linyaps_0.8.30.1_x86_64_binary.layer
+offset: 534
+mountpoint: /tmp/tmp.Fp2mZ5sb3p/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run aravis-tools.linyaps -- /opt/apps/aravis-tools.linyaps/files/entrypoint.sh arv-viewer-0.8
+[PID 8270] 进程已启动
+[PID 8270] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall aravis-tools.linyaps
