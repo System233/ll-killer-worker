@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: comptext.linyaps
+  name: comptext
+  version: 1.0.1.6
+  kind: app
+  description: |-
+    Gui based tool to compare two text streams
+    Comptext is used to compare two text streams.  It's comparison function uses a
+    linear-programming technique. It computes total number of errors, the character
+    error rate (CER) and the bit error rate (BER).
+command:
+- /opt/apps/comptext.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
