@@ -34,7 +34,7 @@ const getVersionAndSha256 = async (pkgIdDir) => {
   const version = versionExists
     ? (await fsp.readFile(versionFile, { encoding: "utf-8" })).trim()
     : null;
-  const sha256sum = sha256Exists ? sha256File : null;
+  const sha256sum = sha256Exists;
 
   return { version, sha256sum };
 };
@@ -73,7 +73,7 @@ const generateStatistic = async (rootDir, pkgId, repo, arch) => {
     VERSION: version || "N/A",
     TEST: testResults || "失败",
     REPO: repo,
-    SHA256SUM: sha256sum ? `[SHA256SUM](${sha256sum})` : "N/A",
+    SHA256SUM: sha256sum ? `[SHA256SUM](./${pkgId}/SHA256SUMS)` : "N/A",
   };
 };
 
