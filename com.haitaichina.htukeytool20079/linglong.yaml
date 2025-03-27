@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.haitaichina.htukeytool20079.linyaps
+  name: com.haitaichina.htukeytool20079
+  version: 1.0.0.2404081
+  kind: app
+  description: 海泰方圆Ukey助手
+command:
+- /opt/apps/com.haitaichina.htukeytool20079.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
