@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: ibus-table.linyaps
+  name: ibus-table
+  version: 1.14.1.1
+  kind: app
+  description: |-
+    table engine for IBus
+    IBus-Table is the IM Engine framework for table-based input methods, such as
+    WuBi, ErBi, CangJie and so on.
+
+    This package provide the table engine framework and one input method:
+    * Compose: input special character by compose letter and diacritical mark
+
+    More input method based on ibus-table can be installed from
+    ibus-table-cangjie, ibus-table-wubi, ...
+command:
+- /opt/apps/ibus-table.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
