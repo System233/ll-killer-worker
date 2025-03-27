@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: corectrl.linyaps
+  name: corectrl
+  version: 1.3.11.1
+  kind: app
+  description: |-
+    Control your computer hardware using application profiles
+    corectrl allows control of the CPU and AMD GPUs to set custom profiles for applications.
+    This aims to be flexible, comfortable and accessible to regular users.
+command:
+- /opt/apps/corectrl.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
