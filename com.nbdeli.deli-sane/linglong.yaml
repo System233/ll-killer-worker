@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.nbdeli.deli-sane.linyaps
+  name: com.nbdeli.deli-sane
+  version: 20240820.0.0.5
+  kind: app
+  description: Deli Document Scanning Software
+command:
+- /opt/apps/com.nbdeli.deli-sane.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
