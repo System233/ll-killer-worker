@@ -1,0 +1,33 @@
+正在测试: APPID=cecilia.linyaps LAYER=cecilia.linyaps_5.4.1.2_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install cecilia.linyaps_5.4.1.2_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:cecilia.linyaps
+Layer文件:cecilia.linyaps_5.4.1.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: cecilia.linyaps_5.4.1.2_x86_64_binary.layer
+offset: 717
+mountpoint: /tmp/tmp.bKfDDvHGDQ/mnt
+dbglevel: 0
+[成功] cecilia.desktop: cecilia -> /opt/apps/cecilia.linyaps/files/share/icons/hicolor/128x128/apps/cecilia.svg
+[成功] /opt/apps/cecilia.linyaps/files/share/applications/cecilia.desktop: /opt/apps/cecilia.linyaps/files/entrypoint.sh cecilia
+[正在测试启动项]
+包名:cecilia.linyaps
+Layer文件:cecilia.linyaps_5.4.1.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: cecilia.linyaps_5.4.1.2_x86_64_binary.layer
+offset: 717
+mountpoint: /tmp/tmp.I5yA6kgKg9/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run cecilia.linyaps -- /opt/apps/cecilia.linyaps/files/entrypoint.sh cecilia
+[PID 14839] 进程已启动
+[PID 14839] 已检测到窗口:PID=36
+[PID 14839] 正在截图 0秒: tests/screen0-0.jpg
+[PID 14839] 正在截图 1秒: tests/screen0-1.jpg
+[PID 14839] 正在截图 3秒: tests/screen0-3.jpg
+[PID 14839] 正在截图 5秒: tests/screen0-5.jpg
+[PID 14839] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall cecilia.linyaps

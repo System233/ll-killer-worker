@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: cecilia.linyaps
+  name: cecilia
+  version: 5.4.1.2
+  kind: app
+  description: |-
+    Sound synthesis and audio signal processing environment
+    Cecilia is an audio signal processing environment aimed at sound
+    designers. It lets you create your own GUI using a simple syntax and comes
+    with many original built-in modules and presets for sound effects and
+    synthesis.
+
+    Cecilia uses the pyo audio engine created for the Python programming language.
+command:
+- /opt/apps/cecilia.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
