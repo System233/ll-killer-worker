@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: auralquiz.linyaps
+  name: auralquiz
+  version: 1.0.0.3
+  kind: app
+  description: |-
+    simple music quiz game using your own music files
+    auralquiz is a music quiz game that scans a users selected folder of music
+    and creates a quiz using the tags from the audio files.  A sample of a
+    random song is played and the player must answer a question about the
+    sample from either multiple choice buttons or for hardcore difficulty,
+    type in the correct answer. Up to 8 players can play in a turn based
+    mode with scoring based on points, with more points given by answering
+    the question faster.
+command:
+- /opt/apps/auralquiz.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
