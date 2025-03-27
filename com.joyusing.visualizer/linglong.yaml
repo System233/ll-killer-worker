@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.joyusing.visualizer.linyaps
+  name: com.joyusing.visualizer
+  version: 1.0.0.0
+  kind: app
+  description: JOYUSING visualizer..
+command:
+- /opt/apps/com.joyusing.visualizer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
