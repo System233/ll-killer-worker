@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: calamares.linyaps
+  name: calamares
+  version: 3.3.5.0
+  kind: app
+  description: |-
+    distribution-independent installer framework
+    Calamares is a distribution-independent installer framework.
+
+    It provides a graphical installer that can be used with nearly
+    any distribution. This package is suitable for live media on
+    Debian-based systems, and won't be of any particular use on
+    an already installed system.
+
+    You will likely want to provide your own config files to match
+    your distribution, reading the Calamares documentation will guide
+    you through that process.
+command:
+- /opt/apps/calamares.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
