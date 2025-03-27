@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: lenovo-image-lj23-series.linyaps
+  name: lenovo-image-lj23-series
+  version: 1.0.0.16
+  kind: app
+  description: Printer Driver for lenovo-image-lj23-series
+command:
+- /opt/apps/lenovo-image-lj23-series.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
