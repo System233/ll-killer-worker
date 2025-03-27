@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-system-monitor.linyaps
+  name: deepin-system-monitor
+  version: 6.5.2.0
+  kind: app
+  description: |-
+    A system monitor tool.
+    System Monitor is a system tool monitoring and managing hardware load, program running and system services. It's capable to real-time monitor CPU status, memory footprint, and upload/download speed, manage system and application processes, search and force end processes as well.
+command:
+- /opt/apps/deepin-system-monitor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
