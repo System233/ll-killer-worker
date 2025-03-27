@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: bambam.linyaps
+  name: bambam
+  version: 1.2.1.1
+  kind: app
+  description: |-
+    keyboard mashing and doodling game for babies
+    Bambam is a simple baby keyboard masher application that locks
+    the keyboard and mouse and instead displays bright colors,
+    pictures, and sounds.
+
+    Note: for safety it is recommended to run the game in a dedicated login
+    session, rather than as an application in your regular session, especially
+    when leaving your child unattended with the game. Look for session type BamBam
+    in your display manager login screen.
+command:
+- /opt/apps/bambam.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
