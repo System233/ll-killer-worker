@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: ibus-cangjie.linyaps
+  name: ibus-cangjie
+  version: 2.4.0.7
+  kind: app
+  description: |-
+    Cangjie and Quick input methods for IBus
+    This is an IBus engine for users of the Cangjie and Quick input
+    methods.
+
+    It is primarily intended to Hong Kong people who want to input
+    Traditional Chinese, however, it should work for others as well
+    (e.g. to input Simplified Chinese).
+command:
+- /opt/apps/ibus-cangjie.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
