@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: gtk-4-examples.linyaps
+  name: gtk-4-examples
+  version: 4.12.3.1
+  kind: app
+  description: |-
+    example files for GTK 4
+    GTK is a multi-platform toolkit for creating graphical user
+    interfaces. Offering a complete set of widgets, GTK is suitable
+    for projects ranging from small one-off tools to complete application
+    suites.
+
+    This package contains the example files and a demonstration program
+    for GTK4.
+command:
+- /opt/apps/gtk-4-examples.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
