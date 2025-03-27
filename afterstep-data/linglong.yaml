@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: afterstep-data.linyaps
+  name: afterstep-data
+  version: 2.2.12.17
+  kind: app
+  description: |-
+    data files for AfterStep window manager
+    AfterStep is a window manager based on FVWM which attempts to emulate
+    the NEXTSTEP look and feel, while retaining the configurability of its
+    predecessor.  Note that this window manager makes extensive use of the
+    color palette.  If you have only an 8-bit color display, it will run
+    as packaged, but you may want to modify the configuration to use fewer
+    colors.
+
+    The package contains data and configuration files needed by AfterStep.
+command:
+- /opt/apps/afterstep-data.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
