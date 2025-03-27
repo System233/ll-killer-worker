@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: deepin-log-viewer.linyaps
+  name: deepin-log-viewer
+  version: 6.5.2.0
+  kind: app
+  description: |-
+    Log Viewer is a useful tool for viewing system logs.
+    Log viewer is a tool that collects logs generated when an application
+    is running, for example, logs generated when operating system and
+    applications start up and run. You can do trouble-shooting and solve
+    problems quickly by analyzing logs.
+command:
+- /opt/apps/deepin-log-viewer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
