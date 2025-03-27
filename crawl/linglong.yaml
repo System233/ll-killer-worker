@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: crawl.linyaps
+  name: crawl
+  version: 0.28.0.1
+  kind: app
+  description: |-
+    Dungeon Crawl, a text-based roguelike game
+    Crawl is a fun game in the grand tradition of games like Rogue, Hack, and
+    Moria. Your objective is to travel deep into a subterranean cave complex and
+    retrieve the Orb of Zot, which is guarded by many horrible and hideous
+    creatures.
+
+    This is the console version. For tiles, use crawl-tiles instead.
+
+    This is the Stone Soup version of Dungeon Crawl.
+command:
+- /opt/apps/crawl.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
