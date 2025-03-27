@@ -1,0 +1,408 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  bubblewrap chromium-common chromium-sandbox cpp cpp-12 dbus-user-session
+  deepin-app-store-runtime fonts-liberation fuse3 gcc-12-base libc++1-16
+  libc++abi1-16 libdouble-conversion3 libduktape207 libfile-basedir-perl
+  libfile-desktopentry-perl libfile-mimeinfo-perl libfuse3-3 libgudev-1.0-0
+  libimobiledevice6 libinih1 libio-stringy-perl libipc-system-simple-perl
+  libisl23 libjson-glib-1.0-0 libjson-glib-1.0-common libmpc3 libnet-dbus-perl
+  libnss-myhostname libnss-systemd libopenh264-7 libpam-systemd libplist3
+  libpolkit-agent-1-0 libpolkit-gobject-1-0 libselinux1 libsystemd-shared
+  libsystemd0 libtie-ixhash-perl libudev1 libunwind-16 libupower-glib3
+  libusbmuxd6 libutempter0 libx11-protocol-perl libxml-parser-perl
+  libxml-twig-perl libxml-xpathengine-perl libxmu6 libxmuu1 libxnvctrl0
+  libxslt1.1 libxxf86dga1 mount net.xterm notification-daemon polkitd
+  sgml-base systemd systemd-dev systemd-sysv systemd-timesyncd udev upower
+  usbmuxd x11-utils x11-xserver-utils xbitmaps xdg-desktop-portal
+  xdg-desktop-portal-wlr xdg-utils xml-core xterm
+Suggested packages:
+  chromium-l10n chromium-shell chromium-driver cpp-doc gcc-12-locales
+  cpp-12-doc clang libusbmuxd-tools libunicode-map8-perl
+  libunicode-string-perl xml-twig-tools nfs-common xfonts-cyrillic
+  polkitd-pkla sgml-base-doc systemd-container systemd-homed systemd-userdbd
+  systemd-boot systemd-resolved libip4tc2 libqrencode4 libtss2-rc0 mesa-utils
+  nickle cairo-5c xorg-docs-core debhelper
+Recommended packages:
+  system-config-printer fonts-liberation-sans-narrow
+The following packages will be REMOVED:
+  systemd-standalone-sysusers
+The following NEW packages will be installed:
+  bubblewrap chromium chromium-common chromium-sandbox cpp cpp-12
+  dbus-user-session deepin-app-store-runtime fonts-liberation fuse3
+  gcc-12-base libc++1-16 libc++abi1-16 libdouble-conversion3 libduktape207
+  libfile-basedir-perl libfile-desktopentry-perl libfile-mimeinfo-perl
+  libfuse3-3 libgudev-1.0-0 libimobiledevice6 libinih1 libio-stringy-perl
+  libipc-system-simple-perl libisl23 libjson-glib-1.0-0
+  libjson-glib-1.0-common libmpc3 libnet-dbus-perl libnss-systemd
+  libopenh264-7 libpam-systemd libplist3 libpolkit-agent-1-0
+  libpolkit-gobject-1-0 libtie-ixhash-perl libunwind-16 libupower-glib3
+  libusbmuxd6 libutempter0 libx11-protocol-perl libxml-parser-perl
+  libxml-twig-perl libxml-xpathengine-perl libxmuu1 libxnvctrl0 libxslt1.1
+  libxxf86dga1 mount net.xterm notification-daemon polkitd sgml-base systemd
+  systemd-sysv systemd-timesyncd upower usbmuxd x11-utils x11-xserver-utils
+  xbitmaps xdg-desktop-portal xdg-desktop-portal-wlr xdg-utils xml-core xterm
+The following packages will be upgraded:
+  libnss-myhostname libselinux1 libsystemd-shared libsystemd0 libudev1 libxmu6
+  systemd-dev udev
+8 upgraded, 66 newly installed, 1 to remove and 227 not upgraded.
+Need to get 116 MB of archives.
+After this operation, 370 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main amd64 systemd-dev all 255.2-4deepin3 [58.2 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main amd64 libselinux1 amd64 3.5-1deepin5 [82.6 kB]
+Get:2 https://com-store-packages.uniontech.com/appstorev23 beige/appstore amd64 net.xterm amd64 344-1+deb10u1 [782 kB]
+Get:4 https://community-packages.deepin.com/beige beige/main amd64 libsystemd-shared amd64 255.2-4deepin3 [1936 kB]
+Get:5 https://community-packages.deepin.com/beige beige/main amd64 libsystemd0 amd64 255.2-4deepin3 [362 kB]
+Get:6 https://community-packages.deepin.com/beige beige/main amd64 mount amd64 2.39.3-6deepin1 [143 kB]
+Get:7 https://community-packages.deepin.com/beige beige/main amd64 udev amd64 255.2-4deepin3 [1794 kB]
+Get:8 https://community-packages.deepin.com/beige beige/main amd64 systemd amd64 255.2-4deepin3 [3529 kB]
+Get:9 https://community-packages.deepin.com/beige beige/main amd64 systemd-sysv amd64 255.2-4deepin3 [48.9 kB]
+Get:10 https://community-packages.deepin.com/beige beige/main amd64 sgml-base all 1.30 [10.8 kB]
+Get:11 https://community-packages.deepin.com/beige beige/main amd64 libudev1 amd64 255.2-4deepin3 [124 kB]
+Get:12 https://community-packages.deepin.com/beige beige/main amd64 libnss-systemd amd64 255.2-4deepin3 [188 kB]
+Get:13 https://community-packages.deepin.com/beige beige/main amd64 libpam-systemd amd64 255.2-4deepin3 [259 kB]
+Get:14 https://community-packages.deepin.com/beige beige/main amd64 systemd-timesyncd amd64 255.2-4deepin3 [71.7 kB]
+Get:15 https://community-packages.deepin.com/beige beige/main amd64 bubblewrap amd64 0.10.0-1 [48.9 kB]
+Get:16 https://community-packages.deepin.com/beige beige/main amd64 libunwind-16 amd64 1:16.0.6-18deepin1+rb1 [55.5 kB]
+Get:17 https://community-packages.deepin.com/beige beige/main amd64 libc++abi1-16 amd64 1:16.0.6-18deepin1+rb1 [93.6 kB]
+Get:18 https://community-packages.deepin.com/beige beige/main amd64 libc++1-16 amd64 1:16.0.6-18deepin1+rb1 [295 kB]
+Get:19 https://community-packages.deepin.com/beige beige/main amd64 libdouble-conversion3 amd64 3.3.0-1 [40.6 kB]
+Get:20 https://community-packages.deepin.com/beige beige/main amd64 libopenh264-7 amd64 2.3.1+dfsg-4 [392 kB]
+Get:21 https://community-packages.deepin.com/beige beige/main amd64 libxnvctrl0 amd64 525.125.06-1 [13.4 kB]
+Get:22 https://community-packages.deepin.com/beige beige/main amd64 libxslt1.1 amd64 1.1.34-4 [229 kB]
+Get:23 https://community-packages.deepin.com/beige beige/main amd64 libinih1 amd64 53-deepin1 [6500 B]
+Get:24 https://community-packages.deepin.com/beige beige/main amd64 dbus-user-session amd64 1.14.10-3 [78.8 kB]
+Get:25 https://community-packages.deepin.com/beige beige/main amd64 libfuse3-3 amd64 3.14.0-5 [88.6 kB]
+Get:26 https://community-packages.deepin.com/beige beige/main amd64 fuse3 amd64 3.14.0-5 [35.8 kB]
+Get:27 https://community-packages.deepin.com/beige beige/main amd64 libjson-glib-1.0-common all 1.8.0-2 [57.4 kB]
+Get:28 https://community-packages.deepin.com/beige beige/main amd64 libjson-glib-1.0-0 amd64 1.8.0-2 [63.4 kB]
+Get:29 https://community-packages.deepin.com/beige beige/main amd64 xdg-desktop-portal amd64 1.18.4-1 [358 kB]
+Get:30 https://community-packages.deepin.com/beige beige/community amd64 xdg-desktop-portal-wlr amd64 0.7.0-1 [42.3 kB]
+Get:31 https://community-packages.deepin.com/beige beige/main amd64 libxmu6 amd64 2:1.1.3-3 [58.2 kB]
+Get:32 https://community-packages.deepin.com/beige beige/main amd64 libxmuu1 amd64 2:1.1.3-3 [21.5 kB]
+Get:33 https://community-packages.deepin.com/beige beige/main amd64 libxxf86dga1 amd64 2:1.1.4-deepin1 [20.2 kB]
+Get:34 https://community-packages.deepin.com/beige beige/main amd64 x11-utils amd64 7.7+5-deepin [194 kB]
+Get:35 https://community-packages.deepin.com/beige beige/main amd64 xdg-utils all 1.1.3-4.1deepin1 [68.8 kB]
+Get:36 https://community-packages.deepin.com/beige beige/community amd64 chromium-common amd64 128.0.6613.84-1deepin1 [5318 kB]
+Get:37 https://community-packages.deepin.com/beige beige/community amd64 chromium amd64 128.0.6613.84-1deepin1 [84.4 MB]
+Get:38 https://community-packages.deepin.com/beige beige/community amd64 chromium-sandbox amd64 128.0.6613.84-1deepin1 [93.5 kB]
+Get:39 https://community-packages.deepin.com/beige beige/main amd64 gcc-12-base amd64 12.3.0-17deepin8 [45.7 kB]
+Get:40 https://community-packages.deepin.com/beige beige/main amd64 libisl23 amd64 0.26-3 [708 kB]
+Get:41 https://community-packages.deepin.com/beige beige/main amd64 libmpc3 amd64 1.2.1-1 [43.8 kB]
+Get:42 https://community-packages.deepin.com/beige beige/main amd64 cpp-12 amd64 12.3.0-17deepin8 [9862 kB]
+Get:43 https://community-packages.deepin.com/beige beige/main amd64 cpp amd64 4:13.2.0+really12.3.0-0deepin1 [7028 B]
+Get:44 https://community-packages.deepin.com/beige beige/main amd64 deepin-app-store-runtime amd64 1.0.2+community [2316 B]
+Get:45 https://community-packages.deepin.com/beige beige/main amd64 fonts-liberation all 1:2.1.5-3 [1476 kB]
+Get:46 https://community-packages.deepin.com/beige beige/main amd64 libduktape207 amd64 2.7.0-2 [133 kB]
+Get:47 https://community-packages.deepin.com/beige beige/main amd64 libipc-system-simple-perl all 1.30-1 [26.9 kB]
+Get:48 https://community-packages.deepin.com/beige beige/main amd64 libfile-basedir-perl all 0.09-1 [16.0 kB]
+Get:49 https://community-packages.deepin.com/beige beige/main amd64 libfile-desktopentry-perl all 0.22-2 [17.5 kB]
+Get:50 https://community-packages.deepin.com/beige beige/main amd64 libfile-mimeinfo-perl all 0.30-1 [46.3 kB]
+Get:51 https://community-packages.deepin.com/beige beige/main amd64 libgudev-1.0-0 amd64 238-2deepin1 [14.0 kB]
+Get:52 https://community-packages.deepin.com/beige beige/main amd64 libplist3 amd64 2.2.0-6+rb2 [32.6 kB]
+Get:53 https://community-packages.deepin.com/beige beige/main amd64 libusbmuxd6 amd64 2.0.2-3 [20.2 kB]
+Get:54 https://community-packages.deepin.com/beige beige/main amd64 libimobiledevice6 amd64 1.3.0-7.1deepin1 [71.8 kB]
+Get:55 https://community-packages.deepin.com/beige beige/main amd64 libio-stringy-perl all 2.111-3 [55.3 kB]
+Get:56 https://community-packages.deepin.com/beige beige/main amd64 libxml-parser-perl amd64 2.46-3 [200 kB]
+Get:57 https://community-packages.deepin.com/beige beige/main amd64 libxml-twig-perl all 1:3.52-1 [178 kB]
+Get:58 https://community-packages.deepin.com/beige beige/main amd64 libnet-dbus-perl amd64 1.2.0-1 [177 kB]
+Get:59 https://community-packages.deepin.com/beige beige/main amd64 libnss-myhostname amd64 255.2-4deepin3 [97.7 kB]
+Get:60 https://community-packages.deepin.com/beige beige/main amd64 libpolkit-gobject-1-0 amd64 123-3deepin6 [57.2 kB]
+Get:61 https://community-packages.deepin.com/beige beige/main amd64 libpolkit-agent-1-0 amd64 123-3deepin6 [40.9 kB]
+Get:62 https://community-packages.deepin.com/beige beige/main amd64 libtie-ixhash-perl all 1.23-2.1 [11.8 kB]
+Get:63 https://community-packages.deepin.com/beige beige/main amd64 libupower-glib3 amd64 1.90.3-1 [37.3 kB]
+Get:64 https://community-packages.deepin.com/beige beige/main amd64 libutempter0 amd64 1.2.1-2 [8212 B]
+Get:65 https://community-packages.deepin.com/beige beige/main amd64 libx11-protocol-perl all 0.56-7.1 [138 kB]
+Get:66 https://community-packages.deepin.com/beige beige/main amd64 libxml-xpathengine-perl all 0.14-1 [32.9 kB]
+Get:67 https://community-packages.deepin.com/beige beige/main amd64 xbitmaps all 1.1.1-2.2 [25.4 kB]
+Get:68 https://community-packages.deepin.com/beige beige/main amd64 xterm amd64 369-1 [807 kB]
+Get:69 https://community-packages.deepin.com/beige beige/main amd64 notification-daemon amd64 3.20.0-deepin1 [54.4 kB]
+Get:70 https://community-packages.deepin.com/beige beige/main amd64 xml-core all 0.18+nmu1 [20.1 kB]
+Get:71 https://community-packages.deepin.com/beige beige/main amd64 polkitd amd64 123-3deepin6 [153 kB]
+Get:72 https://community-packages.deepin.com/beige beige/main amd64 upower amd64 1.90.3-1 [87.4 kB]
+Get:73 https://community-packages.deepin.com/beige beige/main amd64 usbmuxd amd64 1.1.1-2 [39.3 kB]
+Get:74 https://community-packages.deepin.com/beige beige/main amd64 x11-xserver-utils amd64 7.7+9-deepin [161 kB]
+Fetched 116 MB in 7s (15.8 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../systemd-dev_255.2-4deepin3_all.deb ...
+Unpacking systemd-dev (255.2-4deepin3) over (255.2-4) ...
+Preparing to unpack .../libselinux1_3.5-1deepin5_amd64.deb ...
+Unpacking libselinux1:amd64 (3.5-1deepin5) over (3.5-1) ...
+Setting up libselinux1:amd64 (3.5-1deepin5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libsystemd-shared_255.2-4deepin3_amd64.deb ...
+Unpacking libsystemd-shared:amd64 (255.2-4deepin3) over (255.2-4) ...
+Preparing to unpack .../libsystemd0_255.2-4deepin3_amd64.deb ...
+Unpacking libsystemd0:amd64 (255.2-4deepin3) over (255.2-4) ...
+Setting up libsystemd0:amd64 (255.2-4deepin3) ...
+Selecting previously unselected package mount.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../mount_2.39.3-6deepin1_amd64.deb ...
+Unpacking mount (2.39.3-6deepin1) ...
+Preparing to unpack .../udev_255.2-4deepin3_amd64.deb ...
+Unpacking udev (255.2-4deepin3) over (255.2-4) ...
+dpkg: systemd-standalone-sysusers: dependency problems, but removing anyway as you requested:
+ udev depends on systemd | systemd-standalone-sysusers | systemd-sysusers; however:
+  Package systemd is not installed.
+  Package systemd-standalone-sysusers is to be removed.
+  Package systemd-sysusers is not installed.
+  Package systemd-standalone-sysusers which provides systemd-sysusers is to be removed.
+ udev depends on systemd | systemd-standalone-sysusers | systemd-sysusers; however:
+  Package systemd is not installed.
+  Package systemd-standalone-sysusers is to be removed.
+  Package systemd-sysusers is not installed.
+  Package systemd-standalone-sysusers which provides systemd-sysusers is to be removed.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27620 files and directories currently installed.)
+Removing systemd-standalone-sysusers (255.2-4) ...
+Selecting previously unselected package systemd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27613 files and directories currently installed.)
+Preparing to unpack .../systemd_255.2-4deepin3_amd64.deb ...
+Unpacking systemd (255.2-4deepin3) ...
+Setting up libsystemd-shared:amd64 (255.2-4deepin3) ...
+Setting up systemd-dev (255.2-4deepin3) ...
+Setting up mount (2.39.3-6deepin1) ...
+Setting up systemd (255.2-4deepin3) ...
+
+Configuration file '/etc/systemd/journald.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/logind.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/networkd.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/pstore.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/sleep.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/system.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/user.conf', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/system/getty.target.wants/getty@tty1.service → /usr/lib/systemd/system/getty@.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target → /usr/lib/systemd/system/remote-fs.target.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-pstore.service → /usr/lib/systemd/system/systemd-pstore.service.
+fchownat() of /run/systemd/netif failed: Invalid argument
+fchownat() of /run/systemd/netif/links failed: Invalid argument
+fchownat() of /run/systemd/netif/leases failed: Invalid argument
+fchownat() of /run/systemd/netif/lldp failed: Invalid argument
+fchownat() of /var/log/wtmp failed: Invalid argument
+fchownat() of /var/log/btmp failed: Invalid argument
+fchownat() of /var/log/lastlog failed: Invalid argument
+Setting access ACL "u::rwx,g::r-x,g:adm:r-x,m::r-x,o::r-x" on /var/log/journal failed: Invalid argument
+fchownat() of /var/log/journal failed: Invalid argument
+Selecting previously unselected package systemd-sysv.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28564 files and directories currently installed.)
+Preparing to unpack .../systemd-sysv_255.2-4deepin3_amd64.deb ...
+Unpacking systemd-sysv (255.2-4deepin3) ...
+Selecting previously unselected package sgml-base.
+Preparing to unpack .../sgml-base_1.30_all.deb ...
+Unpacking sgml-base (1.30) ...
+Preparing to unpack .../libudev1_255.2-4deepin3_amd64.deb ...
+Unpacking libudev1:amd64 (255.2-4deepin3) over (255.2-4) ...
+Setting up libudev1:amd64 (255.2-4deepin3) ...
+Selecting previously unselected package libnss-systemd:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28608 files and directories currently installed.)
+Preparing to unpack .../00-libnss-systemd_255.2-4deepin3_amd64.deb ...
+Unpacking libnss-systemd:amd64 (255.2-4deepin3) ...
+Selecting previously unselected package libpam-systemd:amd64.
+Preparing to unpack .../01-libpam-systemd_255.2-4deepin3_amd64.deb ...
+Unpacking libpam-systemd:amd64 (255.2-4deepin3) ...
+Selecting previously unselected package systemd-timesyncd.
+Preparing to unpack .../02-systemd-timesyncd_255.2-4deepin3_amd64.deb ...
+Unpacking systemd-timesyncd (255.2-4deepin3) ...
+Selecting previously unselected package bubblewrap.
+Preparing to unpack .../03-bubblewrap_0.10.0-1_amd64.deb ...
+Unpacking bubblewrap (0.10.0-1) ...
+Selecting previously unselected package libunwind-16:amd64.
+Preparing to unpack .../04-libunwind-16_1%3a16.0.6-18deepin1+rb1_amd64.deb ...
+Unpacking libunwind-16:amd64 (1:16.0.6-18deepin1+rb1) ...
+Selecting previously unselected package libc++abi1-16:amd64.
+Preparing to unpack .../05-libc++abi1-16_1%3a16.0.6-18deepin1+rb1_amd64.deb ...
+Unpacking libc++abi1-16:amd64 (1:16.0.6-18deepin1+rb1) ...
+Selecting previously unselected package libc++1-16:amd64.
+Preparing to unpack .../06-libc++1-16_1%3a16.0.6-18deepin1+rb1_amd64.deb ...
+Unpacking libc++1-16:amd64 (1:16.0.6-18deepin1+rb1) ...
+Selecting previously unselected package libdouble-conversion3:amd64.
+Preparing to unpack .../07-libdouble-conversion3_3.3.0-1_amd64.deb ...
+Unpacking libdouble-conversion3:amd64 (3.3.0-1) ...
+Selecting previously unselected package libopenh264-7:amd64.
+Preparing to unpack .../08-libopenh264-7_2.3.1+dfsg-4_amd64.deb ...
+Unpacking libopenh264-7:amd64 (2.3.1+dfsg-4) ...
+Selecting previously unselected package libxnvctrl0:amd64.
+Preparing to unpack .../09-libxnvctrl0_525.125.06-1_amd64.deb ...
+Unpacking libxnvctrl0:amd64 (525.125.06-1) ...
+Selecting previously unselected package libxslt1.1:amd64.
+Preparing to unpack .../10-libxslt1.1_1.1.34-4_amd64.deb ...
+Unpacking libxslt1.1:amd64 (1.1.34-4) ...
+Selecting previously unselected package libinih1:amd64.
+Preparing to unpack .../11-libinih1_53-deepin1_amd64.deb ...
+Unpacking libinih1:amd64 (53-deepin1) ...
+Selecting previously unselected package dbus-user-session.
+Preparing to unpack .../12-dbus-user-session_1.14.10-3_amd64.deb ...
+Unpacking dbus-user-session (1.14.10-3) ...
+Selecting previously unselected package libfuse3-3:amd64.
+Preparing to unpack .../13-libfuse3-3_3.14.0-5_amd64.deb ...
+Unpacking libfuse3-3:amd64 (3.14.0-5) ...
+Selecting previously unselected package fuse3.
+Preparing to unpack .../14-fuse3_3.14.0-5_amd64.deb ...
+Unpacking fuse3 (3.14.0-5) ...
+Selecting previously unselected package libjson-glib-1.0-common.
+Preparing to unpack .../15-libjson-glib-1.0-common_1.8.0-2_all.deb ...
+Unpacking libjson-glib-1.0-common (1.8.0-2) ...
+Selecting previously unselected package libjson-glib-1.0-0:amd64.
+Preparing to unpack .../16-libjson-glib-1.0-0_1.8.0-2_amd64.deb ...
+Unpacking libjson-glib-1.0-0:amd64 (1.8.0-2) ...
+Selecting previously unselected package xdg-desktop-portal.
+Preparing to unpack .../17-xdg-desktop-portal_1.18.4-1_amd64.deb ...
+Unpacking xdg-desktop-portal (1.18.4-1) ...
+Selecting previously unselected package xdg-desktop-portal-wlr.
+Preparing to unpack .../18-xdg-desktop-portal-wlr_0.7.0-1_amd64.deb ...
+Unpacking xdg-desktop-portal-wlr (0.7.0-1) ...
+Preparing to unpack .../19-libxmu6_2%3a1.1.3-3_amd64.deb ...
+Unpacking libxmu6:amd64 (2:1.1.3-3) over (2:1.1.2-deepin1) ...
+Selecting previously unselected package libxmuu1:amd64.
+Preparing to unpack .../20-libxmuu1_2%3a1.1.3-3_amd64.deb ...
+Unpacking libxmuu1:amd64 (2:1.1.3-3) ...
+Selecting previously unselected package libxxf86dga1:amd64.
+Preparing to unpack .../21-libxxf86dga1_2%3a1.1.4-deepin1_amd64.deb ...
+Unpacking libxxf86dga1:amd64 (2:1.1.4-deepin1) ...
+Selecting previously unselected package x11-utils.
+Preparing to unpack .../22-x11-utils_7.7+5-deepin_amd64.deb ...
+Unpacking x11-utils (7.7+5-deepin) ...
+Selecting previously unselected package xdg-utils.
+Preparing to unpack .../23-xdg-utils_1.1.3-4.1deepin1_all.deb ...
+Unpacking xdg-utils (1.1.3-4.1deepin1) ...
+Selecting previously unselected package chromium-common.
+Preparing to unpack .../24-chromium-common_128.0.6613.84-1deepin1_amd64.deb ...
+Unpacking chromium-common (128.0.6613.84-1deepin1) ...
+Selecting previously unselected package chromium.
+Preparing to unpack .../25-chromium_128.0.6613.84-1deepin1_amd64.deb ...
+Unpacking chromium (128.0.6613.84-1deepin1) ...
+Selecting previously unselected package chromium-sandbox.
+Preparing to unpack .../26-chromium-sandbox_128.0.6613.84-1deepin1_amd64.deb ...
+Unpacking chromium-sandbox (128.0.6613.84-1deepin1) ...
+Selecting previously unselected package gcc-12-base:amd64.
+Preparing to unpack .../27-gcc-12-base_12.3.0-17deepin8_amd64.deb ...
+Unpacking gcc-12-base:amd64 (12.3.0-17deepin8) ...
+Selecting previously unselected package libisl23:amd64.
+Preparing to unpack .../28-libisl23_0.26-3_amd64.deb ...
+Unpacking libisl23:amd64 (0.26-3) ...
+Selecting previously unselected package libmpc3:amd64.
+Preparing to unpack .../29-libmpc3_1.2.1-1_amd64.deb ...
+Unpacking libmpc3:amd64 (1.2.1-1) ...
+Selecting previously unselected package cpp-12.
+Preparing to unpack .../30-cpp-12_12.3.0-17deepin8_amd64.deb ...
+Unpacking cpp-12 (12.3.0-17deepin8) ...
+Selecting previously unselected package cpp.
+Preparing to unpack .../31-cpp_4%3a13.2.0+really12.3.0-0deepin1_amd64.deb ...
+Unpacking cpp (4:13.2.0+really12.3.0-0deepin1) ...
+Selecting previously unselected package deepin-app-store-runtime.
+Preparing to unpack .../32-deepin-app-store-runtime_1.0.2+community_amd64.deb ...
+Unpacking deepin-app-store-runtime (1.0.2+community) ...
+Selecting previously unselected package fonts-liberation.
+Preparing to unpack .../33-fonts-liberation_1%3a2.1.5-3_all.deb ...
+Unpacking fonts-liberation (1:2.1.5-3) ...
+Selecting previously unselected package libduktape207:amd64.
+Preparing to unpack .../34-libduktape207_2.7.0-2_amd64.deb ...
+Unpacking libduktape207:amd64 (2.7.0-2) ...
+Selecting previously unselected package libipc-system-simple-perl.
+Preparing to unpack .../35-libipc-system-simple-perl_1.30-1_all.deb ...
+Unpacking libipc-system-simple-perl (1.30-1) ...
+Selecting previously unselected package libfile-basedir-perl.
+Preparing to unpack .../36-libfile-basedir-perl_0.09-1_all.deb ...
+Unpacking libfile-basedir-perl (0.09-1) ...
+Selecting previously unselected package libfile-desktopentry-perl.
+Preparing to unpack .../37-libfile-desktopentry-perl_0.22-2_all.deb ...
+Unpacking libfile-desktopentry-perl (0.22-2) ...
+Selecting previously unselected package libfile-mimeinfo-perl.
+Preparing to unpack .../38-libfile-mimeinfo-perl_0.30-1_all.deb ...
+Unpacking libfile-mimeinfo-perl (0.30-1) ...
+Selecting previously unselected package libgudev-1.0-0:amd64.
+Preparing to unpack .../39-libgudev-1.0-0_238-2deepin1_amd64.deb ...
+Unpacking libgudev-1.0-0:amd64 (238-2deepin1) ...
+Selecting previously unselected package libplist3:amd64.
+Preparing to unpack .../40-libplist3_2.2.0-6+rb2_amd64.deb ...
+Unpacking libplist3:amd64 (2.2.0-6+rb2) ...
+Selecting previously unselected package libusbmuxd6:amd64.
+Preparing to unpack .../41-libusbmuxd6_2.0.2-3_amd64.deb ...
+Unpacking libusbmuxd6:amd64 (2.0.2-3) ...
+Selecting previously unselected package libimobiledevice6:amd64.
+Preparing to unpack .../42-libimobiledevice6_1.3.0-7.1deepin1_amd64.deb ...
+Unpacking libimobiledevice6:amd64 (1.3.0-7.1deepin1) ...
+Selecting previously unselected package libio-stringy-perl.
+Preparing to unpack .../43-libio-stringy-perl_2.111-3_all.deb ...
+Unpacking libio-stringy-perl (2.111-3) ...
+Selecting previously unselected package libxml-parser-perl:amd64.
+Preparing to unpack .../44-libxml-parser-perl_2.46-3_amd64.deb ...
+Unpacking libxml-parser-perl:amd64 (2.46-3) ...
+Selecting previously unselected package libxml-twig-perl.
+Preparing to unpack .../45-libxml-twig-perl_1%3a3.52-1_all.deb ...
+Unpacking libxml-twig-perl (1:3.52-1) ...
+Selecting previously unselected package libnet-dbus-perl.
+Preparing to unpack .../46-libnet-dbus-perl_1.2.0-1_amd64.deb ...
+Unpacking libnet-dbus-perl (1.2.0-1) ...
+Preparing to unpack .../47-libnss-myhostname_255.2-4deepin3_amd64.deb ...
+Unpacking libnss-myhostname:amd64 (255.2-4deepin3) over (255.2-4) ...
+Selecting previously unselected package libpolkit-gobject-1-0:amd64.
+Preparing to unpack .../48-libpolkit-gobject-1-0_123-3deepin6_amd64.deb ...
+Unpacking libpolkit-gobject-1-0:amd64 (123-3deepin6) ...
+Selecting previously unselected package libpolkit-agent-1-0:amd64.
+Preparing to unpack .../49-libpolkit-agent-1-0_123-3deepin6_amd64.deb ...
+Unpacking libpolkit-agent-1-0:amd64 (123-3deepin6) ...
+Selecting previously unselected package libtie-ixhash-perl.
+Preparing to unpack .../50-libtie-ixhash-perl_1.23-2.1_all.deb ...
+Unpacking libtie-ixhash-perl (1.23-2.1) ...
+Selecting previously unselected package libupower-glib3:amd64.
+Preparing to unpack .../51-libupower-glib3_1.90.3-1_amd64.deb ...
+Unpacking libupower-glib3:amd64 (1.90.3-1) ...
+Selecting previously unselected package libutempter0:amd64.
+Preparing to unpack .../52-libutempter0_1.2.1-2_amd64.deb ...
+Unpacking libutempter0:amd64 (1.2.1-2) ...
+dpkg: error processing archive /tmp/apt-dpkg-install-b3aU9e/52-libutempter0_1.2.1-2_amd64.deb (--unpack):
+ error setting ownership of './usr/lib/x86_64-linux-gnu/utempter/utempter': Invalid argument
+Selecting previously unselected package libx11-protocol-perl.
+Preparing to unpack .../53-libx11-protocol-perl_0.56-7.1_all.deb ...
+Unpacking libx11-protocol-perl (0.56-7.1) ...
+Selecting previously unselected package libxml-xpathengine-perl.
+Preparing to unpack .../54-libxml-xpathengine-perl_0.14-1_all.deb ...
+Unpacking libxml-xpathengine-perl (0.14-1) ...
+Selecting previously unselected package xbitmaps.
+Preparing to unpack .../55-xbitmaps_1.1.1-2.2_all.deb ...
+Unpacking xbitmaps (1.1.1-2.2) ...
+Selecting previously unselected package xterm.
+Preparing to unpack .../56-xterm_369-1_amd64.deb ...
+Unpacking xterm (369-1) ...
+Selecting previously unselected package net.xterm.
+Preparing to unpack .../57-net.xterm_344-1+deb10u1_amd64.deb ...
+Unpacking net.xterm (344-1+deb10u1) ...
+Selecting previously unselected package notification-daemon.
+Preparing to unpack .../58-notification-daemon_3.20.0-deepin1_amd64.deb ...
+Unpacking notification-daemon (3.20.0-deepin1) ...
+Selecting previously unselected package xml-core.
+Preparing to unpack .../59-xml-core_0.18+nmu1_all.deb ...
+Unpacking xml-core (0.18+nmu1) ...
+Selecting previously unselected package polkitd.
+Preparing to unpack .../60-polkitd_123-3deepin6_amd64.deb ...
+Unpacking polkitd (123-3deepin6) ...
+Selecting previously unselected package upower.
+Preparing to unpack .../61-upower_1.90.3-1_amd64.deb ...
+Unpacking upower (1.90.3-1) ...
+Selecting previously unselected package usbmuxd.
+Preparing to unpack .../62-usbmuxd_1.1.1-2_amd64.deb ...
+Unpacking usbmuxd (1.1.1-2) ...
+Selecting previously unselected package x11-xserver-utils.
+Preparing to unpack .../63-x11-xserver-utils_7.7+9-deepin_amd64.deb ...
+Unpacking x11-xserver-utils (7.7+9-deepin) ...
+Errors were encountered while processing:
+ /tmp/apt-dpkg-install-b3aU9e/52-libutempter0_1.2.1-2_amd64.deb
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
+E: Sub-process /usr/bin/dpkg returned an error code (1)
