@@ -1,0 +1,72 @@
+正在测试: APPID=arc-gui-clients.linyaps LAYER=arc-gui-clients.linyaps_0.4.6.7_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install arc-gui-clients.linyaps_0.4.6.7_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:arc-gui-clients.linyaps
+Layer文件:arc-gui-clients.linyaps_0.4.6.7_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: arc-gui-clients.linyaps_0.4.6.7_arm64_binary.layer
+offset: 459
+mountpoint: /tmp/tmp.BbHeBqUksc/mnt
+dbglevel: 0
+[31m[失败] arccert-ui.desktop:system-config-authentication: 找不到此图标 [0m
+[成功] /opt/apps/arc-gui-clients.linyaps/files/share/applications/arccert-ui.desktop: /opt/apps/arc-gui-clients.linyaps/files/entrypoint.sh arccert-ui
+[31m[失败] arcproxy-ui.desktop:system-config-authentication: 找不到此图标 [0m
+[成功] /opt/apps/arc-gui-clients.linyaps/files/share/applications/arcproxy-ui.desktop: /opt/apps/arc-gui-clients.linyaps/files/entrypoint.sh arcproxy-ui
+[成功] arcstat-ui.desktop: utilities-system-monitor -> /usr/share/icons/Humanity/apps/48/utilities-system-monitor.svg
+[成功] /opt/apps/arc-gui-clients.linyaps/files/share/applications/arcstat-ui.desktop: /opt/apps/arc-gui-clients.linyaps/files/entrypoint.sh arcstat-ui
+[成功] arcstorage-ui.desktop: system-file-manager -> /usr/share/icons/Humanity/apps/48/system-file-manager.svg
+[成功] /opt/apps/arc-gui-clients.linyaps/files/share/applications/arcstorage-ui.desktop: /opt/apps/arc-gui-clients.linyaps/files/entrypoint.sh arcstorage-ui
+[31m[失败] arcsub-ui.desktop:system-config-authentication: 找不到此图标 [0m
+[成功] /opt/apps/arc-gui-clients.linyaps/files/share/applications/arcsub-ui.desktop: /opt/apps/arc-gui-clients.linyaps/files/entrypoint.sh arcsub-ui
+[正在测试启动项]
+包名:arc-gui-clients.linyaps
+Layer文件:arc-gui-clients.linyaps_0.4.6.7_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: arc-gui-clients.linyaps_0.4.6.7_arm64_binary.layer
+offset: 459
+mountpoint: /tmp/tmp.1Jelsl8jqf/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run arc-gui-clients.linyaps -- /opt/apps/arc-gui-clients.linyaps/files/entrypoint.sh arccert-ui
+[PID 20986] 进程已启动
+[PID 20986] 已检测到窗口:PID=36
+[PID 20986] 正在截图 0秒: tests/screen0-0.jpg
+[PID 20986] 正在截图 1秒: tests/screen0-1.jpg
+[PID 20986] 正在截图 3秒: tests/screen0-3.jpg
+[PID 20986] 正在截图 5秒: tests/screen0-5.jpg
+[PID 20986] 正在通知并等待进程退出
+[PID 20986] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run arc-gui-clients.linyaps -- /opt/apps/arc-gui-clients.linyaps/files/entrypoint.sh arcproxy-ui
+[PID 21161] 进程已启动
+[PID 21161] 已检测到窗口:PID=38
+[PID 21161] 正在截图 0秒: tests/screen1-0.jpg
+[PID 21161] 正在截图 1秒: tests/screen1-1.jpg
+[PID 21161] 正在截图 3秒: tests/screen1-3.jpg
+[PID 21161] 正在截图 5秒: tests/screen1-5.jpg
+[PID 21161] 正在通知并等待进程退出
+[PID 21161] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run arc-gui-clients.linyaps -- /opt/apps/arc-gui-clients.linyaps/files/entrypoint.sh arcstat-ui
+[PID 21327] 进程已启动
+[PID 21327] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run arc-gui-clients.linyaps -- /opt/apps/arc-gui-clients.linyaps/files/entrypoint.sh arcstorage-ui
+[PID 21479] 进程已启动
+[PID 21479] 已检测到窗口:PID=36
+[PID 21479] 正在截图 0秒: tests/screen3-0.jpg
+[PID 21479] 正在截图 1秒: tests/screen3-1.jpg
+[PID 21479] 正在截图 3秒: tests/screen3-3.jpg
+[PID 21479] 正在截图 5秒: tests/screen3-5.jpg
+[PID 21479] 正在通知并等待进程退出
+[PID 21479] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run arc-gui-clients.linyaps -- /opt/apps/arc-gui-clients.linyaps/files/entrypoint.sh arcsub-ui
+[PID 21727] 进程已启动
+[PID 21727] 已检测到窗口:PID=36
+[PID 21727] 正在截图 0秒: tests/screen4-0.jpg
+[PID 21727] 正在截图 1秒: tests/screen4-1.jpg
+[PID 21727] 正在截图 3秒: tests/screen4-3.jpg
+[PID 21727] 正在截图 5秒: tests/screen4-5.jpg
+[PID 21727] 正在通知并等待进程退出
+[PID 21727] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall arc-gui-clients.linyaps
