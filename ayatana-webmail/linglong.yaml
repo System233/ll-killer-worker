@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: ayatana-webmail.linyaps
+  name: ayatana-webmail
+  version: 23.12.25.1
+  kind: app
+  description: |-
+    Webmail notifications and actions for any desktop
+    Ayatana Webmail is an application that integrates your webmail into
+    MATE, Xfce, LXDE and other environments.
+
+    It displays notifications about incoming mail, shows the number of unread
+    messages and displays subjects in the Messaging Menu.
+
+    The Launcher item also has a quicklist that provides quick access to your
+    mail folders. It also allows you to quickly compose a new message.
+
+    Ayatana Webmail starts automatically, all you have to do is to enter your
+    accounts settings in a configuration dialog.
+command:
+- /opt/apps/ayatana-webmail.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
