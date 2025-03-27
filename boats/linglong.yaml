@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: boats.linyaps
+  name: boats
+  version: 202008.0.0.1
+  kind: app
+  description: |-
+    race scenario drawing tool
+    Boat Scenario is a drawing tool. It is your ideal companion for training
+    sessions, rule learning, strategy explanations and more. It lets you make
+    a presentation of a situation, describing the facts as you represent the
+    action.
+command:
+- /opt/apps/boats.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
