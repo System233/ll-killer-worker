@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: basex.linyaps
+  name: basex
+  version: 10.5.0.1
+  kind: app
+  description: |-
+    XML database and XPath/XQuery processor
+    BaseX is a very fast and light-weight, yet powerful XML database and
+    XPath/XQuery processor, including support for the latest W3C Full Text and
+    Update Recommendations. It supports large XML instances and offers a highly
+    interactive front-end (basexgui). Apart from two local standalone modes, BaseX
+    offers a client/server architecture.
+
+    The package provides following commands:
+    * basex  ..........  Standalone local XML database. Command line interface.
+    * basexgui  .......  Standalone local XML database. Graphical user interface.
+    * basexserver  ....  BaseX XML Database Server.
+    * basexclient  ....  BaseX XML Database Client.
+    BaseX XML database and XPath/XQuery processor
+command:
+- /opt/apps/basex.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
