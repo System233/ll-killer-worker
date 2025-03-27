@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: alarm-clock-applet.linyaps
+  name: alarm-clock-applet
+  version: 0.4.1.5
+  kind: app
+  description: |-
+    alarm clock panel indicator
+    Alarm Clock is a fully-featured alarm clock which resides in the notification
+    area. It is easy to use yet powerful with support for multiple and repeatable
+    alarms, as well as snoozing and a flexible notification system.
+
+    Two types of alarms are supported: Alarm Clocks and Timers.
+    Notification is done by either playing a sound or launching an
+    application.
+command:
+- /opt/apps/alarm-clock-applet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
