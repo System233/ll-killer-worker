@@ -1,0 +1,28 @@
+正在测试: APPID=com.ncmem.up6.linyaps LAYER=com.ncmem.up6.linyaps_2020.12.3.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install com.ncmem.up6.linyaps_2020.12.3.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:com.ncmem.up6.linyaps
+Layer文件:com.ncmem.up6.linyaps_2020.12.3.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: com.ncmem.up6.linyaps_2020.12.3.1_arm64_binary.layer
+offset: 470
+mountpoint: /tmp/tmp.EEwfxgfYcF/mnt
+dbglevel: 0
+[成功] com.ncmem.up6.desktop: com.ncmem.up6 -> /opt/apps/com.ncmem.up6.linyaps/files/share/icons/hicolor/128x128/apps/com.ncmem.up6.png
+[成功] /opt/apps/com.ncmem.up6.linyaps/files/share/applications/com.ncmem.up6.desktop: /opt/apps/com.ncmem.up6.linyaps/files/entrypoint.sh /opt/apps/com.ncmem.up6/files/run.sh %u
+[正在测试启动项]
+包名:com.ncmem.up6.linyaps
+Layer文件:com.ncmem.up6.linyaps_2020.12.3.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: com.ncmem.up6.linyaps_2020.12.3.1_arm64_binary.layer
+offset: 470
+mountpoint: /tmp/tmp.VtDV0AO98J/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run com.ncmem.up6.linyaps -- /opt/apps/com.ncmem.up6.linyaps/files/entrypoint.sh /opt/apps/com.ncmem.up6/files/run.sh
+[PID 5549] 进程已启动
+[PID 5549] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall com.ncmem.up6.linyaps
