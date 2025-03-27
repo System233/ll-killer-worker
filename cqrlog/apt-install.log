@@ -159,7 +159,7 @@ Get:91 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 xplanet-
 Get:92 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/universe arm64 libmariadb-dev-compat arm64 1:10.11.8-0ubuntu0.24.04.1 [11.9 kB]
 Get:93 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 cqrlog arm64 2.5.2-3ubuntu2 [4532 kB]
 Get:94 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 p11-kit arm64 0.25.3-4ubuntu2.1 [145 kB]
-Fetched 81.1 MB in 12s (6614 kB/s)
+Fetched 81.1 MB in 12s (7034 kB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
 Preparing to unpack .../libhtml-parser-perl_3.81-1build3_arm64.deb ...
 Unpacking libhtml-parser-perl:arm64 (3.81-1build3) over (3.76-1) ...
@@ -941,11 +941,11 @@ invoke-rc.d: could not determine current runlevel
 invoke-rc.d: WARNING: No init system and policy-rc.d missing! Defaulting to block.
 Renaming removed key_buffer and myisam-recover options (if present)
 Specified filename /var/lib/mysql/ibdata1 does not exist.
-2025-03-27T14:24:06.806446Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.41-0ubuntu0.24.04.1) starting as process 1153
-2025-03-27T14:24:06.822006Z 0 [ERROR] [MY-010126] [Server] setgid: Invalid argument
-2025-03-27T14:24:06.822708Z 0 [ERROR] [MY-010946] [Server] Failed to start mysqld daemon. Check mysqld error log.
-2025-03-27T14:24:06.822430Z 0 [ERROR] [MY-010119] [Server] Aborting
-2025-03-27T14:24:06.823322Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.41-0ubuntu0.24.04.1)  (Ubuntu).
+2025-03-27T15:22:25.559690Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.41-0ubuntu0.24.04.1) starting as process 1152
+2025-03-27T15:22:25.569790Z 0 [ERROR] [MY-010126] [Server] setgid: Invalid argument
+2025-03-27T15:22:25.570987Z 0 [ERROR] [MY-010946] [Server] Failed to start mysqld daemon. Check mysqld error log.
+2025-03-27T15:22:25.570245Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-03-27T15:22:25.571006Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.41-0ubuntu0.24.04.1)  (Ubuntu).
 Warning: Unable to start the server.
 Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-helper line 682.
 Can't exec "systemctl": No such file or directory at /usr/sbin/update-rc.d line 98.
