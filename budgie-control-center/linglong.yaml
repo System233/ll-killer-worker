@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: budgie-control-center.linyaps
+  name: budgie-control-center
+  version: 1.4.0.2
+  kind: app
+  description: |-
+    utilities to configure the Budgie desktop
+    This package contains configuration applets for the Budgie desktop,
+    allowing to set accessibility configuration, desktop fonts, keyboard
+    and mouse properties, sound setup, desktop background, user
+    interface properties, screen resolution, and other Budgie parameters.
+
+    This is a fork of gnome-control-center at v41 with gnome-shell
+    specifics removed together with configuration specific to the
+    budgie-desktop.
+command:
+- /opt/apps/budgie-control-center.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
