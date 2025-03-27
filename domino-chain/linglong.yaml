@@ -1,0 +1,32 @@
+version: "1"
+package:
+  id: domino-chain.linyaps
+  name: domino-chain
+  version: 1.1.0.3
+  kind: app
+  description: |-
+    Fun puzzle game with dominos
+    This is a remake of a fun puzzle game originally published by Ocean in 1992.
+    In this game you control an ant that can walk along platforms that are
+    connected with ladders. On those platforms are dominos that need to fall
+    according to some rules.
+
+    - All dominos must fall and none must crash into another
+    - One special domino must fall as last domino and that domino triggers
+    the exit door to open when you enter the exit door the level has been
+    completed
+    - You may rearrange as many dominos as you want, except for the trigger.
+    You may not place dominos in front of the doors, except for the vanishing
+    domino.
+    - You may push once to start a chain reaction with the dominos leading to
+    the fall of all of them
+    - All this has to be done within a time limit (which is normally generous)
+    - There are 10 different dominos that behave differently when pushed, some
+    fall, some not, some wait a bit before they fall, some raise, some toppler
+    until they meet an obstacle
+    - There is a help in the game and introductory levels that show how all the
+    dominos work
+command:
+- /opt/apps/domino-chain.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
