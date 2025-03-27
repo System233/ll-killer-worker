@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: alienblaster.linyaps
+  name: alienblaster
+  version: 1.1.0.11
+  kind: app
+  description: |-
+    Classic 2D shoot 'em up
+    Your mission is simple: Stop the invasion of the aliens and blast them!
+
+    Alien Blaster is a classic 2D shoot 'em up featuring lots of different
+    weapons, special items, aliens to blast and a big bad boss.
+
+    It supports both a single player mode and a cooperative two player mode
+    for two persons playing on one computer.
+command:
+- /opt/apps/alienblaster.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
