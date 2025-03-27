@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-camera.linyaps
+  name: deepin-camera
+  version: 6.5.5.0
+  kind: app
+  description: |-
+    this package software for  UOS
+    deepin-camera is a tool to view camera, and also a smart take photo and video in life.
+command:
+- /opt/apps/deepin-camera.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
