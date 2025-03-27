@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: dozzaqueux.linyaps
+  name: dozzaqueux
+  version: 3.51.0.4
+  kind: app
+  description: |-
+    simulator for chemical mixtures
+    just choose reactants to put in the beaker, those to put in the burette,
+    dozzaqueux plots the concentrations vs. the mixed volume, and many more.
+command:
+- /opt/apps/dozzaqueux.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
