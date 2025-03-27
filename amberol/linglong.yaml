@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: amberol.linyaps
+  name: amberol
+  version: 0.10.3.3
+  kind: app
+  description: |-
+    Small and simple music player for GNOME
+    Amberol is a music player aspiring to be as small, unintrusive, and simple as
+    possible. It does not manage music collections, nor does it let you manage
+    playlists, edit song metadata, show song lyrics or the band's Wikipedia page.
+    Amberol plays music, and nothing else.
+
+    It is well integrated into GNOME and features an adaptive UI for use on mobile
+    devices.
+command:
+- /opt/apps/amberol.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
