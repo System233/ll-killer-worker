@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: beads.linyaps
+  name: beads
+  version: 1.1.22.1
+  kind: app
+  description: |-
+    2-DE electrophoresis gel image spot detection
+    Beads is a program for spot detection on 2-D gel images. It is based on
+    an analogy with beads flowing uphill on the surface of the gel image and
+    on the analysis of their paths (Langella & Zivy, 2008).
+command:
+- /opt/apps/beads.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
