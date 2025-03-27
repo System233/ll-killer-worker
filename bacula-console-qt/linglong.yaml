@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: bacula-console-qt.linyaps
+  name: bacula-console-qt
+  version: 13.0.4.1
+  kind: app
+  description: |-
+    network backup service - Bacula Administration Tool
+    Bacula is a set of programs to manage backup, recovery and verification of
+    data across a network of computers of different kinds.
+
+    The management console allows the administrator or user to
+    communicate with the Bacula Director.
+
+    This package provides the most advanced GUI to Bacula: the Bacula
+    Administration Tool (BAT) console.
+
+    This GUI interface has been designed to ease restore operations as much as
+    possible as compared to the basic text console.
+command:
+- /opt/apps/bacula-console-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
