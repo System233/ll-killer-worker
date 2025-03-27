@@ -1,0 +1,38 @@
+正在测试: APPID=battery-stats.linyaps LAYER=battery-stats.linyaps_0.5.6.2_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install battery-stats.linyaps_0.5.6.2_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:battery-stats.linyaps
+Layer文件:battery-stats.linyaps_0.5.6.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: battery-stats.linyaps_0.5.6.2_x86_64_binary.layer
+offset: 796
+mountpoint: /tmp/tmp.Z8x4I9nABS/mnt
+dbglevel: 0
+[成功] battery-stats-graph.desktop: battery-stats.linyaps-battery-stats -> /opt/apps/battery-stats.linyaps/files/share/icons/hicolor/16x16/apps/battery-stats.linyaps-battery-stats.png
+[成功] /opt/apps/battery-stats.linyaps/files/share/applications/battery-stats-graph.desktop: /opt/apps/battery-stats.linyaps/files/entrypoint.sh /usr/share/battery-stats/battery-stats-graph
+[成功] battery-stats.desktop: battery-stats.linyaps-battery-stats -> /opt/apps/battery-stats.linyaps/files/share/icons/hicolor/16x16/apps/battery-stats.linyaps-battery-stats.png
+[成功] /opt/apps/battery-stats.linyaps/files/share/applications/battery-stats.desktop: /opt/apps/battery-stats.linyaps/files/entrypoint.sh /usr/bin/battery-graph
+[正在测试启动项]
+包名:battery-stats.linyaps
+Layer文件:battery-stats.linyaps_0.5.6.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: battery-stats.linyaps_0.5.6.2_x86_64_binary.layer
+offset: 796
+mountpoint: /tmp/tmp.qAtSMqMFVp/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run battery-stats.linyaps -- /opt/apps/battery-stats.linyaps/files/entrypoint.sh /usr/share/battery-stats/battery-stats-graph
+[PID 22551] 进程已启动
+[PID 22551] 正在截图 0秒: tests/screen0-0.jpg
+[PID 22551] 正在截图 1秒: tests/screen0-1.jpg
+[PID 22551] 正在截图 3秒: tests/screen0-3.jpg
+[PID 22551] 正在截图 5秒: tests/screen0-5.jpg
+[PID 22551] 正在通知并等待进程退出
+[PID 22551] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run battery-stats.linyaps -- /opt/apps/battery-stats.linyaps/files/entrypoint.sh /usr/bin/battery-graph
+[PID 23014] 进程已启动
+[PID 23014] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall battery-stats.linyaps
