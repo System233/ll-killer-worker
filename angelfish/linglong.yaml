@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: angelfish.linyaps
+  name: angelfish
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Web browser for Plasma Mobile
+    This is a webbrowser designed to
+    - be used on small mobile devices,
+    - integrate well in Plasma workspaces
+
+    This use QtWebEngine as backend and supports webrtc.
+command:
+- /opt/apps/angelfish.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
