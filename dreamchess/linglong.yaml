@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: dreamchess.linyaps
+  name: dreamchess
+  version: 0.3.0.2
+  kind: app
+  description: |-
+    3D chess game
+    DreamChess features 3D OpenGL graphics and provides various chess board sets,
+    ranging from classic wooden to flat.
+
+    A moderately strong chess engine is included: Dreamer. However, should this
+    engine be too weak for you, then you can use any other XBoard-compatible chess
+    engine, including the popular Crafty and GNU Chess.
+
+    Other features include on-screen move lists using SAN notation, undo
+    functionality, and savegames in PGN format.
+command:
+- /opt/apps/dreamchess.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
