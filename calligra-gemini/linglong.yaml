@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: calligra-gemini.linyaps
+  name: calligra-gemini
+  version: 3.2.1.8
+  kind: app
+  description: |-
+    unified interface for stage and words
+    Calligra Gemini provide a unified applications which combines
+    traditional desktop application and touch friendly interface for
+    the Words and Stage components.
+
+    This package is part of the Calligra Suite.
+command:
+- /opt/apps/calligra-gemini.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
