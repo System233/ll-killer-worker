@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: chatty.linyaps
+  name: chatty
+  version: 0.8.2.1
+  kind: app
+  description: |-
+    Messaging application for mobile and desktop
+    Chatty is a simple to use to messaging app for 1:1 communication and small
+    groups supporting SMS, MMS, XMPP and Matrix.
+
+    It works on desktops but also adjusts to small screen sizes like smart phones
+    and other mobile devices.
+command:
+- /opt/apps/chatty.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
