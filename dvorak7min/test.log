@@ -1,0 +1,29 @@
+正在测试: APPID=dvorak7min.linyaps LAYER=dvorak7min.linyaps_1.6.1.4_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install dvorak7min.linyaps_1.6.1.4_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:dvorak7min.linyaps
+Layer文件:dvorak7min.linyaps_1.6.1.4_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: dvorak7min.linyaps_1.6.1.4_x86_64_binary.layer
+offset: 572
+mountpoint: /tmp/tmp.BCfECjVUgx/mnt
+dbglevel: 0
+find: ‘/opt/apps/dvorak7min.linyaps/files/share/icons’: No such file or directory
+[成功] dvorak7min.desktop: dvorak7min -> /opt/apps/dvorak7min.linyaps/files/share/pixmaps/dvorak7min.xpm
+[成功] /opt/apps/dvorak7min.linyaps/files/share/applications/dvorak7min.desktop: /opt/apps/dvorak7min.linyaps/files/entrypoint.sh dvorak7min
+[正在测试启动项]
+包名:dvorak7min.linyaps
+Layer文件:dvorak7min.linyaps_1.6.1.4_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: dvorak7min.linyaps_1.6.1.4_x86_64_binary.layer
+offset: 572
+mountpoint: /tmp/tmp.exDQtfa8RV/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run dvorak7min.linyaps -- /opt/apps/dvorak7min.linyaps/files/entrypoint.sh dvorak7min
+[PID 5346] 进程已启动
+[PID 5346] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall dvorak7min.linyaps
