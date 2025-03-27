@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: kyodialog.linyaps
+  name: kyodialog
+  version: 9.4.0.0
+  kind: app
+  description: KYOCERA Printing Package
+command:
+- /opt/apps/kyodialog.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
