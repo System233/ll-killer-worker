@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.joyusing.w05.linyaps
+  name: com.joyusing.w05
+  version: 1.0.0.0
+  kind: app
+  description: JOYUSING w05..
+command:
+- /opt/apps/com.joyusing.w05.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
