@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.huagaochina.huagoscan.linyaps
+  name: com.huagaochina.huagoscan
+  version: 2.2.3.1
+  kind: app
+  description: Huagao scanner SANE driver and application.
+command:
+- /opt/apps/com.huagaochina.huagoscan.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
