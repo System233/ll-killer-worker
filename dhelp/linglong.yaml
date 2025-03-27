@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: dhelp.linyaps
+  name: dhelp
+  version: 0.6.30.0
+  kind: app
+  description: |-
+    online help system
+    Read all documentation with a WWW browser. dhelp builds an index of
+    all installed HTML documentation. You don't need a WWW server to read
+    the documentation. dhelp offers a very fast search in the HTML documents.
+
+    You can access the online help system with the dhelp program or with
+    your browser. The URL to point your browser at is (if you have a WWW
+    server installed) http://localhost/doc/HTML/index.html , else (if you
+    do not) file://localhost/usr/share/doc/HTML/index.html.
+command:
+- /opt/apps/dhelp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
