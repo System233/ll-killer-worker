@@ -12,19 +12,13 @@ Need to get 6469 kB of archives.
 After this operation, 10.2 kB of additional disk space will be used.
 Get:1 https://community-packages.deepin.com/beige beige/main amd64 deepin-app-store-runtime amd64 1.0.2+community [2316 B]
 Get:2 https://community-packages.deepin.com/driver-23 driver/non-free amd64 cn.hengbao.hbd7600-driver amd64 1.0.8 [6467 kB]
-Fetched 6469 kB in 2s (4058 kB/s)
+Fetched 6469 kB in 2s (3437 kB/s)
 Selecting previously unselected package deepin-app-store-runtime.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
 Preparing to unpack .../deepin-app-store-runtime_1.0.2+community_amd64.deb ...
 Unpacking deepin-app-store-runtime (1.0.2+community) ...
-tar: ./postinst: Cannot change ownership to uid 1000, gid 1000: Invalid argument
-tar: ./control: Cannot change ownership to uid 1000, gid 1000: Invalid argument
-tar: .: Cannot change ownership to uid 1000, gid 1000: Invalid argument
-tar: Exiting with failure status due to previous errors
-dpkg-deb: error: tar subprocess returned error exit status 2
-dpkg: error processing archive /var/cache/apt/archives/cn.hengbao.hbd7600-driver_1.0.8_amd64.deb (--unpack):
- dpkg-deb --control subprocess returned error exit status 2
-Errors were encountered while processing:
- /var/cache/apt/archives/cn.hengbao.hbd7600-driver_1.0.8_amd64.deb
-W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
-E: Sub-process /usr/bin/dpkg returned an error code (1)
+Selecting previously unselected package cn.hengbao.hbd7600-driver.
+Preparing to unpack .../cn.hengbao.hbd7600-driver_1.0.8_amd64.deb ...
+Unpacking cn.hengbao.hbd7600-driver (1.0.8) ...
+Setting up deepin-app-store-runtime (1.0.2+community) ...
+Setting up cn.hengbao.hbd7600-driver (1.0.8) ...
