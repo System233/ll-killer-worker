@@ -1,0 +1,34 @@
+name: Stats
+run-name: Stats
+permissions:
+  contents: write
+on:
+  workflow_dispatch:
+  schedule:
+      - cron: '0 0 * * *'
+jobs:
+  stats:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+      - name: Build Stats
+        run: |
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            ARCH=(amd64 arm64)
+            for arch in "${ARCH[@]}";do
+                WORK_DIR="build/$arch"
+                git -C "$WORK_DIR" pull origin $arch
+                node scripts/stats.mjs $arch >build/$arch/README.md
+                git -C "$WORK_DIR" add README.md
+                git -C "$WORK_DIR" commit -m "Update README.md"
+                for((i=0;i<10;++i));do
+                    if git -C "$WORK_DIR" pull origin $arch --rebase&&git -C "$WORK_DIR" push -u origin HEAD:$arch;then
+                        break
+                    fi
+                    sleep 1
+                done
+            done
