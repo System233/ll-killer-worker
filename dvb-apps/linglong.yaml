@@ -1,0 +1,45 @@
+version: "1"
+package:
+  id: dvb-apps.linyaps
+  name: dvb-apps
+  version: 1.1.1.1
+  kind: app
+  description: |-
+    Digital Video Broadcasting (DVB) applications
+    Applications and utilities geared towards the initial setup, testing
+    and operation of an DVB device supporting the DVB-S, DVB-C, DVB-T,
+    and ATSC standards.
+
+    Main User Applications:
+    . scan               - Scan for channels on your digital TV device
+    . dvbscan            - Another frequency scanning tool
+    . czap, szap, tzap   - Tuning utilities for DVB-C, DVB-S, DVB-T
+    . azap               - Tuning utility for ATSC
+    . gnutv              - Tune, watch and stream your TV
+
+    General Utilities:
+    . dvbdate    - Set your clock from digital TV
+    . dvbnet     - Control digital data network interfaces
+    . dvbtraffic - Monitor traffic on a digital device
+    . femon      - Monitor the tuning on a digital TV device
+    . zap        - *Just* tunes a digital device
+    . atsc_epg   - Display ATSC Electronic Program Guide (next programs)
+    . alevt      - Teletext browser
+
+    Hardware Specific Utilities:
+    . util/av7110_loadkeys    - Load remote keys into an av7110 based card
+    . util/dib3000-watch      - Monitor DIB3000 demodulators
+    . util/dst-utils          - Utilities for DST based cards
+    . util/ttusb_dec_reset    - Reset a TechnoTrends TTUSB DEC device
+
+    Libraries:
+    . lib/libdvbapi   - Interface library to digital TV devices
+    . lib/libdvbcfg   - Library to parse/create digital TV channel
+    . lib/libdvbsec   - Library for Satellite Equipment Control operations
+    . lib/libucsi     - Fast MPEG2 Transport Stream SI table parsing library
+    . lib/libdvben50221- Implementation of a Cenelec EN 50221 CAM stack
+    . lib/libdvbmisc  - Miscellaneous utilities used by the other libraries
+command:
+- /opt/apps/dvb-apps.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
