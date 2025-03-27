@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: daisy-player.linyaps
+  name: daisy-player
+  version: 13.0.0.4
+  kind: app
+  description: |-
+    player for DAISY Digital Talking Books
+    Daisy-player is a command-line player for talking books based on the
+    Digital Accessible Information System protocol. It is comparable in
+    functionality, features, and ease of use with commercial players, and
+    has a simple user interface appropriate for Braille terminals.
+command:
+- /opt/apps/daisy-player.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
