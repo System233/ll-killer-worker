@@ -1,0 +1,53 @@
+正在测试: APPID=content-hub-testability.linyaps LAYER=content-hub-testability.linyaps_1.1.1.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install content-hub-testability.linyaps_1.1.1.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:content-hub-testability.linyaps
+Layer文件:content-hub-testability.linyaps_1.1.1.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: content-hub-testability.linyaps_1.1.1.1_x86_64_binary.layer
+offset: 620
+mountpoint: /tmp/tmp.QrlbP53y9S/mnt
+dbglevel: 0
+[成功] content-hub-test-exporter.desktop: content-hub-test-exporter -> /opt/apps/content-hub-testability.linyaps/files/share/icons/hicolor/512x512/apps/content-hub-test-exporter.png
+[成功] /opt/apps/content-hub-testability.linyaps/files/share/applications/content-hub-test-exporter.desktop: /opt/apps/content-hub-testability.linyaps/files/entrypoint.sh content-hub-test-exporter
+[成功] content-hub-test-importer.desktop: content-hub-test-importer -> /opt/apps/content-hub-testability.linyaps/files/share/icons/hicolor/512x512/apps/content-hub-test-importer.png
+[成功] /opt/apps/content-hub-testability.linyaps/files/share/applications/content-hub-test-importer.desktop: /opt/apps/content-hub-testability.linyaps/files/entrypoint.sh content-hub-test-importer
+[成功] content-hub-test-sharer.desktop: content-hub-test-sharer -> /opt/apps/content-hub-testability.linyaps/files/share/icons/hicolor/512x512/apps/content-hub-test-sharer.png
+[成功] /opt/apps/content-hub-testability.linyaps/files/share/applications/content-hub-test-sharer.desktop: /opt/apps/content-hub-testability.linyaps/files/entrypoint.sh content-hub-test-sharer
+[正在测试启动项]
+包名:content-hub-testability.linyaps
+Layer文件:content-hub-testability.linyaps_1.1.1.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: content-hub-testability.linyaps_1.1.1.1_x86_64_binary.layer
+offset: 620
+mountpoint: /tmp/tmp.WeeP16dHUw/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run content-hub-testability.linyaps -- /opt/apps/content-hub-testability.linyaps/files/entrypoint.sh content-hub-test-exporter
+[PID 17054] 进程已启动
+[PID 17054] 正在截图 0秒: tests/screen0-0.jpg
+[PID 17054] 正在截图 1秒: tests/screen0-1.jpg
+[PID 17054] 正在截图 3秒: tests/screen0-3.jpg
+[PID 17054] 正在截图 5秒: tests/screen0-5.jpg
+[PID 17054] 正在通知并等待进程退出
+[PID 17054] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run content-hub-testability.linyaps -- /opt/apps/content-hub-testability.linyaps/files/entrypoint.sh content-hub-test-importer
+[PID 17513] 进程已启动
+[PID 17513] 正在截图 0秒: tests/screen1-0.jpg
+[PID 17513] 正在截图 1秒: tests/screen1-1.jpg
+[PID 17513] 正在截图 3秒: tests/screen1-3.jpg
+[PID 17513] 正在截图 5秒: tests/screen1-5.jpg
+[PID 17513] 正在通知并等待进程退出
+[PID 17513] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run content-hub-testability.linyaps -- /opt/apps/content-hub-testability.linyaps/files/entrypoint.sh content-hub-test-sharer
+[PID 17970] 进程已启动
+[PID 17970] 正在截图 0秒: tests/screen2-0.jpg
+[PID 17970] 正在截图 1秒: tests/screen2-1.jpg
+[PID 17970] 正在截图 3秒: tests/screen2-3.jpg
+[PID 17970] 正在截图 5秒: tests/screen2-5.jpg
+[PID 17970] 正在通知并等待进程退出
+[PID 17970] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall content-hub-testability.linyaps

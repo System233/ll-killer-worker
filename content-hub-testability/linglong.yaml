@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: content-hub-testability.linyaps
+  name: content-hub-testability
+  version: 1.1.1.1
+  kind: app
+  description: |-
+    content sharing testability
+    Content sharing/picking infrastructure and service, designed to allow apps to
+    securely and efficiently exchange content.
+
+    Files and utilities needed for automated testing of content-hub
+command:
+- /opt/apps/content-hub-testability.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
