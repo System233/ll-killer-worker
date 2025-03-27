@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: hotspot.linyaps
+  name: hotspot
+  version: 1.3.0.2
+  kind: app
+  description: |-
+    GUI tool for performance analysis
+    hotspot project is a KDAB R&D effort to create a
+    standalone GUI tool for performance data. This tool
+    now only support perf output data. But is intended to
+    support various other performance data formats in the
+    future.
+command:
+- /opt/apps/hotspot.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
