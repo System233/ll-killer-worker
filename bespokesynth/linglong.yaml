@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: bespokesynth.linyaps
+  name: bespokesynth
+  version: 1.2.1.4
+  kind: app
+  description: |-
+    software modular synthesizer
+    Bespoke is a software modular synthesizer. It contains an array of modules,
+    which one can connect together to create sounds. Bespoke is like a digital
+    audio workstation in some ways, but with less of a focus on a global timeline.
+    Instead, it has a design more optimized for jamming and exploration.
+command:
+- /opt/apps/bespokesynth.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
