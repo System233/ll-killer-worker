@@ -1,0 +1,31 @@
+version: "1"
+package:
+  id: atomes.linyaps
+  name: atomes
+  version: 1.1.12.2
+  kind: app
+  description: |-
+    atomic-scale 3D modeling toolbox
+    Atomes is a tool box to analyze (physico-chemical properties calculations),
+    visualize (atoms, bonds, colormaps, measurements, coordination polyedra ...)
+    create (crystal builder, molecular library, surface creation and
+    passivation ...) 3D atomistic models.
+    Atomes offers a workspace capable of handling many projects opened
+    simultaneously.
+    The different projects in the workspace can exchange data: analysis results,
+    atomic coordinates...
+    Atomes also provides an advanced input preparation system for further
+    calculations using well known molecular dynamics codes:
+    Classical MD: DLPOLY and LAMMPS
+    - ab-initio MD: CPMD and CP2K
+    - QM-MM MD: CPMD and CP2K
+    To prepare the input files for these calculations is likely to be the key, and
+    most complicated step towards MD simulations.
+    Atomes offers a user-friendly assistant to help and guide the scientist step
+    by step to achieve this crucial step.
+
+    This package provides the binaries.
+command:
+- /opt/apps/atomes.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
