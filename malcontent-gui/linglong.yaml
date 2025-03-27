@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: malcontent-gui.linyaps
+  name: malcontent-gui
+  version: 0.11.1.3
+  kind: app
+  description: |-
+    GUI to configure malcontent
+    malcontent implements support for restricting the type of content accessible
+    to non-administrator accounts on a Linux system. Typically, when this is used,
+    a non-administrator account will be for a child using the system; and the
+    administrator accounts will be for the parents; and the content being filtered
+    will be apps which are not suitable for the child to use, due to (for example)
+    being too violent.
+
+    This is not a security boundary, and a sufficiently technically advanced user
+    may always work around these parental controls. malcontent is not a mandatory
+    access control (MAC) system like AppArmor or SELinux. However, its correct use
+    by applications should provide enough of an obstacle to prevent users easily or
+    accidentally having access to content which they shouldn’t.
+
+    This package contains the GUI to configure malcontent.
+command:
+- /opt/apps/malcontent-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
