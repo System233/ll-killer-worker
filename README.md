@@ -1,11 +1,11 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|490|261 |229 | 53.27%| 8.42%|
+|3099|490|262 |228 | 53.47%| 8.45%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|341|226 |115 | 66.28%| 8.19%|
+|ubuntu-noble|2759|341|227 |114 | 66.57%| 8.23%|
 |deepin-v23|340|149|35 |114 | 23.49%| 10.29%|
 ## 详细结果
 | 包名   | 架构 |仓库| 版本    | 测试结果 | SHA256SUM |
@@ -22,7 +22,7 @@
 | [abe](./abe) | arm64  | ubuntu-noble | 1.1+dfsg-5 | ![screen0-5.jpg](./abe/tests/screen0-5.jpg) | [SHA256SUM](./abe/SHA256SUMS) |
 | [abiword](./abiword) | arm64  | ubuntu-noble | 3.0.5~dfsg-3.2build4 | ![screen0-5.jpg](./abiword/tests/screen0-5.jpg) | [SHA256SUM](./abiword/SHA256SUMS) |
 | [accerciser](./accerciser) | arm64  | ubuntu-noble | 3.42.0-1ubuntu0.1-41e1047 | 失败 | N/A |
-| [accountwizard](./accountwizard) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3-44b4f74 | 失败 | N/A |
+| [accountwizard](./accountwizard) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3-41e1047 | 失败 | N/A |
 | [ace-of-penguins](./ace-of-penguins) | arm64  | ubuntu-noble | 1.5~rc2-5ubuntu4 | ![screen0-5.jpg](./ace-of-penguins/tests/screen0-5.jpg) ![screen1-5.jpg](./ace-of-penguins/tests/screen1-5.jpg) ![screen2-5.jpg](./ace-of-penguins/tests/screen2-5.jpg) ![screen3-5.jpg](./ace-of-penguins/tests/screen3-5.jpg) ![screen4-5.jpg](./ace-of-penguins/tests/screen4-5.jpg) ![screen5-5.jpg](./ace-of-penguins/tests/screen5-5.jpg) ![screen6-5.jpg](./ace-of-penguins/tests/screen6-5.jpg) ![screen7-5.jpg](./ace-of-penguins/tests/screen7-5.jpg) ![screen8-5.jpg](./ace-of-penguins/tests/screen8-5.jpg) ![screen9-5.jpg](./ace-of-penguins/tests/screen9-5.jpg) ![screen10-5.jpg](./ace-of-penguins/tests/screen10-5.jpg) ![screen11-5.jpg](./ace-of-penguins/tests/screen11-5.jpg) | [SHA256SUM](./ace-of-penguins/SHA256SUMS) |
 | [acetoneiso](./acetoneiso) | arm64  | ubuntu-noble | 2.4-4build2 | ![screen0-5.jpg](./acetoneiso/tests/screen0-5.jpg) | [SHA256SUM](./acetoneiso/SHA256SUMS) |
 | [achilles](./achilles) | arm64  | ubuntu-noble | 2-12build2 | ![screen0-5.jpg](./achilles/tests/screen0-5.jpg) | [SHA256SUM](./achilles/SHA256SUMS) |
@@ -54,7 +54,7 @@
 | [aladin](./aladin) | arm64  | ubuntu-noble | 12.060+dfsg-3 | ![screen0-5.jpg](./aladin/tests/screen0-5.jpg) | N/A |
 | [alarm-clock-applet](./alarm-clock-applet) | arm64  | ubuntu-noble | 0.4.1-5build2 | ![screen0-5.jpg](./alarm-clock-applet/tests/screen0-5.jpg) | [SHA256SUM](./alarm-clock-applet/SHA256SUMS) |
 | [alex4](./alex4) | arm64  | ubuntu-noble | 1.1-10ubuntu4 | 失败 | [SHA256SUM](./alex4/SHA256SUMS) |
-| [algobox](./algobox) | arm64  | ubuntu-noble | 1.1.1+dfsg-1build2-07be3ef | 失败 | N/A |
+| [algobox](./algobox) | arm64  | ubuntu-noble | 1.1.1+dfsg-1build2 | ![screen0-5.jpg](./algobox/tests/screen0-5.jpg) | N/A |
 | [alien-arena](./alien-arena) | arm64  | ubuntu-noble | 7.71.3+dfsg-3ubuntu1 | 失败 | [SHA256SUM](./alien-arena/SHA256SUMS) |
 | [alienblaster](./alienblaster) | arm64  | ubuntu-noble | 1.1.0-11 | ![screen0-5.jpg](./alienblaster/tests/screen0-5.jpg) | [SHA256SUM](./alienblaster/SHA256SUMS) |
 | [aliki](./aliki) | arm64  | ubuntu-noble | 0.3.0-6build2 | ![screen0-5.jpg](./aliki/tests/screen0-5.jpg) ![screen1-5.jpg](./aliki/tests/screen1-5.jpg) | [SHA256SUM](./aliki/SHA256SUMS) |
