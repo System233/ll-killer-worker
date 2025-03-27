@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: com.pantum.pantum-235-325-2165.linyaps
+  name: com.pantum.pantum-235-325-2165
+  version: 1.0.0.1
+  kind: app
+  description: |-
+    CUPS and SANE drivers for Pantum series printer and scanner.
+    No Extended Description.
+command:
+- /opt/apps/com.pantum.pantum-235-325-2165.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
