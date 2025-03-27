@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: dgedit.linyaps
+  name: dgedit
+  version: 0.10.0.2
+  kind: app
+  description: |-
+    drum kit editor for DrumGizmo
+    DGEdit allows one to create drum kits for use in DrumGizmo from recordings of
+    individual instruments (snare, kickdrum, toms, crashes, and so on). It
+    supports the entire process of taking a group of WAV files and converting them
+    into working instruments with hit energy levels.
+command:
+- /opt/apps/dgedit.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
