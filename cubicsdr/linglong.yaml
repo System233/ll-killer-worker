@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: cubicsdr.linyaps
+  name: cubicsdr
+  version: 0.2.7.2
+  kind: app
+  description: |-
+    Software Defined Radio receiver
+    CubicSDR is a cross-platform Software-Defined Radio application which allows
+    you to navigate the radio spectrum and demodulate any signals you might
+    discover. It currently includes several common analog demodulation schemes such
+    as AM and FM and will support digital modes in the future.
+
+    CubicSDR uses SoapySDR to access SDR hardware and thereby supports all hardware
+    for which a SoapySDR module exists.
+command:
+- /opt/apps/cubicsdr.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
