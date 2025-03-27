@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: darkradiant.linyaps
+  name: darkradiant
+  version: 3.8.0.2
+  kind: app
+  description: |-
+    Level design toolchain for DOOM3 and The Dark Mod
+    DarkRadiant is a 3D map and level editor for games based on the idtech4
+    engines. The software is based on GtkRadiant and focuses on the games DOOM3 and
+    The Dark Mod. Other games based on the same engine, like Quake 4, might be
+    editable too, but are not explicitly supported.
+
+    Darkradiant can also be used to create free contents for the GPL'ed version of
+    the DOOM3 engine.
+command:
+- /opt/apps/darkradiant.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
