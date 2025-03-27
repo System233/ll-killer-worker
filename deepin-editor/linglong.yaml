@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: deepin-editor.linyaps
+  name: deepin-editor
+  version: 6.5.7.0
+  kind: app
+  description: |-
+    Text editor for DDE (Deepin Desktop Environment)
+    Advanced text editor based on dtk.
+
+    This package is part of DDE (Deepin Desktop Environment).
+command:
+- /opt/apps/deepin-editor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

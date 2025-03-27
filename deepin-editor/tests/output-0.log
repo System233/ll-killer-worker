@@ -1,0 +1,28 @@
+包名:deepin-editor.linyaps
+Layer文件:deepin-editor.linyaps_6.5.7.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: deepin-editor.linyaps_6.5.7.0_arm64_binary.layer
+offset: 516
+mountpoint: /tmp/tmp.nfjVKwZeqj/mnt
+dbglevel: 0
+[PerformanceMonitor] "2025-03-27T19:04:35.413" start to initialize app
+"dtkwidget" can not find qm files ("dtkwidget_C.qm", "dtkwidget_C.qm")
+"qt" can not find qm files ("qt_C.qm", "qt_C.qm")
+"qtbase" can not find qm files ("qtbase_C.qm", "qtbase_C.qm")
+"deepin-editor" can not find qm files ("deepin-editor_C.qm", "deepin-editor_C.qm")
+dtk.core.dsg: Can't getId from AM for the  36 , because AM is unavailable.
+2025-03-27, 19:04:36.349 [[32mInfo[0m] [main.cpp             main                                59] App start, pid: 36, version: 6.5.7
+2025-03-27, 19:04:36.583 [[36mDebug[0m] [  ] create config "/home/runner/.config/deepin/deepin-editor/config.conf"
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+2025-03-27, 19:04:40.186 [[33mWarning[0m] [  ] Failed to create atom with name _GTK_FRAME_EXTENTS
+2025-03-27, 19:04:40.186 [[33mWarning[0m] [  ] Failed to create atom with name _GTK_FRAME_EXTENTS
+2025-03-27, 19:04:40.186 [[33mWarning[0m] [  ] Failed to create atom with name _GTK_FRAME_EXTENTS
+2025-03-27, 19:04:40.236 [[33mWarning[0m] [  ] Failed to create atom with name _GTK_FRAME_EXTENTS
+2025-03-27, 19:04:40.326 [[36mDebug[0m] [performancemonitor.cpp PerformanceMonitor::initializAppFinish 37] [PerformanceMonitor] "2025-03-27T19:04:40.326"  finish to initialize app
+2025-03-27, 19:04:40.326 [[32mInfo[0m] [performancemonitor.cpp PerformanceMonitor::initializAppFinish 43] [GRABPOINT] POINT-01 startduration=4920ms #(Init app time)
+2025-03-27, 19:04:40.327 [[36mDebug[0m] [window.cpp           Window::setWindowTitleInfo          1641] setWindowTitleInfo -- ""
+2025-03-27, 19:04:40.335 [[33mWarning[0m] [  ] QXcbConnection: XCB error: 5 (BadAtom), sequence: 348, resource id: 0, major code: 20 (GetProperty), minor code: 0
+2025-03-27, 19:04:40.354 [[33mWarning[0m] [utils.cpp            Utils::getSystemLan                 869] getSystemLan is "C"
