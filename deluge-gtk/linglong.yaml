@@ -2,22 +2,15 @@ version: "1"
 package:
   id: deluge-gtk.linyaps
   name: deluge-gtk
-  version: 2.0.3.3
+  version: 2.1.2.1
   kind: app
   description: |-
-    bittorrent client written in Python/PyGTK (GTK+ ui)
-    Deluge is a full-featured, multi-platform, multi-interface BitTorrent client
-    using libtorrent-rasterbar in it's backend and featuring multiple
-    user-interfaces: GTK+, web and console.
+    multi-interface BitTorrent client (graphical UI)
+    Deluge is a BitTorrent client written in Python. It uses a client-server
+    model supporting multiple user-interfaces that can connect to a
+    (headless) deluged running on a server.
 
-    It has been designed using the client-server model with a daemon process that
-    handles all the bittorrent activity. The Deluge daemon is able to run on
-    headless machines with the user-interfaces being able to connect remotely
-    from any platform.
-
-    You may want to install this package to use the Deluge GTK+ user-interface
-    as a thin client and connect to a remote daemon.
-    See: <URL:http://dev.deluge-torrent.org/wiki/UserGuide/ThinClient>
+    This package contains the graphical user-interface (GTK).
 command:
 - /opt/apps/deluge-gtk.linyaps/files/entrypoint.sh
 base: org.deepin.base/23.1.0
