@@ -1,0 +1,60 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  dtv-scan-tables libpng16-16t64 libzvbi-common libzvbi0t64
+The following packages will be REMOVED:
+  libpng16-16 libzvbi0
+The following NEW packages will be installed:
+  dtv-scan-tables dvb-apps libpng16-16t64 libzvbi0t64
+The following packages will be upgraded:
+  libzvbi-common
+1 upgraded, 4 newly installed, 2 to remove and 451 not upgraded.
+Need to get 2089 kB of archives.
+After this operation, 18.9 MB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libzvbi0t64 amd64 0.2.42-2 [261 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpng16-16t64 amd64 1.6.43-5build1 [187 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libzvbi-common all 0.2.42-2 [42.4 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 dtv-scan-tables all 0+git20190925.6d01903-0.1 [460 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 dvb-apps amd64 1.1.1+rev1500-1.4build3 [1139 kB]
+Fetched 2089 kB in 0s (15.1 MB/s)
+dpkg: libzvbi0:amd64: dependency problems, but removing anyway as you requested:
+ libavcodec60:amd64 depends on libzvbi0 (>= 0.2.35).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing libzvbi0:amd64 (0.2.35-18) ...
+Selecting previously unselected package libzvbi0t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27582 files and directories currently installed.)
+Preparing to unpack .../libzvbi0t64_0.2.42-2_amd64.deb ...
+Unpacking libzvbi0t64:amd64 (0.2.42-2) ...
+dpkg: libpng16-16:amd64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:amd64 depends on libpng16-16 (>= 1.6.2).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing libpng16-16:amd64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27583 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_amd64.deb ...
+Unpacking libpng16-16t64:amd64 (1.6.43-5build1) ...
+Preparing to unpack .../libzvbi-common_0.2.42-2_all.deb ...
+Unpacking libzvbi-common (0.2.42-2) over (0.2.35-18) ...
+Selecting previously unselected package dtv-scan-tables.
+Preparing to unpack .../dtv-scan-tables_0+git20190925.6d01903-0.1_all.deb ...
+Unpacking dtv-scan-tables (0+git20190925.6d01903-0.1) ...
+Selecting previously unselected package dvb-apps.
+Preparing to unpack .../dvb-apps_1.1.1+rev1500-1.4build3_amd64.deb ...
+Unpacking dvb-apps (1.1.1+rev1500-1.4build3) ...
+Setting up libpng16-16t64:amd64 (1.6.43-5build1) ...
+Setting up dtv-scan-tables (0+git20190925.6d01903-0.1) ...
+Setting up libzvbi-common (0.2.42-2) ...
+Setting up libzvbi0t64:amd64 (0.2.42-2) ...
+Setting up dvb-apps (1.1.1+rev1500-1.4build3) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
