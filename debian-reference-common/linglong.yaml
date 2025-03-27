@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: debian-reference-common.linyaps
+  name: debian-reference-common
+  version: 2.122.0.0
+  kind: app
+  description: |-
+    Debian system administration guide, common files
+    This Debian Reference is intended to provide a broad overview of the Debian
+    system as a post-installation user's guide. It covers many aspects of system
+    administration through shell-command examples for non-developers.
+
+    This only provides menu functionality and other common files.
+command:
+- /opt/apps/debian-reference-common.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
