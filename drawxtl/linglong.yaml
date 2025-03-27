@@ -1,0 +1,30 @@
+version: "1"
+package:
+  id: drawxtl.linyaps
+  name: drawxtl
+  version: 5.5.0.6
+  kind: app
+  description: |-
+    crystal structure viewer
+    DRAWxtl reads a basic description of the crystal structure, which includes
+    unit-cell parameters, space group, atomic coordinates, thermal parameters or
+    a Fourier map, and outputs a geometry object that contains polyhedra, planes,
+    lone-pair cones, spheres or ellipsoids, bonds, iso-surface Fourier contours
+    and the unit-cell boundary.
+
+    Four forms of graphics are produced:
+
+    * an OpenGL window for immediate viewing
+    * the Persistence of Vision Ray Tracer (POV-RAY) scene language for
+    publication-quality drawings
+    * the Virtual Reality Modeling Language (VRML) for dissemination
+    across the Internet
+    * a Postscript rendering of the OpenGL window for those who want
+    high-quality output but do not have POV-RAY installed.
+
+    File formats DRAWxtl can read include CIF, FDAT, FullProf (pcr), GSAS, SCHAKAL,
+    SHELX, DISCUS and WIEN2k.
+command:
+- /opt/apps/drawxtl.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
