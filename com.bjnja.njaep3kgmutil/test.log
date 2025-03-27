@@ -1,0 +1,28 @@
+正在测试: APPID=com.bjnja.njaep3kgmutil.linyaps LAYER=com.bjnja.njaep3kgmutil.linyaps_1.0.2.0_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install com.bjnja.njaep3kgmutil.linyaps_1.0.2.0_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:com.bjnja.njaep3kgmutil.linyaps
+Layer文件:com.bjnja.njaep3kgmutil.linyaps_1.0.2.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: com.bjnja.njaep3kgmutil.linyaps_1.0.2.0_arm64_binary.layer
+offset: 420
+mountpoint: /tmp/tmp.KYo6OOP45i/mnt
+dbglevel: 0
+[成功] com.bjnja.njaep3kgmutil.desktop: com.bjnja.njaep3kgmutil.linyaps-logo -> /opt/apps/com.bjnja.njaep3kgmutil.linyaps/files/share/icons/hicolor/16x16/apps/com.bjnja.njaep3kgmutil.linyaps-logo.png
+[成功] /opt/apps/com.bjnja.njaep3kgmutil.linyaps/files/share/applications/com.bjnja.njaep3kgmutil.desktop: /opt/apps/com.bjnja.njaep3kgmutil.linyaps/files/entrypoint.sh /opt/apps/com.bjnja.njaep3kgmutil/files/bin/openmfagateway
+[正在测试启动项]
+包名:com.bjnja.njaep3kgmutil.linyaps
+Layer文件:com.bjnja.njaep3kgmutil.linyaps_1.0.2.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: com.bjnja.njaep3kgmutil.linyaps_1.0.2.0_arm64_binary.layer
+offset: 420
+mountpoint: /tmp/tmp.tBIe4aPK3J/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run com.bjnja.njaep3kgmutil.linyaps -- /opt/apps/com.bjnja.njaep3kgmutil.linyaps/files/entrypoint.sh /opt/apps/com.bjnja.njaep3kgmutil/files/bin/openmfagateway
+[PID 5424] 进程已启动
+[PID 5424] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall com.bjnja.njaep3kgmutil.linyaps
