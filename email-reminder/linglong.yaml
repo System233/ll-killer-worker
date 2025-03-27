@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: email-reminder.linyaps
+  name: email-reminder
+  version: 0.8.3.1
+  kind: app
+  description: |-
+    Send event reminders by email
+    Email-reminder allows users to define events that they want to be reminded of
+    by email.  Possible events include birthdays, anniversaries and yearly events.
+    Reminders can be sent on the day of the event and/or a few days beforehand.
+
+    This package includes the cron job that checks for events and send reminders
+    once a daily.
+
+    Make sure you install the anacron package if your computer is turned off at
+    night or the reminders will never get sent.
+command:
+- /opt/apps/email-reminder.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
