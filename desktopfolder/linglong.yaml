@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: desktopfolder.linyaps
+  name: desktopfolder
+  version: 1.1.3.3
+  kind: app
+  description: |-
+    Organize your desktop with panels, notes and photos
+    Bring your desktop back to life
+    Organize your desktop with panels that hold your things.
+
+    DesktopFolder overlays a hidden desktop overlay allowing
+    desktop icons, file shortcuts, folders, photographs, notes
+    and panels to be arranged in a freeform or grid format.
+    Each desktop component has a number of attributes that
+    can be customized - colors and size.
+
+    DesktopFolder has been developed for GNOME based desktops such as
+    GNOME-Shell and Budgie Desktop.
+command:
+- /opt/apps/desktopfolder.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
