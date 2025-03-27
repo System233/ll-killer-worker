@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kblackbox.linyaps
+  name: kblackbox
+  version: 21.8.0.1
+  kind: app
+  description: |-
+    Black Box puzzle game
+    KBlackBox is a game of hide and seek played on an grid of boxes, where the
+    player shoots rays into the grid to deduce the positions of hidden objects.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/kblackbox.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
