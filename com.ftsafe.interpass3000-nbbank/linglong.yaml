@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.ftsafe.interpass3000-nbbank.linyaps
+  name: com.ftsafe.interpass3000-nbbank
+  version: 1.0.9.0
+  kind: app
+  description: InterPass3000-nbbank for ftsafe
+command:
+- /opt/apps/com.ftsafe.interpass3000-nbbank.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
