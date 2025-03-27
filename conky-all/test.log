@@ -1,0 +1,28 @@
+正在测试: APPID=conky-all.linyaps LAYER=conky-all.linyaps_1.21.1.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install conky-all.linyaps_1.21.1.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:conky-all.linyaps
+Layer文件:conky-all.linyaps_1.21.1.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: conky-all.linyaps_1.21.1.1_arm64_binary.layer
+offset: 982
+mountpoint: /tmp/tmp.DwZWl2eRfK/mnt
+dbglevel: 0
+[成功] conky.desktop: conky-logomark-violet -> /opt/apps/conky-all.linyaps/files/share/icons/hicolor/scalable/apps/conky-logomark-violet.svg
+[成功] /opt/apps/conky-all.linyaps/files/share/applications/conky.desktop: /opt/apps/conky-all.linyaps/files/entrypoint.sh conky --daemonize --pause=1
+[正在测试启动项]
+包名:conky-all.linyaps
+Layer文件:conky-all.linyaps_1.21.1.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: conky-all.linyaps_1.21.1.1_arm64_binary.layer
+offset: 982
+mountpoint: /tmp/tmp.DEjGNf0GBQ/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run conky-all.linyaps -- /opt/apps/conky-all.linyaps/files/entrypoint.sh conky --daemonize --pause=1
+[PID 5783] 进程已启动
+[PID 5783] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall conky-all.linyaps
