@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: dangen.linyaps
+  name: dangen
+  version: 0.5.0.7
+  kind: app
+  description: |-
+    shoot 'em up game where accurate shooting matters
+    dangen is a shoot 'em up game that attach importance to accuracy of shooting.
+    With the combination of the cursor key and the shot button, you can shoot
+    at your side or even at your back.  Get the bonus point by hitting the
+    enemy without a miss.  You can choose stages of different difficulty.
+command:
+- /opt/apps/dangen.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
