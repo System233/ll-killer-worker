@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: ibus-pinyin.linyaps
+  name: ibus-pinyin
+  version: 1.5.0.11
+  kind: app
+  description: |-
+    Pinyin engine for IBus
+    ibus-pinyin is a IBus based IM engine for Chinese.
+
+    For more information on pinyin input method, please check
+    http://en.wikipedia.org/wiki/Pinyin_method
+
+    This package contains pinyin input method.
+
+    This pinyin input method is deprecated; new users should
+    switch to ibus-libpinyin, which is a contemporary implementation
+    of pinyin input method.
+command:
+- /opt/apps/ibus-pinyin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
