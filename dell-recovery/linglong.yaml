@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: dell-recovery.linyaps
+  name: dell-recovery
+  version: 1.66.0.0
+  kind: app
+  description: |-
+    Dell Recovery Media Creation Package
+    This package is used to produce a Dell recovery media image.
+    It then uses known open source tools to write the image to
+    a USB flash drive or DVD writer.
+command:
+- /opt/apps/dell-recovery.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
