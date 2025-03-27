@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: acetoneiso.linyaps
+  name: acetoneiso
+  version: 2.4.0.4
+  kind: app
+  description: |-
+    feature-rich application to mount and manage CD and DVD images
+    AcetoneISO makes it possible to easily use various kinds of CD and
+    DVD images on your computer as if they were burned to real CDs. You can use
+    the application to mount and manage CD and DVD images. Supported disc-image
+    formats are ISO, BIN, NRG, MDF and IMG.
+command:
+- /opt/apps/acetoneiso.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
