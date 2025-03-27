@@ -1,0 +1,29 @@
+包名:deepin-movie.linyaps
+Layer文件:deepin-movie.linyaps_6.0.10.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: deepin-movie.linyaps_6.0.10.0_arm64_binary.layer
+offset: 493
+mountpoint: /tmp/tmp.VBtSNRCukG/mnt
+dbglevel: 0
+curreng load mpv is : "/usr/lib/aarch64-linux-gnu/libmpv.so.2.3.0"
+Error creating discoverer instance:  Couldn't create 'uridecodebin' element
+
+(deepin-movie:37): GLib-GObject-[1;35mCRITICAL[0m **: [34m19:06:44.992[0m: invalid (NULL) pointer instance
+
+(deepin-movie:37): GLib-GObject-[1;35mCRITICAL[0m **: [34m19:06:44.999[0m: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(deepin-movie:37): GLib-GObject-[1;35mCRITICAL[0m **: [34m19:06:44.999[0m: invalid (NULL) pointer instance
+
+(deepin-movie:37): GLib-GObject-[1;35mCRITICAL[0m **: [34m19:06:44.999[0m: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(deepin-movie:37): GStreamer-PBUtils-[1;35mCRITICAL[0m **: [34m19:06:44.999[0m: gst_discoverer_start: assertion 'GST_IS_DISCOVERER (discoverer)' failed
+dtk.core.dsg: Can't getId from AM for the  37 , because AM is unavailable.
+log path:  "/home/runner/.cache/deepin/deepin-movie/deepin-movie.log"
+"dtkwidget" can not find qm files ("dtkwidget_C.qm", "dtkwidget_C.qm")
+"qt" can not find qm files ("qt_C.qm", "qt_C.qm")
+"qtbase" can not find qm files ("qtbase_C.qm", "qtbase_C.qm")
+"deepin-movie" can not find qm files ("deepin-movie_C.qm", "deepin-movie_C.qm")
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
