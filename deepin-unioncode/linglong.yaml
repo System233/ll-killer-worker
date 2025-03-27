@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-unioncode.linyaps
+  name: deepin-unioncode
+  version: 1.3.16.0
+  kind: app
+  description: |-
+    IDE 'Deepin Union Code'
+    Lightweight cross-platform integrated development environment
+command:
+- /opt/apps/deepin-unioncode.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
