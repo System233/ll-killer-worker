@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: dillo.linyaps
+  name: dillo
+  version: 3.0.5.7
+  kind: app
+  description: |-
+    Small and fast web browser
+    Dillo 3 is a graphical multi-platform web browser known for its speed
+    and small footprint. It is based on version 1.3 of the Fast and Light
+    Toolkit (FLTK) in version 1.3
+
+    It aims to be small in resources, stable, developer-friendly, usable,
+    very fast, and extensible.
+
+    To run the included dillo-install-hyphenation script the recommended
+    perl packages need to be installed.
+command:
+- /opt/apps/dillo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
