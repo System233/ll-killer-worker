@@ -1,0 +1,82 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  blobby-data libasound2-data libasound2t64 liblua5.3-0 libphysfs1
+  libsdl2-2.0-0 libtinyxml2-10 libxss1
+Suggested packages:
+  alsa-utils xdg-utils
+Recommended packages:
+  alsa-ucm-conf alsa-topology-conf
+The following packages will be REMOVED:
+  libasound2
+The following NEW packages will be installed:
+  blobby blobby-data libasound2t64 liblua5.3-0 libphysfs1 libsdl2-2.0-0
+  libtinyxml2-10 libxss1
+The following packages will be upgraded:
+  libasound2-data
+1 upgraded, 8 newly installed, 1 to remove and 451 not upgraded.
+Need to get 2702 kB of archives.
+After this operation, 4761 kB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libasound2-data all 1.2.11-1build2 [21.0 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libasound2t64 amd64 1.2.11-1build2 [399 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 liblua5.3-0 amd64 5.3.6-2build2 [143 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libphysfs1 amd64 3.0.2-6build2 [71.4 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxss1 amd64 1:1.2.3-1build3 [7204 B]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsdl2-2.0-0 amd64 2.30.0+dfsg-1build3 [685 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libtinyxml2-10 amd64 10.0.0+dfsg-2 [32.5 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 blobby-data all 1.1+ds-1ubuntu1 [1036 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 blobby amd64 1.1+ds-1ubuntu1 [307 kB]
+Fetched 2702 kB in 1s (3157 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libasound2-data_1.2.11-1build2_all.deb ...
+Unpacking libasound2-data (1.2.11-1build2) over (1.2.8-1) ...
+dpkg: libasound2:amd64: dependency problems, but removing anyway as you requested:
+ pulseaudio depends on libasound2 (>= 1.2.1.1).
+ pipewire-bin depends on libasound2 (>= 1.2.1.1).
+ libspa-0.2-modules:amd64 depends on libasound2 (>= 1.2.1.1).
+ libasound2-plugins:amd64 depends on libasound2 (>= 1.2.5).
+ bluez depends on libasound2 (>= 1.0.17).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing libasound2:amd64 (1.2.8-1) ...
+Selecting previously unselected package libasound2t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27587 files and directories currently installed.)
+Preparing to unpack .../0-libasound2t64_1.2.11-1build2_amd64.deb ...
+Unpacking libasound2t64:amd64 (1.2.11-1build2) ...
+Selecting previously unselected package liblua5.3-0:amd64.
+Preparing to unpack .../1-liblua5.3-0_5.3.6-2build2_amd64.deb ...
+Unpacking liblua5.3-0:amd64 (5.3.6-2build2) ...
+Selecting previously unselected package libphysfs1:amd64.
+Preparing to unpack .../2-libphysfs1_3.0.2-6build2_amd64.deb ...
+Unpacking libphysfs1:amd64 (3.0.2-6build2) ...
+Selecting previously unselected package libxss1:amd64.
+Preparing to unpack .../3-libxss1_1%3a1.2.3-1build3_amd64.deb ...
+Unpacking libxss1:amd64 (1:1.2.3-1build3) ...
+Selecting previously unselected package libsdl2-2.0-0:amd64.
+Preparing to unpack .../4-libsdl2-2.0-0_2.30.0+dfsg-1build3_amd64.deb ...
+Unpacking libsdl2-2.0-0:amd64 (2.30.0+dfsg-1build3) ...
+Selecting previously unselected package libtinyxml2-10:amd64.
+Preparing to unpack .../5-libtinyxml2-10_10.0.0+dfsg-2_amd64.deb ...
+Unpacking libtinyxml2-10:amd64 (10.0.0+dfsg-2) ...
+Selecting previously unselected package blobby-data.
+Preparing to unpack .../6-blobby-data_1.1+ds-1ubuntu1_all.deb ...
+Unpacking blobby-data (1.1+ds-1ubuntu1) ...
+Selecting previously unselected package blobby.
+Preparing to unpack .../7-blobby_1.1+ds-1ubuntu1_amd64.deb ...
+Unpacking blobby (1.1+ds-1ubuntu1) ...
+Setting up libphysfs1:amd64 (3.0.2-6build2) ...
+Setting up libtinyxml2-10:amd64 (10.0.0+dfsg-2) ...
+Setting up libasound2-data (1.2.11-1build2) ...
+Setting up libasound2t64:amd64 (1.2.11-1build2) ...
+Setting up liblua5.3-0:amd64 (5.3.6-2build2) ...
+Setting up libxss1:amd64 (1:1.2.3-1build3) ...
+Setting up blobby-data (1.1+ds-1ubuntu1) ...
+Setting up libsdl2-2.0-0:amd64 (2.30.0+dfsg-1build3) ...
+Setting up blobby (1.1+ds-1ubuntu1) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
