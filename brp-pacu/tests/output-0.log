@@ -1,0 +1,37 @@
+包名:brp-pacu.linyaps
+Layer文件:brp-pacu.linyaps_2.1.2.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: brp-pacu.linyaps_2.1.2.1_x86_64_binary.layer
+offset: 555
+mountpoint: /tmp/tmp.jUwohpk1s6/mnt
+dbglevel: 0
+BRP-PACU is starting
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+
+(BRP_PACU:36): dbind-[1;33mWARNING[0m **: [34m08:05:43.698[0m: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+exec of JACK server (command = "/usr/bin/jackd") failed: No such file or directory
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+jack_client_open() failed, status = 0x11
+Unable to connect to JACK server
+////////
+ BRP-PACU failed to start because jackd failed to initialize.
+Jack: "Unable to connect to JACK server"
+Please check your jackd sound card settings.  QjackCtl (JackPilot with a mac) is an easy way to do this
+////////

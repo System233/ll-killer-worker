@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: brp-pacu.linyaps
+  name: brp-pacu
+  version: 2.1.2.1
+  kind: app
+  description: |-
+    audio analysis tool
+    Brp-pacu compares the output of the system to the input of the system
+    and allows you to use this data to perform final equalization by matching
+    the results with actual DSP/EQ.
+command:
+- /opt/apps/brp-pacu.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
