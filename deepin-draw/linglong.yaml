@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-draw.linyaps
+  name: deepin-draw
+  version: 7.0.4.0
+  kind: app
+  description: |-
+    Draw for UOS
+    Draw is a lightweight drawing tool for users to freely draw and simply edit images.
+command:
+- /opt/apps/deepin-draw.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
