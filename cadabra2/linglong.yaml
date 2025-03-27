@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: cadabra2.linyaps
+  name: cadabra2
+  version: 2.4.5.0
+  kind: app
+  description: |-
+    field-theory motivated computer algebra system
+    This is a computer algebra system designed specifically for the
+    solution of problems encountered in field theory. It has extensive
+    functionality for tensor polynomial simplification including
+    multi-term symmetries, fermions and anti-commuting variables,
+    Clifford algebras and Fierz transformations, implicit coordinate
+    dependence, multiple index types and many more. The input format is
+    a subset of TeX.
+command:
+- /opt/apps/cadabra2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
