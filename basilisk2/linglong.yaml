@@ -1,0 +1,34 @@
+version: "1"
+package:
+  id: basilisk2.linyaps
+  name: basilisk2
+  version: 0.9.20240401.1
+  kind: app
+  description: |-
+    68k Macintosh emulator
+    Basilisk II is an Open Source 68k Macintosh emulator. That is, it enables
+    you to run 68k MacOS software on you computer, even if you are using a
+    different operating system. However, you still need a copy of MacOS and
+    a Macintosh ROM image to use Basilisk II.
+
+    Some features of Basilisk II:
+    - Emulates either a Mac Classic (which runs MacOS 0.x thru 7.5)
+    or a Mac II series machine (which runs MacOS 7.x, 8.0 and 8.1),
+    depending on the ROM being used
+    - Color video display
+    - CD quality sound output
+    - Floppy disk driver (only 1.44MB disks supported)
+    - Driver for HFS partitions and hardfiles
+    - CD-ROM driver with basic audio functions
+    - Easy file exchange with the host OS via a "Host Directory Tree" icon
+    on the Mac desktop
+    - Ethernet driver
+    - Serial drivers
+    - SCSI Manager (old-style) emulation
+    - Emulates extended ADB keyboard and 3-button mouse
+    - Uses UAE 68k emulation or (under AmigaOS and NetBSD/m68k) real 68k
+    processor
+command:
+- /opt/apps/basilisk2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
