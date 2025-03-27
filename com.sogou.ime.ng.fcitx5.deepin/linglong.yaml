@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.sogou.ime.ng.fcitx5.deepin.linyaps
+  name: com.sogou.ime.ng.fcitx5.deepin
+  version: 10.0.9.981
+  kind: app
+  description: package com.sogou.ime.ng.fcitx5.uos.
+command:
+- /opt/apps/com.sogou.ime.ng.fcitx5.deepin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
