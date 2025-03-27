@@ -1,0 +1,38 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libsecret-1-0 libsecret-common libxss1
+The following NEW packages will be installed:
+  com.utel.uboxweb libsecret-1-0 libsecret-common libxss1
+0 upgraded, 4 newly installed, 0 to remove and 236 not upgraded.
+Need to get 11.8 MB of archives.
+After this operation, 14.0 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main amd64 libsecret-common all 0.21.4-1 [26.9 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main amd64 libsecret-1-0 amd64 0.21.4-1 [110 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main amd64 libxss1 amd64 1:1.2.3-1 [16.6 kB]
+Get:4 https://community-packages.deepin.com/driver-23 driver/non-free amd64 com.utel.uboxweb amd64 1.0.0.10 [11.6 MB]
+Fetched 11.8 MB in 2s (4739 kB/s)
+Selecting previously unselected package libsecret-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libsecret-common_0.21.4-1_all.deb ...
+Unpacking libsecret-common (0.21.4-1) ...
+Selecting previously unselected package libsecret-1-0:amd64.
+Preparing to unpack .../libsecret-1-0_0.21.4-1_amd64.deb ...
+Unpacking libsecret-1-0:amd64 (0.21.4-1) ...
+Selecting previously unselected package libxss1:amd64.
+Preparing to unpack .../libxss1_1%3a1.2.3-1_amd64.deb ...
+Unpacking libxss1:amd64 (1:1.2.3-1) ...
+Selecting previously unselected package com.utel.uboxweb.
+Preparing to unpack .../com.utel.uboxweb_1.0.0.10_amd64.deb ...
+Unpacking com.utel.uboxweb (1.0.0.10) ...
+dpkg: error processing archive /var/cache/apt/archives/com.utel.uboxweb_1.0.0.10_amd64.deb (--unpack):
+ error setting ownership of '/opt/apps/com.utel.uboxweb.dpkg-new': Invalid argument
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+logname: no login name
+Errors were encountered while processing:
+ /var/cache/apt/archives/com.utel.uboxweb_1.0.0.10_amd64.deb
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
+E: Sub-process /usr/bin/dpkg returned an error code (1)
