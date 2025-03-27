@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: cytadela.linyaps
+  name: cytadela
+  version: 1.1.0.4
+  kind: app
+  description: |-
+    old-school first person shooter game
+    Cytadela is a single player game in which the player fights against
+    computer-controlled (AI) enemies. The goal of the game is to find six
+    bomb parts with which the Citadel has to be blown up.
+
+    To achieve it, the player not only has to defend himself against the
+    enemies, but (s)he also has to solve many riddles, such as switching
+    appropriate buttons in order to open some door, move some walls, etc.
+
+    It's a conversion of a first person shooter Amiga game originally
+    released in mid 1990's, first in Poland and then in other countries.
+
+    Cytadela requires a 3D graphics card.  It uses the OpenGL and GLU
+    libraries for 3D, and SDL and SDL_mixer for 2D, music, sounds and
+    controllers.
+command:
+- /opt/apps/cytadela.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
