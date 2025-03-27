@@ -1,0 +1,28 @@
+正在测试: APPID=com.zebra.jaguardriver.linyaps LAYER=com.zebra.jaguardriver.linyaps_1.0.0.0_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install com.zebra.jaguardriver.linyaps_1.0.0.0_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:com.zebra.jaguardriver.linyaps
+Layer文件:com.zebra.jaguardriver.linyaps_1.0.0.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: com.zebra.jaguardriver.linyaps_1.0.0.0_arm64_binary.layer
+offset: 434
+mountpoint: /tmp/tmp.ONyAOkiIui/mnt
+dbglevel: 0
+[成功] ZebraZCSeries.desktop: com.zebra.jaguardriver.linyaps-Zebralogoblack -> /opt/apps/com.zebra.jaguardriver.linyaps/files/share/icons/hicolor/16x16/apps/com.zebra.jaguardriver.linyaps-Zebralogoblack.png
+[成功] /opt/apps/com.zebra.jaguardriver.linyaps/files/share/applications/ZebraZCSeries.desktop: /opt/apps/com.zebra.jaguardriver.linyaps/files/entrypoint.sh /opt/apps/com.zebra.jaguardriver/files/ZebraJaguarDriver/launch.sh
+[正在测试启动项]
+包名:com.zebra.jaguardriver.linyaps
+Layer文件:com.zebra.jaguardriver.linyaps_1.0.0.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: com.zebra.jaguardriver.linyaps_1.0.0.0_arm64_binary.layer
+offset: 434
+mountpoint: /tmp/tmp.9F5wSN81sN/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run com.zebra.jaguardriver.linyaps -- /opt/apps/com.zebra.jaguardriver.linyaps/files/entrypoint.sh /opt/apps/com.zebra.jaguardriver/files/ZebraJaguarDriver/launch.sh
+[PID 6550] 进程已启动
+[PID 6550] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall com.zebra.jaguardriver.linyaps
