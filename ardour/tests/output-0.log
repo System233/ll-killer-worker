@@ -1,0 +1,34 @@
+包名:ardour.linyaps
+Layer文件:ardour.linyaps_8.4.0.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: ardour.linyaps_8.4.0.2_x86_64_binary.layer
+offset: 2676
+mountpoint: /tmp/tmp.WZPDQ8d55g/mnt
+dbglevel: 0
+WARNING: Your system has a limit for maximum amount of locked memory!
+         This might cause Ardour to run out of memory before your system runs
+         out of memory. You can view the memory limit with 'ulimit -l', and it
+         is normally controlled by /etc/security/limits.conf
+
+Ardour8.4.0~ds1 (built using 8.4.0~ds1-2ubuntu8 and GCC version 13.2.0)
+Ardour: [INFO]: Your system is configured to limit Ardour to 65536 open files
+Ardour: [INFO]: Loading system configuration file /etc/ardour8/system_config
+Ardour: [INFO]: CPU vendor: AuthenticAMD
+Ardour: [INFO]: AVX capable processor
+Ardour: [INFO]: AVX with FMA capable processor
+Ardour: [INFO]: CPU brand: AMD EPYC 7763 64-Core Processor                
+Ardour: [INFO]: Using AVX and FMA optimized routines
+Ardour: [INFO]: Set Clip Library directory to '/home/runner/.local/share/sounds/clips'
+Ardour: [INFO]: Loading plugin meta data file /usr/share/ardour8/plugin_metadata/plugin_tags
+Ardour: [INFO]: add_lrdf_data '/home/runner/.config/ardour8/rdf:/usr/share/ardour8/rdf:/usr/local/share/ladspa/rdf:/usr/share/ladspa/rdf'
+Ardour: [INFO]: read rdf_file 'file:///usr/share/ladspa/rdf/ladspa.rdfs'
+Ardour: [INFO]: Loading default ui configuration file /etc/ardour8/default_ui_config
+Ardour: [INFO]: Loading 459 MIDI patches from /usr/share/ardour8/patchfiles
+Ardour: [INFO]: Loading color file /usr/share/ardour8/themes/dark-ardour.colors
+Ardour: [INFO]: Loading ui configuration file /etc/ardour8/clearlooks.rc
+start clocking
+Ardour: [INFO]: Loading bindings from /etc/ardour8/ardour.keys
+Loading ui configuration file /etc/ardour8/clearlooks.rc
+ALSA lib seq_hw.c:528:(snd_seq_hw_open) open /dev/snd/seq failed: No such file or directory
+set default folder to /home/runner
