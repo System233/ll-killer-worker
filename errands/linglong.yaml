@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: errands.linyaps
+  name: errands
+  version: 45.1.9.2
+  kind: app
+  description: |-
+    Simple tasks app for GNOME
+    Errands is a todo app for those who prefer simplicity.
+    It can optionally sync with a CalDAV or NextCloud server.
+
+    Errands is a GNOME Circle app.
+command:
+- /opt/apps/errands.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
