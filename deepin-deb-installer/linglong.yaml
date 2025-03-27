@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: deepin-deb-installer.linyaps
+  name: deepin-deb-installer
+  version: 6.5.0.0
+  kind: app
+  description: |-
+    Package Installer helps users install and remove local packages.
+    Package Installer is an easy-to-use .deb package management tool
+    with a simple interface for users to quickly install customized applications
+    not included in App Store supporting bulk installation, version identification
+    and auto completion.
+command:
+- /opt/apps/deepin-deb-installer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
