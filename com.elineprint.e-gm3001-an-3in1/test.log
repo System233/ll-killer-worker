@@ -1,0 +1,30 @@
+正在测试: APPID=com.elineprint.e-gm3001-an-3in1.linyaps LAYER=com.elineprint.e-gm3001-an-3in1.linyaps_1.0.0.20206_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install com.elineprint.e-gm3001-an-3in1.linyaps_1.0.0.20206_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:com.elineprint.e-gm3001-an-3in1.linyaps
+Layer文件:com.elineprint.e-gm3001-an-3in1.linyaps_1.0.0.20206_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: com.elineprint.e-gm3001-an-3in1.linyaps_1.0.0.20206_arm64_binary.layer
+offset: 452
+mountpoint: /tmp/tmp.dCQcC7s5Jn/mnt
+dbglevel: 0
+grep: /opt/apps/com.elineprint.e-gm3001-an-3in1.linyaps/files/share/applications/printer-networksetuptool.desktop: No such file or directory
+grep: /opt/apps/com.elineprint.e-gm3001-an-3in1.linyaps/files/share/applications/printer-networksetuptool.desktop: No such file or directory
+[31m[失败] /opt/apps/com.elineprint.e-gm3001-an-3in1.linyaps/files/share/applications/printer-networksetuptool.desktop:: 找不到此启动文件 [0m
+grep: /opt/apps/com.elineprint.e-gm3001-an-3in1.linyaps/files/share/applications/printer-statusmonitor.desktop: No such file or directory
+grep: /opt/apps/com.elineprint.e-gm3001-an-3in1.linyaps/files/share/applications/printer-statusmonitor.desktop: No such file or directory
+[31m[失败] /opt/apps/com.elineprint.e-gm3001-an-3in1.linyaps/files/share/applications/printer-statusmonitor.desktop:: 找不到此启动文件 [0m
+[正在测试启动项]
+包名:com.elineprint.e-gm3001-an-3in1.linyaps
+Layer文件:com.elineprint.e-gm3001-an-3in1.linyaps_1.0.0.20206_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: com.elineprint.e-gm3001-an-3in1.linyaps_1.0.0.20206_arm64_binary.layer
+offset: 452
+mountpoint: /tmp/tmp.XQdapyLz7i/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+awk: fatal: cannot open file `/opt/apps/com.elineprint.e-gm3001-an-3in1.linyaps/files/share/applications/printer-networksetuptool.desktop' for reading: No such file or directory
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall com.elineprint.e-gm3001-an-3in1.linyaps
