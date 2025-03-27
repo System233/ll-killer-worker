@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: comptty.linyaps
+  name: comptty
+  version: 1.0.1.5
+  kind: app
+  description: |-
+    GUI based tool to compare two RTTY streams
+    Comptty is used to compare two RTTY streams. It's comparison function uses a
+    linear-programming technique.  It computes total number of errors, the
+    character error rate (CER) and the bit error rate (BER).  Special attention is
+    given to SHIFT and UNSHIFT to account for an error occurring in that character.
+command:
+- /opt/apps/comptty.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
