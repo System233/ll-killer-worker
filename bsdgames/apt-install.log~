@@ -1,0 +1,35 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libfl2 wamerican
+Suggested packages:
+  mailutils
+The following NEW packages will be installed:
+  bsdgames libfl2 wamerican
+0 upgraded, 3 newly installed, 0 to remove and 508 not upgraded.
+Need to get 933 kB of archives.
+After this operation, 4028 kB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 wamerican all 2020.12.07-2 [236 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libfl2 arm64 2.6.4-8.2build1 [9618 B]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 bsdgames arm64 2.17-33 [687 kB]
+Fetched 933 kB in 2s (552 kB/s)
+Selecting previously unselected package wamerican.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../wamerican_2020.12.07-2_all.deb ...
+Unpacking wamerican (2020.12.07-2) ...
+Selecting previously unselected package libfl2:arm64.
+Preparing to unpack .../libfl2_2.6.4-8.2build1_arm64.deb ...
+Unpacking libfl2:arm64 (2.6.4-8.2build1) ...
+Selecting previously unselected package bsdgames.
+Preparing to unpack .../bsdgames_2.17-33_arm64.deb ...
+Unpacking bsdgames (2.17-33) ...
+dpkg: error processing archive /var/cache/apt/archives/bsdgames_2.17-33_arm64.deb (--unpack):
+ error setting ownership of './usr/games/atc': Invalid argument
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Errors were encountered while processing:
+ /var/cache/apt/archives/bsdgames_2.17-33_arm64.deb
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
+E: Sub-process /usr/bin/dpkg returned an error code (1)
