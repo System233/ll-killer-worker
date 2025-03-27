@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: danmaq.linyaps
+  name: danmaq
+  version: 0.2.3.2
+  kind: app
+  description: |-
+    Small client side Qt program to play danmaku on any screen
+    DanmaQ is a desktop danmaku client. It is used to display danmaku strings.
+
+    "danmaku", originally a Japanese word, is a certain method of instant
+    commenting over the Internet. It originated in Japan and became
+    popular in East Asian cultural circle. In this case, People write comments
+    and send them to a danmaku server. The server will push comments to
+    danmaku clients connected to it, where comments are displayed on a real-time
+    basis. Comment strings will fly over the screen with artistic effects.
+
+    This package provides a danmaku client program implemented in Qt5.
+command:
+- /opt/apps/danmaq.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
