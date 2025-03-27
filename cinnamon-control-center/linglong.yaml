@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: cinnamon-control-center.linyaps
+  name: cinnamon-control-center
+  version: 6.0.1.3
+  kind: app
+  description: |-
+    configuration applets for the Cinnamon desktop
+    This package contains configuration applets for the Cinnamon desktop,
+    allowing to set the date and time, regional settings, network configuration,
+    screen resolution, and other Cinnamon parameters.
+command:
+- /opt/apps/cinnamon-control-center.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
