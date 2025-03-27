@@ -1,0 +1,35 @@
+version: "1"
+package:
+  id: blockattack.linyaps
+  name: blockattack
+  version: 2.8.0.1
+  kind: app
+  description: |-
+    puzzle game inspired by Tetris
+    Block Attack is a puzzle/blockfall game inspired by Nintendo's Tetris Attack
+    for the Super Nintendo. The game is pretty action packed for a puzzle game :-)
+
+    Features:
+    * Based on the classic "Tetris Attack" for the SNES
+    * 5 single player modes: Endless, Time Trial, Puzzle Mode, Stage Clear and
+    Vs. Mode
+    * 2 two player options: Time Trial and Vs. Mode
+    * Puzzle mode has 20+ puzzles
+    * Players can use a custom key setup
+    * Handicap in multiplayer
+    * Highscores are saved
+    * Joypad support
+    * Music and sound effects
+    * Animations
+    * Select puzzle file from a list in the game
+
+    System requirements:
+    * Screen resolution: 1024x768 (cannot be changed, but it can run in a window)
+    * Keyboard
+    * Mouse (optional)
+    * Processor: Decent (tested on 733 MHz)
+    * Memory: at least 64 MB
+command:
+- /opt/apps/blockattack.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
