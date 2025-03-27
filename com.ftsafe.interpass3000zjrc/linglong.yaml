@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.ftsafe.interpass3000zjrc.linyaps
+  name: com.ftsafe.interpass3000zjrc
+  version: 1.2.21.1
+  kind: app
+  description: InterPass3000ZJRC for ftsafe
+command:
+- /opt/apps/com.ftsafe.interpass3000zjrc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
