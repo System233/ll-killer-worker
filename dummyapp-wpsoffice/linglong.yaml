@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: dummyapp-wpsoffice.linyaps
+  name: dummyapp-wpsoffice
+  version: 1.0.2.0
+  kind: app
+  description: |-
+    WPS Office dummy package that provides placeholder
+    application icon that installs WPS Office on demand.
+command:
+- /opt/apps/dummyapp-wpsoffice.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
