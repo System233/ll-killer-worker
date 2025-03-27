@@ -1,0 +1,38 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  bisheng-engine-i386 com.deepin-wine-runtime.deepin deepin-wine-runtime
+The following NEW packages will be installed:
+  bisheng-engine bisheng-engine-i386 com.deepin-wine-runtime.deepin
+  deepin-wine-runtime
+0 upgraded, 4 newly installed, 0 to remove and 234 not upgraded.
+Need to get 351 MB of archives.
+After this operation, 773 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/commercial arm64 deepin-wine-runtime arm64 0.1.9 [248 MB]
+Get:2 https://community-packages.deepin.com/beige beige/commercial arm64 com.deepin-wine-runtime.deepin arm64 1.1deepin4 [70.6 MB]
+Get:3 https://community-packages.deepin.com/beige beige/commercial arm64 bisheng-engine-i386 arm64 2.0.13-1 [27.1 MB]
+Get:4 https://community-packages.deepin.com/beige beige/commercial arm64 bisheng-engine arm64 2.0.13-1 [5023 kB]
+Fetched 351 MB in 13s (26.9 MB/s)
+Selecting previously unselected package deepin-wine-runtime.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../deepin-wine-runtime_0.1.9_arm64.deb ...
+Unpacking deepin-wine-runtime (0.1.9) ...
+dpkg: error processing archive /var/cache/apt/archives/deepin-wine-runtime_0.1.9_arm64.deb (--unpack):
+ error setting ownership of '/opt/deepinwine.dpkg-new': Invalid argument
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package com.deepin-wine-runtime.deepin.
+Preparing to unpack .../com.deepin-wine-runtime.deepin_1.1deepin4_arm64.deb ...
+Unpacking com.deepin-wine-runtime.deepin (1.1deepin4) ...
+Selecting previously unselected package bisheng-engine-i386.
+Preparing to unpack .../bisheng-engine-i386_2.0.13-1_arm64.deb ...
+Unpacking bisheng-engine-i386 (2.0.13-1) ...
+Selecting previously unselected package bisheng-engine.
+Preparing to unpack .../bisheng-engine_2.0.13-1_arm64.deb ...
+Unpacking bisheng-engine (2.0.13-1) ...
+Errors were encountered while processing:
+ /var/cache/apt/archives/deepin-wine-runtime_0.1.9_arm64.deb
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
+E: Sub-process /usr/bin/dpkg returned an error code (1)
