@@ -1,0 +1,24 @@
+包名:deepin-app-store.linyaps
+Layer文件:deepin-app-store.linyaps_8.0.7.10_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: deepin-app-store.linyaps_8.0.7.10_arm64_binary.layer
+offset: 433
+mountpoint: /tmp/tmp.qTkllsADFn/mnt
+dbglevel: 0
+dtk.core.dsg: Can't getId from AM for the  36 , because AM is unavailable.
+2025-03-27, 18:59:01.258 [[32mInfo[0m] [performancelogmanager.cpp PerformanceLogManager::ApplicationStart 14] ================== 程序启动 ================== QTime("18:59:01.257")
+2025-03-27, 18:59:01.330 [[33mWarning[0m] [dguiapplicationhelper.cpp Dtk::Gui::DGuiApplicationHelper::loadTranslator 1673] "dtkwidget" can not find qm files QList("dtkwidget_C.qm", "dtkwidget_C.qm")
+2025-03-27, 18:59:01.401 [[33mWarning[0m] [dguiapplicationhelper.cpp Dtk::Gui::DGuiApplicationHelper::loadTranslator 1673] "qt" can not find qm files QList("qt_C.qm", "qt_C.qm")
+2025-03-27, 18:59:01.402 [[33mWarning[0m] [dguiapplicationhelper.cpp Dtk::Gui::DGuiApplicationHelper::loadTranslator 1673] "qtbase" can not find qm files QList("qtbase_C.qm", "qtbase_C.qm")
+2025-03-27, 18:59:01.423 [[33mWarning[0m] [dguiapplicationhelper.cpp Dtk::Gui::DGuiApplicationHelper::loadTranslator 1673] "deepin-home-appstore-client" can not find qm files QList("deepin-home-appstore-client_C.qm", "deepin-home-appstore-client_C.qm")
+2025-03-27, 18:59:02.866 [[33mWarning[0m] [dguiapplicationhelper.cpp Dtk::Gui::DGuiApplicationHelperPrivate::setPaletteType 412] DGuiApplicationHelper: Plase check 'QGuiApplication::setPalette', Don't use it on DTK application.
+2025-03-27, 18:59:02.868 [[32mInfo[0m] [main.cpp             main                                165] =========deepin-app-store version========= "8.0.7.0010"
+2025-03-27, 18:59:03.324 [[33mWarning[0m] [  ] QObject::connect(DbusMessageThread, DbusSignalReceiverSig): unique connections require a pointer to member function of a QObject subclass
+2025-03-27, 18:59:03.325 [[36mDebug[0m] [dbusmessagethread.cpp DbusMessageThread::getAptOperationList 290] GetAptOperationList start
+2025-03-27, 18:59:03.325 [[32mInfo[0m] [dbusmessagethread.cpp DbusMessageThread::getAptOperationList::lambda 294] GetAptOperationList end
+2025-03-27, 18:59:03.326 [[33mWarning[0m] [utils.h              PackageOperation::parseJsonByteArray 268] Parse PackageOperation failed: "illegal value" "The name com.home.appstore.daemon was not provided by any .service files"
+2025-03-27, 18:59:03.421 [[32mInfo[0m] [performancelogmanager.cpp PerformanceLogManager::WindowDisplayComplete 24] ================== 窗口展示 ================== QTime("18:59:03.421")
+2025-03-27, 18:59:03.432 [[33mWarning[0m] [dbussignalreceiversig.cpp DbusSignalReceiverSig::onReceivePackageOperation 872] GetPackageAptOperationInfo failed
+2025-03-27, 18:59:03.435 [[32mInfo[0m] [dbussignalsender.cpp DbusSignalSender::getCpuAndBoardInfo::lambda 225] GetCpuAndBoardInfo
+2025-03-27, 18:59:03.435 [[32mInfo[0m] [dbussignalsender.cpp DbusSignalSender::isQSMainBoard     248] IsQSMainBoard

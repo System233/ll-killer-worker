@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-app-store.linyaps
+  name: deepin-app-store
+  version: 8.0.7.10
+  kind: app
+  description: |-
+    Deepin App Store Home
+    Deepin App Store Client Home.
+command:
+- /opt/apps/deepin-app-store.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
