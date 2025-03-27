@@ -1,0 +1,304 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  binutils binutils-aarch64-linux-gnu binutils-common blt cpp cpp-12 cron
+  cron-daemon-common fonts-lyx g++ g++-12 gcc gcc-12 gcc-12-base gcc-14-base
+  isympy-common isympy3 javascript-common libasan8 libatomic1 libbinutils
+  libblas3 libbrotli1 libcc1-0 libctf-nobfd0 libctf0 libdb5.3t64
+  libencode-perl libgcc-12-dev libgcc-s1 libgdbm-compat4t64 libgdbm6t64
+  libgfortran5 libgomp1 libgprofng0 libhtml-parser-perl libhwasan0
+  libimagequant0 libisl23 libitm1 libjs-jquery libjs-jquery-ui liblapack3
+  liblbfgsb0 liblsan0 libmpc3 libnet-ssleay-perl libperl5.38t64
+  libpython3-stdlib libpython3.12 libpython3.12-minimal libpython3.12-stdlib
+  libqhull-r8.0 libraqm0 libsframe1 libssl3t64 libstdc++-12-dev libstdc++6
+  libtcl8.6 libtext-csv-perl libtext-csv-xs-perl libtk8.6 libtsan2 libubsan1
+  libxslt1.1 libxss1 logrotate perl perl-base perl-modules-5.38
+  python-matplotlib-data python3 python3-appdirs python3-attr python3-brotli
+  python3-bs4 python3-chardet python3-contourpy python3-cssselect
+  python3-cycler python3-dateutil python3-decorator python3-fonttools
+  python3-fs python3-html5lib python3-kiwisolver python3-lxml python3-lz4
+  python3-matplotlib python3-minimal python3-mpmath python3-numpy
+  python3-olefile python3-packaging python3-pil python3-pil.imagetk
+  python3-pkg-resources python3-pyparsing python3-scipy python3-six
+  python3-soupsieve python3-sympy python3-tk python3-tz python3-ufolib2
+  python3-unicodedata2 python3-webencodings python3.12 python3.12-minimal
+  tk8.6-blt2.5 unicode-data
+Suggested packages:
+  binutils-doc gprofng-gui blt-demo cpp-doc gcc-12-locales cpp-12-doc anacron
+  checksecurity supercat default-mta | mail-transport-agent gcc-12-doc
+  gcc-multilib make manpages-dev autoconf automake libtool flex bison gdb
+  gcc-doc apache2 | lighttpd | httpd gdbm-l10n libdata-dump-perl
+  libjs-jquery-ui-docs libstdc++-12-doc tcl8.6 tk8.6 bsd-mailx | mailx
+  perl-doc libterm-readline-gnu-perl | libterm-readline-perl-perl
+  libtap-harness-archive-perl python3-doc python3-venv python-attr-doc
+  python-cycler-doc python3-genshi python-lxml-doc cm-super-minimal dvipng
+  ffmpeg fonts-staypuft gir1.2-gtk-3.0 inkscape ipython3 librsvg2-common
+  python3-cairocffi python3-gi python3-gi-cairo python3-gobject python3-pyqt5
+  python3-sip python3-tornado texlive-extra-utils texlive-latex-extra
+  python-mpmath-doc python3-gmpy2 gfortran python-numpy-doc python3-dev
+  python3-pytest python-pil-doc python3-setuptools python-pyparsing-doc
+  python-scipy-doc texlive-fonts-extra python-sympy-doc tix python3-tk-dbg
+  python3.12-venv python3.12-doc binfmt-support
+Recommended packages:
+  gnuplot
+The following packages will be REMOVED:
+  dictionaries-common libdb5.3 libgdbm-compat4 libgdbm6 libtext-iconv-perl
+  xscreensaver-data-extra
+The following NEW packages will be installed:
+  battery-stats blt cpp cpp-12 cron cron-daemon-common fonts-lyx g++ g++-12
+  gcc gcc-12 gcc-12-base gcc-14-base isympy-common isympy3 javascript-common
+  libasan8 libatomic1 libblas3 libcc1-0 libdb5.3t64 libencode-perl
+  libgcc-12-dev libgdbm-compat4t64 libgdbm6t64 libgfortran5 libhwasan0
+  libimagequant0 libisl23 libitm1 libjs-jquery libjs-jquery-ui liblapack3
+  liblbfgsb0 liblsan0 libmpc3 libperl5.38t64 libqhull-r8.0 libraqm0 libssl3t64
+  libstdc++-12-dev libtcl8.6 libtext-csv-perl libtext-csv-xs-perl libtk8.6
+  libtsan2 libubsan1 libxslt1.1 libxss1 logrotate perl-modules-5.38
+  python-matplotlib-data python3-appdirs python3-attr python3-brotli
+  python3-bs4 python3-chardet python3-contourpy python3-cssselect
+  python3-cycler python3-dateutil python3-decorator python3-fonttools
+  python3-fs python3-html5lib python3-kiwisolver python3-lxml python3-lz4
+  python3-matplotlib python3-mpmath python3-numpy python3-olefile
+  python3-packaging python3-pil python3-pil.imagetk python3-pkg-resources
+  python3-pyparsing python3-scipy python3-six python3-soupsieve python3-sympy
+  python3-tk python3-tz python3-ufolib2 python3-unicodedata2
+  python3-webencodings tk8.6-blt2.5 unicode-data
+The following packages will be upgraded:
+  binutils binutils-aarch64-linux-gnu binutils-common libbinutils libbrotli1
+  libctf-nobfd0 libctf0 libgcc-s1 libgomp1 libgprofng0 libhtml-parser-perl
+  libnet-ssleay-perl libpython3-stdlib libpython3.12 libpython3.12-minimal
+  libpython3.12-stdlib libsframe1 libstdc++6 perl perl-base python3
+  python3-minimal python3.12 python3.12-minimal
+24 upgraded, 88 newly installed, 6 to remove and 481 not upgraded.
+Need to get 136 MB of archives.
+After this operation, 474 MB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libssl3t64 arm64 3.0.13-0ubuntu3.5 [1797 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main arm64 python3.12 arm64 3.12.4-0deepin1 [663 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libnet-ssleay-perl arm64 1.94-1build4 [311 kB]
+Get:4 https://community-packages.deepin.com/beige beige/main arm64 python3.12-minimal arm64 3.12.4-0deepin1 [1974 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libhtml-parser-perl arm64 3.81-1build3 [85.0 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 perl-modules-5.38 all 5.38.2-3.2build2.1 [3110 kB]
+Get:7 https://community-packages.deepin.com/beige beige/main arm64 libpython3.12 arm64 3.12.4-0deepin1 [1964 kB]
+Get:8 https://community-packages.deepin.com/beige beige/main arm64 libpython3.12-stdlib arm64 3.12.4-0deepin1 [1874 kB]
+Get:9 https://community-packages.deepin.com/beige beige/main arm64 libpython3.12-minimal arm64 3.12.4-0deepin1 [803 kB]
+Get:10 https://community-packages.deepin.com/beige beige/main arm64 cpp arm64 4:13.2.0+really12.3.0-0deepin1 [7032 B]
+Get:11 https://community-packages.deepin.com/beige beige/main arm64 gcc arm64 4:13.2.0+really12.3.0-0deepin1 [5236 B]
+Get:12 https://community-packages.deepin.com/beige beige/main arm64 g++ arm64 4:13.2.0+really12.3.0-0deepin1 [1352 B]
+Get:13 https://community-packages.deepin.com/beige beige/main arm64 python-matplotlib-data all 3.6.3-2deepin0 [2744 kB]
+Get:14 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libdb5.3t64 arm64 5.3.28+dfsg2-7 [732 kB]
+Get:15 https://community-packages.deepin.com/beige beige/main arm64 python3-numpy arm64 1:1.26.4+ds-10 [4223 kB]
+Get:16 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libgdbm6t64 arm64 1.23-5.1build1 [34.4 kB]
+Get:17 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libgdbm-compat4t64 arm64 1.23-5.1build1 [6578 B]
+Get:18 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libperl5.38t64 arm64 5.38.2-3.2build2.1 [4773 kB]
+Get:19 https://community-packages.deepin.com/beige beige/main arm64 python3-contourpy arm64 1.0.7-3deepin0 [159 kB]
+Get:20 https://community-packages.deepin.com/beige beige/main arm64 python3-six all 1.16.0-6 [16.2 kB]
+Get:21 https://community-packages.deepin.com/beige beige/main arm64 python3-scipy arm64 1.11.4-10deepin0 [14.4 MB]
+Get:22 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 perl arm64 5.38.2-3.2build2.1 [231 kB]
+Get:23 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 perl-base arm64 5.38.2-3.2build2.1 [1778 kB]
+Get:24 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3-minimal arm64 3.12.3-0ubuntu2 [27.4 kB]
+Get:25 https://community-packages.deepin.com/beige beige/main arm64 python3-fs all 2.4.16-4 [95.4 kB]
+Get:26 https://community-packages.deepin.com/beige beige/main arm64 python3-lz4 arm64 4.0.2+dfsg-1deepin1 [26.2 kB]
+Get:27 https://community-packages.deepin.com/beige beige/main arm64 python3-kiwisolver arm64 1.4.5-1deepin0 [54.5 kB]
+Get:28 https://community-packages.deepin.com/beige beige/main arm64 python3-pil arm64 10.3.0-2 [514 kB]
+Get:29 https://community-packages.deepin.com/beige beige/main arm64 python3-pil.imagetk arm64 10.3.0-2 [79.2 kB]
+Get:30 https://community-packages.deepin.com/beige beige/main arm64 python3-matplotlib arm64 3.6.3-2deepin0 [6795 kB]
+Get:31 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3 arm64 3.12.3-0ubuntu2 [23.0 kB]
+Get:32 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3-stdlib arm64 3.12.3-0ubuntu2 [10.0 kB]
+Get:33 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 cron-daemon-common all 3.0pl1-184ubuntu2 [13.6 kB]
+Get:34 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 cron arm64 3.0pl1-184ubuntu2 [84.0 kB]
+Get:35 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 logrotate arm64 3.21.0-2build1 [50.9 kB]
+Get:36 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 battery-stats arm64 0.5.6-2.1 [24.3 kB]
+Get:37 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 gcc-14-base arm64 14.2.0-4ubuntu2~24.04 [50.8 kB]
+Get:38 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgcc-s1 arm64 14.2.0-4ubuntu2~24.04 [61.9 kB]
+Get:39 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libstdc++6 arm64 14.2.0-4ubuntu2~24.04 [751 kB]
+Get:40 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3-pkg-resources all 68.1.2-2ubuntu1.1 [168 kB]
+Get:41 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgprofng0 arm64 2.42-4ubuntu2.4 [776 kB]
+Get:42 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libctf0 arm64 2.42-4ubuntu2.4 [95.7 kB]
+Get:43 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libctf-nobfd0 arm64 2.42-4ubuntu2.4 [100 kB]
+Get:44 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 binutils-aarch64-linux-gnu arm64 2.42-4ubuntu2.4 [3305 kB]
+Get:45 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libbinutils arm64 2.42-4ubuntu2.4 [768 kB]
+Get:46 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 binutils arm64 2.42-4ubuntu2.4 [18.1 kB]
+Get:47 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 binutils-common arm64 2.42-4ubuntu2.4 [240 kB]
+Get:48 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libsframe1 arm64 2.42-4ubuntu2.4 [14.8 kB]
+Get:49 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libtcl8.6 arm64 8.6.14+dfsg-1build1 [978 kB]
+Get:50 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxss1 arm64 1:1.2.3-1build3 [7244 B]
+Get:51 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libtk8.6 arm64 8.6.14-1build1 [767 kB]
+Get:52 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 tk8.6-blt2.5 arm64 2.5.3+dfsg-7build1 [618 kB]
+Get:53 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 blt arm64 2.5.3+dfsg-7build1 [4840 B]
+Get:54 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 gcc-12-base arm64 12.3.0-17ubuntu1 [46.3 kB]
+Get:55 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libisl23 arm64 0.26-3build1.1 [669 kB]
+Get:56 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libmpc3 arm64 1.3.1-1build1.1 [56.4 kB]
+Get:57 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 cpp-12 arm64 12.3.0-17ubuntu1 [9581 kB]
+Get:58 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 fonts-lyx all 2.4.0~RC3-1build4 [171 kB]
+Get:59 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libcc1-0 arm64 14.2.0-4ubuntu2~24.04 [49.7 kB]
+Get:60 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgomp1 arm64 14.2.0-4ubuntu2~24.04 [145 kB]
+Get:61 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libitm1 arm64 14.2.0-4ubuntu2~24.04 [28.1 kB]
+Get:62 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libatomic1 arm64 14.2.0-4ubuntu2~24.04 [11.6 kB]
+Get:63 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libasan8 arm64 14.2.0-4ubuntu2~24.04 [2930 kB]
+Get:64 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 liblsan0 arm64 14.2.0-4ubuntu2~24.04 [1289 kB]
+Get:65 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libtsan2 arm64 14.2.0-4ubuntu2~24.04 [2696 kB]
+Get:66 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libubsan1 arm64 14.2.0-4ubuntu2~24.04 [1157 kB]
+Get:67 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libhwasan0 arm64 14.2.0-4ubuntu2~24.04 [1605 kB]
+Get:68 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libgcc-12-dev arm64 12.3.0-17ubuntu1 [1157 kB]
+Get:69 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 gcc-12 arm64 12.3.0-17ubuntu1 [19.1 MB]
+Get:70 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libstdc++-12-dev arm64 12.3.0-17ubuntu1 [2179 kB]
+Get:71 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 g++-12 arm64 12.3.0-17ubuntu1 [10.9 MB]
+Get:72 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 isympy-common all 1.12-7 [109 kB]
+Get:73 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-mpmath all 1.2.1-3 [421 kB]
+Get:74 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-sympy all 1.12-7 [3966 kB]
+Get:75 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 isympy3 all 1.12-7 [3136 B]
+Get:76 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 javascript-common all 11+nmu1 [5936 B]
+Get:77 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libblas3 arm64 3.12.0-3build1.1 [144 kB]
+Get:78 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libbrotli1 arm64 1.1.0-2build2 [339 kB]
+Get:79 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgfortran5 arm64 14.2.0-4ubuntu2~24.04 [444 kB]
+Get:80 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libimagequant0 arm64 2.18.0-1build1 [37.1 kB]
+Get:81 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjs-jquery all 3.6.1+dfsg+~3.5.14-1 [328 kB]
+Get:82 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libjs-jquery-ui all 1.13.2+dfsg-1 [252 kB]
+Get:83 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 liblapack3 arm64 3.12.0-3build1.1 [2241 kB]
+Get:84 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 liblbfgsb0 arm64 3.0+dfsg.4-1build1 [27.7 kB]
+Get:85 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libqhull-r8.0 arm64 2020.2-6build1 [189 kB]
+Get:86 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libraqm0 arm64 0.10.1-1build1 [14.7 kB]
+Get:87 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libtext-csv-perl all 2.04-1 [109 kB]
+Get:88 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libencode-perl arm64 3.21-1build2 [1706 kB]
+Get:89 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libtext-csv-xs-perl arm64 1.53-1build3 [119 kB]
+Get:90 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libxslt1.1 arm64 1.1.39-0exp1ubuntu0.24.04.2 [167 kB]
+Get:91 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-appdirs all 1.4.4-4 [10.9 kB]
+Get:92 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-attr all 23.2.0-2 [48.6 kB]
+Get:93 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-brotli arm64 1.1.0-2build2 [340 kB]
+Get:94 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-soupsieve all 2.5-1 [33.0 kB]
+Get:95 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-bs4 all 4.12.3-1 [109 kB]
+Get:96 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-chardet all 5.2.0+dfsg-1 [117 kB]
+Get:97 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-cycler all 0.11.0-2 [8202 B]
+Get:98 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-dateutil all 2.8.2-3ubuntu1 [79.4 kB]
+Get:99 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-decorator all 5.1.1-5 [10.1 kB]
+Get:100 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-ufolib2 all 0.16.0+dfsg1-1 [33.5 kB]
+Get:101 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-tz all 2024.1-2 [31.4 kB]
+Get:102 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-lxml arm64 5.2.1-1 [1179 kB]
+Get:103 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-unicodedata2 arm64 15.1.0+ds-1build1 [362 kB]
+Get:104 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 unicode-data all 15.1.0-1 [8878 kB]
+Get:105 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-fonttools arm64 4.46.0-1build2 [1398 kB]
+Get:106 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-webencodings all 0.5.1-5 [11.5 kB]
+Get:107 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-html5lib all 1.1-6 [88.8 kB]
+Get:108 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-tk arm64 3.12.3-0ubuntu1 [102 kB]
+Get:109 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-pyparsing all 3.1.1-1 [86.2 kB]
+Get:110 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-packaging all 24.0-1 [41.1 kB]
+Get:111 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-olefile all 0.46-3 [33.8 kB]
+Get:112 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-cssselect all 1.2.0-2 [18.5 kB]
+Fetched 136 MB in 15s (9301 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Removing xscreensaver-data-extra (6.02+dfsg1-3) ...
+Removing dictionaries-common (1.28.12) ...
+Removing 'diversion of /usr/share/dict/words to /usr/share/dict/words.pre-dictionaries-common by dictionaries-common'
+Removing libtext-iconv-perl (1.7-deepin1) ...
+Selecting previously unselected package libssl3t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27265 files and directories currently installed.)
+Preparing to unpack .../libssl3t64_3.0.13-0ubuntu3.5_arm64.deb ...
+Unpacking libssl3t64:arm64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:arm64 (3.2.0-2) ...
+Preparing to unpack .../libnet-ssleay-perl_1.94-1build4_arm64.deb ...
+Unpacking libnet-ssleay-perl:arm64 (1.94-1build4) over (1.92-2) ...
+Preparing to unpack .../libhtml-parser-perl_3.81-1build3_arm64.deb ...
+Unpacking libhtml-parser-perl:arm64 (3.81-1build3) over (3.76-1) ...
+Preparing to unpack .../perl_5.38.2-3.2build2.1_arm64.deb ...
+Unpacking perl (5.38.2-3.2build2.1) over (5.36.0-10) ...
+Selecting previously unselected package perl-modules-5.38.
+Preparing to unpack .../perl-modules-5.38_5.38.2-3.2build2.1_all.deb ...
+Unpacking perl-modules-5.38 (5.38.2-3.2build2.1) ...
+dpkg: libdb5.3:arm64: dependency problems, but removing anyway as you requested:
+ libsasl2-modules-db:arm64 depends on libdb5.3.
+ libpython3.12-stdlib:arm64 depends on libdb5.3.
+ libpython3.11-stdlib:arm64 depends on libdb5.3.
+ libperl5.36:arm64 depends on libdb5.3.
+ libpam-modules:arm64 depends on libdb5.3.
+ libjack-jackd2-0:arm64 depends on libdb5.3.
+ libical3:arm64 depends on libdb5.3.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28678 files and directories currently installed.)
+Removing libdb5.3:arm64 (5.3.28+dfsg1-0.8) ...
+Selecting previously unselected package libdb5.3t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28672 files and directories currently installed.)
+Preparing to unpack .../libdb5.3t64_5.3.28+dfsg2-7_arm64.deb ...
+Unpacking libdb5.3t64:arm64 (5.3.28+dfsg2-7) ...
+Setting up libdb5.3t64:arm64 (5.3.28+dfsg2-7) ...
+dpkg: libgdbm6:arm64: dependency problems, but removing anyway as you requested:
+ libperl5.36:arm64 depends on libgdbm6 (>= 1.21).
+ libgdbm-compat4:arm64 depends on libgdbm6 (>= 1.16).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28678 files and directories currently installed.)
+Removing libgdbm6:arm64 (1.22-1) ...
+Selecting previously unselected package libgdbm6t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28672 files and directories currently installed.)
+Preparing to unpack .../libgdbm6t64_1.23-5.1build1_arm64.deb ...
+Unpacking libgdbm6t64:arm64 (1.23-5.1build1) ...
+dpkg: libgdbm-compat4:arm64: dependency problems, but removing anyway as you requested:
+ libperl5.36:arm64 depends on libgdbm-compat4 (>= 1.18-3).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28678 files and directories currently installed.)
+Removing libgdbm-compat4:arm64 (1.22-1) ...
+Selecting previously unselected package libgdbm-compat4t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28672 files and directories currently installed.)
+Preparing to unpack .../libgdbm-compat4t64_1.23-5.1build1_arm64.deb ...
+Unpacking libgdbm-compat4t64:arm64 (1.23-5.1build1) ...
+Selecting previously unselected package libperl5.38t64:arm64.
+Preparing to unpack .../libperl5.38t64_5.38.2-3.2build2.1_arm64.deb ...
+Unpacking libperl5.38t64:arm64 (5.38.2-3.2build2.1) ...
+Preparing to unpack .../perl-base_5.38.2-3.2build2.1_arm64.deb ...
+Unpacking perl-base (5.38.2-3.2build2.1) over (5.36.0-10) ...
+Setting up perl-base (5.38.2-3.2build2.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29209 files and directories currently installed.)
+Preparing to unpack .../python3.12_3.12.4-0deepin1_arm64.deb ...
+Unpacking python3.12 (3.12.4-0deepin1) over (3.12.0-1deepin1) ...
+Preparing to unpack .../python3.12-minimal_3.12.4-0deepin1_arm64.deb ...
+Unpacking python3.12-minimal (3.12.4-0deepin1) over (3.12.0-1deepin1) ...
+Preparing to unpack .../libpython3.12_3.12.4-0deepin1_arm64.deb ...
+Unpacking libpython3.12:arm64 (3.12.4-0deepin1) over (3.12.0-1deepin1) ...
+Preparing to unpack .../libpython3.12-stdlib_3.12.4-0deepin1_arm64.deb ...
+Unpacking libpython3.12-stdlib:arm64 (3.12.4-0deepin1) over (3.12.0-1deepin1) ...
+Preparing to unpack .../libpython3.12-minimal_3.12.4-0deepin1_arm64.deb ...
+Unpacking libpython3.12-minimal:arm64 (3.12.4-0deepin1) over (3.12.0-1deepin1) ...
+Setting up libpython3.12-minimal:arm64 (3.12.4-0deepin1) ...
+Setting up python3.12-minimal (3.12.4-0deepin1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29231 files and directories currently installed.)
+Preparing to unpack .../python3-minimal_3.12.3-0ubuntu2_arm64.deb ...
+Unpacking python3-minimal (3.12.3-0ubuntu2) over (3.11.4-5) ...
+Setting up python3-minimal (3.12.3-0ubuntu2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29231 files and directories currently installed.)
+Preparing to unpack .../python3_3.12.3-0ubuntu2_arm64.deb ...
+Unpacking python3 (3.12.3-0ubuntu2) over (3.11.4-5) ...
+Preparing to unpack .../libpython3-stdlib_3.12.3-0ubuntu2_arm64.deb ...
+Unpacking libpython3-stdlib:arm64 (3.12.3-0ubuntu2) over (3.11.4-5) ...
+Selecting previously unselected package cron-daemon-common.
+Preparing to unpack .../cron-daemon-common_3.0pl1-184ubuntu2_all.deb ...
+Unpacking cron-daemon-common (3.0pl1-184ubuntu2) ...
+Setting up cron-daemon-common (3.0pl1-184ubuntu2) ...
+
+Configuration file '/etc/cron.d/.placeholder', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/cron.daily/.placeholder', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/cron.hourly/.placeholder', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/cron.monthly/.placeholder', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/cron.weekly/.placeholder', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/cron.yearly/.placeholder', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/crontab', does not exist on system.
+Installing new config file as you requested.
+Creating group 'crontab' with GID 992.
+chown: changing ownership of '/var/spool/cron/crontabs': Invalid argument
+dpkg: error processing package cron-daemon-common (--configure):
+ installed cron-daemon-common package post-installation script subprocess returned error exit status 1
+Errors were encountered while processing:
+ cron-daemon-common
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
+E: Sub-process /usr/bin/dpkg returned an error code (1)
