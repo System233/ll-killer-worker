@@ -1,0 +1,18 @@
+包名:dopewars.linyaps
+Layer文件:dopewars.linyaps_1.6.2.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: dopewars.linyaps_1.6.2.1_x86_64_binary.layer
+offset: 839
+mountpoint: /tmp/tmp.a43sUVC5EJ/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+
+(dopewars:36): dbind-[1;33mWARNING[0m **: [34m19:39:25.103[0m: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+** (dopewars:36): [1;35mCRITICAL[0m **: [34m19:39:25.103[0m: Cannot open high score file /var/games/dopewars.sco.
+(Read-only file system.) Either ensure you have permissions to access
+this file and directory, or specify an alternate high score file with the
+-f command line option.
