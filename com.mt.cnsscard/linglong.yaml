@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.mt.cnsscard.linyaps
+  name: com.mt.cnsscard
+  version: 1.0.0.4
+  kind: app
+  description: a demo for mt reader
+command:
+- /opt/apps/com.mt.cnsscard.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
