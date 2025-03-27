@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: classicmenu-indicator.linyaps
+  name: classicmenu-indicator
+  version: 0.11.0.0
+  kind: app
+  description: |-
+    indicator showing the main menu from GNOME Classic
+    ClassicMenu Indicator is a notification area applet (application
+    indicator) for the top panel of Ubuntu’s Unity desktop environment
+    and other environments that support the AppIndicator protocol.
+
+    It provides a simple way to get a GNOME Classic-style application
+    menu for those who prefer this over the Unity dash menu.
+command:
+- /opt/apps/classicmenu-indicator.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
