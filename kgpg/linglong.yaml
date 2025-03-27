@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: kgpg.linyaps
+  name: kgpg
+  version: 21.8.0.1
+  kind: app
+  description: |-
+    graphical front end for GNU Privacy Guard
+    Kgpg manages cryptographic keys for the GNU Privacy Guard, and can encrypt,
+    decrypt, sign, and verify files.  It features a simple editor for applying
+    cryptography to short pieces of text, and can also quickly apply cryptography
+    to the contents of the clipboard.
+
+    This package is part of the KDE Utilities module.
+command:
+- /opt/apps/kgpg.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
