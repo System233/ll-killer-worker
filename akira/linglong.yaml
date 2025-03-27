@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: akira.linyaps
+  name: akira
+  version: 0.0.16.2
+  kind: app
+  description: |-
+    user experience design tool
+    Akira is a Design application,
+    focusing on offering a modern and fast approach to UI and UX Design,
+    mainly targeting web designers and graphic designers.
+command:
+- /opt/apps/akira.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
