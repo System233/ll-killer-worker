@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.gwi.dpm760a-tool.linyaps
+  name: com.gwi.dpm760a-tool
+  version: 1.0.0.0
+  kind: app
+  description: GWI card printer dpm760a tool for UOS.
+command:
+- /opt/apps/com.gwi.dpm760a-tool.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
