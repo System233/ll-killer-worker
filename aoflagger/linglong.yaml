@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: aoflagger.linyaps
+  name: aoflagger
+  version: 3.4.0.2
+  kind: app
+  description: |-
+    Find RFI in radio astronomical observations
+    The AOFlagger is a tool that can find and remove radio-frequency interference
+    (RFI) in radio astronomical observations. The code has been highly optimized
+    for speed and accuracy. It is used by default for the LOFAR radio telescope
+    and thus is in productional stage. The software can run in a fully automated
+    way, but a graphical interface is provided to analyse results and tweak the
+    strategy. The preferred input file format is the Casa Measurement Set (MS)
+    format.
+
+    Besides the flagger, the software consists of tools to efficiently visualize
+    data in different ways, such as plotting time-frequency diagrams and power
+    spectra. It provides the programs aoflagger, rfigui, aoqplot, aoquality and
+    more.
+command:
+- /opt/apps/aoflagger.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
