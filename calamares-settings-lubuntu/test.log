@@ -1,0 +1,33 @@
+正在测试: APPID=calamares-settings-lubuntu.linyaps LAYER=calamares-settings-lubuntu.linyaps_24.4.40.0_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install calamares-settings-lubuntu.linyaps_24.4.40.0_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:calamares-settings-lubuntu.linyaps
+Layer文件:calamares-settings-lubuntu.linyaps_24.4.40.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: calamares-settings-lubuntu.linyaps_24.4.40.0_x86_64_binary.layer
+offset: 690
+mountpoint: /tmp/tmp.SlRm3blUAN/mnt
+dbglevel: 0
+[成功] calamares-launch-oem.desktop: system-software-install -> /usr/share/icons/Humanity/apps/16/system-software-install.svg
+[成功] /opt/apps/calamares-settings-lubuntu.linyaps/files/share/applications/calamares-launch-oem.desktop: /opt/apps/calamares-settings-lubuntu.linyaps/files/entrypoint.sh sudo -E /usr/bin/calamares-launch-oem
+[成功] lubuntu-calamares.desktop: lubuntu-installer -> /opt/apps/calamares-settings-lubuntu.linyaps/files/share/icons/hicolor/scalable/apps/lubuntu-installer.svg
+[成功] /opt/apps/calamares-settings-lubuntu.linyaps/files/share/applications/lubuntu-calamares.desktop: /opt/apps/calamares-settings-lubuntu.linyaps/files/entrypoint.sh sudo -E /usr/bin/calamares-launch-normal
+[正在测试启动项]
+包名:calamares-settings-lubuntu.linyaps
+Layer文件:calamares-settings-lubuntu.linyaps_24.4.40.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: calamares-settings-lubuntu.linyaps_24.4.40.0_x86_64_binary.layer
+offset: 690
+mountpoint: /tmp/tmp.WfyivMWFFQ/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run calamares-settings-lubuntu.linyaps -- /opt/apps/calamares-settings-lubuntu.linyaps/files/entrypoint.sh sudo -E /usr/bin/calamares-launch-oem
+[PID 27091] 进程已启动
+[PID 27091] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run calamares-settings-lubuntu.linyaps -- /opt/apps/calamares-settings-lubuntu.linyaps/files/entrypoint.sh sudo -E /usr/bin/calamares-launch-normal
+[PID 27216] 进程已启动
+[PID 27216] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall calamares-settings-lubuntu.linyaps

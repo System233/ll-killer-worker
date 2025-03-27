@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: calamares-settings-lubuntu.linyaps
+  name: calamares-settings-lubuntu
+  version: 24.4.40.0
+  kind: app
+  description: |-
+    Lubuntu Calamares Settings and Branding
+    This package contains the Calamares settings and branding for Lubuntu.
+    As part of the branding the installer slideshow is contained within.
+    The settings ensure a proper Lubuntu desktop is installed with the
+    LXQt desktop environment.
+command:
+- /opt/apps/calamares-settings-lubuntu.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
