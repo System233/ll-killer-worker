@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-screen-recorder.linyaps
+  name: deepin-screen-recorder
+  version: 6.0.9.0
+  kind: app
+  description: |-
+    Simple recorder tools for UOS
+    Package: deepin-screen-recorder
+command:
+- /opt/apps/deepin-screen-recorder.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
