@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: djview4.linyaps
+  name: djview4
+  version: 4.12.0.3
+  kind: app
+  description: |-
+    Viewer for the DjVu image format
+    The DjVu viewer djview4 (aka djview) is a simple multi-page viewer
+    for DjVu-format documents. It can display, print, and save, and when
+    supported by the document, search for text, copy text to the
+    clipboard, follow links, etc.
+command:
+- /opt/apps/djview4.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
