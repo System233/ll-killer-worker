@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: anarchism.linyaps
+  name: anarchism
+  version: 15.3.0.3
+  kind: app
+  description: |-
+    Exhaustive exploration of Anarchist theory and practice
+    The Anarchist FAQ is an excellent source of information regarding Anarchist
+    (libertarian socialist) theory and practice. It covers all major topics,
+    from the basics of Anarchism to very specific discussions of politics,
+    social organization, and economics.
+command:
+- /opt/apps/anarchism.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
