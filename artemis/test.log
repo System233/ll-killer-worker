@@ -1,0 +1,67 @@
+正在测试: APPID=artemis.linyaps LAYER=artemis.linyaps_18.2.0.3_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install artemis.linyaps_18.2.0.3_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:artemis.linyaps
+Layer文件:artemis.linyaps_18.2.0.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: artemis.linyaps_18.2.0.3_x86_64_binary.layer
+offset: 742
+mountpoint: /tmp/tmp.23jTU9L0Tz/mnt
+dbglevel: 0
+[成功] act.desktop: helix -> /opt/apps/artemis.linyaps/files/share/icons/hicolor/96x96/apps/helix.png
+[成功] /opt/apps/artemis.linyaps/files/share/applications/act.desktop: /opt/apps/artemis.linyaps/files/entrypoint.sh act
+[成功] art.desktop: helix -> /opt/apps/artemis.linyaps/files/share/icons/hicolor/96x96/apps/helix.png
+[成功] /opt/apps/artemis.linyaps/files/share/applications/art.desktop: /opt/apps/artemis.linyaps/files/entrypoint.sh art
+[成功] bamview.desktop: helix -> /opt/apps/artemis.linyaps/files/share/icons/hicolor/96x96/apps/helix.png
+[成功] /opt/apps/artemis.linyaps/files/share/applications/bamview.desktop: /opt/apps/artemis.linyaps/files/entrypoint.sh bamview
+[成功] dnaplotter.desktop: helix -> /opt/apps/artemis.linyaps/files/share/icons/hicolor/96x96/apps/helix.png
+[成功] /opt/apps/artemis.linyaps/files/share/applications/dnaplotter.desktop: /opt/apps/artemis.linyaps/files/entrypoint.sh dnaplotter
+[正在测试启动项]
+包名:artemis.linyaps
+Layer文件:artemis.linyaps_18.2.0.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: artemis.linyaps_18.2.0.3_x86_64_binary.layer
+offset: 742
+mountpoint: /tmp/tmp.0u7TYBhcys/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run artemis.linyaps -- /opt/apps/artemis.linyaps/files/entrypoint.sh act
+[PID 26140] 进程已启动
+[PID 26140] 已检测到窗口:PID=37
+[PID 26140] 正在截图 0秒: tests/screen0-0.jpg
+[PID 26140] 正在截图 1秒: tests/screen0-1.jpg
+[PID 26140] 正在截图 3秒: tests/screen0-3.jpg
+[PID 26140] 正在截图 5秒: tests/screen0-5.jpg
+[PID 26140] 正在通知并等待进程退出
+[PID 26140] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run artemis.linyaps -- /opt/apps/artemis.linyaps/files/entrypoint.sh art
+[PID 26339] 进程已启动
+[PID 26339] 已检测到窗口:PID=37
+[PID 26339] 正在截图 0秒: tests/screen1-0.jpg
+[PID 26339] 正在截图 1秒: tests/screen1-1.jpg
+[PID 26339] 正在截图 3秒: tests/screen1-3.jpg
+[PID 26339] 正在截图 5秒: tests/screen1-5.jpg
+[PID 26339] 正在通知并等待进程退出
+[PID 26339] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run artemis.linyaps -- /opt/apps/artemis.linyaps/files/entrypoint.sh bamview
+[PID 26536] 进程已启动
+[PID 26536] 已检测到窗口:PID=37
+[PID 26536] 正在截图 0秒: tests/screen2-0.jpg
+[PID 26536] 正在截图 1秒: tests/screen2-1.jpg
+[PID 26536] 正在截图 3秒: tests/screen2-3.jpg
+[PID 26536] 正在截图 5秒: tests/screen2-5.jpg
+[PID 26536] 正在通知并等待进程退出
+[PID 26536] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run artemis.linyaps -- /opt/apps/artemis.linyaps/files/entrypoint.sh dnaplotter
+[PID 26727] 进程已启动
+[PID 26727] 已检测到窗口:PID=37
+[PID 26727] 正在截图 0秒: tests/screen3-0.jpg
+[PID 26727] 正在截图 1秒: tests/screen3-1.jpg
+[PID 26727] 正在截图 3秒: tests/screen3-3.jpg
+[PID 26727] 正在截图 5秒: tests/screen3-5.jpg
+[PID 26727] 正在通知并等待进程退出
+[PID 26727] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall artemis.linyaps
