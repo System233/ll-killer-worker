@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: edgar.linyaps
+  name: edgar
+  version: 1.37.0.1
+  kind: app
+  description: |-
+    Legend of Edgar platform game
+    The Legend of Edgar is a platform game where the hero must explore a vast
+    world, find items, solve puzzles, defeat powerful enemies, complete
+    mini-quests in order to save his father who has been kidnapped.
+
+    Includes support for joystick or joypad and configurable keyboard
+    support.
+command:
+- /opt/apps/edgar.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
