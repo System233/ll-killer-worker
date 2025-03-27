@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: cantor.linyaps
+  name: cantor
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    interface for mathematical applications
+    Cantor is an application to allow you to you use your favorite mathematical
+    applications from within an elegant worksheet interface. It provides dialogs
+    to assist with common tasks and allows you to share your worksheets
+    with others.
+
+    Cantor supports various mathematical applications as backends (provided in
+    external packages):
+    * Maxima Computer Algebra System (cantor-backend-maxima)
+    * R Project for Statistical Computing (cantor-backend-r)
+    * Sage Mathematics Software (cantor-backend-sage)
+    * Octave (cantor-backend-octave)
+    * Python (cantor-backend-python3)
+    * Scilab (cantor-backend-scilab)
+    * Qalculate! (cantor-backend-qalculate)
+    * Lua (cantor-backend-lua)
+
+    This package is part of the KDE education module.
+command:
+- /opt/apps/cantor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
