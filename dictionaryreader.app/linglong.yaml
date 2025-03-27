@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: dictionaryreader.app.linyaps
+  name: dictionaryreader.app
+  version: 0.0.0.2
+  kind: app
+  description: |-
+    Dict client for GNUstep
+    DictionaryReader is a dictionary application that queries Dict servers in
+    the internet to let you look up words. It's aimed to be lightweight and
+    easy to use.
+command:
+- /opt/apps/dictionaryreader.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
