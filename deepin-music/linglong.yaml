@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-music.linyaps
+  name: deepin-music
+  version: 6.2.40.0
+  kind: app
+  description: |-
+    Music software for UOS
+    Music is a local music player with beautiful design and simple functions.
+command:
+- /opt/apps/deepin-music.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
