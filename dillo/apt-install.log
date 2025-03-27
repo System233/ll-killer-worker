@@ -4,32 +4,97 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 Reading package lists...
 Building dependency tree...
 The following additional packages will be installed:
-  libfltk1.3 wget
+  libfltk1.3t64 libjpeg-turbo8 libjpeg8 libpng16-16t64 libpsl5t64 libssl3t64
+  libunistring5 publicsuffix wget
+The following packages will be REMOVED:
+  libjpeg-turbo-progs libpng16-16 libpsl5 libturbojpeg0
+  xscreensaver-data-extra
 The following NEW packages will be installed:
-  dillo libfltk1.3 wget
-0 upgraded, 3 newly installed, 0 to remove and 236 not upgraded.
-Need to get 2035 kB of archives.
-After this operation, 7001 kB of additional disk space will be used.
-Get:1 https://community-packages.deepin.com/beige beige/main amd64 wget amd64 1.25.0-0deepin1 [983 kB]
-Get:2 https://community-packages.deepin.com/beige beige/main amd64 libfltk1.3 amd64 1.3.8-5deepin [552 kB]
-Get:3 https://community-packages.deepin.com/beige beige/community amd64 dillo amd64 3.0.5-7 [500 kB]
-Fetched 2035 kB in 1s (1566 kB/s)
-Selecting previously unselected package wget.
+  dillo libfltk1.3t64 libjpeg-turbo8 libjpeg8 libpng16-16t64 libpsl5t64
+  libssl3t64 libunistring5 publicsuffix wget
+0 upgraded, 10 newly installed, 5 to remove and 451 not upgraded.
+Need to get 4433 kB of archives.
+After this operation, 3423 kB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpng16-16t64 amd64 1.6.43-5build1 [187 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libunistring5 amd64 1.1-2build1.1 [536 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpsl5t64 amd64 0.21.2-1.1build1 [57.1 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libssl3t64 amd64 3.0.13-0ubuntu3.5 [1940 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 publicsuffix all 20231001.0357-0.1 [129 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 wget amd64 1.21.4-1ubuntu4.1 [334 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libfltk1.3t64 amd64 1.3.8-6.1build2 [606 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-turbo8 amd64 2.1.5-2ubuntu2 [150 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg8 amd64 8c-2ubuntu11 [2148 B]
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 dillo amd64 3.0.5-7build5 [493 kB]
+Fetched 4433 kB in 0s (11.8 MB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
-Preparing to unpack .../wget_1.25.0-0deepin1_amd64.deb ...
-Unpacking wget (1.25.0-0deepin1) ...
-Selecting previously unselected package libfltk1.3:amd64.
-Preparing to unpack .../libfltk1.3_1.3.8-5deepin_amd64.deb ...
-Unpacking libfltk1.3:amd64 (1.3.8-5deepin) ...
+Removing xscreensaver-data-extra (6.02+dfsg1-3) ...
+Removing libjpeg-turbo-progs (1:2.1.5-2) ...
+dpkg: libpng16-16:amd64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:amd64 depends on libpng16-16 (>= 1.6.2).
+
+Removing libpng16-16:amd64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27161 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_amd64.deb ...
+Unpacking libpng16-16t64:amd64 (1.6.43-5build1) ...
+Selecting previously unselected package libunistring5:amd64.
+Preparing to unpack .../libunistring5_1.1-2build1.1_amd64.deb ...
+Unpacking libunistring5:amd64 (1.1-2build1.1) ...
+dpkg: libpsl5:amd64: dependency problems, but removing anyway as you requested:
+ libcurl4:amd64 depends on libpsl5 (>= 0.16.0).
+ libcurl3-gnutls:amd64 depends on libpsl5 (>= 0.16.0).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27177 files and directories currently installed.)
+Removing libpsl5:amd64 (0.21.0-1.2) ...
+Selecting previously unselected package libpsl5t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27171 files and directories currently installed.)
+Preparing to unpack .../libpsl5t64_0.21.2-1.1build1_amd64.deb ...
+Unpacking libpsl5t64:amd64 (0.21.2-1.1build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27177 files and directories currently installed.)
+Removing libturbojpeg0:amd64 (1:2.1.5-2) ...
+Selecting previously unselected package libssl3t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27170 files and directories currently installed.)
+Preparing to unpack .../0-libssl3t64_3.0.13-0ubuntu3.5_amd64.deb ...
+Unpacking libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:amd64 (3.2.0-2) ...
+Selecting previously unselected package publicsuffix.
+Preparing to unpack .../1-publicsuffix_20231001.0357-0.1_all.deb ...
+Unpacking publicsuffix (20231001.0357-0.1) ...
+Selecting previously unselected package wget.
+Preparing to unpack .../2-wget_1.21.4-1ubuntu4.1_amd64.deb ...
+Unpacking wget (1.21.4-1ubuntu4.1) ...
+Selecting previously unselected package libfltk1.3t64:amd64.
+Preparing to unpack .../3-libfltk1.3t64_1.3.8-6.1build2_amd64.deb ...
+Unpacking libfltk1.3t64:amd64 (1.3.8-6.1build2) ...
+Selecting previously unselected package libjpeg-turbo8:amd64.
+Preparing to unpack .../4-libjpeg-turbo8_2.1.5-2ubuntu2_amd64.deb ...
+Unpacking libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Selecting previously unselected package libjpeg8:amd64.
+Preparing to unpack .../5-libjpeg8_8c-2ubuntu11_amd64.deb ...
+Unpacking libjpeg8:amd64 (8c-2ubuntu11) ...
 Selecting previously unselected package dillo.
-Preparing to unpack .../dillo_3.0.5-7_amd64.deb ...
-Unpacking dillo (3.0.5-7) ...
-Setting up wget (1.25.0-0deepin1) ...
+Preparing to unpack .../6-dillo_3.0.5-7build5_amd64.deb ...
+Unpacking dillo (3.0.5-7build5) ...
+Setting up libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Setting up libunistring5:amd64 (1.1-2build1.1) ...
+Setting up libpng16-16t64:amd64 (1.6.43-5build1) ...
+Setting up libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Setting up libfltk1.3t64:amd64 (1.3.8-6.1build2) ...
+Setting up publicsuffix (20231001.0357-0.1) ...
+Setting up libjpeg8:amd64 (8c-2ubuntu11) ...
+Setting up libpsl5t64:amd64 (0.21.2-1.1build1) ...
+Setting up wget (1.21.4-1ubuntu4.1) ...
 
 Configuration file '/etc/wgetrc', does not exist on system.
 Installing new config file as you requested.
-Setting up libfltk1.3:amd64 (1.3.8-5deepin) ...
-Setting up dillo (3.0.5-7) ...
+Setting up dillo (3.0.5-7build5) ...
 
 Configuration file '/etc/dillo/dillorc', does not exist on system.
 Installing new config file as you requested.
@@ -43,4 +108,3 @@ Installing new config file as you requested.
 Configuration file '/etc/dillo/keysrc', does not exist on system.
 Installing new config file as you requested.
 Processing triggers for libc-bin (2.38-6deepin4) ...
-W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
