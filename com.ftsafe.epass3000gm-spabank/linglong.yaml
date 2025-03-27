@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.ftsafe.epass3000gm-spabank.linyaps
+  name: com.ftsafe.epass3000gm-spabank
+  version: 1.2.4.1
+  kind: app
+  description: ftsafe product
+command:
+- /opt/apps/com.ftsafe.epass3000gm-spabank.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
