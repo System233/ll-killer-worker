@@ -1,0 +1,67 @@
+正在测试: APPID=budgie-welcome.linyaps LAYER=budgie-welcome.linyaps_0.6.1.0_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install budgie-welcome.linyaps_0.6.1.0_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:budgie-welcome.linyaps
+Layer文件:budgie-welcome.linyaps_0.6.1.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: budgie-welcome.linyaps_0.6.1.0_x86_64_binary.layer
+offset: 841
+mountpoint: /tmp/tmp.bueRbFvJbo/mnt
+dbglevel: 0
+[31m[失败] budgie-applets.desktop:distributor-logo-ubuntu-budgie: 找不到此图标 [0m
+[成功] /opt/apps/budgie-welcome.linyaps/files/share/applications/budgie-applets.desktop: /opt/apps/budgie-welcome.linyaps/files/entrypoint.sh budgie-welcome --jump-to=budgie-applets
+[31m[失败] budgie-complete.desktop:distributor-logo-ubuntu-budgie: 找不到此图标 [0m
+[成功] /opt/apps/budgie-welcome.linyaps/files/share/applications/budgie-complete.desktop: /opt/apps/budgie-welcome.linyaps/files/entrypoint.sh budgie-welcome
+[31m[失败] budgie-themes.desktop:distributor-logo-ubuntu-budgie: 找不到此图标 [0m
+[成功] /opt/apps/budgie-welcome.linyaps/files/share/applications/budgie-themes.desktop: /opt/apps/budgie-welcome.linyaps/files/entrypoint.sh budgie-welcome --jump-to=default
+[31m[失败] budgie-welcome.desktop:distributor-logo-ubuntu-budgie: 找不到此图标 [0m
+[成功] /opt/apps/budgie-welcome.linyaps/files/share/applications/budgie-welcome.desktop: /opt/apps/budgie-welcome.linyaps/files/entrypoint.sh budgie-welcome
+[正在测试启动项]
+包名:budgie-welcome.linyaps
+Layer文件:budgie-welcome.linyaps_0.6.1.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: budgie-welcome.linyaps_0.6.1.0_x86_64_binary.layer
+offset: 841
+mountpoint: /tmp/tmp.oidsz7yvVB/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run budgie-welcome.linyaps -- /opt/apps/budgie-welcome.linyaps/files/entrypoint.sh budgie-welcome --jump-to=budgie-applets
+[PID 19053] 进程已启动
+[PID 19053] 已检测到窗口:PID=41
+[PID 19053] 正在截图 0秒: tests/screen0-0.jpg
+[PID 19053] 正在截图 1秒: tests/screen0-1.jpg
+[PID 19053] 正在截图 3秒: tests/screen0-3.jpg
+[PID 19053] 正在截图 5秒: tests/screen0-5.jpg
+[PID 19053] 正在通知并等待进程退出
+[PID 19053] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run budgie-welcome.linyaps -- /opt/apps/budgie-welcome.linyaps/files/entrypoint.sh budgie-welcome
+[PID 19249] 进程已启动
+[PID 19249] 已检测到窗口:PID=40
+[PID 19249] 正在截图 0秒: tests/screen1-0.jpg
+[PID 19249] 正在截图 1秒: tests/screen1-1.jpg
+[PID 19249] 正在截图 3秒: tests/screen1-3.jpg
+[PID 19249] 正在截图 5秒: tests/screen1-5.jpg
+[PID 19249] 正在通知并等待进程退出
+[PID 19249] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run budgie-welcome.linyaps -- /opt/apps/budgie-welcome.linyaps/files/entrypoint.sh budgie-welcome --jump-to=default
+[PID 19431] 进程已启动
+[PID 19431] 已检测到窗口:PID=41
+[PID 19431] 正在截图 0秒: tests/screen2-0.jpg
+[PID 19431] 正在截图 1秒: tests/screen2-1.jpg
+[PID 19431] 正在截图 3秒: tests/screen2-3.jpg
+[PID 19431] 正在截图 5秒: tests/screen2-5.jpg
+[PID 19431] 正在通知并等待进程退出
+[PID 19431] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run budgie-welcome.linyaps -- /opt/apps/budgie-welcome.linyaps/files/entrypoint.sh budgie-welcome
+[PID 19616] 进程已启动
+[PID 19616] 已检测到窗口:PID=40
+[PID 19616] 正在截图 0秒: tests/screen3-0.jpg
+[PID 19616] 正在截图 1秒: tests/screen3-1.jpg
+[PID 19616] 正在截图 3秒: tests/screen3-3.jpg
+[PID 19616] 正在截图 5秒: tests/screen3-5.jpg
+[PID 19616] 正在通知并等待进程退出
+[PID 19616] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall budgie-welcome.linyaps
