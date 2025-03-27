@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: d-spy.linyaps
+  name: d-spy
+  version: 1.10.0.1
+  kind: app
+  description: |-
+    D-Bus explorer and test app for GNOME
+    D-Spy is a tool to explore and test end-points and interfaces on the
+    System or Session D-Bus. You can also connect to D-Bus peers by address.
+
+    D-Spy was originally part of the GNOME Builder app.
+command:
+- /opt/apps/d-spy.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
