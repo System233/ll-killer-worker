@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: com.mindeo.scannertext.linyaps
+  name: com.mindeo.scannertext
+  version: 1.2.2.4
+  kind: app
+  description: |-
+    <insert up to 60 chars description>
+    <insert long description, indented with spaces>
+command:
+- /opt/apps/com.mindeo.scannertext.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
