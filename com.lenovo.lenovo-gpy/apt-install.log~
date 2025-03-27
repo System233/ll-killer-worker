@@ -9,15 +9,15 @@ The following NEW packages will be installed:
 Need to get 13.8 MB of archives.
 After this operation, 524 kB of additional disk space will be used.
 Get:1 https://community-packages.deepin.com/driver-23 driver/non-free amd64 com.lenovo.lenovo-gpy amd64 2.1.7.3 [13.8 MB]
-Fetched 13.8 MB in 2s (5645 kB/s)
+Fetched 13.8 MB in 2s (8804 kB/s)
 Selecting previously unselected package com.lenovo.lenovo-gpy.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
 Preparing to unpack .../com.lenovo.lenovo-gpy_2.1.7.3_amd64.deb ...
 Unpacking com.lenovo.lenovo-gpy (2.1.7.3) ...
-dpkg: error processing archive /var/cache/apt/archives/com.lenovo.lenovo-gpy_2.1.7.3_amd64.deb (--unpack):
- error setting ownership of './com.lenovo.lenovo-gpy_2.1.7.3_amd64.deb': Invalid argument
-dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Setting up com.lenovo.lenovo-gpy (2.1.7.3) ...
+/var/lib/dpkg/info/com.lenovo.lenovo-gpy.postinst: line 4: sudo: command not found
+dpkg: error processing package com.lenovo.lenovo-gpy (--configure):
+ installed com.lenovo.lenovo-gpy package post-installation script subprocess returned error exit status 127
 Errors were encountered while processing:
- /var/cache/apt/archives/com.lenovo.lenovo-gpy_2.1.7.3_amd64.deb
-W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
+ com.lenovo.lenovo-gpy
 E: Sub-process /usr/bin/dpkg returned an error code (1)
