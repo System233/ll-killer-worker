@@ -22,7 +22,7 @@
 | [abe](./abe) | arm64  | ubuntu-noble | 1.1+dfsg-5 | ![screen0-5.jpg](./abe/tests/screen0-5.jpg) | [SHA256SUM](./abe/SHA256SUMS) |
 | [abiword](./abiword) | arm64  | ubuntu-noble | 3.0.5~dfsg-3.2build4 | ![screen0-5.jpg](./abiword/tests/screen0-5.jpg) | [SHA256SUM](./abiword/SHA256SUMS) |
 | [accerciser](./accerciser) | arm64  | ubuntu-noble | 3.42.0-1ubuntu0.1-20250327 | 失败 | N/A |
-| [accountwizard](./accountwizard) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3-41e1047 | 失败 | N/A |
+| [accountwizard](./accountwizard) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3-20250327 | 失败 | N/A |
 | [ace-of-penguins](./ace-of-penguins) | arm64  | ubuntu-noble | 1.5~rc2-5ubuntu4 | ![screen0-5.jpg](./ace-of-penguins/tests/screen0-5.jpg) ![screen1-5.jpg](./ace-of-penguins/tests/screen1-5.jpg) ![screen2-5.jpg](./ace-of-penguins/tests/screen2-5.jpg) ![screen3-5.jpg](./ace-of-penguins/tests/screen3-5.jpg) ![screen4-5.jpg](./ace-of-penguins/tests/screen4-5.jpg) ![screen5-5.jpg](./ace-of-penguins/tests/screen5-5.jpg) ![screen6-5.jpg](./ace-of-penguins/tests/screen6-5.jpg) ![screen7-5.jpg](./ace-of-penguins/tests/screen7-5.jpg) ![screen8-5.jpg](./ace-of-penguins/tests/screen8-5.jpg) ![screen9-5.jpg](./ace-of-penguins/tests/screen9-5.jpg) ![screen10-5.jpg](./ace-of-penguins/tests/screen10-5.jpg) ![screen11-5.jpg](./ace-of-penguins/tests/screen11-5.jpg) | [SHA256SUM](./ace-of-penguins/SHA256SUMS) |
 | [acetoneiso](./acetoneiso) | arm64  | ubuntu-noble | 2.4-4build2 | ![screen0-5.jpg](./acetoneiso/tests/screen0-5.jpg) | [SHA256SUM](./acetoneiso/SHA256SUMS) |
 | [achilles](./achilles) | arm64  | ubuntu-noble | 2-12build2 | ![screen0-5.jpg](./achilles/tests/screen0-5.jpg) | [SHA256SUM](./achilles/SHA256SUMS) |
@@ -77,7 +77,7 @@
 | [anarchism](./anarchism) | arm64  | ubuntu-noble | 15.3-3 | 失败 | [SHA256SUM](./anarchism/SHA256SUMS) |
 | [android-file-transfer](./android-file-transfer) | arm64  | ubuntu-noble | 4.3-1build3 | ![screen0-5.jpg](./android-file-transfer/tests/screen0-5.jpg) | [SHA256SUM](./android-file-transfer/SHA256SUMS) |
 | [angband-data](./angband-data) | arm64  | ubuntu-noble | 4.2.5+dfsg1-1 | 失败 | [SHA256SUM](./angband-data/SHA256SUMS) |
-| [angelfish](./angelfish) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3-44b4f74 | 失败 | N/A |
+| [angelfish](./angelfish) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3-20250327 | 失败 | N/A |
 | [angrydd](./angrydd) | arm64  | ubuntu-noble | 1.0.1-14 | ![screen0-5.jpg](./angrydd/tests/screen0-5.jpg) | [SHA256SUM](./angrydd/SHA256SUMS) |
 | [anki](./anki) | arm64  | ubuntu-noble | 2.1.15+dfsg-3ubuntu4.1 | ![screen0-5.jpg](./anki/tests/screen0-5.jpg) | N/A |
 | [ansifilter-gui](./ansifilter-gui) | arm64  | ubuntu-noble | 2.18+dfsg1-2build2 | ![screen0-5.jpg](./ansifilter-gui/tests/screen0-5.jpg) | [SHA256SUM](./ansifilter-gui/SHA256SUMS) |
@@ -96,10 +96,10 @@
 | [apturl-common](./apturl-common) | arm64  | ubuntu-noble | 0.5.2ubuntu23 | 失败 | [SHA256SUM](./apturl-common/SHA256SUMS) |
 | [apvlv](./apvlv) | arm64  | ubuntu-noble | 0.5.0+repack-2build3 | ![screen0-5.jpg](./apvlv/tests/screen0-5.jpg) | [SHA256SUM](./apvlv/SHA256SUMS) |
 | [aqemu](./aqemu) | arm64  | ubuntu-noble | 0.9.2-3ubuntu2 | ![screen0-5.jpg](./aqemu/tests/screen0-5.jpg) | [SHA256SUM](./aqemu/SHA256SUMS) |
-| [arandr](./arandr) | arm64  | ubuntu-noble | 0.1.11-1-44b4f74 | 失败 | N/A |
+| [arandr](./arandr) | arm64  | ubuntu-noble | 0.1.11-1-20250327 | 失败 | N/A |
 | [aranym](./aranym) | arm64  | ubuntu-noble | 1.1.0-2 | ![screen1-5.jpg](./aranym/tests/screen1-5.jpg) ![screen2-5.jpg](./aranym/tests/screen2-5.jpg) | N/A |
 | [aravis-tools](./aravis-tools) | arm64  | ubuntu-noble | 0.8.30-1build2 | 失败 | [SHA256SUM](./aravis-tools/SHA256SUMS) |
-| [arb](./arb) | arm64  | ubuntu-noble | 6.0.6-7build3-44b4f74 | 失败 | N/A |
+| [arb](./arb) | arm64  | ubuntu-noble | 6.0.6-7build3-20250327 | 失败 | N/A |
 | [arc-gui-clients](./arc-gui-clients) | arm64  | ubuntu-noble | 0.4.6-7build5 | ![screen0-5.jpg](./arc-gui-clients/tests/screen0-5.jpg) ![screen1-5.jpg](./arc-gui-clients/tests/screen1-5.jpg) ![screen3-5.jpg](./arc-gui-clients/tests/screen3-5.jpg) ![screen4-5.jpg](./arc-gui-clients/tests/screen4-5.jpg) | N/A |
 | [ardentryst](./ardentryst) | arm64  | ubuntu-noble | 1.71-10 | ![screen0-5.jpg](./ardentryst/tests/screen0-5.jpg) | [SHA256SUM](./ardentryst/SHA256SUMS) |
 | [ardour](./ardour) | arm64  | ubuntu-noble | 8.4.0+ds1-2ubuntu8 | ![screen0-5.jpg](./ardour/tests/screen0-5.jpg) | [SHA256SUM](./ardour/SHA256SUMS) |
@@ -113,7 +113,7 @@
 | [artha](./artha) | arm64  | ubuntu-noble | 1.0.5-3build2 | ![screen0-5.jpg](./artha/tests/screen0-5.jpg) | [SHA256SUM](./artha/SHA256SUMS) |
 | [artikulate](./artikulate) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./artikulate/tests/screen0-5.jpg) | N/A |
 | [asc](./asc) | arm64  | ubuntu-noble | 2.6.1.0-9build5 | ![screen0-5.jpg](./asc/tests/screen0-5.jpg) | [SHA256SUM](./asc/SHA256SUMS) |
-| [asciijump](./asciijump) | arm64  | ubuntu-noble | 1.0.2~beta-10-44b4f74 | 失败 | N/A |
+| [asciijump](./asciijump) | arm64  | ubuntu-noble | 1.0.2~beta-10-20250327 | 失败 | N/A |
 | [ase](./ase) | arm64  | ubuntu-noble | 3.22.1-4 | ![screen0-5.jpg](./ase/tests/screen0-5.jpg) | [SHA256SUM](./ase/SHA256SUMS) |
 | [aseba](./aseba) | arm64  | ubuntu-noble | 1.6.99+dfsg-9build2 | ![screen0-5.jpg](./aseba/tests/screen0-5.jpg) ![screen2-5.jpg](./aseba/tests/screen2-5.jpg) ![screen3-5.jpg](./aseba/tests/screen3-5.jpg) ![screen4-5.jpg](./aseba/tests/screen4-5.jpg) ![screen5-5.jpg](./aseba/tests/screen5-5.jpg) ![screen6-5.jpg](./aseba/tests/screen6-5.jpg) ![screen8-5.jpg](./aseba/tests/screen8-5.jpg) | [SHA256SUM](./aseba/SHA256SUMS) |
 | [assaultcube](./assaultcube) | arm64  | ubuntu-noble | 1.3.0.2+dfsg-5 | ![screen0-5.jpg](./assaultcube/tests/screen0-5.jpg) | N/A |
@@ -134,14 +134,14 @@
 | [auto-multiple-choice](./auto-multiple-choice) | arm64  | ubuntu-noble | 1.6.0-3build4-20250327 | 失败 | N/A |
 | [autokey-gtk](./autokey-gtk) | arm64  | ubuntu-noble | 0.95.10-2.1-20250327 | 失败 | N/A |
 | [autokey-qt](./autokey-qt) | arm64  | ubuntu-noble | 0.95.10-2.1 | ![screen0-5.jpg](./autokey-qt/tests/screen0-5.jpg) | [SHA256SUM](./autokey-qt/SHA256SUMS) |
-| [autorenamer](./autorenamer) | arm64  | ubuntu-noble | 0.6-1-44b4f74 | 失败 | N/A |
+| [autorenamer](./autorenamer) | arm64  | ubuntu-noble | 0.6-1-20250327 | 失败 | N/A |
 | [avahi-discover](./avahi-discover) | arm64  | ubuntu-noble | 0.8-13ubuntu6-20250327 | 失败 | N/A |
 | [avahi-ui-utils](./avahi-ui-utils) | arm64  | ubuntu-noble | 0.8-13ubuntu6 | ![screen0-5.jpg](./avahi-ui-utils/tests/screen0-5.jpg) ![screen1-5.jpg](./avahi-ui-utils/tests/screen1-5.jpg) | N/A |
 | [avogadro](./avogadro) | arm64  | ubuntu-noble | 1.99.0-1build2 | ![screen0-5.jpg](./avogadro/tests/screen0-5.jpg) | [SHA256SUM](./avogadro/SHA256SUMS) |
 | [awf-gtk3](./awf-gtk3) | arm64  | ubuntu-noble | 2.8.0-1build2 | ![screen0-5.jpg](./awf-gtk3/tests/screen0-5.jpg) | [SHA256SUM](./awf-gtk3/SHA256SUMS) |
 | [awf-gtk4](./awf-gtk4) | arm64  | ubuntu-noble | 2.8.0-1build2 | ![screen0-5.jpg](./awf-gtk4/tests/screen0-5.jpg) | [SHA256SUM](./awf-gtk4/SHA256SUMS) |
 | [ayatana-settings](./ayatana-settings) | arm64  | ubuntu-noble | 23.11.14-1-20250327 | 失败 | N/A |
-| [ayatana-webmail](./ayatana-webmail) | arm64  | ubuntu-noble | 23.12.25+dfsg-1-44b4f74 | 失败 | N/A |
+| [ayatana-webmail](./ayatana-webmail) | arm64  | ubuntu-noble | 23.12.25+dfsg-1-20250327 | 失败 | N/A |
 | [backintime-qt](./backintime-qt) | arm64  | ubuntu-noble | 1.4.3-1 | ![screen1-5.jpg](./backintime-qt/tests/screen1-5.jpg) | N/A |
 | [bacula-console-qt](./bacula-console-qt) | arm64  | ubuntu-noble | 13.0.4-1build3 | ![screen0-5.jpg](./bacula-console-qt/tests/screen0-5.jpg) | N/A |
 | [bacula-tray-monitor](./bacula-tray-monitor) | arm64  | ubuntu-noble | 13.0.4-1build3 | ![screen0-5.jpg](./bacula-tray-monitor/tests/screen0-5.jpg) | N/A |
@@ -177,7 +177,7 @@
 | [bibletime](./bibletime) | arm64  | ubuntu-noble | 3.0.3-3build2 | ![screen0-5.jpg](./bibletime/tests/screen0-5.jpg) | [SHA256SUM](./bibletime/SHA256SUMS) |
 | [bibshelf](./bibshelf) | arm64  | ubuntu-noble | 1.6.0-0ubuntu9 | ![screen0-5.jpg](./bibshelf/tests/screen0-5.jpg) | [SHA256SUM](./bibshelf/SHA256SUMS) |
 | [biglybt](./biglybt) | arm64  | ubuntu-noble | 3.4.0.0-1 | 失败 | [SHA256SUM](./biglybt/SHA256SUMS) |
-| [bijiben](./bijiben) | arm64  | ubuntu-noble | 40.1-6build4-44b4f74 | 失败 | N/A |
+| [bijiben](./bijiben) | arm64  | ubuntu-noble | 40.1-6build4-20250327 | 失败 | N/A |
 | [billard-gl](./billard-gl) | arm64  | ubuntu-noble | 1.75-17build2 | ![screen0-5.jpg](./billard-gl/tests/screen0-5.jpg) | [SHA256SUM](./billard-gl/SHA256SUMS) |
 | [biloba](./biloba) | arm64  | ubuntu-noble | 0.9.3-11 | ![screen0-5.jpg](./biloba/tests/screen0-5.jpg) | [SHA256SUM](./biloba/SHA256SUMS) |
 | [biniax2](./biniax2) | arm64  | ubuntu-noble | 1.30-7 | ![screen0-5.jpg](./biniax2/tests/screen0-5.jpg) | [SHA256SUM](./biniax2/SHA256SUMS) |
@@ -187,7 +187,7 @@
 | [bisheng-engine](./bisheng-engine) | arm64  | deepin-v23 | 2.0.13-1-20250327 | 失败 | N/A |
 | [bitsnpicas](./bitsnpicas) | arm64  | ubuntu-noble | 2.0+ds-2 | 失败 | [SHA256SUM](./bitsnpicas/SHA256SUMS) |
 | [biz.zcjt.gaopaiyi](./biz.zcjt.gaopaiyi) | arm64  | deepin-v23 | 1.0.0-20250327 | 失败 | N/A |
-| [biz.zcjt.scanner](./biz.zcjt.scanner) | arm64  | deepin-v23 | 1.0.2.0-44b4f74 | 失败 | N/A |
+| [biz.zcjt.scanner](./biz.zcjt.scanner) | arm64  | deepin-v23 | 1.0.2.0-20250327 | 失败 | N/A |
 | [biz.zcjt.zc-a5930dn](./biz.zcjt.zc-a5930dn) | arm64  | deepin-v23 | 1.0.0-23166 | ![screen0-5.jpg](./biz.zcjt.zc-a5930dn/tests/screen0-5.jpg) ![screen1-5.jpg](./biz.zcjt.zc-a5930dn/tests/screen1-5.jpg) | N/A |
 | [biz.zcjt.zc-a5933dn](./biz.zcjt.zc-a5933dn) | arm64  | deepin-v23 | 1.0.0-23324 | ![screen0-5.jpg](./biz.zcjt.zc-a5933dn/tests/screen0-5.jpg) ![screen1-5.jpg](./biz.zcjt.zc-a5933dn/tests/screen1-5.jpg) | N/A |
 | [biz.zcjt.zhongchu-sane](./biz.zcjt.zhongchu-sane) | arm64  | deepin-v23 | 20240911-6.6.10.030-44b4f74 | 失败 | N/A |
@@ -212,7 +212,7 @@
 | [boinc-manager](./boinc-manager) | arm64  | ubuntu-noble | 7.24.1+dfsg-4build1 | ![screen0-5.jpg](./boinc-manager/tests/screen0-5.jpg) | N/A |
 | [bomber](./bomber) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./bomber/tests/screen0-5.jpg) | N/A |
 | [bomberclone](./bomberclone) | arm64  | ubuntu-noble | 0.11.9-7.1 | ![screen0-5.jpg](./bomberclone/tests/screen0-5.jpg) | [SHA256SUM](./bomberclone/SHA256SUMS) |
-| [bookletimposer](./bookletimposer) | arm64  | ubuntu-noble | 0.3.1-4ubuntu1-44b4f74 | 失败 | N/A |
+| [bookletimposer](./bookletimposer) | arm64  | ubuntu-noble | 0.3.1-4ubuntu1-20250327 | 失败 | N/A |
 | [bookworm](./bookworm) | arm64  | ubuntu-noble | 1.1.2+git20210715-4build3 | ![screen0-5.jpg](./bookworm/tests/screen0-5.jpg) | [SHA256SUM](./bookworm/SHA256SUMS) |
 | [boomaga](./boomaga) | arm64  | ubuntu-noble | 3.0.0+git13-g7f7ad47-1build4 | ![screen0-5.jpg](./boomaga/tests/screen0-5.jpg) | [SHA256SUM](./boomaga/SHA256SUMS) |
 | [bossa](./bossa) | arm64  | ubuntu-noble | 1.9.1-3ubuntu5 | ![screen0-5.jpg](./bossa/tests/screen0-5.jpg) | [SHA256SUM](./bossa/SHA256SUMS) |
@@ -230,9 +230,9 @@
 | [btanks](./btanks) | arm64  | ubuntu-noble | 0.9.8083-9build1 | ![screen0-5.jpg](./btanks/tests/screen0-5.jpg) | [SHA256SUM](./btanks/SHA256SUMS) |
 | [btop](./btop) | arm64  | deepin-v23 | 1.3.0-1-20250327 | 失败 | N/A |
 | [budgie-arm-environment](./budgie-arm-environment) | arm64  | ubuntu-noble | 0.20.13-20250327 | 失败 | N/A |
-| [budgie-control-center](./budgie-control-center) | arm64  | ubuntu-noble | 1.4.0-2build3-44b4f74 | 失败 | N/A |
-| [budgie-core](./budgie-core) | arm64  | ubuntu-noble | 10.9.1-3ubuntu4-44b4f74 | 失败 | N/A |
-| [budgie-desktop-environment](./budgie-desktop-environment) | arm64  | ubuntu-noble | 0.20.13-44b4f74 | 失败 | N/A |
+| [budgie-control-center](./budgie-control-center) | arm64  | ubuntu-noble | 1.4.0-2build3-20250327 | 失败 | N/A |
+| [budgie-core](./budgie-core) | arm64  | ubuntu-noble | 10.9.1-3ubuntu4-20250327 | 失败 | N/A |
+| [budgie-desktop-environment](./budgie-desktop-environment) | arm64  | ubuntu-noble | 0.20.13-20250327 | 失败 | N/A |
 | [budgie-desktop-view](./budgie-desktop-view) | arm64  | ubuntu-noble | 1.3-2build1-20250327 | 失败 | N/A |
 | [budgie-hotcorners-applet](./budgie-hotcorners-applet) | arm64  | ubuntu-noble | 1.8.0-1build3 | ![screen0-5.jpg](./budgie-hotcorners-applet/tests/screen0-5.jpg) | N/A |
 | [budgie-previews](./budgie-previews) | arm64  | ubuntu-noble | 1.8.0-1build3 | ![screen0-5.jpg](./budgie-previews/tests/screen0-5.jpg) | [SHA256SUM](./budgie-previews/SHA256SUMS) |
@@ -257,10 +257,10 @@
 | [caja-seahorse](./caja-seahorse) | arm64  | ubuntu-noble | 1.18.5-3-20250327 | 失败 | N/A |
 | [calamares](./calamares) | arm64  | ubuntu-noble | 3.3.5-0ubuntu4-20250327 | 失败 | N/A |
 | [calamares-settings-debian](./calamares-settings-debian) | arm64  | ubuntu-noble | 13.0.5-1-20250327 | 失败 | N/A |
-| [calamares-settings-kubuntu](./calamares-settings-kubuntu) | arm64  | ubuntu-noble | 24.04.40-44b4f74 | 失败 | N/A |
-| [calamares-settings-lubuntu](./calamares-settings-lubuntu) | arm64  | ubuntu-noble | 24.04.40-44b4f74 | 失败 | N/A |
-| [calamares-settings-ubuntu-unity](./calamares-settings-ubuntu-unity) | arm64  | ubuntu-noble | 24.04.40-44b4f74 | 失败 | N/A |
-| [calc-common](./calc-common) | arm64  | ubuntu-noble | 2.15.0.4-1build2-44b4f74 | 失败 | N/A |
+| [calamares-settings-kubuntu](./calamares-settings-kubuntu) | arm64  | ubuntu-noble | 24.04.40-20250327 | 失败 | N/A |
+| [calamares-settings-lubuntu](./calamares-settings-lubuntu) | arm64  | ubuntu-noble | 24.04.40-20250327 | 失败 | N/A |
+| [calamares-settings-ubuntu-unity](./calamares-settings-ubuntu-unity) | arm64  | ubuntu-noble | 24.04.40-20250327 | 失败 | N/A |
+| [calc-common](./calc-common) | arm64  | ubuntu-noble | 2.15.0.4-1build2-20250327 | 失败 | N/A |
 | [calf-plugins](./calf-plugins) | arm64  | ubuntu-noble | 0.90.3-4build2-44b4f74 | 失败 | N/A |
 | [calibre](./calibre) | arm64  | ubuntu-noble | 7.6.0+ds-1build1-44b4f74 | 失败 | N/A |
 | [calindori](./calindori) | arm64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./calindori/tests/screen0-5.jpg) | N/A |
