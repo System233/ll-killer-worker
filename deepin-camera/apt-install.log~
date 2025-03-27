@@ -213,7 +213,7 @@ Get:136 https://community-packages.deepin.com/beige beige/main amd64 pocketsphin
 Get:137 https://community-packages.deepin.com/beige beige/main amd64 qt5-gtk-platformtheme amd64 5.15.8-1+deepin9+rb1 [118 kB]
 Get:138 https://community-packages.deepin.com/beige beige/main amd64 qttranslations5-l10n all 5.15.8-1+dde [1871 kB]
 Get:139 https://community-packages.deepin.com/beige beige/main amd64 usb.ids all 2024.03.18-1 [208 kB]
-Fetched 202 MB in 13s (15.9 MB/s)
+Fetched 202 MB in 10s (20.9 MB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
 Preparing to unpack .../gcc-13-base_13.2.0-3deepin4_amd64.deb ...
 Unpacking gcc-13-base:amd64 (13.2.0-3deepin4) over (13.2.0-3deepin2) ...
@@ -749,10 +749,7 @@ Setting up libopenal1:amd64 (1:1.19.1-2) ...
 Setting up libavformat60:amd64 (7:6.1.1-2deepin0) ...
 Setting up libavfilter9:amd64 (7:6.1.1-2deepin0) ...
 Setting up dde-api (6.0.13) ...
-Stopped: chown 103:109 /var/lib/deepin-sound-player: Invalid argument
-
-Removing directory `/var/lib/deepin-sound-player' ...
-Removing user `deepin-sound-player' ...
+runuser: cannot set groups: Operation not permitted
 dpkg: error processing package dde-api (--configure):
  installed dde-api package post-installation script subprocess returned error exit status 1
 Setting up libinput-bin (1.26.0-1deepin3) ...
@@ -797,5 +794,4 @@ dpkg: deepin-camera: dependency problems, but configuring anyway as you requeste
 Setting up deepin-camera (6.5.5) ...
 Errors were encountered while processing:
  dde-api
-W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
 E: Sub-process /usr/bin/dpkg returned an error code (1)
