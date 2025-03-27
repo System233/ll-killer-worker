@@ -1,0 +1,40 @@
+正在测试: APPID=budgie-core.linyaps LAYER=budgie-core.linyaps_10.9.1.3_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install budgie-core.linyaps_10.9.1.3_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:budgie-core.linyaps
+Layer文件:budgie-core.linyaps_10.9.1.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: budgie-core.linyaps_10.9.1.3_arm64_binary.layer
+offset: 1017
+mountpoint: /tmp/tmp.6tJkgBdpsA/mnt
+dbglevel: 0
+[成功] /opt/apps/budgie-core.linyaps/files/share/applications/org.buddiesofbudgie.BudgieDaemon.desktop: /opt/apps/budgie-core.linyaps/files/entrypoint.sh budgie-daemon
+[成功] org.buddiesofbudgie.BudgieDesktopSettings.desktop: preferences-desktop -> /usr/share/icons/Humanity/categories/48/preferences-desktop.svg
+[成功] /opt/apps/budgie-core.linyaps/files/share/applications/org.buddiesofbudgie.BudgieDesktopSettings.desktop: /opt/apps/budgie-core.linyaps/files/entrypoint.sh budgie-desktop-settings
+[成功] org.buddiesofbudgie.BudgiePanel.desktop: preferences-desktop -> /usr/share/icons/Humanity/categories/48/preferences-desktop.svg
+[成功] /opt/apps/budgie-core.linyaps/files/share/applications/org.buddiesofbudgie.BudgiePanel.desktop: /opt/apps/budgie-core.linyaps/files/entrypoint.sh budgie-panel
+[成功] /opt/apps/budgie-core.linyaps/files/share/applications/org.buddiesofbudgie.BudgiePolkit.desktop: /opt/apps/budgie-core.linyaps/files/entrypoint.sh /usr/libexec/budgie-desktop/budgie-polkit-dialog
+[成功] org.buddiesofbudgie.BudgieScreenshot.desktop: org.buddiesofbudgie.BudgieScreenshot -> /opt/apps/budgie-core.linyaps/files/share/icons/hicolor/scalable/apps/org.buddiesofbudgie.BudgieScreenshot.svg
+[成功] /opt/apps/budgie-core.linyaps/files/share/applications/org.buddiesofbudgie.BudgieScreenshot.desktop: /opt/apps/budgie-core.linyaps/files/entrypoint.sh org.buddiesofbudgie.BudgieScreenshot -i
+[成功] /opt/apps/budgie-core.linyaps/files/share/applications/org.buddiesofbudgie.BudgieWm.desktop: /opt/apps/budgie-core.linyaps/files/entrypoint.sh budgie-wm
+[成功] org.buddiesofbudgie.sendto.desktop: bluetooth-active -> /usr/share/icons/ubuntu-mono-dark/status/22/bluetooth-active.svg
+[成功] /opt/apps/budgie-core.linyaps/files/share/applications/org.buddiesofbudgie.sendto.desktop: /opt/apps/budgie-core.linyaps/files/entrypoint.sh org.buddiesofbudgie.sendto
+[正在测试启动项]
+包名:budgie-core.linyaps
+Layer文件:budgie-core.linyaps_10.9.1.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: budgie-core.linyaps_10.9.1.3_arm64_binary.layer
+offset: 1017
+mountpoint: /tmp/tmp.EzZH9TWtac/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run budgie-core.linyaps -- /opt/apps/budgie-core.linyaps/files/entrypoint.sh budgie-desktop-settings
+[PID 27591] 进程已启动
+[PID 27591] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run budgie-core.linyaps -- /opt/apps/budgie-core.linyaps/files/entrypoint.sh org.buddiesofbudgie.BudgieScreenshot -i
+[PID 27721] 进程已启动
+[PID 27721] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall budgie-core.linyaps
