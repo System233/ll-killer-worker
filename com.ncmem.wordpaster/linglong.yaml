@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: com.ncmem.wordpaster.linyaps
+  name: com.ncmem.wordpaster
+  version: 2020.12.3.1
+  kind: app
+  description: |-
+    泽优Word图片上传控件
+    为web系统提供Word图片一键粘贴功能。
+command:
+- /opt/apps/com.ncmem.wordpaster.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
