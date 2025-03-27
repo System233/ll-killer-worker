@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: easyeffects.linyaps
+  name: easyeffects
+  version: 7.1.7.1
+  kind: app
+  description: |-
+    Audio effects for PipeWire applications
+    This program provides various audio effects for PipeWire
+    applications.
+
+    This application was formerly known as PulseEffects,
+    but it was renamed to EasyEffects after it started to use
+    GTK4 and GStreamer usage was replaced by native PipeWire filters.
+command:
+- /opt/apps/easyeffects.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
