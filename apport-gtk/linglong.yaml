@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: apport-gtk.linyaps
+  name: apport-gtk
+  version: 2.28.1.0
+  kind: app
+  description: |-
+    GTK+ frontend for the apport crash report system
+    apport automatically collects data from crashed processes and
+    compiles a problem report in /var/crash/. This utilizes the crashdump
+    helper hook provided by the Ubuntu kernel.
+
+    This package provides a GTK+ frontend for browsing and handling the
+    crash reports.
+command:
+- /opt/apps/apport-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
