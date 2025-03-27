@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: compton-conf.linyaps
+  name: compton-conf
+  version: 0.16.0.1
+  kind: app
+  description: |-
+    Compton Configurator for Qt
+    Qt configuration tool for X composite manager
+
+    This package contain Compton Configurator.
+command:
+- /opt/apps/compton-conf.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
