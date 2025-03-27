@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.lanxum.sp1800-1-tool.linyaps
+  name: com.lanxum.sp1800-1-tool
+  version: 1.1.0.0
+  kind: app
+  description: Lanxum SP1800 net manage tool
+command:
+- /opt/apps/com.lanxum.sp1800-1-tool.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
