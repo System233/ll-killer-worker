@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: amphetamine.linyaps
+  name: amphetamine
+  version: 0.8.10.21
+  kind: app
+  description: |-
+    jump'n run game with unique visual effects
+    Amphetamine is an exciting jump'n run game that offers some unique visual
+    effects like colored lighting, fogging and coronas. You must fight eleven
+    evil monsters with your magic weapons.
+command:
+- /opt/apps/amphetamine.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
