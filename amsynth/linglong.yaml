@@ -1,0 +1,36 @@
+version: "1"
+package:
+  id: amsynth.linyaps
+  name: amsynth
+  version: 1.13.2.1
+  kind: app
+  description: |-
+    two oscillators software synthesizer
+    amSynth features:
+    * two analogue-style audio oscillators, featuring:
+    o sine wave
+    o saw/triangle wave with adjustable shape
+    o square/pulse wave with adjustable pulsewidth
+    o noise generation
+    o "random" wave (noise with sample & hold)
+    o oscillator sync
+    o of course, detune and range control
+    * mixer section with ring modulation
+    * analogue-style low-pass filter
+    o 24dB/octave curve
+    o dedicated ADSR envelope
+    o cutoff and resonance control
+    o keyboard pitch tracking
+    * amplifier with dedicated ADSR envelope
+    * modulation LFO
+    o up to 58Hz modulation
+    o routable to all sections (pitch, filter, amplifier)
+    * Effects
+    o High quality stereo reverb (freeverb)
+    o Distortion/crunch
+    * Easy navigation and manipulation of presets
+    * Stand-alone OSS or ALSA Midi/Audio client
+command:
+- /opt/apps/amsynth.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
