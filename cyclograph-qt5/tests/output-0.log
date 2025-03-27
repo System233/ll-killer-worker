@@ -1,0 +1,27 @@
+包名:cyclograph-qt5.linyaps
+Layer文件:cyclograph-qt5.linyaps_1.9.1.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: cyclograph-qt5.linyaps_1.9.1.1_arm64_binary.layer
+offset: 808
+mountpoint: /tmp/tmp.SIaXug1t2C/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+Traceback (most recent call last):
+  File "/usr/bin/cyclograph", line 7, in <module>
+    main()
+  File "/usr/share/cyclograph/launcher.py", line 76, in main
+    cyclograph.main_qt()
+  File "/usr/share/cyclograph/cyclograph.py", line 909, in main_qt
+    controller = Cyclograph()
+                 ^^^^^^^^^^^^
+  File "/usr/share/cyclograph/cyclograph.py", line 84, in __init__
+    self.mygui = glal.gui.Gui(None, "CycloGraph", size)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/share/cyclograph/qt/gui.py", line 41, in __init__
+    self.move((screen.width() - dimension.width()) / 2,
+TypeError: arguments did not match any overloaded call:
+  move(self, a0: QPoint): argument 1 has unexpected type 'float'
+  move(self, ax: int, ay: int): argument 1 has unexpected type 'float'
