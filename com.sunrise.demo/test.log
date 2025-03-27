@@ -1,0 +1,28 @@
+正在测试: APPID=com.sunrise.demo.linyaps LAYER=com.sunrise.demo.linyaps_2.2.2.0_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install com.sunrise.demo.linyaps_2.2.2.0_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:com.sunrise.demo.linyaps
+Layer文件:com.sunrise.demo.linyaps_2.2.2.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: com.sunrise.demo.linyaps_2.2.2.0_x86_64_binary.layer
+offset: 486
+mountpoint: /tmp/tmp.xSfcuE71MY/mnt
+dbglevel: 0
+[成功] com.sunrise.demo.desktop: com.sunrise.demo.linyaps-com.sunrise.demo -> /opt/apps/com.sunrise.demo.linyaps/files/share/icons/hicolor/16x16/apps/com.sunrise.demo.linyaps-com.sunrise.demo.png
+[成功] /opt/apps/com.sunrise.demo.linyaps/files/share/applications/com.sunrise.demo.desktop: /opt/apps/com.sunrise.demo.linyaps/files/entrypoint.sh /opt/apps/com.sunrise.demo/files/muiltDemo/bin/mutilDevice.sh
+[正在测试启动项]
+包名:com.sunrise.demo.linyaps
+Layer文件:com.sunrise.demo.linyaps_2.2.2.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: com.sunrise.demo.linyaps_2.2.2.0_x86_64_binary.layer
+offset: 486
+mountpoint: /tmp/tmp.Bd173dPRdF/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run com.sunrise.demo.linyaps -- /opt/apps/com.sunrise.demo.linyaps/files/entrypoint.sh /opt/apps/com.sunrise.demo/files/muiltDemo/bin/mutilDevice.sh
+[PID 7233] 进程已启动
+[PID 7233] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall com.sunrise.demo.linyaps
