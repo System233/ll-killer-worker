@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: colord-kde.linyaps
+  name: colord-kde
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Color management for KDE
+    A System Settings module to do color management for monitors,
+    printers, webcams and other devices.
+command:
+- /opt/apps/colord-kde.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
