@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: color-picker.linyaps
+  name: color-picker
+  version: 1.0.3.2
+  kind: app
+  description: |-
+    Powerful screen color picker based on Qt
+    Colour picker and colour editor for web designers and digital
+    artists, With Color Picker, identifying the colours, saving and
+    editing is a quick and simple job.
+
+    Color Picker features include:
+
+    Five formats of colour codes: HTML, HexRGBA, RGB, HSB/HSV, CMYK
+    and their variations. Conversion of HTML, HEX and RGB colour codes
+    into the corresponding colours.
+
+    Colour picker for easy handling and greater precision.
+
+    Colour list for saving and reusing the picked colour samples for
+    each picked colour.
+
+    Support Switching three themes - System theme, Flat Light theme
+    and Dark theme.
+command:
+- /opt/apps/color-picker.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
