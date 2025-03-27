@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: enemylines7.linyaps
+  name: enemylines7
+  version: 0.6.0.6
+  kind: app
+  description: |-
+    first person 3d-shooter game
+    Enemy Lines 7 is a single-player game. You have to shoot down enemy
+    bombers threatening your city in a three-dimensional environment.
+
+    Enemy bombers are approaching Glysen, your capital. The situation is without
+    hope. But with the new experimental mech you can at least try to take as many
+    of them with you as possible.
+command:
+- /opt/apps/enemylines7.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
