@@ -1,0 +1,18 @@
+包名:artikulate.linyaps
+Layer文件:artikulate.linyaps_23.8.5.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: artikulate.linyaps_23.8.5.0_arm64_binary.layer
+offset: 615
+mountpoint: /tmp/tmp.RRCBEioNXM/mnt
+dbglevel: 0
+articulate.core: Repository created from with location QUrl("file:///home/runner/.local/share/artikulate/courses/")
+articulate.core: Loading courses from "/home/runner/.local/share/artikulate/courses"
+log_liblearner: Database path:  "/home/runner/.local/share/artikulate/learnerdata.db"
+log_liblearner: No last active profile found, falling back to first found profile
+QQmlApplicationEngine failed to load component
+qrc:/artikulate/qml/Main.qml:21:19: Type ArtikulateDrawer unavailable
+qrc:/artikulate/qml/ArtikulateDrawer.qml:127:21: Type KNS.Action unavailable
+file:///usr/lib/aarch64-linux-gnu/qt5/qml/org/kde/newstuff/Action.qml:184:13: Type NewStuff.Page unavailable
+file:///usr/lib/aarch64-linux-gnu/qt5/qml/org/kde/newstuff/Page.qml:20:1: module "org.kde.kcm" is not installed
+QObject::connect: Cannot connect (nullptr)::ghnsCourseDataStatusChanged() to MainWindow::updateCourseResources()
