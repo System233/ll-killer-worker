@@ -1,0 +1,28 @@
+正在测试: APPID=domino-chain.linyaps LAYER=domino-chain.linyaps_1.1.0.3_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install domino-chain.linyaps_1.1.0.3_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:domino-chain.linyaps
+Layer文件:domino-chain.linyaps_1.1.0.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: domino-chain.linyaps_1.1.0.3_arm64_binary.layer
+offset: 1466
+mountpoint: /tmp/tmp.diyYRDNMnb/mnt
+dbglevel: 0
+[成功] domino-chain.desktop: domino-chain -> /opt/apps/domino-chain.linyaps/files/share/icons/hicolor/16x16/apps/domino-chain.png
+[成功] /opt/apps/domino-chain.linyaps/files/share/applications/domino-chain.desktop: /opt/apps/domino-chain.linyaps/files/entrypoint.sh domino-chain
+[正在测试启动项]
+包名:domino-chain.linyaps
+Layer文件:domino-chain.linyaps_1.1.0.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: domino-chain.linyaps_1.1.0.3_arm64_binary.layer
+offset: 1466
+mountpoint: /tmp/tmp.K0Efvkbl5G/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run domino-chain.linyaps -- /opt/apps/domino-chain.linyaps/files/entrypoint.sh domino-chain
+[PID 7583] 进程已启动
+[PID 7583] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall domino-chain.linyaps
