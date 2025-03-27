@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: barrier.linyaps
+  name: barrier
+  version: 2.4.0.4
+  kind: app
+  description: |-
+    Share mouse, keyboard and clipboard over the network
+    Barrier lets you easily share a single mouse and keyboard between
+    multiple computers with different operating systems, each with its
+    own display, without special hardware.  It's intended for users
+    with multiple computers on their desk since each system uses its
+    own display.
+
+    Redirecting the mouse and keyboard is as simple as moving the mouse
+    off the edge of your screen.  Barrier also merges the clipboards of
+    all the systems into one, allowing cut-and-paste between systems.
+    Furthermore, it synchronizes screen savers so they all start and stop
+    together and, if screen locking is enabled, only one screen requires
+    a password to unlock them all.
+command:
+- /opt/apps/barrier.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
