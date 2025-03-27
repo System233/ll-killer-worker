@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: cinnamon.linyaps
+  name: cinnamon
+  version: 6.0.4.4
+  kind: app
+  description: |-
+    Innovative and comfortable desktop
+    Cinnamon is a desktop environment which provides advanced innovative
+    features and a traditional user experience.
+
+    The desktop layout is similar to GNOME 2.  The underlying technology is
+    forked from gnome-shell.  The emphasis is put on making users feel at home
+    and providing them with an easy to use and comfortable desktop experience.
+command:
+- /opt/apps/cinnamon.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
