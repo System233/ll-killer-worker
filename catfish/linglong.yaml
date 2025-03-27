@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: catfish.linyaps
+  name: catfish
+  version: 4.16.4.2
+  kind: app
+  description: |-
+    File searching tool which is configurable via the command line
+    Catfish is a handy file searching tool for Linux and UNIX.
+    The interface is intentionally lightweight and simple, using only Gtk+3.
+    You can configure it to your needs by using several command line options.
+command:
+- /opt/apps/catfish.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
