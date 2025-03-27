@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: 4pane.linyaps
+  name: 4pane
+  version: 8.0.0.1
+  kind: app
+  description: |-
+    four-pane detailed-list file manager
+    4pane is a dual twin-pane file manager: directories and files are displayed
+    in separate panes. By default two pairs of these twin-panes are displayed at
+    a time, allowing easy dragging or pasting.
+
+    As well as standard file manager functions, features include support for
+    nfs sshfs and samba, archive management including virtual browsing,
+    multiple renaming of files, user-defined tools, a terminal emulator, and
+    gui access to grep find and locate. Almost all actions, even deletions,
+    can be undone and redone.
+
+    4pane aims to be highly configurable, fast and fully-featured without bloat.
+command:
+- /opt/apps/4pane.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
