@@ -56,7 +56,7 @@ Get:27 https://community-packages.deepin.com/driver-23 driver/non-free arm64 com
 Get:28 https://community-packages.deepin.com/beige beige/community arm64 ipp-usb arm64 0.9.23-1 [1656 kB]
 Get:29 https://community-packages.deepin.com/beige beige/main arm64 libgphoto2-l10n all 2.5.27-1 [493 kB]
 Get:30 https://community-packages.deepin.com/beige beige/main arm64 libnss-mdns arm64 0.15.1-1 [21.9 kB]
-Fetched 75.4 MB in 4s (16.9 MB/s)
+Fetched 75.4 MB in 4s (20.5 MB/s)
 Selecting previously unselected package libavahi-core7:arm64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
 Preparing to unpack .../00-libavahi-core7_0.8-5_arm64.deb ...
@@ -136,9 +136,6 @@ Unpacking sane-utils (1.2.1-5deepin1+rb1) ...
 Selecting previously unselected package com.btit.linuxaction.
 Preparing to unpack .../26-com.btit.linuxaction_3.1.10.24193-uosv20_arm64.deb ...
 Unpacking com.btit.linuxaction (3.1.10.24193-uosv20) ...
-dpkg: error processing archive /tmp/apt-dpkg-install-ZILEUX/26-com.btit.linuxaction_3.1.10.24193-uosv20_arm64.deb (--unpack):
- error setting ownership of './etc/sane.d/dll.d/plkbackend': Invalid argument
-dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
 Selecting previously unselected package ipp-usb.
 Preparing to unpack .../27-ipp-usb_0.9.23-1_arm64.deb ...
 Unpacking ipp-usb (0.9.23-1) ...
@@ -148,7 +145,348 @@ Unpacking libgphoto2-l10n (2.5.27-1) ...
 Selecting previously unselected package libnss-mdns:arm64.
 Preparing to unpack .../29-libnss-mdns_0.15.1-1_arm64.deb ...
 Unpacking libnss-mdns:arm64 (0.15.1-1) ...
+Setting up liblmdb0:arm64 (0.9.31-1) ...
+Setting up pci.ids (0.0~2024.11.26-0deepin1) ...
+Setting up libsnmp-base (5.9.4+dfsg-1) ...
+
+Configuration file '/etc/snmp/snmp.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up libmaxminddb0:arm64 (1.5.2-1) ...
+Setting up libfstrm0:arm64 (0.6.0-deepin1) ...
+Setting up update-inetd (4.51) ...
+Setting up libjemalloc2:arm64 (5.3.0-2) ...
+Setting up libgphoto2-l10n (2.5.27-1) ...
+Setting up libprotobuf-c1:arm64 (1.4.1-1deepin0) ...
+Setting up libpoppler118:arm64 (22.02.0-3deepin0) ...
+Setting up libgd3:arm64 (2.3.0-2) ...
+Setting up liburcu8:arm64 (0.14.0-1+loong64) ...
+Setting up libpci3:arm64 (1:3.10.0-2) ...
+Setting up poppler-utils (22.02.0-3deepin0) ...
+Setting up libgphoto2-port12:arm64 (2.5.27-1) ...
+Setting up libsane-common (1.2.1-5deepin1+rb1) ...
+
+Configuration file '/etc/sane.d/abaton.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/agfafocus.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/apple.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/artec.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/artec_eplus48u.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/avision.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/bh.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/canon.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/canon630u.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/canon_dr.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/canon_lide70.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/canon_pp.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/cardscan.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/coolscan.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/coolscan2.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/coolscan3.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/dc210.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/dc240.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/dc25.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/dell1600n_net.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/dll.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/dmc.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/epjitsu.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/epson.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/epson2.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/epsonds.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/escl.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/fujitsu.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/genesys.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/gphoto2.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/gt68xx.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/hp.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/hp3900.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/hp4200.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/hp5400.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/hpsj5s.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/hs2p.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/ibm.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/kodak.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/kodakaio.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/kvs1025.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/leo.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/lexmark.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/ma1509.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/magicolor.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/matsushita.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/microtek.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/microtek2.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/mustek.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/mustek_pp.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/mustek_usb.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/nec.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/net.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/p5.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/pie.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/pieusb.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/pixma.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/plustek.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/plustek_pp.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/qcam.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/ricoh.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/rts8891.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/s9036.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/sceptre.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/sharp.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/sm3840.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/snapscan.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/sp15c.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/st400.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/stv680.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/tamarack.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/teco1.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/teco2.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/teco3.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/test.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/u12.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/umax.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/umax1220u.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/umax_pp.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/xerox_mfp.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up libieee1284-3:arm64 (0.2.11-14) ...
+Setting up libavahi-core7:arm64 (0.8-5) ...
+Setting up libpoppler-cpp0v5:arm64 (22.02.0-3deepin0) ...
+Setting up libpoppler-glib8:arm64 (22.02.0-3deepin0) ...
+Setting up bind9-libs:arm64 (1:9.19.19-1) ...
+Setting up libgphoto2-6:arm64 (2.5.27-1) ...
+Setting up libsnmp40:arm64 (5.9.4+dfsg-1) ...
+Setting up bind9-host (1:9.19.19-1) ...
+Setting up libsane1:arm64 (1.2.1-5deepin1+rb1) ...
+Adding scanner group...
+Setting up avahi-daemon (0.8-5) ...
+
+Configuration file '/etc/avahi/avahi-daemon.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/avahi/hosts', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/dbus-1/system.d/avahi-dbus.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/default/avahi-daemon', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/init.d/avahi-daemon', does not exist on system.
+Installing new config file as you requested.
+/usr/sbin/invoke-rc.d: 290: systemctl: not found
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: WARNING: No init system and policy-rc.d missing! Defaulting to block.
+Can't exec "systemctl": No such file or directory at /usr/sbin/update-rc.d line 98.
+/usr/sbin/invoke-rc.d: 290: systemctl: not found
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: WARNING: No init system and policy-rc.d missing! Defaulting to block.
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-helper line 682.
+/var/lib/dpkg/info/avahi-daemon.postinst: 98: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+avahi-daemon.service is a disabled or a static unit, not starting it.
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+avahi-daemon.socket is a disabled or a static unit, not starting it.
+Setting up sane-utils (1.2.1-5deepin1+rb1) ...
+
+Configuration file '/etc/default/saned', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/init.d/saned', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/logrotate.d/sane-utils', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sane.d/saned.conf', does not exist on system.
+Installing new config file as you requested.
+Adding saned group and user...
+Can't exec "systemctl": No such file or directory at /usr/sbin/update-rc.d line 98.
+/usr/sbin/invoke-rc.d: 290: systemctl: not found
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: WARNING: No init system and policy-rc.d missing! Defaulting to block.
+/var/lib/dpkg/info/sane-utils.postinst: 107: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+saned.socket is a disabled or a static unit, not starting it.
+Setting up libnss-mdns:arm64 (0.15.1-1) ...
+First installation detected...
+Checking NSS setup...
+Setting up ipp-usb (0.9.23-1) ...
+
+Configuration file '/etc/ipp-usb/ipp-usb.conf', does not exist on system.
+Installing new config file as you requested.
+/var/lib/dpkg/info/ipp-usb.postinst: 6: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+ipp-usb.service is a disabled or a static unit, not starting it.
+Setting up com.btit.linuxaction (3.1.10.24193-uosv20) ...
+ldd: /opt/apps/scanner-driver-btit-common/bin/LinuxActionII: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+dpkg: error processing package com.btit.linuxaction (--configure):
+ installed com.btit.linuxaction package post-installation script subprocess returned error exit status 1
+Processing triggers for dbus (1.14.10-3) ...
+Processing triggers for udev (255.2-4) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
 Errors were encountered while processing:
- /tmp/apt-dpkg-install-ZILEUX/26-com.btit.linuxaction_3.1.10.24193-uosv20_arm64.deb
-W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
+ com.btit.linuxaction
 E: Sub-process /usr/bin/dpkg returned an error code (1)
