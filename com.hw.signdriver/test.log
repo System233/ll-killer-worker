@@ -1,0 +1,28 @@
+正在测试: APPID=com.hw.signdriver.linyaps LAYER=com.hw.signdriver.linyaps_1.0.0.0_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install com.hw.signdriver.linyaps_1.0.0.0_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:com.hw.signdriver.linyaps
+Layer文件:com.hw.signdriver.linyaps_1.0.0.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: com.hw.signdriver.linyaps_1.0.0.0_x86_64_binary.layer
+offset: 406
+mountpoint: /tmp/tmp.GzUMWJAiYZ/mnt
+dbglevel: 0
+[成功] com.hw.signdriver.desktop: com.hw.signdriver.linyaps-hwdriverlauncher -> /opt/apps/com.hw.signdriver.linyaps/files/share/icons/hicolor/128x128/apps/com.hw.signdriver.linyaps-hwdriverlauncher.png
+[成功] /opt/apps/com.hw.signdriver.linyaps/files/share/applications/com.hw.signdriver.desktop: /opt/apps/com.hw.signdriver.linyaps/files/entrypoint.sh /opt/apps/com.hw.signdriver/files/HWSignDriver.sh %F
+[正在测试启动项]
+包名:com.hw.signdriver.linyaps
+Layer文件:com.hw.signdriver.linyaps_1.0.0.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: com.hw.signdriver.linyaps_1.0.0.0_x86_64_binary.layer
+offset: 406
+mountpoint: /tmp/tmp.I84F1QIBrD/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run com.hw.signdriver.linyaps -- /opt/apps/com.hw.signdriver.linyaps/files/entrypoint.sh /opt/apps/com.hw.signdriver/files/HWSignDriver.sh
+[PID 6167] 进程已启动
+[PID 6167] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall com.hw.signdriver.linyaps
