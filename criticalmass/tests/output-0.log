@@ -1,0 +1,301 @@
+包名:criticalmass.linyaps
+Layer文件:criticalmass.linyaps_1.0.2.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: criticalmass.linyaps_1.0.2.4_arm64_binary.layer
+offset: 672
+mountpoint: /tmp/tmp.C1N2xMYPr8/mnt
+dbglevel: 0
+INFO: ----------------------------------
+INFO: critical_mass 1.0.2
+INFO: Copyright (C) 2001-2006 by Frank Becker
+INFO: Visit http://criticalmass.sourceforge.net
+INFO: ----------------------------------
+INFO: SDL Version 1.2.68
+INFO: SDL_image Version 1.2.12
+INFO: SDL_mixer Version 1.2.12
+INFO: zlib Version 1.3
+INFO: PNG Version  libpng version 1.6.43
+
+
+INFO: Setting up for little endian.
+INFO: Using global resource file.
+INFO: Dirlen = 6962, Read = 6962
+INFO: Loading: /usr/share/games/criticalmass/resource.dat
+INFO:   bitmaps/ammo.data (896/391) 
+INFO:   bitmaps/ammo.png (91696/91679) 
+INFO:   bitmaps/arial-small.data (1941/731) 
+INFO:   bitmaps/arial-small.font (23428/23429) 
+INFO:   bitmaps/board.data (31/39) 
+INFO:   bitmaps/board.png (102365/102183) 
+INFO:   bitmaps/cubemap_0.png (76526/76542) 
+INFO:   bitmaps/cubemap_1.png (95065/95093) 
+INFO:   bitmaps/cubemap_2.png (97758/97765) 
+INFO:   bitmaps/cubemap_3.png (95623/95616) 
+INFO:   bitmaps/cubemap_4.png (99443/99434) 
+INFO:   bitmaps/cubemap_5.png (74427/74329) 
+INFO:   bitmaps/gameover.data (171/116) 
+INFO:   bitmaps/gameover.font (12041/11942) 
+INFO:   bitmaps/menu.data (1919/719) 
+INFO:   bitmaps/menu.font (15287/15258) 
+INFO:   bitmaps/menuBoard.data (30/35) 
+INFO:   bitmaps/menuBoard.png (104932/104634) 
+INFO:   bitmaps/menuIcons.data (219/135) 
+INFO:   bitmaps/menuIcons.png (11815/11408) 
+INFO:   bitmaps/menuShadow.data (1919/719) 
+INFO:   bitmaps/menuShadow.font (36132/36157) 
+INFO:   bitmaps/menuWhite.data (1919/719) 
+INFO:   bitmaps/menuWhite.font (14608/14584) 
+INFO:   bitmaps/nebula.data (25/30) 
+INFO:   bitmaps/nebula.png (44015/43957) 
+INFO:   bitmaps/titleA.png (69521/69082) 
+INFO:   bitmaps/titleB.png (53501/53106) 
+INFO:   bitmaps/vipna.data (1950/754) 
+INFO:   bitmaps/vipna.font (15252/15221) 
+INFO:   bitmaps/vipnaUpper.data (1229/485) 
+INFO:   bitmaps/vipnaUpper.font (19216/19197) 
+INFO:   levelpacks/CritterPack.xml (143035/3711) 
+INFO:   models/ArmorPierce.model (5915/1450) 
+INFO:   models/BigFoot.model (8737/2561) 
+INFO:   models/BigMouthBug.model (16629/6347) 
+INFO:   models/Bonus1.model (4897/1157) 
+INFO:   models/Boss1_Eye1.model (3321/910) 
+INFO:   models/Boss1_Eye2.model (3320/911) 
+INFO:   models/Boss1_Face.model (17846/4714) 
+INFO:   models/Boss1_Leg1.model (16674/6162) 
+INFO:   models/Boss1_Leg2.model (16554/6169) 
+INFO:   models/Boss1_Teeth.model (2069/711) 
+INFO:   models/Bug1.model (6910/2573) 
+INFO:   models/Bug1Blue.model (6881/2558) 
+INFO:   models/Bug2.model (12117/3530) 
+INFO:   models/DarkAngel.model (7957/2491) 
+INFO:   models/Doggy.model (4071/1756) 
+INFO:   models/DoubleWing.model (5487/1645) 
+INFO:   models/DoubleWingBlue.model (5481/1640) 
+INFO:   models/DoubleWingRed.model (5447/1620) 
+INFO:   models/E1.model (245/122) 
+INFO:   models/EnergyBlob.model (21571/7469) 
+INFO:   models/FlankBurster.model (33555/7050) 
+INFO:   models/FlyBug.model (7263/2414) 
+INFO:   models/FourEye.model (18008/5192) 
+INFO:   models/Hero.model (21711/6270) 
+INFO:   models/HeroStinger.model (1805/897) 
+INFO:   models/IceSpray.model (28889/4645) 
+INFO:   models/IceSprayPierce.model (28895/4651) 
+INFO:   models/MapleLeaf.model (4724/1387) 
+INFO:   models/MiniBug.model (12877/4979) 
+INFO:   models/MouseBug.model (15026/5046) 
+INFO:   models/NextGenShippy.model (87590/33531) 
+INFO:   models/P1.model (239/114) 
+INFO:   models/Pumpkin.model (27234/10448) 
+INFO:   models/ShieldBoost.model (22146/9615) 
+INFO:   models/SixLegBugBlue.model (16498/6030) 
+INFO:   models/SixLegBugRed.model (16497/6029) 
+INFO:   models/SixLegBugYellow.model (16500/6033) 
+INFO:   models/Stinger.model (1783/906) 
+INFO:   models/SuperBonus.model (94426/23411) 
+INFO:   models/TheEye.model (8044/2398) 
+INFO:   models/TheEyeBlue.model (8021/2384) 
+INFO:   models/WeaponUpgrade.model (6963/1594) 
+INFO:   models/WingPhaser.model (14945/4583) 
+INFO:   models/WingPhaserPierce.model (14940/4581) 
+INFO:   paths/Attack1.path (126/75) 
+INFO:   paths/Attack2.path (165/90) 
+INFO:   paths/Idle1.path (161/87) 
+INFO:   paths/LB_Entry1.path (131/78) 
+INFO:   paths/LT-LongEntry1.path (250/122) 
+INFO:   paths/LT_Entry1.path (131/78) 
+INFO:   paths/RB_Entry1.path (139/77) 
+INFO:   paths/RT-LongEntry1.path (172/113) 
+INFO:   paths/RT_Entry1.path (139/77) 
+INFO:   paths/Retreat1.path (162/89) 
+INFO:   paths/Retreat2.path (129/79) 
+INFO:   paths/Retreat3.path (404/170) 
+INFO:   paths/attack/ac1.path (125/74) 
+INFO:   paths/attack/ac10.path (87/65) 
+INFO:   paths/attack/ac10a.path (88/65) 
+INFO:   paths/attack/ac11.path (293/95) 
+INFO:   paths/attack/ac12.path (230/103) 
+INFO:   paths/attack/ac12a.path (228/101) 
+INFO:   paths/attack/ac13.path (231/84) 
+INFO:   paths/attack/ac13a.path (229/83) 
+INFO:   paths/attack/ac1a.path (129/74) 
+INFO:   paths/attack/ac2.path (126/78) 
+INFO:   paths/attack/ac2a.path (130/78) 
+INFO:   paths/attack/ac3.path (88/65) 
+INFO:   paths/attack/ac3a.path (89/65) 
+INFO:   paths/attack/ac4.path (129/77) 
+INFO:   paths/attack/ac4a.path (127/76) 
+INFO:   paths/attack/ac5.path (127/78) 
+INFO:   paths/attack/ac5a.path (125/78) 
+INFO:   paths/attack/ac6.path (125/76) 
+INFO:   paths/attack/ac6a.path (129/77) 
+INFO:   paths/attack/ac7.path (85/61) 
+INFO:   paths/attack/ac7a.path (85/61) 
+INFO:   paths/attack/ac8.path (88/65) 
+INFO:   paths/attack/ac8a.path (89/64) 
+INFO:   paths/attack/ac9.path (88/63) 
+INFO:   paths/attack/ac9a.path (85/62) 
+INFO:   paths/entry/ec1.path (134/82) 
+INFO:   paths/entry/ec10.path (57/53) 
+INFO:   paths/entry/ec10a.path (59/54) 
+INFO:   paths/entry/ec11.path (57/53) 
+INFO:   paths/entry/ec11a.path (59/52) 
+INFO:   paths/entry/ec12.path (96/70) 
+INFO:   paths/entry/ec12a.path (99/70) 
+INFO:   paths/entry/ec13.path (138/83) 
+INFO:   paths/entry/ec13a.path (138/83) 
+INFO:   paths/entry/ec14.path (310/115) 
+INFO:   paths/entry/ec14a.path (303/115) 
+INFO:   paths/entry/ec15.path (239/99) 
+INFO:   paths/entry/ec15a.path (235/98) 
+INFO:   paths/entry/ec1a.path (142/83) 
+INFO:   paths/entry/ec2.path (172/93) 
+INFO:   paths/entry/ec2a.path (183/94) 
+INFO:   paths/entry/ec3.path (134/82) 
+INFO:   paths/entry/ec3a.path (142/81) 
+INFO:   paths/entry/ec4.path (170/95) 
+INFO:   paths/entry/ec4a.path (181/96) 
+INFO:   paths/entry/ec5.path (133/81) 
+INFO:   paths/entry/ec5a.path (141/81) 
+INFO:   paths/entry/ec6.path (328/147) 
+INFO:   paths/entry/ec6a.path (351/148) 
+INFO:   paths/entry/ec7.path (408/173) 
+INFO:   paths/entry/ec7a.path (437/174) 
+INFO:   paths/entry/ec8.path (174/92) 
+INFO:   paths/entry/ec8a.path (185/92) 
+INFO:   paths/entry/ec9.path (134/80) 
+INFO:   paths/entry/ec9a.path (144/82) 
+INFO:   paths/entry/entryb1.path (227/86) 
+INFO:   paths/entry1.path (540/154) 
+INFO:   paths/idle/idle1.path (161/88) 
+INFO:   paths/idle/idle10.path (85/53) 
+INFO:   paths/idle/idle11.path (84/61) 
+INFO:   paths/idle/idle12.path (85/64) 
+INFO:   paths/idle/idle13.path (85/59) 
+INFO:   paths/idle/idle14.path (85/58) 
+INFO:   paths/idle/idle15.path (88/59) 
+INFO:   paths/idle/idle16.path (88/62) 
+INFO:   paths/idle/idle17x.path (91/66) 
+INFO:   paths/idle/idle18.path (162/46) 
+INFO:   paths/idle/idle19.path (152/53) 
+INFO:   paths/idle/idle2.path (162/79) 
+INFO:   paths/idle/idle3.path (162/79) 
+INFO:   paths/idle/idle4.path (162/79) 
+INFO:   paths/idle/idle5.path (162/78) 
+INFO:   paths/idle/idle6.path (157/83) 
+INFO:   paths/idle/idle7.path (85/49) 
+INFO:   paths/idle/idle8.path (85/55) 
+INFO:   paths/idle/idle9.path (85/55) 
+INFO:   paths/idle/idleb1.path (302/90) 
+INFO:   paths/retreat/dc1.path (123/76) 
+INFO:   paths/retreat/dc1a.path (129/77) 
+INFO:   paths/retreat/dc2.path (125/76) 
+INFO:   paths/retreat/dc2a.path (125/76) 
+INFO:   paths/retreat/dc3.path (127/76) 
+INFO:   paths/retreat/dc3a.path (125/76) 
+INFO:   paths/retreat/dc4.path (127/76) 
+INFO:   paths/retreat/dc4a.path (125/77) 
+INFO:   paths/retreat/dc5.path (126/75) 
+INFO:   paths/retreat/dc5a.path (128/77) 
+INFO:   paths/retreat/dc6.path (123/73) 
+INFO:   paths/retreat/dc6a.path (127/75) 
+INFO:   paths/retreat/dc7.path (231/81) 
+INFO:   paths/retreat/dc7a.path (237/81) 
+INFO:   paths/retreat/dc8.path (227/82) 
+INFO:   paths/retreat/dc8a.path (233/84) 
+INFO:   sounds/attackWave.wav (76028/72183) 
+INFO:   sounds/bang.wav (15982/15387) 
+INFO:   sounds/bark.wav (3596/3186) 
+INFO:   sounds/beep.wav (2524/2526) 
+INFO:   sounds/big_explosion.wav (65341/33685) 
+INFO:   sounds/bonus.wav (89294/81064) 
+INFO:   sounds/chrblub.wav (42100/38685) 
+INFO:   sounds/confirm.wav (13210/11782) 
+INFO:   sounds/explosion.wav (52866/48276) 
+INFO:   sounds/humm.wav (5520/3133) 
+INFO:   sounds/ieow.wav (76532/69876) 
+INFO:   sounds/laser.wav (5140/4089) 
+INFO:   sounds/laser3.wav (25628/22782) 
+INFO:   sounds/phaser1.wav (57590/52015) 
+INFO:   sounds/pop.wav (4140/3540) 
+INFO:   sounds/prriarr.wav (66804/57391) 
+INFO:   sounds/puididl.wav (33462/29980) 
+INFO:   sounds/voiceEnergy.wav (76636/71803) 
+INFO:   sounds/voiceGo.wav (41372/39200) 
+INFO:   sounds/voiceShield.wav (66908/60159) 
+INFO:   sounds/whoop.wav (5964/5596) 
+INFO:   system/Menu.xml (7049/2253) 
+INFO:   system/config.txt (918/495) 
+INFO: Looking for /home/runner/.critter/resource000.dat
+INFO: Adding callback for action [PrimaryFire]
+INFO: Adding callback for action [SecondaryFire]
+INFO: Adding callback for action [TertiaryFire]
+INFO: Adding callback for action [Snapshot]
+INFO: Adding callback for action [Motion]
+INFO: Adding callback for action [MotionRight]
+INFO: Adding callback for action [MotionLeft]
+INFO: Adding callback for action [MotionUp]
+INFO: Adding callback for action [MotionDown]
+INFO: Adding callback for action [ChangeContext]
+INFO: Adding callback for action [PauseGame]
+INFO: Adding callback for action [Confirm]
+INFO: Adding callback for action [EscapeAction]
+INFO: Adding callback for action [CritterBoard]
+WARNING: Config file [/home/runner/.critter/config.txt] not found, using default.
+INFO: Creating binding for CritterBoard - 1:9
+INFO: Creating binding for Confirm - 1:13
+INFO: Creating binding for EscapeAction - 1:27
+INFO: Creating binding for PrimaryFire - 1:32
+INFO: Creating binding for PrimaryFire - 2:1
+INFO: Creating binding for SecondaryFire - 1:308
+INFO: Creating binding for SecondaryFire - 2:2
+INFO: Creating binding for TertiaryFire - 1:306
+INFO: Creating binding for TertiaryFire - 2:3
+INFO: Creating binding for Motion - 3:0
+INFO: Creating binding for MotionUp - 1:273
+INFO: Creating binding for MotionDown - 1:274
+INFO: Creating binding for MotionRight - 1:275
+INFO: Creating binding for MotionLeft - 1:276
+INFO: Creating binding for ChangeContext - 1:99
+INFO: Creating binding for Snapshot - 1:293
+INFO: Creating binding for PauseGame - 1:112
+INFO: Loading hi-scores from /home/runner/.critter/leaderboard
+INFO: ------LeaderBoard-----
+INFO: Critical-Mass......................10000INFO: Checking for updates at http://criticalmass.sourceforge.net/update.php
+ : Thu 27-Mar-2025 02:47
+INFO: Frank...............................9000 : Thu 27-Mar-2025 02:47
+INFO: ff<Doh!>............................8000 : Thu 27-Mar-2025 02:47
+INFO: SliQ................................7000 : Thu 27-Mar-2025 02:47
+INFO: Critical-Mass.......................6000 : Thu 27-Mar-2025 02:47
+INFO: Frank...............................5000 : Thu 27-Mar-2025 02:47
+INFO: ff<Doh!>............................4000 : Thu 27-Mar-2025 02:47
+INFO: SliQ................................3000 : Thu 27-Mar-2025 02:47
+INFO: Critical-Mass.......................2000 : Thu 27-Mar-2025 02:47
+INFO: Frank...............................1000 : Thu 27-Mar-2025 02:47
+INFO: ff<Doh!>...............................0 : Thu 27-Mar-2025 02:47
+INFO: Initializing Audio...
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2721:(snd_pcm_open_noupdate) Unknown PCM default
+*ERROR*: Init Audio (Mixer): failed # ALSA: Couldn't open audio device: No such file or directory
+INFO: Shutting down...
+INFO: Saving hi-scores to /home/runner/.critter/leaderboard
+INFO: Audio shutdown...
+INFO: Waiting for online update thread to finish
+*ERROR*: Failed to parse xml content
+*ERROR*: --> XML: Error reading end tag.
+WARNING: Failed to get online update - trying cache.
+INFO: Loading cached update
+INFO: Online update thread done status = 0
+INFO: Cleanup complete. Ready to Exit.
+INFO: ----------------------------------
+INFO: critical_mass 1.0.2
+INFO: Copyright (C) 2001-2006 by Frank Becker
+INFO: Visit http://criticalmass.sourceforge.net
+INFO: ----------------------------------
