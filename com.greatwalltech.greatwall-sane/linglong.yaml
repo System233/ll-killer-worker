@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.greatwalltech.greatwall-sane.linyaps
+  name: com.greatwalltech.greatwall-sane
+  version: 20240918.0.0.7
+  kind: app
+  description: GreatWall Document Scanning Software
+command:
+- /opt/apps/com.greatwalltech.greatwall-sane.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
