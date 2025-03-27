@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: com.gmrz.fido.linyaps
+  name: com.gmrz.fido
+  version: 1.0.3.2
+  kind: app
+  description: |-
+    Fingerprint service for Gmrz fingerprint devices
+    Fingerprint service compatible with Gmrz fingerprint devices
+command:
+- /opt/apps/com.gmrz.fido.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
