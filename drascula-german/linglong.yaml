@@ -1,0 +1,33 @@
+version: "1"
+package:
+  id: drascula-german.linyaps
+  name: drascula-german
+  version: 1.0.0.2
+  kind: app
+  description: |-
+    classic 2D point and click adventure game -- German version
+    Drascula: The Vampire Strikes Back is a classic humorous 2D point and click
+    adventure game, first released by Alcachofa Soft S.L. in 1996.
+
+    In Drascula you play the role of John Hacker, a British estate agent, that
+    gets to meet a gorgeous blond girl who is kidnapped by the notorious vampire
+    Count Drascula and embark on a fun yet dangerous quest to rescue her.
+
+    Unfortunately Hacker is not aware of Drascula's real ambitions:
+
+    DOMINATING the World and demonstrating that he is even more evil than his
+    brother Vlad.
+
+    This is the German version of Drascula: The Vampire Strikes Back. It features
+    subtitles in German and requires the English drascula package.
+
+    Please install the drascula-music package to enjoy the background music of the
+    game. There are furthermore additional language packages available with
+    subtitles in Spanish, French and Italian.
+
+    Note that this package only contains game-data. The game engine is provided by
+    ScummVM.
+command:
+- /opt/apps/drascula-german.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
