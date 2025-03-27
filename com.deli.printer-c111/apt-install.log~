@@ -1,0 +1,31 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  deepin-app-store-runtime
+The following NEW packages will be installed:
+  com.deli.printer-c111 deepin-app-store-runtime
+0 upgraded, 2 newly installed, 0 to remove and 236 not upgraded.
+Need to get 106 MB of archives.
+After this operation, 155 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main amd64 deepin-app-store-runtime amd64 1.0.2+community [2316 B]
+Get:2 https://community-packages.deepin.com/driver-23 driver/non-free amd64 com.deli.printer-c111 amd64 1.0.038 [106 MB]
+Fetched 106 MB in 5s (22.8 MB/s)
+Selecting previously unselected package deepin-app-store-runtime.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../deepin-app-store-runtime_1.0.2+community_amd64.deb ...
+Unpacking deepin-app-store-runtime (1.0.2+community) ...
+Selecting previously unselected package com.deli.printer-c111.
+Preparing to unpack .../com.deli.printer-c111_1.0.038_amd64.deb ...
+Unpacking com.deli.printer-c111 (1.0.038) ...
+Setting up deepin-app-store-runtime (1.0.2+community) ...
+Setting up com.deli.printer-c111 (1.0.038) ...
+ln: failed to create symbolic link '/usr/lib/x86_64-linux-gnu/sane/libsane-deli_c111.so': No such file or directory
+dpkg: error processing package com.deli.printer-c111 (--configure):
+ installed com.deli.printer-c111 package post-installation script subprocess returned error exit status 1
+Errors were encountered while processing:
+ com.deli.printer-c111
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
+E: Sub-process /usr/bin/dpkg returned an error code (1)
