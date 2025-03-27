@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: guvcview.linyaps
+  name: guvcview
+  version: 2.0.8.1
+  kind: app
+  description: |-
+    GTK+ base UVC Viewer
+    guvcview is a simple GTK+ interface for capturing and viewing video from
+    devices supported by the Linux UVC driver.
+command:
+- /opt/apps/guvcview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
