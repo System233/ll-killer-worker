@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: arc-gui-clients.linyaps
+  name: arc-gui-clients
+  version: 0.4.6.7
+  kind: app
+  description: |-
+    ARC Graphical Clients
+    Provides graphical clients to the NorduGrid ARC middleware.
+command:
+- /opt/apps/arc-gui-clients.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
