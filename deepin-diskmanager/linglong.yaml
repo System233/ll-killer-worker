@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-diskmanager.linyaps
+  name: deepin-diskmanager
+  version: 1.4.1.0
+  kind: app
+  description: |-
+    Disk Utility is a disk management tool for creating, reorganizing and formatting partitions.
+    Disk Utility is a disk management tool for disk.
+command:
+- /opt/apps/deepin-diskmanager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
