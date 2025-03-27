@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: calligraplan.linyaps
+  name: calligraplan
+  version: 3.3.0.2
+  kind: app
+  description: |-
+    integrated project management and planning tool
+    Plan is a project management application, allowing for the planning and
+    scheduling of projects. It was formerly known as KPlato.
+
+    This package is part of the Calligra Suite.
+command:
+- /opt/apps/calligraplan.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
