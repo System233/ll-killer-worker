@@ -1,0 +1,206 @@
+包名:crrcsim.linyaps
+Layer文件:crrcsim.linyaps_0.9.13.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: crrcsim.linyaps_0.9.13.3_arm64_binary.layer
+offset: 568
+mountpoint: /tmp/tmp.Vsbb5Hg2rr/mnt
+dbglevel: 0
+Locale : C.UTF-8 Internal codeset: iso8859-15
+CRRCsim 0.9.13 started at 2025-3-27 14:27:9
+Running on Linux 6.8.0-1021-azure
+Using plib version 1.8.5
+Compiled with SDL version 1.2.68
+(Linked SDL version is 1.2.68)
+Configured data path: /usr/share/crrcsim
+Data file search path:
+  .
+  /home/runner/.crrcsim
+  /usr/share/crrcsim
+  /usr/local/share/games/crrcsim
+  /usr/share/games/crrcsim
+RAND_MAX = 2147483647
+Configuration file is /home/runner/.crrcsim/crrcsim.xml
+Configuration version is 2
+T_Config: Setting location to scenery/davis-orig.xml, sky variant 0
+Thermals: strength_mean=5.000000 strength_sigma=1.000000 radius_mean=70.000000 radius_sigma=10.000000
+Thermals: density=0.000002 lifetime_mean=240.000000 lifetime_sigma=60.000000
+Wind: 7.00 ft/s at 270.00 deg, turbulence (rel.) 1.0
+std::string reconfigureInputMethod()
+New input method: MOUSE
+T_TX_Interface::T_TX_Interface
+T_TX_InterfaceSoftware::T_TX_InterfaceSoftware(int method)
+T_TX_Mixer::T_TX_Mixer()
+int T_TX_InterfaceSoftware::init(SimpleXMLTransfer* config)
+int T_TX_Interface::init(SimpleXMLTransfer* config)
+T_TX_Mixer::init(cfg, child)
+ <-- inputMethod.mouse
+Loading mixer settings from inputMethod.mouse:
+T_AxisMapper::init(cfg, child)
+ <-- inputMethod.mouse
+mapper set to radio type 6
+Screen resolution : 1280 x 1024 
+Loading default videomode from config...
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+Failed to setup videomode 800x600, fullscreen=0
+Failed to setup videomode 800x600, fullscreen=0
+Failed to setup videomode 640x480, fullscreen=0
+Failed to setup videomode 800x600, fullscreen=0
+Using the following rendering mode:
+  Renderer:    llvmpipe (LLVM 17.0.6, 128 bits)
+  Vendor:      Mesa
+  GL version:  4.5 (Compatibility Profile) Mesa 24.0.1-1deepin3
+  RGBA bpp:    8/8/8/0
+  Depth bpp:   24
+  Stencil bpp: 8
+  Modelview stack: 1 / 32    Projection stack: 1 / 32
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2721:(snd_pcm_open_noupdate) Unknown PCM default
+Couldn't open audiodevice: ALSA: Couldn't open audio device: No such file or directory
+Couldn't open audiodevice: ALSA: Couldn't open audio device: No such file or directory
+Textured font :/usr/share/games/crrcsim/textures/Sans_iso8859-15.txf
+--- void ThermikSchalen::init ---------------------------
+  inner:
+    dzu_y = 0.916667
+    dzl_y = 0.0833333
+    iu_y = 0.566667
+    il_y = 0.433333
+    ol_x = -0.0333333
+    ol_y = 0.166667
+    ou_x = -0.05
+    ou_y = 0.833333
+
+  outer:
+    dzu_y = 0.916667
+    dzl_y = 0.0833333
+    iu_y = 0.5
+    il_y = 0.5
+    ol_x = 0.108333
+    ol_y = 0.5
+    ou_x = 0.108333
+    ou_y = 0.5
+
+  r_ref = 0.0333333
+  r_max = 0.149953
+  Upwards velocity at lower end is 1.5625 times upwards velocity at average height.
+---------------------------------------------------------
+Using Thermal Simulation v3
+Error opening airplane specification file: models/allegro.xml: Error opening models/allegro.xml
+--- Airplane description: ---------------------------------------
+  Wingspan:                   1.99644 m
+  Mass:                       0.657867 kg
+  Velocity in trimmed flight: 8.30617 m/s
+-----------------------------------------------------------------
+Using CRRC_AirplaneSim_Larcsim
+CRRCAirplaneV2(xml)
+soundfile: /usr/share/games/crrcsim/sounds/fan.wav
+soundserver: 0
+initAnimations: found 2 children
+createAnimation: found animation node tail, type ControlSurface
+createAnimation: found animation node fin, type ControlSurface
+START ALTITUDE : 6.3 (0.3+0.0)
+error opening logfile: No such file or directory
+START ALTITUDE : 6.3 (0.3+0.0)
+error opening logfile: No such file or directory
+--- void ThermikSchalen::init ---------------------------
+  inner:
+    dzu_y = 0.916667
+    dzl_y = 0.0833333
+    iu_y = 0.566667
+    il_y = 0.433333
+    ol_x = -0.0333333
+    ol_y = 0.166667
+    ou_x = -0.05
+    ou_y = 0.833333
+
+  outer:
+    dzu_y = 0.916667
+    dzl_y = 0.0833333
+    iu_y = 0.5
+    il_y = 0.5
+    ol_x = 0.108333
+    ol_y = 0.5
+    ou_x = 0.108333
+    ou_y = 0.5
+
+  r_ref = 0.0333333
+  r_max = 0.149953
+  Upwards velocity at lower end is 1.5625 times upwards velocity at average height.
+---------------------------------------------------------
+Using Thermal Simulation v3
+Loading scenery "Davis Field"
+  <sky> 8 at child idx 8
+  <sky> 9 at child idx 9
+  <sky> 10 at child idx 10
+  Using sky variant 0
+Initializing scenery DAVIS from file: /usr/share/games/crrcsim/scenery/davis-orig.xml
+Default wind from scenery: 3.00 ft/s at 180.00 deg, turbulence (rel.) 1.0
+Wind: 3.00 ft/s at 180.00 deg, turbulence (rel.) 1.0
+T_Config: Setting location to scenery/davis-orig.xml, sky variant 0
+Thermals: strength_mean=5.000000 strength_sigma=1.000000 radius_mean=70.000000 radius_sigma=10.000000
+Thermals: density=0.000002 lifetime_mean=240.000000 lifetime_sigma=60.000000
+Default wind from scenery: 3.00 ft/s at 180.00 deg, turbulence (rel.) 1.0
+Wind: 3.00 ft/s at 180.00 deg, turbulence (rel.) 1.0
+--- void ThermikSchalen::init ---------------------------
+  inner:
+    dzu_y = 0.916667
+    dzl_y = 0.0833333
+    iu_y = 0.566667
+    il_y = 0.433333
+    ol_x = -0.0333333
+    ol_y = 0.166667
+    ou_x = -0.05
+    ou_y = 0.833333
+
+  outer:
+    dzu_y = 0.916667
+    dzl_y = 0.0833333
+    iu_y = 0.5
+    il_y = 0.5
+    ol_x = 0.108333
+    ol_y = 0.5
+    ou_x = 0.108333
+    ou_y = 0.5
+
+  r_ref = 0.0333333
+  r_max = 0.149953
+  Upwards velocity at lower end is 1.5625 times upwards velocity at average height.
+---------------------------------------------------------
+Using Thermal Simulation v3
+START ALTITUDE : 6.2 (0.3+-0.1)
+error opening logfile: No such file or directory
+--- void ThermikSchalen::init ---------------------------
+  inner:
+    dzu_y = 0.916667
+    dzl_y = 0.0833333
+    iu_y = 0.566667
+    il_y = 0.433333
+    ol_x = -0.0333333
+    ol_y = 0.166667
+    ou_x = -0.05
+    ou_y = 0.833333
+
+  outer:
+    dzu_y = 0.916667
+    dzl_y = 0.0833333
+    iu_y = 0.5
+    il_y = 0.5
+    ol_x = 0.108333
+    ol_y = 0.5
+    ou_x = 0.108333
+    ou_y = 0.5
+
+  r_ref = 0.0333333
+  r_max = 0.149953
+  Upwards velocity at lower end is 1.5625 times upwards velocity at average height.
+---------------------------------------------------------
+Using Thermal Simulation v3
+Scheduler::Register(0xffffef1bcfc0)
