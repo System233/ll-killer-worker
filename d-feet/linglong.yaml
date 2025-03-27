@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: d-feet.linyaps
+  name: d-feet
+  version: 0.3.16.3
+  kind: app
+  description: |-
+    D-Bus object browser, viewer and debugger
+    d-feet is a D-Bus debugger that allow you to:
+    * View names on the session and system bus
+    * View exported objects, interfaces, methods and signals
+    * View the full command line of services on the bus
+    * Execute methods with parameters on the bus and see their return values
+command:
+- /opt/apps/d-feet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
