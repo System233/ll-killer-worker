@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: biz.zcjt.gaopaiyi.linyaps
+  name: biz.zcjt.gaopaiyi
+  version: 1.0.0.0
+  kind: app
+  description: ZhongChu High-speed Photographic Apparatus Driver
+command:
+- /opt/apps/biz.zcjt.gaopaiyi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
