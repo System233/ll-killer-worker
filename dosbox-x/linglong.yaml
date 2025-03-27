@@ -1,0 +1,35 @@
+version: "1"
+package:
+  id: dosbox-x.linyaps
+  name: dosbox-x
+  version: 2024.3.1.1
+  kind: app
+  description: |-
+    DOS emulator with complete, accurate hardware emulation
+    DOSBox-X is a comprehensive DOS emulator, supporting DOS applications
+    including Windows 3.x and Windows 9x, and striving to provide accurate
+    hardware emulation. It is based on the original DOSBox and includes
+    features from a number of forks including SVN Daum, ECE, DOSBox
+    Staging, DOSVAX, and vDosPlus.
+
+    Its features include:
+    - a built-in drop-down menu
+    - a graphical configuration tool
+    - support for save-states
+    - NEC PC-98, AX, and J-3100 emulations
+    - DOS/V support for Chinese, Japanese, and Korean language support
+    - support for CONFIG.SYS commands
+    - printing support
+    - long filename support
+    - DOS SHARE emulation
+    - wheel mouse support (including the CuteMouse wheel mouse API)
+    - 3Dfx Voodoo chip emulation
+    - NE2000 emulation
+    - MT-32 emulation
+
+    DOSBox-X isn't a direct upgrade from DOSBox, but DOSBox users should
+    be able to use DOSBox-X without difficulty.
+command:
+- /opt/apps/dosbox-x.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
