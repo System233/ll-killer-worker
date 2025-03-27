@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.semxum.aisystem.linyaps
+  name: com.semxum.aisystem
+  version: 1.0.0.2
+  kind: app
+  description: Semxum Ai Scanner by arm64
+command:
+- /opt/apps/com.semxum.aisystem.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
