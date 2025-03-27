@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: blackbox-terminal.linyaps
+  name: blackbox-terminal
+  version: 0.14.0.2
+  kind: app
+  description: |-
+    BlackBox Terminal Emulator
+    GTK-4 based terminal with reasonably small footprint and the usual features.
+    - Theming (Tilix-compatible color scheme support)
+    - App theming based on terminal color scheme
+    - Transparent background
+    - Custom fonts and cell spacing
+    - Tabs
+    - Toggleable header bar
+    - Click to open links
+    - Files drag-n-drop support
+    - Sixel (experimental)
+    - Customizable UI
+    - Customizable shortcuts
+    This is unrelated to the Blackbox X Window Manager.
+command:
+- /opt/apps/blackbox-terminal.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
