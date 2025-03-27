@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: cutemaze.linyaps
+  name: cutemaze
+  version: 1.3.2.1
+  kind: app
+  description: |-
+    single player maze game
+    CuteMaze is a simple, top-down game in which mazes are randomly generated
+    using one of a choice of several different algorithms. You move the character
+    through the maze while hunting for targets (cheese, by default) -
+    the game is won once all of these targets have been picked up.
+command:
+- /opt/apps/cutemaze.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
