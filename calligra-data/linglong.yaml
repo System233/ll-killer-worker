@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: calligra-data.linyaps
+  name: calligra-data
+  version: 3.2.1.8
+  kind: app
+  description: |-
+    common shared data for the Calligra Suite
+    This package provides the architecture-independent data that is shared
+    amongst the various components of Calligra.
+
+    This package is part of the Calligra Suite.
+command:
+- /opt/apps/calligra-data.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
