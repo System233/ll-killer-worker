@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: apper.linyaps
+  name: apper
+  version: 1.0.0.5
+  kind: app
+  description: |-
+    KDE package management tool using PackageKit
+    PackageKit allows performing simple software management tasks over a DBus
+    interface  e.g. refreshing the cache, updating, installing and removing
+    software packages or searching for multimedia codecs and file handlers.
+
+    This package provides a KDE package manager based on PackageKit,
+    as well as package management support for the KDE desktop.
+    It implements the PackageKit session API for KDE, which allows
+    applications to easily install additional software (e.g. extensions),
+    uninstall files and perform simple software status queries.
+command:
+- /opt/apps/apper.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
