@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kpat.linyaps
+  name: kpat
+  version: 21.8.0.1
+  kind: app
+  description: |-
+    solitaire card games
+    KPatience is a collection of fourteen solitaire card games, including Klondike,
+    Spider, and FreeCell.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/kpat.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
