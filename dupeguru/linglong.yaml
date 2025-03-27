@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: dupeguru.linyaps
+  name: dupeguru
+  version: 4.3.1.4
+  kind: app
+  description: |-
+    GUI tool to find duplicate files in a system
+    dupeGuru is a tool to find duplicate files on your computer.
+
+    It can scan either filenames or contents. The filename scan features a
+    fuzzy matching algorithm that can find duplicate filenames even when
+    they are not exactly the same.
+
+    dupeGuru is customizable: you can tweak its matching engine to find
+    exactly the kind of duplicates you want to find.
+command:
+- /opt/apps/dupeguru.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
