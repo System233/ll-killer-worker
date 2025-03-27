@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: eartag.linyaps
+  name: eartag
+  version: 0.6.0.1
+  kind: app
+  description: |-
+    Edit audio file tags
+    Ear Tag is a simple audio file tag editor. It is primarily geared towards
+    making quick edits or bulk-editing tracks in albums/EPs.
+    Unlike other tagging programs, Ear Tag does not require the user to set up
+    a music library folder.
+
+    Ear Tag supports both desktop and mobile form factors.
+
+    Ear Tag is a GNOME Circle app.
+command:
+- /opt/apps/eartag.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
