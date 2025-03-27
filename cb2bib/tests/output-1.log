@@ -1,0 +1,54 @@
+包名:cb2bib.linyaps
+Layer文件:cb2bib.linyaps_2.0.1.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: cb2bib.linyaps_2.0.1.2_arm64_binary.layer
+offset: 999
+mountpoint: /tmp/tmp.PvtCcVdbLj/mnt
+dbglevel: 0
+Usage: cb2bib
+       cb2bib [action] [filename1 [filename2 ... ]] [--conf [filename.conf]]
+
+Actions:
+       --configure [filename.conf]                        Edit configuration
+
+       --bibedit [filename1.bib [filename2.bib ... ]]     Edit/browse BibTeX files
+       --citer [filename1.bib [filename2.bib ... ]]       Start cb2Bib citer
+       --import tmp_reference_filename                    Import reference, usually from ad hoc websites
+
+       --doc2bib fn1.doc [fn2.doc ... ] reference.bib     Extract reference from document file
+       --txt2bib fn1.txt [fn2.txt ... ] reference.bib     Extract reference from text file
+
+       --index [bibdirname]                               Extract keywords from document files
+
+       --html-annote filename.tex                         Convert annote file to HTML
+       --view-annote filename.tex                         Convert and visualize annote file
+       --view-annote filename.tex.html                    Visualize annote file
+
+Switches:
+       --conf [filename.conf]                             Use configuration file
+       --sloppy                                           Accept guesses in automatic reference extraction
+
+Examples:
+       cb2bib                                             Start cb2Bib extraction panel
+       cb2bib --import tmp_reference_filename             Import reference
+       cb2bib --bibedit filename.bib                      Edit BibTeX filename.bib
+       cb2bib --conf                                      Start cb2Bib in USB mode
+       cb2bib --doc2bib *.pdf references.bib              Extract references from PDF title pages
+
+Notes:
+ -Use switch --conf to particularize specific settings for specific actions.
+ -The file cb2bib.conf must be readable and writable. If it does not exist, cb2Bib will create one
+  based on predefined defaults.
+ -If starting cb2Bib from a removable media use, the command 'cb2bib --conf' without configuration
+  filename. Settings will be read from and written to /cb2bib/full/path/cb2bib.conf, being therefore
+  independent of the mounting address that the host computer will provide.
+ -To import references from a browser select when asked c2bimport, which expands to 'cb2bib --import %f'.
+  The browser will provide the temporary reference filename.
+ -A number of factors influence the reliability of automatic extractions. Consider writing customized
+  regular expressions and network queries, and use metadata when available.
+
+Important:
+ -The commands --doc2bib and --txt2bib do not append the references to the references.bib. They create
+  a new file, or silently overwrite it if already exists.
+
