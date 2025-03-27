@@ -1,11 +1,11 @@
 # amd64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3160|616|252 |364 | 40.91%| 7.97%|
+|3160|642|277 |365 | 43.15%| 8.77%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2779|330|180 |150 | 54.55%| 6.48%|
+|ubuntu-noble|2779|356|205 |151 | 57.58%| 7.38%|
 |deepin-v23|380|285|71 |214 | 24.91%| 18.68%|
 |obs-studio|1|1|1 |0 | 100.00%| 100.00%|
 ## 详细结果
@@ -162,13 +162,16 @@
 | [basket](./basket) | amd64  | ubuntu-noble | 2.49-1build3 | ![screen0-5.jpg](./basket/tests/screen0-5.jpg) | N/A |
 | [bastet](./bastet) | amd64  | ubuntu-noble | 0.43-7build1-44b4f74 | 失败 | N/A |
 | [batmon.app](./batmon.app) | amd64  | ubuntu-noble | 0.9-2build5 | ![screen0-5.jpg](./batmon.app/tests/screen0-5.jpg) | N/A |
+| [battery-stats](./battery-stats) | amd64  | ubuntu-noble | 0.5.6-2.1 | ![screen0-5.jpg](./battery-stats/tests/screen0-5.jpg) | N/A |
 | [bb](./bb) | amd64  | deepin-v23 | 1.3rc1-13 | 失败 | [SHA256SUM](./bb/SHA256SUMS) |
 | [bbpager](./bbpager) | amd64  | ubuntu-noble | 0.4.7-10-44b4f74 | 失败 | N/A |
+| [bcnc](./bcnc) | amd64  | ubuntu-noble | 0.9.14.318+ds-4 | ![screen0-5.jpg](./bcnc/tests/screen0-5.jpg) | N/A |
 | [bdbvu](./bdbvu) | amd64  | ubuntu-noble | 0.1-3.1build2 | ![screen0-5.jpg](./bdbvu/tests/screen0-5.jpg) | N/A |
 | [beads](./beads) | amd64  | ubuntu-noble | 1.1.22-1build4 | ![screen0-5.jpg](./beads/tests/screen0-5.jpg) | N/A |
 | [bear-factory](./bear-factory) | amd64  | ubuntu-noble | 0.6.0-8build5 | ![screen0-5.jpg](./bear-factory/tests/screen0-5.jpg) ![screen1-5.jpg](./bear-factory/tests/screen1-5.jpg) ![screen2-5.jpg](./bear-factory/tests/screen2-5.jpg) | N/A |
 | [beneath-a-steel-sky](./beneath-a-steel-sky) | amd64  | ubuntu-noble | 0.0372-8 | ![screen0-5.jpg](./beneath-a-steel-sky/tests/screen0-5.jpg) | N/A |
 | [berusky](./berusky) | amd64  | ubuntu-noble | 1.7.2-3build2 | ![screen0-5.jpg](./berusky/tests/screen0-5.jpg) | N/A |
+| [berusky2](./berusky2) | amd64  | ubuntu-noble | 0.12-4 | ![screen0-5.jpg](./berusky2/tests/screen0-5.jpg) | N/A |
 | [bespokesynth](./bespokesynth) | amd64  | ubuntu-noble | 1.2.1+dfsg-4build4 | ![screen0-5.jpg](./bespokesynth/tests/screen0-5.jpg) | N/A |
 | [betaradio](./betaradio) | amd64  | ubuntu-noble | 1.6-1build3 | ![screen0-5.jpg](./betaradio/tests/screen0-5.jpg) | N/A |
 | [between](./between) | amd64  | ubuntu-noble | 6+dfsg1-4 | ![screen0-5.jpg](./between/tests/screen0-5.jpg) | N/A |
@@ -195,7 +198,8 @@
 | [blackbox-terminal](./blackbox-terminal) | amd64  | ubuntu-noble | 0.14.0-2build2 | ![screen0-5.jpg](./blackbox-terminal/tests/screen0-5.jpg) | N/A |
 | [blastem](./blastem) | amd64  | ubuntu-noble | 0.6.3.4-1build1 | ![screen0-5.jpg](./blastem/tests/screen0-5.jpg) | N/A |
 | [bleachbit](./bleachbit) | amd64  | ubuntu-noble | 4.6.0-3-44b4f74 | 失败 | N/A |
-| [blinken](./blinken) | amd64  | ubuntu-noble | 21.08.0-1-07be3ef | 失败 | N/A |
+| [blender](./blender) | amd64  | ubuntu-noble | 4.0.2+dfsg-1ubuntu8 | ![screen0-5.jpg](./blender/tests/screen0-5.jpg) | N/A |
+| [blinken](./blinken) | amd64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./blinken/tests/screen0-5.jpg) | N/A |
 | [blobandconquer](./blobandconquer) | amd64  | ubuntu-noble | 1.11-dfsg+20-2-44b4f74 | 失败 | N/A |
 | [blobby](./blobby) | amd64  | ubuntu-noble | 1.1+ds-1ubuntu1 | ![screen0-5.jpg](./blobby/tests/screen0-5.jpg) | N/A |
 | [bloboats](./bloboats) | amd64  | ubuntu-noble | 1.0.2+dfsg-4 | ![screen0-5.jpg](./bloboats/tests/screen0-5.jpg) | N/A |
@@ -203,23 +207,45 @@
 | [blockattack](./blockattack) | amd64  | ubuntu-noble | 2.8.0-1build1 | ![screen0-5.jpg](./blockattack/tests/screen0-5.jpg) | N/A |
 | [blockout2](./blockout2) | amd64  | ubuntu-noble | 2.5+dfsg1-1build3 | ![screen0-5.jpg](./blockout2/tests/screen0-5.jpg) | N/A |
 | [blocks-of-the-undead](./blocks-of-the-undead) | amd64  | ubuntu-noble | 1.0-7build1 | ![screen0-5.jpg](./blocks-of-the-undead/tests/screen0-5.jpg) | N/A |
+| [bluedevil](./bluedevil) | amd64  | ubuntu-noble | 5.27.11-0ubuntu2 | ![screen1-5.jpg](./bluedevil/tests/screen1-5.jpg) | N/A |
+| [bluefish](./bluefish) | amd64  | ubuntu-noble | 2.2.15-1 | ![screen0-5.jpg](./bluefish/tests/screen0-5.jpg) | N/A |
 | [blueman](./blueman) | amd64  | deepin-v23 | 2.3.5-3deepin0+rb1-44b4f74 | 失败 | N/A |
 | [blupimania](./blupimania) | amd64  | ubuntu-noble | 1.6.2-17-g5f6cf8b-1 | ![screen0-5.jpg](./blupimania/tests/screen0-5.jpg) | N/A |
 | [boats](./boats) | amd64  | ubuntu-noble | 202008-1build2 | ![screen0-5.jpg](./boats/tests/screen0-5.jpg) | N/A |
+| [boinc-manager](./boinc-manager) | amd64  | ubuntu-noble | 7.24.1+dfsg-4build1 | ![screen0-5.jpg](./boinc-manager/tests/screen0-5.jpg) | N/A |
+| [bomber](./bomber) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./bomber/tests/screen0-5.jpg) | N/A |
 | [bomberclone](./bomberclone) | amd64  | ubuntu-noble | 0.11.9-7.1 | ![screen0-5.jpg](./bomberclone/tests/screen0-5.jpg) | N/A |
 | [bookletimposer](./bookletimposer) | amd64  | ubuntu-noble | 0.3.1-4ubuntu1-44b4f74 | 失败 | N/A |
+| [bookworm](./bookworm) | amd64  | ubuntu-noble | 1.1.2+git20210715-4build3 | ![screen0-5.jpg](./bookworm/tests/screen0-5.jpg) | N/A |
 | [boomaga](./boomaga) | amd64  | ubuntu-noble | 3.0.0+git13-g7f7ad47-1build4 | ![screen0-5.jpg](./boomaga/tests/screen0-5.jpg) | N/A |
 | [bossa](./bossa) | amd64  | ubuntu-noble | 1.9.1-3ubuntu5 | ![screen0-5.jpg](./bossa/tests/screen0-5.jpg) | N/A |
 | [boswars](./boswars) | amd64  | ubuntu-noble | 2.8-2build2 | ![screen0-5.jpg](./boswars/tests/screen0-5.jpg) | N/A |
+| [bouncy](./bouncy) | amd64  | ubuntu-noble | 0.6.20071104-9 | ![screen0-5.jpg](./bouncy/tests/screen0-5.jpg) | N/A |
+| [bovo](./bovo) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./bovo/tests/screen0-5.jpg) | N/A |
+| [bpython](./bpython) | amd64  | ubuntu-noble | 0.24-1 | ![screen0-5.jpg](./bpython/tests/screen0-5.jpg) | N/A |
 | [brainparty](./brainparty) | amd64  | ubuntu-noble | 0.61+dfsg-7 | ![screen0-5.jpg](./brainparty/tests/screen0-5.jpg) | N/A |
-| [brasero](./brasero) | amd64  | ubuntu-noble | 3.12.3-2-07be3ef | 失败 | N/A |
+| [brasero](./brasero) | amd64  | ubuntu-noble | 3.12.3-2build4 | ![screen0-5.jpg](./brasero/tests/screen0-5.jpg) | N/A |
+| [brewtarget](./brewtarget) | amd64  | ubuntu-noble | 3.0.6-1build2 | ![screen0-5.jpg](./brewtarget/tests/screen0-5.jpg) | N/A |
 | [briquolo](./briquolo) | amd64  | ubuntu-noble | 0.5.7-11build2 | ![screen0-5.jpg](./briquolo/tests/screen0-5.jpg) | N/A |
 | [brp-pacu](./brp-pacu) | amd64  | ubuntu-noble | 2.1.2+git20210421-1build2 | ![screen0-5.jpg](./brp-pacu/tests/screen0-5.jpg) | N/A |
 | [brutalchess](./brutalchess) | amd64  | ubuntu-noble | 0.5.2+dfsg-8build1 | ![screen0-5.jpg](./brutalchess/tests/screen0-5.jpg) | N/A |
+| [bsdgames](./bsdgames) | amd64  | ubuntu-noble | 2.17-33 | ![screen0-5.jpg](./bsdgames/tests/screen0-5.jpg) ![screen1-5.jpg](./bsdgames/tests/screen1-5.jpg) ![screen3-5.jpg](./bsdgames/tests/screen3-5.jpg) ![screen4-5.jpg](./bsdgames/tests/screen4-5.jpg) ![screen5-5.jpg](./bsdgames/tests/screen5-5.jpg) ![screen9-5.jpg](./bsdgames/tests/screen9-5.jpg) ![screen14-5.jpg](./bsdgames/tests/screen14-5.jpg) ![screen16-5.jpg](./bsdgames/tests/screen16-5.jpg) ![screen19-5.jpg](./bsdgames/tests/screen19-5.jpg) ![screen22-5.jpg](./bsdgames/tests/screen22-5.jpg) | N/A |
+| [btanks](./btanks) | amd64  | ubuntu-noble | 0.9.8083-9build1 | ![screen0-5.jpg](./btanks/tests/screen0-5.jpg) | N/A |
 | [btop](./btop) | amd64  | deepin-v23 | 1.3.0-1 | 失败 | [SHA256SUM](./btop/SHA256SUMS) |
 | [budgie-arm-environment](./budgie-arm-environment) | amd64  | ubuntu-noble | 0.20.13-44b4f74 | 失败 | N/A |
+| [budgie-control-center](./budgie-control-center) | amd64  | ubuntu-noble | 1.4.0-2build3-44b4f74 | 失败 | N/A |
+| [budgie-core](./budgie-core) | amd64  | ubuntu-noble | 10.9.1-3ubuntu4-44b4f74 | 失败 | N/A |
+| [budgie-desktop-environment](./budgie-desktop-environment) | amd64  | ubuntu-noble | 0.20.13-44b4f74 | 失败 | N/A |
 | [budgie-desktop-view](./budgie-desktop-view) | amd64  | ubuntu-noble | 1.3-2build1-44b4f74 | 失败 | N/A |
+| [budgie-hotcorners-applet](./budgie-hotcorners-applet) | amd64  | ubuntu-noble | 1.8.0-1build3 | ![screen0-5.jpg](./budgie-hotcorners-applet/tests/screen0-5.jpg) | N/A |
+| [budgie-previews](./budgie-previews) | amd64  | ubuntu-noble | 1.8.0-1build3 | ![screen0-5.jpg](./budgie-previews/tests/screen0-5.jpg) | N/A |
 | [budgie-quickchar](./budgie-quickchar) | amd64  | ubuntu-noble | 1.8.0-1build3-44b4f74 | 失败 | N/A |
+| [budgie-wallstreet](./budgie-wallstreet) | amd64  | ubuntu-noble | 1.8.0-1build3 | ![screen0-5.jpg](./budgie-wallstreet/tests/screen0-5.jpg) | N/A |
+| [budgie-welcome](./budgie-welcome) | amd64  | ubuntu-noble | 0.6.1 | ![screen0-5.jpg](./budgie-welcome/tests/screen0-5.jpg) ![screen1-5.jpg](./budgie-welcome/tests/screen1-5.jpg) ![screen2-5.jpg](./budgie-welcome/tests/screen2-5.jpg) ![screen3-5.jpg](./budgie-welcome/tests/screen3-5.jpg) | N/A |
+| [budgie-window-shuffler](./budgie-window-shuffler) | amd64  | ubuntu-noble | 1.8.0-1build3 | ![screen0-5.jpg](./budgie-window-shuffler/tests/screen0-5.jpg) | N/A |
+| [bugsquish](./bugsquish) | amd64  | ubuntu-noble | 0.0.6-10 | ![screen0-5.jpg](./bugsquish/tests/screen0-5.jpg) | N/A |
+| [bumprace](./bumprace) | amd64  | ubuntu-noble | 1.5.8-1 | ![screen0-5.jpg](./bumprace/tests/screen0-5.jpg) | N/A |
+| [burgerspace](./burgerspace) | amd64  | ubuntu-noble | 1.9.5-1build1 | ![screen0-5.jpg](./burgerspace/tests/screen0-5.jpg) | N/A |
 | [butt](./butt) | amd64  | ubuntu-noble | 0.1.37-2 | ![screen0-5.jpg](./butt/tests/screen0-5.jpg) | [SHA256SUM](./butt/SHA256SUMS) |
 | [caja](./caja) | amd64  | ubuntu-noble | 1.24.0-1-deepin1-07be3ef | 失败 | N/A |
 | [cataclysm-dda-sdl](./cataclysm-dda-sdl) | amd64  | deepin-v23 | 0.G-4deepin1 | ![screen0-5.jpg](./cataclysm-dda-sdl/tests/screen0-5.jpg) | [SHA256SUM](./cataclysm-dda-sdl/SHA256SUMS) |
