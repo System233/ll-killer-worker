@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.lanxum.gasd06.printerdriver.linyaps
+  name: com.lanxum.gasd06.printerdriver
+  version: 1.0.0.5
+  kind: app
+  description: com.lanxum.gasd06.printerdriver 1.0.0-5+0
+command:
+- /opt/apps/com.lanxum.gasd06.printerdriver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
