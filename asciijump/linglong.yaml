@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: asciijump.linyaps
+  name: asciijump
+  version: 1.0.2.10
+  kind: app
+  description: |-
+    Small and funny ASCII-art game about ski jumping
+    This is a very funny multiplayer game, you can play with friends or against
+    the computer. There are two modes of playing: World Cup and Training. You will
+    be able to select from a few hills, for example czumulungma and finland.
+command:
+- /opt/apps/asciijump.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
