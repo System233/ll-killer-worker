@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: camitk-imp.linyaps
+  name: camitk-imp
+  version: 5.2.0.1
+  kind: app
+  description: |-
+    workbench application for the CamiTK library
+    CamiTK helps researchers and clinicians to easily and rapidly collaborate in
+    order to prototype CAMI applications, that feature medical images,
+    surgical navigation and biomechanical simulations.
+
+    camitk-imp is the CamiTK workbench application where you can test
+    all available extensions for prototyping.
+    It provides an easy and interactive access to all available data and
+    algorithm parameters, including the one you build yourself using
+    the CamiTK SDK.
+
+    For example, camitk-imp can visualize medical images from a lot of different
+    (standard) formats, offers image processing and segmentation algorithms to
+    reconstruct a mesh geometry and run a biomechanical simulation.
+command:
+- /opt/apps/camitk-imp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

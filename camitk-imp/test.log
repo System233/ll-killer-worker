@@ -1,0 +1,29 @@
+正在测试: APPID=camitk-imp.linyaps LAYER=camitk-imp.linyaps_5.2.0.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install camitk-imp.linyaps_5.2.0.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:camitk-imp.linyaps
+Layer文件:camitk-imp.linyaps_5.2.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: camitk-imp.linyaps_5.2.0.1_x86_64_binary.layer
+offset: 1092
+mountpoint: /tmp/tmp.lok71CADe7/mnt
+dbglevel: 0
+find: ‘/opt/apps/camitk-imp.linyaps/files/share/icons’: No such file or directory
+[成功] camitk-imp.desktop: camitk-imp -> /opt/apps/camitk-imp.linyaps/files/share/pixmaps/camitk-imp.xpm
+[成功] /opt/apps/camitk-imp.linyaps/files/share/applications/camitk-imp.desktop: /opt/apps/camitk-imp.linyaps/files/entrypoint.sh camitk-imp %f
+[正在测试启动项]
+包名:camitk-imp.linyaps
+Layer文件:camitk-imp.linyaps_5.2.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: camitk-imp.linyaps_5.2.0.1_x86_64_binary.layer
+offset: 1092
+mountpoint: /tmp/tmp.7YrEiT9Cxs/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run camitk-imp.linyaps -- /opt/apps/camitk-imp.linyaps/files/entrypoint.sh camitk-imp
+[PID 14024] 进程已启动
+[PID 14024] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall camitk-imp.linyaps
