@@ -123,7 +123,7 @@ Get:76 https://community-packages.deepin.com/beige beige/main amd64 qt5-gtk-plat
 Get:77 https://community-packages.deepin.com/beige beige/main amd64 qttranslations5-l10n all 5.15.8-1+dde [1871 kB]
 Get:78 https://community-packages.deepin.com/beige beige/main amd64 samba-dsdb-modules amd64 2:4.19.5+dfsg-1deepin1 [325 kB]
 Get:79 https://community-packages.deepin.com/beige beige/main amd64 usb.ids all 2024.03.18-1 [208 kB]
-Fetched 48.4 MB in 3s (15.4 MB/s)
+Fetched 48.4 MB in 3s (15.3 MB/s)
 Selecting previously unselected package libavahi-core7:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
 Preparing to unpack .../00-libavahi-core7_0.8-5_amd64.deb ...
@@ -375,9 +375,8 @@ Installing new config file as you requested.
 
 Configuration file '/etc/samba/gdbcommands', does not exist on system.
 Installing new config file as you requested.
-chown: changing ownership of '/var/log/samba': Invalid argument
-dpkg: error processing package samba-common (--configure):
- installed samba-common package post-installation script subprocess returned error exit status 1
+
+Creating config file /etc/samba/smb.conf with new version
 Setting up libjemalloc2:amd64 (5.3.0-2) ...
 Setting up lshw (02.19.git.2021.06.19.996aaad9c7-2deepin0) ...
 Setting up libprotobuf-c1:amd64 (1.4.1-1deepin0) ...
@@ -482,19 +481,29 @@ Setting up libqt5waylandclient5:amd64 (5.15.8-1+dde) ...
 Setting up libqt5xdgiconloader3:amd64 (3.12.0-1deepin1+rb1) ...
 Setting up libqt5printsupport5:amd64 (5.15.8-1+deepin9+rb1) ...
 Setting up qt5-image-formats-plugins:amd64 (5.15.8-1+dde) ...
+Setting up samba-common-bin (2:4.19.5+dfsg-1deepin1) ...
 Setting up libqt5x11extras5:amd64 (5.15.8-1+dde) ...
 Setting up libqt5svg5:amd64 (5.15.8-1+dde) ...
+Setting up winbind (2:4.19.5+dfsg-1deepin1) ...
+
+Configuration file '/etc/default/winbind', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/init.d/winbind', does not exist on system.
+Installing new config file as you requested.
+Can't exec "systemctl": No such file or directory at /usr/sbin/update-rc.d line 98.
+/usr/sbin/invoke-rc.d: 290: systemctl: not found
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: WARNING: No init system and policy-rc.d missing! Defaulting to block.
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-helper line 682.
+/var/lib/dpkg/info/winbind.postinst: 60: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+winbind.service is a disabled or a static unit, not starting it.
 Setting up libdtkgui5:amd64 (5.7.5) ...
 Setting up libdtkwidget5:amd64 (5.7.5) ...
-Processing triggers for udev (255.2-4) ...
-Processing triggers for hicolor-icon-theme (0.17-2) ...
-gtk-update-icon-cache: No theme index file.
-WARNING: icon cache generation failed
-Processing triggers for libc-bin (2.38-6deepin4) ...
-Processing triggers for dbus (1.14.10-3) ...
-dpkg: dde-printer: dependency problems, but configuring anyway as you requested:
- dde-printer depends on libnss-winbind.
-
+Setting up libnss-winbind:amd64 (2:4.19.5+dfsg-1deepin1) ...
+First installation detected, adding winbind to /etc/nsswitch.conf...
 Setting up dde-printer (1.0.25-1+1060) ...
 
 Configuration file '/etc/dbus-1/system.d/com.deepin.printer.manager.conf', does not exist on system.
@@ -504,36 +513,9 @@ Installing new config file as you requested.
 /var/lib/dpkg/info/dde-printer.postinst: line 9: killall: command not found
 /var/lib/dpkg/info/dde-printer.postinst: line 41: /etc/apt/sources.list.d/driver.list: No such file or directory
 /var/lib/dpkg/info/dde-printer.postinst: line 42: /etc/apt/sources.list.d/driver.list: No such file or directory
-dpkg: winbind: dependency problems, but configuring anyway as you requested:
- winbind depends on samba-common (= 2:4.19.5+dfsg-1deepin1); however:
-  Package samba-common is not configured yet.
- winbind depends on samba-common-bin (= 2:4.19.5+dfsg-1deepin1).
-
-Setting up winbind (2:4.19.5+dfsg-1deepin1) ...
-
-Configuration file '/etc/default/winbind', does not exist on system.
-Installing new config file as you requested.
-
-Configuration file '/etc/init.d/winbind', does not exist on system.
-Installing new config file as you requested.
-install: cannot change owner and permissions of ‘/var/lib/samba/winbindd_privileged’: Invalid argument
-dpkg: error processing package winbind (--configure):
- installed winbind package post-installation script subprocess returned error exit status 1
-dpkg: libnss-winbind:amd64: dependency problems, but configuring anyway as you requested:
- libnss-winbind:amd64 depends on winbind:any (= 2:4.19.5+dfsg-1deepin1); however:
-  Package winbind is not configured yet.
-
-Setting up libnss-winbind:amd64 (2:4.19.5+dfsg-1deepin1) ...
-First installation detected, adding winbind to /etc/nsswitch.conf...
-dpkg: samba-common-bin: dependency problems, but configuring anyway as you requested:
- samba-common-bin depends on samba-common (= 2:4.19.5+dfsg-1deepin1); however:
-  Package samba-common is not configured yet.
-
-Setting up samba-common-bin (2:4.19.5+dfsg-1deepin1) ...
 Processing triggers for libc-bin (2.38-6deepin4) ...
 Processing triggers for dbus (1.14.10-3) ...
-Errors were encountered while processing:
- samba-common
- winbind
-W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
-E: Sub-process /usr/bin/dpkg returned an error code (1)
+Processing triggers for udev (255.2-4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
