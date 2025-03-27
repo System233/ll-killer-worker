@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: charmap.app.linyaps
+  name: charmap.app
+  version: 0.3.0.4
+  kind: app
+  description: |-
+    Character map for GNUstep
+    This is a character map. It is developed using the GNUstep development
+    environment (www.gnustep.org) and is meant to contribute to GNUstep's promise
+    towards a desktop environment.
+
+    Charmap offers font selection, allowing one to easily see all the
+    glyphs which a particular font offers.
+command:
+- /opt/apps/charmap.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
