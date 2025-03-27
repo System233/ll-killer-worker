@@ -1,0 +1,52 @@
+包名:biz.zcjt.zc-a5933dn.linyaps
+Layer文件:biz.zcjt.zc-a5933dn.linyaps_1.0.0.23324_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: biz.zcjt.zc-a5933dn.linyaps_1.0.0.23324_arm64_binary.layer
+offset: 430
+mountpoint: /tmp/tmp.lC1ozhB3Ok/mnt
+dbglevel: 0
+argv[0] = /opt/apps/printer-driver-zhongchu-zc-a5933dn/bin/NetworkSetupTool/networkst
+nExePath = /opt/apps/printer-driver-zhongchu-zc-a5933dn/bin/NetworkSetupTool/networkst
+nExePath = /opt/apps/printer-driver-zhongchu-zc-a5933dn/bin/NetworkSetupTool
+DEBUG: checkProcessNumber:: In 
+DEBUG: checkProcessNumber:: Command = pgrep -l -x "networkst" | grep -c "networkst" 
+1
+DEBUG: process number = 1 
+DEBUG: Only me. 
+DEBUG: ReadINISetting:: ReadINISetting In 
+DEBUG: ReadINISetting:: inipath /opt/apps/printer-driver-zhongchu-zc-a5933dn/bin/NetworkSetupTool/avinetmonitor 
+DEBUG: ReadINISetting:: read file fail! 
+DEBUG: ReadINISetting:: create file fail! 
+DEBUG: LoadLibraryFunction:: Path = /opt/apps/printer-driver-zhongchu-zc-a5933dn/bin/NetworkSetupTool/netprnctl.so 
+DEBUG: LoadLibraryFunction:: Open prnctl.so.1.0 success.
+ 
+DEBUG: LoadLibraryFunction:: Get GetPrinterList_s success.
+ 
+DEBUG: LoadLibraryFunction:: Get GetDLLVersion success. 
+DEBUG: LoadLibraryFunction:: Get CommunicateWithDevice success. 
+SDK[2025/03/27 07:02:56] [--GetDLLVersion--] In
+
+SDK[2025/03/27 07:02:56] [--getFilePath--] Current working dir: /home/runner/work/ll-killer-worker/ll-killer-worker/caches/biz.zcjt.zc-a5933dn
+
+SDK[2025/03/27 07:02:56] [--GetDLLVersion--] Out. Version = 1.74
+
+DEBUG: LoadLibraryFunction:: SDK Version = 1.74 
+DEBUG: LoadLibraryFunction:: Out. rc = 1 
+SDK[2025/03/27 07:02:56] [--getFilePath--] Current working dir: /home/runner/work/ll-killer-worker/ll-killer-worker/caches/biz.zcjt.zc-a5933dn
+
+DEBUG: GetPrinterList_s::  In 
+DEBUG: GetPrinterList_s::  Allocate myPrinters success. 
+SDK[2025/03/27 07:02:56] [--BuildPrinterList--] In. printerSize =  0
+
+SDK[2025/03/27 07:02:56] [--BuildPrinterList--] User Printer num_dests = 0
+
+SDK[2025/03/27 07:02:56] [--BuildPrinterList--] printerNum = 0. rc = 1
+
+DEBUG: GetPrinterList_s:: ONLY get printer number  = 0 
+DEBUG: GetPrinterList_s::  Out, rc = 0 
+DEBUG: Net_BuildPrinterList:: printer request num = 0 
+DEBUG: Net_BuildPrinterList:: GetPrinterList(1) failed. rc = 0 
+DEBUG: Net_BuildPrinterList:: Out. printer total num = 0 
+DEBUG: Main:: No Printer. 
+DEBUG: MessageBoxOK:: In 
