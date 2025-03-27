@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: katomic.linyaps
+  name: katomic
+  version: 21.8.0.1
+  kind: app
+  description: |-
+    atomix puzzle game
+    KAtomic is a puzzle game in which the player slides atoms around the board to
+    assemble a molecule.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/katomic.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
