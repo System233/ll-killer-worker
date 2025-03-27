@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: chromono.linyaps
+  name: chromono
+  version: 1.1.1.1
+  kind: app
+  description: |-
+    A circular color puzzle game
+    chro.mono is a puzzle game originally developed in 2013 for mobile devices.
+    The goal of the game is to touch half-colored spheres with full-colored
+    spheres in such a way that all spheres are filledwith a single color each.
+    Later on in the game, additional limitations and variations on the game
+    mechanics plus time limits keep the gameplay interesting.
+command:
+- /opt/apps/chromono.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
