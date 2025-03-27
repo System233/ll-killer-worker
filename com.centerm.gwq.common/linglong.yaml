@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.centerm.gwq.common.linyaps
+  name: com.centerm.gwq.common
+  version: 1.0.0.1
+  kind: app
+  description: gwq common demo(A10/A8L-Full)
+command:
+- /opt/apps/com.centerm.gwq.common.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
