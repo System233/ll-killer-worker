@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: com.deli.printer-d21.linyaps
+  name: com.deli.printer-d21
+  version: 1.10.0.1
+  kind: app
+  description: |-
+    DELI UFR II Printer Driver for Linux
+    DELI UFR II Printer Driver for Linux.
+    This UFR II printer driver provides printing functions for DELI printers
+    operating under the CUPS (Common UNIX Printing System) environment.
+command:
+- /opt/apps/com.deli.printer-d21.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
