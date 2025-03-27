@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.lanxum.gd34xxdn.linyaps
+  name: com.lanxum.gd34xxdn
+  version: 3.3.0.0
+  kind: app
+  description: lanxum printer monitor and driver
+command:
+- /opt/apps/com.lanxum.gd34xxdn.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
