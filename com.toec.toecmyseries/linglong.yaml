@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.toec.toecmyseries.linyaps
+  name: com.toec.toecmyseries
+  version: 3.0.0.11
+  kind: app
+  description: Driver for printer toecmyseries.
+command:
+- /opt/apps/com.toec.toecmyseries.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
