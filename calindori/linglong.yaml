@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: calindori.linyaps
+  name: calindori
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Calendar for Plasma Mobile
+    Calindori is a touch friendly calendar application.
+    It has been designed for mobile devices but it can also
+    run on desktop environments.
+command:
+- /opt/apps/calindori.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
