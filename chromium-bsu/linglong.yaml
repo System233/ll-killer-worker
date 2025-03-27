@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: chromium-bsu.linyaps
+  name: chromium-bsu
+  version: 0.9.16.3
+  kind: app
+  description: |-
+    fast paced, arcade-style, scrolling space shooter
+    Chromium is a top down fast paced high action scrolling space shooter.
+
+    In this game you are the captain of the cargo ship Chromium B.S.U. and
+    are responsible for delivering supplies to the troops on the front line.
+    Your ship has a small fleet of robotic fighters which you control from
+    the relative safety of the Chromium vessel.
+command:
+- /opt/apps/chromium-bsu.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
