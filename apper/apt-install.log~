@@ -10,43 +10,43 @@ or been moved out of Incoming.
 The following information may help to resolve the situation:
 
 The following packages have unmet dependencies:
- apper : Depends: libkf5coreaddons5 (>= 4.100.0) but it is not installable
+ apper : Depends: polkit-kde-agent-1 but it is not installable or
+                  policykit-1-gnome but it is not installable
+         Depends: libkf5coreaddons5 (>= 4.100.0) but it is not installable
          Depends: libqt5core5t64 (>= 5.15.1) but it is not installable
          Depends: libqt5gui5t64 (>= 5.14.1) but it is not installable or
                   libqt5gui5-gles (>= 5.14.1) but it is not installable
-         Depends: libqt5widgets5t64 (>= 5.11.0~rc1) but it is not installable
+         Recommends: appstream but it is not installable
+         Recommends: apt-config-icons but it is not installable
  debconf-kde-helper : Depends: libkf5coreaddons5 (>= 5.0.0) but it is not installable
-                      Depends: libqt5widgets5 (>= 5.2.0)
+                      Depends: libqt5core5t64 (>= 5.15.1) but it is not installable
  kded5 : Depends: libkf5coreaddons5 (>= 5.115.0~) but it is not installable
          Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
          Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
                   libqt5gui5-gles (>= 5.15.2~) but it is not installable
-         Depends: libqt5widgets5t64 (>= 5.15.2~) but it is not installable
  kio : Depends: libkf5coreaddons5 (>= 5.115.0~) but it is not installable
        Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
        Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
                 libqt5gui5-gles (>= 5.15.2~) but it is not installable
-       Depends: libqt5widgets5t64 (>= 5.15.2~) but it is not installable
        Recommends: switcheroo-control but it is not installable
- libasound2-data : Breaks: libasound2 (< 1.2.12-1deepin1)
-                   Recommends: alsa-ucm-conf but it is not going to be installed
-                   Recommends: alsa-topology-conf but it is not going to be installed
- libdbusmenu-qt5-2 : Depends: libqt5gui5 (>= 5.7.0) or
-                              libqt5gui5-gles (>= 5.7.0) but it is not installable
-                     Depends: libqt5widgets5 (>= 5.0.2)
+ libappstream5 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libappstreamqt5-3 : Depends: libglib2.0-0t64 (>= 2.62) but it is not installable
+                     Depends: libqt5core5t64 (>= 5.8.0) but it is not installable
+ libdbusmenu-qt5-2 : Depends: libqt5core5t64 (>= 5.15.1) but it is not installable
+                     Depends: libqt5gui5t64 (>= 5.0.2) but it is not installable or
+                              libqt5gui5-gles (>= 5.0.2) but it is not installable
  libdebconf-kde1 : Depends: libkf5coreaddons5 (>= 5.61.0) but it is not installable
-                   Depends: libqt5gui5 (>= 5.7.0) or
+                   Depends: libqt5core5t64 (>= 5.15.1) but it is not installable
+                   Depends: libqt5gui5t64 (>= 5.7.0) but it is not installable or
                             libqt5gui5-gles (>= 5.7.0) but it is not installable
-                   Depends: libqt5widgets5 (>= 5.2.0)
+ libgirepository-1.0-1 : Depends: libglib2.0-0t64 (>= 2.80.0) but it is not installable
  libkf5archive5 : Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
  libkf5authcore5 : Depends: libkf5coreaddons5 (>= 5.115.0~) but it is not installable
                    Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
-                   Depends: libqt5widgets5t64 (>= 5.15.2~) but it is not installable
  libkf5codecs5 : Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
  libkf5completion5 : Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
                      Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
                               libqt5gui5-gles (>= 5.15.2~) but it is not installable
-                     Depends: libqt5widgets5t64 (>= 5.15.2~) but it is not installable
  libkf5configcore5 : Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
                      Recommends: libkf5config-bin (= 5.115.0-0ubuntu5) but it is not installable
  libkf5configgui5 : Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
@@ -57,7 +57,6 @@ The following packages have unmet dependencies:
                         Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
                         Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
                                  libqt5gui5-gles (>= 5.15.2~) but it is not installable
-                        Depends: libqt5widgets5t64 (>= 5.15.2~) but it is not installable
  libkf5crash5 : Depends: libkf5coreaddons5 (>= 5.115.0~) but it is not installable
                 Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
                 Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
@@ -69,11 +68,9 @@ The following packages have unmet dependencies:
                          Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
                          Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
                                   libqt5gui5-gles (>= 5.15.2~) but it is not installable
-                         Depends: libqt5widgets5t64 (>= 5.15.2~) but it is not installable
  libkf5globalaccel5 : Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
                       Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
                                libqt5gui5-gles (>= 5.15.2~) but it is not installable
-                      Depends: libqt5widgets5t64 (>= 5.15.2~) but it is not installable
  libkf5globalaccelprivate5 : Depends: libkf5coreaddons5 (>= 5.115.0~) but it is not installable
                              Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
                              Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
@@ -89,18 +86,15 @@ The following packages have unmet dependencies:
                      Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
                      Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
                               libqt5gui5-gles (>= 5.15.2~) but it is not installable
-                     Depends: libqt5widgets5t64 (>= 5.15.2~) but it is not installable
                      Depends: qtbase-abi-5-15-13
                      Recommends: libkf5iconthemes-bin (= 5.115.0-0ubuntu6) but it is not installable
  libkf5itemviews5 : Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
                     Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
                              libqt5gui5-gles (>= 5.15.2~) but it is not installable
-                    Depends: libqt5widgets5t64 (>= 5.15.2~) but it is not installable
  libkf5jobwidgets5 : Depends: libkf5coreaddons5 (>= 5.115.0~) but it is not installable
                      Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
                      Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
                               libqt5gui5-gles (>= 5.15.2~) but it is not installable
-                     Depends: libqt5widgets5t64 (>= 5.15.2~) but it is not installable
  libkf5kiocore5 : Depends: libkf5coreaddons5 (>= 5.115.0~) but it is not installable
                   Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
  libkf5kiogui5 : Depends: libkf5coreaddons5 (>= 5.115.0~) but it is not installable
@@ -112,12 +106,10 @@ The following packages have unmet dependencies:
                      Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
                      Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
                               libqt5gui5-gles (>= 5.15.2~) but it is not installable
-                     Depends: libqt5widgets5t64 (>= 5.15.2~) but it is not installable
  libkf5notifications5 : Depends: libkf5coreaddons5 (>= 5.115.0~) but it is not installable
                         Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
                         Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
                                  libqt5gui5-gles (>= 5.15.2~) but it is not installable
-                        Depends: libqt5widgets5t64 (>= 5.15.2~) but it is not installable
  libkf5service-bin : Depends: libkf5coreaddons5 (>= 5.115.0~) but it is not installable
                      Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
  libkf5service5 : Depends: libkf5coreaddons5 (>= 5.115.0~) but it is not installable
@@ -130,58 +122,57 @@ The following packages have unmet dependencies:
  libkf5sonnetui5 : Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
                    Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
                             libqt5gui5-gles (>= 5.15.2~) but it is not installable
-                   Depends: libqt5widgets5t64 (>= 5.15.2~) but it is not installable
                    Recommends: sonnet-plugins (= 5.115.0-0ubuntu5) but it is not installable
  libkf5textwidgets5 : Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
                       Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
                                libqt5gui5-gles (>= 5.15.2~) but it is not installable
-                      Depends: libqt5widgets5t64 (>= 5.15.2~) but it is not installable
  libkf5wallet-bin : Depends: libkf5coreaddons5 (>= 5.114.0~) but it is not installable
                     Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
                     Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
                              libqt5gui5-gles (>= 5.15.2~) but it is not installable
-                    Depends: libqt5widgets5t64 (>= 5.15.2~) but it is not installable
  libkf5wallet5 : Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
  libkf5widgetsaddons5 : Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
                         Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
                                  libqt5gui5-gles (>= 5.15.2~) but it is not installable
-                        Depends: libqt5widgets5t64 (>= 5.15.2~) but it is not installable
  libkf5windowsystem5 : Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
                        Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
                                 libqt5gui5-gles (>= 5.15.2~) but it is not installable
-                       Depends: libqt5widgets5t64 (>= 5.15.2~) but it is not installable
                        Recommends: kwayland-integration but it is not installable
                        Recommends: qtwayland5 but it is not installable
  libkf5xmlgui5 : Depends: libkf5coreaddons5 (>= 5.115.0~) but it is not installable
                  Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
                  Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
                           libqt5gui5-gles (>= 5.15.2~) but it is not installable
-                 Depends: libqt5printsupport5t64 (>= 5.15.2~) but it is not installable
-                 Depends: libqt5widgets5t64 (>= 5.15.2~) but it is not installable
                  Depends: qtbase-abi-5-15-13
                  Recommends: libkf5xmlgui-bin (= 5.115.0-0ubuntu5) but it is not installable
  libkwalletbackend5-5 : Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
  libkworkspace5-5 : Depends: libkf5coreaddons5 (>= 5.102.0~) but it is not installable
                     Depends: libqt5core5t64 (>= 5.15.2~) but it is not installable
  libpackagekit-glib2-18 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libpackagekitqt5-1 : Depends: libqt5core5t64 (>= 5.11.0~rc1) but it is not installable
  libpolkit-agent-1-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
  libpolkit-gobject-1-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
- libpolkit-qt5-1-1 : Depends: libqt5gui5 (>= 5.5.0~) or
+ libpolkit-qt5-1-1 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                     Depends: libqt5core5t64 (>= 5.8.0) but it is not installable
+                     Depends: libqt5gui5t64 (>= 5.5.0~) but it is not installable or
                               libqt5gui5-gles (>= 5.5.0~) but it is not installable
-                     Depends: libqt5widgets5 (>= 5.5.0~)
+ libqca-qt5-2 : Depends: libqt5core5t64 (>= 5.15.1) but it is not installable
+                Recommends: libqca-qt5-2-plugins but it is not installable
  libqt5dbus5t64 : Depends: libqt5core5t64 (>= 5.15.1) but it is not installable
                   Depends: qtbase-abi-5-15-13
  libqt5designer5 : Depends: libqt5core5t64 (>= 5.15.1) but it is not installable
                    Depends: libqt5gui5t64 (>= 5.14.1) but it is not installable or
                             libqt5gui5-gles (>= 5.14.1) but it is not installable
-                   Depends: libqt5widgets5t64 (>= 5.15.1) but it is not installable
                    Depends: qtbase-abi-5-15-13
  libqt5help5 : Depends: libqt5core5t64 (>= 5.15.1) but it is not installable
                Depends: libqt5gui5t64 (>= 5.0.2) but it is not installable or
                         libqt5gui5-gles (>= 5.0.2) but it is not installable
-               Depends: libqt5widgets5t64 (>= 5.11.0~rc1) but it is not installable
  libqt5network5t64 : Depends: libqt5core5t64 (>= 5.15.1) but it is not installable
                      Depends: qtbase-abi-5-15-13
+ libqt5printsupport5t64 : Depends: libqt5core5t64 (>= 5.15.1) but it is not installable
+                          Depends: libqt5gui5t64 (>= 5.14.1) but it is not installable or
+                                   libqt5gui5-gles (>= 5.14.1) but it is not installable
+                          Depends: qtbase-abi-5-15-13
  libqt5qml5 : Depends: libqt5core5t64 (>= 5.15.1) but it is not installable
               Depends: qtbase-abi-5-15-13
  libqt5sql5t64 : Depends: libqt5core5t64 (>= 5.15.1) but it is not installable
@@ -195,8 +186,9 @@ The following packages have unmet dependencies:
  libqt5svg5 : Depends: libqt5core5t64 (>= 5.15.13+dfsg~) but it is not installable
               Depends: libqt5gui5t64 (>= 5.15.13+dfsg~) but it is not installable or
                        libqt5gui5-gles (>= 5.15.13+dfsg~) but it is not installable
-              Depends: libqt5widgets5t64 (>= 5.15.13+dfsg~) but it is not installable
               Depends: qtbase-abi-5-15-13
+ libqt5test5t64 : Depends: libqt5core5t64 (>= 5.15.1) but it is not installable
+                  Depends: qtbase-abi-5-15-13
  libqt5texttospeech5 : Depends: libqt5core5t64 (>= 5.15.13+dfsg~) but it is not installable
                        Depends: qtbase-abi-5-15-13
                        Recommends: qtspeech5-speechd-plugin but it is not installable or
@@ -206,6 +198,10 @@ The following packages have unmet dependencies:
                         Depends: libqt5gui5t64 (>= 5.15.13+dfsg~) but it is not installable or
                                  libqt5gui5-gles (>= 5.15.13+dfsg~) but it is not installable
                         Depends: qtbase-abi-5-15-13
+ libqt5widgets5t64 : Depends: libqt5core5t64 (>= 5.15.1) but it is not installable
+                     Depends: libqt5gui5t64 (>= 5.15.1) but it is not installable or
+                              libqt5gui5-gles (>= 5.15.1) but it is not installable
+                     Depends: qtbase-abi-5-15-13
  libqt5x11extras5 : Depends: libqt5core5t64 (>= 5.15.13+dfsg~) but it is not installable
                     Depends: libqt5gui5t64 (>= 5.15.13+dfsg~) but it is not installable or
                              libqt5gui5-gles (>= 5.15.13+dfsg~) but it is not installable
@@ -215,13 +211,14 @@ The following packages have unmet dependencies:
                       Depends: qtbase-abi-5-15-13
  libxmlb2 : Depends: libglib2.0-0t64 (>= 2.54.0) but it is not installable
  packagekit : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+              Recommends: appstream but it is not installable
               Recommends: packagekit-tools but it is not installable
  polkitd : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
- python3-pyqt5 : Depends: libqt5gui5 (>= 5.15)
-                 Depends: libqt5gui5 (>= 5.15.1) or
+ python3-gi : Depends: libglib2.0-0t64 (>= 2.77.0) but it is not installable
+ python3-pyqt5 : Depends: libqt5core5t64 (>= 5.15.1) but it is not installable
+                 Depends: libqt5gui5t64 (>= 5.15) but it is not installable
+                 Depends: libqt5gui5t64 (>= 5.15.1) but it is not installable or
                           libqt5gui5-gles (>= 5.15.1) but it is not installable
-                 Depends: libqt5printsupport5 (>= 5.15)
-                 Depends: libqt5widgets5 (>= 5.15.1)
- python3-software-properties : Depends: python3-gi but it is not installable
- software-properties-common : Depends: python3-gi but it is not installable
+                 Depends: qtbase-abi-5-15-13
+ software-properties-common : Depends: python3-dbus but it is not installable
 E: Unable to correct problems, you have held broken packages.
