@@ -1,0 +1,27 @@
+正在测试: APPID=kded5.linyaps LAYER=kded5.linyaps_5.103.0.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install kded5.linyaps_5.103.0.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:kded5.linyaps
+Layer文件:kded5.linyaps_5.103.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: kded5.linyaps_5.103.0.1_x86_64_binary.layer
+offset: 531
+mountpoint: /tmp/tmp.msh71OVDhn/mnt
+dbglevel: 0
+find: ‘/opt/apps/kded5.linyaps/files/share/icons’: No such file or directory
+find: ‘/opt/apps/kded5.linyaps/files/share/pixmaps’: No such file or directory
+[31m[失败] org.kde.kded5.desktop:kde-frameworks: 找不到此图标 [0m
+[31m[失败] /opt/apps/kded5.linyaps/files/share/applications/org.kde.kded5.desktop:: 找不到此启动文件 [0m
+[正在测试启动项]
+包名:kded5.linyaps
+Layer文件:kded5.linyaps_5.103.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: kded5.linyaps_5.103.0.1_x86_64_binary.layer
+offset: 531
+mountpoint: /tmp/tmp.VVBBr7Moy9/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall kded5.linyaps
