@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: deja-dup.linyaps
+  name: deja-dup
+  version: 45.2.0.1
+  kind: app
+  description: |-
+    Backup utility
+    Déjà Dup is a simple backup tool. It hides the complexity of backing up the
+    Right Way (encrypted, off-site, and regular) and uses duplicity as the
+    backend.
+
+    Features:
+    * Support for local, remote, or cloud backup locations such as Nextcloud
+    * Securely encrypts and compresses your data
+    * Incrementally backs up, letting you restore from any particular backup
+    * Schedules regular backups
+    * Integrates well into your GNOME desktop
+
+    Déjà Dup is a GNOME Circle app.
+command:
+- /opt/apps/deja-dup.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
