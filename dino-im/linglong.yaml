@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: dino-im.linyaps
+  name: dino-im
+  version: 0.4.3.3
+  kind: app
+  description: |-
+    modern XMPP client
+    Dino is a modern XMPP/Jabber client with a nice and clean look.
+    It does support OMEMO and OpenPGP for end-to-end encryption
+    and encrypted audio/video calls between two or more people.
+    If you are looking for a Conversations look-alike, this
+    program might be for you.
+command:
+- /opt/apps/dino-im.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
