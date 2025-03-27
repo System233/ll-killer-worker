@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: batmon.app.linyaps
+  name: batmon.app
+  version: 0.9.0.2
+  kind: app
+  description: |-
+    Battery monitor for GNUstep
+    Battery Monitor is a battery monitor for laptops. It displays the current
+    status of the battery (charge/discharge and energy level) as well as some
+    information about the general health of the cell.
+command:
+- /opt/apps/batmon.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
