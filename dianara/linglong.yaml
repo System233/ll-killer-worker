@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: dianara.linyaps
+  name: dianara
+  version: 1.4.4.1
+  kind: app
+  description: |-
+    client for the pump.io federated social network
+    Dianara is a pump.io client, a desktop application for GNU/linux that allows
+    users to manage their Pump.io social networking accounts without the need to
+    use a web browser.
+command:
+- /opt/apps/dianara.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
