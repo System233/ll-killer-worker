@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: bibledit.linyaps
+  name: bibledit
+  version: 5.1.2.1
+  kind: app
+  description: |-
+    Bible editor
+    A tool for the Bible translator.
+    Translate Bibles.
+    Edit Bibles.
+    Proofread Bibles.
+    Publish Bibles.
+    Synchronize your data through Bibledit Cloud.
+command:
+- /opt/apps/bibledit.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
