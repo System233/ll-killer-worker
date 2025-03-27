@@ -1,0 +1,33 @@
+version: "1"
+package:
+  id: denemo.linyaps
+  name: denemo
+  version: 2.6.18.1
+  kind: app
+  description: |-
+    free graphical music notation editor (GTK front end to LilyPond)
+    Denemo is a free music notation program GUI for GNU/Linux, macOS and Windows
+    that lets you rapidly enter notation which it typesets using the LilyPond
+    music engraver.  Music can be typed in at the PC keyboard, or played in
+    via MIDI controller, or input acoustically into a microphone plugged into
+    your computer’s soundcard.
+
+    Denemo uses LilyPond which generates beautiful sheet music to the highest
+    publishing standards.  During input Denemo displays the staffs in a simple
+    fashion, so you can enter and edit the music efficiently.  The typesetting
+    is done in the background while you work, and is generally flawless
+    publication quality.  Some final tweaks can be done on the typeset score
+    with the mouse if needed.  This represents an enormous practical improvement
+    over the popular programs which require you to re-position colliding
+    notation constantly as you enter the music.
+
+    Beginner to Professional: Denemo can be used for a brief student homework
+    all the way to a full-scale opera.  Support is there for creating the
+    widest range of notation – Tablature, Chord Charts, Fret Diagrams, Drums,
+    transposing instruments, ossia, ottava, cue, title pages, table-of-contents,
+    critical commentaries, footnotes quoting music, and more with LilyPond’s
+    extensive syntax available for even more demanding uses.
+command:
+- /opt/apps/denemo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
