@@ -1,0 +1,411 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  buildah conmon containers-storage cpp cpp-12 crun dbus-user-session
+  distrobox fuse-overlayfs fuse3 gcc-12-base golang-github-containers-common
+  golang-github-containers-image jq libfuse3-3 libgpgme11 libisl23 libjq1
+  libmpc3 libnotify-bin libnotify4 libnss-myhostname libnss-systemd libonig5
+  libpam-systemd libselinux1 libslirp0 libsubid4 libsystemd-shared libsystemd0
+  libudev1 libyajl2 login mount netavark notification-daemon passt passwd
+  podman slirp4netns systemd systemd-dev systemd-sysv systemd-timesyncd tini
+  udev uidmap
+Suggested packages:
+  cpp-doc gcc-12-locales cpp-12-doc libwasmedge0 nfs-common apparmor
+  containernetworking-plugins docker-compose iptables systemd-container
+  systemd-homed systemd-userdbd systemd-boot systemd-resolved libip4tc2
+  libqrencode4 libtss2-rc0 polkitd
+Recommended packages:
+  aardvark-dns
+The following packages will be REMOVED:
+  systemd-standalone-sysusers
+The following NEW packages will be installed:
+  buildah conmon containers-storage cpp cpp-12 crun dbus-user-session
+  deepin-compatibility-mode distrobox fuse-overlayfs fuse3 gcc-12-base
+  golang-github-containers-common golang-github-containers-image jq libfuse3-3
+  libgpgme11 libisl23 libjq1 libmpc3 libnotify-bin libnotify4 libnss-systemd
+  libonig5 libpam-systemd libslirp0 libsubid4 libyajl2 mount netavark
+  notification-daemon passt podman slirp4netns systemd systemd-sysv
+  systemd-timesyncd tini uidmap
+The following packages will be upgraded:
+  libnss-myhostname libselinux1 libsystemd-shared libsystemd0 libudev1 login
+  passwd systemd-dev udev
+9 upgraded, 39 newly installed, 1 to remove and 226 not upgraded.
+Need to get 652 MB of archives.
+After this operation, 288 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main amd64 login amd64 1:4.14+dfsg1-0deepin4 [635 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main amd64 systemd-dev all 255.2-4deepin3 [58.2 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main amd64 libselinux1 amd64 3.5-1deepin5 [82.6 kB]
+Get:4 https://community-packages.deepin.com/beige beige/main amd64 libsystemd-shared amd64 255.2-4deepin3 [1936 kB]
+Get:5 https://community-packages.deepin.com/beige beige/main amd64 libsystemd0 amd64 255.2-4deepin3 [362 kB]
+Get:6 https://community-packages.deepin.com/beige beige/main amd64 mount amd64 2.39.3-6deepin1 [143 kB]
+Get:7 https://community-packages.deepin.com/beige beige/main amd64 udev amd64 255.2-4deepin3 [1794 kB]
+Get:8 https://community-packages.deepin.com/beige beige/main amd64 systemd amd64 255.2-4deepin3 [3529 kB]
+Get:9 https://community-packages.deepin.com/beige beige/main amd64 systemd-sysv amd64 255.2-4deepin3 [48.9 kB]
+Get:10 https://community-packages.deepin.com/beige beige/main amd64 passwd amd64 1:4.14+dfsg1-0deepin4 [1002 kB]
+Get:11 https://community-packages.deepin.com/beige beige/main amd64 libudev1 amd64 255.2-4deepin3 [124 kB]
+Get:12 https://community-packages.deepin.com/beige beige/main amd64 libnss-systemd amd64 255.2-4deepin3 [188 kB]
+Get:13 https://community-packages.deepin.com/beige beige/main amd64 libpam-systemd amd64 255.2-4deepin3 [259 kB]
+Get:14 https://community-packages.deepin.com/beige beige/main amd64 systemd-timesyncd amd64 255.2-4deepin3 [71.7 kB]
+Get:15 https://community-packages.deepin.com/beige beige/main amd64 netavark amd64 1.12.1-6deepin1 [4080 kB]
+Get:16 https://community-packages.deepin.com/beige beige/main amd64 golang-github-containers-image all 5.32.2-4 [37.3 kB]
+Get:17 https://community-packages.deepin.com/beige beige/main amd64 golang-github-containers-common all 0.60.4+ds1-1 [44.8 kB]
+Get:18 https://community-packages.deepin.com/beige beige/main amd64 libsubid4 amd64 1:4.14+dfsg1-0deepin4 [214 kB]
+Get:19 https://community-packages.deepin.com/beige beige/main amd64 uidmap amd64 1:4.14+dfsg1-0deepin4 [190 kB]
+Get:20 https://community-packages.deepin.com/beige beige/main amd64 libgpgme11 amd64 1.18.0-4deepin1+rb1 [300 kB]
+Get:21 https://community-packages.deepin.com/beige beige/main amd64 buildah amd64 1.37.5+ds1-1 [33.6 MB]
+Get:22 https://community-packages.deepin.com/beige beige/main amd64 conmon amd64 2.1.12-3 [39.2 kB]
+Get:23 https://community-packages.deepin.com/beige beige/main amd64 containers-storage amd64 1.55.1+ds1-1 [2346 kB]
+Get:24 https://community-packages.deepin.com/beige beige/main amd64 gcc-12-base amd64 12.3.0-17deepin8 [45.7 kB]
+Get:25 https://community-packages.deepin.com/beige beige/main amd64 libisl23 amd64 0.26-3 [708 kB]
+Get:26 https://community-packages.deepin.com/beige beige/main amd64 libmpc3 amd64 1.2.1-1 [43.8 kB]
+Get:27 https://community-packages.deepin.com/beige beige/main amd64 cpp-12 amd64 12.3.0-17deepin8 [9862 kB]
+Get:28 https://community-packages.deepin.com/beige beige/main amd64 cpp amd64 4:13.2.0+really12.3.0-0deepin1 [7028 B]
+Get:29 https://community-packages.deepin.com/beige beige/main amd64 libyajl2 amd64 2.1.0-3 [22.7 kB]
+Get:30 https://community-packages.deepin.com/beige beige/main amd64 crun amd64 1.14.4-1 [329 kB]
+Get:31 https://community-packages.deepin.com/beige beige/main amd64 dbus-user-session amd64 1.14.10-3 [78.8 kB]
+Get:32 https://community-packages.deepin.com/beige beige/main amd64 podman amd64 5.2.5-1 [23.5 MB]
+Get:33 https://community-packages.deepin.com/beige beige/community amd64 distrobox all 1.8.0-1 [208 kB]
+Get:34 https://community-packages.deepin.com/beige beige/main amd64 libonig5 amd64 6.9.7.1-2 [184 kB]
+Get:35 https://community-packages.deepin.com/beige beige/main amd64 libjq1 amd64 1.6-2.1 [134 kB]
+Get:36 https://community-packages.deepin.com/beige beige/main amd64 jq amd64 1.6-2.1 [63.7 kB]
+Get:37 https://community-packages.deepin.com/beige beige/main amd64 libnotify4 amd64 0.7.9-3 [18.6 kB]
+Get:38 https://community-packages.deepin.com/beige beige/main amd64 libnotify-bin amd64 0.7.9-3 [9288 B]
+Get:39 https://community-packages.deepin.com/beige beige/commercial amd64 deepin-compatibility-mode amd64 0.1.2 [564 MB]
+Get:40 https://community-packages.deepin.com/beige beige/main amd64 libfuse3-3 amd64 3.14.0-5 [88.6 kB]
+Get:41 https://community-packages.deepin.com/beige beige/main amd64 fuse3 amd64 3.14.0-5 [35.8 kB]
+Get:42 https://community-packages.deepin.com/beige beige/main amd64 fuse-overlayfs amd64 1.7.1-1 [42.6 kB]
+Get:43 https://community-packages.deepin.com/beige beige/main amd64 libnss-myhostname amd64 255.2-4deepin3 [97.7 kB]
+Get:44 https://community-packages.deepin.com/beige beige/main amd64 libslirp0 amd64 4.8.0-1 [65.7 kB]
+Get:45 https://community-packages.deepin.com/beige beige/main amd64 notification-daemon amd64 3.20.0-deepin1 [54.4 kB]
+Get:46 https://community-packages.deepin.com/beige beige/main amd64 passt amd64 0.0~git20241127.c0fbc7e-1 [175 kB]
+Get:47 https://community-packages.deepin.com/beige beige/main amd64 slirp4netns amd64 1.2.1-1 [38.8 kB]
+Get:48 https://community-packages.deepin.com/beige beige/main amd64 tini amd64 0.19.0-1 [269 kB]
+Fetched 652 MB in 25s (25.8 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../login_1%3a4.14+dfsg1-0deepin4_amd64.deb ...
+Unpacking login (1:4.14+dfsg1-0deepin4) over (1:4.14+dfsg1-0deepin3) ...
+Setting up login (1:4.14+dfsg1-0deepin4) ...
+Installing new version of config file /etc/login.defs ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../systemd-dev_255.2-4deepin3_all.deb ...
+Unpacking systemd-dev (255.2-4deepin3) over (255.2-4) ...
+Preparing to unpack .../libselinux1_3.5-1deepin5_amd64.deb ...
+Unpacking libselinux1:amd64 (3.5-1deepin5) over (3.5-1) ...
+Setting up libselinux1:amd64 (3.5-1deepin5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libsystemd-shared_255.2-4deepin3_amd64.deb ...
+Unpacking libsystemd-shared:amd64 (255.2-4deepin3) over (255.2-4) ...
+Preparing to unpack .../libsystemd0_255.2-4deepin3_amd64.deb ...
+Unpacking libsystemd0:amd64 (255.2-4deepin3) over (255.2-4) ...
+Setting up libsystemd0:amd64 (255.2-4deepin3) ...
+Selecting previously unselected package mount.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../mount_2.39.3-6deepin1_amd64.deb ...
+Unpacking mount (2.39.3-6deepin1) ...
+Preparing to unpack .../udev_255.2-4deepin3_amd64.deb ...
+Unpacking udev (255.2-4deepin3) over (255.2-4) ...
+dpkg: systemd-standalone-sysusers: dependency problems, but removing anyway as you requested:
+ udev depends on systemd | systemd-standalone-sysusers | systemd-sysusers; however:
+  Package systemd is not installed.
+  Package systemd-standalone-sysusers is to be removed.
+  Package systemd-sysusers is not installed.
+  Package systemd-standalone-sysusers which provides systemd-sysusers is to be removed.
+ udev depends on systemd | systemd-standalone-sysusers | systemd-sysusers; however:
+  Package systemd is not installed.
+  Package systemd-standalone-sysusers is to be removed.
+  Package systemd-sysusers is not installed.
+  Package systemd-standalone-sysusers which provides systemd-sysusers is to be removed.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27620 files and directories currently installed.)
+Removing systemd-standalone-sysusers (255.2-4) ...
+Selecting previously unselected package systemd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27613 files and directories currently installed.)
+Preparing to unpack .../systemd_255.2-4deepin3_amd64.deb ...
+Unpacking systemd (255.2-4deepin3) ...
+Setting up libsystemd-shared:amd64 (255.2-4deepin3) ...
+Setting up systemd-dev (255.2-4deepin3) ...
+Setting up mount (2.39.3-6deepin1) ...
+Setting up systemd (255.2-4deepin3) ...
+
+Configuration file '/etc/systemd/journald.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/logind.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/networkd.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/pstore.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/sleep.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/system.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/user.conf', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/system/getty.target.wants/getty@tty1.service → /usr/lib/systemd/system/getty@.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target → /usr/lib/systemd/system/remote-fs.target.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-pstore.service → /usr/lib/systemd/system/systemd-pstore.service.
+Setting access ACL "u::rwx,g::r-x,g:adm:r-x,m::r-x,o::r-x" on /var/log/journal failed: Invalid argument
+Selecting previously unselected package systemd-sysv.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28564 files and directories currently installed.)
+Preparing to unpack .../systemd-sysv_255.2-4deepin3_amd64.deb ...
+Unpacking systemd-sysv (255.2-4deepin3) ...
+Preparing to unpack .../passwd_1%3a4.14+dfsg1-0deepin4_amd64.deb ...
+Unpacking passwd (1:4.14+dfsg1-0deepin4) over (1:4.14+dfsg1-0deepin3) ...
+Setting up passwd (1:4.14+dfsg1-0deepin4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28582 files and directories currently installed.)
+Preparing to unpack .../libudev1_255.2-4deepin3_amd64.deb ...
+Unpacking libudev1:amd64 (255.2-4deepin3) over (255.2-4) ...
+Setting up libudev1:amd64 (255.2-4deepin3) ...
+Selecting previously unselected package libnss-systemd:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28582 files and directories currently installed.)
+Preparing to unpack .../00-libnss-systemd_255.2-4deepin3_amd64.deb ...
+Unpacking libnss-systemd:amd64 (255.2-4deepin3) ...
+Selecting previously unselected package libpam-systemd:amd64.
+Preparing to unpack .../01-libpam-systemd_255.2-4deepin3_amd64.deb ...
+Unpacking libpam-systemd:amd64 (255.2-4deepin3) ...
+Selecting previously unselected package systemd-timesyncd.
+Preparing to unpack .../02-systemd-timesyncd_255.2-4deepin3_amd64.deb ...
+Unpacking systemd-timesyncd (255.2-4deepin3) ...
+Selecting previously unselected package netavark.
+Preparing to unpack .../03-netavark_1.12.1-6deepin1_amd64.deb ...
+Unpacking netavark (1.12.1-6deepin1) ...
+Selecting previously unselected package golang-github-containers-image.
+Preparing to unpack .../04-golang-github-containers-image_5.32.2-4_all.deb ...
+Unpacking golang-github-containers-image (5.32.2-4) ...
+Selecting previously unselected package golang-github-containers-common.
+Preparing to unpack .../05-golang-github-containers-common_0.60.4+ds1-1_all.deb ...
+Unpacking golang-github-containers-common (0.60.4+ds1-1) ...
+Selecting previously unselected package libsubid4:amd64.
+Preparing to unpack .../06-libsubid4_1%3a4.14+dfsg1-0deepin4_amd64.deb ...
+Unpacking libsubid4:amd64 (1:4.14+dfsg1-0deepin4) ...
+Selecting previously unselected package uidmap.
+Preparing to unpack .../07-uidmap_1%3a4.14+dfsg1-0deepin4_amd64.deb ...
+Unpacking uidmap (1:4.14+dfsg1-0deepin4) ...
+Selecting previously unselected package libgpgme11:amd64.
+Preparing to unpack .../08-libgpgme11_1.18.0-4deepin1+rb1_amd64.deb ...
+Unpacking libgpgme11:amd64 (1.18.0-4deepin1+rb1) ...
+Selecting previously unselected package buildah.
+Preparing to unpack .../09-buildah_1.37.5+ds1-1_amd64.deb ...
+Unpacking buildah (1.37.5+ds1-1) ...
+Selecting previously unselected package conmon.
+Preparing to unpack .../10-conmon_2.1.12-3_amd64.deb ...
+Unpacking conmon (2.1.12-3) ...
+Selecting previously unselected package containers-storage.
+Preparing to unpack .../11-containers-storage_1.55.1+ds1-1_amd64.deb ...
+Unpacking containers-storage (1.55.1+ds1-1) ...
+Selecting previously unselected package gcc-12-base:amd64.
+Preparing to unpack .../12-gcc-12-base_12.3.0-17deepin8_amd64.deb ...
+Unpacking gcc-12-base:amd64 (12.3.0-17deepin8) ...
+Selecting previously unselected package libisl23:amd64.
+Preparing to unpack .../13-libisl23_0.26-3_amd64.deb ...
+Unpacking libisl23:amd64 (0.26-3) ...
+Selecting previously unselected package libmpc3:amd64.
+Preparing to unpack .../14-libmpc3_1.2.1-1_amd64.deb ...
+Unpacking libmpc3:amd64 (1.2.1-1) ...
+Selecting previously unselected package cpp-12.
+Preparing to unpack .../15-cpp-12_12.3.0-17deepin8_amd64.deb ...
+Unpacking cpp-12 (12.3.0-17deepin8) ...
+Selecting previously unselected package cpp.
+Preparing to unpack .../16-cpp_4%3a13.2.0+really12.3.0-0deepin1_amd64.deb ...
+Unpacking cpp (4:13.2.0+really12.3.0-0deepin1) ...
+Selecting previously unselected package libyajl2:amd64.
+Preparing to unpack .../17-libyajl2_2.1.0-3_amd64.deb ...
+Unpacking libyajl2:amd64 (2.1.0-3) ...
+Selecting previously unselected package crun.
+Preparing to unpack .../18-crun_1.14.4-1_amd64.deb ...
+Unpacking crun (1.14.4-1) ...
+Selecting previously unselected package dbus-user-session.
+Preparing to unpack .../19-dbus-user-session_1.14.10-3_amd64.deb ...
+Unpacking dbus-user-session (1.14.10-3) ...
+Selecting previously unselected package podman.
+Preparing to unpack .../20-podman_5.2.5-1_amd64.deb ...
+Unpacking podman (5.2.5-1) ...
+Selecting previously unselected package distrobox.
+Preparing to unpack .../21-distrobox_1.8.0-1_all.deb ...
+Unpacking distrobox (1.8.0-1) ...
+Selecting previously unselected package libonig5:amd64.
+Preparing to unpack .../22-libonig5_6.9.7.1-2_amd64.deb ...
+Unpacking libonig5:amd64 (6.9.7.1-2) ...
+Selecting previously unselected package libjq1:amd64.
+Preparing to unpack .../23-libjq1_1.6-2.1_amd64.deb ...
+Unpacking libjq1:amd64 (1.6-2.1) ...
+Selecting previously unselected package jq.
+Preparing to unpack .../24-jq_1.6-2.1_amd64.deb ...
+Unpacking jq (1.6-2.1) ...
+Selecting previously unselected package libnotify4:amd64.
+Preparing to unpack .../25-libnotify4_0.7.9-3_amd64.deb ...
+Unpacking libnotify4:amd64 (0.7.9-3) ...
+Selecting previously unselected package libnotify-bin.
+Preparing to unpack .../26-libnotify-bin_0.7.9-3_amd64.deb ...
+Unpacking libnotify-bin (0.7.9-3) ...
+Selecting previously unselected package deepin-compatibility-mode.
+Preparing to unpack .../27-deepin-compatibility-mode_0.1.2_amd64.deb ...
+Unpacking deepin-compatibility-mode (0.1.2) ...
+Selecting previously unselected package libfuse3-3:amd64.
+Preparing to unpack .../28-libfuse3-3_3.14.0-5_amd64.deb ...
+Unpacking libfuse3-3:amd64 (3.14.0-5) ...
+Selecting previously unselected package fuse3.
+Preparing to unpack .../29-fuse3_3.14.0-5_amd64.deb ...
+Unpacking fuse3 (3.14.0-5) ...
+Selecting previously unselected package fuse-overlayfs.
+Preparing to unpack .../30-fuse-overlayfs_1.7.1-1_amd64.deb ...
+Unpacking fuse-overlayfs (1.7.1-1) ...
+Preparing to unpack .../31-libnss-myhostname_255.2-4deepin3_amd64.deb ...
+Unpacking libnss-myhostname:amd64 (255.2-4deepin3) over (255.2-4) ...
+Selecting previously unselected package libslirp0:amd64.
+Preparing to unpack .../32-libslirp0_4.8.0-1_amd64.deb ...
+Unpacking libslirp0:amd64 (4.8.0-1) ...
+Selecting previously unselected package notification-daemon.
+Preparing to unpack .../33-notification-daemon_3.20.0-deepin1_amd64.deb ...
+Unpacking notification-daemon (3.20.0-deepin1) ...
+Selecting previously unselected package passt.
+Preparing to unpack .../34-passt_0.0~git20241127.c0fbc7e-1_amd64.deb ...
+Unpacking passt (0.0~git20241127.c0fbc7e-1) ...
+Selecting previously unselected package slirp4netns.
+Preparing to unpack .../35-slirp4netns_1.2.1-1_amd64.deb ...
+Unpacking slirp4netns (1.2.1-1) ...
+Selecting previously unselected package tini.
+Preparing to unpack .../36-tini_0.19.0-1_amd64.deb ...
+Unpacking tini (0.19.0-1) ...
+Setting up systemd-sysv (255.2-4deepin3) ...
+Setting up libyajl2:amd64 (2.1.0-3) ...
+Setting up libnss-systemd:amd64 (255.2-4deepin3) ...
+Setting up libgpgme11:amd64 (1.18.0-4deepin1+rb1) ...
+Setting up notification-daemon (3.20.0-deepin1) ...
+Setting up gcc-12-base:amd64 (12.3.0-17deepin8) ...
+Setting up libsubid4:amd64 (1:4.14+dfsg1-0deepin4) ...
+Setting up golang-github-containers-image (5.32.2-4) ...
+
+Configuration file '/etc/containers/registries.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up conmon (2.1.12-3) ...
+Setting up libnotify4:amd64 (0.7.9-3) ...
+Setting up netavark (1.12.1-6deepin1) ...
+Created symlink /etc/systemd/system/default.target.wants/netavark-dhcp-proxy.service → /usr/lib/systemd/system/netavark-dhcp-proxy.service.
+Created symlink /etc/systemd/system/sockets.target.wants/netavark-dhcp-proxy.socket → /usr/lib/systemd/system/netavark-dhcp-proxy.socket.
+Created symlink /etc/systemd/system/firewalld.service.wants/netavark-firewalld-reload.service → /usr/lib/systemd/system/netavark-firewalld-reload.service.
+Unit /usr/lib/systemd/system/netavark-firewalld-reload.service is added as a dependency to a non-existent unit firewalld.service.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Setting up libmpc3:amd64 (1.2.1-1) ...
+Setting up systemd-timesyncd (255.2-4deepin3) ...
+
+Configuration file '/etc/dhcp/dhclient-exit-hooks.d/timesyncd', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/timesyncd.conf', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/system/dbus-org.freedesktop.timesync1.service → /usr/lib/systemd/system/systemd-timesyncd.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-timesyncd.service → /usr/lib/systemd/system/systemd-timesyncd.service.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Setting up udev (255.2-4deepin3) ...
+fchmod() of /dev/loop-control failed: Operation not permitted
+fchmod() of /dev/kvm failed: Operation not permitted
+fchmod() of /dev/vhost-net failed: Operation not permitted
+fchmod() of /dev/vhost-vsock failed: Operation not permitted
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'restart'
+Setting up tini (0.19.0-1) ...
+Setting up libnss-myhostname:amd64 (255.2-4deepin3) ...
+Setting up libfuse3-3:amd64 (3.14.0-5) ...
+Setting up libnotify-bin (0.7.9-3) ...
+Setting up libslirp0:amd64 (4.8.0-1) ...
+Setting up passt (0.0~git20241127.c0fbc7e-1) ...
+
+Configuration file '/etc/apparmor.d/abstractions/passt', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apparmor.d/abstractions/pasta', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apparmor.d/usr.bin.passt', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apparmor.d/usr.bin.pasta', does not exist on system.
+Installing new config file as you requested.
+Setting up libpam-systemd:amd64 (255.2-4deepin3) ...
+Setting up golang-github-containers-common (0.60.4+ds1-1) ...
+
+Configuration file '/etc/containers/policy.json', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/containers/registries.conf.d/shortnames.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up libisl23:amd64 (0.26-3) ...
+Setting up libonig5:amd64 (6.9.7.1-2) ...
+Setting up cpp-12 (12.3.0-17deepin8) ...
+Setting up slirp4netns (1.2.1-1) ...
+Setting up libjq1:amd64 (1.6-2.1) ...
+Setting up crun (1.14.4-1) ...
+Setting up uidmap (1:4.14+dfsg1-0deepin4) ...
+Setting up containers-storage (1.55.1+ds1-1) ...
+Setting up podman (5.2.5-1) ...
+
+Configuration file '/etc/cni/net.d/87-podman-bridge.conflist', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/containers/libpod.conf', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/user/default.target.wants/podman-auto-update.service → /usr/lib/systemd/user/podman-auto-update.service.
+Created symlink /etc/systemd/user/timers.target.wants/podman-auto-update.timer → /usr/lib/systemd/user/podman-auto-update.timer.
+Created symlink /etc/systemd/user/default.target.wants/podman-clean-transient.service → /usr/lib/systemd/user/podman-clean-transient.service.
+Created symlink /etc/systemd/user/default.target.wants/podman-restart.service → /usr/lib/systemd/user/podman-restart.service.
+Created symlink /etc/systemd/user/default.target.wants/podman.service → /usr/lib/systemd/user/podman.service.
+Created symlink /etc/systemd/user/sockets.target.wants/podman.socket → /usr/lib/systemd/user/podman.socket.
+Created symlink /etc/systemd/system/default.target.wants/podman-auto-update.service → /usr/lib/systemd/system/podman-auto-update.service.
+Created symlink /etc/systemd/system/timers.target.wants/podman-auto-update.timer → /usr/lib/systemd/system/podman-auto-update.timer.
+Created symlink /etc/systemd/system/default.target.wants/podman-clean-transient.service → /usr/lib/systemd/system/podman-clean-transient.service.
+Created symlink /etc/systemd/system/default.target.wants/podman-restart.service → /usr/lib/systemd/system/podman-restart.service.
+Created symlink /etc/systemd/system/default.target.wants/podman.service → /usr/lib/systemd/system/podman.service.
+Created symlink /etc/systemd/system/sockets.target.wants/podman.socket → /usr/lib/systemd/system/podman.socket.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Setting up fuse3 (3.14.0-5) ...
+
+Configuration file '/etc/fuse.conf', does not exist on system.
+Installing new config file as you requested.
+update-initramfs: deferring update (trigger activated)
+Setting up dbus-user-session (1.14.10-3) ...
+
+Configuration file '/etc/X11/Xsession.d/20dbus_xdg-runtime', does not exist on system.
+Installing new config file as you requested.
+Setting up cpp (4:13.2.0+really12.3.0-0deepin1) ...
+Setting up jq (1.6-2.1) ...
+Setting up fuse-overlayfs (1.7.1-1) ...
+Setting up distrobox (1.8.0-1) ...
+Setting up buildah (1.37.5+ds1-1) ...
+Setting up deepin-compatibility-mode (0.1.2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for dbus (1.14.10-3) ...
+Processing triggers for initramfs-tools (0.142) ...
