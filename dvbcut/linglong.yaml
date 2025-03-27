@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: dvbcut.linyaps
+  name: dvbcut
+  version: 0.7.4.1
+  kind: app
+  description: |-
+    Qt application for cutting parts out of DVB streams
+    DVBcut is a Qt application that allows you to select certain parts of an
+    MPEG transport stream (as received via Digital Video Broadcasting, DVB) and
+    save these parts into a single MPEG output file. It follows a `keyhole
+    surgery'' approach where the input video and audio data is mostly kept
+    unchanged, and only very few frames at the beginning and/or end of the
+    selected range are re-encoded in order to obtain a valid MPEG file.
+command:
+- /opt/apps/dvbcut.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
