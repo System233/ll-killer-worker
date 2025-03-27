@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-album.linyaps
+  name: deepin-album
+  version: 5.10.25.0
+  kind: app
+  description: |-
+    Album for UOS
+    Album is a fashion photo manager for viewing and organizing pictures.
+command:
+- /opt/apps/deepin-album.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
