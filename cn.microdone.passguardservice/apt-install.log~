@@ -1,0 +1,40 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  deepin-app-store-runtime libnss3 libnss3-tools
+The following NEW packages will be installed:
+  cn.microdone.passguardservice deepin-app-store-runtime libnss3-tools
+The following packages will be upgraded:
+  libnss3
+1 upgraded, 3 newly installed, 0 to remove and 233 not upgraded.
+Need to get 3798 kB of archives.
+After this operation, 14.2 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main arm64 deepin-app-store-runtime arm64 1.0.2+community [2332 B]
+Get:2 https://community-packages.deepin.com/beige beige/main arm64 libnss3 arm64 2:3.105-2 [1268 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main arm64 libnss3-tools arm64 2:3.105-2 [1007 kB]
+Get:4 https://community-packages.deepin.com/driver-23 driver/non-free arm64 cn.microdone.passguardservice arm64 1.0.0.0 [1521 kB]
+Fetched 3798 kB in 1s (2649 kB/s)
+Selecting previously unselected package deepin-app-store-runtime.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../deepin-app-store-runtime_1.0.2+community_arm64.deb ...
+Unpacking deepin-app-store-runtime (1.0.2+community) ...
+dpkg: error processing archive /var/cache/apt/archives/deepin-app-store-runtime_1.0.2+community_arm64.deb (--unpack):
+ error setting ownership of '/usr/share/doc/deepin-app-store-runtime.dpkg-new': Invalid argument
+Preparing to unpack .../libnss3_2%3a3.105-2_arm64.deb ...
+Unpacking libnss3:arm64 (2:3.105-2) over (2:3.100-1) ...
+Selecting previously unselected package libnss3-tools.
+Preparing to unpack .../libnss3-tools_2%3a3.105-2_arm64.deb ...
+Unpacking libnss3-tools (2:3.105-2) ...
+Selecting previously unselected package cn.microdone.passguardservice.
+Preparing to unpack .../cn.microdone.passguardservice_1.0.0.0_arm64.deb ...
+Unpacking cn.microdone.passguardservice (1.0.0.0) ...
+dpkg: error processing archive /var/cache/apt/archives/cn.microdone.passguardservice_1.0.0.0_arm64.deb (--unpack):
+ error setting ownership of '/opt/apps/cn.microdone.passguardservice.dpkg-new': Invalid argument
+Errors were encountered while processing:
+ /var/cache/apt/archives/deepin-app-store-runtime_1.0.2+community_arm64.deb
+ /var/cache/apt/archives/cn.microdone.passguardservice_1.0.0.0_arm64.deb
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
+E: Sub-process /usr/bin/dpkg returned an error code (1)
