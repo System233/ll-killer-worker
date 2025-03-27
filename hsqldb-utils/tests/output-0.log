@@ -1,0 +1,28 @@
+包名:hsqldb-utils.linyaps
+Layer文件:hsqldb-utils.linyaps_2.6.1.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: hsqldb-utils.linyaps_2.6.1.1_x86_64_binary.layer
+offset: 1136
+mountpoint: /tmp/tmp.oN1o1bGKYT/mnt
+dbglevel: 0
+Exception in thread "main" java.lang.UnsatisfiedLinkError: Can't load library: /usr/lib/jvm/java-17-openjdk-amd64/lib/libawt_xawt.so
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2398)
+	at java.base/java.lang.Runtime.load0(Runtime.java:755)
+	at java.base/java.lang.System.load(System.java:1957)
+	at java.base/jdk.internal.loader.NativeLibraries.load(Native Method)
+	at java.base/jdk.internal.loader.NativeLibraries$NativeLibraryImpl.open(NativeLibraries.java:388)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:232)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:174)
+	at java.base/jdk.internal.loader.NativeLibraries.findFromPaths(NativeLibraries.java:315)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:285)
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2403)
+	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:818)
+	at java.base/java.lang.System.loadLibrary(System.java:1993)
+	at java.desktop/java.awt.Toolkit$2.run(Toolkit.java:1388)
+	at java.desktop/java.awt.Toolkit$2.run(Toolkit.java:1386)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at java.desktop/java.awt.Toolkit.loadLibraries(Toolkit.java:1385)
+	at java.desktop/java.awt.Toolkit.initStatic(Toolkit.java:1423)
+	at java.desktop/java.awt.Toolkit.<clinit>(Toolkit.java:1397)
+	at java.desktop/java.awt.Component.<clinit>(Component.java:624)
