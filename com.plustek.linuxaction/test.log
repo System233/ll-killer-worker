@@ -1,0 +1,28 @@
+正在测试: APPID=com.plustek.linuxaction.linyaps LAYER=com.plustek.linuxaction.linyaps_3.0.3.20_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install com.plustek.linuxaction.linyaps_3.0.3.20_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:com.plustek.linuxaction.linyaps
+Layer文件:com.plustek.linuxaction.linyaps_3.0.3.20_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: com.plustek.linuxaction.linyaps_3.0.3.20_x86_64_binary.layer
+offset: 457
+mountpoint: /tmp/tmp.8A9V44c5NY/mnt
+dbglevel: 0
+[成功] linuxaction.plustek.desktop: com.plustek.linuxaction.linyaps-linuxaction -> /opt/apps/com.plustek.linuxaction.linyaps/files/share/icons/hicolor/scalable/apps/com.plustek.linuxaction.linyaps-linuxaction.svg
+[成功] /opt/apps/com.plustek.linuxaction.linyaps/files/share/applications/linuxaction.plustek.desktop: /opt/apps/com.plustek.linuxaction.linyaps/files/entrypoint.sh env QT_QPA_PLATFORM=xcb /opt/apps/com.plustek.linuxaction/files/la2/bin/LinuxActionII
+[正在测试启动项]
+包名:com.plustek.linuxaction.linyaps
+Layer文件:com.plustek.linuxaction.linyaps_3.0.3.20_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: com.plustek.linuxaction.linyaps_3.0.3.20_x86_64_binary.layer
+offset: 457
+mountpoint: /tmp/tmp.AHK9fffjcK/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run com.plustek.linuxaction.linyaps -- /opt/apps/com.plustek.linuxaction.linyaps/files/entrypoint.sh env QT_QPA_PLATFORM=xcb /opt/apps/com.plustek.linuxaction/files/la2/bin/LinuxActionII
+[PID 8563] 进程已启动
+[PID 8563] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall com.plustek.linuxaction.linyaps
