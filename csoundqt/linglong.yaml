@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: csoundqt.linyaps
+  name: csoundqt
+  version: 1.1.1.1
+  kind: app
+  description: |-
+    frontend for the csound sound processor
+    CsoundQT is a simple cross platform editor and front-end for Csound
+    with syntax highlighting, interactive help and automatic launching of
+    Csound.
+command:
+- /opt/apps/csoundqt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

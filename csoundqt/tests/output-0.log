@@ -1,0 +1,51 @@
+包名:csoundqt.linyaps
+Layer文件:csoundqt.linyaps_1.1.1.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: csoundqt.linyaps_1.1.1.1_x86_64_binary.layer
+offset: 546
+mountpoint: /tmp/tmp.p2SbaWYY1O/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+end of score.		   overall amps:[m      0.0
+	   overall samples out of range:[m        0[m
+0 errors in performance
+[mElapsed time at end of performance: real: 0.000s, CPU: 0.000s
+[m[D][unknown:0 unknown] Inspector::parseText:  0.472929 ms
+
+[D][unknown:0 unknown] 
+[D][unknown:0 unknown] No files open. Will not store settings (for any case - testing)
+[D][unknown:0 unknown] 
+[D][unknown:0 unknown] No files open. Will not store settings (for any case - testing)
+[D][unknown:0 unknown] ExamplePath:  "/usr/bin/../share/csoundqt/Examples/"
+[D][unknown:0 unknown] "/usr/bin/../share/csoundqt/Examples/"
+[D][unknown:0 unknown] Using RtMidi API:  0
+ALSA lib seq_hw.c:528:(snd_seq_hw_open) open /dev/snd/seq failed: No such file or directory
+
+MidiInAlsa::initialize: error creating ALSA sequencer client object.
+
+terminate called after throwing an instance of 'RtMidiError'
+  what():  MidiInAlsa::initialize: error creating ALSA sequencer client object.
+backtrace() returned 19 addresses
+/lib/x86_64-linux-gnu/libcsound64.so.6.0(+0x4cc2c) [0x7fe829c4cc2c]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3d580) [0x7fe827e58580]
+/lib/x86_64-linux-gnu/libc.so.6(+0x8bb1c) [0x7fe827ea6b1c]
+/lib/x86_64-linux-gnu/libc.so.6(raise+0x12) [0x7fe827e584e2]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xd3) [0x7fe827e414ed]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xa09db) [0x7fe8280a09db]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xaffaa) [0x7fe8280affaa]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xb0015) [0x7fe8280b0015]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xb0268) [0x7fe8280b0268]
+/lib/x86_64-linux-gnu/librtmidi.so.6(_ZN7MidiApi5errorEN11RtMidiError4TypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x125) [0x7fe829ff8415]
+/lib/x86_64-linux-gnu/librtmidi.so.6(_ZN10MidiInAlsa10initializeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1bf) [0x7fe829ff866f]
+/lib/x86_64-linux-gnu/librtmidi.so.6(_ZN10MidiInAlsaC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj+0x31) [0x7fe829ffac11]
+/lib/x86_64-linux-gnu/librtmidi.so.6(_ZN8RtMidiIn11openMidiApiEN6RtMidi3ApiERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj+0x9b) [0x7fe829ffd27b]
+/lib/x86_64-linux-gnu/librtmidi.so.6(_ZN8RtMidiInC1EN6RtMidi3ApiERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj+0x121) [0x7fe829ffd3c1]
+csoundqt(+0x109042) [0x5603b250d042]
+csoundqt(+0x8cb6a) [0x5603b2490b6a]
+/lib/x86_64-linux-gnu/libc.so.6(+0x27c8a) [0x7fe827e42c8a]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x85) [0x7fe827e42d45]
+csoundqt(+0x8d965) [0x5603b2491965]
+Csound tidy up: Aborted
