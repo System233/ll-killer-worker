@@ -1,0 +1,30 @@
+version: "1"
+package:
+  id: dspdfviewer.linyaps
+  name: dspdfviewer
+  version: 1.15.1.1
+  kind: app
+  description: |-
+    Dual-Screen PDF Viewer for LaTeX-beamer
+    This is a specialized PDF Viewing application custom-made for
+    the LaTeX class beamer, specifically the
+    "show notes on second screen=right" option.
+
+    To make use of this program, you will need a document created
+    by latex-beamer, and you will need two monitors connected to
+    your computer.
+    They do not need to have the same resolution, not even the same
+    aspect ratio.
+
+    This program will split your PDF page in half, and display the
+    left half (intended for the audience) on one monitor (think:
+    a notebook's VGA output connected to your university's projector)
+    and it will display the right half (intended for you) on the
+    second screen.
+    Also, on the second screen, you get page thumbnails and status
+    information, like the time since you started the presentation
+    and a "wall clock".
+command:
+- /opt/apps/dspdfviewer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
