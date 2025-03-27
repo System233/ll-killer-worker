@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: arqiver.linyaps
+  name: arqiver
+  version: 0.9.0.1
+  kind: app
+  description: |-
+    Simple Qt5 archive manager; front-end for libarchive, gzip and 7z.
+    Arqiver can extract, create and edit archives
+    that are supported by its back-ends.
+    It can open archives by drag-and-drop.
+    With 7z, it also supports password protection.
+command:
+- /opt/apps/arqiver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
