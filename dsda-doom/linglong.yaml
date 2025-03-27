@@ -1,0 +1,31 @@
+version: "1"
+package:
+  id: dsda-doom.linyaps
+  name: dsda-doom
+  version: 0.27.5.1
+  kind: app
+  description: |-
+    Doom source port with a focus on demo recording and speedrunning
+    This is a fork of prboom+ with many new features, including:
+
+    * Heretic, Hexen, MBF21, and Doom-in-Hexen support
+    * In-game console and scripting
+    * Full controller support
+    * Palette-based lightmode for opengl
+    * Debugging features for testing
+    * Strict mode for speedrunning
+    * Various quality of life improvements
+    * Advanced tools for TASing
+    * Rewind
+
+    DSDA-Doom requires game data to run. Free game data is available in the
+    freedoom package. Commercial game data can be packaged using
+    game-data-packager. DSDA-Doom supports all flavors of Doom, including
+    The Ultimate Doom, Doom 2 and Final Doom as well as Chex(R) Quest, HacX,
+    Freedoom: Phase 1 and Phase 2 and FreeDM.
+
+    Additionally, DSDA-Doom supports Heretic and Hexen.
+command:
+- /opt/apps/dsda-doom.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
