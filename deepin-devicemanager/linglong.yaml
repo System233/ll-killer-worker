@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: deepin-devicemanager.linyaps
+  name: deepin-devicemanager
+  version: 6.0.28.0
+  kind: app
+  description: |-
+    Device Manager is a handy tool for viewing hardware information and managing the devices.
+    Device Manager helps users manage hardware devices installed on computers,
+    through which users can view parameters and export data of all hardware devices running in the system.
+command:
+- /opt/apps/deepin-devicemanager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
