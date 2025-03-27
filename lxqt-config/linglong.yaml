@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: lxqt-config.linyaps
+  name: lxqt-config
+  version: 0.16.1.1
+  kind: app
+  description: |-
+    LXQt system settings center
+    The LXQt system settings center which summarizes all configuration tools as
+    well as counterparts of other LXQt components or third-party applications.
+
+    This package contain the LXQt configuration ui.
+command:
+- /opt/apps/lxqt-config.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
