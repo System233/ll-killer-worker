@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: ddnet.linyaps
+  name: ddnet
+  version: 16.4.0.1
+  kind: app
+  description: |-
+    Teeworlds modification with a unique cooperative gameplay
+    DDraceNetwork (DDNet) is an actively maintained version of DDRace, a Teeworlds
+    modification with a unique cooperative gameplay. Help each other play through
+    custom maps with up to 64 players, compete against the best in international
+    tournaments, design your own maps, or run your own server.
+
+    This package contains the client binary for DDNet.
+command:
+- /opt/apps/ddnet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
