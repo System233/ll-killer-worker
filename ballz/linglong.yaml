@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: ballz.linyaps
+  name: ballz
+  version: 1.0.4.1
+  kind: app
+  description: |-
+    B.A.L.L.Z. - platform/puzzle game where you control a rolling ball
+    The game is a platformer with some puzzle elements. You take control
+    of a ball which is genetically modified by the British secret
+    service. Your mission is to rescue captured British soldiers from a
+    prison in Iran.
+
+    The game was written in 72 hours for the TINS competition, a
+    competition similar to Speedhack. The name TINS is an recursive
+    acronym for 'TINS is not Speedhack'.
+command:
+- /opt/apps/ballz.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
