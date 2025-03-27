@@ -9,15 +9,23 @@ The following NEW packages will be installed:
 Need to get 45.8 MB of archives.
 After this operation, 0 B of additional disk space will be used.
 Get:1 https://community-packages.deepin.com/driver-23 driver/non-free amd64 cn.com.signpro.sphttpserv all 3.2+b83 [45.8 MB]
-Fetched 45.8 MB in 3s (15.5 MB/s)
+Fetched 45.8 MB in 4s (10.6 MB/s)
 Selecting previously unselected package cn.com.signpro.sphttpserv.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
 Preparing to unpack .../cn.com.signpro.sphttpserv_3.2+b83_all.deb ...
 Unpacking cn.com.signpro.sphttpserv (3.2+b83) ...
-dpkg: error processing archive /var/cache/apt/archives/cn.com.signpro.sphttpserv_3.2+b83_all.deb (--unpack):
- error setting ownership of './etc/xdg/autostart/stesphttpserv.desktop': Invalid argument
-dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Setting up cn.com.signpro.sphttpserv (3.2+b83) ...
+Running in chroot, ignoring request.
+Running in chroot, ignoring request.
+/var/lib/dpkg/info/cn.com.signpro.sphttpserv.postinst: 17: sudo: not found
+x86_64
+/var/lib/dpkg/info/cn.com.signpro.sphttpserv.postinst: 29: sudo: not found
+chmod: changing permissions of '/dev/uinput': Operation not permitted
+dpkg: error processing package cn.com.signpro.sphttpserv (--configure):
+ installed cn.com.signpro.sphttpserv package post-installation script subprocess returned error exit status 1
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
 Errors were encountered while processing:
- /var/cache/apt/archives/cn.com.signpro.sphttpserv_3.2+b83_all.deb
-W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
+ cn.com.signpro.sphttpserv
 E: Sub-process /usr/bin/dpkg returned an error code (1)
