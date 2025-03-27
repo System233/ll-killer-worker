@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-home.linyaps
+  name: deepin-home
+  version: 1.6.3.0
+  kind: app
+  description: |-
+    deepin home
+    quick login bbs, bug report.
+command:
+- /opt/apps/deepin-home.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
