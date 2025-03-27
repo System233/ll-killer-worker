@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: content-hub.linyaps
+  name: content-hub
+  version: 1.1.1.1
+  kind: app
+  description: |-
+    content sharing/picking service for Lomiri
+    Content sharing/picking infrastructure and service, designed to allow apps to
+    securely and efficiently exchange content.
+
+    This package includes the content sharing service.
+command:
+- /opt/apps/content-hub.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
