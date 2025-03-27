@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: actiona.linyaps
+  name: actiona
+  version: 3.10.1.1
+  kind: app
+  description: |-
+    emulate human activity through a powerful GUI and JavaScript
+    Actiona is an application that allows you to execute many actions on your
+    computer such as emulating mouse clicks, key presses, showing message boxes,
+    editing text files, etc. Tasks can be created using a simple editor or using
+    the EcmaScript (JavaScript) programming language for more customization.
+    Actiona is cross-platform.
+command:
+- /opt/apps/actiona.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
