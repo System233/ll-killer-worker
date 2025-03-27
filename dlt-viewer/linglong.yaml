@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: dlt-viewer.linyaps
+  name: dlt-viewer
+  version: 2.25.0.2
+  kind: app
+  description: |-
+    Viewer for COVESA DLT traces
+    The Diagnostic Log and Trace Viewer is an application that can send and
+    receive control messages to the DLT daemon, e.g., to set individual log
+    levels of applications and contexts or get the list of applications
+    and contexts registered in the DLT daemon.
+command:
+- /opt/apps/dlt-viewer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
