@@ -1,0 +1,23 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following NEW packages will be installed:
+  com.ftsafe.interpass3000-lfbk
+0 upgraded, 1 newly installed, 0 to remove and 234 not upgraded.
+Need to get 1993 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/driver-23 driver/non-free arm64 com.ftsafe.interpass3000-lfbk arm64 1.0.7-1+b1 [1993 kB]
+Fetched 1993 kB in 2s (1320 kB/s)
+Selecting previously unselected package com.ftsafe.interpass3000-lfbk.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../com.ftsafe.interpass3000-lfbk_1.0.7-1+b1_arm64.deb ...
+Unpacking com.ftsafe.interpass3000-lfbk (1.0.7-1+b1) ...
+dpkg: error processing archive /var/cache/apt/archives/com.ftsafe.interpass3000-lfbk_1.0.7-1+b1_arm64.deb (--unpack):
+ error setting ownership of '/opt/apps/com.ftsafe.interpass3000-lfbk.dpkg-new': Invalid argument
+/var/lib/dpkg/tmp.ci/postrm: line 26: loginctl: command not found
+Errors were encountered while processing:
+ /var/cache/apt/archives/com.ftsafe.interpass3000-lfbk_1.0.7-1+b1_arm64.deb
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
+E: Sub-process /usr/bin/dpkg returned an error code (1)
