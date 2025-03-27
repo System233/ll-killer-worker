@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: dwarf-fortress.linyaps
+  name: dwarf-fortress
+  version: 0.47.4.1
+  kind: app
+  description: |-
+    Slaves to Armok: God of Blood Chapter II: Dwarf Fortress
+    Dwarf Fortress is a single-player fantasy game. You can control a
+    dwarven outpost or an adventurer in a randomly generated, persistent
+    world.
+command:
+- /opt/apps/dwarf-fortress.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
