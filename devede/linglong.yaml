@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: devede.linyaps
+  name: devede
+  version: 4.17.0.1
+  kind: app
+  description: |-
+    simple application to create Video DVDs
+    DeVeDe is a program to create video DVDs, suitable for home players, from
+    any number of video files, in any of the formats supported by Mplayer.
+
+    It allows the user to create subtitles and even menus.
+command:
+- /opt/apps/devede.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
