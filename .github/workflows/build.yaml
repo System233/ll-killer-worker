@@ -106,3 +106,6 @@ jobs:
       SSH_HOST_KEY: ${{secrets.SSH_HOST_KEY}}
       SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
       CF_PROXY: ${{secrets.CF_PROXY}}
+  stats:
+    needs: build
+    uses: ./.github/workflows/stats.yaml

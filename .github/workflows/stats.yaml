@@ -3,9 +3,8 @@ run-name: Stats
 permissions:
   contents: write
 on:
+  workflow_call:
   workflow_dispatch:
-  schedule:
-      - cron: '0 0 * * *'
 jobs:
   stats:
     runs-on: ubuntu-24.04
