@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.delichina.deliscan.linyaps
+  name: com.delichina.deliscan
+  version: 4.51.24220.23319
+  kind: app
+  description: Deli scanner SANE driver and application.
+command:
+- /opt/apps/com.delichina.deliscan.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
