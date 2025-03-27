@@ -1,0 +1,18 @@
+包名:brasero.linyaps
+Layer文件:brasero.linyaps_3.12.3.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: brasero.linyaps_3.12.3.2_x86_64_binary.layer
+offset: 1043
+mountpoint: /tmp/tmp.Tw82wMcukp/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+
+(brasero:36): dbind-[1;33mWARNING[0m **: [34m08:08:17.697[0m: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.UDisks2VolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
+
+(brasero:36): GLib-[1;33mWARNING[0m **: [34m08:08:17.987[0m: getpwuid_r(): failed due to unknown user id (1001)
+
+** (brasero:36): [1;33mWARNING[0m **: [34m08:08:18.998[0m: Could not establish a connection to Tracker: The name org.freedesktop.Tracker3.Miner.Files was not provided by any .service files
