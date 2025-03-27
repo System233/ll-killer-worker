@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: camitk-actionstatemachine.linyaps
+  name: camitk-actionstatemachine
+  version: 5.2.0.1
+  kind: app
+  description: |-
+    pipeline replay application for the CamiTK library
+    CamiTK helps researchers and clinicians to easily and rapidly collaborate in
+    order to prototype CAMI applications, that feature medical images,
+    surgical navigation and biomechanical simulations.
+
+    camitk-actionstatemachine is able to replay a pipeline (workflow) of CamiTK
+    actions.
+    This application takes an CamiTK augmented version of a SCXML subset as input
+    and allow on to replay interactive the described state-machine containing a
+    list of CamiTK actions and transitions.
+command:
+- /opt/apps/camitk-actionstatemachine.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
