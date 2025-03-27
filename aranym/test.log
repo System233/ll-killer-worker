@@ -1,0 +1,56 @@
+正在测试: APPID=aranym.linyaps LAYER=aranym.linyaps_1.1.0.2_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install aranym.linyaps_1.1.0.2_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:aranym.linyaps
+Layer文件:aranym.linyaps_1.1.0.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: aranym.linyaps_1.1.0.2_x86_64_binary.layer
+offset: 456
+mountpoint: /tmp/tmp.jrQo01I7eG/mnt
+dbglevel: 0
+[成功] aranym-jit.desktop: aranym-jit -> /opt/apps/aranym.linyaps/files/share/icons/hicolor/32x32/apps/aranym-jit.png
+[成功] /opt/apps/aranym.linyaps/files/share/applications/aranym-jit.desktop: /opt/apps/aranym.linyaps/files/entrypoint.sh aranym-jit
+[成功] aranym-mmu.desktop: aranym-mmu -> /opt/apps/aranym.linyaps/files/share/icons/hicolor/32x32/apps/aranym-mmu.png
+[成功] /opt/apps/aranym.linyaps/files/share/applications/aranym-mmu.desktop: /opt/apps/aranym.linyaps/files/entrypoint.sh aranym-mmu
+[成功] aranym.desktop: aranym -> /opt/apps/aranym.linyaps/files/share/icons/hicolor/32x32/apps/aranym.png
+[成功] /opt/apps/aranym.linyaps/files/share/applications/aranym.desktop: /opt/apps/aranym.linyaps/files/entrypoint.sh aranym
+[正在测试启动项]
+包名:aranym.linyaps
+Layer文件:aranym.linyaps_1.1.0.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: aranym.linyaps_1.1.0.2_x86_64_binary.layer
+offset: 456
+mountpoint: /tmp/tmp.X9HHYEDWhI/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run aranym.linyaps -- /opt/apps/aranym.linyaps/files/entrypoint.sh aranym-jit
+[PID 6498] 进程已启动
+[PID 6498] 已检测到窗口:PID=36
+[PID 6498] 正在截图 0秒: tests/screen0-0.jpg
+[PID 6498] 正在截图 1秒: tests/screen0-1.jpg
+[PID 6498] 正在截图 3秒: tests/screen0-3.jpg
+[PID 6498] 正在截图 5秒: tests/screen0-5.jpg
+[PID 6498] 正在通知并等待进程退出
+[PID 6498] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run aranym.linyaps -- /opt/apps/aranym.linyaps/files/entrypoint.sh aranym-mmu
+[PID 6666] 进程已启动
+[PID 6666] 已检测到窗口:PID=36
+[PID 6666] 正在截图 0秒: tests/screen1-0.jpg
+[PID 6666] 正在截图 1秒: tests/screen1-1.jpg
+[PID 6666] 正在截图 3秒: tests/screen1-3.jpg
+[PID 6666] 正在截图 5秒: tests/screen1-5.jpg
+[PID 6666] 正在通知并等待进程退出
+[PID 6666] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run aranym.linyaps -- /opt/apps/aranym.linyaps/files/entrypoint.sh aranym
+[PID 6836] 进程已启动
+[PID 6836] 已检测到窗口:PID=36
+[PID 6836] 正在截图 0秒: tests/screen2-0.jpg
+[PID 6836] 正在截图 1秒: tests/screen2-1.jpg
+[PID 6836] 正在截图 3秒: tests/screen2-3.jpg
+[PID 6836] 正在截图 5秒: tests/screen2-5.jpg
+[PID 6836] 正在通知并等待进程退出
+[PID 6836] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall aranym.linyaps

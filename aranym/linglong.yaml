@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: aranym.linyaps
+  name: aranym
+  version: 1.1.0.2
+  kind: app
+  description: |-
+    Atari Running on Any Machine
+    Virtual Machine for running Atari 32-bit operating systems and applications
+command:
+- /opt/apps/aranym.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
