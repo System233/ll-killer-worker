@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: ddcui.linyaps
+  name: ddcui
+  version: 0.3.0.1
+  kind: app
+  description: |-
+    GUI for ddcutil
+    This package provides a graphical user interface for ddccutil.
+
+    ddcutil communicates with monitors implementing MCCS (Monitor Control Command
+    Set). Normally, communication is performed using the DDC/CI protocol on the
+    I2C bus.  Alternatively, communication can be performed over USB as per the
+    USB Monitor Control Class Specification.
+command:
+- /opt/apps/ddcui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
