@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.lanxum.ga2630dn-psm-2in1.linyaps
+  name: com.lanxum.ga2630dn-psm-2in1
+  version: 1.0.0.20301
+  kind: app
+  description: Lanxum GA2630dn Driver
+command:
+- /opt/apps/com.lanxum.ga2630dn-psm-2in1.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
