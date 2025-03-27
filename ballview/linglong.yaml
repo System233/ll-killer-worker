@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: ballview.linyaps
+  name: ballview
+  version: 1.5.0.11
+  kind: app
+  description: |-
+    free molecular modeling and molecular graphics tool
+    BALLView provides fast OpenGL-based visualization of molecular structures,
+    molecular mechanics methods (minimization, MD simulation using the
+    AMBER, CHARMM, and MMFF94 force fields), calculation and visualization
+    of electrostatic properties (FDPB) and molecular editing features.
+
+    BALLView can be considered a graphical user interface on the basis of
+    BALL (Biochemical Algorithms Library) with a focus on the most common
+    demands of protein chemists and biophysicists in particular.  It is
+    developed in the groups of Hans-Peter Lenhof (Saarland University,
+    Saarbruecken, Germany) and Oliver Kohlbacher (University of Tuebingen,
+    Germany). BALL is an application framework in C++ that has been
+    specifically designed for rapid software development in Molecular
+    Modeling and Computational Molecular Biology.  It provides an extensive
+    set of data structures as well as classes for Molecular Mechanics,
+    advanced solvation methods, comparison and analysis of protein
+    structures, file import/export, and visualization.
+command:
+- /opt/apps/ballview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
