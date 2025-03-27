@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: add64.linyaps
+  name: add64
+  version: 3.9.3.0
+  kind: app
+  description: |-
+    additive synthesizer for JACK
+    Add64 is the result of my experiments around additive
+    synthesis and is intended for research purposes only.
+
+    The spectral drawing scheme for the harmonics and
+    envelopes has been inspired by the virtual pipe
+    organ Aeolus by Fons Adriaensen.
+command:
+- /opt/apps/add64.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
