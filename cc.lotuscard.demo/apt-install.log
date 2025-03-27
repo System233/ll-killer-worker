@@ -17,7 +17,7 @@ Get:3 https://community-packages.deepin.com/beige beige/main amd64 pkgconf-bin a
 Get:4 https://community-packages.deepin.com/beige beige/main amd64 pkgconf amd64 1.8.1-4 [26.2 kB]
 Get:5 https://community-packages.deepin.com/beige beige/main amd64 pkg-config amd64 1.8.1-4 [14.0 kB]
 Get:6 https://community-packages.deepin.com/driver-23 driver/non-free amd64 cc.lotuscard.demo amd64 1.0.0.0 [296 kB]
-Fetched 405 kB in 2s (253 kB/s)
+Fetched 405 kB in 1s (410 kB/s)
 Selecting previously unselected package deepin-app-store-runtime.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
 Preparing to unpack .../0-deepin-app-store-runtime_1.0.2+community_amd64.deb ...
@@ -37,9 +37,10 @@ Unpacking pkg-config:amd64 (1.8.1-4) ...
 Selecting previously unselected package cc.lotuscard.demo.
 Preparing to unpack .../5-cc.lotuscard.demo_1.0.0.0_amd64.deb ...
 Unpacking cc.lotuscard.demo (1.0.0.0) ...
-dpkg: error processing archive /tmp/apt-dpkg-install-lFsAgx/5-cc.lotuscard.demo_1.0.0.0_amd64.deb (--unpack):
- error setting ownership of '/opt/apps/cc.lotuscard.demo.dpkg-new': Invalid argument
-Errors were encountered while processing:
- /tmp/apt-dpkg-install-lFsAgx/5-cc.lotuscard.demo_1.0.0.0_amd64.deb
-W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
-E: Sub-process /usr/bin/dpkg returned an error code (1)
+Setting up deepin-app-store-runtime (1.0.2+community) ...
+Setting up libpkgconf3:amd64 (1.8.1-4) ...
+Setting up pkgconf-bin (1.8.1-4) ...
+Setting up pkgconf:amd64 (1.8.1-4) ...
+Setting up pkg-config:amd64 (1.8.1-4) ...
+Setting up cc.lotuscard.demo (1.0.0.0) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
