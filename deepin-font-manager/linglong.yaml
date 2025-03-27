@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-font-manager.linyaps
+  name: deepin-font-manager
+  version: 6.5.3.0
+  kind: app
+  description: |-
+    Deepin Font Manager binary
+    Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
+command:
+- /opt/apps/deepin-font-manager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
