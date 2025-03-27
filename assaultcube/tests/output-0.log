@@ -1,0 +1,69 @@
+包名:assaultcube.linyaps
+Layer文件:assaultcube.linyaps_1.3.0.5_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: assaultcube.linyaps_1.3.0.5_x86_64_binary.layer
+offset: 774
+mountpoint: /tmp/tmp.KbfYTUGLvB/mnt
+dbglevel: 0
+parsing commandline argument 1: "--home=/home/runner/.assaultcube"
+Using home directory: /home/runner/.assaultcube/
+parsing commandline argument 2: "--init"
+private/entropy.dat not found.
+writing to file: /home/runner/.assaultcube/clientlog.txt
+writing to file: /home/runner/.assaultcube/config/autoexec.cfg
+created config/autoexec.cfg from template config/configtemplates.zip
+writing to file: /home/runner/.assaultcube/config/favourites.cfg
+created config/favourites.cfg from template config/configtemplates.zip
+writing to file: /home/runner/.assaultcube/config/pcksources.cfg
+created config/pcksources.cfg from template config/configtemplates.zip
+init: sdl (2.24.2)
+SDL: compiled version 2.24.2, linked version 2.30.0
+init: net (1.3.6)
+init: world (-(1302))
+init: video: sdl
+init: video: mode
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+init: video: misc
+init: gl
+Renderer: llvmpipe (LLVM 17.0.6, 256 bits) (Mesa)
+Driver: 4.5 (Compatibility Profile) Mesa 24.0.1-1deepin3
+init: console
+init: sound
+Audio devices: OpenAL Soft
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2721:(snd_pcm_open_noupdate) Unknown PCM default
+OpenAL Error (A004): invalid operation, line 85
+sound initialization failed!
+init: cfg
+init: models
+init: docs
+init: localconnect
+own IP: 0.0.0.0, censored own IP: 0.0.0.0, --, clock offset -484182 hours -44 minutes
+auth challenge: SERVINFOCHALLENGE<(0) cn: 0 c: 0.0.0.0 (--) s: 0.0.0.0:0 3b6a27bcceb6a42d62a3a8d02a6f0d73653215771de243a63ac048a18b59da29 st: 0 ct: 29050964 (-1967084462)>
+init: mainloop
+could not read "private/authprivate.cfg"
+read map packages/maps/official/ac_ingress.cgz rev 50 (75 milliseconds)
+ac_ingress - The Streets - By Ruthless and R4zor
+loaded textures (61 milliseconds)
+loaded mapmodels (191 milliseconds)
+loaded mapsounds (0 milliseconds)
+game mode is "TDM"
+unresolved problems occurred during load_world(), warning: 0x8000
+resolving hostname packages.cubers.net succeeded (167.114.34.178)
+http head packages.cubers.net:80/updates.txt response time: 319, status: 404, contentlength: 0
+successfully pinged 1 media server, 0 failures, 0 disabled
+Welcome to AssaultCube
+Developed by 'Rabid Viper Productions'
+
+Use the below menu to change some necessary settings...
+
+Further help & information can be found in your README which is inside your AssaultCube directory.
