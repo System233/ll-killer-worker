@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: com.deli.printer-c111.linyaps
+  name: com.deli.printer-c111
+  version: 1.0.38.0
+  kind: app
+  description: |-
+    Deli Printer C111 Series Driver.
+    No Extended Description.
+command:
+- /opt/apps/com.deli.printer-c111.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
