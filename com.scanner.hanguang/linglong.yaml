@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.scanner.hanguang.linyaps
+  name: com.scanner.hanguang
+  version: 1.0.0.6
+  kind: app
+  description: hg
+command:
+- /opt/apps/com.scanner.hanguang.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
