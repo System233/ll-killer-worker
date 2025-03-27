@@ -1,0 +1,44 @@
+包名:com.lanxum.linuxaction.linyaps
+Layer文件:com.lanxum.linuxaction.linyaps_2.1.91.20_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: com.lanxum.linuxaction.linyaps_2.1.91.20_arm64_binary.layer
+offset: 446
+mountpoint: /tmp/tmp.LTDPeyd7wd/mnt
+dbglevel: 0
+java.lang.NullPointerException
+	at java.base/java.util.Locale.<init>(Locale.java:747)
+	at java.base/java.util.Locale.<init>(Locale.java:776)
+	at StringTable.loadStrings(StringTable.java:143)
+	at StringTable.loadStrings(StringTable.java:131)
+	at StringTable.<init>(StringTable.java:126)
+	at docAction.<clinit>(docAction.java:38)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:59)
+loadStrings(en, null) fail
+java.nio.file.NoSuchFileException: ?/LinuxAction/perf.ini
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixCopyFile.copyFile(UnixCopyFile.java:246)
+	at java.base/sun.nio.fs.UnixCopyFile.copy(UnixCopyFile.java:601)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.copy(UnixFileSystemProvider.java:257)
+	at java.base/java.nio.file.Files.copy(Files.java:1299)
+	at prefIni.<init>(prefIni.java:100)
+	at docAction.<clinit>(docAction.java:42)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:59)
+docAction started
+os.name: Linux
+/etc/os-release: PRETTY_NAME="Deepin 23"
+/etc/os-release: NAME="Deepin"
+/etc/os-release: VERSION_ID="23"
+/etc/os-release: VERSION="23"
+/etc/os-release: ID=Deepin
+/etc/os-release: HOME_URL="https://www.deepin.org/"
+/etc/os-release: BUG_REPORT_URL="https://bbs.deepin.org"
+/etc/os-release: VERSION_CODENAME=beige
+load icon from ./icon.png
+websocket close: GetDevicesList
