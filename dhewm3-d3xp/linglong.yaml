@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: dhewm3-d3xp.linyaps
+  name: dhewm3-d3xp
+  version: 1.5.2.1
+  kind: app
+  description: |-
+    dhewm3's gamelibrary for the title DOOM³: Resurrection of Evil
+    This package contains the shared library containing the game logic for
+    the add-on DOOM3³: Resurrection of Evil
+
+    Please note that this package does not contain any game data, which is
+    required to actually play the game.
+
+    The package game-data-packager can help you to package your copy of the
+    game data. Please see README.Debian for details.
+command:
+- /opt/apps/dhewm3-d3xp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
