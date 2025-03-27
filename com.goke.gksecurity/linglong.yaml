@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.goke.gksecurity.linyaps
+  name: com.goke.gksecurity
+  version: 2.0.3.0
+  kind: app
+  description: Disk Manager Tool
+command:
+- /opt/apps/com.goke.gksecurity.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
