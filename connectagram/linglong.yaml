@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: connectagram.linyaps
+  name: connectagram
+  version: 1.3.5.2
+  kind: app
+  description: |-
+    word unscrambling game
+    The board consists of several scrambled words that are joined together.
+    You can choose the length of the words, the amount of words, and the
+    pattern that the words are arranged in. The game provides a hint option
+    for times when you are stuck.
+command:
+- /opt/apps/connectagram.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
