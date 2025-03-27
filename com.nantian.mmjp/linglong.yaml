@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.nantian.mmjp.linyaps
+  name: com.nantian.mmjp
+  version: 1.0.0.20210312
+  kind: app
+  description: 南天密码键盘arm_uos版
+command:
+- /opt/apps/com.nantian.mmjp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
