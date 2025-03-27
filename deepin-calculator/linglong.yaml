@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-calculator.linyaps
+  name: deepin-calculator
+  version: 6.0.1.0
+  kind: app
+  description: |-
+    Calculator for UOS
+    Calculator is a simple and easy-to-use desktop calculator. It supports addition, subtraction, multiplication and division with keyboard input perfectly matched, as well as symbolic fault-tolerant computing and calculation result linkage.
+command:
+- /opt/apps/deepin-calculator.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
