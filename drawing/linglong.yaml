@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: drawing.linyaps
+  name: drawing
+  version: 1.0.2.1
+  kind: app
+  description: |-
+    simple drawing application for the GNOME desktop
+    Drawing is a simple image editor similar to MS Paint and designed
+    for the GNOME desktop environment. It includes a set of image
+    manipulation tools for every day basic image editing needs.
+command:
+- /opt/apps/drawing.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
