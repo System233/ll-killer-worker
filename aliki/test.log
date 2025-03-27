@@ -1,0 +1,45 @@
+正在测试: APPID=aliki.linyaps LAYER=aliki.linyaps_0.3.0.6_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install aliki.linyaps_0.3.0.6_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:aliki.linyaps
+Layer文件:aliki.linyaps_0.3.0.6_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: aliki.linyaps_0.3.0.6_x86_64_binary.layer
+offset: 577
+mountpoint: /tmp/tmp.KjTKI4PUqr/mnt
+dbglevel: 0
+find: ‘/opt/apps/aliki.linyaps/files/share/icons’: No such file or directory
+[成功] aliki-alsa.desktop: aliki_32x32 -> /opt/apps/aliki.linyaps/files/share/pixmaps/aliki_32x32.xpm
+[成功] /opt/apps/aliki.linyaps/files/share/applications/aliki-alsa.desktop: /opt/apps/aliki.linyaps/files/entrypoint.sh aliki -A
+find: ‘/opt/apps/aliki.linyaps/files/share/icons’: No such file or directory
+[成功] aliki-jack.desktop: aliki_32x32 -> /opt/apps/aliki.linyaps/files/share/pixmaps/aliki_32x32.xpm
+[成功] /opt/apps/aliki.linyaps/files/share/applications/aliki-jack.desktop: /opt/apps/aliki.linyaps/files/entrypoint.sh aliki -J
+[正在测试启动项]
+包名:aliki.linyaps
+Layer文件:aliki.linyaps_0.3.0.6_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: aliki.linyaps_0.3.0.6_x86_64_binary.layer
+offset: 577
+mountpoint: /tmp/tmp.pFDNbPhlrb/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run aliki.linyaps -- /opt/apps/aliki.linyaps/files/entrypoint.sh aliki -A
+[PID 5627] 进程已启动
+[PID 5627] 正在截图 0秒: tests/screen0-0.jpg
+[PID 5627] 正在截图 1秒: tests/screen0-1.jpg
+[PID 5627] 正在截图 3秒: tests/screen0-3.jpg
+[PID 5627] 正在截图 5秒: tests/screen0-5.jpg
+[PID 5627] 正在通知并等待进程退出
+[PID 5627] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run aliki.linyaps -- /opt/apps/aliki.linyaps/files/entrypoint.sh aliki -J
+[PID 6873] 进程已启动
+[PID 6873] 正在截图 0秒: tests/screen1-0.jpg
+[PID 6873] 正在截图 1秒: tests/screen1-1.jpg
+[PID 6873] 正在截图 3秒: tests/screen1-3.jpg
+[PID 6873] 正在截图 5秒: tests/screen1-5.jpg
+[PID 6873] 正在通知并等待进程退出
+[PID 6873] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall aliki.linyaps
