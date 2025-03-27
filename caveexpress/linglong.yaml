@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: caveexpress.linyaps
+  name: caveexpress
+  version: 2.5.2.2
+  kind: app
+  description: |-
+    2D platformer with physics-based gameplay
+    CaveExpress is a classic 2D platformer with physics-based gameplay
+    and dozens of levels. Master your pedal-powered flying machine to
+    pick up packages from your cave-dwelling clients and drop them off
+    at the collection point.
+
+    But beware! Mighty mastodons, terrifying pterodactyls and others
+    would rather see you extinct.
+command:
+- /opt/apps/caveexpress.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
