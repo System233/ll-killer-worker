@@ -1,0 +1,38 @@
+包名:dasher.linyaps
+Layer文件:dasher.linyaps_5.0.0.4_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: dasher.linyaps_5.0.0.4_x86_64_binary.layer
+offset: 1175
+mountpoint: /tmp/tmp.2ybqksy2Hk/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+
+(dasher:36): dbind-[1;33mWARNING[0m **: [34m19:11:51.967[0m: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+** [1;32mMessage[0m: [34m19:11:52.036[0m: Opening GUI file: /usr/share/dasher/dasher.traditional.ui
+
+(dasher:36): GLib-GObject-[1;35mCRITICAL[0m **: [34m19:11:52.352[0m: invalid (NULL) pointer instance
+
+(dasher:36): GLib-GObject-[1;35mCRITICAL[0m **: [34m19:11:52.352[0m: g_signal_handlers_block_matched: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(dasher:36): Gtk-[1;35mCRITICAL[0m **: [34m19:11:52.352[0m: gtk_list_store_clear: assertion 'GTK_IS_LIST_STORE (list_store)' failed
+
+(dasher:36): Gtk-[1;35mCRITICAL[0m **: [34m19:11:52.352[0m: gtk_list_store_append: assertion 'GTK_IS_LIST_STORE (list_store)' failed
+
+(dasher:36): Gtk-[1;35mCRITICAL[0m **: [34m19:11:52.352[0m: gtk_list_store_set_valist: assertion 'GTK_IS_LIST_STORE (list_store)' failed
+
+(dasher:36): Gtk-[1;35mCRITICAL[0m **: [34m19:11:52.352[0m: gtk_combo_box_set_active_iter: assertion 'GTK_IS_COMBO_BOX (combo_box)' failed
+
+(dasher:36): Gtk-[1;35mCRITICAL[0m **: [34m19:11:52.352[0m: gtk_list_store_append: assertion 'GTK_IS_LIST_STORE (list_store)' failed
+
+(dasher:36): Gtk-[1;35mCRITICAL[0m **: [34m19:11:52.352[0m: gtk_list_store_set_valist: assertion 'GTK_IS_LIST_STORE (list_store)' failed
+
+(dasher:36): GLib-GObject-[1;35mCRITICAL[0m **: [34m19:11:52.352[0m: invalid (NULL) pointer instance
+
+(dasher:36): GLib-GObject-[1;35mCRITICAL[0m **: [34m19:11:52.352[0m: g_signal_handlers_unblock_matched: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+** [1;32mMessage[0m: [34m19:11:54.187[0m: Opening GUI file: /usr/share/dasher/dasher.preferences.ui
+
+(dasher:36): dbind-[1;33mWARNING[0m **: [34m19:11:54.196[0m: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+** [1;32mMessage[0m: [34m19:11:54.196[0m: Could not initialise SPI - accessibility options disabled
