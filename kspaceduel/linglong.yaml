@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kspaceduel.linyaps
+  name: kspaceduel
+  version: 21.8.0.1
+  kind: app
+  description: |-
+    SpaceWar! arcade game
+    KSpaceduel is a space battle game for one or two players, where two ships fly
+    around a star in a struggle to be the only survivor.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/kspaceduel.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
