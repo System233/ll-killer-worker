@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: autokey-gtk.linyaps
+  name: autokey-gtk
+  version: 0.95.10.2
+  kind: app
+  description: |-
+    desktop automation utility - GTK+ version
+    AutoKey is a desktop automation utility for Linux and X11. It allows the
+    automation of virtually any task by responding to typed abbreviations and
+    hotkeys. It offers a full-featured GUI that makes it highly accessible for
+    novices, as well as a scripting interface offering the full flexibility and
+    power of the Python language.
+
+    This package contains the GTK+ frontend.
+command:
+- /opt/apps/autokey-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
