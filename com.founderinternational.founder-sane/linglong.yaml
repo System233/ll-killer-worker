@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.founderinternational.founder-sane.linyaps
+  name: com.founderinternational.founder-sane
+  version: 20240820.0.0.1
+  kind: app
+  description: Founder Document Scanning Software
+command:
+- /opt/apps/com.founderinternational.founder-sane.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
