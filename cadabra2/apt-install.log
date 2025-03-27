@@ -4,101 +4,43 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 Reading package lists...
 Building dependency tree...
 The following additional packages will be installed:
-  fonts-cmu libdb5.3t64 libexpat1 libpython3-stdlib libpython3.12-minimal
-  libpython3.12-stdlib libreadline8t64 libssl3t64 python3 python3-minimal
-  python3.12 python3.12-minimal readline-common
+  fonts-cmu libpython3-stdlib libpython3.12 libpython3.12-minimal
+  libpython3.12-stdlib python3 python3-minimal python3.12 python3.12-minimal
 Suggested packages:
   python3-doc python3-tk python3-venv python3.12-venv python3.12-doc
-  binfmt-support readline-doc
-The following packages will be REMOVED:
-  libdb5.3 libpython3.12 libreadline8
+  binfmt-support
 The following NEW packages will be installed:
-  cadabra2 fonts-cmu libdb5.3t64 libreadline8t64 libssl3t64
+  cadabra2 fonts-cmu
 The following packages will be upgraded:
-  libexpat1 libpython3-stdlib libpython3.12-minimal libpython3.12-stdlib
-  python3 python3-minimal python3.12 python3.12-minimal readline-common
-9 upgraded, 5 newly installed, 3 to remove and 441 not upgraded.
-Need to get 17.1 MB of archives.
-After this operation, 26.0 MB of additional disk space will be used.
-Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libssl3t64 arm64 3.0.13-0ubuntu3.5 [1797 kB]
-Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libexpat1 arm64 2.6.1-2ubuntu0.2 [76.4 kB]
-Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3.12 arm64 3.12.3-1ubuntu0.5 [651 kB]
-Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3.12-minimal arm64 3.12.3-1ubuntu0.5 [2254 kB]
-Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3.12-minimal arm64 3.12.3-1ubuntu0.5 [831 kB]
-Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libreadline8t64 arm64 8.2-4build1 [153 kB]
-Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3.12-stdlib arm64 3.12.3-1ubuntu0.5 [2037 kB]
-Get:8 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libdb5.3t64 arm64 5.3.28+dfsg2-7 [732 kB]
-Get:9 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 readline-common all 8.2-4build1 [56.5 kB]
-Get:10 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3-minimal arm64 3.12.3-0ubuntu2 [27.4 kB]
-Get:11 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3 arm64 3.12.3-0ubuntu2 [23.0 kB]
-Get:12 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3-stdlib arm64 3.12.3-0ubuntu2 [10.0 kB]
-Get:13 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 fonts-cmu all 0.7.0-5 [5373 kB]
-Get:14 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 cadabra2 arm64 2.4.5.4-0ubuntu1 [3071 kB]
-Fetched 17.1 MB in 3s (6715 kB/s)
-Selecting previously unselected package libssl3t64:arm64.
+  libpython3-stdlib libpython3.12 libpython3.12-minimal libpython3.12-stdlib
+  python3 python3-minimal python3.12 python3.12-minimal
+8 upgraded, 2 newly installed, 0 to remove and 500 not upgraded.
+Need to get 15.8 MB of archives.
+After this operation, 28.9 MB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3-minimal arm64 3.12.3-0ubuntu2 [27.4 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main arm64 libpython3.12 arm64 3.12.4-0deepin1 [1964 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3 arm64 3.12.3-0ubuntu2 [23.0 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3-stdlib arm64 3.12.3-0ubuntu2 [10.0 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 fonts-cmu all 0.7.0-5 [5373 kB]
+Get:6 https://community-packages.deepin.com/beige beige/main arm64 python3.12 arm64 3.12.4-0deepin1 [663 kB]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 cadabra2 arm64 2.4.5.4-0ubuntu1 [3071 kB]
+Get:8 https://community-packages.deepin.com/beige beige/main arm64 libpython3.12-stdlib arm64 3.12.4-0deepin1 [1874 kB]
+Get:9 https://community-packages.deepin.com/beige beige/main arm64 python3.12-minimal arm64 3.12.4-0deepin1 [1974 kB]
+Get:10 https://community-packages.deepin.com/beige beige/main arm64 libpython3.12-minimal arm64 3.12.4-0deepin1 [803 kB]
+Fetched 15.8 MB in 1s (11.3 MB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
-Preparing to unpack .../libssl3t64_3.0.13-0ubuntu3.5_arm64.deb ...
-Unpacking libssl3t64:arm64 (3.0.13-0ubuntu3.5) ...
-Replacing files in old package libssl3:arm64 (3.2.0-2) ...
-Preparing to unpack .../libexpat1_2.6.1-2ubuntu0.2_arm64.deb ...
-Unpacking libexpat1:arm64 (2.6.1-2ubuntu0.2) over (2.5.0-2) ...
-Preparing to unpack .../python3.12_3.12.3-1ubuntu0.5_arm64.deb ...
-Unpacking python3.12 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
-Preparing to unpack .../python3.12-minimal_3.12.3-1ubuntu0.5_arm64.deb ...
-Unpacking python3.12-minimal (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
-Preparing to unpack .../libpython3.12-minimal_3.12.3-1ubuntu0.5_arm64.deb ...
-Unpacking libpython3.12-minimal:arm64 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
-dpkg: libreadline8:arm64: dependency problems, but removing anyway as you requested:
- sqlite3 depends on libreadline8 (>= 6.0).
- pipewire-bin depends on libreadline8 (>= 6.0).
- libpython3.12-stdlib:arm64 depends on libreadline8 (>= 7.0~beta).
- libpython3.11-stdlib:arm64 depends on libreadline8 (>= 7.0~beta).
- gpgsm depends on libreadline8 (>= 6.0).
- gpgconf depends on libreadline8 (>= 6.0).
- gpg depends on libreadline8 (>= 6.0).
- gnupg-utils depends on libreadline8 (>= 6.0).
- gawk depends on libreadline8 (>= 6.0).
- fdisk depends on libreadline8 (>= 6.0).
- bluez depends on libreadline8 (>= 6.0).
- bc depends on libreadline8 (>= 6.0).
-
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27743 files and directories currently installed.)
-Removing libreadline8:arm64 (8.2-3) ...
-Selecting previously unselected package libreadline8t64:arm64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27730 files and directories currently installed.)
-Preparing to unpack .../libreadline8t64_8.2-4build1_arm64.deb ...
-Adding 'diversion of /lib/aarch64-linux-gnu/libhistory.so.8 to /lib/aarch64-linux-gnu/libhistory.so.8.usr-is-merged by libreadline8t64'
-Adding 'diversion of /lib/aarch64-linux-gnu/libhistory.so.8.2 to /lib/aarch64-linux-gnu/libhistory.so.8.2.usr-is-merged by libreadline8t64'
-Adding 'diversion of /lib/aarch64-linux-gnu/libreadline.so.8 to /lib/aarch64-linux-gnu/libreadline.so.8.usr-is-merged by libreadline8t64'
-Adding 'diversion of /lib/aarch64-linux-gnu/libreadline.so.8.2 to /lib/aarch64-linux-gnu/libreadline.so.8.2.usr-is-merged by libreadline8t64'
-Unpacking libreadline8t64:arm64 (8.2-4build1) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27750 files and directories currently installed.)
-Removing libpython3.12:arm64 (3.12.0-1deepin1) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27744 files and directories currently installed.)
-Preparing to unpack .../libpython3.12-stdlib_3.12.3-1ubuntu0.5_arm64.deb ...
-Unpacking libpython3.12-stdlib:arm64 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
-dpkg: libdb5.3:arm64: dependency problems, but removing anyway as you requested:
- libsasl2-modules-db:arm64 depends on libdb5.3.
- libpython3.11-stdlib:arm64 depends on libdb5.3.
- libperl5.36:arm64 depends on libdb5.3.
- libpam-modules:arm64 depends on libdb5.3.
- libjack-jackd2-0:arm64 depends on libdb5.3.
- libical3:arm64 depends on libdb5.3.
-
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27763 files and directories currently installed.)
-Removing libdb5.3:arm64 (5.3.28+dfsg1-0.8) ...
-Selecting previously unselected package libdb5.3t64:arm64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27757 files and directories currently installed.)
-Preparing to unpack .../libdb5.3t64_5.3.28+dfsg2-7_arm64.deb ...
-Unpacking libdb5.3t64:arm64 (5.3.28+dfsg2-7) ...
-Setting up libdb5.3t64:arm64 (5.3.28+dfsg2-7) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27763 files and directories currently installed.)
-Preparing to unpack .../readline-common_8.2-4build1_all.deb ...
-Unpacking readline-common (8.2-4build1) over (8.2-3) ...
-Setting up libssl3t64:arm64 (3.0.13-0ubuntu3.5) ...
-Setting up libpython3.12-minimal:arm64 (3.12.3-1ubuntu0.5) ...
-Setting up libexpat1:arm64 (2.6.1-2ubuntu0.2) ...
-Setting up python3.12-minimal (3.12.3-1ubuntu0.5) ...
+Preparing to unpack .../libpython3.12_3.12.4-0deepin1_arm64.deb ...
+Unpacking libpython3.12:arm64 (3.12.4-0deepin1) over (3.12.0-1deepin1) ...
+Preparing to unpack .../python3.12_3.12.4-0deepin1_arm64.deb ...
+Unpacking python3.12 (3.12.4-0deepin1) over (3.12.0-1deepin1) ...
+Preparing to unpack .../libpython3.12-stdlib_3.12.4-0deepin1_arm64.deb ...
+Unpacking libpython3.12-stdlib:arm64 (3.12.4-0deepin1) over (3.12.0-1deepin1) ...
+Preparing to unpack .../python3.12-minimal_3.12.4-0deepin1_arm64.deb ...
+Unpacking python3.12-minimal (3.12.4-0deepin1) over (3.12.0-1deepin1) ...
+Preparing to unpack .../libpython3.12-minimal_3.12.4-0deepin1_arm64.deb ...
+Unpacking libpython3.12-minimal:arm64 (3.12.4-0deepin1) over (3.12.0-1deepin1) ...
+Setting up libpython3.12-minimal:arm64 (3.12.4-0deepin1) ...
+Setting up python3.12-minimal (3.12.4-0deepin1) ...
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27762 files and directories currently installed.)
 Preparing to unpack .../python3-minimal_3.12.3-0ubuntu2_arm64.deb ...
 Unpacking python3-minimal (3.12.3-0ubuntu2) over (3.11.4-5) ...
@@ -114,11 +56,10 @@ Unpacking fonts-cmu (0.7.0-5) ...
 Selecting previously unselected package cadabra2.
 Preparing to unpack .../cadabra2_2.4.5.4-0ubuntu1_arm64.deb ...
 Unpacking cadabra2 (2.4.5.4-0ubuntu1) ...
+Setting up libpython3.12-stdlib:arm64 (3.12.4-0deepin1) ...
+Setting up python3.12 (3.12.4-0deepin1) ...
 Setting up fonts-cmu (0.7.0-5) ...
-Setting up readline-common (8.2-4build1) ...
-Setting up libreadline8t64:arm64 (8.2-4build1) ...
-Setting up libpython3.12-stdlib:arm64 (3.12.3-1ubuntu0.5) ...
-Setting up python3.12 (3.12.3-1ubuntu0.5) ...
+Setting up libpython3.12:arm64 (3.12.4-0deepin1) ...
 Setting up libpython3-stdlib:arm64 (3.12.3-0ubuntu2) ...
 Setting up python3 (3.12.3-0ubuntu2) ...
 Setting up cadabra2 (2.4.5.4-0ubuntu1) ...
