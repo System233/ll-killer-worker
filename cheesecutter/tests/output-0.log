@@ -1,0 +1,26 @@
+包名:cheesecutter.linyaps
+Layer文件:cheesecutter.linyaps_2.9.0.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: cheesecutter.linyaps_2.9.0.2_x86_64_binary.layer
+offset: 541
+mountpoint: /tmp/tmp.yZ8Q7LSyPI/mnt
+dbglevel: 0
+derelict.util.exception.SharedLibLoadException@src/derelict/util/exception.d(43): Failed to load one or more shared libraries:
+	libSDL.so - libSDL.so: cannot open shared object file: No such file or directory
+	libSDL.so.0 - libSDL.so.0: cannot open shared object file: No such file or directory
+	libSDL-1.2.so - libSDL-1.2.so: cannot open shared object file: No such file or directory
+	libSDL-1.2.so.0 - libSDL-1.2.so.0: cannot open shared object file: No such file or directory
+----------------
+??:? ???[0x55740cc1c6c5]
+??:? ???[0x55740cc1c397]
+??:? ???[0x55740cc1c8bc]
+??:? ???[0x55740ccac3fb]
+??:? ???[0x7fe44d17dd62]
+??:? ???[0x7fe44d17e3a4]
+??:? _d_run_main2 [0x7fe44d17e560]
+??:? _d_run_main [0x7fe44d17e6b6]
+??:? ???[0x7fe44c642c89]
+??:? __libc_start_main [0x7fe44c642d44]
+??:? ???[0x55740cc1a554]
+??:? ???[0xffffffffffffffff]
