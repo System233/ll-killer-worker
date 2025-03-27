@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: calligrawords.linyaps
+  name: calligrawords
+  version: 3.2.1.8
+  kind: app
+  description: |-
+    word processor for the Calligra Suite
+    Words is a FrameMaker-like word processing and desktop publishing
+    application. It is capable of creating polished and professional
+    looking documents. It can be used for desktop publishing, but also for
+    "normal" word processing, like writing letters, reports and so on.
+
+    This package is part of the Calligra Suite.
+command:
+- /opt/apps/calligrawords.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
