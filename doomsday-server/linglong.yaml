@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: doomsday-server.linyaps
+  name: doomsday-server
+  version: 2.3.1.1
+  kind: app
+  description: |-
+    enhanced version of the legendary DOOM game - server
+    The purpose of the Doomsday Engine project is to create versions of DOOM,
+    Heretic and Hexen that feel the same as the original games but are implemented
+    using modern techniques such as 3D graphics and client/server networking. A
+    lot of emphasis is placed on good-looking graphics.
+
+    This package contains the dedicated server.
+command:
+- /opt/apps/doomsday-server.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
