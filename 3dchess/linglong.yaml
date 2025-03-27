@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: 3dchess.linyaps
+  name: 3dchess
+  version: 0.8.1.21
+  kind: app
+  description: |-
+    Play chess across 3 boards!
+    There are three boards, stacked vertically; 96 pieces of which most are
+    the traditional chess pieces with just a couple of additions; 26
+    possible directions in which to move. Provides a challenging enough
+    game to all but the most highly skilled players.
+command:
+- /opt/apps/3dchess.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
