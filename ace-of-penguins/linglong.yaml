@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: ace-of-penguins.linyaps
+  name: ace-of-penguins
+  version: 1.5.0.5
+  kind: app
+  description: |-
+    penguin-themed solitaire games
+    The Ace of Penguins is a set of solitaire games inspired by the ones
+    available for MS Windows, but with a number of enhancements.
+
+    The package consists of the games Canfield, Freecell, Golf,
+    Mastermind, Merlin, Minesweeper, Pegged, Solitaire, Spider, Taipei
+    (with a level editor), and Thornq.
+
+    NOTE: If you experience problems with the F1 help key, please
+    make sure you have package xfonts-100dpi installed.
+command:
+- /opt/apps/ace-of-penguins.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
