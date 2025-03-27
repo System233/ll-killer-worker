@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: dfcgen-gtk.linyaps
+  name: dfcgen-gtk
+  version: 0.6.0.2
+  kind: app
+  description: |-
+    Digital Filter Coefficients Generator (DFCGen) GTK+
+    DFCGen, the Digital Filter Coefficients Generator, assists the engineer
+    in the design of digital filters. It supports the engineer in analysis
+    and synthesis of linear time-invariant time-discrete (LTI) systems from
+    the theoretical point of view. It performs generation of system transfer
+    function coefficients in the Z-domain, based on the type and specific
+    parameters of a chosen system.
+command:
+- /opt/apps/dfcgen-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
