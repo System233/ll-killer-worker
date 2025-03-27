@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: dodgindiamond2.linyaps
+  name: dodgindiamond2
+  version: 0.2.2.4
+  kind: app
+  description: |-
+    Little shoot-'em-up arcade game for one or two players
+    This aims to be an old school arcade game with low resolution graphics,
+    top-down scrolling action, energy based gameplay, and different weapons
+    with several levels of power.
+command:
+- /opt/apps/dodgindiamond2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
