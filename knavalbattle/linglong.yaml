@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: knavalbattle.linyaps
+  name: knavalbattle
+  version: 21.8.0.1
+  kind: app
+  description: |-
+    battleship board game
+    KNavalbattle is an implementation of the Battleship game, where two players
+    take turns firing at the opponent's ships by guessing their coordinates.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/knavalbattle.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
