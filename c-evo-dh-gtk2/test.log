@@ -1,0 +1,45 @@
+正在测试: APPID=c-evo-dh-gtk2.linyaps LAYER=c-evo-dh-gtk2.linyaps_1.10.0.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install c-evo-dh-gtk2.linyaps_1.10.0.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:c-evo-dh-gtk2.linyaps
+Layer文件:c-evo-dh-gtk2.linyaps_1.10.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: c-evo-dh-gtk2.linyaps_1.10.0.1_x86_64_binary.layer
+offset: 852
+mountpoint: /tmp/tmp.WCWgkDyQ6S/mnt
+dbglevel: 0
+[成功] c-evo-dh-gtk2.desktop: c-evo-dh -> /opt/apps/c-evo-dh-gtk2.linyaps/files/share/icons/hicolor/scalable/apps/c-evo-dh.svg
+[成功] /opt/apps/c-evo-dh-gtk2.linyaps/files/share/applications/c-evo-dh-gtk2.desktop: /opt/apps/c-evo-dh-gtk2.linyaps/files/entrypoint.sh c-evo-launch-gtk2 %f
+[成功] c-evo-manual-gtk2.desktop: c-evo-dh -> /opt/apps/c-evo-dh-gtk2.linyaps/files/share/icons/hicolor/scalable/apps/c-evo-dh.svg
+[成功] /opt/apps/c-evo-dh-gtk2.linyaps/files/share/applications/c-evo-manual-gtk2.desktop: /opt/apps/c-evo-dh-gtk2.linyaps/files/entrypoint.sh c-evo-launch-gtk2 -MAN
+[正在测试启动项]
+包名:c-evo-dh-gtk2.linyaps
+Layer文件:c-evo-dh-gtk2.linyaps_1.10.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: c-evo-dh-gtk2.linyaps_1.10.0.1_x86_64_binary.layer
+offset: 852
+mountpoint: /tmp/tmp.xNOrqOOSRJ/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run c-evo-dh-gtk2.linyaps -- /opt/apps/c-evo-dh-gtk2.linyaps/files/entrypoint.sh c-evo-launch-gtk2
+[PID 9703] 进程已启动
+[PID 9703] 已检测到窗口:PID=37
+[PID 9703] 正在截图 0秒: tests/screen0-0.jpg
+[PID 9703] 正在截图 1秒: tests/screen0-1.jpg
+[PID 9703] 正在截图 3秒: tests/screen0-3.jpg
+[PID 9703] 正在截图 5秒: tests/screen0-5.jpg
+[PID 9703] 正在通知并等待进程退出
+[PID 9703] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run c-evo-dh-gtk2.linyaps -- /opt/apps/c-evo-dh-gtk2.linyaps/files/entrypoint.sh c-evo-launch-gtk2 -MAN
+[PID 9879] 进程已启动
+[PID 9879] 已检测到窗口:PID=37
+[PID 9879] 正在截图 0秒: tests/screen1-0.jpg
+[PID 9879] 正在截图 1秒: tests/screen1-1.jpg
+[PID 9879] 正在截图 3秒: tests/screen1-3.jpg
+[PID 9879] 正在截图 5秒: tests/screen1-5.jpg
+[PID 9879] 正在通知并等待进程退出
+[PID 9879] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall c-evo-dh-gtk2.linyaps
