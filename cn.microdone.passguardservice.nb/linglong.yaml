@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: cn.microdone.passguardservice.nb.linyaps
+  name: cn.microdone.passguardservice.nb
+  version: 1.0.0.7
+  kind: app
+  description: 密码卫士（宁波银行）
+command:
+- /opt/apps/cn.microdone.passguardservice.nb.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
