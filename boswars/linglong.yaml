@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: boswars.linyaps
+  name: boswars
+  version: 2.8.0.2
+  kind: app
+  description: |-
+    futuristic real-time strategy game
+    Bos Wars is a futuristic real-time strategy game. It is possible to play
+    against human opponents over local network (LAN), internet, or against the
+    computer.
+
+    OpenGL support is available as a run-time configuration option.
+command:
+- /opt/apps/boswars.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
