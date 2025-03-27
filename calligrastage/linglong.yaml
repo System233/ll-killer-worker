@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: calligrastage.linyaps
+  name: calligrastage
+  version: 3.2.1.8
+  kind: app
+  description: |-
+    presentation program for the Calligra Suite
+    Stage is an easy to use yet still flexible presentation application. You can
+    easily create presentations containing a rich variety of elements, from
+    graphics to text, from charts to images. Stage is extensible through a
+    plugin system, so it is easy to add new effects, new content elements or even
+    new ways of managing your presentation.
+
+    Stage natively uses the OpenDocument file format standard, for easy
+    interchange with all ODF supporting applications, which includes Microsoft
+    Office. Examples of its easy-to-use features are support for layouts, a
+    special slide overview view during presentations for the presenter, support
+    for many different master sliders in one presentation, cool transitions and
+    a useful notes feature.
+
+    This package is part of the Calligra Suite.
+command:
+- /opt/apps/calligrastage.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
