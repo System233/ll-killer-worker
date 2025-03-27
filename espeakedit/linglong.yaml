@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: espeakedit.linyaps
+  name: espeakedit
+  version: 1.48.15.2
+  kind: app
+  description: |-
+    Multi-lingual software speech synthesizer - editor
+    eSpeak is a software speech synthesizer for English, and some other
+    languages.
+
+    eSpeakEdit provides a User Interface to edit the eSpeak voices.
+command:
+- /opt/apps/espeakedit.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
