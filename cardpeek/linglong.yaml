@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: cardpeek.linyaps
+  name: cardpeek
+  version: 0.8.4.1
+  kind: app
+  description: |-
+    Tool to read the contents of ISO7816 smartcards
+    The goal of cardpeek is to allow smartcard owners to be better informed
+    about what type of personal information is stored in these devices.
+    The tool currently reads the contents of :
+
+    * EMV cards, including NFC ones
+    * Navigo public transport cards (partially supports MOBIB as well)
+    * The French health card "Vitale 2"
+    * Electronic/Biometric passports in BAC security mode
+
+    It can also read the following cards with limited interpretation of data:
+    * Some Mifare cards (such as the Thalys card)
+    * Moneo, the French electronic purse
+    * GSM SIM cards
+command:
+- /opt/apps/cardpeek.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
