@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.utel.uboxweb.linyaps
+  name: com.utel.uboxweb
+  version: 1.0.0.10
+  kind: app
+  description: 安装结束后，请先重启系统！重启后会自动运行，在托盘中显示电话图标
+command:
+- /opt/apps/com.utel.uboxweb.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
