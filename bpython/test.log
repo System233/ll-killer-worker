@@ -1,0 +1,34 @@
+正在测试: APPID=bpython.linyaps LAYER=bpython.linyaps_0.24.0.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install bpython.linyaps_0.24.0.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:bpython.linyaps
+Layer文件:bpython.linyaps_0.24.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: bpython.linyaps_0.24.0.1_x86_64_binary.layer
+offset: 1162
+mountpoint: /tmp/tmp.9b8VNrAmUs/mnt
+dbglevel: 0
+find: ‘/opt/apps/bpython.linyaps/files/share/icons’: No such file or directory
+[成功] org.bpython-interpreter.bpython.desktop: bpython -> /opt/apps/bpython.linyaps/files/share/pixmaps/bpython.png
+[成功] /opt/apps/bpython.linyaps/files/share/applications/org.bpython-interpreter.bpython.desktop: /opt/apps/bpython.linyaps/files/entrypoint.sh /usr/bin/bpython
+[正在测试启动项]
+包名:bpython.linyaps
+Layer文件:bpython.linyaps_0.24.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: bpython.linyaps_0.24.0.1_x86_64_binary.layer
+offset: 1162
+mountpoint: /tmp/tmp.3IIXiSmciD/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run bpython.linyaps -- /opt/apps/bpython.linyaps/files/entrypoint.sh /usr/bin/bpython
+[PID 12614] 进程已启动
+[PID 12614] 正在截图 0秒: tests/screen0-0.jpg
+[PID 12614] 正在截图 1秒: tests/screen0-1.jpg
+[PID 12614] 正在截图 4秒: tests/screen0-4.jpg
+[PID 12614] 正在截图 5秒: tests/screen0-5.jpg
+[PID 12614] 正在通知并等待进程退出
+[PID 12614] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall bpython.linyaps
