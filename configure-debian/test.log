@@ -1,0 +1,28 @@
+正在测试: APPID=configure-debian.linyaps LAYER=configure-debian.linyaps_1.0.3.0_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install configure-debian.linyaps_1.0.3.0_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:configure-debian.linyaps
+Layer文件:configure-debian.linyaps_1.0.3.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: configure-debian.linyaps_1.0.3.0_x86_64_binary.layer
+offset: 899
+mountpoint: /tmp/tmp.4TWWrwBh78/mnt
+dbglevel: 0
+[成功] configure-debian.desktop: configure-debian.linyaps-configure-debian-48x48 -> /opt/apps/configure-debian.linyaps/files/share/icons/hicolor/16x16/apps/configure-debian.linyaps-configure-debian-48x48.png
+[31m[失败] /opt/apps/configure-debian.linyaps/files/share/applications/configure-debian.desktop:/usr/bin/sudo: 找不到此启动文件 [0m
+[正在测试启动项]
+包名:configure-debian.linyaps
+Layer文件:configure-debian.linyaps_1.0.3.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: configure-debian.linyaps_1.0.3.0_x86_64_binary.layer
+offset: 899
+mountpoint: /tmp/tmp.1yIvYLYuJI/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run configure-debian.linyaps -- /opt/apps/configure-debian.linyaps/files/entrypoint.sh /usr/bin/sudo /usr/sbin/configure-debian
+[PID 8742] 进程已启动
+[PID 8742] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall configure-debian.linyaps
