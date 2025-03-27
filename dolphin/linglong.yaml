@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: dolphin.linyaps
+  name: dolphin
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    file manager
+    Dolphin is the default file manager in the Plasma, intended
+    to be both powerful and easy to use.
+
+    Features include:
+    Customisable sidebars
+    "Breadcrumb" navigation
+    View properties remembered for each folder
+    Split views
+    Network transparency
+    Undo/redo functionality
+    Ratings, comments, and tags
+command:
+- /opt/apps/dolphin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
