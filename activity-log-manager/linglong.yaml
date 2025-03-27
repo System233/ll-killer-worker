@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: activity-log-manager.linyaps
+  name: activity-log-manager
+  version: 0.9.7.0
+  kind: app
+  description: |-
+    blacklist configuration user interface for Zeitgeist
+    Zeitgeist is a service which logs the user's activities and events (files
+    opened, websites visited, conversations held with other people, etc.) and
+    makes the relevant information available to other applications.
+
+    It serves as a comprehensive activity log and also makes it possible to
+    determine relationships between items based on usage patterns.
+
+    This package contains Activity Log Manager, a graphical user interface which
+    lets you control what gets logged by Zeitgeist. It supports setting up
+    blacklists according to several criteria (such as application or file types),
+    temporarily stopping all logging as well as deleting recent events.
+command:
+- /opt/apps/activity-log-manager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

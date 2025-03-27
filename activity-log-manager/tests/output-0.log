@@ -1,0 +1,63 @@
+包名:activity-log-manager.linyaps
+Layer文件:activity-log-manager.linyaps_0.9.7.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: activity-log-manager.linyaps_0.9.7.0_x86_64_binary.layer
+offset: 1100
+mountpoint: /tmp/tmp.Fu3INoP32p/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+
+(activity-log-manager:37): dbind-[1;33mWARNING[0m **: [34m06:42:38.576[0m: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(activity-log-manager:37): GLib-[1;35mCRITICAL[0m **: [34m06:42:38.618[0m: g_file_test: assertion 'filename != NULL' failed
+
+** (activity-log-manager:37): [1;35mCRITICAL[0m **: [34m06:42:38.626[0m: file blacklist-dbus.c: line 1120: uncaught error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.zeitgeist.Engine was not provided by any .service files (g-dbus-error-quark, 2)
+
+(activity-log-manager:37): GLib-[1;35mCRITICAL[0m **: [34m06:42:38.626[0m: g_hash_table_get_keys: assertion 'hash_table != NULL' failed
+
+** (activity-log-manager:37): [1;35mCRITICAL[0m **: [34m06:42:38.885[0m: file blacklist-dbus.c: line 1120: uncaught error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.zeitgeist.Engine was not provided by any .service files (g-dbus-error-quark, 2)
+
+(activity-log-manager:37): GLib-[1;35mCRITICAL[0m **: [34m06:42:38.885[0m: g_hash_table_get_keys: assertion 'hash_table != NULL' failed
+
+** (activity-log-manager:37): [1;35mCRITICAL[0m **: [34m06:42:38.887[0m: file blacklist-dbus.c: line 1120: uncaught error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.zeitgeist.Engine was not provided by any .service files (g-dbus-error-quark, 2)
+
+** (activity-log-manager:37): [1;35mCRITICAL[0m **: [34m06:42:38.888[0m: file blacklist-dbus.c: line 1120: uncaught error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.zeitgeist.Engine was not provided by any .service files (g-dbus-error-quark, 2)
+
+(activity-log-manager:37): GLib-[1;35mCRITICAL[0m **: [34m06:42:38.888[0m: g_hash_table_get_values: assertion 'hash_table != NULL' failed
+
+** (activity-log-manager:37): [1;35mCRITICAL[0m **: [34m06:42:38.889[0m: file blacklist-dbus.c: line 1120: uncaught error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.zeitgeist.Engine was not provided by any .service files (g-dbus-error-quark, 2)
+
+(activity-log-manager:37): GLib-[1;35mCRITICAL[0m **: [34m06:42:38.889[0m: g_hash_table_get_keys: assertion 'hash_table != NULL' failed
+
+** (activity-log-manager:37): [1;35mCRITICAL[0m **: [34m06:42:38.893[0m: file blacklist-dbus.c: line 1617: uncaught error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.zeitgeist.Engine was not provided by any .service files (g-dbus-error-quark, 2)
+
+(activity-log-manager:37): GLib-[1;35mCRITICAL[0m **: [34m06:42:38.894[0m: g_file_test: assertion 'filename != NULL' failed
+
+(activity-log-manager:37): GLib-[1;35mCRITICAL[0m **: [34m06:42:40.602[0m: g_strsplit: assertion 'string != NULL' failed
+
+(activity-log-manager:37): GLib-[1;35mCRITICAL[0m **: [34m06:42:40.602[0m: g_strv_contains: assertion 'strv != NULL' failed
+
+** (activity-log-manager:37): [1;33mWARNING[0m **: [34m06:42:40.606[0m: Could not acquire permission: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: process with PID 37 has been replaced
+
+(activity-log-manager:37): GLib-GObject-[1;35mCRITICAL[0m **: [34m06:42:40.607[0m: invalid (NULL) pointer instance
+
+(activity-log-manager:37): GLib-GObject-[1;35mCRITICAL[0m **: [34m06:42:40.607[0m: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(activity-log-manager:37): GLib-GObject-[1;35mCRITICAL[0m **: [34m06:42:40.607[0m: invalid (NULL) pointer instance
+
+(activity-log-manager:37): GLib-GObject-[1;35mCRITICAL[0m **: [34m06:42:40.607[0m: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(activity-log-manager:37): GLib-GObject-[1;35mCRITICAL[0m **: [34m06:42:40.607[0m: invalid (NULL) pointer instance
+
+(activity-log-manager:37): GLib-GObject-[1;35mCRITICAL[0m **: [34m06:42:40.607[0m: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(activity-log-manager:37): GLib-GIO-[1;35mCRITICAL[0m **: [34m06:42:40.607[0m: g_permission_get_allowed: assertion 'G_IS_PERMISSION (permission)' failed
+
+(activity-log-manager:37): GLib-GIO-[1;35mCRITICAL[0m **: [34m06:42:40.607[0m: g_permission_get_allowed: assertion 'G_IS_PERMISSION (permission)' failed
+
+(activity-log-manager:37): GLib-GIO-[1;35mCRITICAL[0m **: [34m06:42:40.607[0m: g_bus_get_sync: assertion 'error == NULL || *error == NULL' failed
+
+** (activity-log-manager:37): [1;33mWARNING[0m **: [34m06:42:40.607[0m: Could not set up DBus connection: \u0001
