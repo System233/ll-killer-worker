@@ -1,0 +1,12 @@
+version: "1"
+package:
+  id: com.pantum.pantum-scan-assistant.linyaps
+  name: com.pantum.pantum-scan-assistant
+  version: 3.0.1.0
+  kind: app
+  description: Pantum scanning assistant allows you to easily scan a document to a
+    file location.
+command:
+- /opt/apps/com.pantum.pantum-scan-assistant.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
