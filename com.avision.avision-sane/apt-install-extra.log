@@ -56,7 +56,7 @@ Get:27 https://community-packages.deepin.com/beige beige/community amd64 ipp-usb
 Get:28 https://community-packages.deepin.com/beige beige/main amd64 libgphoto2-l10n all 2.5.27-1 [493 kB]
 Get:29 https://community-packages.deepin.com/beige beige/main amd64 libnss-mdns amd64 0.15.1-1 [21.0 kB]
 Get:30 https://community-packages.deepin.com/beige beige/main amd64 libusb-0.1-4 amd64 2:0.1.12-32 [16.7 kB]
-Fetched 16.8 MB in 2s (8127 kB/s)
+Fetched 16.8 MB in 2s (7442 kB/s)
 Selecting previously unselected package libavahi-core7:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29516 files and directories currently installed.)
 Preparing to unpack .../00-libavahi-core7_0.8-5_amd64.deb ...
@@ -460,16 +460,14 @@ Installing new config file as you requested.
 Configuration file '/etc/sane.d/saned.conf', does not exist on system.
 Installing new config file as you requested.
 Adding saned group and user...
-Stopped: chown 104:112 /var/lib/saned: Invalid argument
-
-Removing directory `/var/lib/saned' ...
-Removing user `saned' ...
-Removing group `saned' ...
-groupdel: group 'saned' does not exist
-adduser: `groupdel saned' returned error code 6. Exiting.
-usermod: user 'saned' does not exist
-dpkg: error processing package sane-utils (--configure):
- installed sane-utils package post-installation script subprocess returned error exit status 6
+Can't exec "systemctl": No such file or directory at /usr/sbin/update-rc.d line 98.
+/usr/sbin/invoke-rc.d: 290: systemctl: not found
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: WARNING: No init system and policy-rc.d missing! Defaulting to block.
+/var/lib/dpkg/info/sane-utils.postinst: 107: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+saned.socket is a disabled or a static unit, not starting it.
 Setting up libnss-mdns:amd64 (0.15.1-1) ...
 First installation detected...
 Checking NSS setup...
@@ -484,7 +482,3 @@ ipp-usb.service is a disabled or a static unit, not starting it.
 Processing triggers for dbus (1.14.10-3) ...
 Processing triggers for udev (255.2-4) ...
 Processing triggers for libc-bin (2.38-6deepin4) ...
-Errors were encountered while processing:
- sane-utils
-W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
-E: Sub-process /usr/bin/dpkg returned an error code (1)
