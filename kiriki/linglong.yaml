@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kiriki.linyaps
+  name: kiriki
+  version: 21.8.0.1
+  kind: app
+  description: |-
+    Yahtzee dice game
+    Kiriki is a dice game for up to six players, where each player rolls five dice
+    to make combinations with the highest score.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/kiriki.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
