@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: compiz-core.linyaps
+  name: compiz-core
+  version: 0.9.14.0
+  kind: app
+  description: |-
+    OpenGL window and compositing manager
+    Compiz brings to life a variety of visual effects that make the Linux desktop
+    easier to use, more powerful and intuitive, and more accessible for users
+    with special needs.
+
+    Compiz combines together a window manager and a composite manager using
+    OpenGL for rendering. A "window manager" allows the manipulation of the
+    multiple applications and dialog windows that are presented on the screen. A
+    "composite manager" allows windows and other graphics to be combined together
+    to create composite images. Compiz achieves its stunning effects by doing
+    both of these functions.
+command:
+- /opt/apps/compiz-core.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
