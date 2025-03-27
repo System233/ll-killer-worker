@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: com.ncmem.up6.linyaps
+  name: com.ncmem.up6
+  version: 2020.12.3.1
+  kind: app
+  description: |-
+    泽优Web大文件上传控件
+    为web系统提供大文件、文件夹上传及续传功能。
+command:
+- /opt/apps/com.ncmem.up6.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
