@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: dialect.linyaps
+  name: dialect
+  version: 2.1.1.1
+  kind: app
+  description: |-
+    translation app for GNOME
+    Dialect is a translation app for GNOME.
+
+    Features:
+    * Translation based on Google Translate
+    * Translation based on the LibreTranslate API,
+    allowing you to use any public instance
+    * Translation history
+    * Automatic language detection
+    * Text to speech
+    * Clipboard buttons
+command:
+- /opt/apps/dialect.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
