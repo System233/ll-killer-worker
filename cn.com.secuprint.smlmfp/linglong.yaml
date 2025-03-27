@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: cn.com.secuprint.smlmfp.linyaps
+  name: cn.com.secuprint.smlmfp
+  version: 1.0.3.0
+  kind: app
+  description: |-
+    secuprint copier's printer driver,scaner driver and copier tools
+    This package provides sane backend driver and so on.
+command:
+- /opt/apps/cn.com.secuprint.smlmfp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
