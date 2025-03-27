@@ -4,7 +4,7 @@ Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.de
 Runtime文件系统:
 disk: csoundqt.linyaps_1.1.1.1_arm64_binary.layer
 offset: 544
-mountpoint: /tmp/tmp.ce8mebh3pY/mnt
+mountpoint: /tmp/tmp.N8h47vgHzy/mnt
 dbglevel: 0
 MESA: error: ZINK: failed to choose pdev
 glx: failed to create drisw screen
@@ -13,7 +13,7 @@ end of score.		   overall amps:[m      0.0
 	   overall samples out of range:[m        0[m
 0 errors in performance
 [mElapsed time at end of performance: real: 0.000s, CPU: 0.000s
-[m[D][unknown:0 unknown] Inspector::parseText:  0.233063 ms
+[m[D][unknown:0 unknown] Inspector::parseText:  0.217046 ms
 
 [D][unknown:0 unknown] 
 [D][unknown:0 unknown] No files open. Will not store settings (for any case - testing)
@@ -29,23 +29,23 @@ MidiInAlsa::initialize: error creating ALSA sequencer client object.
 terminate called after throwing an instance of 'RtMidiError'
   what():  MidiInAlsa::initialize: error creating ALSA sequencer client object.
 backtrace() returned 19 addresses
-/lib/aarch64-linux-gnu/libcsound64.so.6.0(+0x4a304) [0xff7e7784a304]
-linux-vdso.so.1(__kernel_rt_sigreturn+0) [0xff7e77caf7e0]
-/lib/aarch64-linux-gnu/libc.so.6(+0x81920) [0xff7e75ad1920]
-/lib/aarch64-linux-gnu/libc.so.6(raise+0x1c) [0xff7e75a8b0ec]
-/lib/aarch64-linux-gnu/libc.so.6(abort+0xf0) [0xff7e75a76e7c]
-/lib/aarch64-linux-gnu/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x178) [0xff7e75caa538]
-/lib/aarch64-linux-gnu/libstdc++.so.6(+0xa7f8c) [0xff7e75ca7f8c]
-/lib/aarch64-linux-gnu/libstdc++.so.6(+0xa7ff0) [0xff7e75ca7ff0]
-/lib/aarch64-linux-gnu/libstdc++.so.6(+0xa82d4) [0xff7e75ca82d4]
-/lib/aarch64-linux-gnu/librtmidi.so.6(_ZN7MidiApi5errorEN11RtMidiError4TypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x148) [0xff7e77c496c8]
-/lib/aarch64-linux-gnu/librtmidi.so.6(_ZN10MidiInAlsa10initializeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1a8) [0xff7e77c49938]
-/lib/aarch64-linux-gnu/librtmidi.so.6(_ZN10MidiInAlsaC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj+0x3c) [0xff7e77c4c01c]
-/lib/aarch64-linux-gnu/librtmidi.so.6(_ZN8RtMidiIn11openMidiApiEN6RtMidi3ApiERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj+0xa8) [0xff7e77c4e658]
-/lib/aarch64-linux-gnu/librtmidi.so.6(_ZN8RtMidiInC1EN6RtMidi3ApiERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj+0x144) [0xff7e77c4e7c4]
-csoundqt(+0xdba3c) [0xaaec98f7ba3c]
-csoundqt(+0x4b84c) [0xaaec98eeb84c]
-/lib/aarch64-linux-gnu/libc.so.6(+0x27540) [0xff7e75a77540]
-/lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xff7e75a77618]
-csoundqt(+0x4c6b0) [0xaaec98eec6b0]
+/lib/aarch64-linux-gnu/libcsound64.so.6.0(+0x4a304) [0xff8c6784a304]
+linux-vdso.so.1(__kernel_rt_sigreturn+0) [0xff8c67ca87e0]
+/lib/aarch64-linux-gnu/libc.so.6(+0x81920) [0xff8c65ad1920]
+/lib/aarch64-linux-gnu/libc.so.6(raise+0x1c) [0xff8c65a8b0ec]
+/lib/aarch64-linux-gnu/libc.so.6(abort+0xf0) [0xff8c65a76e7c]
+/lib/aarch64-linux-gnu/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x178) [0xff8c65caa538]
+/lib/aarch64-linux-gnu/libstdc++.so.6(+0xa7f8c) [0xff8c65ca7f8c]
+/lib/aarch64-linux-gnu/libstdc++.so.6(+0xa7ff0) [0xff8c65ca7ff0]
+/lib/aarch64-linux-gnu/libstdc++.so.6(+0xa82d4) [0xff8c65ca82d4]
+/lib/aarch64-linux-gnu/librtmidi.so.6(_ZN7MidiApi5errorEN11RtMidiError4TypeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x148) [0xff8c67c396c8]
+/lib/aarch64-linux-gnu/librtmidi.so.6(_ZN10MidiInAlsa10initializeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1a8) [0xff8c67c39938]
+/lib/aarch64-linux-gnu/librtmidi.so.6(_ZN10MidiInAlsaC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj+0x3c) [0xff8c67c3c01c]
+/lib/aarch64-linux-gnu/librtmidi.so.6(_ZN8RtMidiIn11openMidiApiEN6RtMidi3ApiERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj+0xa8) [0xff8c67c3e658]
+/lib/aarch64-linux-gnu/librtmidi.so.6(_ZN8RtMidiInC1EN6RtMidi3ApiERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj+0x144) [0xff8c67c3e7c4]
+csoundqt(+0xdba3c) [0xab63d39aba3c]
+csoundqt(+0x4b84c) [0xab63d391b84c]
+/lib/aarch64-linux-gnu/libc.so.6(+0x27540) [0xff8c65a77540]
+/lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0xff8c65a77618]
+csoundqt(+0x4c6b0) [0xab63d391c6b0]
 Csound tidy up: Aborted
