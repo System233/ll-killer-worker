@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: ddd.linyaps
+  name: ddd
+  version: 3.3.12.5
+  kind: app
+  description: |-
+    Data Display Debugger, a graphical debugger frontend
+    The Data Display Debugger (DDD) is a popular graphical user interface to
+    UNIX debuggers such as GDB, DBX, XDB, JDB and others. Besides typical
+    front-end features such as viewing source texts and breakpoints, DDD
+    provides an interactive graphical data display, where data structures are
+    displayed as graphs. Using DDD, you can reason about your application by
+    watching its data, not just by viewing it execute lines of source code.
+
+    Other DDD features include: debugging of programs written in Ada, Bash, C,
+    C++, Chill, Fortran, Java, Modula, Pascal, Perl and Python; machine-level
+    debugging; hypertext source navigation and lookup; breakpoint, backtrace,
+    and history editors; preferences and settings editors; program execution
+    in terminal emulator window; debugging on remote host; on-line manual;
+    interactive help on the Motif user interface; GDB/DBX/XDB command-line
+    interface with full editing, history, and completion capabilities.
+
+    This version is linked against Lesstif, an LGPL-ed implementation of Motif.
+command:
+- /opt/apps/ddd.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
