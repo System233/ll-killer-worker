@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: a2d.linyaps
+  name: a2d
+  version: 2.0.3.2
+  kind: app
+  description: |-
+    APRS to DAPNET portal
+    This portal serves as a bridge between the APRS
+    Automatic Packet Reporting System and the DAPNET
+    Decentralized Amateur Paging Network platform. It
+    allows APRS users to relay their APRS messages and
+    alerts to their DAPNET pager. This integration
+    enables seamless communication between two distinct
+    radio communication systems, enhancing the reach and
+    accessibility of critical information for
+    amateur radio enthusiasts.
+command:
+- /opt/apps/a2d.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
