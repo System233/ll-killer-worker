@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.ztsave.ztfinger.linyaps
+  name: com.ztsave.ztfinger
+  version: 1.0.0.1
+  kind: app
+  description: ztfinger demo
+command:
+- /opt/apps/com.ztsave.ztfinger.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
