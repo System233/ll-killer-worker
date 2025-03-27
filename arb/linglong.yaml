@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: arb.linyaps
+  name: arb
+  version: 6.0.6.7
+  kind: app
+  description: |-
+    phylogenetic sequence analysis suite - main program
+    ARB is a graphical suite of tools for sequence database handling and data
+    analysis. A central database of processed (aligned) sequences and any
+    type of additional data linked to the sequence entries is structured
+    according to phylogeny or other user-defined criteria.
+
+    The ARB project (from the Latin "arbor", a tree) is a joint initiative of
+    the Lehrstuhl für Mikrobiologie and the LRR of the Technische Universität
+    München in 1992.
+    Since 2014 the ARB project is continued by the Department of Molecular
+    Ecology http://www.mpi-bremen.de/en/Department_of_Molecular_Ecology.html
+    at the Max Planck Institute for Marine Microbiology in Bremen in
+    cooperation with Ribocon GmbH http://www.ribocon.com .
+command:
+- /opt/apps/arb.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
