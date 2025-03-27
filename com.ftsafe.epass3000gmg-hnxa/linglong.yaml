@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.ftsafe.epass3000gmg-hnxa.linyaps
+  name: com.ftsafe.epass3000gmg-hnxa
+  version: 1.0.1.1
+  kind: app
+  description: ePass3000GM-hnxa for ftsafe
+command:
+- /opt/apps/com.ftsafe.epass3000gmg-hnxa.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
