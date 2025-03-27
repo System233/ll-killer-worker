@@ -1,0 +1,28 @@
+正在测试: APPID=com.pantum.pantum-scan-assistant.linyaps LAYER=com.pantum.pantum-scan-assistant.linyaps_3.0.1.0_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install com.pantum.pantum-scan-assistant.linyaps_3.0.1.0_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:com.pantum.pantum-scan-assistant.linyaps
+Layer文件:com.pantum.pantum-scan-assistant.linyaps_3.0.1.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: com.pantum.pantum-scan-assistant.linyaps_3.0.1.0_x86_64_binary.layer
+offset: 512
+mountpoint: /tmp/tmp.kzTBmtVFxg/mnt
+dbglevel: 0
+[成功] com.pantum.pantum-scan-assistant.desktop: com.pantum.pantum-scan-assistant.linyaps-com.pantum.pantum-scan-assistant -> /opt/apps/com.pantum.pantum-scan-assistant.linyaps/files/share/icons/hicolor/16x16/apps/com.pantum.pantum-scan-assistant.linyaps-com.pantum.pantum-scan-assistant.png
+[成功] /opt/apps/com.pantum.pantum-scan-assistant.linyaps/files/share/applications/com.pantum.pantum-scan-assistant.desktop: /opt/apps/com.pantum.pantum-scan-assistant.linyaps/files/entrypoint.sh /opt/apps/com.pantum.pantum-scan-assistant/files/bin/pantum-scan-assistant
+[正在测试启动项]
+包名:com.pantum.pantum-scan-assistant.linyaps
+Layer文件:com.pantum.pantum-scan-assistant.linyaps_3.0.1.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: com.pantum.pantum-scan-assistant.linyaps_3.0.1.0_x86_64_binary.layer
+offset: 512
+mountpoint: /tmp/tmp.wGeL7EJSwd/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run com.pantum.pantum-scan-assistant.linyaps -- /opt/apps/com.pantum.pantum-scan-assistant.linyaps/files/entrypoint.sh /opt/apps/com.pantum.pantum-scan-assistant/files/bin/pantum-scan-assistant
+[PID 6690] 进程已启动
+[PID 6690] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall com.pantum.pantum-scan-assistant.linyaps
