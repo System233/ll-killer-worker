@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: cpu-x.linyaps
+  name: cpu-x
+  version: 5.0.3.2
+  kind: app
+  description: |-
+    Tool that gathers information on CPU, motherboard and more
+    CPU-X is similar to CPU-Z (for MS Windows). It can be used in graphical
+    mode by using GTK or in text-based mode by using NCurses. A dump mode is
+    present from the command line.
+command:
+- /opt/apps/cpu-x.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

@@ -1,0 +1,25 @@
+包名:cpu-x.linyaps
+Layer文件:cpu-x.linyaps_5.0.3.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: cpu-x.linyaps_5.0.3.2_x86_64_binary.layer
+offset: 585
+mountpoint: /tmp/tmp.PK73lyspTd/mnt
+dbglevel: 0
+Warning: APIC ID are not supported, core count can be wrong if SMT is disabled and cache instances count will not be available.
+[1;33mYour GPU vendor is unknown: Microsoft Corporation (0x1414)[0m
+[1;33mYour GPU kernel driver is unknown: hyperv_drm[0m
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+[1;33mYour GPU user mode driver is unknown for vendor Mesa: 4.5 (Compatibility Profile) Mesa 24.0.1-1deepin3[0m
+[1;33mFailed to create Vulkan for device 0 (VK_ERROR_EXTENSION_NOT_PRESENT)[0m
+[1;33mVK_EXT_pci_bus_info is not supported for device 0, use only deviceID for matching[0m
+[1;33mYour GPU kernel driver is unknown: hyperv_drm[0m
+[1;33mDRM path for Card 0 is unknown[0m
+[1;33mDriver for Card 0 doesn't report frequencies[0m
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+
+(cpu-x:36): dbind-[1;33mWARNING[0m **: [34m18:52:04.660[0m: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
