@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: confy.linyaps
+  name: confy
+  version: 0.7.0.1
+  kind: app
+  description: |-
+    Conference schedule viewer written in Python
+    Navigate conference schedules, mark favourite talks
+    and get reminded of upcoming talks.
+
+    Works offline after initial data download and is usable
+    on mobile devices.
+command:
+- /opt/apps/confy.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
