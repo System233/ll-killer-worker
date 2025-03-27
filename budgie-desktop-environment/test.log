@@ -1,0 +1,33 @@
+正在测试: APPID=budgie-desktop-environment.linyaps LAYER=budgie-desktop-environment.linyaps_0.20.13.0_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install budgie-desktop-environment.linyaps_0.20.13.0_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:budgie-desktop-environment.linyaps
+Layer文件:budgie-desktop-environment.linyaps_0.20.13.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: budgie-desktop-environment.linyaps_0.20.13.0_x86_64_binary.layer
+offset: 882
+mountpoint: /tmp/tmp.cIe7nT5B6D/mnt
+dbglevel: 0
+[31m[失败] budgie-plank-prefs.desktop:plank: 找不到此图标 [0m
+[31m[失败] /opt/apps/budgie-desktop-environment.linyaps/files/share/applications/budgie-plank-prefs.desktop:plank: 找不到此启动文件 [0m
+[成功] nemo.desktop: org.gnome.Nautilus -> /opt/apps/budgie-desktop-environment.linyaps/files/share/icons/Humanity/apps/128/org.gnome.Nautilus.svg
+[31m[失败] /opt/apps/budgie-desktop-environment.linyaps/files/share/applications/nemo.desktop:nemo: 找不到此启动文件 [0m
+[正在测试启动项]
+包名:budgie-desktop-environment.linyaps
+Layer文件:budgie-desktop-environment.linyaps_0.20.13.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: budgie-desktop-environment.linyaps_0.20.13.0_x86_64_binary.layer
+offset: 882
+mountpoint: /tmp/tmp.MdQkds2DIW/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run budgie-desktop-environment.linyaps -- /opt/apps/budgie-desktop-environment.linyaps/files/entrypoint.sh plank --preferences
+[PID 44418] 进程已启动
+[PID 44418] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run budgie-desktop-environment.linyaps -- /opt/apps/budgie-desktop-environment.linyaps/files/entrypoint.sh nemo
+[PID 44543] 进程已启动
+[PID 44543] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall budgie-desktop-environment.linyaps

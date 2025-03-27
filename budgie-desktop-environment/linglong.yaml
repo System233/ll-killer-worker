@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: budgie-desktop-environment.linyaps
+  name: budgie-desktop-environment
+  version: 0.20.13.0
+  kind: app
+  description: |-
+    Desktop environment customisation for Ubuntu Budgie
+    Installs all Ubuntu Budgie packages, both essential dependencies
+    as well as recommended packages and applications.
+    Installs:
+    Ubuntu Budgie panel configuration
+    plank dock customisation
+    gsettings overrides
+    totem thumbnailer config using ffmpegthumbnailer
+    Tilix integration
+    ubuntu and budgie-desktop gsettings overrides
+    applies the default icon-theme for GTK+ applications
+    and Ubuntu Budgie plymouth branding
+command:
+- /opt/apps/budgie-desktop-environment.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
