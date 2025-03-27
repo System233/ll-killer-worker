@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.ftsafe.interpasscitic.linyaps
+  name: com.ftsafe.interpasscitic
+  version: 1.2.8.1
+  kind: app
+  description: InterPass3000_CITIC for ftsafe
+command:
+- /opt/apps/com.ftsafe.interpasscitic.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
