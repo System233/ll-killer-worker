@@ -193,7 +193,7 @@ jobs:
     
             SRC_DIR="$PWD/$PKG_WORK_DIR"
             WORK_DIR=build/$ARCH
-            HASH=$(git rev-parse --short HEAD)
+            HASH=$(cat .version)
 
             echo "HASH=$HASH"
             echo "ls $SRC_DIR"

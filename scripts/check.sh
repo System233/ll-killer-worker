@@ -3,7 +3,7 @@
 PKG_INDEX=$1
 WORK_DIR="build/${ARCH}"
 trap exit SIGPIPE
-HASH=$(git rev-parse --short HEAD)
+HASH=$(cat .version)
 while IFS=, read -r PKG VERSION SRC; do
     PKG_WORK_DIR="${WORK_DIR}/${PKG}"
     PKG_VERSION_FILE="${PKG_WORK_DIR}/version"
