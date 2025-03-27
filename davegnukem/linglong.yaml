@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: davegnukem.linyaps
+  name: davegnukem
+  version: 1.0.3.4
+  kind: app
+  description: |-
+    Retro-style 2D scrolling platform shooter
+    Dave Gnukem is an open source retro-style 2D scrolling platform shooter,
+    inspired by and similar to Duke Nukem 1. It currently runs on Windows, macOS,
+    Linux and various other platforms. It is written in C++ using SDL library and
+    it features an integrated level editor as well. This game is not really a
+    clone or remake, it is probably most akin to a parody.
+command:
+- /opt/apps/davegnukem.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
