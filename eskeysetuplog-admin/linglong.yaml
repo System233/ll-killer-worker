@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: eskeysetuplog-admin.linyaps
+  name: eskeysetuplog-admin
+  version: 6.3.0.3
+  kind: app
+  description: '"文鼎创管理工具自动安装包v6.3.0.3"'
+command:
+- /opt/apps/eskeysetuplog-admin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
