@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: cube2-data.linyaps
+  name: cube2-data
+  version: 1.3.0.1
+  kind: app
+  description: |-
+    demo game and content for the Cube2 engine
+    This data package based on the Bananabread game and provides textures, models,
+    maps and sounds to demonstrate the capabilities of the Cube2 engine. You are
+    able to join a bot match and play against computer controlled opponents of
+    various skill levels. The integrated in-game editor is a good starting point
+    to build upon this content and for creating your own mod or even a standalone
+    game.
+
+    Please note that multiplayer gameplay over the internet is not supported.
+command:
+- /opt/apps/cube2-data.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
