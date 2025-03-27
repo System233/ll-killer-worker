@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: caja-dropbox.linyaps
+  name: caja-dropbox
+  version: 1.26.0.4
+  kind: app
+  description: |-
+    Dropbox integration for Caja
+    Caja Dropbox is an extension that integrates the Dropbox web service with
+    your MATE Desktop.
+
+    To use this package you need to install the proprietary dropbox package
+    from https://www.dropbox.com/install.
+command:
+- /opt/apps/caja-dropbox.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
