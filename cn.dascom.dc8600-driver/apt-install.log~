@@ -1,0 +1,33 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  deepin-app-store-runtime
+The following NEW packages will be installed:
+  cn.dascom.dc8600-driver deepin-app-store-runtime
+0 upgraded, 2 newly installed, 0 to remove and 234 not upgraded.
+Need to get 5798 kB of archives.
+After this operation, 10.2 kB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main arm64 deepin-app-store-runtime arm64 1.0.2+community [2332 B]
+Get:2 https://community-packages.deepin.com/driver-23 driver/non-free arm64 cn.dascom.dc8600-driver arm64 1.0.0 [5795 kB]
+Fetched 5798 kB in 3s (2230 kB/s)
+Selecting previously unselected package deepin-app-store-runtime.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../deepin-app-store-runtime_1.0.2+community_arm64.deb ...
+Unpacking deepin-app-store-runtime (1.0.2+community) ...
+dpkg: error processing archive /var/cache/apt/archives/deepin-app-store-runtime_1.0.2+community_arm64.deb (--unpack):
+ error setting ownership of '/usr/share/doc/deepin-app-store-runtime.dpkg-new': Invalid argument
+tar: ./control: Cannot change ownership to uid 1000, gid 1000: Invalid argument
+tar: ./postinst: Cannot change ownership to uid 1000, gid 1000: Invalid argument
+tar: .: Cannot change ownership to uid 1000, gid 1000: Invalid argument
+tar: Exiting with failure status due to previous errors
+dpkg-deb: error: tar subprocess returned error exit status 2
+dpkg: error processing archive /var/cache/apt/archives/cn.dascom.dc8600-driver_1.0.0_arm64.deb (--unpack):
+ dpkg-deb --control subprocess returned error exit status 2
+Errors were encountered while processing:
+ /var/cache/apt/archives/deepin-app-store-runtime_1.0.2+community_arm64.deb
+ /var/cache/apt/archives/cn.dascom.dc8600-driver_1.0.0_arm64.deb
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
+E: Sub-process /usr/bin/dpkg returned an error code (1)
