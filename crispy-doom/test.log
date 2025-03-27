@@ -1,0 +1,70 @@
+正在测试: APPID=crispy-doom.linyaps LAYER=crispy-doom.linyaps_6.0.0.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install crispy-doom.linyaps_6.0.0.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:crispy-doom.linyaps
+Layer文件:crispy-doom.linyaps_6.0.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: crispy-doom.linyaps_6.0.0.2_arm64_binary.layer
+offset: 739
+mountpoint: /tmp/tmp.00yy2MwJBu/mnt
+dbglevel: 0
+[成功] io.github.fabiangreffrath.Doom.desktop: crispy-doom -> /opt/apps/crispy-doom.linyaps/files/share/icons/hicolor/128x128/apps/crispy-doom.png
+[成功] /opt/apps/crispy-doom.linyaps/files/share/applications/io.github.fabiangreffrath.Doom.desktop: /opt/apps/crispy-doom.linyaps/files/entrypoint.sh crispy-doom
+[成功] io.github.fabiangreffrath.Heretic.desktop: crispy-heretic -> /opt/apps/crispy-doom.linyaps/files/share/icons/hicolor/128x128/apps/crispy-heretic.png
+[成功] /opt/apps/crispy-doom.linyaps/files/share/applications/io.github.fabiangreffrath.Heretic.desktop: /opt/apps/crispy-doom.linyaps/files/entrypoint.sh crispy-heretic
+[成功] io.github.fabiangreffrath.Hexen.desktop: crispy-hexen -> /opt/apps/crispy-doom.linyaps/files/share/icons/hicolor/128x128/apps/crispy-hexen.png
+[成功] /opt/apps/crispy-doom.linyaps/files/share/applications/io.github.fabiangreffrath.Hexen.desktop: /opt/apps/crispy-doom.linyaps/files/entrypoint.sh crispy-hexen
+[成功] io.github.fabiangreffrath.Setup.desktop: crispy-setup -> /opt/apps/crispy-doom.linyaps/files/share/icons/hicolor/128x128/apps/crispy-setup.png
+[成功] /opt/apps/crispy-doom.linyaps/files/share/applications/io.github.fabiangreffrath.Setup.desktop: /opt/apps/crispy-doom.linyaps/files/entrypoint.sh crispy-setup
+[成功] io.github.fabiangreffrath.Strife.desktop: crispy-strife -> /opt/apps/crispy-doom.linyaps/files/share/icons/hicolor/128x128/apps/crispy-strife.png
+[成功] /opt/apps/crispy-doom.linyaps/files/share/applications/io.github.fabiangreffrath.Strife.desktop: /opt/apps/crispy-doom.linyaps/files/entrypoint.sh crispy-strife
+[成功] /opt/apps/crispy-doom.linyaps/files/share/applications/screensavers/io.github.fabiangreffrath.Doom_Screensaver.desktop: /opt/apps/crispy-doom.linyaps/files/entrypoint.sh crispy-doom
+[正在测试启动项]
+包名:crispy-doom.linyaps
+Layer文件:crispy-doom.linyaps_6.0.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: crispy-doom.linyaps_6.0.0.2_arm64_binary.layer
+offset: 739
+mountpoint: /tmp/tmp.TL6gwRC285/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run crispy-doom.linyaps -- /opt/apps/crispy-doom.linyaps/files/entrypoint.sh crispy-doom
+[PID 7843] 进程已启动
+[PID 7843] 已检测到窗口:PID=36
+[PID 7843] 正在截图 0秒: tests/screen0-0.jpg
+[PID 7843] 正在截图 2秒: tests/screen0-2.jpg
+[PID 7843] 正在截图 4秒: tests/screen0-4.jpg
+[PID 7843] 正在截图 5秒: tests/screen0-5.jpg
+[PID 7843] 正在通知并等待进程退出
+[PID 7843] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run crispy-doom.linyaps -- /opt/apps/crispy-doom.linyaps/files/entrypoint.sh crispy-heretic
+[PID 8014] 进程已启动
+[PID 8014] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run crispy-doom.linyaps -- /opt/apps/crispy-doom.linyaps/files/entrypoint.sh crispy-hexen
+[PID 8138] 进程已启动
+[PID 8138] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run crispy-doom.linyaps -- /opt/apps/crispy-doom.linyaps/files/entrypoint.sh crispy-setup
+[PID 8261] 进程已启动
+[PID 8261] 已检测到窗口:PID=37
+[PID 8261] 正在截图 0秒: tests/screen3-0.jpg
+[PID 8261] 正在截图 1秒: tests/screen3-1.jpg
+[PID 8261] 正在截图 3秒: tests/screen3-3.jpg
+[PID 8261] 正在截图 5秒: tests/screen3-5.jpg
+[PID 8261] 正在通知并等待进程退出
+[PID 8261] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run crispy-doom.linyaps -- /opt/apps/crispy-doom.linyaps/files/entrypoint.sh crispy-strife
+[PID 8426] 进程已启动
+[PID 8426] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run crispy-doom.linyaps -- /opt/apps/crispy-doom.linyaps/files/entrypoint.sh crispy-doom
+[PID 8548] 进程已启动
+[PID 8548] 已检测到窗口:PID=37
+[PID 8548] 正在截图 0秒: tests/screen5-0.jpg
+[PID 8548] 正在截图 1秒: tests/screen5-1.jpg
+[PID 8548] 正在截图 3秒: tests/screen5-3.jpg
+[PID 8548] 正在截图 5秒: tests/screen5-5.jpg
+[PID 8548] 正在通知并等待进程退出
+[PID 8548] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall crispy-doom.linyaps
