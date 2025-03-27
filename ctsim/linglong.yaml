@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: ctsim.linyaps
+  name: ctsim
+  version: 6.0.2.6
+  kind: app
+  description: |-
+    Computed tomography simulator
+    CTSim provides an interactive computed tomography simulator. Computed
+    tomography is the technique of estimating the interior of an object
+    by measuring x-ray absorption through that object.
+
+    CTSim has both command-line tools and a graphical user interface.
+    CTSim has very educational trace modes for viewing the data
+    collection simulation as well as the reconstruction.
+command:
+- /opt/apps/ctsim.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
