@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: darnwdl.linyaps
+  name: darnwdl
+  version: 0.8.0.1
+  kind: app
+  description: |-
+    WDL document format viewer
+    WDL is a document format used by Taiwan government. darnwdl is a viewer for
+    WDL files. Due to the format spec is not open, darnwdl is based on reverse
+    engineering.
+command:
+- /opt/apps/darnwdl.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
