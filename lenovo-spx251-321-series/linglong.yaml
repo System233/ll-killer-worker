@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: lenovo-spx251-321-series.linyaps
+  name: lenovo-spx251-321-series
+  version: 1.5.7.2
+  kind: app
+  description: |-
+    lenovo lenovoPrint Driver
+    (Converted from a rpm package by alien version 8.95.)
+command:
+- /opt/apps/lenovo-spx251-321-series.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
