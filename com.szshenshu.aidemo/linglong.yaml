@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: com.szshenshu.aidemo.linyaps
+  name: com.szshenshu.aidemo
+  version: 2022.1.15.1
+  kind: app
+  description: |-
+    <insert up to 60 chars description>
+    <insert long description, indented with spaces>
+command:
+- /opt/apps/com.szshenshu.aidemo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
