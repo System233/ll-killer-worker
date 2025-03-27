@@ -1,0 +1,49 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  deepin-app-store-runtime libpkgconf3 pkg-config pkgconf pkgconf-bin
+The following NEW packages will be installed:
+  cc.lotuscard.demo deepin-app-store-runtime libpkgconf3 pkg-config pkgconf
+  pkgconf-bin
+0 upgraded, 6 newly installed, 0 to remove and 234 not upgraded.
+Need to get 14.3 MB of archives.
+After this operation, 79.5 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main arm64 deepin-app-store-runtime arm64 1.0.2+community [2332 B]
+Get:2 https://community-packages.deepin.com/beige beige/main arm64 libpkgconf3 arm64 1.8.1-4 [35.4 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main arm64 pkgconf-bin arm64 1.8.1-4 [29.5 kB]
+Get:4 https://community-packages.deepin.com/beige beige/main arm64 pkgconf arm64 1.8.1-4 [26.1 kB]
+Get:5 https://community-packages.deepin.com/beige beige/main arm64 pkg-config arm64 1.8.1-4 [14.0 kB]
+Get:6 https://community-packages.deepin.com/driver-23 driver/non-free arm64 cc.lotuscard.demo arm64 1.0.0.0 [14.2 MB]
+Fetched 14.3 MB in 2s (6570 kB/s)
+Selecting previously unselected package deepin-app-store-runtime.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../0-deepin-app-store-runtime_1.0.2+community_arm64.deb ...
+Unpacking deepin-app-store-runtime (1.0.2+community) ...
+dpkg: error processing archive /tmp/apt-dpkg-install-MzBhqH/0-deepin-app-store-runtime_1.0.2+community_arm64.deb (--unpack):
+ error setting ownership of '/usr/share/doc/deepin-app-store-runtime.dpkg-new': Invalid argument
+Selecting previously unselected package libpkgconf3:arm64.
+Preparing to unpack .../1-libpkgconf3_1.8.1-4_arm64.deb ...
+Unpacking libpkgconf3:arm64 (1.8.1-4) ...
+Selecting previously unselected package pkgconf-bin.
+Preparing to unpack .../2-pkgconf-bin_1.8.1-4_arm64.deb ...
+Unpacking pkgconf-bin (1.8.1-4) ...
+Selecting previously unselected package pkgconf:arm64.
+Preparing to unpack .../3-pkgconf_1.8.1-4_arm64.deb ...
+Unpacking pkgconf:arm64 (1.8.1-4) ...
+Selecting previously unselected package pkg-config:arm64.
+Preparing to unpack .../4-pkg-config_1.8.1-4_arm64.deb ...
+Unpacking pkg-config:arm64 (1.8.1-4) ...
+Selecting previously unselected package cc.lotuscard.demo.
+Preparing to unpack .../5-cc.lotuscard.demo_1.0.0.0_arm64.deb ...
+Unpacking cc.lotuscard.demo (1.0.0.0) ...
+dpkg: error processing archive /tmp/apt-dpkg-install-MzBhqH/5-cc.lotuscard.demo_1.0.0.0_arm64.deb (--unpack):
+ error setting ownership of '/opt/apps/cc.lotuscard.demo.dpkg-new': Invalid argument
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Errors were encountered while processing:
+ /tmp/apt-dpkg-install-MzBhqH/0-deepin-app-store-runtime_1.0.2+community_arm64.deb
+ /tmp/apt-dpkg-install-MzBhqH/5-cc.lotuscard.demo_1.0.0.0_arm64.deb
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
+E: Sub-process /usr/bin/dpkg returned an error code (1)
