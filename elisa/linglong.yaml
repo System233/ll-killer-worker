@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: elisa.linyaps
+  name: elisa
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Simple music player with a focus on Plasma desktop integration and privacy
+    Elisa is a music player developed by the KDE community that strives to be
+    simple and nice to use. It tries to be flexible to account for different
+    workflows and use-cases. It focuses on a very good integration with the
+    Plasma desktop of the KDE community without compromising the support for
+    other environments.
+
+    Elisa is developed using modern KDE technologies and aims to be reliable
+    and respectful of users’ privacy. As such, it favors online services where
+    users are in control of their data.
+command:
+- /opt/apps/elisa.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
