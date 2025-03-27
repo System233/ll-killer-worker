@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: ase.linyaps
+  name: ase
+  version: 3.22.1.4
+  kind: app
+  description: |-
+    Atomic Simulation Environment
+    ASE is an Atomic Simulation Environment written in the Python programming
+    language with the aim of setting up, stearing, and analyzing atomic
+    simulations.  ASE is part of CAMPOS, the CAMP Open Source project.
+
+    ASE contains Python interfaces to several different electronic structure
+    codes including Abinit, Asap, Dacapo, Elk, GPAW and SIESTA.
+
+    This package provides the executable scripts.
+command:
+- /opt/apps/ase.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
