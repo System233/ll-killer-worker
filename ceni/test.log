@@ -1,0 +1,28 @@
+正在测试: APPID=ceni.linyaps LAYER=ceni.linyaps_2.33.0.4_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install ceni.linyaps_2.33.0.4_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:ceni.linyaps
+Layer文件:ceni.linyaps_2.33.0.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: ceni.linyaps_2.33.0.4_arm64_binary.layer
+offset: 571
+mountpoint: /tmp/tmp.8KHFK44JuE/mnt
+dbglevel: 0
+[成功] ceni.desktop: ceni -> /opt/apps/ceni.linyaps/files/share/icons/hicolor/128x128/apps/ceni.png
+[31m[失败] /opt/apps/ceni.linyaps/files/share/applications/ceni.desktop:su-to-root: 找不到此启动文件 [0m
+[正在测试启动项]
+包名:ceni.linyaps
+Layer文件:ceni.linyaps_2.33.0.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: ceni.linyaps_2.33.0.4_arm64_binary.layer
+offset: 571
+mountpoint: /tmp/tmp.JpCnV3dc9Z/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run ceni.linyaps -- /opt/apps/ceni.linyaps/files/entrypoint.sh su-to-root -c /usr/sbin/Ceni
+[PID 18776] 进程已启动
+[PID 18776] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall ceni.linyaps
