@@ -1,0 +1,19 @@
+包名:betaradio.linyaps
+Layer文件:betaradio.linyaps_1.6.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: betaradio.linyaps_1.6.0.1_x86_64_binary.layer
+offset: 574
+mountpoint: /tmp/tmp.VkER990XtD/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+
+(betaradio:36): dbind-[1;33mWARNING[0m **: [34m07:58:28.706[0m: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+** (betaradio:36): [1;33mWARNING[0m **: [34m07:58:30.251[0m: json_soup.vala:50: Can not connect to https://betaradio.googlecode.com/git/utils/list.json
+
+** (betaradio:36): [1;33mWARNING[0m **: [34m07:58:30.251[0m: json_soup.vala:57: <data>:1:1: Parse error: unexpected character `<', expected value
+
+(betaradio:36): Json-[1;35mCRITICAL[0m **: [34m07:58:30.252[0m: json_node_get_node_type: assertion 'JSON_NODE_IS_VALID (node)' failed
