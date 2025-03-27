@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: libadwaita-1-examples.linyaps
+  name: libadwaita-1-examples
+  version: 1.5.0.1
+  kind: app
+  description: |-
+    Example programs for libadwaita
+    libadwaita provides GTK widgets and GObjects to ease developing
+    applications for mobile phones.
+
+    This package contains example files and the demonstration program for
+    libadwaita.
+command:
+- /opt/apps/libadwaita-1-examples.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
