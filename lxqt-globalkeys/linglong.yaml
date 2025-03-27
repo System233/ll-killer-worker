@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: lxqt-globalkeys.linyaps
+  name: lxqt-globalkeys
+  version: 0.16.0.1
+  kind: app
+  description: |-
+    daemon used to register global keyboard shortcuts (appl.)
+    LXQt globalkey is providing tools to set global keyboard shortcuts in LXQt
+    sessions, that is shortcuts which apply to the LXQt session as a whole and are
+    not limited to distinct applications.
+
+    This package contain the program files for LXQt globalskeys.
+command:
+- /opt/apps/lxqt-globalkeys.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
