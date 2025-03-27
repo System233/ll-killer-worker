@@ -1,0 +1,54 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libgc1 libgpm2 libssl3t64 w3m
+Suggested packages:
+  calibre debian-reference debian-reference-de debian-reference-en
+  debian-reference-es debian-reference-fr debian-reference-id
+  debian-reference-it debian-reference-ja debian-reference-pt
+  debian-reference-zh-cn debian-reference-zh-tw mc vim gpm brotli cmigemo
+  compface dict dict-wn dictd libsixel-bin mailcap man-db w3m-el w3m-img
+  xdg-utils xsel
+The following NEW packages will be installed:
+  debian-reference-common libgc1 libgpm2 libssl3t64 w3m
+0 upgraded, 5 newly installed, 0 to remove and 450 not upgraded.
+Need to get 3047 kB of archives.
+After this operation, 9829 kB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libssl3t64 arm64 3.0.13-0ubuntu3.5 [1797 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libgpm2 arm64 1.20.7-11 [14.7 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 debian-reference-common all 2.122 [35.1 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libgc1 arm64 1:8.2.6-1build1 [89.1 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 w3m arm64 0.5.3+git20230121-2ubuntu5 [1112 kB]
+Fetched 3047 kB in 1s (2419 kB/s)
+Selecting previously unselected package libssl3t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libssl3t64_3.0.13-0ubuntu3.5_arm64.deb ...
+Unpacking libssl3t64:arm64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:arm64 (3.2.0-2) ...
+Selecting previously unselected package libgpm2:arm64.
+Preparing to unpack .../libgpm2_1.20.7-11_arm64.deb ...
+Unpacking libgpm2:arm64 (1.20.7-11) ...
+Selecting previously unselected package debian-reference-common.
+Preparing to unpack .../debian-reference-common_2.122_all.deb ...
+Unpacking debian-reference-common (2.122) ...
+Selecting previously unselected package libgc1:arm64.
+Preparing to unpack .../libgc1_1%3a8.2.6-1build1_arm64.deb ...
+Unpacking libgc1:arm64 (1:8.2.6-1build1) ...
+Selecting previously unselected package w3m.
+Preparing to unpack .../w3m_0.5.3+git20230121-2ubuntu5_arm64.deb ...
+Unpacking w3m (0.5.3+git20230121-2ubuntu5) ...
+Setting up libgpm2:arm64 (1.20.7-11) ...
+Setting up libssl3t64:arm64 (3.0.13-0ubuntu3.5) ...
+Setting up debian-reference-common (2.122) ...
+Setting up libgc1:arm64 (1:8.2.6-1build1) ...
+Setting up w3m (0.5.3+git20230121-2ubuntu5) ...
+
+Configuration file '/etc/w3m/config', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/w3m/mailcap', does not exist on system.
+Installing new config file as you requested.
+Processing triggers for libc-bin (2.38-6deepin4) ...
