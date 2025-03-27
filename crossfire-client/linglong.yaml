@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: crossfire-client.linyaps
+  name: crossfire-client
+  version: 1.75.0.2
+  kind: app
+  description: |-
+    Client for the multiplayer roguelike Crossfire
+    Crossfire is a free, open-source, cooperative multi-player RPG and
+    adventure game. Since its initial release, Crossfire has grown to
+    encompass over 150 monsters, 3000 areas to explore, an elaborate
+    magic system, 13 races, 15 character classes, and many powerful
+    artifacts scattered far and wide. Set in a fantastical medieval
+    world, it blends the style of Gauntlet, NetHack, Moria, and Angband.
+
+    To play the game you'll need to have access to a local or remote
+    server.
+command:
+- /opt/apps/crossfire-client.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
