@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: einstein.linyaps
+  name: einstein
+  version: 2.0.2.10
+  kind: app
+  description: |-
+    Puzzle game inspired on Einstein's puzzle
+    This puzzle is a remake of old DOS game Sherlock which was inspired by Albert
+    Einstein's puzzle. The game goal is to open all cards in square of 6x6 cards.
+    For this, a number of hints describing relations between card positions are
+    given. Use them to find the correct layout.
+command:
+- /opt/apps/einstein.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
