@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: drumstick-tools.linyaps
+  name: drumstick-tools
+  version: 2.9.0.1
+  kind: app
+  description: |-
+    Qt6/C++ wrapper for ALSA Sequencer (utilities)
+    This library is a C++ wrapper around the ALSA library sequencer interface,
+    using Qt6 objects, idioms and style. ALSA sequencer provides software support
+    for MIDI technology on Linux. Complementary classes for RMI and WRK file
+    processing are also included.
+
+    This package provides utilities shipped with the library:
+    - drumstick-drumgrid: Simple Qt drum sequencer.
+    - drumstick-dumpmid: Write ALSA MIDI events to STDOUT.
+    - drumstick-dumprmi: Write MIDI events from a RIFF MIDI file to STDOUT.
+    - drumstick-dumpsmf: Write MIDI events from a MIDI file to STDOUT.
+    - drumstick-dumpwrk: Write MIDI events from a Cakewalk WRK file to STDOUT.
+    - drumstick-guiplayer: Simple Qt MIDI file player.
+    - drumstick-metronome: Headless MIDI metronome.
+    - drumstick-playsmf: Headless MIDI file player.
+    - drumstick-sysinfo: Display information about ALSA MIDI.
+    - drumstick-vpiano: Virtual Piano Keyboard GUI application.
+command:
+- /opt/apps/drumstick-tools.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
