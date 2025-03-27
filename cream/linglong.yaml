@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: cream.linyaps
+  name: cream
+  version: 0.43.0.3
+  kind: app
+  description: |-
+    VIM macros that make the VIM easier to use for beginners
+    Cream's motto is "Cream makes the powerful Vim text editor easy!". It brings
+    a completely different look and feel to the VIM for those who are used to more
+    intuitive editors while still preserving the more powerful features of VIM.
+    It features pull-down menus, color themes, bookmarking, auto spellcheck and
+    more. It leaves the default VIM untouched and is started by running 'cream'.
+command:
+- /opt/apps/cream.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
