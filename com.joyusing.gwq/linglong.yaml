@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.joyusing.gwq.linyaps
+  name: com.joyusing.gwq
+  version: 1.0.0.0
+  kind: app
+  description: 福建捷宇科技电脑有限公司，PC端柜外清程序，用于连接android终端，实现终端与pc端的数据交互
+command:
+- /opt/apps/com.joyusing.gwq.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
