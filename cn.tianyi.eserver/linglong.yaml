@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: cn.tianyi.eserver.linyaps
+  name: cn.tianyi.eserver
+  version: 1.0.0.1
+  kind: app
+  description: This  deb  is a tool kit
+command:
+- /opt/apps/cn.tianyi.eserver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
