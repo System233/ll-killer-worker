@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: alkimia-bin.linyaps
+  name: alkimia-bin
+  version: 8.1.2.2
+  kind: app
+  description: |-
+    Financial library - binaries
+    Libalkimia is a library with common classes and functionality used by
+    finance applications for KDE. Currently it supports a common
+    class to represent monetary values with arbitrary precision.
+
+    Commandline binaries for the library.
+command:
+- /opt/apps/alkimia-bin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
