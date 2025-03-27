@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: amoebax.linyaps
+  name: amoebax
+  version: 0.2.1.6
+  kind: app
+  description: |-
+    Puyo Puyo-style puzzle game for up to two players
+    Due an awful mutation, some amoeba's species have started to multiply until
+    they take the world if you can't stop them. Fortunately the mutation made then
+    too unstable and lining up four or more will make them disappear.
+
+    Follow Kim or Tom through 6 levels in their quest to prevent the cute
+    multiplying amoebas to take the world and become the new Amoeba Master. Watch
+    out for the cute but amoeba's controlled creatures that will try to put and end
+    to your quest.
+
+    Amoebax is designed with levels for everyone, from children to adults. With the
+    training mode everybody will quickly become a master and the tournament mode
+    will let you have a good time with your friends. There is also catchy music,
+    funny sound effects, and beautiful screens that sure appeal to everyone in the
+    family.
+command:
+- /opt/apps/amoebax.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
