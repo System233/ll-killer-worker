@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-system-upgrade.linyaps
+  name: deepin-system-upgrade
+  version: 6.0.3.0
+  kind: app
+  description: |-
+    system upgrade tool
+    deepin system upgrade tool in Linux
+command:
+- /opt/apps/deepin-system-upgrade.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
