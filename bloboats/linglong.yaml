@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: bloboats.linyaps
+  name: bloboats
+  version: 1.0.2.4
+  kind: app
+  description: |-
+    Boat racing game
+    Bloboats is an arcade-like boat racing game in the hybrid spirit of
+    Mario-like platform jumpers and elasto mania / xmoto.
+
+    The objective of Bloboats is to reach MS Enterprise as fast as possible to
+    save it from the hands of the terrible Tentacle Monsters of an Unknown Master
+    and in the same time beat your friend and laugh at his or her puny time.
+
+    The journey starts from a place called Tutorial, somewhere in the United
+    States, and somehow the player ends up in the famous HV-Arena of Helsinki.
+    During the trip a number of MS Enterprises are saved, luckily, from the
+    hands of the terrible Tentacle Monsters of an Unknown Master, who actually
+    is your dad. Or then ain't. :-)
+command:
+- /opt/apps/bloboats.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
