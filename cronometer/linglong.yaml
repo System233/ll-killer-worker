@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: cronometer.linyaps
+  name: cronometer
+  version: 0.9.9.1
+  kind: app
+  description: |-
+    CRON-o-Meter - Exercise and nutrient intake tracker
+    Easy to use daily nutrient intake tracker that includes nutritional
+    information on over 8000 foods. User can create, import and export custom
+    foods and recipes as well as set personal targets for each nutrient.
+    CRON-O-Meter can also track and chart your biometrics (weight, blood pressure,
+    temperature, etc) and generate detailed reports on your nutritional intake.
+command:
+- /opt/apps/cronometer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
