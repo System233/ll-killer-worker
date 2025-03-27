@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: eekboek-gui.linyaps
+  name: eekboek-gui
+  version: 2.4.0.1
+  kind: app
+  description: |-
+    Graphical User Interface for EekBoek
+    This package includes ebwxshell, the EekBoek GUI.  It offers
+    an EekBoek browser, useful for viewing the administrative data.  It's
+    especially useful for generating, printing and pinpointing reports.
+    Furthermore, it offers a raw interface to the EekBoek Shell.  Finally,
+    it offers a Wizard to help configuring new bookkeeping administrations.
+
+    Install it if you need a friendly interface to the EekBoek reporting
+    facilities, or if you would like help in configuring EekBoek.  However,
+    if you prefer working in pure text mode, or don't like to install the WX
+    graphical packages, you should not install this package.
+command:
+- /opt/apps/eekboek-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
