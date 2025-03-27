@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: edubuntu-menu.linyaps
+  name: edubuntu-menu
+  version: 24.4.2.2
+  kind: app
+  description: |-
+    Menu and Application Folders for Edubuntu
+    Application Folders for Edubuntu. This breaks up Edubuntu's GNOME
+    application overview into organized folders based on education subject
+    for ease of learning in a classroom setting. Contains utilities for
+    resetting to defaults and hiding icons from non-admin users.
+command:
+- /opt/apps/edubuntu-menu.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
