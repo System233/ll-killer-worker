@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: eiskaltdcpp-qt.linyaps
+  name: eiskaltdcpp-qt
+  version: 2.4.2.1
+  kind: app
+  description: |-
+    EiskaltDC++ GUI based on Qt
+    This package contains EiskaltDC++ program with GUI based on Qt. This is the
+    most stable, flexible and convenient GUI for EiskaltDC++.
+
+    EiskaltDC++ is a cross-platform program that uses the Direct Connect and
+    Advanced Direct Connect protocols. It is compatible with DC++, AirDC++,
+    FlylinkDC++ and other DC clients. EiskaltDC++ also interoperates with all
+    common DC hub software.
+command:
+- /opt/apps/eiskaltdcpp-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
