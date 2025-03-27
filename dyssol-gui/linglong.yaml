@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: dyssol-gui.linyaps
+  name: dyssol-gui
+  version: 1.1.1.2
+  kind: app
+  description: |-
+    Tool for dynamic flowsheet simulation. GUI
+    Dynamic simulation of solids processes, is a dynamic flowsheet modelling system
+    designed to simulate the time-dependent behaviour  of complex production
+    processes in solids processing technology
+
+    This package contains dyssol`s GUI.
+command:
+- /opt/apps/dyssol-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
