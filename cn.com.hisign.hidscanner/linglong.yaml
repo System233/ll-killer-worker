@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: cn.com.hisign.hidscanner.linyaps
+  name: cn.com.hisign.hidscanner
+  version: 1.0.0.1
+  kind: app
+  description: hidScanner
+command:
+- /opt/apps/cn.com.hisign.hidscanner.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
