@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: codelite.linyaps
+  name: codelite
+  version: 17.0.0.2
+  kind: app
+  description: |-
+    Powerful and lightweight IDE
+    CodeLite is a powerful and lightweight IDE specializing in C, C++, PHP and
+    Javascript. Its features include:
+    * Generic support for compilers
+    * Built-in GDB support
+    * Database-based Code Completion mechanism
+    * Syntax highlighting for C/C++, Java, Perl, XML, Makefile, Lua, Diff files,
+    PHP, JavaScript, Python, HTML, and ASP
+    * Text Folding
+    * Bookmarks
+    * Find and Replace
+    * doxygen comment generator
+command:
+- /opt/apps/codelite.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
