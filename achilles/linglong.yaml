@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: achilles.linyaps
+  name: achilles
+  version: 2.0.0.12
+  kind: app
+  description: |-
+    Artificial life and evolution simulator
+    Achilles is an artificial life and evolution simulator that uses Hebbian
+    neural networks and OpenGL/SDL to simulate life in a simplified environment.
+    It is based on Larry Yaeger's PolyWorld.
+command:
+- /opt/apps/achilles.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
