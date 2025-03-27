@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: cb2bib.linyaps
+  name: cb2bib
+  version: 2.0.1.2
+  kind: app
+  description: |-
+    extract bibliographic references from various sources
+    cb2bib is a program to extract bibliographic references from
+    unformatted and non standard sources, like:
+    - email alerts;
+    - journal Web pages;
+    - and most interestingly PDF files.
+
+    Output references are written to BibTeX-formatted files. Other
+    features include:
+    - article files can be linked and renamed by dragging them onto the
+    cb2Bib window;
+    - editing and browsing BibTeX files;
+    - citing references, searching references and the full contents of the
+    referenced documents;
+    - inserting bibliographic metadata to documents;
+    - writing short notes that interrelate several references.
+command:
+- /opt/apps/cb2bib.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
