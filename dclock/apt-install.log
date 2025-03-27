@@ -1,0 +1,159 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  file libasound2-data libasound2t64 libflac12t64 libmagic-mgc libmagic1t64
+  libopencore-amrnb0 libopencore-amrwb0 libpng16-16t64 libsox-fmt-alsa
+  libsox-fmt-base libsox3 libvorbis0a libvorbisenc2 libvorbisfile3 libwavpack1
+  libxt6t64 sox
+Suggested packages:
+  alsa-utils libsox-fmt-all
+Recommended packages:
+  alsa-ucm-conf alsa-topology-conf
+The following packages will be REMOVED:
+  libasound2 libmagic1 libpng16-16 libxt6
+The following NEW packages will be installed:
+  dclock libasound2t64 libflac12t64 libmagic1t64 libopencore-amrnb0
+  libopencore-amrwb0 libpng16-16t64 libsox-fmt-alsa libsox-fmt-base libsox3
+  libvorbisfile3 libwavpack1 libxt6t64 sox
+The following packages will be upgraded:
+  file libasound2-data libmagic-mgc libvorbis0a libvorbisenc2
+5 upgraded, 14 newly installed, 4 to remove and 447 not upgraded.
+Need to get 2273 kB of archives.
+After this operation, 2242 kB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libasound2-data all 1.2.11-1build2 [21.0 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libasound2t64 amd64 1.2.11-1build2 [399 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 file amd64 1:5.45-3build1 [22.0 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libmagic-mgc amd64 1:5.45-3build1 [307 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libmagic1t64 amd64 1:5.45-3build1 [87.2 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpng16-16t64 amd64 1.6.43-5build1 [187 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxt6t64 amd64 1:1.2.1-1.2build1 [171 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 dclock amd64 2.2.2-14build2 [63.0 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libflac12t64 amd64 1.4.3+ds-2.1ubuntu2 [197 kB]
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libopencore-amrnb0 amd64 0.1.6-1build1 [98.2 kB]
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libopencore-amrwb0 amd64 0.1.6-1build1 [53.2 kB]
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libsox3 amd64 14.4.2+git20190427-4build4 [240 kB]
+Get:13 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libsox-fmt-alsa amd64 14.4.2+git20190427-4build4 [11.1 kB]
+Get:14 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libvorbisenc2 amd64 1.3.7-1build3 [80.8 kB]
+Get:15 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libvorbis0a amd64 1.3.7-1build3 [97.6 kB]
+Get:16 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libvorbisfile3 amd64 1.3.7-1build3 [17.1 kB]
+Get:17 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libwavpack1 amd64 5.6.0-1build1 [84.6 kB]
+Get:18 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libsox-fmt-base amd64 14.4.2+git20190427-4build4 [33.6 kB]
+Get:19 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 sox amd64 14.4.2+git20190427-4build4 [103 kB]
+Fetched 2273 kB in 0s (6499 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libasound2-data_1.2.11-1build2_all.deb ...
+Unpacking libasound2-data (1.2.11-1build2) over (1.2.8-1) ...
+dpkg: libasound2:amd64: dependency problems, but removing anyway as you requested:
+ pulseaudio depends on libasound2 (>= 1.2.1.1).
+ pipewire-bin depends on libasound2 (>= 1.2.1.1).
+ libspa-0.2-modules:amd64 depends on libasound2 (>= 1.2.1.1).
+ libasound2-plugins:amd64 depends on libasound2 (>= 1.2.5).
+ bluez depends on libasound2 (>= 1.0.17).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing libasound2:amd64 (1.2.8-1) ...
+Selecting previously unselected package libasound2t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27587 files and directories currently installed.)
+Preparing to unpack .../libasound2t64_1.2.11-1build2_amd64.deb ...
+Unpacking libasound2t64:amd64 (1.2.11-1build2) ...
+Preparing to unpack .../file_1%3a5.45-3build1_amd64.deb ...
+Unpacking file (1:5.45-3build1) over (1:5.45-2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing libmagic1:amd64 (1:5.45-2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27583 files and directories currently installed.)
+Preparing to unpack .../libmagic-mgc_1%3a5.45-3build1_amd64.deb ...
+Unpacking libmagic-mgc (1:5.45-3build1) over (1:5.45-2) ...
+Selecting previously unselected package libmagic1t64:amd64.
+Preparing to unpack .../libmagic1t64_1%3a5.45-3build1_amd64.deb ...
+Unpacking libmagic1t64:amd64 (1:5.45-3build1) ...
+dpkg: libpng16-16:amd64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:amd64 depends on libpng16-16 (>= 1.6.2).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27593 files and directories currently installed.)
+Removing libpng16-16:amd64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27582 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_amd64.deb ...
+Unpacking libpng16-16t64:amd64 (1.6.43-5build1) ...
+dpkg: libxt6:amd64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libxt6.
+ xscreensaver-gl depends on libxt6.
+ xscreensaver-data-extra depends on libxt6.
+ xscreensaver-data depends on libxt6.
+ x11-xkb-utils depends on libxt6.
+ libxmu6:amd64 depends on libxt6.
+ libxaw7:amd64 depends on libxt6.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27593 files and directories currently installed.)
+Removing libxt6:amd64 (1:1.2.0-1) ...
+Selecting previously unselected package libxt6t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27587 files and directories currently installed.)
+Preparing to unpack .../00-libxt6t64_1%3a1.2.1-1.2build1_amd64.deb ...
+Unpacking libxt6t64:amd64 (1:1.2.1-1.2build1) ...
+Selecting previously unselected package dclock.
+Preparing to unpack .../01-dclock_2.2.2-14build2_amd64.deb ...
+Unpacking dclock (2.2.2-14build2) ...
+Selecting previously unselected package libflac12t64:amd64.
+Preparing to unpack .../02-libflac12t64_1.4.3+ds-2.1ubuntu2_amd64.deb ...
+Unpacking libflac12t64:amd64 (1.4.3+ds-2.1ubuntu2) ...
+Selecting previously unselected package libopencore-amrnb0:amd64.
+Preparing to unpack .../03-libopencore-amrnb0_0.1.6-1build1_amd64.deb ...
+Unpacking libopencore-amrnb0:amd64 (0.1.6-1build1) ...
+Selecting previously unselected package libopencore-amrwb0:amd64.
+Preparing to unpack .../04-libopencore-amrwb0_0.1.6-1build1_amd64.deb ...
+Unpacking libopencore-amrwb0:amd64 (0.1.6-1build1) ...
+Selecting previously unselected package libsox3:amd64.
+Preparing to unpack .../05-libsox3_14.4.2+git20190427-4build4_amd64.deb ...
+Unpacking libsox3:amd64 (14.4.2+git20190427-4build4) ...
+Selecting previously unselected package libsox-fmt-alsa:amd64.
+Preparing to unpack .../06-libsox-fmt-alsa_14.4.2+git20190427-4build4_amd64.deb ...
+Unpacking libsox-fmt-alsa:amd64 (14.4.2+git20190427-4build4) ...
+Preparing to unpack .../07-libvorbisenc2_1.3.7-1build3_amd64.deb ...
+Unpacking libvorbisenc2:amd64 (1.3.7-1build3) over (1.3.7-1) ...
+Preparing to unpack .../08-libvorbis0a_1.3.7-1build3_amd64.deb ...
+Unpacking libvorbis0a:amd64 (1.3.7-1build3) over (1.3.7-1) ...
+Selecting previously unselected package libvorbisfile3:amd64.
+Preparing to unpack .../09-libvorbisfile3_1.3.7-1build3_amd64.deb ...
+Unpacking libvorbisfile3:amd64 (1.3.7-1build3) ...
+Selecting previously unselected package libwavpack1:amd64.
+Preparing to unpack .../10-libwavpack1_5.6.0-1build1_amd64.deb ...
+Unpacking libwavpack1:amd64 (5.6.0-1build1) ...
+Selecting previously unselected package libsox-fmt-base:amd64.
+Preparing to unpack .../11-libsox-fmt-base_14.4.2+git20190427-4build4_amd64.deb ...
+Unpacking libsox-fmt-base:amd64 (14.4.2+git20190427-4build4) ...
+Selecting previously unselected package sox.
+Preparing to unpack .../12-sox_14.4.2+git20190427-4build4_amd64.deb ...
+Unpacking sox (14.4.2+git20190427-4build4) ...
+Setting up libmagic-mgc (1:5.45-3build1) ...
+Setting up libmagic1t64:amd64 (1:5.45-3build1) ...
+Setting up file (1:5.45-3build1) ...
+Setting up libasound2-data (1.2.11-1build2) ...
+Setting up libopencore-amrwb0:amd64 (0.1.6-1build1) ...
+Setting up libasound2t64:amd64 (1.2.11-1build2) ...
+Setting up libxt6t64:amd64 (1:1.2.1-1.2build1) ...
+Setting up libpng16-16t64:amd64 (1.6.43-5build1) ...
+Setting up libvorbis0a:amd64 (1.3.7-1build3) ...
+Setting up dclock (2.2.2-14build2) ...
+
+Configuration file '/etc/X11/app-defaults/Dclock', does not exist on system.
+Installing new config file as you requested.
+Setting up libwavpack1:amd64 (5.6.0-1build1) ...
+Setting up libopencore-amrnb0:amd64 (0.1.6-1build1) ...
+Setting up libflac12t64:amd64 (1.4.3+ds-2.1ubuntu2) ...
+Setting up libvorbisenc2:amd64 (1.3.7-1build3) ...
+Setting up libsox3:amd64 (14.4.2+git20190427-4build4) ...
+Setting up libvorbisfile3:amd64 (1.3.7-1build3) ...
+Setting up libsox-fmt-alsa:amd64 (14.4.2+git20190427-4build4) ...
+Setting up libsox-fmt-base:amd64 (14.4.2+git20190427-4build4) ...
+Setting up sox (14.4.2+git20190427-4build4) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
