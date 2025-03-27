@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: critterding.linyaps
+  name: critterding
+  version: 1.0.1.1
+  kind: app
+  description: |-
+    Evolving Artificial Life
+    Critterding is a "Petri dish" universe in 3D that demonstrates
+    evolving artificial life. Critters start out with completely
+    random brains and bodies, but will automatically start evolving
+    into something with much better survival skills.
+command:
+- /opt/apps/critterding.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
