@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.huawei.cv81-series.linyaps
+  name: com.huawei.cv81-series
+  version: 2.0.0.88
+  kind: app
+  description: Printer Driver for HUAWEI printer
+command:
+- /opt/apps/com.huawei.cv81-series.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
