@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: antimicro.linyaps
+  name: antimicro
+  version: 3.1.4.2
+  kind: app
+  description: |-
+    GUI for mapping keyboard keys and mouse controls to a gamepad
+    AntiMicroX is a graphical program used to map keyboard keys and mouse
+    controls to a gamepad. This program is useful for playing PC games
+    using a gamepad that do not have any form of built-in gamepad support.
+    However, you can use this program to control any desktop application
+    (while running an X11 environment) with a gamepad.
+
+    https://github.com/AntiMicroX/antimicrox-profiles is a repository for
+    pre-made AntiMicroX profiles, providing convenience controller layouts
+    suitable for playing a game without having to map everything yourself.
+
+    Use evtest, or perhaps jstest from the joystick package, if you
+    encounter problems detecting a controller, axes or buttons.
+command:
+- /opt/apps/antimicro.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
