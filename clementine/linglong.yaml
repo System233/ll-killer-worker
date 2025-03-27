@@ -1,0 +1,38 @@
+version: "1"
+package:
+  id: clementine.linyaps
+  name: clementine
+  version: 1.4.0.1
+  kind: app
+  description: |-
+    modern music player and library organizer
+    Clementine is a multiplatform music player focusing on a fast and
+    easy-to-use interface for searching and playing your music.
+
+    Summary of included features :
+    - Search and play your local music library.
+    - Listen to internet radio from ROCKRADIO.com, RadioTunes.com,
+    IntergalacticFM, SomaFM, Magnatune, Jamendo, Digitally Imported,
+    ClassicalRadio.com, JAZZRADIO.com, Icecast and Subsonic servers.
+    - Search and play songs you've uploaded to SeaFile, Box, Dropbox, Google
+    Drive, and OneDrive.
+    - Create smart playlists and dynamic playlists.
+    - Tabbed playlists, import and export M3U, XSPF, PLS and ASX.
+    - CUE sheet support.
+    - Play audio CDs.
+    - Visualisations from projectM.
+    - Lyrics and artist biographies and photos.
+    - Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC.
+    - Edit tags on MP3 and OGG files, organise your music.
+    - Fetch missing tags from MusicBrainz.
+    - Discover and download Podcasts.
+    - Download missing album cover art from Last.fm.
+    - Native desktop notifications using libnotify.
+    - Remote control using an Android device, a Wii Remote, MPRIS or the
+    command-line.
+    - Copy music to your iPod, iPhone, MTP or mass-storage USB player.
+    - Queue manager.
+command:
+- /opt/apps/clementine.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
