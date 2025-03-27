@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: dia.linyaps
+  name: dia
+  version: 0.98.0.1
+  kind: app
+  description: |-
+    Diagram editor
+    Dia is an editor for diagrams, graphs, charts etc. There is support for UML
+    static structure diagrams (class diagrams), Entity-Relationship diagrams,
+    network diagrams and much more. Diagrams can be exported to postscript and
+    many other formats.
+command:
+- /opt/apps/dia.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
