@@ -1,0 +1,69 @@
+正在测试: APPID=colorhug-client.linyaps LAYER=colorhug-client.linyaps_0.2.8.3_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install colorhug-client.linyaps_0.2.8.3_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:colorhug-client.linyaps
+Layer文件:colorhug-client.linyaps_0.2.8.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: colorhug-client.linyaps_0.2.8.3_arm64_binary.layer
+offset: 808
+mountpoint: /tmp/tmp.1tdrOjZlAw/mnt
+dbglevel: 0
+[31m[失败] colorhug-docs.desktop:colorimeter-colorhug: 找不到此图标 [0m
+[31m[失败] /opt/apps/colorhug-client.linyaps/files/share/applications/colorhug-docs.desktop:: 找不到此启动文件 [0m
+[成功] com.hughski.ColorHug.Backlight.desktop: colorhug-backlight -> /opt/apps/colorhug-client.linyaps/files/share/icons/hicolor/16x16/apps/colorhug-backlight.png
+[成功] /opt/apps/colorhug-client.linyaps/files/share/applications/com.hughski.ColorHug.Backlight.desktop: /opt/apps/colorhug-client.linyaps/files/entrypoint.sh colorhug-backlight
+[成功] com.hughski.ColorHug.CcmxLoader.desktop: colorhug-ccmx -> /opt/apps/colorhug-client.linyaps/files/share/icons/hicolor/16x16/apps/colorhug-ccmx.png
+[成功] /opt/apps/colorhug-client.linyaps/files/share/applications/com.hughski.ColorHug.CcmxLoader.desktop: /opt/apps/colorhug-client.linyaps/files/entrypoint.sh colorhug-ccmx %F
+[成功] com.hughski.ColorHug.DisplayAnalysis.desktop: colorhug-refresh -> /opt/apps/colorhug-client.linyaps/files/share/icons/hicolor/16x16/apps/colorhug-refresh.png
+[成功] /opt/apps/colorhug-client.linyaps/files/share/applications/com.hughski.ColorHug.DisplayAnalysis.desktop: /opt/apps/colorhug-client.linyaps/files/entrypoint.sh colorhug-refresh
+[成功] com.hughski.ColorHug.FlashLoader.desktop: colorhug-flash -> /opt/apps/colorhug-client.linyaps/files/share/icons/hicolor/16x16/apps/colorhug-flash.png
+[成功] /opt/apps/colorhug-client.linyaps/files/share/applications/com.hughski.ColorHug.FlashLoader.desktop: /opt/apps/colorhug-client.linyaps/files/entrypoint.sh colorhug-flash
+[正在测试启动项]
+包名:colorhug-client.linyaps
+Layer文件:colorhug-client.linyaps_0.2.8.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: colorhug-client.linyaps_0.2.8.3_arm64_binary.layer
+offset: 808
+mountpoint: /tmp/tmp.YATt5bAH3X/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run colorhug-client.linyaps -- /opt/apps/colorhug-client.linyaps/files/entrypoint.sh colorhug-backlight
+[PID 23799] 进程已启动
+[PID 23799] 已检测到窗口:PID=36
+[PID 23799] 正在截图 0秒: tests/screen0-0.jpg
+[PID 23799] 正在截图 1秒: tests/screen0-1.jpg
+[PID 23799] 正在截图 3秒: tests/screen0-3.jpg
+[PID 23799] 正在截图 5秒: tests/screen0-5.jpg
+[PID 23799] 正在通知并等待进程退出
+[PID 23799] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run colorhug-client.linyaps -- /opt/apps/colorhug-client.linyaps/files/entrypoint.sh colorhug-ccmx
+[PID 24006] 进程已启动
+[PID 24006] 已检测到窗口:PID=36
+[PID 24006] 正在截图 0秒: tests/screen1-0.jpg
+[PID 24006] 正在截图 1秒: tests/screen1-1.jpg
+[PID 24006] 正在截图 3秒: tests/screen1-3.jpg
+[PID 24006] 正在截图 5秒: tests/screen1-5.jpg
+[PID 24006] 正在通知并等待进程退出
+[PID 24006] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run colorhug-client.linyaps -- /opt/apps/colorhug-client.linyaps/files/entrypoint.sh colorhug-refresh
+[PID 24185] 进程已启动
+[PID 24185] 已检测到窗口:PID=36
+[PID 24185] 正在截图 0秒: tests/screen2-0.jpg
+[PID 24185] 正在截图 1秒: tests/screen2-1.jpg
+[PID 24185] 正在截图 3秒: tests/screen2-3.jpg
+[PID 24185] 正在截图 5秒: tests/screen2-5.jpg
+[PID 24185] 正在通知并等待进程退出
+[PID 24185] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run colorhug-client.linyaps -- /opt/apps/colorhug-client.linyaps/files/entrypoint.sh colorhug-flash
+[PID 24358] 进程已启动
+[PID 24358] 已检测到窗口:PID=36
+[PID 24358] 正在截图 0秒: tests/screen3-0.jpg
+[PID 24358] 正在截图 1秒: tests/screen3-1.jpg
+[PID 24358] 正在截图 3秒: tests/screen3-3.jpg
+[PID 24358] 正在截图 5秒: tests/screen3-5.jpg
+[PID 24358] 正在通知并等待进程退出
+[PID 24358] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall colorhug-client.linyaps
