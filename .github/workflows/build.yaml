@@ -192,7 +192,9 @@ jobs:
             
             git add "$PKGID"
             git diff --cached --quiet || git commit -m "Update ${PKGID}"
-            git pull origin $ARCH --rebase
-            git push -u origin HEAD:$ARCH
+            for((i=0;i<10;++i));do
+              git pull origin $ARCH --rebase&&git push -u origin HEAD:$ARCH||true
+              sleep 1
+            done
       - uses: valeriangalliat/action-sshd-cloudflared@v3
         if: ${{failure() && inputs.debug }}
