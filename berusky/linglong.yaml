@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: berusky.linyaps
+  name: berusky
+  version: 1.7.2.3
+  kind: app
+  description: |-
+    Logic game based on Sokoban
+    Berusky is a free logic game based on an ancient puzzle named Sokoban.  An old
+    idea of moving boxes in a maze has been expanded with new logic items such as
+    explosives, stones, special gates and so on. In addition, up to five bugs can
+    cooperate and be controlled by the player.  In order to leave each level
+    (there's about 120 levels in the game) it is necessary to own five keys and
+    also to have a free way to the exit.
+command:
+- /opt/apps/berusky.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

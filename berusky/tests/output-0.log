@@ -1,0 +1,49 @@
+包名:berusky.linyaps
+Layer文件:berusky.linyaps_1.7.2.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: berusky.linyaps_1.7.2.3_x86_64_binary.layer
+offset: 808
+mountpoint: /tmp/tmp.UHw8PBGSmY/mnt
+dbglevel: 0
+Berusky v.1.7.2 (C) Anakreon 2006, http://www.anakreon.cz/
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Built Apr  1 2024, 05:34:57
+
+argv[0] = berusky
+
+Checking /home/runner/.berusky/...
+missing, try to create it...ok
+Checking /home/runner/.berusky/User/...
+missing, try to create it...ok
+Checking /home/runner/.berusky/Profiles/...
+missing, try to create it...ok
+Checking ~/.berusky/berusky.ini...missing, try to copy it from /etc/berusky/berusky.ini...ok
+ 
+Checking config file ./berusky.ini...fails
+Checking config file ~/.berusky/berusky.ini...ok
+Selected config file ~/.berusky/berusky.ini
+ 
+ 
+level_data: /usr/share/berusky/Levels
+game_data: /usr/share/berusky/GameData
+graphics_data: /usr/share/berusky/Graphics
+level_data_user: /home/runner/.berusky/User
+tmp_data: /tmp
+current working dir: /home/runner/work/ll-killer-worker/ll-killer-worker/caches/berusky
+ 
+SDL Init...
+Seting up screen 640x480, color depth 32 bits, fullscreen = 0...
+Init video surface...
+
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+ 
+Graphics dir '/usr/share/berusky/Graphics'
+Loading menu graphics...
+25 sprites loaded...
+Data dir '/usr/share/berusky/GameData'
+Loading items repository....
+ 
