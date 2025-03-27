@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: compizconfig-settings-manager.linyaps
+  name: compizconfig-settings-manager
+  version: 0.9.14.0
+  kind: app
+  description: |-
+    Compiz configuration settings manager
+    The OpenCompositing Project brings 3D desktop visual effects that improve
+    usability of the X Window System and provide increased productivity.
+
+    This package contains the compizconfig settings manager.
+command:
+- /opt/apps/compizconfig-settings-manager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
