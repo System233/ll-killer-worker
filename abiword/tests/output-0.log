@@ -1,0 +1,17 @@
+包名:abiword.linyaps
+Layer文件:abiword.linyaps_3.0.5.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: abiword.linyaps_3.0.5.3_x86_64_binary.layer
+offset: 908
+mountpoint: /tmp/tmp.TuPOhocJrE/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+
+(abiword:36): dbind-[1;33mWARNING[0m **: [34m06:55:34.542[0m: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(abiword:36): Gtk-[1;35mCRITICAL[0m **: [34m06:55:35.880[0m: gtk_render_background: assertion 'GTK_IS_STYLE_CONTEXT (context)' failed
+
+(abiword:36): Gtk-[1;35mCRITICAL[0m **: [34m06:55:35.880[0m: gtk_render_frame: assertion 'GTK_IS_STYLE_CONTEXT (context)' failed
