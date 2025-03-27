@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gucharmap.linyaps
+  name: gucharmap
+  version: 15.1.5.1
+  kind: app
+  description: |-
+    Unicode character picker and font browser
+    This program allows you to browse through all the available Unicode
+    characters and categories for the installed fonts, and to examine
+    their detailed properties.  It is an easy way to find the character
+    you might only know by its Unicode name or code point.
+command:
+- /opt/apps/gucharmap.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
