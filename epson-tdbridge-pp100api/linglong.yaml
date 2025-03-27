@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: epson-tdbridge-pp100api.linyaps
+  name: epson-tdbridge-pp100api
+  version: 2.5.2.0
+  kind: app
+  description: EPSON TDBridge PP100API for Linux
+command:
+- /opt/apps/epson-tdbridge-pp100api.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
