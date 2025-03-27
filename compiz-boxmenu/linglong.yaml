@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: compiz-boxmenu.linyaps
+  name: compiz-boxmenu
+  version: 1.1.12.7
+  kind: app
+  description: |-
+    Compiz Reloaded - daemon and clients providing pop-up menus
+    Boxmenu provides a number of different menus to the compositing window
+    manager Compiz and possibly to other window managers as well.
+
+    It is composed of a daemon that caches the different menus from various
+    sources, following desktop standards and a number of clients to ask
+    the daemon for a specific type of menu, clients that can be bound to
+    different key-chords and mouse events using the Compizconfig Settings
+    Manager.
+
+    The components are compiz-boxmenu, compiz-boxmenu-editor, a menu editor
+    and compiz-boxmenu-{daemon,dlist,dplist,vplist,wlist}, where the
+    specialized clients are respectively for recent documents, desktops,
+    viewports and windows.
+command:
+- /opt/apps/compiz-boxmenu.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
