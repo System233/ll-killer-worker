@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: klines.linyaps
+  name: klines
+  version: 21.8.0.1
+  kind: app
+  description: |-
+    color lines game
+    KLines is a single-player game where the player removes colored balls from the
+    board by arranging them into lines of five or more.  However, every time the
+    player moves a ball, three more balls are added to the board.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/klines.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
