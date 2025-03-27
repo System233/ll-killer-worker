@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: com.tr.gpyapp.linyaps
+  name: com.tr.gpyapp
+  version: 1.0.0.4
+  kind: app
+  description: The Trendcote GPY Application
+command:
+- /opt/apps/com.tr.gpyapp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
