@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: bugsquish.linyaps
+  name: bugsquish
+  version: 0.0.6.10
+  kind: app
+  description: |-
+    Bugs are trying to suck blood out of your arm!
+    "Bug Squish" is an action game not unlike light gun arcade games, but
+    played with a mouse.  It's loosely based on a MacOS game whose name Bill
+    can't recall.
+
+    Bugs are trying to suck blood out of your arm!  Squish them with
+    your fly swatter before you run out of blood.
+command:
+- /opt/apps/bugsquish.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
