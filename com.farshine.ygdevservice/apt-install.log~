@@ -12,22 +12,20 @@ Need to get 5054 kB of archives.
 After this operation, 10.2 kB of additional disk space will be used.
 Get:1 https://community-packages.deepin.com/beige beige/main arm64 deepin-app-store-runtime arm64 1.0.2+community [2332 B]
 Get:2 https://community-packages.deepin.com/driver-23 driver/non-free arm64 com.farshine.ygdevservice arm64 2.5.2 [5052 kB]
-Fetched 5054 kB in 1s (3468 kB/s)
+Fetched 5054 kB in 2s (3306 kB/s)
 Selecting previously unselected package deepin-app-store-runtime.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
 Preparing to unpack .../deepin-app-store-runtime_1.0.2+community_arm64.deb ...
 Unpacking deepin-app-store-runtime (1.0.2+community) ...
-dpkg: error processing archive /var/cache/apt/archives/deepin-app-store-runtime_1.0.2+community_arm64.deb (--unpack):
- error setting ownership of '/usr/share/doc/deepin-app-store-runtime.dpkg-new': Invalid argument
 Selecting previously unselected package com.farshine.ygdevservice.
 Preparing to unpack .../com.farshine.ygdevservice_2.5.2_arm64.deb ...
 Unpacking com.farshine.ygdevservice (2.5.2) ...
-dpkg: error processing archive /var/cache/apt/archives/com.farshine.ygdevservice_2.5.2_arm64.deb (--unpack):
- error setting ownership of '/opt/apps/com.farshine.ygdevservice.dpkg-new': Invalid argument
-dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
-rm: cannot remove '/usr/lib/systemd/system/ygDevService.service': No such file or directory
+Setting up deepin-app-store-runtime (1.0.2+community) ...
+Setting up com.farshine.ygdevservice (2.5.2) ...
+/var/lib/dpkg/info/com.farshine.ygdevservice.postinst: 3: systemctl: not found
+/var/lib/dpkg/info/com.farshine.ygdevservice.postinst: 4: systemctl: not found
+dpkg: error processing package com.farshine.ygdevservice (--configure):
+ installed com.farshine.ygdevservice package post-installation script subprocess returned error exit status 127
 Errors were encountered while processing:
- /var/cache/apt/archives/deepin-app-store-runtime_1.0.2+community_arm64.deb
- /var/cache/apt/archives/com.farshine.ygdevservice_2.5.2_arm64.deb
-W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
+ com.farshine.ygdevservice
 E: Sub-process /usr/bin/dpkg returned an error code (1)
