@@ -1,0 +1,33 @@
+正在测试: APPID=com.lanxum.gasd06.printerdriver.linyaps LAYER=com.lanxum.gasd06.printerdriver.linyaps_1.0.0.5_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install com.lanxum.gasd06.printerdriver.linyaps_1.0.0.5_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:com.lanxum.gasd06.printerdriver.linyaps
+Layer文件:com.lanxum.gasd06.printerdriver.linyaps_1.0.0.5_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: com.lanxum.gasd06.printerdriver.linyaps_1.0.0.5_arm64_binary.layer
+offset: 466
+mountpoint: /tmp/tmp.oMhuQFfI70/mnt
+dbglevel: 0
+grep: /opt/apps/com.lanxum.gasd06.printerdriver.linyaps/files/share/applications/lanxum_gasd06_scantool.desktop: No such file or directory
+grep: /opt/apps/com.lanxum.gasd06.printerdriver.linyaps/files/share/applications/lanxum_gasd06_scantool.desktop: No such file or directory
+[31m[失败] /opt/apps/com.lanxum.gasd06.printerdriver.linyaps/files/share/applications/lanxum_gasd06_scantool.desktop:: 找不到此启动文件 [0m
+grep: /opt/apps/com.lanxum.gasd06.printerdriver.linyaps/files/share/applications/printer-driver-lanxum-ga-series_NST.desktop: No such file or directory
+grep: /opt/apps/com.lanxum.gasd06.printerdriver.linyaps/files/share/applications/printer-driver-lanxum-ga-series_NST.desktop: No such file or directory
+[31m[失败] /opt/apps/com.lanxum.gasd06.printerdriver.linyaps/files/share/applications/printer-driver-lanxum-ga-series_NST.desktop:: 找不到此启动文件 [0m
+grep: /opt/apps/com.lanxum.gasd06.printerdriver.linyaps/files/share/applications/printer-driver-lanxum-ga-series_PSM.desktop: No such file or directory
+grep: /opt/apps/com.lanxum.gasd06.printerdriver.linyaps/files/share/applications/printer-driver-lanxum-ga-series_PSM.desktop: No such file or directory
+[31m[失败] /opt/apps/com.lanxum.gasd06.printerdriver.linyaps/files/share/applications/printer-driver-lanxum-ga-series_PSM.desktop:: 找不到此启动文件 [0m
+[正在测试启动项]
+包名:com.lanxum.gasd06.printerdriver.linyaps
+Layer文件:com.lanxum.gasd06.printerdriver.linyaps_1.0.0.5_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: com.lanxum.gasd06.printerdriver.linyaps_1.0.0.5_arm64_binary.layer
+offset: 466
+mountpoint: /tmp/tmp.Re5LSvlLRA/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+awk: fatal: cannot open file `/opt/apps/com.lanxum.gasd06.printerdriver.linyaps/files/share/applications/lanxum_gasd06_scantool.desktop' for reading: No such file or directory
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall com.lanxum.gasd06.printerdriver.linyaps
