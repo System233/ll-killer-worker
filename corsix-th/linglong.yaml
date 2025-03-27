@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: corsix-th.linyaps
+  name: corsix-th
+  version: 0.67.0.1
+  kind: app
+  description: |-
+    Open source clone of Theme Hospital
+    Theme Hospital was a simulation computer game developed by Bullfrog
+    Productions and published by Electronic Arts in 1997, in which the player
+    designs and operates a hospital.
+
+    The game currently requires the original graphics and tries to mimic the
+    original as closely as possible. Therefore you will need a copy of the
+    original game for this package to be useful.
+command:
+- /opt/apps/corsix-th.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
