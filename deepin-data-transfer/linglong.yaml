@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: deepin-data-transfer.linyaps
+  name: deepin-data-transfer
+  version: 1.0.2.1
+  kind: app
+  description: |-
+    deepin data transfer application
+    Deepin Desktop Environment (DDE) - data transfer application.
+command:
+- /opt/apps/deepin-data-transfer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
