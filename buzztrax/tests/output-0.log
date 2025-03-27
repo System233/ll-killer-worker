@@ -1,0 +1,61 @@
+包名:buzztrax.linyaps
+Layer文件:buzztrax.linyaps_0.10.2.9_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: buzztrax.linyaps_0.10.2.9_x86_64_binary.layer
+offset: 1135
+mountpoint: /tmp/tmp.tqaUC82MeE/mnt
+dbglevel: 0
+
+(gst-plugin-scanner:37): GLib-GObject-[1;35mCRITICAL[0m **: [34m13:06:20.092[0m: g_param_spec_internal: assertion 'g_param_spec_is_valid_name (name)' failed
+
+ERROR: Caught a segmentation fault while loading plugin file:
+/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstfluidsynth.so
+
+Please either:
+- remove it and restart.
+- run with --gst-disable-segtrap --gst-disable-registry-fork and debug.
+
+(gst-plugin-scanner:39): GLib-GObject-[1;35mCRITICAL[0m **: [34m13:06:20.144[0m: g_param_spec_internal: assertion 'g_param_spec_is_valid_name (name)' failed
+
+ERROR: Caught a segmentation fault while loading plugin file:
+/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstfluidsynth.so
+
+Please either:
+- remove it and restart.
+- run with --gst-disable-segtrap --gst-disable-registry-fork and debug.
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+
+(buzztrax-edit:36): dbind-[1;33mWARNING[0m **: [34m13:06:20.553[0m: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(buzztrax-edit:36): Gtk-[1;33mWARNING[0m **: [34m13:06:20.637[0m: Theme parsing error: bt-edit.css:17:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(buzztrax-edit:36): Gtk-[1;33mWARNING[0m **: [34m13:06:20.637[0m: Theme parsing error: bt-edit.css:18:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(buzztrax-edit:36): Gtk-[1;33mWARNING[0m **: [34m13:06:20.637[0m: Theme parsing error: bt-edit.css:34:14: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(buzztrax-edit:36): Gtk-[1;33mWARNING[0m **: [34m13:06:20.637[0m: Theme parsing error: bt-edit.css:41:14: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(buzztrax-edit:36): Gtk-[1;33mWARNING[0m **: [34m13:06:20.637[0m: Theme parsing error: bt-edit.css:48:16: The :prelight pseudo-class is deprecated. Use :hover instead.
+[ALSOFT] (EE) Failed to connect PipeWire event context (errno: 112)
+Usage:
+  buzztrax-edit [OPTION…]
+
+Help Options:
+  -h, --help                             Show help options
+  --help-all                             Show all help options
+  --help-gst                             Show GStreamer Options
+  --help-bt-core                         Show buzztrax core options
+  --help-bt-ic                           Show buzztrax interaction controller options
+  --help-gtk                             Show GTK+ Options
+  --help-clutter                         Show Clutter Options
+
+Application Options:
+  --version                              Print application version
+  -c, --command={load}                   Command name
+  -i, --input-file=<songfile>            Input file name
+  --display=DISPLAY                      X display to use
+
+
