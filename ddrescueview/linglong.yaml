@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: ddrescueview.linyaps
+  name: ddrescueview
+  version: 0.4.5.2
+  kind: app
+  description: |-
+    graphical viewer for GNU ddrescue map files
+    This small tool allows the user to graphically examine ddrescue's map files
+    in a user friendly GUI application. The Main window displays a block grid
+    with each block's color representing the block types it contains. Many people
+    know this type of view from defragmentation programs.
+
+    Features:
+    * Display ddrescue map in a colored block graphic
+    * Examine each block in the image, see a detailed list of
+    map entries contained
+    * To keep track of the rescue process, ddrescueview can automatically
+    re-read the mapfile
+    * Units can be displayed with decimal (KB, MB...) or
+    binary (KiB, MiB...) prefixes
+command:
+- /opt/apps/ddrescueview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
