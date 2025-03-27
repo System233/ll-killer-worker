@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: calamares-settings-ubuntu-unity.linyaps
+  name: calamares-settings-ubuntu-unity
+  version: 24.4.40.0
+  kind: app
+  description: |-
+    Ubuntu Unity Calamares Settings and Branding
+    This package contains the Calamares settings and branding for Ubuntu Unity.
+    As part of the branding the installer slideshow is contained within.
+    The settings ensure a proper Ubuntu Unity desktop is installed with the
+    Unity desktop environment.
+command:
+- /opt/apps/calamares-settings-ubuntu-unity.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
