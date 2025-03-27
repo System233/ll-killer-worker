@@ -23,7 +23,7 @@ jobs:
                 git -C "$WORK_DIR" pull origin $arch
                 node scripts/stats.mjs $arch >build/$arch/README.md
                 git -C "$WORK_DIR" add README.md
-                git -C "$WORK_DIR" commit -m "Update README.md"
+                git -C "$WORK_DIR" diff --cached --quiet || git -C "$WORK_DIR" commit -m "Update README.md"
                 for((i=0;i<10;++i));do
                     if git -C "$WORK_DIR" pull origin $arch --rebase&&git -C "$WORK_DIR" push -u origin HEAD:$arch;then
                         break
