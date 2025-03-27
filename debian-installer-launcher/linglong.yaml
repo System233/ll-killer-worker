@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: debian-installer-launcher.linyaps
+  name: debian-installer-launcher
+  version: 41.0.0.0
+  kind: app
+  description: |-
+    Debian Installer desktop launcher
+    This is a desktop launcher for Debian Installer images. It is intended to be
+    used on Debian Live systems.
+
+    You probably do not want to install this package onto a non-live system,
+    although it will do no harm.
+command:
+- /opt/apps/debian-installer-launcher.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
