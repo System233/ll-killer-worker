@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: atomix.linyaps
+  name: atomix
+  version: 44.0.0.3
+  kind: app
+  description: |-
+    puzzle game for building molecules out of separate atoms
+    Atomix is an educational game designed for GNOME in which one has to
+    build molecules, ranging from simple inorganic ones to some extremely
+    complex organic ones, out of separate atoms.
+
+    The first levels can be rather easy, but added complexity always comes
+    with the next level, so that several minutes (or much longer than that)
+    can be spent on each single level.
+command:
+- /opt/apps/atomix.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
