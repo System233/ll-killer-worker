@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: crispy-doom.linyaps
+  name: crispy-doom
+  version: 6.0.0.2
+  kind: app
+  description: |-
+    Limit-raising medium-resolution Doom engine based on Chocolate Doom
+    Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display
+    resolution, removes the static limits of the Doom engine and offers further
+    optional visual, tactical and physical enhancements while remaining entirely
+    config file, savegame, netplay and demo compatible with the original.
+command:
+- /opt/apps/crispy-doom.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
