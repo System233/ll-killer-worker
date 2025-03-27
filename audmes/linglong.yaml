@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: audmes.linyaps
+  name: audmes
+  version: 2024.2.18.1
+  kind: app
+  description: |-
+    AUDio MEasurement System
+    Multi-platfrom system for audio measurement through sound card in the
+    PC. Incorporates Generator, Oscilloscope, FFT, Sweep frequency
+    characteristic. Useful for measuring stereo and speaker performance.
+command:
+- /opt/apps/audmes.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
