@@ -1,0 +1,40 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  javascript-common libjs-jquery
+Suggested packages:
+  apache2 | lighttpd | httpd
+The following NEW packages will be installed:
+  dochelp javascript-common libjs-jquery
+0 upgraded, 3 newly installed, 0 to remove and 452 not upgraded.
+Need to get 938 kB of archives.
+After this operation, 3201 kB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjs-jquery all 3.6.1+dfsg+~3.5.14-1 [328 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 dochelp amd64 0.1.8 [605 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 javascript-common all 11+nmu1 [5936 B]
+Fetched 938 kB in 0s (6333 kB/s)
+Selecting previously unselected package libjs-jquery.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libjs-jquery_3.6.1+dfsg+~3.5.14-1_all.deb ...
+Unpacking libjs-jquery (3.6.1+dfsg+~3.5.14-1) ...
+Selecting previously unselected package dochelp.
+Preparing to unpack .../dochelp_0.1.8_amd64.deb ...
+Unpacking dochelp (0.1.8) ...
+Selecting previously unselected package javascript-common.
+Preparing to unpack .../javascript-common_11+nmu1_all.deb ...
+Unpacking javascript-common (11+nmu1) ...
+Setting up javascript-common (11+nmu1) ...
+
+Configuration file '/etc/apache2/conf-available/javascript-common.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/lighttpd/conf-available/90-javascript-alias.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up libjs-jquery (3.6.1+dfsg+~3.5.14-1) ...
+Setting up dochelp (0.1.8) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
