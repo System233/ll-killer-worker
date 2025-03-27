@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: kollision.linyaps
+  name: kollision
+  version: 21.8.0.1
+  kind: app
+  description: |-
+    simple ball dodging game
+    In Kollision you use mouse to control a small blue ball in a closed space
+    environment filled with small red balls, which move about chaotically.
+    Your goal is to avoid touching any of those red balls with your blue one,
+    because the moment you do the game will be over. The longer you can stay in
+    game the higher will your score be.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/kollision.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
