@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: dochelp.linyaps
+  name: dochelp
+  version: 0.1.8.0
+  kind: app
+  description: |-
+    Utility to browse system documentation
+    This package contains an utility to browse documentation installed on
+    a Debian system. The utility has a command-line interface and can be
+    used to search, open and display information of doc-base registered
+    documents. It also generates an HTML catalog of the available documents
+    each time a package registers a new one.
+command:
+- /opt/apps/dochelp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
