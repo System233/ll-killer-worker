@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: celluloid.linyaps
+  name: celluloid
+  version: 0.26.0.1
+  kind: app
+  description: |-
+    simple GTK+ frontend for mpv
+    GNOME MPV is a simple GTK+ frontend for mpv. GNOME MPV interacts with mpv via
+    the client API exported by libmpv, allowing access to mpv's powerful playback
+    capabilities.
+command:
+- /opt/apps/celluloid.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
