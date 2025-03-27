@@ -1,0 +1,33 @@
+version: "1"
+package:
+  id: developers-reference.linyaps
+  name: developers-reference
+  version: 13.4.0.0
+  kind: app
+  description: |-
+    guidelines and information for Debian developers
+    This package contains the Debian Developer's Reference, a set of
+    guidelines and best practices which has been established by and for
+    the community of Debian developers and maintainers. If you are not
+    maintaining Debian packages, you probably do not need this package.
+
+    Table of Contents:
+
+    * 1. Scope of This Document
+    * 2. Applying to Become a Member
+    * 3. Debian Developer's Duties
+    * 4. Resources for Debian Members
+    * 5. Managing Packages
+    * 6. Best Packaging Practices
+    * 7. Beyond Packaging
+    * 8. Internationalization and Translations
+    * 1. Overview of Debian Maintainer Tools
+
+    This package contains the English version of the Developer's
+    Reference.  The French, German, Italian, Russian and Japanese translations are
+    available in developers-reference-fr, developers-reference-de,
+    developers-reference-it, developers-reference-ru and developers-reference-ja.
+command:
+- /opt/apps/developers-reference.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
