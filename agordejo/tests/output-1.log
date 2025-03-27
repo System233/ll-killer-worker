@@ -1,0 +1,15 @@
+包名:agordejo.linyaps
+Layer文件:agordejo.linyaps_0.4.2.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: agordejo.linyaps_0.4.2.0_x86_64_binary.layer
+offset: 595
+mountpoint: /tmp/tmp.jPW4DXXLzn/mnt
+dbglevel: 0
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/bin/agordejo/__main__.py", line 11, in <module>
+  File "/usr/bin/agordejo/engine/start.py", line 37, in <module>
+  File "/usr/bin/agordejo/qtgui/helper.py", line 22, in <module>
+ModuleNotFoundError: No module named 'PyQt5'
