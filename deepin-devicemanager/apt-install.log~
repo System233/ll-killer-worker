@@ -143,7 +143,7 @@ Get:85 https://community-packages.deepin.com/beige beige/main amd64 qt5-gtk-plat
 Get:86 https://community-packages.deepin.com/beige beige/main amd64 qttranslations5-l10n all 5.15.8-1+dde [1871 kB]
 Get:87 https://community-packages.deepin.com/beige beige/main amd64 usb.ids all 2024.03.18-1 [208 kB]
 Get:88 https://community-packages.deepin.com/beige beige/main amd64 usbmuxd amd64 1.1.1-2 [39.3 kB]
-Fetched 42.3 MB in 4s (11.1 MB/s)
+Fetched 42.3 MB in 3s (13.2 MB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
 Preparing to unpack .../systemd-dev_255.2-4deepin3_all.deb ...
 Unpacking systemd-dev (255.2-4deepin3) over (255.2-4) ...
@@ -208,15 +208,7 @@ Installing new config file as you requested.
 Created symlink /etc/systemd/system/getty.target.wants/getty@tty1.service → /usr/lib/systemd/system/getty@.service.
 Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target → /usr/lib/systemd/system/remote-fs.target.
 Created symlink /etc/systemd/system/sysinit.target.wants/systemd-pstore.service → /usr/lib/systemd/system/systemd-pstore.service.
-fchownat() of /run/systemd/netif failed: Invalid argument
-fchownat() of /run/systemd/netif/links failed: Invalid argument
-fchownat() of /run/systemd/netif/leases failed: Invalid argument
-fchownat() of /run/systemd/netif/lldp failed: Invalid argument
-fchownat() of /var/log/wtmp failed: Invalid argument
-fchownat() of /var/log/btmp failed: Invalid argument
-fchownat() of /var/log/lastlog failed: Invalid argument
 Setting access ACL "u::rwx,g::r-x,g:adm:r-x,m::r-x,o::r-x" on /var/log/journal failed: Invalid argument
-fchownat() of /var/log/journal failed: Invalid argument
 Selecting previously unselected package systemd-sysv.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28564 files and directories currently installed.)
 Preparing to unpack .../0-systemd-sysv_255.2-4deepin3_amd64.deb ...
@@ -487,10 +479,10 @@ Running in chroot, ignoring command 'daemon-reload'
 Running in chroot, ignoring command 'is-active'
 Running in chroot, ignoring command 'start'
 Setting up udev (255.2-4deepin3) ...
-fchownat() of /dev/loop-control failed: Invalid argument
-fchownat() of /dev/kvm failed: Invalid argument
-fchownat() of /dev/vhost-net failed: Invalid argument
-fchownat() of /dev/vhost-vsock failed: Invalid argument
+fchmod() of /dev/loop-control failed: Operation not permitted
+fchmod() of /dev/kvm failed: Operation not permitted
+fchmod() of /dev/vhost-net failed: Operation not permitted
+fchmod() of /dev/vhost-vsock failed: Operation not permitted
 Running in chroot, ignoring command 'daemon-reload'
 Running in chroot, ignoring command 'is-active'
 Running in chroot, ignoring command 'restart'
@@ -602,5 +594,4 @@ dpkg: error processing package polkitd (--configure):
  installed polkitd package post-installation script subprocess returned error exit status 1
 Errors were encountered while processing:
  polkitd
-W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
 E: Sub-process /usr/bin/dpkg returned an error code (1)
