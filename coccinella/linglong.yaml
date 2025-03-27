@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: coccinella.linyaps
+  name: coccinella
+  version: 0.96.20.9
+  kind: app
+  description: |-
+    Communication tool (XMPP/Jabber) with a built-in whiteboard
+    Coccinella is a cross-platform communication tool with a built-in
+    whiteboard for improved collaboration with other people.
+
+    The whiteboard is a shared desktop which supports text, drawings,
+    images, and multimedia in a number of formats, such as MP3 and video.
+
+    The protocol being used by coccinella for chat and whiteboard communication
+    is the XMPP protocol (Jabber).
+command:
+- /opt/apps/coccinella.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
