@@ -9,6 +9,11 @@ on:
         description: "最大任务数"
         required: false
         default: 10
+      max-parallel:
+        type: number
+        description: '最大并行数'
+        required: false
+        default: 64
       debug:
         type: boolean
         description: "启用调试"
@@ -25,6 +30,7 @@ jobs:
       arch: amd64
       max-tasks: ${{fromJSON(inputs.max-tasks|| vars.MAX_TASKS || '10')}}
       debug: ${{fromJSON(inputs.debug||vars.ENABLE_DEBUG||'false')}}
+      max-parallel: ${{fromJSON(inputs.max-parallel||vars.MAX_PARALLEL||'64')}}
     secrets:
       FTP_URL: ${{secrets.FTP_URL}}
       SSH_URL: ${{secrets.SSH_URL}}
@@ -39,6 +45,7 @@ jobs:
       arch: arm64
       max-tasks: ${{fromJSON(inputs.max-tasks|| vars.MAX_TASKS || '10')}}
       debug: ${{fromJSON(inputs.debug||vars.ENABLE_DEBUG||'false')}}
+      max-parallel: ${{fromJSON(inputs.max-parallel||vars.MAX_PARALLEL||'64')}}
     secrets:
       FTP_URL: ${{secrets.FTP_URL}}
       SSH_URL: ${{secrets.SSH_URL}}

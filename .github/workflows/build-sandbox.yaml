@@ -1,0 +1,223 @@
+name: Build Sandbox
+permissions:
+  contents: write
+on:
+  workflow_call:
+    inputs: 
+      runner:
+        type: string
+        description: '运行器'
+        required: true
+        default: 'ubuntu-24.04'
+      arch:
+        type: string
+        description: '架构'
+        required: true
+        default: 'amd64'
+      pkg-id:
+        type: string
+        description: '包名'
+        required: true
+      debug:
+        type: boolean
+        description: '启用调试'
+        required: false
+        default: ${{fromJSON(vars.ENABLE_DEBUG||'false')}}
+    secrets:
+      FTP_URL: 
+        description: 'FTP地址'
+      SSH_URL: 
+        description: 'SSH地址'
+      SSH_HOST_KEY:
+        description: 'SSH服务器公钥'
+      SSH_PRIVATE_KEY:
+        description: 'SSH客户端私钥'
+      CF_PROXY:
+        description: 'CF代理'
+  workflow_dispatch: 
+    inputs:
+      runner:
+        type: string
+        description: '运行器'
+        required: true
+        default: 'ubuntu-24.04'
+      arch:
+        type: string
+        description: '架构'
+        required: true
+        default: 'amd64'
+      pkg-id:
+        type: string
+        description: '包名'
+        required: true
+      debug:
+        type: boolean
+        description: '启用调试'
+        required: false
+        default: false
+  
+jobs:
+  sandbox:
+    name: sandbox (${{inputs.pkg-id}})
+    runs-on: ${{inputs.runner}}
+    env:
+      ARCH: ${{inputs.arch}}
+      PKGID: ${{inputs.pkg-id}}
+      CACHE_DIR: caches
+      PKG_WORK_DIR: caches/${{inputs.pkg-id}}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          submodules: true
+      - name: Pull latest
+        run: |
+          echo "ARCH=$ARCH"
+          echo "PKGID=$PKGID"
+          echo "CACHE_DIR=$CACHE_DIR"
+          echo "PKG_WORK_DIR=$PKG_WORK_DIR"
+          
+          git -C build/$ARCH pull origin $ARCH
+      - name: Setup Essentials
+        run: |
+          sudo apt update
+          sudo apt install ostree xdotool scrot xvfb apt-file erofs-utils erofsfuse -y
+      - name: Check
+        id: check
+        run: |
+          BASE=$(make -s base)
+          echo "base=$BASE">>"$GITHUB_OUTPUT"
+      - name: Cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/linglong-builder/
+          key: linglong-${{env.ARCH}}-${{steps.check.outputs.base}}
+      - name: Init
+        run: |
+          sudo sysctl -w kernel.unprivileged_userns_clone=1
+          sudo sysctl -w user.max_user_namespaces=28633
+          sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+          sudo sysctl -w kernel.apparmor_restrict_unprivileged_unconfined=0
+      - name: Build and Test
+        run: |
+          make build test||true
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+            name: ${{env.PKGID}}-${{env.ARCH}}
+            path: |
+                ${{env.PKG_WORK_DIR}}/*.log
+                ${{env.PKG_WORK_DIR}}/*~
+                ${{env.PKG_WORK_DIR}}/*.layer
+                ${{env.PKG_WORK_DIR}}/*.yaml
+                ${{env.PKG_WORK_DIR}}/*.mk
+                ${{env.PKG_WORK_DIR}}/version
+                ${{env.PKG_WORK_DIR}}/tests
+            retention-days: 3
+      - uses: valeriangalliat/action-sshd-cloudflared@v3
+        if: ${{failure() && inputs.debug }}
+  upload:
+    name: upload (${{inputs.pkg-id}})
+    needs: sandbox
+    runs-on: ${{inputs.runner}}
+    env:
+      ARCH: ${{inputs.arch}}
+      PKGID: ${{inputs.pkg-id}}
+      CACHE_DIR: caches
+      PKG_WORK_DIR: caches/${{inputs.pkg-id}}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+            submodules: true
+      - name: Download Artifacts
+        uses: actions/download-artifact@v4
+        with:
+            name: ${{env.PKGID}}-${{env.ARCH}}
+            path: ${{env.PKG_WORK_DIR}}
+      - name: Test
+        id: test
+        run: |
+          layer=yes
+          desktop=yes
+          fail=no
+          if ! ls $PKG_WORK_DIR/*.layer >/dev/null;then
+            layer=no
+            fail=yes
+          fi
+          if ! ls $PKG_WORK_DIR/tests/screen*.jpg >/dev/null;then
+            desktop=no
+            fail=yes
+          fi
+          echo "desktop=$desktop"
+          echo "layer=$layer"
+          echo "fail=$fail"
+
+          echo "desktop=$desktop" >>$GITHUB_OUTPUT
+          echo "layer=$layer" >>$GITHUB_OUTPUT
+          echo "fail=$fail" >>$GITHUB_OUTPUT
+      - name: Upload
+        if: ${{steps.test.outputs.fail=='no'}}
+        run: |
+          SSH_ARGS=()
+          FTP_ARGS=()
+          if [ -n "$CF_PROXY" ];then
+            wget -nv https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-$ARCH -O cloudflared
+            chmod +x cloudflared
+            SSH_ARGS=(-o ProxyCommand='./cloudflared access tcp --hostname $CF_PROXY')
+          fi
+          if [ -n "$SSH_URL" ];then
+            echo "Upload via SSH"
+            mkdir -p ~/.ssh
+            echo "$SSH_HOST_KEY" >> ~/.ssh/known_hosts
+            echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_key
+            chmod 700 -R ~/.ssh
+            scp -i ~/.ssh/id_key "${SSH_ARGS[@]}" ${PKG_WORK_DIR}/*.layer "${SSH_URL}"
+          fi
+          if [ -n "$FTP_URL" ];then
+            echo "Upload via FTP"
+            curl "${FTP_ARGS[@]}" -T ${PKG_WORK_DIR}/*.layer "${FTP_URL}"
+          fi
+        env:
+          FTP_URL: ${{secrets.FTP_URL}}
+          SSH_URL: ${{secrets.SSH_URL}}
+          SSH_HOST_KEY: ${{secrets.SSH_HOST_KEY}}
+          SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
+          CF_PROXY: ${{secrets.CF_PROXY}}
+      - name: Commit
+        run: |
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+    
+            SRC_DIR="$PWD/$PKG_WORK_DIR"
+            WORK_DIR=build/$ARCH
+            HASH=$(git rev-parse --short HEAD)
+
+            echo "HASH=$HASH"
+            echo "ls $SRC_DIR"
+            ls -l "$SRC_DIR"
+
+            cd $WORK_DIR
+            git pull origin $ARCH --rebase
+            rm -rf "$PKGID"
+            mkdir -p "$PKGID"
+            cp -arfT "$SRC_DIR" "$PKGID" || true
+            
+            if [ "$SANDBOX_FAIL" = "yes" ];then
+              echo -n "-${HASH}">>$PKGID/version
+            fi
+            
+            git add "$PKGID"
+            git diff --cached --quiet || git commit -m "Update ${PKGID}"
+            for((i=0;i<10;++i));do
+              if git pull origin $ARCH --rebase&&git push -u origin HEAD:$ARCH;then
+                break
+              fi
+              sleep 1
+            done
+        env:
+            SANDBOX_FAIL: ${{steps.test.outputs.fail}}
+      - uses: valeriangalliat/action-sshd-cloudflared@v3
+        if: ${{failure() && inputs.debug }}

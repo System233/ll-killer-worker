@@ -24,6 +24,11 @@ on:
         description: '启用调试'
         required: false
         default: ${{fromJSON(vars.ENABLE_DEBUG||'false')}}
+      max-parallel:
+        type: number
+        description: '最大并行数'
+        required: false
+        default: ${{fromJSON(vars.MAX_PARALLEL||'64')}}
     secrets:
       FTP_URL: 
         description: 'FTP地址'
@@ -57,6 +62,11 @@ on:
         description: '启用调试'
         required: false
         default: false
+      max-parallel:
+        type: number
+        description: '最大并行数'
+        required: false
+        default: 100
   
 jobs:
   list:
@@ -80,121 +90,19 @@ jobs:
     needs: list
     if: ${{needs.list.outputs.tasks!=''&&needs.list.outputs.tasks!='[]'}}
     strategy:
-      max-parallel: 100
+      max-parallel: ${{inputs.max-parallel}}
       matrix:
-        pkg: ${{fromJson(needs.list.outputs.tasks)}}
+        pkg-id: ${{fromJson(needs.list.outputs.tasks)}}
       fail-fast: false
-    runs-on: ${{inputs.runner}}
-    env:
-      ARCH: ${{inputs.arch}}
-      PKGID: ${{matrix.pkg}}
-      CACHE_DIR: caches
-      PKG_WORK_DIR: caches/${{matrix.pkg}}
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-        with:
-          submodules: true
-      - name: Setup Essentials
-        run: |
-          # sudo apt update
-          sudo apt install ostree xdotool scrot xvfb apt-file erofs-utils erofsfuse -y
-          
-          git -C build/$ARCH pull origin $ARCH
-      - name: Check
-        id: check
-        run: |
-          BASE=$(make -s base)
-          echo "base=$BASE">>"$GITHUB_OUTPUT"
-      - name: Cache
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.cache/linglong-builder/
-          key: linglong-${{env.ARCH}}-${{steps.check.outputs.base}}
-      - name: Init
-        run: |
-          sudo sysctl -w kernel.unprivileged_userns_clone=1
-          sudo sysctl -w user.max_user_namespaces=28633
-          sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
-          sudo sysctl -w kernel.apparmor_restrict_unprivileged_unconfined=0
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-      # - uses: valeriangalliat/action-sshd-cloudflared@v3
-        # if: ${{true}}
-      - name: Build
-        run: |
-          make build test||true
-      - name: Test
-        id: test
-        run: |
-          layer=yes
-          desktop=yes
-          fail=no
-          if ! ls $PKG_WORK_DIR/*.layer >/dev/null;then
-            layer=no
-            fail=yes
-          fi
-          if ! ls $PKG_WORK_DIR/tests/screen*.jpg >/dev/null;then
-            desktop=no
-            fail=yes
-          fi
-          echo "desktop=$desktop"
-          echo "layer=$layer"
-          echo "fail=$fail"
-
-          echo "desktop=$desktop" >>$GITHUB_OUTPUT
-          echo "layer=$layer" >>$GITHUB_OUTPUT
-          echo "fail=$fail" >>$GITHUB_OUTPUT
-      - name: Upload
-        if: ${{steps.test.outputs.fail=='no'}}
-        run: |
-          SSH_ARGS=()
-          FTP_ARGS=()
-          if [ -n "$CF_PROXY" ];then
-            wget -nv https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-$ARCH -O cloudflared
-            chmod +x cloudflared
-            SSH_ARGS=(-o ProxyCommand='./cloudflared access tcp --hostname $CF_PROXY')
-          fi
-          if [ -n "$SSH_URL" ];then
-            echo "Upload via SSH"
-            mkdir -p ~/.ssh
-            echo "$SSH_HOST_KEY" >> ~/.ssh/known_hosts
-            echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_key
-            chmod 700 -R ~/.ssh
-            scp -i ~/.ssh/id_key "${SSH_ARGS[@]}" ${PKG_WORK_DIR}/*.layer "${SSH_URL}"
-          fi
-          if [ -n "$FTP_URL" ];then
-            echo "Upload via FTP"
-            curl "${FTP_ARGS[@]}" -T ${PKG_WORK_DIR}/*.layer "${FTP_URL}"
-          fi
-        env:
-          FTP_URL: ${{secrets.FTP_URL}}
-          SSH_URL: ${{secrets.SSH_URL}}
-          SSH_HOST_KEY: ${{secrets.SSH_HOST_KEY}}
-          SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
-          CF_PROXY: ${{secrets.CF_PROXY}}
-      - name: Commit
-        run: |
-            SRC_DIR="$PWD/$PKG_WORK_DIR"
-            WORK_DIR=build/$ARCH
-            HASH=$(git rev-parse --short HEAD)
-            cd $WORK_DIR
-            git pull origin $ARCH --rebase
-            rm -rf "$PKGID"
-            mkdir -p "$PKGID"
-            shopt -s nullglob
-            cp -arf $SRC_DIR/*.log $SRC_DIR/*~ $SRC_DIR/tests $SRC_DIR/*.mk $SRC_DIR/*.yaml $SRC_DIR/SHA*SUMS $SRC_DIR/version "$PKGID" || true
-            
-            if [ "${{steps.test.outputs.fail}}" = "yes" ];then
-              echo -n "-${HASH}">>$PKGID/version
-            fi
-            
-            git add "$PKGID"
-            git diff --cached --quiet || git commit -m "Update ${PKGID}"
-            for((i=0;i<10;++i));do
-              git pull origin $ARCH --rebase&&git push -u origin HEAD:$ARCH||true
-              sleep 1
-            done
-      - uses: valeriangalliat/action-sshd-cloudflared@v3
-        if: ${{failure() && inputs.debug }}
+    uses: ./.github/workflows/build-sandbox.yaml
+    with:
+      arch: ${{inputs.arch}}
+      runner: ${{inputs.runner}}
+      debug: ${{inputs.debug}}
+      pkg-id: ${{matrix.pkg-id}}
+    secrets:
+      FTP_URL: ${{secrets.FTP_URL}}
+      SSH_URL: ${{secrets.SSH_URL}}
+      SSH_HOST_KEY: ${{secrets.SSH_HOST_KEY}}
+      SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
+      CF_PROXY: ${{secrets.CF_PROXY}}
