@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: clips.linyaps
+  name: clips
+  version: 6.30.0.4
+  kind: app
+  description: |-
+    "C" Language Integrated Production System
+    CLIPS is an OPS-like forward chaining production system written
+    in ANSI C by NASA. The CLIPS inference engine includes truth maintenance,
+    dynamic rule addition, and customizable conflict resolution strategies.
+
+    CLIPS, including the runtime version, is easily embeddable in other
+    applications.  CLIPS includes an object-oriented language called COOL
+    (CLIPS Object-Oriented Language) which is directly integrated with the
+    inference engine.
+command:
+- /opt/apps/clips.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
