@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: activity-aware-firefox.linyaps
+  name: activity-aware-firefox
+  version: 0.4.2.1
+  kind: app
+  description: |-
+    wrapper to make Firefox aware of Plasma Desktop activities
+    Using activity-aware-firefox you can have Firefox windows in each Plasma
+    Activity bound to that Activity.
+
+    What activity-aware-firefox does is to create a Firefox Profile the first time
+    it is run in an Activity, using its unique ID.
+
+    Then every next time you run activity-aware-firefox in that Plasma Activity,
+    it will start the Firefox Profile associated with it.
+command:
+- /opt/apps/activity-aware-firefox.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
