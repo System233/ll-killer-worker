@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: calamares-settings-kubuntu.linyaps
+  name: calamares-settings-kubuntu
+  version: 24.4.40.0
+  kind: app
+  description: |-
+    Kubuntu Calamares Settings and Branding
+    This package contains the Calamares settings and branding for Kubuntu.
+    As part of the branding the installer slideshow is contained within.
+    The settings ensure a proper Kubuntu desktop is installed with the
+    KDE Plasma desktop environment.
+command:
+- /opt/apps/calamares-settings-kubuntu.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
