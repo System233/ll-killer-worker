@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: caja-eiciel.linyaps
+  name: caja-eiciel
+  version: 1.20.1.3
+  kind: app
+  description: |-
+    Graphical editor for ACLs and xattr for MATE Desktop
+    MATE eiciel is a Graphical editor for access control lists (ACLs) and
+    extended attributes (xattr), either as an extension within Caja, or as a
+    standalone utility.
+command:
+- /opt/apps/caja-eiciel.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
