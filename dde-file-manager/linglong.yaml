@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: dde-file-manager.linyaps
+  name: dde-file-manager
+  version: 6.5.10.4
+  kind: app
+  description: |-
+    File manager front end
+    File manager front-end of Deepin OS
+command:
+- /opt/apps/dde-file-manager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
