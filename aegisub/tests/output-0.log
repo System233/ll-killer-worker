@@ -1,0 +1,22 @@
+包名:aegisub.linyaps
+Layer文件:aegisub.linyaps_3.2.2.7_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: aegisub.linyaps_3.2.2.7_x86_64_binary.layer
+offset: 904
+mountpoint: /tmp/tmp.vUQJkU7rte/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+
+(aegisub-3.2:36): dbind-[1;33mWARNING[0m **: [34m06:54:13.696[0m: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+./src/common/sizer.cpp(2299): assert "CheckSizerFlags(!((flags) & (wxALIGN_RIGHT | wxALIGN_CENTRE_HORIZONTAL | wxALIGN_BOTTOM | wxALIGN_CENTRE_VERTICAL)))" failed in DoInsert(): wxALIGN_RIGHT | wxALIGN_CENTRE_HORIZONTAL | wxALIGN_BOTTOM | wxALIGN_CENTRE_VERTICAL will be ignored in this sizer: wxEXPAND overrides alignment flags in box sizers
+
+DO NOT PANIC !!
+
+If you're an end user running a program not developed by you, please ignore this message, it is harmless, and please try reporting the problem to the program developers.
+
+You may also set WXSUPPRESS_SIZER_FLAGS_CHECK environment variable to suppress all such checks when running this program.
+
+If you're the developer, simply remove this flag from your code to avoid getting this message. You can also call wxSizerFlags::DisableConsistencyChecks() to globally disable all such checks, but this is strongly not recommended.
