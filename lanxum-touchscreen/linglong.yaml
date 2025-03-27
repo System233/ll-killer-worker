@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: lanxum-touchscreen.linyaps
+  name: lanxum-touchscreen
+  version: 1.0.2.2020
+  kind: app
+  description: Lanxum touchscreen driver for uos x86_64
+command:
+- /opt/apps/lanxum-touchscreen.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
