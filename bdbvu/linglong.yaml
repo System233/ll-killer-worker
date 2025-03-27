@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: bdbvu.linyaps
+  name: bdbvu
+  version: 0.1.0.3
+  kind: app
+  description: |-
+    simple GUI tool to browse Berkeley DB databases
+    BDBVu is a simple Qt GUI tool to display and browse Berkeley DB databases.
+command:
+- /opt/apps/bdbvu.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
