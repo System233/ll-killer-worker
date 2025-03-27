@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: aumix.linyaps
+  name: aumix
+  version: 2.9.1.7
+  kind: app
+  description: |-
+    Simple text-based mixer control program
+    aumix is a small, easy-to-use program to control the mixer of your sound
+    card. It runs in text mode using the ncurses library, or from the command
+    line (non-interactively). It can read default settings from a file, and it
+    can also automatically save and restore the mixer settings at shutdown and
+    boot.
+
+    A wrapper script xaumix is provided that finds and invokes xterm or a
+    replacement. This is primarily for creating the best sized terminal window.
+command:
+- /opt/apps/aumix.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
