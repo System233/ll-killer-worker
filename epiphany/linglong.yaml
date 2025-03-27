@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: epiphany.linyaps
+  name: epiphany
+  version: 0.7.0.7
+  kind: app
+  description: |-
+    clone of Boulder Dash game
+    Epiphany is a multi-platform clone of Boulder Dash.
+    In this game, the player must collect all the valuable minerals
+    scattered in each level, while avoiding being hit by a falling
+    boulder or, worse, by a bomb.
+
+    Boulder Dash was one of the best games ever made for the
+    Commodore 64.
+command:
+- /opt/apps/epiphany.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
