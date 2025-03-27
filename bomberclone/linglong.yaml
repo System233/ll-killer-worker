@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: bomberclone.linyaps
+  name: bomberclone
+  version: 0.11.9.7
+  kind: app
+  description: |-
+    free Bomberman clone
+    BomberClone is a free Bomberman-like game for Linux and Windows. The rules of
+    the game are simple: run through a level and bomb other players. It features
+    powerups that give you more strength, make you walk faster through the level,
+    or let you drop more bombs.
+
+    BomberClone can be played in multi-player mode via IPv4 or IPv6 networks or in
+    single-player mode against the local AI.
+command:
+- /opt/apps/bomberclone.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
