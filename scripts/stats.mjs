@@ -52,57 +52,65 @@ const getLastScreenFiles = (screenFiles) => {
 
   return Object.values(groups);
 };
-const generateStatistics = async (rootDir, arch) => {
-  const pkgDirs = await fsp.readdir(rootDir, { withFileTypes: true });
+const generateStatistic = async (rootDir, pkgId, repo, arch) => {
+  const pkgIdDir = path.join(rootDir, pkgId);
+  if (!(await checkFileExists(pkgIdDir))) {
+    return null;
+  }
+  const testsDir = path.join(pkgIdDir, "tests");
 
-  const stats = await Promise.all(
-    pkgDirs
-      .filter((x) => x.isDirectory() && !x.name.startsWith("."))
-      .map(async (entry) => {
-        const pkgId = entry.name;
-        const pkgIdDir = path.join(rootDir, pkgId);
-        const testsDir = path.join(pkgIdDir, "tests");
+  const screenFiles = await getFilesInDir(testsDir, /^screen.*\.jpg$/);
+  const testResults = getLastScreenFiles(screenFiles)
+    .map((item) => `![${item}](./${pkgId}/tests/${item})`)
+    .join(" ");
 
-        const screenFiles = await getFilesInDir(testsDir, /^screen.*\.jpg$/);
-        const testResults = getLastScreenFiles(screenFiles)
-          .map((item) => `![${item}](./${pkgId}/tests/${item})`)
-          .join(" ");
+  const { version, sha256sum } = await getVersionAndSha256(pkgIdDir);
 
-        const { version, sha256sum } = await getVersionAndSha256(pkgIdDir);
-
-        return {
-          PKGID: `[${pkgId}](./${pkgId})`,
-          ARCH: arch,
-          VERSION: version || "N/A",
-          TEST: testResults || "失败",
-          SHA256SUM: sha256sum ? `[SHA256SUM](${sha256sum})` : "N/A",
-        };
-      }),
-  );
-
-  return stats;
+  return {
+    id:pkgId,
+    PKGID: `[${pkgId}](./${pkgId})`,
+    ARCH: arch,
+    VERSION: version || "N/A",
+    TEST: testResults || "失败",
+    REPO: repo,
+    SHA256SUM: sha256sum ? `[SHA256SUM](${sha256sum})` : "N/A",
+  };
 };
 
-const countLines = async (filePath) => {
+const readIndex = async (filePath) => {
   const fileStream = fs.createReadStream(filePath);
   const rl = readline.createInterface({
     input: fileStream,
     crlfDelay: Infinity,
   });
 
-  let lineCount = 0;
-
+  const indexes = [];
   for await (const line of rl) {
-    lineCount++;
+    const chunks = line.split(",").map(x=>x?.trim());
+    indexes.push({
+      name: chunks[0],
+      version: chunks[1],
+      repo: chunks[2],
+      url: chunks[3],
+      filename: chunks[4],
+    });
   }
 
-  return lineCount;
+  return indexes;
 };
-const formatPercentage = (value, decimalPlaces = 2) => {
-  return (value * 100).toFixed(decimalPlaces) + "%";
+const formatPercentage = (value, max, decimalPlaces = 2) => {
+  return ((value / (max || 1)) * 100).toFixed(decimalPlaces) + "%";
 };
+
 const main = async () => {
-  const stats = await generateStatistics(ROOT_DIR, ARCH);
+  const indexes = await readIndex(`${ROOT_DIR}/index.csv`);
+  const stats = (
+    await Promise.all(
+      indexes.map((item) =>
+        generateStatistic(ROOT_DIR, item.name, item.repo, ARCH),
+      ),
+    )
+  ).filter((x) => x != null);
   // console.table(stats)
   const total = stats.length;
   const success = stats.reduce(
@@ -110,18 +118,50 @@ const main = async () => {
     0,
   );
   const fail = total - success;
-  const index = await countLines(`${ROOT_DIR}/index.csv`);
+  const indexTotal = indexes.length;
+
+  const statMap = stats.reduce((obj, item) => {
+    obj[item.id] = item;
+    return obj;
+  }, {});
+  const repoStats = Object.values(
+    indexes.reduce((obj, item) => {
+      const stat = obj[item.repo] || {
+        name: item.repo,
+        index: 0,
+        total: 0,
+        success: 0,
+      };
+      stat.index++;
+      const pkgStat = statMap[item.name];
+      if (pkgStat) {
+        stat.total++;
+        if (pkgStat.TEST != "失败") {
+          stat.success++;
+        }
+      }
+      obj[item.repo] = stat;
+      return obj;
+    }, {}),
+  );
   const markdown = [
     `# ${ARCH} - 构建统计`,
-    "| 索引数  | 构建数 | 成功数 | 失败数  | 完成度  |",
-    "|--------|--------|-------|---------| -------|",
-    `|${index}|${total}|${success} |${fail} | ${formatPercentage(success / index)}|`,
+    "| 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |",
+    "|--------|--------|-------|---------| -------|-----|",
+    `|${indexTotal}|${total}|${success} |${fail} | ${formatPercentage(success, total)}| ${formatPercentage(success, indexTotal)}|`,
+    `## 仓库统计`,
+    "| 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |",
+    "|--------|------|-----|-------|---------| -------|-----|",
+    ...repoStats.map(
+      (item) =>
+        `|${item.name}|${item.index}|${item.total}|${item.success} |${item.total - item.success} | ${formatPercentage(item.success, item.total)}| ${formatPercentage(item.success, item.index)}|`,
+    ),
     "## 详细结果",
-    "| 包名   | 架构 | 版本    | 测试结果 | SHA256SUM |",
-    "|-------|------|---------|---------|-----------|",
+    "| 包名   | 架构 |仓库| 版本    | 测试结果 | SHA256SUM |",
+    "|-------|------|-----|----|---------|-----------|",
     ...stats.map(
       (stat) =>
-        `| ${stat.PKGID} | ${stat.ARCH} | ${stat.VERSION} | ${stat.TEST} | ${stat.SHA256SUM} |`,
+        `| ${stat.PKGID} | ${stat.ARCH}  | ${stat.REPO} | ${stat.VERSION} | ${stat.TEST} | ${stat.SHA256SUM} |`,
     ),
   ];
 
