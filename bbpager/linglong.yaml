@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: bbpager.linyaps
+  name: bbpager
+  version: 0.4.7.10
+  kind: app
+  description: |-
+    Pager for the blackbox and fluxbox window managers
+    A pager tool for the Blackbox window manager or one of its derivatives. It
+    supports the usual Blackbox styles, moving windows between desktops, and
+    optional placement in the Blackbox slit. It is also possible to define how
+    the desktops are displayed by defining the number of rows or columns to use.
+command:
+- /opt/apps/bbpager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
