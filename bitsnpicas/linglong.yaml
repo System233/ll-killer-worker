@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: bitsnpicas.linyaps
+  name: bitsnpicas
+  version: 2.0.0.2
+  kind: app
+  description: |-
+    Bitmap & Emoji font creation & conversion tools
+    This is a set of tools for creating and converting bitmap and emoji fonts.
+    Bitmap font functions can be accessed both with a GUI and from a command
+    line. Emoji font functions can only be accessed from a command line.
+command:
+- /opt/apps/bitsnpicas.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
