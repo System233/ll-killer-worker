@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ksquares.linyaps
+  name: ksquares
+  version: 21.8.0.1
+  kind: app
+  description: |-
+    Dots and Boxes game
+    KSquares is a game where two players take turns connecting dots on a grid to
+    complete the most squares.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/ksquares.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
