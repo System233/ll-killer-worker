@@ -1,0 +1,31 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libtiff5
+The following NEW packages will be installed:
+  deli-printer-a111 libtiff5
+0 upgraded, 2 newly installed, 0 to remove and 234 not upgraded.
+Need to get 47.5 MB of archives.
+After this operation, 155 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/driver-23 driver/non-free arm64 libtiff5 arm64 4.1.0+git191117-2~deb10u9 [250 kB]
+Get:2 https://community-packages.deepin.com/driver-23 driver/non-free arm64 deli-printer-a111 arm64 1.1.022 [47.2 MB]
+Fetched 47.5 MB in 3s (17.3 MB/s)
+Selecting previously unselected package libtiff5:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libtiff5_4.1.0+git191117-2~deb10u9_arm64.deb ...
+Unpacking libtiff5:arm64 (4.1.0+git191117-2~deb10u9) ...
+Selecting previously unselected package deli-printer-a111.
+Preparing to unpack .../deli-printer-a111_1.1.022_arm64.deb ...
+Unpacking deli-printer-a111 (1.1.022) ...
+Setting up libtiff5:arm64 (4.1.0+git191117-2~deb10u9) ...
+Setting up deli-printer-a111 (1.1.022) ...
+ln: failed to create symbolic link '/usr/lib/aarch64-linux-gnu/sane/libsane-deli_a111.so': No such file or directory
+dpkg: error processing package deli-printer-a111 (--configure):
+ installed deli-printer-a111 package post-installation script subprocess returned error exit status 1
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Errors were encountered while processing:
+ deli-printer-a111
+E: Sub-process /usr/bin/dpkg returned an error code (1)
