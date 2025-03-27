@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: accountwizard.linyaps
+  name: accountwizard
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    wizard for KDE PIM applications account setup
+    Handles account setup of e-mail accounts for KDE PIM applications.
+command:
+- /opt/apps/accountwizard.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
