@@ -9,15 +9,12 @@ The following NEW packages will be installed:
 Need to get 2709 kB of archives.
 After this operation, 0 B of additional disk space will be used.
 Get:1 https://community-packages.deepin.com/driver-23 driver/non-free amd64 com.ftsafe.interpass3000-cmbc amd64 1.3.13.d0-1+b1 [2709 kB]
-Fetched 2709 kB in 1s (2307 kB/s)
+Fetched 2709 kB in 1s (2182 kB/s)
 Selecting previously unselected package com.ftsafe.interpass3000-cmbc.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
 Preparing to unpack .../com.ftsafe.interpass3000-cmbc_1.3.13.d0-1+b1_amd64.deb ...
 Unpacking com.ftsafe.interpass3000-cmbc (1.3.13.d0-1+b1) ...
-dpkg: error processing archive /var/cache/apt/archives/com.ftsafe.interpass3000-cmbc_1.3.13.d0-1+b1_amd64.deb (--unpack):
- error setting ownership of '/opt/apps/com.ftsafe.interpass3000-cmbc.dpkg-new': Invalid argument
-/var/lib/dpkg/tmp.ci/postrm: line 15: loginctl: command not found
-Errors were encountered while processing:
- /var/cache/apt/archives/com.ftsafe.interpass3000-cmbc_1.3.13.d0-1+b1_amd64.deb
-W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
-E: Sub-process /usr/bin/dpkg returned an error code (1)
+Setting up com.ftsafe.interpass3000-cmbc (1.3.13.d0-1+b1) ...
+Please restart your computer in order for this change of udev rules to take effect
+/var/lib/dpkg/info/com.ftsafe.interpass3000-cmbc.postinst: line 84: sudo: command not found
+/var/lib/dpkg/info/com.ftsafe.interpass3000-cmbc.postinst: line 95: loginctl: command not found
