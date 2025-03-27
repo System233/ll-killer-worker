@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: congruity.linyaps
+  name: congruity
+  version: 21.0.0.1
+  kind: app
+  description: |-
+    graphical utility to configure Logitech Harmony remotes
+    Congruity is a graphical utility written in Python that handles writing
+    the configuration of a Harmony Remote, using the concordance framework.
+
+    It provides a concise way to quickly configure a Logitech Harmony
+    in a clean graphical interface, through the loading of EZHex files.
+command:
+- /opt/apps/congruity.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
