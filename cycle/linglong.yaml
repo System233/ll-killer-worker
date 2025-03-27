@@ -1,0 +1,33 @@
+version: "1"
+package:
+  id: cycle.linyaps
+  name: cycle
+  version: 0.3.3.1
+  kind: app
+  description: |-
+    calendar program for women
+    Cycle is a calendar for women. Given a cycle length or statistics for
+    several periods, it can calculate the days until menstruation, the days
+    of "safe" sex, the fertile period, and the days to ovulations, and
+    define the d.o.b. of a child. It allows the user to write notes and
+    helps to supervise the administration of hormonal contraceptive tablets.
+
+    Possibilities of the program:
+    - Calculate days of menstruation, based on the length of the cycle or
+    on statistics of previous periods.
+    - Calculate days of "safe" sex, fertile period and day to ovulations.
+    - Definition of D.O.B. (Date Of Birth) of a child
+    - Allows one to write notes.
+    - Helps to supervise reception of hormonal contraceptive tablets.
+    - Multiple users allowed. Data is protected by a password for every
+    user.
+
+    NOTE: This program is not a reliable contraceptive method. It does
+    neither help to prevent sexual transmission diseases like AIDS. It is
+    just an electronic means of keeping track of some of your medical data
+    and extract some statistical conclusions from them. You cannot consider
+    this program as a substitute for your gynecologist in any way.
+command:
+- /opt/apps/cycle.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
