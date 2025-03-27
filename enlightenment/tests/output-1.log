@@ -1,0 +1,35 @@
+包名:enlightenment.linyaps
+Layer文件:enlightenment.linyaps_0.26.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: enlightenment.linyaps_0.26.0.2_arm64_binary.layer
+offset: 670
+mountpoint: /tmp/tmp.BbbeP4AiJW/mnt
+dbglevel: 0
+ERR<37>: ../src/bin/tools/filemanager/e_fm_cmdline.c:53 fm_open_reply() org.freedesktop.DBus.Error.ServiceUnknown: The name org.enlightenment.FileManager was not provided by any .service files
+## Copy & Paste the below (until EOF) into a terminal, then hit Enter
+
+eina_btlog << EOF
+/lib/aarch64-linux-gnu/libeina.so.1 0xff100864db4c 0xff1008620000
+/lib/aarch64-linux-gnu/libeina.so.1 0xff100864d7a0 0xff1008620000
+/lib/aarch64-linux-gnu/libeina.so.1 0xff100864f20c 0xff1008620000
+/usr/bin/enlightenment_filemanager 0xaabd46d616e0 0xaabd46d60000
+/lib/aarch64-linux-gnu/libeldbus.so.1 0xff10084cf170 0xff10084c0000
+/lib/aarch64-linux-gnu/libdbus-1.so.3 0xff1007f132bc 0xff1007f00000
+/lib/aarch64-linux-gnu/libdbus-1.so.3 0xff1007f17cdc 0xff1007f00000
+/lib/aarch64-linux-gnu/libeldbus.so.1 0xff10084d6a30 0xff10084c0000
+/lib/aarch64-linux-gnu/libecore.so.1 0xff1008578b68 0xff1008560000
+/lib/aarch64-linux-gnu/libeo.so.1 0xff1008116254 0xff1008100000
+/lib/aarch64-linux-gnu/libeo.so.1 0xff1008116478 0xff1008100000
+/lib/aarch64-linux-gnu/libecore.so.1 0xff100858ce74 0xff1008560000
+/lib/aarch64-linux-gnu/libecore.so.1 0xff100858d6f0 0xff1008560000
+/lib/aarch64-linux-gnu/libecore.so.1 0xff100858d760 0xff1008560000
+/lib/aarch64-linux-gnu/libecore.so.1 0xff1008584c64 0xff1008560000
+/lib/aarch64-linux-gnu/libecore.so.1 0xff1008589524 0xff1008560000
+/usr/bin/enlightenment_filemanager 0xaabd46d613c8 0xaabd46d60000
+/lib/aarch64-linux-gnu/libc.so.6 0xff10082d84c4 0xff10082b0000
+/lib/aarch64-linux-gnu/libc.so.6 0xff10082d8598 0xff10082b0000
+/usr/bin/enlightenment_filemanager 0xaabd46d614f0 0xaabd46d60000
+EOF
+
+Did you unload the EFM module? Try loading it.

@@ -1,0 +1,26 @@
+包名:enlightenment.linyaps
+Layer文件:enlightenment.linyaps_0.26.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: enlightenment.linyaps_0.26.0.2_arm64_binary.layer
+offset: 670
+mountpoint: /tmp/tmp.wdRlwjzOIE/mnt
+dbglevel: 0
+PULSE CONN...
+ERR<36>: ../src/modules/mixer/lib/backends/pulseaudio/pulse.c:1522 _pulse_connect() Could not connect to pulse
+## Copy & Paste the below (until EOF) into a terminal, then hit Enter
+
+eina_btlog << EOF
+/lib/aarch64-linux-gnu/libeina.so.1 0xff522975db4c 0xff5229730000
+/lib/aarch64-linux-gnu/libeina.so.1 0xff522975d7a0 0xff5229730000
+/lib/aarch64-linux-gnu/libeina.so.1 0xff522975f20c 0xff5229730000
+/usr/bin/emixer 0xab8da2ed15c4 0xab8da2ec0000
+/usr/bin/emixer 0xab8da2ed1718 0xab8da2ec0000
+/usr/bin/emixer 0xab8da2ec5830 0xab8da2ec0000
+/lib/aarch64-linux-gnu/libc.so.6 0xff52293f84c4 0xff52293d0000
+/lib/aarch64-linux-gnu/libc.so.6 0xff52293f8598 0xff52293d0000
+/usr/bin/emixer 0xab8da2ec6370 0xab8da2ec0000
+EOF
+
+Xlib:  extension "DPMS" missing on display ":99".
+PULSE CONN...

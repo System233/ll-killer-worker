@@ -1,0 +1,63 @@
+正在测试: APPID=enlightenment.linyaps LAYER=enlightenment.linyaps_0.26.0.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install enlightenment.linyaps_0.26.0.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:enlightenment.linyaps
+Layer文件:enlightenment.linyaps_0.26.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: enlightenment.linyaps_0.26.0.2_arm64_binary.layer
+offset: 670
+mountpoint: /tmp/tmp.R0Eg2btwDv/mnt
+dbglevel: 0
+[成功] emixer.desktop: emixer -> /opt/apps/enlightenment.linyaps/files/share/icons/hicolor/128x128/apps/emixer.png
+[成功] /opt/apps/enlightenment.linyaps/files/share/applications/emixer.desktop: /opt/apps/enlightenment.linyaps/files/entrypoint.sh emixer
+[成功] enlightenment_askpass.desktop: enlightenment-askpass -> /opt/apps/enlightenment.linyaps/files/share/pixmaps/enlightenment-askpass.png
+[成功] /opt/apps/enlightenment.linyaps/files/share/applications/enlightenment_askpass.desktop: /opt/apps/enlightenment.linyaps/files/entrypoint.sh enlightenment_askpass
+[成功] enlightenment_filemanager.desktop: system-file-manager -> /opt/apps/enlightenment.linyaps/files/share/icons/Enlightenment-X/apps/64/system-file-manager.png
+[成功] /opt/apps/enlightenment.linyaps/files/share/applications/enlightenment_filemanager.desktop: /opt/apps/enlightenment.linyaps/files/entrypoint.sh enlightenment_filemanager %U
+[成功] enlightenment_fprint.desktop: enlightenment_fprint -> /opt/apps/enlightenment.linyaps/files/share/icons/hicolor/128x128/apps/enlightenment_fprint.png
+[成功] /opt/apps/enlightenment.linyaps/files/share/applications/enlightenment_fprint.desktop: /opt/apps/enlightenment.linyaps/files/entrypoint.sh enlightenment_fprint
+[成功] enlightenment_paledit.desktop: enlightenment_paledit -> /opt/apps/enlightenment.linyaps/files/share/icons/hicolor/128x128/apps/enlightenment_paledit.png
+[成功] /opt/apps/enlightenment.linyaps/files/share/applications/enlightenment_paledit.desktop: /opt/apps/enlightenment.linyaps/files/entrypoint.sh enlightenment_paledit
+[正在测试启动项]
+包名:enlightenment.linyaps
+Layer文件:enlightenment.linyaps_0.26.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: enlightenment.linyaps_0.26.0.2_arm64_binary.layer
+offset: 670
+mountpoint: /tmp/tmp.dDsTG9Kg7Y/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run enlightenment.linyaps -- /opt/apps/enlightenment.linyaps/files/entrypoint.sh emixer
+[PID 27516] 进程已启动
+[PID 27516] 已检测到窗口:PID=36
+[PID 27516] 正在截图 0秒: tests/screen0-0.jpg
+[PID 27516] 正在截图 1秒: tests/screen0-1.jpg
+[PID 27516] 正在截图 3秒: tests/screen0-3.jpg
+[PID 27516] 正在截图 5秒: tests/screen0-5.jpg
+[PID 27516] 正在通知并等待进程退出
+[PID 27516] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run enlightenment.linyaps -- /opt/apps/enlightenment.linyaps/files/entrypoint.sh enlightenment_filemanager
+[PID 27704] 进程已启动
+[PID 27704] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run enlightenment.linyaps -- /opt/apps/enlightenment.linyaps/files/entrypoint.sh enlightenment_fprint
+[PID 27828] 进程已启动
+[PID 27828] 已检测到窗口:PID=36
+[PID 27828] 正在截图 0秒: tests/screen2-0.jpg
+[PID 27828] 正在截图 1秒: tests/screen2-1.jpg
+[PID 27828] 正在截图 3秒: tests/screen2-3.jpg
+[PID 27828] 正在截图 5秒: tests/screen2-5.jpg
+[PID 27828] 正在通知并等待进程退出
+[PID 27828] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run enlightenment.linyaps -- /opt/apps/enlightenment.linyaps/files/entrypoint.sh enlightenment_paledit
+[PID 28003] 进程已启动
+[PID 28003] 已检测到窗口:PID=37
+[PID 28003] 正在截图 0秒: tests/screen3-0.jpg
+[PID 28003] 正在截图 1秒: tests/screen3-1.jpg
+[PID 28003] 正在截图 3秒: tests/screen3-3.jpg
+[PID 28003] 正在截图 5秒: tests/screen3-5.jpg
+[PID 28003] 正在通知并等待进程退出
+[PID 28003] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall enlightenment.linyaps
