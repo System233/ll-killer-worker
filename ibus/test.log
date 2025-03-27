@@ -1,0 +1,40 @@
+正在测试: APPID=ibus.linyaps LAYER=ibus.linyaps_1.5.29.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install ibus.linyaps_1.5.29.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:ibus.linyaps
+Layer文件:ibus.linyaps_1.5.29.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: ibus.linyaps_1.5.29.1_x86_64_binary.layer
+offset: 591
+mountpoint: /tmp/tmp.j8knmqG104/mnt
+dbglevel: 0
+[成功] org.freedesktop.IBus.Panel.Emojier.desktop: ibus -> /opt/apps/ibus.linyaps/files/share/icons/hicolor/scalable/apps/ibus.svg
+[成功] /opt/apps/ibus.linyaps/files/share/applications/org.freedesktop.IBus.Panel.Emojier.desktop: /opt/apps/ibus.linyaps/files/entrypoint.sh ibus emoji
+[成功] org.freedesktop.IBus.Panel.Extension.Gtk3.desktop: ibus -> /opt/apps/ibus.linyaps/files/share/icons/hicolor/scalable/apps/ibus.svg
+[成功] /opt/apps/ibus.linyaps/files/share/applications/org.freedesktop.IBus.Panel.Extension.Gtk3.desktop: /opt/apps/ibus.linyaps/files/entrypoint.sh /usr/libexec/ibus-extension-gtk3
+[成功] org.freedesktop.IBus.Panel.Wayland.Gtk3.desktop: ibus -> /opt/apps/ibus.linyaps/files/share/icons/hicolor/scalable/apps/ibus.svg
+[成功] /opt/apps/ibus.linyaps/files/share/applications/org.freedesktop.IBus.Panel.Wayland.Gtk3.desktop: /opt/apps/ibus.linyaps/files/entrypoint.sh /usr/libexec/ibus-ui-gtk3 --enable-wayland-im --exec-daemon --daemon-args "--xim --panel disable"
+[成功] org.freedesktop.IBus.Setup.desktop: ibus-setup -> /opt/apps/ibus.linyaps/files/share/icons/hicolor/scalable/apps/ibus-setup.svg
+[成功] /opt/apps/ibus.linyaps/files/share/applications/org.freedesktop.IBus.Setup.desktop: /opt/apps/ibus.linyaps/files/entrypoint.sh ibus-setup
+[正在测试启动项]
+包名:ibus.linyaps
+Layer文件:ibus.linyaps_1.5.29.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: ibus.linyaps_1.5.29.1_x86_64_binary.layer
+offset: 591
+mountpoint: /tmp/tmp.zeCSthNYAx/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run ibus.linyaps -- /opt/apps/ibus.linyaps/files/entrypoint.sh ibus-setup
+[PID 8443] 进程已启动
+[PID 8443] 已检测到窗口:PID=37
+[PID 8443] 正在截图 0秒: tests/screen0-0.jpg
+[PID 8443] 正在截图 1秒: tests/screen0-1.jpg
+[PID 8443] 正在截图 3秒: tests/screen0-3.jpg
+[PID 8443] 正在截图 5秒: tests/screen0-5.jpg
+[PID 8443] 正在通知并等待进程退出
+[PID 8443] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall ibus.linyaps
