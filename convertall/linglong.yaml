@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: convertall.linyaps
+  name: convertall
+  version: 0.8.0.2
+  kind: app
+  description: |-
+    very flexible unit converter
+    With ConvertAll, you can convert any unit in the large database to any other
+    compatible unit. If you want to convert from inches per decade, that's fine.
+    Or from meter-pounds. Or from cubic nautical miles. The units don't have to
+    make sense to anyone else.
+command:
+- /opt/apps/convertall.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
