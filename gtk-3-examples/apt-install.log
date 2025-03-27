@@ -1,0 +1,44 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  gtk-update-icon-cache libgtk-3-0 libgtk-3-common
+Suggested packages:
+  gvfs
+Recommended packages:
+  libgtk-3-bin librsvg2-common
+The following NEW packages will be installed:
+  gtk-3-examples
+The following packages will be upgraded:
+  gtk-update-icon-cache libgtk-3-0 libgtk-3-common
+3 upgraded, 1 newly installed, 0 to remove and 233 not upgraded.
+Need to get 9023 kB of archives.
+After this operation, 12.1 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main amd64 libgtk-3-common all 3.24.41-1deepin3 [4634 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main amd64 libgtk-3-0 amd64 3.24.41-1deepin3 [2734 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main amd64 gtk-3-examples amd64 3.24.41-1deepin3 [1608 kB]
+Get:4 https://community-packages.deepin.com/beige beige/main amd64 gtk-update-icon-cache amd64 3.24.41-1deepin3 [46.0 kB]
+Fetched 9023 kB in 2s (4316 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libgtk-3-common_3.24.41-1deepin3_all.deb ...
+Unpacking libgtk-3-common (3.24.41-1deepin3) over (3.24.41-1deepin1) ...
+Preparing to unpack .../libgtk-3-0_3.24.41-1deepin3_amd64.deb ...
+Unpacking libgtk-3-0:amd64 (3.24.41-1deepin3) over (3.24.41-1deepin1) ...
+Selecting previously unselected package gtk-3-examples.
+Preparing to unpack .../gtk-3-examples_3.24.41-1deepin3_amd64.deb ...
+Unpacking gtk-3-examples (3.24.41-1deepin3) ...
+Preparing to unpack .../gtk-update-icon-cache_3.24.41-1deepin3_amd64.deb ...
+Unpacking gtk-update-icon-cache (3.24.41-1deepin3) over (3.24.41-1deepin1) ...
+Setting up gtk-update-icon-cache (3.24.41-1deepin3) ...
+Setting up libgtk-3-common (3.24.41-1deepin3) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libglib2.0-0:amd64 (2.80.1-1deepin1) ...
+Setting up libgtk-3-0:amd64 (3.24.41-1deepin3) ...
+Setting up gtk-3-examples (3.24.41-1deepin3) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)

@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: gtk-3-examples.linyaps
+  name: gtk-3-examples
+  version: 3.24.41.1
+  kind: app
+  description: |-
+    example files for GTK 3
+    GTK is a multi-platform toolkit for creating graphical user
+    interfaces. Offering a complete set of widgets, GTK is suitable
+    for projects ranging from small one-off tools to complete application
+    suites.
+
+    This package contains the example files and a demonstration program
+    for GTK3. It also contains the installed tests.
+command:
+- /opt/apps/gtk-3-examples.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
