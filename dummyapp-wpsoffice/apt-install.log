@@ -1,0 +1,39 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libnotify-bin libnotify4 notification-daemon
+The following NEW packages will be installed:
+  dummyapp-wpsoffice libnotify-bin libnotify4 notification-daemon
+0 upgraded, 4 newly installed, 0 to remove and 236 not upgraded.
+Need to get 89.6 kB of archives.
+After this operation, 562 kB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main amd64 libnotify4 amd64 0.7.9-3 [18.6 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main amd64 libnotify-bin amd64 0.7.9-3 [9288 B]
+Get:3 https://community-packages.deepin.com/beige beige/main amd64 dummyapp-wpsoffice all 1.0.2 [7288 B]
+Get:4 https://community-packages.deepin.com/beige beige/main amd64 notification-daemon amd64 3.20.0-deepin1 [54.4 kB]
+Fetched 89.6 kB in 1s (65.7 kB/s)
+Selecting previously unselected package libnotify4:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libnotify4_0.7.9-3_amd64.deb ...
+Unpacking libnotify4:amd64 (0.7.9-3) ...
+Selecting previously unselected package libnotify-bin.
+Preparing to unpack .../libnotify-bin_0.7.9-3_amd64.deb ...
+Unpacking libnotify-bin (0.7.9-3) ...
+Selecting previously unselected package dummyapp-wpsoffice.
+Preparing to unpack .../dummyapp-wpsoffice_1.0.2_all.deb ...
+Unpacking dummyapp-wpsoffice (1.0.2) ...
+Selecting previously unselected package notification-daemon.
+Preparing to unpack .../notification-daemon_3.20.0-deepin1_amd64.deb ...
+Unpacking notification-daemon (3.20.0-deepin1) ...
+Setting up notification-daemon (3.20.0-deepin1) ...
+Setting up libnotify4:amd64 (0.7.9-3) ...
+Setting up libnotify-bin (0.7.9-3) ...
+Setting up dummyapp-wpsoffice (1.0.2) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
