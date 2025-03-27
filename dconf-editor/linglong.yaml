@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: dconf-editor.linyaps
+  name: dconf-editor
+  version: 45.0.1.1
+  kind: app
+  description: |-
+    simple configuration storage system - graphical editor
+    DConf is a low-level key/value database designed for storing desktop
+    environment settings.
+
+    This package contains a graphical editor for settings stored in dconf.
+command:
+- /opt/apps/dconf-editor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
