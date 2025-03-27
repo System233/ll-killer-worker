@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: adun.app.linyaps
+  name: adun.app
+  version: 0.81.0.14
+  kind: app
+  description: |-
+    Molecular Simulator for GNUstep (GUI)
+    Adun is a biomolecular simulator that also includes data management and
+    analysis capabilities.  It was developed at the Computational Biophysics
+    and Biochemistry Laboratory, a part of the Research Unit on Biomedical
+    Informatics of the UPF.
+
+    This package contains UL, the Adun GUI frontend.
+command:
+- /opt/apps/adun.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
