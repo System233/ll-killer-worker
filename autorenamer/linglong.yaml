@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: autorenamer.linyaps
+  name: autorenamer
+  version: 0.6.0.1
+  kind: app
+  description: |-
+    program to rename files to make them sort in given order
+    This is a simple graphical program that lets you reorder the files using
+    drag-and-drop and then changes the names of the files such that their
+    alphabetical sorting matches the ordering you chose. You can also shuffle
+    the files.
+
+    Currently the renaming consists of prepending each filename with a short
+    number.
+
+    The program displays thumbnails of files using GNOME libraries.
+command:
+- /opt/apps/autorenamer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
