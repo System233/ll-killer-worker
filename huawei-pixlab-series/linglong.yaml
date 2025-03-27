@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: huawei-pixlab-series.linyaps
+  name: huawei-pixlab-series
+  version: 1.0.0.71
+  kind: app
+  description: Printer Driver for HUAWEI printer
+command:
+- /opt/apps/huawei-pixlab-series.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
