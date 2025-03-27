@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: dde-store.linyaps
+  name: dde-store
+  version: 1.2.5.1
+  kind: app
+  description: |-
+    DDE Store for Deepin Desktop Environment
+    DDE Store is an app store for DDE built with Deepin Tool Kit (DTK).
+    This app store is designed for use with the Deepin Desktop
+    Environment and, is built with AppStream and PackageKit.
+command:
+- /opt/apps/dde-store.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
