@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: dvorak7min.linyaps
+  name: dvorak7min
+  version: 1.6.1.4
+  kind: app
+  description: |-
+    typing tutor for Dvorak keyboards
+    dvorak7min is a typing tutor to help you learn the Dvorak keyboard layout.
+
+    It consists of 29 short lessons and will gives immediate feedback on typing
+    speed and accuracy.
+command:
+- /opt/apps/dvorak7min.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
