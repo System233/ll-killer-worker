@@ -1,0 +1,28 @@
+正在测试: APPID=cn.naturalcard.eserver.linyaps LAYER=cn.naturalcard.eserver.linyaps_1.0.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install cn.naturalcard.eserver.linyaps_1.0.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:cn.naturalcard.eserver.linyaps
+Layer文件:cn.naturalcard.eserver.linyaps_1.0.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: cn.naturalcard.eserver.linyaps_1.0.0.1_arm64_binary.layer
+offset: 421
+mountpoint: /tmp/tmp.G1p5JKk67z/mnt
+dbglevel: 0
+[成功] cn.naturalcard.eserver.desktop: cn.naturalcard.eserver.linyaps-cn.naturalcard.webserver -> /opt/apps/cn.naturalcard.eserver.linyaps/files/share/icons/hicolor/16x16/apps/cn.naturalcard.eserver.linyaps-cn.naturalcard.webserver.png
+[成功] /opt/apps/cn.naturalcard.eserver.linyaps/files/share/applications/cn.naturalcard.eserver.desktop: /opt/apps/cn.naturalcard.eserver.linyaps/files/entrypoint.sh /opt/apps/cn.naturalcard.eserver/bin/run.sh
+[正在测试启动项]
+包名:cn.naturalcard.eserver.linyaps
+Layer文件:cn.naturalcard.eserver.linyaps_1.0.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: cn.naturalcard.eserver.linyaps_1.0.0.1_arm64_binary.layer
+offset: 421
+mountpoint: /tmp/tmp.kNTsqkd3HA/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run cn.naturalcard.eserver.linyaps -- /opt/apps/cn.naturalcard.eserver.linyaps/files/entrypoint.sh /opt/apps/cn.naturalcard.eserver/bin/run.sh
+[PID 5546] 进程已启动
+[PID 5546] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall cn.naturalcard.eserver.linyaps
