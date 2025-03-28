@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: faustworks.linyaps
+  name: faustworks
+  version: 0.5.0.6
+  kind: app
+  description: |-
+    IDE for Faust dsp programming language
+    FaustWorks is an IDE (Integrated Development Environment)
+    for the Faust dsp programming language.
+    It relies on scripts to generate binaries for various audio targets.
+    These scripts are located in
+    /usr/share/FaustWorks/scripts.lin/
+command:
+- /opt/apps/faustworks.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
