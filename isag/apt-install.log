@@ -1,0 +1,338 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  aglfn gnuplot-data gnuplot-x11 libgd3 liblua5.4-0 libnotify4
+  libnss-myhostname libpcre2-32-0 libselinux1 libsystemd-shared libsystemd0
+  libtcl8.6 libtk8.6 libudev1 libutempter0 libwxbase3.2-1 libwxgtk3.2-1
+  libxmu6 libxmuu1 libxss1 libxxf86dga1 mount notification-daemon sysstat
+  systemd systemd-dev systemd-timesyncd tcl tcl8.6 tk tk8.6 udev x11-utils
+  xbitmaps xterm
+Suggested packages:
+  gnuplot-doc rcs libgd-tools nfs-common systemd-container systemd-homed
+  systemd-userdbd systemd-boot systemd-resolved libip4tc2 libqrencode4
+  libtss2-rc0 polkitd tcl-tclreadline mesa-utils xfonts-cyrillic
+The following packages will be REMOVED:
+  systemd-standalone-sysusers
+The following NEW packages will be installed:
+  aglfn gnuplot-data gnuplot-x11 isag libgd3 liblua5.4-0 libnotify4
+  libpcre2-32-0 libtcl8.6 libtk8.6 libutempter0 libwxbase3.2-1 libwxgtk3.2-1
+  libxmuu1 libxss1 libxxf86dga1 mount notification-daemon sysstat systemd
+  systemd-timesyncd tcl tcl8.6 tk tk8.6 x11-utils xbitmaps xterm
+The following packages will be upgraded:
+  libnss-myhostname libselinux1 libsystemd-shared libsystemd0 libudev1 libxmu6
+  systemd-dev udev
+8 upgraded, 28 newly installed, 1 to remove and 227 not upgraded.
+Need to get 19.3 MB of archives.
+After this operation, 52.4 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main amd64 systemd-dev all 255.2-4deepin3 [58.2 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main amd64 libselinux1 amd64 3.5-1deepin5 [82.6 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main amd64 libsystemd-shared amd64 255.2-4deepin3 [1936 kB]
+Get:4 https://community-packages.deepin.com/beige beige/main amd64 libsystemd0 amd64 255.2-4deepin3 [362 kB]
+Get:5 https://community-packages.deepin.com/beige beige/main amd64 mount amd64 2.39.3-6deepin1 [143 kB]
+Get:6 https://community-packages.deepin.com/beige beige/main amd64 udev amd64 255.2-4deepin3 [1794 kB]
+Get:7 https://community-packages.deepin.com/beige beige/main amd64 systemd amd64 255.2-4deepin3 [3529 kB]
+Get:8 https://community-packages.deepin.com/beige beige/main amd64 libudev1 amd64 255.2-4deepin3 [124 kB]
+Get:9 https://community-packages.deepin.com/beige beige/main amd64 systemd-timesyncd amd64 255.2-4deepin3 [71.7 kB]
+Get:10 https://community-packages.deepin.com/beige beige/main amd64 aglfn all 1.7+git20191031.4036a9c-2 [30.5 kB]
+Get:11 https://community-packages.deepin.com/beige beige/main amd64 gnuplot-data all 6.0.0+dfsg1-3deepin0 [72.3 kB]
+Get:12 https://community-packages.deepin.com/beige beige/main amd64 libgd3 amd64 2.3.0-2 [122 kB]
+Get:13 https://community-packages.deepin.com/beige beige/main amd64 liblua5.4-0 amd64 5.4.3-1 [140 kB]
+Get:14 https://community-packages.deepin.com/beige beige/main amd64 libpcre2-32-0 amd64 10.39-2 [223 kB]
+Get:15 https://community-packages.deepin.com/beige beige/main amd64 libwxbase3.2-1 amd64 3.2.6+dfsg-2deepin1 [1004 kB]
+Get:16 https://community-packages.deepin.com/beige beige/main amd64 libnotify4 amd64 0.7.9-3 [18.6 kB]
+Get:17 https://community-packages.deepin.com/beige beige/main amd64 libwxgtk3.2-1 amd64 3.2.6+dfsg-2deepin1 [4507 kB]
+Get:18 https://community-packages.deepin.com/beige beige/main amd64 gnuplot-x11 amd64 6.0.0+dfsg1-3deepin0 [1056 kB]
+Get:19 https://community-packages.deepin.com/beige beige/main amd64 sysstat amd64 12.7.5-2 [625 kB]
+Get:20 https://community-packages.deepin.com/beige beige/main amd64 libtcl8.6 amd64 8.6.12+dfsg-1 [1027 kB]
+Get:21 https://community-packages.deepin.com/beige beige/main amd64 libxss1 amd64 1:1.2.3-1 [16.6 kB]
+Get:22 https://community-packages.deepin.com/beige beige/main amd64 libtk8.6 amd64 8.6.12-1 [778 kB]
+Get:23 https://community-packages.deepin.com/beige beige/main amd64 tk8.6 amd64 8.6.12-1 [69.7 kB]
+Get:24 https://community-packages.deepin.com/beige beige/main amd64 tcl8.6 amd64 8.6.12+dfsg-1 [121 kB]
+Get:25 https://community-packages.deepin.com/beige beige/main amd64 tcl amd64 8.6.11+1 [4052 B]
+Get:26 https://community-packages.deepin.com/beige beige/main amd64 tk amd64 8.6.11+1 [4088 B]
+Get:27 https://community-packages.deepin.com/beige beige/main amd64 isag all 12.7.5-2 [61.8 kB]
+Get:28 https://community-packages.deepin.com/beige beige/main amd64 libnss-myhostname amd64 255.2-4deepin3 [97.7 kB]
+Get:29 https://community-packages.deepin.com/beige beige/main amd64 libutempter0 amd64 1.2.1-2 [8212 B]
+Get:30 https://community-packages.deepin.com/beige beige/main amd64 libxmu6 amd64 2:1.1.3-3 [58.2 kB]
+Get:31 https://community-packages.deepin.com/beige beige/main amd64 libxmuu1 amd64 2:1.1.3-3 [21.5 kB]
+Get:32 https://community-packages.deepin.com/beige beige/main amd64 libxxf86dga1 amd64 2:1.1.4-deepin1 [20.2 kB]
+Get:33 https://community-packages.deepin.com/beige beige/main amd64 notification-daemon amd64 3.20.0-deepin1 [54.4 kB]
+Get:34 https://community-packages.deepin.com/beige beige/main amd64 x11-utils amd64 7.7+5-deepin [194 kB]
+Get:35 https://community-packages.deepin.com/beige beige/main amd64 xbitmaps all 1.1.1-2.2 [25.4 kB]
+Get:36 https://community-packages.deepin.com/beige beige/main amd64 xterm amd64 369-1 [807 kB]
+Fetched 19.3 MB in 3s (5877 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../systemd-dev_255.2-4deepin3_all.deb ...
+Unpacking systemd-dev (255.2-4deepin3) over (255.2-4) ...
+Preparing to unpack .../libselinux1_3.5-1deepin5_amd64.deb ...
+Unpacking libselinux1:amd64 (3.5-1deepin5) over (3.5-1) ...
+Setting up libselinux1:amd64 (3.5-1deepin5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libsystemd-shared_255.2-4deepin3_amd64.deb ...
+Unpacking libsystemd-shared:amd64 (255.2-4deepin3) over (255.2-4) ...
+Preparing to unpack .../libsystemd0_255.2-4deepin3_amd64.deb ...
+Unpacking libsystemd0:amd64 (255.2-4deepin3) over (255.2-4) ...
+Setting up libsystemd0:amd64 (255.2-4deepin3) ...
+Selecting previously unselected package mount.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../mount_2.39.3-6deepin1_amd64.deb ...
+Unpacking mount (2.39.3-6deepin1) ...
+Preparing to unpack .../udev_255.2-4deepin3_amd64.deb ...
+Unpacking udev (255.2-4deepin3) over (255.2-4) ...
+dpkg: systemd-standalone-sysusers: dependency problems, but removing anyway as you requested:
+ udev depends on systemd | systemd-standalone-sysusers | systemd-sysusers; however:
+  Package systemd is not installed.
+  Package systemd-standalone-sysusers is to be removed.
+  Package systemd-sysusers is not installed.
+  Package systemd-standalone-sysusers which provides systemd-sysusers is to be removed.
+ udev depends on systemd | systemd-standalone-sysusers | systemd-sysusers; however:
+  Package systemd is not installed.
+  Package systemd-standalone-sysusers is to be removed.
+  Package systemd-sysusers is not installed.
+  Package systemd-standalone-sysusers which provides systemd-sysusers is to be removed.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27620 files and directories currently installed.)
+Removing systemd-standalone-sysusers (255.2-4) ...
+Selecting previously unselected package systemd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27613 files and directories currently installed.)
+Preparing to unpack .../systemd_255.2-4deepin3_amd64.deb ...
+Unpacking systemd (255.2-4deepin3) ...
+Preparing to unpack .../libudev1_255.2-4deepin3_amd64.deb ...
+Unpacking libudev1:amd64 (255.2-4deepin3) over (255.2-4) ...
+Setting up libudev1:amd64 (255.2-4deepin3) ...
+Selecting previously unselected package systemd-timesyncd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28564 files and directories currently installed.)
+Preparing to unpack .../00-systemd-timesyncd_255.2-4deepin3_amd64.deb ...
+Unpacking systemd-timesyncd (255.2-4deepin3) ...
+Selecting previously unselected package aglfn.
+Preparing to unpack .../01-aglfn_1.7+git20191031.4036a9c-2_all.deb ...
+Unpacking aglfn (1.7+git20191031.4036a9c-2) ...
+Selecting previously unselected package gnuplot-data.
+Preparing to unpack .../02-gnuplot-data_6.0.0+dfsg1-3deepin0_all.deb ...
+Unpacking gnuplot-data (6.0.0+dfsg1-3deepin0) ...
+Selecting previously unselected package libgd3:amd64.
+Preparing to unpack .../03-libgd3_2.3.0-2_amd64.deb ...
+Unpacking libgd3:amd64 (2.3.0-2) ...
+Selecting previously unselected package liblua5.4-0:amd64.
+Preparing to unpack .../04-liblua5.4-0_5.4.3-1_amd64.deb ...
+Unpacking liblua5.4-0:amd64 (5.4.3-1) ...
+Selecting previously unselected package libpcre2-32-0:amd64.
+Preparing to unpack .../05-libpcre2-32-0_10.39-2_amd64.deb ...
+Unpacking libpcre2-32-0:amd64 (10.39-2) ...
+Selecting previously unselected package libwxbase3.2-1:amd64.
+Preparing to unpack .../06-libwxbase3.2-1_3.2.6+dfsg-2deepin1_amd64.deb ...
+Unpacking libwxbase3.2-1:amd64 (3.2.6+dfsg-2deepin1) ...
+Selecting previously unselected package libnotify4:amd64.
+Preparing to unpack .../07-libnotify4_0.7.9-3_amd64.deb ...
+Unpacking libnotify4:amd64 (0.7.9-3) ...
+Selecting previously unselected package libwxgtk3.2-1:amd64.
+Preparing to unpack .../08-libwxgtk3.2-1_3.2.6+dfsg-2deepin1_amd64.deb ...
+Unpacking libwxgtk3.2-1:amd64 (3.2.6+dfsg-2deepin1) ...
+Selecting previously unselected package gnuplot-x11.
+Preparing to unpack .../09-gnuplot-x11_6.0.0+dfsg1-3deepin0_amd64.deb ...
+Unpacking gnuplot-x11 (6.0.0+dfsg1-3deepin0) ...
+Selecting previously unselected package sysstat.
+Preparing to unpack .../10-sysstat_12.7.5-2_amd64.deb ...
+Unpacking sysstat (12.7.5-2) ...
+Selecting previously unselected package libtcl8.6:amd64.
+Preparing to unpack .../11-libtcl8.6_8.6.12+dfsg-1_amd64.deb ...
+Unpacking libtcl8.6:amd64 (8.6.12+dfsg-1) ...
+Selecting previously unselected package libxss1:amd64.
+Preparing to unpack .../12-libxss1_1%3a1.2.3-1_amd64.deb ...
+Unpacking libxss1:amd64 (1:1.2.3-1) ...
+Selecting previously unselected package libtk8.6:amd64.
+Preparing to unpack .../13-libtk8.6_8.6.12-1_amd64.deb ...
+Unpacking libtk8.6:amd64 (8.6.12-1) ...
+Selecting previously unselected package tk8.6.
+Preparing to unpack .../14-tk8.6_8.6.12-1_amd64.deb ...
+Unpacking tk8.6 (8.6.12-1) ...
+Selecting previously unselected package tcl8.6.
+Preparing to unpack .../15-tcl8.6_8.6.12+dfsg-1_amd64.deb ...
+Unpacking tcl8.6 (8.6.12+dfsg-1) ...
+Selecting previously unselected package tcl.
+Preparing to unpack .../16-tcl_8.6.11+1_amd64.deb ...
+Unpacking tcl (8.6.11+1) ...
+Selecting previously unselected package tk.
+Preparing to unpack .../17-tk_8.6.11+1_amd64.deb ...
+Unpacking tk (8.6.11+1) ...
+Selecting previously unselected package isag.
+Preparing to unpack .../18-isag_12.7.5-2_all.deb ...
+Unpacking isag (12.7.5-2) ...
+Preparing to unpack .../19-libnss-myhostname_255.2-4deepin3_amd64.deb ...
+Unpacking libnss-myhostname:amd64 (255.2-4deepin3) over (255.2-4) ...
+Selecting previously unselected package libutempter0:amd64.
+Preparing to unpack .../20-libutempter0_1.2.1-2_amd64.deb ...
+Unpacking libutempter0:amd64 (1.2.1-2) ...
+Preparing to unpack .../21-libxmu6_2%3a1.1.3-3_amd64.deb ...
+Unpacking libxmu6:amd64 (2:1.1.3-3) over (2:1.1.2-deepin1) ...
+Selecting previously unselected package libxmuu1:amd64.
+Preparing to unpack .../22-libxmuu1_2%3a1.1.3-3_amd64.deb ...
+Unpacking libxmuu1:amd64 (2:1.1.3-3) ...
+Selecting previously unselected package libxxf86dga1:amd64.
+Preparing to unpack .../23-libxxf86dga1_2%3a1.1.4-deepin1_amd64.deb ...
+Unpacking libxxf86dga1:amd64 (2:1.1.4-deepin1) ...
+Selecting previously unselected package notification-daemon.
+Preparing to unpack .../24-notification-daemon_3.20.0-deepin1_amd64.deb ...
+Unpacking notification-daemon (3.20.0-deepin1) ...
+Selecting previously unselected package x11-utils.
+Preparing to unpack .../25-x11-utils_7.7+5-deepin_amd64.deb ...
+Unpacking x11-utils (7.7+5-deepin) ...
+Selecting previously unselected package xbitmaps.
+Preparing to unpack .../26-xbitmaps_1.1.1-2.2_all.deb ...
+Unpacking xbitmaps (1.1.1-2.2) ...
+Selecting previously unselected package xterm.
+Preparing to unpack .../27-xterm_369-1_amd64.deb ...
+Unpacking xterm (369-1) ...
+Setting up libxmu6:amd64 (2:1.1.3-3) ...
+Setting up libxxf86dga1:amd64 (2:1.1.4-deepin1) ...
+Setting up systemd-dev (255.2-4deepin3) ...
+Setting up notification-daemon (3.20.0-deepin1) ...
+Setting up libpcre2-32-0:amd64 (10.39-2) ...
+Setting up libnotify4:amd64 (0.7.9-3) ...
+Setting up aglfn (1.7+git20191031.4036a9c-2) ...
+Setting up libgd3:amd64 (2.3.0-2) ...
+Setting up libsystemd-shared:amd64 (255.2-4deepin3) ...
+Setting up libtcl8.6:amd64 (8.6.12+dfsg-1) ...
+Setting up libnss-myhostname:amd64 (255.2-4deepin3) ...
+Setting up libutempter0:amd64 (1.2.1-2) ...
+Setting up mount (2.39.3-6deepin1) ...
+Setting up liblua5.4-0:amd64 (5.4.3-1) ...
+Setting up libxss1:amd64 (1:1.2.3-1) ...
+Setting up sysstat (12.7.5-2) ...
+
+Configuration file '/etc/cron.d/sysstat', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/cron.daily/sysstat', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/init.d/sysstat', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sysstat/sysstat', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sysstat/sysstat.ioconf', does not exist on system.
+Installing new config file as you requested.
+
+Creating config file /etc/default/sysstat with new version
+update-alternatives: using /usr/bin/sar.sysstat to provide /usr/bin/sar (sar) in auto mode
+Running in chroot, ignoring command 'daemon-reload'
+Created symlink /etc/systemd/system/sysstat.service.wants/sysstat-collect.timer → /usr/lib/systemd/system/sysstat-collect.timer.
+Created symlink /etc/systemd/system/sysstat.service.wants/sysstat-rotate.timer → /usr/lib/systemd/system/sysstat-rotate.timer.
+Created symlink /etc/systemd/system/sysstat.service.wants/sysstat-summary.timer → /usr/lib/systemd/system/sysstat-summary.timer.
+Created symlink /etc/systemd/system/multi-user.target.wants/sysstat.service → /usr/lib/systemd/system/sysstat.service.
+Setting up libxmuu1:amd64 (2:1.1.3-3) ...
+Setting up xbitmaps (1.1.1-2.2) ...
+Setting up gnuplot-data (6.0.0+dfsg1-3deepin0) ...
+Setting up tcl8.6 (8.6.12+dfsg-1) ...
+Setting up libtk8.6:amd64 (8.6.12-1) ...
+Setting up systemd (255.2-4deepin3) ...
+
+Configuration file '/etc/systemd/journald.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/logind.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/networkd.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/pstore.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/sleep.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/system.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/user.conf', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/system/getty.target.wants/getty@tty1.service → /usr/lib/systemd/system/getty@.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target → /usr/lib/systemd/system/remote-fs.target.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-pstore.service → /usr/lib/systemd/system/systemd-pstore.service.
+Setting access ACL "u::rwx,g::r-x,g:adm:r-x,m::r-x,o::r-x" on /var/log/journal failed: Invalid argument
+Setting up libwxbase3.2-1:amd64 (3.2.6+dfsg-2deepin1) ...
+Setting up systemd-timesyncd (255.2-4deepin3) ...
+
+Configuration file '/etc/dhcp/dhclient-exit-hooks.d/timesyncd', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/timesyncd.conf', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/system/dbus-org.freedesktop.timesync1.service → /usr/lib/systemd/system/systemd-timesyncd.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-timesyncd.service → /usr/lib/systemd/system/systemd-timesyncd.service.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Setting up udev (255.2-4deepin3) ...
+fchmod() of /dev/loop-control failed: Operation not permitted
+fchmod() of /dev/kvm failed: Operation not permitted
+fchmod() of /dev/vhost-net failed: Operation not permitted
+fchmod() of /dev/vhost-vsock failed: Operation not permitted
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'restart'
+Setting up tcl (8.6.11+1) ...
+Setting up x11-utils (7.7+5-deepin) ...
+
+Configuration file '/etc/X11/app-defaults/Editres', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/Editres-color', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/Viewres', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/Viewres-color', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/XFontSel', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/Xfd', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/Xmessage', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/Xmessage-color', does not exist on system.
+Installing new config file as you requested.
+Setting up xterm (369-1) ...
+
+Configuration file '/etc/X11/app-defaults/KOI8RXTerm', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/KOI8RXTerm-color', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/UXTerm', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/UXTerm-color', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/XTerm', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/XTerm-color', does not exist on system.
+Installing new config file as you requested.
+update-alternatives: using /usr/bin/xterm to provide /usr/bin/x-terminal-emulator (x-terminal-emulator) in auto mode
+update-alternatives: using /usr/bin/lxterm to provide /usr/bin/x-terminal-emulator (x-terminal-emulator) in auto mode
+Setting up tk8.6 (8.6.12-1) ...
+Setting up libwxgtk3.2-1:amd64 (3.2.6+dfsg-2deepin1) ...
+Setting up tk (8.6.11+1) ...
+Setting up gnuplot-x11 (6.0.0+dfsg1-3deepin0) ...
+update-alternatives: using /usr/bin/gnuplot-x11 to provide /usr/bin/gnuplot (gnuplot) in auto mode
+Setting up isag (12.7.5-2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for dbus (1.14.10-3) ...
+Processing triggers for initramfs-tools (0.142) ...
