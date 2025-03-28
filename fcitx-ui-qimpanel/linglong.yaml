@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: fcitx-ui-qimpanel.linyaps
+  name: fcitx-ui-qimpanel
+  version: 2.1.3.2
+  kind: app
+  description: |-
+    Flexible Input Method Framework - Qt IMPanel user interface
+    Fcitx is a input method framework with extension support, which provides
+    an interface for entering characters of different scripts in applications
+    using a variety of mapping systems.
+
+    This package provides the Qt IMPanel user interface developed by
+    Ubuntu Kylin Team.
+command:
+- /opt/apps/fcitx-ui-qimpanel.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
