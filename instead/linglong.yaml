@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: instead.linyaps
+  name: instead
+  version: 3.3.2.1
+  kind: app
+  description: |-
+    Simple text adventures/visual novels engine
+    INSTEAD -- INterpreter of Simple TExt ADventure.
+    Using INSTEAD you can create and play games that could be classified
+    as a mix of visual novel and text quest.
+
+    Features:
+    * Simple story source code (Lua-based script)
+    * GUI interface that supports music and pictures
+    * Theme support
+    * Portability (INSTEAD depends on SDL and Lua)
+
+    Game repository: https://instead-hub.github.io/page/games/
+command:
+- /opt/apps/instead.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
