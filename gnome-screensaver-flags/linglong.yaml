@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: gnome-screensaver-flags.linyaps
+  name: gnome-screensaver-flags
+  version: 0.1.0.1
+  kind: app
+  description: |-
+    Screensaver for GNOME with flags of the world.
+    Screensaver contains about 250 static images with flags of the world.
+command:
+- /opt/apps/gnome-screensaver-flags.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
