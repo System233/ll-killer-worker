@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: minuet.linyaps
+  name: minuet
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    KDE Software for Music Education
+    Music education Free Software, thoughtfully designed to push your musical
+    skills to the next level. Enhance your ability to recognize intervals, chords,
+    rhythm, and scales while enjoying all the power of Free Software.
+command:
+- /opt/apps/minuet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
