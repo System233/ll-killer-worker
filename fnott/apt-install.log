@@ -1,0 +1,49 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libfcft4t64 libpng16-16t64 libutf8proc3
+The following packages will be REMOVED:
+  libpng16-16
+The following NEW packages will be installed:
+  fnott libfcft4t64 libpng16-16t64 libutf8proc3
+0 upgraded, 4 newly installed, 1 to remove and 450 not upgraded.
+Need to get 400 kB of archives.
+After this operation, 796 kB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libpng16-16t64 arm64 1.6.43-5build1 [185 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libutf8proc3 arm64 2.9.0-1build1 [71.1 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libfcft4t64 arm64 3.1.8-1.1build1 [54.9 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 fnott arm64 1.4.1+ds-1build3 [89.2 kB]
+Fetched 400 kB in 1s (468 kB/s)
+dpkg: libpng16-16:arm64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:arm64 depends on libpng16-16 (>= 1.6.2).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Removing libpng16-16:arm64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27729 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_arm64.deb ...
+Unpacking libpng16-16t64:arm64 (1.6.43-5build1) ...
+Selecting previously unselected package libutf8proc3:arm64.
+Preparing to unpack .../libutf8proc3_2.9.0-1build1_arm64.deb ...
+Unpacking libutf8proc3:arm64 (2.9.0-1build1) ...
+Selecting previously unselected package libfcft4t64.
+Preparing to unpack .../libfcft4t64_3.1.8-1.1build1_arm64.deb ...
+Unpacking libfcft4t64 (3.1.8-1.1build1) ...
+Selecting previously unselected package fnott.
+Preparing to unpack .../fnott_1.4.1+ds-1build3_arm64.deb ...
+Unpacking fnott (1.4.1+ds-1build3) ...
+Setting up libutf8proc3:arm64 (2.9.0-1build1) ...
+Setting up libfcft4t64 (3.1.8-1.1build1) ...
+Setting up libpng16-16t64:arm64 (1.6.43-5build1) ...
+Setting up fnott (1.4.1+ds-1build3) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
