@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: gnunet-gtk.linyaps
+  name: gnunet-gtk
+  version: 0.20.0.4
+  kind: app
+  description: |-
+    GNU's framework for secure peer-to-peer networking (GTK+ client)
+    GNUnet is a framework for secure peer-to-peer networking that does not use any
+    centralized or otherwise trusted services. Its high-level goal is to provide a
+    strong free software foundation for a global network that provides security
+    and in particular respects privacy.
+
+    This package contains the graphical client, using the GTK+ toolkit. In order
+    use GNUnet, you also need gnunet either on your server or on your local
+    machine.
+command:
+- /opt/apps/gnunet-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
