@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: jmol.linyaps
+  name: jmol
+  version: 14.32.83.3
+  kind: app
+  description: |-
+    Molecular Viewer
+    Jmol is a Java molecular viewer for three-dimensional chemical structures.
+    Features include reading a variety of file types and output from quantum
+    chemistry programs, and animation of multi-frame files and computed normal
+    modes from quantum programs.  It includes with features for chemicals,
+    crystals, materials and biomolecules.  Jmol might be useful for students,
+    educators, and researchers in chemistry and biochemistry.
+
+    File formats read by Jmol include PDB, XYZ, CIF, CML, MDL Molfile, Gaussian,
+    GAMESS, MOPAC, ABINIT, ACES-II, Dalton and VASP.
+command:
+- /opt/apps/jmol.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
