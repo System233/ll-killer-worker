@@ -1,0 +1,19 @@
+包名:fgallery.linyaps
+Layer文件:fgallery.linyaps_1.9.1.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: fgallery.linyaps_1.9.1.2_arm64_binary.layer
+offset: 1247
+mountpoint: /tmp/tmp.2KTtfFtlIO/mnt
+dbglevel: 0
+Traceback (most recent call last):
+  File "/usr/bin/fcaption", line 9, in <module>
+    from PyQt6 import QtCore, QtGui, QtWidgets
+ModuleNotFoundError: No module named 'PyQt6'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/fcaption", line 11, in <module>
+    from PyQt5 import QtCore, QtGui, QtWidgets
+ModuleNotFoundError: No module named 'PyQt5'
