@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: lingot.linyaps
+  name: lingot
+  version: 1.1.1.5
+  kind: app
+  description: |-
+    accurate and easy to use musical instrument tuner
+    Lingot is a musical instrument tuner. It's accurate, easy to use, and
+    highly configurable. Originally conceived to tune electric guitars,
+    it can now be used to tune any instrument.
+
+    It looks like an analogic tuner, with a gauge indicating the relative
+    shift to a certain note indicating that note and its frequency.
+command:
+- /opt/apps/lingot.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
