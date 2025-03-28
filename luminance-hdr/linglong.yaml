@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: luminance-hdr.linyaps
+  name: luminance-hdr
+  version: 2.6.1.3
+  kind: app
+  description: |-
+    graphical user interface providing a workflow for HDR imaging
+    Features:
+    * Create an HDR file from a set of images (formats: JPEG, TIFF 8bit and
+    16bit, RAW) of the same scene taken at different exposure setting.
+    * Save and load HDR images.
+    * Rotate and resize HDR images.
+    * Tonemap HDR images.
+    * Copy exif data between sets of images.
+
+    Supported HDR formats:
+    * OpenEXR (extension: exr).
+    * Radiance RGBE (extension: hdr).
+    * Tiff formats: 16bit, 32bit (float) and LogLuv (extension: tiff).
+    * Raw image formats (extension: various).
+    * PFS native format (extension: pfs).
+
+    Supported LDR formats: JPEG, PNG, PPM, PBM, TIFF (8 bit).
+command:
+- /opt/apps/luminance-hdr.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
