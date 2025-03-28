@@ -1,0 +1,91 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  gcc-14-base libgcc-s1 libgfortran5 libgomp1 libquadmath0 libssl3t64
+  libstdc++6 sudo
+The following NEW packages will be installed:
+  gcc-14-base libgfortran5 libquadmath0 libssl3t64 matlab-support sudo
+The following packages will be upgraded:
+  libgcc-s1 libgomp1 libstdc++6
+3 upgraded, 6 newly installed, 0 to remove and 449 not upgraded.
+Need to get 5121 kB of archives.
+After this operation, 14.5 MB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 gcc-14-base amd64 14.2.0-4ubuntu2~24.04 [50.8 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgcc-s1 amd64 14.2.0-4ubuntu2~24.04 [78.6 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libstdc++6 amd64 14.2.0-4ubuntu2~24.04 [791 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libssl3t64 amd64 3.0.13-0ubuntu3.5 [1940 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 sudo amd64 1.9.15p5-3ubuntu5 [948 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgfortran5 amd64 14.2.0-4ubuntu2~24.04 [916 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgomp1 amd64 14.2.0-4ubuntu2~24.04 [148 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libquadmath0 amd64 14.2.0-4ubuntu2~24.04 [153 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble/multiverse amd64 matlab-support all 0.1 [94.7 kB]
+Fetched 5121 kB in 0s (37.8 MB/s)
+Selecting previously unselected package gcc-14-base:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../gcc-14-base_14.2.0-4ubuntu2~24.04_amd64.deb ...
+Unpacking gcc-14-base:amd64 (14.2.0-4ubuntu2~24.04) ...
+Setting up gcc-14-base:amd64 (14.2.0-4ubuntu2~24.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27599 files and directories currently installed.)
+Preparing to unpack .../libgcc-s1_14.2.0-4ubuntu2~24.04_amd64.deb ...
+Unpacking libgcc-s1:amd64 (14.2.0-4ubuntu2~24.04) over (13.2.0-3deepin2) ...
+Setting up libgcc-s1:amd64 (14.2.0-4ubuntu2~24.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27599 files and directories currently installed.)
+Preparing to unpack .../libstdc++6_14.2.0-4ubuntu2~24.04_amd64.deb ...
+Unpacking libstdc++6:amd64 (14.2.0-4ubuntu2~24.04) over (13.2.0-3deepin2) ...
+Setting up libstdc++6:amd64 (14.2.0-4ubuntu2~24.04) ...
+Selecting previously unselected package libssl3t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27599 files and directories currently installed.)
+Preparing to unpack .../0-libssl3t64_3.0.13-0ubuntu3.5_amd64.deb ...
+Unpacking libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:amd64 (3.2.0-2) ...
+Selecting previously unselected package sudo.
+Preparing to unpack .../1-sudo_1.9.15p5-3ubuntu5_amd64.deb ...
+Unpacking sudo (1.9.15p5-3ubuntu5) ...
+Selecting previously unselected package libgfortran5:amd64.
+Preparing to unpack .../2-libgfortran5_14.2.0-4ubuntu2~24.04_amd64.deb ...
+Unpacking libgfortran5:amd64 (14.2.0-4ubuntu2~24.04) ...
+Preparing to unpack .../3-libgomp1_14.2.0-4ubuntu2~24.04_amd64.deb ...
+Unpacking libgomp1:amd64 (14.2.0-4ubuntu2~24.04) over (13.2.0-3deepin2) ...
+Selecting previously unselected package libquadmath0:amd64.
+Preparing to unpack .../4-libquadmath0_14.2.0-4ubuntu2~24.04_amd64.deb ...
+Unpacking libquadmath0:amd64 (14.2.0-4ubuntu2~24.04) ...
+Selecting previously unselected package matlab-support.
+Preparing to unpack .../5-matlab-support_0.1_all.deb ...
+Unpacking matlab-support (0.1) ...
+Setting up libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Setting up libgomp1:amd64 (14.2.0-4ubuntu2~24.04) ...
+Setting up libquadmath0:amd64 (14.2.0-4ubuntu2~24.04) ...
+Setting up sudo (1.9.15p5-3ubuntu5) ...
+
+Configuration file '/etc/pam.d/sudo', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/pam.d/sudo-i', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sudo.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sudo_logsrvd.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sudoers', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sudoers.d/README', does not exist on system.
+Installing new config file as you requested.
+Setting up libgfortran5:amd64 (14.2.0-4ubuntu2~24.04) ...
+Setting up matlab-support (0.1) ...
+No matlab found and maybe running in non-interactive mode. No way out -- failing...
+dpkg: error processing package matlab-support (--configure):
+ installed matlab-support package post-installation script subprocess returned error exit status 1
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Errors were encountered while processing:
+ matlab-support
+E: Sub-process /usr/bin/dpkg returned an error code (1)
