@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: enemylines3.linyaps
+  name: enemylines3
+  version: 1.25.0.1
+  kind: app
+  description: |-
+    semi-abstract first person 3d-shooter game
+    Enemylines 3 is a single-player game. You have to shoot evil robots before
+    they get too close, you can use your jetpack to escape. The robots can't jump
+    but they tear down walls.
+command:
+- /opt/apps/enemylines3.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
