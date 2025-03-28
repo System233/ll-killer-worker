@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: edubuntu-docs.linyaps
+  name: edubuntu-docs
+  version: 11.3.3.0
+  kind: app
+  description: |-
+    The Ubuntu Documentation Project - Edubuntu Documentation
+    This package holds the official Edubuntu-specific documentation, maintained
+    by the Ubuntu Documentation Team. It includes the Edubuntu Handbook,
+    About Edubuntu, and the School Advocacy Guide.
+
+    The guides can be viewed using Yelp, the GNOME help browser.
+command:
+- /opt/apps/edubuntu-docs.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
