@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: lanxum-sane-backend.linyaps
+  name: lanxum-sane-backend
+  version: 20200702.0.0.2
+  kind: app
+  description: SANE-Backend for lanxum scanner
+command:
+- /opt/apps/lanxum-sane-backend.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
