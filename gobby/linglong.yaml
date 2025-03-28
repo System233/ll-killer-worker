@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: gobby.linyaps
+  name: gobby
+  version: 0.6.0.2
+  kind: app
+  description: |-
+    infinote-based collaborative text editor
+    Gobby is an editor which allows one to edit text documents and source files
+    collaboratively over a network. All users could work on the file
+    simultaneously without the need to lock it. The parts the various users
+    write are highlighted in different colours and it supports syntax
+    highlighting of various programming and markup languages.
+
+    Gobby is portable to both Windows and Unix-like platforms and makes use of
+    the Gtk+ toolkit. A dedicated server is available in the infinoted package.
+command:
+- /opt/apps/gobby.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
