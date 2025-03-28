@@ -1,0 +1,34 @@
+正在测试: APPID=gigolo.linyaps LAYER=gigolo.linyaps_0.5.3.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install gigolo.linyaps_0.5.3.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:gigolo.linyaps
+Layer文件:gigolo.linyaps_0.5.3.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: gigolo.linyaps_0.5.3.1_arm64_binary.layer
+offset: 597
+mountpoint: /tmp/tmp.5NqpfzJRl3/mnt
+dbglevel: 0
+[成功] gigolo.desktop: org.xfce.gigolo -> /opt/apps/gigolo.linyaps/files/share/icons/hicolor/128x128/apps/org.xfce.gigolo.png
+[成功] /opt/apps/gigolo.linyaps/files/share/applications/gigolo.desktop: /opt/apps/gigolo.linyaps/files/entrypoint.sh gigolo
+[正在测试启动项]
+包名:gigolo.linyaps
+Layer文件:gigolo.linyaps_0.5.3.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: gigolo.linyaps_0.5.3.1_arm64_binary.layer
+offset: 597
+mountpoint: /tmp/tmp.3W9HQBxGsn/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run gigolo.linyaps -- /opt/apps/gigolo.linyaps/files/entrypoint.sh gigolo
+[PID 22964] 进程已启动
+[PID 22964] 已检测到窗口:PID=36
+[PID 22964] 正在截图 0秒: tests/screen0-0.jpg
+[PID 22964] 正在截图 1秒: tests/screen0-1.jpg
+[PID 22964] 正在截图 4秒: tests/screen0-4.jpg
+[PID 22964] 正在截图 5秒: tests/screen0-5.jpg
+[PID 22964] 正在通知并等待进程退出
+[PID 22964] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall gigolo.linyaps
