@@ -1,12 +1,12 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|1285|798 |487 | 62.10%| 25.75%|
+|3099|1289|799 |490 | 61.99%| 25.78%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|1046|712 |334 | 68.07%| 25.81%|
-|deepin-v23|340|239|86 |153 | 35.98%| 25.29%|
+|ubuntu-noble|2759|1048|713 |335 | 68.03%| 25.84%|
+|deepin-v23|340|241|86 |155 | 35.68%| 25.29%|
 ## 详细结果
 | 包名  | 架构 |仓库| 版本 | 测试结果 | SHA256 |killer版本|
 |-------|-----|----|------|---------|--------|---------|
@@ -1294,4 +1294,8 @@
 | [iem-plugin-suite-standalone](./iem-plugin-suite-standalone) | arm64  | ubuntu-noble | 1.14.1-1build2 | ![screen0-5.jpg](./iem-plugin-suite-standalone/tests/screen0-5.jpg) ![screen1-5.jpg](./iem-plugin-suite-standalone/tests/screen1-5.jpg) ![screen2-5.jpg](./iem-plugin-suite-standalone/tests/screen2-5.jpg) ![screen3-5.jpg](./iem-plugin-suite-standalone/tests/screen3-5.jpg) ![screen4-5.jpg](./iem-plugin-suite-standalone/tests/screen4-5.jpg) ![screen5-5.jpg](./iem-plugin-suite-standalone/tests/screen5-5.jpg) ![screen6-5.jpg](./iem-plugin-suite-standalone/tests/screen6-5.jpg) ![screen7-5.jpg](./iem-plugin-suite-standalone/tests/screen7-5.jpg) ![screen8-5.jpg](./iem-plugin-suite-standalone/tests/screen8-5.jpg) ![screen9-5.jpg](./iem-plugin-suite-standalone/tests/screen9-5.jpg) ![screen10-5.jpg](./iem-plugin-suite-standalone/tests/screen10-5.jpg) ![screen11-5.jpg](./iem-plugin-suite-standalone/tests/screen11-5.jpg) ![screen12-5.jpg](./iem-plugin-suite-standalone/tests/screen12-5.jpg) ![screen13-5.jpg](./iem-plugin-suite-standalone/tests/screen13-5.jpg) ![screen14-5.jpg](./iem-plugin-suite-standalone/tests/screen14-5.jpg) ![screen15-5.jpg](./iem-plugin-suite-standalone/tests/screen15-5.jpg) ![screen16-5.jpg](./iem-plugin-suite-standalone/tests/screen16-5.jpg) ![screen17-5.jpg](./iem-plugin-suite-standalone/tests/screen17-5.jpg) ![screen18-5.jpg](./iem-plugin-suite-standalone/tests/screen18-5.jpg) ![screen19-5.jpg](./iem-plugin-suite-standalone/tests/screen19-5.jpg) ![screen20-5.jpg](./iem-plugin-suite-standalone/tests/screen20-5.jpg) | [SHA256](./iem-plugin-suite-standalone/SHA256SUMS) | N/A |
 | [igv](./igv) | arm64  | ubuntu-noble | 2.17.3+dfsg-1 | ![screen0-5.jpg](./igv/tests/screen0-5.jpg) | [SHA256](./igv/SHA256SUMS) | N/A |
 | [ii-esu](./ii-esu) | arm64  | ubuntu-noble | 1.0a.dfsg2-2 | ![screen0-5.jpg](./ii-esu/tests/screen0-5.jpg) | [SHA256](./ii-esu/SHA256SUMS) | N/A |
+| [im-config](./im-config) | arm64  | deepin-v23 | 0.57-2deepin2-20250327 | 失败 | [SHA256](./im-config/SHA256SUMS) | v1.5.0-arm64-nevm |
+| [imagej](./imagej) | arm64  | ubuntu-noble | 1.54g-1-20250327 | 失败 | [SHA256](./imagej/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [imagemagick-6.q16](./imagemagick-6.q16) | arm64  | deepin-v23 | 6.9.13.12+dfsg1-1deepin1-20250327 | 失败 | [SHA256](./imagemagick-6.q16/SHA256SUMS) | v1.5.0-arm64-nevm |
+| [imagemagick-6.q16hdri](./imagemagick-6.q16hdri) | arm64  | deepin-v23 | 6.9.13.12+dfsg1-1deepin1-20250327 | 失败 | [SHA256](./imagemagick-6.q16hdri/SHA256SUMS) | v1.5.0-arm64-nevm |
+| [imagination](./imagination) | arm64  | ubuntu-noble | 3.6-2build3 | ![screen0-5.jpg](./imagination/tests/screen0-5.jpg) | [SHA256](./imagination/SHA256SUMS) | v1.5.0-arm64-nevm |
