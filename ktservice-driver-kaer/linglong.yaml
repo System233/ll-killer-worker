@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: ktservice-driver-kaer.linyaps
+  name: ktservice-driver-kaer
+  version: 1.0.28.0
+  kind: app
+  description: idcard reader
+command:
+- /opt/apps/ktservice-driver-kaer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
