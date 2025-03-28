@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gmult.linyaps
+  name: gmult
+  version: 11.0.0.1
+  kind: app
+  description: |-
+    figure out which letters are which numbers
+    Multiplication Puzzle is a simple GTK 4 game that emulates the
+    multiplication game found in Emacs.  Basically, a multiplication
+    problem is shown with all digits replaced by letters.  Your job
+    is to guess which letter represents which number.
+command:
+- /opt/apps/gmult.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
