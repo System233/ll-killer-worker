@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: explosive-c4.linyaps
+  name: explosive-c4
+  version: 1.2.0.3
+  kind: app
+  description: |-
+    Four in a row game
+    The classic four in a row game.
+    Two players can play on the same device, or it can be played
+    against an AI.
+
+    It is similar to kfourinline but optimised for mobile devices
+    with touch screens and slower CPUs.
+command:
+- /opt/apps/explosive-c4.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
