@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kde-config-updates.linyaps
+  name: kde-config-updates
+  version: 5.27.12.0
+  kind: app
+  description: |-
+    Unattended updates configuration
+    This package contains a configuration module for configuring
+    unattended updates for fleet administrators without the need to
+    use system updaters manually.
+
+    This package is part of Plasma Discover.
+command:
+- /opt/apps/kde-config-updates.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
