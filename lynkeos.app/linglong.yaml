@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: lynkeos.app.linyaps
+  name: lynkeos.app
+  version: 3.7.0.1
+  kind: app
+  description: |-
+    GNUstep app for processing planetary astronomical images
+    Lynkeos is an application dedicated to the processing of astronomical
+    (mainly planetary) images taken with a webcam through a telescope.
+    By stacking the best images, the signal to noise ratio is increased
+    and details lost in the noise of individual images become visible in
+    the resulting image.
+command:
+- /opt/apps/lynkeos.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
