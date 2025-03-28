@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: matchbox-panel.linyaps
+  name: matchbox-panel
+  version: 0.9.3.1
+  kind: app
+  description: |-
+    desktop panel for resource-limited systems
+    Matchbox is a base environment for the X Window System running on non-desktop
+    embedded platforms such as handhelds, set-top boxes, kiosks and anything else
+    for which screen space, input mechanisms or system resources are limited.
+
+    This package contains the Matchbox desktop panel.
+command:
+- /opt/apps/matchbox-panel.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
