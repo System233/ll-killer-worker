@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: mate-user-admin.linyaps
+  name: mate-user-admin
+  version: 1.7.0.1
+  kind: app
+  description: |-
+    MATE User Manager
+    User and group management utility suitable for lightweight desktop
+    environments such as MATE or Xfce.
+
+    This utility is intended to replace the user-management functionality
+    of the old gnome-system-tools package.
+command:
+- /opt/apps/mate-user-admin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
