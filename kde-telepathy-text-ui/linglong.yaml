@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: kde-telepathy-text-ui.linyaps
+  name: kde-telepathy-text-ui
+  version: 23.4.3.0
+  kind: app
+  description: |-
+    Telepathy text chat UI for the KDE Plasma Desktop
+    This package provides a telepathy handler for text channels, a program
+    that in other words allows you to chat with your contacts using instant
+    text messages.
+
+    In addition, this package also provides a UI for viewing telepathy
+    text chat logs.
+
+    This package is not meant to be used standalone. It is recommended
+    to install the kde-telepathy metapackage instead.
+command:
+- /opt/apps/kde-telepathy-text-ui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
