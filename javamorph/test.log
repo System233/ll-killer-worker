@@ -1,0 +1,28 @@
+正在测试: APPID=javamorph.linyaps LAYER=javamorph.linyaps_0.0.20100201.4_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install javamorph.linyaps_0.0.20100201.4_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:javamorph.linyaps
+Layer文件:javamorph.linyaps_0.0.20100201.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: javamorph.linyaps_0.0.20100201.4_arm64_binary.layer
+offset: 795
+mountpoint: /tmp/tmp.Vlwsi3xsIf/mnt
+dbglevel: 0
+[成功] javamorph.desktop: javamorph.linyaps-JavaMorph -> /opt/apps/javamorph.linyaps/files/share/pixmaps/javamorph.linyaps-JavaMorph.xpm
+[成功] /opt/apps/javamorph.linyaps/files/share/applications/javamorph.desktop: /opt/apps/javamorph.linyaps/files/entrypoint.sh /usr/bin/javamorph
+[正在测试启动项]
+包名:javamorph.linyaps
+Layer文件:javamorph.linyaps_0.0.20100201.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: javamorph.linyaps_0.0.20100201.4_arm64_binary.layer
+offset: 795
+mountpoint: /tmp/tmp.9vfgiyDsp0/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run javamorph.linyaps -- /opt/apps/javamorph.linyaps/files/entrypoint.sh /usr/bin/javamorph
+[PID 14888] 进程已启动
+[PID 14888] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall javamorph.linyaps
