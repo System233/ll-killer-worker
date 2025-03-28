@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: mikutter.linyaps
+  name: mikutter
+  version: 5.0.4.2
+  kind: app
+  description: |-
+    plugin-extensible Twitter client
+    Mikutter is a multi-pane Twitter client with several advanced
+    features:
+    * different tweet views (flat list, threaded list, searches);
+    * user profile and activity views;
+    * lists of followers and followings (friends);
+    * plugin extensibility.
+command:
+- /opt/apps/mikutter.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
