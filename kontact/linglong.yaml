@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kontact.linyaps
+  name: kontact
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    integrated application for personal information management
+    Kontact is the integrated solution to your personal information management
+    needs. It combines applications like KMail, KOrganizer and
+    KAddressBook into a single interface to provide easy access to mail,
+    scheduling, address book and other PIM functionality.
+command:
+- /opt/apps/kontact.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
