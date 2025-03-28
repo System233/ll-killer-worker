@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: lxi-tools.linyaps
+  name: lxi-tools
+  version: 2.7.0.1
+  kind: app
+  description: |-
+    LAN eXtensions for Instrumentation (LXI) software interface
+    lxi-tools is collection of open source software tools that enables control of
+    LXI-compatible instruments such as modern oscilloscopes, power supplies,
+    spectrum analyzers etc.
+command:
+- /opt/apps/lxi-tools.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
