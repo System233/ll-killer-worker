@@ -1,0 +1,43 @@
+正在测试: APPID=joe-jupp.linyaps LAYER=joe-jupp.linyaps_3.1.41.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install joe-jupp.linyaps_3.1.41.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:joe-jupp.linyaps
+Layer文件:joe-jupp.linyaps_3.1.41.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: joe-jupp.linyaps_3.1.41.1_x86_64_binary.layer
+offset: 839
+mountpoint: /tmp/tmp.JKe6E51VSP/mnt
+dbglevel: 0
+[成功] org.mirbsd.Jupp.jmacs.desktop: joe-jupp.linyaps-jmacs -> /opt/apps/joe-jupp.linyaps/files/share/icons/hicolor/64x64/apps/joe-jupp.linyaps-jmacs.png
+[成功] /opt/apps/joe-jupp.linyaps/files/share/applications/org.mirbsd.Jupp.jmacs.desktop: /opt/apps/joe-jupp.linyaps/files/entrypoint.sh jmacs %F
+[成功] org.mirbsd.Jupp.joe.desktop: joe-jupp.linyaps-joe -> /opt/apps/joe-jupp.linyaps/files/share/icons/hicolor/64x64/apps/joe-jupp.linyaps-joe.png
+[成功] /opt/apps/joe-jupp.linyaps/files/share/applications/org.mirbsd.Jupp.joe.desktop: /opt/apps/joe-jupp.linyaps/files/entrypoint.sh joe %F
+[成功] org.mirbsd.Jupp.jpico.desktop: joe-jupp.linyaps-jpico -> /opt/apps/joe-jupp.linyaps/files/share/icons/hicolor/64x64/apps/joe-jupp.linyaps-jpico.png
+[成功] /opt/apps/joe-jupp.linyaps/files/share/applications/org.mirbsd.Jupp.jpico.desktop: /opt/apps/joe-jupp.linyaps/files/entrypoint.sh jpico %F
+[成功] org.mirbsd.Jupp.jstar.desktop: joe-jupp.linyaps-jstar -> /opt/apps/joe-jupp.linyaps/files/share/icons/hicolor/64x64/apps/joe-jupp.linyaps-jstar.png
+[成功] /opt/apps/joe-jupp.linyaps/files/share/applications/org.mirbsd.Jupp.jstar.desktop: /opt/apps/joe-jupp.linyaps/files/entrypoint.sh jstar %F
+[正在测试启动项]
+包名:joe-jupp.linyaps
+Layer文件:joe-jupp.linyaps_3.1.41.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: joe-jupp.linyaps_3.1.41.1_x86_64_binary.layer
+offset: 839
+mountpoint: /tmp/tmp.8SrqJ3E449/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run joe-jupp.linyaps -- /opt/apps/joe-jupp.linyaps/files/entrypoint.sh jmacs
+[PID 5672] 进程已启动
+[PID 5672] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run joe-jupp.linyaps -- /opt/apps/joe-jupp.linyaps/files/entrypoint.sh joe
+[PID 5797] 进程已启动
+[PID 5797] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run joe-jupp.linyaps -- /opt/apps/joe-jupp.linyaps/files/entrypoint.sh jpico
+[PID 5921] 进程已启动
+[PID 5921] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run joe-jupp.linyaps -- /opt/apps/joe-jupp.linyaps/files/entrypoint.sh jstar
+[PID 6046] 进程已启动
+[PID 6046] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall joe-jupp.linyaps
