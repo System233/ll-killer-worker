@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: kitty.linyaps
+  name: kitty
+  version: 0.35.2.1
+  kind: app
+  description: |-
+    fast, featureful, GPU based terminal emulator
+    Kitty supports modern terminal features like: graphics, unicode,
+    true-color, OpenType ligatures, mouse protocol, focus tracking, and
+    bracketed paste.
+
+    Kitty has a framework for "kittens", small terminal programs that can be used
+    to extend its functionality.
+command:
+- /opt/apps/kitty.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
