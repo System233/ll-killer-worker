@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gnome-kiosk-script-session.linyaps
+  name: gnome-kiosk-script-session
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    Basic session used for running kiosk application from shell script
+    This package generates a shell script and the necessary scaffolding
+    to start that shell script within a kiosk session.
+command:
+- /opt/apps/gnome-kiosk-script-session.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
