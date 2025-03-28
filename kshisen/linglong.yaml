@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kshisen.linyaps
+  name: kshisen
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Shisen-Sho solitaire game
+    KShisen is a Shisen-Sho game where the player removes adjascent pairs of
+    Mahjongg tiles to clear the board.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/kshisen.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
