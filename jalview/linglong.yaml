@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: jalview.linyaps
+  name: jalview
+  version: 2.11.3.1
+  kind: app
+  description: |-
+    multiple alignment editor
+    JalView is a Java DNA, RNA and protein sequence alignment editor that can work
+    with sequence alignments produced by programs implementing alignment
+    algorithms such as clustalw, kalign and t-coffee.
+
+    It has lots of features, is actively developed, and will compare
+    advantageously to BioEdit, while being free as in free speech!
+command:
+- /opt/apps/jalview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
