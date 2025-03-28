@@ -1,0 +1,44 @@
+包名:geary.linyaps
+Layer文件:geary.linyaps_44.1.0.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: geary.linyaps_44.1.0.2_x86_64_binary.layer
+offset: 640
+mountpoint: /tmp/tmp.8ziedGVsrN/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+*[wrn] 04:20:41.0716 dbind:AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+MESA: error: ZINK: failed to choose pdev
+libEGL warning: egl: failed to create dri2 screen
+*[wrn] 04:20:42.0040 geary:application-certificate-manager.vala:71: No GCR store found, GCR certificate pinning unavailable
+*[wrn] 04:20:42.0040 geary:application-certificate-manager.vala:75: GCR store is not RW, GCR certificate pinning unavailable
+*[wrn] 04:20:42.0069 folks:Failed to find primary PersonaStore with type ID 'eds' and ID 'system-address-book'.
+Individuals will not be linked properly and creating new links between Personas will not work.
+The configured primary PersonaStore's backend may not be installed. If you are unsure, check with your distribution.
+*[wrn] 04:20:42.0072 geary:application-client.vala:982: Error creating controller: The name org.freedesktop.secrets was not provided by any .service files
+![crt] 04:20:43.0687 GLib-GObject:object_ref: assertion '!object_already_finalized' failed
+![crt] 04:20:43.0687 GLib-GObject:invalid (NULL) pointer instance
+![crt] 04:20:43.0687 GLib-GObject:g_signal_connect_object: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+![crt] 04:20:43.0687 folks:folks_backend_store_get_enabled_backends: assertion 'self != NULL' failed
+![crt] 04:20:43.0687 [no domain]:gee_map_get_values: assertion 'self != NULL' failed
+![crt] 04:20:43.0688 [no domain]:gee_iterable_iterator: assertion 'self != NULL' failed
+![crt] 04:20:43.0688 [no domain]:gee_iterator_next: assertion 'self != NULL' failed
+![crt] 04:20:43.0688 folks:folks_backend_store_load_backends: assertion 'self != NULL' failed
+![crt] 04:20:43.0690 GLib-GIO:g_bus_unwatch_name: assertion 'watcher_id > 0' failed
+![crt] 04:20:43.0691 GLib-GIO:g_bus_unwatch_name: assertion 'watcher_id > 0' failed
+*[wrn] 04:20:43.0691 geary:application-plugin-manager.vala:794: Activating plugin notification-badge threw error, unloading: An object is already exported for the interface com.canonical.Unity.LauncherEntry at /org/gnome/Geary/plugin/notificationbadge
+*[wrn] 04:20:43.0691 geary:application-plugin-manager.vala:794: Activating plugin notification-badge threw error, unloading: An object is already exported for the interface com.canonical.Unity.LauncherEntry at /org/gnome/Geary/plugin/notificationbadge
+*[wrn] 04:20:43.0691 geary:application-certificate-manager.vala:71: No GCR store found, GCR certificate pinning unavailable
+*[wrn] 04:20:43.0691 geary:application-certificate-manager.vala:75: GCR store is not RW, GCR certificate pinning unavailable
+*[wrn] 04:20:43.0781 geary:application-client.vala:982: Error creating controller: The name org.freedesktop.secrets was not provided by any .service files
+![crt] 04:20:43.0987 GLib-GObject:invalid (NULL) pointer instance
+![crt] 04:20:43.0987 GLib-GObject:g_signal_connect_object: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+![crt] 04:20:43.0988 GLib-GObject:invalid (NULL) pointer instance
+![crt] 04:20:43.0988 GLib-GObject:g_signal_connect_object: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+![crt] 04:20:43.0988 geary:application_account_interface_get_account_contexts: assertion 'APPLICATION_IS_ACCOUNT_INTERFACE (self)' failed
+![crt] 04:20:43.0988 [no domain]:gee_iterable_iterator: assertion 'self != NULL' failed
+![crt] 04:20:43.0988 [no domain]:gee_iterator_next: assertion 'self != NULL' failed
+![crt] 04:20:43.0989 geary:application_controller_register_window: assertion 'APPLICATION_IS_CONTROLLER (self)' failed
+![crt] 04:20:44.0019 geary:application_controller_window_focus_in: assertion 'APPLICATION_IS_CONTROLLER (self)' failed
