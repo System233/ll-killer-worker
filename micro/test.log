@@ -1,0 +1,30 @@
+正在测试: APPID=micro.linyaps LAYER=micro.linyaps_2.0.13.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install micro.linyaps_2.0.13.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:micro.linyaps
+Layer文件:micro.linyaps_2.0.13.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: micro.linyaps_2.0.13.1_arm64_binary.layer
+offset: 673
+mountpoint: /tmp/tmp.jXd5GthRip/mnt
+dbglevel: 0
+[成功] micro.desktop: micro.linyaps-micro-logo-mark -> /opt/apps/micro.linyaps/files/share/icons/hicolor/scalable/apps/micro.linyaps-micro-logo-mark.svg
+[成功] /opt/apps/micro.linyaps/files/share/applications/micro.desktop: /opt/apps/micro.linyaps/files/entrypoint.sh micro %F
+[正在测试启动项]
+包名:micro.linyaps
+Layer文件:micro.linyaps_2.0.13.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: micro.linyaps_2.0.13.1_arm64_binary.layer
+offset: 673
+mountpoint: /tmp/tmp.NLkIg9VyVC/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run micro.linyaps -- /opt/apps/micro.linyaps/files/entrypoint.sh micro
+[PID 5547] 进程已启动
+[PID 5547] 等待超时，未能检测到窗口
+[PID 5547] 正在通知并等待进程退出
+[PID 5547] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall micro.linyaps
