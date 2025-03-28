@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gridlock.app.linyaps
+  name: gridlock.app
+  version: 1.10.0.5
+  kind: app
+  description: |-
+    Collection of grid-based board games for GNUstep
+    Gridlock is a collection of grid-based board games for GNUstep, including
+    Ataxx, Reversi, Gomoku, Connect Four, Breakthrough, Glass Bead, Hexapawn,
+    Quad Wrangle, Cats and Dogs and Moray Eels. You can play against another
+    person or computer opponents of varying difficulty, even over the network.
+command:
+- /opt/apps/gridlock.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
