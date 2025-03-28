@@ -1,0 +1,33 @@
+version: "1"
+package:
+  id: lure-of-the-temptress.linyaps
+  name: lure-of-the-temptress
+  version: 1.1.0.1
+  kind: app
+  description: |-
+    classic 2D point and click fantasy adventure game
+    Lure of the Temptress was Revolution's very first adventure game and work
+    began on it in 1989, even before Revolution's inception as an actual games
+    development company.
+
+    You are Diermot, an unwilling hero who'd prefer a quiet life, and are, to all
+    intents and purposes, a good man. After decades of unrest the King has united
+    the warring factions in his kingdom and all his lands are at peace, except a
+    remote region around a town called Turnvale. A revolt has recently taken place
+    in Turnvale, a revolt orchestrated by an apprentice sorceress called Selena,
+    the titular temptress.
+    The king calls together his finest horsemen and heads off (with you in tow) to
+    Turnvale just to witness how hellish mercenary monsters called Skorl are
+    invading the town.
+
+    The king's men are defeated, the king is killed and you fall of your horse
+    and bang your head heavily on the ground. You have been unconscious for a
+    while when you realize that you are in a dingy cell guarded by a not so
+    friendly Skorl. Maybe it would be an idea to try and escape...
+
+    Note that this package only contains game-data. The game engine is provided by
+    ScummVM.
+command:
+- /opt/apps/lure-of-the-temptress.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
