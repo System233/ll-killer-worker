@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: kipi-plugins.linyaps
+  name: kipi-plugins
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    image manipulation/handling plugins for KIPI aware programs
+    KIPI plugins (KDE Image Plugin Interface) is an effort to develop a
+    common plugin structure.
+    Its aim is to share image plugins among graphic applications.
+command:
+- /opt/apps/kipi-plugins.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
