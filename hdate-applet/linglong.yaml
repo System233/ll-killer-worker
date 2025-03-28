@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: hdate-applet.linyaps
+  name: hdate-applet
+  version: 0.15.11.4
+  kind: app
+  description: |-
+    Hebrew calendar applet
+    A GNOME desktop applet providing an Hebrew calendar that gives the user easy
+    access to the Jewish calendar (including Hebrew date, parasha, sunset and
+    sunrise times, holydays and moon phase).
+command:
+- /opt/apps/hdate-applet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
