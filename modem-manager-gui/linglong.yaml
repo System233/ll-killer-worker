@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: modem-manager-gui.linyaps
+  name: modem-manager-gui
+  version: 0.0.20.6
+  kind: app
+  description: |-
+    GUI front-end for ModemManager / Wader / oFono
+    This program is a simple graphical interface for ModemManager, Wader and oFono
+    daemon D-Bus interfaces. It can send, receive and store SMS messages,
+    send USSD requests and read answers in GSM7 and UCS2 formats,
+    and scan for available mobile networks.
+command:
+- /opt/apps/modem-manager-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
