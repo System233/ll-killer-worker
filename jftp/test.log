@@ -1,0 +1,28 @@
+正在测试: APPID=jftp.linyaps LAYER=jftp.linyaps_1.60.0.4_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install jftp.linyaps_1.60.0.4_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:jftp.linyaps
+Layer文件:jftp.linyaps_1.60.0.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: jftp.linyaps_1.60.0.4_arm64_binary.layer
+offset: 869
+mountpoint: /tmp/tmp.uAcHELJUxG/mnt
+dbglevel: 0
+[31m[失败] jftp.desktop:jftp.xpm: 找不到此图标 [0m
+[成功] /opt/apps/jftp.linyaps/files/share/applications/jftp.desktop: /opt/apps/jftp.linyaps/files/entrypoint.sh jftp %u
+[正在测试启动项]
+包名:jftp.linyaps
+Layer文件:jftp.linyaps_1.60.0.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: jftp.linyaps_1.60.0.4_arm64_binary.layer
+offset: 869
+mountpoint: /tmp/tmp.Lkzq6rqx19/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run jftp.linyaps -- /opt/apps/jftp.linyaps/files/entrypoint.sh jftp
+[PID 10609] 进程已启动
+[PID 10609] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall jftp.linyaps
