@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: gretl-common.linyaps
+  name: gretl-common
+  version: 2023.0.0.2
+  kind: app
+  description: |-
+    GNU Regression, Econometric & Time-Series Library -- scripts package
+    The GNU Regression, Econometric and Time-Series Library (gretl) is a
+    software package for econometric analysis.  The package comprises a
+    shared library, a command-line client program, and a graphical client
+    built using GTK+.
+
+    This package provides scripts (included in the gretl sources) which are
+    used by the main gretl program.
+command:
+- /opt/apps/gretl-common.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
