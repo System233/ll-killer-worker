@@ -1,0 +1,69 @@
+正在测试: APPID=kdeconnect.linyaps LAYER=kdeconnect.linyaps_23.8.5.0_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install kdeconnect.linyaps_23.8.5.0_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:kdeconnect.linyaps
+Layer文件:kdeconnect.linyaps_23.8.5.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: kdeconnect.linyaps_23.8.5.0_x86_64_binary.layer
+offset: 695
+mountpoint: /tmp/tmp.K7M4oryCQz/mnt
+dbglevel: 0
+[31m[失败] kcm_kdeconnect.desktop:preferences-kde-connect: 找不到此图标 [0m
+[31m[失败] /opt/apps/kdeconnect.linyaps/files/share/applications/kcm_kdeconnect.desktop:systemsettings: 找不到此启动文件 [0m
+[成功] org.kde.kdeconnect-settings.desktop: kdeconnect -> /opt/apps/kdeconnect.linyaps/files/share/icons/hicolor/scalable/apps/kdeconnect.svg
+[成功] /opt/apps/kdeconnect.linyaps/files/share/applications/org.kde.kdeconnect-settings.desktop: /opt/apps/kdeconnect.linyaps/files/entrypoint.sh kdeconnect-settings
+[成功] org.kde.kdeconnect.app.desktop: kdeconnect -> /opt/apps/kdeconnect.linyaps/files/share/icons/hicolor/scalable/apps/kdeconnect.svg
+[成功] /opt/apps/kdeconnect.linyaps/files/share/applications/org.kde.kdeconnect.app.desktop: /opt/apps/kdeconnect.linyaps/files/entrypoint.sh kdeconnect-app
+[成功] org.kde.kdeconnect.daemon.desktop: kdeconnect -> /opt/apps/kdeconnect.linyaps/files/share/icons/hicolor/scalable/apps/kdeconnect.svg
+[成功] /opt/apps/kdeconnect.linyaps/files/share/applications/org.kde.kdeconnect.daemon.desktop: /opt/apps/kdeconnect.linyaps/files/entrypoint.sh /usr/lib/x86_64-linux-gnu/libexec/kdeconnectd
+[成功] org.kde.kdeconnect.handler.desktop: kdeconnect -> /opt/apps/kdeconnect.linyaps/files/share/icons/hicolor/scalable/apps/kdeconnect.svg
+[成功] /opt/apps/kdeconnect.linyaps/files/share/applications/org.kde.kdeconnect.handler.desktop: /opt/apps/kdeconnect.linyaps/files/entrypoint.sh kdeconnect-handler %U
+[成功] org.kde.kdeconnect.nonplasma.desktop: kdeconnect -> /opt/apps/kdeconnect.linyaps/files/share/icons/hicolor/scalable/apps/kdeconnect.svg
+[成功] /opt/apps/kdeconnect.linyaps/files/share/applications/org.kde.kdeconnect.nonplasma.desktop: /opt/apps/kdeconnect.linyaps/files/entrypoint.sh kdeconnect-indicator
+[成功] org.kde.kdeconnect.sms.desktop: kdeconnect -> /opt/apps/kdeconnect.linyaps/files/share/icons/hicolor/scalable/apps/kdeconnect.svg
+[成功] /opt/apps/kdeconnect.linyaps/files/share/applications/org.kde.kdeconnect.sms.desktop: /opt/apps/kdeconnect.linyaps/files/entrypoint.sh kdeconnect-sms
+[正在测试启动项]
+包名:kdeconnect.linyaps
+Layer文件:kdeconnect.linyaps_23.8.5.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: kdeconnect.linyaps_23.8.5.0_x86_64_binary.layer
+offset: 695
+mountpoint: /tmp/tmp.AEYXQ9qQRu/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run kdeconnect.linyaps -- /opt/apps/kdeconnect.linyaps/files/entrypoint.sh kdeconnect-settings
+[PID 27349] 进程已启动
+[PID 27349] 已检测到窗口:PID=36
+[PID 27349] 正在截图 0秒: tests/screen0-0.jpg
+[PID 27349] 正在截图 1秒: tests/screen0-1.jpg
+[PID 27349] 正在截图 3秒: tests/screen0-3.jpg
+[PID 27349] 正在截图 5秒: tests/screen0-5.jpg
+[PID 27349] 正在通知并等待进程退出
+[PID 27349] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run kdeconnect.linyaps -- /opt/apps/kdeconnect.linyaps/files/entrypoint.sh kdeconnect-app
+[PID 27523] 进程已启动
+[PID 27523] 已检测到窗口:PID=36
+[PID 27523] 正在截图 0秒: tests/screen1-0.jpg
+[PID 27523] 正在截图 1秒: tests/screen1-1.jpg
+[PID 27523] 正在截图 3秒: tests/screen1-3.jpg
+[PID 27523] 正在截图 5秒: tests/screen1-5.jpg
+[PID 27523] 正在通知并等待进程退出
+[PID 27523] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run kdeconnect.linyaps -- /opt/apps/kdeconnect.linyaps/files/entrypoint.sh kdeconnect-indicator
+[PID 27699] 进程已启动
+[PID 27699] 等待超时，未能检测到窗口
+[PID 27699] 正在通知并等待进程退出
+[PID 27699] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run kdeconnect.linyaps -- /opt/apps/kdeconnect.linyaps/files/entrypoint.sh kdeconnect-sms
+[PID 28009] 进程已启动
+[PID 28009] 已检测到窗口:PID=36
+[PID 28009] 正在截图 0秒: tests/screen3-0.jpg
+[PID 28009] 正在截图 1秒: tests/screen3-1.jpg
+[PID 28009] 正在截图 3秒: tests/screen3-3.jpg
+[PID 28009] 正在截图 5秒: tests/screen3-5.jpg
+[PID 28009] 正在通知并等待进程退出
+[PID 28009] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall kdeconnect.linyaps

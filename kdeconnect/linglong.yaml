@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kdeconnect.linyaps
+  name: kdeconnect
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    connect smartphones to your desktop devices
+    Tool to integrate your smartphone, tablet, and desktop devices.
+    Remote-control, share files, synchronize notifications, and more!
+    At the moment it only supports Android-based mobile devices. Linux desktop
+    devices are well-supported, with ports available for other operating systems.
+command:
+- /opt/apps/kdeconnect.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
