@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: glogic.linyaps
+  name: glogic
+  version: 2.6.0.6
+  kind: app
+  description: |-
+    graphical logic circuit simulator
+    gLogic is an educational graphical logic circuit simulator developed with
+    Python and GTK+. This program simulates logic circuits containing basic
+    components (e.g. NOT, AND, OR) and many advanced components like flip-flop.
+command:
+- /opt/apps/glogic.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
