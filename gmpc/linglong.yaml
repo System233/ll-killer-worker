@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: gmpc.linyaps
+  name: gmpc
+  version: 11.8.16.21
+  kind: app
+  description: |-
+    GNOME Music Player Client (graphical interface to MPD)
+    A graphical client for Music Player Daemon. Features include:
+    * Support for loading/saving playlists
+    * File Browser
+    * Browser based on ID3 information
+    * Search
+    * Current playlist viewer with search
+    * ID3 Information
+    * Cover art (via plugins)
+command:
+- /opt/apps/gmpc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
