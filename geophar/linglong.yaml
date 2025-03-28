@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: geophar.linyaps
+  name: geophar
+  version: 18.9.0.2
+  kind: app
+  description: |-
+    Swiss army knife for the math teacher
+    this application contains every tool you would like to find when
+    preparing math courses, exercises or their keys. Features:
+    - symbolic calculus
+    - tables of variations, LaTeX syntax
+    - dynamic geometry
+    - probability trees
+    - graphs
+    - function plotting
+    - histograms, etc.
+command:
+- /opt/apps/geophar.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
