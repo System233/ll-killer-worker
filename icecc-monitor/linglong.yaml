@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: icecc-monitor.linyaps
+  name: icecc-monitor
+  version: 3.3.0.2
+  kind: app
+  description: |-
+    monitor for icecc
+    icecc-monitor is a monitoring application for icecc (a distributed compiler).
+    It provides a view on the distributed compile network, which jobs run where
+    and details about jobs and nodes (statistics and overview information).
+
+    See the 'icecc' package for more information.
+command:
+- /opt/apps/icecc-monitor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
