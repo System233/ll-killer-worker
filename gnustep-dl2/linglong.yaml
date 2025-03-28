@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gnustep-dl2.linyaps
+  name: gnustep-dl2
+  version: 0.12.0.16
+  kind: app
+  description: |-
+    Objective-C Classes needed for Database Access
+    GNUstep Database Library Version 2 is needed by GNUstep applications that
+    communicate with databases.  It's an implementation of Apple's
+    Enterprise Objects Framework (EOF) v 3.0 (from NeXT), and Apple's
+    WebObjects 4.5 interface.
+command:
+- /opt/apps/gnustep-dl2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
