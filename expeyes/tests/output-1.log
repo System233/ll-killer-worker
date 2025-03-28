@@ -1,0 +1,16 @@
+包名:expeyes.linyaps
+Layer文件:expeyes.linyaps_5.3.1.6_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: expeyes.linyaps_5.3.1.6_arm64_binary.layer
+offset: 1087
+mountpoint: /tmp/tmp.Z1FTfpbkHe/mnt
+dbglevel: 0
+Traceback (most recent call last):
+  File "/usr/share/eyesj/main.py", line 3, in <module>
+    from utils import cnf
+  File "/usr/share/eyesj/utils.py", line 4, in <module>
+    from QtVersion import *
+  File "/usr/share/eyesj/QtVersion.py", line 31, in <module>
+    from PyQt5 import QtGui, QtCore, QtWidgets
+ModuleNotFoundError: No module named 'PyQt5'

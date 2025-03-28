@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: expeyes.linyaps
+  name: expeyes
+  version: 5.3.1.6
+  kind: app
+  description: |-
+    hardware & software framework for developing science experiments
+    This package provides high level interfaces for making science experiments
+    with an ExpEYES box.
+
+    ExpEYES is from the PHOENIX project of Inter-University Accelerator
+    Centre, New Delhi. It is a hardware & software framework for
+    developing science experiments, demonstrations and projects and learn
+    science and engineering by exploration. Capable of doing real time
+    measurements and analysing the data in different ways. Analog
+    voltages are measured with 0.025% resolution and time intervals with
+    one microsecond. This project is based on Free and Open Source
+    software, mostly written in Python programming language. The hardware
+    design is also open.
+command:
+- /opt/apps/expeyes.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
