@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: marsshooter.linyaps
+  name: marsshooter
+  version: 0.7.6.7
+  kind: app
+  description: |-
+    ridiculous space shooter governed by the laws of gravity
+    M.A.R.S is a two-dimensional space shooter game with excellent 2D-graphics, a
+    stunning amount of particles and shader support. It offers single- and
+    multiplayer gameplay, many impressive weapons and specials and customizable
+    ships.
+
+    In the year 3547 civilizations across the galaxy have settled their own
+    planets, living in peace and harmony with its environment. But outside the
+    placid habitats, the GREAT WAR is raging. As a famous fighter on your way to
+    never ending honor and prosperity, you have to protect your planet from the
+    imminent doom of your jealous neighbours!
+command:
+- /opt/apps/marsshooter.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
