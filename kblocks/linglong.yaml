@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kblocks.linyaps
+  name: kblocks
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    falling blocks game
+    KBlocks is a single player falling blocks puzzle game, a Tetris-like
+    replacement for KSirtet.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/kblocks.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
