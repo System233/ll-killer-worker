@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gnome-video-trimmer.linyaps
+  name: gnome-video-trimmer
+  version: 0.8.2.2
+  kind: app
+  description: |-
+    Simple GUI application for lossless cutting of video files
+    Video Trimmer is an easy-to-use graphical application for cutting video
+    files. It does so without re-encoding the video, avoiding any loss of
+    quality in the process.
+command:
+- /opt/apps/gnome-video-trimmer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
