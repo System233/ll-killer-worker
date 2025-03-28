@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: linphone-desktop.linyaps
+  name: linphone-desktop
+  version: 5.0.2.4
+  kind: app
+  description: |-
+    SIP softphone - graphical client
+    Linphone is an audio and video internet phone using the SIP protocol.
+
+    The main features of linphone are:
+    - a nice graphical interface;
+    - it includes a large variety of codecs with different quality / bandwidths;
+    - it uses the well-known and standardised SIP protocol.
+
+    This package includes the Qt/QML based graphical desktop client.
+command:
+- /opt/apps/linphone-desktop.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
