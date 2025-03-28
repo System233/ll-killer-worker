@@ -1,0 +1,37 @@
+正在测试: APPID=moonshot-ui.linyaps LAYER=moonshot-ui.linyaps_1.1.0.0_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install moonshot-ui.linyaps_1.1.0.0_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:moonshot-ui.linyaps
+Layer文件:moonshot-ui.linyaps_1.1.0.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: moonshot-ui.linyaps_1.1.0.0_x86_64_binary.layer
+offset: 641
+mountpoint: /tmp/tmp.L6xXj6JXiq/mnt
+dbglevel: 0
+[成功] /opt/apps/moonshot-ui.linyaps/files/share/applications/moonshot-webp.desktop: /opt/apps/moonshot-ui.linyaps/files/entrypoint.sh moonshot-webp %f
+find: ‘/opt/apps/moonshot-ui.linyaps/files/share/icons’: No such file or directory
+find: ‘/opt/apps/moonshot-ui.linyaps/files/share/pixmaps’: No such file or directory
+[31m[失败] moonshot.desktop:config-user: 找不到此图标 [0m
+[成功] /opt/apps/moonshot-ui.linyaps/files/share/applications/moonshot.desktop: /opt/apps/moonshot-ui.linyaps/files/entrypoint.sh moonshot
+[正在测试启动项]
+包名:moonshot-ui.linyaps
+Layer文件:moonshot-ui.linyaps_1.1.0.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: moonshot-ui.linyaps_1.1.0.0_x86_64_binary.layer
+offset: 641
+mountpoint: /tmp/tmp.A6B53QqDxy/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run moonshot-ui.linyaps -- /opt/apps/moonshot-ui.linyaps/files/entrypoint.sh moonshot
+[PID 8091] 进程已启动
+[PID 8091] 已检测到窗口:PID=36
+[PID 8091] 正在截图 0秒: tests/screen0-0.jpg
+[PID 8091] 正在截图 1秒: tests/screen0-1.jpg
+[PID 8091] 正在截图 3秒: tests/screen0-3.jpg
+[PID 8091] 正在截图 5秒: tests/screen0-5.jpg
+[PID 8091] 正在通知并等待进程退出
+[PID 8091] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall moonshot-ui.linyaps
