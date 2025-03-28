@@ -1,12 +1,12 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|945|592 |353 | 62.65%| 19.10%|
+|3099|950|597 |353 | 62.84%| 19.26%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|723|513 |210 | 70.95%| 18.59%|
-|deepin-v23|340|222|79 |143 | 35.59%| 23.24%|
+|ubuntu-noble|2759|727|517 |210 | 71.11%| 18.74%|
+|deepin-v23|340|223|80 |143 | 35.87%| 23.53%|
 ## 详细结果
 | 包名   | 架构 |仓库| 版本    | 测试结果 | SHA256 |
 |-------|------|-----|----|---------|-----------|
@@ -949,9 +949,14 @@
 | [ggobi](./ggobi) | arm64  | ubuntu-noble | 2.1.11-2build3 | ![screen0-5.jpg](./ggobi/tests/screen0-5.jpg) | [SHA256](./ggobi/SHA256SUMS) |
 | [ghex](./ghex) | arm64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./ghex/tests/screen0-5.jpg) | [SHA256](./ghex/SHA256SUMS) |
 | [ghextris](./ghextris) | arm64  | ubuntu-noble | 0.9.0-5-20250327 | 失败 | N/A |
+| [ghostwriter](./ghostwriter) | arm64  | ubuntu-noble | 23.08.5+ds-0ubuntu3 | ![screen0-5.jpg](./ghostwriter/tests/screen0-5.jpg) | [SHA256](./ghostwriter/SHA256SUMS) |
 | [giada](./giada) | arm64  | ubuntu-noble | 0.22.0-4build2 | ![screen0-5.jpg](./giada/tests/screen0-5.jpg) | [SHA256](./giada/SHA256SUMS) |
 | [giara](./giara) | arm64  | ubuntu-noble | 1.1.0-0.1-20250327 | 失败 | N/A |
 | [gigalomania](./gigalomania) | arm64  | ubuntu-noble | 1.0+ds1-1.1 | ![screen0-5.jpg](./gigalomania/tests/screen0-5.jpg) | [SHA256](./gigalomania/SHA256SUMS) |
 | [giggle](./giggle) | arm64  | ubuntu-noble | 0.7-6build2 | ![screen0-5.jpg](./giggle/tests/screen0-5.jpg) | [SHA256](./giggle/SHA256SUMS) |
+| [gigolo](./gigolo) | arm64  | ubuntu-noble | 0.5.3-1build2 | ![screen0-5.jpg](./gigolo/tests/screen0-5.jpg) | [SHA256](./gigolo/SHA256SUMS) |
 | [gimagereader](./gimagereader) | arm64  | ubuntu-noble | 3.4.2-2build6-20250327 | 失败 | N/A |
 | [gimagereader-qt5](./gimagereader-qt5) | arm64  | ubuntu-noble | 3.4.2-2build6-20250327 | 失败 | N/A |
+| [gimp](./gimp) | arm64  | deepin-v23 | 2.10.38-1deepin2 | ![screen0-5.jpg](./gimp/tests/screen0-5.jpg) | [SHA256](./gimp/SHA256SUMS) |
+| [ginga](./ginga) | arm64  | ubuntu-noble | 5.0.0-1 | ![screen0-5.jpg](./ginga/tests/screen0-5.jpg) | [SHA256](./ginga/SHA256SUMS) |
+| [git-annex](./git-annex) | arm64  | ubuntu-noble | 10.20240129-1build1 | ![screen0-5.jpg](./git-annex/tests/screen0-5.jpg) | [SHA256](./git-annex/SHA256SUMS) |
