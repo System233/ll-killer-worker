@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: hexalate.linyaps
+  name: hexalate
+  version: 1.2.2.1
+  kind: app
+  description: |-
+    Color matching puzzle
+    Hexalate is a color matching game. The goal of the game is to rotate and
+    position the circles so that each touching line matches in color. You rotate
+    circles by right clicking, and you move circles by dragging them. The game
+    stores the positions and rotations of the circles across runs.
+command:
+- /opt/apps/hexalate.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
