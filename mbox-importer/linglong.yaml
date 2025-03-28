@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: mbox-importer.linyaps
+  name: mbox-importer
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    MBox email archive importer
+    mbox-importer is a wizard to assist with importing MBox email archives into
+    Akonadi
+command:
+- /opt/apps/mbox-importer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
