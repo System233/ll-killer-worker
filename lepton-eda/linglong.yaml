@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: lepton-eda.linyaps
+  name: lepton-eda
+  version: 1.9.18.2
+  kind: app
+  description: |-
+    Lepton Electronic Design Automation
+    The Lepton EDA suite provides schematic capture, netlisting, bill of
+    materials generation, and many other features. It was forked from the
+    gEDA/gaf suite in late 2016.
+command:
+- /opt/apps/lepton-eda.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
