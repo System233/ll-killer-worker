@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gnome-network-displays.linyaps
+  name: gnome-network-displays
+  version: 0.92.1.2
+  kind: app
+  description: |-
+    screencasting app for the GNOME desktop
+    GNOME Network Displays allows you to stream your display and audio
+    to other devices via Wi-Fi using the Miracast and Chromecast protocols.
+
+    Note: wpasupplicant is required, iwd won't work.
+command:
+- /opt/apps/gnome-network-displays.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

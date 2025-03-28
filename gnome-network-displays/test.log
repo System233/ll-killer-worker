@@ -1,0 +1,34 @@
+正在测试: APPID=gnome-network-displays.linyaps LAYER=gnome-network-displays.linyaps_0.92.1.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install gnome-network-displays.linyaps_0.92.1.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:gnome-network-displays.linyaps
+Layer文件:gnome-network-displays.linyaps_0.92.1.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: gnome-network-displays.linyaps_0.92.1.2_arm64_binary.layer
+offset: 631
+mountpoint: /tmp/tmp.wHLpouLTE7/mnt
+dbglevel: 0
+[成功] org.gnome.NetworkDisplays.desktop: org.gnome.NetworkDisplays -> /opt/apps/gnome-network-displays.linyaps/files/share/icons/hicolor/scalable/apps/org.gnome.NetworkDisplays.svg
+[成功] /opt/apps/gnome-network-displays.linyaps/files/share/applications/org.gnome.NetworkDisplays.desktop: /opt/apps/gnome-network-displays.linyaps/files/entrypoint.sh gnome-network-displays
+[正在测试启动项]
+包名:gnome-network-displays.linyaps
+Layer文件:gnome-network-displays.linyaps_0.92.1.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: gnome-network-displays.linyaps_0.92.1.2_arm64_binary.layer
+offset: 631
+mountpoint: /tmp/tmp.EQotlOyF4B/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run gnome-network-displays.linyaps -- /opt/apps/gnome-network-displays.linyaps/files/entrypoint.sh gnome-network-displays
+[PID 28946] 进程已启动
+[PID 28946] 已检测到窗口:PID=36
+[PID 28946] 正在截图 0秒: tests/screen0-0.jpg
+[PID 28946] 正在截图 2秒: tests/screen0-2.jpg
+[PID 28946] 正在截图 4秒: tests/screen0-4.jpg
+[PID 28946] 正在截图 5秒: tests/screen0-5.jpg
+[PID 28946] 正在通知并等待进程退出
+[PID 28946] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall gnome-network-displays.linyaps
