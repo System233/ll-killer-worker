@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: eom.linyaps
+  name: eom
+  version: 1.26.1.1
+  kind: app
+  description: |-
+    Eye of MATE graphics viewer program
+    eom or the Eye of MATE is a simple graphics viewer for the MATE
+    desktop which uses the gdk-pixbuf library. It can deal with large
+    images, and zoom and scroll with constant memory usage. Its goals are
+    simplicity and standards compliance.
+command:
+- /opt/apps/eom.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
