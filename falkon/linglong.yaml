@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: falkon.linyaps
+  name: falkon
+  version: 24.1.75.1
+  kind: app
+  description: |-
+    lightweight web browser based on Qt WebEngine
+    Falkon is a new and very fast Qt Webengine browser. It aims to be a
+    lightweight web browser available through all major platforms.
+
+    Falkon has all standard functions you expect from a web browser. It
+    includes bookmarks, history (both also in sidebar) and tabs. Above
+    that, you can manage RSS feeds with an included RSS reader, block ads
+    with a builtin AdBlock plugin, block Flash content with Click2Flash
+    and edit the local CA Certificates database with an SSL Manager.
+command:
+- /opt/apps/falkon.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
