@@ -1,0 +1,28 @@
+正在测试: APPID=mauve-aligner.linyaps LAYER=mauve-aligner.linyaps_2.4.0.6_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install mauve-aligner.linyaps_2.4.0.6_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:mauve-aligner.linyaps
+Layer文件:mauve-aligner.linyaps_2.4.0.6_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: mauve-aligner.linyaps_2.4.0.6_arm64_binary.layer
+offset: 1472
+mountpoint: /tmp/tmp.zo6idCtoUQ/mnt
+dbglevel: 0
+[成功] mauve-aligner.desktop: mauve-aligner -> /opt/apps/mauve-aligner.linyaps/files/share/icons/hicolor/32x32/apps/mauve-aligner.png
+[成功] /opt/apps/mauve-aligner.linyaps/files/share/applications/mauve-aligner.desktop: /opt/apps/mauve-aligner.linyaps/files/entrypoint.sh mauve
+[正在测试启动项]
+包名:mauve-aligner.linyaps
+Layer文件:mauve-aligner.linyaps_2.4.0.6_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: mauve-aligner.linyaps_2.4.0.6_arm64_binary.layer
+offset: 1472
+mountpoint: /tmp/tmp.47SEm0zoUy/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run mauve-aligner.linyaps -- /opt/apps/mauve-aligner.linyaps/files/entrypoint.sh mauve
+[PID 6287] 进程已启动
+[PID 6287] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall mauve-aligner.linyaps
