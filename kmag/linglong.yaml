@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: kmag.linyaps
+  name: kmag
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    screen magnifier tool
+    KDE's screen magnifier tool.
+
+    You can use KMagnifier to magnify a part of the screen just as you would use
+    a lens to magnify a newspaper fine-print or a photograph.  This application is
+    useful for a variety of people: from researchers to artists to web-designers to
+    people with low vision.
+
+    This package is part of the KDE accessibility module.
+command:
+- /opt/apps/kmag.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
