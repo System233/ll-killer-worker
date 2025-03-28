@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: kookbook.linyaps
+  name: kookbook
+  version: 0.2.1.3
+  kind: app
+  description: |-
+    simple recipe manager taking structured markdown for recipes
+    KookBook helps you curate your recipe collection, letting you browse recipes,
+    search by title or ingredient to recall the details of your kitchen creations.
+
+    Recipes are written in markdown and stored in text files. A cookbook, or
+    collection of recipes, is a folder structure containing one or more recipes.
+    The folder structure can be used as one way to browse and group the recipes.
+
+    Recipes can be synced with devices or shared with other users using external
+    tools like git repositories, nextcloud or many other services.
+
+    The package includes both the desktop "kookbook" program and an touchscreen
+    version "kookbooktouch".
+
+    The package also includes a simple conversion utility that is able to convert
+    a krecipes database into a set of kookbook markdown files. For more details,
+    see /usr/share/doc/kookbook/README.Debian
+command:
+- /opt/apps/kookbook.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
