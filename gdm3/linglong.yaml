@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: gdm3.linyaps
+  name: gdm3
+  version: 46.2.0.1
+  kind: app
+  description: |-
+    GNOME Display Manager
+    GDM provides the equivalent of a "login:" prompt for X displays: it
+    asks for a login and starts graphical sessions.
+
+    It supports multiple seats and switching between multiple users.
+
+    The greeter is based on the GNOME libraries and applications, and its
+    look and design are the same as those of a GNOME session.
+command:
+- /opt/apps/gdm3.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
