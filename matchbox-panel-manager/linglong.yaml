@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: matchbox-panel-manager.linyaps
+  name: matchbox-panel-manager
+  version: 0.1.0.1
+  kind: app
+  description: |-
+    panel manager for matchbox-panel
+    Matchbox is a base environment for the X Window System running on non-desktop
+    embedded platforms such as handhelds, set-top boxes, kiosks and anything else
+    for which screen space, input mechanisms or system resources are limited.
+
+    This package contains a utility to manage the Matchbox panel.
+command:
+- /opt/apps/matchbox-panel-manager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

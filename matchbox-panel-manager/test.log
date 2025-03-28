@@ -1,0 +1,28 @@
+正在测试: APPID=matchbox-panel-manager.linyaps LAYER=matchbox-panel-manager.linyaps_0.1.0.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install matchbox-panel-manager.linyaps_0.1.0.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:matchbox-panel-manager.linyaps
+Layer文件:matchbox-panel-manager.linyaps_0.1.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: matchbox-panel-manager.linyaps_0.1.0.1_x86_64_binary.layer
+offset: 729
+mountpoint: /tmp/tmp.RmYY0Xcm7b/mnt
+dbglevel: 0
+[31m[失败] mb-panel-manager.desktop:mbpanelmgr.png: 找不到此图标 [0m
+[成功] /opt/apps/matchbox-panel-manager.linyaps/files/share/applications/mb-panel-manager.desktop: /opt/apps/matchbox-panel-manager.linyaps/files/entrypoint.sh mbpanelmgr
+[正在测试启动项]
+包名:matchbox-panel-manager.linyaps
+Layer文件:matchbox-panel-manager.linyaps_0.1.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: matchbox-panel-manager.linyaps_0.1.0.1_x86_64_binary.layer
+offset: 729
+mountpoint: /tmp/tmp.S8WTIHrbcN/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run matchbox-panel-manager.linyaps -- /opt/apps/matchbox-panel-manager.linyaps/files/entrypoint.sh mbpanelmgr
+[PID 8407] 进程已启动
+[PID 8407] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall matchbox-panel-manager.linyaps
