@@ -1,0 +1,21 @@
+包名:endeavour.linyaps
+Layer文件:endeavour.linyaps_43.0.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: endeavour.linyaps_43.0.0.1_x86_64_binary.layer
+offset: 705
+mountpoint: /tmp/tmp.aPnH6XqArh/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+libEGL warning: egl: failed to create dri2 screen
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+
+(endeavour:36): Gtk-[1;33mWARNING[0m **: [34m02:29:05.103[0m: Unable to acquire the address of the accessibility bus: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files. If you are attempting to run GTK without a11y support, GTK_A11Y should be set to 'none'.
+
+(endeavour:36): GLib-GObject-[1;35mCRITICAL[0m **: [34m02:29:05.124[0m: invalid (NULL) pointer instance
+
+(endeavour:36): GLib-GObject-[1;35mCRITICAL[0m **: [34m02:29:05.124[0m: g_signal_connect_object: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(endeavour:36): GtdWindow-[1;35mCRITICAL[0m **: [34m02:29:05.124[0m: gtd_window_get_current_workspace: assertion 'GTD_IS_WINDOW (self)' failed

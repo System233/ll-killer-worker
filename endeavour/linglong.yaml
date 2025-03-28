@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: endeavour.linyaps
+  name: endeavour
+  version: 43.0.0.1
+  kind: app
+  description: |-
+    minimalistic personal task manager designed to fit GNOME desktop
+    Endeavour is a simplistic personal task manager designed to perfectly fit
+    the GNOME desktop. Designed from ground up to seamlessly integrate with
+    the GNOME desktop environment, To Do enables you to be as productive as
+    you want.
+
+    Endeavour was formerly known as GNOME Todo.
+command:
+- /opt/apps/endeavour.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
