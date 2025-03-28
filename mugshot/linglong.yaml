@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: mugshot.linyaps
+  name: mugshot
+  version: 0.4.3.1
+  kind: app
+  description: |-
+    lightweight user-configuration application
+    Mugshot is a lightweight user configuration utility that allows you to
+    easily update personal user details. This includes:
+    - Linux profile image: ~/.face
+    - User details stored in /etc/passwd (used by finger)
+    - Pidgin buddy icon
+    - LibreOffice user details
+command:
+- /opt/apps/mugshot.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
