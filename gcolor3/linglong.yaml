@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gcolor3.linyaps
+  name: gcolor3
+  version: 2.4.0.2
+  kind: app
+  description: |-
+    Simple GTK3 color selector and picker
+    Gcolor3 is a simple GTK3 color selector to provide a quick and easy way to find
+    colors for whatever task is at hand. Colors can be saved and deleted as well.
+command:
+- /opt/apps/gcolor3.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
