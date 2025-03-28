@@ -2,7 +2,7 @@ version: "1"
 package:
   id: lyx.linyaps
   name: lyx
-  version: 2.3.6.1
+  version: 2.4.0.1
   kind: app
   description: |-
     document processor
@@ -18,14 +18,16 @@ package:
     * chktex: check for typographical errors
     * gnuhtml2latex: import HTML documents
     * groff: improved table formatting in plain text exports
+    * gnumeric: import spreadsheats
     * librsvg2-bin, inkscape: use the SVG image format in LyX documents
-    * linuxdoc-tools: export SGML LinuxDoc documents
+    * lilypond: support for musical sheets
+    * maxima: integrated CAS support for equation evaluation
     * mythes-*: use the OpenOffice.org/LibreOffice Thesaurus
-    * noweb: import noweb files
-    * rcs: integrated version control
-    * sgmltools-lite: export SGML DocBook documents
-    * texlive-xetex: use the XeTeX typesetting system
+    * noweb, r-cran-knitr: use literate programming
+    * rcs, cvs, svn, git: integrated version control
+    * texlive-xetex/luatex: use the XeTeX/LuaTeX typesetting system
     * wv: import MS Word documents
+    * xsltproc (or saxon with openjdk-17-jre), docbook-xsl: ePub export
 command:
 - /opt/apps/lyx.linyaps/files/entrypoint.sh
 base: org.deepin.base/23.1.0
