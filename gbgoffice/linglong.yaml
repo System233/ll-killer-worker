@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: gbgoffice.linyaps
+  name: gbgoffice
+  version: 1.4.0.12
+  kind: app
+  description: |-
+    bgoffice dictionary frontend (GTK2)
+    bgoffice is a project aimed on creating a full-featured desktop environment,
+    translated and localized for Bulgarian users.
+
+    This package contains gbgoffice - a GTK2 program for working with all
+    dictionaries, contained in bgoffice. It has clean interface, features GNOME
+    notification area integration and clipboard monitoring. All features are
+    customizable.
+
+    For Qt/KDE version of the program, see kbedic.
+command:
+- /opt/apps/gbgoffice.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
