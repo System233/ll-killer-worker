@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: go-for-it.linyaps
+  name: go-for-it
+  version: 1.9.6.4
+  kind: app
+  description: |-
+    Simple and stylish productivity app
+    GoForIt! is a simple and stylish productivity app, featuring
+    a to-do list, merged with a timer that keeps your focus on the
+    current task.
+command:
+- /opt/apps/go-for-it.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
