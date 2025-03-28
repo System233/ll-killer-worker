@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: lxrandr.linyaps
+  name: lxrandr
+  version: 0.3.2.1
+  kind: app
+  description: |-
+    LXDE monitor configuration tool
+    LXRandR is a GUI application for the Lightweight X11 Desktop Environment
+    (LXDE).
+
+    This is a very basic monitor config tool utilizing the X extension called
+    RandR. It can let you change the screen resolution on the fly. Besides, when
+    you run lxrandr with external monitor connected, its GUI will change, and show
+    you some quick options to get your projector or external monitor working
+    correctly.
+
+    This tool doesn't aim to be a full randr frontend. If you need the full power
+    of RandR, get xrandr (console) or grandr (GUI) and read some tutorials.
+
+    LXRandR only gives you some easy and quick options which are intuitive. It's
+    very suitable for laptop users who frequently uses projectors or external
+    monitor and just want to get their work done without reading a lot of
+    "geek-centered" manuals or command line tutorials.
+command:
+- /opt/apps/lxrandr.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
