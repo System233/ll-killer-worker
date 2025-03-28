@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: light-locker-settings.linyaps
+  name: light-locker-settings
+  version: 1.5.0.0
+  kind: app
+  description: |-
+    simple configuration tool for light-locker
+    light-locker-settings is a simple configuration utility that allows you
+    to configure your screensaver and locking settings.
+command:
+- /opt/apps/light-locker-settings.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
