@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: gshutdown.linyaps
+  name: gshutdown
+  version: 0.2.0.0
+  kind: app
+  description: |-
+    Graphical shutdown utility and shutdown timer
+    GShutdown is a utility which allows you to schedule the shutdown or restart of
+    your computer. With it you can simply and quickly choose the turn off time at
+    either a specific time or after a countdown.
+
+    The graphical user interface uses Gtk+2.
+command:
+- /opt/apps/gshutdown.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
