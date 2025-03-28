@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gnome-characters.linyaps
+  name: gnome-characters
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    character map application
+    Characters is a simple utility application to find and
+    insert unusual characters.
+command:
+- /opt/apps/gnome-characters.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
