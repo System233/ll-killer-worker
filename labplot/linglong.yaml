@@ -1,0 +1,40 @@
+version: "1"
+package:
+  id: labplot.linyaps
+  name: labplot
+  version: 2.10.1.2
+  kind: app
+  description: |-
+    interactive graphing and analysis of scientific data
+    LabPlot provides an easy way to create, manage and edit plots.  It allows you
+    to produce plots based on data from a spreadsheet or on data imported from
+    external files.  Plots can be exported to several pixmap and vector graphic
+    formats.
+
+    Features include:
+    - project-based management of data
+    - project explorer for management and organization of created objects in
+    different folders and sub-folders
+    - spreadsheet with basic functionality for manual data entry or for
+    generation of uniform and non-uniform random numbers
+    - import of external ASCII data into the project for further editing and
+    visualization
+    - export of spreadsheet to an ASCII file
+    - worksheet as the main parent object for plots, labels, etc; supports
+    different layouts and zooming functions
+    - export of worksheet to different formats (PDF, EPS, PNG, and SVG)
+    - great variety of editing capabilities for properties of worksheet and its
+    objects
+    - cartesian plots, created either from imported or manually created data
+    sets or via mathematical equation
+    - definition of mathematical formulas is supported by syntax highlighting
+    and completion and by the list of thematically grouped mathematical and
+    physical constants and functions
+    - analysis of plotted data is supported by many zooming and navigation
+    features
+    - linear and non-linear fits to data, several fit-models are predefined and
+    custom models with arbitrary number of parameters can be provided
+command:
+- /opt/apps/labplot.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
