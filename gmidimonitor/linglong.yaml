@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: gmidimonitor.linyaps
+  name: gmidimonitor
+  version: 3.6.0.4
+  kind: app
+  description: |-
+    GTK+ application that shows MIDI events
+    GMIDImonitor is GTK+ application that shows MIDI events.
+
+    You need to connect desired source of MIDI events to gmidimonitor
+    input using some kind of patchbay like qjackctl, patchage. For
+    restoring  connections (not connecting every time) you can use LASH.
+command:
+- /opt/apps/gmidimonitor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

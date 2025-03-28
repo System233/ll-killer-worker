@@ -1,0 +1,35 @@
+正在测试: APPID=gmidimonitor.linyaps LAYER=gmidimonitor.linyaps_3.6.0.4_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install gmidimonitor.linyaps_3.6.0.4_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:gmidimonitor.linyaps
+Layer文件:gmidimonitor.linyaps_3.6.0.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: gmidimonitor.linyaps_3.6.0.4_arm64_binary.layer
+offset: 667
+mountpoint: /tmp/tmp.COgdSLkyOs/mnt
+dbglevel: 0
+find: ‘/opt/apps/gmidimonitor.linyaps/files/share/icons’: No such file or directory
+[成功] gmidimonitor-alsa.desktop: gmidimonitor_32x32 -> /opt/apps/gmidimonitor.linyaps/files/share/pixmaps/gmidimonitor_32x32.xpm
+[成功] /opt/apps/gmidimonitor.linyaps/files/share/applications/gmidimonitor-alsa.desktop: /opt/apps/gmidimonitor.linyaps/files/entrypoint.sh gmidimonitor --alsa
+find: ‘/opt/apps/gmidimonitor.linyaps/files/share/icons’: No such file or directory
+[成功] gmidimonitor-jack.desktop: gmidimonitor_32x32 -> /opt/apps/gmidimonitor.linyaps/files/share/pixmaps/gmidimonitor_32x32.xpm
+[成功] /opt/apps/gmidimonitor.linyaps/files/share/applications/gmidimonitor-jack.desktop: /opt/apps/gmidimonitor.linyaps/files/entrypoint.sh gmidimonitor --jack
+[正在测试启动项]
+包名:gmidimonitor.linyaps
+Layer文件:gmidimonitor.linyaps_3.6.0.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: gmidimonitor.linyaps_3.6.0.4_arm64_binary.layer
+offset: 667
+mountpoint: /tmp/tmp.8wA8ORUjMI/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run gmidimonitor.linyaps -- /opt/apps/gmidimonitor.linyaps/files/entrypoint.sh gmidimonitor --alsa
+[PID 8138] 进程已启动
+[PID 8138] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run gmidimonitor.linyaps -- /opt/apps/gmidimonitor.linyaps/files/entrypoint.sh gmidimonitor --jack
+[PID 8304] 进程已启动
+[PID 8304] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall gmidimonitor.linyaps
