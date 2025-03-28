@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: kwin-style-breeze.linyaps
+  name: kwin-style-breeze
+  version: 5.27.12.0
+  kind: app
+  description: |-
+    KWin Breeze Style
+    This is the Breeze window manager style for the KDE Plasma 5 desktop.
+
+    This package is part of the Breeze theme module.
+command:
+- /opt/apps/kwin-style-breeze.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
