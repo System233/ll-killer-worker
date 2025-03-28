@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: geogebra.linyaps
+  name: geogebra
+  version: 4.0.34.9
+  kind: app
+  description: |-
+    Dynamic mathematics software for education
+    GeoGebra is a dynamic geometry program. You can do constructions with points,
+    vectors, segments, lines, conic sections as well as functions and change
+    them dynamically afterwards. On the other hand, equations and coordinates
+    can be entered directly.
+
+    Support for many geometric constructions is provided, as well as support
+    for many calculus-based tools (derivatives, osculating circle, ...).
+
+    GeoGebra files can be exported in many different formats, or as interactive
+    applets for web pages.
+command:
+- /opt/apps/geogebra.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
