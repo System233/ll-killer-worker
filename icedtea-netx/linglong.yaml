@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: icedtea-netx.linyaps
+  name: icedtea-netx
+  version: 1.8.8.2
+  kind: app
+  description: |-
+    Implementation of the Java Network Launching Protocol (JNLP)
+    NetX provides a drop-in replacement for javaws (Java Web Start). Since
+    upstream NetX is dead, the IcedTea Web project is hosting a fork of the
+    original code. However, as icedtea-web has evolved to complex set of tools,
+    extensions and tests, it has now only a few lines of code shared with the
+    original implementation.
+
+    IcedTea's NetX currently supports verification of signed jars, trusted
+    certificate storing, system certificate store checking, and provides
+    the services specified by the JNLP API.
+command:
+- /opt/apps/icedtea-netx.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
