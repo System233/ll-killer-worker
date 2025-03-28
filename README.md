@@ -1,11 +1,11 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|944|591 |353 | 62.61%| 19.07%|
+|3099|945|592 |353 | 62.65%| 19.10%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|722|512 |210 | 70.91%| 18.56%|
+|ubuntu-noble|2759|723|513 |210 | 70.95%| 18.59%|
 |deepin-v23|340|222|79 |143 | 35.59%| 23.24%|
 ## 详细结果
 | 包名   | 架构 |仓库| 版本    | 测试结果 | SHA256 |
@@ -947,6 +947,7 @@
 | [gfpoken](./gfpoken) | arm64  | ubuntu-noble | 1-4build2 | ![screen0-5.jpg](./gfpoken/tests/screen0-5.jpg) | [SHA256](./gfpoken/SHA256SUMS) |
 | [gftp-gtk](./gftp-gtk) | arm64  | ubuntu-noble | 2.9.1~beta-2build2 | ![screen0-5.jpg](./gftp-gtk/tests/screen0-5.jpg) | [SHA256](./gftp-gtk/SHA256SUMS) |
 | [ggobi](./ggobi) | arm64  | ubuntu-noble | 2.1.11-2build3 | ![screen0-5.jpg](./ggobi/tests/screen0-5.jpg) | [SHA256](./ggobi/SHA256SUMS) |
+| [ghex](./ghex) | arm64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./ghex/tests/screen0-5.jpg) | [SHA256](./ghex/SHA256SUMS) |
 | [ghextris](./ghextris) | arm64  | ubuntu-noble | 0.9.0-5-20250327 | 失败 | N/A |
 | [giada](./giada) | arm64  | ubuntu-noble | 0.22.0-4build2 | ![screen0-5.jpg](./giada/tests/screen0-5.jpg) | [SHA256](./giada/SHA256SUMS) |
 | [giara](./giara) | arm64  | ubuntu-noble | 1.1.0-0.1-20250327 | 失败 | N/A |
