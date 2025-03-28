@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: ktuberling.linyaps
+  name: ktuberling
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    stamp drawing toy
+    KTuberling is a drawing toy for small children with several activites.
+
+    * Give the potato a funny face, clothes, and other goodies
+    * Build a small town, complete with school, zoo, and fire department
+    * Create a fantastic moonscape with spaceships and aliens
+
+    KTuberling can speak the name of each the object in several languages,
+    to assist in learning basic vocabulary.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/ktuberling.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
