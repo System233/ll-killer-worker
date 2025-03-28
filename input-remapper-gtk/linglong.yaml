@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: input-remapper-gtk.linyaps
+  name: input-remapper-gtk
+  version: 2.0.1.1
+  kind: app
+  description: |-
+    Input device button mapping tool (GUI)
+    input-remapper allows users to map buttons on all input devices
+    (keyboards, mice, gamepads...) in X11 and Wayland. It also supports
+    combined buttons and programmable macros.
+
+    This package contains the UI to configure the mappings.
+command:
+- /opt/apps/input-remapper-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
