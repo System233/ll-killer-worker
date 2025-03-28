@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: jeex.linyaps
+  name: jeex
+  version: 12.0.4.1
+  kind: app
+  description: |-
+    visual editor to view and edit files in hexadecimal
+    Jeex is a simple hexadecimal editor which allows user to create, open
+    and edit files in hexadecimal, binary, octal and ASCII. The features include
+    insert, delete, copy-and-paste, search and many others.
+
+    It also shows several information about the opened file, like file mode bits,
+    ownership, last access and modification timestamps.
+command:
+- /opt/apps/jeex.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
