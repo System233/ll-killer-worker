@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: epiphany-browser.linyaps
+  name: epiphany-browser
+  version: 46.0.0.2
+  kind: app
+  description: |-
+    Intuitive GNOME web browser
+    Epiphany is a simple yet powerful GNOME web browser targeted at
+    non-technical users. Its principles are simplicity and standards
+    compliance.
+
+    Simplicity is achieved by a well designed user interface and reliance
+    on external applications for performing external tasks (such as reading
+    email). Simplicity does not mean less features; Epiphany has everything
+    a modern web browser is expected to have.
+
+    Standards compliance is achieved on the HTML side by using the
+    WebKitGTK+ rendering engine (which is based on the engine used by
+    Apple Safari and Google Chrome); and on the user interface side by
+    closely following the GNOME Human Interface Guidelines (HIG) and by
+    close integration with the GNOME desktop.
+command:
+- /opt/apps/epiphany-browser.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
