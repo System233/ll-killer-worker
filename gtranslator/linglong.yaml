@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: gtranslator.linyaps
+  name: gtranslator
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    PO-file editor for the GNOME Desktop
+    GNOME Translation Editor is a po file editor which makes translating gettext
+    applications as easy as possible, even for people with no translation
+    experience.
+
+    It supports the usage of translation memories, syntax highlighting, spell
+    checking, undoing of insertions and deletions, and general integration with
+    the GNOME Desktop.
+command:
+- /opt/apps/gtranslator.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
