@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: epoptes.linyaps
+  name: epoptes
+  version: 23.8.0.1
+  kind: app
+  description: |-
+    Computer lab management tool
+    Epoptes is an open source computer lab management and monitoring tool. It
+    allows for screen broadcasting and monitoring, remote command execution,
+    message sending, imposing restrictions like screen locking or sound muting
+    the clients and much more!
+
+    Contains the server daemon and a GUI for controlling client PCs.
+
+    It supports LTSP installations, but it also works without LTSP.
+command:
+- /opt/apps/epoptes.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
