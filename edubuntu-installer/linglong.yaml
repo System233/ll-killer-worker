@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: edubuntu-installer.linyaps
+  name: edubuntu-installer
+  version: 0.6.0.0
+  kind: app
+  description: |-
+    Software Installer and Uninstaller for Edubuntu
+    Installs or uninstalls Edubuntu's metapackages as desired
+    in order to configure for various age groups. Also useful for
+    installing said metapackages on Ubuntu and official Ubuntu
+    flavours.
+command:
+- /opt/apps/edubuntu-installer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
