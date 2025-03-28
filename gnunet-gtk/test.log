@@ -1,0 +1,39 @@
+正在测试: APPID=gnunet-gtk.linyaps LAYER=gnunet-gtk.linyaps_0.20.0.4_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install gnunet-gtk.linyaps_0.20.0.4_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:gnunet-gtk.linyaps
+Layer文件:gnunet-gtk.linyaps_0.20.0.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: gnunet-gtk.linyaps_0.20.0.4_arm64_binary.layer
+offset: 864
+mountpoint: /tmp/tmp.2oCELCiUlb/mnt
+dbglevel: 0
+[成功] gnunet-fs-gtk.desktop: gnunet-fs-gtk -> /opt/apps/gnunet-gtk.linyaps/files/share/icons/hicolor/16x16/apps/gnunet-fs-gtk.png
+[成功] /opt/apps/gnunet-gtk.linyaps/files/share/applications/gnunet-fs-gtk.desktop: /opt/apps/gnunet-gtk.linyaps/files/entrypoint.sh gnunet-fs-gtk
+[31m[失败] gnunet-setup.desktop:gnunet-setup: 找不到此图标 [0m
+[成功] /opt/apps/gnunet-gtk.linyaps/files/share/applications/gnunet-setup.desktop: /opt/apps/gnunet-gtk.linyaps/files/entrypoint.sh gnunet-setup-pkexec
+[正在测试启动项]
+包名:gnunet-gtk.linyaps
+Layer文件:gnunet-gtk.linyaps_0.20.0.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: gnunet-gtk.linyaps_0.20.0.4_arm64_binary.layer
+offset: 864
+mountpoint: /tmp/tmp.4Pl9FhrxBN/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run gnunet-gtk.linyaps -- /opt/apps/gnunet-gtk.linyaps/files/entrypoint.sh gnunet-fs-gtk
+[PID 22547] 进程已启动
+[PID 22547] 已检测到窗口:PID=36
+[PID 22547] 正在截图 0秒: tests/screen0-0.jpg
+[PID 22547] 正在截图 1秒: tests/screen0-1.jpg
+[PID 22547] 正在截图 3秒: tests/screen0-3.jpg
+[PID 22547] 正在截图 5秒: tests/screen0-5.jpg
+[PID 22547] 正在通知并等待进程退出
+[PID 22547] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run gnunet-gtk.linyaps -- /opt/apps/gnunet-gtk.linyaps/files/entrypoint.sh gnunet-setup-pkexec
+[PID 22761] 进程已启动
+[PID 22761] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall gnunet-gtk.linyaps
