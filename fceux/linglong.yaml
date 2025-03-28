@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: fceux.linyaps
+  name: fceux
+  version: 2.6.5.2
+  kind: app
+  description: |-
+    all-in-one NES/Famicom Emulator
+    FCE Ultra X [FCEUX] is an emulator of the original (8-bit) Nintendo
+    Entertainment System (NES) released under the GNU General Public License
+    (GPL).  It includes the following features (and many more):
+
+    * fully customizable color palette rendering engine
+    * complete sound emulation (all five channels)
+    * support for up to four joystick controllers
+    * zapper emulation for the mouse
+    * GameGenie emulation
+    * accepts compressed (PKZIP, gzip) ROM images
+    * TCP/IP network play
+    * Lua scripting
+command:
+- /opt/apps/fceux.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
