@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: kapptemplate.linyaps
+  name: kapptemplate
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    application template generator
+    KAppTemplate is a shell script that will create the necessary framework to
+    develop several types of applications, including applications based on the
+    KDE development platform.
+
+    It generates the build-system configuration and provides example code
+    for a simple application.
+
+    This package is part of the KDE Software Development Kit module.
+command:
+- /opt/apps/kapptemplate.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
