@@ -1,0 +1,28 @@
+正在测试: APPID=funguloids.linyaps LAYER=funguloids.linyaps_1.6.0.15_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install funguloids.linyaps_1.6.0.15_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:funguloids.linyaps
+Layer文件:funguloids.linyaps_1.6.0.15_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: funguloids.linyaps_1.6.0.15_arm64_binary.layer
+offset: 712
+mountpoint: /tmp/tmp.OLHWz7iFpo/mnt
+dbglevel: 0
+[成功] funguloids.desktop: funguloids -> /opt/apps/funguloids.linyaps/files/share/icons/funguloids.png
+[成功] /opt/apps/funguloids.linyaps/files/share/applications/funguloids.desktop: /opt/apps/funguloids.linyaps/files/entrypoint.sh sh -c "/usr/games/funguloids >/dev/null 2>&1"
+[正在测试启动项]
+包名:funguloids.linyaps
+Layer文件:funguloids.linyaps_1.6.0.15_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: funguloids.linyaps_1.6.0.15_arm64_binary.layer
+offset: 712
+mountpoint: /tmp/tmp.2jYhr8aOmj/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run funguloids.linyaps -- /opt/apps/funguloids.linyaps/files/entrypoint.sh sh -c "/usr/games/funguloids >/dev/null 2>&1"
+[PID 6494] 进程已启动
+[PID 6494] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall funguloids.linyaps
