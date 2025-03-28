@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: gtans.linyaps
+  name: gtans
+  version: 1.99.0.2
+  kind: app
+  description: |-
+    Tangram (puzzle) game using GTK+
+    The Tangram is a Chinese puzzle where the player has to arrange a set of
+    pieces to match a given shape. All the pieces must be used and should not
+    be laid on top of one another. The pieces are five triangles, a square and
+    a parallelogram. gtans contains more than 380 figures to play with. It uses
+    the mouse to control pieces. gtans is highly customizable using the
+    interface.
+command:
+- /opt/apps/gtans.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
