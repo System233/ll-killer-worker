@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gnome-online-accounts.linyaps
+  name: gnome-online-accounts
+  version: 3.50.4.0
+  kind: app
+  description: |-
+    service to manage online accounts for the GNOME desktop
+    This package contains the GNOME Online Accounts service, which provides a
+    centralized place for managing online accounts (Google, etc) for the
+    GNOME desktop.
+command:
+- /opt/apps/gnome-online-accounts.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
