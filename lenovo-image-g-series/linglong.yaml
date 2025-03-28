@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: lenovo-image-g-series.linyaps
+  name: lenovo-image-g-series
+  version: 1.0.0.17
+  kind: app
+  description: Printer Driver for lenovo-image-g-series
+command:
+- /opt/apps/lenovo-image-g-series.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
