@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ibus-typing-booster.linyaps
+  name: ibus-typing-booster
+  version: 2.25.4.1
+  kind: app
+  description: |-
+    Completion input method to speedup typing
+    Ibus-typing-booster is a predictive input method and predicts
+    complete words based on context and partial input. One can then
+    simply select the desired word from a list of suggestions and
+    improve one's typing speed and spelling.
+command:
+- /opt/apps/ibus-typing-booster.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
