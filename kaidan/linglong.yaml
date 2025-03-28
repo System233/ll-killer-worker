@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: kaidan.linyaps
+  name: kaidan
+  version: 0.9.1.3
+  kind: app
+  description: |-
+    Simple and user-friendly Jabber/XMPP client
+    Kaidan is a simple, user-friendly and modern chat client. It uses the open
+    communication protocol XMPP (Jabber).
+
+    The user interface makes use of Kirigami and QtQuick, while the back-end of
+    Kaidan is entirely written in C++ using Qt and the Qt-based XMPP library
+    QXmpp.
+command:
+- /opt/apps/kaidan.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
