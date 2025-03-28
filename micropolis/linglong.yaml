@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: micropolis.linyaps
+  name: micropolis
+  version: 0.0.20071228.10
+  kind: app
+  description: |-
+    real-time city management simulator
+    This game simulates building and managing a whole city. The goal of the
+    game is to build and design a city. The player can mark land as being
+    zoned as commercial, industrial, or residential, add buildings, change
+    the tax rate, build a power grid, build transportation systems and many
+    other actions, in order to enhance the city.
+
+    Micropolis is the GPL-licensed version of SimCity.
+command:
+- /opt/apps/micropolis.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
