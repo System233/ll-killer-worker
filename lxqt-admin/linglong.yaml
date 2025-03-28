@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: lxqt-admin.linyaps
+  name: lxqt-admin
+  version: 1.4.0.0
+  kind: app
+  description: |-
+    Admin tools for LXQt
+    Admin tools for LXQt, as of now:
+    * lxqt-admin-time
+    * lxqt-admin-user
+
+    This package contain the LXQt Admin Tools.
+command:
+- /opt/apps/lxqt-admin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
