@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: mate-screensaver.linyaps
+  name: mate-screensaver
+  version: 1.26.2.1
+  kind: app
+  description: |-
+    MATE screen saver and locker
+    mate-screensaver is a screen saver and locker that aims to have simple,
+    sane and secure defaults, and be well integrated with the MATE desktop.
+
+    It is designed to support, among other things:
+
+    * the ability to lock down configuration settings
+    * translation into other languages
+    * user switching
+command:
+- /opt/apps/mate-screensaver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
