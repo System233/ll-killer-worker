@@ -1,0 +1,247 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libabsl20220623t64 libavif16 libdav1d7 libdirectfb-1.7-7t64
+  libevent-2.1-7t64 libgav1-1 libglib2.0-0t64 libgpm2 libjpeg-turbo8 libjpeg8
+  liblz1 libpng16-16t64 libssl3t64 libutempter0 libxaw7 libxmu6 libxt6t64
+  libyuv0 xbitmaps xterm
+Suggested packages:
+  libdirectfb-extra low-memory-monitor gpm mc xfonts-cyrillic
+Recommended packages:
+  luit | x11-utils
+The following packages will be REMOVED:
+  gir1.2-atk-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0 gir1.2-glib-2.0
+  gir1.2-harfbuzz-0.0 gir1.2-pango-1.0 libevent-2.1-7 libglib2.0-0
+  libglib2.0-bin libjpeg-turbo-progs libpng16-16 libturbojpeg0 libxt6
+  xscreensaver-data-extra
+The following NEW packages will be installed:
+  libabsl20220623t64 libavif16 libdav1d7 libdirectfb-1.7-7t64
+  libevent-2.1-7t64 libgav1-1 libglib2.0-0t64 libgpm2 libjpeg-turbo8 libjpeg8
+  liblz1 libpng16-16t64 libssl3t64 libutempter0 libxt6t64 libyuv0 links2
+  xbitmaps xterm
+The following packages will be upgraded:
+  libxaw7 libxmu6
+2 upgraded, 19 newly installed, 14 to remove and 444 not upgraded.
+Need to get 10.7 MB of archives.
+After this operation, 13.1 MB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libevent-2.1-7t64 arm64 2.1.12-stable-9ubuntu2 [140 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libglib2.0-0t64 arm64 2.80.0-6ubuntu3.2 [1531 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libpng16-16t64 arm64 1.6.43-5build1 [185 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxmu6 arm64 2:1.1.3-3build2 [47.5 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxaw7 arm64 2:1.0.14-1build2 [183 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxt6t64 arm64 1:1.2.1-1.2build1 [168 kB]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libssl3t64 arm64 3.0.13-0ubuntu3.5 [1797 kB]
+Get:8 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libgpm2 arm64 1.20.7-11 [14.7 kB]
+Get:9 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libabsl20220623t64 arm64 20220623.1-3.1ubuntu3 [413 kB]
+Get:10 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libdav1d7 arm64 1.4.1-1build1 [298 kB]
+Get:11 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libgav1-1 arm64 0.18.0-1build3 [496 kB]
+Get:12 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjpeg-turbo8 arm64 2.1.5-2ubuntu2 [163 kB]
+Get:13 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjpeg8 arm64 8c-2ubuntu11 [2148 B]
+Get:14 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libyuv0 arm64 0.0~git202401110.af6ac82-1 [143 kB]
+Get:15 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libavif16 arm64 1.0.4-1ubuntu3 [89.6 kB]
+Get:16 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libdirectfb-1.7-7t64 arm64 1.7.7-11.1ubuntu2 [1006 kB]
+Get:17 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 liblz1 arm64 1.14-1 [37.6 kB]
+Get:18 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libutempter0 arm64 1.2.1-3build1 [9590 B]
+Get:19 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 links2 arm64 2.29-1build6 [3109 kB]
+Get:20 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 xbitmaps all 1.1.1-2.2 [22.4 kB]
+Get:21 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 xterm arm64 390-1ubuntu3 [886 kB]
+Fetched 10.7 MB in 2s (4446 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Removing gir1.2-atk-1.0:arm64 (2.50.0-1) ...
+Removing gir1.2-pango-1.0:arm64 (1.52.2+ds-1) ...
+Removing gir1.2-harfbuzz-0.0:arm64 (8.0.1-1+rb1) ...
+Removing gir1.2-freedesktop:arm64 (1.80.1-2) ...
+Removing gir1.2-gdkpixbuf-2.0:arm64 (2.42.10+dfsg-3) ...
+Removing gir1.2-glib-2.0:arm64 (2.80.1-1deepin1) ...
+dpkg: libevent-2.1-7:arm64: dependency problems, but removing anyway as you requested:
+ libunbound8:arm64 depends on libevent-2.1-7 (>= 2.1.8-stable).
+
+Removing libevent-2.1-7:arm64 (2.1.12-stable-8deepin1) ...
+Selecting previously unselected package libevent-2.1-7t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27686 files and directories currently installed.)
+Preparing to unpack .../libevent-2.1-7t64_2.1.12-stable-9ubuntu2_arm64.deb ...
+Unpacking libevent-2.1-7t64:arm64 (2.1.12-stable-9ubuntu2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27692 files and directories currently installed.)
+Removing libglib2.0-bin (2.80.1-1deepin1) ...
+Removing xscreensaver-data-extra (6.02+dfsg1-3) ...
+dpkg: libglib2.0-0:arm64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-gl depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-data depends on libglib2.0-0 (>= 2.16.0).
+ shared-mime-info depends on libglib2.0-0 (>= 2.75.3).
+ pulseaudio-module-bluetooth depends on libglib2.0-0 (>= 2.12.0).
+ pulseaudio depends on libglib2.0-0 (>= 2.32.0).
+ libspa-0.2-bluetooth:arm64 depends on libglib2.0-0 (>= 2.38.0).
+ librsvg2-2:arm64 depends on libglib2.0-0 (>= 2.77.3).
+ libpulse-mainloop-glib0:arm64 depends on libglib2.0-0 (>= 2.28.0).
+ libpipewire-0.3-modules:arm64 depends on libglib2.0-0 (>= 2.32.0).
+ libpangoxft-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangoft2-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangocairo-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libpango-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libical3:arm64 depends on libglib2.0-0 (>= 2.42.0).
+ libharfbuzz0b:arm64 depends on libglib2.0-0 (>= 2.32.0).
+ libharfbuzz-gobject0:arm64 depends on libglib2.0-0 (>= 2.14.0).
+ libgtk2.0-0:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ libgtk-3-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libgstreamer1.0-0:arm64 depends on libglib2.0-0 (>= 2.77.0).
+ libgstreamer-plugins-base1.0-0:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ libglibmm-2.4-1v5:arm64 depends on libglib2.0-0 (>= 2.62.0).
+ libgdk-pixbuf-xlib-2.0-0:arm64 depends on libglib2.0-0 (>= 2.48.0).
+ libgdk-pixbuf-2.0-0:arm64 depends on libglib2.0-0 (>= 2.75.0).
+ libfcitx5gclient2:arm64 depends on libglib2.0-0 (>= 2.38.0).
+ libdconf1:arm64 depends on libglib2.0-0 (>= 2.77.0).
+ libcolord2:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ libcloudproviders0:arm64 depends on libglib2.0-0 (>= 2.56.0).
+ libcairo-gobject2:arm64 depends on libglib2.0-0 (>= 2.68.0).
+ libavcodec60:arm64 depends on libglib2.0-0 (>= 2.12.0).
+ libatspi2.0-0:arm64 depends on libglib2.0-0 (>= 2.62).
+ libatk1.0-0:arm64 depends on libglib2.0-0 (>= 2.62).
+ libatk-bridge2.0-0:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ gtk-update-icon-cache depends on libglib2.0-0 (>= 2.57.2).
+ glib-networking-services depends on libglib2.0-0 (>= 2.73.3).
+ glib-networking:arm64 depends on libglib2.0-0 (>= 2.73.3).
+ fcitx5-frontend-gtk3 depends on libglib2.0-0 (>= 2.75.3).
+ fcitx5-frontend-gtk2 depends on libglib2.0-0 (>= 2.75.3).
+ dconf-service depends on libglib2.0-0 (>= 2.77.0).
+ dconf-gsettings-backend:arm64 depends on libglib2.0-0 (>= 2.77.0).
+ bluez-obexd depends on libglib2.0-0 (>= 2.77.0).
+ bluez depends on libglib2.0-0 (>= 2.75.3).
+
+Removing libglib2.0-0:arm64 (2.80.1-1deepin1) ...
+Selecting previously unselected package libglib2.0-0t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27248 files and directories currently installed.)
+Preparing to unpack .../libglib2.0-0t64_2.80.0-6ubuntu3.2_arm64.deb ...
+libglib2.0-0t64.preinst: Removing /var/lib/dpkg/info/libglib2.0-0:arm64.postrm to avoid loss of /usr/share/glib-2.0/schemas/gschemas.compiled...
+removed '/var/lib/dpkg/info/libglib2.0-0:arm64.postrm'
+Unpacking libglib2.0-0t64:arm64 (2.80.0-6ubuntu3.2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27269 files and directories currently installed.)
+Removing libjpeg-turbo-progs (1:2.1.5-2) ...
+dpkg: libpng16-16:arm64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:arm64 depends on libpng16-16 (>= 1.6.2).
+
+Removing libpng16-16:arm64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27236 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_arm64.deb ...
+Unpacking libpng16-16t64:arm64 (1.6.43-5build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27247 files and directories currently installed.)
+Removing libturbojpeg0:arm64 (1:2.1.5-2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27240 files and directories currently installed.)
+Preparing to unpack .../libxmu6_2%3a1.1.3-3build2_arm64.deb ...
+Unpacking libxmu6:arm64 (2:1.1.3-3build2) over (2:1.1.2-deepin1) ...
+Preparing to unpack .../libxaw7_2%3a1.0.14-1build2_arm64.deb ...
+Unpacking libxaw7:arm64 (2:1.0.14-1build2) over (2:1.0.13-1.1) ...
+dpkg: libxt6:arm64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libxt6.
+ xscreensaver-gl depends on libxt6.
+ xscreensaver-data depends on libxt6.
+ x11-xkb-utils depends on libxt6.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27238 files and directories currently installed.)
+Removing libxt6:arm64 (1:1.2.0-1) ...
+Selecting previously unselected package libxt6t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27232 files and directories currently installed.)
+Preparing to unpack .../00-libxt6t64_1%3a1.2.1-1.2build1_arm64.deb ...
+Unpacking libxt6t64:arm64 (1:1.2.1-1.2build1) ...
+Selecting previously unselected package libssl3t64:arm64.
+Preparing to unpack .../01-libssl3t64_3.0.13-0ubuntu3.5_arm64.deb ...
+Unpacking libssl3t64:arm64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:arm64 (3.2.0-2) ...
+Selecting previously unselected package libgpm2:arm64.
+Preparing to unpack .../02-libgpm2_1.20.7-11_arm64.deb ...
+Unpacking libgpm2:arm64 (1.20.7-11) ...
+Selecting previously unselected package libabsl20220623t64:arm64.
+Preparing to unpack .../03-libabsl20220623t64_20220623.1-3.1ubuntu3_arm64.deb ...
+Unpacking libabsl20220623t64:arm64 (20220623.1-3.1ubuntu3) ...
+Selecting previously unselected package libdav1d7:arm64.
+Preparing to unpack .../04-libdav1d7_1.4.1-1build1_arm64.deb ...
+Unpacking libdav1d7:arm64 (1.4.1-1build1) ...
+Selecting previously unselected package libgav1-1:arm64.
+Preparing to unpack .../05-libgav1-1_0.18.0-1build3_arm64.deb ...
+Unpacking libgav1-1:arm64 (0.18.0-1build3) ...
+Selecting previously unselected package libjpeg-turbo8:arm64.
+Preparing to unpack .../06-libjpeg-turbo8_2.1.5-2ubuntu2_arm64.deb ...
+Unpacking libjpeg-turbo8:arm64 (2.1.5-2ubuntu2) ...
+Selecting previously unselected package libjpeg8:arm64.
+Preparing to unpack .../07-libjpeg8_8c-2ubuntu11_arm64.deb ...
+Unpacking libjpeg8:arm64 (8c-2ubuntu11) ...
+Selecting previously unselected package libyuv0:arm64.
+Preparing to unpack .../08-libyuv0_0.0~git202401110.af6ac82-1_arm64.deb ...
+Unpacking libyuv0:arm64 (0.0~git202401110.af6ac82-1) ...
+Selecting previously unselected package libavif16:arm64.
+Preparing to unpack .../09-libavif16_1.0.4-1ubuntu3_arm64.deb ...
+Unpacking libavif16:arm64 (1.0.4-1ubuntu3) ...
+Selecting previously unselected package libdirectfb-1.7-7t64:arm64.
+Preparing to unpack .../10-libdirectfb-1.7-7t64_1.7.7-11.1ubuntu2_arm64.deb ...
+Unpacking libdirectfb-1.7-7t64:arm64 (1.7.7-11.1ubuntu2) ...
+Selecting previously unselected package liblz1:arm64.
+Preparing to unpack .../11-liblz1_1.14-1_arm64.deb ...
+Unpacking liblz1:arm64 (1.14-1) ...
+Selecting previously unselected package libutempter0:arm64.
+Preparing to unpack .../12-libutempter0_1.2.1-3build1_arm64.deb ...
+Unpacking libutempter0:arm64 (1.2.1-3build1) ...
+Selecting previously unselected package links2.
+Preparing to unpack .../13-links2_2.29-1build6_arm64.deb ...
+Unpacking links2 (2.29-1build6) ...
+Selecting previously unselected package xbitmaps.
+Preparing to unpack .../14-xbitmaps_1.1.1-2.2_all.deb ...
+Unpacking xbitmaps (1.1.1-2.2) ...
+Selecting previously unselected package xterm.
+Preparing to unpack .../15-xterm_390-1ubuntu3_arm64.deb ...
+Unpacking xterm (390-1ubuntu3) ...
+Setting up liblz1:arm64 (1.14-1) ...
+Setting up libgpm2:arm64 (1.20.7-11) ...
+Setting up libssl3t64:arm64 (3.0.13-0ubuntu3.5) ...
+Setting up libevent-2.1-7t64:arm64 (2.1.12-stable-9ubuntu2) ...
+Setting up libglib2.0-0t64:arm64 (2.80.0-6ubuntu3.2) ...
+Setting up libxt6t64:arm64 (1:1.2.1-1.2build1) ...
+Setting up libpng16-16t64:arm64 (1.6.43-5build1) ...
+Setting up libjpeg-turbo8:arm64 (2.1.5-2ubuntu2) ...
+Setting up libutempter0:arm64 (1.2.1-3build1) ...
+Setting up libdirectfb-1.7-7t64:arm64 (1.7.7-11.1ubuntu2) ...
+Setting up libdav1d7:arm64 (1.4.1-1build1) ...
+Setting up libabsl20220623t64:arm64 (20220623.1-3.1ubuntu3) ...
+Setting up xbitmaps (1.1.1-2.2) ...
+Setting up libjpeg8:arm64 (8c-2ubuntu11) ...
+Setting up libxmu6:arm64 (2:1.1.3-3build2) ...
+Setting up libxaw7:arm64 (2:1.0.14-1build2) ...
+Setting up libgav1-1:arm64 (0.18.0-1build3) ...
+Setting up xterm (390-1ubuntu3) ...
+
+Configuration file '/etc/X11/app-defaults/KOI8RXTerm', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/KOI8RXTerm-color', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/UXTerm', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/UXTerm-color', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/XTerm', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/XTerm-color', does not exist on system.
+Installing new config file as you requested.
+update-alternatives: using /usr/bin/xterm to provide /usr/bin/x-terminal-emulator (x-terminal-emulator) in auto mode
+update-alternatives: using /usr/bin/lxterm to provide /usr/bin/x-terminal-emulator (x-terminal-emulator) in auto mode
+Setting up libyuv0:arm64 (0.0~git202401110.af6ac82-1) ...
+Setting up libavif16:arm64 (1.0.4-1ubuntu3) ...
+Setting up links2 (2.29-1build6) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libc-bin (2.38-6deepin4) ...
