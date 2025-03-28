@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: jkmeter.linyaps
+  name: jkmeter
+  version: 0.9.0.1
+  kind: app
+  description: |-
+    horizontal or vertical bargraph audio level meter for Jack Audio Connection Kit
+    A jkmeter displays both the true RMS level and the
+    digital peak level.
+    But can display stereo correlation too.
+
+    Jkmeter is based on the ideas of mastering guru Bob Katz.
+    See <https://www.digido.com/bob-katz/index.php> and
+    follow the links on 'level practices'.
+    This is the type of meter you want for live recording,
+    mixing and mastering
+command:
+- /opt/apps/jkmeter.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
