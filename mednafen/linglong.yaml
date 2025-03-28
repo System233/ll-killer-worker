@@ -1,0 +1,41 @@
+version: "1"
+package:
+  id: mednafen.linyaps
+  name: mednafen
+  version: 1.29.0.1
+  kind: app
+  description: |-
+    multi-platform emulator, including NES, GB/A, Lynx, PC Engine
+    Mednafen is a command-line driven emulator for many different systems. It
+    has full support for OpenGL and SDL graphics, network play, remappable input
+    configuration, joystick and keyboard support, save states, game rewinding,
+    GSF playback, and screenshots.
+
+    The systems supported by Mednafen are:
+    * Apple II/II+
+    * Atari Lynx
+    * GameBoy
+    * GameBoy Color
+    * GameBoy Advance
+    * NES
+    * SNES
+    * Virtual Boy
+    * PC Engine (TurboGrafx 16)
+    * PC-FX
+    * SuperGrafx
+    * NeoGeo Pocket, NeoGeo Pocket Color
+    * WonderSwan
+    * Sega Genesis / Mega Drive
+    * Sega Saturn
+    * Sony PlayStation
+
+    Hardware emulated by Mednafen includes:
+    * NES gamepad, Zapper, PowerPad
+    * Four-Score, Famicom multiplayer adapter
+    * Arkanoid, HyperShot, Space Shadow, Mahjong controllers
+    * Oeka Kids tablet, Quiz King buzzers, Family Trainer, Barcode World
+    * Game Genie
+command:
+- /opt/apps/mednafen.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
