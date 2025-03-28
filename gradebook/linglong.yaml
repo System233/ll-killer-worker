@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: gradebook.linyaps
+  name: gradebook
+  version: 1.2.0.0
+  kind: app
+  description: |-
+    Keep track of your grades
+    Gradebook is a simple tool that helps you keep track of your grades.
+    This way you always know how you are doing in your courses.
+
+    Features:
+    - Support for numerical and percentage systems
+    - Assign your grades to categories with different weighting
+    - Add notes to your grades so that you later know how you could
+    improve
+    - Your average is calculated automatically taking the weighting
+    of the different categories into account
+command:
+- /opt/apps/gradebook.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
