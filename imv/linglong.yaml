@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: imv.linyaps
+  name: imv
+  version: 4.4.0.1
+  kind: app
+  description: |-
+    X11/Wayland image viewer intended for use with tiling window managers
+    imv is a command line image viewer for X11 and Wayland aimed at users of
+    tiling window managers. It has native Wayland and X11 support and can handle
+    dozens of image formats, including: PNG, BMP, JPEG, TIFF, SVG, HEIF.
+
+    The package provides the imv-x11 and imv-wayland binaries. The `imv` wrapper
+    script is installed in /usr/libexec/imv/ due to a file name clash.
+command:
+- /opt/apps/imv.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
