@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: ktouch.linyaps
+  name: ktouch
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    touch typing tutor for KDE
+    KTouch is an aid for learning how to type with speed and accuracy.  It
+    provides a sample text to type and indicates which fingers should be used for
+    each key.
+
+    A collection of lessons are included for a wide range of different languages
+    and keyboard layouts, and typing statistics are used to dynamically adjust the
+    level of difficulty.
+
+    This package is part of the KDE education module.
+command:
+- /opt/apps/ktouch.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
