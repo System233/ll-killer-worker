@@ -1,0 +1,38 @@
+version: "1"
+package:
+  id: euler.linyaps
+  name: euler
+  version: 1.61.0.12
+  kind: app
+  description: |-
+    interactive mathematical programming environment
+    Euler is a powerful numerical laboratory with a programming language.
+    The system can handle real, complex and interval numbers, vectors and
+    matrices. It can produce 2D/3D plots.
+
+    Euler features among other things:
+    * real, complex and interval scalars and matrices
+    * a programming language, with local variables, default values for
+    parameters, variable parameter number, passing of functions
+    * two and three dimensional graphs
+    * marker plots
+    * density and contour plots
+    * animations
+    * numerical integration and differentiation
+    * statistical functions and tests
+    * differential equations
+    * interval methods with guaranteed inclusions
+    * function minimizers (Brent, Nelder-Mean)
+    * simplex algorithm
+    * interpolation and approximation
+    * finding roots of polynomials
+    * fast Fourier transform (FFT)
+    * an exact scalar product using a long accumulator
+    * PostScript graphics export
+
+    This package contains the main program. Documentation for Euler is included
+    in the euler-doc package.
+command:
+- /opt/apps/euler.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
