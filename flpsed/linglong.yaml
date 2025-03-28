@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: flpsed.linyaps
+  name: flpsed
+  version: 0.7.3.9
+  kind: app
+  description: |-
+    Postscript and PDF annotator
+    flpsed is a WYSIWYG pseudo PostScript editor. "Pseudo", because isn't possible
+    to remove or modify existing elements of a document. But flpsed lets anyone to
+    add arbitrary text lines to existing PostScript 1 documents. Added lines can
+    later be reedited with flpsed.
+
+    Using pdftops, which is part of xpdf, one can convert PDF documents to
+    PostScript and also add text to them. flpsed is useful for filling in forms,
+    adding notes, etc.
+command:
+- /opt/apps/flpsed.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
