@@ -1,0 +1,33 @@
+正在测试: APPID=frozen-bubble.linyaps LAYER=frozen-bubble.linyaps_2.212.0.12_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install frozen-bubble.linyaps_2.212.0.12_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:frozen-bubble.linyaps
+Layer文件:frozen-bubble.linyaps_2.212.0.12_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: frozen-bubble.linyaps_2.212.0.12_x86_64_binary.layer
+offset: 966
+mountpoint: /tmp/tmp.Uzd8BuHt4U/mnt
+dbglevel: 0
+[成功] frozen-bubble.desktop: frozen-bubble -> /opt/apps/frozen-bubble.linyaps/files/share/icons/hicolor/16x16/apps/frozen-bubble.png
+[成功] /opt/apps/frozen-bubble.linyaps/files/share/applications/frozen-bubble.desktop: /opt/apps/frozen-bubble.linyaps/files/entrypoint.sh frozen-bubble
+[正在测试启动项]
+包名:frozen-bubble.linyaps
+Layer文件:frozen-bubble.linyaps_2.212.0.12_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: frozen-bubble.linyaps_2.212.0.12_x86_64_binary.layer
+offset: 966
+mountpoint: /tmp/tmp.3pZe9j1wNW/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run frozen-bubble.linyaps -- /opt/apps/frozen-bubble.linyaps/files/entrypoint.sh frozen-bubble
+[PID 11996] 进程已启动
+[PID 11996] 已检测到窗口:PID=36
+[PID 11996] 正在截图 0秒: tests/screen0-0.jpg
+[PID 11996] 正在截图 1秒: tests/screen0-1.jpg
+[PID 11996] 正在截图 3秒: tests/screen0-3.jpg
+[PID 11996] 正在截图 5秒: tests/screen0-5.jpg
+[PID 11996] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall frozen-bubble.linyaps
