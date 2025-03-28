@@ -1,0 +1,35 @@
+正在测试: APPID=kde-config-tablet.linyaps LAYER=kde-config-tablet.linyaps_3.2.0.5_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install kde-config-tablet.linyaps_3.2.0.5_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:kde-config-tablet.linyaps
+Layer文件:kde-config-tablet.linyaps_3.2.0.5_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: kde-config-tablet.linyaps_3.2.0.5_arm64_binary.layer
+offset: 786
+mountpoint: /tmp/tmp.kNrVaMb4dZ/mnt
+dbglevel: 0
+find: ‘/opt/apps/kde-config-tablet.linyaps/files/share/icons’: No such file or directory
+[成功] kde_wacom_tabletfinder.desktop: input-tablet -> /usr/share/icons/Adwaita/scalable/devices/input-tablet.svg
+[成功] /opt/apps/kde-config-tablet.linyaps/files/share/applications/kde_wacom_tabletfinder.desktop: /opt/apps/kde-config-tablet.linyaps/files/entrypoint.sh kde_wacom_tabletfinder
+[正在测试启动项]
+包名:kde-config-tablet.linyaps
+Layer文件:kde-config-tablet.linyaps_3.2.0.5_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: kde-config-tablet.linyaps_3.2.0.5_arm64_binary.layer
+offset: 786
+mountpoint: /tmp/tmp.0DcGwz2V2x/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run kde-config-tablet.linyaps -- /opt/apps/kde-config-tablet.linyaps/files/entrypoint.sh kde_wacom_tabletfinder
+[PID 28967] 进程已启动
+[PID 28967] 已检测到窗口:PID=37
+[PID 28967] 正在截图 0秒: tests/screen0-0.jpg
+[PID 28967] 正在截图 2秒: tests/screen0-2.jpg
+[PID 28967] 正在截图 4秒: tests/screen0-4.jpg
+[PID 28967] 正在截图 5秒: tests/screen0-5.jpg
+[PID 28967] 正在通知并等待进程退出
+[PID 28967] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall kde-config-tablet.linyaps
