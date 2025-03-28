@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: giggle.linyaps
+  name: giggle
+  version: 0.7.0.6
+  kind: app
+  description: |-
+    GTK+ frontend for the git directory tracker
+    Giggle is a GTK+ frontend to the git directory tracker.
+    With Giggle you will be able to visualize and browse easily
+    the revision tree, view changed files and differences between
+    revisions, visualize summarized info for the project, commit
+    changes and other useful tasks for any git projects contributor.
+command:
+- /opt/apps/giggle.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
