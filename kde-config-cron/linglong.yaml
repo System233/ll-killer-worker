@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kde-config-cron.linyaps
+  name: kde-config-cron
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    program scheduler frontend
+    kde-config-cron is a KDE configuration module for scheduling programs to run
+    at specific intervals using cron, the UNIX scheduling service.
+
+    This package is part of the KDE administration module.
+command:
+- /opt/apps/kde-config-cron.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
