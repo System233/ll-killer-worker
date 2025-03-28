@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: morris.linyaps
+  name: morris
+  version: 0.3.0.1
+  kind: app
+  description: |-
+    Nine men's morris game
+    Morris is an implementation of the board game "Nine Men's Morris".
+    Sometimes simply called Mills, Morris, Merrills, or Mühle in German.
+    This implementation supports not only the standard game, but also
+    several rule-variants and different boards. The game supports a
+    strong computer player which learns from past games played.
+command:
+- /opt/apps/morris.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
