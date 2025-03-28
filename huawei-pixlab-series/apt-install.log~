@@ -1,0 +1,32 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  bisheng-sim-box64 deepin-amd64-runtime
+The following NEW packages will be installed:
+  bisheng-sim-box64 deepin-amd64-runtime huawei-pixlab-series
+0 upgraded, 3 newly installed, 0 to remove and 234 not upgraded.
+Need to get 144 MB of archives.
+After this operation, 569 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/commercial arm64 deepin-amd64-runtime arm64 0.1.8 [128 MB]
+Get:2 https://community-packages.deepin.com/beige beige/commercial arm64 bisheng-sim-box64 arm64 2.0.3-4 [2377 kB]
+Get:3 https://community-packages.deepin.com/driver-23 driver/non-free arm64 huawei-pixlab-series arm64 1.0-32 [13.5 MB]
+Fetched 144 MB in 6s (25.1 MB/s)
+Selecting previously unselected package deepin-amd64-runtime.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../deepin-amd64-runtime_0.1.8_arm64.deb ...
+Unpacking deepin-amd64-runtime (0.1.8) ...
+dpkg: error processing archive /var/cache/apt/archives/deepin-amd64-runtime_0.1.8_arm64.deb (--unpack):
+ error creating device './opt/deepinwine/runtime-amd64/dev/console': Operation not permitted
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package bisheng-sim-box64.
+Preparing to unpack .../bisheng-sim-box64_2.0.3-4_arm64.deb ...
+Unpacking bisheng-sim-box64 (2.0.3-4) ...
+Selecting previously unselected package huawei-pixlab-series.
+Preparing to unpack .../huawei-pixlab-series_1.0-32_arm64.deb ...
+Unpacking huawei-pixlab-series (1.0-32) ...
+Errors were encountered while processing:
+ /var/cache/apt/archives/deepin-amd64-runtime_0.1.8_arm64.deb
+E: Sub-process /usr/bin/dpkg returned an error code (1)
