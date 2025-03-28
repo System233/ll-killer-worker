@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: goban-ss.linyaps
+  name: goban-ss
+  version: 1.1.0.6
+  kind: app
+  description: |-
+    Goban screensaver
+    A version of cgoban (by Bill Shubert, aka wms on the go
+    servers, see http://www.inetarena.com/~wms/comp/cgoban) modified to
+    run as a screensaver.
+
+    Displays a full-screen board and plays games from SGF files
+    picked at random.
+command:
+- /opt/apps/goban-ss.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
