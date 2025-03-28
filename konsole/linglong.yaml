@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: konsole.linyaps
+  name: konsole
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    X terminal emulator
+    Konsole is a terminal emulator built on the KDE Platform. It can contain
+    multiple terminal sessions inside one window using detachable tabs.
+
+    Konsole supports powerful terminal features, such as customizable schemes,
+    saved sessions, and output monitoring.
+command:
+- /opt/apps/konsole.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
