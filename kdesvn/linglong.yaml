@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: kdesvn.linyaps
+  name: kdesvn
+  version: 2.1.0.3
+  kind: app
+  description: |-
+    Subversion client with tight KDE integration
+    KDESvn is a graphical client for the Subversion revision control
+    system (svn).
+
+    Besides offering common and advanced svn operations, it features
+    a tight integration into KDE and can be embedded into other KDE
+    applications like Konqueror via the KDE component technology KParts.
+command:
+- /opt/apps/kdesvn.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
