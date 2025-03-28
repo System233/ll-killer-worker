@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: libu1db-qt5-examples.linyaps
+  name: libu1db-qt5-examples
+  version: 0.1.7.1
+  kind: app
+  description: |-
+    Qt5 binding and QtQuick2 plugin for U1DB - examples
+    Simple Qt5 binding and QtQuick2 plugin for U1DB (https://launchpad.net/u1db).
+
+    This package contains examples showcasing the use of the Qt binding for U1DB
+command:
+- /opt/apps/libu1db-qt5-examples.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
