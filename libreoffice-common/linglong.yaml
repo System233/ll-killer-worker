@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: libreoffice-common.linyaps
+  name: libreoffice-common
+  version: 24.2.7.0
+  kind: app
+  description: |-
+    office productivity suite -- arch-independent files
+    LibreOffice is a full-featured office productivity suite that provides
+    a near drop-in replacement for Microsoft(R) Office.
+
+    This package contains the architecture-independent files of
+    LibreOffice.
+command:
+- /opt/apps/libreoffice-common.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
