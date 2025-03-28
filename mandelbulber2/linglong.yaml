@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: mandelbulber2.linyaps
+  name: mandelbulber2
+  version: 2.20.0.2
+  kind: app
+  description: |-
+    3D fractal renderer and animator
+    Mandelbulber2 is a ray-tracing application for drawing three-dimensional
+    fractals, like Mandelbulb, Mandelbox, Julia, trigonometric, hypercomplex
+    or IFS fractals. It is highly customizable and features complex shading
+    algorithms (among the others there are shadows, depth of field, ambient
+    occlusion).
+
+    Mandelbulber2 is also able to produce animations and has a simple
+    built-in 3D navigator for exploring the fractals.
+command:
+- /opt/apps/mandelbulber2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
