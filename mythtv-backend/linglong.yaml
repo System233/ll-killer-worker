@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: mythtv-backend.linyaps
+  name: mythtv-backend
+  version: 34.0.20240210.0
+  kind: app
+  description: |-
+    Personal video recorder application (server)
+    MythTV provides a unified graphical interface for recording and viewing
+    television programs. Refer to the mythtv package for more information.
+
+    This package contains only the server software, which provides video and
+    audio capture and encoding services. In order to be useful, it requires a
+    mythtv-frontend installation, either on the same system or one reachable
+    via the network.
+
+    A database is also required. The mythtv-database package must be installed,
+    either on the same system, or one reachable via the network.
+
+    For a complete installation of all MythTV components, install the 'mythtv'
+    package.
+command:
+- /opt/apps/mythtv-backend.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
