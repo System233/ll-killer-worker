@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: livi.linyaps
+  name: livi
+  version: 0.1.0.1
+  kind: app
+  description: |-
+    Minimalistic video player targeting mobile devices
+    Livi is a minimalistic GTK4 and GStreamer based video player for
+    mobile phones aiming for minimal battery usage.
+
+    It supports:
+
+    * Inhibiting suspend/idle when playing video
+    * Stopping video playback on (i.e. power button toggled) screen blank
+    * Registering as default video player in GNOME control center
+    * An indicator whether hardware accleration is in use
+    * URL processing via yt-dlp
+command:
+- /opt/apps/livi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
