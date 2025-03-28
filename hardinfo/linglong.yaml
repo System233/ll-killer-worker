@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: hardinfo.linyaps
+  name: hardinfo
+  version: 0.5.1.2
+  kind: app
+  description: |-
+    Displays system information
+    HardInfo is a small application that displays information about your
+    hardware and operating system. Currently it knows about PCI, ISA PnP, USB,
+    IDE, SCSI, Serial and parallel port devices.
+command:
+- /opt/apps/hardinfo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
