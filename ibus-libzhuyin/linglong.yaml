@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: ibus-libzhuyin.linyaps
+  name: ibus-libzhuyin
+  version: 1.10.3.1
+  kind: app
+  description: |-
+    New Zhuyin engine based on libzhuyin for IBus
+    ibus-libzhuyin is a Chinese Zhuyin (Bopomofo) input method based on
+    libzhuyin. It provides an intelligent sentence-based Chinese zhuyin
+    algorithm to improve input experience.
+command:
+- /opt/apps/ibus-libzhuyin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
