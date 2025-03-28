@@ -23,20 +23,32 @@ const getFilesInDir = async (dirPath, pattern) => {
     return [];
   }
 };
-
+const readTextFile = async (path, regex) => {
+  try {
+    const data = await fsp.readFile(path, { encoding: "utf-8" });
+    if (regex) {
+      return regex.exec(data)?.[0] ?? data.trim();
+    }
+    return data.trim();
+  } catch (error) {
+    return null;
+  }
+};
 const getVersionAndSha256 = async (pkgIdDir) => {
   const versionFile = path.join(pkgIdDir, "version");
   const sha256File = path.join(pkgIdDir, "SHA256SUMS");
+  const killerVerFile = path.join(pkgIdDir, "killer-version");
 
-  const versionExists = await checkFileExists(versionFile);
   const sha256Exists = await checkFileExists(sha256File);
 
-  const version = versionExists
-    ? (await fsp.readFile(versionFile, { encoding: "utf-8" })).trim()
-    : null;
+  const version = await readTextFile(versionFile);
+  const killerVersion = await readTextFile(
+    killerVerFile,
+    /(?<=version\s*)v[^/]+/,
+  );
   const sha256sum = sha256Exists;
 
-  return { version, sha256sum };
+  return { version, sha256sum, killerVersion };
 };
 const getLastScreenFiles = (screenFiles) => {
   /** @type {Record<string,string>} */
@@ -64,16 +76,18 @@ const generateStatistic = async (rootDir, pkgId, repo, arch) => {
     .map((item) => `![${item}](./${pkgId}/tests/${item})`)
     .join(" ");
 
-  const { version, sha256sum } = await getVersionAndSha256(pkgIdDir);
+  const { version, sha256sum, killerVersion } =
+    await getVersionAndSha256(pkgIdDir);
 
   return {
-    id:pkgId,
+    id: pkgId,
     PKGID: `[${pkgId}](./${pkgId})`,
     ARCH: arch,
     VERSION: version || "N/A",
     TEST: testResults || "失败",
     REPO: repo,
     SHA256SUM: sha256sum ? `[SHA256](./${pkgId}/SHA256SUMS)` : "N/A",
+    KILLER: killerVersion || "N/A",
   };
 };
 
@@ -86,7 +100,7 @@ const readIndex = async (filePath) => {
 
   const indexes = [];
   for await (const line of rl) {
-    const chunks = line.split(",").map(x=>x?.trim());
+    const chunks = line.split(",").map((x) => x?.trim());
     indexes.push({
       name: chunks[0],
       version: chunks[1],
@@ -157,11 +171,11 @@ const main = async () => {
         `|${item.name}|${item.index}|${item.total}|${item.success} |${item.total - item.success} | ${formatPercentage(item.success, item.total)}| ${formatPercentage(item.success, item.index)}|`,
     ),
     "## 详细结果",
-    "| 包名   | 架构 |仓库| 版本    | 测试结果 | SHA256 |",
-    "|-------|------|-----|----|---------|-----------|",
+    "| 包名  | 架构 |仓库| 版本 | 测试结果 | SHA256 |killer版本|",
+    "|-------|-----|----|------|---------|--------|---------|",
     ...stats.map(
       (stat) =>
-        `| ${stat.PKGID} | ${stat.ARCH}  | ${stat.REPO} | ${stat.VERSION} | ${stat.TEST} | ${stat.SHA256SUM} |`,
+        `| ${stat.PKGID} | ${stat.ARCH}  | ${stat.REPO} | ${stat.VERSION} | ${stat.TEST} | ${stat.SHA256SUM} | ${stat.KILLER} |`,
     ),
   ];
 

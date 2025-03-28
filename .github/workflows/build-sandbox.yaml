@@ -115,7 +115,9 @@ jobs:
                 ${{env.PKG_WORK_DIR}}/*.mk
                 ${{env.PKG_WORK_DIR}}/version
                 ${{env.PKG_WORK_DIR}}/SHA*SUMS
-                ${{env.PKG_WORK_DIR}}/tests
+                ${{env.PKG_WORK_DIR}}/killer-version
+                ${{env.PKG_WORK_DIR}}/tests/*.log
+                ${{env.PKG_WORK_DIR}}/tests/screen*.jpg
             retention-days: 3
       - uses: valeriangalliat/action-sshd-cloudflared@v3
         if: ${{failure() && inputs.debug }}

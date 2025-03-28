@@ -42,7 +42,7 @@ build: $(KILLER)
 ifneq ($(SOURCES),)
 	cat $(SOURCES) >"$(PKG_WORK_DIR)/sources.list"
 endif
-	cd "$(PKG_WORK_DIR)";$(KILLER) init ;
+	cd "$(PKG_WORK_DIR)";$(KILLER) -v|tee "killer-version";$(KILLER) init ;
 ifneq ($(URL),)
 	wget -nv "$(URL)" -O "$(PKG_WORK_DIR)/$(FILENAME)"
 endif
