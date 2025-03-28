@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: hex-a-hop.linyaps
+  name: hex-a-hop
+  version: 1.1.0.2
+  kind: app
+  description: |-
+    puzzle game based on hexagonal tiles
+    Hex-a-hop is a great puzzle game in which a girl has to break all the green
+    tiles in an hexagonal map and step onto a safe tile without getting trapped.
+    As you progress through the game, more types of tiles are introduced which
+    make things more difficult and interesting as you progress through the many
+    levels. You can use the infinite undo feature to retrace your steps if you
+    make a mistake. You can take as long as you like to complete each level.
+command:
+- /opt/apps/hex-a-hop.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
