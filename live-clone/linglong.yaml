@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: live-clone.linyaps
+  name: live-clone
+  version: 3.1.0.1
+  kind: app
+  description: |-
+    GUI to clone and manage Live-Build USB sticks
+    This application allows one to make bootable USB sticks from an
+    iso-hybrid image issued by Live-Build. It adapts additionally a
+    persistence partition to use the free space on the USB stick.
+
+    It features also management tools for live USB sticks: when such
+    USB disks are used daily, they happen to have inconsistencies in their
+    persistence area which can render them unusable. Tools are provided to
+    save persistence data when necessary, and to blank the persistence area,
+    so the USB disk can be used again.
+
+    The application detects when it is run from a Debian-Live environment,
+    thus featuring seamless auto-cloning.
+command:
+- /opt/apps/live-clone.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
