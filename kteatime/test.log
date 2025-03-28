@@ -1,0 +1,30 @@
+正在测试: APPID=kteatime.linyaps LAYER=kteatime.linyaps_23.8.5.0_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install kteatime.linyaps_23.8.5.0_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:kteatime.linyaps
+Layer文件:kteatime.linyaps_23.8.5.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: kteatime.linyaps_23.8.5.0_x86_64_binary.layer
+offset: 665
+mountpoint: /tmp/tmp.nIog4ZQNsN/mnt
+dbglevel: 0
+[成功] org.kde.kteatime.desktop: kteatime -> /opt/apps/kteatime.linyaps/files/share/icons/hicolor/16x16/apps/kteatime.png
+[成功] /opt/apps/kteatime.linyaps/files/share/applications/org.kde.kteatime.desktop: /opt/apps/kteatime.linyaps/files/entrypoint.sh kteatime
+[正在测试启动项]
+包名:kteatime.linyaps
+Layer文件:kteatime.linyaps_23.8.5.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: kteatime.linyaps_23.8.5.0_x86_64_binary.layer
+offset: 665
+mountpoint: /tmp/tmp.qmAKnpTtk4/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run kteatime.linyaps -- /opt/apps/kteatime.linyaps/files/entrypoint.sh kteatime
+[PID 23958] 进程已启动
+[PID 23958] 等待超时，未能检测到窗口
+[PID 23958] 正在通知并等待进程退出
+[PID 23958] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall kteatime.linyaps
