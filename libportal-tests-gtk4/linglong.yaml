@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: libportal-tests-gtk4.linyaps
+  name: libportal-tests-gtk4
+  version: 0.7.1.5
+  kind: app
+  description: |-
+    Flatpak portal library (test program for GTK 4)
+    libportal provides GIO-style C APIs for most Flatpak portals' D-Bus
+    interfaces. It is primarily intended for installation in Flatpak runtimes,
+    where applications can use it to interact with portals; it can also be
+    used to test the portal services.
+
+    See the xdg-desktop-portal package's description for more information
+    about portals.
+
+    This package contains the org.gnome.PortalTest.Gtk4 application, and
+    will contain "as-installed" test programs if they are added.
+command:
+- /opt/apps/libportal-tests-gtk4.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
