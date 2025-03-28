@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: gearhead.linyaps
+  name: gearhead
+  version: 1.310.0.3
+  kind: app
+  description: |-
+    roguelike mecha role playing game, console version
+    A century and a half ago the Earth was nearly destroyed by nuclear
+    war. Now, a federation of free city-states has begun to restore
+    civilization. However, there are forces operating in the darkness
+    which will unleash the horrors of the past age in a bid to determine
+    the future of the human race.
+
+    Features of the game include random storyline generation, richly
+    detailed character generation, complex NPC interaction, and of course
+    over 150 different mechanical designs ranging from jet fighters to
+    giant robots to city-smashing tanks.
+
+    This is the console version.  For graphics, use gearhead-sdl instead.
+command:
+- /opt/apps/gearhead.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
