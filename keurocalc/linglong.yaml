@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: keurocalc.linyaps
+  name: keurocalc
+  version: 1.3.0.4
+  kind: app
+  description: |-
+    universal currency converter and calculator
+    KEurocalc is a universal currency converter and calculator.
+    It downloads latest exchange rates directly from the
+    European Central Bank and Time Genie.
+command:
+- /opt/apps/keurocalc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
