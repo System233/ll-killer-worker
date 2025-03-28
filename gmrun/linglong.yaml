@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gmrun.linyaps
+  name: gmrun
+  version: 0.9.2.3
+  kind: app
+  description: |-
+    Featureful CLI-like GTK+ application launcher
+    This is gmrun; a small fast, yet featureful application launcher for use
+    under X11, which uses GTK+ widget toolkit. Some features include tab-
+    completion of file names and programs, history, easy x-terminal-emulator
+    launching, and URL handling.
+command:
+- /opt/apps/gmrun.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
