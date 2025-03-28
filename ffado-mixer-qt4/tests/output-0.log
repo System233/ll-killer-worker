@@ -1,0 +1,28 @@
+包名:ffado-mixer-qt4.linyaps
+Layer文件:ffado-mixer-qt4.linyaps_2.4.9.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: ffado-mixer-qt4.linyaps_2.4.9.1_arm64_binary.layer
+offset: 734
+mountpoint: /tmp/tmp.7lsTow8oXx/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+Cannot create RT messagebuffer thread: Operation not permitted (1)
+Retrying messagebuffer thread without RT scheduling
+Messagebuffer not realtime; consider enabling RT scheduling for user
+-----------------------------------------------
+FFADO Control DBUS service
+Part of the FFADO project -- www.ffado.org
+Version: 2.4.9
+(C) 2008-2021, Pieter Palmers and others
+This program comes with ABSOLUTELY NO WARRANTY.
+-----------------------------------------------
+
+1743129390960737:  (ffado-dbus-server.cpp)[ 275] main:  Discovering devices...
+1743129390962190: [31mFatal (devicemanager.cpp)[ 187] initialize: No FireWire adapters (ports) found.
+[0m1743129390962204: [31mError (ffado-dbus-server.cpp)[ 282] main: Could not initialize device manager
+[0m1743129390962209: Debug (ffado-dbus-server.cpp)[ 207] exitfunction: Debug output flushed...
+no message buffer overruns
+02:36:36 logginghandler   ERROR    Could not communicate with the FFADO DBus service...
