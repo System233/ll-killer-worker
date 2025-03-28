@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: jacktrip-gui.linyaps
+  name: jacktrip-gui
+  version: 2.2.2.1
+  kind: app
+  description: |-
+    high-quality system for audio network performances (GUI)
+    JackTrip is a Linux and Mac OS X-based system used for multi-machine
+    network performance over the Internet. It supports any number of
+    channels (as many as the computer/network can handle) of bidirectional,
+    high quality, uncompressed audio signal streaming.
+
+    You can use it between any combination of Linux and Mac OS X systems
+    (i.e., one end using Linux can connect to the other using Mac OS X).
+
+    It is currently being developed and actively tested at CCRMA by the
+    SoundWIRE group.
+
+    This package contains the GUI version of jacktrip, which also includes
+    RtAudio support.
+command:
+- /opt/apps/jacktrip-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
