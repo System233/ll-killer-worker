@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: ftp.app.linyaps
+  name: ftp.app
+  version: 0.6.0.2
+  kind: app
+  description: |-
+    File transfer protocol application for GNUstep
+    This is a file transfer application (RFC 765) featuring a compact and easy
+    interface. As most applications in GAP it tries to work on both GNUstep and
+    MacOS X and retain the utmost possible similarity among the two version to
+    ease working in both environments.
+
+    FTP supports different port arbitration modes: "default", standard "PORT"
+    (also known as active) and standard "PASV" (also known as passive).
+command:
+- /opt/apps/ftp.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
