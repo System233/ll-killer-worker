@@ -1,0 +1,28 @@
+正在测试: APPID=jxplorer.linyaps LAYER=jxplorer.linyaps_3.3.2.7_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install jxplorer.linyaps_3.3.2.7_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:jxplorer.linyaps
+Layer文件:jxplorer.linyaps_3.3.2.7_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: jxplorer.linyaps_3.3.2.7_x86_64_binary.layer
+offset: 1550
+mountpoint: /tmp/tmp.I8hfX3zQz4/mnt
+dbglevel: 0
+[成功] jxplorer.desktop: jxplorer -> /opt/apps/jxplorer.linyaps/files/share/icons/hicolor/16x16/apps/jxplorer.png
+[成功] /opt/apps/jxplorer.linyaps/files/share/applications/jxplorer.desktop: /opt/apps/jxplorer.linyaps/files/entrypoint.sh jxplorer
+[正在测试启动项]
+包名:jxplorer.linyaps
+Layer文件:jxplorer.linyaps_3.3.2.7_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: jxplorer.linyaps_3.3.2.7_x86_64_binary.layer
+offset: 1550
+mountpoint: /tmp/tmp.CwGIvO6rSr/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run jxplorer.linyaps -- /opt/apps/jxplorer.linyaps/files/entrypoint.sh jxplorer
+[PID 9998] 进程已启动
+[PID 9998] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall jxplorer.linyaps
