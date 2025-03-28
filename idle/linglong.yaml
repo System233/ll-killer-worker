@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: idle.linyaps
+  name: idle
+  version: 3.12.3.0
+  kind: app
+  description: |-
+    IDE for Python using Tkinter (default version)
+    IDLE is an Integrated Development Environment for Python.
+    IDLE is written using Tkinter and therefore quite platform-independent.
+
+    This package is a dependency package, which depends on Debian's default
+    Python 3 version's IDLE (currently v3.12).
+command:
+- /opt/apps/idle.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
