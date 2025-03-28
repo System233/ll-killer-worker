@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: far2l.linyaps
+  name: far2l
+  version: 2.6.0.1
+  kind: app
+  description: |-
+    Linux port of FAR v2
+    This is a clone of FAR manager for Windows, similar, but more
+    powerful than Norton Commander/Midnight Commander.
+
+    Plug-ins that are currently working:
+    - NetRocks (SFTP/SCP/FTP/FTPS/SMB/NFS/WebDAV)
+    - colorer
+    - multiarc
+    - tmppanel
+    - align
+    - autowrap
+    - drawline
+    - editcase
+    - SimpleIndent
+command:
+- /opt/apps/far2l.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
