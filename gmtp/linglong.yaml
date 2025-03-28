@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: gmtp.linyaps
+  name: gmtp
+  version: 1.3.11.3
+  kind: app
+  description: |-
+    simple file transfer program for MTP based devices
+    gMTP is a simple and light-weight interface to the features provided
+    by libmtp, which allows users to manage the files stored on any MTP
+    music player supported by the libraries, including those with
+    multiple storage devices (e.g. mobile phones).
+
+    It doesn't provide complex features such as playlist management,
+    it just makes transferring files from and to devices easy, by
+    allowing users to upload, download and remove files on the device
+    with a fast and easy-to-use graphical interface.
+command:
+- /opt/apps/gmtp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
