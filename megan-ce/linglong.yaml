@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: megan-ce.linyaps
+  name: megan-ce
+  version: 6.21.1.3
+  kind: app
+  description: |-
+    interactive tool to explore and analyse microbiome sequencing data
+    MEGAN Community Edition is a shotgun sequencer to analyze microbiome samples.
+    It is a rewrite and extension of the widely-used microbiome analysis tool
+    MEGAN so as to facilitate the interactive analysis of the taxonomic and
+    functional content of very large microbiome datasets. Other new features
+    include a functional classifier called InterPro2GO, gene-centric read
+    assembly, principal coordinate analysis of taxonomy and function, and support
+    for metadata.  By integrating MEGAN CE with the high-throughput DNA-to-protein
+    alignment tool DIAMOND a powerful and complete pipeline for the analysis of
+    metagenome shotgun sequences can be provided.
+command:
+- /opt/apps/megan-ce.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
