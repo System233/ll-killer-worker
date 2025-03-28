@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gnome-weather.linyaps
+  name: gnome-weather
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    access current conditions and forecasts
+    Weather is a small application for GNOME that allows one to monitor the
+    current weather conditions for a city, or anywhere in the world, and
+    to access updated forecasts provided by various internet services.
+command:
+- /opt/apps/gnome-weather.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
