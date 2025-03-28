@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gtetrinet.linyaps
+  name: gtetrinet
+  version: 0.7.11.2
+  kind: app
+  description: |-
+    multiplayer tetris-like game
+    GTetrinet is a clone of Tetrinet, a multiplayer tetris variant for Windows.
+    It is compatible with the original tetrinet, although you need a separate
+    program, such as tetrinetx, to be able to create your own games.
+command:
+- /opt/apps/gtetrinet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
