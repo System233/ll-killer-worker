@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: gmanedit.linyaps
+  name: gmanedit
+  version: 0.4.2.8
+  kind: app
+  description: |-
+    GTK+ man pages editor
+    Gtk+ Manpages Editor is an editor for man pages that runs on X with GTK+.
+
+    Gmanedit is an application which allows you to edit manual pages (man) on
+    Linux/Unix systems.
+
+    It is like most common HTML editors but more easy. You need to know manpages
+    format.
+command:
+- /opt/apps/gmanedit.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
