@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: gnome-software.linyaps
+  name: gnome-software
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    Software Center for GNOME
+    Software lets you install and update applications and system extensions.
+
+    Software uses a plugin architecture to separate the frontend from the
+    technologies that are used underneath. Currently, a PackageKit plugin provides
+    data from a number of traditional packaging systems, such as rpm or apt. An
+    appdata plugin provides additional metadata from locally installed data in the
+    appdata format.
+command:
+- /opt/apps/gnome-software.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
