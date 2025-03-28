@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: mirage.linyaps
+  name: mirage
+  version: 0.11.2.1
+  kind: app
+  description: |-
+    fast and simple GTK+ image viewer
+    Mirage is ideal for users who wish to keep their computers
+    lean while still having a clean image viewer.
+
+    Features:
+    * Supports png, jpg, svg, xpm, gif, bmp, tiff, and others
+    * Preloading to navigate faster through images (optional)
+    * Thumbnail pane for quick navigation
+    * Slideshow and fullscreen mode
+    * Rotating, zooming, flipping, resizing, and cropping
+    * Custom user actions
+    * Screenshot
+command:
+- /opt/apps/mirage.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
