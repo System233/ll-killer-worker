@@ -1,0 +1,37 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  oss-compat xfonts-base
+Suggested packages:
+  xfs | xserver
+Recommended packages:
+  osspd
+The following NEW packages will be installed:
+  koules oss-compat xfonts-base
+0 upgraded, 3 newly installed, 0 to remove and 452 not upgraded.
+Need to get 6174 kB of archives.
+After this operation, 7786 kB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 koules amd64 1.4-28 [228 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 xfonts-base all 1:1.0.5+nmu1 [5941 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 oss-compat amd64 8 [3884 B]
+Fetched 6174 kB in 0s (27.8 MB/s)
+Selecting previously unselected package koules.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../koules_1.4-28_amd64.deb ...
+Unpacking koules (1.4-28) ...
+Selecting previously unselected package xfonts-base.
+Preparing to unpack .../xfonts-base_1%3a1.0.5+nmu1_all.deb ...
+Unpacking xfonts-base (1:1.0.5+nmu1) ...
+Selecting previously unselected package oss-compat.
+Preparing to unpack .../oss-compat_8_amd64.deb ...
+Unpacking oss-compat (8) ...
+Setting up oss-compat (8) ...
+Setting up xfonts-base (1:1.0.5+nmu1) ...
+
+Configuration file '/etc/X11/fonts/misc/xfonts-base.alias', does not exist on system.
+Installing new config file as you requested.
+Setting up koules (1.4-28) ...
+Processing triggers for fontconfig (2.14.2-6) ...
