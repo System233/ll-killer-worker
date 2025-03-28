@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: labelme.linyaps
+  name: labelme
+  version: 5.4.1.1
+  kind: app
+  description: |-
+    Image Polygonal Annotation with Python
+    This is a graphical image annotation tool inspired by
+    http://labelme.csail.mit.edu. It is written in Python and uses Qt for its
+    graphical interface.
+command:
+- /opt/apps/labelme.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
