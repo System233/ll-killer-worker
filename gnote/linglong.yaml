@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: gnote.linyaps
+  name: gnote
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    desktop note taking program using Wiki style links
+    Gnote is a desktop note-taking application which is simple and easy to
+    use. It lets you organise your notes intelligently by allowing you to
+    easily link ideas together with Wiki style interconnects.
+
+    It is a port of Tomboy to C++ and consumes less resources.
+command:
+- /opt/apps/gnote.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
