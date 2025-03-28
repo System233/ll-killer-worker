@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: libportal-tests.linyaps
+  name: libportal-tests
+  version: 0.4.0.2
+  kind: app
+  description: |-
+    Flatpak portal library (test program)
+    libportal provides GIO-style C APIs for most Flatpak portals' D-Bus
+    interfaces. It is primarily intended for installation in Flatpak runtimes,
+    where applications can use it to interact with portals; it can also be
+    used to test the portal services.
+
+    See the xdg-desktop-portal package's description for more information
+    about portals.
+
+    This package contains the portal-test application, and will contain
+    "as-installed" test programs if they are added.
+command:
+- /opt/apps/libportal-tests.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
