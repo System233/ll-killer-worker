@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: massxpert2.linyaps
+  name: massxpert2
+  version: 8.3.0.1
+  kind: app
+  description: |-
+    polymer chemistry modelling and mass spectrometry data simulation (runtime)
+    massXpert2 allows the user to perform the following tasks:
+
+    - Make brand new polymer chemistry definitions;
+    - Use the definitions to easily perform calculations in a desktop
+    calculator-like manner;
+    - Perform sophisticated polymer sequence editing and simulations;
+    - Perform m/z list comparisons;
+    - Perform isotopic cluster simulations.
+
+    Chemical simulations encompass cleavage (either chemical or
+    enzymatic), gas-phase fragmentations, chemical modification of any
+    monomer in the polymer sequence, cross-linking of monomers in the
+    sequence, arbitrary mass searches...
+
+    This package ships the massXpert2 program.
+command:
+- /opt/apps/massxpert2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
