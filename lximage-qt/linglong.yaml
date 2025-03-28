@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: lximage-qt.linyaps
+  name: lximage-qt
+  version: 1.4.0.0
+  kind: app
+  description: |-
+    Image viewer for LXQt
+    A simple image viewer for LXQt. Additional file formats can be processed if
+    one install qt5-image-formats-plugins.
+
+    This package contain the program files.
+command:
+- /opt/apps/lximage-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
