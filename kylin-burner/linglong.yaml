@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: kylin-burner.linyaps
+  name: kylin-burner
+  version: 3.0.10.1
+  kind: app
+  description: |-
+    CD/DVD burning application for UKUI
+    Burner is a simple application to burn, copy and erase CD and DVD
+    media: audio, video or data. It features among other things:
+    * On-the-fly burning
+    * Multisession support
+    * On-the-fly conversion of music playlists in all formats supported by
+    GStreamer
+
+    This package contains the standalone app.
+
+    The following packages, if installed, will provide Burner with added
+    functionality:
+    * cdrdao to burn combined data/audio CDs and for byte-to-byte copy
+    * GStreamer backends to support more audio formats
+    * vcdimager to create VCDs or SVCDs
+    * libdvdcss2 to copy encrypted DVDs
+    * tracker to search for video, audio, image and document files
+command:
+- /opt/apps/kylin-burner.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
