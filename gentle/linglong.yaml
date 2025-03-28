@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gentle.linyaps
+  name: gentle
+  version: 1.9.5.1
+  kind: app
+  description: |-
+    suite to plan genetic cloning
+    GENtle is a software for DNA and amino acid editing, database management,
+    plasmid maps, restriction and ligation, alignments, sequencer data
+    import, calculators, gel image display, PCR, and much more.
+command:
+- /opt/apps/gentle.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
