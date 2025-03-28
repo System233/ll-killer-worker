@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: filius.linyaps
+  name: filius
+  version: 2.5.1.1
+  kind: app
+  description: |-
+    educational network simulator
+    This simulation tool supports studying and teaching the technology
+    behind computer networks.
+
+    Starting from two connected devices up to separate local area
+    networks connected to the internet, many protocols, services and
+    applications are available, waiting to be explored.
+
+    Filius provides simulated desktops, servers, switches, routers and
+    quite some specifics on Ethernet and the TCP/IP protocol suite.
+command:
+- /opt/apps/filius.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
