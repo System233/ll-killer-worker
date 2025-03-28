@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: limesuite.linyaps
+  name: limesuite
+  version: 23.11.0.2
+  kind: app
+  description: |-
+    tools to test, control and update LMS7 transceiver based hardware
+    Lime Suite is a collection of software supporting Lime Microsystems LMS7 RF
+    transceiver based hardware such as the LimeSDR, LMS7002M UNITE board, or the
+    Novena with LMS7 RF board.
+
+    This package contains the command line and GUI tools to control and update the
+    hardware devices.
+command:
+- /opt/apps/limesuite.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
