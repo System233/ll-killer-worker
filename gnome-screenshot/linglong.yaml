@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gnome-screenshot.linyaps
+  name: gnome-screenshot
+  version: 41.0.0.2
+  kind: app
+  description: |-
+    screenshot application for GNOME
+    This tool takes a picture of the desktop or of a window and saves it
+    into a file.
+command:
+- /opt/apps/gnome-screenshot.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
