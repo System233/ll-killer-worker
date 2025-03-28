@@ -1,11 +1,11 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|1508|943 |565 | 62.53%| 30.43%|
+|3099|1513|947 |566 | 62.59%| 30.56%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|1263|855 |408 | 67.70%| 30.99%|
+|ubuntu-noble|2759|1268|859 |409 | 67.74%| 31.13%|
 |deepin-v23|340|245|88 |157 | 35.92%| 25.88%|
 ## 详细结果
 | 包名  | 架构 |仓库| 版本 | 测试结果 | SHA256 |killer版本|
@@ -1518,3 +1518,8 @@
 | [konquest](./konquest) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./konquest/tests/screen0-5.jpg) | [SHA256](./konquest/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [konsole](./konsole) | arm64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./konsole/tests/screen0-5.jpg) | [SHA256](./konsole/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [konsolekalendar](./konsolekalendar) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3-20250327 | 失败 | [SHA256](./konsolekalendar/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [kontrast](./kontrast) | arm64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./kontrast/tests/screen0-5.jpg) | [SHA256](./kontrast/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [konversation](./konversation) | arm64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./konversation/tests/screen0-5.jpg) | [SHA256](./konversation/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [kookbook](./kookbook) | arm64  | ubuntu-noble | 0.2.1-3build2 | ![screen0-5.jpg](./kookbook/tests/screen0-5.jpg) ![screen1-5.jpg](./kookbook/tests/screen1-5.jpg) | [SHA256](./kookbook/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [kopete](./kopete) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kopete/tests/screen0-5.jpg) | [SHA256](./kopete/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [koules](./koules) | arm64  | ubuntu-noble | 1.4-28-20250327 | 失败 | [SHA256](./koules/SHA256SUMS) | v1.5.1-arm64-nevm |
