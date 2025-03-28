@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: gamgi.linyaps
+  name: gamgi
+  version: 0.17.5.1
+  kind: app
+  description: |-
+    General Atomistic Modelling Graphic Interface (GAMGI)
+    The General Atomistic Modelling Graphic Interface (GAMGI) provides
+    a graphical interface to build, view and analyze atomic structures.
+    The program is aimed at the scientific community and provides a
+    graphical interface to study atomic structures and to prepare images
+    for presentations, and for teaching the atomic structure of matter.
+command:
+- /opt/apps/gamgi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
