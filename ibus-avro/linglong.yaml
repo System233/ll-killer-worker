@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ibus-avro.linyaps
+  name: ibus-avro
+  version: 1.2.0.6
+  kind: app
+  description: |-
+    IBus engine for Avro Phonetic
+    ibus-avro is a port of the popular Avro Phonetic Bangla typing method
+    to Linux. This software works as an Engine (plugin) of IBus and lets
+    users type in English and on-the-fly transliterate them phonetically
+    to Bangla.
+command:
+- /opt/apps/ibus-avro.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
