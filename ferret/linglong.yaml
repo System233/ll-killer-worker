@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: ferret.linyaps
+  name: ferret
+  version: 0.7.0.3
+  kind: app
+  description: |-
+    CASE tool for data model editing
+    GNU Ferret (Free Entity Relationship and Reverse Engineering Tool)
+    serves to edit data models. These can be implemented within a range of
+    relational databases such as PostgreSQL or MySQL.
+command:
+- /opt/apps/ferret.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
