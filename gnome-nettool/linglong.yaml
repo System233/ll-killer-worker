@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: gnome-nettool.linyaps
+  name: gnome-nettool
+  version: 42.0.0.1
+  kind: app
+  description: |-
+    network information tool for GNOME
+    GNOME Nettool is a network information tool which provides user interfaces for
+    some of the most common command line network tools including:
+    * ifconfig
+    * ping
+    * netstat
+    * traceroute
+    * port scanning
+    * DNS lookup
+    * finger
+    * whois
+command:
+- /opt/apps/gnome-nettool.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
