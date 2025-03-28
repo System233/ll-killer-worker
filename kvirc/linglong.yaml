@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: kvirc.linyaps
+  name: kvirc
+  version: 5.0.0.6
+  kind: app
+  description: |-
+    KDE-based next generation IRC client with module support
+    A highly configurable graphical IRC client with an MDI interface,
+    built-in scripting language, support for IRC DCC, drag & drop file
+    browsing, and much more. KVIrc uses the KDE widget set, can be extended
+    using its own scripting language, integrates with KDE, and supports
+    custom plugins.
+
+    If you're looking for a simple and plain IRC client, KVIrc is probably the
+    wrong choice as it is rather big. But if you want a highly customizable client
+    you won't regret the installation.
+command:
+- /opt/apps/kvirc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
