@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: eqonomize.linyaps
+  name: eqonomize
+  version: 1.5.6.1
+  kind: app
+  description: |-
+    personal accounting software for the small household economy
+    Eqonomize! is a personal accounting software for KDE, with focus on efficiency
+    and ease of use for the small household economy. It provides a complete
+    solution, with bookkeeping by double entry and support for scheduled recurring
+    transactions, security investments, and budgeting. It gives a clear overview
+    of past and present transactions, and development of incomes and expenses,
+    with descriptive tables and charts, as well as an approximation of future
+    account values.
+command:
+- /opt/apps/eqonomize.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
