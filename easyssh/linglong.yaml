@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: easyssh.linyaps
+  name: easyssh
+  version: 1.7.9.4
+  kind: app
+  description: |-
+    Complete, efficient and easy-to-use SSH manager
+    This package provides a GUI-based application that can help to
+    create and edit SSH connections, groups and customize the terminal.
+    The application also supports multiple instances of the same
+    connection.
+command:
+- /opt/apps/easyssh.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
