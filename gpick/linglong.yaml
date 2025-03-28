@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gpick.linyaps
+  name: gpick
+  version: 0.2.6.1
+  kind: app
+  description: |-
+    advanced GTK+ color picker
+    gpick is an advanced color picker used to pick colors from anywhere
+    on the screen, mix them to  get new colors, generate shades and tints,
+    and export palettes to common file formats or simply copy them
+    to the clipboard.
+command:
+- /opt/apps/gpick.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
