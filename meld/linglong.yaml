@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: meld.linyaps
+  name: meld
+  version: 3.22.2.1
+  kind: app
+  description: |-
+    graphical tool to diff and merge files
+    Meld is a graphical diff viewer and merge application for the GNOME
+    desktop. It supports 2 and 3-file diffs, recursive  directory diffs,
+    diffing of directories under version control (Bazaar, Codeville, CVS,
+    Darcs, Fossil SCM, Git, Mercurial, Monotone, Subversion), as well as
+    the ability to manually and automatically merge file differences.
+command:
+- /opt/apps/meld.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
