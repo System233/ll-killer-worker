@@ -1,0 +1,17 @@
+包名:gausssum.linyaps
+Layer文件:gausssum.linyaps_3.0.2.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: gausssum.linyaps_3.0.2.2_arm64_binary.layer
+offset: 804
+mountpoint: /tmp/tmp.3ogQDkKj4Q/mnt
+dbglevel: 0
+Traceback (most recent call last):
+  File "/usr/bin/gausssum", line 23, in <module>
+    import gausssum.gausssumgui
+  File "/usr/lib/python3/dist-packages/gausssum/gausssumgui.py", line 27, in <module>
+    from gausssum.preferencesbox import PreferencesPopupBox
+  File "/usr/lib/python3/dist-packages/gausssum/preferencesbox.py", line 21, in <module>
+    class PreferencesPopupBox(simpledialog.Dialog):
+                              ^^^^^^^^^^^^
+NameError: name 'simpledialog' is not defined
