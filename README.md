@@ -1,11 +1,11 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|1506|942 |564 | 62.55%| 30.40%|
+|3099|1508|943 |565 | 62.53%| 30.43%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|1261|854 |407 | 67.72%| 30.95%|
+|ubuntu-noble|2759|1263|855 |408 | 67.70%| 30.99%|
 |deepin-v23|340|245|88 |157 | 35.92%| 25.88%|
 ## 详细结果
 | 包名  | 架构 |仓库| 版本 | 测试结果 | SHA256 |killer版本|
@@ -1515,4 +1515,6 @@
 | [kompare](./kompare) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kompare/tests/screen0-5.jpg) | [SHA256](./kompare/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [kongress](./kongress) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kongress/tests/screen0-5.jpg) | [SHA256](./kongress/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [konqueror](./konqueror) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3.2 | ![screen0-5.jpg](./konqueror/tests/screen0-5.jpg) | [SHA256](./konqueror/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [konquest](./konquest) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./konquest/tests/screen0-5.jpg) | [SHA256](./konquest/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [konsole](./konsole) | arm64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./konsole/tests/screen0-5.jpg) | [SHA256](./konsole/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [konsolekalendar](./konsolekalendar) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3-20250327 | 失败 | [SHA256](./konsolekalendar/SHA256SUMS) | v1.5.1-arm64-nevm |
