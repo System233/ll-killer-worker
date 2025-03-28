@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: mokomaze.linyaps
+  name: mokomaze
+  version: 0.7.1.1
+  kind: app
+  description: |-
+    Ball in labyrinth game for the OpenMoko FreeRunner
+    Mokomaze is the opensource implementation of the classic game where you control
+    a steel ball by tilting a wooden labyrinth.
+
+    This package requires acceleration sensors and is targeted for the Openmoko
+    FreeRunner smartphone.
+command:
+- /opt/apps/mokomaze.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
