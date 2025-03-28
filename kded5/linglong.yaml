@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: kded5.linyaps
+  name: kded5
+  version: 5.115.0.0
+  kind: app
+  description: |-
+    Extensible daemon for providing session services
+    KDED runs in the background and performs a number of small tasks.
+    Some of these tasks are built in, others are started on demand.
+command:
+- /opt/apps/kded5.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
