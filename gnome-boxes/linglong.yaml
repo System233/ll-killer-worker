@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: gnome-boxes.linyaps
+  name: gnome-boxes
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    Simple GNOME app to access virtual systems
+    GNOME Boxes is a desktop client to view or use local virtual machines.
+    Boxes is intentionally simple and easy to use.
+
+    Hardware virtualization is required.
+
+    Previously, GNOME Boxes could also be used to connect to remote computers,
+    but that feature is now provided by the GNOME Connections app.
+command:
+- /opt/apps/gnome-boxes.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
