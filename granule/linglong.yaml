@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: granule.linyaps
+  name: granule
+  version: 1.4.0.10
+  kind: app
+  description: |-
+    flashcard program for learning new words
+    Granule is a flashcard program that implements Leitner cardfile
+    methodology for learning new words. It features both short-term and
+    long-term memory training capabilities with scheduling.
+command:
+- /opt/apps/granule.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
