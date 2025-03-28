@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: krusader.linyaps
+  name: krusader
+  version: 2.8.1.0
+  kind: app
+  description: |-
+    twin-panel (commander-style) file manager
+    Krusader is a simple, easy, powerful, twin-panel (commander-style) file
+    manager, similar to Midnight Commander (C) or Total Commander (C).
+
+    It provides all the file management features you could possibly want.
+
+    Plus: extensive archive handling, mounted filesystem support, FTP,
+    advanced search module, viewer/editor, directory synchronisation,
+    file content comparisons, powerful batch renaming and much more.
+
+    It supports archive formats: ace, arj, bzip2, deb, iso, lha, rar, rpm, tar,
+    zip and 7-zip.
+
+    It handles KIOSlaves such as smb:// or fish://.
+
+    Almost completely customizable, Krusader is very user friendly, fast and looks
+    great on your desktop.
+command:
+- /opt/apps/krusader.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
