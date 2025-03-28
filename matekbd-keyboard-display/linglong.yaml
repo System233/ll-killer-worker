@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: matekbd-keyboard-display.linyaps
+  name: matekbd-keyboard-display
+  version: 23.11.1.1
+  kind: app
+  description: |-
+    Display keyboard layouts in MATE
+    An application that allows you to preview keyboard layouts on MATE
+    desktop. It uses the libmatekbd library, similarly to
+    gkbd-keyboard-display and libgnomekbd.
+command:
+- /opt/apps/matekbd-keyboard-display.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
