@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: kruler.linyaps
+  name: kruler
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    screen ruler
+    KRuler is a tool for measuring the size, in pixels, of items on the screen.
+
+    This package is part of the KDE graphics module.
+command:
+- /opt/apps/kruler.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
