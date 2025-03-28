@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gnome-bluetooth-sendto.linyaps
+  name: gnome-bluetooth-sendto
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    GNOME Bluetooth Send To app
+    The GNOME Bluetooth Send To app is an easy way to send files
+    to a Bluetooth device.
+command:
+- /opt/apps/gnome-bluetooth-sendto.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
