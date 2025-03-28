@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: geki3.linyaps
+  name: geki3
+  version: 1.0.3.10
+  kind: app
+  description: |-
+    R-Type-like horizontal shoot'em-up
+    Geki 3 is a horizontal shoot'em-up game similar to classic arcade games
+    such as R-Type or Zero "All Your Base Are Belong To Us" Wing. It features
+    four levels and various weapons.
+command:
+- /opt/apps/geki3.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
