@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: gwaterfall.linyaps
+  name: gwaterfall
+  version: 0.1.0.5
+  kind: app
+  description: |-
+    View all characters of a font in all sizes
+    This program facilitates comparison of various fonts and font
+    rendering parameters.
+
+    It displays sample lines of text in sizes from 5 to 36px
+    simultaneously and allows changing of font size range and increment,
+    hinting, autohinting, anti-aliasing, subpixel smoothing, and aspect,
+    immediately showing the changes on the screen.  All Unicode
+    characters are divided into blocks of 128 characters, and user can
+    choose block of 128 characters to use as sample line of text.
+command:
+- /opt/apps/gwaterfall.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
