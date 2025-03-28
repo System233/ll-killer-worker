@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: goxel.linyaps
+  name: goxel
+  version: 0.11.0.1
+  kind: app
+  description: |-
+    3D voxel editor
+    Goxel is a 3D program that lets you create voxel volumes.
+    It supports 24 bits RGB colors, unlimited scene size and undo buffers.
+    Layers, procedural generation and Marching Cube rendering.
+    Exports to obj, ply, magica voxel, png, qubicle, povray, and more
+command:
+- /opt/apps/goxel.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
