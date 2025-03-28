@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: elektroid.linyaps
+  name: elektroid
+  version: 3.0.1.2
+  kind: app
+  description: |-
+    Sample and MIDI device manager
+    Elektroid is a sample and MIDI device manager.
+
+    With Elektroid you can easily upload and download audio files and manage
+    different types of data on different MIDI devices, such as presets, projects or
+    tunings.
+
+    It can also be used to send and receive SysEx MIDI files.
+
+    This package provides both the GUI and CLI application of Elektroid.
+command:
+- /opt/apps/elektroid.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
