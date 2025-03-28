@@ -1,0 +1,28 @@
+正在测试: APPID=lebiniou.linyaps LAYER=lebiniou.linyaps_3.66.0.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install lebiniou.linyaps_3.66.0.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:lebiniou.linyaps
+Layer文件:lebiniou.linyaps_3.66.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: lebiniou.linyaps_3.66.0.2_arm64_binary.layer
+offset: 1088
+mountpoint: /tmp/tmp.Ux1vNoBDXI/mnt
+dbglevel: 0
+[成功] net.biniou.LeBiniou.desktop: net.biniou.LeBiniou -> /opt/apps/lebiniou.linyaps/files/share/icons/hicolor/256x256/apps/net.biniou.LeBiniou.png
+[成功] /opt/apps/lebiniou.linyaps/files/share/applications/net.biniou.LeBiniou.desktop: /opt/apps/lebiniou.linyaps/files/entrypoint.sh lebiniou
+[正在测试启动项]
+包名:lebiniou.linyaps
+Layer文件:lebiniou.linyaps_3.66.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: lebiniou.linyaps_3.66.0.2_arm64_binary.layer
+offset: 1088
+mountpoint: /tmp/tmp.WgBPB3dxnt/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run lebiniou.linyaps -- /opt/apps/lebiniou.linyaps/files/entrypoint.sh lebiniou
+[PID 9750] 进程已启动
+[PID 9750] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall lebiniou.linyaps
