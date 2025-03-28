@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gpxviewer.linyaps
+  name: gpxviewer
+  version: 1.1.0.5
+  kind: app
+  description: |-
+    views GPS traces collected in the GPX format
+    This application allows the user to load a GPS trace, in the GPX file format,
+    and read it in a presentable way. You are shown a few statistics, such as the
+    duration or maximum speed. You are also shown the trace on an OpenStreetMap
+    map, where you can scroll around and zoom.
+command:
+- /opt/apps/gpxviewer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
