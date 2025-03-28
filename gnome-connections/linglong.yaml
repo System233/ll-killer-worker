@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: gnome-connections.linyaps
+  name: gnome-connections
+  version: 46.0.0.2
+  kind: app
+  description: |-
+    Simple GNOME app to access remote computers
+    GNOME Connections is a desktop client to view or use remote computers
+    using VNC or RDP. The app is intentionally simple and easy to use.
+
+    GNOME Connections replaces the remote desktop functionality that was
+    previously found in GNOME Boxes.
+command:
+- /opt/apps/gnome-connections.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
