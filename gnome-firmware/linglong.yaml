@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: gnome-firmware.linyaps
+  name: gnome-firmware
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    GTK front end for fwupd
+    This application can:
+
+    - Upgrade, Downgrade, & Reinstall firmware on devices supported by fwupd.
+    - Unlock locked fwupd devices
+    - Verify firmware on supported devices
+    - Display all releases for a fwupd device
+command:
+- /opt/apps/gnome-firmware.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
