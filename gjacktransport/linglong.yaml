@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: gjacktransport.linyaps
+  name: gjacktransport
+  version: 0.6.4.1
+  kind: app
+  description: |-
+    access to the JACK's transport mechanism as touchable slider
+    G. JACK Transport is a standalone application that provides access
+    to the Jack Audio Connection Kit's, JACK transport mechanism via a
+    dynamic graphical slider.
+
+    In other words: this software allows one to seek Audio/Video media
+    files when they are played along jack transport. Intended for
+    audio-engineers or A/V editors that work with Ardour, Ecasound,
+    Hydrogen, Xjadeo, etc.
+
+    Additionally it provides G. JACK Clock, a "Big Clock" display for
+    jack-transport.
+command:
+- /opt/apps/gjacktransport.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
