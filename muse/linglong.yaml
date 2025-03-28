@@ -1,0 +1,33 @@
+version: "1"
+package:
+  id: muse.linyaps
+  name: muse
+  version: 4.2.1.1
+  kind: app
+  description: |-
+    Qt-based audio/MIDI sequencer
+    MusE is a MIDI/audio sequencer with recording and editing capabilities.
+    Some Highlights:
+
+    * Standard midifile (smf) import-/export.
+    * Organizes songs in tracks and parts which you can arrange with
+    the part editor.
+    * MIDI editors: pianoroll, drum, list, controller.
+    * Score editor with high quality postscript printer output.
+    * Realtime: editing while playing.
+    * Unlimited number of open editors.
+    * Unlimited undo/redo.
+    * Realtime and step-recording.
+    * Multiple MIDI devices.
+    * Unlimited number of tracks.
+    * Sync to external devices: MTC/MMC, Midi Clock, Master/Slave.
+    * Audio tracks, LV2/DSSI/LADSPA host for master effects.
+    * Multithreaded.
+    * Uses raw MIDI devices.
+    * XML project file.
+    * Project file contains complete app state (session data).
+    * Application spanning Cut/Paste Drag/Drop.
+command:
+- /opt/apps/muse.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
