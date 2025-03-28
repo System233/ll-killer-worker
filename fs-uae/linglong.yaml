@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: fs-uae.linyaps
+  name: fs-uae
+  version: 3.1.66.2
+  kind: app
+  description: |-
+    Cross-platform Amiga emulator based on UAE/WinUAE
+    FS-UAE is a cross-platform Amiga emulator based on updated emulation code
+    from WinUAE. FS-UAE uses SDL for input, OpenAL for audio and OpenGL
+    for graphics.
+command:
+- /opt/apps/fs-uae.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
