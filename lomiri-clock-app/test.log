@@ -1,0 +1,28 @@
+正在测试: APPID=lomiri-clock-app.linyaps LAYER=lomiri-clock-app.linyaps_4.0.3.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install lomiri-clock-app.linyaps_4.0.3.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:lomiri-clock-app.linyaps
+Layer文件:lomiri-clock-app.linyaps_4.0.3.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: lomiri-clock-app.linyaps_4.0.3.1_arm64_binary.layer
+offset: 768
+mountpoint: /tmp/tmp.tzEPIksWnJ/mnt
+dbglevel: 0
+[成功] lomiri-clock-app.desktop: lomiri-clock-app.linyaps-clock-app -> /opt/apps/lomiri-clock-app.linyaps/files/share/icons/hicolor/scalable/apps/lomiri-clock-app.linyaps-clock-app.svg
+[成功] /opt/apps/lomiri-clock-app.linyaps/files/share/applications/lomiri-clock-app.desktop: /opt/apps/lomiri-clock-app.linyaps/files/entrypoint.sh qmlscene $@ -I /usr/lib/aarch64-linux-gnu/qt5/qml/ClockApp  /usr/share/lomiri-clock-app/lomiri-clock-app.qml
+[正在测试启动项]
+包名:lomiri-clock-app.linyaps
+Layer文件:lomiri-clock-app.linyaps_4.0.3.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: lomiri-clock-app.linyaps_4.0.3.1_arm64_binary.layer
+offset: 768
+mountpoint: /tmp/tmp.P6jALNZhFj/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run lomiri-clock-app.linyaps -- /opt/apps/lomiri-clock-app.linyaps/files/entrypoint.sh qmlscene $@ -I /usr/lib/aarch64-linux-gnu/qt5/qml/ClockApp /usr/share/lomiri-clock-app/lomiri-clock-app.qml
+[PID 24752] 进程已启动
+[PID 24752] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall lomiri-clock-app.linyaps
