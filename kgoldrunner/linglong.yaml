@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kgoldrunner.linyaps
+  name: kgoldrunner
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Lode Runner arcade game
+    KGoldrunner is a fast-paced platform game where the player must navigate a
+    maze while collecting gold nuggets and avoiding enemies.  A variety of level
+    packs are included, as well as an editor to create new levels.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/kgoldrunner.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
