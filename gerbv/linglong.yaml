@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gerbv.linyaps
+  name: gerbv
+  version: 2.10.0.1
+  kind: app
+  description: |-
+    Gerber file viewer (only RS 274 X format)
+    gerbv is a utility for viewing Gerber RS-274X files, Excellon drill files,
+    and CSV files for pick-and-place files. Gerber files are used for
+    communicating printed circuit board (PCB) designs to PCB manufacturers.
+command:
+- /opt/apps/gerbv.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
