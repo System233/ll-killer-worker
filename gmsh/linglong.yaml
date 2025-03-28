@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: gmsh.linyaps
+  name: gmsh
+  version: 4.12.1.1
+  kind: app
+  description: |-
+    Three-dimensional finite element mesh generator
+    Gmsh is a 3D finite element grid generator with a build-in CAD engine
+    and post-processor. Its design goal is to provide a fast, light and
+    user-friendly meshing tool with parametric input and advanced
+    visualization capabilities. Gmsh is built around four modules: geometry,
+    mesh, solver and post-processing. The specification of any input to
+    these modules is done either interactively using the graphical user
+    interface or in ASCII text files using Gmsh's own scripting language.
+
+    See Gmsh's reference manual for a more thorough overview of Gmsh's
+    capabilities.
+command:
+- /opt/apps/gmsh.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
