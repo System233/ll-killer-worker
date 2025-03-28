@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: giara.linyaps
+  name: giara
+  version: 1.1.0.0
+  kind: app
+  description: |-
+    Reddit client optimized for mobile devices
+    A client for Reddit that works well on a small screen.
+    Written in Python with GTK/Libhandy.
+command:
+- /opt/apps/giara.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
