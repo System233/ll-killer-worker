@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: kmines.linyaps
+  name: kmines
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    minesweeper game
+    KMines is a game where the player finds hidden mines without setting them off.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/kmines.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
