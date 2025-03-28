@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: moserial.linyaps
+  name: moserial
+  version: 3.0.12.0
+  kind: app
+  description: |-
+    Gtk-based serial terminal for the GNOME desktop
+    moserial is a clean, friendly gtk-based serial terminal for the
+    GNOME desktop. It is written in Vala.
+
+    Features
+    * ASCII and HEX views of incoming and outgoing data
+    * Logging to file of incoming and/or outgoing data
+    * Support for x, y, and z-modem file send and receive
+    * Support for profile files, to load/save common configurations
+    * Easier to use than the alternatives
+    * Supports i18n
+    * It even has docs!
+command:
+- /opt/apps/moserial.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
