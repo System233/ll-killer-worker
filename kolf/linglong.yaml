@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kolf.linyaps
+  name: kolf
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    miniature golf game
+    Kolf is a miniature golf game for one to ten players.  A variety of courses
+    are included, as well as an editor to create new courses.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/kolf.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
