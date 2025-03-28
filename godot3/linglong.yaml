@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: godot3.linyaps
+  name: godot3
+  version: 3.5.2.2
+  kind: app
+  description: |-
+    Full 2D and 3D game engine with editor
+    Godot is an advanced, feature packed, multi-platform 2D and 3D game engine.
+    It provides a huge set of common tools, so you can just focus on making
+    your game without reinventing the wheel.
+command:
+- /opt/apps/godot3.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
