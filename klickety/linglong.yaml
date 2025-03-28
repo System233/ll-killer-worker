@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: klickety.linyaps
+  name: klickety
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    SameGame puzzle game
+    Klickety is a puzzle game where the player removes groups of colored marbles to
+    clear the board.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/klickety.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
