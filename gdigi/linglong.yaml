@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: gdigi.linyaps
+  name: gdigi
+  version: 0.4.0.3
+  kind: app
+  description: |-
+    utility to control DigiTech effect pedals
+    gdigi is a tool aimed to provide X-Edit functionality to Linux users
+
+    Supported devices:
+    * RP150
+    * RP155
+    * RP250
+    * RP255
+    * RP355
+    * RP500
+    * RP1000
+    * GNX3000
+    * GNX4K
+command:
+- /opt/apps/gdigi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
