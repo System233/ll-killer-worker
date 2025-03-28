@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gnome-split.linyaps
+  name: gnome-split
+  version: 1.2.0.5
+  kind: app
+  description: |-
+    GNOME Split - File splitter for GNOME desktop
+    Tool that allows you to split files and merge them back. It is written in Java
+    and uses a GTK+ user interface (thanks to the java-gnome project). The goal is
+    to offer a native implementation of similar projects which can handle multiple
+    file formats (e.g. Xtremsplit).
+command:
+- /opt/apps/gnome-split.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
