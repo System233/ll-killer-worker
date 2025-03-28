@@ -1,12 +1,13 @@
 # amd64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3160|1377|799 |578 | 58.02%| 25.28%|
+|3161|1419|814 |605 | 57.36%| 25.75%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2779|1091|697 |394 | 63.89%| 25.08%|
-|deepin-v23|380|285|101 |184 | 35.44%| 26.58%|
+|ubuntu-noble|2779|1125|709 |416 | 63.02%| 25.51%|
+|deepin-v23|380|292|103 |189 | 35.27%| 27.11%|
+|shiftkey|1|1|1 |0 | 100.00%| 100.00%|
 |obs-studio|1|1|1 |0 | 100.00%| 100.00%|
 ## 详细结果
 | 包名  | 架构 |仓库| 版本 | 测试结果 | SHA256 |killer版本|
@@ -1001,6 +1002,7 @@
 | [git-annex](./git-annex) | amd64  | ubuntu-noble | 10.20240129-1build1 | ![screen0-5.jpg](./git-annex/tests/screen0-5.jpg) | [SHA256](./git-annex/SHA256SUMS) | N/A |
 | [git-cola](./git-cola) | amd64  | ubuntu-noble | 4.6.1-1 | ![screen0-5.jpg](./git-cola/tests/screen0-5.jpg) ![screen1-5.jpg](./git-cola/tests/screen1-5.jpg) | [SHA256](./git-cola/SHA256SUMS) | N/A |
 | [gitg](./gitg) | amd64  | ubuntu-noble | 44-1build2-20250327 | 失败 | N/A | N/A |
+| [github-desktop](./github-desktop) | amd64  | shiftkey | 3.4.12-linux1 | ![screen0-5.jpg](./github-desktop/tests/screen0-5.jpg) | [SHA256](./github-desktop/SHA256SUMS) | v1.5.0-amd64-nevm |
 | [gitso](./gitso) | amd64  | ubuntu-noble | 0.6.2+svn158+dfsg-4 | ![screen0-5.jpg](./gitso/tests/screen0-5.jpg) | [SHA256](./gitso/SHA256SUMS) | N/A |
 | [gjacktransport](./gjacktransport) | amd64  | ubuntu-noble | 0.6.4-1build2 | ![screen0-5.jpg](./gjacktransport/tests/screen0-5.jpg) ![screen1-5.jpg](./gjacktransport/tests/screen1-5.jpg) | [SHA256](./gjacktransport/SHA256SUMS) | N/A |
 | [gjiten](./gjiten) | amd64  | ubuntu-noble | 3.1-2build2 | ![screen0-5.jpg](./gjiten/tests/screen0-5.jpg) | [SHA256](./gjiten/SHA256SUMS) | N/A |
@@ -1296,16 +1298,57 @@
 | [htop](./htop) | amd64  | ubuntu-noble | 3.3.0-4build1-20250327 | 失败 | [SHA256](./htop/SHA256SUMS) | v1.5.0-amd64-nevm |
 | [httraqt](./httraqt) | amd64  | ubuntu-noble | 1.4.11-1build2 | ![screen0-5.jpg](./httraqt/tests/screen0-5.jpg) | [SHA256](./httraqt/SHA256SUMS) | v1.5.0-amd64-nevm |
 | [huawei-pixlab-series](./huawei-pixlab-series) | amd64  | deepin-v23 | 1.0-71 | ![screen0-5.jpg](./huawei-pixlab-series/tests/screen0-5.jpg) | N/A | N/A |
+| [hud-tools](./hud-tools) | amd64  | ubuntu-noble | 14.10+17.10.20170619-0ubuntu6 | ![screen0-5.jpg](./hud-tools/tests/screen0-5.jpg) | [SHA256](./hud-tools/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [hugin](./hugin) | amd64  | ubuntu-noble | 2023.0.0+dfsg-1build4 | ![screen0-5.jpg](./hugin/tests/screen0-5.jpg) ![screen1-5.jpg](./hugin/tests/screen1-5.jpg) ![screen2-5.jpg](./hugin/tests/screen2-5.jpg) | [SHA256](./hugin/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [hv3](./hv3) | amd64  | ubuntu-noble | 3.0~fossil20110109-8-20250327 | 失败 | [SHA256](./hv3/SHA256SUMS) | v1.5.0-amd64-nevm |
 | [hwloc](./hwloc) | amd64  | deepin-v23 | 2.11.0-2 | ![screen0-5.jpg](./hwloc/tests/screen0-5.jpg) | N/A | N/A |
+| [hydra-gtk](./hydra-gtk) | amd64  | ubuntu-noble | 9.5-1build3 | ![screen0-5.jpg](./hydra-gtk/tests/screen0-5.jpg) | [SHA256](./hydra-gtk/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [hydrapaper](./hydrapaper) | amd64  | ubuntu-noble | 3.3.1-2-20250327 | 失败 | N/A | v1.5.0-amd64-nevm |
+| [hydrogen](./hydrogen) | amd64  | ubuntu-noble | 1.2.0~beta1+dfsg-1build4 | ![screen0-5.jpg](./hydrogen/tests/screen0-5.jpg) | [SHA256](./hydrogen/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [hyperrogue](./hyperrogue) | amd64  | ubuntu-noble | 12.1q-1 | ![screen0-5.jpg](./hyperrogue/tests/screen0-5.jpg) | [SHA256](./hyperrogue/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [i3-wm](./i3-wm) | amd64  | ubuntu-noble | 4.23-1build2-20250327 | 失败 | [SHA256](./i3-wm/SHA256SUMS) | v1.5.0-amd64-nevm |
 | [iagno](./iagno) | amd64  | ubuntu-noble | 3.38.1-2 | ![screen0-5.jpg](./iagno/tests/screen0-5.jpg) | N/A | N/A |
-| [ibus](./ibus) | amd64  | ubuntu-noble | 1.5.29~rc1-1 | ![screen0-5.jpg](./ibus/tests/screen0-5.jpg) | N/A | N/A |
+| [iannix](./iannix) | amd64  | ubuntu-noble | 0.9.20~dfsg1-1build3 | ![screen0-5.jpg](./iannix/tests/screen0-5.jpg) | [SHA256](./iannix/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [ibus](./ibus) | amd64  | ubuntu-noble | 1.5.29-2-20250327 | 失败 | N/A | v1.5.0-amd64-nevm |
+| [ibus-avro](./ibus-avro) | amd64  | ubuntu-noble | 1.2-6-20250327 | 失败 | N/A | v1.5.0-amd64-nevm |
+| [ibus-braille](./ibus-braille) | amd64  | ubuntu-noble | 0.3-8-20250327 | 失败 | N/A | v1.5.0-amd64-nevm |
 | [ibus-cangjie](./ibus-cangjie) | amd64  | deepin-v23 | 2.4-7 | ![screen0-5.jpg](./ibus-cangjie/tests/screen0-5.jpg) ![screen1-5.jpg](./ibus-cangjie/tests/screen1-5.jpg) | N/A | N/A |
-| [ibus-chewing](./ibus-chewing) | amd64  | ubuntu-noble | 1.6.1-2-07be3ef | 失败 | N/A | N/A |
-| [ibus-pinyin](./ibus-pinyin) | amd64  | ubuntu-noble | 1.5.0-11-af50a04 | 失败 | [SHA256](./ibus-pinyin/SHA256SUMS) | N/A |
-| [ibus-table](./ibus-table) | amd64  | ubuntu-noble | 1.14.1-1-af50a04 | 失败 | [SHA256](./ibus-table/SHA256SUMS) | N/A |
-| [idle-python2.7](./idle-python2.7) | amd64  | deepin-v23 | 2.7.18.1-1+deepin-af50a04 | 失败 | N/A | N/A |
-| [im-config](./im-config) | amd64  | deepin-v23 | 0.57-2deepin2-af50a04 | 失败 | [SHA256](./im-config/SHA256SUMS) | N/A |
-| [info](./info) | amd64  | ubuntu-noble | 7.1-2deepin1-af50a04 | 失败 | [SHA256](./info/SHA256SUMS) | N/A |
+| [ibus-chewing](./ibus-chewing) | amd64  | ubuntu-noble | 2.0.0-1build2-20250327 | 失败 | N/A | v1.5.0-amd64-nevm |
+| [ibus-hangul](./ibus-hangul) | amd64  | ubuntu-noble | 1.5.5-2build2-20250327 | 失败 | N/A | v1.5.0-amd64-nevm |
+| [ibus-input-pad](./ibus-input-pad) | amd64  | ubuntu-noble | 1.4.99.20140916-3build2-20250327 | 失败 | N/A | v1.5.0-amd64-nevm |
+| [ibus-kkc](./ibus-kkc) | amd64  | ubuntu-noble | 1.5.22-4build2-20250327 | 失败 | N/A | v1.5.0-amd64-nevm |
+| [ibus-libpinyin](./ibus-libpinyin) | amd64  | ubuntu-noble | 1.15.7-1build2-20250327 | 失败 | N/A | v1.5.0-amd64-nevm |
+| [ibus-libzhuyin](./ibus-libzhuyin) | amd64  | ubuntu-noble | 1.10.3-1build2-20250327 | 失败 | N/A | v1.5.0-amd64-nevm |
+| [ibus-m17n](./ibus-m17n) | amd64  | ubuntu-noble | 1.4.28-1build2-20250327 | 失败 | N/A | v1.5.0-amd64-nevm |
+| [ibus-pinyin](./ibus-pinyin) | amd64  | ubuntu-noble | 1.5.0-11build2-20250327 | 失败 | N/A | v1.5.0-amd64-nevm |
+| [ibus-skk](./ibus-skk) | amd64  | ubuntu-noble | 1.4.3-3build2-20250327 | 失败 | N/A | v1.5.0-amd64-nevm |
+| [ibus-table](./ibus-table) | amd64  | ubuntu-noble | 1.17.4-2-20250327 | 失败 | N/A | v1.5.0-amd64-nevm |
+| [ibus-typing-booster](./ibus-typing-booster) | amd64  | ubuntu-noble | 2.25.4-1-20250327 | 失败 | N/A | v1.5.0-amd64-nevm |
+| [ibus-unikey](./ibus-unikey) | amd64  | deepin-v23 | 0.7.0~beta1-1deepin0-20250327 | 失败 | [SHA256](./ibus-unikey/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [icebreaker](./icebreaker) | amd64  | ubuntu-noble | 2.2.0-1-20250327 | 失败 | [SHA256](./icebreaker/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [icecc-monitor](./icecc-monitor) | amd64  | ubuntu-noble | 3.3-2build2 | ![screen0-5.jpg](./icecc-monitor/tests/screen0-5.jpg) | [SHA256](./icecc-monitor/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [icedtea-netx](./icedtea-netx) | amd64  | ubuntu-noble | 1.8.8-2ubuntu1 | ![screen0-5.jpg](./icedtea-netx/tests/screen0-5.jpg) | [SHA256](./icedtea-netx/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [id-fingerprint-scanner](./id-fingerprint-scanner) | amd64  | deepin-v23 | 1.7 | ![screen0-5.jpg](./id-fingerprint-scanner/tests/screen0-5.jpg) | [SHA256](./id-fingerprint-scanner/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [idle](./idle) | amd64  | ubuntu-noble | 3.12.3-0ubuntu2-20250327 | 失败 | [SHA256](./idle/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [idle-python2.7](./idle-python2.7) | amd64  | deepin-v23 | 2.7.18.1-1+deepin-20250327 | 失败 | N/A | v1.5.0-amd64-nevm |
+| [idle-python3.11](./idle-python3.11) | amd64  | deepin-v23 | 3.11.8-1-20250327 | 失败 | [SHA256](./idle-python3.11/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [idle-python3.12](./idle-python3.12) | amd64  | deepin-v23 | 3.12.4-0deepin1-20250327 | 失败 | [SHA256](./idle-python3.12/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [iem-plugin-suite-standalone](./iem-plugin-suite-standalone) | amd64  | ubuntu-noble | 1.14.1-1build2 | ![screen0-5.jpg](./iem-plugin-suite-standalone/tests/screen0-5.jpg) ![screen1-5.jpg](./iem-plugin-suite-standalone/tests/screen1-5.jpg) ![screen2-5.jpg](./iem-plugin-suite-standalone/tests/screen2-5.jpg) ![screen3-5.jpg](./iem-plugin-suite-standalone/tests/screen3-5.jpg) ![screen4-5.jpg](./iem-plugin-suite-standalone/tests/screen4-5.jpg) ![screen5-5.jpg](./iem-plugin-suite-standalone/tests/screen5-5.jpg) ![screen6-5.jpg](./iem-plugin-suite-standalone/tests/screen6-5.jpg) ![screen7-5.jpg](./iem-plugin-suite-standalone/tests/screen7-5.jpg) ![screen8-5.jpg](./iem-plugin-suite-standalone/tests/screen8-5.jpg) ![screen9-5.jpg](./iem-plugin-suite-standalone/tests/screen9-5.jpg) ![screen10-5.jpg](./iem-plugin-suite-standalone/tests/screen10-5.jpg) ![screen11-5.jpg](./iem-plugin-suite-standalone/tests/screen11-5.jpg) ![screen12-5.jpg](./iem-plugin-suite-standalone/tests/screen12-5.jpg) ![screen13-5.jpg](./iem-plugin-suite-standalone/tests/screen13-5.jpg) ![screen14-5.jpg](./iem-plugin-suite-standalone/tests/screen14-5.jpg) ![screen15-5.jpg](./iem-plugin-suite-standalone/tests/screen15-5.jpg) ![screen16-5.jpg](./iem-plugin-suite-standalone/tests/screen16-5.jpg) ![screen17-5.jpg](./iem-plugin-suite-standalone/tests/screen17-5.jpg) ![screen18-5.jpg](./iem-plugin-suite-standalone/tests/screen18-5.jpg) ![screen19-5.jpg](./iem-plugin-suite-standalone/tests/screen19-5.jpg) ![screen20-5.jpg](./iem-plugin-suite-standalone/tests/screen20-5.jpg) | [SHA256](./iem-plugin-suite-standalone/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [igv](./igv) | amd64  | ubuntu-noble | 2.17.3+dfsg-1 | ![screen0-5.jpg](./igv/tests/screen0-5.jpg) | [SHA256](./igv/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [ii-esu](./ii-esu) | amd64  | ubuntu-noble | 1.0a.dfsg2-2 | ![screen0-5.jpg](./ii-esu/tests/screen0-5.jpg) | [SHA256](./ii-esu/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [ikarus](./ikarus) | amd64  | ubuntu-noble | 0.0.3+bzr.2010.01.26+bap.1-1-20250327 | 失败 | [SHA256](./ikarus/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [im-config](./im-config) | amd64  | deepin-v23 | 0.57-2deepin2-20250327 | 失败 | [SHA256](./im-config/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [imagej](./imagej) | amd64  | ubuntu-noble | 1.54g-1-20250327 | 失败 | [SHA256](./imagej/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [imagemagick-6.q16](./imagemagick-6.q16) | amd64  | deepin-v23 | 6.9.13.12+dfsg1-1deepin1-20250327 | 失败 | [SHA256](./imagemagick-6.q16/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [imagemagick-6.q16hdri](./imagemagick-6.q16hdri) | amd64  | deepin-v23 | 6.9.13.12+dfsg1-1deepin1-20250327 | 失败 | [SHA256](./imagemagick-6.q16hdri/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [imagination](./imagination) | amd64  | ubuntu-noble | 3.6-2build3 | ![screen0-5.jpg](./imagination/tests/screen0-5.jpg) | [SHA256](./imagination/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [imv](./imv) | amd64  | ubuntu-noble | 4.4.0-1build3-20250327 | 失败 | [SHA256](./imv/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [imview](./imview) | amd64  | ubuntu-noble | 1.1.9h-4build3 | ![screen0-5.jpg](./imview/tests/screen0-5.jpg) | [SHA256](./imview/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [indicator-china-weather](./indicator-china-weather) | amd64  | ubuntu-noble | 3.0.4.1-0ubuntu3-20250327 | 失败 | [SHA256](./indicator-china-weather/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [indicator-multiload](./indicator-multiload) | amd64  | ubuntu-noble | 0.4-0ubuntu7-20250327 | 失败 | [SHA256](./indicator-multiload/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [indicator-sensors](./indicator-sensors) | amd64  | ubuntu-noble | 1.4-1build2-20250327 | 失败 | N/A | v1.5.0-amd64-nevm |
+| [info](./info) | amd64  | ubuntu-noble | 7.1-3build2-20250327 | 失败 | [SHA256](./info/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [inkscape](./inkscape) | amd64  | deepin-v23 | 1.2.2-4 | ![screen0-5.jpg](./inkscape/tests/screen0-5.jpg) | [SHA256](./inkscape/SHA256SUMS) | v1.5.0-amd64-nevm |
 | [isag](./isag) | amd64  | deepin-v23 | 12.7.5-2-af50a04 | 失败 | N/A | N/A |
 | [juk](./juk) | amd64  | ubuntu-noble | 21.08.0-1deepin0-af50a04 | 失败 | N/A | N/A |
 | [kalgebra](./kalgebra) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
