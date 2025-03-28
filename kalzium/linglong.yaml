@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kalzium.linyaps
+  name: kalzium
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    periodic table and chemistry tools
+    Kalzium is a full-featured chemistry application, including a
+    Periodic Table of Elements, chemical reference, chemical equation solver, and
+    3D molecule viewer.
+
+    This package is part of the KDE education module.
+command:
+- /opt/apps/kalzium.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
