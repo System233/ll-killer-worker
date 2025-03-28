@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gkrellm.linyaps
+  name: gkrellm
+  version: 2.3.11.2
+  kind: app
+  description: |-
+    GNU Krell Monitors
+    With a single process, gkrellm manages multiple stacked monitors and supports
+    applying themes to match the monitors appearance to your window manager, Gtk,
+    or any other theme.
+command:
+- /opt/apps/gkrellm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
