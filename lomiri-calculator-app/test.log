@@ -1,0 +1,28 @@
+正在测试: APPID=lomiri-calculator-app.linyaps LAYER=lomiri-calculator-app.linyaps_4.0.1.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install lomiri-calculator-app.linyaps_4.0.1.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:lomiri-calculator-app.linyaps
+Layer文件:lomiri-calculator-app.linyaps_4.0.1.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: lomiri-calculator-app.linyaps_4.0.1.1_arm64_binary.layer
+offset: 793
+mountpoint: /tmp/tmp.WpfXOpz5ov/mnt
+dbglevel: 0
+[成功] lomiri-calculator-app.desktop: lomiri-calculator-app.linyaps-lomiri-calculator-app -> /opt/apps/lomiri-calculator-app.linyaps/files/share/icons/hicolor/scalable/apps/lomiri-calculator-app.linyaps-lomiri-calculator-app.svg
+[成功] /opt/apps/lomiri-calculator-app.linyaps/files/share/applications/lomiri-calculator-app.desktop: /opt/apps/lomiri-calculator-app.linyaps/files/entrypoint.sh lomiri-calculator-app
+[正在测试启动项]
+包名:lomiri-calculator-app.linyaps
+Layer文件:lomiri-calculator-app.linyaps_4.0.1.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: lomiri-calculator-app.linyaps_4.0.1.1_arm64_binary.layer
+offset: 793
+mountpoint: /tmp/tmp.vMgfe0dAOw/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run lomiri-calculator-app.linyaps -- /opt/apps/lomiri-calculator-app.linyaps/files/entrypoint.sh lomiri-calculator-app
+[PID 11639] 进程已启动
+[PID 11639] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall lomiri-calculator-app.linyaps
