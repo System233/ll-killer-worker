@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: koko.linyaps
+  name: koko
+  version: 23.8.5.1
+  kind: app
+  description: |-
+    Image gallery for Plasma mobile
+    Koko is an image viewer designed for desktop and touch devices.
+
+    It is based on Kirigami, being therefore able to adapt nicely to desktops,
+    phones, big screens and potentially everything else.
+
+    It features a gallery and an image viewer, plus the chance to do simple
+    image modifications (crop, rotation) in-app thanks to the kquickimageeditor.
+command:
+- /opt/apps/koko.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
