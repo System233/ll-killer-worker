@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kde-config-flatpak.linyaps
+  name: kde-config-flatpak
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    Flatpak permissions management KCM
+    Plasma System Settings module for managinng Flatpak permissions.
+
+    The System Settings module allows users to changing what permissions have
+    been granted to installed Flatpak applications.
+command:
+- /opt/apps/kde-config-flatpak.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
