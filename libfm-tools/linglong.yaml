@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: libfm-tools.linyaps
+  name: libfm-tools
+  version: 1.3.2.4
+  kind: app
+  description: |-
+    file management support (utilities)
+    LibFM provides file management functions built on top of Glib/GIO
+    giving a convenient higher-level API.
+
+    This package contains applications libfm-pref-apps and lxshortcut.
+command:
+- /opt/apps/libfm-tools.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
