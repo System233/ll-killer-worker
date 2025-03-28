@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: minigalaxy.linyaps
+  name: minigalaxy
+  version: 1.2.6.2
+  kind: app
+  description: |-
+    Simple GOG Linux client
+    Allows you to download and play Linux games from the gog.com game store.
+
+    Besides installing games, it offers the following feature:
+    - Update your games
+    - Install and update DLC
+    - Select in which language you'd prefer to download your games
+    - Change where games are installed
+    - Search your GOG Linux library
+    - Show all games or just the ones you've installed
+    - View the error message if a game fails to launch
+
+    A GOG account is required to use this software.
+command:
+- /opt/apps/minigalaxy.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
