@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: mlterm-common.linyaps
+  name: mlterm-common
+  version: 3.9.3.1
+  kind: app
+  description: |-
+    MultiLingual TERMinal, common files
+    mlterm is a terminal emulator for X Window System, which supports
+    various encodings, doublewidth characters, BiDi, Arabic shaping,
+    and so on.
+
+    This package contains necessary files which are common for mlterm
+    and mlterm-tiny packages.
+command:
+- /opt/apps/mlterm-common.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
