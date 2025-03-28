@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: funnyboat.linyaps
+  name: funnyboat
+  version: 1.5.0.11
+  kind: app
+  description: |-
+    side scrolling arcade shooter game on a steamboat
+    Trip on the Funny Boat is a side scrolling arcade shooter game on a
+    steamboat equipped with a cannon and the ability to jump. The player will
+    need to take advantage of waves to defeat the enemies and dodge hazards.
+command:
+- /opt/apps/funnyboat.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
