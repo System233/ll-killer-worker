@@ -1,11 +1,11 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|950|597 |353 | 62.84%| 19.26%|
+|3099|951|597 |354 | 62.78%| 19.26%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|727|517 |210 | 71.11%| 18.74%|
+|ubuntu-noble|2759|728|517 |211 | 71.02%| 18.74%|
 |deepin-v23|340|223|80 |143 | 35.87%| 23.53%|
 ## 详细结果
 | 包名   | 架构 |仓库| 版本    | 测试结果 | SHA256 |
@@ -960,3 +960,4 @@
 | [gimp](./gimp) | arm64  | deepin-v23 | 2.10.38-1deepin2 | ![screen0-5.jpg](./gimp/tests/screen0-5.jpg) | [SHA256](./gimp/SHA256SUMS) |
 | [ginga](./ginga) | arm64  | ubuntu-noble | 5.0.0-1 | ![screen0-5.jpg](./ginga/tests/screen0-5.jpg) | [SHA256](./ginga/SHA256SUMS) |
 | [git-annex](./git-annex) | arm64  | ubuntu-noble | 10.20240129-1build1 | ![screen0-5.jpg](./git-annex/tests/screen0-5.jpg) | [SHA256](./git-annex/SHA256SUMS) |
+| [gitg](./gitg) | arm64  | ubuntu-noble | 44-1build2-20250327 | 失败 | N/A |
