@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: libkf5newstuff-data.linyaps
+  name: libkf5newstuff-data
+  version: 5.115.0.0
+  kind: app
+  description: |-
+    Support for downloading application assets from the network.
+    Framework for downloading and sharing additional
+    application data.
+
+    This package contains the data files.
+command:
+- /opt/apps/libkf5newstuff-data.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
