@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: gom.linyaps
+  name: gom
+  version: 0.30.4.1
+  kind: app
+  description: |-
+    Command line and interactive ncurses-based OSS audio mixer
+    gom is a command line mixer utility with optional built-in ncurses
+    interactive interface.
+
+    Its main feature is an exhaustive command line interface that makes
+    it ideal for scripting (e.g. for audio recording, running at user
+    and/or system login time, setting/restoring of settings, etc).
+
+    It supports OSS only, so if you want to use it with ALSA, you will
+    need its OSS-compatible modules. If you want to use all possible
+    features of ALSA however, you would need to use a mixer program
+    dedicated for ALSA.
+command:
+- /opt/apps/gom.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
