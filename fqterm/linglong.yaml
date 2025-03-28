@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: fqterm.linyaps
+  name: fqterm
+  version: 0.9.10.4
+  kind: app
+  description: |-
+    BBS client written in Qt
+    FQTerm is one of the most widely used BBS client in China, it
+    supports Telnet/SSH1/SSH2 protocols and can process ANSI control
+    sequences. It can be used to login BBS sites or *NIX hosts.
+
+    Almost all the BBSes in Greater China Region are in BIG5 or GBK
+    encoding. So FQTerm only support these two encodings and ASCII.
+command:
+- /opt/apps/fqterm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
