@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gtkballs.linyaps
+  name: gtkballs
+  version: 3.1.5.1
+  kind: app
+  description: |-
+    simple logic game
+    The goal of this game is to make the highest score by matching a number of
+    balls of the same color in a horizontal,  vertical or diagonal line.
+    This is  a clone  of well-known DOS game "Lines".
+command:
+- /opt/apps/gtkballs.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
