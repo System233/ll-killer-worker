@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: gtk-chtheme.linyaps
+  name: gtk-chtheme
+  version: 0.3.1.6
+  kind: app
+  description: |-
+    GTK+ 2.0 theme changer and previewer utility
+    'Gtk Theme Switch' based utility that aims to make themes previews and
+    selections as slick as possible. Themes installed on the system are
+    presented for selection and previewed on the fly.
+
+    This utility was develop only to work for GTK+ 2.x themes. For GTK+ 1.x themes
+    use 'gtk-theme-switch' package
+command:
+- /opt/apps/gtk-chtheme.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
