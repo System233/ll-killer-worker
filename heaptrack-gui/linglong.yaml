@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: heaptrack-gui.linyaps
+  name: heaptrack-gui
+  version: 1.5.0.2
+  kind: app
+  description: |-
+    heap memory profiler for Linux
+    Heap memory usage profiler. It uses LD_PRELOAD to track all calls
+    to the core memory allocation functions and logs these occurrences.
+    Additionally, backtraces are obtained and logged. It can also
+    generate a historigram of allocation sizes over the number of
+    calls. Heaptrack measures the following:
+
+    * Heap memory consumption (like Massif).
+    * Number of calls to allocation functions (like callgrind).
+    * Total amount of memory allocated, ignoring deallocations.
+    * Leaked memory (like memcheck).
+
+    Heaptrack is notable for its ability to attach to running processes,
+    for consuming substantially less memory than Valgrind, and for not
+    reducing an application's interactivity as much as Valgrind does.
+    Heaptrack is useful for debugging memory leaks and memory ballooning.
+
+    The package contains the GUI for data analysis.
+command:
+- /opt/apps/heaptrack-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
