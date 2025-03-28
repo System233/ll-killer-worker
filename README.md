@@ -1,11 +1,11 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|955|601 |354 | 62.93%| 19.39%|
+|3099|1091|680 |411 | 62.33%| 21.94%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|732|521 |211 | 71.17%| 18.88%|
+|ubuntu-noble|2759|868|600 |268 | 69.12%| 21.75%|
 |deepin-v23|340|223|80 |143 | 35.87%| 23.53%|
 ## 详细结果
 | 包名   | 架构 |仓库| 版本    | 测试结果 | SHA256 |
@@ -965,3 +965,139 @@
 | [gitso](./gitso) | arm64  | ubuntu-noble | 0.6.2+svn158+dfsg-4 | ![screen0-5.jpg](./gitso/tests/screen0-5.jpg) | [SHA256](./gitso/SHA256SUMS) |
 | [gjacktransport](./gjacktransport) | arm64  | ubuntu-noble | 0.6.4-1build2 | ![screen0-5.jpg](./gjacktransport/tests/screen0-5.jpg) ![screen1-5.jpg](./gjacktransport/tests/screen1-5.jpg) | [SHA256](./gjacktransport/SHA256SUMS) |
 | [gjiten](./gjiten) | arm64  | ubuntu-noble | 3.1-2build2 | ![screen0-5.jpg](./gjiten/tests/screen0-5.jpg) | [SHA256](./gjiten/SHA256SUMS) |
+| [gjots2](./gjots2) | arm64  | ubuntu-noble | 3.1.9-0ubuntu2-20250327 | 失败 | [SHA256](./gjots2/SHA256SUMS) |
+| [gkamus](./gkamus) | arm64  | ubuntu-noble | 1.0-0ubuntu6 | ![screen0-5.jpg](./gkamus/tests/screen0-5.jpg) | [SHA256](./gkamus/SHA256SUMS) |
+| [gkbd-capplet](./gkbd-capplet) | arm64  | ubuntu-noble | 3.28.1-1build3-20250327 | 失败 | [SHA256](./gkbd-capplet/SHA256SUMS) |
+| [gkdebconf](./gkdebconf) | arm64  | ubuntu-noble | 2.1.1build2 | ![screen0-5.jpg](./gkdebconf/tests/screen0-5.jpg) | [SHA256](./gkdebconf/SHA256SUMS) |
+| [gkrellm](./gkrellm) | arm64  | ubuntu-noble | 2.3.11-2build2 | ![screen0-5.jpg](./gkrellm/tests/screen0-5.jpg) | [SHA256](./gkrellm/SHA256SUMS) |
+| [gl-117](./gl-117) | arm64  | ubuntu-noble | 1.3.2-3.1build1 | ![screen0-5.jpg](./gl-117/tests/screen0-5.jpg) | [SHA256](./gl-117/SHA256SUMS) |
+| [glabels](./glabels) | arm64  | ubuntu-noble | 3.4.1-4build3 | ![screen0-5.jpg](./glabels/tests/screen0-5.jpg) | [SHA256](./glabels/SHA256SUMS) |
+| [glade](./glade) | arm64  | ubuntu-noble | 3.40.0-5build2-20250327 | 失败 | N/A |
+| [glassgui](./glassgui) | arm64  | ubuntu-noble | 2.0.1-2build5 | ![screen0-5.jpg](./glassgui/tests/screen0-5.jpg) ![screen1-5.jpg](./glassgui/tests/screen1-5.jpg) | [SHA256](./glassgui/SHA256SUMS) |
+| [glob2](./glob2) | arm64  | ubuntu-noble | 0.9.4.4-6build1 | ![screen0-5.jpg](./glob2/tests/screen0-5.jpg) | [SHA256](./glob2/SHA256SUMS) |
+| [glogg](./glogg) | arm64  | ubuntu-noble | 1.1.4-1.1ubuntu2 | ![screen0-5.jpg](./glogg/tests/screen0-5.jpg) | [SHA256](./glogg/SHA256SUMS) |
+| [glogic](./glogic) | arm64  | ubuntu-noble | 2.6-6-20250327 | 失败 | N/A |
+| [glom](./glom) | arm64  | ubuntu-noble | 1.30.4-7build8-20250327 | 失败 | N/A |
+| [glpeces](./glpeces) | arm64  | ubuntu-noble | 5.2-3build3-20250327 | 失败 | [SHA256](./glpeces/SHA256SUMS) |
+| [gltron](./gltron) | arm64  | ubuntu-noble | 0.70final-12.4build2 | ![screen0-5.jpg](./gltron/tests/screen0-5.jpg) | [SHA256](./gltron/SHA256SUMS) |
+| [glueviz](./glueviz) | arm64  | ubuntu-noble | 1.17.1+dfsg-1-20250327 | 失败 | [SHA256](./glueviz/SHA256SUMS) |
+| [gm-assistant](./gm-assistant) | arm64  | ubuntu-noble | 1.2.4-1build3 | ![screen0-5.jpg](./gm-assistant/tests/screen0-5.jpg) | [SHA256](./gm-assistant/SHA256SUMS) |
+| [gmanedit](./gmanedit) | arm64  | ubuntu-noble | 0.4.2-8build3 | ![screen0-5.jpg](./gmanedit/tests/screen0-5.jpg) | [SHA256](./gmanedit/SHA256SUMS) |
+| [gmerlin](./gmerlin) | arm64  | ubuntu-noble | 2.0.0~svn6298~dfsg0-3.1build3 | ![screen0-5.jpg](./gmerlin/tests/screen0-5.jpg) ![screen1-5.jpg](./gmerlin/tests/screen1-5.jpg) ![screen3-5.jpg](./gmerlin/tests/screen3-5.jpg) ![screen4-5.jpg](./gmerlin/tests/screen4-5.jpg) | [SHA256](./gmerlin/SHA256SUMS) |
+| [gmidimonitor](./gmidimonitor) | arm64  | ubuntu-noble | 3.6+dfsg0-4build3-20250327 | 失败 | [SHA256](./gmidimonitor/SHA256SUMS) |
+| [gmpc](./gmpc) | arm64  | ubuntu-noble | 11.8.16-21build1 | ![screen0-5.jpg](./gmpc/tests/screen0-5.jpg) | [SHA256](./gmpc/SHA256SUMS) |
+| [gmrun](./gmrun) | arm64  | ubuntu-noble | 0.9.2-3build3 | ![screen0-5.jpg](./gmrun/tests/screen0-5.jpg) | [SHA256](./gmrun/SHA256SUMS) |
+| [gmsh](./gmsh) | arm64  | ubuntu-noble | 4.12.1+ds1-1.1build2 | ![screen0-5.jpg](./gmsh/tests/screen0-5.jpg) | [SHA256](./gmsh/SHA256SUMS) |
+| [gmtp](./gmtp) | arm64  | ubuntu-noble | 1.3.11-3.1build3 | ![screen0-5.jpg](./gmtp/tests/screen0-5.jpg) | [SHA256](./gmtp/SHA256SUMS) |
+| [gmult](./gmult) | arm64  | ubuntu-noble | 11.0-1build2 | ![screen0-5.jpg](./gmult/tests/screen0-5.jpg) | [SHA256](./gmult/SHA256SUMS) |
+| [gniall](./gniall) | arm64  | ubuntu-noble | 0.7.1-9build2 | ![screen0-5.jpg](./gniall/tests/screen0-5.jpg) | [SHA256](./gniall/SHA256SUMS) |
+| [gnomad2](./gnomad2) | arm64  | ubuntu-noble | 2.9.6-8ubuntu1 | ![screen0-5.jpg](./gnomad2/tests/screen0-5.jpg) | [SHA256](./gnomad2/SHA256SUMS) |
+| [gnome-2048](./gnome-2048) | arm64  | ubuntu-noble | 3.38.2-3build2 | ![screen0-5.jpg](./gnome-2048/tests/screen0-5.jpg) | [SHA256](./gnome-2048/SHA256SUMS) |
+| [gnome-activity-journal](./gnome-activity-journal) | arm64  | ubuntu-noble | 1.0.0-3ubuntu0.24.04.1-20250327 | 失败 | N/A |
+| [gnome-authenticator](./gnome-authenticator) | arm64  | ubuntu-noble | 3.32.2+dfsg1-5-20250327 | 失败 | N/A |
+| [gnome-bluetooth-sendto](./gnome-bluetooth-sendto) | arm64  | ubuntu-noble | 46.0-1ubuntu1-20250327 | 失败 | [SHA256](./gnome-bluetooth-sendto/SHA256SUMS) |
+| [gnome-boxes](./gnome-boxes) | arm64  | ubuntu-noble | 46.0-1build1-20250327 | 失败 | N/A |
+| [gnome-breakout](./gnome-breakout) | arm64  | ubuntu-noble | 0.5.3-8 | ![screen0-5.jpg](./gnome-breakout/tests/screen0-5.jpg) | [SHA256](./gnome-breakout/SHA256SUMS) |
+| [gnome-browser-connector](./gnome-browser-connector) | arm64  | ubuntu-noble | 42.1-4-20250327 | 失败 | N/A |
+| [gnome-builder](./gnome-builder) | arm64  | ubuntu-noble | 46.2-0ubuntu1-20250327 | 失败 | N/A |
+| [gnome-calculator](./gnome-calculator) | arm64  | ubuntu-noble | 46.1-1ubuntu1~24.04.1 | ![screen0-5.jpg](./gnome-calculator/tests/screen0-5.jpg) | [SHA256](./gnome-calculator/SHA256SUMS) |
+| [gnome-calendar](./gnome-calendar) | arm64  | ubuntu-noble | 46.1-0ubuntu2 | ![screen0-5.jpg](./gnome-calendar/tests/screen0-5.jpg) | [SHA256](./gnome-calendar/SHA256SUMS) |
+| [gnome-calls](./gnome-calls) | arm64  | ubuntu-noble | 46.0-1ubuntu1 | ![screen0-5.jpg](./gnome-calls/tests/screen0-5.jpg) | [SHA256](./gnome-calls/SHA256SUMS) |
+| [gnome-characters](./gnome-characters) | arm64  | ubuntu-noble | 46.0-1build1-20250327 | 失败 | N/A |
+| [gnome-chess](./gnome-chess) | arm64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-chess/tests/screen0-5.jpg) | [SHA256](./gnome-chess/SHA256SUMS) |
+| [gnome-clocks](./gnome-clocks) | arm64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-clocks/tests/screen0-5.jpg) | [SHA256](./gnome-clocks/SHA256SUMS) |
+| [gnome-color-manager](./gnome-color-manager) | arm64  | ubuntu-noble | 3.36.0-2build2 | ![screen0-5.jpg](./gnome-color-manager/tests/screen0-5.jpg) | [SHA256](./gnome-color-manager/SHA256SUMS) |
+| [gnome-commander](./gnome-commander) | arm64  | ubuntu-noble | 1.16.1-1build4 | ![screen0-5.jpg](./gnome-commander/tests/screen0-5.jpg) | [SHA256](./gnome-commander/SHA256SUMS) |
+| [gnome-connections](./gnome-connections) | arm64  | ubuntu-noble | 46.0-2 | ![screen0-5.jpg](./gnome-connections/tests/screen0-5.jpg) | [SHA256](./gnome-connections/SHA256SUMS) |
+| [gnome-console](./gnome-console) | arm64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-console/tests/screen0-5.jpg) | [SHA256](./gnome-console/SHA256SUMS) |
+| [gnome-contacts](./gnome-contacts) | arm64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-contacts/tests/screen0-5.jpg) | [SHA256](./gnome-contacts/SHA256SUMS) |
+| [gnome-control-center](./gnome-control-center) | arm64  | ubuntu-noble | 46.5-0ubuntu0.24.04.1-20250327 | 失败 | N/A |
+| [gnome-dictionary](./gnome-dictionary) | arm64  | ubuntu-noble | 40.0-3build2-20250327 | 失败 | [SHA256](./gnome-dictionary/SHA256SUMS) |
+| [gnome-disk-utility](./gnome-disk-utility) | arm64  | ubuntu-noble | 46.0-1ubuntu3 | ![screen0-5.jpg](./gnome-disk-utility/tests/screen0-5.jpg) | [SHA256](./gnome-disk-utility/SHA256SUMS) |
+| [gnome-dvb-client](./gnome-dvb-client) | arm64  | ubuntu-noble | 0.2.91~git20170110-5build3-20250327 | 失败 | N/A |
+| [gnome-feeds](./gnome-feeds) | arm64  | ubuntu-noble | 2.2.0-3-20250327 | 失败 | N/A |
+| [gnome-firmware](./gnome-firmware) | arm64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-firmware/tests/screen0-5.jpg) | [SHA256](./gnome-firmware/SHA256SUMS) |
+| [gnome-flashback](./gnome-flashback) | arm64  | ubuntu-noble | 3.52.1-2ubuntu1.1-20250327 | 失败 | N/A |
+| [gnome-font-viewer](./gnome-font-viewer) | arm64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-font-viewer/tests/screen0-5.jpg) | [SHA256](./gnome-font-viewer/SHA256SUMS) |
+| [gnome-genius](./gnome-genius) | arm64  | ubuntu-noble | 1.0.27-1build4 | ![screen0-5.jpg](./gnome-genius/tests/screen0-5.jpg) | [SHA256](./gnome-genius/SHA256SUMS) |
+| [gnome-initial-setup](./gnome-initial-setup) | arm64  | ubuntu-noble | 46.3-1ubuntu3~24.04.1-20250327 | 失败 | [SHA256](./gnome-initial-setup/SHA256SUMS) |
+| [gnome-keysign](./gnome-keysign) | arm64  | ubuntu-noble | 1.3.0-3-20250327 | 失败 | N/A |
+| [gnome-kiosk](./gnome-kiosk) | arm64  | ubuntu-noble | 46.0-1build2-20250327 | 失败 | N/A |
+| [gnome-kiosk-script-session](./gnome-kiosk-script-session) | arm64  | ubuntu-noble | 46.0-1build2-20250327 | 失败 | N/A |
+| [gnome-kiosk-search-appliance](./gnome-kiosk-search-appliance) | arm64  | ubuntu-noble | 46.0-1build2-20250327 | 失败 | N/A |
+| [gnome-klotski](./gnome-klotski) | arm64  | ubuntu-noble | 3.38.2-1build3 | ![screen0-5.jpg](./gnome-klotski/tests/screen0-5.jpg) | [SHA256](./gnome-klotski/SHA256SUMS) |
+| [gnome-logs](./gnome-logs) | arm64  | ubuntu-noble | 45.0-1build1 | ![screen0-5.jpg](./gnome-logs/tests/screen0-5.jpg) | [SHA256](./gnome-logs/SHA256SUMS) |
+| [gnome-mahjongg](./gnome-mahjongg) | arm64  | ubuntu-noble | 3.40.1-1 | ![screen0-5.jpg](./gnome-mahjongg/tests/screen0-5.jpg) | [SHA256](./gnome-mahjongg/SHA256SUMS) |
+| [gnome-maps](./gnome-maps) | arm64  | ubuntu-noble | 46.0-1build1-20250327 | 失败 | N/A |
+| [gnome-mastermind](./gnome-mastermind) | arm64  | ubuntu-noble | 0.4.0-4build2 | ![screen0-5.jpg](./gnome-mastermind/tests/screen0-5.jpg) | [SHA256](./gnome-mastermind/SHA256SUMS) |
+| [gnome-metronome](./gnome-metronome) | arm64  | ubuntu-noble | 1.3.0-2-20250327 | 失败 | [SHA256](./gnome-metronome/SHA256SUMS) |
+| [gnome-mines](./gnome-mines) | arm64  | ubuntu-noble | 40.1-1build2 | ![screen0-5.jpg](./gnome-mines/tests/screen0-5.jpg) | [SHA256](./gnome-mines/SHA256SUMS) |
+| [gnome-mousetrap](./gnome-mousetrap) | arm64  | ubuntu-noble | 3.17.3-9-20250327 | 失败 | N/A |
+| [gnome-multi-writer](./gnome-multi-writer) | arm64  | ubuntu-noble | 3.32.1-2build3 | ![screen0-5.jpg](./gnome-multi-writer/tests/screen0-5.jpg) | [SHA256](./gnome-multi-writer/SHA256SUMS) |
+| [gnome-music](./gnome-music) | arm64  | ubuntu-noble | 46.0-1build1-20250327 | 失败 | N/A |
+| [gnome-nettool](./gnome-nettool) | arm64  | ubuntu-noble | 42.0-1build2 | ![screen0-5.jpg](./gnome-nettool/tests/screen0-5.jpg) | [SHA256](./gnome-nettool/SHA256SUMS) |
+| [gnome-network-displays](./gnome-network-displays) | arm64  | ubuntu-noble | 0.92.1-2build2 | ![screen0-5.jpg](./gnome-network-displays/tests/screen0-5.jpg) | [SHA256](./gnome-network-displays/SHA256SUMS) |
+| [gnome-nibbles](./gnome-nibbles) | arm64  | ubuntu-noble | 4.0.4-1 | ![screen0-5.jpg](./gnome-nibbles/tests/screen0-5.jpg) | [SHA256](./gnome-nibbles/SHA256SUMS) |
+| [gnome-online-accounts](./gnome-online-accounts) | arm64  | ubuntu-noble | 3.50.4-0ubuntu2-20250327 | 失败 | [SHA256](./gnome-online-accounts/SHA256SUMS) |
+| [gnome-online-accounts-gtk](./gnome-online-accounts-gtk) | arm64  | ubuntu-noble | 3.50.1-0ubuntu1 | ![screen0-5.jpg](./gnome-online-accounts-gtk/tests/screen0-5.jpg) | [SHA256](./gnome-online-accounts-gtk/SHA256SUMS) |
+| [gnome-package-updater](./gnome-package-updater) | arm64  | ubuntu-noble | 43.0-2build3-20250327 | 失败 | N/A |
+| [gnome-packagekit](./gnome-packagekit) | arm64  | ubuntu-noble | 43.0-2build3-20250327 | 失败 | N/A |
+| [gnome-paint](./gnome-paint) | arm64  | ubuntu-noble | 0.4.0-9ubuntu1 | ![screen0-5.jpg](./gnome-paint/tests/screen0-5.jpg) | [SHA256](./gnome-paint/SHA256SUMS) |
+| [gnome-panel](./gnome-panel) | arm64  | ubuntu-noble | 3.52.0-1ubuntu2-20250327 | 失败 | [SHA256](./gnome-panel/SHA256SUMS) |
+| [gnome-pass-search-provider](./gnome-pass-search-provider) | arm64  | ubuntu-noble | 1.3.0-1-20250327 | 失败 | N/A |
+| [gnome-pie](./gnome-pie) | arm64  | ubuntu-noble | 0.7.3-2build2 | ![screen0-5.jpg](./gnome-pie/tests/screen0-5.jpg) | [SHA256](./gnome-pie/SHA256SUMS) |
+| [gnome-power-manager](./gnome-power-manager) | arm64  | ubuntu-noble | 43.0-2build2-20250327 | 失败 | [SHA256](./gnome-power-manager/SHA256SUMS) |
+| [gnome-remote-desktop](./gnome-remote-desktop) | arm64  | ubuntu-noble | 46.3-0ubuntu1-20250327 | 失败 | [SHA256](./gnome-remote-desktop/SHA256SUMS) |
+| [gnome-robots](./gnome-robots) | arm64  | ubuntu-noble | 40.0-2build2 | ![screen0-5.jpg](./gnome-robots/tests/screen0-5.jpg) | [SHA256](./gnome-robots/SHA256SUMS) |
+| [gnome-screensaver](./gnome-screensaver) | arm64  | ubuntu-noble | 3.6.1-13ubuntu4-20250327 | 失败 | [SHA256](./gnome-screensaver/SHA256SUMS) |
+| [gnome-screensaver-flags](./gnome-screensaver-flags) | arm64  | ubuntu-noble | 0.1-1.1-20250327 | 失败 | [SHA256](./gnome-screensaver-flags/SHA256SUMS) |
+| [gnome-screenshot](./gnome-screenshot) | arm64  | ubuntu-noble | 41.0-2build2 | ![screen0-5.jpg](./gnome-screenshot/tests/screen0-5.jpg) | [SHA256](./gnome-screenshot/SHA256SUMS) |
+| [gnome-shell](./gnome-shell) | arm64  | ubuntu-noble | 46.0-0ubuntu6~24.04.8-20250327 | 失败 | N/A |
+| [gnome-shell-extension-gsconnect](./gnome-shell-extension-gsconnect) | arm64  | ubuntu-noble | 57-1-20250327 | 失败 | N/A |
+| [gnome-shell-extension-manager](./gnome-shell-extension-manager) | arm64  | ubuntu-noble | 0.5.0-1build1-20250327 | 失败 | N/A |
+| [gnome-shell-extension-prefs](./gnome-shell-extension-prefs) | arm64  | ubuntu-noble | 46.0-0ubuntu6~24.04.8-20250327 | 失败 | N/A |
+| [gnome-shell-pomodoro](./gnome-shell-pomodoro) | arm64  | ubuntu-noble | 0.25.1-1-20250327 | 失败 | N/A |
+| [gnome-snapshot](./gnome-snapshot) | arm64  | ubuntu-noble | 46.2-1ubuntu2-20250327 | 失败 | [SHA256](./gnome-snapshot/SHA256SUMS) |
+| [gnome-software](./gnome-software) | arm64  | ubuntu-noble | 46.0-1ubuntu2-20250327 | 失败 | N/A |
+| [gnome-sound-recorder](./gnome-sound-recorder) | arm64  | ubuntu-noble | 43~beta-1-20250327 | 失败 | N/A |
+| [gnome-split](./gnome-split) | arm64  | ubuntu-noble | 1.2-5 | ![screen0-5.jpg](./gnome-split/tests/screen0-5.jpg) | [SHA256](./gnome-split/SHA256SUMS) |
+| [gnome-startup-applications](./gnome-startup-applications) | arm64  | ubuntu-noble | 46.0-1ubuntu4 | ![screen0-5.jpg](./gnome-startup-applications/tests/screen0-5.jpg) | [SHA256](./gnome-startup-applications/SHA256SUMS) |
+| [gnome-subtitles](./gnome-subtitles) | arm64  | ubuntu-noble | 1.8-1 | ![screen0-5.jpg](./gnome-subtitles/tests/screen0-5.jpg) | [SHA256](./gnome-subtitles/SHA256SUMS) |
+| [gnome-sudoku](./gnome-sudoku) | arm64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-sudoku/tests/screen0-5.jpg) | [SHA256](./gnome-sudoku/SHA256SUMS) |
+| [gnome-system-monitor](./gnome-system-monitor) | arm64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-system-monitor/tests/screen0-5.jpg) ![screen1-5.jpg](./gnome-system-monitor/tests/screen1-5.jpg) | [SHA256](./gnome-system-monitor/SHA256SUMS) |
+| [gnome-system-tools](./gnome-system-tools) | arm64  | ubuntu-noble | 3.0.0-9.1ubuntu4 | ![screen0-5.jpg](./gnome-system-tools/tests/screen0-5.jpg) ![screen1-5.jpg](./gnome-system-tools/tests/screen1-5.jpg) | [SHA256](./gnome-system-tools/SHA256SUMS) |
+| [gnome-taquin](./gnome-taquin) | arm64  | ubuntu-noble | 3.38.1-2build2 | ![screen0-5.jpg](./gnome-taquin/tests/screen0-5.jpg) | [SHA256](./gnome-taquin/SHA256SUMS) |
+| [gnome-terminal](./gnome-terminal) | arm64  | ubuntu-noble | 3.52.0-1ubuntu2-20250327 | 失败 | N/A |
+| [gnome-tetravex](./gnome-tetravex) | arm64  | ubuntu-noble | 3.38.2-3build2 | ![screen0-5.jpg](./gnome-tetravex/tests/screen0-5.jpg) | [SHA256](./gnome-tetravex/SHA256SUMS) |
+| [gnome-text-editor](./gnome-text-editor) | arm64  | ubuntu-noble | 46.3-0ubuntu2 | ![screen0-5.jpg](./gnome-text-editor/tests/screen0-5.jpg) | [SHA256](./gnome-text-editor/SHA256SUMS) |
+| [gnome-tour](./gnome-tour) | arm64  | ubuntu-noble | 46.0-2 | ![screen0-5.jpg](./gnome-tour/tests/screen0-5.jpg) | [SHA256](./gnome-tour/SHA256SUMS) |
+| [gnome-tweaks](./gnome-tweaks) | arm64  | ubuntu-noble | 46.0-2-20250327 | 失败 | N/A |
+| [gnome-usage](./gnome-usage) | arm64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-usage/tests/screen0-5.jpg) | [SHA256](./gnome-usage/SHA256SUMS) |
+| [gnome-user-share](./gnome-user-share) | arm64  | ubuntu-noble | 43.0-1build2-20250327 | 失败 | [SHA256](./gnome-user-share/SHA256SUMS) |
+| [gnome-video-arcade](./gnome-video-arcade) | arm64  | ubuntu-noble | 0.8.8-5build3 | ![screen0-5.jpg](./gnome-video-arcade/tests/screen0-5.jpg) | [SHA256](./gnome-video-arcade/SHA256SUMS) |
+| [gnome-video-trimmer](./gnome-video-trimmer) | arm64  | ubuntu-noble | 0.8.2-2 | ![screen0-5.jpg](./gnome-video-trimmer/tests/screen0-5.jpg) | [SHA256](./gnome-video-trimmer/SHA256SUMS) |
+| [gnome-weather](./gnome-weather) | arm64  | ubuntu-noble | 46.0-1-20250327 | 失败 | N/A |
+| [gnomekiss](./gnomekiss) | arm64  | ubuntu-noble | 2.0-6.1build4 | ![screen0-5.jpg](./gnomekiss/tests/screen0-5.jpg) | [SHA256](./gnomekiss/SHA256SUMS) |
+| [gnomint](./gnomint) | arm64  | ubuntu-noble | 1.3.0-4build2 | ![screen0-5.jpg](./gnomint/tests/screen0-5.jpg) | [SHA256](./gnomint/SHA256SUMS) |
+| [gnote](./gnote) | arm64  | ubuntu-noble | 46.0-1 | ![screen0-5.jpg](./gnote/tests/screen0-5.jpg) | [SHA256](./gnote/SHA256SUMS) |
+| [gnubg](./gnubg) | arm64  | ubuntu-noble | 1.07.001-3build6 | ![screen0-5.jpg](./gnubg/tests/screen0-5.jpg) | [SHA256](./gnubg/SHA256SUMS) |
+| [gnubiff](./gnubiff) | arm64  | ubuntu-noble | 2.2.17-5build3 | ![screen0-5.jpg](./gnubiff/tests/screen0-5.jpg) | [SHA256](./gnubiff/SHA256SUMS) |
+| [gnucash](./gnucash) | arm64  | ubuntu-noble | 5.5-1.2build1-20250327 | 失败 | N/A |
+| [gnudatalanguage](./gnudatalanguage) | arm64  | ubuntu-noble | 1.0.4-1build6 | ![screen0-5.jpg](./gnudatalanguage/tests/screen0-5.jpg) | [SHA256](./gnudatalanguage/SHA256SUMS) |
+| [gnugo](./gnugo) | arm64  | ubuntu-noble | 3.8-11build2 | ![screen0-5.jpg](./gnugo/tests/screen0-5.jpg) | [SHA256](./gnugo/SHA256SUMS) |
+| [gnujump](./gnujump) | arm64  | ubuntu-noble | 1.0.8-3.1 | ![screen0-5.jpg](./gnujump/tests/screen0-5.jpg) | [SHA256](./gnujump/SHA256SUMS) |
+| [gnumail.app](./gnumail.app) | arm64  | ubuntu-noble | 1.4.0-2 | ![screen0-5.jpg](./gnumail.app/tests/screen0-5.jpg) | [SHA256](./gnumail.app/SHA256SUMS) |
+| [gnumed-client](./gnumed-client) | arm64  | ubuntu-noble | 1.8.18+dfsg-2-20250327 | 失败 | N/A |
+| [gnumeric](./gnumeric) | arm64  | ubuntu-noble | 1.12.56-2build5 | ![screen0-5.jpg](./gnumeric/tests/screen0-5.jpg) | [SHA256](./gnumeric/SHA256SUMS) |
+| [gnunet](./gnunet) | arm64  | ubuntu-noble | 0.20.0-4.1build3-20250327 | 失败 | [SHA256](./gnunet/SHA256SUMS) |
+| [gnunet-gtk](./gnunet-gtk) | arm64  | ubuntu-noble | 0.20.0-4 | ![screen0-5.jpg](./gnunet-gtk/tests/screen0-5.jpg) | [SHA256](./gnunet-gtk/SHA256SUMS) |
+| [gnuradio](./gnuradio) | arm64  | ubuntu-noble | 3.10.9.2-1.1ubuntu2-20250327 | 失败 | N/A |
+| [gnurobbo](./gnurobbo) | arm64  | ubuntu-noble | 0.68+dfsg-6 | ![screen0-5.jpg](./gnurobbo/tests/screen0-5.jpg) | [SHA256](./gnurobbo/SHA256SUMS) |
+| [gnuserv](./gnuserv) | arm64  | ubuntu-noble | 3.12.8-12-20250327 | 失败 | [SHA256](./gnuserv/SHA256SUMS) |
+| [gnusim8085](./gnusim8085) | arm64  | ubuntu-noble | 1.4.1-1build3 | ![screen0-5.jpg](./gnusim8085/tests/screen0-5.jpg) | [SHA256](./gnusim8085/SHA256SUMS) |
+| [go-for-it](./go-for-it) | arm64  | ubuntu-noble | 1.9.6-4build3 | ![screen0-5.jpg](./go-for-it/tests/screen0-5.jpg) | [SHA256](./go-for-it/SHA256SUMS) |
+| [goattracker](./goattracker) | arm64  | ubuntu-noble | 2.76+ds-3 | ![screen0-5.jpg](./goattracker/tests/screen0-5.jpg) | [SHA256](./goattracker/SHA256SUMS) |
+| [gobby](./gobby) | arm64  | ubuntu-noble | 0.6.0-2build2 | ![screen0-5.jpg](./gobby/tests/screen0-5.jpg) | [SHA256](./gobby/SHA256SUMS) |
+| [godot3](./godot3) | arm64  | ubuntu-noble | 3.5.2-stable-2build4 | ![screen0-5.jpg](./godot3/tests/screen0-5.jpg) | [SHA256](./godot3/SHA256SUMS) |
+| [gom](./gom) | arm64  | ubuntu-noble | 0.30.4-1-20250327 | 失败 | [SHA256](./gom/SHA256SUMS) |
+| [gosa-desktop](./gosa-desktop) | arm64  | ubuntu-noble | 2.8~git20230203.10abe45+dfsg-11-20250327 | 失败 | N/A |
