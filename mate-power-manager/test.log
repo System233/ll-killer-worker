@@ -1,0 +1,33 @@
+正在测试: APPID=mate-power-manager.linyaps LAYER=mate-power-manager.linyaps_1.26.1.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install mate-power-manager.linyaps_1.26.1.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:mate-power-manager.linyaps
+Layer文件:mate-power-manager.linyaps_1.26.1.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: mate-power-manager.linyaps_1.26.1.1_x86_64_binary.layer
+offset: 975
+mountpoint: /tmp/tmp.NwQVht6orW/mnt
+dbglevel: 0
+[成功] mate-power-preferences.desktop: mate-power-manager -> /opt/apps/mate-power-manager.linyaps/files/share/icons/hicolor/128x128/apps/mate-power-manager.png
+[成功] /opt/apps/mate-power-manager.linyaps/files/share/applications/mate-power-preferences.desktop: /opt/apps/mate-power-manager.linyaps/files/entrypoint.sh mate-power-preferences
+[成功] mate-power-statistics.desktop: mate-power-statistics -> /opt/apps/mate-power-manager.linyaps/files/share/icons/hicolor/128x128/apps/mate-power-statistics.png
+[成功] /opt/apps/mate-power-manager.linyaps/files/share/applications/mate-power-statistics.desktop: /opt/apps/mate-power-manager.linyaps/files/entrypoint.sh mate-power-statistics
+[正在测试启动项]
+包名:mate-power-manager.linyaps
+Layer文件:mate-power-manager.linyaps_1.26.1.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: mate-power-manager.linyaps_1.26.1.1_x86_64_binary.layer
+offset: 975
+mountpoint: /tmp/tmp.2z8NM7ORKT/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run mate-power-manager.linyaps -- /opt/apps/mate-power-manager.linyaps/files/entrypoint.sh mate-power-preferences
+[PID 21165] 进程已启动
+[PID 21165] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run mate-power-manager.linyaps -- /opt/apps/mate-power-manager.linyaps/files/entrypoint.sh mate-power-statistics
+[PID 21315] 进程已启动
+[PID 21315] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall mate-power-manager.linyaps
