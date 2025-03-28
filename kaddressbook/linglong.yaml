@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: kaddressbook.linyaps
+  name: kaddressbook
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    address book and contact data manager
+    KAddressBook enables you to manage your contacts efficiently and comfortably.
+command:
+- /opt/apps/kaddressbook.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
