@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: grop.linyaps
+  name: grop
+  version: 0.10.0.1
+  kind: app
+  description: |-
+    Graphic interface for the porg package manager/organizer
+    Grop is the graphic interface of porg. It uses and depends on the GTKMM
+    library. It's not meant to be a replacement of  porg, since it lacks some
+    important features like logging package installations, but it allows for
+    manipulating the installed packages in a more comfortable way.
+
+    This package is a complete replacement for the deprecated 'gpaco' package.
+command:
+- /opt/apps/grop.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
