@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gnome-robots.linyaps
+  name: gnome-robots
+  version: 40.0.0.2
+  kind: app
+  description: |-
+    improved old BSD robots game
+    GNOME Robots is a game where you try and avoid a band of marauding
+    robots which are, for no adequately explained reason, trying to kill
+    you. It is based on the text-based robots game which can be found on a
+    number of UNIX systems.
+command:
+- /opt/apps/gnome-robots.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
