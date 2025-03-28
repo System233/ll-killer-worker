@@ -1,0 +1,36 @@
+正在测试: APPID=lxhotkey-gtk.linyaps LAYER=lxhotkey-gtk.linyaps_0.1.1.2_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install lxhotkey-gtk.linyaps_0.1.1.2_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:lxhotkey-gtk.linyaps
+Layer文件:lxhotkey-gtk.linyaps_0.1.1.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: lxhotkey-gtk.linyaps_0.1.1.2_x86_64_binary.layer
+offset: 687
+mountpoint: /tmp/tmp.pNldOHAxmP/mnt
+dbglevel: 0
+find: ‘/opt/apps/lxhotkey-gtk.linyaps/files/share/icons’: No such file or directory
+find: ‘/opt/apps/lxhotkey-gtk.linyaps/files/share/pixmaps’: No such file or directory
+[成功] lxhotkey-gtk.desktop: preferences-desktop-keyboard -> /usr/share/icons/Humanity/apps/16/preferences-desktop-keyboard.svg
+[成功] /opt/apps/lxhotkey-gtk.linyaps/files/share/applications/lxhotkey-gtk.desktop: /opt/apps/lxhotkey-gtk.linyaps/files/entrypoint.sh lxhotkey --gui=gtk
+[正在测试启动项]
+包名:lxhotkey-gtk.linyaps
+Layer文件:lxhotkey-gtk.linyaps_0.1.1.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: lxhotkey-gtk.linyaps_0.1.1.2_x86_64_binary.layer
+offset: 687
+mountpoint: /tmp/tmp.Ppk6PyIkUo/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run lxhotkey-gtk.linyaps -- /opt/apps/lxhotkey-gtk.linyaps/files/entrypoint.sh lxhotkey --gui=gtk
+[PID 8943] 进程已启动
+[PID 8943] 已检测到窗口:PID=36
+[PID 8943] 正在截图 0秒: tests/screen0-0.jpg
+[PID 8943] 正在截图 1秒: tests/screen0-1.jpg
+[PID 8943] 正在截图 3秒: tests/screen0-3.jpg
+[PID 8943] 正在截图 5秒: tests/screen0-5.jpg
+[PID 8943] 正在通知并等待进程退出
+[PID 8943] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall lxhotkey-gtk.linyaps
