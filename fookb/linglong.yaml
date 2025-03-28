@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: fookb.linyaps
+  name: fookb
+  version: 4.1.0.3
+  kind: app
+  description: |-
+    Xkb state indicator
+    WindowMaker docked Xkb state indicator. Fookb can switch xkb groups
+    and display a pixmap corresponding to the selected group. It also can
+    execute a specified command upon the switch (for example, play sound).
+command:
+- /opt/apps/fookb.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
