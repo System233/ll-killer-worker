@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: id-fingerprint-scanner.linyaps
+  name: id-fingerprint-scanner
+  version: 1.7.0.0
+  kind: app
+  description: 通用身份证采集仪动态库和测试程序,适用于型号S500/S3000/S580/CS600
+command:
+- /opt/apps/id-fingerprint-scanner.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
