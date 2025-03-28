@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: gnome-tweaks.linyaps
+  name: gnome-tweaks
+  version: 46.0.0.2
+  kind: app
+  description: |-
+    tool to adjust advanced configuration settings for GNOME
+    GNOME Tweak Tool allows the adjustment of several advanced GNOME
+    options that can't be configured in gnome-control-center.
+    This includes things like:
+    * fonts used in user interface elements and titlebar
+    * font hinting and aliasing
+    * alternative user interface themes
+    * changes in window management behaviour
+    * behaviour on laptop lid close
+    * file manager desktop icons
+    * icons in menus and buttons
+command:
+- /opt/apps/gnome-tweaks.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
