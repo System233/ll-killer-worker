@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: itinerary.linyaps
+  name: itinerary
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Digital travel assistant protecting your privacy
+    Getting your itinerary presented in a unified, well structured and always up
+    to date fashion rather than advertisement overloaded HTML email monstrosities
+    or countless vendor-specific apps.
+command:
+- /opt/apps/itinerary.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
