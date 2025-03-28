@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: gnome-builder.linyaps
+  name: gnome-builder
+  version: 46.2.0.0
+  kind: app
+  description: |-
+    IDE for GNOME
+    Builder is a new IDE for GNOME that is focused on bringing the power of
+    our platform to more developers than ever before.
+
+    Builder attempts to be an IDE for writing software for GNOME. It does not try
+    to be a generic IDE, but one specialized for GNOME application developers.
+command:
+- /opt/apps/gnome-builder.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
