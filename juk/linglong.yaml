@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: juk.linyaps
+  name: juk
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    music jukebox / music player
+    JuK is a powerful music player capable of managing a large music collection.
+
+    Some of JuK's features include:
+    * Music collection, playlists, and smart playlists
+    * Tag editing support, including the ability to edit multiple files at once
+    * Tag-based music file organization and renaming
+    * CD burning support using k3b
+    * Album art using Google Image Search
+
+    This package is part of the KDE multimedia module.
+command:
+- /opt/apps/juk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
