@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: eureka.linyaps
+  name: eureka
+  version: 1.27.0.2
+  kind: app
+  description: |-
+    map editor for the classic DOOM games
+    Eureka is a cross-platform map editor for the classic DOOM games.
+    It started as a fork of the Yadex editor attempting to make it use the
+    FLTK GUI toolkit and implement multiple Undo / Redo.
+
+    Supported games include DOOM, DOOM 2, Final Doom, FreeDoom, HacX and Heretic.
+    Supported source ports are Boom, EDGE, Doom Legacy and Odamex.
+command:
+- /opt/apps/eureka.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
