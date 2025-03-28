@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: gav.linyaps
+  name: gav
+  version: 0.9.0.3
+  kind: app
+  description: |-
+    GPL Arcade Volleyball
+    GAV stands for GPL Arcade Volleyball, and is an SDL remake of the old DOS game
+    Arcade Volleyball. It includes multiplayer, networking, and themeable graphics
+    support.
+
+    More information, as well as additional themes, can be found at
+    <http://gav.sourceforge.net>.
+command:
+- /opt/apps/gav.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
