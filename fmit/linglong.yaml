@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: fmit.linyaps
+  name: fmit
+  version: 1.2.14.0
+  kind: app
+  description: |-
+    Free Music Instrument Tuner
+    FMIT is a graphical utility for tuning your musical instruments, with
+    error and volume history and advanced features like microtonal tuning,
+    statistics, and various views like waveform shape, harmonics ratios and
+    real-time Discrete Fourier Transform (DFT). All views and advanced features
+    are optional so that the interface can also be very simple.
+command:
+- /opt/apps/fmit.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
