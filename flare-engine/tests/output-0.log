@@ -1,0 +1,89 @@
+包名:flare-engine.linyaps
+Layer文件:flare-engine.linyaps_1.14.0.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: flare-engine.linyaps_1.14.0.3_x86_64_binary.layer
+offset: 1010
+mountpoint: /tmp/tmp.zVEAbqjorj/mnt
+dbglevel: 0
+INFO: Flare 1.14 (Linux)
+INFO: main: PATH_CONF = '/home/runner/.config/flare/'
+INFO: main: PATH_USER = '/home/runner/.local/share/flare/'
+INFO: main: PATH_DATA = '/usr/share/games/flare/'
+ERROR: ModManager: Mod "fantasycore" not found, skipping
+ERROR: ModManager: Mod "empyrean_campaign" not found, skipping
+INFO: Active mods: default
+ERROR: FileParser: Could not open text file: /home/runner/.config/flare/settings.txt
+ERROR: FileParser: Could not open text file: engine/default_settings.txt: No such file or directory!
+INFO: Settings: move_type_dimissed=0
+INFO: Settings: fullscreen=0
+INFO: Settings: resolution_w=640
+INFO: Settings: resolution_h=480
+INFO: Settings: music_volume=96
+INFO: Settings: sound_volume=128
+INFO: Settings: combat_text=1
+INFO: Settings: mouse_move=0
+INFO: Settings: hwsurface=1
+INFO: Settings: vsync=1
+INFO: Settings: texture_filter=1
+INFO: Settings: dpi_scaling=0
+INFO: Settings: parallax_layers=1
+INFO: Settings: max_fps=60
+INFO: Settings: renderer=sdl_hardware
+INFO: Settings: enable_joystick=0
+INFO: Settings: joystick_device=-1
+INFO: Settings: joystick_deadzone=8000
+INFO: Settings: language=en
+INFO: Settings: change_gamma=0
+INFO: Settings: gamma=1
+INFO: Settings: mouse_aim=1
+INFO: Settings: no_mouse=0
+INFO: Settings: show_fps=0
+INFO: Settings: colorblind=0
+INFO: Settings: hardware_cursor=0
+INFO: Settings: dev_mode=0
+INFO: Settings: dev_hud=1
+INFO: Settings: loot_tooltips=0
+INFO: Settings: statbar_labels=0
+INFO: Settings: statbar_autohide=1
+INFO: Settings: auto_equip=1
+INFO: Settings: subtitles=0
+INFO: Settings: minimap_mode=0
+INFO: Settings: mouse_move_swap=0
+INFO: Settings: mouse_move_attack=1
+INFO: Settings: entity_markers=1
+INFO: Settings: prev_save_slot=-1
+INFO: Settings: low_hp_warning_type=1
+INFO: Settings: low_hp_threshold=20
+INFO: Settings: item_compare_tips=1
+INFO: Settings: max_render_size=0
+INFO: Settings: touch_controls=0
+INFO: Settings: touch_scale=1
+INFO: MessageEngine: Using language 'en'
+ERROR: EngineSettings: save_prefix not found in engine/misc.txt, setting to 'default'. This may cause save file conflicts between games that have no save_prefix.
+ERROR: FileParser: Could not open text file: engine/loot.txt: No such file or directory!
+ERROR: FileParser: Could not open text file: engine/xp_table.txt: No such file or directory!
+ERROR: EngineSettings: No XP table defined.
+ERROR: FileParser: Could not open text file: engine/number_format.txt: No such file or directory!
+INFO: InputState: No gamepads were found.
+INFO: Using Render Device: SDLHardwareRenderDevice (hardware, SDL 2, x11)
+INFO: RenderDevice: 1 display(s), using display 0 (1280x1024 @ 0hz)
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+INFO: RenderDevice: Window size is 640x480
+INFO: RenderDevice: Fullscreen=0, Hardware surfaces=1, Vsync=1, Texture Filter=1
+INFO: RenderDevice: Renderer driver is 'opengl'.
+INFO: RenderDevice: Display DPI is 0.000000
+INFO: RenderDevice: Internal render size is 640x480
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2721:(snd_pcm_open_noupdate) Unknown PCM default
+ERROR: SDLSoundManager: Error during Mix_OpenAudio: ALSA: Couldn't open audio device: No such file or directory
+INFO: GameStateCutscene: Loading cutscene 'cutscenes/intro.txt'
+INFO: GameStateCutscene: No scenes defined in cutscene file cutscenes/intro.txt
