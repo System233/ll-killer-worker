@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: free42-nologo.linyaps
+  name: free42-nologo
+  version: 3.1.4.1
+  kind: app
+  description: |-
+    Free42 is a re-implementation of the HP-42S calculator
+    It is a complete rewrite, not using any HP code, and it does not
+    require an HP-42S ROM image. Loading and saving programs is possible.
+    FPU is required.
+command:
+- /opt/apps/free42-nologo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
