@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gprename.linyaps
+  name: gprename
+  version: 20210415.0.0.1
+  kind: app
+  description: |-
+    complete batch renamer for Linux
+    GPRename is a complete batch renamer for files and directories.
+    It can easily replace, remove, insert, delete, and number
+    consecutively files and directories using a graphical interface (GUI).
+command:
+- /opt/apps/gprename.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
