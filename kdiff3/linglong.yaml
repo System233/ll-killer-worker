@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: kdiff3.linyaps
+  name: kdiff3
+  version: 1.10.7.1
+  kind: app
+  description: |-
+    compares and merges 2 or 3 files or directories
+    KDiff3 compares two or three input files and shows the differences
+    line by line and character by character. It provides an automatic
+    merge facility and an integrated editor for comfortable solving of
+    merge conflicts. KDiff3 allows recursive directory comparison and
+    merging as well. KDiff3 also has KIO support, so it can access to
+    remote files and compressed archives.
+command:
+- /opt/apps/kdiff3.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
