@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: monsterz.linyaps
+  name: monsterz
+  version: 0.7.1.12
+  kind: app
+  description: |-
+    arcade puzzle game
+    Monsterz is similar to the Bejeweled, Zookeeper or Zooo games.
+    The goal is to swap adjacent tiles to create alignments,
+    causing chain reactions to earn more points.
+command:
+- /opt/apps/monsterz.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
