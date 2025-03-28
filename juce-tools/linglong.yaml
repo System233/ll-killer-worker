@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: juce-tools.linyaps
+  name: juce-tools
+  version: 7.0.5.2
+  kind: app
+  description: |-
+    JUCE's project management tools
+    JUCE (Jules' Utility Class Extensions) is an all-encompassing C++ framework for
+    developing cross-platform software.
+    The Projucer (formerly Introjucer) is JUCE's project-management tool and secret
+    weapon.
+
+    The Projucer's Duties:
+    - Central management of cross-platform builds
+    - JUCE Module Management
+    - New Project Creation
+    - User-Interface Design Tool
+    - Plug-in Projects
+    - Miscellaneous Utilities
+command:
+- /opt/apps/juce-tools.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
