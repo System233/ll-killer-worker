@@ -1,0 +1,62 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libfuse2t64 osspd osspd-pulseaudio
+Suggested packages:
+  fuse
+The following NEW packages will be installed:
+  gom libfuse2t64 osspd osspd-pulseaudio
+0 upgraded, 4 newly installed, 0 to remove and 450 not upgraded.
+Need to get 199 kB of archives.
+After this operation, 761 kB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 gom arm64 0.30.4-1 [63.4 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 osspd-pulseaudio arm64 1.3.2-13.1build3 [19.7 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libfuse2t64 arm64 2.9.9-8.1build1 [89.9 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 osspd arm64 1.3.2-13.1build3 [25.8 kB]
+Fetched 199 kB in 1s (198 kB/s)
+Selecting previously unselected package gom.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../gom_0.30.4-1_arm64.deb ...
+Unpacking gom (0.30.4-1) ...
+Selecting previously unselected package osspd-pulseaudio.
+Preparing to unpack .../osspd-pulseaudio_1.3.2-13.1build3_arm64.deb ...
+Unpacking osspd-pulseaudio (1.3.2-13.1build3) ...
+Selecting previously unselected package libfuse2t64:arm64.
+Preparing to unpack .../libfuse2t64_2.9.9-8.1build1_arm64.deb ...
+Unpacking libfuse2t64:arm64 (2.9.9-8.1build1) ...
+Selecting previously unselected package osspd.
+Preparing to unpack .../osspd_1.3.2-13.1build3_arm64.deb ...
+Unpacking osspd (1.3.2-13.1build3) ...
+Setting up osspd-pulseaudio (1.3.2-13.1build3) ...
+update-alternatives: using /usr/lib/osspd/ossp-padsp to provide /usr/lib/osspd/ossp-slave (ossp-slave) in auto mode
+Setting up gom (0.30.4-1) ...
+
+Configuration file '/etc/gom/conf.default_mixer', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/gom/conf.initialize', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/gom/mixer.default', does not exist on system.
+Installing new config file as you requested.
+Setting up libfuse2t64:arm64 (2.9.9-8.1build1) ...
+Setting up osspd (1.3.2-13.1build3) ...
+
+Configuration file '/etc/init.d/osspd', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/modprobe.d/osspd.conf', does not exist on system.
+Installing new config file as you requested.
+Can't exec "systemctl": No such file or directory at /usr/sbin/update-rc.d line 98.
+/usr/sbin/invoke-rc.d: 290: systemctl: not found
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: WARNING: No init system and policy-rc.d missing! Defaulting to block.
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-helper line 682.
+/var/lib/dpkg/info/osspd.postinst: 36: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+osspd.service is a disabled or a static unit, not starting it.
+Processing triggers for libc-bin (2.38-6deepin4) ...
