@@ -1,0 +1,62 @@
+包名:etw.linyaps
+Layer文件:etw.linyaps_3.6.0.6_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: etw.linyaps_3.6.0.6_x86_64_binary.layer
+offset: 1197
+mountpoint: /tmp/tmp.8YpBpGNgmV/mnt
+dbglevel: 0
+Setting default directory to /usr/gamesopen on /usr/share/games/etw/catalogs/english/etw.catalog failed, trying case insensitive... (etw.catalog in /usr/share/games/etw/catalogs/english/)
+*** /usr/share/games/etw/catalogs/english/etw.catalog not found, using builtin language.
+Reading configuration...
+open on /home/runner/.etw/etw.cfg failed, trying case insensitive... (etw.cfg in /home/runner/.etw/)
+open on /usr/share/games/etw/newgfx/pitcha+.gfx failed, trying case insensitive... (pitcha+.gfx in /usr/share/games/etw/newgfx/)
+ FOUND, opening: /usr/share/games/etw/newgfx/Pitcha+.gfx
+open on /usr/share/games/etw/newgfx/pitchb+.gfx failed, trying case insensitive... (pitchb+.gfx in /usr/share/games/etw/newgfx/)
+ FOUND, opening: /usr/share/games/etw/newgfx/PitchB+.gfx
+open on /usr/share/games/etw/newgfx/pitchc+.gfx failed, trying case insensitive... (pitchc+.gfx in /usr/share/games/etw/newgfx/)
+ FOUND, opening: /usr/share/games/etw/newgfx/PitchC+.gfx
+open on /usr/share/games/etw/newgfx/pitchd+.gfx failed, trying case insensitive... (pitchd+.gfx in /usr/share/games/etw/newgfx/)
+ FOUND, opening: /usr/share/games/etw/newgfx/PitchD+.gfx
+open on /usr/share/games/etw/newgfx/pitche+.gfx failed, trying case insensitive... (pitche+.gfx in /usr/share/games/etw/newgfx/)
+ FOUND, opening: /usr/share/games/etw/newgfx/PitchE+.gfx
+open on /usr/share/games/etw/newgfx/pitchf+.gfx failed, trying case insensitive... (pitchf+.gfx in /usr/share/games/etw/newgfx/)
+ FOUND, opening: /usr/share/games/etw/newgfx/PitchF+.gfx
+Control for team 1: KEYBOARD 1
+Control for team 2: KEYBOARD 1
+Loading teams from teams/default...
+League: France 98 V:3-P:1-L:0-S:32
+open on /usr/share/games/etw/key_red failed, trying case insensitive... (key_red in /usr/share/games/etw/)
+open on /usr/share/games/etw/key_blue failed, trying case insensitive... (key_blue in /usr/share/games/etw/)
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+Palette allocation...
+Menu palette remapped.
+Opening game window...
+Anim System initialization...
+Start: InitAnimSystem!
+Loaded 16 colors from gfx_t newgfx/hurricane
+Loading /usr/share/games/etw/newgfx/hurricane...GfxObject 320 x 256 x 4
+Before scaling (display.c): 320x256
+After scaling: 640x480
+FreeGfxObj - width: 320
+Opening fonts...
+Carico font <newgfx/eat2.font, 7x8>...
+Carico font <newgfx/eat.font, 5x5>...
+Carico font <newgfx/eatinfo.font, 8x10>...
+Font aperti correttamente
+Sound system initialization...
+open on /usr/share/games/etw/intro/intro.anim failed, trying case insensitive... (intro.anim in /usr/share/games/etw/intro/)
+Initializing audio channels...
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2721:(snd_pcm_open_noupdate) Unknown PCM default
+Unable to open audio: ALSA: Couldn't open audio device: No such file or directory
+Entering loop...
+Program exited cleanly!
