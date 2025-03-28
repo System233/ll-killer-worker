@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: kclock.linyaps
+  name: kclock
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Clock for KDE Plasma Mobile
+    A universal clock application for desktop and mobile. It contains alarm,
+    timer, stopwatch and timezone functionalities. Alarms and timers are able to
+    wake the device from suspend on Plasma.
+command:
+- /opt/apps/kclock.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
