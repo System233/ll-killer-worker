@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: glogg.linyaps
+  name: glogg
+  version: 1.1.4.1
+  kind: app
+  description: |-
+    Smart interactive log explorer using Qt
+    glogg is a multi-platform GUI application to browse and search through long or
+    complex log files. It is designed with programmers and system administrators
+    in mind and can be seen as a graphical, interactive combination of grep and
+    less.
+
+    Main features include:
+    * Accept egrep regular expression to search or filter the log.
+    * Interactively display results of the search in a second, filtered window.
+    * Colorize the log and the search results.
+    * Read the file directly from disk, without loading it into memory.
+    * Happily handle big (>4 GiB) files.
+    * Read UTF-8 and ISO-8859-1 encoded files.
+    * Follow a log in real-time as it is written to disk.
+    * Allow one to insert marks in the logs to interesting lines.
+    * Support less/vim like keyboard commands to move around the file.
+command:
+- /opt/apps/glogg.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
