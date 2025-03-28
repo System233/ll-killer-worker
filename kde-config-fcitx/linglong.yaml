@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kde-config-fcitx.linyaps
+  name: kde-config-fcitx
+  version: 0.5.6.1
+  kind: app
+  description: |-
+    KDE configuration module for Fcitx
+    This is a configuration module for System Settings for configuring
+    the Free Chinese Input Toy of X.
+
+    It is designed to have similar functionalities to fcitx-config-gtk,
+    with better KDE integration.
+command:
+- /opt/apps/kde-config-fcitx.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
