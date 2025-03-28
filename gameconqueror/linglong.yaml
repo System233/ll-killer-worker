@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: gameconqueror.linyaps
+  name: gameconqueror
+  version: 0.17.0.5
+  kind: app
+  description: |-
+    locate and modify a variable in a running process (GUI)
+    GameConqueror is a GUI based on Python and GTK+ using scanmem to locate
+    the address of a variable in a running process. This can be used for the
+    analysis or modification of a hostile process on a compromised machine, for
+    reverse engineering, or as a "pokefinder" to cheat at video games.
+
+    GameConqueror provides a CheatEngine-alike user-friendly interface with more
+    features than scanmem.
+command:
+- /opt/apps/gameconqueror.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
