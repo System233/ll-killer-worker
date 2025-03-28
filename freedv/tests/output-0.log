@@ -1,0 +1,19 @@
+包名:freedv.linyaps
+Layer文件:freedv.linyaps_1.8.11.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: freedv.linyaps_1.8.11.1_x86_64_binary.layer
+offset: 1329
+mountpoint: /tmp/tmp.ulHvQ8E15r/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+
+(freedv:37): dbind-[1;33mWARNING[0m **: [34m03:22:52.336[0m: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+Making sure your machine can handle 2020 mode:
+Generating test audio...
+Decoding modulated audio...
+One second of 2020 decoded in 132 ms
+2020 allowed: 1
+Assertion 'pthread_mutex_lock(&m->mutex) == 0' failed at ../src/pulsecore/mutex-posix.c:92, function pa_mutex_lock(). Aborting.
