@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: lxqt-about.linyaps
+  name: lxqt-about
+  version: 1.4.0.0
+  kind: app
+  description: |-
+    About screen for LXQt
+    The about screen for LXQt
+
+    This package contain the LXQt about screen.
+command:
+- /opt/apps/lxqt-about.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
