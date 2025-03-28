@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: featherpad.linyaps
+  name: featherpad
+  version: 1.4.1.0
+  kind: app
+  description: |-
+    Lightweight Qt5 plain-text editor
+    FeatherPad is a lightweight Qt5 plain-text editor for Linux. It is independent
+    of any desktop environment and comes with all features one would expect in a
+    modern editor.
+
+    This package contains the application files.
+command:
+- /opt/apps/featherpad.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
