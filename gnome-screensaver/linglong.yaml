@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: gnome-screensaver.linyaps
+  name: gnome-screensaver
+  version: 3.6.1.13
+  kind: app
+  description: |-
+    Screensaver and screen lock formerly used in GNOME
+    gnome-screensaver is a simple screen saver and screen lock, used in older
+    versions of the GNOME desktop environment.
+
+    It is designed to support, among other things:
+
+    * the ability to lock down configuration settings
+    * translation into other languages
+    * user switching
+
+    This package is not necessary in the GNOME desktop environment, because
+    GNOME Shell contains its own screen lock implementation. It can be
+    used with alternative desktop environments.
+command:
+- /opt/apps/gnome-screensaver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
