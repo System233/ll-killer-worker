@@ -1,0 +1,28 @@
+正在测试: APPID=hoteldruid.linyaps LAYER=hoteldruid.linyaps_3.0.6.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install hoteldruid.linyaps_3.0.6.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:hoteldruid.linyaps
+Layer文件:hoteldruid.linyaps_3.0.6.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: hoteldruid.linyaps_3.0.6.1_x86_64_binary.layer
+offset: 1017
+mountpoint: /tmp/tmp.9aL0zBKZLm/mnt
+dbglevel: 0
+[成功] net.digitaldruids.hoteldruid_launcher.desktop: hoteldruid -> /opt/apps/hoteldruid.linyaps/files/share/icons/hicolor/32x32/apps/hoteldruid.png
+[成功] /opt/apps/hoteldruid.linyaps/files/share/applications/net.digitaldruids.hoteldruid_launcher.desktop: /opt/apps/hoteldruid.linyaps/files/entrypoint.sh hoteldruid-launcher
+[正在测试启动项]
+包名:hoteldruid.linyaps
+Layer文件:hoteldruid.linyaps_3.0.6.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: hoteldruid.linyaps_3.0.6.1_x86_64_binary.layer
+offset: 1017
+mountpoint: /tmp/tmp.jTNsSqpLgO/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run hoteldruid.linyaps -- /opt/apps/hoteldruid.linyaps/files/entrypoint.sh hoteldruid-launcher
+[PID 17666] 进程已启动
+[PID 17666] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall hoteldruid.linyaps
