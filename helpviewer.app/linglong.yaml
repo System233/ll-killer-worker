@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: helpviewer.app.linyaps
+  name: helpviewer.app
+  version: 0.4.0.1
+  kind: app
+  description: |-
+    Online help viewer for GNUstep programs
+    HelpViewer is an online help viewer for GNUstep programs.  It can
+    render files in the XLP format, although this format has been
+    deprecated and only several packages still use it.
+command:
+- /opt/apps/helpviewer.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
