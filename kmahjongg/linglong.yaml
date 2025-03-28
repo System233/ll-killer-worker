@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kmahjongg.linyaps
+  name: kmahjongg
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    mahjongg solitaire game
+    KMahjongg is a solitaire game where the player removes matching Mahjongg tiles
+    to clear the board.  A variety of tile layouts are included, as well as an
+    editor to create new layouts.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/kmahjongg.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
