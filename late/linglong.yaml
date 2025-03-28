@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: late.linyaps
+  name: late
+  version: 0.1.0.14
+  kind: app
+  description: |-
+    simple game of capturing balls
+    This is a simple and fun game, which involves using your mouse
+    based guillotine to trap bouncing balls.
+
+    Trapping balls is achieved by firing your guillotine to split the
+    playing area into little boxes, once enough of the screen has been
+    covered you progress to the next level.
+command:
+- /opt/apps/late.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
