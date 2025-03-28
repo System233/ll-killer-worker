@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gtranscribe.linyaps
+  name: gtranscribe
+  version: 0.11.0.3
+  kind: app
+  description: |-
+    simple GTK+ tool focused on easy transcription of spoken words
+    gTranscribe is a simple GTK+ tool to transcribe audio files and other
+    sources. The playback speed can be adjusted without changing the pitch of the
+    voice. It supports spell checking and resuming at the last transcribed
+    position.
+command:
+- /opt/apps/gtranscribe.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
