@@ -1,0 +1,58 @@
+正在测试: APPID=hugin.linyaps LAYER=hugin.linyaps_2023.0.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install hugin.linyaps_2023.0.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:hugin.linyaps
+Layer文件:hugin.linyaps_2023.0.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: hugin.linyaps_2023.0.0.1_arm64_binary.layer
+offset: 1177
+mountpoint: /tmp/tmp.iIKH10ncBm/mnt
+dbglevel: 0
+[成功] PTBatcherGUI.desktop: ptbatcher -> /opt/apps/hugin.linyaps/files/share/icons/hicolor/128x128/apps/ptbatcher.png
+[成功] /opt/apps/hugin.linyaps/files/share/applications/PTBatcherGUI.desktop: /opt/apps/hugin.linyaps/files/entrypoint.sh PTBatcherGUI %F
+[成功] calibrate_lens_gui.desktop: hugin -> /opt/apps/hugin.linyaps/files/share/icons/hicolor/128x128/apps/hugin.png
+[成功] /opt/apps/hugin.linyaps/files/share/applications/calibrate_lens_gui.desktop: /opt/apps/hugin.linyaps/files/entrypoint.sh calibrate_lens_gui
+[成功] hugin.desktop: hugin -> /opt/apps/hugin.linyaps/files/share/icons/hicolor/128x128/apps/hugin.png
+[成功] /opt/apps/hugin.linyaps/files/share/applications/hugin.desktop: /opt/apps/hugin.linyaps/files/entrypoint.sh hugin %f
+[成功] pto_gen.desktop: hugin -> /opt/apps/hugin.linyaps/files/share/icons/hicolor/128x128/apps/hugin.png
+[成功] /opt/apps/hugin.linyaps/files/share/applications/pto_gen.desktop: /opt/apps/hugin.linyaps/files/entrypoint.sh pto_gen %F
+[正在测试启动项]
+包名:hugin.linyaps
+Layer文件:hugin.linyaps_2023.0.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: hugin.linyaps_2023.0.0.1_arm64_binary.layer
+offset: 1177
+mountpoint: /tmp/tmp.tA83sdFCAc/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run hugin.linyaps -- /opt/apps/hugin.linyaps/files/entrypoint.sh PTBatcherGUI
+[PID 14524] 进程已启动
+[PID 14524] 已检测到窗口:PID=36
+[PID 14524] 正在截图 0秒: tests/screen0-0.jpg
+[PID 14524] 正在截图 1秒: tests/screen0-1.jpg
+[PID 14524] 正在截图 3秒: tests/screen0-3.jpg
+[PID 14524] 正在截图 5秒: tests/screen0-5.jpg
+[PID 14524] 正在通知并等待进程退出
+[PID 14524] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run hugin.linyaps -- /opt/apps/hugin.linyaps/files/entrypoint.sh calibrate_lens_gui
+[PID 14763] 进程已启动
+[PID 14763] 已检测到窗口:PID=36
+[PID 14763] 正在截图 0秒: tests/screen1-0.jpg
+[PID 14763] 正在截图 1秒: tests/screen1-1.jpg
+[PID 14763] 正在截图 3秒: tests/screen1-3.jpg
+[PID 14763] 正在截图 5秒: tests/screen1-5.jpg
+[PID 14763] 正在通知并等待进程退出
+[PID 14763] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run hugin.linyaps -- /opt/apps/hugin.linyaps/files/entrypoint.sh hugin
+[PID 14931] 进程已启动
+[PID 14931] 已检测到窗口:PID=37
+[PID 14931] 正在截图 0秒: tests/screen2-0.jpg
+[PID 14931] 正在截图 2秒: tests/screen2-2.jpg
+[PID 14931] 正在截图 4秒: tests/screen2-4.jpg
+[PID 14931] 正在截图 5秒: tests/screen2-5.jpg
+[PID 14931] 正在通知并等待进程退出
+[PID 14931] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall hugin.linyaps

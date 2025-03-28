@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: hugin.linyaps
+  name: hugin
+  version: 2023.0.0.1
+  kind: app
+  description: |-
+    panorama photo stitcher - GUI tools
+    Hugin is a panorama photo stitching program. Essentially, Hugin is a
+    GUI frontend for Panorama Tools. Stitching is accomplished by using
+    several overlapping photos taken from the same location, and using
+    control points to align and transform the photos so that they can be
+    blended together to form a larger image. Hugin allows for the easy
+    creation of control points between two images, optimization of the
+    image transforms, and much more.
+
+    This package includes the following graphical interfaces, using the
+    command-line tools provided in the hugin-tools package:
+    * hugin                - Hugin panorama creator.
+    * hugin_stitch_project - Hugin batch stitcher.
+    * PTBatcherGUI         - Batch controller for the stitching process.
+    * calibrate_lens_gui   - Lens calibration tool.
+command:
+- /opt/apps/hugin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
