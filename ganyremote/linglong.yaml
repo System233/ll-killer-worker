@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ganyremote.linyaps
+  name: ganyremote
+  version: 8.1.1.1
+  kind: app
+  description: |-
+    GTK+ frontend for anyRemote
+    gAnyRemote package is GTK+ GUI frontend for anyRemote
+    (http://anyremote.sourceforge.net/). The overall goal of this project is to
+    provide remote control service on Linux through Bluetooth, InfraRed, Wi-Fi
+    or TCP/IP connection.
+command:
+- /opt/apps/ganyremote.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
