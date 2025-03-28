@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: lomiri-url-dispatcher-tools-gui.linyaps
+  name: lomiri-url-dispatcher-tools-gui
+  version: 0.1.3.1
+  kind: app
+  description: |-
+    GUI tools for working with the Lomiri URL Dispatcher
+    Allows applications to request a URL to be opened and handled by another
+    process without seeing the list of other applications on the system or
+    starting them inside its own Application Confinement.
+
+    This package provides GUI tools for working with the Lomiri URL Dispatcher.
+command:
+- /opt/apps/lomiri-url-dispatcher-tools-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
