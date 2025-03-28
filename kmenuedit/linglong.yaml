@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kmenuedit.linyaps
+  name: kmenuedit
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    XDG menu editor
+    This package provides a menu editor which may be used to edit the KDE Plasma
+    workspaces menu or any other XDG menu.
+
+    This package contains the runtime files.
+command:
+- /opt/apps/kmenuedit.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
