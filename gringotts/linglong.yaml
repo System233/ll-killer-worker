@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gringotts.linyaps
+  name: gringotts
+  version: 1.2.10.4
+  kind: app
+  description: |-
+    secure password and data storage manager
+    Gringotts is a small utility that allows you to store and organize
+    sensitive data (passwords, credit card numbers, PINs etc.) in an
+    easy-to-read, easy-to-access, and protected form.
+command:
+- /opt/apps/gringotts.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
