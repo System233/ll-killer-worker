@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: freedroidrpg.linyaps
+  name: freedroidrpg
+  version: 1.0.0.1
+  kind: app
+  description: |-
+    Isometric RPG influenced by Paradroid
+    Freedroid RPG is an RPG with isometric graphics. In it, the player
+    is Tux, who must fight rebelling robots in order to restore peace to
+    humankind. To do so, Tux may take over robots in a minigame based off the
+    classic game Paradroid, or may simply blast them to pieces with a weapon.
+
+    Note that this is not the same game as Freedroid, also available in Debian.
+command:
+- /opt/apps/freedroidrpg.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
