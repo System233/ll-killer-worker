@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gajim.linyaps
+  name: gajim
+  version: 1.8.4.3
+  kind: app
+  description: |-
+    GTK+-based Jabber client
+    Gajim is a Jabber client. It has a tabbed user interface with normal chats,
+    group chats, and has many features such as, TLS, GPG, SSL, multiple accounts,
+    avatars, file transfers, audio/video call, D-Bus and Metacontacts.
+command:
+- /opt/apps/gajim.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
