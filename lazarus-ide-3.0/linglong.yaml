@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: lazarus-ide-3.0.linyaps
+  name: lazarus-ide-3.0
+  version: 3.0.0.8
+  kind: app
+  description: |-
+    IDE for Free Pascal - common IDE files
+    Lazarus is an IDE to create (graphical and console) applications with Free
+    Pascal, the (L)GPLed Pascal and Object Pascal compiler that runs on
+    Windows, Linux, Mac OS X, FreeBSD and more.
+
+    Lazarus is the missing part of the puzzle that will allow you to develop
+    programs for all of the above platforms in a Delphi-like environment.
+    The IDE is a RAD tool that includes a form designer.
+
+    Unlike Java's "write once, run anywhere" motto, Lazarus and Free Pascal
+    strive for "write once, compile anywhere". Since the exact same compiler
+    is available on all of the above platforms you don't need to do any recoding
+    to produce identical products for different platforms.
+
+    In short, Lazarus is a free RAD tool for Free Pascal using its Lazarus
+    Component Library (LCL).
+
+    This package contains the common files required to run Lazarus IDE.
+command:
+- /opt/apps/lazarus-ide-3.0.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

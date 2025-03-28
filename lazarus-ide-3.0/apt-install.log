@@ -1,0 +1,892 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  at-spi2-common cups cups-bsd cups-client cups-common cups-core-drivers
+  cups-daemon cups-ipp-utils cups-ppdc cups-server-common curl fontconfig
+  fontconfig-config fp-compiler fp-compiler-3.2.2 fp-units-rtl-3.2.2
+  fp-utils-3.2.2 fpc-source-3.2.2 gdb gnutls-bin libatk1.0-0t64 libbabeltrace1
+  libc-bin libc-dev-bin libc6 libc6-dbg libc6-dev libcairo-gobject2 libcairo2
+  libcups2t64 libcurl3t64-gnutls libcurl4t64 libdb5.3t64 libdebuginfod-common
+  libdebuginfod1t64 libdw1t64 libegl1 libelf1t64 libexpat1 libfontconfig1
+  libgail-common libgail18t64 libgl1 libgles2 libglib2.0-0t64 libglvnd0
+  libglx0 libgnutls-dane0t64 libgnutls30t64 libgtk2.0-0t64 libgtk2.0-bin
+  libhogweed6t64 libjson-glib-1.0-0 libjson-glib-1.0-common libldap-common
+  libldap2 libnettle8t64 libopengl0 libp11-kit0 libpng16-16t64 libpsl5t64
+  libpython3.12-minimal libpython3.12-stdlib libpython3.12t64 libreadline8t64
+  librsvg2-2 librsvg2-common libsnapd-glib-2-1 libsoup-3.0-0
+  libsoup-3.0-common libsource-highlight-common libsource-highlight4t64
+  libssh-4 libssl3t64 libunistring5 libx11-6 libx11-data libx11-xcb1 libxau6
+  libxcb-composite0 libxcb-damage0 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0
+  libxcb-present0 libxcb-randr0 libxcb-record0 libxcb-render0 libxcb-res0
+  libxcb-shape0 libxcb-shm0 libxcb-sync1 libxcb-xfixes0 libxcb-xinerama0
+  libxcb-xinput0 libxcb-xkb1 libxcb-xtest0 libxcb1 libxdmcp6 libxpm4 locales
+  p11-kit p11-kit-modules publicsuffix python3.12 python3.12-minimal
+  readline-common zlib1g
+Suggested packages:
+  cups-pdf foomatic-db-compressed-ppds | foomatic-db smbclient inetutils-inetd
+  | inet-superserver update-inetd fp-docs-3.2.2 gdb-doc gdbserver manpages
+  glibc-doc libnss-nis libnss-nisplus manpages-dev low-memory-monitor
+  dns-root-data gvfs librsvg2-bin snapd python3.12-venv python3.12-doc
+  binfmt-support readline-doc
+Recommended packages:
+  avahi-daemon colord cups-browsed ipp-usb fpc manpages manpages-dev
+  libc-devtools
+The following packages will be REMOVED:
+  gir1.2-atk-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0 gir1.2-glib-2.0
+  gir1.2-harfbuzz-0.0 gir1.2-pango-1.0 libatk1.0-0 libcups2 libcupsimage2
+  libcurl3-gnutls libcurl4 libdb5.3 libdw1 libelf1 libglib2.0-0 libglib2.0-bin
+  libgnutls-dane0 libgnutls30 libhogweed6 libjpeg-turbo-progs libnettle8
+  libpng16-16 libpsl5 libpython3.12 libreadline8 libturbojpeg0
+  xscreensaver-data-extra
+The following NEW packages will be installed:
+  fp-compiler fp-compiler-3.2.2 fp-units-rtl-3.2.2 fp-utils-3.2.2
+  fpc-source-3.2.2 gdb lazarus-ide-3.0 libatk1.0-0t64 libbabeltrace1 libc6-dbg
+  libcups2t64 libcurl3t64-gnutls libcurl4t64 libdb5.3t64 libdebuginfod-common
+  libdebuginfod1t64 libdw1t64 libelf1t64 libgail-common libgail18t64
+  libglib2.0-0t64 libgnutls-dane0t64 libgnutls30t64 libgtk2.0-0t64
+  libgtk2.0-bin libhogweed6t64 libjson-glib-1.0-0 libjson-glib-1.0-common
+  libldap-common libldap2 libnettle8t64 libpng16-16t64 libpsl5t64
+  libpython3.12t64 libreadline8t64 librsvg2-common libsnapd-glib-2-1
+  libsoup-3.0-0 libsoup-3.0-common libsource-highlight-common
+  libsource-highlight4t64 libssh-4 libssl3t64 libunistring5 publicsuffix
+The following packages will be upgraded:
+  at-spi2-common cups cups-bsd cups-client cups-common cups-core-drivers
+  cups-daemon cups-ipp-utils cups-ppdc cups-server-common curl fontconfig
+  fontconfig-config gnutls-bin libc-bin libc-dev-bin libc6 libc6-dev
+  libcairo-gobject2 libcairo2 libegl1 libexpat1 libfontconfig1 libgl1 libgles2
+  libglvnd0 libglx0 libopengl0 libp11-kit0 libpython3.12-minimal
+  libpython3.12-stdlib librsvg2-2 libx11-6 libx11-data libx11-xcb1 libxau6
+  libxcb-composite0 libxcb-damage0 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0
+  libxcb-present0 libxcb-randr0 libxcb-record0 libxcb-render0 libxcb-res0
+  libxcb-shape0 libxcb-shm0 libxcb-sync1 libxcb-xfixes0 libxcb-xinerama0
+  libxcb-xinput0 libxcb-xkb1 libxcb-xtest0 libxcb1 libxdmcp6 libxpm4 locales
+  p11-kit p11-kit-modules python3.12 python3.12-minimal readline-common zlib1g
+64 upgraded, 45 newly installed, 27 to remove and 382 not upgraded.
+Need to get 90.3 MB of archives.
+After this operation, 400 MB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libc-dev-bin arm64 2.39-0ubuntu8.4 [19.7 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libc6-dev arm64 2.39-0ubuntu8.4 [1595 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 locales all 2.39-0ubuntu8.4 [4229 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libc6 arm64 2.39-0ubuntu8.4 [2775 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libc-bin arm64 2.39-0ubuntu8.4 [591 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libglib2.0-0t64 arm64 2.80.0-6ubuntu3.2 [1531 kB]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libatk1.0-0t64 arm64 2.52.0-1build1 [55.1 kB]
+Get:8 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 zlib1g arm64 1:1.3.dfsg-3.1ubuntu2.1 [61.7 kB]
+Get:9 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 at-spi2-common all 2.52.0-1build1 [8674 B]
+Get:10 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 cups-ipp-utils arm64 2.4.7-1.2ubuntu7.3 [231 kB]
+Get:11 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjson-glib-1.0-common all 1.8.0-2build2 [4244 B]
+Get:12 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjson-glib-1.0-0 arm64 1.8.0-2build2 [65.3 kB]
+Get:13 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libsoup-3.0-common all 3.4.4-5ubuntu0.1 [10.3 kB]
+Get:14 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgnutls-dane0t64 arm64 3.8.3-1.1ubuntu3.3 [23.5 kB]
+Get:15 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/universe arm64 gnutls-bin arm64 3.8.3-1.1ubuntu3.3 [267 kB]
+Get:16 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libnettle8t64 arm64 3.9.1-2.2build1.1 [192 kB]
+Get:17 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libhogweed6t64 arm64 3.9.1-2.2build1.1 [199 kB]
+Get:18 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 p11-kit-modules arm64 0.25.3-4ubuntu2.1 [310 kB]
+Get:19 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libp11-kit0 arm64 0.25.3-4ubuntu2.1 [276 kB]
+Get:20 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libunistring5 arm64 1.1-2build1.1 [530 kB]
+Get:21 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgnutls30t64 arm64 3.8.3-1.1ubuntu3.3 [945 kB]
+Get:22 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libldap2 arm64 2.6.7+dfsg-1~exp1ubuntu8.2 [194 kB]
+Get:23 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libssl3t64 arm64 3.0.13-0ubuntu3.5 [1797 kB]
+Get:24 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libssh-4 arm64 0.10.6-2build2 [189 kB]
+Get:25 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libcurl4t64 arm64 8.5.0-2ubuntu10.6 [333 kB]
+Get:26 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 curl arm64 8.5.0-2ubuntu10.6 [222 kB]
+Get:27 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libpsl5t64 arm64 0.21.2-1.1build1 [57.4 kB]
+Get:28 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libsoup-3.0-0 arm64 3.4.4-5ubuntu0.1 [288 kB]
+Get:29 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libsnapd-glib-2-1 arm64 1.64-0ubuntu5 [105 kB]
+Get:30 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 cups-daemon arm64 2.4.7-1.2ubuntu7.3 [355 kB]
+Get:31 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 cups-core-drivers arm64 2.4.7-1.2ubuntu7.3 [29.1 kB]
+Get:32 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 cups-common all 2.4.7-1.2ubuntu7.3 [262 kB]
+Get:33 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 cups-bsd arm64 2.4.7-1.2ubuntu7.3 [42.0 kB]
+Get:34 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 cups-client arm64 2.4.7-1.2ubuntu7.3 [150 kB]
+Get:35 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 cups-server-common all 2.4.7-1.2ubuntu7.3 [419 kB]
+Get:36 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 cups arm64 2.4.7-1.2ubuntu7.3 [287 kB]
+Get:37 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libcups2t64 arm64 2.4.7-1.2ubuntu7.3 [270 kB]
+Get:38 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 cups-ppdc arm64 2.4.7-1.2ubuntu7.3 [118 kB]
+Get:39 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libexpat1 arm64 2.6.1-2ubuntu0.2 [76.4 kB]
+Get:40 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3.12 arm64 3.12.3-1ubuntu0.5 [651 kB]
+Get:41 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3.12-minimal arm64 3.12.3-1ubuntu0.5 [2254 kB]
+Get:42 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3.12-minimal arm64 3.12.3-1ubuntu0.5 [831 kB]
+Get:43 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libreadline8t64 arm64 8.2-4build1 [153 kB]
+Get:44 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3.12-stdlib arm64 3.12.3-1ubuntu0.5 [2037 kB]
+Get:45 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libdb5.3t64 arm64 5.3.28+dfsg2-7 [732 kB]
+Get:46 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libdw1t64 arm64 0.190-1.1ubuntu0.1 [258 kB]
+Get:47 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libelf1t64 arm64 0.190-1.1ubuntu0.1 [58.4 kB]
+Get:48 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libcairo-gobject2 arm64 1.18.0-3build1 [127 kB]
+Get:49 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libcairo2 arm64 1.18.0-3build1 [555 kB]
+Get:50 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libpng16-16t64 arm64 1.6.43-5build1 [185 kB]
+Get:51 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 readline-common all 8.2-4build1 [56.5 kB]
+Get:52 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libdebuginfod-common all 0.190-1.1ubuntu0.1 [14.6 kB]
+Get:53 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libx11-6 arm64 2:1.8.7-1build1 [649 kB]
+Get:54 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libx11-xcb1 arm64 2:1.8.7-1build1 [7870 B]
+Get:55 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxau6 arm64 1:1.0.9-1build6 [7264 B]
+Get:56 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxdmcp6 arm64 1:1.1.3-0ubuntu6 [10.4 kB]
+Get:57 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb1 arm64 1.15-1ubuntu2 [49.4 kB]
+Get:58 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libx11-data all 2:1.8.7-1build1 [115 kB]
+Get:59 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 publicsuffix all 20231001.0357-0.1 [129 kB]
+Get:60 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 fontconfig-config arm64 2.15.0-1.1ubuntu2 [37.4 kB]
+Get:61 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libfontconfig1 arm64 2.15.0-1.1ubuntu2 [142 kB]
+Get:62 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 fontconfig arm64 2.15.0-1.1ubuntu2 [190 kB]
+Get:63 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 fp-units-rtl-3.2.2 arm64 3.2.2+dfsg-32 [8004 kB]
+Get:64 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 fp-compiler-3.2.2 arm64 3.2.2+dfsg-32 [1908 kB]
+Get:65 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 fp-compiler arm64 3.2.2+dfsg-32 [24.2 kB]
+Get:66 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 fpc-source-3.2.2 all 3.2.2+dfsg-32 [20.2 MB]
+Get:67 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 fp-utils-3.2.2 arm64 3.2.2+dfsg-32 [5336 kB]
+Get:68 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libbabeltrace1 arm64 1.5.11-3build3 [159 kB]
+Get:69 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libcurl3t64-gnutls arm64 8.5.0-2ubuntu10.6 [328 kB]
+Get:70 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libdebuginfod1t64 arm64 0.190-1.1ubuntu0.1 [16.2 kB]
+Get:71 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3.12t64 arm64 3.12.3-1ubuntu0.5 [2281 kB]
+Get:72 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libsource-highlight-common all 3.1.9-4.3build1 [64.2 kB]
+Get:73 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libsource-highlight4t64 arm64 3.1.9-4.3build1 [243 kB]
+Get:74 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 gdb arm64 15.0.50.20240403-0ubuntu1 [4837 kB]
+Get:75 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-render0 arm64 1.15-1ubuntu2 [16.6 kB]
+Get:76 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-shm0 arm64 1.15-1ubuntu2 [5876 B]
+Get:77 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgtk2.0-0t64 arm64 2.24.33-4ubuntu1.1 [1968 kB]
+Get:78 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 lazarus-ide-3.0 arm64 3.0+dfsg1-8build3 [7462 kB]
+Get:79 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgail18t64 arm64 2.24.33-4ubuntu1.1 [14.8 kB]
+Get:80 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgail-common arm64 2.24.33-4ubuntu1.1 [126 kB]
+Get:81 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgtk2.0-bin arm64 2.24.33-4ubuntu1.1 [7954 B]
+Get:82 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libldap-common all 2.6.7+dfsg-1~exp1ubuntu8.2 [31.7 kB]
+Get:83 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 librsvg2-2 arm64 2.58.0+dfsg-1build1 [2027 kB]
+Get:84 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 librsvg2-common arm64 2.58.0+dfsg-1build1 [11.5 kB]
+Get:85 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-composite0 arm64 1.15-1ubuntu2 [5430 B]
+Get:86 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-damage0 arm64 1.15-1ubuntu2 [5124 B]
+Get:87 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-dri2-0 arm64 1.15-1ubuntu2 [7418 B]
+Get:88 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-dri3-0 arm64 1.15-1ubuntu2 [7196 B]
+Get:89 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-glx0 arm64 1.15-1ubuntu2 [25.5 kB]
+Get:90 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-present0 arm64 1.15-1ubuntu2 [5866 B]
+Get:91 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-randr0 arm64 1.15-1ubuntu2 [18.4 kB]
+Get:92 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-record0 arm64 1.15-1ubuntu2 [7600 B]
+Get:93 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-res0 arm64 1.15-1ubuntu2 [6890 B]
+Get:94 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-shape0 arm64 1.15-1ubuntu2 [6250 B]
+Get:95 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-sync1 arm64 1.15-1ubuntu2 [9682 B]
+Get:96 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-xfixes0 arm64 1.15-1ubuntu2 [10.6 kB]
+Get:97 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-xinerama0 arm64 1.15-1ubuntu2 [5598 B]
+Get:98 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-xinput0 arm64 1.15-1ubuntu2 [34.2 kB]
+Get:99 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-xkb1 arm64 1.15-1ubuntu2 [32.6 kB]
+Get:100 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-xtest0 arm64 1.15-1ubuntu2 [4940 B]
+Get:101 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxpm4 arm64 1:3.5.17-1build2 [35.1 kB]
+Get:102 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libc6-dbg arm64 2.39-0ubuntu8.4 [6270 kB]
+Get:103 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libopengl0 arm64 1.7.0-1build1 [35.1 kB]
+Get:104 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libgl1 arm64 1.7.0-1build1 [106 kB]
+Get:105 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libglx0 arm64 1.7.0-1build1 [33.2 kB]
+Get:106 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libgles2 arm64 1.7.0-1build1 [17.6 kB]
+Get:107 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libegl1 arm64 1.7.0-1build1 [29.5 kB]
+Get:108 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libglvnd0 arm64 1.7.0-1build1 [60.6 kB]
+Get:109 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 p11-kit arm64 0.25.3-4ubuntu2.1 [145 kB]
+Fetched 90.3 MB in 13s (6786 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libc-dev-bin_2.39-0ubuntu8.4_arm64.deb ...
+Unpacking libc-dev-bin (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Preparing to unpack .../libc6-dev_2.39-0ubuntu8.4_arm64.deb ...
+Unpacking libc6-dev:arm64 (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Preparing to unpack .../locales_2.39-0ubuntu8.4_all.deb ...
+Unpacking locales (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Preparing to unpack .../libc6_2.39-0ubuntu8.4_arm64.deb ...
+Unpacking libc6:arm64 (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Setting up libc6:arm64 (2.39-0ubuntu8.4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27754 files and directories currently installed.)
+Preparing to unpack .../libc-bin_2.39-0ubuntu8.4_arm64.deb ...
+Unpacking libc-bin (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Setting up libc-bin (2.39-0ubuntu8.4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27754 files and directories currently installed.)
+Removing gir1.2-atk-1.0:arm64 (2.50.0-1) ...
+Removing gir1.2-pango-1.0:arm64 (1.52.2+ds-1) ...
+Removing gir1.2-harfbuzz-0.0:arm64 (8.0.1-1+rb1) ...
+Removing gir1.2-freedesktop:arm64 (1.80.1-2) ...
+Removing gir1.2-gdkpixbuf-2.0:arm64 (2.42.10+dfsg-3) ...
+Removing gir1.2-glib-2.0:arm64 (2.80.1-1deepin1) ...
+Removing xscreensaver-data-extra (6.02+dfsg1-3) ...
+Removing libglib2.0-bin (2.80.1-1deepin1) ...
+Selecting previously unselected package libglib2.0-0t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27283 files and directories currently installed.)
+Preparing to unpack .../libglib2.0-0t64_2.80.0-6ubuntu3.2_arm64.deb ...
+libglib2.0-0t64.preinst: Removing /var/lib/dpkg/info/libglib2.0-0:arm64.postrm to avoid loss of /usr/share/glib-2.0/schemas/gschemas.compiled...
+removed '/var/lib/dpkg/info/libglib2.0-0:arm64.postrm'
+Unpacking libglib2.0-0t64:arm64 (2.80.0-6ubuntu3.2) ...
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: trying to overwrite '/usr/lib/aarch64-linux-gnu/glib-2.0/gio-launch-desktop', which is also in package libglib2.0-0:arm64 2.80.1-1deepin1
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: trying to overwrite '/usr/lib/aarch64-linux-gnu/glib-2.0/gio-querymodules', which is also in package libglib2.0-0:arm64 2.80.1-1deepin1
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: trying to overwrite '/usr/lib/aarch64-linux-gnu/glib-2.0/glib-compile-schemas', which is also in package libglib2.0-0:arm64 2.80.1-1deepin1
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: trying to overwrite '/usr/lib/aarch64-linux-gnu/libgio-2.0.so.0', which is also in package libglib2.0-0:arm64 2.80.1-1deepin1
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: trying to overwrite '/usr/lib/aarch64-linux-gnu/libglib-2.0.so.0', which is also in package libglib2.0-0:arm64 2.80.1-1deepin1
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: trying to overwrite '/usr/lib/aarch64-linux-gnu/libgmodule-2.0.so.0', which is also in package libglib2.0-0:arm64 2.80.1-1deepin1
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: trying to overwrite '/usr/lib/aarch64-linux-gnu/libgobject-2.0.so.0', which is also in package libglib2.0-0:arm64 2.80.1-1deepin1
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: trying to overwrite '/usr/lib/aarch64-linux-gnu/libgthread-2.0.so.0', which is also in package libglib2.0-0:arm64 2.80.1-1deepin1
+dpkg: libatk1.0-0:arm64: dependency problems, but removing anyway as you requested:
+ libgtk2.0-0:arm64 depends on libatk1.0-0 (>= 1.32.0).
+ libgtk-3-0:arm64 depends on libatk1.0-0 (>= 2.35.1).
+ libatk-bridge2.0-0:arm64 depends on libatk1.0-0 (>= 2.33.1).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27295 files and directories currently installed.)
+Removing libatk1.0-0:arm64 (2.50.0-1) ...
+Selecting previously unselected package libatk1.0-0t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27289 files and directories currently installed.)
+Preparing to unpack .../libatk1.0-0t64_2.52.0-1build1_arm64.deb ...
+Unpacking libatk1.0-0t64:arm64 (2.52.0-1build1) ...
+dpkg: libglib2.0-0:arm64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libglib2.0-0 (>= 2.16.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ xscreensaver-gl depends on libglib2.0-0 (>= 2.16.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ xscreensaver-data depends on libglib2.0-0 (>= 2.16.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ shared-mime-info depends on libglib2.0-0 (>= 2.75.3); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ pulseaudio-module-bluetooth depends on libglib2.0-0 (>= 2.12.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ pulseaudio depends on libglib2.0-0 (>= 2.32.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libspa-0.2-bluetooth:arm64 depends on libglib2.0-0 (>= 2.38.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ librsvg2-2:arm64 depends on libglib2.0-0 (>= 2.77.3); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libpulse-mainloop-glib0:arm64 depends on libglib2.0-0 (>= 2.28.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libpipewire-0.3-modules:arm64 depends on libglib2.0-0 (>= 2.32.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libpangoxft-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libpangoft2-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libpangocairo-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libpango-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libical3:arm64 depends on libglib2.0-0 (>= 2.42.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libharfbuzz0b:arm64 depends on libglib2.0-0 (>= 2.32.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libharfbuzz-gobject0:arm64 depends on libglib2.0-0 (>= 2.14.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libgtk2.0-0:arm64 depends on libglib2.0-0 (>= 2.75.3); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libgtk-3-0:arm64 depends on libglib2.0-0 (>= 2.79.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libgstreamer1.0-0:arm64 depends on libglib2.0-0 (>= 2.77.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libgstreamer-plugins-base1.0-0:arm64 depends on libglib2.0-0 (>= 2.75.3); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libglibmm-2.4-1v5:arm64 depends on libglib2.0-0 (>= 2.62.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libgdk-pixbuf-xlib-2.0-0:arm64 depends on libglib2.0-0 (>= 2.48.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libgdk-pixbuf-2.0-0:arm64 depends on libglib2.0-0 (>= 2.75.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libfcitx5gclient2:arm64 depends on libglib2.0-0 (>= 2.38.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libdconf1:arm64 depends on libglib2.0-0 (>= 2.77.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libcolord2:arm64 depends on libglib2.0-0 (>= 2.75.3); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libcloudproviders0:arm64 depends on libglib2.0-0 (>= 2.56.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libcairo-gobject2:arm64 depends on libglib2.0-0 (>= 2.68.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libavcodec60:arm64 depends on libglib2.0-0 (>= 2.12.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libatspi2.0-0:arm64 depends on libglib2.0-0 (>= 2.62); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ libatk-bridge2.0-0:arm64 depends on libglib2.0-0 (>= 2.75.3); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ gtk-update-icon-cache depends on libglib2.0-0 (>= 2.57.2); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ glib-networking-services depends on libglib2.0-0 (>= 2.73.3); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ glib-networking:arm64 depends on libglib2.0-0 (>= 2.73.3); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ fcitx5-frontend-gtk3 depends on libglib2.0-0 (>= 2.75.3); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ fcitx5-frontend-gtk2 depends on libglib2.0-0 (>= 2.75.3); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ dconf-service depends on libglib2.0-0 (>= 2.77.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ dconf-gsettings-backend:arm64 depends on libglib2.0-0 (>= 2.77.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ bluez-obexd depends on libglib2.0-0 (>= 2.77.0); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+ bluez depends on libglib2.0-0 (>= 2.75.3); however:
+  Package libglib2.0-0:arm64 is to be removed.
+  Package libglib2.0-0t64:arm64 which provides libglib2.0-0 is not configured yet.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27295 files and directories currently installed.)
+Removing libglib2.0-0:arm64 (2.80.1-1deepin1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27283 files and directories currently installed.)
+Preparing to unpack .../zlib1g_1%3a1.3.dfsg-3.1ubuntu2.1_arm64.deb ...
+Unpacking zlib1g:arm64 (1:1.3.dfsg-3.1ubuntu2.1) over (1:1.3.dfsg-3) ...
+Setting up zlib1g:arm64 (1:1.3.dfsg-3.1ubuntu2.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27282 files and directories currently installed.)
+Preparing to unpack .../at-spi2-common_2.52.0-1build1_all.deb ...
+Unpacking at-spi2-common (2.52.0-1build1) over (2.50.0-1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27180 files and directories currently installed.)
+Removing libcupsimage2:arm64 (2.4.2-5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27175 files and directories currently installed.)
+Preparing to unpack .../cups-ipp-utils_2.4.7-1.2ubuntu7.3_arm64.deb ...
+Unpacking cups-ipp-utils (2.4.7-1.2ubuntu7.3) over (2.4.2-5) ...
+Selecting previously unselected package libjson-glib-1.0-common.
+Preparing to unpack .../libjson-glib-1.0-common_1.8.0-2build2_all.deb ...
+Unpacking libjson-glib-1.0-common (1.8.0-2build2) ...
+Selecting previously unselected package libjson-glib-1.0-0:arm64.
+Preparing to unpack .../libjson-glib-1.0-0_1.8.0-2build2_arm64.deb ...
+Unpacking libjson-glib-1.0-0:arm64 (1.8.0-2build2) ...
+Selecting previously unselected package libsoup-3.0-common.
+Preparing to unpack .../libsoup-3.0-common_3.4.4-5ubuntu0.1_all.deb ...
+Unpacking libsoup-3.0-common (3.4.4-5ubuntu0.1) ...
+dpkg: libgnutls-dane0:arm64: dependency problems, but removing anyway as you requested:
+ gnutls-bin depends on libgnutls-dane0 (>= 3.7.0).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27186 files and directories currently installed.)
+Removing libgnutls-dane0:arm64 (3.7.9-2) ...
+Selecting previously unselected package libgnutls-dane0t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27180 files and directories currently installed.)
+Preparing to unpack .../libgnutls-dane0t64_3.8.3-1.1ubuntu3.3_arm64.deb ...
+Unpacking libgnutls-dane0t64:arm64 (3.8.3-1.1ubuntu3.3) ...
+Preparing to unpack .../gnutls-bin_3.8.3-1.1ubuntu3.3_arm64.deb ...
+Unpacking gnutls-bin (3.8.3-1.1ubuntu3.3) over (3.7.9-2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27183 files and directories currently installed.)
+Removing libcurl3-gnutls:arm64 (8.5.0-2) ...
+dpkg: libhogweed6:arm64: dependency problems, but removing anyway as you requested:
+ libunbound8:arm64 depends on libhogweed6.
+ librtmp1:arm64 depends on libhogweed6.
+ libgnutls30:arm64 depends on libhogweed6 (>= 3.6).
+
+Removing libhogweed6:arm64 (3.7.3-1) ...
+dpkg: libnettle8:arm64: dependency problems, but removing anyway as you requested:
+ libunbound8:arm64 depends on libnettle8.
+ librtmp1:arm64 depends on libnettle8.
+ libgnutls30:arm64 depends on libnettle8 (>= 3.7~).
+ libarchive13:arm64 depends on libnettle8.
+
+Removing libnettle8:arm64 (3.7.3-1) ...
+Selecting previously unselected package libnettle8t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27161 files and directories currently installed.)
+Preparing to unpack .../libnettle8t64_3.9.1-2.2build1.1_arm64.deb ...
+Unpacking libnettle8t64:arm64 (3.9.1-2.2build1.1) ...
+Selecting previously unselected package libhogweed6t64:arm64.
+Preparing to unpack .../libhogweed6t64_3.9.1-2.2build1.1_arm64.deb ...
+Unpacking libhogweed6t64:arm64 (3.9.1-2.2build1.1) ...
+Preparing to unpack .../p11-kit-modules_0.25.3-4ubuntu2.1_arm64.deb ...
+Unpacking p11-kit-modules:arm64 (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Preparing to unpack .../libp11-kit0_0.25.3-4ubuntu2.1_arm64.deb ...
+Unpacking libp11-kit0:arm64 (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Selecting previously unselected package libunistring5:arm64.
+Preparing to unpack .../libunistring5_1.1-2build1.1_arm64.deb ...
+Unpacking libunistring5:arm64 (1.1-2build1.1) ...
+dpkg: libgnutls30:arm64: dependency problems, but removing anyway as you requested:
+ librtmp1:arm64 depends on libgnutls30 (>= 3.7.5).
+ libqpdf29:arm64 depends on libgnutls30 (>= 3.7.0).
+ libldap-2.5-0:arm64 depends on libgnutls30 (>= 3.7.5).
+ libcups2:arm64 depends on libgnutls30 (>= 3.7.5).
+ glib-networking:arm64 depends on libgnutls30 (>= 3.7.5).
+ dirmngr depends on libgnutls30 (>= 3.7.5).
+ apt depends on libgnutls30 (>= 3.7.5).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27179 files and directories currently installed.)
+Removing libgnutls30:arm64 (3.7.9-2) ...
+Selecting previously unselected package libgnutls30t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27151 files and directories currently installed.)
+Preparing to unpack .../libgnutls30t64_3.8.3-1.1ubuntu3.3_arm64.deb ...
+Unpacking libgnutls30t64:arm64 (3.8.3-1.1ubuntu3.3) ...
+Selecting previously unselected package libldap2:arm64.
+Preparing to unpack .../libldap2_2.6.7+dfsg-1~exp1ubuntu8.2_arm64.deb ...
+Unpacking libldap2:arm64 (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+Selecting previously unselected package libssl3t64:arm64.
+Preparing to unpack .../libssl3t64_3.0.13-0ubuntu3.5_arm64.deb ...
+Unpacking libssl3t64:arm64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:arm64 (3.2.0-2) ...
+Selecting previously unselected package libssh-4:arm64.
+Preparing to unpack .../libssh-4_0.10.6-2build2_arm64.deb ...
+Unpacking libssh-4:arm64 (0.10.6-2build2) ...
+dpkg: libcurl4:arm64: dependency problems, but removing anyway as you requested:
+ curl depends on libcurl4 (= 8.5.0-2).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27182 files and directories currently installed.)
+Removing libcurl4:arm64 (8.5.0-2) ...
+Selecting previously unselected package libcurl4t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27176 files and directories currently installed.)
+Preparing to unpack .../libcurl4t64_8.5.0-2ubuntu10.6_arm64.deb ...
+Unpacking libcurl4t64:arm64 (8.5.0-2ubuntu10.6) ...
+Preparing to unpack .../curl_8.5.0-2ubuntu10.6_arm64.deb ...
+Unpacking curl (8.5.0-2ubuntu10.6) over (8.5.0-2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27181 files and directories currently installed.)
+Removing libpsl5:arm64 (0.21.0-1.2) ...
+Selecting previously unselected package libpsl5t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27175 files and directories currently installed.)
+Preparing to unpack .../0-libpsl5t64_0.21.2-1.1build1_arm64.deb ...
+Unpacking libpsl5t64:arm64 (0.21.2-1.1build1) ...
+Selecting previously unselected package libsoup-3.0-0:arm64.
+Preparing to unpack .../1-libsoup-3.0-0_3.4.4-5ubuntu0.1_arm64.deb ...
+Unpacking libsoup-3.0-0:arm64 (3.4.4-5ubuntu0.1) ...
+Selecting previously unselected package libsnapd-glib-2-1:arm64.
+Preparing to unpack .../2-libsnapd-glib-2-1_1.64-0ubuntu5_arm64.deb ...
+Unpacking libsnapd-glib-2-1:arm64 (1.64-0ubuntu5) ...
+Preparing to unpack .../3-cups-daemon_2.4.7-1.2ubuntu7.3_arm64.deb ...
+Unpacking cups-daemon (2.4.7-1.2ubuntu7.3) over (2.4.2-5) ...
+Preparing to unpack .../4-cups-core-drivers_2.4.7-1.2ubuntu7.3_arm64.deb ...
+Unpacking cups-core-drivers (2.4.7-1.2ubuntu7.3) over (2.4.2-5) ...
+Preparing to unpack .../5-cups-common_2.4.7-1.2ubuntu7.3_all.deb ...
+Unpacking cups-common (2.4.7-1.2ubuntu7.3) over (2.4.2-5) ...
+Preparing to unpack .../6-cups-bsd_2.4.7-1.2ubuntu7.3_arm64.deb ...
+Unpacking cups-bsd (2.4.7-1.2ubuntu7.3) over (2.4.2-5) ...
+Preparing to unpack .../7-cups-client_2.4.7-1.2ubuntu7.3_arm64.deb ...
+Unpacking cups-client (2.4.7-1.2ubuntu7.3) over (2.4.2-5) ...
+Preparing to unpack .../8-cups-server-common_2.4.7-1.2ubuntu7.3_all.deb ...
+Unpacking cups-server-common (2.4.7-1.2ubuntu7.3) over (2.4.2-5) ...
+Preparing to unpack .../9-cups_2.4.7-1.2ubuntu7.3_arm64.deb ...
+Unpacking cups (2.4.7-1.2ubuntu7.3) over (2.4.2-5) ...
+dpkg: libcups2:arm64: dependency problems, but removing anyway as you requested:
+ libgtk2.0-0:arm64 depends on libcups2 (>= 1.6.0).
+ libgtk-3-0:arm64 depends on libcups2 (>= 1.7.0).
+ libgs9:arm64 depends on libcups2 (>= 2.3~b6).
+ libcupsfilters1:arm64 depends on libcups2 (>= 2.3~b6).
+ cups-ppdc depends on libcups2 (>= 2.3~b6).
+ cups-filters-core-drivers depends on libcups2 (>= 2.3~b6).
+ cups-filters depends on libcups2 (>= 2.3~b6).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27189 files and directories currently installed.)
+Removing libcups2:arm64 (2.4.2-5) ...
+Selecting previously unselected package libcups2t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27181 files and directories currently installed.)
+Preparing to unpack .../0-libcups2t64_2.4.7-1.2ubuntu7.3_arm64.deb ...
+Unpacking libcups2t64:arm64 (2.4.7-1.2ubuntu7.3) ...
+Preparing to unpack .../1-cups-ppdc_2.4.7-1.2ubuntu7.3_arm64.deb ...
+Unpacking cups-ppdc (2.4.7-1.2ubuntu7.3) over (2.4.2-5) ...
+Preparing to unpack .../2-libexpat1_2.6.1-2ubuntu0.2_arm64.deb ...
+Unpacking libexpat1:arm64 (2.6.1-2ubuntu0.2) over (2.5.0-2) ...
+Preparing to unpack .../3-python3.12_3.12.3-1ubuntu0.5_arm64.deb ...
+Unpacking python3.12 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+Preparing to unpack .../4-python3.12-minimal_3.12.3-1ubuntu0.5_arm64.deb ...
+Unpacking python3.12-minimal (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+Preparing to unpack .../5-libpython3.12-minimal_3.12.3-1ubuntu0.5_arm64.deb ...
+Unpacking libpython3.12-minimal:arm64 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+dpkg: libreadline8:arm64: dependency problems, but removing anyway as you requested:
+ sqlite3 depends on libreadline8 (>= 6.0).
+ pipewire-bin depends on libreadline8 (>= 6.0).
+ libpython3.12-stdlib:arm64 depends on libreadline8 (>= 7.0~beta).
+ libpython3.11-stdlib:arm64 depends on libreadline8 (>= 7.0~beta).
+ gpgsm depends on libreadline8 (>= 6.0).
+ gpgconf depends on libreadline8 (>= 6.0).
+ gpg depends on libreadline8 (>= 6.0).
+ gnupg-utils depends on libreadline8 (>= 6.0).
+ gawk depends on libreadline8 (>= 6.0).
+ fdisk depends on libreadline8 (>= 6.0).
+ bluez depends on libreadline8 (>= 6.0).
+ bc depends on libreadline8 (>= 6.0).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27187 files and directories currently installed.)
+Removing libreadline8:arm64 (8.2-3) ...
+Selecting previously unselected package libreadline8t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27174 files and directories currently installed.)
+Preparing to unpack .../libreadline8t64_8.2-4build1_arm64.deb ...
+Adding 'diversion of /lib/aarch64-linux-gnu/libhistory.so.8 to /lib/aarch64-linux-gnu/libhistory.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/aarch64-linux-gnu/libhistory.so.8.2 to /lib/aarch64-linux-gnu/libhistory.so.8.2.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/aarch64-linux-gnu/libreadline.so.8 to /lib/aarch64-linux-gnu/libreadline.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/aarch64-linux-gnu/libreadline.so.8.2 to /lib/aarch64-linux-gnu/libreadline.so.8.2.usr-is-merged by libreadline8t64'
+Unpacking libreadline8t64:arm64 (8.2-4build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27194 files and directories currently installed.)
+Removing libpython3.12:arm64 (3.12.0-1deepin1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27188 files and directories currently installed.)
+Preparing to unpack .../libpython3.12-stdlib_3.12.3-1ubuntu0.5_arm64.deb ...
+Unpacking libpython3.12-stdlib:arm64 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+dpkg: libdb5.3:arm64: dependency problems, but removing anyway as you requested:
+ libsasl2-modules-db:arm64 depends on libdb5.3.
+ libpython3.11-stdlib:arm64 depends on libdb5.3.
+ libperl5.36:arm64 depends on libdb5.3.
+ libpam-modules:arm64 depends on libdb5.3.
+ libjack-jackd2-0:arm64 depends on libdb5.3.
+ libical3:arm64 depends on libdb5.3.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27207 files and directories currently installed.)
+Removing libdb5.3:arm64 (5.3.28+dfsg1-0.8) ...
+Selecting previously unselected package libdb5.3t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27201 files and directories currently installed.)
+Preparing to unpack .../libdb5.3t64_5.3.28+dfsg2-7_arm64.deb ...
+Unpacking libdb5.3t64:arm64 (5.3.28+dfsg2-7) ...
+Setting up libdb5.3t64:arm64 (5.3.28+dfsg2-7) ...
+dpkg: libdw1:arm64: dependency problems, but removing anyway as you requested:
+ libgstreamer1.0-0:arm64 depends on libdw1 (>= 0.126).
+ bluez depends on libdw1 (>= 0.127).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27207 files and directories currently installed.)
+Removing libdw1:arm64 (0.188-2.1deepin1) ...
+Selecting previously unselected package libdw1t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27201 files and directories currently installed.)
+Preparing to unpack .../libdw1t64_0.190-1.1ubuntu0.1_arm64.deb ...
+Unpacking libdw1t64:arm64 (0.190-1.1ubuntu0.1) ...
+dpkg: libelf1:arm64: dependency problems, but removing anyway as you requested:
+ mesa-vulkan-drivers:arm64 depends on libelf1 (>= 0.142).
+ mesa-vdpau-drivers:arm64 depends on libelf1 (>= 0.142).
+ libgl1-mesa-dri:arm64 depends on libelf1 (>= 0.142).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27206 files and directories currently installed.)
+Removing libelf1:arm64 (0.188-2.1deepin1) ...
+Selecting previously unselected package libelf1t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27193 files and directories currently installed.)
+Preparing to unpack .../libelf1t64_0.190-1.1ubuntu0.1_arm64.deb ...
+Unpacking libelf1t64:arm64 (0.190-1.1ubuntu0.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27198 files and directories currently installed.)
+Removing libjpeg-turbo-progs (1:2.1.5-2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27176 files and directories currently installed.)
+Preparing to unpack .../libcairo-gobject2_1.18.0-3build1_arm64.deb ...
+Unpacking libcairo-gobject2:arm64 (1.18.0-3build1) over (1.18.0-1) ...
+Preparing to unpack .../libcairo2_1.18.0-3build1_arm64.deb ...
+Unpacking libcairo2:arm64 (1.18.0-3build1) over (1.18.0-1) ...
+dpkg: libpng16-16:arm64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:arm64 depends on libpng16-16 (>= 1.6.2).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27176 files and directories currently installed.)
+Removing libpng16-16:arm64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27165 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_arm64.deb ...
+Unpacking libpng16-16t64:arm64 (1.6.43-5build1) ...
+Preparing to unpack .../readline-common_8.2-4build1_all.deb ...
+Unpacking readline-common (8.2-4build1) over (8.2-3) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27175 files and directories currently installed.)
+Removing libturbojpeg0:arm64 (1:2.1.5-2) ...
+Selecting previously unselected package libdebuginfod-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27168 files and directories currently installed.)
+Preparing to unpack .../00-libdebuginfod-common_0.190-1.1ubuntu0.1_all.deb ...
+Unpacking libdebuginfod-common (0.190-1.1ubuntu0.1) ...
+Preparing to unpack .../01-libx11-6_2%3a1.8.7-1build1_arm64.deb ...
+Unpacking libx11-6:arm64 (2:1.8.7-1build1) over (2:1.8.7-1) ...
+Preparing to unpack .../02-libx11-xcb1_2%3a1.8.7-1build1_arm64.deb ...
+Unpacking libx11-xcb1:arm64 (2:1.8.7-1build1) over (2:1.8.7-1) ...
+Preparing to unpack .../03-libxau6_1%3a1.0.9-1build6_arm64.deb ...
+Unpacking libxau6:arm64 (1:1.0.9-1build6) over (1:1.0.9-1) ...
+Preparing to unpack .../04-libxdmcp6_1%3a1.1.3-0ubuntu6_arm64.deb ...
+Unpacking libxdmcp6:arm64 (1:1.1.3-0ubuntu6) over (1:1.1.2-3) ...
+Preparing to unpack .../05-libxcb1_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb1:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Preparing to unpack .../06-libx11-data_2%3a1.8.7-1build1_all.deb ...
+Unpacking libx11-data (2:1.8.7-1build1) over (2:1.8.7-1) ...
+Selecting previously unselected package publicsuffix.
+Preparing to unpack .../07-publicsuffix_20231001.0357-0.1_all.deb ...
+Unpacking publicsuffix (20231001.0357-0.1) ...
+Preparing to unpack .../08-fontconfig-config_2.15.0-1.1ubuntu2_arm64.deb ...
+Unpacking fontconfig-config (2.15.0-1.1ubuntu2) over (2.14.2-6) ...
+Preparing to unpack .../09-libfontconfig1_2.15.0-1.1ubuntu2_arm64.deb ...
+Unpacking libfontconfig1:arm64 (2.15.0-1.1ubuntu2) over (2.14.2-6) ...
+Preparing to unpack .../10-fontconfig_2.15.0-1.1ubuntu2_arm64.deb ...
+Unpacking fontconfig (2.15.0-1.1ubuntu2) over (2.14.2-6) ...
+Selecting previously unselected package fp-units-rtl-3.2.2:arm64.
+Preparing to unpack .../11-fp-units-rtl-3.2.2_3.2.2+dfsg-32_arm64.deb ...
+Unpacking fp-units-rtl-3.2.2:arm64 (3.2.2+dfsg-32) ...
+Selecting previously unselected package fp-compiler-3.2.2:arm64.
+Preparing to unpack .../12-fp-compiler-3.2.2_3.2.2+dfsg-32_arm64.deb ...
+Unpacking fp-compiler-3.2.2:arm64 (3.2.2+dfsg-32) ...
+Selecting previously unselected package fp-compiler:arm64.
+Preparing to unpack .../13-fp-compiler_3.2.2+dfsg-32_arm64.deb ...
+Unpacking fp-compiler:arm64 (3.2.2+dfsg-32) ...
+Selecting previously unselected package fpc-source-3.2.2.
+Preparing to unpack .../14-fpc-source-3.2.2_3.2.2+dfsg-32_all.deb ...
+Unpacking fpc-source-3.2.2 (3.2.2+dfsg-32) ...
+Selecting previously unselected package fp-utils-3.2.2.
+Preparing to unpack .../15-fp-utils-3.2.2_3.2.2+dfsg-32_arm64.deb ...
+Unpacking fp-utils-3.2.2 (3.2.2+dfsg-32) ...
+Selecting previously unselected package libbabeltrace1:arm64.
+Preparing to unpack .../16-libbabeltrace1_1.5.11-3build3_arm64.deb ...
+Unpacking libbabeltrace1:arm64 (1.5.11-3build3) ...
+Selecting previously unselected package libcurl3t64-gnutls:arm64.
+Preparing to unpack .../17-libcurl3t64-gnutls_8.5.0-2ubuntu10.6_arm64.deb ...
+Unpacking libcurl3t64-gnutls:arm64 (8.5.0-2ubuntu10.6) ...
+Selecting previously unselected package libdebuginfod1t64:arm64.
+Preparing to unpack .../18-libdebuginfod1t64_0.190-1.1ubuntu0.1_arm64.deb ...
+Unpacking libdebuginfod1t64:arm64 (0.190-1.1ubuntu0.1) ...
+Selecting previously unselected package libpython3.12t64:arm64.
+Preparing to unpack .../19-libpython3.12t64_3.12.3-1ubuntu0.5_arm64.deb ...
+Unpacking libpython3.12t64:arm64 (3.12.3-1ubuntu0.5) ...
+Selecting previously unselected package libsource-highlight-common.
+Preparing to unpack .../20-libsource-highlight-common_3.1.9-4.3build1_all.deb ...
+Unpacking libsource-highlight-common (3.1.9-4.3build1) ...
+Selecting previously unselected package libsource-highlight4t64:arm64.
+Preparing to unpack .../21-libsource-highlight4t64_3.1.9-4.3build1_arm64.deb ...
+Unpacking libsource-highlight4t64:arm64 (3.1.9-4.3build1) ...
+Selecting previously unselected package gdb.
+Preparing to unpack .../22-gdb_15.0.50.20240403-0ubuntu1_arm64.deb ...
+Unpacking gdb (15.0.50.20240403-0ubuntu1) ...
+Preparing to unpack .../23-libxcb-render0_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb-render0:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Preparing to unpack .../24-libxcb-shm0_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb-shm0:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Selecting previously unselected package libgtk2.0-0t64:arm64.
+Preparing to unpack .../25-libgtk2.0-0t64_2.24.33-4ubuntu1.1_arm64.deb ...
+libgtk2.0-0t64.preinst: Removing /var/lib/dpkg/info/libgtk2.0-0:arm64.postrm to avoid loss of /usr/lib/aarch64-linux-gnu/gtk-2.0/2.10.0/immodules.cache...
+removed '/var/lib/dpkg/info/libgtk2.0-0:arm64.postrm'
+Unpacking libgtk2.0-0t64:arm64 (2.24.33-4ubuntu1.1) ...
+Replacing files in old package libgtk2.0-0:arm64 (2.24.33-4+deepin) ...
+Selecting previously unselected package lazarus-ide-3.0.
+Preparing to unpack .../26-lazarus-ide-3.0_3.0+dfsg1-8build3_arm64.deb ...
+Unpacking lazarus-ide-3.0 (3.0+dfsg1-8build3) ...
+Selecting previously unselected package libgail18t64:arm64.
+Preparing to unpack .../27-libgail18t64_2.24.33-4ubuntu1.1_arm64.deb ...
+Unpacking libgail18t64:arm64 (2.24.33-4ubuntu1.1) ...
+Selecting previously unselected package libgail-common:arm64.
+Preparing to unpack .../28-libgail-common_2.24.33-4ubuntu1.1_arm64.deb ...
+Unpacking libgail-common:arm64 (2.24.33-4ubuntu1.1) ...
+Selecting previously unselected package libgtk2.0-bin.
+Preparing to unpack .../29-libgtk2.0-bin_2.24.33-4ubuntu1.1_arm64.deb ...
+Unpacking libgtk2.0-bin (2.24.33-4ubuntu1.1) ...
+Selecting previously unselected package libldap-common.
+Preparing to unpack .../30-libldap-common_2.6.7+dfsg-1~exp1ubuntu8.2_all.deb ...
+Unpacking libldap-common (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+Preparing to unpack .../31-librsvg2-2_2.58.0+dfsg-1build1_arm64.deb ...
+Unpacking librsvg2-2:arm64 (2.58.0+dfsg-1build1) over (2.54.7+dfsg-2deepin1) ...
+Selecting previously unselected package librsvg2-common:arm64.
+Preparing to unpack .../32-librsvg2-common_2.58.0+dfsg-1build1_arm64.deb ...
+Unpacking librsvg2-common:arm64 (2.58.0+dfsg-1build1) ...
+Preparing to unpack .../33-libxcb-composite0_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb-composite0:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Preparing to unpack .../34-libxcb-damage0_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb-damage0:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Preparing to unpack .../35-libxcb-dri2-0_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb-dri2-0:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Preparing to unpack .../36-libxcb-dri3-0_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb-dri3-0:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Preparing to unpack .../37-libxcb-glx0_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb-glx0:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Preparing to unpack .../38-libxcb-present0_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb-present0:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Preparing to unpack .../39-libxcb-randr0_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb-randr0:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Preparing to unpack .../40-libxcb-record0_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb-record0:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Preparing to unpack .../41-libxcb-res0_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb-res0:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Preparing to unpack .../42-libxcb-shape0_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb-shape0:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Preparing to unpack .../43-libxcb-sync1_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb-sync1:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Preparing to unpack .../44-libxcb-xfixes0_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb-xfixes0:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Preparing to unpack .../45-libxcb-xinerama0_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb-xinerama0:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Preparing to unpack .../46-libxcb-xinput0_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb-xinput0:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Preparing to unpack .../47-libxcb-xkb1_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb-xkb1:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Preparing to unpack .../48-libxcb-xtest0_1.15-1ubuntu2_arm64.deb ...
+Unpacking libxcb-xtest0:arm64 (1.15-1ubuntu2) over (1.15-1) ...
+Preparing to unpack .../49-libxpm4_1%3a3.5.17-1build2_arm64.deb ...
+Unpacking libxpm4:arm64 (1:3.5.17-1build2) over (1:3.5.12-1) ...
+Selecting previously unselected package libc6-dbg:arm64.
+Preparing to unpack .../50-libc6-dbg_2.39-0ubuntu8.4_arm64.deb ...
+Unpacking libc6-dbg:arm64 (2.39-0ubuntu8.4) ...
+Preparing to unpack .../51-libopengl0_1.7.0-1build1_arm64.deb ...
+Unpacking libopengl0:arm64 (1.7.0-1build1) over (1.7.0-1) ...
+Preparing to unpack .../52-libgl1_1.7.0-1build1_arm64.deb ...
+Unpacking libgl1:arm64 (1.7.0-1build1) over (1.7.0-1) ...
+Preparing to unpack .../53-libglx0_1.7.0-1build1_arm64.deb ...
+Unpacking libglx0:arm64 (1.7.0-1build1) over (1.7.0-1) ...
+Preparing to unpack .../54-libgles2_1.7.0-1build1_arm64.deb ...
+Unpacking libgles2:arm64 (1.7.0-1build1) over (1.7.0-1) ...
+Preparing to unpack .../55-libegl1_1.7.0-1build1_arm64.deb ...
+Unpacking libegl1:arm64 (1.7.0-1build1) over (1.7.0-1) ...
+Preparing to unpack .../56-libglvnd0_1.7.0-1build1_arm64.deb ...
+Unpacking libglvnd0:arm64 (1.7.0-1build1) over (1.7.0-1) ...
+Preparing to unpack .../57-p11-kit_0.25.3-4ubuntu2.1_arm64.deb ...
+Unpacking p11-kit (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Setting up libexpat1:arm64 (2.6.1-2ubuntu0.2) ...
+Setting up fpc-source-3.2.2 (3.2.2+dfsg-32) ...
+Setting up libxau6:arm64 (1:1.0.9-1build6) ...
+Setting up libxdmcp6:arm64 (1:1.1.3-0ubuntu6) ...
+Setting up libxcb1:arm64 (1.15-1ubuntu2) ...
+Setting up libxcb-xfixes0:arm64 (1.15-1ubuntu2) ...
+Setting up fp-units-rtl-3.2.2:arm64 (3.2.2+dfsg-32) ...
+Setting up libxcb-xinput0:arm64 (1.15-1ubuntu2) ...
+Setting up cups-server-common (2.4.7-1.2ubuntu7.3) ...
+Setting up libdebuginfod-common (0.190-1.1ubuntu0.1) ...
+
+Configuration file '/etc/debuginfod/elfutils.urls', does not exist on system.
+Installing new config file as you requested.
+Setting up fp-compiler-3.2.2:arm64 (3.2.2+dfsg-32) ...
+Could not find libgcc
+update-alternatives: using /usr/bin/aarch64-linux-gnu-fpc-3.2.2 to provide /usr/bin/fpc (fpc) in auto mode
+update-alternatives: using /etc/fpc-3.2.2.cfg to provide /etc/fpc.cfg (fpc.cfg) in auto mode
+update-alternatives: using /usr/bin/fpc to provide /usr/bin/pc (pc) in auto mode
+Setting up libxcb-render0:arm64 (1.15-1ubuntu2) ...
+Setting up libssl3t64:arm64 (3.0.13-0ubuntu3.5) ...
+Setting up fontconfig-config (2.15.0-1.1ubuntu2) ...
+Setting up libglvnd0:arm64 (1.7.0-1build1) ...
+Setting up cups-common (2.4.7-1.2ubuntu7.3) ...
+Setting up libxcb-glx0:arm64 (1.15-1ubuntu2) ...
+Setting up libxcb-shape0:arm64 (1.15-1ubuntu2) ...
+Setting up libpython3.12-minimal:arm64 (3.12.3-1ubuntu0.5) ...
+Setting up fp-utils-3.2.2 (3.2.2+dfsg-32) ...
+update-alternatives: using /usr/lib/aarch64-linux-gnu/fpc/3.2.2 to provide /usr/lib/aarch64-linux-gnu/fpc/default (fp-utils) in auto mode
+Setting up fp-compiler:arm64 (3.2.2+dfsg-32) ...
+Setting up libxcb-shm0:arm64 (1.15-1ubuntu2) ...
+Setting up libsoup-3.0-common (3.4.4-5ubuntu0.1) ...
+Setting up locales (2.39-0ubuntu8.4) ...
+Installing new version of config file /etc/locale.alias ...
+Generating locales (this might take a while)...
+Generation complete.
+Setting up libldap-common (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+
+Configuration file '/etc/ldap/ldap.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up libsource-highlight-common (3.1.9-4.3build1) ...
+Setting up libopengl0:arm64 (1.7.0-1build1) ...
+Setting up libelf1t64:arm64 (0.190-1.1ubuntu0.1) ...
+Setting up libc6-dbg:arm64 (2.39-0ubuntu8.4) ...
+Setting up libxcb-xkb1:arm64 (1.15-1ubuntu2) ...
+Setting up libdw1t64:arm64 (0.190-1.1ubuntu0.1) ...
+Setting up libxcb-present0:arm64 (1.15-1ubuntu2) ...
+Setting up libnettle8t64:arm64 (3.9.1-2.2build1.1) ...
+Setting up libglib2.0-0t64:arm64 (2.80.0-6ubuntu3.2) ...
+Setting up libxcb-xinerama0:arm64 (1.15-1ubuntu2) ...
+Setting up libgles2:arm64 (1.7.0-1build1) ...
+Setting up libx11-data (2:1.8.7-1build1) ...
+Setting up libxcb-sync1:arm64 (1.15-1ubuntu2) ...
+Setting up libp11-kit0:arm64 (0.25.3-4ubuntu2.1) ...
+Setting up libunistring5:arm64 (1.1-2build1.1) ...
+Setting up libpng16-16t64:arm64 (1.6.43-5build1) ...
+Setting up libxcb-xtest0:arm64 (1.15-1ubuntu2) ...
+Setting up libbabeltrace1:arm64 (1.5.11-3build3) ...
+Setting up libssh-4:arm64 (0.10.6-2build2) ...
+Setting up libxcb-dri2-0:arm64 (1.15-1ubuntu2) ...
+Setting up libxcb-composite0:arm64 (1.15-1ubuntu2) ...
+Setting up libhogweed6t64:arm64 (3.9.1-2.2build1.1) ...
+Setting up at-spi2-common (2.52.0-1build1) ...
+Setting up libxcb-randr0:arm64 (1.15-1ubuntu2) ...
+Setting up libegl1:arm64 (1.7.0-1build1) ...
+Setting up libx11-6:arm64 (2:1.8.7-1build1) ...
+Setting up libjson-glib-1.0-common (1.8.0-2build2) ...
+Setting up libfontconfig1:arm64 (2.15.0-1.1ubuntu2) ...
+Setting up libc-dev-bin (2.39-0ubuntu8.4) ...
+Setting up readline-common (8.2-4build1) ...
+Setting up publicsuffix (20231001.0357-0.1) ...
+Setting up libxcb-damage0:arm64 (1.15-1ubuntu2) ...
+Setting up libxcb-record0:arm64 (1.15-1ubuntu2) ...
+Setting up libgnutls30t64:arm64 (3.8.3-1.1ubuntu3.3) ...
+
+Configuration file '/etc/gnutls/config', does not exist on system.
+Installing new config file as you requested.
+Setting up libxcb-dri3-0:arm64 (1.15-1ubuntu2) ...
+Setting up python3.12-minimal (3.12.3-1ubuntu0.5) ...
+Setting up libx11-xcb1:arm64 (2:1.8.7-1build1) ...
+Setting up libxcb-res0:arm64 (1.15-1ubuntu2) ...
+Setting up fontconfig (2.15.0-1.1ubuntu2) ...
+Regenerating fonts cache... done.
+Setting up libatk1.0-0t64:arm64 (2.52.0-1build1) ...
+Setting up libxpm4:arm64 (1:3.5.17-1build2) ...
+Setting up libglx0:arm64 (1.7.0-1build1) ...
+Setting up libpsl5t64:arm64 (0.21.2-1.1build1) ...
+Setting up libsource-highlight4t64:arm64 (3.1.9-4.3build1) ...
+Setting up libcairo2:arm64 (1.18.0-3build1) ...
+Setting up libjson-glib-1.0-0:arm64 (1.8.0-2build2) ...
+Setting up p11-kit-modules:arm64 (0.25.3-4ubuntu2.1) ...
+Setting up libgl1:arm64 (1.7.0-1build1) ...
+Setting up libgnutls-dane0t64:arm64 (3.8.3-1.1ubuntu3.3) ...
+Setting up libreadline8t64:arm64 (8.2-4build1) ...
+Setting up libc6-dev:arm64 (2.39-0ubuntu8.4) ...
+Setting up libcairo-gobject2:arm64 (1.18.0-3build1) ...
+Setting up p11-kit (0.25.3-4ubuntu2.1) ...
+Setting up libcups2t64:arm64 (2.4.7-1.2ubuntu7.3) ...
+Setting up libldap2:arm64 (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+Setting up cups-ipp-utils (2.4.7-1.2ubuntu7.3) ...
+Setting up gnutls-bin (3.8.3-1.1ubuntu3.3) ...
+Setting up cups-ppdc (2.4.7-1.2ubuntu7.3) ...
+Setting up libpython3.12-stdlib:arm64 (3.12.3-1ubuntu0.5) ...
+Setting up libcurl4t64:arm64 (8.5.0-2ubuntu10.6) ...
+Setting up python3.12 (3.12.3-1ubuntu0.5) ...
+Setting up libsoup-3.0-0:arm64 (3.4.4-5ubuntu0.1) ...
+Setting up libcurl3t64-gnutls:arm64 (8.5.0-2ubuntu10.6) ...
+Setting up cups-client (2.4.7-1.2ubuntu7.3) ...
+Setting up librsvg2-2:arm64 (2.58.0+dfsg-1build1) ...
+Setting up libpython3.12t64:arm64 (3.12.3-1ubuntu0.5) ...
+Setting up libgtk2.0-0t64:arm64 (2.24.33-4ubuntu1.1) ...
+Setting up librsvg2-common:arm64 (2.58.0+dfsg-1build1) ...
+Setting up lazarus-ide-3.0 (3.0+dfsg1-8build3) ...
+update-alternatives: using /usr/lib/lazarus/3.0/startlazarus to provide /usr/bin/lazarus-ide (lazarus-ide) in auto mode
+Setting up libgail18t64:arm64 (2.24.33-4ubuntu1.1) ...
+Setting up libsnapd-glib-2-1:arm64 (1.64-0ubuntu5) ...
+Setting up libgtk2.0-bin (2.24.33-4ubuntu1.1) ...
+Setting up curl (8.5.0-2ubuntu10.6) ...
+Setting up libdebuginfod1t64:arm64 (0.190-1.1ubuntu0.1) ...
+Setting up libgail-common:arm64 (2.24.33-4ubuntu1.1) ...
+Setting up cups-bsd (2.4.7-1.2ubuntu7.3) ...
+Setting up gdb (15.0.50.20240403-0ubuntu1) ...
+
+Configuration file '/etc/gdb/gdbinit', does not exist on system.
+Installing new config file as you requested.
+Setting up cups-daemon (2.4.7-1.2ubuntu7.3) ...
+Installing new version of config file /etc/apparmor.d/usr.sbin.cupsd ...
+Installing new version of config file /etc/cups/cups-files.conf ...
+Can't exec "systemctl": No such file or directory at /usr/sbin/update-rc.d line 98.
+/usr/sbin/invoke-rc.d: 290: systemctl: not found
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: WARNING: No init system and policy-rc.d missing! Defaulting to block.
+/var/lib/dpkg/info/cups-daemon.postinst: 128: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+cups.path is a disabled or a static unit not running, not starting it.
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+cups.service is a disabled or a static unit not running, not starting it.
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+cups.socket is a disabled or a static unit not running, not starting it.
+Setting up cups-core-drivers (2.4.7-1.2ubuntu7.3) ...
+Setting up cups (2.4.7-1.2ubuntu7.3) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+Processing triggers for libgdk-pixbuf-2.0-0:arm64 (2.42.10+dfsg-3) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libgtk2.0-0:arm64 (2.24.33-4+deepin) ...
