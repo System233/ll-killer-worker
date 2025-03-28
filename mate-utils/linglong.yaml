@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: mate-utils.linyaps
+  name: mate-utils
+  version: 1.26.1.1
+  kind: app
+  description: |-
+    MATE desktop utilities
+    This package contains all the tools bundled as MATE utilities:
+    - mate-disk-usage-analyzer, a disk usage analyser
+    - mate-dictionary, a program which can look up the definition of words
+    over the internet (including a panel applet to do the same)
+    - mate-search-tool, with which one can find files by name or content
+    - mate-system-log, a log viewing application
+    - mate-screenshot, a tool to take desktop screenshots and save them into
+    a file
+command:
+- /opt/apps/mate-utils.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
