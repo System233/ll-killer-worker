@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: indicator-sensors.linyaps
+  name: indicator-sensors
+  version: 1.4.0.1
+  kind: app
+  description: |-
+    Hardware sensors indicator
+    Application indicator to display and monitor the readings
+    from various hardware sensors (temperature, fan speeds, voltages
+    etc) in the desktop panel for GNOME
+command:
+- /opt/apps/indicator-sensors.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
