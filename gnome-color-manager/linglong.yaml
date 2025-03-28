@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gnome-color-manager.linyaps
+  name: gnome-color-manager
+  version: 3.36.0.2
+  kind: app
+  description: |-
+    Color management integration for the GNOME desktop environment
+    GNOME Color Manager is a set of graphical utilities for color
+    management to be used in the GNOME desktop.  With the help of
+    ArgyllCMS, it can create and apply display ICC color profiles.
+command:
+- /opt/apps/gnome-color-manager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
