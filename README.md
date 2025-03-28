@@ -1,12 +1,12 @@
 # amd64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3160|1218|689 |529 | 56.57%| 21.80%|
+|3160|1376|798 |578 | 57.99%| 25.25%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2779|932|590 |342 | 63.30%| 21.23%|
-|deepin-v23|380|285|98 |187 | 34.39%| 25.79%|
+|ubuntu-noble|2779|1090|696 |394 | 63.85%| 25.04%|
+|deepin-v23|380|285|101 |184 | 35.44%| 26.58%|
 |obs-studio|1|1|1 |0 | 100.00%| 100.00%|
 ## 详细结果
 | 包名   | 架构 |仓库| 版本    | 测试结果 | SHA256 |
@@ -995,8 +995,10 @@
 | [giggle](./giggle) | amd64  | ubuntu-noble | 0.7-6build2 | ![screen0-5.jpg](./giggle/tests/screen0-5.jpg) | [SHA256](./giggle/SHA256SUMS) |
 | [gigolo](./gigolo) | amd64  | ubuntu-noble | 0.5.3-1build2 | ![screen0-5.jpg](./gigolo/tests/screen0-5.jpg) | [SHA256](./gigolo/SHA256SUMS) |
 | [gimagereader](./gimagereader) | amd64  | ubuntu-noble | 3.4.2-2build6-20250327 | 失败 | N/A |
+| [gimagereader-qt5](./gimagereader-qt5) | amd64  | ubuntu-noble | 3.4.2-2build6-20250327 | 失败 | N/A |
 | [gimp](./gimp) | amd64  | deepin-v23 | 2.10.38-1deepin2 | ![screen0-5.jpg](./gimp/tests/screen0-5.jpg) | [SHA256](./gimp/SHA256SUMS) |
 | [ginga](./ginga) | amd64  | ubuntu-noble | 5.0.0-1 | ![screen0-5.jpg](./ginga/tests/screen0-5.jpg) | [SHA256](./ginga/SHA256SUMS) |
+| [git-annex](./git-annex) | amd64  | ubuntu-noble | 10.20240129-1build1 | ![screen0-5.jpg](./git-annex/tests/screen0-5.jpg) | [SHA256](./git-annex/SHA256SUMS) |
 | [git-cola](./git-cola) | amd64  | ubuntu-noble | 4.6.1-1 | ![screen0-5.jpg](./git-cola/tests/screen0-5.jpg) ![screen1-5.jpg](./git-cola/tests/screen1-5.jpg) | [SHA256](./git-cola/SHA256SUMS) |
 | [gitg](./gitg) | amd64  | ubuntu-noble | 44-1build2-20250327 | 失败 | N/A |
 | [gitso](./gitso) | amd64  | ubuntu-noble | 0.6.2+svn158+dfsg-4 | ![screen0-5.jpg](./gitso/tests/screen0-5.jpg) | [SHA256](./gitso/SHA256SUMS) |
@@ -1020,6 +1022,8 @@
 | [glueviz](./glueviz) | amd64  | ubuntu-noble | 1.17.1+dfsg-1-20250327 | 失败 | [SHA256](./glueviz/SHA256SUMS) |
 | [gm-assistant](./gm-assistant) | amd64  | ubuntu-noble | 1.2.4-1build3 | ![screen0-5.jpg](./gm-assistant/tests/screen0-5.jpg) | [SHA256](./gm-assistant/SHA256SUMS) |
 | [gmanedit](./gmanedit) | amd64  | ubuntu-noble | 0.4.2-8build3 | ![screen0-5.jpg](./gmanedit/tests/screen0-5.jpg) | [SHA256](./gmanedit/SHA256SUMS) |
+| [gmerlin](./gmerlin) | amd64  | ubuntu-noble | 2.0.0~svn6298~dfsg0-3.1build3 | ![screen0-5.jpg](./gmerlin/tests/screen0-5.jpg) ![screen1-5.jpg](./gmerlin/tests/screen1-5.jpg) ![screen3-5.jpg](./gmerlin/tests/screen3-5.jpg) ![screen4-5.jpg](./gmerlin/tests/screen4-5.jpg) | [SHA256](./gmerlin/SHA256SUMS) |
+| [gmidimonitor](./gmidimonitor) | amd64  | ubuntu-noble | 3.6+dfsg0-4build3-20250327 | 失败 | [SHA256](./gmidimonitor/SHA256SUMS) |
 | [gmpc](./gmpc) | amd64  | ubuntu-noble | 11.8.16-21build1 | ![screen0-5.jpg](./gmpc/tests/screen0-5.jpg) | [SHA256](./gmpc/SHA256SUMS) |
 | [gmrun](./gmrun) | amd64  | ubuntu-noble | 0.9.2-3build3 | ![screen0-5.jpg](./gmrun/tests/screen0-5.jpg) | [SHA256](./gmrun/SHA256SUMS) |
 | [gmsh](./gmsh) | amd64  | ubuntu-noble | 4.12.1+ds1-1.1build2 | ![screen0-5.jpg](./gmsh/tests/screen0-5.jpg) | [SHA256](./gmsh/SHA256SUMS) |
@@ -1107,31 +1111,185 @@
 | [gnome-text-editor](./gnome-text-editor) | amd64  | ubuntu-noble | 46.3-0ubuntu2 | ![screen0-5.jpg](./gnome-text-editor/tests/screen0-5.jpg) | [SHA256](./gnome-text-editor/SHA256SUMS) |
 | [gnome-tour](./gnome-tour) | amd64  | ubuntu-noble | 46.0-2 | ![screen0-5.jpg](./gnome-tour/tests/screen0-5.jpg) | [SHA256](./gnome-tour/SHA256SUMS) |
 | [gnome-tweaks](./gnome-tweaks) | amd64  | ubuntu-noble | 46.0-2-20250327 | 失败 | N/A |
-| [gnugo](./gnugo) | amd64  | ubuntu-noble | 3.8-11 | ![screen0-5.jpg](./gnugo/tests/screen0-5.jpg) | [SHA256](./gnugo/SHA256SUMS) |
-| [goldendict](./goldendict) | amd64  | ubuntu-noble | 1.5.0-1-07be3ef | 失败 | N/A |
-| [gpac](./gpac) | amd64  | ubuntu-noble | 2.2.1+dfsg1-3 | ![screen0-5.jpg](./gpac/tests/screen0-5.jpg) | [SHA256](./gpac/SHA256SUMS) |
-| [gparted](./gparted) | amd64  | deepin-v23 | 1.5.0-1deepin0-07be3ef | 失败 | N/A |
-| [gpicview](./gpicview) | amd64  | deepin-v23 | 0.2.5-deepin1-07be3ef | 失败 | N/A |
+| [gnome-usage](./gnome-usage) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-usage/tests/screen0-5.jpg) | [SHA256](./gnome-usage/SHA256SUMS) |
+| [gnome-user-share](./gnome-user-share) | amd64  | ubuntu-noble | 43.0-1build2-20250327 | 失败 | [SHA256](./gnome-user-share/SHA256SUMS) |
+| [gnome-video-arcade](./gnome-video-arcade) | amd64  | ubuntu-noble | 0.8.8-5build3 | ![screen0-5.jpg](./gnome-video-arcade/tests/screen0-5.jpg) | [SHA256](./gnome-video-arcade/SHA256SUMS) |
+| [gnome-video-trimmer](./gnome-video-trimmer) | amd64  | ubuntu-noble | 0.8.2-2 | ![screen0-5.jpg](./gnome-video-trimmer/tests/screen0-5.jpg) | [SHA256](./gnome-video-trimmer/SHA256SUMS) |
+| [gnome-weather](./gnome-weather) | amd64  | ubuntu-noble | 46.0-1-20250327 | 失败 | N/A |
+| [gnomekiss](./gnomekiss) | amd64  | ubuntu-noble | 2.0-6.1build4 | ![screen0-5.jpg](./gnomekiss/tests/screen0-5.jpg) | [SHA256](./gnomekiss/SHA256SUMS) |
+| [gnomint](./gnomint) | amd64  | ubuntu-noble | 1.3.0-4build2 | ![screen0-5.jpg](./gnomint/tests/screen0-5.jpg) | [SHA256](./gnomint/SHA256SUMS) |
+| [gnote](./gnote) | amd64  | ubuntu-noble | 46.0-1 | ![screen0-5.jpg](./gnote/tests/screen0-5.jpg) | [SHA256](./gnote/SHA256SUMS) |
+| [gnubg](./gnubg) | amd64  | ubuntu-noble | 1.07.001-3build6 | ![screen0-5.jpg](./gnubg/tests/screen0-5.jpg) | [SHA256](./gnubg/SHA256SUMS) |
+| [gnubiff](./gnubiff) | amd64  | ubuntu-noble | 2.2.17-5build3 | ![screen0-5.jpg](./gnubiff/tests/screen0-5.jpg) | [SHA256](./gnubiff/SHA256SUMS) |
+| [gnucash](./gnucash) | amd64  | ubuntu-noble | 5.5-1.2build1-20250327 | 失败 | N/A |
+| [gnudatalanguage](./gnudatalanguage) | amd64  | ubuntu-noble | 1.0.4-1build6 | ![screen0-5.jpg](./gnudatalanguage/tests/screen0-5.jpg) | [SHA256](./gnudatalanguage/SHA256SUMS) |
+| [gnugo](./gnugo) | amd64  | ubuntu-noble | 3.8-11build2 | ![screen0-5.jpg](./gnugo/tests/screen0-5.jpg) | [SHA256](./gnugo/SHA256SUMS) |
+| [gnujump](./gnujump) | amd64  | ubuntu-noble | 1.0.8-3.1 | ![screen0-5.jpg](./gnujump/tests/screen0-5.jpg) | [SHA256](./gnujump/SHA256SUMS) |
+| [gnumail.app](./gnumail.app) | amd64  | ubuntu-noble | 1.4.0-2 | ![screen0-5.jpg](./gnumail.app/tests/screen0-5.jpg) | [SHA256](./gnumail.app/SHA256SUMS) |
+| [gnumed-client](./gnumed-client) | amd64  | ubuntu-noble | 1.8.18+dfsg-2-20250327 | 失败 | N/A |
+| [gnumeric](./gnumeric) | amd64  | ubuntu-noble | 1.12.56-2build5 | ![screen0-5.jpg](./gnumeric/tests/screen0-5.jpg) | [SHA256](./gnumeric/SHA256SUMS) |
+| [gnunet](./gnunet) | amd64  | ubuntu-noble | 0.20.0-4.1build3-20250327 | 失败 | [SHA256](./gnunet/SHA256SUMS) |
+| [gnunet-gtk](./gnunet-gtk) | amd64  | ubuntu-noble | 0.20.0-4 | ![screen0-5.jpg](./gnunet-gtk/tests/screen0-5.jpg) | [SHA256](./gnunet-gtk/SHA256SUMS) |
+| [gnuradio](./gnuradio) | amd64  | ubuntu-noble | 3.10.9.2-1.1ubuntu2-20250327 | 失败 | N/A |
+| [gnurobbo](./gnurobbo) | amd64  | ubuntu-noble | 0.68+dfsg-6 | ![screen0-5.jpg](./gnurobbo/tests/screen0-5.jpg) | [SHA256](./gnurobbo/SHA256SUMS) |
+| [gnuserv](./gnuserv) | amd64  | ubuntu-noble | 3.12.8-12-20250327 | 失败 | [SHA256](./gnuserv/SHA256SUMS) |
+| [gnusim8085](./gnusim8085) | amd64  | ubuntu-noble | 1.4.1-1build3 | ![screen0-5.jpg](./gnusim8085/tests/screen0-5.jpg) | [SHA256](./gnusim8085/SHA256SUMS) |
+| [gnustep-dl2](./gnustep-dl2) | amd64  | ubuntu-noble | 0.12.0-16build2 | ![screen0-5.jpg](./gnustep-dl2/tests/screen0-5.jpg) | [SHA256](./gnustep-dl2/SHA256SUMS) |
+| [gnustep-examples](./gnustep-examples) | amd64  | ubuntu-noble | 1.4.0-3build3 | ![screen0-5.jpg](./gnustep-examples/tests/screen0-5.jpg) ![screen1-5.jpg](./gnustep-examples/tests/screen1-5.jpg) | [SHA256](./gnustep-examples/SHA256SUMS) |
+| [go-for-it](./go-for-it) | amd64  | ubuntu-noble | 1.9.6-4build3 | ![screen0-5.jpg](./go-for-it/tests/screen0-5.jpg) | [SHA256](./go-for-it/SHA256SUMS) |
+| [goattracker](./goattracker) | amd64  | ubuntu-noble | 2.76+ds-3 | ![screen0-5.jpg](./goattracker/tests/screen0-5.jpg) | [SHA256](./goattracker/SHA256SUMS) |
+| [goban-ss](./goban-ss) | amd64  | ubuntu-noble | 1.1-6 | ![screen0-5.jpg](./goban-ss/tests/screen0-5.jpg) ![screen1-5.jpg](./goban-ss/tests/screen1-5.jpg) ![screen2-5.jpg](./goban-ss/tests/screen2-5.jpg) ![screen3-5.jpg](./goban-ss/tests/screen3-5.jpg) ![screen4-5.jpg](./goban-ss/tests/screen4-5.jpg) ![screen5-5.jpg](./goban-ss/tests/screen5-5.jpg) ![screen6-5.jpg](./goban-ss/tests/screen6-5.jpg) ![screen7-5.jpg](./goban-ss/tests/screen7-5.jpg) ![screen8-5.jpg](./goban-ss/tests/screen8-5.jpg) ![screen9-5.jpg](./goban-ss/tests/screen9-5.jpg) ![screen10-5.jpg](./goban-ss/tests/screen10-5.jpg) ![screen11-5.jpg](./goban-ss/tests/screen11-5.jpg) ![screen12-5.jpg](./goban-ss/tests/screen12-5.jpg) ![screen13-5.jpg](./goban-ss/tests/screen13-5.jpg) ![screen14-5.jpg](./goban-ss/tests/screen14-5.jpg) ![screen15-5.jpg](./goban-ss/tests/screen15-5.jpg) ![screen16-5.jpg](./goban-ss/tests/screen16-5.jpg) ![screen17-5.jpg](./goban-ss/tests/screen17-5.jpg) ![screen18-5.jpg](./goban-ss/tests/screen18-5.jpg) ![screen19-5.jpg](./goban-ss/tests/screen19-5.jpg) ![screen20-5.jpg](./goban-ss/tests/screen20-5.jpg) ![screen21-5.jpg](./goban-ss/tests/screen21-5.jpg) ![screen22-5.jpg](./goban-ss/tests/screen22-5.jpg) ![screen23-5.jpg](./goban-ss/tests/screen23-5.jpg) ![screen24-5.jpg](./goban-ss/tests/screen24-5.jpg) ![screen25-5.jpg](./goban-ss/tests/screen25-5.jpg) ![screen26-5.jpg](./goban-ss/tests/screen26-5.jpg) ![screen27-5.jpg](./goban-ss/tests/screen27-5.jpg) ![screen28-5.jpg](./goban-ss/tests/screen28-5.jpg) ![screen29-5.jpg](./goban-ss/tests/screen29-5.jpg) ![screen30-5.jpg](./goban-ss/tests/screen30-5.jpg) ![screen31-5.jpg](./goban-ss/tests/screen31-5.jpg) ![screen32-5.jpg](./goban-ss/tests/screen32-5.jpg) ![screen33-5.jpg](./goban-ss/tests/screen33-5.jpg) ![screen34-5.jpg](./goban-ss/tests/screen34-5.jpg) ![screen35-5.jpg](./goban-ss/tests/screen35-5.jpg) ![screen36-5.jpg](./goban-ss/tests/screen36-5.jpg) ![screen37-5.jpg](./goban-ss/tests/screen37-5.jpg) ![screen38-5.jpg](./goban-ss/tests/screen38-5.jpg) ![screen39-5.jpg](./goban-ss/tests/screen39-5.jpg) ![screen40-5.jpg](./goban-ss/tests/screen40-5.jpg) ![screen41-5.jpg](./goban-ss/tests/screen41-5.jpg) ![screen42-5.jpg](./goban-ss/tests/screen42-5.jpg) ![screen43-5.jpg](./goban-ss/tests/screen43-5.jpg) ![screen44-5.jpg](./goban-ss/tests/screen44-5.jpg) ![screen45-5.jpg](./goban-ss/tests/screen45-5.jpg) ![screen46-5.jpg](./goban-ss/tests/screen46-5.jpg) ![screen47-5.jpg](./goban-ss/tests/screen47-5.jpg) ![screen48-5.jpg](./goban-ss/tests/screen48-5.jpg) ![screen49-5.jpg](./goban-ss/tests/screen49-5.jpg) ![screen50-5.jpg](./goban-ss/tests/screen50-5.jpg) ![screen51-5.jpg](./goban-ss/tests/screen51-5.jpg) ![screen52-5.jpg](./goban-ss/tests/screen52-5.jpg) ![screen53-5.jpg](./goban-ss/tests/screen53-5.jpg) ![screen54-5.jpg](./goban-ss/tests/screen54-5.jpg) ![screen55-5.jpg](./goban-ss/tests/screen55-5.jpg) ![screen56-5.jpg](./goban-ss/tests/screen56-5.jpg) ![screen57-5.jpg](./goban-ss/tests/screen57-5.jpg) ![screen58-5.jpg](./goban-ss/tests/screen58-5.jpg) ![screen59-5.jpg](./goban-ss/tests/screen59-5.jpg) ![screen60-5.jpg](./goban-ss/tests/screen60-5.jpg) ![screen62-5.jpg](./goban-ss/tests/screen62-5.jpg) ![screen63-5.jpg](./goban-ss/tests/screen63-5.jpg) ![screen64-5.jpg](./goban-ss/tests/screen64-5.jpg) ![screen65-5.jpg](./goban-ss/tests/screen65-5.jpg) ![screen66-5.jpg](./goban-ss/tests/screen66-5.jpg) ![screen67-5.jpg](./goban-ss/tests/screen67-5.jpg) ![screen68-5.jpg](./goban-ss/tests/screen68-5.jpg) ![screen69-5.jpg](./goban-ss/tests/screen69-5.jpg) ![screen70-5.jpg](./goban-ss/tests/screen70-5.jpg) ![screen71-5.jpg](./goban-ss/tests/screen71-5.jpg) ![screen72-5.jpg](./goban-ss/tests/screen72-5.jpg) ![screen73-5.jpg](./goban-ss/tests/screen73-5.jpg) ![screen74-5.jpg](./goban-ss/tests/screen74-5.jpg) ![screen75-5.jpg](./goban-ss/tests/screen75-5.jpg) ![screen76-5.jpg](./goban-ss/tests/screen76-5.jpg) ![screen77-5.jpg](./goban-ss/tests/screen77-5.jpg) ![screen78-5.jpg](./goban-ss/tests/screen78-5.jpg) ![screen79-5.jpg](./goban-ss/tests/screen79-5.jpg) ![screen80-5.jpg](./goban-ss/tests/screen80-5.jpg) ![screen81-5.jpg](./goban-ss/tests/screen81-5.jpg) ![screen82-5.jpg](./goban-ss/tests/screen82-5.jpg) ![screen83-5.jpg](./goban-ss/tests/screen83-5.jpg) ![screen84-5.jpg](./goban-ss/tests/screen84-5.jpg) ![screen85-5.jpg](./goban-ss/tests/screen85-5.jpg) ![screen86-5.jpg](./goban-ss/tests/screen86-5.jpg) ![screen87-5.jpg](./goban-ss/tests/screen87-5.jpg) ![screen88-5.jpg](./goban-ss/tests/screen88-5.jpg) ![screen89-5.jpg](./goban-ss/tests/screen89-5.jpg) ![screen90-5.jpg](./goban-ss/tests/screen90-5.jpg) ![screen91-5.jpg](./goban-ss/tests/screen91-5.jpg) ![screen92-5.jpg](./goban-ss/tests/screen92-5.jpg) ![screen93-5.jpg](./goban-ss/tests/screen93-5.jpg) ![screen94-5.jpg](./goban-ss/tests/screen94-5.jpg) ![screen95-5.jpg](./goban-ss/tests/screen95-5.jpg) ![screen97-5.jpg](./goban-ss/tests/screen97-5.jpg) ![screen98-5.jpg](./goban-ss/tests/screen98-5.jpg) ![screen99-5.jpg](./goban-ss/tests/screen99-5.jpg) ![screen100-5.jpg](./goban-ss/tests/screen100-5.jpg) ![screen101-5.jpg](./goban-ss/tests/screen101-5.jpg) ![screen102-5.jpg](./goban-ss/tests/screen102-5.jpg) ![screen103-5.jpg](./goban-ss/tests/screen103-5.jpg) ![screen104-5.jpg](./goban-ss/tests/screen104-5.jpg) ![screen105-5.jpg](./goban-ss/tests/screen105-5.jpg) ![screen106-5.jpg](./goban-ss/tests/screen106-5.jpg) ![screen107-5.jpg](./goban-ss/tests/screen107-5.jpg) ![screen108-5.jpg](./goban-ss/tests/screen108-5.jpg) ![screen109-5.jpg](./goban-ss/tests/screen109-5.jpg) ![screen110-5.jpg](./goban-ss/tests/screen110-5.jpg) ![screen111-5.jpg](./goban-ss/tests/screen111-5.jpg) ![screen112-5.jpg](./goban-ss/tests/screen112-5.jpg) ![screen113-5.jpg](./goban-ss/tests/screen113-5.jpg) ![screen114-5.jpg](./goban-ss/tests/screen114-5.jpg) ![screen115-5.jpg](./goban-ss/tests/screen115-5.jpg) ![screen116-5.jpg](./goban-ss/tests/screen116-5.jpg) ![screen117-5.jpg](./goban-ss/tests/screen117-5.jpg) ![screen118-5.jpg](./goban-ss/tests/screen118-5.jpg) ![screen119-5.jpg](./goban-ss/tests/screen119-5.jpg) ![screen120-5.jpg](./goban-ss/tests/screen120-5.jpg) ![screen121-5.jpg](./goban-ss/tests/screen121-5.jpg) ![screen122-5.jpg](./goban-ss/tests/screen122-5.jpg) ![screen123-5.jpg](./goban-ss/tests/screen123-5.jpg) ![screen124-5.jpg](./goban-ss/tests/screen124-5.jpg) ![screen125-5.jpg](./goban-ss/tests/screen125-5.jpg) ![screen126-5.jpg](./goban-ss/tests/screen126-5.jpg) ![screen127-5.jpg](./goban-ss/tests/screen127-5.jpg) ![screen128-5.jpg](./goban-ss/tests/screen128-5.jpg) ![screen129-5.jpg](./goban-ss/tests/screen129-5.jpg) ![screen130-5.jpg](./goban-ss/tests/screen130-5.jpg) ![screen131-5.jpg](./goban-ss/tests/screen131-5.jpg) ![screen132-5.jpg](./goban-ss/tests/screen132-5.jpg) ![screen133-5.jpg](./goban-ss/tests/screen133-5.jpg) ![screen134-5.jpg](./goban-ss/tests/screen134-5.jpg) ![screen135-5.jpg](./goban-ss/tests/screen135-5.jpg) ![screen136-5.jpg](./goban-ss/tests/screen136-5.jpg) ![screen137-5.jpg](./goban-ss/tests/screen137-5.jpg) ![screen138-5.jpg](./goban-ss/tests/screen138-5.jpg) ![screen139-5.jpg](./goban-ss/tests/screen139-5.jpg) ![screen140-5.jpg](./goban-ss/tests/screen140-5.jpg) ![screen141-5.jpg](./goban-ss/tests/screen141-5.jpg) ![screen142-5.jpg](./goban-ss/tests/screen142-5.jpg) ![screen143-5.jpg](./goban-ss/tests/screen143-5.jpg) ![screen144-5.jpg](./goban-ss/tests/screen144-5.jpg) ![screen145-5.jpg](./goban-ss/tests/screen145-5.jpg) ![screen146-5.jpg](./goban-ss/tests/screen146-5.jpg) ![screen147-5.jpg](./goban-ss/tests/screen147-5.jpg) ![screen148-5.jpg](./goban-ss/tests/screen148-5.jpg) ![screen149-5.jpg](./goban-ss/tests/screen149-5.jpg) ![screen150-5.jpg](./goban-ss/tests/screen150-5.jpg) ![screen151-5.jpg](./goban-ss/tests/screen151-5.jpg) ![screen152-5.jpg](./goban-ss/tests/screen152-5.jpg) ![screen153-5.jpg](./goban-ss/tests/screen153-5.jpg) ![screen154-5.jpg](./goban-ss/tests/screen154-5.jpg) ![screen155-5.jpg](./goban-ss/tests/screen155-5.jpg) ![screen156-5.jpg](./goban-ss/tests/screen156-5.jpg) ![screen157-5.jpg](./goban-ss/tests/screen157-5.jpg) ![screen158-5.jpg](./goban-ss/tests/screen158-5.jpg) ![screen159-5.jpg](./goban-ss/tests/screen159-5.jpg) ![screen160-5.jpg](./goban-ss/tests/screen160-5.jpg) ![screen161-5.jpg](./goban-ss/tests/screen161-5.jpg) ![screen162-5.jpg](./goban-ss/tests/screen162-5.jpg) ![screen163-5.jpg](./goban-ss/tests/screen163-5.jpg) ![screen164-5.jpg](./goban-ss/tests/screen164-5.jpg) ![screen165-5.jpg](./goban-ss/tests/screen165-5.jpg) ![screen166-5.jpg](./goban-ss/tests/screen166-5.jpg) ![screen167-5.jpg](./goban-ss/tests/screen167-5.jpg) ![screen168-5.jpg](./goban-ss/tests/screen168-5.jpg) ![screen169-5.jpg](./goban-ss/tests/screen169-5.jpg) ![screen170-5.jpg](./goban-ss/tests/screen170-5.jpg) ![screen171-5.jpg](./goban-ss/tests/screen171-5.jpg) ![screen172-5.jpg](./goban-ss/tests/screen172-5.jpg) ![screen173-5.jpg](./goban-ss/tests/screen173-5.jpg) ![screen174-5.jpg](./goban-ss/tests/screen174-5.jpg) ![screen175-5.jpg](./goban-ss/tests/screen175-5.jpg) ![screen176-5.jpg](./goban-ss/tests/screen176-5.jpg) ![screen177-5.jpg](./goban-ss/tests/screen177-5.jpg) ![screen178-5.jpg](./goban-ss/tests/screen178-5.jpg) ![screen179-5.jpg](./goban-ss/tests/screen179-5.jpg) ![screen180-5.jpg](./goban-ss/tests/screen180-5.jpg) ![screen181-5.jpg](./goban-ss/tests/screen181-5.jpg) ![screen182-5.jpg](./goban-ss/tests/screen182-5.jpg) ![screen183-5.jpg](./goban-ss/tests/screen183-5.jpg) ![screen184-5.jpg](./goban-ss/tests/screen184-5.jpg) ![screen185-5.jpg](./goban-ss/tests/screen185-5.jpg) ![screen186-5.jpg](./goban-ss/tests/screen186-5.jpg) ![screen187-5.jpg](./goban-ss/tests/screen187-5.jpg) ![screen188-5.jpg](./goban-ss/tests/screen188-5.jpg) ![screen189-5.jpg](./goban-ss/tests/screen189-5.jpg) ![screen190-5.jpg](./goban-ss/tests/screen190-5.jpg) ![screen191-5.jpg](./goban-ss/tests/screen191-5.jpg) ![screen192-5.jpg](./goban-ss/tests/screen192-5.jpg) ![screen193-5.jpg](./goban-ss/tests/screen193-5.jpg) ![screen194-5.jpg](./goban-ss/tests/screen194-5.jpg) ![screen195-5.jpg](./goban-ss/tests/screen195-5.jpg) ![screen196-5.jpg](./goban-ss/tests/screen196-5.jpg) ![screen197-5.jpg](./goban-ss/tests/screen197-5.jpg) ![screen198-5.jpg](./goban-ss/tests/screen198-5.jpg) ![screen199-5.jpg](./goban-ss/tests/screen199-5.jpg) ![screen200-5.jpg](./goban-ss/tests/screen200-5.jpg) ![screen201-5.jpg](./goban-ss/tests/screen201-5.jpg) ![screen202-5.jpg](./goban-ss/tests/screen202-5.jpg) ![screen203-5.jpg](./goban-ss/tests/screen203-5.jpg) ![screen204-5.jpg](./goban-ss/tests/screen204-5.jpg) ![screen205-5.jpg](./goban-ss/tests/screen205-5.jpg) ![screen206-5.jpg](./goban-ss/tests/screen206-5.jpg) ![screen207-5.jpg](./goban-ss/tests/screen207-5.jpg) ![screen208-5.jpg](./goban-ss/tests/screen208-5.jpg) ![screen209-5.jpg](./goban-ss/tests/screen209-5.jpg) ![screen210-5.jpg](./goban-ss/tests/screen210-5.jpg) ![screen211-5.jpg](./goban-ss/tests/screen211-5.jpg) ![screen212-5.jpg](./goban-ss/tests/screen212-5.jpg) ![screen213-5.jpg](./goban-ss/tests/screen213-5.jpg) ![screen214-5.jpg](./goban-ss/tests/screen214-5.jpg) ![screen215-5.jpg](./goban-ss/tests/screen215-5.jpg) ![screen216-5.jpg](./goban-ss/tests/screen216-5.jpg) ![screen217-5.jpg](./goban-ss/tests/screen217-5.jpg) ![screen218-5.jpg](./goban-ss/tests/screen218-5.jpg) ![screen219-5.jpg](./goban-ss/tests/screen219-5.jpg) ![screen220-5.jpg](./goban-ss/tests/screen220-5.jpg) ![screen221-5.jpg](./goban-ss/tests/screen221-5.jpg) ![screen222-5.jpg](./goban-ss/tests/screen222-5.jpg) ![screen223-5.jpg](./goban-ss/tests/screen223-5.jpg) ![screen224-5.jpg](./goban-ss/tests/screen224-5.jpg) ![screen225-5.jpg](./goban-ss/tests/screen225-5.jpg) ![screen226-5.jpg](./goban-ss/tests/screen226-5.jpg) ![screen227-5.jpg](./goban-ss/tests/screen227-5.jpg) ![screen228-5.jpg](./goban-ss/tests/screen228-5.jpg) ![screen229-5.jpg](./goban-ss/tests/screen229-5.jpg) ![screen230-5.jpg](./goban-ss/tests/screen230-5.jpg) ![screen231-5.jpg](./goban-ss/tests/screen231-5.jpg) ![screen232-5.jpg](./goban-ss/tests/screen232-5.jpg) ![screen233-5.jpg](./goban-ss/tests/screen233-5.jpg) ![screen235-5.jpg](./goban-ss/tests/screen235-5.jpg) ![screen236-5.jpg](./goban-ss/tests/screen236-5.jpg) ![screen237-5.jpg](./goban-ss/tests/screen237-5.jpg) ![screen238-5.jpg](./goban-ss/tests/screen238-5.jpg) ![screen239-5.jpg](./goban-ss/tests/screen239-5.jpg) ![screen240-5.jpg](./goban-ss/tests/screen240-5.jpg) ![screen241-5.jpg](./goban-ss/tests/screen241-5.jpg) ![screen242-5.jpg](./goban-ss/tests/screen242-5.jpg) ![screen243-5.jpg](./goban-ss/tests/screen243-5.jpg) ![screen244-5.jpg](./goban-ss/tests/screen244-5.jpg) ![screen245-5.jpg](./goban-ss/tests/screen245-5.jpg) ![screen246-5.jpg](./goban-ss/tests/screen246-5.jpg) ![screen247-5.jpg](./goban-ss/tests/screen247-5.jpg) ![screen248-5.jpg](./goban-ss/tests/screen248-5.jpg) | [SHA256](./goban-ss/SHA256SUMS) |
+| [gobby](./gobby) | amd64  | ubuntu-noble | 0.6.0-2build2 | ![screen0-5.jpg](./gobby/tests/screen0-5.jpg) | [SHA256](./gobby/SHA256SUMS) |
+| [godot3](./godot3) | amd64  | ubuntu-noble | 3.5.2-stable-2build4 | ![screen0-5.jpg](./godot3/tests/screen0-5.jpg) | [SHA256](./godot3/SHA256SUMS) |
+| [goldencheetah](./goldencheetah) | amd64  | ubuntu-noble | 3.5-2ubuntu2 | ![screen0-5.jpg](./goldencheetah/tests/screen0-5.jpg) | [SHA256](./goldencheetah/SHA256SUMS) |
+| [goldendict](./goldendict) | amd64  | ubuntu-noble | 1.5.0-1build4 | ![screen0-5.jpg](./goldendict/tests/screen0-5.jpg) | [SHA256](./goldendict/SHA256SUMS) |
+| [goldendict-ng](./goldendict-ng) | amd64  | ubuntu-noble | 23.12.26-1build2 | ![screen0-5.jpg](./goldendict-ng/tests/screen0-5.jpg) | [SHA256](./goldendict-ng/SHA256SUMS) |
+| [goldendict-webengine](./goldendict-webengine) | amd64  | ubuntu-noble | 23.10.01-1build3 | ![screen0-5.jpg](./goldendict-webengine/tests/screen0-5.jpg) | [SHA256](./goldendict-webengine/SHA256SUMS) |
+| [golly](./golly) | amd64  | ubuntu-noble | 3.3-1.1build3 | ![screen0-5.jpg](./golly/tests/screen0-5.jpg) | [SHA256](./golly/SHA256SUMS) |
+| [gom](./gom) | amd64  | ubuntu-noble | 0.30.4-1-20250327 | 失败 | [SHA256](./gom/SHA256SUMS) |
+| [gomoku.app](./gomoku.app) | amd64  | ubuntu-noble | 1.2.9-5build1 | ![screen0-5.jpg](./gomoku.app/tests/screen0-5.jpg) | [SHA256](./gomoku.app/SHA256SUMS) |
+| [goobox](./goobox) | amd64  | ubuntu-noble | 3.6.0-11build2 | ![screen0-5.jpg](./goobox/tests/screen0-5.jpg) | [SHA256](./goobox/SHA256SUMS) |
+| [goodvibes](./goodvibes) | amd64  | ubuntu-noble | 0.7.9-1build2 | ![screen0-5.jpg](./goodvibes/tests/screen0-5.jpg) | [SHA256](./goodvibes/SHA256SUMS) |
+| [gopchop](./gopchop) | amd64  | ubuntu-noble | 1.1.8-7build4 | ![screen0-5.jpg](./gopchop/tests/screen0-5.jpg) | [SHA256](./gopchop/SHA256SUMS) |
+| [gorm.app](./gorm.app) | amd64  | ubuntu-noble | 1.3.1-1build1 | ![screen0-5.jpg](./gorm.app/tests/screen0-5.jpg) | [SHA256](./gorm.app/SHA256SUMS) |
+| [gosa-desktop](./gosa-desktop) | amd64  | ubuntu-noble | 2.8~git20230203.10abe45+dfsg-11-20250327 | 失败 | N/A |
+| [gourmand](./gourmand) | amd64  | ubuntu-noble | 1.1.0+really1.1.0~rc3-3-20250327 | 失败 | N/A |
+| [goverlay](./goverlay) | amd64  | ubuntu-noble | 0.9.1-2 | ![screen0-5.jpg](./goverlay/tests/screen0-5.jpg) | [SHA256](./goverlay/SHA256SUMS) |
+| [goxel](./goxel) | amd64  | ubuntu-noble | 0.11.0-1.1build3 | ![screen0-5.jpg](./goxel/tests/screen0-5.jpg) | [SHA256](./goxel/SHA256SUMS) |
+| [gpa](./gpa) | amd64  | ubuntu-noble | 0.10.0-6 | ![screen0-5.jpg](./gpa/tests/screen0-5.jpg) | [SHA256](./gpa/SHA256SUMS) |
+| [gpac](./gpac) | amd64  | ubuntu-noble | 2.2.1+dfsg1-3.1build2 | ![screen0-5.jpg](./gpac/tests/screen0-5.jpg) | [SHA256](./gpac/SHA256SUMS) |
+| [gparted](./gparted) | amd64  | deepin-v23 | 1.5.0-1deepin0-20250327 | 失败 | N/A |
+| [gpaste-2](./gpaste-2) | amd64  | ubuntu-noble | 45-2ubuntu5 | ![screen0-5.jpg](./gpaste-2/tests/screen0-5.jpg) | [SHA256](./gpaste-2/SHA256SUMS) |
+| [gperiodic](./gperiodic) | amd64  | ubuntu-noble | 3.0.3-1build2 | ![screen0-5.jpg](./gperiodic/tests/screen0-5.jpg) | [SHA256](./gperiodic/SHA256SUMS) |
+| [gpick](./gpick) | amd64  | ubuntu-noble | 0.2.6-1ubuntu2 | ![screen0-5.jpg](./gpick/tests/screen0-5.jpg) | [SHA256](./gpick/SHA256SUMS) |
+| [gpicview](./gpicview) | amd64  | deepin-v23 | 0.2.5-deepin1 | ![screen0-5.jpg](./gpicview/tests/screen0-5.jpg) | [SHA256](./gpicview/SHA256SUMS) |
+| [gplanarity](./gplanarity) | amd64  | ubuntu-noble | 17906-7build3 | ![screen0-5.jpg](./gplanarity/tests/screen0-5.jpg) | [SHA256](./gplanarity/SHA256SUMS) |
+| [gpodder](./gpodder) | amd64  | ubuntu-noble | 3.11.3-2ubuntu1-20250327 | 失败 | N/A |
+| [gpredict-doc](./gpredict-doc) | amd64  | ubuntu-noble | 2.3-115-g0f3beb6-3build3-20250327 | 失败 | [SHA256](./gpredict-doc/SHA256SUMS) |
 | [gprename](./gprename) | amd64  | deepin-v23 | 20210415-1 | ![screen0-5.jpg](./gprename/tests/screen0-5.jpg) | [SHA256](./gprename/SHA256SUMS) |
 | [gprompter](./gprompter) | amd64  | deepin-v23 | 0.9.1-2.2-deepin1+rb1 | ![screen0-5.jpg](./gprompter/tests/screen0-5.jpg) | [SHA256](./gprompter/SHA256SUMS) |
-| [gpsd-clients](./gpsd-clients) | amd64  | ubuntu-noble | 3.25-2deepin3-07be3ef | 失败 | N/A |
-| [gpy](./gpy) | amd64  | deepin-v23 | 1.0.2.20210607-07be3ef | 失败 | N/A |
-| [granatier](./granatier) | amd64  | ubuntu-noble | 21.08.0-1-07be3ef | 失败 | N/A |
-| [grandprinter-mfp](./grandprinter-mfp) | amd64  | deepin-v23 | 1.0.0-22041-07be3ef | 失败 | N/A |
-| [granite-demo](./granite-demo) | amd64  | ubuntu-noble | 6.1.2-1-07be3ef | 失败 | N/A |
-| [groovy](./groovy) | amd64  | ubuntu-noble | 2.4.21-1-07be3ef | 失败 | N/A |
-| [grsync](./grsync) | amd64  | ubuntu-noble | 1.3.0-1 | ![screen0-5.jpg](./grsync/tests/screen0-5.jpg) | [SHA256](./grsync/SHA256SUMS) |
-| [grub-customizer](./grub-customizer) | amd64  | deepin-v23 | 5.2.3-1deepin0-07be3ef | 失败 | N/A |
-| [gtk-3-examples](./gtk-3-examples) | amd64  | ubuntu-noble | 3.24.41-1deepin3-07be3ef | 失败 | N/A |
-| [gtk-4-examples](./gtk-4-examples) | amd64  | ubuntu-noble | 4.12.3+ds-1deepin1 | ![screen0-5.jpg](./gtk-4-examples/tests/screen0-5.jpg) ![screen1-5.jpg](./gtk-4-examples/tests/screen1-5.jpg) ![screen2-5.jpg](./gtk-4-examples/tests/screen2-5.jpg) ![screen3-5.jpg](./gtk-4-examples/tests/screen3-5.jpg) ![screen4-5.jpg](./gtk-4-examples/tests/screen4-5.jpg) | N/A |
-| [gtk-vector-screenshot](./gtk-vector-screenshot) | amd64  | ubuntu-noble | 0.3.3-1 | ![screen0-5.jpg](./gtk-vector-screenshot/tests/screen0-5.jpg) | N/A |
+| [gpsbabel-gui](./gpsbabel-gui) | amd64  | ubuntu-noble | 1.9.0+ds-2build3 | ![screen0-5.jpg](./gpsbabel-gui/tests/screen0-5.jpg) | [SHA256](./gpsbabel-gui/SHA256SUMS) |
+| [gpscorrelate-gui](./gpscorrelate-gui) | amd64  | ubuntu-noble | 2.0-4build2 | ![screen0-5.jpg](./gpscorrelate-gui/tests/screen0-5.jpg) | [SHA256](./gpscorrelate-gui/SHA256SUMS) |
+| [gpsd-clients](./gpsd-clients) | amd64  | ubuntu-noble | 3.25-3ubuntu3.1-20250327 | 失败 | N/A |
+| [gpsprune](./gpsprune) | amd64  | ubuntu-noble | 23.2-1 | ![screen0-5.jpg](./gpsprune/tests/screen0-5.jpg) | [SHA256](./gpsprune/SHA256SUMS) |
+| [gpxviewer](./gpxviewer) | amd64  | ubuntu-noble | 1.1.0-5-20250327 | 失败 | N/A |
+| [gpy](./gpy) | amd64  | deepin-v23 | 1.0.2.20210607 | ![screen0-5.jpg](./gpy/tests/screen0-5.jpg) | [SHA256](./gpy/SHA256SUMS) |
+| [gqrx-sdr](./gqrx-sdr) | amd64  | ubuntu-noble | 2.17.4-2build3-20250327 | 失败 | N/A |
+| [grace](./grace) | amd64  | ubuntu-noble | 5.1.25-14 | ![screen0-5.jpg](./grace/tests/screen0-5.jpg) | [SHA256](./grace/SHA256SUMS) |
+| [gradebook](./gradebook) | amd64  | ubuntu-noble | 1.2-0ubuntu3 | ![screen0-5.jpg](./gradebook/tests/screen0-5.jpg) | [SHA256](./gradebook/SHA256SUMS) |
+| [grads](./grads) | amd64  | ubuntu-noble | 2.2.1-6build2 | ![screen0-5.jpg](./grads/tests/screen0-5.jpg) | [SHA256](./grads/SHA256SUMS) |
+| [grafx2](./grafx2) | amd64  | ubuntu-noble | 2.8+ds-3build3 | ![screen0-5.jpg](./grafx2/tests/screen0-5.jpg) | [SHA256](./grafx2/SHA256SUMS) |
+| [graide](./graide) | amd64  | ubuntu-noble | 1.1.0+dfsg-4.1 | ![screen0-5.jpg](./graide/tests/screen0-5.jpg) | [SHA256](./graide/SHA256SUMS) |
+| [gramps](./gramps) | amd64  | ubuntu-noble | 5.1.6+dfsg-1ubuntu1-20250327 | 失败 | N/A |
+| [granatier](./granatier) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./granatier/tests/screen0-5.jpg) | [SHA256](./granatier/SHA256SUMS) |
+| [grandorgue](./grandorgue) | amd64  | ubuntu-noble | 3.13.1-1build2 | ![screen0-5.jpg](./grandorgue/tests/screen0-5.jpg) | [SHA256](./grandorgue/SHA256SUMS) |
+| [grandprinter-mfp](./grandprinter-mfp) | amd64  | deepin-v23 | 1.0.0-22041 | ![screen0-5.jpg](./grandprinter-mfp/tests/screen0-5.jpg) ![screen1-5.jpg](./grandprinter-mfp/tests/screen1-5.jpg) | [SHA256](./grandprinter-mfp/SHA256SUMS) |
+| [granite-7-demo](./granite-7-demo) | amd64  | ubuntu-noble | 7.4.0-1build3-20250327 | 失败 | [SHA256](./granite-7-demo/SHA256SUMS) |
+| [granite-demo](./granite-demo) | amd64  | ubuntu-noble | 6.2.0-3build3-20250327 | 失败 | [SHA256](./granite-demo/SHA256SUMS) |
+| [granule](./granule) | amd64  | ubuntu-noble | 1.4.0-7-10build3 | ![screen0-5.jpg](./granule/tests/screen0-5.jpg) | [SHA256](./granule/SHA256SUMS) |
+| [grass-core](./grass-core) | amd64  | ubuntu-noble | 8.3.2-1ubuntu2-20250327 | 失败 | [SHA256](./grass-core/SHA256SUMS) |
+| [gravitation](./gravitation) | amd64  | ubuntu-noble | 3+dfsg1-6 | ![screen0-5.jpg](./gravitation/tests/screen0-5.jpg) | [SHA256](./gravitation/SHA256SUMS) |
+| [gravitywars](./gravitywars) | amd64  | ubuntu-noble | 1.102-35 | ![screen0-5.jpg](./gravitywars/tests/screen0-5.jpg) | [SHA256](./gravitywars/SHA256SUMS) |
+| [grdesktop](./grdesktop) | amd64  | ubuntu-noble | 0.23+d040330-7build3 | ![screen0-5.jpg](./grdesktop/tests/screen0-5.jpg) | [SHA256](./grdesktop/SHA256SUMS) |
+| [greed](./greed) | amd64  | ubuntu-noble | 4.2-1-20250327 | 失败 | [SHA256](./greed/SHA256SUMS) |
+| [gretl-common](./gretl-common) | amd64  | ubuntu-noble | 2023c-2.1build3-20250327 | 失败 | [SHA256](./gretl-common/SHA256SUMS) |
+| [gridlock.app](./gridlock.app) | amd64  | ubuntu-noble | 1.10-5build4-20250327 | 失败 | [SHA256](./gridlock.app/SHA256SUMS) |
+| [grig](./grig) | amd64  | ubuntu-noble | 0.9.0-1build2 | ![screen0-5.jpg](./grig/tests/screen0-5.jpg) | [SHA256](./grig/SHA256SUMS) |
+| [grimripper](./grimripper) | amd64  | ubuntu-noble | 3.0.2-3build2 | ![screen0-5.jpg](./grimripper/tests/screen0-5.jpg) | [SHA256](./grimripper/SHA256SUMS) |
+| [gringotts](./gringotts) | amd64  | ubuntu-noble | 1.2.10-4build3 | ![screen0-5.jpg](./gringotts/tests/screen0-5.jpg) | [SHA256](./gringotts/SHA256SUMS) |
+| [grisbi](./grisbi) | amd64  | ubuntu-noble | 3.0.3-1build3 | ![screen0-5.jpg](./grisbi/tests/screen0-5.jpg) | [SHA256](./grisbi/SHA256SUMS) |
+| [gromit](./gromit) | amd64  | ubuntu-noble | 20041213-9build3-20250327 | 失败 | [SHA256](./gromit/SHA256SUMS) |
+| [gromit-mpx](./gromit-mpx) | amd64  | ubuntu-noble | 1.5.1-1build2 | ![screen0-5.jpg](./gromit-mpx/tests/screen0-5.jpg) | [SHA256](./gromit-mpx/SHA256SUMS) |
+| [groovy](./groovy) | amd64  | ubuntu-noble | 2.4.21-10-20250327 | 失败 | [SHA256](./groovy/SHA256SUMS) |
+| [grop](./grop) | amd64  | ubuntu-noble | 0.10-1.2build2 | ![screen0-5.jpg](./grop/tests/screen0-5.jpg) | [SHA256](./grop/SHA256SUMS) |
+| [growl-for-linux](./growl-for-linux) | amd64  | ubuntu-noble | 0.8.5-9.1build3-20250327 | 失败 | [SHA256](./growl-for-linux/SHA256SUMS) |
+| [grpn](./grpn) | amd64  | ubuntu-noble | 1.4.1-1.1build3 | ![screen0-5.jpg](./grpn/tests/screen0-5.jpg) | [SHA256](./grpn/SHA256SUMS) |
+| [grr.app](./grr.app) | amd64  | ubuntu-noble | 1.0-1build8-20250327 | 失败 | [SHA256](./grr.app/SHA256SUMS) |
+| [grsync](./grsync) | amd64  | ubuntu-noble | 1.3.0-1build2 | ![screen0-5.jpg](./grsync/tests/screen0-5.jpg) | [SHA256](./grsync/SHA256SUMS) |
+| [grub-customizer](./grub-customizer) | amd64  | deepin-v23 | 5.2.3-1deepin0-20250327 | 失败 | N/A |
+| [gscan2pdf](./gscan2pdf) | amd64  | ubuntu-noble | 2.13.2-1-20250327 | 失败 | N/A |
+| [gsequencer](./gsequencer) | amd64  | ubuntu-noble | 6.5.2-1build3 | ![screen0-5.jpg](./gsequencer/tests/screen0-5.jpg) | [SHA256](./gsequencer/SHA256SUMS) |
+| [gshutdown](./gshutdown) | amd64  | ubuntu-noble | 0.2-0ubuntu14 | ![screen0-5.jpg](./gshutdown/tests/screen0-5.jpg) | [SHA256](./gshutdown/SHA256SUMS) |
+| [gsmartcontrol](./gsmartcontrol) | amd64  | ubuntu-noble | 1.1.4-1build2-20250327 | 失败 | [SHA256](./gsmartcontrol/SHA256SUMS) |
+| [gtamsanalyzer.app](./gtamsanalyzer.app) | amd64  | ubuntu-noble | 0.42-8build1-20250327 | 失败 | [SHA256](./gtamsanalyzer.app/SHA256SUMS) |
+| [gtans](./gtans) | amd64  | ubuntu-noble | 1.99.0-2.1build2 | ![screen0-5.jpg](./gtans/tests/screen0-5.jpg) | [SHA256](./gtans/SHA256SUMS) |
+| [gtetrinet](./gtetrinet) | amd64  | ubuntu-noble | 0.7.11+git20200916.46e7ade-2build4 | ![screen0-5.jpg](./gtetrinet/tests/screen0-5.jpg) | [SHA256](./gtetrinet/SHA256SUMS) |
+| [gtg](./gtg) | amd64  | ubuntu-noble | 0.6-7-20250327 | 失败 | N/A |
+| [gthumb](./gthumb) | amd64  | ubuntu-noble | 3.12.6-1 | ![screen0-5.jpg](./gthumb/tests/screen0-5.jpg) | [SHA256](./gthumb/SHA256SUMS) |
+| [gtimelog](./gtimelog) | amd64  | ubuntu-noble | 0.12.0-1-20250327 | 失败 | N/A |
+| [gtk-3-examples](./gtk-3-examples) | amd64  | ubuntu-noble | 3.24.41-4ubuntu1.2-20250327 | 失败 | [SHA256](./gtk-3-examples/SHA256SUMS) |
+| [gtk-4-examples](./gtk-4-examples) | amd64  | ubuntu-noble | 4.14.2+ds-1ubuntu2 | ![screen0-5.jpg](./gtk-4-examples/tests/screen0-5.jpg) ![screen1-5.jpg](./gtk-4-examples/tests/screen1-5.jpg) ![screen2-5.jpg](./gtk-4-examples/tests/screen2-5.jpg) ![screen4-5.jpg](./gtk-4-examples/tests/screen4-5.jpg) | [SHA256](./gtk-4-examples/SHA256SUMS) |
+| [gtk-chtheme](./gtk-chtheme) | amd64  | ubuntu-noble | 0.3.1-6.1ubuntu1 | ![screen0-5.jpg](./gtk-chtheme/tests/screen0-5.jpg) | [SHA256](./gtk-chtheme/SHA256SUMS) |
+| [gtk-vector-screenshot](./gtk-vector-screenshot) | amd64  | ubuntu-noble | 0.3.3-2build2 | ![screen0-5.jpg](./gtk-vector-screenshot/tests/screen0-5.jpg) | [SHA256](./gtk-vector-screenshot/SHA256SUMS) |
+| [gtkam](./gtkam) | amd64  | ubuntu-noble | 1.0-4build1 | ![screen0-5.jpg](./gtkam/tests/screen0-5.jpg) | [SHA256](./gtkam/SHA256SUMS) |
+| [gtkatlantic](./gtkatlantic) | amd64  | ubuntu-noble | 0.6.3-2build2 | ![screen0-5.jpg](./gtkatlantic/tests/screen0-5.jpg) | [SHA256](./gtkatlantic/SHA256SUMS) |
+| [gtkballs](./gtkballs) | amd64  | ubuntu-noble | 3.1.5+git20210713.6e53b66-1build2 | ![screen0-5.jpg](./gtkballs/tests/screen0-5.jpg) | [SHA256](./gtkballs/SHA256SUMS) |
+| [gtkcrypto](./gtkcrypto) | amd64  | ubuntu-noble | 1.0.2-2build3 | ![screen0-5.jpg](./gtkcrypto/tests/screen0-5.jpg) | [SHA256](./gtkcrypto/SHA256SUMS) |
+| [gtkhash](./gtkhash) | amd64  | ubuntu-noble | 1.5-1build2 | ![screen0-5.jpg](./gtkhash/tests/screen0-5.jpg) | [SHA256](./gtkhash/SHA256SUMS) |
+| [gtkterm](./gtkterm) | amd64  | ubuntu-noble | 1.2.1-1ubuntu1 | ![screen0-5.jpg](./gtkterm/tests/screen0-5.jpg) | [SHA256](./gtkterm/SHA256SUMS) |
+| [gtkwave](./gtkwave) | amd64  | ubuntu-noble | 3.3.116-1build2 | ![screen0-5.jpg](./gtkwave/tests/screen0-5.jpg) | [SHA256](./gtkwave/SHA256SUMS) |
+| [gtranscribe](./gtranscribe) | amd64  | ubuntu-noble | 0.11-3-20250327 | 失败 | N/A |
+| [gtranslator](./gtranslator) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gtranslator/tests/screen0-5.jpg) | [SHA256](./gtranslator/SHA256SUMS) |
+| [guake](./guake) | amd64  | ubuntu-noble | 3.10-2-20250327 | 失败 | N/A |
+| [guake-indicator](./guake-indicator) | amd64  | ubuntu-noble | 1.4.5-2build2-20250327 | 失败 | N/A |
 | [gucharmap](./gucharmap) | amd64  | deepin-v23 | 15.1.5-1 | ![screen0-5.jpg](./gucharmap/tests/screen0-5.jpg) | N/A |
-| [gufw](./gufw) | amd64  | ubuntu-noble | 20.04.1-2-07be3ef | 失败 | N/A |
-| [guvcview](./guvcview) | amd64  | ubuntu-noble | 2.0.8-1+rb2 | ![screen0-5.jpg](./guvcview/tests/screen0-5.jpg) | N/A |
-| [gwaei](./gwaei) | amd64  | ubuntu-noble | 3.6.2-9-07be3ef | 失败 | N/A |
-| [hexchat](./hexchat) | amd64  | ubuntu-noble | 2.16.1-1 | ![screen0-5.jpg](./hexchat/tests/screen0-5.jpg) | N/A |
-| [hoteldruid](./hoteldruid) | amd64  | ubuntu-noble | 3.0.3-1-07be3ef | 失败 | N/A |
-| [hotspot](./hotspot) | amd64  | ubuntu-noble | 1.3.0-2-07be3ef | 失败 | N/A |
+| [gufw](./gufw) | amd64  | ubuntu-noble | 24.04.0-2-20250327 | 失败 | N/A |
+| [guidedog](./guidedog) | amd64  | ubuntu-noble | 1.3.0-1build3 | ![screen0-5.jpg](./guidedog/tests/screen0-5.jpg) | [SHA256](./guidedog/SHA256SUMS) |
+| [guitarix](./guitarix) | amd64  | ubuntu-noble | 0.46.0+dfsg-1 | ![screen0-5.jpg](./guitarix/tests/screen0-5.jpg) | [SHA256](./guitarix/SHA256SUMS) |
+| [gummi](./gummi) | amd64  | ubuntu-noble | 0.8.3+really0.8.3-1build3-20250327 | 失败 | N/A |
+| [gunroar](./gunroar) | amd64  | ubuntu-noble | 0.15.dfsg1-10 | ![screen0-5.jpg](./gunroar/tests/screen0-5.jpg) | [SHA256](./gunroar/SHA256SUMS) |
+| [gupnp-tools](./gupnp-tools) | amd64  | ubuntu-noble | 0.12.1-1build2 | ![screen0-5.jpg](./gupnp-tools/tests/screen0-5.jpg) ![screen1-5.jpg](./gupnp-tools/tests/screen1-5.jpg) ![screen2-5.jpg](./gupnp-tools/tests/screen2-5.jpg) | [SHA256](./gupnp-tools/SHA256SUMS) |
+| [guvcview](./guvcview) | amd64  | ubuntu-noble | 2.0.8-2.1build3 | ![screen0-5.jpg](./guvcview/tests/screen0-5.jpg) | [SHA256](./guvcview/SHA256SUMS) |
+| [guymager](./guymager) | amd64  | ubuntu-noble | 0.8.13-2build2-20250327 | 失败 | [SHA256](./guymager/SHA256SUMS) |
+| [gv](./gv) | amd64  | ubuntu-noble | 3.7.4-2build2-20250327 | 失败 | [SHA256](./gv/SHA256SUMS) |
+| [gvb](./gvb) | amd64  | ubuntu-noble | 1.4-1.1-20250327 | 失败 | N/A |
+| [gvidm](./gvidm) | amd64  | ubuntu-noble | 0.8-15build3-20250327 | 失败 | [SHA256](./gvidm/SHA256SUMS) |
+| [gwaei](./gwaei) | amd64  | ubuntu-noble | 3.6.2-9.2build1-20250327 | 失败 | [SHA256](./gwaei/SHA256SUMS) |
+| [gwakeonlan](./gwakeonlan) | amd64  | ubuntu-noble | 0.8.5-3-20250327 | 失败 | N/A |
+| [gwaterfall](./gwaterfall) | amd64  | ubuntu-noble | 0.1-5.1build3 | ![screen0-5.jpg](./gwaterfall/tests/screen0-5.jpg) | [SHA256](./gwaterfall/SHA256SUMS) |
+| [gweled](./gweled) | amd64  | ubuntu-noble | 1.0~beta1-1 | ![screen0-5.jpg](./gweled/tests/screen0-5.jpg) | [SHA256](./gweled/SHA256SUMS) |
+| [gwenview](./gwenview) | amd64  | ubuntu-noble | 23.08.5-0ubuntu5 | ![screen0-5.jpg](./gwenview/tests/screen0-5.jpg) | [SHA256](./gwenview/SHA256SUMS) |
+| [gworkspace.app](./gworkspace.app) | amd64  | ubuntu-noble | 1.0.0-1build2-20250327 | 失败 | [SHA256](./gworkspace.app/SHA256SUMS) |
+| [gworldclock](./gworldclock) | amd64  | ubuntu-noble | 1.4.4-11build2 | ![screen0-5.jpg](./gworldclock/tests/screen0-5.jpg) | [SHA256](./gworldclock/SHA256SUMS) |
+| [gwyddion](./gwyddion) | amd64  | ubuntu-noble | 2.64-1.1build3 | ![screen0-5.jpg](./gwyddion/tests/screen0-5.jpg) | [SHA256](./gwyddion/SHA256SUMS) |
+| [gxkb](./gxkb) | amd64  | ubuntu-noble | 0.9.3-1build2-20250327 | 失败 | [SHA256](./gxkb/SHA256SUMS) |
+| [gxtuner](./gxtuner) | amd64  | ubuntu-noble | 3.0-3build2-20250327 | 失败 | [SHA256](./gxtuner/SHA256SUMS) |
+| [gyrus](./gyrus) | amd64  | ubuntu-noble | 0.4.2-1.1build2 | ![screen0-5.jpg](./gyrus/tests/screen0-5.jpg) | [SHA256](./gyrus/SHA256SUMS) |
+| [hamexam](./hamexam) | amd64  | ubuntu-noble | 1.10.1-1-20250327 | 失败 | [SHA256](./hamexam/SHA256SUMS) |
+| [hamster-time-tracker](./hamster-time-tracker) | amd64  | ubuntu-noble | 3.0.3-1ubuntu1-20250327 | 失败 | N/A |
+| [handbrake](./handbrake) | amd64  | ubuntu-noble | 1.7.2+ds1-1build2 | ![screen0-5.jpg](./handbrake/tests/screen0-5.jpg) | [SHA256](./handbrake/SHA256SUMS) |
+| [hannah](./hannah) | amd64  | ubuntu-noble | 2.0.1+ds1-0.3-20250327 | 失败 | [SHA256](./hannah/SHA256SUMS) |
+| [hannah-foo2zjs](./hannah-foo2zjs) | amd64  | ubuntu-noble | 6build2 | ![screen0-5.jpg](./hannah-foo2zjs/tests/screen0-5.jpg) | [SHA256](./hannah-foo2zjs/SHA256SUMS) |
+| [hardinfo](./hardinfo) | amd64  | ubuntu-noble | 0.5.1+git20180227-2.1build3 | ![screen0-5.jpg](./hardinfo/tests/screen0-5.jpg) | [SHA256](./hardinfo/SHA256SUMS) |
+| [haruna](./haruna) | amd64  | ubuntu-noble | 0.12.3-1build4 | ![screen0-5.jpg](./haruna/tests/screen0-5.jpg) | [SHA256](./haruna/SHA256SUMS) |
+| [hasciicam](./hasciicam) | amd64  | ubuntu-noble | 1.1.2-1ubuntu3-20250327 | 失败 | [SHA256](./hasciicam/SHA256SUMS) |
+| [hashcheck](./hashcheck) | amd64  | ubuntu-noble | 1.0.0-2build2 | ![screen0-5.jpg](./hashcheck/tests/screen0-5.jpg) | [SHA256](./hashcheck/SHA256SUMS) |
+| [hatari](./hatari) | amd64  | ubuntu-noble | 2.4.1+dfsg-2build2-20250327 | 失败 | N/A |
+| [hdate-applet](./hdate-applet) | amd64  | ubuntu-noble | 0.15.11-4build2 | ![screen0-5.jpg](./hdate-applet/tests/screen0-5.jpg) | [SHA256](./hdate-applet/SHA256SUMS) |
+| [hdf-compass](./hdf-compass) | amd64  | ubuntu-noble | 0.7~b8-3 | ![screen0-5.jpg](./hdf-compass/tests/screen0-5.jpg) | [SHA256](./hdf-compass/SHA256SUMS) |
+| [hdhomerun-config-gui](./hdhomerun-config-gui) | amd64  | ubuntu-noble | 20161117-0ubuntu8 | ![screen0-5.jpg](./hdhomerun-config-gui/tests/screen0-5.jpg) | [SHA256](./hdhomerun-config-gui/SHA256SUMS) |
+| [heaptrack-gui](./heaptrack-gui) | amd64  | ubuntu-noble | 1.5.0+dfsg1-2ubuntu3 | ![screen0-5.jpg](./heaptrack-gui/tests/screen0-5.jpg) | [SHA256](./heaptrack-gui/SHA256SUMS) |
+| [hedgewars](./hedgewars) | amd64  | ubuntu-noble | 1.0.2-9build5 | ![screen0-5.jpg](./hedgewars/tests/screen0-5.jpg) | [SHA256](./hedgewars/SHA256SUMS) |
+| [helpman](./helpman) | amd64  | ubuntu-noble | 2.4-1-20250327 | 失败 | N/A |
+| [helpviewer.app](./helpviewer.app) | amd64  | ubuntu-noble | 0.4-1build1-20250327 | 失败 | [SHA256](./helpviewer.app/SHA256SUMS) |
+| [helvum](./helvum) | amd64  | ubuntu-noble | 0.5.1+20240328-1 | ![screen0-5.jpg](./helvum/tests/screen0-5.jpg) | [SHA256](./helvum/SHA256SUMS) |
+| [herculesstudio](./herculesstudio) | amd64  | ubuntu-noble | 1.5.0-6build2 | ![screen0-5.jpg](./herculesstudio/tests/screen0-5.jpg) | [SHA256](./herculesstudio/SHA256SUMS) |
+| [heroes](./heroes) | amd64  | ubuntu-noble | 0.21-18 | ![screen0-5.jpg](./heroes/tests/screen0-5.jpg) | [SHA256](./heroes/SHA256SUMS) |
+| [hex-a-hop](./hex-a-hop) | amd64  | ubuntu-noble | 1.1.0+git20140926-2-20250327 | 失败 | [SHA256](./hex-a-hop/SHA256SUMS) |
+| [hexalate](./hexalate) | amd64  | ubuntu-noble | 1.2.2-1build2 | ![screen0-5.jpg](./hexalate/tests/screen0-5.jpg) | [SHA256](./hexalate/SHA256SUMS) |
+| [hexchat](./hexchat) | amd64  | ubuntu-noble | 2.16.2-1build2 | ![screen0-5.jpg](./hexchat/tests/screen0-5.jpg) | [SHA256](./hexchat/SHA256SUMS) |
+| [hexter](./hexter) | amd64  | ubuntu-noble | 1.1.1-2build2-20250327 | 失败 | [SHA256](./hexter/SHA256SUMS) |
+| [hijra-applet](./hijra-applet) | amd64  | ubuntu-noble | 1.0-4-20250327 | 失败 | N/A |
+| [hime](./hime) | amd64  | ubuntu-noble | 0.9.11+dfsg-4build6 | ![screen0-5.jpg](./hime/tests/screen0-5.jpg) | [SHA256](./hime/SHA256SUMS) |
+| [hitori](./hitori) | amd64  | ubuntu-noble | 44.0-2build2 | ![screen0-5.jpg](./hitori/tests/screen0-5.jpg) | [SHA256](./hitori/SHA256SUMS) |
+| [hivelytracker](./hivelytracker) | amd64  | ubuntu-noble | 1.9+git20221114+ds-2build2-20250327 | 失败 | [SHA256](./hivelytracker/SHA256SUMS) |
+| [holotz-castle](./holotz-castle) | amd64  | ubuntu-noble | 1.3.14-12 | ![screen0-5.jpg](./holotz-castle/tests/screen0-5.jpg) | [SHA256](./holotz-castle/SHA256SUMS) |
+| [homebank](./homebank) | amd64  | ubuntu-noble | 5.7.4-1build4 | ![screen0-5.jpg](./homebank/tests/screen0-5.jpg) | [SHA256](./homebank/SHA256SUMS) |
+| [horae](./horae) | amd64  | ubuntu-noble | 071~svn537+ds1-1-20250327 | 失败 | [SHA256](./horae/SHA256SUMS) |
+| [horgand](./horgand) | amd64  | ubuntu-noble | 1.14-8build2-20250327 | 失败 | [SHA256](./horgand/SHA256SUMS) |
+| [horizon-eda](./horizon-eda) | amd64  | ubuntu-noble | 2.5.0-1build4 | ![screen0-5.jpg](./horizon-eda/tests/screen0-5.jpg) | [SHA256](./horizon-eda/SHA256SUMS) |
+| [hoteldruid](./hoteldruid) | amd64  | ubuntu-noble | 3.0.6-1-20250327 | 失败 | [SHA256](./hoteldruid/SHA256SUMS) |
+| [hotspot](./hotspot) | amd64  | ubuntu-noble | 1.3.0-2ubuntu4 | ![screen0-5.jpg](./hotspot/tests/screen0-5.jpg) | [SHA256](./hotspot/SHA256SUMS) |
 | [hplip-gui](./hplip-gui) | amd64  | ubuntu-noble | 3.22.10+dfsg0-5deepin2-07be3ef | 失败 | N/A |
 | [hsqldb-utils](./hsqldb-utils) | amd64  | ubuntu-noble | 2.6.1-1-07be3ef | 失败 | N/A |
 | [htmldoc](./htmldoc) | amd64  | ubuntu-noble | 1.9.13-1 | ![screen0-5.jpg](./htmldoc/tests/screen0-5.jpg) | N/A |
