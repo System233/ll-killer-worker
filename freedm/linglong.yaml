@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: freedm.linyaps
+  name: freedm
+  version: 0.13.0.1
+  kind: app
+  description: |-
+    multiplayer deathmatch game for Doom-compatible engines
+    The Freedoom project aims to produce three base-game data files
+    (IWADs) for Doom-compatible engines.  With it comes the
+    capability to also play the wide range of mods created for Doom
+    by a vibrant community.
+
+    FreeDM is a fast-paced set of levels designed for multiplayer
+    deathmatches, part of the Freedoom project.  Challenge your
+    friends to the most torturous test of their abilities as you
+    navigate through 32 levels stalking and hunting them.
+
+    FreeDM is fully compatible with Doom II mods.
+command:
+- /opt/apps/freedm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
