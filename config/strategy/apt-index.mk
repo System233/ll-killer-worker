@@ -8,7 +8,7 @@ SOURCES?=
 TARGET_INDEX=$(INDEX)
 TARGET_APT_DIR=$(CACHE_DIR)/$(CONFIG)
 
-index: $(KILLER)
+$(TARGET_INDEX): $(KILLER)
 	mkdir -p $(TARGET_APT_DIR)
 	cat $(SOURCES) >$(TARGET_APT_DIR)/sources.list
 	set -e;\
@@ -18,5 +18,5 @@ index: $(KILLER)
 	$(KILLER) apt -- "$(PWD)/scripts/generate.sh" "$(CONFIG)"|tee "$(TARGET_INDEX)~";
 	mv "$(TARGET_INDEX)~" "$(TARGET_INDEX)"
 
-.PHONY: build
-.DEFAULT_GOAL := build 
+INDEX_TARGET=$(TARGET_INDEX)
+include config/strategy/base.mk

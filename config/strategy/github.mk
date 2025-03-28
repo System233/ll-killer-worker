@@ -15,4 +15,5 @@ $(TARGET_INDEX):
 	echo "$(PKGID),$$TAG_NAME,$$CONFIG,$$URL,$$FILENAME"|tee "$@~";\
 	mv $@~ $@
 
-index: $(TARGET_INDEX)
+INDEX_TARGET=$(TARGET_INDEX)
+include config/strategy/base.mk
