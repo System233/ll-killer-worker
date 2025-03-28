@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: gemrb.linyaps
+  name: gemrb
+  version: 0.9.2.1
+  kind: app
+  description: |-
+    Open-source engine to run Baldur's Gate, Icewind Dale and Planescape: Torment
+    GemRB (Game Engine Made with preRendered Background) is a new implementation
+    of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+    Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+    enhancements.
+
+    It means that you either need some of the original game's data
+    somewhere on your harddisk, or you can try to use the data from the
+    Dragonlance Total Conversion project.
+
+    The original game data has to be installed on a windows
+    partition and mounted to your Linux/Unix filesystem, installed on
+    windows and then copied to your filesystem, installed with WINE or
+    extracted manually from the CDs using the tool `unshield'.
+
+    Supported games: Baldur's Gate and Icewind Dale series, Planescape:Torment.
+command:
+- /opt/apps/gemrb.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
