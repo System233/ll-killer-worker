@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gjiten.linyaps
+  name: gjiten
+  version: 3.1.0.2
+  kind: app
+  description: |-
+    Japanese dictionary for GNOME
+    Gjiten is a Japanese dictionary for GNOME with advanced word and kanji lookup
+    features. Requires dictionary files (edict, kanjidic) to function.
+    See http://gjiten.sourceforge.net for more dictionary files and updates.
+command:
+- /opt/apps/gjiten.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
