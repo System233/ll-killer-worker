@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gnurobbo.linyaps
+  name: gnurobbo
+  version: 0.68.0.6
+  kind: app
+  description: |-
+    logic game ported from ATARI XE/XL
+    GNU Robbo is very addictive logic game. You must help a little robot to
+    get out of an unfriendly planet, collecting parts of an emergency capsule.
+
+    Originally written for Atari XE/XL by Janusz Pelc from "LK. Avalon".
+command:
+- /opt/apps/gnurobbo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
