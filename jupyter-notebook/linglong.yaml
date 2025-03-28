@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: jupyter-notebook.linyaps
+  name: jupyter-notebook
+  version: 6.4.12.2
+  kind: app
+  description: |-
+    Jupyter interactive notebook
+    The Jupyter Notebook is a web application that allows you to create and
+    share documents that contain live code, equations, visualizations, and
+    explanatory text. The Notebook has support for multiple programming
+    languages, sharing, and interactive widgets.
+
+    This package provides the jupyter subcommands "notebook", "nbextension",
+    "serverextension" and "bundlerextension".
+command:
+- /opt/apps/jupyter-notebook.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
