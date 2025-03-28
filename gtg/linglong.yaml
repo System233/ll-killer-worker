@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: gtg.linyaps
+  name: gtg
+  version: 0.6.0.7
+  kind: app
+  description: |-
+    organizer for the GNOME desktop environment
+    Getting Things GNOME! (GTG) is a personal tasks and TODO-list items
+    organizer for the GNOME desktop environment and inspired by the
+    "Getting Things Done" (GTD) methodology.
+
+    GTG is designed with flexibility, adaptability, and ease of use in
+    mind, so its user interface and workflow can be used as more than
+    just "GTD" software. GTG is intended to help you track everything
+    you need to do and need to know, from small tasks to large projects.
+
+    It features flexible tagging system, natural language parsing, task
+    dependencies and an "actionable" task view mode so that you can focus
+    on what you can act on "right now".
+command:
+- /opt/apps/gtg.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
