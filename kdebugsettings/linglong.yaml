@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: kdebugsettings.linyaps
+  name: kdebugsettings
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    application to enable/disable qCDebug settings
+    Qt applications use QDebug classes to print out warnings and errors on
+    a terminal.  This applications is a simple GUI to turn on or off
+    these messages.
+command:
+- /opt/apps/kdebugsettings.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
