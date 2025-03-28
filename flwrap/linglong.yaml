@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: flwrap.linyaps
+  name: flwrap
+  version: 1.3.6.1
+  kind: app
+  description: |-
+    amateur radio file encapsulation/compression utility
+    Flwrap is a small desktop application that encapsulates a text file,
+    an image file, or a binary file within a set of identifier blocks.
+    Flwrap is designed to be used to best advantage with fldigi but can
+    be used with any digital modem program.
+command:
+- /opt/apps/flwrap.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
