@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: jgmenu.linyaps
+  name: jgmenu
+  version: 4.4.1.2
+  kind: app
+  description: |-
+    Simple X11 menu
+    A stand-alone, contemporary-looking menu application for Linux and BSD.
+    Independent of window manager and panel. Designed for customisation,
+    scripting, ricing and tweaking
+command:
+- /opt/apps/jgmenu.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
