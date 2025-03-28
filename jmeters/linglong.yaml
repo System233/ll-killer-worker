@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: jmeters.linyaps
+  name: jmeters
+  version: 0.4.5.1
+  kind: app
+  description: |-
+    multichannel audio level meter
+    A jmeters is multichannel audio level meter for Jack Audio Connection Kit. It
+    uses the same pixmaps as meterbridge. The main difference to meterbridge is
+    that jmeters has the correct ballistics for both the VU and the PPM.
+command:
+- /opt/apps/jmeters.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
