@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kristall.linyaps
+  name: kristall
+  version: 0.4.0.2
+  kind: app
+  description: |-
+    high-quality visual cross-platform gemini browser
+    Kristall is a browser without support for css/js/wasm or graphical
+    websites. It can display user-styled documents in several formats,
+    including gemini, html, markdown and others provided by a server
+    via gemini, gopher, http, finger, etc.
+command:
+- /opt/apps/kristall.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
