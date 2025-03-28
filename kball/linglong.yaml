@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kball.linyaps
+  name: kball
+  version: 0.0.20041216.11
+  kind: app
+  description: |-
+    game of skill and reflexes for all the family
+    A game of skill and reflexes, non violent, suitable for all ages. The idea
+    is to move the ball around the map, without falling, without running out of
+    time, and getting the prizes, in order to reach the exit. The main feature
+    of the game is the built-in map editor, so anybody can make their own maps.
+command:
+- /opt/apps/kball.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
