@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: gnome-font-viewer.linyaps
+  name: gnome-font-viewer
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    font viewer for GNOME
+    This program can preview fonts and create thumbnails for fonts.
+command:
+- /opt/apps/gnome-font-viewer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
