@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: ktrip.linyaps
+  name: ktrip
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    public transport assistant
+    It helps you navigate in public transport. It allows you to find journeys
+    between specified locations, departures for a specific station and shows
+    real-time delay and disruption information.
+command:
+- /opt/apps/ktrip.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
