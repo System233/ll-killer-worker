@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: language-selector-gnome.linyaps
+  name: language-selector-gnome
+  version: 0.225.0.0
+  kind: app
+  description: |-
+    Language selector frontend for Ubuntu
+    This package lets you change and install language packs
+    in Ubuntu.
+
+    This package contains the GTK+ frontend.
+command:
+- /opt/apps/language-selector-gnome.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
