@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: littlewizard.linyaps
+  name: littlewizard
+  version: 1.2.2.4
+  kind: app
+  description: |-
+    development environment for children
+    Little Wizard is created especially for primary school children. It
+    allows one to learn using main elements of present computer languages,
+    including: variables, expressions, loops, conditions, logical
+    blocks. Every element of language is represented by an intuitive
+    icon. Little Wizard can be used without using keyboard, only
+    mouse.
+command:
+- /opt/apps/littlewizard.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
