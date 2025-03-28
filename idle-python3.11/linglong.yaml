@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: idle-python3.11.linyaps
+  name: idle-python3.11
+  version: 3.11.8.1
+  kind: app
+  description: |-
+    IDE for Python (v3.11) using Tkinter
+    IDLE is an Integrated Development Environment for Python (v3.11).
+    IDLE is written using Tkinter and therefore quite platform-independent.
+command:
+- /opt/apps/idle-python3.11.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
