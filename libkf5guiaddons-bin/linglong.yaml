@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: libkf5guiaddons-bin.linyaps
+  name: libkf5guiaddons-bin
+  version: 5.103.0.1
+  kind: app
+  description: |-
+    additional addons for QtGui
+    Qt widgets for colours, fonts and text
+
+    This package contains kde-geo-uri-handler.
+command:
+- /opt/apps/libkf5guiaddons-bin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
