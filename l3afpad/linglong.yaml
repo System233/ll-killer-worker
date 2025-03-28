@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: l3afpad.linyaps
+  name: l3afpad
+  version: 0.8.18.4
+  kind: app
+  description: |-
+    Simple text editor forked from Leafpad
+    simple GTK+ text editor that emphasizes simplicity. As development
+    focuses on keeping weight down to a minimum, only the most essential features
+    are implemented in the editor. L3afpad is simple to use, is easily compiled,
+    requires few libraries, and starts up quickly.
+command:
+- /opt/apps/l3afpad.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
