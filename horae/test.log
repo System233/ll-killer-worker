@@ -1,0 +1,47 @@
+正在测试: APPID=horae.linyaps LAYER=horae.linyaps_71.0.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install horae.linyaps_71.0.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:horae.linyaps
+Layer文件:horae.linyaps_71.0.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: horae.linyaps_71.0.0.1_arm64_binary.layer
+offset: 1028
+mountpoint: /tmp/tmp.c8ICyg6irM/mnt
+dbglevel: 0
+find: ‘/opt/apps/horae.linyaps/files/share/icons’: No such file or directory
+[成功] artemis.desktop: horae.linyaps-artemis -> /opt/apps/horae.linyaps/files/share/pixmaps/horae.linyaps-artemis.xpm
+[成功] /opt/apps/horae.linyaps/files/share/applications/artemis.desktop: /opt/apps/horae.linyaps/files/entrypoint.sh artemis %F
+find: ‘/opt/apps/horae.linyaps/files/share/icons’: No such file or directory
+[成功] athena.desktop: horae.linyaps-athena -> /opt/apps/horae.linyaps/files/share/pixmaps/horae.linyaps-athena.xpm
+[成功] /opt/apps/horae.linyaps/files/share/applications/athena.desktop: /opt/apps/horae.linyaps/files/entrypoint.sh athena %F
+find: ‘/opt/apps/horae.linyaps/files/share/icons’: No such file or directory
+[成功] hephaestus.desktop: horae.linyaps-hephaestus -> /opt/apps/horae.linyaps/files/share/pixmaps/horae.linyaps-hephaestus.xpm
+[成功] /opt/apps/horae.linyaps/files/share/applications/hephaestus.desktop: /opt/apps/horae.linyaps/files/entrypoint.sh hephaestus %F
+[正在测试启动项]
+包名:horae.linyaps
+Layer文件:horae.linyaps_71.0.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: horae.linyaps_71.0.0.1_arm64_binary.layer
+offset: 1028
+mountpoint: /tmp/tmp.39Sv3pyInZ/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run horae.linyaps -- /opt/apps/horae.linyaps/files/entrypoint.sh artemis
+[PID 16241] 进程已启动
+[PID 16241] 等待超时，未能检测到窗口
+[PID 16241] 正在通知并等待进程退出
+[PID 16241] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run horae.linyaps -- /opt/apps/horae.linyaps/files/entrypoint.sh athena
+[PID 20226] 进程已启动
+[PID 20226] 等待超时，未能检测到窗口
+[PID 20226] 正在通知并等待进程退出
+[PID 20226] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run horae.linyaps -- /opt/apps/horae.linyaps/files/entrypoint.sh hephaestus
+[PID 25407] 进程已启动
+[PID 25407] 等待超时，未能检测到窗口
+[PID 25407] 正在通知并等待进程退出
+[PID 25407] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall horae.linyaps
