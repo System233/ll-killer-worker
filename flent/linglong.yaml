@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: flent.linyaps
+  name: flent
+  version: 2.1.1.2
+  kind: app
+  description: |-
+    FLExible Network Tester for bufferbloat testing and more
+    The FLExible Network Tester: Python wrapper to run multiple simultaneous
+    netperf/iperf/ping instances and aggregate the results.
+
+    Tests are specified as config files (which are really Python), and
+    various parsers for tool output are supplied. At the moment, parsers for
+    netperf in -D mode, iperf in csv mode and ping/ping6 in -D mode are
+    supplied, as well as a generic parser for commands that just outputs a
+    single number.
+
+    Several commands can be run in parallel and, provided they output
+    timestamped values, (which netperf ping and iperf do, the latter with a
+    small patch, available in the misc/ directory), the test data points can
+    be aligned with each other in time, interpolating differences between
+    the actual measurement points. This makes it possible to graph (e.g.)
+    ping times before, during and after a link is loaded.
+command:
+- /opt/apps/flent.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
