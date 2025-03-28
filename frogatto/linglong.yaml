@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: frogatto.linyaps
+  name: frogatto
+  version: 1.3.1.6
+  kind: app
+  description: |-
+    2D platformer game starring a quixotic frog
+    Frogatto is a platformer in the style of old arcade, Sega and
+    Nintendo games. The world is viewed as a cross-section seen from the
+    side, and your character walks and jumps between solid platforms
+    whilst fighting monsters.
+
+    This package contains game engine.
+command:
+- /opt/apps/frogatto.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
