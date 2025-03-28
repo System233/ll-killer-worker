@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: grdesktop.linyaps
+  name: grdesktop
+  version: 0.23.0.7
+  kind: app
+  description: |-
+    GNOME frontend for the rdesktop client
+    grdesktop is a GNOME frontend for the remote desktop client (rdesktop).
+
+    It can save several connections (including their options), and
+    browse the network for available terminal servers.
+command:
+- /opt/apps/grdesktop.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
