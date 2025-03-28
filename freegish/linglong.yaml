@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: freegish.linyaps
+  name: freegish
+  version: 1.53.0.2
+  kind: app
+  description: |-
+    physics based arcade game
+    Freegish is a 2D platform game, where the player maneuvers character of a ball
+    of tar. Character may become sticky, slick, heavy and can jump.
+
+    The game contains only first seven levels of the single player campaign and few
+    multiplayer levels for mini games like sumo or football.
+
+    Freegish is based on open sourced code of the famous game called Gish with
+    added free art assets.
+command:
+- /opt/apps/freegish.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
