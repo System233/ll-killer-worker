@@ -1,0 +1,31 @@
+正在测试: APPID=idle-python3.11.linyaps LAYER=idle-python3.11.linyaps_3.11.8.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install idle-python3.11.linyaps_3.11.8.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:idle-python3.11.linyaps
+Layer文件:idle-python3.11.linyaps_3.11.8.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: idle-python3.11.linyaps_3.11.8.1_x86_64_binary.layer
+offset: 556
+mountpoint: /tmp/tmp.yB3LJ7NuVz/mnt
+dbglevel: 0
+find: ‘/opt/apps/idle-python3.11.linyaps/files/share/icons’: No such file or directory
+[成功] idle-python3.11.desktop: idle-python3.11.linyaps-python3.11 -> /opt/apps/idle-python3.11.linyaps/files/share/pixmaps/idle-python3.11.linyaps-python3.11.xpm
+[成功] /opt/apps/idle-python3.11.linyaps/files/share/applications/idle-python3.11.desktop: /opt/apps/idle-python3.11.linyaps/files/entrypoint.sh /usr/bin/idle-python3.11
+[正在测试启动项]
+包名:idle-python3.11.linyaps
+Layer文件:idle-python3.11.linyaps_3.11.8.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: idle-python3.11.linyaps_3.11.8.1_x86_64_binary.layer
+offset: 556
+mountpoint: /tmp/tmp.vdzRzLngO6/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run idle-python3.11.linyaps -- /opt/apps/idle-python3.11.linyaps/files/entrypoint.sh /usr/bin/idle-python3.11
+[PID 15048] 进程已启动
+[PID 15048] 等待超时，未能检测到窗口
+[PID 15048] 正在通知并等待进程退出
+[PID 15048] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall idle-python3.11.linyaps
