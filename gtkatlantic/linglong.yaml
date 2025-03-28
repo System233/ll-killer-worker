@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gtkatlantic.linyaps
+  name: gtkatlantic
+  version: 0.6.3.2
+  kind: app
+  description: |-
+    Game like Monopoly
+    GtkAtlantic is a game, like Monopoly™.
+    This is a network client that works with the monopd server. You will either
+    have to install monopd or connect to an existing internet server to play the
+    game.
+command:
+- /opt/apps/gtkatlantic.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
