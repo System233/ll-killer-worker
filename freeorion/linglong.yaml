@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: freeorion.linyaps
+  name: freeorion
+  version: 0.5.0.4
+  kind: app
+  description: |-
+    turn-based space empire and galactic conquest game
+    FreeOrion is a turn-based space empire and galactic conquest (4X) game being
+    designed and built by the FreeOrion project. FreeOrion is inspired by the
+    tradition of the Master of Orion games, but is not a clone or remake of that
+    series or any other game.
+
+    The game is about the construction of a living, breathing universe in a grand
+    campaign model. You can develop your own galactic empire and explore new star
+    systems with your fleets as one of several unique human or alien species.
+    Colonization of new worlds, researching new technology, managing your
+    resources and defending your planets against the AI or other human players on
+    a galactic scale are your main objectives.
+command:
+- /opt/apps/freeorion.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
