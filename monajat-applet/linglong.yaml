@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: monajat-applet.linyaps
+  name: monajat-applet
+  version: 4.1.0.2
+  kind: app
+  description: |-
+    Islamic supplications tray applet
+    Monajat is a small application that displays Islamic supplications (azkar) at
+    predetermined times.
+
+    This package contains the desktop tray applet.
+command:
+- /opt/apps/monajat-applet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
