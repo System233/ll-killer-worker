@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: lenovo-100-m1520-m1688-series.linyaps
+  name: lenovo-100-m1520-m1688-series
+  version: 1.0.0.43
+  kind: app
+  description: Printer Driver for lenovo 100-m1520-m1688 series
+command:
+- /opt/apps/lenovo-100-m1520-m1688-series.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
