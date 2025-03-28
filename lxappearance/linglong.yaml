@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: lxappearance.linyaps
+  name: lxappearance
+  version: 0.6.3.1
+  kind: app
+  description: |-
+    LXDE GTK+ theme switcher
+    LXAppearance is a GUI application for the Lightweight X11 Desktop Environment
+    (LXDE).
+
+    It is a new feature-rich GTK+ theme switcher able to change GTK+ themes, icon
+    themes, and fonts used by applications. GNOME/KDE/Xfce user may use build-in
+    theme, this works for GTK+ based lightweight desktop Environment.
+
+    Features:
+
+    * Choose GTK+ theme
+    * Choose icon theme
+    * Install new icon theme
+    * Choose their favorite font
+    * Choose toolbar style
+    * See changes immediately in preview area
+command:
+- /opt/apps/lxappearance.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
