@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gv.linyaps
+  name: gv
+  version: 3.7.4.2
+  kind: app
+  description: |-
+    PostScript and PDF viewer for X
+    gv is a comfortable viewer of PostScript and PDF files for the X
+    Window System. It uses the ghostscript PostScript interpreter
+    and is based on the classic X front-end for gs, ghostview, which
+    it has replaced now.
+command:
+- /opt/apps/gv.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
