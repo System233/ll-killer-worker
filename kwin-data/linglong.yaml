@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: kwin-data.linyaps
+  name: kwin-data
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    KDE window manager data files
+    KWin (pronounced as one syllable "kwin") is the window
+    manager for the KDE Plasma Desktop. It gives you complete
+    control over your windows, making sure they're not in the way
+    but aid you in your task. It paints the window decoration,
+    the bar on top of every window with (configurable) buttons
+    like close, maximize and minimize. It also handles placing
+    of windows and switching between them.
+
+    This package contains the data files
+command:
+- /opt/apps/kwin-data.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
