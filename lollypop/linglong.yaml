@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: lollypop.linyaps
+  name: lollypop
+  version: 1.4.37.1
+  kind: app
+  description: |-
+    modern music player
+    A Music player for GNOME featuring intuitive browsing of your music
+    collection. Supports downloading of lyrics and cover art, syncing music
+    with MTP devices, and has a kiosk (party) mode view.
+command:
+- /opt/apps/lollypop.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
