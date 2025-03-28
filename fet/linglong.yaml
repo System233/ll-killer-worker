@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: fet.linyaps
+  name: fet
+  version: 6.8.5.1
+  kind: app
+  description: |-
+    timetable generator
+    FET is a program for automatically generating the timetable of a school,
+    high-school or university.
+
+    Usually, FET is able to solve a complicated timetable in maximum 5-20 minutes.
+    For simpler timetables, it may take a shorter time, under 5 minutes (in some
+    cases, a matter of seconds). For extremely difficult timetables, it may take
+    a longer time, a matter of hours.
+command:
+- /opt/apps/fet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
