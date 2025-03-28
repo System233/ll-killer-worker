@@ -1,0 +1,28 @@
+正在测试: APPID=gnome-metronome.linyaps LAYER=gnome-metronome.linyaps_1.3.0.2_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install gnome-metronome.linyaps_1.3.0.2_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:gnome-metronome.linyaps
+Layer文件:gnome-metronome.linyaps_1.3.0.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: gnome-metronome.linyaps_1.3.0.2_x86_64_binary.layer
+offset: 696
+mountpoint: /tmp/tmp.I0JT8eTSfS/mnt
+dbglevel: 0
+[成功] com.adrienplazas.Metronome.desktop: com.adrienplazas.Metronome -> /opt/apps/gnome-metronome.linyaps/files/share/icons/hicolor/scalable/apps/com.adrienplazas.Metronome.svg
+[成功] /opt/apps/gnome-metronome.linyaps/files/share/applications/com.adrienplazas.Metronome.desktop: /opt/apps/gnome-metronome.linyaps/files/entrypoint.sh gnome-metronome
+[正在测试启动项]
+包名:gnome-metronome.linyaps
+Layer文件:gnome-metronome.linyaps_1.3.0.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: gnome-metronome.linyaps_1.3.0.2_x86_64_binary.layer
+offset: 696
+mountpoint: /tmp/tmp.yGcu23KNZI/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run gnome-metronome.linyaps -- /opt/apps/gnome-metronome.linyaps/files/entrypoint.sh gnome-metronome
+[PID 9096] 进程已启动
+[PID 9096] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall gnome-metronome.linyaps

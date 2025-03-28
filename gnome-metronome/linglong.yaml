@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: gnome-metronome.linyaps
+  name: gnome-metronome
+  version: 1.3.0.2
+  kind: app
+  description: |-
+    Simple Metronome application for the GNOME desktop
+    Metronome is a GNOME application to help you keep the tempo while practising
+    your instrument.
+
+    Features:
+    * Select the tempo by changing the beats per minute, or by tapping it
+    * Select the time signature
+    * Play the metronome
+
+    Metronome is a GNOME Circle app.
+command:
+- /opt/apps/gnome-metronome.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
