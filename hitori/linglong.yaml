@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: hitori.linyaps
+  name: hitori
+  version: 44.0.0.2
+  kind: app
+  description: |-
+    logic puzzle game similar to sudoku
+    Hitori puzzles give you a grid filled with numbers. The goal is to
+    remove numbers such that no row or column contains duplicates.
+
+    This implementation has undo/redo support, can give hints, and
+    generates puzzles up to 10x10 cells large.
+command:
+- /opt/apps/hitori.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
