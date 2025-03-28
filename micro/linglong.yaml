@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: micro.linyaps
+  name: micro
+  version: 2.0.13.1
+  kind: app
+  description: |-
+    modern and intuitive terminal-based text editor
+    micro is a terminal-based text editor that aims to be easy to use and
+    intuitive, while also taking advantage of the full capabilities of
+    modern terminals.
+
+    As the name indicates, micro aims to be somewhat of a successor to the
+    nano editor by being easy to install and use.
+command:
+- /opt/apps/micro.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
