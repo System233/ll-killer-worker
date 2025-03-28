@@ -1,0 +1,30 @@
+version: "1"
+package:
+  id: kronometer.linyaps
+  name: kronometer
+  version: 2.3.0.1
+  kind: app
+  description: |-
+    simple stopwatch application
+    Kronometer is a stopwatch application.
+
+    Kronometer's main features are the following:
+    - start/pause/resume the stopwatch widget
+    - laps recording: you can capture the stopwatch time when you want and add
+    a note to it
+    - lap times sorting: you can easily find the shortest lap time or the
+    longest one
+    - reset the stopwatch widget and the lap times
+    - time format settings: you can choose the stopwatch granularity
+    - times saving and resuming: you can save the stopwatch status and resume it
+    later
+    - font customization: you can choose the fonts for each of the stopwatch
+    digits
+    - color customization: you can choose the color for the stopwatch digits
+    and the stopwatch background
+    - lap times export: you can export the lap times on a file using the JSON
+    or CSV format
+command:
+- /opt/apps/kronometer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
