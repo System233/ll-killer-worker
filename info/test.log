@@ -1,13 +1,13 @@
-正在测试: APPID=info.linyaps LAYER=info.linyaps_7.1.0.2_x86_64_binary.layer
-build-aux/ll-cli.sh 忽略命令：install info.linyaps_7.1.0.2_x86_64_binary.layer
+正在测试: APPID=info.linyaps LAYER=info.linyaps_7.1.0.3_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install info.linyaps_7.1.0.3_x86_64_binary.layer
 [正在测试快捷方式/服务单元]
 包名:info.linyaps
-Layer文件:info.linyaps_7.1.0.2_x86_64_binary.layer
+Layer文件:info.linyaps_7.1.0.3_x86_64_binary.layer
 Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
-Runtime文件系统:
-disk: info.linyaps_7.1.0.2_x86_64_binary.layer
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: info.linyaps_7.1.0.3_x86_64_binary.layer
 offset: 706
-mountpoint: /tmp/tmp.wPvVGGh4yg/mnt
+mountpoint: /tmp/tmp.N6mGhi9r38/mnt
 dbglevel: 0
 find: ‘/opt/apps/info.linyaps/files/share/icons’: No such file or directory
 find: ‘/opt/apps/info.linyaps/files/share/pixmaps’: No such file or directory
@@ -15,16 +15,16 @@ find: ‘/opt/apps/info.linyaps/files/share/pixmaps’: No such file or director
 [成功] /opt/apps/info.linyaps/files/share/applications/info.desktop: /opt/apps/info.linyaps/files/entrypoint.sh info
 [正在测试启动项]
 包名:info.linyaps
-Layer文件:info.linyaps_7.1.0.2_x86_64_binary.layer
+Layer文件:info.linyaps_7.1.0.3_x86_64_binary.layer
 Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
-Runtime文件系统:
-disk: info.linyaps_7.1.0.2_x86_64_binary.layer
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: info.linyaps_7.1.0.3_x86_64_binary.layer
 offset: 706
-mountpoint: /tmp/tmp.MFnyvQlTIz/mnt
+mountpoint: /tmp/tmp.CnjidsGc0c/mnt
 dbglevel: 0
 启动项排除列表：NoDisplay
 [PID ?] 启动进程: build-aux/ll-cli.sh run info.linyaps -- /opt/apps/info.linyaps/files/entrypoint.sh info
-[PID 5087] 进程已启动
-[PID 5087] 进程提前退出，测试失败
+[PID 5403] 进程已启动
+[PID 5403] 进程提前退出，测试失败
 测试完成，可在tests中查看测试输出。
 build-aux/ll-cli.sh 忽略命令：uninstall info.linyaps
