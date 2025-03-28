@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: kalarm.linyaps
+  name: kalarm
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    alarm message, command and email scheduler
+    KAlarm provides a graphical interface to schedule personal timed events -
+    pop-up alarm messages, command execution and sending emails. There is a
+    range of options for configuring recurring events.
+
+    A pop-up alarm can show either a simple text message, or the contents of a
+    text or image file. It can optionally be spoken, or play a sound file. You
+    can choose its appearance, and set reminders. Among KAlarm's other
+    facilities, you can set up templates to allow KAlarm to be used as a 'tea
+    timer'.
+command:
+- /opt/apps/kalarm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
