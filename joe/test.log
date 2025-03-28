@@ -1,0 +1,51 @@
+正在测试: APPID=joe.linyaps LAYER=joe.linyaps_4.6.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install joe.linyaps_4.6.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:joe.linyaps
+Layer文件:joe.linyaps_4.6.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: joe.linyaps_4.6.0.1_arm64_binary.layer
+offset: 1784
+mountpoint: /tmp/tmp.Ez4gJpzjSV/mnt
+dbglevel: 0
+find: ‘/opt/apps/joe.linyaps/files/share/icons’: No such file or directory
+find: ‘/opt/apps/joe.linyaps/files/share/pixmaps’: No such file or directory
+[成功] jmacs.desktop: accessories-text-editor -> /usr/share/icons/Humanity/apps/22/accessories-text-editor.svg
+[成功] /opt/apps/joe.linyaps/files/share/applications/jmacs.desktop: /opt/apps/joe.linyaps/files/entrypoint.sh /usr/bin/jmacs %F
+find: ‘/opt/apps/joe.linyaps/files/share/icons’: No such file or directory
+find: ‘/opt/apps/joe.linyaps/files/share/pixmaps’: No such file or directory
+[成功] joe.desktop: accessories-text-editor -> /usr/share/icons/Humanity/apps/22/accessories-text-editor.svg
+[成功] /opt/apps/joe.linyaps/files/share/applications/joe.desktop: /opt/apps/joe.linyaps/files/entrypoint.sh /usr/bin/joe %F
+find: ‘/opt/apps/joe.linyaps/files/share/icons’: No such file or directory
+find: ‘/opt/apps/joe.linyaps/files/share/pixmaps’: No such file or directory
+[成功] jpico.desktop: accessories-text-editor -> /usr/share/icons/Humanity/apps/22/accessories-text-editor.svg
+[成功] /opt/apps/joe.linyaps/files/share/applications/jpico.desktop: /opt/apps/joe.linyaps/files/entrypoint.sh /usr/bin/jpico %F
+find: ‘/opt/apps/joe.linyaps/files/share/icons’: No such file or directory
+find: ‘/opt/apps/joe.linyaps/files/share/pixmaps’: No such file or directory
+[成功] jstar.desktop: accessories-text-editor -> /usr/share/icons/Humanity/apps/22/accessories-text-editor.svg
+[成功] /opt/apps/joe.linyaps/files/share/applications/jstar.desktop: /opt/apps/joe.linyaps/files/entrypoint.sh /usr/bin/jstar %F
+[正在测试启动项]
+包名:joe.linyaps
+Layer文件:joe.linyaps_4.6.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: joe.linyaps_4.6.0.1_arm64_binary.layer
+offset: 1784
+mountpoint: /tmp/tmp.bD9usLg1u8/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run joe.linyaps -- /opt/apps/joe.linyaps/files/entrypoint.sh /usr/bin/jmacs
+[PID 5626] 进程已启动
+[PID 5626] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run joe.linyaps -- /opt/apps/joe.linyaps/files/entrypoint.sh /usr/bin/joe
+[PID 5753] 进程已启动
+[PID 5753] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run joe.linyaps -- /opt/apps/joe.linyaps/files/entrypoint.sh /usr/bin/jpico
+[PID 5877] 进程已启动
+[PID 5877] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run joe.linyaps -- /opt/apps/joe.linyaps/files/entrypoint.sh /usr/bin/jstar
+[PID 6001] 进程已启动
+[PID 6001] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall joe.linyaps
