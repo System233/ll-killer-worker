@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: marco.linyaps
+  name: marco
+  version: 1.26.2.4
+  kind: app
+  description: |-
+    lightweight GTK+ window manager for MATE
+    Marco is a small window manager, using GTK+ to do everything. It is
+    developed mainly for the MATE Desktop.
+
+    This package contains the marco window manager itself.
+command:
+- /opt/apps/marco.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
