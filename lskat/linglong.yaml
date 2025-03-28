@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: lskat.linyaps
+  name: lskat
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Lieutnant Skat card game
+    Lieutenant Skat (from German "Offiziersskat") is a fun and engaging
+    card game for two players, where the second player is either live
+    opponent, or a built in artificial intelligence.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/lskat.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
