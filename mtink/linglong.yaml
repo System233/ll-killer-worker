@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: mtink.linyaps
+  name: mtink
+  version: 1.0.16.15
+  kind: app
+  description: |-
+    Status monitor tool for Epson inkjet printers
+    This is a printer status monitor which enables to get the remaining ink
+    quantity, to print test patterns, to reset printer and to clean nozzles.
+
+    Although it mainly targets Epson printers, certain HP and Canon models
+    are supported.
+command:
+- /opt/apps/mtink.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
