@@ -1,12 +1,12 @@
 # amd64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3160|866|452 |414 | 52.19%| 14.30%|
+|3160|1018|574 |444 | 56.39%| 18.16%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2779|580|356 |224 | 61.38%| 12.81%|
-|deepin-v23|380|285|95 |190 | 33.33%| 25.00%|
+|ubuntu-noble|2779|732|476 |256 | 65.03%| 17.13%|
+|deepin-v23|380|285|97 |188 | 34.04%| 25.53%|
 |obs-studio|1|1|1 |0 | 100.00%| 100.00%|
 ## 详细结果
 | 包名   | 架构 |仓库| 版本    | 测试结果 | SHA256SUM |
@@ -531,6 +531,7 @@
 | [converseen](./converseen) | amd64  | ubuntu-noble | 0.12.1.0-1build2 | ![screen0-5.jpg](./converseen/tests/screen0-5.jpg) | N/A |
 | [convertall](./convertall) | amd64  | ubuntu-noble | 0.8.0-2 | ![screen0-5.jpg](./convertall/tests/screen0-5.jpg) | N/A |
 | [cool-retro-term](./cool-retro-term) | amd64  | ubuntu-noble | 1.2.0+ds2-2build2 | ![screen0-5.jpg](./cool-retro-term/tests/screen0-5.jpg) | N/A |
+| [copyq](./copyq) | amd64  | ubuntu-noble | 7.1.0-1build2 | ![screen0-5.jpg](./copyq/tests/screen0-5.jpg) | N/A |
 | [coqide](./coqide) | amd64  | ubuntu-noble | 8.18.0+dfsg-1build2 | ![screen0-5.jpg](./coqide/tests/screen0-5.jpg) | N/A |
 | [corectrl](./corectrl) | amd64  | ubuntu-noble | 1.3.11+ds-1build1-20250327 | 失败 | N/A |
 | [corsix-th](./corsix-th) | amd64  | ubuntu-noble | 0.67-1 | ![screen0-5.jpg](./corsix-th/tests/screen0-5.jpg) | N/A |
@@ -703,43 +704,194 @@
 | [dxf2gcode](./dxf2gcode) | amd64  | ubuntu-noble | 20191025-2 | ![screen0-5.jpg](./dxf2gcode/tests/screen0-5.jpg) | N/A |
 | [dyssol-gui](./dyssol-gui) | amd64  | ubuntu-noble | 1.1.1+ds1-2.1build4 | ![screen0-5.jpg](./dyssol-gui/tests/screen0-5.jpg) | N/A |
 | [eartag](./eartag) | amd64  | ubuntu-noble | 0.6.0-1-20250327 | 失败 | N/A |
-| [easyeffects](./easyeffects) | amd64  | deepin-v23 | 7.1.7-1-07be3ef | 失败 | N/A |
+| [easychem](./easychem) | amd64  | ubuntu-noble | 0.6-9build2 | ![screen0-5.jpg](./easychem/tests/screen0-5.jpg) | N/A |
+| [easyeffects](./easyeffects) | amd64  | deepin-v23 | 7.1.7-1-20250327 | 失败 | N/A |
+| [easyssh](./easyssh) | amd64  | ubuntu-noble | 1.7.9-4build2 | ![screen0-5.jpg](./easyssh/tests/screen0-5.jpg) | N/A |
+| [easytag](./easytag) | amd64  | ubuntu-noble | 2.4.3-5build3 | ![screen0-5.jpg](./easytag/tests/screen0-5.jpg) | N/A |
+| [ebook-speaker](./ebook-speaker) | amd64  | ubuntu-noble | 6.2.0-5build2-20250327 | 失败 | N/A |
+| [ebook2cwgui](./ebook2cwgui) | amd64  | ubuntu-noble | 0.1.2-7build3 | ![screen0-5.jpg](./ebook2cwgui/tests/screen0-5.jpg) | N/A |
+| [ebumeter](./ebumeter) | amd64  | ubuntu-noble | 0.5.1-1build2-20250327 | 失败 | N/A |
 | [edb-debugger](./edb-debugger) | amd64  | deepin-v23 | 1.3.0-2.1deepin0 | ![screen0-5.jpg](./edb-debugger/tests/screen0-5.jpg) | [SHA256SUM](./edb-debugger/SHA256SUMS) |
-| [emacs-common](./emacs-common) | amd64  | ubuntu-noble | 29.1+1-5-07be3ef | 失败 | N/A |
-| [emacs-gtk](./emacs-gtk) | amd64  | ubuntu-noble | 29.1+1-5 | ![screen1-5.jpg](./emacs-gtk/tests/screen1-5.jpg) | N/A |
-| [emacs-lucid](./emacs-lucid) | amd64  | ubuntu-noble | 29.1+1-5 | ![screen1-5.jpg](./emacs-lucid/tests/screen1-5.jpg) | [SHA256SUM](./emacs-lucid/SHA256SUMS) |
-| [emacs-pgtk](./emacs-pgtk) | amd64  | ubuntu-noble | 29.1+1-5 | ![screen1-5.jpg](./emacs-pgtk/tests/screen1-5.jpg) | [SHA256SUM](./emacs-pgtk/SHA256SUMS) |
-| [engrampa](./engrampa) | amd64  | ubuntu-noble | 1.24.1-deepin1-07be3ef | 失败 | N/A |
-| [epson-tdbridge-pp100api](./epson-tdbridge-pp100api) | amd64  | deepin-v23 | 2.5.2-07be3ef | 失败 | N/A |
+| [edenmath.app](./edenmath.app) | amd64  | ubuntu-noble | 1.1.1a-8build5 | ![screen0-5.jpg](./edenmath.app/tests/screen0-5.jpg) | N/A |
+| [edfbrowser](./edfbrowser) | amd64  | ubuntu-noble | 2.06+dfsg-1build2 | ![screen0-5.jpg](./edfbrowser/tests/screen0-5.jpg) | N/A |
+| [edgar](./edgar) | amd64  | ubuntu-noble | 1.37-1build2 | ![screen0-5.jpg](./edgar/tests/screen0-5.jpg) | N/A |
+| [edubuntu-docs](./edubuntu-docs) | amd64  | ubuntu-noble | 11.03.3 | ![screen0-5.jpg](./edubuntu-docs/tests/screen0-5.jpg) | N/A |
+| [edubuntu-installer](./edubuntu-installer) | amd64  | ubuntu-noble | 0.6 | ![screen0-5.jpg](./edubuntu-installer/tests/screen0-5.jpg) | N/A |
+| [edubuntu-menu](./edubuntu-menu) | amd64  | ubuntu-noble | 24.04.2.2-20250327 | 失败 | N/A |
+| [eekboek-gui](./eekboek-gui) | amd64  | ubuntu-noble | 2.04-1build1 | ![screen0-5.jpg](./eekboek-gui/tests/screen0-5.jpg) | N/A |
+| [efte](./efte) | amd64  | ubuntu-noble | 1.1-4 | ![screen0-5.jpg](./efte/tests/screen0-5.jpg) | N/A |
+| [eiciel](./eiciel) | amd64  | ubuntu-noble | 0.10.0-1build2 | ![screen0-5.jpg](./eiciel/tests/screen0-5.jpg) | N/A |
+| [einstein](./einstein) | amd64  | ubuntu-noble | 2.0.dfsg.2-10build1 | ![screen0-5.jpg](./einstein/tests/screen0-5.jpg) | N/A |
+| [eiskaltdcpp-gtk](./eiskaltdcpp-gtk) | amd64  | ubuntu-noble | 2.4.2-1.1build6 | ![screen0-5.jpg](./eiskaltdcpp-gtk/tests/screen0-5.jpg) | N/A |
+| [eiskaltdcpp-qt](./eiskaltdcpp-qt) | amd64  | ubuntu-noble | 2.4.2-1.1build6 | ![screen0-5.jpg](./eiskaltdcpp-qt/tests/screen0-5.jpg) | N/A |
+| [eiskaltdcpp-web](./eiskaltdcpp-web) | amd64  | ubuntu-noble | 1.0.1-2-20250327 | 失败 | N/A |
+| [electric](./electric) | amd64  | ubuntu-noble | 9.07+dfsg-7-20250327 | 失败 | N/A |
+| [elektroid](./elektroid) | amd64  | ubuntu-noble | 3.0.1-2build1 | ![screen0-5.jpg](./elektroid/tests/screen0-5.jpg) | N/A |
+| [elisa](./elisa) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./elisa/tests/screen0-5.jpg) | N/A |
+| [elki](./elki) | amd64  | ubuntu-noble | 0.7.1-10.1-20250327 | 失败 | N/A |
+| [emacs-common](./emacs-common) | amd64  | ubuntu-noble | 29.3+1-1ubuntu2-20250327 | 失败 | N/A |
+| [emacs-gtk](./emacs-gtk) | amd64  | ubuntu-noble | 29.3+1-1ubuntu2 | ![screen1-5.jpg](./emacs-gtk/tests/screen1-5.jpg) | N/A |
+| [emacs-lucid](./emacs-lucid) | amd64  | ubuntu-noble | 29.3+1-1ubuntu2 | ![screen1-5.jpg](./emacs-lucid/tests/screen1-5.jpg) | N/A |
+| [emacs-pgtk](./emacs-pgtk) | amd64  | ubuntu-noble | 29.3+1-1ubuntu2 | ![screen1-5.jpg](./emacs-pgtk/tests/screen1-5.jpg) | N/A |
+| [email-reminder](./email-reminder) | amd64  | ubuntu-noble | 0.8.3-1 | ![screen0-5.jpg](./email-reminder/tests/screen0-5.jpg) | N/A |
+| [emboss-explorer](./emboss-explorer) | amd64  | ubuntu-noble | 2.2.0-12-20250327 | 失败 | N/A |
+| [emerald](./emerald) | amd64  | ubuntu-noble | 0.8.18-4.2build1 | ![screen0-5.jpg](./emerald/tests/screen0-5.jpg) | N/A |
+| [empire](./empire) | amd64  | ubuntu-noble | 1.16-2-20250327 | 失败 | N/A |
+| [endeavour](./endeavour) | amd64  | ubuntu-noble | 43.0-1build3 | ![screen0-5.jpg](./endeavour/tests/screen0-5.jpg) | N/A |
+| [endless-sky](./endless-sky) | amd64  | ubuntu-noble | 0.10.4-1build2 | ![screen0-5.jpg](./endless-sky/tests/screen0-5.jpg) | N/A |
+| [enemylines3](./enemylines3) | amd64  | ubuntu-noble | 1.25-1build3 | ![screen0-5.jpg](./enemylines3/tests/screen0-5.jpg) | N/A |
+| [enemylines7](./enemylines7) | amd64  | ubuntu-noble | 0.6-6 | ![screen0-5.jpg](./enemylines7/tests/screen0-5.jpg) | N/A |
+| [engauge-digitizer](./engauge-digitizer) | amd64  | ubuntu-noble | 12.1+ds.1-1build3 | ![screen0-5.jpg](./engauge-digitizer/tests/screen0-5.jpg) | N/A |
+| [engrampa](./engrampa) | amd64  | ubuntu-noble | 1.26.2-4 | ![screen0-5.jpg](./engrampa/tests/screen0-5.jpg) | N/A |
+| [enigma](./enigma) | amd64  | ubuntu-noble | 1.30+dfsg-1build2 | ![screen0-5.jpg](./enigma/tests/screen0-5.jpg) | N/A |
+| [enlightenment](./enlightenment) | amd64  | ubuntu-noble | 0.26.0-2build2 | ![screen0-5.jpg](./enlightenment/tests/screen0-5.jpg) ![screen2-5.jpg](./enlightenment/tests/screen2-5.jpg) ![screen3-5.jpg](./enlightenment/tests/screen3-5.jpg) | N/A |
+| [entagged](./entagged) | amd64  | ubuntu-noble | 0.35-6 | ![screen0-5.jpg](./entagged/tests/screen0-5.jpg) | N/A |
+| [entangle](./entangle) | amd64  | ubuntu-noble | 3.0-4build2-20250327 | 失败 | N/A |
+| [eog](./eog) | amd64  | ubuntu-noble | 45.3-1ubuntu2-20250327 | 失败 | N/A |
+| [eom](./eom) | amd64  | ubuntu-noble | 1.26.1-1build3-20250327 | 失败 | N/A |
+| [ephoto](./ephoto) | amd64  | ubuntu-noble | 1.6.0-1build2 | ![screen0-5.jpg](./ephoto/tests/screen0-5.jpg) | N/A |
+| [epiphany](./epiphany) | amd64  | ubuntu-noble | 0.7.0+0-7-20250327 | 失败 | N/A |
+| [epiphany-browser](./epiphany-browser) | amd64  | ubuntu-noble | 46.0-2build1 | ![screen0-5.jpg](./epiphany-browser/tests/screen0-5.jpg) | N/A |
+| [epoptes](./epoptes) | amd64  | ubuntu-noble | 23.08-1-20250327 | 失败 | N/A |
+| [epson-tdbridge-pp100api](./epson-tdbridge-pp100api) | amd64  | deepin-v23 | 2.5.2-20250327 | 失败 | N/A |
 | [epsonscan2](./epsonscan2) | amd64  | deepin-v23 | 6.7.42.10-1 | ![screen0-5.jpg](./epsonscan2/tests/screen0-5.jpg) | [SHA256SUM](./epsonscan2/SHA256SUMS) |
-| [eskeysetuplog-admin](./eskeysetuplog-admin) | amd64  | deepin-v23 | 6.3.0.3-07be3ef | 失败 | N/A |
-| [evilwm](./evilwm) | amd64  | deepin-v23 | 1.4.2-1-07be3ef | 失败 | N/A |
-| [evolution-data-server](./evolution-data-server) | amd64  | ubuntu-noble | 3.50.1-1+rb1-07be3ef | 失败 | N/A |
+| [eqonomize](./eqonomize) | amd64  | ubuntu-noble | 1.5.6-1build2 | ![screen0-5.jpg](./eqonomize/tests/screen0-5.jpg) | N/A |
+| [eric](./eric) | amd64  | ubuntu-noble | 23.2+ds1-2ubuntu1 | ![screen0-5.jpg](./eric/tests/screen0-5.jpg) ![screen1-5.jpg](./eric/tests/screen1-5.jpg) | N/A |
+| [errands](./errands) | amd64  | ubuntu-noble | 45.1.9-2-20250327 | 失败 | N/A |
+| [eskeysetuplog-admin](./eskeysetuplog-admin) | amd64  | deepin-v23 | 6.3.0.3 | ![screen1-5.jpg](./eskeysetuplog-admin/tests/screen1-5.jpg) | N/A |
+| [espeakedit](./espeakedit) | amd64  | ubuntu-noble | 1.48.15-2build3 | ![screen0-5.jpg](./espeakedit/tests/screen0-5.jpg) | N/A |
+| [etherape](./etherape) | amd64  | ubuntu-noble | 0.9.20-2build3 | ![screen0-5.jpg](./etherape/tests/screen0-5.jpg) | N/A |
+| [etm](./etm) | amd64  | ubuntu-noble | 3.2.39-1 | ![screen0-5.jpg](./etm/tests/screen0-5.jpg) | N/A |
+| [etoys](./etoys) | amd64  | ubuntu-noble | 5.0.2408-1build1 | ![screen0-5.jpg](./etoys/tests/screen0-5.jpg) | N/A |
+| [ettercap-graphical](./ettercap-graphical) | amd64  | ubuntu-noble | 0.8.3.1-13build3-20250327 | 失败 | N/A |
+| [etw](./etw) | amd64  | ubuntu-noble | 3.6+svn162-6build3 | ![screen0-5.jpg](./etw/tests/screen0-5.jpg) | N/A |
+| [euler](./euler) | amd64  | ubuntu-noble | 1.61.0-12build2-20250327 | 失败 | N/A |
+| [eureka](./eureka) | amd64  | ubuntu-noble | 1.27b-2build2 | ![screen0-5.jpg](./eureka/tests/screen0-5.jpg) | N/A |
+| [eviacam](./eviacam) | amd64  | ubuntu-noble | 2.1.4-2.1build2 | ![screen0-5.jpg](./eviacam/tests/screen0-5.jpg) | N/A |
+| [evilwm](./evilwm) | amd64  | deepin-v23 | 1.4.2-1-20250327 | 失败 | N/A |
+| [evince](./evince) | amd64  | ubuntu-noble | 46.3.1-0ubuntu1 | ![screen0-5.jpg](./evince/tests/screen0-5.jpg) | N/A |
+| [evolution](./evolution) | amd64  | ubuntu-noble | 3.52.3-0ubuntu1 | ![screen0-5.jpg](./evolution/tests/screen0-5.jpg) | N/A |
+| [evolution-data-server](./evolution-data-server) | amd64  | ubuntu-noble | 3.52.3-0ubuntu1-20250327 | 失败 | N/A |
+| [evolvotron](./evolvotron) | amd64  | ubuntu-noble | 0.8.1-1build3 | ![screen0-5.jpg](./evolvotron/tests/screen0-5.jpg) | N/A |
+| [exadrums](./exadrums) | amd64  | ubuntu-noble | 0.7.0-1build2 | ![screen0-5.jpg](./exadrums/tests/screen0-5.jpg) | N/A |
+| [exaile](./exaile) | amd64  | ubuntu-noble | 4.1.3+dfsg-2ubuntu1-20250327 | 失败 | N/A |
+| [excellent-bifurcation](./excellent-bifurcation) | amd64  | ubuntu-noble | 0.0.20071015-9build2 | ![screen0-5.jpg](./excellent-bifurcation/tests/screen0-5.jpg) | N/A |
 | [exfalso](./exfalso) | amd64  | deepin-v23 | 4.6.0-3 | ![screen0-5.jpg](./exfalso/tests/screen0-5.jpg) | [SHA256SUM](./exfalso/SHA256SUMS) |
-| [fbreader](./fbreader) | amd64  | ubuntu-noble | 0.12.10dfsg2-6deepin0 | ![screen0-5.jpg](./fbreader/tests/screen0-5.jpg) | [SHA256SUM](./fbreader/SHA256SUMS) |
-| [fcitx-config-gtk](./fcitx-config-gtk) | amd64  | deepin-v23 | 0.4.10.32-2deepin-07be3ef | 失败 | N/A |
-| [fcitx-data](./fcitx-data) | amd64  | deepin-v23 | 4.2.9.32.38-deepin-07be3ef | 失败 | N/A |
+| [expeyes](./expeyes) | amd64  | ubuntu-noble | 5.3.1+repack-6build1 | ![screen2-5.jpg](./expeyes/tests/screen2-5.jpg) | N/A |
+| [expeyes-doc-common](./expeyes-doc-common) | amd64  | ubuntu-noble | 4.3-3-20250327 | 失败 | N/A |
+| [explosive-c4](./explosive-c4) | amd64  | ubuntu-noble | 1.2-3build2 | ![screen0-5.jpg](./explosive-c4/tests/screen0-5.jpg) | N/A |
+| [exult](./exult) | amd64  | ubuntu-noble | 1.8-2build3 | ![screen0-5.jpg](./exult/tests/screen0-5.jpg) | N/A |
+| [eyes17](./eyes17) | amd64  | ubuntu-noble | 5.3.1+repack-6build1 | ![screen1-5.jpg](./eyes17/tests/screen1-5.jpg) | N/A |
+| [f3d](./f3d) | amd64  | ubuntu-noble | 2.2.1+dfsg-2build3 | ![screen0-5.jpg](./f3d/tests/screen0-5.jpg) | N/A |
+| [falkon](./falkon) | amd64  | ubuntu-noble | 24.01.75-1build3 | ![screen0-5.jpg](./falkon/tests/screen0-5.jpg) | N/A |
+| [fanwor](./fanwor) | amd64  | ubuntu-noble | 1.16-1build2 | ![screen0-5.jpg](./fanwor/tests/screen0-5.jpg) | N/A |
+| [far2l](./far2l) | amd64  | ubuntu-noble | 2.6.0~beta+ds-1ubuntu0.3 | ![screen0-5.jpg](./far2l/tests/screen0-5.jpg) | N/A |
+| [fastqc](./fastqc) | amd64  | ubuntu-noble | 0.12.1+dfsg-3 | ![screen0-5.jpg](./fastqc/tests/screen0-5.jpg) | N/A |
+| [faustworks](./faustworks) | amd64  | ubuntu-noble | 0.5~repack0-6build3 | ![screen0-5.jpg](./faustworks/tests/screen0-5.jpg) | N/A |
+| [fbreader](./fbreader) | amd64  | ubuntu-noble | 0.99.4+dfsg-5.1build3 | ![screen0-5.jpg](./fbreader/tests/screen0-5.jpg) | N/A |
+| [fbzx](./fbzx) | amd64  | ubuntu-noble | 4.8.0-2build2 | ![screen0-5.jpg](./fbzx/tests/screen0-5.jpg) | N/A |
+| [fccexam](./fccexam) | amd64  | ubuntu-noble | 1.0.7-1.1 | ![screen0-5.jpg](./fccexam/tests/screen0-5.jpg) | N/A |
+| [fceux](./fceux) | amd64  | ubuntu-noble | 2.6.5+dfsg1-2build3 | ![screen0-5.jpg](./fceux/tests/screen0-5.jpg) | N/A |
+| [fcitx-config-gtk](./fcitx-config-gtk) | amd64  | deepin-v23 | 0.4.10.32-2deepin-20250327 | 失败 | N/A |
+| [fcitx-data](./fcitx-data) | amd64  | deepin-v23 | 4.2.9.32.38-deepin-20250327 | 失败 | N/A |
+| [fcitx-ui-light](./fcitx-ui-light) | amd64  | ubuntu-noble | 0.1.3-5-20250327 | 失败 | N/A |
+| [fcitx-ui-qimpanel](./fcitx-ui-qimpanel) | amd64  | ubuntu-noble | 2.1.3-2build4 | ![screen0-5.jpg](./fcitx-ui-qimpanel/tests/screen0-5.jpg) | N/A |
 | [fcitx5](./fcitx5) | amd64  | deepin-v23 | 5.1.11-2deepin2 | ![screen0-5.jpg](./fcitx5/tests/screen0-5.jpg) ![screen1-5.jpg](./fcitx5/tests/screen1-5.jpg) | [SHA256SUM](./fcitx5/SHA256SUMS) |
-| [fcitx5-config-qt](./fcitx5-config-qt) | amd64  | ubuntu-noble | 5.1.2-1deepin6+rb1 | ![screen0-5.jpg](./fcitx5-config-qt/tests/screen0-5.jpg) | [SHA256SUM](./fcitx5-config-qt/SHA256SUMS) |
-| [fcitx5-frontend-qt5](./fcitx5-frontend-qt5) | amd64  | deepin-v23 | 5.1.8-2deepin1+rb1-07be3ef | 失败 | N/A |
-| [fcitx5-frontend-qt6](./fcitx5-frontend-qt6) | amd64  | deepin-v23 | 5.1.8-2deepin1+rb1-07be3ef | 失败 | N/A |
-| [featherpad](./featherpad) | amd64  | ubuntu-noble | 0.17.1-1 | ![screen0-5.jpg](./featherpad/tests/screen0-5.jpg) | [SHA256SUM](./featherpad/SHA256SUMS) |
+| [fcitx5-config-qt](./fcitx5-config-qt) | amd64  | ubuntu-noble | 5.1.4-1 | ![screen0-5.jpg](./fcitx5-config-qt/tests/screen0-5.jpg) ![screen1-5.jpg](./fcitx5-config-qt/tests/screen1-5.jpg) | N/A |
+| [fcitx5-frontend-qt5](./fcitx5-frontend-qt5) | amd64  | deepin-v23 | 5.1.8-2deepin1+rb1-20250327 | 失败 | N/A |
+| [fcitx5-frontend-qt6](./fcitx5-frontend-qt6) | amd64  | deepin-v23 | 5.1.8-2deepin1+rb1-20250327 | 失败 | N/A |
+| [feathernotes](./feathernotes) | amd64  | ubuntu-noble | 1.1.1-1build2 | ![screen0-5.jpg](./feathernotes/tests/screen0-5.jpg) | N/A |
+| [featherpad](./featherpad) | amd64  | ubuntu-noble | 1.4.1-0ubuntu4 | ![screen0-5.jpg](./featherpad/tests/screen0-5.jpg) | N/A |
+| [feh](./feh) | amd64  | ubuntu-noble | 3.10.1-1ubuntu0.1-20250327 | 失败 | N/A |
+| [felix-latin](./felix-latin) | amd64  | ubuntu-noble | 2.0-14build2 | ![screen0-5.jpg](./felix-latin/tests/screen0-5.jpg) | N/A |
+| [ferret](./ferret) | amd64  | ubuntu-noble | 0.7-3 | ![screen0-5.jpg](./ferret/tests/screen0-5.jpg) | N/A |
+| [ferret-vis](./ferret-vis) | amd64  | ubuntu-noble | 7.6.0-7ubuntu1 | ![screen0-5.jpg](./ferret-vis/tests/screen0-5.jpg) | N/A |
+| [fet](./fet) | amd64  | ubuntu-noble | 6.8.5-1build2 | ![screen0-5.jpg](./fet/tests/screen0-5.jpg) | N/A |
 | [ffado-mixer-qt4](./ffado-mixer-qt4) | amd64  | deepin-v23 | 2.4.9-1 | ![screen0-5.jpg](./ffado-mixer-qt4/tests/screen0-5.jpg) | [SHA256SUM](./ffado-mixer-qt4/SHA256SUMS) |
-| [filelight](./filelight) | amd64  | ubuntu-noble | 21.08.0-1deepin0 | ![screen0-5.jpg](./filelight/tests/screen0-5.jpg) | [SHA256SUM](./filelight/SHA256SUMS) |
-| [filezilla](./filezilla) | amd64  | ubuntu-noble | 3.66.4-2deepin0-07be3ef | 失败 | N/A |
+| [fgallery](./fgallery) | amd64  | ubuntu-noble | 1.9.1+ds-2-20250327 | 失败 | N/A |
+| [fheroes2](./fheroes2) | amd64  | ubuntu-noble | 1.0.12+dfsg-1 | ![screen0-5.jpg](./fheroes2/tests/screen0-5.jpg) | N/A |
+| [file-roller](./file-roller) | amd64  | ubuntu-noble | 44.3-0ubuntu1 | ![screen0-5.jpg](./file-roller/tests/screen0-5.jpg) | N/A |
+| [filelight](./filelight) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./filelight/tests/screen0-5.jpg) | N/A |
+| [filezilla](./filezilla) | amd64  | ubuntu-noble | 3.66.5-2build2 | ![screen0-5.jpg](./filezilla/tests/screen0-5.jpg) | N/A |
+| [filius](./filius) | amd64  | ubuntu-noble | 2.5.1+ds-1-20250327 | 失败 | N/A |
+| [filler](./filler) | amd64  | ubuntu-noble | 1.02-6.4 | ![screen0-5.jpg](./filler/tests/screen0-5.jpg) | N/A |
+| [fillets-ng](./fillets-ng) | amd64  | ubuntu-noble | 1.0.1-4build2 | ![screen0-5.jpg](./fillets-ng/tests/screen0-5.jpg) | N/A |
 | [firefox](./firefox) | amd64  | deepin-v23 | 131.0.3-1deepin1 | ![screen0-5.jpg](./firefox/tests/screen0-5.jpg) | [SHA256SUM](./firefox/SHA256SUMS) |
 | [firefox-esr](./firefox-esr) | amd64  | deepin-v23 | 115.2.1esr-1 | ![screen0-5.jpg](./firefox-esr/tests/screen0-5.jpg) | [SHA256SUM](./firefox-esr/SHA256SUMS) |
-| [firewall-config](./firewall-config) | amd64  | deepin-v23 | 2.1.2-1-07be3ef | 失败 | N/A |
-| [fish-common](./fish-common) | amd64  | deepin-v23 | 3.7.1-1-07be3ef | 失败 | N/A |
+| [firetools](./firetools) | amd64  | ubuntu-noble | 0.9.72-1build2 | ![screen0-5.jpg](./firetools/tests/screen0-5.jpg) ![screen1-5.jpg](./firetools/tests/screen1-5.jpg) | N/A |
+| [firewall-config](./firewall-config) | amd64  | deepin-v23 | 2.1.2-1-20250327 | 失败 | N/A |
+| [fish-common](./fish-common) | amd64  | deepin-v23 | 3.7.1-1 | ![screen0-5.jpg](./fish-common/tests/screen0-5.jpg) | N/A |
+| [fityk](./fityk) | amd64  | ubuntu-noble | 1.3.2-3build3 | ![screen0-5.jpg](./fityk/tests/screen0-5.jpg) | N/A |
+| [five-or-more](./five-or-more) | amd64  | ubuntu-noble | 3.32.3-1build2 | ![screen0-5.jpg](./five-or-more/tests/screen0-5.jpg) | N/A |
+| [flamerobin](./flamerobin) | amd64  | ubuntu-noble | 0.9.10.ds.2-1build2 | ![screen0-5.jpg](./flamerobin/tests/screen0-5.jpg) | N/A |
 | [flameshot](./flameshot) | amd64  | deepin-v23 | 12.1.0-3 | ![screen0-5.jpg](./flameshot/tests/screen0-5.jpg) | [SHA256SUM](./flameshot/SHA256SUMS) |
+| [flamp](./flamp) | amd64  | ubuntu-noble | 2.2.09-1build2 | ![screen0-5.jpg](./flamp/tests/screen0-5.jpg) | N/A |
+| [flare-engine](./flare-engine) | amd64  | ubuntu-noble | 1.14-3 | ![screen0-5.jpg](./flare-engine/tests/screen0-5.jpg) | N/A |
+| [fldiff](./fldiff) | amd64  | ubuntu-noble | 1.1+0-6build3 | ![screen0-5.jpg](./fldiff/tests/screen0-5.jpg) | N/A |
+| [fldigi](./fldigi) | amd64  | ubuntu-noble | 4.2.03-1build3 | ![screen0-5.jpg](./fldigi/tests/screen0-5.jpg) ![screen1-5.jpg](./fldigi/tests/screen1-5.jpg) | N/A |
+| [flent](./flent) | amd64  | ubuntu-noble | 2.1.1-2-20250327 | 失败 | N/A |
+| [flight-of-the-amazon-queen](./flight-of-the-amazon-queen) | amd64  | ubuntu-noble | 1.0.0-9 | ![screen0-5.jpg](./flight-of-the-amazon-queen/tests/screen0-5.jpg) | N/A |
+| [flightgear](./flightgear) | amd64  | ubuntu-noble | 2020.3.18+dfsg-1.1 | ![screen0-5.jpg](./flightgear/tests/screen0-5.jpg) ![screen1-5.jpg](./flightgear/tests/screen1-5.jpg) | N/A |
+| [flmsg](./flmsg) | amd64  | ubuntu-noble | 4.0.23-1build2 | ![screen0-5.jpg](./flmsg/tests/screen0-5.jpg) | N/A |
+| [flobopuyo](./flobopuyo) | amd64  | ubuntu-noble | 0.20-5.1 | ![screen0-5.jpg](./flobopuyo/tests/screen0-5.jpg) | N/A |
+| [flowblade](./flowblade) | amd64  | ubuntu-noble | 2.12.0.2-1ubuntu1-20250327 | 失败 | N/A |
+| [flpsed](./flpsed) | amd64  | ubuntu-noble | 0.7.3-9build2 | ![screen0-5.jpg](./flpsed/tests/screen0-5.jpg) | N/A |
+| [flrig](./flrig) | amd64  | ubuntu-noble | 2.0.04-1build2 | ![screen0-5.jpg](./flrig/tests/screen0-5.jpg) | N/A |
 | [fltk1.1-games](./fltk1.1-games) | amd64  | deepin-v23 | 1.1.10-29 | ![screen0-5.jpg](./fltk1.1-games/tests/screen0-5.jpg) ![screen1-5.jpg](./fltk1.1-games/tests/screen1-5.jpg) ![screen2-5.jpg](./fltk1.1-games/tests/screen2-5.jpg) | [SHA256SUM](./fltk1.1-games/SHA256SUMS) |
-| [fltk1.3-games](./fltk1.3-games) | amd64  | ubuntu-noble | 1.3.8-5deepin | ![screen0-5.jpg](./fltk1.3-games/tests/screen0-5.jpg) ![screen1-5.jpg](./fltk1.3-games/tests/screen1-5.jpg) ![screen2-5.jpg](./fltk1.3-games/tests/screen2-5.jpg) | [SHA256SUM](./fltk1.3-games/SHA256SUMS) |
-| [fluid](./fluid) | amd64  | ubuntu-noble | 1.3.8-5deepin | ![screen0-5.jpg](./fluid/tests/screen0-5.jpg) | [SHA256SUM](./fluid/SHA256SUMS) |
+| [fltk1.3-games](./fltk1.3-games) | amd64  | ubuntu-noble | 1.3.8-6.1build2 | ![screen0-5.jpg](./fltk1.3-games/tests/screen0-5.jpg) ![screen1-5.jpg](./fltk1.3-games/tests/screen1-5.jpg) ![screen2-5.jpg](./fltk1.3-games/tests/screen2-5.jpg) | N/A |
+| [fluid](./fluid) | amd64  | ubuntu-noble | 1.3.8-6.1build2 | ![screen0-5.jpg](./fluid/tests/screen0-5.jpg) | N/A |
+| [fluidsynth-dssi](./fluidsynth-dssi) | amd64  | ubuntu-noble | 1.0.0-9build1-20250327 | 失败 | N/A |
+| [flwrap](./flwrap) | amd64  | ubuntu-noble | 1.3.6-1build2 | ![screen0-5.jpg](./flwrap/tests/screen0-5.jpg) | N/A |
+| [fmit](./fmit) | amd64  | ubuntu-noble | 1.2.14-0.1build4 | ![screen0-5.jpg](./fmit/tests/screen0-5.jpg) | N/A |
+| [fnott](./fnott) | amd64  | ubuntu-noble | 1.4.1+ds-1build3-20250327 | 失败 | N/A |
+| [focuswriter](./focuswriter) | amd64  | ubuntu-noble | 1.8.6-1build2 | ![screen0-5.jpg](./focuswriter/tests/screen0-5.jpg) | N/A |
+| [foliate](./foliate) | amd64  | ubuntu-noble | 4.~really3.1.1-1-20250327 | 失败 | N/A |
+| [font-downloader](./font-downloader) | amd64  | ubuntu-noble | 10.0.0-3-20250327 | 失败 | N/A |
+| [font-manager](./font-manager) | amd64  | ubuntu-noble | 0.8.8-4build2 | ![screen0-5.jpg](./font-manager/tests/screen0-5.jpg) | N/A |
+| [font-viewer](./font-viewer) | amd64  | ubuntu-noble | 0.8.8-4build2 | ![screen0-5.jpg](./font-viewer/tests/screen0-5.jpg) | N/A |
 | [fontforge](./fontforge) | amd64  | deepin-v23 | 20230101~dfsg-3 | ![screen0-5.jpg](./fontforge/tests/screen0-5.jpg) | [SHA256SUM](./fontforge/SHA256SUMS) |
-| [foot](./foot) | amd64  | ubuntu-noble | 1.15.3-2deepin-07be3ef | 失败 | N/A |
-| [founder-sane-backend](./founder-sane-backend) | amd64  | deepin-v23 | 20200526-1.4.5.011-07be3ef | 失败 | N/A |
-| [four-in-a-row](./four-in-a-row) | amd64  | deepin-v23 | 3.38.1-deepin1-07be3ef | 失败 | N/A |
-| [fritzing](./fritzing) | amd64  | ubuntu-noble | 0.9.6+dfsg-1 | ![screen0-5.jpg](./fritzing/tests/screen0-5.jpg) | [SHA256SUM](./fritzing/SHA256SUMS) |
+| [fontmatrix](./fontmatrix) | amd64  | ubuntu-noble | 0.9.100+ds-1build2 | ![screen0-5.jpg](./fontmatrix/tests/screen0-5.jpg) | N/A |
+| [foobillardplus](./foobillardplus) | amd64  | ubuntu-noble | 3.43~svn170+dfsg-7build2 | ![screen0-5.jpg](./foobillardplus/tests/screen0-5.jpg) | N/A |
+| [fookb](./fookb) | amd64  | ubuntu-noble | 4.1-3 | ![screen0-5.jpg](./fookb/tests/screen0-5.jpg) | N/A |
+| [foot](./foot) | amd64  | ubuntu-noble | 1.16.2-2ubuntu0.1-20250327 | 失败 | N/A |
+| [form](./form) | amd64  | ubuntu-noble | 4.3.0+git20230104+ds-1build2-20250327 | 失败 | N/A |
+| [formiko](./formiko) | amd64  | ubuntu-noble | 1.4.3-2.1-20250327 | 失败 | N/A |
+| [fotoxx](./fotoxx) | amd64  | ubuntu-noble | 20.08-2build5 | ![screen0-5.jpg](./fotoxx/tests/screen0-5.jpg) | N/A |
+| [founder-sane-backend](./founder-sane-backend) | amd64  | deepin-v23 | 20200526-1.4.5.011-20250327 | 失败 | N/A |
+| [four-in-a-row](./four-in-a-row) | amd64  | deepin-v23 | 3.38.1-deepin1-20250327 | 失败 | N/A |
+| [foxtrotgps](./foxtrotgps) | amd64  | ubuntu-noble | 1.2.2+bzr332-1build4 | ![screen0-5.jpg](./foxtrotgps/tests/screen0-5.jpg) | N/A |
+| [fqterm](./fqterm) | amd64  | ubuntu-noble | 0.9.10.1-4build3 | ![screen0-5.jpg](./fqterm/tests/screen0-5.jpg) | N/A |
+| [fracplanet](./fracplanet) | amd64  | ubuntu-noble | 0.5.1-6build3 | ![screen0-5.jpg](./fracplanet/tests/screen0-5.jpg) | N/A |
+| [fractalnow](./fractalnow) | amd64  | ubuntu-noble | 0.8.2-5build2 | ![screen0-5.jpg](./fractalnow/tests/screen0-5.jpg) | N/A |
+| [fractgen](./fractgen) | amd64  | ubuntu-noble | 2.1.13-1build3 | ![screen0-5.jpg](./fractgen/tests/screen0-5.jpg) | N/A |
+| [fraqtive](./fraqtive) | amd64  | ubuntu-noble | 0.4.8.1-1build3 | ![screen0-5.jpg](./fraqtive/tests/screen0-5.jpg) | N/A |
+| [free42-nologo](./free42-nologo) | amd64  | ubuntu-noble | 3.1.4+ds-1build2 | ![screen0-5.jpg](./free42-nologo/tests/screen0-5.jpg) ![screen1-5.jpg](./free42-nologo/tests/screen1-5.jpg) | N/A |
+| [freealchemist](./freealchemist) | amd64  | ubuntu-noble | 0.5-2 | ![screen0-5.jpg](./freealchemist/tests/screen0-5.jpg) | N/A |
+| [freeciv-client-extras](./freeciv-client-extras) | amd64  | ubuntu-noble | 3.1.0+ds-1build5 | ![screen0-5.jpg](./freeciv-client-extras/tests/screen0-5.jpg) | N/A |
+| [freeciv-client-gtk3](./freeciv-client-gtk3) | amd64  | ubuntu-noble | 3.1.0+ds-1build5 | ![screen0-5.jpg](./freeciv-client-gtk3/tests/screen0-5.jpg) | N/A |
+| [freeciv-client-qt](./freeciv-client-qt) | amd64  | ubuntu-noble | 3.1.0+ds-1build5 | ![screen0-5.jpg](./freeciv-client-qt/tests/screen0-5.jpg) | N/A |
+| [freeciv-client-sdl](./freeciv-client-sdl) | amd64  | ubuntu-noble | 3.1.0+ds-1build5 | ![screen0-5.jpg](./freeciv-client-sdl/tests/screen0-5.jpg) | N/A |
+| [freeciv-ruleset-tools](./freeciv-ruleset-tools) | amd64  | ubuntu-noble | 3.1.0+ds-1build5 | ![screen0-5.jpg](./freeciv-ruleset-tools/tests/screen0-5.jpg) | N/A |
+| [freeciv-server](./freeciv-server) | amd64  | ubuntu-noble | 3.1.0+ds-1build5 | ![screen0-5.jpg](./freeciv-server/tests/screen0-5.jpg) | N/A |
+| [freecol](./freecol) | amd64  | ubuntu-noble | 1.1.0-1-20250327 | 失败 | N/A |
+| [freedink-dfarc](./freedink-dfarc) | amd64  | ubuntu-noble | 3.14-5build3 | ![screen0-5.jpg](./freedink-dfarc/tests/screen0-5.jpg) | N/A |
+| [freedink-engine](./freedink-engine) | amd64  | ubuntu-noble | 109.6-5 | ![screen0-5.jpg](./freedink-engine/tests/screen0-5.jpg) ![screen1-5.jpg](./freedink-engine/tests/screen1-5.jpg) | N/A |
+| [freedm](./freedm) | amd64  | ubuntu-noble | 0.13.0-1 | ![screen0-5.jpg](./freedm/tests/screen0-5.jpg) | N/A |
+| [freedoom](./freedoom) | amd64  | ubuntu-noble | 0.13.0-1 | ![screen0-5.jpg](./freedoom/tests/screen0-5.jpg) ![screen1-5.jpg](./freedoom/tests/screen1-5.jpg) | N/A |
+| [freedroid](./freedroid) | amd64  | ubuntu-noble | 1.0.2+cvs040112-7 | ![screen0-5.jpg](./freedroid/tests/screen0-5.jpg) | N/A |
+| [freedroidrpg](./freedroidrpg) | amd64  | ubuntu-noble | 1.0-1build2 | ![screen0-5.jpg](./freedroidrpg/tests/screen0-5.jpg) | N/A |
+| [freedv](./freedv) | amd64  | ubuntu-noble | 1.8.11-1build4 | ![screen0-5.jpg](./freedv/tests/screen0-5.jpg) | N/A |
+| [freefilesync](./freefilesync) | amd64  | ubuntu-noble | 13.3-2build3 | ![screen0-5.jpg](./freefilesync/tests/screen0-5.jpg) ![screen1-5.jpg](./freefilesync/tests/screen1-5.jpg) | N/A |
+| [freegish](./freegish) | amd64  | ubuntu-noble | 1.53+git20170110+dfsg-2build2 | ![screen0-5.jpg](./freegish/tests/screen0-5.jpg) | N/A |
+| [freeorion](./freeorion) | amd64  | ubuntu-noble | 0.5+git20230820-4build5 | ![screen0-5.jpg](./freeorion/tests/screen0-5.jpg) | N/A |
+| [freeplane](./freeplane) | amd64  | ubuntu-noble | 1.7.10-1-20250327 | 失败 | N/A |
+| [freespace2-launcher-wxlauncher](./freespace2-launcher-wxlauncher) | amd64  | ubuntu-noble | 0.12.0~rc3+dfsg-1build2 | ![screen0-5.jpg](./freespace2-launcher-wxlauncher/tests/screen0-5.jpg) ![screen1-5.jpg](./freespace2-launcher-wxlauncher/tests/screen1-5.jpg) | N/A |
+| [freesweep](./freesweep) | amd64  | ubuntu-noble | 1.0.2-1-20250327 | 失败 | N/A |
+| [freetuxtv](./freetuxtv) | amd64  | ubuntu-noble | 0.6.8~dfsg1-2build3 | ![screen0-5.jpg](./freetuxtv/tests/screen0-5.jpg) | N/A |
+| [freewheeling](./freewheeling) | amd64  | ubuntu-noble | 0.6.6-1build3-20250327 | 失败 | N/A |
+| [frescobaldi](./frescobaldi) | amd64  | ubuntu-noble | 3.3.0+ds1-2 | ![screen0-5.jpg](./frescobaldi/tests/screen0-5.jpg) | N/A |
+| [fritzing](./fritzing) | amd64  | ubuntu-noble | 1.0.1-1build4 | ![screen0-5.jpg](./fritzing/tests/screen0-5.jpg) | N/A |
+| [frogatto](./frogatto) | amd64  | ubuntu-noble | 1.3.1+dfsg-6build4 | ![screen0-5.jpg](./frogatto/tests/screen0-5.jpg) | N/A |
 | [galculator](./galculator) | amd64  | ubuntu-noble | 2.1.4-1.1 | ![screen0-5.jpg](./galculator/tests/screen0-5.jpg) | [SHA256SUM](./galculator/SHA256SUMS) |
 | [gamgi](./gamgi) | amd64  | ubuntu-noble | 0.17.5-1 | ![screen0-5.jpg](./gamgi/tests/screen0-5.jpg) | [SHA256SUM](./gamgi/SHA256SUMS) |
 | [gammaray](./gammaray) | amd64  | deepin-v23 | 2.11.3-3-07be3ef | 失败 | N/A |
