@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: ibus-hangul.linyaps
+  name: ibus-hangul
+  version: 1.5.5.2
+  kind: app
+  description: |-
+    Hangul engine for IBus
+    IBus is an Intelligent Input Bus. It is a new input framework for Linux
+    OS. It provides full featured and user friendly input method user interface.
+    It also may help developers to develop input method easily.
+
+    IBus-Hangul is a Korean input method engine for IBus.
+command:
+- /opt/apps/ibus-hangul.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
