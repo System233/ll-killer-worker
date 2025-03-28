@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: kde-config-fcitx5.linyaps
+  name: kde-config-fcitx5
+  version: 5.1.4.1
+  kind: app
+  description: |-
+    KDE configuration module for Fcitx5
+    This is a configuration module for System Settings for configuring
+    Fcitx Input Method Framework v5. It also provides the
+    fcitx5-plasma-theme-generator tool.
+command:
+- /opt/apps/kde-config-fcitx5.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
