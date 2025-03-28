@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: granite-7-demo.linyaps
+  name: granite-7-demo
+  version: 7.4.0.1
+  kind: app
+  description: |-
+    extension of GTK4 libraries (demo binary)
+    Granite-7 is an extension of GTK4. Among other things, it provides
+    complex widgets and convenience functions designed for use in apps
+    built for elementary OS.
+
+    This package contains a small demo application to show Granite Widgets.
+command:
+- /opt/apps/granite-7-demo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
