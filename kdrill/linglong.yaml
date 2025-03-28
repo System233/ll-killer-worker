@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kdrill.linyaps
+  name: kdrill
+  version: 6.5.0.13
+  kind: app
+  description: |-
+    kanji drill and dictionary program
+    This package provides a graphical program for learning Japanese
+    characters, which also doubles as a dictionary lookup program.
+    It requires a dictionary package, such as kanjidic (for learning
+    kanji) or kanadic (for learning hiragana or katakana), although
+    you can specify a custom dictionary file on the command line.
+command:
+- /opt/apps/kdrill.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
