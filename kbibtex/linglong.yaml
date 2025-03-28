@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: kbibtex.linyaps
+  name: kbibtex
+  version: 0.10.0.1
+  kind: app
+  description: |-
+    BibTeX editor for KDE
+    An application to manage bibliography databases in the BibTeX format. KBibTeX
+    can be used as a standalone program, but can also be embedded into other KDE
+    applications (e.g. as bibliography editor into Kile).
+
+    KBibTeX can query online resources (e.g. Google scholar) via customizable
+    search URLs. It is also able to import complete datasets from NCBI Pubmed.
+    It also supports tagging references with keywords and manages references to
+    local files.
+
+    BibTeX files can be exported into HTML, XML, PDF, PS and RTF format using a
+    number of citation styles.
+command:
+- /opt/apps/kbibtex.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
