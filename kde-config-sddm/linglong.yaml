@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: kde-config-sddm.linyaps
+  name: kde-config-sddm
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    KCM module for SDDM
+    KDE systemsettings module to configure SDDM login manager.
+command:
+- /opt/apps/kde-config-sddm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
