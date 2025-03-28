@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: minetest.linyaps
+  name: minetest
+  version: 5.6.1.4
+  kind: app
+  description: |-
+    Multiplayer infinite-world block sandbox
+    Minetest is a minecraft-inspired game written from scratch and licensed
+    under the LGPL (version 2.1 or later). It supports both survival and creative
+    modes along with multiplayer support, dynamic lighting, and an "infinite" map
+    generator.
+command:
+- /opt/apps/minetest.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
