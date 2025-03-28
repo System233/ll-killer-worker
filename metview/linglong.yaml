@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: metview.linyaps
+  name: metview
+  version: 5.21.2.1
+  kind: app
+  description: |-
+    Interactive data visualization and analysis environment,
+    Metview has been designed as a flexible, modular and extendible system
+    able to accommodate the evolving needs of the user.
+    The system is based on the ECMWF standards for graphics (Magics) and
+    data access (MARS) but can also access locally stored data.
+    The user interface is based on Motif and Qt. Metview is a
+    fully distributed system where modules can run on different workstations
+    and servers.
+
+    Metview is a cooperative project between ECMWF and INPE/CPTEC, Brazil.
+    ECMWF has also been assisted by a staff member of Météo-France.
+command:
+- /opt/apps/metview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
