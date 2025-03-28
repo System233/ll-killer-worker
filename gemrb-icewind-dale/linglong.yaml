@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: gemrb-icewind-dale.linyaps
+  name: gemrb-icewind-dale
+  version: 0.9.2.1
+  kind: app
+  description: |-
+    GemRB binary and configuration for Icewind Dale game
+    GemRB (Game Engine Made with preRendered Background) is a new implementation
+    of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+    Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+    enhancements.
+
+    This package contains configuration sample and binary for Icewind Dale game.
+command:
+- /opt/apps/gemrb-icewind-dale.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
