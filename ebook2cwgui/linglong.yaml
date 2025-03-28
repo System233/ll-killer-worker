@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: ebook2cwgui.linyaps
+  name: ebook2cwgui
+  version: 0.1.2.7
+  kind: app
+  description: |-
+    GUI for ebook2cw
+    ebook2cwgui is a graphical user interface (GUI) for the command-line program
+    ebook2cw, which converts ebooks to Morse MP3s/OGGs.
+
+    The GUI uses the same configuration file as ebook2cw, called ebook2cw.conf.
+
+    For a detailed description, please refer to the man-page or the project
+    website.
+command:
+- /opt/apps/ebook2cwgui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
