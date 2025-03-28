@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: grace.linyaps
+  name: grace
+  version: 5.1.25.14
+  kind: app
+  description: |-
+    XY graphing and plotting tool
+    Grace is a point-and-click tool that allows the user to draw X-Y plots.
+    This is the program formerly known as Xmgr.
+
+    A few of its features are: User defined scaling, tick marks, labels,
+    symbols, line styles, colors, polynomial regression, splines, running
+    averages, DFT/FFT, cross/auto-correlation, batch mode for unattended
+    plotting, and hardcopy support for PostScript, FrameMaker and several image
+    formats.
+command:
+- /opt/apps/grace.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
