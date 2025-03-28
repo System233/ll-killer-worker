@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: kshutdown.linyaps
+  name: kshutdown
+  version: 5.2.0.2
+  kind: app
+  description: |-
+    advanced shut down utility for KDE
+    It has 4 main commands:
+
+    - Shut Down (logout and halt the system),
+    - Reboot (logout and reboot the system),
+    - Lock Screen (lock the screen using a screen saver),
+    - Logout (end the session and logout the user).
+
+    It features time and delay options, command line support, wizard,
+    and sounds.
+command:
+- /opt/apps/kshutdown.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

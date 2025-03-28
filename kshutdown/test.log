@@ -1,0 +1,40 @@
+正在测试: APPID=kshutdown.linyaps LAYER=kshutdown.linyaps_5.2.0.2_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install kshutdown.linyaps_5.2.0.2_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:kshutdown.linyaps
+Layer文件:kshutdown.linyaps_5.2.0.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: kshutdown.linyaps_5.2.0.2_x86_64_binary.layer
+offset: 693
+mountpoint: /tmp/tmp.DQ5TdDMcxH/mnt
+dbglevel: 0
+[成功] kshutdown.desktop: kshutdown -> /opt/apps/kshutdown.linyaps/files/share/icons/hicolor/128x128/apps/kshutdown.png
+[成功] kshutdown.desktop: system-shutdown -> /usr/share/icons/Humanity/actions/16/system-shutdown.svg
+[31m[失败] kshutdown.desktop:system-reboot: 找不到此图标 [0m
+[成功] kshutdown.desktop: system-suspend-hibernate -> /usr/share/icons/Humanity/apps/16/system-suspend-hibernate.svg
+[成功] kshutdown.desktop: system-suspend -> /usr/share/icons/Humanity/apps/16/system-suspend.svg
+[成功] kshutdown.desktop: system-lock-screen -> /usr/share/icons/Humanity/actions/16/system-lock-screen.svg
+[成功] kshutdown.desktop: system-log-out -> /usr/share/icons/Humanity/actions/16/system-log-out.svg
+[成功] /opt/apps/kshutdown.linyaps/files/share/applications/kshutdown.desktop: /opt/apps/kshutdown.linyaps/files/entrypoint.sh kshutdown
+[正在测试启动项]
+包名:kshutdown.linyaps
+Layer文件:kshutdown.linyaps_5.2.0.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: kshutdown.linyaps_5.2.0.2_x86_64_binary.layer
+offset: 693
+mountpoint: /tmp/tmp.Kl3J0IY9PA/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run kshutdown.linyaps -- /opt/apps/kshutdown.linyaps/files/entrypoint.sh kshutdown
+[PID 23957] 进程已启动
+[PID 23957] 已检测到窗口:PID=36
+[PID 23957] 正在截图 0秒: tests/screen0-0.jpg
+[PID 23957] 正在截图 1秒: tests/screen0-1.jpg
+[PID 23957] 正在截图 3秒: tests/screen0-3.jpg
+[PID 23957] 正在截图 5秒: tests/screen0-5.jpg
+[PID 23957] 正在通知并等待进程退出
+[PID 23957] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall kshutdown.linyaps
