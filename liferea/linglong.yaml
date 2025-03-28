@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: liferea.linyaps
+  name: liferea
+  version: 1.15.4.1
+  kind: app
+  description: |-
+    feed/news/podcast client with plugin support
+    Liferea is a feed reader, a news reader, and a podcast client that brings
+    together all of the content from your favorite web subscriptions into a simple
+    interface with an embedded graphical browser that's easy to organize and
+    browse.
+    It supports:
+    * aggregating feeds in all the major syndication formats (including
+    RSS/RDF, Atom, CDF, and more);
+    * synchronizing feeds across devices, with TinyTinyRSS and
+    TheOldReader support;
+    * downloading articles for offline reading;
+    * permanently saving headlines in news bins;
+    * playing podcasts directly in Liferea's browser interface;
+    * social networking / web integration so you can share your favorite news
+    articles to Facebook, Google+, Reddit, Twitter, Slashdot, Digg, Yahoo and
+    many more.
+
+    Liferea is an abbreviation for Linux Feed Reader.
+command:
+- /opt/apps/liferea.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
