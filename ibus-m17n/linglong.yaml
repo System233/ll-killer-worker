@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ibus-m17n.linyaps
+  name: ibus-m17n
+  version: 1.4.28.1
+  kind: app
+  description: |-
+    m17n engine for IBus
+    IBus-m17n is a IM Engine for multiple languages, based on IBus.
+
+    IBus-m17n enables IBus to input many non-latin characters from the keyboard
+    using libm17n library.
+command:
+- /opt/apps/ibus-m17n.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
