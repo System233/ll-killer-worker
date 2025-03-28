@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: idle-python2.7.linyaps
+  name: idle-python2.7
+  version: 2.7.18.1
+  kind: app
+  description: |-
+    IDE for Python (v2.7) using Tkinter
+    IDLE is an Integrated Development Environment for Python (v2.7).
+    IDLE is written using Tkinter and therefore quite platform-independent.
+command:
+- /opt/apps/idle-python2.7.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
