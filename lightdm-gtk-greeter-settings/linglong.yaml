@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: lightdm-gtk-greeter-settings.linyaps
+  name: lightdm-gtk-greeter-settings
+  version: 1.2.3.0
+  kind: app
+  description: |-
+    settings editor for the LightDM GTK+ Greeter
+    A simple configuration utility for the LightDM GTK+ Greeter. All configuration
+    options available in the greeter are exposed and easily manipulated using
+    this tool.
+command:
+- /opt/apps/lightdm-gtk-greeter-settings.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
