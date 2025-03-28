@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kiten.linyaps
+  name: kiten
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Japanese reference and study aid for KDE
+    Kiten is a collection of Japanese reference tools and study aids for KDE,
+    including a Japanese/English dictionary, Kanji dictionary, and Kanji quiz.
+
+    This package is part of the KDE education module.
+command:
+- /opt/apps/kiten.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
