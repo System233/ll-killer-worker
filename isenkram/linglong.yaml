@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: isenkram.linyaps
+  name: isenkram
+  version: 0.57.0.0
+  kind: app
+  description: |-
+    Suggest packages to install when inserting new hardware (GUI popup)
+    Try to figure out which packages to suggest for use with a freshly
+    inserted hardware device.
+command:
+- /opt/apps/isenkram.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
