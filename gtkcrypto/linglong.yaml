@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: gtkcrypto.linyaps
+  name: gtkcrypto
+  version: 1.0.2.2
+  kind: app
+  description: |-
+    GTK+ application for encrypting files and computing hashes
+    GTKCrypto allows you to encrypt and sign files or text. Moreover, given a file,
+    different types of hash can be computed and files can also be compared to check
+    whether or not their content is the same.
+    Supported cipher algorithms: AES, Twofish, Serpent and Camellia, all using 256
+    bits key and operating in either CBC or CTR mode.
+    Supported hash algorithms: MD5, SHA-1, SHA-2, SHA-3, GOST, Whirlpool.
+command:
+- /opt/apps/gtkcrypto.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
