@@ -1,0 +1,29 @@
+正在测试: APPID=literki.linyaps LAYER=literki.linyaps_0.0.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install literki.linyaps_0.0.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:literki.linyaps
+Layer文件:literki.linyaps_0.0.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: literki.linyaps_0.0.0.1_arm64_binary.layer
+offset: 683
+mountpoint: /tmp/tmp.rZFJgOgaui/mnt
+dbglevel: 0
+find: ‘/opt/apps/literki.linyaps/files/share/icons’: No such file or directory
+[成功] literki.desktop: literki -> /opt/apps/literki.linyaps/files/share/pixmaps/literki.png
+[成功] /opt/apps/literki.linyaps/files/share/applications/literki.desktop: /opt/apps/literki.linyaps/files/entrypoint.sh literki
+[正在测试启动项]
+包名:literki.linyaps
+Layer文件:literki.linyaps_0.0.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: literki.linyaps_0.0.0.1_arm64_binary.layer
+offset: 683
+mountpoint: /tmp/tmp.abeJLmXCMR/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run literki.linyaps -- /opt/apps/literki.linyaps/files/entrypoint.sh literki
+[PID 5234] 进程已启动
+[PID 5234] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall literki.linyaps
