@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: gnome-multi-writer.linyaps
+  name: gnome-multi-writer
+  version: 3.32.1.2
+  kind: app
+  description: |-
+    Write an ISO file to multiple USB devices at once
+    MultiWriter can be used to write an ISO file to multiple USB devices
+    at once. Supported drive sizes are between 1Gb and 32Gb.
+
+    MultiWriter may be useful for QA testing, to create a GNOME Live image
+    for a code sprint or to create hundreds of LiveUSB drives for a trade show.
+command:
+- /opt/apps/gnome-multi-writer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
