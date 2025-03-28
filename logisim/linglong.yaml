@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: logisim.linyaps
+  name: logisim
+  version: 2.7.1.4
+  kind: app
+  description: |-
+    graphical tool for designing and simulating logic circuits
+    Logisim is an educational tool for designing and simulating digital logic
+    circuits. With its simple toolbar interface and simulation of circuits as
+    you build them, it is simple enough to facilitate learning the most basic
+    concepts related to logic circuits. With the capacity to build larger circuits
+    from smaller subcircuits, and to draw bundles of wires with a single mouse
+    drag, Logisim can be used (and is used) to design and simulate entire CPUs
+    for educational purposes.
+command:
+- /opt/apps/logisim.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
