@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: kgeotag.linyaps
+  name: kgeotag
+  version: 1.5.0.1
+  kind: app
+  description: |-
+    Photo geotagging program
+    Images can be associated with geographic coordinates (geotagging) by different
+    means: On the one hand, a matching with GPX encoded geodata can be done, on
+    the other hand, the coordinates can be set manually, either via drag and drop
+    onto a map, via bookmarks or by manually supplying them.
+
+    The coordinates can be stored in the images' Exif header and/or in XMP sidecar
+    files.
+command:
+- /opt/apps/kgeotag.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
