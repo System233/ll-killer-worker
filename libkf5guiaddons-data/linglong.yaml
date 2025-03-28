@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: libkf5guiaddons-data.linyaps
+  name: libkf5guiaddons-data
+  version: 5.115.0.0
+  kind: app
+  description: |-
+    additional addons for QtGui (documentation)
+    Qt widgets for colours, fonts and text
+
+    This package contains the data files.
+command:
+- /opt/apps/libkf5guiaddons-data.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
