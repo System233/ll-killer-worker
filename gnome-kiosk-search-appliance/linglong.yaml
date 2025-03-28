@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: gnome-kiosk-search-appliance.linyaps
+  name: gnome-kiosk-search-appliance
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    Example search application application that uses GNOME Kiosk
+    This package provides a full screen firefox window pointed to google.
+command:
+- /opt/apps/gnome-kiosk-search-appliance.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
