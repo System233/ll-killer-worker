@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gnome-shell-extension-prefs.linyaps
+  name: gnome-shell-extension-prefs
+  version: 46.0.0.0
+  kind: app
+  description: |-
+    tool to enable / disable GNOME Shell extensions
+    This package contains a tool which users who use Shell extensions can use to
+    toggle them on and off, and access their preferences.
+command:
+- /opt/apps/gnome-shell-extension-prefs.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
