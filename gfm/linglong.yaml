@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: gfm.linyaps
+  name: gfm
+  version: 1.9.71.1
+  kind: app
+  description: |-
+    Texas Instruments hand-helds file manipulation program for X
+    The GFM is an application allowing to manipulate single/group/tigroup files of
+    all Texas Instruments hand-helds. It can create a new file, open an existing
+    file, save file, rename variables, remove variables, create folders, group
+    files into a group/tigroup file, ungroup a group/tigroup file into single
+    files.
+command:
+- /opt/apps/gfm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
