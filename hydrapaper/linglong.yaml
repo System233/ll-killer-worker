@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: hydrapaper.linyaps
+  name: hydrapaper
+  version: 3.3.1.2
+  kind: app
+  description: |-
+    Wallpaper manager with multi monitor support
+    HydraPaper is a wallpaper management utility intended for the GNOME Desktop.
+    It can set background images for multiple monitor desktops independently.
+
+    It supports adapting images to different desktop ratios, zooming, centering or
+    fitting images. A CLI interface is available.
+
+    Images can be marked as favorites or set randomly. The application provides
+    options for customizing its functionality.
+
+    It is based on the GNOME Desktop but officially supports MAT, Budgie and
+    Cinnamon.
+command:
+- /opt/apps/hydrapaper.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
