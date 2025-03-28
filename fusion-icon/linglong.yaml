@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: fusion-icon.linyaps
+  name: fusion-icon
+  version: 0.2.4.8
+  kind: app
+  description: |-
+    tray icon to launch and manage Compiz
+    The OpenCompositing Project brings 3D desktop visual effects that
+    improve the usability and eye candy of the X Window System and provide
+    increased productivity.
+
+    This package contains a tray icon that allows you to easily enable, disable and
+    restart Compiz, and change the currently used window manager and/or window
+    decorator.
+command:
+- /opt/apps/fusion-icon.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
