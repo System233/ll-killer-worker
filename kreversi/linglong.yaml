@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kreversi.linyaps
+  name: kreversi
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    reversi board game
+    KReversi is a board game where two players place pieces on the board to flip
+    the opponent's pieces.  When neither player can flip any more pieces, the
+    player with the most pieces on the board wins the game.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/kreversi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
