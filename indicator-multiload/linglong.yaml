@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: indicator-multiload.linyaps
+  name: indicator-multiload
+  version: 0.4.0.0
+  kind: app
+  description: |-
+    Graphical system load indicator for CPU, ram, etc.
+    A system load indicator capable of displaying graphs for CPU, ram, and swap
+    space use, plus network traffic.
+command:
+- /opt/apps/indicator-multiload.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
