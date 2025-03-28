@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: minicom.linyaps
+  name: minicom
+  version: 2.9.0.4
+  kind: app
+  description: |-
+    Friendly menu driven serial communication program
+    Minicom is a clone of the MS-DOS "Telix" communication program. It emulates
+    ANSI and VT102 terminals, has a dialing directory and auto zmodem download.
+command:
+- /opt/apps/minicom.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
