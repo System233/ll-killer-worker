@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: eiciel.linyaps
+  name: eiciel
+  version: 0.10.0.1
+  kind: app
+  description: |-
+    graphical editor for POSIX ACLs and extended user attributes
+    A graphical tool to manipulate POSIX ACLs and extended user attributes for
+    the GNOME environment. It integrates nicely into the Nautilus file manager
+    but also features a standalone application.
+command:
+- /opt/apps/eiciel.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
