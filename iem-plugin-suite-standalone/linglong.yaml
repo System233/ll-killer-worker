@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: iem-plugin-suite-standalone.linyaps
+  name: iem-plugin-suite-standalone
+  version: 1.14.1.1
+  kind: app
+  description: |-
+    IEM's spatialization suite - standalone
+    The IEM Plug-in Suite is an audio plugin suite created at the Institute of
+    Electronic Music and Acoustics (Graz, Austria).
+    It features Higher-Order Ambisonic plug-ins (up to 7th order), among them a
+    number of state of the art encoders, directional compressors, directivity
+    shapers, delay and reverb effects and analysis tools.
+
+    This package provides the plugins as standalone applications.
+command:
+- /opt/apps/iem-plugin-suite-standalone.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
