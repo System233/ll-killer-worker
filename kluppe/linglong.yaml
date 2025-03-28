@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: kluppe.linyaps
+  name: kluppe
+  version: 0.6.20.1
+  kind: app
+  description: |-
+    loop-player and recorder designed for live use
+    kluppe is written in c and uses jack, gtk and sndfile. Features include:
+
+    - multiple files buffers, multiple 'loopers' tracks
+    - direct (gui) access to all loopers
+    - combined and per loop output ports for jack
+    - different playmodes including "granular"
+
+    kluppe is the Austrian word for clip and sounds even crazier if you loop it.
+command:
+- /opt/apps/kluppe.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
