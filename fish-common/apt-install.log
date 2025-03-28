@@ -26,7 +26,7 @@ Get:9 https://community-packages.deepin.com/beige beige/main amd64 lynx amd64 2.
 Get:10 https://community-packages.deepin.com/beige beige/main amd64 mailcap all 3.70 [31.8 kB]
 Get:11 https://community-packages.deepin.com/beige beige/main amd64 mime-support all 3.66 [2128 B]
 Get:12 https://community-packages.deepin.com/beige beige/main amd64 xsel amd64 1.2.0+git9bfc13d.20180109-3 [19.6 kB]
-Fetched 7506 kB in 2s (3337 kB/s)
+Fetched 7506 kB in 2s (4493 kB/s)
 Selecting previously unselected package libuchardet0:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
 Preparing to unpack .../00-libuchardet0_0.0.7-1deepin0_amd64.deb ...
@@ -40,8 +40,6 @@ Unpacking libpipeline1:amd64 (1.5.4-1) ...
 Selecting previously unselected package man-db.
 Preparing to unpack .../03-man-db_2.12.0-1_amd64.deb ...
 Unpacking man-db (2.12.0-1) ...
-dpkg: error processing archive /tmp/apt-dpkg-install-0DD0F5/03-man-db_2.12.0-1_amd64.deb (--unpack):
- error setting ownership of '/var/cache/man.dpkg-new': Invalid argument
 Selecting previously unselected package fish-common.
 Preparing to unpack .../04-fish-common_3.7.1-1_all.deb ...
 Unpacking fish-common (3.7.1-1) ...
@@ -66,7 +64,57 @@ Unpacking mime-support (3.66) ...
 Selecting previously unselected package xsel.
 Preparing to unpack .../11-xsel_1.2.0+git9bfc13d.20180109-3_amd64.deb ...
 Unpacking xsel (1.2.0+git9bfc13d.20180109-3) ...
-Errors were encountered while processing:
- /tmp/apt-dpkg-install-0DD0F5/03-man-db_2.12.0-1_amd64.deb
-W: chown to root:adm of file /var/log/apt/term.log failed - OpenLog (22: Invalid argument)
-E: Sub-process /usr/bin/dpkg returned an error code (1)
+Setting up libpipeline1:amd64 (1.5.4-1) ...
+Setting up xsel (1.2.0+git9bfc13d.20180109-3) ...
+Setting up libpcre2-32-0:amd64 (10.39-2) ...
+Setting up lynx-common (2.9.0dev.10-1) ...
+
+Configuration file '/etc/lynx/lynx.cfg', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/lynx/lynx.lss', does not exist on system.
+Installing new config file as you requested.
+Setting up libuchardet0:amd64 (0.0.7-1deepin0) ...
+Setting up lynx (2.9.0dev.10-1) ...
+update-alternatives: using /usr/bin/lynx to provide /usr/bin/www-browser (www-browser) in auto mode
+Setting up fish-common (3.7.1-1) ...
+
+Configuration file '/etc/fish/config.fish', does not exist on system.
+Installing new config file as you requested.
+Setting up mailcap (3.70) ...
+
+Configuration file '/etc/mailcap.order', does not exist on system.
+Installing new config file as you requested.
+Setting up mime-support (3.66) ...
+Setting up groff-base (1.23.0-2deepin1) ...
+
+Configuration file '/etc/groff/man.local', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/groff/mdoc.local', does not exist on system.
+Installing new config file as you requested.
+Setting up man-db (2.12.0-1) ...
+
+Configuration file '/etc/apparmor.d/usr.bin.man', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/cron.daily/man-db', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/cron.weekly/man-db', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/manpath.config', does not exist on system.
+Installing new config file as you requested.
+Building database of manual pages ...
+setpriv: setresuid failed: Invalid argument
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-helper line 682.
+/var/lib/dpkg/info/man-db.postinst: 145: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+man-db.service is a disabled or a static unit, not starting it.
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+man-db.timer is a disabled or a static unit, not starting it.
+Setting up fish (3.7.1-1) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
