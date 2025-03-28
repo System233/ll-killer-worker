@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: lenovo-sane-backend.linyaps
+  name: lenovo-sane-backend
+  version: 0.1.0.21166
+  kind: app
+  description: SANE-Backend for Lenovo scanner
+command:
+- /opt/apps/lenovo-sane-backend.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
