@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: gnome-subtitles.linyaps
+  name: gnome-subtitles
+  version: 1.8.0.1
+  kind: app
+  description: |-
+    Subtitle editor for the GNOME Desktop environment
+    Gnome Subtitles is a subtitle editor for the GNOME desktop.
+
+    It supports the most common text-based subtitle formats, video
+    previewing, timings synchronization and subtitle translation.
+
+    Some supported subtitle formats are: Advanced Sub Station Alpha, FAB
+    Subtitler, MicroDVD, MPlayer 1/2, MPSub, SubRip, SubViewer 1/2.
+command:
+- /opt/apps/gnome-subtitles.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
