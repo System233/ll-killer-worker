@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: kile.linyaps
+  name: kile
+  version: 2.9.93.2
+  kind: app
+  description: |-
+    KDE Integrated LaTeX Environment
+    Kile is a user-friendly LaTeX source editor and TeX shell for KDE.
+
+    The source editor is a multi-document editor designed for .tex and .bib
+    files.  Menus, wizards and auto-completion are provided to assist with
+    tag insertion and code generation.  A structural view of the document
+    assists with navigation within source files.
+
+    The TeX shell integrates the various tools required for TeX processing.
+    It assists with LaTeX compilation, DVI and postscript document viewing,
+    generation of bibliographies and indices and other common tasks.
+
+    Kile can support large projects consisting of several smaller files.
+command:
+- /opt/apps/kile.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
