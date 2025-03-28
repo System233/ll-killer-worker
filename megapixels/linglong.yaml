@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: megapixels.linyaps
+  name: megapixels
+  version: 1.8.1.1
+  kind: app
+  description: |-
+    GTK4 camera app for mobile using the V4L2 media request API
+    Megapixels is a GTK4 camera application that knows how to deal with the V4L2
+    media request API.
+command:
+- /opt/apps/megapixels.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
