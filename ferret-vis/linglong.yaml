@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: ferret-vis.linyaps
+  name: ferret-vis
+  version: 7.6.0.7
+  kind: app
+  description: |-
+    Interactive data visualization and analysis environment
+    Ferret is an interactive computer visualization and analysis environment
+    designed to meet the needs of oceanographers and meteorologists analyzing
+    large and complex gridded data sets. It can transparently access extensive
+    remote Internet data bases using OPeNDAP (formerly known as DODS)
+
+    Ferret has a Mathematica-like flexibility, geophysical formatting,
+    "intelligent" connection to its data base, memory management for very large
+    calculations, and symmetrical processing in 4 dimensions. It can work on both
+    gridded and non-gridded datasets.
+command:
+- /opt/apps/ferret-vis.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
