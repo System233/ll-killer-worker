@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: kate.linyaps
+  name: kate
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    powerful text editor
+    Kate is a powerful text editor that can open multiple files simultaneously.
+
+    With a built-in terminal, syntax highlighting, and tabbed sidebar, it performs
+    as a lightweight but capable development environment.  Kate's many tools,
+    plugins, and scripts make it highly customizable.
+
+    Kate's features include:
+
+    * Multiple saved sessions, each with numerous files
+    * Scriptable syntax highlighting, indentation, and code-folding
+    * Configurable templates and text snippets
+    * Symbol viewers for C, C++, and Python
+    * XML completion and validation
+command:
+- /opt/apps/kate.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
