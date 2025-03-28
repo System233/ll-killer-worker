@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: gourmand.linyaps
+  name: gourmand
+  version: 1.1.0.3
+  kind: app
+  description: |-
+    Recipe organizer and shopping list generator
+    Gourmet Recipe Manager is a gtk-based application to store, organize and
+    search recipes.
+
+    Features:
+    * Makes it easy to create shopping lists from recipes.
+    * Imports recipes from a number of sources, including MealMaster and
+    MasterCook archives and several popular websites.
+    * Exports recipes as PDF files, plain text, MealMaster files, HTML web pages,
+    and a custom XML format for exchange with other Gourmet users.
+    * Supports linking images with recipes.
+    * Can calculate nutritional information for recipes based on the ingredients.
+command:
+- /opt/apps/gourmand.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
