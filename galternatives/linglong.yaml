@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: galternatives.linyaps
+  name: galternatives
+  version: 1.0.9.0
+  kind: app
+  description: |-
+    graphical setup tool for the alternatives system
+    A GUI to help the system administrator to choose what program
+    should provide a given service.
+
+    This is a graphical front-end to the update-alternatives
+    program shipped with dpkg.
+command:
+- /opt/apps/galternatives.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
