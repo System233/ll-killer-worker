@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gnome-calculator.linyaps
+  name: gnome-calculator
+  version: 46.1.0.1
+  kind: app
+  description: |-
+    GNOME desktop calculator
+    The GNOME calculator is a powerful graphical calculator with financial,
+    logical and scientific modes. It uses a multiple precision package to do its
+    arithmetic to give a high degree of accuracy.
+command:
+- /opt/apps/gnome-calculator.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
