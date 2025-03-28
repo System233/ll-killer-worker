@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: mate-terminal.linyaps
+  name: mate-terminal
+  version: 1.26.1.1
+  kind: app
+  description: |-
+    MATE terminal emulator application
+    MATE Terminal is a terminal emulation application that you can use to
+    perform the following actions:
+    - Access a UNIX shell in the MATE environment.
+    - Run any application that is designed to run on VT102, VT220, and xterm
+    terminals.
+
+    MATE Terminal features the ability to use multiple terminals in a single
+    window (tabs) and profiles support.
+command:
+- /opt/apps/mate-terminal.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
