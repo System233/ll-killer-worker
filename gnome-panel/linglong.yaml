@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: gnome-panel.linyaps
+  name: gnome-panel
+  version: 3.52.0.1
+  kind: app
+  description: |-
+    traditional panel, used in GNOME Flashback
+    GNOME Flashback continues the traditional desktop interface which was used
+    in GNOME 2.x, but using modern GNOME technologies.
+
+    GNOME Panel is a part of the GNOME Flashback desktop, and provides panels
+    and default applets for the desktop. A panel is a horizontal or vertical
+    bar that can be added to a screen margin. It can contain various applets,
+    such as the menu bar, application launch icons, the clock, volume controls,
+    and displays for network connectivity, battery level, and other system
+    monitors.
+command:
+- /opt/apps/gnome-panel.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
