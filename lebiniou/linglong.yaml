@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: lebiniou.linyaps
+  name: lebiniou
+  version: 3.66.0.2
+  kind: app
+  description: |-
+    user-friendly, powerful music visualization / VJing tool
+    Le Biniou works with music, voice, ambient sounds, whatever acoustic
+    source you choose.
+
+    When you run Le Biniou it gives an evolutionary rendering of the
+    sound you are playing.
+
+    You are given two options to run Le Biniou: You can manage entirely
+    the sequences and choose your own series of images from the default
+    library, your colour scales, the kind of alteration you want to apply
+    or you can let Le Biniou's artificial intelligence run on its own.
+
+    Forget the old visualizations you are familiar with, discover a new
+    multidimensional – spatial and chromatic – way of comprehending music
+    and sounds for either artistic, recreational or didactic purposes.
+command:
+- /opt/apps/lebiniou.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
