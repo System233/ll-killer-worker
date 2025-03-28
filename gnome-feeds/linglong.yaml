@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gnome-feeds.linyaps
+  name: gnome-feeds
+  version: 2.2.0.3
+  kind: app
+  description: |-
+    RSS/Atom feed reader for GNOME
+    GNOME Feeds (gfeeds) is an RSS/Atom feed reader with an adaptative UI.
+    It is a Python3 GTK based application with a small screen compatible
+    graphical user interface. It supports importing OPML files.
+command:
+- /opt/apps/gnome-feeds.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
