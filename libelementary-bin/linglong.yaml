@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: libelementary-bin.linyaps
+  name: libelementary-bin
+  version: 1.27.0.1
+  kind: app
+  description: |-
+    EFL widget set - helper programs
+    Elementary is a widget set based on the Enlightenment Foundation
+    Libraries, primarily aimed at creating graphical user interfaces for
+    mobile and embedded devices.
+
+    This is part of the Enlightenment Foundation Libraries (EFL).
+
+    This package contains the elementary_config program and tools to
+    assist in the development & debugging of elementary programs.
+command:
+- /opt/apps/libelementary-bin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
