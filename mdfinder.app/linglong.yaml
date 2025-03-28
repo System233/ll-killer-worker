@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: mdfinder.app.linyaps
+  name: mdfinder.app
+  version: 1.0.0.1
+  kind: app
+  description: |-
+    GNUstep Finder and system-wide search system
+    MDFinder is a an application to search items already indexed by the
+    GWMetadata indexing system, a GNUstep implementation of MacOS X's
+    proprietary Spotlight.  Searches can be saved and are automatically
+    updated if the corresponding files change.  Indexing is done in the
+    background and is switched off by default.  To enable it and
+    configure the search path, use the dedicated module in
+    the SystemPreferences application.
+command:
+- /opt/apps/mdfinder.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
