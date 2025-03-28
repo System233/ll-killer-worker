@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: lomiri.linyaps
+  name: lomiri
+  version: 0.2.1.10
+  kind: app
+  description: |-
+    Shell of the Lomiri Operating Environment
+    Shell of the Lomiri Operating environment optimized for touch based
+    human-machine interaction, but also supporting convergence (i.e.
+    switching between tablet/phone and desktop mode). Lomiri is the user
+    shell driving Ubuntu Touch based mobile devices.
+
+    This package provides the Lomiri shell.
+command:
+- /opt/apps/lomiri.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
