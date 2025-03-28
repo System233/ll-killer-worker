@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: mkvtoolnix-gui.linyaps
+  name: mkvtoolnix-gui
+  version: 82.0.0.1
+  kind: app
+  description: |-
+    Set of tools to work with Matroska files - GUI frontend
+    Matroska is a new multimedia container format, based on EBML (Extensible
+    Binary Meta Language), which is a kind of binary XML.
+
+    The mmg tool is a graphical user interface for the mkvmerge program, which
+    allow one to create Matroska files from other formats.
+
+    This package also contains a graphical version of the mkvinfo tool, which
+    allow one to get information about a Matroska file.
+command:
+- /opt/apps/mkvtoolnix-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
