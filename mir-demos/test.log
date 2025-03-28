@@ -1,0 +1,28 @@
+正在测试: APPID=mir-demos.linyaps LAYER=mir-demos.linyaps_2.14.1.4_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install mir-demos.linyaps_2.14.1.4_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:mir-demos.linyaps
+Layer文件:mir-demos.linyaps_2.14.1.4_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: mir-demos.linyaps_2.14.1.4_x86_64_binary.layer
+offset: 597
+mountpoint: /tmp/tmp.qr9USnsuwn/mnt
+dbglevel: 0
+[成功] miral-shell.desktop: ubuntu-logo -> /opt/apps/mir-demos.linyaps/files/share/icons/hicolor/scalable/apps/ubuntu-logo.svg
+[成功] /opt/apps/mir-demos.linyaps/files/share/applications/miral-shell.desktop: /opt/apps/mir-demos.linyaps/files/entrypoint.sh bash --login -c miral-app
+[正在测试启动项]
+包名:mir-demos.linyaps
+Layer文件:mir-demos.linyaps_2.14.1.4_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: mir-demos.linyaps_2.14.1.4_x86_64_binary.layer
+offset: 597
+mountpoint: /tmp/tmp.gujInxUWAj/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run mir-demos.linyaps -- /opt/apps/mir-demos.linyaps/files/entrypoint.sh bash --login -c miral-app
+[PID 9796] 进程已启动
+[PID 9796] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall mir-demos.linyaps

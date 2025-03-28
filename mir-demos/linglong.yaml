@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: mir-demos.linyaps
+  name: mir-demos
+  version: 2.14.1.4
+  kind: app
+  description: |-
+    Mir Display Server - demonstration programs
+    Mir is a display server running on Linux systems, with a focus on efficiency,
+    robust operation and a well-defined driver model.
+
+    Contains demo applications that use the Mir display server
+command:
+- /opt/apps/mir-demos.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
