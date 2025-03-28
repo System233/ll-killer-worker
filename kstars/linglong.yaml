@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: kstars.linyaps
+  name: kstars
+  version: 3.6.2.2
+  kind: app
+  description: |-
+    desktop planetarium, observation planning and telescope control
+    KStars is a scientifically accurate desktop planetarium, visualising a
+    graphical simulation of the night sky from any location on Earth, at any date
+    and time.
+    The display includes 130,000 stars, 13,000 deep-sky objects, all 8 planets,
+    the Sun and Moon, and thousands of comets and asteroids. KStars addresses
+    students and amateur astronomers of all levels.
+
+    The database of known objects can be extended and updated from local or
+    remote databases, which is prepared for in a user-extendable interface.
+    KStars suggests observations of particular interest like conjunctions
+    with respect to the location of the user. And for user-selected targets it
+    proposes the ones that are best-observable.
+
+    The software may be used for planning experiments around the globe,
+    e.g. for remote controlled commercial services. But KStars also
+    features an INDI interface to control local telescopes and cameras.
+    Users with programming experience can script it via the KDE desktop bus.
+command:
+- /opt/apps/kstars.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
