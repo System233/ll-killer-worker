@@ -1,0 +1,32 @@
+version: "1"
+package:
+  id: gmerlin.linyaps
+  name: gmerlin
+  version: 2.0.0.3
+  kind: app
+  description: |-
+    multiformat media player
+    Gmerlin is a multiformat media player with tree-like virtual directory
+    structure, where you can save your files, webstreams or whatever. It
+    handles even large media collections gracefully. Hardware devices appear
+    also in the tree so you can open Audio-CDs, (S)VCDs, DVDs and
+    DVB-broadcasts.
+
+    The applications include
+
+    o The GUI player: A multiformat media player with tree-like virtual
+    directory structure, where you can save your files, webstreams or
+    whatever. Gmerlin handles even large media collections gracefully.
+    Hardware devices appear also in the tree so you can open Audio-CDs,
+    (S)VCDs, DVDs and DVB-broadcasts.
+    o Gmerlin transcoder: Feature rich transcoder, which supports audio,
+    video, subtitles and chapters.
+    o Gmerlin alsamixer: An Alsa mixer with support for multiple cards and
+    detachable mixer controls.
+    o Gmerlin visualizer: Run visualization plugins from your soundcard
+    o Plugin configurator: Configure gmerlin plugins for programs which can't
+    do this themselves.
+command:
+- /opt/apps/gmerlin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
