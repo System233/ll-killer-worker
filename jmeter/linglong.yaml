@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: jmeter.linyaps
+  name: jmeter
+  version: 2.13.0.5
+  kind: app
+  description: |-
+    Load testing and performance measurement application (main application)
+    Apache JMeter is a 100% pure Java desktop application designed to load test
+    functional behavior and measure performance. It was originally designed for
+    testing Web Applications but has since expanded to other test functions.
+
+    This package contains the main application.
+command:
+- /opt/apps/jmeter.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
