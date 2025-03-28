@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: mono-tools-gui.linyaps
+  name: mono-tools-gui
+  version: 4.2.0.3
+  kind: app
+  description: |-
+    Various GUI tools for mono
+    This package contains various GUI tools for use with Mono:
+    - gasnview
+    - ilcontrast
+    - gui-compare
+    - mperfmon
+    - gsharp
+command:
+- /opt/apps/mono-tools-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
