@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: moonshot-ui.linyaps
+  name: moonshot-ui
+  version: 1.1.0.0
+  kind: app
+  description: |-
+    Moonshot Identity Selector
+    Project moonshot provides federated authentication using EAP, RADIUS
+    and SAML to applications beyond the web platform.
+    This package provides a service to manage the local identity store
+    and to select which identity is used with a given service.
+command:
+- /opt/apps/moonshot-ui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
