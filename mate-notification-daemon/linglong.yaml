@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: mate-notification-daemon.linyaps
+  name: mate-notification-daemon
+  version: 1.26.1.1
+  kind: app
+  description: |-
+    daemon to display passive popup notifications
+    mate-notification-daemon displays passive popup notifications, as per
+    the Desktop Notifications Specification.
+
+    The Desktop Notifications Specification provides a standard way of
+    doing passive popup notifications on the Linux desktop. These are
+    designed to notify the user of something without interrupting their
+    work with a dialog box that they must close.  Passive popups can
+    automatically disappear after a short period of time, as per the
+    Desktop Notifications spec.
+command:
+- /opt/apps/mate-notification-daemon.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
