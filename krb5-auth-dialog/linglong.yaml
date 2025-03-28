@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: krb5-auth-dialog.linyaps
+  name: krb5-auth-dialog
+  version: 43.0.0.1
+  kind: app
+  description: |-
+    tray applet for reauthenticating kerberos tickets
+    krb5-auth-dialog is a simple tray applet that monitors kerberos tickets. It
+    pops up reminders when the ticket is about to expire. Tickets can be refreshed
+    at any time by clicking on the tray icon. It can also operate in "classic
+    mode" as a simple dialog without any trayicon.
+
+    It features ticket autorenewal and supports pkinit.
+command:
+- /opt/apps/krb5-auth-dialog.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
