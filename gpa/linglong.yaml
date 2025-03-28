@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gpa.linyaps
+  name: gpa
+  version: 0.10.0.6
+  kind: app
+  description: |-
+    GNU Privacy Assistant (GPA)
+    The GNU Privacy Assistant (GPA) is a graphical user interface for the
+    GNU Privacy Guard (GnuPG).  It can be used to encrypt, decrypt, and sign
+    files, to verify signatures and to manage the private and public keys.
+command:
+- /opt/apps/gpa.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
