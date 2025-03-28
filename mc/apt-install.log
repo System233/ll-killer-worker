@@ -1,0 +1,83 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libgpm2 libslang2 mailcap mc-data
+Suggested packages:
+  gpm antiword arc | arcanist arj cabextract catdoc texlive-binaries clzip
+  | lunzip | lzd | lzip | lziprecover | minilzip | pdlzip | plzip ctorrent
+  dbview default-jdk-headless djview4 djvulibre-bin elinks epub-utils
+  | ncbi-entrez-direct exif genisoimage gettext glade gputils groff-base gv
+  imagemagick info jlha-utils | lhasa kchmviewer libaspell-dev libbatik-java
+  libchm-bin liblz4-tool libxml2-utils links2 links | w3m | lynx lyx man-db
+  mikmod mpg321 mplayer odt2txt | unoconv p7zip-full par2 poedit | potool
+  procyon-decompiler python3-boto python3-tz rar rpm sox timidity unace
+  | unace-nonfree unalz unar unrar | unrar-free vorbis-tools wimtools wv xpdf
+  | pdf-viewer xpmutils zip
+The following NEW packages will be installed:
+  libgpm2 libslang2 mailcap mc mc-data
+0 upgraded, 5 newly installed, 0 to remove and 234 not upgraded.
+Need to get 2363 kB of archives.
+After this operation, 10.1 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main arm64 libgpm2 arm64 1.20.7-9 [14.0 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main arm64 libslang2 arm64 2.3.2-5 [465 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main arm64 mailcap all 3.70 [31.8 kB]
+Get:4 https://community-packages.deepin.com/beige beige/community arm64 mc-data all 3:4.8.31-1 [1346 kB]
+Get:5 https://community-packages.deepin.com/beige beige/community arm64 mc arm64 3:4.8.31-1 [507 kB]
+Fetched 2363 kB in 2s (1431 kB/s)
+Selecting previously unselected package libgpm2:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libgpm2_1.20.7-9_arm64.deb ...
+Unpacking libgpm2:arm64 (1.20.7-9) ...
+Selecting previously unselected package libslang2:arm64.
+Preparing to unpack .../libslang2_2.3.2-5_arm64.deb ...
+Unpacking libslang2:arm64 (2.3.2-5) ...
+Selecting previously unselected package mailcap.
+Preparing to unpack .../archives/mailcap_3.70_all.deb ...
+Unpacking mailcap (3.70) ...
+Selecting previously unselected package mc-data.
+Preparing to unpack .../mc-data_3%3a4.8.31-1_all.deb ...
+Unpacking mc-data (3:4.8.31-1) ...
+Selecting previously unselected package mc.
+Preparing to unpack .../mc_3%3a4.8.31-1_arm64.deb ...
+Unpacking mc (3:4.8.31-1) ...
+Setting up libgpm2:arm64 (1.20.7-9) ...
+Setting up libslang2:arm64 (2.3.2-5) ...
+Setting up mc-data (3:4.8.31-1) ...
+Setting up mailcap (3.70) ...
+
+Configuration file '/etc/mailcap.order', does not exist on system.
+Installing new config file as you requested.
+Setting up mc (3:4.8.31-1) ...
+
+Configuration file '/etc/mc/edit.indent.rc', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/mc/filehighlight.ini', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/mc/mc.default.keymap', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/mc/mc.emacs.keymap', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/mc/mc.ext.ini', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/mc/mc.menu', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/mc/mcedit.menu', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/mc/sfs.ini', does not exist on system.
+Installing new config file as you requested.
+update-alternatives: using /usr/bin/mcview to provide /usr/bin/view (view) in auto mode
+update-alternatives: using /usr/bin/mcedit to provide /usr/bin/editor (editor) in auto mode
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libc-bin (2.38-6deepin4) ...
