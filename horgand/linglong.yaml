@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: horgand.linyaps
+  name: horgand
+  version: 1.14.0.8
+  kind: app
+  description: |-
+    JACK capable organ softsynth
+    Horgand is a JACK capable organ client with presets and some effects
+    incorporated. It generates the sound in real time like a FM
+    synthesizer. Due this, you can change the frequency of all the drawars
+    and add some special effects. It features auto-accompaniment, looped
+    drums, and a bass line in a wave table way.
+command:
+- /opt/apps/horgand.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
