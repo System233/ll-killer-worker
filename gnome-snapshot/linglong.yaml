@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gnome-snapshot.linyaps
+  name: gnome-snapshot
+  version: 46.2.0.1
+  kind: app
+  description: |-
+    Take pictures and videos from your webcam
+    snapshot is an app that allows you to take pictures and videos
+    with your system's camera. It became GNOME's default webcam app
+    in GNOME 45.
+command:
+- /opt/apps/gnome-snapshot.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
