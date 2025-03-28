@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: gvidm.linyaps
+  name: gvidm
+  version: 0.8.0.15
+  kind: app
+  description: |-
+    quickly and easily change video resolutions in X
+    Running gvidm will pop up a list of available modes and allows the user
+    to select one if desired. This makes it perfect for running from an
+    application menu or a hotkey, so you don't have to use ram for an applet
+    constantly running. If you are running dual or multi-head displays, it
+    will give you a list of screens so you can select the appropriate one.
+command:
+- /opt/apps/gvidm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
