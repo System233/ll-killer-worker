@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: extremetuxracer.linyaps
+  name: extremetuxracer
+  version: 0.8.3.1
+  kind: app
+  description: |-
+    3D racing game featuring Tux, the Linux penguin
+    Extreme Tux Racer, or etracer as it is called for short, is a simple OpenGL
+    racing game featuring Tux, the Linux mascot. The goal of the game is to slide
+    down a snow- and ice-covered mountain as quickly as possible, avoiding the
+    trees and rocks that will slow you down.
+
+    Collect herrings and other goodies while sliding down the hill, but avoid fish
+    bones.
+
+    This game is based on the GPL version of the famous game TuxRacer.
+
+    You must have working 3D acceleration or this game will run quite slowly.
+command:
+- /opt/apps/extremetuxracer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
