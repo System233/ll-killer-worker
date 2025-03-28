@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kcollectd.linyaps
+  name: kcollectd
+  version: 0.12.1.1
+  kind: app
+  description: |-
+    simple collectd graphing front-end for KDE
+    This package provides a basic KDE application for viewing RRD files
+    created by collectd, the system statistics storage daemon. It allows
+    easy mouse-driven navigation through data collections and can be used
+    as a virtual chart recorder.
+command:
+- /opt/apps/kcollectd.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
