@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: mcu8051ide.linyaps
+  name: mcu8051ide
+  version: 1.4.9.2
+  kind: app
+  description: |-
+    Graphical Integrated Development Environment for 8051
+    MCU 8051 IDE is an integrated development environment for microcontrollers
+    based on 8051. Supported programming languages are C and assembly. It has
+    its own assembler and it supports two other external assemblers. For C
+    language it uses the SDCC compiler.
+command:
+- /opt/apps/mcu8051ide.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
