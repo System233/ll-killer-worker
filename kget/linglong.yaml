@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kget.linyaps
+  name: kget
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    download manager
+    KGet is an advanced download manager with support for Metalink and Bittorrent.
+    Downloads are added to the list, where they can be paused, queued, or
+    scheduled for later.
+
+    This package is part of the KDE networking module.
+command:
+- /opt/apps/kget.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
