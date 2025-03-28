@@ -1,1389 +1,1390 @@
 # amd64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3160|1376|798 |578 | 57.99%| 25.25%|
+|3160|1377|799 |578 | 58.02%| 25.28%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2779|1090|696 |394 | 63.85%| 25.04%|
+|ubuntu-noble|2779|1091|697 |394 | 63.89%| 25.08%|
 |deepin-v23|380|285|101 |184 | 35.44%| 26.58%|
 |obs-studio|1|1|1 |0 | 100.00%| 100.00%|
 ## 详细结果
-| 包名   | 架构 |仓库| 版本    | 测试结果 | SHA256 |
-|-------|------|-----|----|---------|-----------|
-| [0install](./0install) | amd64  | ubuntu-noble | 2.18-2ubuntu2 | ![screen0-5.jpg](./0install/tests/screen0-5.jpg) | N/A |
-| [2048](./2048) | amd64  | ubuntu-noble | 0.20221023.1237-1-20250327 | 失败 | N/A |
-| [2048-qt](./2048-qt) | amd64  | ubuntu-noble | 0.1.6-2build4 | ![screen0-5.jpg](./2048-qt/tests/screen0-5.jpg) | N/A |
-| [3dchess](./3dchess) | amd64  | ubuntu-noble | 0.8.1-21ubuntu1 | ![screen0-5.jpg](./3dchess/tests/screen0-5.jpg) | N/A |
-| [3depict](./3depict) | amd64  | ubuntu-noble | 0.0.23-2build3 | ![screen0-5.jpg](./3depict/tests/screen0-5.jpg) | N/A |
-| [4pane](./4pane) | amd64  | ubuntu-noble | 8.0-1build4 | ![screen0-5.jpg](./4pane/tests/screen0-5.jpg) | N/A |
-| [7kaa](./7kaa) | amd64  | ubuntu-noble | 2.15.6+ds-1build2 | ![screen0-5.jpg](./7kaa/tests/screen0-5.jpg) | N/A |
-| [a2d](./a2d) | amd64  | ubuntu-noble | 2.0.3-2-20250327 | 失败 | N/A |
-| [a7xpg](./a7xpg) | amd64  | ubuntu-noble | 0.11.dfsg1-11 | ![screen0-5.jpg](./a7xpg/tests/screen0-5.jpg) | N/A |
-| [abe](./abe) | amd64  | ubuntu-noble | 1.1+dfsg-5 | ![screen0-5.jpg](./abe/tests/screen0-5.jpg) | N/A |
-| [abiword](./abiword) | amd64  | ubuntu-noble | 3.0.5~dfsg-3.2build4 | ![screen0-5.jpg](./abiword/tests/screen0-5.jpg) | N/A |
-| [accerciser](./accerciser) | amd64  | ubuntu-noble | 3.42.0-1ubuntu0.1-20250327 | 失败 | N/A |
-| [accountwizard](./accountwizard) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3-20250327 | 失败 | N/A |
-| [ace-of-penguins](./ace-of-penguins) | amd64  | ubuntu-noble | 1.5~rc2-5ubuntu4 | ![screen0-5.jpg](./ace-of-penguins/tests/screen0-5.jpg) ![screen1-5.jpg](./ace-of-penguins/tests/screen1-5.jpg) ![screen2-5.jpg](./ace-of-penguins/tests/screen2-5.jpg) ![screen3-5.jpg](./ace-of-penguins/tests/screen3-5.jpg) ![screen4-5.jpg](./ace-of-penguins/tests/screen4-5.jpg) ![screen5-5.jpg](./ace-of-penguins/tests/screen5-5.jpg) ![screen6-5.jpg](./ace-of-penguins/tests/screen6-5.jpg) ![screen7-5.jpg](./ace-of-penguins/tests/screen7-5.jpg) ![screen8-5.jpg](./ace-of-penguins/tests/screen8-5.jpg) ![screen9-5.jpg](./ace-of-penguins/tests/screen9-5.jpg) ![screen10-5.jpg](./ace-of-penguins/tests/screen10-5.jpg) ![screen11-5.jpg](./ace-of-penguins/tests/screen11-5.jpg) | N/A |
-| [acetoneiso](./acetoneiso) | amd64  | ubuntu-noble | 2.4-4build2 | ![screen0-5.jpg](./acetoneiso/tests/screen0-5.jpg) | N/A |
-| [achilles](./achilles) | amd64  | ubuntu-noble | 2-12build2 | ![screen0-5.jpg](./achilles/tests/screen0-5.jpg) | N/A |
-| [aclock.app](./aclock.app) | amd64  | ubuntu-noble | 0.4.0-2build5 | ![screen0-5.jpg](./aclock.app/tests/screen0-5.jpg) | N/A |
-| [aconnectgui](./aconnectgui) | amd64  | ubuntu-noble | 0.9.0rc2-1-10.3build2 | ![screen0-5.jpg](./aconnectgui/tests/screen0-5.jpg) | N/A |
-| [actiona](./actiona) | amd64  | ubuntu-noble | 3.10.1-1build6 | ![screen0-5.jpg](./actiona/tests/screen0-5.jpg) | N/A |
-| [activity-aware-firefox](./activity-aware-firefox) | amd64  | ubuntu-noble | 0.4.2-1-20250327 | 失败 | N/A |
-| [activity-log-manager](./activity-log-manager) | amd64  | ubuntu-noble | 0.9.7-0ubuntu31 | ![screen0-5.jpg](./activity-log-manager/tests/screen0-5.jpg) | N/A |
-| [add64](./add64) | amd64  | ubuntu-noble | 3.9.3-0ubuntu3 | ![screen0-5.jpg](./add64/tests/screen0-5.jpg) | N/A |
-| [addressmanager.app](./addressmanager.app) | amd64  | ubuntu-noble | 0.4.8-3build6 | ![screen0-5.jpg](./addressmanager.app/tests/screen0-5.jpg) | N/A |
-| [adonthell-data](./adonthell-data) | amd64  | ubuntu-noble | 0.3.8-1 | ![screen0-5.jpg](./adonthell-data/tests/screen0-5.jpg) | N/A |
-| [adun.app](./adun.app) | amd64  | ubuntu-noble | 0.81-14build4 | ![screen0-5.jpg](./adun.app/tests/screen0-5.jpg) | N/A |
-| [aegisub](./aegisub) | amd64  | ubuntu-noble | 3.2.2+dfsg-7.1build2 | ![screen0-5.jpg](./aegisub/tests/screen0-5.jpg) | N/A |
-| [aeolus](./aeolus) | amd64  | ubuntu-noble | 0.10.4-1build3-20250327 | 失败 | N/A |
-| [aerc](./aerc) | amd64  | ubuntu-noble | 0.17.0-1ubuntu0.24.04.2-20250327 | 失败 | N/A |
-| [afterstep](./afterstep) | amd64  | ubuntu-noble | 2.2.12-17.1build3-20250327 | 失败 | N/A |
-| [afterstep-data](./afterstep-data) | amd64  | ubuntu-noble | 2.2.12-17.1build3-20250327 | 失败 | N/A |
-| [agenda.app](./agenda.app) | amd64  | ubuntu-noble | 0.46-3build3 | ![screen0-5.jpg](./agenda.app/tests/screen0-5.jpg) | N/A |
-| [aghermann](./aghermann) | amd64  | ubuntu-noble | 1.1.2-5build2 | ![screen0-5.jpg](./aghermann/tests/screen0-5.jpg) | N/A |
-| [agordejo](./agordejo) | amd64  | ubuntu-noble | 0.4.2-0ubuntu1-20250327 | 失败 | N/A |
-| [airstrike](./airstrike) | amd64  | ubuntu-noble | 0.99+1.0pre6a-11 | ![screen0-5.jpg](./airstrike/tests/screen0-5.jpg) | N/A |
-| [aisleriot](./aisleriot) | amd64  | ubuntu-noble | 3.22.31-1build2 | ![screen0-5.jpg](./aisleriot/tests/screen0-5.jpg) | N/A |
-| [akira](./akira) | amd64  | ubuntu-noble | 0.0.16-2build2 | ![screen0-5.jpg](./akira/tests/screen0-5.jpg) | N/A |
-| [akonadi-import-wizard](./akonadi-import-wizard) | amd64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./akonadi-import-wizard/tests/screen0-5.jpg) | N/A |
-| [akonadiconsole](./akonadiconsole) | amd64  | ubuntu-noble | 23.08.5-0ubuntu5.2 | ![screen0-5.jpg](./akonadiconsole/tests/screen0-5.jpg) | N/A |
-| [akregator](./akregator) | amd64  | ubuntu-noble | 23.08.5-0ubuntu4.1 | ![screen0-5.jpg](./akregator/tests/screen0-5.jpg) | N/A |
-| [alacarte](./alacarte) | amd64  | ubuntu-noble | 3.52.0-1-20250327 | 失败 | N/A |
-| [alacritty](./alacritty) | amd64  | deepin-v23 | 0.13.2-2 | ![screen0-5.jpg](./alacritty/tests/screen0-5.jpg) | [SHA256](./alacritty/SHA256SUMS) |
-| [aladin](./aladin) | amd64  | ubuntu-noble | 12.060+dfsg-3 | ![screen0-5.jpg](./aladin/tests/screen0-5.jpg) | N/A |
-| [alarm-clock-applet](./alarm-clock-applet) | amd64  | ubuntu-noble | 0.4.1-5build2 | ![screen0-5.jpg](./alarm-clock-applet/tests/screen0-5.jpg) | N/A |
-| [alex4](./alex4) | amd64  | ubuntu-noble | 1.1-10ubuntu4-20250327 | 失败 | N/A |
-| [algobox](./algobox) | amd64  | ubuntu-noble | 1.1.1+dfsg-1build2 | ![screen0-5.jpg](./algobox/tests/screen0-5.jpg) | N/A |
-| [alien-arena](./alien-arena) | amd64  | ubuntu-noble | 7.71.3+dfsg-3ubuntu1-20250327 | 失败 | N/A |
-| [alienblaster](./alienblaster) | amd64  | ubuntu-noble | 1.1.0-11 | ![screen0-5.jpg](./alienblaster/tests/screen0-5.jpg) | N/A |
-| [aliki](./aliki) | amd64  | ubuntu-noble | 0.3.0-6build2 | ![screen0-5.jpg](./aliki/tests/screen0-5.jpg) ![screen1-5.jpg](./aliki/tests/screen1-5.jpg) | N/A |
-| [alkimia-bin](./alkimia-bin) | amd64  | ubuntu-noble | 8.1.2-2build2-20250327 | 失败 | N/A |
-| [allure](./allure) | amd64  | ubuntu-noble | 0.11.0.0-1 | ![screen0-5.jpg](./allure/tests/screen0-5.jpg) | N/A |
-| [almanah](./almanah) | amd64  | ubuntu-noble | 0.12.3-2build3 | ![screen0-5.jpg](./almanah/tests/screen0-5.jpg) | N/A |
-| [alsa-scarlett-gui](./alsa-scarlett-gui) | amd64  | ubuntu-noble | 0.4.0-1 | ![screen0-5.jpg](./alsa-scarlett-gui/tests/screen0-5.jpg) | N/A |
-| [alsa-tools-gui](./alsa-tools-gui) | amd64  | deepin-v23 | 1.2.11-1.1-20250327 | 失败 | N/A |
-| [alsamixergui](./alsamixergui) | amd64  | ubuntu-noble | 0.9.0rc2-1-10.2build2 | ![screen0-5.jpg](./alsamixergui/tests/screen0-5.jpg) | N/A |
-| [alsaplayer-common](./alsaplayer-common) | amd64  | ubuntu-noble | 0.99.81-2build6 | ![screen0-5.jpg](./alsaplayer-common/tests/screen0-5.jpg) | N/A |
-| [altos](./altos) | amd64  | ubuntu-noble | 1.9.17-1ubuntu3 | ![screen0-5.jpg](./altos/tests/screen0-5.jpg) ![screen1-5.jpg](./altos/tests/screen1-5.jpg) ![screen2-5.jpg](./altos/tests/screen2-5.jpg) | N/A |
-| [amberol](./amberol) | amd64  | ubuntu-noble | 0.10.3-3ubuntu1 | ![screen0-5.jpg](./amberol/tests/screen0-5.jpg) | N/A |
-| [amide](./amide) | amd64  | ubuntu-noble | 1.0.6-5build2 | ![screen0-5.jpg](./amide/tests/screen0-5.jpg) | N/A |
-| [amoebax](./amoebax) | amd64  | ubuntu-noble | 0.2.1+dfsg-6 | ![screen0-5.jpg](./amoebax/tests/screen0-5.jpg) | N/A |
-| [amphetamine](./amphetamine) | amd64  | ubuntu-noble | 0.8.10-21build1 | ![screen0-5.jpg](./amphetamine/tests/screen0-5.jpg) | N/A |
-| [ams](./ams) | amd64  | ubuntu-noble | 2.2.1-1build3-20250327 | 失败 | N/A |
-| [amsynth](./amsynth) | amd64  | ubuntu-noble | 1.13.2-1build2 | ![screen0-5.jpg](./amsynth/tests/screen0-5.jpg) | N/A |
-| [amule](./amule) | amd64  | ubuntu-noble | 2.3.3-3build5 | ![screen0-5.jpg](./amule/tests/screen0-5.jpg) | N/A |
-| [amule-utils-gui](./amule-utils-gui) | amd64  | ubuntu-noble | 2.3.3-3build5 | ![screen0-5.jpg](./amule-utils-gui/tests/screen0-5.jpg) ![screen1-5.jpg](./amule-utils-gui/tests/screen1-5.jpg) ![screen2-5.jpg](./amule-utils-gui/tests/screen2-5.jpg) | N/A |
-| [anarchism](./anarchism) | amd64  | ubuntu-noble | 15.3-3-20250327 | 失败 | N/A |
-| [android-file-transfer](./android-file-transfer) | amd64  | ubuntu-noble | 4.3-1build3 | ![screen0-5.jpg](./android-file-transfer/tests/screen0-5.jpg) | N/A |
-| [angband-data](./angband-data) | amd64  | ubuntu-noble | 4.2.5+dfsg1-1-20250327 | 失败 | N/A |
-| [angelfish](./angelfish) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3-20250327 | 失败 | N/A |
-| [angrydd](./angrydd) | amd64  | ubuntu-noble | 1.0.1-14 | ![screen0-5.jpg](./angrydd/tests/screen0-5.jpg) | N/A |
-| [anki](./anki) | amd64  | ubuntu-noble | 2.1.15+dfsg-3ubuntu4.1 | ![screen0-5.jpg](./anki/tests/screen0-5.jpg) | N/A |
-| [ansifilter-gui](./ansifilter-gui) | amd64  | ubuntu-noble | 2.18+dfsg1-2build2 | ![screen0-5.jpg](./ansifilter-gui/tests/screen0-5.jpg) | N/A |
-| [antigravitaattori](./antigravitaattori) | amd64  | ubuntu-noble | 0.0.3-10build2-20250327 | 失败 | N/A |
-| [antimicro](./antimicro) | amd64  | ubuntu-noble | 3.1.4-2 | ![screen0-5.jpg](./antimicro/tests/screen0-5.jpg) | N/A |
-| [antimony](./antimony) | amd64  | ubuntu-noble | 0.9.3-2build9 | ![screen0-5.jpg](./antimony/tests/screen0-5.jpg) | N/A |
-| [anymeal](./anymeal) | amd64  | ubuntu-noble | 1.26-1build2 | ![screen0-5.jpg](./anymeal/tests/screen0-5.jpg) | N/A |
-| [aobook](./aobook) | amd64  | ubuntu-noble | 1.0.3-3build2 | ![screen0-5.jpg](./aobook/tests/screen0-5.jpg) | N/A |
-| [aoflagger](./aoflagger) | amd64  | ubuntu-noble | 3.4.0-2build4 | ![screen0-5.jpg](./aoflagger/tests/screen0-5.jpg) ![screen1-5.jpg](./aoflagger/tests/screen1-5.jpg) | N/A |
-| [apitrace-gui](./apitrace-gui) | amd64  | ubuntu-noble | 11.1+repack-1.2build3 | ![screen0-5.jpg](./apitrace-gui/tests/screen0-5.jpg) | N/A |
-| [apostrophe](./apostrophe) | amd64  | ubuntu-noble | 2.6.3-4-20250327 | 失败 | N/A |
-| [apper](./apper) | amd64  | ubuntu-noble | 1.0.0-5build2-20250327 | 失败 | N/A |
-| [apport-gtk](./apport-gtk) | amd64  | ubuntu-noble | 2.28.1-0ubuntu3.5-20250327 | 失败 | N/A |
-| [apport-kde](./apport-kde) | amd64  | ubuntu-noble | 2.28.1-0ubuntu3.5-20250327 | 失败 | N/A |
-| [apt-offline-gui](./apt-offline-gui) | amd64  | ubuntu-noble | 1.8.5-1 | ![screen0-5.jpg](./apt-offline-gui/tests/screen0-5.jpg) | N/A |
-| [apturl-common](./apturl-common) | amd64  | ubuntu-noble | 0.5.2ubuntu23-20250327 | 失败 | N/A |
-| [apvlv](./apvlv) | amd64  | ubuntu-noble | 0.5.0+repack-2build3 | ![screen0-5.jpg](./apvlv/tests/screen0-5.jpg) | N/A |
-| [aqemu](./aqemu) | amd64  | ubuntu-noble | 0.9.2-3ubuntu2 | ![screen0-5.jpg](./aqemu/tests/screen0-5.jpg) | N/A |
-| [arandr](./arandr) | amd64  | ubuntu-noble | 0.1.11-1-20250327 | 失败 | N/A |
-| [aranym](./aranym) | amd64  | ubuntu-noble | 1.1.0-2 | ![screen0-5.jpg](./aranym/tests/screen0-5.jpg) ![screen1-5.jpg](./aranym/tests/screen1-5.jpg) ![screen2-5.jpg](./aranym/tests/screen2-5.jpg) | N/A |
-| [aravis-tools](./aravis-tools) | amd64  | ubuntu-noble | 0.8.30-1build2-20250327 | 失败 | N/A |
-| [arb](./arb) | amd64  | ubuntu-noble | 6.0.6-7build3-20250327 | 失败 | N/A |
-| [arc-gui-clients](./arc-gui-clients) | amd64  | ubuntu-noble | 0.4.6-7build5 | ![screen0-5.jpg](./arc-gui-clients/tests/screen0-5.jpg) ![screen1-5.jpg](./arc-gui-clients/tests/screen1-5.jpg) ![screen3-5.jpg](./arc-gui-clients/tests/screen3-5.jpg) ![screen4-5.jpg](./arc-gui-clients/tests/screen4-5.jpg) | N/A |
-| [ardentryst](./ardentryst) | amd64  | ubuntu-noble | 1.71-10 | ![screen0-5.jpg](./ardentryst/tests/screen0-5.jpg) | N/A |
-| [ardour](./ardour) | amd64  | ubuntu-noble | 8.4.0+ds1-2ubuntu8 | ![screen0-5.jpg](./ardour/tests/screen0-5.jpg) | N/A |
-| [arduino](./arduino) | amd64  | ubuntu-noble | 1.8.19+dfsg1-2 | ![screen0-5.jpg](./arduino/tests/screen0-5.jpg) | N/A |
-| [ares](./ares) | amd64  | ubuntu-noble | 134+dfsg-1build2 | ![screen0-5.jpg](./ares/tests/screen0-5.jpg) | N/A |
-| [ario](./ario) | amd64  | ubuntu-noble | 1.6-1.2build4 | ![screen0-5.jpg](./ario/tests/screen0-5.jpg) | N/A |
-| [ark](./ark) | amd64  | ubuntu-noble | 23.08.5-0ubuntu5 | ![screen0-5.jpg](./ark/tests/screen0-5.jpg) | N/A |
-| [armagetronad](./armagetronad) | amd64  | ubuntu-noble | 0.2.9.1.1-1build2 | ![screen0-5.jpg](./armagetronad/tests/screen0-5.jpg) | N/A |
-| [arqiver](./arqiver) | amd64  | ubuntu-noble | 0.9.0-1build2 | ![screen0-5.jpg](./arqiver/tests/screen0-5.jpg) | N/A |
-| [artemis](./artemis) | amd64  | ubuntu-noble | 18.2.0+dfsg-3 | ![screen0-5.jpg](./artemis/tests/screen0-5.jpg) ![screen1-5.jpg](./artemis/tests/screen1-5.jpg) ![screen2-5.jpg](./artemis/tests/screen2-5.jpg) ![screen3-5.jpg](./artemis/tests/screen3-5.jpg) | N/A |
-| [artha](./artha) | amd64  | ubuntu-noble | 1.0.5-3build2 | ![screen0-5.jpg](./artha/tests/screen0-5.jpg) | N/A |
-| [artikulate](./artikulate) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./artikulate/tests/screen0-5.jpg) | N/A |
-| [asc](./asc) | amd64  | ubuntu-noble | 2.6.1.0-9build5 | ![screen0-5.jpg](./asc/tests/screen0-5.jpg) | N/A |
-| [asciijump](./asciijump) | amd64  | ubuntu-noble | 1.0.2~beta-10-20250327 | 失败 | N/A |
-| [ase](./ase) | amd64  | ubuntu-noble | 3.22.1-4 | ![screen0-5.jpg](./ase/tests/screen0-5.jpg) | N/A |
-| [aseba](./aseba) | amd64  | ubuntu-noble | 1.6.99+dfsg-9build2 | ![screen0-5.jpg](./aseba/tests/screen0-5.jpg) ![screen2-5.jpg](./aseba/tests/screen2-5.jpg) ![screen3-5.jpg](./aseba/tests/screen3-5.jpg) ![screen4-5.jpg](./aseba/tests/screen4-5.jpg) ![screen5-5.jpg](./aseba/tests/screen5-5.jpg) ![screen6-5.jpg](./aseba/tests/screen6-5.jpg) ![screen8-5.jpg](./aseba/tests/screen8-5.jpg) | N/A |
-| [assaultcube](./assaultcube) | amd64  | ubuntu-noble | 1.3.0.2+dfsg-5 | ![screen0-5.jpg](./assaultcube/tests/screen0-5.jpg) | N/A |
-| [astromenace](./astromenace) | amd64  | ubuntu-noble | 1.3.2+repack-7 | ![screen0-5.jpg](./astromenace/tests/screen0-5.jpg) | N/A |
-| [asunder](./asunder) | amd64  | ubuntu-noble | 3.0.1+ds-1build2 | ![screen0-5.jpg](./asunder/tests/screen0-5.jpg) | N/A |
-| [asylum](./asylum) | amd64  | ubuntu-noble | 0.3.2-3build1 | ![screen0-5.jpg](./asylum/tests/screen0-5.jpg) | N/A |
-| [atanks](./atanks) | amd64  | ubuntu-noble | 6.6~dfsg-1build2 | ![screen0-5.jpg](./atanks/tests/screen0-5.jpg) | N/A |
-| [atari800](./atari800) | amd64  | ubuntu-noble | 5.0.0-1build2 | ![screen0-5.jpg](./atari800/tests/screen0-5.jpg) | N/A |
-| [atomes](./atomes) | amd64  | ubuntu-noble | 1.1.12+repack-2ubuntu2 | ![screen0-5.jpg](./atomes/tests/screen0-5.jpg) | N/A |
-| [atomix](./atomix) | amd64  | ubuntu-noble | 44.0-3build3 | ![screen0-5.jpg](./atomix/tests/screen0-5.jpg) | N/A |
-| [atril](./atril) | amd64  | ubuntu-noble | 1.26.2-3build2 | ![screen0-5.jpg](./atril/tests/screen0-5.jpg) | N/A |
-| [audacious](./audacious) | amd64  | ubuntu-noble | 4.3.1-2.1build2 | ![screen0-5.jpg](./audacious/tests/screen0-5.jpg) | N/A |
-| [audacity](./audacity) | amd64  | deepin-v23 | 3.4.2+dfsg-1deepin0 | ![screen0-5.jpg](./audacity/tests/screen0-5.jpg) | [SHA256](./audacity/SHA256SUMS) |
-| [audmes](./audmes) | amd64  | ubuntu-noble | 2024.02.18-1build2 | ![screen0-5.jpg](./audmes/tests/screen0-5.jpg) | N/A |
-| [aumix](./aumix) | amd64  | ubuntu-noble | 2.9.1-7.1-20250327 | 失败 | N/A |
-| [auralquiz](./auralquiz) | amd64  | ubuntu-noble | 1.0.0-3build3 | ![screen0-5.jpg](./auralquiz/tests/screen0-5.jpg) | N/A |
-| [aurora-printer-a121](./aurora-printer-a121) | amd64  | deepin-v23 | 1.0.3-20250327 | 失败 | N/A |
-| [ausweisapp](./ausweisapp) | amd64  | ubuntu-noble | 2.1.0-1build1 | ![screen0-5.jpg](./ausweisapp/tests/screen0-5.jpg) | N/A |
-| [auto-multiple-choice](./auto-multiple-choice) | amd64  | ubuntu-noble | 1.6.0-3build4-20250327 | 失败 | N/A |
-| [autokey-gtk](./autokey-gtk) | amd64  | ubuntu-noble | 0.95.10-2.1-20250327 | 失败 | N/A |
-| [autokey-qt](./autokey-qt) | amd64  | ubuntu-noble | 0.95.10-2.1 | ![screen0-5.jpg](./autokey-qt/tests/screen0-5.jpg) | N/A |
-| [autorenamer](./autorenamer) | amd64  | ubuntu-noble | 0.6-1-20250327 | 失败 | N/A |
-| [avahi-discover](./avahi-discover) | amd64  | ubuntu-noble | 0.8-13ubuntu6-20250327 | 失败 | N/A |
-| [avahi-ui-utils](./avahi-ui-utils) | amd64  | ubuntu-noble | 0.8-13ubuntu6 | ![screen0-5.jpg](./avahi-ui-utils/tests/screen0-5.jpg) ![screen1-5.jpg](./avahi-ui-utils/tests/screen1-5.jpg) | N/A |
-| [avogadro](./avogadro) | amd64  | ubuntu-noble | 1.99.0-1build2 | ![screen0-5.jpg](./avogadro/tests/screen0-5.jpg) | N/A |
-| [awf-gtk3](./awf-gtk3) | amd64  | ubuntu-noble | 2.8.0-1build2 | ![screen0-5.jpg](./awf-gtk3/tests/screen0-5.jpg) | N/A |
-| [awf-gtk4](./awf-gtk4) | amd64  | ubuntu-noble | 2.8.0-1build2 | ![screen0-5.jpg](./awf-gtk4/tests/screen0-5.jpg) | N/A |
-| [ayatana-settings](./ayatana-settings) | amd64  | ubuntu-noble | 23.11.14-1-20250327 | 失败 | N/A |
-| [ayatana-webmail](./ayatana-webmail) | amd64  | ubuntu-noble | 23.12.25+dfsg-1-20250327 | 失败 | N/A |
-| [backintime-qt](./backintime-qt) | amd64  | ubuntu-noble | 1.4.3-1 | ![screen1-5.jpg](./backintime-qt/tests/screen1-5.jpg) | N/A |
-| [bacula-console-qt](./bacula-console-qt) | amd64  | ubuntu-noble | 13.0.4-1build3 | ![screen0-5.jpg](./bacula-console-qt/tests/screen0-5.jpg) | N/A |
-| [bacula-tray-monitor](./bacula-tray-monitor) | amd64  | ubuntu-noble | 13.0.4-1build3 | ![screen0-5.jpg](./bacula-tray-monitor/tests/screen0-5.jpg) | N/A |
-| [ballerburg](./ballerburg) | amd64  | ubuntu-noble | 1.2.1-1 | ![screen0-5.jpg](./ballerburg/tests/screen0-5.jpg) | N/A |
-| [ballview](./ballview) | amd64  | ubuntu-noble | 1.5.0+git20180813.37fc53c-11build5 | ![screen0-5.jpg](./ballview/tests/screen0-5.jpg) | N/A |
-| [ballz](./ballz) | amd64  | ubuntu-noble | 1.0.4-1.1build2 | ![screen0-5.jpg](./ballz/tests/screen0-5.jpg) | N/A |
-| [balsa](./balsa) | amd64  | ubuntu-noble | 2.6.4-2build5-20250327 | 失败 | N/A |
-| [bambam](./bambam) | amd64  | ubuntu-noble | 1.2.1+dfsg-1 | ![screen0-5.jpg](./bambam/tests/screen0-5.jpg) | N/A |
-| [bambootracker](./bambootracker) | amd64  | ubuntu-noble | 0.6.1-1build2-20250327 | 失败 | N/A |
-| [baobab](./baobab) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./baobab/tests/screen0-5.jpg) | N/A |
-| [barrage](./barrage) | amd64  | ubuntu-noble | 1.0.5-1 | ![screen0-5.jpg](./barrage/tests/screen0-5.jpg) | N/A |
-| [barrier](./barrier) | amd64  | ubuntu-noble | 2.4.0+dfsg-4build3 | ![screen0-5.jpg](./barrier/tests/screen0-5.jpg) | N/A |
-| [basex](./basex) | amd64  | ubuntu-noble | 10.5-1-20250327 | 失败 | N/A |
-| [basic256](./basic256) | amd64  | ubuntu-noble | 2.0.99.7-2build3 | ![screen0-5.jpg](./basic256/tests/screen0-5.jpg) | N/A |
-| [basilisk2](./basilisk2) | amd64  | ubuntu-noble | 0.9.20240401-1 | ![screen0-5.jpg](./basilisk2/tests/screen0-5.jpg) | N/A |
-| [basket](./basket) | amd64  | ubuntu-noble | 2.49-1build3 | ![screen0-5.jpg](./basket/tests/screen0-5.jpg) | N/A |
-| [bastet](./bastet) | amd64  | ubuntu-noble | 0.43-7build1-20250327 | 失败 | N/A |
-| [batmon.app](./batmon.app) | amd64  | ubuntu-noble | 0.9-2build5 | ![screen0-5.jpg](./batmon.app/tests/screen0-5.jpg) | N/A |
-| [battery-stats](./battery-stats) | amd64  | ubuntu-noble | 0.5.6-2.1 | ![screen0-5.jpg](./battery-stats/tests/screen0-5.jpg) | N/A |
-| [bb](./bb) | amd64  | deepin-v23 | 1.3rc1-13 | 失败 | [SHA256](./bb/SHA256SUMS) |
-| [bbpager](./bbpager) | amd64  | ubuntu-noble | 0.4.7-10-20250327 | 失败 | N/A |
-| [bcnc](./bcnc) | amd64  | ubuntu-noble | 0.9.14.318+ds-4 | ![screen0-5.jpg](./bcnc/tests/screen0-5.jpg) | N/A |
-| [bdbvu](./bdbvu) | amd64  | ubuntu-noble | 0.1-3.1build2 | ![screen0-5.jpg](./bdbvu/tests/screen0-5.jpg) | N/A |
-| [beads](./beads) | amd64  | ubuntu-noble | 1.1.22-1build4 | ![screen0-5.jpg](./beads/tests/screen0-5.jpg) | N/A |
-| [bear-factory](./bear-factory) | amd64  | ubuntu-noble | 0.6.0-8build5 | ![screen0-5.jpg](./bear-factory/tests/screen0-5.jpg) ![screen1-5.jpg](./bear-factory/tests/screen1-5.jpg) ![screen2-5.jpg](./bear-factory/tests/screen2-5.jpg) | N/A |
-| [beneath-a-steel-sky](./beneath-a-steel-sky) | amd64  | ubuntu-noble | 0.0372-8 | ![screen0-5.jpg](./beneath-a-steel-sky/tests/screen0-5.jpg) | N/A |
-| [berusky](./berusky) | amd64  | ubuntu-noble | 1.7.2-3build2 | ![screen0-5.jpg](./berusky/tests/screen0-5.jpg) | N/A |
-| [berusky2](./berusky2) | amd64  | ubuntu-noble | 0.12-4 | ![screen0-5.jpg](./berusky2/tests/screen0-5.jpg) | N/A |
-| [bespokesynth](./bespokesynth) | amd64  | ubuntu-noble | 1.2.1+dfsg-4build4 | ![screen0-5.jpg](./bespokesynth/tests/screen0-5.jpg) | N/A |
-| [betaradio](./betaradio) | amd64  | ubuntu-noble | 1.6-1build3 | ![screen0-5.jpg](./betaradio/tests/screen0-5.jpg) | N/A |
-| [between](./between) | amd64  | ubuntu-noble | 6+dfsg1-4 | ![screen0-5.jpg](./between/tests/screen0-5.jpg) | N/A |
-| [bibledit](./bibledit) | amd64  | ubuntu-noble | 5.1.002-1build5 | ![screen0-5.jpg](./bibledit/tests/screen0-5.jpg) | N/A |
-| [bibletime](./bibletime) | amd64  | ubuntu-noble | 3.0.3-3build2 | ![screen0-5.jpg](./bibletime/tests/screen0-5.jpg) | N/A |
-| [bibshelf](./bibshelf) | amd64  | ubuntu-noble | 1.6.0-0ubuntu9 | ![screen0-5.jpg](./bibshelf/tests/screen0-5.jpg) | N/A |
-| [biglybt](./biglybt) | amd64  | ubuntu-noble | 3.4.0.0-1-20250327 | 失败 | N/A |
-| [bijiben](./bijiben) | amd64  | ubuntu-noble | 40.1-6build4-20250327 | 失败 | N/A |
-| [billard-gl](./billard-gl) | amd64  | ubuntu-noble | 1.75-17build2 | ![screen0-5.jpg](./billard-gl/tests/screen0-5.jpg) | N/A |
-| [biloba](./biloba) | amd64  | ubuntu-noble | 0.9.3-11 | ![screen0-5.jpg](./biloba/tests/screen0-5.jpg) | N/A |
-| [biniax2](./biniax2) | amd64  | ubuntu-noble | 1.30-7 | ![screen0-5.jpg](./biniax2/tests/screen0-5.jpg) | N/A |
-| [bino](./bino) | amd64  | ubuntu-noble | 2.1-1build2-20250327 | 失败 | N/A |
-| [biogenesis](./biogenesis) | amd64  | ubuntu-noble | 0.8-3.1 | ![screen0-5.jpg](./biogenesis/tests/screen0-5.jpg) | N/A |
-| [birdfont](./birdfont) | amd64  | ubuntu-noble | 2.33.1-3build3 | ![screen0-5.jpg](./birdfont/tests/screen0-5.jpg) | N/A |
-| [bisheng-engine](./bisheng-engine) | amd64  | deepin-v23 | 2.0.14-1 | 失败 | [SHA256](./bisheng-engine/SHA256SUMS) |
-| [bitsnpicas](./bitsnpicas) | amd64  | ubuntu-noble | 2.0+ds-2-20250327 | 失败 | N/A |
-| [biz.zcjt.gaopaiyi](./biz.zcjt.gaopaiyi) | amd64  | deepin-v23 | 1.0.0-20250327 | 失败 | N/A |
-| [biz.zcjt.scanner](./biz.zcjt.scanner) | amd64  | deepin-v23 | 1.0.2.0-20250327 | 失败 | N/A |
-| [biz.zcjt.zc-a5930dn](./biz.zcjt.zc-a5930dn) | amd64  | deepin-v23 | 1.0.0-23166 | ![screen0-5.jpg](./biz.zcjt.zc-a5930dn/tests/screen0-5.jpg) ![screen1-5.jpg](./biz.zcjt.zc-a5930dn/tests/screen1-5.jpg) | N/A |
-| [biz.zcjt.zc-a5933dn](./biz.zcjt.zc-a5933dn) | amd64  | deepin-v23 | 1.0.0-23324 | ![screen0-5.jpg](./biz.zcjt.zc-a5933dn/tests/screen0-5.jpg) ![screen1-5.jpg](./biz.zcjt.zc-a5933dn/tests/screen1-5.jpg) | N/A |
-| [biz.zcjt.zhongchu-sane](./biz.zcjt.zhongchu-sane) | amd64  | deepin-v23 | 20240911-6.6.10.030-20250327 | 失败 | N/A |
-| [bkchem](./bkchem) | amd64  | ubuntu-noble | 0.14.0~pre4+git20211228-3-20250327 | 失败 | N/A |
-| [black-box](./black-box) | amd64  | ubuntu-noble | 1.4.8-4build1 | ![screen0-5.jpg](./black-box/tests/screen0-5.jpg) | N/A |
-| [blackbox-terminal](./blackbox-terminal) | amd64  | ubuntu-noble | 0.14.0-2build2 | ![screen0-5.jpg](./blackbox-terminal/tests/screen0-5.jpg) | N/A |
-| [blastem](./blastem) | amd64  | ubuntu-noble | 0.6.3.4-1build1 | ![screen0-5.jpg](./blastem/tests/screen0-5.jpg) | N/A |
-| [bleachbit](./bleachbit) | amd64  | ubuntu-noble | 4.6.0-3-20250327 | 失败 | N/A |
-| [blender](./blender) | amd64  | ubuntu-noble | 4.0.2+dfsg-1ubuntu8 | ![screen0-5.jpg](./blender/tests/screen0-5.jpg) | N/A |
-| [blinken](./blinken) | amd64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./blinken/tests/screen0-5.jpg) | N/A |
-| [blobandconquer](./blobandconquer) | amd64  | ubuntu-noble | 1.11-dfsg+20-2-20250327 | 失败 | N/A |
-| [blobby](./blobby) | amd64  | ubuntu-noble | 1.1+ds-1ubuntu1 | ![screen0-5.jpg](./blobby/tests/screen0-5.jpg) | N/A |
-| [bloboats](./bloboats) | amd64  | ubuntu-noble | 1.0.2+dfsg-4 | ![screen0-5.jpg](./bloboats/tests/screen0-5.jpg) | N/A |
-| [blobwars](./blobwars) | amd64  | ubuntu-noble | 2.00-4ubuntu1 | ![screen0-5.jpg](./blobwars/tests/screen0-5.jpg) | N/A |
-| [blockattack](./blockattack) | amd64  | ubuntu-noble | 2.8.0-1build1 | ![screen0-5.jpg](./blockattack/tests/screen0-5.jpg) | N/A |
-| [blockout2](./blockout2) | amd64  | ubuntu-noble | 2.5+dfsg1-1build3 | ![screen0-5.jpg](./blockout2/tests/screen0-5.jpg) | N/A |
-| [blocks-of-the-undead](./blocks-of-the-undead) | amd64  | ubuntu-noble | 1.0-7build1 | ![screen0-5.jpg](./blocks-of-the-undead/tests/screen0-5.jpg) | N/A |
-| [bluedevil](./bluedevil) | amd64  | ubuntu-noble | 5.27.11-0ubuntu2 | ![screen1-5.jpg](./bluedevil/tests/screen1-5.jpg) | N/A |
-| [bluefish](./bluefish) | amd64  | ubuntu-noble | 2.2.15-1 | ![screen0-5.jpg](./bluefish/tests/screen0-5.jpg) | N/A |
-| [blueman](./blueman) | amd64  | deepin-v23 | 2.3.5-3deepin0+rb1-20250327 | 失败 | N/A |
-| [blupimania](./blupimania) | amd64  | ubuntu-noble | 1.6.2-17-g5f6cf8b-1 | ![screen0-5.jpg](./blupimania/tests/screen0-5.jpg) | N/A |
-| [boats](./boats) | amd64  | ubuntu-noble | 202008-1build2 | ![screen0-5.jpg](./boats/tests/screen0-5.jpg) | N/A |
-| [boinc-manager](./boinc-manager) | amd64  | ubuntu-noble | 7.24.1+dfsg-4build1 | ![screen0-5.jpg](./boinc-manager/tests/screen0-5.jpg) | N/A |
-| [bomber](./bomber) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./bomber/tests/screen0-5.jpg) | N/A |
-| [bomberclone](./bomberclone) | amd64  | ubuntu-noble | 0.11.9-7.1 | ![screen0-5.jpg](./bomberclone/tests/screen0-5.jpg) | N/A |
-| [bookletimposer](./bookletimposer) | amd64  | ubuntu-noble | 0.3.1-4ubuntu1-20250327 | 失败 | N/A |
-| [bookworm](./bookworm) | amd64  | ubuntu-noble | 1.1.2+git20210715-4build3 | ![screen0-5.jpg](./bookworm/tests/screen0-5.jpg) | N/A |
-| [boomaga](./boomaga) | amd64  | ubuntu-noble | 3.0.0+git13-g7f7ad47-1build4 | ![screen0-5.jpg](./boomaga/tests/screen0-5.jpg) | N/A |
-| [bossa](./bossa) | amd64  | ubuntu-noble | 1.9.1-3ubuntu5 | ![screen0-5.jpg](./bossa/tests/screen0-5.jpg) | N/A |
-| [boswars](./boswars) | amd64  | ubuntu-noble | 2.8-2build2 | ![screen0-5.jpg](./boswars/tests/screen0-5.jpg) | N/A |
-| [bouncy](./bouncy) | amd64  | ubuntu-noble | 0.6.20071104-9 | ![screen0-5.jpg](./bouncy/tests/screen0-5.jpg) | N/A |
-| [bovo](./bovo) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./bovo/tests/screen0-5.jpg) | N/A |
-| [bpython](./bpython) | amd64  | ubuntu-noble | 0.24-1 | ![screen0-5.jpg](./bpython/tests/screen0-5.jpg) | N/A |
-| [brainparty](./brainparty) | amd64  | ubuntu-noble | 0.61+dfsg-7 | ![screen0-5.jpg](./brainparty/tests/screen0-5.jpg) | N/A |
-| [brasero](./brasero) | amd64  | ubuntu-noble | 3.12.3-2build4 | ![screen0-5.jpg](./brasero/tests/screen0-5.jpg) | N/A |
-| [brewtarget](./brewtarget) | amd64  | ubuntu-noble | 3.0.6-1build2 | ![screen0-5.jpg](./brewtarget/tests/screen0-5.jpg) | N/A |
-| [briquolo](./briquolo) | amd64  | ubuntu-noble | 0.5.7-11build2 | ![screen0-5.jpg](./briquolo/tests/screen0-5.jpg) | N/A |
-| [brp-pacu](./brp-pacu) | amd64  | ubuntu-noble | 2.1.2+git20210421-1build2 | ![screen0-5.jpg](./brp-pacu/tests/screen0-5.jpg) | N/A |
-| [brutalchess](./brutalchess) | amd64  | ubuntu-noble | 0.5.2+dfsg-8build1 | ![screen0-5.jpg](./brutalchess/tests/screen0-5.jpg) | N/A |
-| [bsdgames](./bsdgames) | amd64  | ubuntu-noble | 2.17-33 | ![screen0-5.jpg](./bsdgames/tests/screen0-5.jpg) ![screen1-5.jpg](./bsdgames/tests/screen1-5.jpg) ![screen3-5.jpg](./bsdgames/tests/screen3-5.jpg) ![screen4-5.jpg](./bsdgames/tests/screen4-5.jpg) ![screen5-5.jpg](./bsdgames/tests/screen5-5.jpg) ![screen9-5.jpg](./bsdgames/tests/screen9-5.jpg) ![screen14-5.jpg](./bsdgames/tests/screen14-5.jpg) ![screen16-5.jpg](./bsdgames/tests/screen16-5.jpg) ![screen19-5.jpg](./bsdgames/tests/screen19-5.jpg) ![screen22-5.jpg](./bsdgames/tests/screen22-5.jpg) | N/A |
-| [btanks](./btanks) | amd64  | ubuntu-noble | 0.9.8083-9build1 | ![screen0-5.jpg](./btanks/tests/screen0-5.jpg) | N/A |
-| [btop](./btop) | amd64  | deepin-v23 | 1.3.0-1 | 失败 | [SHA256](./btop/SHA256SUMS) |
-| [budgie-arm-environment](./budgie-arm-environment) | amd64  | ubuntu-noble | 0.20.13-20250327 | 失败 | N/A |
-| [budgie-control-center](./budgie-control-center) | amd64  | ubuntu-noble | 1.4.0-2build3-20250327 | 失败 | N/A |
-| [budgie-core](./budgie-core) | amd64  | ubuntu-noble | 10.9.1-3ubuntu4-20250327 | 失败 | N/A |
-| [budgie-desktop-environment](./budgie-desktop-environment) | amd64  | ubuntu-noble | 0.20.13-20250327 | 失败 | N/A |
-| [budgie-desktop-view](./budgie-desktop-view) | amd64  | ubuntu-noble | 1.3-2build1-20250327 | 失败 | N/A |
-| [budgie-hotcorners-applet](./budgie-hotcorners-applet) | amd64  | ubuntu-noble | 1.8.0-1build3 | ![screen0-5.jpg](./budgie-hotcorners-applet/tests/screen0-5.jpg) | N/A |
-| [budgie-previews](./budgie-previews) | amd64  | ubuntu-noble | 1.8.0-1build3 | ![screen0-5.jpg](./budgie-previews/tests/screen0-5.jpg) | N/A |
-| [budgie-quickchar](./budgie-quickchar) | amd64  | ubuntu-noble | 1.8.0-1build3-20250327 | 失败 | N/A |
-| [budgie-wallstreet](./budgie-wallstreet) | amd64  | ubuntu-noble | 1.8.0-1build3 | ![screen0-5.jpg](./budgie-wallstreet/tests/screen0-5.jpg) | N/A |
-| [budgie-welcome](./budgie-welcome) | amd64  | ubuntu-noble | 0.6.1 | ![screen0-5.jpg](./budgie-welcome/tests/screen0-5.jpg) ![screen1-5.jpg](./budgie-welcome/tests/screen1-5.jpg) ![screen2-5.jpg](./budgie-welcome/tests/screen2-5.jpg) ![screen3-5.jpg](./budgie-welcome/tests/screen3-5.jpg) | N/A |
-| [budgie-window-shuffler](./budgie-window-shuffler) | amd64  | ubuntu-noble | 1.8.0-1build3 | ![screen0-5.jpg](./budgie-window-shuffler/tests/screen0-5.jpg) | N/A |
-| [bugsquish](./bugsquish) | amd64  | ubuntu-noble | 0.0.6-10 | ![screen0-5.jpg](./bugsquish/tests/screen0-5.jpg) | N/A |
-| [bumprace](./bumprace) | amd64  | ubuntu-noble | 1.5.8-1 | ![screen0-5.jpg](./bumprace/tests/screen0-5.jpg) | N/A |
-| [burgerspace](./burgerspace) | amd64  | ubuntu-noble | 1.9.5-1build1 | ![screen0-5.jpg](./burgerspace/tests/screen0-5.jpg) | N/A |
-| [bustle](./bustle) | amd64  | ubuntu-noble | 0.8.0-2build2 | ![screen0-5.jpg](./bustle/tests/screen0-5.jpg) | N/A |
-| [butt](./butt) | amd64  | ubuntu-noble | 0.1.37-2build4 | ![screen0-5.jpg](./butt/tests/screen0-5.jpg) | N/A |
-| [buzztrax](./buzztrax) | amd64  | ubuntu-noble | 0.10.2-9build2 | ![screen0-5.jpg](./buzztrax/tests/screen0-5.jpg) | N/A |
-| [bzflag-client](./bzflag-client) | amd64  | ubuntu-noble | 2.4.26-1build3 | ![screen0-5.jpg](./bzflag-client/tests/screen0-5.jpg) | N/A |
-| [c-evo-dh-gtk2](./c-evo-dh-gtk2) | amd64  | ubuntu-noble | 1.10-1build3 | ![screen0-5.jpg](./c-evo-dh-gtk2/tests/screen0-5.jpg) ![screen1-5.jpg](./c-evo-dh-gtk2/tests/screen1-5.jpg) | N/A |
-| [cadabra2](./cadabra2) | amd64  | ubuntu-noble | 2.4.5.4-0ubuntu1-20250327 | 失败 | N/A |
-| [caffeine](./caffeine) | amd64  | ubuntu-noble | 2.9.12-1-20250327 | 失败 | N/A |
-| [cairo-dock-core](./cairo-dock-core) | amd64  | ubuntu-noble | 3.4.1+git20201103.0836f5d1-1build3 | ![screen0-5.jpg](./cairo-dock-core/tests/screen0-5.jpg) ![screen1-5.jpg](./cairo-dock-core/tests/screen1-5.jpg) | N/A |
-| [caja](./caja) | amd64  | ubuntu-noble | 1.26.3-1build3-20250327 | 失败 | N/A |
-| [caja-actions](./caja-actions) | amd64  | ubuntu-noble | 1.27.0-1build3 | ![screen0-5.jpg](./caja-actions/tests/screen0-5.jpg) | N/A |
-| [caja-dropbox](./caja-dropbox) | amd64  | ubuntu-noble | 1.26.0-4build2-20250327 | 失败 | N/A |
-| [caja-eiciel](./caja-eiciel) | amd64  | ubuntu-noble | 1.20.1-3build2 | ![screen0-5.jpg](./caja-eiciel/tests/screen0-5.jpg) | N/A |
-| [caja-seahorse](./caja-seahorse) | amd64  | ubuntu-noble | 1.18.5-3-20250327 | 失败 | N/A |
-| [calamares](./calamares) | amd64  | ubuntu-noble | 3.3.5-0ubuntu4-20250327 | 失败 | N/A |
-| [calamares-settings-debian](./calamares-settings-debian) | amd64  | ubuntu-noble | 13.0.5-1-20250327 | 失败 | N/A |
-| [calamares-settings-kubuntu](./calamares-settings-kubuntu) | amd64  | ubuntu-noble | 24.04.40-20250327 | 失败 | N/A |
-| [calamares-settings-lubuntu](./calamares-settings-lubuntu) | amd64  | ubuntu-noble | 24.04.40-20250327 | 失败 | N/A |
-| [calamares-settings-ubuntu-unity](./calamares-settings-ubuntu-unity) | amd64  | ubuntu-noble | 24.04.40-20250327 | 失败 | N/A |
-| [calc-common](./calc-common) | amd64  | ubuntu-noble | 2.15.0.4-1build2-20250327 | 失败 | N/A |
-| [calf-plugins](./calf-plugins) | amd64  | ubuntu-noble | 0.90.3-4build2-20250327 | 失败 | N/A |
-| [calibre](./calibre) | amd64  | ubuntu-noble | 7.6.0+ds-1build1-20250327 | 失败 | N/A |
-| [calindori](./calindori) | amd64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./calindori/tests/screen0-5.jpg) | N/A |
-| [calligra-data](./calligra-data) | amd64  | ubuntu-noble | 3.2.1+dfsg-8build4-20250327 | 失败 | N/A |
-| [calligra-gemini](./calligra-gemini) | amd64  | ubuntu-noble | 3.2.1+dfsg-8build4 | ![screen0-5.jpg](./calligra-gemini/tests/screen0-5.jpg) | N/A |
-| [calligraplan](./calligraplan) | amd64  | ubuntu-noble | 3.3.0-2build2 | ![screen0-5.jpg](./calligraplan/tests/screen0-5.jpg) ![screen1-5.jpg](./calligraplan/tests/screen1-5.jpg) | N/A |
-| [calligrasheets](./calligrasheets) | amd64  | ubuntu-noble | 3.2.1+dfsg-8build4 | ![screen0-5.jpg](./calligrasheets/tests/screen0-5.jpg) | N/A |
-| [calligrastage](./calligrastage) | amd64  | ubuntu-noble | 3.2.1+dfsg-8build4 | ![screen0-5.jpg](./calligrastage/tests/screen0-5.jpg) | N/A |
-| [calligrawords](./calligrawords) | amd64  | ubuntu-noble | 3.2.1+dfsg-8build4 | ![screen0-5.jpg](./calligrawords/tests/screen0-5.jpg) | N/A |
-| [camera.app](./camera.app) | amd64  | ubuntu-noble | 0.8.0-13build4 | ![screen0-5.jpg](./camera.app/tests/screen0-5.jpg) | N/A |
-| [camitk-actionstatemachine](./camitk-actionstatemachine) | amd64  | ubuntu-noble | 5.2.0-1build7-20250327 | 失败 | N/A |
-| [camitk-imp](./camitk-imp) | amd64  | ubuntu-noble | 5.2.0-1build7-20250327 | 失败 | N/A |
-| [caneda](./caneda) | amd64  | ubuntu-noble | 0.3.1+gitg08e22168-1build2 | ![screen0-5.jpg](./caneda/tests/screen0-5.jpg) | N/A |
-| [cantata](./cantata) | amd64  | ubuntu-noble | 2.5.0.ds1-2build3 | ![screen0-5.jpg](./cantata/tests/screen0-5.jpg) | N/A |
-| [cantor](./cantor) | amd64  | ubuntu-noble | 23.08.5-0ubuntu4.2 | ![screen0-5.jpg](./cantor/tests/screen0-5.jpg) | N/A |
-| [carburetor](./carburetor) | amd64  | ubuntu-noble | 4.5.1-1-20250327 | 失败 | N/A |
-| [cardpeek](./cardpeek) | amd64  | ubuntu-noble | 0.8.4-1.3build1 | ![screen0-5.jpg](./cardpeek/tests/screen0-5.jpg) | N/A |
-| [carla](./carla) | amd64  | ubuntu-noble | 2.5.8-0ubuntu5 | ![screen0-5.jpg](./carla/tests/screen0-5.jpg) ![screen1-5.jpg](./carla/tests/screen1-5.jpg) | N/A |
-| [carmetal](./carmetal) | amd64  | ubuntu-noble | 4.3-2-20250327 | 失败 | N/A |
-| [cataclysm-dda-sdl](./cataclysm-dda-sdl) | amd64  | deepin-v23 | 0.G-4deepin1 | ![screen0-5.jpg](./cataclysm-dda-sdl/tests/screen0-5.jpg) | [SHA256](./cataclysm-dda-sdl/SHA256SUMS) |
-| [catfish](./catfish) | amd64  | ubuntu-noble | 4.16.4-2-20250327 | 失败 | N/A |
-| [caveexpress](./caveexpress) | amd64  | ubuntu-noble | 2.5.2-2 | ![screen0-5.jpg](./caveexpress/tests/screen0-5.jpg) | N/A |
-| [cavepacker](./cavepacker) | amd64  | ubuntu-noble | 2.5.2-2 | ![screen0-5.jpg](./cavepacker/tests/screen0-5.jpg) | N/A |
-| [cb2bib](./cb2bib) | amd64  | ubuntu-noble | 2.0.1-2build2 | ![screen0-5.jpg](./cb2bib/tests/screen0-5.jpg) ![screen2-5.jpg](./cb2bib/tests/screen2-5.jpg) | N/A |
-| [cc.lotuscard.demo](./cc.lotuscard.demo) | amd64  | deepin-v23 | 1.0.0.0-20250327 | 失败 | N/A |
-| [cdogs-sdl](./cdogs-sdl) | amd64  | ubuntu-noble | 2.0.0+dfsg-1 | ![screen0-5.jpg](./cdogs-sdl/tests/screen0-5.jpg) | N/A |
-| [cecilia](./cecilia) | amd64  | ubuntu-noble | 5.4.1-2 | ![screen0-5.jpg](./cecilia/tests/screen0-5.jpg) | N/A |
-| [ceferino](./ceferino) | amd64  | ubuntu-noble | 0.97.8+svn37-3 | ![screen0-5.jpg](./ceferino/tests/screen0-5.jpg) | N/A |
-| [celluloid](./celluloid) | amd64  | ubuntu-noble | 0.26-1build2 | ![screen0-5.jpg](./celluloid/tests/screen0-5.jpg) | N/A |
-| [cen64-qt](./cen64-qt) | amd64  | ubuntu-noble | 20200219-alpha-1build2 | ![screen0-5.jpg](./cen64-qt/tests/screen0-5.jpg) | N/A |
-| [ceni](./ceni) | amd64  | ubuntu-noble | 2.33-4-20250327 | 失败 | N/A |
-| [cenon.app](./cenon.app) | amd64  | ubuntu-noble | 4.0.6+ds1-2build5 | ![screen0-5.jpg](./cenon.app/tests/screen0-5.jpg) | N/A |
-| [cervisia](./cervisia) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./cervisia/tests/screen0-5.jpg) | N/A |
-| [cf900](./cf900) | amd64  | deepin-v23 | 1.0 | ![screen0-5.jpg](./cf900/tests/screen0-5.jpg) ![screen1-5.jpg](./cf900/tests/screen1-5.jpg) | [SHA256](./cf900/SHA256SUMS) |
-| [cgoban](./cgoban) | amd64  | deepin-v23 | 1.9.14-19 | 失败 | [SHA256](./cgoban/SHA256SUMS) |
-| [charmap.app](./charmap.app) | amd64  | ubuntu-noble | 0.3~rc1-4build3 | ![screen0-5.jpg](./charmap.app/tests/screen0-5.jpg) | N/A |
-| [charmtimetracker](./charmtimetracker) | amd64  | ubuntu-noble | 1.12.0-3build2 | ![screen0-5.jpg](./charmtimetracker/tests/screen0-5.jpg) | N/A |
-| [chatty](./chatty) | amd64  | ubuntu-noble | 0.8.2-1ubuntu2 | ![screen0-5.jpg](./chatty/tests/screen0-5.jpg) | N/A |
-| [cheese](./cheese) | amd64  | ubuntu-noble | 44.1-1build4 | ![screen0-5.jpg](./cheese/tests/screen0-5.jpg) | N/A |
-| [cheesecutter](./cheesecutter) | amd64  | ubuntu-noble | 2.9+git20211011-2-20250327 | 失败 | N/A |
-| [chemtool](./chemtool) | amd64  | ubuntu-noble | 1.6.14-6build2 | ![screen0-5.jpg](./chemtool/tests/screen0-5.jpg) | N/A |
-| [cherrytree](./cherrytree) | amd64  | ubuntu-noble | 1.1.2+dfsg-1 | ![screen0-5.jpg](./cherrytree/tests/screen0-5.jpg) | N/A |
-| [chessx](./chessx) | amd64  | ubuntu-noble | 1.4.6-2build3 | ![screen0-5.jpg](./chessx/tests/screen0-5.jpg) | N/A |
-| [chewing-editor](./chewing-editor) | amd64  | ubuntu-noble | 0.1.1-5build2 | ![screen0-5.jpg](./chewing-editor/tests/screen0-5.jpg) | N/A |
-| [chiaki](./chiaki) | amd64  | ubuntu-noble | 2.2.0-1build3 | ![screen0-5.jpg](./chiaki/tests/screen0-5.jpg) | N/A |
-| [chirp](./chirp) | amd64  | ubuntu-noble | 20240224-1ubuntu0.1 | ![screen0-5.jpg](./chirp/tests/screen0-5.jpg) | N/A |
-| [chocolate-doom](./chocolate-doom) | amd64  | ubuntu-noble | 3.0.1+really3.0.0+git1548-1build2 | ![screen0-5.jpg](./chocolate-doom/tests/screen0-5.jpg) ![screen3-5.jpg](./chocolate-doom/tests/screen3-5.jpg) ![screen5-5.jpg](./chocolate-doom/tests/screen5-5.jpg) | N/A |
-| [choqok](./choqok) | amd64  | ubuntu-noble | 1.7.0-2build2 | ![screen0-5.jpg](./choqok/tests/screen0-5.jpg) | N/A |
-| [chroma](./chroma) | amd64  | ubuntu-noble | 1.19-1ubuntu1 | ![screen0-5.jpg](./chroma/tests/screen0-5.jpg) | N/A |
-| [chromium](./chromium) | amd64  | deepin-v23 | 128.0.6613.84-1deepin1-20250327 | 失败 | N/A |
-| [chromium-browser](./chromium-browser) | amd64  | ubuntu-noble | 1snap1-0ubuntu2-20250327 | 失败 | N/A |
-| [chromium-bsu](./chromium-bsu) | amd64  | ubuntu-noble | 0.9.16.1-3 | ![screen0-5.jpg](./chromium-bsu/tests/screen0-5.jpg) | N/A |
-| [chromono](./chromono) | amd64  | ubuntu-noble | 1.1.1-1.1 | ![screen0-5.jpg](./chromono/tests/screen0-5.jpg) | N/A |
-| [cinnamon](./cinnamon) | amd64  | ubuntu-noble | 6.0.4-4-20250327 | 失败 | N/A |
-| [cinnamon-control-center](./cinnamon-control-center) | amd64  | ubuntu-noble | 6.0.1-3-20250327 | 失败 | N/A |
-| [cinnamon-screensaver](./cinnamon-screensaver) | amd64  | ubuntu-noble | 6.0.3-1build2-20250327 | 失败 | N/A |
-| [cinnamon-settings-daemon](./cinnamon-settings-daemon) | amd64  | ubuntu-noble | 6.0.0-1build4-20250327 | 失败 | N/A |
-| [circuslinux](./circuslinux) | amd64  | ubuntu-noble | 1.0.3-35 | ![screen0-5.jpg](./circuslinux/tests/screen0-5.jpg) | N/A |
-| [citizen-cx-02-printerdriver](./citizen-cx-02-printerdriver) | amd64  | deepin-v23 | 1.0.0-0 | 失败 | [SHA256](./citizen-cx-02-printerdriver/SHA256SUMS) |
-| [citizen-cx-02s-printerdriver](./citizen-cx-02s-printerdriver) | amd64  | deepin-v23 | 1.0.0-0 | 失败 | [SHA256](./citizen-cx-02s-printerdriver/SHA256SUMS) |
-| [citizen-cx-02w-printerdriver](./citizen-cx-02w-printerdriver) | amd64  | deepin-v23 | 1.0.0-0 | 失败 | [SHA256](./citizen-cx-02w-printerdriver/SHA256SUMS) |
-| [citizen-cy-printerdriver](./citizen-cy-printerdriver) | amd64  | deepin-v23 | 1.0.0-0 | 失败 | [SHA256](./citizen-cy-printerdriver/SHA256SUMS) |
-| [citizen-cz-01-printerdriver](./citizen-cz-01-printerdriver) | amd64  | deepin-v23 | 1.0.0-0 | 失败 | [SHA256](./citizen-cz-01-printerdriver/SHA256SUMS) |
-| [ckb-next](./ckb-next) | amd64  | ubuntu-noble | 0.6.0+dfsg-0.2build2 | ![screen0-5.jpg](./ckb-next/tests/screen0-5.jpg) | N/A |
-| [clamtk](./clamtk) | amd64  | ubuntu-noble | 6.07-1.1-20250327 | 失败 | N/A |
-| [clamz](./clamz) | amd64  | ubuntu-noble | 0.5-2.1build2-20250327 | 失败 | N/A |
-| [clapper](./clapper) | amd64  | ubuntu-noble | 0.5.2-8build2-20250327 | 失败 | N/A |
-| [classicmenu-indicator](./classicmenu-indicator) | amd64  | ubuntu-noble | 0.11-0ubuntu1-20250327 | 失败 | N/A |
-| [classified-ads](./classified-ads) | amd64  | ubuntu-noble | 0.15-1build3 | ![screen0-5.jpg](./classified-ads/tests/screen0-5.jpg) | N/A |
-| [claws-mail](./claws-mail) | amd64  | ubuntu-noble | 4.2.0-2build7-20250327 | 失败 | N/A |
-| [clawsker](./clawsker) | amd64  | ubuntu-noble | 1.3.8-1-20250327 | 失败 | N/A |
-| [clementine](./clementine) | amd64  | ubuntu-noble | 1.4.0~rc1+git867-g9ef681b0e+dfsg-1ubuntu4 | ![screen0-5.jpg](./clementine/tests/screen0-5.jpg) | N/A |
-| [clipit](./clipit) | amd64  | ubuntu-noble | 1.4.5+git20210313-2 | ![screen0-5.jpg](./clipit/tests/screen0-5.jpg) | N/A |
-| [clips](./clips) | amd64  | ubuntu-noble | 6.30-4.1build1 | ![screen0-5.jpg](./clips/tests/screen0-5.jpg) | N/A |
-| [cloudcompare](./cloudcompare) | amd64  | ubuntu-noble | 2.11.3-7.1build3 | ![screen0-5.jpg](./cloudcompare/tests/screen0-5.jpg) ![screen1-5.jpg](./cloudcompare/tests/screen1-5.jpg) | N/A |
-| [clustalx](./clustalx) | amd64  | ubuntu-noble | 2.1+lgpl-9build2 | ![screen0-5.jpg](./clustalx/tests/screen0-5.jpg) | N/A |
-| [clusterssh](./clusterssh) | amd64  | ubuntu-noble | 4.16-4 | ![screen0-5.jpg](./clusterssh/tests/screen0-5.jpg) | N/A |
-| [cmake-qt-gui](./cmake-qt-gui) | amd64  | deepin-v23 | 3.30.5-1 | ![screen0-5.jpg](./cmake-qt-gui/tests/screen0-5.jpg) | [SHA256](./cmake-qt-gui/SHA256SUMS) |
-| [cmatrix](./cmatrix) | amd64  | ubuntu-noble | 2.0-6-20250327 | 失败 | N/A |
-| [cmst](./cmst) | amd64  | ubuntu-noble | 2023.03.14-1build2 | ![screen0-5.jpg](./cmst/tests/screen0-5.jpg) | N/A |
-| [cn.com.hisign.hidscanner](./cn.com.hisign.hidscanner) | amd64  | deepin-v23 | 1.0.0-1-20250327 | 失败 | N/A |
-| [cn.com.hisign.hsivlive](./cn.com.hisign.hsivlive) | amd64  | deepin-v23 | 3.10.8-20250327 | 失败 | N/A |
-| [cn.com.hsic.demo](./cn.com.hsic.demo) | amd64  | deepin-v23 | 1.0.0-1-20250327 | 失败 | N/A |
-| [cn.com.secuprint.smlmfp](./cn.com.secuprint.smlmfp) | amd64  | deepin-v23 | 1.0.3.0-20250327 | 失败 | N/A |
-| [cn.com.signpro.hwtabletserv](./cn.com.signpro.hwtabletserv) | amd64  | deepin-v23 | 2.7+b69-20250327 | 失败 | N/A |
-| [cn.com.signpro.sphttpserv](./cn.com.signpro.sphttpserv) | amd64  | deepin-v23 | 3.2+b83-20250327 | 失败 | N/A |
-| [cn.com.tongzhi.crypt.http](./cn.com.tongzhi.crypt.http) | amd64  | deepin-v23 | 1.0.3.4406-1 | 失败 | [SHA256](./cn.com.tongzhi.crypt.http/SHA256SUMS) |
-| [cn.dascom.dc8600-driver](./cn.dascom.dc8600-driver) | amd64  | deepin-v23 | 1.0.0-20250327 | 失败 | N/A |
-| [cn.hengbao.hbd7600-driver](./cn.hengbao.hbd7600-driver) | amd64  | deepin-v23 | 1.0.8-20250327 | 失败 | N/A |
-| [cn.huahom.pam.unlock](./cn.huahom.pam.unlock) | amd64  | deepin-v23 | 0.1.0 | ![screen0-5.jpg](./cn.huahom.pam.unlock/tests/screen0-5.jpg) | [SHA256](./cn.huahom.pam.unlock/SHA256SUMS) |
-| [cn.hzchancel.fifthfootprint](./cn.hzchancel.fifthfootprint) | amd64  | deepin-v23 | 0.0.1-20250327 | 失败 | N/A |
-| [cn.hzchancel.fouthfootprint](./cn.hzchancel.fouthfootprint) | amd64  | deepin-v23 | 0.0.1-20250327 | 失败 | N/A |
-| [cn.microdone.passguardservice](./cn.microdone.passguardservice) | amd64  | deepin-v23 | 1.0.0.0-20250327 | 失败 | N/A |
-| [cn.microdone.passguardservice.bj](./cn.microdone.passguardservice.bj) | amd64  | deepin-v23 | 1.0.0.0-20250327 | 失败 | N/A |
-| [cn.microdone.passguardservice.nb](./cn.microdone.passguardservice.nb) | amd64  | deepin-v23 | 1.0.0.7 | ![screen0-5.jpg](./cn.microdone.passguardservice.nb/tests/screen0-5.jpg) | N/A |
-| [cn.microdone.signmessenger.hz](./cn.microdone.signmessenger.hz) | amd64  | deepin-v23 | 1.0.0.0-20250327 | 失败 | N/A |
-| [cn.microdone.signmessenger.nb](./cn.microdone.signmessenger.nb) | amd64  | deepin-v23 | 1.0.0.2 | ![screen0-5.jpg](./cn.microdone.signmessenger.nb/tests/screen0-5.jpg) | N/A |
-| [cn.naturalcard.eserver](./cn.naturalcard.eserver) | amd64  | deepin-v23 | 1.0.0.1-20250327 | 失败 | N/A |
-| [cn.net.zonewin.smartscanner](./cn.net.zonewin.smartscanner) | amd64  | deepin-v23 | 1.0.11 | ![screen0-5.jpg](./cn.net.zonewin.smartscanner/tests/screen0-5.jpg) | N/A |
-| [cn.tianyi.eserver](./cn.tianyi.eserver) | amd64  | deepin-v23 | 1.0.0.1-20250327 | 失败 | N/A |
-| [cndrvcups-utility](./cndrvcups-utility) | amd64  | deepin-v23 | 1.10-1deepin0 | ![screen0-5.jpg](./cndrvcups-utility/tests/screen0-5.jpg) | [SHA256](./cndrvcups-utility/SHA256SUMS) |
-| [cnrdrvcups-ufr2-uk](./cnrdrvcups-ufr2-uk) | amd64  | deepin-v23 | 5.10-1+rb1 | ![screen0-5.jpg](./cnrdrvcups-ufr2-uk/tests/screen0-5.jpg) | [SHA256](./cnrdrvcups-ufr2-uk/SHA256SUMS) |
-| [cnrdrvcups-ufr2lt-uk](./cnrdrvcups-ufr2lt-uk) | amd64  | deepin-v23 | 5.00-1deepin0 | ![screen0-5.jpg](./cnrdrvcups-ufr2lt-uk/tests/screen0-5.jpg) | [SHA256](./cnrdrvcups-ufr2lt-uk/SHA256SUMS) |
-| [coccinella](./coccinella) | amd64  | ubuntu-noble | 0.96.20-9 | ![screen0-5.jpg](./coccinella/tests/screen0-5.jpg) | N/A |
-| [codeblocks-common](./codeblocks-common) | amd64  | ubuntu-noble | 20.03+svn13046-0.3build2-20250327 | 失败 | N/A |
-| [codelite](./codelite) | amd64  | ubuntu-noble | 17.0.0+dfsg-2build2 | ![screen0-5.jpg](./codelite/tests/screen0-5.jpg) | N/A |
-| [codfis](./codfis) | amd64  | ubuntu-noble | 0.4.7-2build4 | ![screen0-5.jpg](./codfis/tests/screen0-5.jpg) | N/A |
-| [colmap](./colmap) | amd64  | ubuntu-noble | 3.9.1-2build2 | ![screen0-5.jpg](./colmap/tests/screen0-5.jpg) | N/A |
-| [colobot](./colobot) | amd64  | ubuntu-noble | 0.2.1-1build3 | ![screen0-5.jpg](./colobot/tests/screen0-5.jpg) | N/A |
-| [color-picker](./color-picker) | amd64  | ubuntu-noble | 1.0.3-2ubuntu3 | ![screen0-5.jpg](./color-picker/tests/screen0-5.jpg) | N/A |
-| [colorcode](./colorcode) | amd64  | ubuntu-noble | 0.8.7-1build2 | ![screen0-5.jpg](./colorcode/tests/screen0-5.jpg) | N/A |
-| [colord-kde](./colord-kde) | amd64  | ubuntu-noble | 23.08.5-0ubuntu4-20250327 | 失败 | N/A |
-| [colorhug-client](./colorhug-client) | amd64  | ubuntu-noble | 0.2.8-3build4 | ![screen0-5.jpg](./colorhug-client/tests/screen0-5.jpg) ![screen1-5.jpg](./colorhug-client/tests/screen1-5.jpg) ![screen2-5.jpg](./colorhug-client/tests/screen2-5.jpg) ![screen3-5.jpg](./colorhug-client/tests/screen3-5.jpg) | N/A |
-| [colossal-cave-adventure](./colossal-cave-adventure) | amd64  | ubuntu-noble | 1.6-1 | ![screen0-5.jpg](./colossal-cave-adventure/tests/screen0-5.jpg) | N/A |
-| [com-huashuoaf-finger](./com-huashuoaf-finger) | amd64  | deepin-v23 | 1.0.0.3 | ![screen0-5.jpg](./com-huashuoaf-finger/tests/screen0-5.jpg) | [SHA256](./com-huashuoaf-finger/SHA256SUMS) |
-| [com.arc-uds.smartscan](./com.arc-uds.smartscan) | amd64  | deepin-v23 | 3.1.0.1 | ![screen0-5.jpg](./com.arc-uds.smartscan/tests/screen0-5.jpg) | [SHA256](./com.arc-uds.smartscan/SHA256SUMS) |
-| [com.avision.a4pq-series](./com.avision.a4pq-series) | amd64  | deepin-v23 | 1.0.0-23293 | ![screen0-5.jpg](./com.avision.a4pq-series/tests/screen0-5.jpg) ![screen1-5.jpg](./com.avision.a4pq-series/tests/screen1-5.jpg) | [SHA256](./com.avision.a4pq-series/SHA256SUMS) |
-| [com.avision.avision-sane](./com.avision.avision-sane) | amd64  | deepin-v23 | 20231120-8.6.10.020-20250327 | 失败 | N/A |
-| [com.bhyf.bhpainter](./com.bhyf.bhpainter) | amd64  | deepin-v23 | 2020.12.01-1 | ![screen0-5.jpg](./com.bhyf.bhpainter/tests/screen0-5.jpg) ![screen1-5.jpg](./com.bhyf.bhpainter/tests/screen1-5.jpg) | [SHA256](./com.bhyf.bhpainter/SHA256SUMS) |
-| [com.binup.fingerprint](./com.binup.fingerprint) | amd64  | deepin-v23 | 1.0.0.1-20250327 | 失败 | N/A |
-| [com.bjnja.njaep3kgmutil](./com.bjnja.njaep3kgmutil) | amd64  | deepin-v23 | 1.0.2-20250327 | 失败 | N/A |
-| [com.btit.linuxaction](./com.btit.linuxaction) | amd64  | deepin-v23 | 3.1.10.24194-uosv20-20250327 | 失败 | N/A |
-| [com.canon.ufr2](./com.canon.ufr2) | amd64  | deepin-v23 | 6.00-1.00 | 失败 | [SHA256](./com.canon.ufr2/SHA256SUMS) |
-| [com.centerm.gwq](./com.centerm.gwq) | amd64  | deepin-v23 | 2021.1.29-1 | ![screen0-5.jpg](./com.centerm.gwq/tests/screen0-5.jpg) | [SHA256](./com.centerm.gwq/SHA256SUMS) |
-| [com.centerm.gwq.common](./com.centerm.gwq.common) | amd64  | deepin-v23 | 1.0.0.0-1-20250327 | 失败 | N/A |
-| [com.colortrac](./com.colortrac) | amd64  | deepin-v23 | 1.0.7-20250327 | 失败 | N/A |
-| [com.comet.comet-sane](./com.comet.comet-sane) | amd64  | deepin-v23 | 20240814-11.7.11.063-20250327 | 失败 | N/A |
-| [com.contexscan](./com.contexscan) | amd64  | deepin-v23 | 1.0.7-20250327 | 失败 | N/A |
-| [com.deepin.gomoku](./com.deepin.gomoku) | amd64  | deepin-v23 | 1.0.11 | ![screen0-5.jpg](./com.deepin.gomoku/tests/screen0-5.jpg) | [SHA256](./com.deepin.gomoku/SHA256SUMS) |
-| [com.deepin.lianliankan](./com.deepin.lianliankan) | amd64  | deepin-v23 | 1.0.12 | ![screen0-5.jpg](./com.deepin.lianliankan/tests/screen0-5.jpg) | [SHA256](./com.deepin.lianliankan/SHA256SUMS) |
-| [com.deepin.microbox-scanner](./com.deepin.microbox-scanner) | amd64  | deepin-v23 | 1.2.1-20250327 | 失败 | N/A |
-| [com.deli.camera](./com.deli.camera) | amd64  | deepin-v23 | 2.1.7.9-20250327 | 失败 | N/A |
-| [com.deli.printer-c111](./com.deli.printer-c111) | amd64  | deepin-v23 | 1.0.038-20250327 | 失败 | N/A |
-| [com.deli.printer-d11](./com.deli.printer-d11) | amd64  | deepin-v23 | 1.10-1 | 失败 | [SHA256](./com.deli.printer-d11/SHA256SUMS) |
-| [com.deli.printer-d21](./com.deli.printer-d21) | amd64  | deepin-v23 | 1.10-1 | 失败 | [SHA256](./com.deli.printer-d21/SHA256SUMS) |
-| [com.delichina.deliscan](./com.delichina.deliscan) | amd64  | deepin-v23 | 4.51.24520.23319 | 失败 | [SHA256](./com.delichina.deliscan/SHA256SUMS) |
-| [com.elineprint.e-gm3001-an-3in1](./com.elineprint.e-gm3001-an-3in1) | amd64  | deepin-v23 | 1.0.0-20206 | 失败 | [SHA256](./com.elineprint.e-gm3001-an-3in1/SHA256SUMS) |
-| [com.everfine.finger](./com.everfine.finger) | amd64  | deepin-v23 | 2021.11.5-1 | ![screen0-5.jpg](./com.everfine.finger/tests/screen0-5.jpg) ![screen1-5.jpg](./com.everfine.finger/tests/screen1-5.jpg) ![screen2-5.jpg](./com.everfine.finger/tests/screen2-5.jpg) | N/A |
-| [com.everspry.escaps](./com.everspry.escaps) | amd64  | deepin-v23 | 24.7.8.8 | ![screen0-5.jpg](./com.everspry.escaps/tests/screen0-5.jpg) | [SHA256](./com.everspry.escaps/SHA256SUMS) |
-| [com.farshine.ygdevservice](./com.farshine.ygdevservice) | amd64  | deepin-v23 | 2.5.2-20250327 | 失败 | N/A |
-| [com.fenglinkeji.scanner](./com.fenglinkeji.scanner) | amd64  | deepin-v23 | 0.0.1-1-20250327 | 失败 | N/A |
-| [com.founder.linuxaction](./com.founder.linuxaction) | amd64  | deepin-v23 | 2.1.96.24365-uosv20 | ![screen0-5.jpg](./com.founder.linuxaction/tests/screen0-5.jpg) | N/A |
-| [com.founderinternational.founder-sane](./com.founderinternational.founder-sane) | amd64  | deepin-v23 | 20240820-1.6.10.015-20250327 | 失败 | N/A |
-| [com.ftsafe.epass3000gm-spabank](./com.ftsafe.epass3000gm-spabank) | amd64  | deepin-v23 | 1.2.4-1+b1-20250327 | 失败 | N/A |
-| [com.ftsafe.epass3000gmg-hnxa](./com.ftsafe.epass3000gmg-hnxa) | amd64  | deepin-v23 | 1.0.1-1+b1 | ![screen0-5.jpg](./com.ftsafe.epass3000gmg-hnxa/tests/screen0-5.jpg) | N/A |
-| [com.ftsafe.interpass3000-cib](./com.ftsafe.interpass3000-cib) | amd64  | deepin-v23 | 1.0.16.d1-1+b1-uos-20250327 | 失败 | N/A |
-| [com.ftsafe.interpass3000-cmbc](./com.ftsafe.interpass3000-cmbc) | amd64  | deepin-v23 | 1.3.13.d0-1+b1 | ![screen0-5.jpg](./com.ftsafe.interpass3000-cmbc/tests/screen0-5.jpg) | N/A |
-| [com.ftsafe.interpass3000-lfbk](./com.ftsafe.interpass3000-lfbk) | amd64  | deepin-v23 | 1.0.7-1+b1 | ![screen0-5.jpg](./com.ftsafe.interpass3000-lfbk/tests/screen0-5.jpg) | N/A |
-| [com.ftsafe.interpass3000-nbbank](./com.ftsafe.interpass3000-nbbank) | amd64  | deepin-v23 | 1.0.9-20250327 | 失败 | N/A |
-| [com.ftsafe.interpass3000-rzbank](./com.ftsafe.interpass3000-rzbank) | amd64  | deepin-v23 | 1.0.1-1+b1-20250327 | 失败 | N/A |
-| [com.ftsafe.interpass3000-scb](./com.ftsafe.interpass3000-scb) | amd64  | deepin-v23 | 1.0.5-1+b1-20250327 | 失败 | N/A |
-| [com.ftsafe.interpass3000-wfbank](./com.ftsafe.interpass3000-wfbank) | amd64  | deepin-v23 | 1.0.0.d1-1+b1-20250327 | 失败 | N/A |
-| [com.ftsafe.interpass3000zjrc](./com.ftsafe.interpass3000zjrc) | amd64  | deepin-v23 | 1.2.21-1+b1 | ![screen0-5.jpg](./com.ftsafe.interpass3000zjrc/tests/screen0-5.jpg) | N/A |
-| [com.ftsafe.interpasscitic](./com.ftsafe.interpasscitic) | amd64  | deepin-v23 | 1.2.8-1+b1 | ![screen0-5.jpg](./com.ftsafe.interpasscitic/tests/screen0-5.jpg) | N/A |
-| [com.fujitsu.fsane](./com.fujitsu.fsane) | amd64  | deepin-v23 | 2.0.1-2-20250327 | 失败 | N/A |
-| [com.fytech.cfs300b](./com.fytech.cfs300b) | amd64  | deepin-v23 | 1.0.0 | ![screen0-5.jpg](./com.fytech.cfs300b/tests/screen0-5.jpg) | [SHA256](./com.fytech.cfs300b/SHA256SUMS) |
-| [com.fytech.pfs408](./com.fytech.pfs408) | amd64  | deepin-v23 | 2021.5.8 | ![screen0-5.jpg](./com.fytech.pfs408/tests/screen0-5.jpg) | [SHA256](./com.fytech.pfs408/SHA256SUMS) |
-| [com.fytech.ps1300](./com.fytech.ps1300) | amd64  | deepin-v23 | 1.0.0 | ![screen0-5.jpg](./com.fytech.ps1300/tests/screen0-5.jpg) | [SHA256](./com.fytech.ps1300/SHA256SUMS) |
-| [com.ggimage.ggimage-printer](./com.ggimage.ggimage-printer) | amd64  | deepin-v23 | 1.0.3-1+uos | 失败 | [SHA256](./com.ggimage.ggimage-printer/SHA256SUMS) |
-| [com.gmrz.fido](./com.gmrz.fido) | amd64  | deepin-v23 | 1.0.3.2-20250327 | 失败 | N/A |
-| [com.goke.gksecurity](./com.goke.gksecurity) | amd64  | deepin-v23 | 2.0.3-20250327 | 失败 | N/A |
-| [com.greatwalltech.greatwall-sane](./com.greatwalltech.greatwall-sane) | amd64  | deepin-v23 | 20240918-7.6.10.051-20250327 | 失败 | N/A |
-| [com.gwi.dpm760a-tool](./com.gwi.dpm760a-tool) | amd64  | deepin-v23 | 1.0.0 | ![screen0-5.jpg](./com.gwi.dpm760a-tool/tests/screen0-5.jpg) | [SHA256](./com.gwi.dpm760a-tool/SHA256SUMS) |
-| [com.haitaichina.htukeytool20079](./com.haitaichina.htukeytool20079) | amd64  | deepin-v23 | 1.0.0.2404081-20250327 | 失败 | N/A |
-| [com.hanguang.hgfchanguangprinter](./com.hanguang.hgfchanguangprinter) | amd64  | deepin-v23 | 1-1 | 失败 | [SHA256](./com.hanguang.hgfchanguangprinter/SHA256SUMS) |
-| [com.hanguang.hgfcscanner](./com.hanguang.hgfcscanner) | amd64  | deepin-v23 | 1-1 | 失败 | [SHA256](./com.hanguang.hgfcscanner/SHA256SUMS) |
-| [com.hanlongbj.omniscan](./com.hanlongbj.omniscan) | amd64  | deepin-v23 | 1 | 失败 | [SHA256](./com.hanlongbj.omniscan/SHA256SUMS) |
-| [com.hanwang.linuxaction-sdk](./com.hanwang.linuxaction-sdk) | amd64  | deepin-v23 | 2.1.53.22043-uosv20 | ![screen0-5.jpg](./com.hanwang.linuxaction-sdk/tests/screen0-5.jpg) | N/A |
-| [com.hsreader.demo](./com.hsreader.demo) | amd64  | deepin-v23 | 1.1.0-20250327 | 失败 | N/A |
-| [com.huagaochina.huagoscan](./com.huagaochina.huagoscan) | amd64  | deepin-v23 | 2.2.3-1+rc4 | ![screen0-5.jpg](./com.huagaochina.huagoscan/tests/screen0-5.jpg) | N/A |
-| [com.huawei.cv81-series](./com.huawei.cv81-series) | amd64  | deepin-v23 | 2.0-88 | ![screen0-5.jpg](./com.huawei.cv81-series/tests/screen0-5.jpg) | [SHA256](./com.huawei.cv81-series/SHA256SUMS) |
-| [com.hw.signdriver](./com.hw.signdriver) | amd64  | deepin-v23 | 1.0.0-20250327 | 失败 | N/A |
-| [com.hw99.hanvon-sane](./com.hw99.hanvon-sane) | amd64  | deepin-v23 | 20230206-9.6.10.053-20250327 | 失败 | N/A |
-| [com.jetbrains.irisking](./com.jetbrains.irisking) | amd64  | deepin-v23 | 2021.01.20-1-20250327 | 失败 | N/A |
-| [com.joyusing.gwq](./com.joyusing.gwq) | amd64  | deepin-v23 | 1.0.0-20250327 | 失败 | N/A |
-| [com.joyusing.visualizer](./com.joyusing.visualizer) | amd64  | deepin-v23 | 1.0.0-20250327 | 失败 | N/A |
-| [com.joyusing.w05](./com.joyusing.w05) | amd64  | deepin-v23 | 1.0.0-20250327 | 失败 | N/A |
-| [com.joyusing.writingpad](./com.joyusing.writingpad) | amd64  | deepin-v23 | 1.0.0-20250327 | 失败 | N/A |
-| [com.kinghun.kinghuncamera](./com.kinghun.kinghuncamera) | amd64  | deepin-v23 | 1.0.0-20250327 | 失败 | N/A |
-| [com.lanxum-ga-series](./com.lanxum-ga-series) | amd64  | deepin-v23 | 1.0.1 | 失败 | [SHA256](./com.lanxum-ga-series/SHA256SUMS) |
-| [com.lanxum.ga2630dn-psm-2in1](./com.lanxum.ga2630dn-psm-2in1) | amd64  | deepin-v23 | 1.0.0-20301 | 失败 | [SHA256](./com.lanxum.ga2630dn-psm-2in1/SHA256SUMS) |
-| [com.lanxum.ga30-psm-2in1](./com.lanxum.ga30-psm-2in1) | amd64  | deepin-v23 | 1.0.0-21032 | 失败 | [SHA256](./com.lanxum.ga30-psm-2in1/SHA256SUMS) |
-| [com.lanxum.ga7030dn-psm-2in1](./com.lanxum.ga7030dn-psm-2in1) | amd64  | deepin-v23 | 1.0.0-21034 | 失败 | [SHA256](./com.lanxum.ga7030dn-psm-2in1/SHA256SUMS) |
-| [com.lanxum.gasd06.printerdriver](./com.lanxum.gasd06.printerdriver) | amd64  | deepin-v23 | 1.0.0-5+0-20250327 | 失败 | N/A |
-| [com.lanxum.gd34xxdn](./com.lanxum.gd34xxdn) | amd64  | deepin-v23 | 3.3.0 | ![screen0-5.jpg](./com.lanxum.gd34xxdn/tests/screen0-5.jpg) | [SHA256](./com.lanxum.gd34xxdn/SHA256SUMS) |
-| [com.lanxum.linuxaction](./com.lanxum.linuxaction) | amd64  | deepin-v23 | 2.1.91.24084-uosv20 | ![screen0-5.jpg](./com.lanxum.linuxaction/tests/screen0-5.jpg) | N/A |
-| [com.lanxum.printdevicemanager](./com.lanxum.printdevicemanager) | amd64  | deepin-v23 | 2.0.0-2+0-20250327 | 失败 | N/A |
-| [com.lanxum.rongtuscan](./com.lanxum.rongtuscan) | amd64  | deepin-v23 | 2.0.9 | ![screen0-5.jpg](./com.lanxum.rongtuscan/tests/screen0-5.jpg) | N/A |
-| [com.lanxum.sp1800-1-driver](./com.lanxum.sp1800-1-driver) | amd64  | deepin-v23 | 1.1.0-20250327 | 失败 | N/A |
-| [com.lanxum.sp1800-1-tool](./com.lanxum.sp1800-1-tool) | amd64  | deepin-v23 | 1.1.0-20250327 | 失败 | N/A |
-| [com.lenovo.lenovo-gpy](./com.lenovo.lenovo-gpy) | amd64  | deepin-v23 | 2.1.7.3-20250327 | 失败 | N/A |
-| [com.microtek.scaner](./com.microtek.scaner) | amd64  | deepin-v23 | 1.0.0-9c-20250327 | 失败 | N/A |
-| [com.mindeo.scannertext](./com.mindeo.scannertext) | amd64  | deepin-v23 | 1.2.2.4 | ![screen0-5.jpg](./com.mindeo.scannertext/tests/screen0-5.jpg) | [SHA256](./com.mindeo.scannertext/SHA256SUMS) |
-| [com.mt.cnlinux](./com.mt.cnlinux) | amd64  | deepin-v23 | 1.0.0.3 | ![screen0-5.jpg](./com.mt.cnlinux/tests/screen0-5.jpg) | [SHA256](./com.mt.cnlinux/SHA256SUMS) |
-| [com.mt.cnsscard](./com.mt.cnsscard) | amd64  | deepin-v23 | 1.0.0.4 | ![screen0-5.jpg](./com.mt.cnsscard/tests/screen0-5.jpg) | [SHA256](./com.mt.cnsscard/SHA256SUMS) |
-| [com.nantian.bpport](./com.nantian.bpport) | amd64  | deepin-v23 | 1.0.0.20210910 | ![screen0-5.jpg](./com.nantian.bpport/tests/screen0-5.jpg) | N/A |
-| [com.nantian.clientscreen](./com.nantian.clientscreen) | amd64  | deepin-v23 | 1.0.2.02261802-20250327 | 失败 | N/A |
-| [com.nantian.mmjp](./com.nantian.mmjp) | amd64  | deepin-v23 | 1.0.0.20210312-20250327 | 失败 | N/A |
-| [com.nbdeli.deli-sane](./com.nbdeli.deli-sane) | amd64  | deepin-v23 | 20240820-5.7.10.027-20250327 | 失败 | N/A |
-| [com.ncmem.down2](./com.ncmem.down2) | amd64  | deepin-v23 | 2020.12.3-1 | ![screen0-5.jpg](./com.ncmem.down2/tests/screen0-5.jpg) | [SHA256](./com.ncmem.down2/SHA256SUMS) |
-| [com.ncmem.up6](./com.ncmem.up6) | amd64  | deepin-v23 | 2020.12.3-1 | 失败 | [SHA256](./com.ncmem.up6/SHA256SUMS) |
-| [com.ncmem.wordpaster](./com.ncmem.wordpaster) | amd64  | deepin-v23 | 2020.12.3-1 | 失败 | [SHA256](./com.ncmem.wordpaster/SHA256SUMS) |
-| [com.neutralchina.neuscan](./com.neutralchina.neuscan) | amd64  | deepin-v23 | 4.52.26520.24289 | ![screen0-5.jpg](./com.neutralchina.neuscan/tests/screen0-5.jpg) | N/A |
-| [com.pantum.pantum](./com.pantum.pantum) | amd64  | deepin-v23 | 7.4.182-1+uos-20250327 | 失败 | N/A |
-| [com.pantum.pantum-235-325-2165](./com.pantum.pantum-235-325-2165) | amd64  | deepin-v23 | 1.0.0ab02-1+uos | ![screen0-5.jpg](./com.pantum.pantum-235-325-2165/tests/screen0-5.jpg) ![screen2-5.jpg](./com.pantum.pantum-235-325-2165/tests/screen2-5.jpg) ![screen3-5.jpg](./com.pantum.pantum-235-325-2165/tests/screen3-5.jpg) | [SHA256](./com.pantum.pantum-235-325-2165/SHA256SUMS) |
-| [com.pantum.pantum-scan-assistant](./com.pantum.pantum-scan-assistant) | amd64  | deepin-v23 | 3.0.1-20250327 | 失败 | N/A |
-| [com.pantum.pantumprint](./com.pantum.pantumprint) | amd64  | deepin-v23 | 1.1.24-1+uos | ![screen1-5.jpg](./com.pantum.pantumprint/tests/screen1-5.jpg) | [SHA256](./com.pantum.pantumprint/SHA256SUMS) |
-| [com.plustek.linuxaction](./com.plustek.linuxaction) | amd64  | deepin-v23 | 3.0.3.22342-uosv20-20250327 | 失败 | N/A |
-| [com.racertech.usbdisp](./com.racertech.usbdisp) | amd64  | deepin-v23 | 1.0.0-1-20250327 | 失败 | N/A |
-| [com.ricoh.pfu.fsane](./com.ricoh.pfu.fsane) | amd64  | deepin-v23 | 4.0.1-1-20250327 | 失败 | N/A |
-| [com.rightcolor](./com.rightcolor) | amd64  | deepin-v23 | 1.0.7-20250327 | 失败 | N/A |
-| [com.scanner.hanguang](./com.scanner.hanguang) | amd64  | deepin-v23 | 1.0-1-20250327 | 失败 | N/A |
-| [com.semxum.aisystem](./com.semxum.aisystem) | amd64  | deepin-v23 | 1.0.0-2+b1 | ![screen0-5.jpg](./com.semxum.aisystem/tests/screen0-5.jpg) | [SHA256](./com.semxum.aisystem/SHA256SUMS) |
-| [com.shensi.websocket](./com.shensi.websocket) | amd64  | deepin-v23 | 1.58 | ![screen0-5.jpg](./com.shensi.websocket/tests/screen0-5.jpg) | N/A |
-| [com.sogou.ime.ng.fcitx5.deepin](./com.sogou.ime.ng.fcitx5.deepin) | amd64  | deepin-v23 | 10.0.9.0.8-981 | 失败 | [SHA256](./com.sogou.ime.ng.fcitx5.deepin/SHA256SUMS) |
-| [com.sunrise.demo](./com.sunrise.demo) | amd64  | deepin-v23 | 2.2.2-20250327 | 失败 | N/A |
-| [com.sunrise.device](./com.sunrise.device) | amd64  | deepin-v23 | 2020.09.15-1-20250327 | 失败 | N/A |
-| [com.sxylzinfo.sxsscardsv](./com.sxylzinfo.sxsscardsv) | amd64  | deepin-v23 | 3.5.15 | ![screen0-5.jpg](./com.sxylzinfo.sxsscardsv/tests/screen0-5.jpg) | N/A |
-| [com.szshenshu.aidemo](./com.szshenshu.aidemo) | amd64  | deepin-v23 | 2022.01.11-1 | ![screen0-5.jpg](./com.szshenshu.aidemo/tests/screen0-5.jpg) | [SHA256](./com.szshenshu.aidemo/SHA256SUMS) |
-| [com.tdr.uosicbc](./com.tdr.uosicbc) | amd64  | deepin-v23 | 9.0.6-5-20250327 | 失败 | N/A |
-| [com.tg.aqdl](./com.tg.aqdl) | amd64  | deepin-v23 | 4.1.0.1-20250327 | 失败 | N/A |
-| [com.toec.oem3000dn](./com.toec.oem3000dn) | amd64  | deepin-v23 | 2.6-4 | ![screen0-5.jpg](./com.toec.oem3000dn/tests/screen0-5.jpg) | N/A |
-| [com.toec.toeca3oemseries](./com.toec.toeca3oemseries) | amd64  | deepin-v23 | 1.0 | 失败 | [SHA256](./com.toec.toeca3oemseries/SHA256SUMS) |
-| [com.toec.toeca3series](./com.toec.toeca3series) | amd64  | deepin-v23 | 2.5-7.1 | 失败 | [SHA256](./com.toec.toeca3series/SHA256SUMS) |
-| [com.toec.toeca4faxseries](./com.toec.toeca4faxseries) | amd64  | deepin-v23 | 2.6-4.1 | 失败 | [SHA256](./com.toec.toeca4faxseries/SHA256SUMS) |
-| [com.toec.toeca4printer](./com.toec.toeca4printer) | amd64  | deepin-v23 | 1.0-18.2 | 失败 | [SHA256](./com.toec.toeca4printer/SHA256SUMS) |
-| [com.toec.toeca4series](./com.toec.toeca4series) | amd64  | deepin-v23 | 2.7-3 | 失败 | [SHA256](./com.toec.toeca4series/SHA256SUMS) |
-| [com.toec.toecmyseries](./com.toec.toecmyseries) | amd64  | deepin-v23 | 3.0.0.11 | 失败 | [SHA256](./com.toec.toecmyseries/SHA256SUMS) |
-| [com.toec.toecrlseries](./com.toec.toecrlseries) | amd64  | deepin-v23 | 1.1-7 | 失败 | [SHA256](./com.toec.toecrlseries/SHA256SUMS) |
-| [com.toec.toecrlwseries](./com.toec.toecrlwseries) | amd64  | deepin-v23 | 1.1-1 | 失败 | [SHA256](./com.toec.toecrlwseries/SHA256SUMS) |
-| [com.toec.toecscanner](./com.toec.toecscanner) | amd64  | deepin-v23 | 2.6-4-20250327 | 失败 | N/A |
-| [com.tr.gpyapp](./com.tr.gpyapp) | amd64  | deepin-v23 | 1.0.0.2 | ![screen0-5.jpg](./com.tr.gpyapp/tests/screen0-5.jpg) | [SHA256](./com.tr.gpyapp/SHA256SUMS) |
-| [com.utel.uboxweb](./com.utel.uboxweb) | amd64  | deepin-v23 | 1.0.0.10-20250327 | 失败 | N/A |
-| [com.wendouscanner](./com.wendouscanner) | amd64  | deepin-v23 | 1.1 | 失败 | [SHA256](./com.wendouscanner/SHA256SUMS) |
-| [com.winmage.winmage-sane](./com.winmage.winmage-sane) | amd64  | deepin-v23 | 20240911-4.6.10.053-20250327 | 失败 | N/A |
-| [com.winuim.wmr06](./com.winuim.wmr06) | amd64  | deepin-v23 | 1.0.0.4-1 | ![screen0-5.jpg](./com.winuim.wmr06/tests/screen0-5.jpg) | [SHA256](./com.winuim.wmr06/SHA256SUMS) |
-| [com.wsd.gpy](./com.wsd.gpy) | amd64  | deepin-v23 | 1.0.26-20250327 | 失败 | N/A |
-| [com.yjcloud.asr.agent](./com.yjcloud.asr.agent) | amd64  | deepin-v23 | 5.0.0 | 失败 | [SHA256](./com.yjcloud.asr.agent/SHA256SUMS) |
-| [com.za.ld8800](./com.za.ld8800) | amd64  | deepin-v23 | 3.0.1.2 | ![screen0-5.jpg](./com.za.ld8800/tests/screen0-5.jpg) | [SHA256](./com.za.ld8800/SHA256SUMS) |
-| [com.za.zaz301](./com.za.zaz301) | amd64  | deepin-v23 | 3.0.1.2 | ![screen0-5.jpg](./com.za.zaz301/tests/screen0-5.jpg) | [SHA256](./com.za.zaz301/SHA256SUMS) |
-| [com.zebra.jaguardriver](./com.zebra.jaguardriver) | amd64  | deepin-v23 | 1.0.0.0 | 失败 | [SHA256](./com.zebra.jaguardriver/SHA256SUMS) |
-| [com.zhiankeji.hs108](./com.zhiankeji.hs108) | amd64  | deepin-v23 | 1.0.1-1 | 失败 | [SHA256](./com.zhiankeji.hs108/SHA256SUMS) |
-| [com.zhiankeji.hs110](./com.zhiankeji.hs110) | amd64  | deepin-v23 | 1.0.1-1 | 失败 | [SHA256](./com.zhiankeji.hs110/SHA256SUMS) |
-| [com.ztsave.ztfinger](./com.ztsave.ztfinger) | amd64  | deepin-v23 | 1.0.0-1 | ![screen0-5.jpg](./com.ztsave.ztfinger/tests/screen0-5.jpg) | [SHA256](./com.ztsave.ztfinger/SHA256SUMS) |
-| [compiz-boxmenu](./compiz-boxmenu) | amd64  | ubuntu-noble | 1.1.12-7build2-20250327 | 失败 | N/A |
-| [compiz-core](./compiz-core) | amd64  | ubuntu-noble | 0.9.14.2+22.10.20220822-0ubuntu12-20250327 | 失败 | N/A |
-| [compizconfig-settings-manager](./compizconfig-settings-manager) | amd64  | ubuntu-noble | 0.9.14.2+22.10.20220822-0ubuntu12-20250327 | 失败 | N/A |
-| [comptext](./comptext) | amd64  | ubuntu-noble | 1.0.1-6build2 | ![screen0-5.jpg](./comptext/tests/screen0-5.jpg) | N/A |
-| [compton](./compton) | amd64  | ubuntu-noble | 1-3 | ![screen0-5.jpg](./compton/tests/screen0-5.jpg) | N/A |
-| [compton-conf](./compton-conf) | amd64  | ubuntu-noble | 0.16.0-1ubuntu3 | ![screen0-5.jpg](./compton-conf/tests/screen0-5.jpg) | N/A |
-| [comptty](./comptty) | amd64  | ubuntu-noble | 1.0.1-5build2 | ![screen0-5.jpg](./comptty/tests/screen0-5.jpg) | N/A |
-| [confclerk](./confclerk) | amd64  | ubuntu-noble | 0.7.1-1build2 | ![screen0-5.jpg](./confclerk/tests/screen0-5.jpg) | N/A |
-| [configure-debian](./configure-debian) | amd64  | ubuntu-noble | 1.0.3+nmu3-20250327 | 失败 | N/A |
-| [confy](./confy) | amd64  | ubuntu-noble | 0.7.0-1-20250327 | 失败 | N/A |
-| [congruity](./congruity) | amd64  | ubuntu-noble | 21-1 | ![screen0-5.jpg](./congruity/tests/screen0-5.jpg) | N/A |
-| [conky-all](./conky-all) | amd64  | deepin-v23 | 1.21.1-1-20250327 | 失败 | N/A |
-| [conky-cli](./conky-cli) | amd64  | deepin-v23 | 1.21.1-1 | 失败 | [SHA256](./conky-cli/SHA256SUMS) |
-| [conky-std](./conky-std) | amd64  | deepin-v23 | 1.21.1-1 | 失败 | [SHA256](./conky-std/SHA256SUMS) |
-| [connectagram](./connectagram) | amd64  | ubuntu-noble | 1.3.5-2build1 | ![screen0-5.jpg](./connectagram/tests/screen0-5.jpg) | N/A |
-| [connectome-workbench](./connectome-workbench) | amd64  | ubuntu-noble | 1.5.0-2build2 | ![screen0-5.jpg](./connectome-workbench/tests/screen0-5.jpg) | N/A |
-| [connman-gtk](./connman-gtk) | amd64  | ubuntu-noble | 1.1.1+git20180626.b72c6ab-3build2 | ![screen0-5.jpg](./connman-gtk/tests/screen0-5.jpg) | N/A |
-| [content-hub](./content-hub) | amd64  | ubuntu-noble | 1.1.1-1build5-20250327 | 失败 | N/A |
-| [content-hub-testability](./content-hub-testability) | amd64  | ubuntu-noble | 1.1.1-1build5 | ![screen0-5.jpg](./content-hub-testability/tests/screen0-5.jpg) ![screen1-5.jpg](./content-hub-testability/tests/screen1-5.jpg) ![screen2-5.jpg](./content-hub-testability/tests/screen2-5.jpg) | N/A |
-| [converseen](./converseen) | amd64  | ubuntu-noble | 0.12.1.0-1build2 | ![screen0-5.jpg](./converseen/tests/screen0-5.jpg) | N/A |
-| [convertall](./convertall) | amd64  | ubuntu-noble | 0.8.0-2 | ![screen0-5.jpg](./convertall/tests/screen0-5.jpg) | N/A |
-| [cool-retro-term](./cool-retro-term) | amd64  | ubuntu-noble | 1.2.0+ds2-2build2 | ![screen0-5.jpg](./cool-retro-term/tests/screen0-5.jpg) | N/A |
-| [copyq](./copyq) | amd64  | ubuntu-noble | 7.1.0-1build2 | ![screen0-5.jpg](./copyq/tests/screen0-5.jpg) | N/A |
-| [coqide](./coqide) | amd64  | ubuntu-noble | 8.18.0+dfsg-1build2 | ![screen0-5.jpg](./coqide/tests/screen0-5.jpg) | N/A |
-| [corectrl](./corectrl) | amd64  | ubuntu-noble | 1.3.11+ds-1build1-20250327 | 失败 | N/A |
-| [corsix-th](./corsix-th) | amd64  | ubuntu-noble | 0.67-1 | ![screen0-5.jpg](./corsix-th/tests/screen0-5.jpg) | N/A |
-| [cppcheck-gui](./cppcheck-gui) | amd64  | ubuntu-noble | 2.13.0-2ubuntu3 | ![screen0-5.jpg](./cppcheck-gui/tests/screen0-5.jpg) | N/A |
-| [cpu-x](./cpu-x) | amd64  | ubuntu-noble | 5.0.3-2build2 | ![screen0-5.jpg](./cpu-x/tests/screen0-5.jpg) | N/A |
-| [cpupower-gui](./cpupower-gui) | amd64  | ubuntu-noble | 0.7.2-2.1ubuntu2-20250327 | 失败 | N/A |
-| [cqrlog](./cqrlog) | amd64  | ubuntu-noble | 2.5.2-3ubuntu2 | ![screen0-5.jpg](./cqrlog/tests/screen0-5.jpg) | N/A |
-| [crack-attack](./crack-attack) | amd64  | ubuntu-noble | 1.1.14-9.2build2 | ![screen0-5.jpg](./crack-attack/tests/screen0-5.jpg) | N/A |
-| [crawl](./crawl) | amd64  | ubuntu-noble | 0.28.0-1.1-20250327 | 失败 | N/A |
-| [crawl-tiles](./crawl-tiles) | amd64  | ubuntu-noble | 0.28.0-1.1 | ![screen0-5.jpg](./crawl-tiles/tests/screen0-5.jpg) | N/A |
-| [cream](./cream) | amd64  | ubuntu-noble | 0.43-3.1-20250327 | 失败 | N/A |
-| [crimson](./crimson) | amd64  | ubuntu-noble | 0.5.2-1.1build2 | ![screen0-5.jpg](./crimson/tests/screen0-5.jpg) | N/A |
-| [crispy-doom](./crispy-doom) | amd64  | ubuntu-noble | 6.0-2build2 | ![screen0-5.jpg](./crispy-doom/tests/screen0-5.jpg) ![screen3-5.jpg](./crispy-doom/tests/screen3-5.jpg) ![screen5-5.jpg](./crispy-doom/tests/screen5-5.jpg) | N/A |
-| [criticalmass](./criticalmass) | amd64  | ubuntu-noble | 1.0.2-4build3-20250327 | 失败 | N/A |
-| [critterding](./critterding) | amd64  | ubuntu-noble | 1.0-beta12.1-1.3build1 | ![screen0-5.jpg](./critterding/tests/screen0-5.jpg) | N/A |
-| [cronometer](./cronometer) | amd64  | ubuntu-noble | 0.9.9+dfsg1-1-20250327 | 失败 | N/A |
-| [crossfire-client](./crossfire-client) | amd64  | ubuntu-noble | 1.75.0-2build4 | ![screen0-5.jpg](./crossfire-client/tests/screen0-5.jpg) | N/A |
-| [crow-translate](./crow-translate) | amd64  | ubuntu-noble | 2.11.1+git20240108+ds-1build2 | ![screen0-5.jpg](./crow-translate/tests/screen0-5.jpg) | N/A |
-| [crrcsim](./crrcsim) | amd64  | ubuntu-noble | 0.9.13-3.2build2 | ![screen0-5.jpg](./crrcsim/tests/screen0-5.jpg) | N/A |
-| [crystal-facet-uml](./crystal-facet-uml) | amd64  | ubuntu-noble | 1.55.3-1build2 | ![screen0-5.jpg](./crystal-facet-uml/tests/screen0-5.jpg) | N/A |
-| [csoundqt](./csoundqt) | amd64  | ubuntu-noble | 1.1.1+dfsg0-1build2 | ![screen0-5.jpg](./csoundqt/tests/screen0-5.jpg) | N/A |
-| [ctsim](./ctsim) | amd64  | ubuntu-noble | 6.0.2-6build3 | ![screen0-5.jpg](./ctsim/tests/screen0-5.jpg) | N/A |
-| [cube2-data](./cube2-data) | amd64  | ubuntu-noble | 1.3-1 | ![screen0-5.jpg](./cube2-data/tests/screen0-5.jpg) | N/A |
-| [cubicsdr](./cubicsdr) | amd64  | ubuntu-noble | 0.2.7+dfsg-2build3 | ![screen0-5.jpg](./cubicsdr/tests/screen0-5.jpg) | N/A |
-| [cultivation](./cultivation) | amd64  | ubuntu-noble | 9+dfsg1-2build5 | ![screen0-5.jpg](./cultivation/tests/screen0-5.jpg) | N/A |
-| [curtain](./curtain) | amd64  | ubuntu-noble | 0.3-1.1build3 | ![screen0-5.jpg](./curtain/tests/screen0-5.jpg) | N/A |
-| [cutecom](./cutecom) | amd64  | ubuntu-noble | 0.51.0-1build2 | ![screen0-5.jpg](./cutecom/tests/screen0-5.jpg) | N/A |
-| [cutemaze](./cutemaze) | amd64  | ubuntu-noble | 1.3.2-1build2 | ![screen0-5.jpg](./cutemaze/tests/screen0-5.jpg) | N/A |
-| [cutesdr](./cutesdr) | amd64  | ubuntu-noble | 1.20-4build2 | ![screen0-5.jpg](./cutesdr/tests/screen0-5.jpg) | N/A |
-| [cuyo](./cuyo) | amd64  | ubuntu-noble | 2.1.0-1build1 | ![screen0-5.jpg](./cuyo/tests/screen0-5.jpg) | N/A |
-| [cycle](./cycle) | amd64  | ubuntu-noble | 0.3.3-1-20250327 | 失败 | N/A |
-| [cyclograph-gtk3](./cyclograph-gtk3) | amd64  | ubuntu-noble | 1.9.1-1.2-20250327 | 失败 | N/A |
-| [cyclograph-qt5](./cyclograph-qt5) | amd64  | ubuntu-noble | 1.9.1-1.2-20250327 | 失败 | N/A |
-| [cynthiune.app](./cynthiune.app) | amd64  | ubuntu-noble | 1.0.0-2build9 | ![screen0-5.jpg](./cynthiune.app/tests/screen0-5.jpg) | N/A |
-| [cytadela](./cytadela) | amd64  | ubuntu-noble | 1.1.0-4build1-20250327 | 失败 | N/A |
-| [d-feet](./d-feet) | amd64  | deepin-v23 | 0.3.16-3 | ![screen0-5.jpg](./d-feet/tests/screen0-5.jpg) | [SHA256](./d-feet/SHA256SUMS) |
-| [d-spy](./d-spy) | amd64  | ubuntu-noble | 1.10.0-1build1 | ![screen0-5.jpg](./d-spy/tests/screen0-5.jpg) | N/A |
-| [d1x-rebirth](./d1x-rebirth) | amd64  | ubuntu-noble | 0.58.1-1.2-20250327 | 失败 | N/A |
-| [d2x-rebirth](./d2x-rebirth) | amd64  | ubuntu-noble | 0.58.1-1.3-20250327 | 失败 | N/A |
-| [daisy-player](./daisy-player) | amd64  | ubuntu-noble | 13.0-4build2-20250327 | 失败 | N/A |
-| [dangen](./dangen) | amd64  | ubuntu-noble | 0.5-7 | ![screen0-5.jpg](./dangen/tests/screen0-5.jpg) | N/A |
-| [danmaq](./danmaq) | amd64  | ubuntu-noble | 0.2.3.2-2build2 | ![screen0-5.jpg](./danmaq/tests/screen0-5.jpg) | N/A |
-| [darkradiant](./darkradiant) | amd64  | ubuntu-noble | 3.8.0-2build4 | ![screen0-5.jpg](./darkradiant/tests/screen0-5.jpg) | N/A |
-| [darktable](./darktable) | amd64  | ubuntu-noble | 4.6.1-2ubuntu1 | ![screen0-5.jpg](./darktable/tests/screen0-5.jpg) | N/A |
-| [darnwdl](./darnwdl) | amd64  | ubuntu-noble | 0.8-1build1 | ![screen0-5.jpg](./darnwdl/tests/screen0-5.jpg) | N/A |
-| [dasher](./dasher) | amd64  | ubuntu-noble | 5.0.0~beta~repack2-4build3 | ![screen0-5.jpg](./dasher/tests/screen0-5.jpg) | N/A |
-| [davegnukem](./davegnukem) | amd64  | ubuntu-noble | 1.0.3-4 | ![screen0-5.jpg](./davegnukem/tests/screen0-5.jpg) | N/A |
-| [davmail](./davmail) | amd64  | ubuntu-noble | 6.2.1.3496-1 | ![screen0-5.jpg](./davmail/tests/screen0-5.jpg) | N/A |
-| [dawg](./dawg) | amd64  | ubuntu-noble | 1.2-4-20250327 | 失败 | N/A |
-| [dclock](./dclock) | amd64  | ubuntu-noble | 2.2.2-14build2 | ![screen0-5.jpg](./dclock/tests/screen0-5.jpg) | N/A |
-| [dconf-editor](./dconf-editor) | amd64  | ubuntu-noble | 45.0.1-1build2 | ![screen0-5.jpg](./dconf-editor/tests/screen0-5.jpg) | N/A |
-| [ddcui](./ddcui) | amd64  | ubuntu-noble | 0.3.0-1build3 | ![screen0-5.jpg](./ddcui/tests/screen0-5.jpg) | N/A |
-| [ddd](./ddd) | amd64  | ubuntu-noble | 3.3.12-5.4build2 | ![screen0-5.jpg](./ddd/tests/screen0-5.jpg) | N/A |
-| [dde-calendar](./dde-calendar) | amd64  | deepin-v23 | 5.14.7-20250327 | 失败 | N/A |
-| [dde-control-center](./dde-control-center) | amd64  | deepin-v23 | 6.0.75+deepin0+rb1-20250327 | 失败 | N/A |
-| [dde-cooperation](./dde-cooperation) | amd64  | deepin-v23 | 1.0.2-1 | ![screen0-5.jpg](./dde-cooperation/tests/screen0-5.jpg) | [SHA256](./dde-cooperation/SHA256SUMS) |
-| [dde-desktop](./dde-desktop) | amd64  | deepin-v23 | 6.5.10.4-20250327 | 失败 | N/A |
-| [dde-device-formatter](./dde-device-formatter) | amd64  | deepin-v23 | 0.0.1.16-20250327 | 失败 | N/A |
-| [dde-file-manager](./dde-file-manager) | amd64  | deepin-v23 | 6.5.10.4-20250327 | 失败 | N/A |
-| [dde-introduction](./dde-introduction) | amd64  | deepin-v23 | 7.0.9 | ![screen0-5.jpg](./dde-introduction/tests/screen0-5.jpg) | [SHA256](./dde-introduction/SHA256SUMS) |
-| [dde-printer](./dde-printer) | amd64  | deepin-v23 | 1.0.25-1+1060 | ![screen0-5.jpg](./dde-printer/tests/screen0-5.jpg) | N/A |
-| [dde-session-shell](./dde-session-shell) | amd64  | deepin-v23 | 6.0.23-20250327 | 失败 | N/A |
-| [dde-store](./dde-store) | amd64  | ubuntu-noble | 1.2.5-1build2-20250327 | 失败 | N/A |
-| [ddnet](./ddnet) | amd64  | ubuntu-noble | 16.4-1.2build5 | ![screen0-5.jpg](./ddnet/tests/screen0-5.jpg) | N/A |
-| [ddrescueview](./ddrescueview) | amd64  | ubuntu-noble | 0.4.5-2 | ![screen0-5.jpg](./ddrescueview/tests/screen0-5.jpg) | N/A |
-| [deb-gview](./deb-gview) | amd64  | ubuntu-noble | 0.3.7build2 | ![screen0-5.jpg](./deb-gview/tests/screen0-5.jpg) | N/A |
-| [debian-installer-launcher](./debian-installer-launcher) | amd64  | ubuntu-noble | 41 | ![screen0-5.jpg](./debian-installer-launcher/tests/screen0-5.jpg) | N/A |
-| [debian-reference-common](./debian-reference-common) | amd64  | ubuntu-noble | 2.122-20250327 | 失败 | N/A |
-| [deepin-album](./deepin-album) | amd64  | deepin-v23 | 5.10.25 | ![screen0-5.jpg](./deepin-album/tests/screen0-5.jpg) | [SHA256](./deepin-album/SHA256SUMS) |
-| [deepin-app-store](./deepin-app-store) | amd64  | deepin-v23 | 8.0.7.0010 | ![screen0-5.jpg](./deepin-app-store/tests/screen0-5.jpg) | [SHA256](./deepin-app-store/SHA256SUMS) |
-| [deepin-boot-maker](./deepin-boot-maker) | amd64  | deepin-v23 | 5.7.10-20250327 | 失败 | N/A |
-| [deepin-calculator](./deepin-calculator) | amd64  | deepin-v23 | 6.0.1 | ![screen0-5.jpg](./deepin-calculator/tests/screen0-5.jpg) | [SHA256](./deepin-calculator/SHA256SUMS) |
-| [deepin-camera](./deepin-camera) | amd64  | deepin-v23 | 6.5.5-20250327 | 失败 | N/A |
-| [deepin-compatibility-mode](./deepin-compatibility-mode) | amd64  | deepin-v23 | 0.1.2 | ![screen0-5.jpg](./deepin-compatibility-mode/tests/screen0-5.jpg) | N/A |
-| [deepin-compressor](./deepin-compressor) | amd64  | deepin-v23 | 6.0.2 | ![screen0-5.jpg](./deepin-compressor/tests/screen0-5.jpg) | [SHA256](./deepin-compressor/SHA256SUMS) |
-| [deepin-data-transfer](./deepin-data-transfer) | amd64  | deepin-v23 | 1.0.2-1 | ![screen0-5.jpg](./deepin-data-transfer/tests/screen0-5.jpg) | [SHA256](./deepin-data-transfer/SHA256SUMS) |
-| [deepin-deb-installer](./deepin-deb-installer) | amd64  | deepin-v23 | 6.5.0-20250327 | 失败 | N/A |
-| [deepin-devicemanager](./deepin-devicemanager) | amd64  | deepin-v23 | 6.0.28-20250327 | 失败 | N/A |
-| [deepin-diskmanager](./deepin-diskmanager) | amd64  | deepin-v23 | 1.4.1 | ![screen0-5.jpg](./deepin-diskmanager/tests/screen0-5.jpg) | [SHA256](./deepin-diskmanager/SHA256SUMS) |
-| [deepin-distrobox-ubuntu](./deepin-distrobox-ubuntu) | amd64  | deepin-v23 | 0 | ![screen0-5.jpg](./deepin-distrobox-ubuntu/tests/screen0-5.jpg) | N/A |
-| [deepin-draw](./deepin-draw) | amd64  | deepin-v23 | 7.0.4 | ![screen0-5.jpg](./deepin-draw/tests/screen0-5.jpg) | [SHA256](./deepin-draw/SHA256SUMS) |
-| [deepin-editor](./deepin-editor) | amd64  | deepin-v23 | 6.5.7 | ![screen0-5.jpg](./deepin-editor/tests/screen0-5.jpg) | N/A |
-| [deepin-feedback](./deepin-feedback) | amd64  | deepin-v23 | 6.0.0-20250327 | 失败 | N/A |
-| [deepin-font-manager](./deepin-font-manager) | amd64  | deepin-v23 | 6.5.3-20250327 | 失败 | N/A |
-| [deepin-home](./deepin-home) | amd64  | deepin-v23 | 1.6.3 | ![screen0-5.jpg](./deepin-home/tests/screen0-5.jpg) | N/A |
-| [deepin-image-viewer](./deepin-image-viewer) | amd64  | deepin-v23 | 5.9.20 | ![screen0-5.jpg](./deepin-image-viewer/tests/screen0-5.jpg) | [SHA256](./deepin-image-viewer/SHA256SUMS) |
-| [deepin-log-viewer](./deepin-log-viewer) | amd64  | deepin-v23 | 6.5.2 | ![screen0-5.jpg](./deepin-log-viewer/tests/screen0-5.jpg) | [SHA256](./deepin-log-viewer/SHA256SUMS) |
-| [deepin-mail](./deepin-mail) | amd64  | deepin-v23 | 6.4.10-20250327 | 失败 | N/A |
-| [deepin-manual](./deepin-manual) | amd64  | deepin-v23 | 6.5.6.1-20250327 | 失败 | N/A |
-| [deepin-movie](./deepin-movie) | amd64  | deepin-v23 | 6.0.13-1-20250327 | 失败 | N/A |
-| [deepin-music](./deepin-music) | amd64  | deepin-v23 | 6.2.40-20250327 | 失败 | N/A |
-| [deepin-ocr](./deepin-ocr) | amd64  | deepin-v23 | 1.1.2-20250327 | 失败 | N/A |
-| [deepin-picker](./deepin-picker) | amd64  | deepin-v23 | 6.0.1-20250327 | 失败 | N/A |
-| [deepin-reader](./deepin-reader) | amd64  | deepin-v23 | 6.5.2-20250327 | 失败 | N/A |
-| [deepin-screen-recorder](./deepin-screen-recorder) | amd64  | deepin-v23 | 6.0.9+deepin0+rb1-20250327 | 失败 | N/A |
-| [deepin-system-monitor](./deepin-system-monitor) | amd64  | deepin-v23 | 6.5.2 | ![screen0-5.jpg](./deepin-system-monitor/tests/screen0-5.jpg) | [SHA256](./deepin-system-monitor/SHA256SUMS) |
-| [deepin-system-upgrade](./deepin-system-upgrade) | amd64  | deepin-v23 | 6.0.3 | ![screen0-5.jpg](./deepin-system-upgrade/tests/screen0-5.jpg) | [SHA256](./deepin-system-upgrade/SHA256SUMS) |
-| [deepin-terminal](./deepin-terminal) | amd64  | deepin-v23 | 6.0.16 | ![screen0-5.jpg](./deepin-terminal/tests/screen0-5.jpg) | N/A |
-| [deepin-unioncode](./deepin-unioncode) | amd64  | deepin-v23 | 1.4.8-1-20250327 | 失败 | N/A |
-| [deepin-voice-note](./deepin-voice-note) | amd64  | deepin-v23 | 6.0.17-20250327 | 失败 | N/A |
-| [deja-dup](./deja-dup) | amd64  | ubuntu-noble | 45.2-1build2 | ![screen0-5.jpg](./deja-dup/tests/screen0-5.jpg) | N/A |
-| [deli-printer-a111](./deli-printer-a111) | amd64  | deepin-v23 | 1.1.022-20250327 | 失败 | N/A |
-| [dell-recovery](./dell-recovery) | amd64  | ubuntu-noble | 1.66-20250327 | 失败 | N/A |
-| [deluge-gtk](./deluge-gtk) | amd64  | ubuntu-noble | 2.1.2~dev0+20240121-1-20250327 | 失败 | N/A |
-| [denemo](./denemo) | amd64  | ubuntu-noble | 2.6.18-1build3-20250327 | 失败 | N/A |
-| [desktopfolder](./desktopfolder) | amd64  | ubuntu-noble | 1.1.3-3build2 | ![screen0-5.jpg](./desktopfolder/tests/screen0-5.jpg) | N/A |
-| [devede](./devede) | amd64  | ubuntu-noble | 4.17.0-1-20250327 | 失败 | N/A |
-| [developers-reference](./developers-reference) | amd64  | ubuntu-noble | 13.4-20250327 | 失败 | N/A |
-| [devhelp](./devhelp) | amd64  | ubuntu-noble | 43.0-4build3 | ![screen0-5.jpg](./devhelp/tests/screen0-5.jpg) | N/A |
-| [dfcgen-gtk](./dfcgen-gtk) | amd64  | ubuntu-noble | 0.6-2build2 | ![screen0-5.jpg](./dfcgen-gtk/tests/screen0-5.jpg) | N/A |
-| [dgedit](./dgedit) | amd64  | ubuntu-noble | 0.10.0-2build3 | ![screen0-5.jpg](./dgedit/tests/screen0-5.jpg) | N/A |
-| [dhelp](./dhelp) | amd64  | ubuntu-noble | 0.6.30-20250327 | 失败 | N/A |
-| [dhewm3-d3xp](./dhewm3-d3xp) | amd64  | ubuntu-noble | 1.5.2+dfsg-1build2-20250327 | 失败 | N/A |
-| [dhewm3-doom3](./dhewm3-doom3) | amd64  | ubuntu-noble | 1.5.2+dfsg-1build2-20250327 | 失败 | N/A |
-| [dia](./dia) | amd64  | ubuntu-noble | 0.98+git20240130-1build4-20250327 | 失败 | N/A |
-| [dialect](./dialect) | amd64  | ubuntu-noble | 2.1.1+~2.1.1-1-20250327 | 失败 | N/A |
-| [dianara](./dianara) | amd64  | ubuntu-noble | 1.4.4-1build2 | ![screen0-5.jpg](./dianara/tests/screen0-5.jpg) | N/A |
-| [dictionaryreader.app](./dictionaryreader.app) | amd64  | ubuntu-noble | 0+20080616+dfsg-2.1build1 | ![screen0-5.jpg](./dictionaryreader.app/tests/screen0-5.jpg) | N/A |
-| [diffpdf](./diffpdf) | amd64  | ubuntu-noble | 2.1.3.1-2build3 | ![screen0-5.jpg](./diffpdf/tests/screen0-5.jpg) | N/A |
-| [diffuse](./diffuse) | amd64  | ubuntu-noble | 0.8.2-1ubuntu1.1-20250327 | 失败 | N/A |
-| [digikam](./digikam) | amd64  | ubuntu-noble | 8.2.0-0ubuntu6.2 | ![screen0-5.jpg](./digikam/tests/screen0-5.jpg) | N/A |
-| [dillo](./dillo) | amd64  | ubuntu-noble | 3.0.5-7build5 | ![screen0-5.jpg](./dillo/tests/screen0-5.jpg) | N/A |
-| [din](./din) | amd64  | ubuntu-noble | 58.1+ds-1-20250327 | 失败 | N/A |
-| [ding](./ding) | amd64  | ubuntu-noble | 1.9-7 | ![screen0-5.jpg](./ding/tests/screen0-5.jpg) | N/A |
-| [dino-im](./dino-im) | amd64  | ubuntu-noble | 0.4.3-3 | ![screen0-5.jpg](./dino-im/tests/screen0-5.jpg) | N/A |
-| [diodon](./diodon) | amd64  | ubuntu-noble | 1.13.0-1build2 | ![screen0-5.jpg](./diodon/tests/screen0-5.jpg) | N/A |
-| [direwolf](./direwolf) | amd64  | ubuntu-noble | 1.7+dfsg-2build2-20250327 | 失败 | N/A |
-| [displaycal](./displaycal) | amd64  | ubuntu-noble | 3.9.11-2ubuntu0.24.04.1-20250327 | 失败 | N/A |
-| [distccmon-gnome](./distccmon-gnome) | amd64  | deepin-v23 | 3.4+really3.4-4deepin1 | ![screen0-5.jpg](./distccmon-gnome/tests/screen0-5.jpg) | [SHA256](./distccmon-gnome/SHA256SUMS) |
-| [djview4](./djview4) | amd64  | ubuntu-noble | 4.12-3build3 | ![screen0-6.jpg](./djview4/tests/screen0-6.jpg) | N/A |
-| [dkopp](./dkopp) | amd64  | ubuntu-noble | 6.5-2build2-20250327 | 失败 | N/A |
-| [dlt-viewer](./dlt-viewer) | amd64  | ubuntu-noble | 2.25.0+dfsg-2build3-20250327 | 失败 | N/A |
-| [dochelp](./dochelp) | amd64  | ubuntu-noble | 0.1.8-20250327 | 失败 | N/A |
-| [dodgindiamond2](./dodgindiamond2) | amd64  | ubuntu-noble | 0.2.2-4 | ![screen0-5.jpg](./dodgindiamond2/tests/screen0-5.jpg) | N/A |
-| [dolphin](./dolphin) | amd64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./dolphin/tests/screen0-5.jpg) | N/A |
-| [domino-chain](./domino-chain) | amd64  | ubuntu-noble | 1.1-3build3-20250327 | 失败 | N/A |
-| [doomsday](./doomsday) | amd64  | ubuntu-noble | 2.3.1+ds1-1build3 | ![screen0-5.jpg](./doomsday/tests/screen0-5.jpg) | N/A |
-| [doomsday-server](./doomsday-server) | amd64  | ubuntu-noble | 2.3.1+ds1-1build3 | ![screen0-5.jpg](./doomsday-server/tests/screen0-5.jpg) | N/A |
-| [dopewars](./dopewars) | amd64  | ubuntu-noble | 1.6.2-1build4-20250327 | 失败 | N/A |
-| [dosbox](./dosbox) | amd64  | ubuntu-noble | 0.74-3-5build2 | ![screen0-5.jpg](./dosbox/tests/screen0-5.jpg) | N/A |
-| [dosbox-x](./dosbox-x) | amd64  | ubuntu-noble | 2024.03.01+dfsg-1build2 | ![screen0-5.jpg](./dosbox-x/tests/screen0-5.jpg) | N/A |
-| [dossizola](./dossizola) | amd64  | ubuntu-noble | 1.0-12 | ![screen0-5.jpg](./dossizola/tests/screen0-5.jpg) | N/A |
-| [doublecmd-common](./doublecmd-common) | amd64  | ubuntu-noble | 1.1.11-1build1 | ![screen0-5.jpg](./doublecmd-common/tests/screen0-5.jpg) | N/A |
-| [dozzaqueux](./dozzaqueux) | amd64  | ubuntu-noble | 3.51-4 | ![screen0-5.jpg](./dozzaqueux/tests/screen0-5.jpg) | N/A |
-| [dpkg-www](./dpkg-www) | amd64  | ubuntu-noble | 2.65-20250327 | 失败 | N/A |
-| [dragonplayer](./dragonplayer) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./dragonplayer/tests/screen0-5.jpg) | N/A |
-| [drascula](./drascula) | amd64  | ubuntu-noble | 1.0+ds4-2 | ![screen0-5.jpg](./drascula/tests/screen0-5.jpg) | N/A |
-| [drascula-french](./drascula-french) | amd64  | ubuntu-noble | 1.0+ds4-2 | ![screen0-5.jpg](./drascula-french/tests/screen0-5.jpg) | N/A |
-| [drascula-german](./drascula-german) | amd64  | ubuntu-noble | 1.0+ds4-2 | ![screen0-5.jpg](./drascula-german/tests/screen0-5.jpg) | N/A |
-| [drascula-italian](./drascula-italian) | amd64  | ubuntu-noble | 1.0+ds4-2 | ![screen0-5.jpg](./drascula-italian/tests/screen0-5.jpg) | N/A |
-| [drascula-spanish](./drascula-spanish) | amd64  | ubuntu-noble | 1.0+ds4-2 | ![screen0-5.jpg](./drascula-spanish/tests/screen0-5.jpg) | N/A |
-| [drawing](./drawing) | amd64  | ubuntu-noble | 1.0.2-1build1-20250327 | 失败 | N/A |
-| [drawxtl](./drawxtl) | amd64  | ubuntu-noble | 5.5-6.1build2 | ![screen0-5.jpg](./drawxtl/tests/screen0-5.jpg) | N/A |
-| [dreamchess](./dreamchess) | amd64  | ubuntu-noble | 0.3.0-2 | ![screen0-5.jpg](./dreamchess/tests/screen0-5.jpg) | N/A |
-| [driftnet](./driftnet) | amd64  | ubuntu-noble | 1.5.0-0.2build3-20250327 | 失败 | N/A |
-| [drkonqi](./drkonqi) | amd64  | ubuntu-noble | 5.27.11-0ubuntu3-20250327 | 失败 | N/A |
-| [drumkv1](./drumkv1) | amd64  | ubuntu-noble | 0.9.34-1build3 | ![screen0-5.jpg](./drumkv1/tests/screen0-5.jpg) | N/A |
-| [drumstick-tools](./drumstick-tools) | amd64  | ubuntu-noble | 2.9.0-1.1build2 | ![screen0-5.jpg](./drumstick-tools/tests/screen0-5.jpg) ![screen1-5.jpg](./drumstick-tools/tests/screen1-5.jpg) ![screen2-5.jpg](./drumstick-tools/tests/screen2-5.jpg) | N/A |
-| [dsda-doom](./dsda-doom) | amd64  | ubuntu-noble | 0.27.5+dfsg-1build2 | ![screen0-5.jpg](./dsda-doom/tests/screen0-5.jpg) | N/A |
-| [dspdfviewer](./dspdfviewer) | amd64  | ubuntu-noble | 1.15.1-1.1build5 | ![screen0-5.jpg](./dspdfviewer/tests/screen0-5.jpg) | N/A |
-| [dummyapp-wpsoffice](./dummyapp-wpsoffice) | amd64  | deepin-v23 | 1.0.2-20250327 | 失败 | N/A |
-| [dupeguru](./dupeguru) | amd64  | ubuntu-noble | 4.3.1-4build1 | ![screen0-5.jpg](./dupeguru/tests/screen0-5.jpg) | N/A |
-| [dustracing2d](./dustracing2d) | amd64  | ubuntu-noble | 2.1.1-2build2 | ![screen0-5.jpg](./dustracing2d/tests/screen0-5.jpg) ![screen1-5.jpg](./dustracing2d/tests/screen1-5.jpg) | N/A |
-| [dvb-apps](./dvb-apps) | amd64  | ubuntu-noble | 1.1.1+rev1500-1.4build3-20250327 | 失败 | N/A |
-| [dvbcut](./dvbcut) | amd64  | ubuntu-noble | 0.7.4-1build4 | ![screen0-5.jpg](./dvbcut/tests/screen0-5.jpg) | N/A |
-| [dvorak7min](./dvorak7min) | amd64  | ubuntu-noble | 1.6.1+repack-4-20250327 | 失败 | N/A |
-| [dwarf-fortress](./dwarf-fortress) | amd64  | ubuntu-noble | 0.47.04+dfsg1-1build3 | ![screen0-5.jpg](./dwarf-fortress/tests/screen0-5.jpg) | N/A |
-| [dwww](./dwww) | amd64  | ubuntu-noble | 1.16-20250327 | 失败 | N/A |
-| [dx](./dx) | amd64  | ubuntu-noble | 4.4.4-15.1build2 | ![screen0-5.jpg](./dx/tests/screen0-5.jpg) | N/A |
-| [dxf2gcode](./dxf2gcode) | amd64  | ubuntu-noble | 20191025-2 | ![screen0-5.jpg](./dxf2gcode/tests/screen0-5.jpg) | N/A |
-| [dyssol-gui](./dyssol-gui) | amd64  | ubuntu-noble | 1.1.1+ds1-2.1build4 | ![screen0-5.jpg](./dyssol-gui/tests/screen0-5.jpg) | N/A |
-| [eartag](./eartag) | amd64  | ubuntu-noble | 0.6.0-1-20250327 | 失败 | N/A |
-| [easychem](./easychem) | amd64  | ubuntu-noble | 0.6-9build2 | ![screen0-5.jpg](./easychem/tests/screen0-5.jpg) | N/A |
-| [easyeffects](./easyeffects) | amd64  | deepin-v23 | 7.1.7-1-20250327 | 失败 | N/A |
-| [easyssh](./easyssh) | amd64  | ubuntu-noble | 1.7.9-4build2 | ![screen0-5.jpg](./easyssh/tests/screen0-5.jpg) | N/A |
-| [easytag](./easytag) | amd64  | ubuntu-noble | 2.4.3-5build3 | ![screen0-5.jpg](./easytag/tests/screen0-5.jpg) | N/A |
-| [ebook-speaker](./ebook-speaker) | amd64  | ubuntu-noble | 6.2.0-5build2-20250327 | 失败 | N/A |
-| [ebook2cwgui](./ebook2cwgui) | amd64  | ubuntu-noble | 0.1.2-7build3 | ![screen0-5.jpg](./ebook2cwgui/tests/screen0-5.jpg) | N/A |
-| [ebumeter](./ebumeter) | amd64  | ubuntu-noble | 0.5.1-1build2-20250327 | 失败 | N/A |
-| [edb-debugger](./edb-debugger) | amd64  | deepin-v23 | 1.3.0-2.1deepin0 | ![screen0-5.jpg](./edb-debugger/tests/screen0-5.jpg) | [SHA256](./edb-debugger/SHA256SUMS) |
-| [edenmath.app](./edenmath.app) | amd64  | ubuntu-noble | 1.1.1a-8build5 | ![screen0-5.jpg](./edenmath.app/tests/screen0-5.jpg) | N/A |
-| [edfbrowser](./edfbrowser) | amd64  | ubuntu-noble | 2.06+dfsg-1build2 | ![screen0-5.jpg](./edfbrowser/tests/screen0-5.jpg) | N/A |
-| [edgar](./edgar) | amd64  | ubuntu-noble | 1.37-1build2 | ![screen0-5.jpg](./edgar/tests/screen0-5.jpg) | N/A |
-| [edubuntu-docs](./edubuntu-docs) | amd64  | ubuntu-noble | 11.03.3 | ![screen0-5.jpg](./edubuntu-docs/tests/screen0-5.jpg) | N/A |
-| [edubuntu-installer](./edubuntu-installer) | amd64  | ubuntu-noble | 0.6 | ![screen0-5.jpg](./edubuntu-installer/tests/screen0-5.jpg) | N/A |
-| [edubuntu-menu](./edubuntu-menu) | amd64  | ubuntu-noble | 24.04.2.2-20250327 | 失败 | N/A |
-| [eekboek-gui](./eekboek-gui) | amd64  | ubuntu-noble | 2.04-1build1 | ![screen0-5.jpg](./eekboek-gui/tests/screen0-5.jpg) | N/A |
-| [efte](./efte) | amd64  | ubuntu-noble | 1.1-4 | ![screen0-5.jpg](./efte/tests/screen0-5.jpg) | N/A |
-| [eiciel](./eiciel) | amd64  | ubuntu-noble | 0.10.0-1build2 | ![screen0-5.jpg](./eiciel/tests/screen0-5.jpg) | N/A |
-| [einstein](./einstein) | amd64  | ubuntu-noble | 2.0.dfsg.2-10build1 | ![screen0-5.jpg](./einstein/tests/screen0-5.jpg) | N/A |
-| [eiskaltdcpp-gtk](./eiskaltdcpp-gtk) | amd64  | ubuntu-noble | 2.4.2-1.1build6 | ![screen0-5.jpg](./eiskaltdcpp-gtk/tests/screen0-5.jpg) | N/A |
-| [eiskaltdcpp-qt](./eiskaltdcpp-qt) | amd64  | ubuntu-noble | 2.4.2-1.1build6 | ![screen0-5.jpg](./eiskaltdcpp-qt/tests/screen0-5.jpg) | N/A |
-| [eiskaltdcpp-web](./eiskaltdcpp-web) | amd64  | ubuntu-noble | 1.0.1-2-20250327 | 失败 | N/A |
-| [electric](./electric) | amd64  | ubuntu-noble | 9.07+dfsg-7-20250327 | 失败 | N/A |
-| [elektroid](./elektroid) | amd64  | ubuntu-noble | 3.0.1-2build1 | ![screen0-5.jpg](./elektroid/tests/screen0-5.jpg) | N/A |
-| [elisa](./elisa) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./elisa/tests/screen0-5.jpg) | N/A |
-| [elki](./elki) | amd64  | ubuntu-noble | 0.7.1-10.1-20250327 | 失败 | N/A |
-| [emacs-common](./emacs-common) | amd64  | ubuntu-noble | 29.3+1-1ubuntu2-20250327 | 失败 | N/A |
-| [emacs-gtk](./emacs-gtk) | amd64  | ubuntu-noble | 29.3+1-1ubuntu2 | ![screen1-5.jpg](./emacs-gtk/tests/screen1-5.jpg) | N/A |
-| [emacs-lucid](./emacs-lucid) | amd64  | ubuntu-noble | 29.3+1-1ubuntu2 | ![screen1-5.jpg](./emacs-lucid/tests/screen1-5.jpg) | N/A |
-| [emacs-pgtk](./emacs-pgtk) | amd64  | ubuntu-noble | 29.3+1-1ubuntu2 | ![screen1-5.jpg](./emacs-pgtk/tests/screen1-5.jpg) | N/A |
-| [email-reminder](./email-reminder) | amd64  | ubuntu-noble | 0.8.3-1 | ![screen0-5.jpg](./email-reminder/tests/screen0-5.jpg) | N/A |
-| [emboss-explorer](./emboss-explorer) | amd64  | ubuntu-noble | 2.2.0-12-20250327 | 失败 | N/A |
-| [emerald](./emerald) | amd64  | ubuntu-noble | 0.8.18-4.2build1 | ![screen0-5.jpg](./emerald/tests/screen0-5.jpg) | N/A |
-| [empire](./empire) | amd64  | ubuntu-noble | 1.16-2-20250327 | 失败 | N/A |
-| [endeavour](./endeavour) | amd64  | ubuntu-noble | 43.0-1build3 | ![screen0-5.jpg](./endeavour/tests/screen0-5.jpg) | N/A |
-| [endless-sky](./endless-sky) | amd64  | ubuntu-noble | 0.10.4-1build2 | ![screen0-5.jpg](./endless-sky/tests/screen0-5.jpg) | N/A |
-| [enemylines3](./enemylines3) | amd64  | ubuntu-noble | 1.25-1build3 | ![screen0-5.jpg](./enemylines3/tests/screen0-5.jpg) | N/A |
-| [enemylines7](./enemylines7) | amd64  | ubuntu-noble | 0.6-6 | ![screen0-5.jpg](./enemylines7/tests/screen0-5.jpg) | N/A |
-| [engauge-digitizer](./engauge-digitizer) | amd64  | ubuntu-noble | 12.1+ds.1-1build3 | ![screen0-5.jpg](./engauge-digitizer/tests/screen0-5.jpg) | N/A |
-| [engrampa](./engrampa) | amd64  | ubuntu-noble | 1.26.2-4 | ![screen0-5.jpg](./engrampa/tests/screen0-5.jpg) | N/A |
-| [enigma](./enigma) | amd64  | ubuntu-noble | 1.30+dfsg-1build2 | ![screen0-5.jpg](./enigma/tests/screen0-5.jpg) | N/A |
-| [enlightenment](./enlightenment) | amd64  | ubuntu-noble | 0.26.0-2build2 | ![screen0-5.jpg](./enlightenment/tests/screen0-5.jpg) ![screen2-5.jpg](./enlightenment/tests/screen2-5.jpg) ![screen3-5.jpg](./enlightenment/tests/screen3-5.jpg) | N/A |
-| [entagged](./entagged) | amd64  | ubuntu-noble | 0.35-6 | ![screen0-5.jpg](./entagged/tests/screen0-5.jpg) | N/A |
-| [entangle](./entangle) | amd64  | ubuntu-noble | 3.0-4build2-20250327 | 失败 | N/A |
-| [eog](./eog) | amd64  | ubuntu-noble | 45.3-1ubuntu2-20250327 | 失败 | N/A |
-| [eom](./eom) | amd64  | ubuntu-noble | 1.26.1-1build3-20250327 | 失败 | N/A |
-| [ephoto](./ephoto) | amd64  | ubuntu-noble | 1.6.0-1build2 | ![screen0-5.jpg](./ephoto/tests/screen0-5.jpg) | N/A |
-| [epiphany](./epiphany) | amd64  | ubuntu-noble | 0.7.0+0-7-20250327 | 失败 | N/A |
-| [epiphany-browser](./epiphany-browser) | amd64  | ubuntu-noble | 46.0-2build1 | ![screen0-5.jpg](./epiphany-browser/tests/screen0-5.jpg) | N/A |
-| [epoptes](./epoptes) | amd64  | ubuntu-noble | 23.08-1-20250327 | 失败 | N/A |
-| [epson-tdbridge-pp100api](./epson-tdbridge-pp100api) | amd64  | deepin-v23 | 2.5.2-20250327 | 失败 | N/A |
-| [epsonscan2](./epsonscan2) | amd64  | deepin-v23 | 6.7.42.10-1 | ![screen0-5.jpg](./epsonscan2/tests/screen0-5.jpg) | [SHA256](./epsonscan2/SHA256SUMS) |
-| [eqonomize](./eqonomize) | amd64  | ubuntu-noble | 1.5.6-1build2 | ![screen0-5.jpg](./eqonomize/tests/screen0-5.jpg) | N/A |
-| [eric](./eric) | amd64  | ubuntu-noble | 23.2+ds1-2ubuntu1 | ![screen0-5.jpg](./eric/tests/screen0-5.jpg) ![screen1-5.jpg](./eric/tests/screen1-5.jpg) | N/A |
-| [errands](./errands) | amd64  | ubuntu-noble | 45.1.9-2-20250327 | 失败 | N/A |
-| [eskeysetuplog-admin](./eskeysetuplog-admin) | amd64  | deepin-v23 | 6.3.0.3 | ![screen1-5.jpg](./eskeysetuplog-admin/tests/screen1-5.jpg) | N/A |
-| [espeakedit](./espeakedit) | amd64  | ubuntu-noble | 1.48.15-2build3 | ![screen0-5.jpg](./espeakedit/tests/screen0-5.jpg) | N/A |
-| [etherape](./etherape) | amd64  | ubuntu-noble | 0.9.20-2build3 | ![screen0-5.jpg](./etherape/tests/screen0-5.jpg) | N/A |
-| [etm](./etm) | amd64  | ubuntu-noble | 3.2.39-1 | ![screen0-5.jpg](./etm/tests/screen0-5.jpg) | N/A |
-| [etoys](./etoys) | amd64  | ubuntu-noble | 5.0.2408-1build1 | ![screen0-5.jpg](./etoys/tests/screen0-5.jpg) | N/A |
-| [ettercap-graphical](./ettercap-graphical) | amd64  | ubuntu-noble | 0.8.3.1-13build3-20250327 | 失败 | N/A |
-| [etw](./etw) | amd64  | ubuntu-noble | 3.6+svn162-6build3 | ![screen0-5.jpg](./etw/tests/screen0-5.jpg) | N/A |
-| [euler](./euler) | amd64  | ubuntu-noble | 1.61.0-12build2-20250327 | 失败 | N/A |
-| [eureka](./eureka) | amd64  | ubuntu-noble | 1.27b-2build2 | ![screen0-5.jpg](./eureka/tests/screen0-5.jpg) | N/A |
-| [eviacam](./eviacam) | amd64  | ubuntu-noble | 2.1.4-2.1build2 | ![screen0-5.jpg](./eviacam/tests/screen0-5.jpg) | N/A |
-| [evilwm](./evilwm) | amd64  | deepin-v23 | 1.4.2-1-20250327 | 失败 | N/A |
-| [evince](./evince) | amd64  | ubuntu-noble | 46.3.1-0ubuntu1 | ![screen0-5.jpg](./evince/tests/screen0-5.jpg) | N/A |
-| [evolution](./evolution) | amd64  | ubuntu-noble | 3.52.3-0ubuntu1 | ![screen0-5.jpg](./evolution/tests/screen0-5.jpg) | N/A |
-| [evolution-data-server](./evolution-data-server) | amd64  | ubuntu-noble | 3.52.3-0ubuntu1-20250327 | 失败 | N/A |
-| [evolvotron](./evolvotron) | amd64  | ubuntu-noble | 0.8.1-1build3 | ![screen0-5.jpg](./evolvotron/tests/screen0-5.jpg) | N/A |
-| [exadrums](./exadrums) | amd64  | ubuntu-noble | 0.7.0-1build2 | ![screen0-5.jpg](./exadrums/tests/screen0-5.jpg) | N/A |
-| [exaile](./exaile) | amd64  | ubuntu-noble | 4.1.3+dfsg-2ubuntu1-20250327 | 失败 | N/A |
-| [excellent-bifurcation](./excellent-bifurcation) | amd64  | ubuntu-noble | 0.0.20071015-9build2 | ![screen0-5.jpg](./excellent-bifurcation/tests/screen0-5.jpg) | N/A |
-| [exfalso](./exfalso) | amd64  | deepin-v23 | 4.6.0-3 | ![screen0-5.jpg](./exfalso/tests/screen0-5.jpg) | [SHA256](./exfalso/SHA256SUMS) |
-| [expeyes](./expeyes) | amd64  | ubuntu-noble | 5.3.1+repack-6build1 | ![screen2-5.jpg](./expeyes/tests/screen2-5.jpg) | N/A |
-| [expeyes-doc-common](./expeyes-doc-common) | amd64  | ubuntu-noble | 4.3-3-20250327 | 失败 | N/A |
-| [explosive-c4](./explosive-c4) | amd64  | ubuntu-noble | 1.2-3build2 | ![screen0-5.jpg](./explosive-c4/tests/screen0-5.jpg) | N/A |
-| [extremetuxracer](./extremetuxracer) | amd64  | ubuntu-noble | 0.8.3-1build1 | ![screen0-5.jpg](./extremetuxracer/tests/screen0-5.jpg) | [SHA256](./extremetuxracer/SHA256SUMS) |
-| [exult](./exult) | amd64  | ubuntu-noble | 1.8-2build3 | ![screen0-5.jpg](./exult/tests/screen0-5.jpg) | N/A |
-| [eyes17](./eyes17) | amd64  | ubuntu-noble | 5.3.1+repack-6build1 | ![screen1-5.jpg](./eyes17/tests/screen1-5.jpg) | N/A |
-| [f3d](./f3d) | amd64  | ubuntu-noble | 2.2.1+dfsg-2build3 | ![screen0-5.jpg](./f3d/tests/screen0-5.jpg) | N/A |
-| [falkon](./falkon) | amd64  | ubuntu-noble | 24.01.75-1build3 | ![screen0-5.jpg](./falkon/tests/screen0-5.jpg) | N/A |
-| [fanwor](./fanwor) | amd64  | ubuntu-noble | 1.16-1build2 | ![screen0-5.jpg](./fanwor/tests/screen0-5.jpg) | N/A |
-| [far2l](./far2l) | amd64  | ubuntu-noble | 2.6.0~beta+ds-1ubuntu0.3 | ![screen0-5.jpg](./far2l/tests/screen0-5.jpg) | N/A |
-| [fastqc](./fastqc) | amd64  | ubuntu-noble | 0.12.1+dfsg-3 | ![screen0-5.jpg](./fastqc/tests/screen0-5.jpg) | N/A |
-| [faustworks](./faustworks) | amd64  | ubuntu-noble | 0.5~repack0-6build3 | ![screen0-5.jpg](./faustworks/tests/screen0-5.jpg) | N/A |
-| [fbreader](./fbreader) | amd64  | ubuntu-noble | 0.99.4+dfsg-5.1build3 | ![screen0-5.jpg](./fbreader/tests/screen0-5.jpg) | N/A |
-| [fbzx](./fbzx) | amd64  | ubuntu-noble | 4.8.0-2build2 | ![screen0-5.jpg](./fbzx/tests/screen0-5.jpg) | N/A |
-| [fccexam](./fccexam) | amd64  | ubuntu-noble | 1.0.7-1.1 | ![screen0-5.jpg](./fccexam/tests/screen0-5.jpg) | N/A |
-| [fceux](./fceux) | amd64  | ubuntu-noble | 2.6.5+dfsg1-2build3 | ![screen0-5.jpg](./fceux/tests/screen0-5.jpg) | N/A |
-| [fcitx-config-gtk](./fcitx-config-gtk) | amd64  | deepin-v23 | 0.4.10.32-2deepin-20250327 | 失败 | N/A |
-| [fcitx-data](./fcitx-data) | amd64  | deepin-v23 | 4.2.9.32.38-deepin-20250327 | 失败 | N/A |
-| [fcitx-ui-light](./fcitx-ui-light) | amd64  | ubuntu-noble | 0.1.3-5-20250327 | 失败 | N/A |
-| [fcitx-ui-qimpanel](./fcitx-ui-qimpanel) | amd64  | ubuntu-noble | 2.1.3-2build4 | ![screen0-5.jpg](./fcitx-ui-qimpanel/tests/screen0-5.jpg) | N/A |
-| [fcitx5](./fcitx5) | amd64  | deepin-v23 | 5.1.11-2deepin2 | ![screen0-5.jpg](./fcitx5/tests/screen0-5.jpg) ![screen1-5.jpg](./fcitx5/tests/screen1-5.jpg) | [SHA256](./fcitx5/SHA256SUMS) |
-| [fcitx5-config-qt](./fcitx5-config-qt) | amd64  | ubuntu-noble | 5.1.4-1 | ![screen0-5.jpg](./fcitx5-config-qt/tests/screen0-5.jpg) ![screen1-5.jpg](./fcitx5-config-qt/tests/screen1-5.jpg) | N/A |
-| [fcitx5-frontend-qt5](./fcitx5-frontend-qt5) | amd64  | deepin-v23 | 5.1.8-2deepin1+rb1-20250327 | 失败 | N/A |
-| [fcitx5-frontend-qt6](./fcitx5-frontend-qt6) | amd64  | deepin-v23 | 5.1.8-2deepin1+rb1-20250327 | 失败 | N/A |
-| [feathernotes](./feathernotes) | amd64  | ubuntu-noble | 1.1.1-1build2 | ![screen0-5.jpg](./feathernotes/tests/screen0-5.jpg) | N/A |
-| [featherpad](./featherpad) | amd64  | ubuntu-noble | 1.4.1-0ubuntu4 | ![screen0-5.jpg](./featherpad/tests/screen0-5.jpg) | N/A |
-| [feh](./feh) | amd64  | ubuntu-noble | 3.10.1-1ubuntu0.1-20250327 | 失败 | N/A |
-| [felix-latin](./felix-latin) | amd64  | ubuntu-noble | 2.0-14build2 | ![screen0-5.jpg](./felix-latin/tests/screen0-5.jpg) | N/A |
-| [ferret](./ferret) | amd64  | ubuntu-noble | 0.7-3 | ![screen0-5.jpg](./ferret/tests/screen0-5.jpg) | N/A |
-| [ferret-vis](./ferret-vis) | amd64  | ubuntu-noble | 7.6.0-7ubuntu1 | ![screen0-5.jpg](./ferret-vis/tests/screen0-5.jpg) | N/A |
-| [fet](./fet) | amd64  | ubuntu-noble | 6.8.5-1build2 | ![screen0-5.jpg](./fet/tests/screen0-5.jpg) | N/A |
-| [ffado-mixer-qt4](./ffado-mixer-qt4) | amd64  | deepin-v23 | 2.4.9-1 | ![screen0-5.jpg](./ffado-mixer-qt4/tests/screen0-5.jpg) | [SHA256](./ffado-mixer-qt4/SHA256SUMS) |
-| [fgallery](./fgallery) | amd64  | ubuntu-noble | 1.9.1+ds-2-20250327 | 失败 | N/A |
-| [fheroes2](./fheroes2) | amd64  | ubuntu-noble | 1.0.12+dfsg-1 | ![screen0-5.jpg](./fheroes2/tests/screen0-5.jpg) | N/A |
-| [file-roller](./file-roller) | amd64  | ubuntu-noble | 44.3-0ubuntu1 | ![screen0-5.jpg](./file-roller/tests/screen0-5.jpg) | N/A |
-| [filelight](./filelight) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./filelight/tests/screen0-5.jpg) | N/A |
-| [filezilla](./filezilla) | amd64  | ubuntu-noble | 3.66.5-2build2 | ![screen0-5.jpg](./filezilla/tests/screen0-5.jpg) | N/A |
-| [filius](./filius) | amd64  | ubuntu-noble | 2.5.1+ds-1-20250327 | 失败 | N/A |
-| [filler](./filler) | amd64  | ubuntu-noble | 1.02-6.4 | ![screen0-5.jpg](./filler/tests/screen0-5.jpg) | N/A |
-| [fillets-ng](./fillets-ng) | amd64  | ubuntu-noble | 1.0.1-4build2 | ![screen0-5.jpg](./fillets-ng/tests/screen0-5.jpg) | N/A |
-| [firefox](./firefox) | amd64  | deepin-v23 | 131.0.3-1deepin1 | ![screen0-5.jpg](./firefox/tests/screen0-5.jpg) | [SHA256](./firefox/SHA256SUMS) |
-| [firefox-esr](./firefox-esr) | amd64  | deepin-v23 | 115.2.1esr-1 | ![screen0-5.jpg](./firefox-esr/tests/screen0-5.jpg) | [SHA256](./firefox-esr/SHA256SUMS) |
-| [firetools](./firetools) | amd64  | ubuntu-noble | 0.9.72-1build2 | ![screen0-5.jpg](./firetools/tests/screen0-5.jpg) ![screen1-5.jpg](./firetools/tests/screen1-5.jpg) | N/A |
-| [firewall-config](./firewall-config) | amd64  | deepin-v23 | 2.1.2-1-20250327 | 失败 | N/A |
-| [fish-common](./fish-common) | amd64  | deepin-v23 | 3.7.1-1 | ![screen0-5.jpg](./fish-common/tests/screen0-5.jpg) | N/A |
-| [fityk](./fityk) | amd64  | ubuntu-noble | 1.3.2-3build3 | ![screen0-5.jpg](./fityk/tests/screen0-5.jpg) | N/A |
-| [five-or-more](./five-or-more) | amd64  | ubuntu-noble | 3.32.3-1build2 | ![screen0-5.jpg](./five-or-more/tests/screen0-5.jpg) | N/A |
-| [flamerobin](./flamerobin) | amd64  | ubuntu-noble | 0.9.10.ds.2-1build2 | ![screen0-5.jpg](./flamerobin/tests/screen0-5.jpg) | N/A |
-| [flameshot](./flameshot) | amd64  | deepin-v23 | 12.1.0-3 | ![screen0-5.jpg](./flameshot/tests/screen0-5.jpg) | [SHA256](./flameshot/SHA256SUMS) |
-| [flamp](./flamp) | amd64  | ubuntu-noble | 2.2.09-1build2 | ![screen0-5.jpg](./flamp/tests/screen0-5.jpg) | N/A |
-| [flare-engine](./flare-engine) | amd64  | ubuntu-noble | 1.14-3 | ![screen0-5.jpg](./flare-engine/tests/screen0-5.jpg) | N/A |
-| [fldiff](./fldiff) | amd64  | ubuntu-noble | 1.1+0-6build3 | ![screen0-5.jpg](./fldiff/tests/screen0-5.jpg) | N/A |
-| [fldigi](./fldigi) | amd64  | ubuntu-noble | 4.2.03-1build3 | ![screen0-5.jpg](./fldigi/tests/screen0-5.jpg) ![screen1-5.jpg](./fldigi/tests/screen1-5.jpg) | N/A |
-| [flent](./flent) | amd64  | ubuntu-noble | 2.1.1-2-20250327 | 失败 | N/A |
-| [flight-of-the-amazon-queen](./flight-of-the-amazon-queen) | amd64  | ubuntu-noble | 1.0.0-9 | ![screen0-5.jpg](./flight-of-the-amazon-queen/tests/screen0-5.jpg) | N/A |
-| [flightgear](./flightgear) | amd64  | ubuntu-noble | 2020.3.18+dfsg-1.1 | ![screen0-5.jpg](./flightgear/tests/screen0-5.jpg) ![screen1-5.jpg](./flightgear/tests/screen1-5.jpg) | N/A |
-| [flmsg](./flmsg) | amd64  | ubuntu-noble | 4.0.23-1build2 | ![screen0-5.jpg](./flmsg/tests/screen0-5.jpg) | N/A |
-| [flobopuyo](./flobopuyo) | amd64  | ubuntu-noble | 0.20-5.1 | ![screen0-5.jpg](./flobopuyo/tests/screen0-5.jpg) | N/A |
-| [flowblade](./flowblade) | amd64  | ubuntu-noble | 2.12.0.2-1ubuntu1-20250327 | 失败 | N/A |
-| [flpsed](./flpsed) | amd64  | ubuntu-noble | 0.7.3-9build2 | ![screen0-5.jpg](./flpsed/tests/screen0-5.jpg) | N/A |
-| [flrig](./flrig) | amd64  | ubuntu-noble | 2.0.04-1build2 | ![screen0-5.jpg](./flrig/tests/screen0-5.jpg) | N/A |
-| [fltk1.1-games](./fltk1.1-games) | amd64  | deepin-v23 | 1.1.10-29 | ![screen0-5.jpg](./fltk1.1-games/tests/screen0-5.jpg) ![screen1-5.jpg](./fltk1.1-games/tests/screen1-5.jpg) ![screen2-5.jpg](./fltk1.1-games/tests/screen2-5.jpg) | [SHA256](./fltk1.1-games/SHA256SUMS) |
-| [fltk1.3-games](./fltk1.3-games) | amd64  | ubuntu-noble | 1.3.8-6.1build2 | ![screen0-5.jpg](./fltk1.3-games/tests/screen0-5.jpg) ![screen1-5.jpg](./fltk1.3-games/tests/screen1-5.jpg) ![screen2-5.jpg](./fltk1.3-games/tests/screen2-5.jpg) | N/A |
-| [fluid](./fluid) | amd64  | ubuntu-noble | 1.3.8-6.1build2 | ![screen0-5.jpg](./fluid/tests/screen0-5.jpg) | N/A |
-| [fluidsynth-dssi](./fluidsynth-dssi) | amd64  | ubuntu-noble | 1.0.0-9build1-20250327 | 失败 | N/A |
-| [flwrap](./flwrap) | amd64  | ubuntu-noble | 1.3.6-1build2 | ![screen0-5.jpg](./flwrap/tests/screen0-5.jpg) | N/A |
-| [fmit](./fmit) | amd64  | ubuntu-noble | 1.2.14-0.1build4 | ![screen0-5.jpg](./fmit/tests/screen0-5.jpg) | N/A |
-| [fnott](./fnott) | amd64  | ubuntu-noble | 1.4.1+ds-1build3-20250327 | 失败 | N/A |
-| [focuswriter](./focuswriter) | amd64  | ubuntu-noble | 1.8.6-1build2 | ![screen0-5.jpg](./focuswriter/tests/screen0-5.jpg) | N/A |
-| [foliate](./foliate) | amd64  | ubuntu-noble | 4.~really3.1.1-1-20250327 | 失败 | N/A |
-| [font-downloader](./font-downloader) | amd64  | ubuntu-noble | 10.0.0-3-20250327 | 失败 | N/A |
-| [font-manager](./font-manager) | amd64  | ubuntu-noble | 0.8.8-4build2 | ![screen0-5.jpg](./font-manager/tests/screen0-5.jpg) | N/A |
-| [font-viewer](./font-viewer) | amd64  | ubuntu-noble | 0.8.8-4build2 | ![screen0-5.jpg](./font-viewer/tests/screen0-5.jpg) | N/A |
-| [fontforge](./fontforge) | amd64  | deepin-v23 | 20230101~dfsg-3 | ![screen0-5.jpg](./fontforge/tests/screen0-5.jpg) | [SHA256](./fontforge/SHA256SUMS) |
-| [fontmatrix](./fontmatrix) | amd64  | ubuntu-noble | 0.9.100+ds-1build2 | ![screen0-5.jpg](./fontmatrix/tests/screen0-5.jpg) | N/A |
-| [foobillardplus](./foobillardplus) | amd64  | ubuntu-noble | 3.43~svn170+dfsg-7build2 | ![screen0-5.jpg](./foobillardplus/tests/screen0-5.jpg) | N/A |
-| [fookb](./fookb) | amd64  | ubuntu-noble | 4.1-3 | ![screen0-5.jpg](./fookb/tests/screen0-5.jpg) | N/A |
-| [foot](./foot) | amd64  | ubuntu-noble | 1.16.2-2ubuntu0.1-20250327 | 失败 | N/A |
-| [form](./form) | amd64  | ubuntu-noble | 4.3.0+git20230104+ds-1build2-20250327 | 失败 | N/A |
-| [formiko](./formiko) | amd64  | ubuntu-noble | 1.4.3-2.1-20250327 | 失败 | N/A |
-| [fotoxx](./fotoxx) | amd64  | ubuntu-noble | 20.08-2build5 | ![screen0-5.jpg](./fotoxx/tests/screen0-5.jpg) | N/A |
-| [founder-sane-backend](./founder-sane-backend) | amd64  | deepin-v23 | 20200526-1.4.5.011-20250327 | 失败 | N/A |
-| [four-in-a-row](./four-in-a-row) | amd64  | deepin-v23 | 3.38.1-deepin1-20250327 | 失败 | N/A |
-| [foxtrotgps](./foxtrotgps) | amd64  | ubuntu-noble | 1.2.2+bzr332-1build4 | ![screen0-5.jpg](./foxtrotgps/tests/screen0-5.jpg) | N/A |
-| [fqterm](./fqterm) | amd64  | ubuntu-noble | 0.9.10.1-4build3 | ![screen0-5.jpg](./fqterm/tests/screen0-5.jpg) | N/A |
-| [fracplanet](./fracplanet) | amd64  | ubuntu-noble | 0.5.1-6build3 | ![screen0-5.jpg](./fracplanet/tests/screen0-5.jpg) | N/A |
-| [fractalnow](./fractalnow) | amd64  | ubuntu-noble | 0.8.2-5build2 | ![screen0-5.jpg](./fractalnow/tests/screen0-5.jpg) | N/A |
-| [fractgen](./fractgen) | amd64  | ubuntu-noble | 2.1.13-1build3 | ![screen0-5.jpg](./fractgen/tests/screen0-5.jpg) | N/A |
-| [fraqtive](./fraqtive) | amd64  | ubuntu-noble | 0.4.8.1-1build3 | ![screen0-5.jpg](./fraqtive/tests/screen0-5.jpg) | N/A |
-| [free42-nologo](./free42-nologo) | amd64  | ubuntu-noble | 3.1.4+ds-1build2 | ![screen0-5.jpg](./free42-nologo/tests/screen0-5.jpg) ![screen1-5.jpg](./free42-nologo/tests/screen1-5.jpg) | N/A |
-| [freealchemist](./freealchemist) | amd64  | ubuntu-noble | 0.5-2 | ![screen0-5.jpg](./freealchemist/tests/screen0-5.jpg) | N/A |
-| [freeciv-client-extras](./freeciv-client-extras) | amd64  | ubuntu-noble | 3.1.0+ds-1build5 | ![screen0-5.jpg](./freeciv-client-extras/tests/screen0-5.jpg) | N/A |
-| [freeciv-client-gtk3](./freeciv-client-gtk3) | amd64  | ubuntu-noble | 3.1.0+ds-1build5 | ![screen0-5.jpg](./freeciv-client-gtk3/tests/screen0-5.jpg) | N/A |
-| [freeciv-client-qt](./freeciv-client-qt) | amd64  | ubuntu-noble | 3.1.0+ds-1build5 | ![screen0-5.jpg](./freeciv-client-qt/tests/screen0-5.jpg) | N/A |
-| [freeciv-client-sdl](./freeciv-client-sdl) | amd64  | ubuntu-noble | 3.1.0+ds-1build5 | ![screen0-5.jpg](./freeciv-client-sdl/tests/screen0-5.jpg) | N/A |
-| [freeciv-ruleset-tools](./freeciv-ruleset-tools) | amd64  | ubuntu-noble | 3.1.0+ds-1build5 | ![screen0-5.jpg](./freeciv-ruleset-tools/tests/screen0-5.jpg) | N/A |
-| [freeciv-server](./freeciv-server) | amd64  | ubuntu-noble | 3.1.0+ds-1build5 | ![screen0-5.jpg](./freeciv-server/tests/screen0-5.jpg) | N/A |
-| [freecol](./freecol) | amd64  | ubuntu-noble | 1.1.0-1-20250327 | 失败 | N/A |
-| [freedink-dfarc](./freedink-dfarc) | amd64  | ubuntu-noble | 3.14-5build3 | ![screen0-5.jpg](./freedink-dfarc/tests/screen0-5.jpg) | N/A |
-| [freedink-engine](./freedink-engine) | amd64  | ubuntu-noble | 109.6-5 | ![screen0-5.jpg](./freedink-engine/tests/screen0-5.jpg) ![screen1-5.jpg](./freedink-engine/tests/screen1-5.jpg) | N/A |
-| [freedm](./freedm) | amd64  | ubuntu-noble | 0.13.0-1 | ![screen0-5.jpg](./freedm/tests/screen0-5.jpg) | N/A |
-| [freedoom](./freedoom) | amd64  | ubuntu-noble | 0.13.0-1 | ![screen0-5.jpg](./freedoom/tests/screen0-5.jpg) ![screen1-5.jpg](./freedoom/tests/screen1-5.jpg) | N/A |
-| [freedroid](./freedroid) | amd64  | ubuntu-noble | 1.0.2+cvs040112-7 | ![screen0-5.jpg](./freedroid/tests/screen0-5.jpg) | N/A |
-| [freedroidrpg](./freedroidrpg) | amd64  | ubuntu-noble | 1.0-1build2 | ![screen0-5.jpg](./freedroidrpg/tests/screen0-5.jpg) | N/A |
-| [freedv](./freedv) | amd64  | ubuntu-noble | 1.8.11-1build4 | ![screen0-5.jpg](./freedv/tests/screen0-5.jpg) | N/A |
-| [freefilesync](./freefilesync) | amd64  | ubuntu-noble | 13.3-2build3 | ![screen0-5.jpg](./freefilesync/tests/screen0-5.jpg) ![screen1-5.jpg](./freefilesync/tests/screen1-5.jpg) | N/A |
-| [freegish](./freegish) | amd64  | ubuntu-noble | 1.53+git20170110+dfsg-2build2 | ![screen0-5.jpg](./freegish/tests/screen0-5.jpg) | N/A |
-| [freeorion](./freeorion) | amd64  | ubuntu-noble | 0.5+git20230820-4build5 | ![screen0-5.jpg](./freeorion/tests/screen0-5.jpg) | N/A |
-| [freeplane](./freeplane) | amd64  | ubuntu-noble | 1.7.10-1-20250327 | 失败 | N/A |
-| [freespace2-launcher-wxlauncher](./freespace2-launcher-wxlauncher) | amd64  | ubuntu-noble | 0.12.0~rc3+dfsg-1build2 | ![screen0-5.jpg](./freespace2-launcher-wxlauncher/tests/screen0-5.jpg) ![screen1-5.jpg](./freespace2-launcher-wxlauncher/tests/screen1-5.jpg) | N/A |
-| [freesweep](./freesweep) | amd64  | ubuntu-noble | 1.0.2-1-20250327 | 失败 | N/A |
-| [freetuxtv](./freetuxtv) | amd64  | ubuntu-noble | 0.6.8~dfsg1-2build3 | ![screen0-5.jpg](./freetuxtv/tests/screen0-5.jpg) | N/A |
-| [freewheeling](./freewheeling) | amd64  | ubuntu-noble | 0.6.6-1build3-20250327 | 失败 | N/A |
-| [frescobaldi](./frescobaldi) | amd64  | ubuntu-noble | 3.3.0+ds1-2 | ![screen0-5.jpg](./frescobaldi/tests/screen0-5.jpg) | N/A |
-| [fritzing](./fritzing) | amd64  | ubuntu-noble | 1.0.1-1build4 | ![screen0-5.jpg](./fritzing/tests/screen0-5.jpg) | N/A |
-| [frogatto](./frogatto) | amd64  | ubuntu-noble | 1.3.1+dfsg-6build4 | ![screen0-5.jpg](./frogatto/tests/screen0-5.jpg) | N/A |
-| [frogr](./frogr) | amd64  | ubuntu-noble | 1.8.1-1build3 | ![screen0-5.jpg](./frogr/tests/screen0-5.jpg) | [SHA256](./frogr/SHA256SUMS) |
-| [frozen-bubble](./frozen-bubble) | amd64  | ubuntu-noble | 2.212-12build5 | ![screen0-5.jpg](./frozen-bubble/tests/screen0-5.jpg) | [SHA256](./frozen-bubble/SHA256SUMS) |
-| [fs-uae](./fs-uae) | amd64  | ubuntu-noble | 3.1.66-2build2-20250327 | 失败 | [SHA256](./fs-uae/SHA256SUMS) |
-| [fs-uae-arcade](./fs-uae-arcade) | amd64  | ubuntu-noble | 3.1.63-2-20250327 | 失败 | [SHA256](./fs-uae-arcade/SHA256SUMS) |
-| [ft2-clone](./ft2-clone) | amd64  | ubuntu-noble | 1.72.1+ds-1build3 | ![screen0-5.jpg](./ft2-clone/tests/screen0-5.jpg) | [SHA256](./ft2-clone/SHA256SUMS) |
-| [ftools-fv](./ftools-fv) | amd64  | ubuntu-noble | 5.5.2+dfsg-3-20250327 | 失败 | [SHA256](./ftools-fv/SHA256SUMS) |
-| [ftp.app](./ftp.app) | amd64  | ubuntu-noble | 0.6-2build5 | ![screen0-5.jpg](./ftp.app/tests/screen0-5.jpg) | [SHA256](./ftp.app/SHA256SUMS) |
-| [funguloids](./funguloids) | amd64  | ubuntu-noble | 1.06-15build2-20250327 | 失败 | [SHA256](./funguloids/SHA256SUMS) |
-| [funnyboat](./funnyboat) | amd64  | ubuntu-noble | 1.5-11-20250327 | 失败 | [SHA256](./funnyboat/SHA256SUMS) |
-| [fuse-emulator-gtk](./fuse-emulator-gtk) | amd64  | ubuntu-noble | 1.6.0+dfsg1-2build3 | ![screen0-5.jpg](./fuse-emulator-gtk/tests/screen0-5.jpg) | [SHA256](./fuse-emulator-gtk/SHA256SUMS) |
-| [fuse-emulator-sdl](./fuse-emulator-sdl) | amd64  | ubuntu-noble | 1.6.0+dfsg1-2build3 | ![screen0-5.jpg](./fuse-emulator-sdl/tests/screen0-5.jpg) | [SHA256](./fuse-emulator-sdl/SHA256SUMS) |
-| [fusion-icon](./fusion-icon) | amd64  | ubuntu-noble | 0.2.4-8-20250327 | 失败 | N/A |
-| [fwbuilder](./fwbuilder) | amd64  | ubuntu-noble | 5.3.7-5ubuntu0.24.04.1 | ![screen0-5.jpg](./fwbuilder/tests/screen0-5.jpg) | [SHA256](./fwbuilder/SHA256SUMS) |
-| [gabedit](./gabedit) | amd64  | ubuntu-noble | 2.5.1+ds-1build3 | ![screen0-5.jpg](./gabedit/tests/screen0-5.jpg) | [SHA256](./gabedit/SHA256SUMS) |
-| [gajim](./gajim) | amd64  | ubuntu-noble | 1.8.4-3-20250327 | 失败 | N/A |
-| [galculator](./galculator) | amd64  | ubuntu-noble | 2.1.4-1.2build2 | ![screen0-5.jpg](./galculator/tests/screen0-5.jpg) | [SHA256](./galculator/SHA256SUMS) |
-| [galois](./galois) | amd64  | ubuntu-noble | 0.8-1build2 | ![screen0-5.jpg](./galois/tests/screen0-5.jpg) | [SHA256](./galois/SHA256SUMS) |
-| [galternatives](./galternatives) | amd64  | ubuntu-noble | 1.0.9-20250327 | 失败 | N/A |
-| [gamazons](./gamazons) | amd64  | ubuntu-noble | 0.83-12 | ![screen0-5.jpg](./gamazons/tests/screen0-5.jpg) | [SHA256](./gamazons/SHA256SUMS) |
-| [gambas3-ide](./gambas3-ide) | amd64  | ubuntu-noble | 3.19.0-2ubuntu10 | ![screen0-5.jpg](./gambas3-ide/tests/screen0-5.jpg) | [SHA256](./gambas3-ide/SHA256SUMS) |
-| [game-data-packager-runtime](./game-data-packager-runtime) | amd64  | ubuntu-noble | 77ubuntu2-20250327 | 失败 | N/A |
-| [gameconqueror](./gameconqueror) | amd64  | ubuntu-noble | 0.17-5build2-20250327 | 失败 | N/A |
-| [gamgi](./gamgi) | amd64  | ubuntu-noble | 0.17.5-1build2 | ![screen0-5.jpg](./gamgi/tests/screen0-5.jpg) | [SHA256](./gamgi/SHA256SUMS) |
-| [gamine](./gamine) | amd64  | ubuntu-noble | 1.6-1build3 | ![screen0-5.jpg](./gamine/tests/screen0-5.jpg) | [SHA256](./gamine/SHA256SUMS) |
-| [gammaray](./gammaray) | amd64  | deepin-v23 | 2.11.3-3-20250327 | 失败 | N/A |
-| [gammastep](./gammastep) | amd64  | ubuntu-noble | 2.0.9-1build2-20250327 | 失败 | [SHA256](./gammastep/SHA256SUMS) |
-| [ganyremote](./ganyremote) | amd64  | ubuntu-noble | 8.1.1-1-20250327 | 失败 | N/A |
-| [garden-of-coloured-lights](./garden-of-coloured-lights) | amd64  | ubuntu-noble | 1.0.9-2build3 | ![screen0-5.jpg](./garden-of-coloured-lights/tests/screen0-5.jpg) | [SHA256](./garden-of-coloured-lights/SHA256SUMS) |
-| [gargoyle-free](./gargoyle-free) | amd64  | ubuntu-noble | 2023.1+dfsg-4build4 | ![screen0-5.jpg](./gargoyle-free/tests/screen0-5.jpg) | [SHA256](./gargoyle-free/SHA256SUMS) |
-| [garlic](./garlic) | amd64  | ubuntu-noble | 1.6-3 | ![screen0-5.jpg](./garlic/tests/screen0-5.jpg) | [SHA256](./garlic/SHA256SUMS) |
-| [gastman](./gastman) | amd64  | ubuntu-noble | 0.99+1.0rc1-0ubuntu12 | ![screen0-5.jpg](./gastman/tests/screen0-5.jpg) | [SHA256](./gastman/SHA256SUMS) |
-| [gaupol](./gaupol) | amd64  | ubuntu-noble | 1.11-2-20250327 | 失败 | N/A |
-| [gausssum](./gausssum) | amd64  | ubuntu-noble | 3.0.2-2-20250327 | 失败 | [SHA256](./gausssum/SHA256SUMS) |
-| [gav](./gav) | amd64  | ubuntu-noble | 0.9.0-3.2 | ![screen0-5.jpg](./gav/tests/screen0-5.jpg) | [SHA256](./gav/SHA256SUMS) |
-| [gbatnav](./gbatnav) | amd64  | ubuntu-noble | 1.0.4cvs20051004-7 | ![screen0-5.jpg](./gbatnav/tests/screen0-5.jpg) ![screen1-5.jpg](./gbatnav/tests/screen1-5.jpg) | [SHA256](./gbatnav/SHA256SUMS) |
-| [gbemol](./gbemol) | amd64  | ubuntu-noble | 0.3.2-2ubuntu6 | ![screen0-5.jpg](./gbemol/tests/screen0-5.jpg) | [SHA256](./gbemol/SHA256SUMS) |
-| [gbgoffice](./gbgoffice) | amd64  | ubuntu-noble | 1.4-12build2 | ![screen0-5.jpg](./gbgoffice/tests/screen0-5.jpg) | [SHA256](./gbgoffice/SHA256SUMS) |
-| [gbonds](./gbonds) | amd64  | ubuntu-noble | 2.0.3-17build3 | ![screen0-5.jpg](./gbonds/tests/screen0-5.jpg) | [SHA256](./gbonds/SHA256SUMS) |
-| [gbrainy](./gbrainy) | amd64  | ubuntu-noble | 2.4.6-2build1 | ![screen0-5.jpg](./gbrainy/tests/screen0-5.jpg) | [SHA256](./gbrainy/SHA256SUMS) |
-| [gbsplay](./gbsplay) | amd64  | ubuntu-noble | 0.0.96-1build3-20250327 | 失败 | [SHA256](./gbsplay/SHA256SUMS) |
-| [gchempaint](./gchempaint) | amd64  | ubuntu-noble | 0.14.17-6.2build2 | ![screen0-5.jpg](./gchempaint/tests/screen0-5.jpg) | [SHA256](./gchempaint/SHA256SUMS) |
-| [gcin](./gcin) | amd64  | ubuntu-noble | 2.9.0+dfsg1-3build1 | ![screen0-5.jpg](./gcin/tests/screen0-5.jpg) | [SHA256](./gcin/SHA256SUMS) |
-| [gcolor3](./gcolor3) | amd64  | ubuntu-noble | 2.4.0-2build2 | ![screen0-5.jpg](./gcolor3/tests/screen0-5.jpg) | [SHA256](./gcolor3/SHA256SUMS) |
-| [gcompris-qt](./gcompris-qt) | amd64  | ubuntu-noble | 4.0-1build3 | ![screen0-5.jpg](./gcompris-qt/tests/screen0-5.jpg) | [SHA256](./gcompris-qt/SHA256SUMS) |
-| [gconjugue](./gconjugue) | amd64  | ubuntu-noble | 0.8.5-2build2 | ![screen0-5.jpg](./gconjugue/tests/screen0-5.jpg) | [SHA256](./gconjugue/SHA256SUMS) |
-| [gcr](./gcr) | amd64  | ubuntu-noble | 3.41.2-1build3-20250327 | 失败 | [SHA256](./gcr/SHA256SUMS) |
-| [gcrystal](./gcrystal) | amd64  | ubuntu-noble | 0.14.17-6.2build2 | ![screen0-5.jpg](./gcrystal/tests/screen0-5.jpg) | [SHA256](./gcrystal/SHA256SUMS) |
-| [gcu-bin](./gcu-bin) | amd64  | ubuntu-noble | 0.14.17-6.2build2 | ![screen0-5.jpg](./gcu-bin/tests/screen0-5.jpg) ![screen1-5.jpg](./gcu-bin/tests/screen1-5.jpg) ![screen2-5.jpg](./gcu-bin/tests/screen2-5.jpg) ![screen3-5.jpg](./gcu-bin/tests/screen3-5.jpg) | [SHA256](./gcu-bin/SHA256SUMS) |
-| [gddccontrol](./gddccontrol) | amd64  | deepin-v23 | 1.0.3-1deepin1 | ![screen0-5.jpg](./gddccontrol/tests/screen0-5.jpg) | [SHA256](./gddccontrol/SHA256SUMS) |
-| [gdebi](./gdebi) | amd64  | deepin-v23 | 0.9.5.7+nmu7-20250327 | 失败 | N/A |
-| [gdigi](./gdigi) | amd64  | ubuntu-noble | 0.4.0+git20200615+1c2c89f-3build3-20250327 | 失败 | [SHA256](./gdigi/SHA256SUMS) |
-| [gdis](./gdis) | amd64  | ubuntu-noble | 0.90-6build3 | ![screen0-5.jpg](./gdis/tests/screen0-5.jpg) | [SHA256](./gdis/SHA256SUMS) |
-| [gdm-settings](./gdm-settings) | amd64  | ubuntu-noble | 4.3-1-20250327 | 失败 | N/A |
-| [gdm3](./gdm3) | amd64  | ubuntu-noble | 46.2-1ubuntu1~24.04.1-20250327 | 失败 | N/A |
-| [gdmap](./gdmap) | amd64  | ubuntu-noble | 1.2.0-1build2 | ![screen0-5.jpg](./gdmap/tests/screen0-5.jpg) | [SHA256](./gdmap/SHA256SUMS) |
-| [gdpc](./gdpc) | amd64  | ubuntu-noble | 2.2.5-16build2 | ![screen0-5.jpg](./gdpc/tests/screen0-5.jpg) | [SHA256](./gdpc/SHA256SUMS) |
-| [geany](./geany) | amd64  | ubuntu-noble | 2.0-1build2 | ![screen0-5.jpg](./geany/tests/screen0-5.jpg) | [SHA256](./geany/SHA256SUMS) |
-| [gearhead](./gearhead) | amd64  | ubuntu-noble | 1.310-3 | ![screen0-5.jpg](./gearhead/tests/screen0-5.jpg) | [SHA256](./gearhead/SHA256SUMS) |
-| [gearhead-sdl](./gearhead-sdl) | amd64  | ubuntu-noble | 1.310-3-20250327 | 失败 | [SHA256](./gearhead-sdl/SHA256SUMS) |
-| [gearhead2](./gearhead2) | amd64  | ubuntu-noble | 0.701-2 | ![screen0-5.jpg](./gearhead2/tests/screen0-5.jpg) | [SHA256](./gearhead2/SHA256SUMS) |
-| [gearhead2-sdl](./gearhead2-sdl) | amd64  | ubuntu-noble | 0.701-2-20250327 | 失败 | [SHA256](./gearhead2-sdl/SHA256SUMS) |
-| [geary](./geary) | amd64  | ubuntu-noble | 44.1-2build2-20250327 | 失败 | [SHA256](./geary/SHA256SUMS) |
-| [gedit](./gedit) | amd64  | ubuntu-noble | 46.2-2-20250327 | 失败 | N/A |
-| [geeqie](./geeqie) | amd64  | ubuntu-noble | 2.2-2build4-20250327 | 失败 | [SHA256](./geeqie/SHA256SUMS) |
-| [geeqie-common](./geeqie-common) | amd64  | ubuntu-noble | 2.2-2build4-20250327 | 失败 | [SHA256](./geeqie-common/SHA256SUMS) |
-| [geg](./geg) | amd64  | ubuntu-noble | 2.0.9-4build2 | ![screen0-5.jpg](./geg/tests/screen0-5.jpg) | [SHA256](./geg/SHA256SUMS) |
-| [geis-tools](./geis-tools) | amd64  | ubuntu-noble | 2.2.17+16.04.20160126-0ubuntu10-20250327 | 失败 | [SHA256](./geis-tools/SHA256SUMS) |
-| [geki2](./geki2) | amd64  | ubuntu-noble | 2.0.3-10 | ![screen0-5.jpg](./geki2/tests/screen0-5.jpg) | [SHA256](./geki2/SHA256SUMS) |
-| [geki3](./geki3) | amd64  | ubuntu-noble | 1.0.3-10 | ![screen0-5.jpg](./geki3/tests/screen0-5.jpg) | [SHA256](./geki3/SHA256SUMS) |
-| [gelemental](./gelemental) | amd64  | ubuntu-noble | 2.0.2-1.1build2 | ![screen0-5.jpg](./gelemental/tests/screen0-5.jpg) | [SHA256](./gelemental/SHA256SUMS) |
-| [gemdropx](./gemdropx) | amd64  | ubuntu-noble | 0.9-9 | ![screen0-5.jpg](./gemdropx/tests/screen0-5.jpg) | [SHA256](./gemdropx/SHA256SUMS) |
-| [gemrb](./gemrb) | amd64  | ubuntu-noble | 0.9.2+dfsg-1build3-20250327 | 失败 | [SHA256](./gemrb/SHA256SUMS) |
-| [gemrb-baldurs-gate](./gemrb-baldurs-gate) | amd64  | ubuntu-noble | 0.9.2+dfsg-1build3-20250327 | 失败 | [SHA256](./gemrb-baldurs-gate/SHA256SUMS) |
-| [gemrb-baldurs-gate-2](./gemrb-baldurs-gate-2) | amd64  | ubuntu-noble | 0.9.2+dfsg-1build3-20250327 | 失败 | [SHA256](./gemrb-baldurs-gate-2/SHA256SUMS) |
-| [gemrb-icewind-dale](./gemrb-icewind-dale) | amd64  | ubuntu-noble | 0.9.2+dfsg-1build3-20250327 | 失败 | [SHA256](./gemrb-icewind-dale/SHA256SUMS) |
-| [gemrb-icewind-dale-2](./gemrb-icewind-dale-2) | amd64  | ubuntu-noble | 0.9.2+dfsg-1build3-20250327 | 失败 | [SHA256](./gemrb-icewind-dale-2/SHA256SUMS) |
-| [gemrb-planescape-torment](./gemrb-planescape-torment) | amd64  | ubuntu-noble | 0.9.2+dfsg-1build3-20250327 | 失败 | [SHA256](./gemrb-planescape-torment/SHA256SUMS) |
-| [gentle](./gentle) | amd64  | ubuntu-noble | 1.9.5~alpha1+dfsg-1build2 | ![screen0-5.jpg](./gentle/tests/screen0-5.jpg) | [SHA256](./gentle/SHA256SUMS) |
-| [gentoo](./gentoo) | amd64  | ubuntu-noble | 0.20.7-3build2 | ![screen0-5.jpg](./gentoo/tests/screen0-5.jpg) | [SHA256](./gentoo/SHA256SUMS) |
-| [geoclue-2-demo](./geoclue-2-demo) | amd64  | deepin-v23 | 2.7.1-2-20250327 | 失败 | N/A |
-| [geoclue-2.0](./geoclue-2.0) | amd64  | deepin-v23 | 2.7.1-2-20250327 | 失败 | N/A |
-| [geogebra](./geogebra) | amd64  | ubuntu-noble | 4.0.34.0+dfsg1-9 | ![screen0-5.jpg](./geogebra/tests/screen0-5.jpg) | [SHA256](./geogebra/SHA256SUMS) |
-| [geomview](./geomview) | amd64  | ubuntu-noble | 1.9.5-4.1build2 | ![screen0-5.jpg](./geomview/tests/screen0-5.jpg) | [SHA256](./geomview/SHA256SUMS) |
-| [geonkick](./geonkick) | amd64  | ubuntu-noble | 2.10.2-0ubuntu4-20250327 | 失败 | [SHA256](./geonkick/SHA256SUMS) |
-| [geophar](./geophar) | amd64  | ubuntu-noble | 18.09+dfsg1-2-20250327 | 失败 | [SHA256](./geophar/SHA256SUMS) |
-| [geotranz](./geotranz) | amd64  | ubuntu-noble | 3.7-3ubuntu1 | ![screen0-5.jpg](./geotranz/tests/screen0-5.jpg) | [SHA256](./geotranz/SHA256SUMS) |
-| [gerbera](./gerbera) | amd64  | ubuntu-noble | 2.0.0+dfsg-1build3-20250327 | 失败 | [SHA256](./gerbera/SHA256SUMS) |
-| [gerbv](./gerbv) | amd64  | ubuntu-noble | 2.10.0-1build2 | ![screen0-5.jpg](./gerbv/tests/screen0-5.jpg) | [SHA256](./gerbv/SHA256SUMS) |
-| [gfaim](./gfaim) | amd64  | ubuntu-noble | 0.30-0ubuntu6-20250327 | 失败 | [SHA256](./gfaim/SHA256SUMS) |
-| [gfm](./gfm) | amd64  | ubuntu-noble | 1.09~git20220826.71eaa92-1build2 | ![screen0-5.jpg](./gfm/tests/screen0-5.jpg) | [SHA256](./gfm/SHA256SUMS) |
-| [gfpoken](./gfpoken) | amd64  | ubuntu-noble | 1-4build2 | ![screen0-5.jpg](./gfpoken/tests/screen0-5.jpg) | [SHA256](./gfpoken/SHA256SUMS) |
-| [gftp-gtk](./gftp-gtk) | amd64  | ubuntu-noble | 2.9.1~beta-2build2 | ![screen0-5.jpg](./gftp-gtk/tests/screen0-5.jpg) | [SHA256](./gftp-gtk/SHA256SUMS) |
-| [ggobi](./ggobi) | amd64  | ubuntu-noble | 2.1.11-2build3 | ![screen0-5.jpg](./ggobi/tests/screen0-5.jpg) | [SHA256](./ggobi/SHA256SUMS) |
-| [ghex](./ghex) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./ghex/tests/screen0-5.jpg) | [SHA256](./ghex/SHA256SUMS) |
-| [ghextris](./ghextris) | amd64  | ubuntu-noble | 0.9.0-5-20250327 | 失败 | N/A |
-| [ghostwriter](./ghostwriter) | amd64  | ubuntu-noble | 23.08.5+ds-0ubuntu3 | ![screen0-5.jpg](./ghostwriter/tests/screen0-5.jpg) | [SHA256](./ghostwriter/SHA256SUMS) |
-| [giada](./giada) | amd64  | ubuntu-noble | 0.22.0-4build2 | ![screen0-5.jpg](./giada/tests/screen0-5.jpg) | [SHA256](./giada/SHA256SUMS) |
-| [giara](./giara) | amd64  | ubuntu-noble | 1.1.0-0.1-20250327 | 失败 | N/A |
-| [gigalomania](./gigalomania) | amd64  | ubuntu-noble | 1.0+ds1-1.1 | ![screen0-5.jpg](./gigalomania/tests/screen0-5.jpg) | [SHA256](./gigalomania/SHA256SUMS) |
-| [giggle](./giggle) | amd64  | ubuntu-noble | 0.7-6build2 | ![screen0-5.jpg](./giggle/tests/screen0-5.jpg) | [SHA256](./giggle/SHA256SUMS) |
-| [gigolo](./gigolo) | amd64  | ubuntu-noble | 0.5.3-1build2 | ![screen0-5.jpg](./gigolo/tests/screen0-5.jpg) | [SHA256](./gigolo/SHA256SUMS) |
-| [gimagereader](./gimagereader) | amd64  | ubuntu-noble | 3.4.2-2build6-20250327 | 失败 | N/A |
-| [gimagereader-qt5](./gimagereader-qt5) | amd64  | ubuntu-noble | 3.4.2-2build6-20250327 | 失败 | N/A |
-| [gimp](./gimp) | amd64  | deepin-v23 | 2.10.38-1deepin2 | ![screen0-5.jpg](./gimp/tests/screen0-5.jpg) | [SHA256](./gimp/SHA256SUMS) |
-| [ginga](./ginga) | amd64  | ubuntu-noble | 5.0.0-1 | ![screen0-5.jpg](./ginga/tests/screen0-5.jpg) | [SHA256](./ginga/SHA256SUMS) |
-| [git-annex](./git-annex) | amd64  | ubuntu-noble | 10.20240129-1build1 | ![screen0-5.jpg](./git-annex/tests/screen0-5.jpg) | [SHA256](./git-annex/SHA256SUMS) |
-| [git-cola](./git-cola) | amd64  | ubuntu-noble | 4.6.1-1 | ![screen0-5.jpg](./git-cola/tests/screen0-5.jpg) ![screen1-5.jpg](./git-cola/tests/screen1-5.jpg) | [SHA256](./git-cola/SHA256SUMS) |
-| [gitg](./gitg) | amd64  | ubuntu-noble | 44-1build2-20250327 | 失败 | N/A |
-| [gitso](./gitso) | amd64  | ubuntu-noble | 0.6.2+svn158+dfsg-4 | ![screen0-5.jpg](./gitso/tests/screen0-5.jpg) | [SHA256](./gitso/SHA256SUMS) |
-| [gjacktransport](./gjacktransport) | amd64  | ubuntu-noble | 0.6.4-1build2 | ![screen0-5.jpg](./gjacktransport/tests/screen0-5.jpg) ![screen1-5.jpg](./gjacktransport/tests/screen1-5.jpg) | [SHA256](./gjacktransport/SHA256SUMS) |
-| [gjiten](./gjiten) | amd64  | ubuntu-noble | 3.1-2build2 | ![screen0-5.jpg](./gjiten/tests/screen0-5.jpg) | [SHA256](./gjiten/SHA256SUMS) |
-| [gjots2](./gjots2) | amd64  | ubuntu-noble | 3.1.9-0ubuntu2-20250327 | 失败 | [SHA256](./gjots2/SHA256SUMS) |
-| [gkamus](./gkamus) | amd64  | ubuntu-noble | 1.0-0ubuntu6 | ![screen0-5.jpg](./gkamus/tests/screen0-5.jpg) | [SHA256](./gkamus/SHA256SUMS) |
-| [gkbd-capplet](./gkbd-capplet) | amd64  | ubuntu-noble | 3.28.1-1build3-20250327 | 失败 | [SHA256](./gkbd-capplet/SHA256SUMS) |
-| [gkdebconf](./gkdebconf) | amd64  | ubuntu-noble | 2.1.1build2 | ![screen0-5.jpg](./gkdebconf/tests/screen0-5.jpg) | [SHA256](./gkdebconf/SHA256SUMS) |
-| [gkrellm](./gkrellm) | amd64  | ubuntu-noble | 2.3.11-2build2 | ![screen0-5.jpg](./gkrellm/tests/screen0-5.jpg) | [SHA256](./gkrellm/SHA256SUMS) |
-| [gl-117](./gl-117) | amd64  | ubuntu-noble | 1.3.2-3.1build1 | ![screen0-5.jpg](./gl-117/tests/screen0-5.jpg) | [SHA256](./gl-117/SHA256SUMS) |
-| [glabels](./glabels) | amd64  | ubuntu-noble | 3.4.1-4build3 | ![screen0-5.jpg](./glabels/tests/screen0-5.jpg) | [SHA256](./glabels/SHA256SUMS) |
-| [glade](./glade) | amd64  | ubuntu-noble | 3.40.0-5build2-20250327 | 失败 | N/A |
-| [glassgui](./glassgui) | amd64  | ubuntu-noble | 2.0.1-2build5 | ![screen0-5.jpg](./glassgui/tests/screen0-5.jpg) ![screen1-5.jpg](./glassgui/tests/screen1-5.jpg) | [SHA256](./glassgui/SHA256SUMS) |
-| [glob2](./glob2) | amd64  | ubuntu-noble | 0.9.4.4-6build1 | ![screen0-5.jpg](./glob2/tests/screen0-5.jpg) | [SHA256](./glob2/SHA256SUMS) |
-| [glogg](./glogg) | amd64  | ubuntu-noble | 1.1.4-1.1ubuntu2 | ![screen0-5.jpg](./glogg/tests/screen0-5.jpg) | [SHA256](./glogg/SHA256SUMS) |
-| [glogic](./glogic) | amd64  | ubuntu-noble | 2.6-6-20250327 | 失败 | N/A |
-| [glom](./glom) | amd64  | ubuntu-noble | 1.30.4-7build8-20250327 | 失败 | N/A |
-| [glpeces](./glpeces) | amd64  | ubuntu-noble | 5.2-3build3-20250327 | 失败 | [SHA256](./glpeces/SHA256SUMS) |
-| [gltron](./gltron) | amd64  | ubuntu-noble | 0.70final-12.4build2 | ![screen0-5.jpg](./gltron/tests/screen0-5.jpg) | [SHA256](./gltron/SHA256SUMS) |
-| [glueviz](./glueviz) | amd64  | ubuntu-noble | 1.17.1+dfsg-1-20250327 | 失败 | [SHA256](./glueviz/SHA256SUMS) |
-| [gm-assistant](./gm-assistant) | amd64  | ubuntu-noble | 1.2.4-1build3 | ![screen0-5.jpg](./gm-assistant/tests/screen0-5.jpg) | [SHA256](./gm-assistant/SHA256SUMS) |
-| [gmanedit](./gmanedit) | amd64  | ubuntu-noble | 0.4.2-8build3 | ![screen0-5.jpg](./gmanedit/tests/screen0-5.jpg) | [SHA256](./gmanedit/SHA256SUMS) |
-| [gmerlin](./gmerlin) | amd64  | ubuntu-noble | 2.0.0~svn6298~dfsg0-3.1build3 | ![screen0-5.jpg](./gmerlin/tests/screen0-5.jpg) ![screen1-5.jpg](./gmerlin/tests/screen1-5.jpg) ![screen3-5.jpg](./gmerlin/tests/screen3-5.jpg) ![screen4-5.jpg](./gmerlin/tests/screen4-5.jpg) | [SHA256](./gmerlin/SHA256SUMS) |
-| [gmidimonitor](./gmidimonitor) | amd64  | ubuntu-noble | 3.6+dfsg0-4build3-20250327 | 失败 | [SHA256](./gmidimonitor/SHA256SUMS) |
-| [gmpc](./gmpc) | amd64  | ubuntu-noble | 11.8.16-21build1 | ![screen0-5.jpg](./gmpc/tests/screen0-5.jpg) | [SHA256](./gmpc/SHA256SUMS) |
-| [gmrun](./gmrun) | amd64  | ubuntu-noble | 0.9.2-3build3 | ![screen0-5.jpg](./gmrun/tests/screen0-5.jpg) | [SHA256](./gmrun/SHA256SUMS) |
-| [gmsh](./gmsh) | amd64  | ubuntu-noble | 4.12.1+ds1-1.1build2 | ![screen0-5.jpg](./gmsh/tests/screen0-5.jpg) | [SHA256](./gmsh/SHA256SUMS) |
-| [gmtp](./gmtp) | amd64  | ubuntu-noble | 1.3.11-3.1build3 | ![screen0-5.jpg](./gmtp/tests/screen0-5.jpg) | [SHA256](./gmtp/SHA256SUMS) |
-| [gmult](./gmult) | amd64  | ubuntu-noble | 11.0-1build2 | ![screen0-5.jpg](./gmult/tests/screen0-5.jpg) | [SHA256](./gmult/SHA256SUMS) |
-| [gniall](./gniall) | amd64  | ubuntu-noble | 0.7.1-9build2 | ![screen0-5.jpg](./gniall/tests/screen0-5.jpg) | [SHA256](./gniall/SHA256SUMS) |
-| [gnomad2](./gnomad2) | amd64  | ubuntu-noble | 2.9.6-8ubuntu1 | ![screen0-5.jpg](./gnomad2/tests/screen0-5.jpg) | [SHA256](./gnomad2/SHA256SUMS) |
-| [gnome-2048](./gnome-2048) | amd64  | ubuntu-noble | 3.38.2-3build2 | ![screen0-5.jpg](./gnome-2048/tests/screen0-5.jpg) | [SHA256](./gnome-2048/SHA256SUMS) |
-| [gnome-activity-journal](./gnome-activity-journal) | amd64  | ubuntu-noble | 1.0.0-3ubuntu0.24.04.1-20250327 | 失败 | N/A |
-| [gnome-authenticator](./gnome-authenticator) | amd64  | ubuntu-noble | 3.32.2+dfsg1-5-20250327 | 失败 | N/A |
-| [gnome-bluetooth-sendto](./gnome-bluetooth-sendto) | amd64  | ubuntu-noble | 46.0-1ubuntu1-20250327 | 失败 | [SHA256](./gnome-bluetooth-sendto/SHA256SUMS) |
-| [gnome-boxes](./gnome-boxes) | amd64  | ubuntu-noble | 46.0-1build1-20250327 | 失败 | N/A |
-| [gnome-breakout](./gnome-breakout) | amd64  | ubuntu-noble | 0.5.3-8 | ![screen0-5.jpg](./gnome-breakout/tests/screen0-5.jpg) | [SHA256](./gnome-breakout/SHA256SUMS) |
-| [gnome-browser-connector](./gnome-browser-connector) | amd64  | ubuntu-noble | 42.1-4-20250327 | 失败 | N/A |
-| [gnome-builder](./gnome-builder) | amd64  | ubuntu-noble | 46.2-0ubuntu1-20250327 | 失败 | N/A |
-| [gnome-calculator](./gnome-calculator) | amd64  | ubuntu-noble | 46.1-1ubuntu1~24.04.1 | ![screen0-5.jpg](./gnome-calculator/tests/screen0-5.jpg) | [SHA256](./gnome-calculator/SHA256SUMS) |
-| [gnome-calendar](./gnome-calendar) | amd64  | ubuntu-noble | 46.1-0ubuntu2 | ![screen0-5.jpg](./gnome-calendar/tests/screen0-5.jpg) | [SHA256](./gnome-calendar/SHA256SUMS) |
-| [gnome-calls](./gnome-calls) | amd64  | ubuntu-noble | 46.0-1ubuntu1 | ![screen0-5.jpg](./gnome-calls/tests/screen0-5.jpg) | [SHA256](./gnome-calls/SHA256SUMS) |
-| [gnome-characters](./gnome-characters) | amd64  | ubuntu-noble | 46.0-1build1-20250327 | 失败 | N/A |
-| [gnome-chess](./gnome-chess) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-chess/tests/screen0-5.jpg) | [SHA256](./gnome-chess/SHA256SUMS) |
-| [gnome-clocks](./gnome-clocks) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-clocks/tests/screen0-5.jpg) | [SHA256](./gnome-clocks/SHA256SUMS) |
-| [gnome-color-manager](./gnome-color-manager) | amd64  | ubuntu-noble | 3.36.0-2build2 | ![screen0-5.jpg](./gnome-color-manager/tests/screen0-5.jpg) | [SHA256](./gnome-color-manager/SHA256SUMS) |
-| [gnome-commander](./gnome-commander) | amd64  | ubuntu-noble | 1.16.1-1build4 | ![screen0-5.jpg](./gnome-commander/tests/screen0-5.jpg) | [SHA256](./gnome-commander/SHA256SUMS) |
-| [gnome-connections](./gnome-connections) | amd64  | ubuntu-noble | 46.0-2 | ![screen0-5.jpg](./gnome-connections/tests/screen0-5.jpg) | [SHA256](./gnome-connections/SHA256SUMS) |
-| [gnome-console](./gnome-console) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-console/tests/screen0-5.jpg) | [SHA256](./gnome-console/SHA256SUMS) |
-| [gnome-contacts](./gnome-contacts) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-contacts/tests/screen0-5.jpg) | [SHA256](./gnome-contacts/SHA256SUMS) |
-| [gnome-control-center](./gnome-control-center) | amd64  | ubuntu-noble | 46.5-0ubuntu0.24.04.1-20250327 | 失败 | N/A |
-| [gnome-dictionary](./gnome-dictionary) | amd64  | ubuntu-noble | 40.0-3build2-20250327 | 失败 | [SHA256](./gnome-dictionary/SHA256SUMS) |
-| [gnome-disk-utility](./gnome-disk-utility) | amd64  | ubuntu-noble | 46.0-1ubuntu3 | ![screen0-5.jpg](./gnome-disk-utility/tests/screen0-5.jpg) | [SHA256](./gnome-disk-utility/SHA256SUMS) |
-| [gnome-dvb-client](./gnome-dvb-client) | amd64  | ubuntu-noble | 0.2.91~git20170110-5build3-20250327 | 失败 | N/A |
-| [gnome-feeds](./gnome-feeds) | amd64  | ubuntu-noble | 2.2.0-3-20250327 | 失败 | N/A |
-| [gnome-firmware](./gnome-firmware) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-firmware/tests/screen0-5.jpg) | [SHA256](./gnome-firmware/SHA256SUMS) |
-| [gnome-flashback](./gnome-flashback) | amd64  | ubuntu-noble | 3.52.1-2ubuntu1.1-20250327 | 失败 | N/A |
-| [gnome-font-viewer](./gnome-font-viewer) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-font-viewer/tests/screen0-5.jpg) | [SHA256](./gnome-font-viewer/SHA256SUMS) |
-| [gnome-genius](./gnome-genius) | amd64  | ubuntu-noble | 1.0.27-1build4 | ![screen0-5.jpg](./gnome-genius/tests/screen0-5.jpg) | [SHA256](./gnome-genius/SHA256SUMS) |
-| [gnome-initial-setup](./gnome-initial-setup) | amd64  | ubuntu-noble | 46.3-1ubuntu3~24.04.1-20250327 | 失败 | [SHA256](./gnome-initial-setup/SHA256SUMS) |
-| [gnome-keysign](./gnome-keysign) | amd64  | ubuntu-noble | 1.3.0-3-20250327 | 失败 | N/A |
-| [gnome-kiosk](./gnome-kiosk) | amd64  | ubuntu-noble | 46.0-1build2-20250327 | 失败 | N/A |
-| [gnome-kiosk-script-session](./gnome-kiosk-script-session) | amd64  | ubuntu-noble | 46.0-1build2-20250327 | 失败 | N/A |
-| [gnome-kiosk-search-appliance](./gnome-kiosk-search-appliance) | amd64  | ubuntu-noble | 46.0-1build2-20250327 | 失败 | N/A |
-| [gnome-klotski](./gnome-klotski) | amd64  | ubuntu-noble | 3.38.2-1build3 | ![screen0-5.jpg](./gnome-klotski/tests/screen0-5.jpg) | [SHA256](./gnome-klotski/SHA256SUMS) |
-| [gnome-logs](./gnome-logs) | amd64  | ubuntu-noble | 45.0-1build1 | ![screen0-5.jpg](./gnome-logs/tests/screen0-5.jpg) | [SHA256](./gnome-logs/SHA256SUMS) |
-| [gnome-mahjongg](./gnome-mahjongg) | amd64  | ubuntu-noble | 3.40.1-1 | ![screen0-5.jpg](./gnome-mahjongg/tests/screen0-5.jpg) | [SHA256](./gnome-mahjongg/SHA256SUMS) |
-| [gnome-maps](./gnome-maps) | amd64  | ubuntu-noble | 46.0-1build1-20250327 | 失败 | N/A |
-| [gnome-mastermind](./gnome-mastermind) | amd64  | ubuntu-noble | 0.4.0-4build2 | ![screen0-5.jpg](./gnome-mastermind/tests/screen0-5.jpg) | [SHA256](./gnome-mastermind/SHA256SUMS) |
-| [gnome-metronome](./gnome-metronome) | amd64  | ubuntu-noble | 1.3.0-2-20250327 | 失败 | [SHA256](./gnome-metronome/SHA256SUMS) |
-| [gnome-mines](./gnome-mines) | amd64  | ubuntu-noble | 40.1-1build2 | ![screen0-5.jpg](./gnome-mines/tests/screen0-5.jpg) | [SHA256](./gnome-mines/SHA256SUMS) |
-| [gnome-mousetrap](./gnome-mousetrap) | amd64  | ubuntu-noble | 3.17.3-9-20250327 | 失败 | N/A |
-| [gnome-multi-writer](./gnome-multi-writer) | amd64  | ubuntu-noble | 3.32.1-2build3 | ![screen0-5.jpg](./gnome-multi-writer/tests/screen0-5.jpg) | [SHA256](./gnome-multi-writer/SHA256SUMS) |
-| [gnome-music](./gnome-music) | amd64  | ubuntu-noble | 46.0-1build1-20250327 | 失败 | N/A |
-| [gnome-nettool](./gnome-nettool) | amd64  | ubuntu-noble | 42.0-1build2 | ![screen0-5.jpg](./gnome-nettool/tests/screen0-5.jpg) | [SHA256](./gnome-nettool/SHA256SUMS) |
-| [gnome-network-displays](./gnome-network-displays) | amd64  | ubuntu-noble | 0.92.1-2build2 | ![screen0-5.jpg](./gnome-network-displays/tests/screen0-5.jpg) | [SHA256](./gnome-network-displays/SHA256SUMS) |
-| [gnome-nibbles](./gnome-nibbles) | amd64  | ubuntu-noble | 4.0.4-1 | ![screen0-5.jpg](./gnome-nibbles/tests/screen0-5.jpg) | [SHA256](./gnome-nibbles/SHA256SUMS) |
-| [gnome-online-accounts](./gnome-online-accounts) | amd64  | ubuntu-noble | 3.50.4-0ubuntu2-20250327 | 失败 | [SHA256](./gnome-online-accounts/SHA256SUMS) |
-| [gnome-online-accounts-gtk](./gnome-online-accounts-gtk) | amd64  | ubuntu-noble | 3.50.1-0ubuntu1 | ![screen0-5.jpg](./gnome-online-accounts-gtk/tests/screen0-5.jpg) | [SHA256](./gnome-online-accounts-gtk/SHA256SUMS) |
-| [gnome-package-updater](./gnome-package-updater) | amd64  | ubuntu-noble | 43.0-2build3-20250327 | 失败 | N/A |
-| [gnome-packagekit](./gnome-packagekit) | amd64  | ubuntu-noble | 43.0-2build3-20250327 | 失败 | N/A |
-| [gnome-paint](./gnome-paint) | amd64  | ubuntu-noble | 0.4.0-9ubuntu1 | ![screen0-5.jpg](./gnome-paint/tests/screen0-5.jpg) | [SHA256](./gnome-paint/SHA256SUMS) |
-| [gnome-panel](./gnome-panel) | amd64  | ubuntu-noble | 3.52.0-1ubuntu2-20250327 | 失败 | [SHA256](./gnome-panel/SHA256SUMS) |
-| [gnome-pass-search-provider](./gnome-pass-search-provider) | amd64  | ubuntu-noble | 1.3.0-1-20250327 | 失败 | N/A |
-| [gnome-pie](./gnome-pie) | amd64  | ubuntu-noble | 0.7.3-2build2 | ![screen0-5.jpg](./gnome-pie/tests/screen0-5.jpg) | [SHA256](./gnome-pie/SHA256SUMS) |
-| [gnome-power-manager](./gnome-power-manager) | amd64  | ubuntu-noble | 43.0-2build2-20250327 | 失败 | [SHA256](./gnome-power-manager/SHA256SUMS) |
-| [gnome-remote-desktop](./gnome-remote-desktop) | amd64  | ubuntu-noble | 46.3-0ubuntu1-20250327 | 失败 | [SHA256](./gnome-remote-desktop/SHA256SUMS) |
-| [gnome-robots](./gnome-robots) | amd64  | ubuntu-noble | 40.0-2build2 | ![screen0-5.jpg](./gnome-robots/tests/screen0-5.jpg) | [SHA256](./gnome-robots/SHA256SUMS) |
-| [gnome-screensaver](./gnome-screensaver) | amd64  | ubuntu-noble | 3.6.1-13ubuntu4-20250327 | 失败 | [SHA256](./gnome-screensaver/SHA256SUMS) |
-| [gnome-screensaver-flags](./gnome-screensaver-flags) | amd64  | ubuntu-noble | 0.1-1.1-20250327 | 失败 | [SHA256](./gnome-screensaver-flags/SHA256SUMS) |
-| [gnome-screenshot](./gnome-screenshot) | amd64  | ubuntu-noble | 41.0-2build2 | ![screen0-5.jpg](./gnome-screenshot/tests/screen0-5.jpg) | [SHA256](./gnome-screenshot/SHA256SUMS) |
-| [gnome-shell](./gnome-shell) | amd64  | ubuntu-noble | 46.0-0ubuntu6~24.04.8-20250327 | 失败 | N/A |
-| [gnome-shell-extension-gsconnect](./gnome-shell-extension-gsconnect) | amd64  | ubuntu-noble | 57-1-20250327 | 失败 | N/A |
-| [gnome-shell-extension-manager](./gnome-shell-extension-manager) | amd64  | ubuntu-noble | 0.5.0-1build1-20250327 | 失败 | N/A |
-| [gnome-shell-extension-prefs](./gnome-shell-extension-prefs) | amd64  | ubuntu-noble | 46.0-0ubuntu6~24.04.8-20250327 | 失败 | N/A |
-| [gnome-shell-pomodoro](./gnome-shell-pomodoro) | amd64  | ubuntu-noble | 0.25.1-1-20250327 | 失败 | N/A |
-| [gnome-snapshot](./gnome-snapshot) | amd64  | ubuntu-noble | 46.2-1ubuntu2-20250327 | 失败 | [SHA256](./gnome-snapshot/SHA256SUMS) |
-| [gnome-software](./gnome-software) | amd64  | ubuntu-noble | 46.0-1ubuntu2-20250327 | 失败 | N/A |
-| [gnome-sound-recorder](./gnome-sound-recorder) | amd64  | ubuntu-noble | 43~beta-1-20250327 | 失败 | N/A |
-| [gnome-split](./gnome-split) | amd64  | ubuntu-noble | 1.2-5-20250327 | 失败 | [SHA256](./gnome-split/SHA256SUMS) |
-| [gnome-startup-applications](./gnome-startup-applications) | amd64  | ubuntu-noble | 46.0-1ubuntu4 | ![screen0-5.jpg](./gnome-startup-applications/tests/screen0-5.jpg) | [SHA256](./gnome-startup-applications/SHA256SUMS) |
-| [gnome-subtitles](./gnome-subtitles) | amd64  | ubuntu-noble | 1.8-1 | ![screen0-5.jpg](./gnome-subtitles/tests/screen0-5.jpg) | [SHA256](./gnome-subtitles/SHA256SUMS) |
-| [gnome-sudoku](./gnome-sudoku) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-sudoku/tests/screen0-5.jpg) | [SHA256](./gnome-sudoku/SHA256SUMS) |
-| [gnome-system-monitor](./gnome-system-monitor) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-system-monitor/tests/screen0-5.jpg) ![screen1-5.jpg](./gnome-system-monitor/tests/screen1-5.jpg) | [SHA256](./gnome-system-monitor/SHA256SUMS) |
-| [gnome-system-tools](./gnome-system-tools) | amd64  | ubuntu-noble | 3.0.0-9.1ubuntu4 | ![screen0-5.jpg](./gnome-system-tools/tests/screen0-5.jpg) ![screen1-5.jpg](./gnome-system-tools/tests/screen1-5.jpg) | [SHA256](./gnome-system-tools/SHA256SUMS) |
-| [gnome-taquin](./gnome-taquin) | amd64  | ubuntu-noble | 3.38.1-2build2 | ![screen0-5.jpg](./gnome-taquin/tests/screen0-5.jpg) | [SHA256](./gnome-taquin/SHA256SUMS) |
-| [gnome-terminal](./gnome-terminal) | amd64  | ubuntu-noble | 3.52.0-1ubuntu2-20250327 | 失败 | N/A |
-| [gnome-tetravex](./gnome-tetravex) | amd64  | ubuntu-noble | 3.38.2-3build2 | ![screen0-5.jpg](./gnome-tetravex/tests/screen0-5.jpg) | [SHA256](./gnome-tetravex/SHA256SUMS) |
-| [gnome-text-editor](./gnome-text-editor) | amd64  | ubuntu-noble | 46.3-0ubuntu2 | ![screen0-5.jpg](./gnome-text-editor/tests/screen0-5.jpg) | [SHA256](./gnome-text-editor/SHA256SUMS) |
-| [gnome-tour](./gnome-tour) | amd64  | ubuntu-noble | 46.0-2 | ![screen0-5.jpg](./gnome-tour/tests/screen0-5.jpg) | [SHA256](./gnome-tour/SHA256SUMS) |
-| [gnome-tweaks](./gnome-tweaks) | amd64  | ubuntu-noble | 46.0-2-20250327 | 失败 | N/A |
-| [gnome-usage](./gnome-usage) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-usage/tests/screen0-5.jpg) | [SHA256](./gnome-usage/SHA256SUMS) |
-| [gnome-user-share](./gnome-user-share) | amd64  | ubuntu-noble | 43.0-1build2-20250327 | 失败 | [SHA256](./gnome-user-share/SHA256SUMS) |
-| [gnome-video-arcade](./gnome-video-arcade) | amd64  | ubuntu-noble | 0.8.8-5build3 | ![screen0-5.jpg](./gnome-video-arcade/tests/screen0-5.jpg) | [SHA256](./gnome-video-arcade/SHA256SUMS) |
-| [gnome-video-trimmer](./gnome-video-trimmer) | amd64  | ubuntu-noble | 0.8.2-2 | ![screen0-5.jpg](./gnome-video-trimmer/tests/screen0-5.jpg) | [SHA256](./gnome-video-trimmer/SHA256SUMS) |
-| [gnome-weather](./gnome-weather) | amd64  | ubuntu-noble | 46.0-1-20250327 | 失败 | N/A |
-| [gnomekiss](./gnomekiss) | amd64  | ubuntu-noble | 2.0-6.1build4 | ![screen0-5.jpg](./gnomekiss/tests/screen0-5.jpg) | [SHA256](./gnomekiss/SHA256SUMS) |
-| [gnomint](./gnomint) | amd64  | ubuntu-noble | 1.3.0-4build2 | ![screen0-5.jpg](./gnomint/tests/screen0-5.jpg) | [SHA256](./gnomint/SHA256SUMS) |
-| [gnote](./gnote) | amd64  | ubuntu-noble | 46.0-1 | ![screen0-5.jpg](./gnote/tests/screen0-5.jpg) | [SHA256](./gnote/SHA256SUMS) |
-| [gnubg](./gnubg) | amd64  | ubuntu-noble | 1.07.001-3build6 | ![screen0-5.jpg](./gnubg/tests/screen0-5.jpg) | [SHA256](./gnubg/SHA256SUMS) |
-| [gnubiff](./gnubiff) | amd64  | ubuntu-noble | 2.2.17-5build3 | ![screen0-5.jpg](./gnubiff/tests/screen0-5.jpg) | [SHA256](./gnubiff/SHA256SUMS) |
-| [gnucash](./gnucash) | amd64  | ubuntu-noble | 5.5-1.2build1-20250327 | 失败 | N/A |
-| [gnudatalanguage](./gnudatalanguage) | amd64  | ubuntu-noble | 1.0.4-1build6 | ![screen0-5.jpg](./gnudatalanguage/tests/screen0-5.jpg) | [SHA256](./gnudatalanguage/SHA256SUMS) |
-| [gnugo](./gnugo) | amd64  | ubuntu-noble | 3.8-11build2 | ![screen0-5.jpg](./gnugo/tests/screen0-5.jpg) | [SHA256](./gnugo/SHA256SUMS) |
-| [gnujump](./gnujump) | amd64  | ubuntu-noble | 1.0.8-3.1 | ![screen0-5.jpg](./gnujump/tests/screen0-5.jpg) | [SHA256](./gnujump/SHA256SUMS) |
-| [gnumail.app](./gnumail.app) | amd64  | ubuntu-noble | 1.4.0-2 | ![screen0-5.jpg](./gnumail.app/tests/screen0-5.jpg) | [SHA256](./gnumail.app/SHA256SUMS) |
-| [gnumed-client](./gnumed-client) | amd64  | ubuntu-noble | 1.8.18+dfsg-2-20250327 | 失败 | N/A |
-| [gnumeric](./gnumeric) | amd64  | ubuntu-noble | 1.12.56-2build5 | ![screen0-5.jpg](./gnumeric/tests/screen0-5.jpg) | [SHA256](./gnumeric/SHA256SUMS) |
-| [gnunet](./gnunet) | amd64  | ubuntu-noble | 0.20.0-4.1build3-20250327 | 失败 | [SHA256](./gnunet/SHA256SUMS) |
-| [gnunet-gtk](./gnunet-gtk) | amd64  | ubuntu-noble | 0.20.0-4 | ![screen0-5.jpg](./gnunet-gtk/tests/screen0-5.jpg) | [SHA256](./gnunet-gtk/SHA256SUMS) |
-| [gnuradio](./gnuradio) | amd64  | ubuntu-noble | 3.10.9.2-1.1ubuntu2-20250327 | 失败 | N/A |
-| [gnurobbo](./gnurobbo) | amd64  | ubuntu-noble | 0.68+dfsg-6 | ![screen0-5.jpg](./gnurobbo/tests/screen0-5.jpg) | [SHA256](./gnurobbo/SHA256SUMS) |
-| [gnuserv](./gnuserv) | amd64  | ubuntu-noble | 3.12.8-12-20250327 | 失败 | [SHA256](./gnuserv/SHA256SUMS) |
-| [gnusim8085](./gnusim8085) | amd64  | ubuntu-noble | 1.4.1-1build3 | ![screen0-5.jpg](./gnusim8085/tests/screen0-5.jpg) | [SHA256](./gnusim8085/SHA256SUMS) |
-| [gnustep-dl2](./gnustep-dl2) | amd64  | ubuntu-noble | 0.12.0-16build2 | ![screen0-5.jpg](./gnustep-dl2/tests/screen0-5.jpg) | [SHA256](./gnustep-dl2/SHA256SUMS) |
-| [gnustep-examples](./gnustep-examples) | amd64  | ubuntu-noble | 1.4.0-3build3 | ![screen0-5.jpg](./gnustep-examples/tests/screen0-5.jpg) ![screen1-5.jpg](./gnustep-examples/tests/screen1-5.jpg) | [SHA256](./gnustep-examples/SHA256SUMS) |
-| [go-for-it](./go-for-it) | amd64  | ubuntu-noble | 1.9.6-4build3 | ![screen0-5.jpg](./go-for-it/tests/screen0-5.jpg) | [SHA256](./go-for-it/SHA256SUMS) |
-| [goattracker](./goattracker) | amd64  | ubuntu-noble | 2.76+ds-3 | ![screen0-5.jpg](./goattracker/tests/screen0-5.jpg) | [SHA256](./goattracker/SHA256SUMS) |
-| [goban-ss](./goban-ss) | amd64  | ubuntu-noble | 1.1-6 | ![screen0-5.jpg](./goban-ss/tests/screen0-5.jpg) ![screen1-5.jpg](./goban-ss/tests/screen1-5.jpg) ![screen2-5.jpg](./goban-ss/tests/screen2-5.jpg) ![screen3-5.jpg](./goban-ss/tests/screen3-5.jpg) ![screen4-5.jpg](./goban-ss/tests/screen4-5.jpg) ![screen5-5.jpg](./goban-ss/tests/screen5-5.jpg) ![screen6-5.jpg](./goban-ss/tests/screen6-5.jpg) ![screen7-5.jpg](./goban-ss/tests/screen7-5.jpg) ![screen8-5.jpg](./goban-ss/tests/screen8-5.jpg) ![screen9-5.jpg](./goban-ss/tests/screen9-5.jpg) ![screen10-5.jpg](./goban-ss/tests/screen10-5.jpg) ![screen11-5.jpg](./goban-ss/tests/screen11-5.jpg) ![screen12-5.jpg](./goban-ss/tests/screen12-5.jpg) ![screen13-5.jpg](./goban-ss/tests/screen13-5.jpg) ![screen14-5.jpg](./goban-ss/tests/screen14-5.jpg) ![screen15-5.jpg](./goban-ss/tests/screen15-5.jpg) ![screen16-5.jpg](./goban-ss/tests/screen16-5.jpg) ![screen17-5.jpg](./goban-ss/tests/screen17-5.jpg) ![screen18-5.jpg](./goban-ss/tests/screen18-5.jpg) ![screen19-5.jpg](./goban-ss/tests/screen19-5.jpg) ![screen20-5.jpg](./goban-ss/tests/screen20-5.jpg) ![screen21-5.jpg](./goban-ss/tests/screen21-5.jpg) ![screen22-5.jpg](./goban-ss/tests/screen22-5.jpg) ![screen23-5.jpg](./goban-ss/tests/screen23-5.jpg) ![screen24-5.jpg](./goban-ss/tests/screen24-5.jpg) ![screen25-5.jpg](./goban-ss/tests/screen25-5.jpg) ![screen26-5.jpg](./goban-ss/tests/screen26-5.jpg) ![screen27-5.jpg](./goban-ss/tests/screen27-5.jpg) ![screen28-5.jpg](./goban-ss/tests/screen28-5.jpg) ![screen29-5.jpg](./goban-ss/tests/screen29-5.jpg) ![screen30-5.jpg](./goban-ss/tests/screen30-5.jpg) ![screen31-5.jpg](./goban-ss/tests/screen31-5.jpg) ![screen32-5.jpg](./goban-ss/tests/screen32-5.jpg) ![screen33-5.jpg](./goban-ss/tests/screen33-5.jpg) ![screen34-5.jpg](./goban-ss/tests/screen34-5.jpg) ![screen35-5.jpg](./goban-ss/tests/screen35-5.jpg) ![screen36-5.jpg](./goban-ss/tests/screen36-5.jpg) ![screen37-5.jpg](./goban-ss/tests/screen37-5.jpg) ![screen38-5.jpg](./goban-ss/tests/screen38-5.jpg) ![screen39-5.jpg](./goban-ss/tests/screen39-5.jpg) ![screen40-5.jpg](./goban-ss/tests/screen40-5.jpg) ![screen41-5.jpg](./goban-ss/tests/screen41-5.jpg) ![screen42-5.jpg](./goban-ss/tests/screen42-5.jpg) ![screen43-5.jpg](./goban-ss/tests/screen43-5.jpg) ![screen44-5.jpg](./goban-ss/tests/screen44-5.jpg) ![screen45-5.jpg](./goban-ss/tests/screen45-5.jpg) ![screen46-5.jpg](./goban-ss/tests/screen46-5.jpg) ![screen47-5.jpg](./goban-ss/tests/screen47-5.jpg) ![screen48-5.jpg](./goban-ss/tests/screen48-5.jpg) ![screen49-5.jpg](./goban-ss/tests/screen49-5.jpg) ![screen50-5.jpg](./goban-ss/tests/screen50-5.jpg) ![screen51-5.jpg](./goban-ss/tests/screen51-5.jpg) ![screen52-5.jpg](./goban-ss/tests/screen52-5.jpg) ![screen53-5.jpg](./goban-ss/tests/screen53-5.jpg) ![screen54-5.jpg](./goban-ss/tests/screen54-5.jpg) ![screen55-5.jpg](./goban-ss/tests/screen55-5.jpg) ![screen56-5.jpg](./goban-ss/tests/screen56-5.jpg) ![screen57-5.jpg](./goban-ss/tests/screen57-5.jpg) ![screen58-5.jpg](./goban-ss/tests/screen58-5.jpg) ![screen59-5.jpg](./goban-ss/tests/screen59-5.jpg) ![screen60-5.jpg](./goban-ss/tests/screen60-5.jpg) ![screen62-5.jpg](./goban-ss/tests/screen62-5.jpg) ![screen63-5.jpg](./goban-ss/tests/screen63-5.jpg) ![screen64-5.jpg](./goban-ss/tests/screen64-5.jpg) ![screen65-5.jpg](./goban-ss/tests/screen65-5.jpg) ![screen66-5.jpg](./goban-ss/tests/screen66-5.jpg) ![screen67-5.jpg](./goban-ss/tests/screen67-5.jpg) ![screen68-5.jpg](./goban-ss/tests/screen68-5.jpg) ![screen69-5.jpg](./goban-ss/tests/screen69-5.jpg) ![screen70-5.jpg](./goban-ss/tests/screen70-5.jpg) ![screen71-5.jpg](./goban-ss/tests/screen71-5.jpg) ![screen72-5.jpg](./goban-ss/tests/screen72-5.jpg) ![screen73-5.jpg](./goban-ss/tests/screen73-5.jpg) ![screen74-5.jpg](./goban-ss/tests/screen74-5.jpg) ![screen75-5.jpg](./goban-ss/tests/screen75-5.jpg) ![screen76-5.jpg](./goban-ss/tests/screen76-5.jpg) ![screen77-5.jpg](./goban-ss/tests/screen77-5.jpg) ![screen78-5.jpg](./goban-ss/tests/screen78-5.jpg) ![screen79-5.jpg](./goban-ss/tests/screen79-5.jpg) ![screen80-5.jpg](./goban-ss/tests/screen80-5.jpg) ![screen81-5.jpg](./goban-ss/tests/screen81-5.jpg) ![screen82-5.jpg](./goban-ss/tests/screen82-5.jpg) ![screen83-5.jpg](./goban-ss/tests/screen83-5.jpg) ![screen84-5.jpg](./goban-ss/tests/screen84-5.jpg) ![screen85-5.jpg](./goban-ss/tests/screen85-5.jpg) ![screen86-5.jpg](./goban-ss/tests/screen86-5.jpg) ![screen87-5.jpg](./goban-ss/tests/screen87-5.jpg) ![screen88-5.jpg](./goban-ss/tests/screen88-5.jpg) ![screen89-5.jpg](./goban-ss/tests/screen89-5.jpg) ![screen90-5.jpg](./goban-ss/tests/screen90-5.jpg) ![screen91-5.jpg](./goban-ss/tests/screen91-5.jpg) ![screen92-5.jpg](./goban-ss/tests/screen92-5.jpg) ![screen93-5.jpg](./goban-ss/tests/screen93-5.jpg) ![screen94-5.jpg](./goban-ss/tests/screen94-5.jpg) ![screen95-5.jpg](./goban-ss/tests/screen95-5.jpg) ![screen97-5.jpg](./goban-ss/tests/screen97-5.jpg) ![screen98-5.jpg](./goban-ss/tests/screen98-5.jpg) ![screen99-5.jpg](./goban-ss/tests/screen99-5.jpg) ![screen100-5.jpg](./goban-ss/tests/screen100-5.jpg) ![screen101-5.jpg](./goban-ss/tests/screen101-5.jpg) ![screen102-5.jpg](./goban-ss/tests/screen102-5.jpg) ![screen103-5.jpg](./goban-ss/tests/screen103-5.jpg) ![screen104-5.jpg](./goban-ss/tests/screen104-5.jpg) ![screen105-5.jpg](./goban-ss/tests/screen105-5.jpg) ![screen106-5.jpg](./goban-ss/tests/screen106-5.jpg) ![screen107-5.jpg](./goban-ss/tests/screen107-5.jpg) ![screen108-5.jpg](./goban-ss/tests/screen108-5.jpg) ![screen109-5.jpg](./goban-ss/tests/screen109-5.jpg) ![screen110-5.jpg](./goban-ss/tests/screen110-5.jpg) ![screen111-5.jpg](./goban-ss/tests/screen111-5.jpg) ![screen112-5.jpg](./goban-ss/tests/screen112-5.jpg) ![screen113-5.jpg](./goban-ss/tests/screen113-5.jpg) ![screen114-5.jpg](./goban-ss/tests/screen114-5.jpg) ![screen115-5.jpg](./goban-ss/tests/screen115-5.jpg) ![screen116-5.jpg](./goban-ss/tests/screen116-5.jpg) ![screen117-5.jpg](./goban-ss/tests/screen117-5.jpg) ![screen118-5.jpg](./goban-ss/tests/screen118-5.jpg) ![screen119-5.jpg](./goban-ss/tests/screen119-5.jpg) ![screen120-5.jpg](./goban-ss/tests/screen120-5.jpg) ![screen121-5.jpg](./goban-ss/tests/screen121-5.jpg) ![screen122-5.jpg](./goban-ss/tests/screen122-5.jpg) ![screen123-5.jpg](./goban-ss/tests/screen123-5.jpg) ![screen124-5.jpg](./goban-ss/tests/screen124-5.jpg) ![screen125-5.jpg](./goban-ss/tests/screen125-5.jpg) ![screen126-5.jpg](./goban-ss/tests/screen126-5.jpg) ![screen127-5.jpg](./goban-ss/tests/screen127-5.jpg) ![screen128-5.jpg](./goban-ss/tests/screen128-5.jpg) ![screen129-5.jpg](./goban-ss/tests/screen129-5.jpg) ![screen130-5.jpg](./goban-ss/tests/screen130-5.jpg) ![screen131-5.jpg](./goban-ss/tests/screen131-5.jpg) ![screen132-5.jpg](./goban-ss/tests/screen132-5.jpg) ![screen133-5.jpg](./goban-ss/tests/screen133-5.jpg) ![screen134-5.jpg](./goban-ss/tests/screen134-5.jpg) ![screen135-5.jpg](./goban-ss/tests/screen135-5.jpg) ![screen136-5.jpg](./goban-ss/tests/screen136-5.jpg) ![screen137-5.jpg](./goban-ss/tests/screen137-5.jpg) ![screen138-5.jpg](./goban-ss/tests/screen138-5.jpg) ![screen139-5.jpg](./goban-ss/tests/screen139-5.jpg) ![screen140-5.jpg](./goban-ss/tests/screen140-5.jpg) ![screen141-5.jpg](./goban-ss/tests/screen141-5.jpg) ![screen142-5.jpg](./goban-ss/tests/screen142-5.jpg) ![screen143-5.jpg](./goban-ss/tests/screen143-5.jpg) ![screen144-5.jpg](./goban-ss/tests/screen144-5.jpg) ![screen145-5.jpg](./goban-ss/tests/screen145-5.jpg) ![screen146-5.jpg](./goban-ss/tests/screen146-5.jpg) ![screen147-5.jpg](./goban-ss/tests/screen147-5.jpg) ![screen148-5.jpg](./goban-ss/tests/screen148-5.jpg) ![screen149-5.jpg](./goban-ss/tests/screen149-5.jpg) ![screen150-5.jpg](./goban-ss/tests/screen150-5.jpg) ![screen151-5.jpg](./goban-ss/tests/screen151-5.jpg) ![screen152-5.jpg](./goban-ss/tests/screen152-5.jpg) ![screen153-5.jpg](./goban-ss/tests/screen153-5.jpg) ![screen154-5.jpg](./goban-ss/tests/screen154-5.jpg) ![screen155-5.jpg](./goban-ss/tests/screen155-5.jpg) ![screen156-5.jpg](./goban-ss/tests/screen156-5.jpg) ![screen157-5.jpg](./goban-ss/tests/screen157-5.jpg) ![screen158-5.jpg](./goban-ss/tests/screen158-5.jpg) ![screen159-5.jpg](./goban-ss/tests/screen159-5.jpg) ![screen160-5.jpg](./goban-ss/tests/screen160-5.jpg) ![screen161-5.jpg](./goban-ss/tests/screen161-5.jpg) ![screen162-5.jpg](./goban-ss/tests/screen162-5.jpg) ![screen163-5.jpg](./goban-ss/tests/screen163-5.jpg) ![screen164-5.jpg](./goban-ss/tests/screen164-5.jpg) ![screen165-5.jpg](./goban-ss/tests/screen165-5.jpg) ![screen166-5.jpg](./goban-ss/tests/screen166-5.jpg) ![screen167-5.jpg](./goban-ss/tests/screen167-5.jpg) ![screen168-5.jpg](./goban-ss/tests/screen168-5.jpg) ![screen169-5.jpg](./goban-ss/tests/screen169-5.jpg) ![screen170-5.jpg](./goban-ss/tests/screen170-5.jpg) ![screen171-5.jpg](./goban-ss/tests/screen171-5.jpg) ![screen172-5.jpg](./goban-ss/tests/screen172-5.jpg) ![screen173-5.jpg](./goban-ss/tests/screen173-5.jpg) ![screen174-5.jpg](./goban-ss/tests/screen174-5.jpg) ![screen175-5.jpg](./goban-ss/tests/screen175-5.jpg) ![screen176-5.jpg](./goban-ss/tests/screen176-5.jpg) ![screen177-5.jpg](./goban-ss/tests/screen177-5.jpg) ![screen178-5.jpg](./goban-ss/tests/screen178-5.jpg) ![screen179-5.jpg](./goban-ss/tests/screen179-5.jpg) ![screen180-5.jpg](./goban-ss/tests/screen180-5.jpg) ![screen181-5.jpg](./goban-ss/tests/screen181-5.jpg) ![screen182-5.jpg](./goban-ss/tests/screen182-5.jpg) ![screen183-5.jpg](./goban-ss/tests/screen183-5.jpg) ![screen184-5.jpg](./goban-ss/tests/screen184-5.jpg) ![screen185-5.jpg](./goban-ss/tests/screen185-5.jpg) ![screen186-5.jpg](./goban-ss/tests/screen186-5.jpg) ![screen187-5.jpg](./goban-ss/tests/screen187-5.jpg) ![screen188-5.jpg](./goban-ss/tests/screen188-5.jpg) ![screen189-5.jpg](./goban-ss/tests/screen189-5.jpg) ![screen190-5.jpg](./goban-ss/tests/screen190-5.jpg) ![screen191-5.jpg](./goban-ss/tests/screen191-5.jpg) ![screen192-5.jpg](./goban-ss/tests/screen192-5.jpg) ![screen193-5.jpg](./goban-ss/tests/screen193-5.jpg) ![screen194-5.jpg](./goban-ss/tests/screen194-5.jpg) ![screen195-5.jpg](./goban-ss/tests/screen195-5.jpg) ![screen196-5.jpg](./goban-ss/tests/screen196-5.jpg) ![screen197-5.jpg](./goban-ss/tests/screen197-5.jpg) ![screen198-5.jpg](./goban-ss/tests/screen198-5.jpg) ![screen199-5.jpg](./goban-ss/tests/screen199-5.jpg) ![screen200-5.jpg](./goban-ss/tests/screen200-5.jpg) ![screen201-5.jpg](./goban-ss/tests/screen201-5.jpg) ![screen202-5.jpg](./goban-ss/tests/screen202-5.jpg) ![screen203-5.jpg](./goban-ss/tests/screen203-5.jpg) ![screen204-5.jpg](./goban-ss/tests/screen204-5.jpg) ![screen205-5.jpg](./goban-ss/tests/screen205-5.jpg) ![screen206-5.jpg](./goban-ss/tests/screen206-5.jpg) ![screen207-5.jpg](./goban-ss/tests/screen207-5.jpg) ![screen208-5.jpg](./goban-ss/tests/screen208-5.jpg) ![screen209-5.jpg](./goban-ss/tests/screen209-5.jpg) ![screen210-5.jpg](./goban-ss/tests/screen210-5.jpg) ![screen211-5.jpg](./goban-ss/tests/screen211-5.jpg) ![screen212-5.jpg](./goban-ss/tests/screen212-5.jpg) ![screen213-5.jpg](./goban-ss/tests/screen213-5.jpg) ![screen214-5.jpg](./goban-ss/tests/screen214-5.jpg) ![screen215-5.jpg](./goban-ss/tests/screen215-5.jpg) ![screen216-5.jpg](./goban-ss/tests/screen216-5.jpg) ![screen217-5.jpg](./goban-ss/tests/screen217-5.jpg) ![screen218-5.jpg](./goban-ss/tests/screen218-5.jpg) ![screen219-5.jpg](./goban-ss/tests/screen219-5.jpg) ![screen220-5.jpg](./goban-ss/tests/screen220-5.jpg) ![screen221-5.jpg](./goban-ss/tests/screen221-5.jpg) ![screen222-5.jpg](./goban-ss/tests/screen222-5.jpg) ![screen223-5.jpg](./goban-ss/tests/screen223-5.jpg) ![screen224-5.jpg](./goban-ss/tests/screen224-5.jpg) ![screen225-5.jpg](./goban-ss/tests/screen225-5.jpg) ![screen226-5.jpg](./goban-ss/tests/screen226-5.jpg) ![screen227-5.jpg](./goban-ss/tests/screen227-5.jpg) ![screen228-5.jpg](./goban-ss/tests/screen228-5.jpg) ![screen229-5.jpg](./goban-ss/tests/screen229-5.jpg) ![screen230-5.jpg](./goban-ss/tests/screen230-5.jpg) ![screen231-5.jpg](./goban-ss/tests/screen231-5.jpg) ![screen232-5.jpg](./goban-ss/tests/screen232-5.jpg) ![screen233-5.jpg](./goban-ss/tests/screen233-5.jpg) ![screen235-5.jpg](./goban-ss/tests/screen235-5.jpg) ![screen236-5.jpg](./goban-ss/tests/screen236-5.jpg) ![screen237-5.jpg](./goban-ss/tests/screen237-5.jpg) ![screen238-5.jpg](./goban-ss/tests/screen238-5.jpg) ![screen239-5.jpg](./goban-ss/tests/screen239-5.jpg) ![screen240-5.jpg](./goban-ss/tests/screen240-5.jpg) ![screen241-5.jpg](./goban-ss/tests/screen241-5.jpg) ![screen242-5.jpg](./goban-ss/tests/screen242-5.jpg) ![screen243-5.jpg](./goban-ss/tests/screen243-5.jpg) ![screen244-5.jpg](./goban-ss/tests/screen244-5.jpg) ![screen245-5.jpg](./goban-ss/tests/screen245-5.jpg) ![screen246-5.jpg](./goban-ss/tests/screen246-5.jpg) ![screen247-5.jpg](./goban-ss/tests/screen247-5.jpg) ![screen248-5.jpg](./goban-ss/tests/screen248-5.jpg) | [SHA256](./goban-ss/SHA256SUMS) |
-| [gobby](./gobby) | amd64  | ubuntu-noble | 0.6.0-2build2 | ![screen0-5.jpg](./gobby/tests/screen0-5.jpg) | [SHA256](./gobby/SHA256SUMS) |
-| [godot3](./godot3) | amd64  | ubuntu-noble | 3.5.2-stable-2build4 | ![screen0-5.jpg](./godot3/tests/screen0-5.jpg) | [SHA256](./godot3/SHA256SUMS) |
-| [goldencheetah](./goldencheetah) | amd64  | ubuntu-noble | 3.5-2ubuntu2 | ![screen0-5.jpg](./goldencheetah/tests/screen0-5.jpg) | [SHA256](./goldencheetah/SHA256SUMS) |
-| [goldendict](./goldendict) | amd64  | ubuntu-noble | 1.5.0-1build4 | ![screen0-5.jpg](./goldendict/tests/screen0-5.jpg) | [SHA256](./goldendict/SHA256SUMS) |
-| [goldendict-ng](./goldendict-ng) | amd64  | ubuntu-noble | 23.12.26-1build2 | ![screen0-5.jpg](./goldendict-ng/tests/screen0-5.jpg) | [SHA256](./goldendict-ng/SHA256SUMS) |
-| [goldendict-webengine](./goldendict-webengine) | amd64  | ubuntu-noble | 23.10.01-1build3 | ![screen0-5.jpg](./goldendict-webengine/tests/screen0-5.jpg) | [SHA256](./goldendict-webengine/SHA256SUMS) |
-| [golly](./golly) | amd64  | ubuntu-noble | 3.3-1.1build3 | ![screen0-5.jpg](./golly/tests/screen0-5.jpg) | [SHA256](./golly/SHA256SUMS) |
-| [gom](./gom) | amd64  | ubuntu-noble | 0.30.4-1-20250327 | 失败 | [SHA256](./gom/SHA256SUMS) |
-| [gomoku.app](./gomoku.app) | amd64  | ubuntu-noble | 1.2.9-5build1 | ![screen0-5.jpg](./gomoku.app/tests/screen0-5.jpg) | [SHA256](./gomoku.app/SHA256SUMS) |
-| [goobox](./goobox) | amd64  | ubuntu-noble | 3.6.0-11build2 | ![screen0-5.jpg](./goobox/tests/screen0-5.jpg) | [SHA256](./goobox/SHA256SUMS) |
-| [goodvibes](./goodvibes) | amd64  | ubuntu-noble | 0.7.9-1build2 | ![screen0-5.jpg](./goodvibes/tests/screen0-5.jpg) | [SHA256](./goodvibes/SHA256SUMS) |
-| [gopchop](./gopchop) | amd64  | ubuntu-noble | 1.1.8-7build4 | ![screen0-5.jpg](./gopchop/tests/screen0-5.jpg) | [SHA256](./gopchop/SHA256SUMS) |
-| [gorm.app](./gorm.app) | amd64  | ubuntu-noble | 1.3.1-1build1 | ![screen0-5.jpg](./gorm.app/tests/screen0-5.jpg) | [SHA256](./gorm.app/SHA256SUMS) |
-| [gosa-desktop](./gosa-desktop) | amd64  | ubuntu-noble | 2.8~git20230203.10abe45+dfsg-11-20250327 | 失败 | N/A |
-| [gourmand](./gourmand) | amd64  | ubuntu-noble | 1.1.0+really1.1.0~rc3-3-20250327 | 失败 | N/A |
-| [goverlay](./goverlay) | amd64  | ubuntu-noble | 0.9.1-2 | ![screen0-5.jpg](./goverlay/tests/screen0-5.jpg) | [SHA256](./goverlay/SHA256SUMS) |
-| [goxel](./goxel) | amd64  | ubuntu-noble | 0.11.0-1.1build3 | ![screen0-5.jpg](./goxel/tests/screen0-5.jpg) | [SHA256](./goxel/SHA256SUMS) |
-| [gpa](./gpa) | amd64  | ubuntu-noble | 0.10.0-6 | ![screen0-5.jpg](./gpa/tests/screen0-5.jpg) | [SHA256](./gpa/SHA256SUMS) |
-| [gpac](./gpac) | amd64  | ubuntu-noble | 2.2.1+dfsg1-3.1build2 | ![screen0-5.jpg](./gpac/tests/screen0-5.jpg) | [SHA256](./gpac/SHA256SUMS) |
-| [gparted](./gparted) | amd64  | deepin-v23 | 1.5.0-1deepin0-20250327 | 失败 | N/A |
-| [gpaste-2](./gpaste-2) | amd64  | ubuntu-noble | 45-2ubuntu5 | ![screen0-5.jpg](./gpaste-2/tests/screen0-5.jpg) | [SHA256](./gpaste-2/SHA256SUMS) |
-| [gperiodic](./gperiodic) | amd64  | ubuntu-noble | 3.0.3-1build2 | ![screen0-5.jpg](./gperiodic/tests/screen0-5.jpg) | [SHA256](./gperiodic/SHA256SUMS) |
-| [gpick](./gpick) | amd64  | ubuntu-noble | 0.2.6-1ubuntu2 | ![screen0-5.jpg](./gpick/tests/screen0-5.jpg) | [SHA256](./gpick/SHA256SUMS) |
-| [gpicview](./gpicview) | amd64  | deepin-v23 | 0.2.5-deepin1 | ![screen0-5.jpg](./gpicview/tests/screen0-5.jpg) | [SHA256](./gpicview/SHA256SUMS) |
-| [gplanarity](./gplanarity) | amd64  | ubuntu-noble | 17906-7build3 | ![screen0-5.jpg](./gplanarity/tests/screen0-5.jpg) | [SHA256](./gplanarity/SHA256SUMS) |
-| [gpodder](./gpodder) | amd64  | ubuntu-noble | 3.11.3-2ubuntu1-20250327 | 失败 | N/A |
-| [gpredict-doc](./gpredict-doc) | amd64  | ubuntu-noble | 2.3-115-g0f3beb6-3build3-20250327 | 失败 | [SHA256](./gpredict-doc/SHA256SUMS) |
-| [gprename](./gprename) | amd64  | deepin-v23 | 20210415-1 | ![screen0-5.jpg](./gprename/tests/screen0-5.jpg) | [SHA256](./gprename/SHA256SUMS) |
-| [gprompter](./gprompter) | amd64  | deepin-v23 | 0.9.1-2.2-deepin1+rb1 | ![screen0-5.jpg](./gprompter/tests/screen0-5.jpg) | [SHA256](./gprompter/SHA256SUMS) |
-| [gpsbabel-gui](./gpsbabel-gui) | amd64  | ubuntu-noble | 1.9.0+ds-2build3 | ![screen0-5.jpg](./gpsbabel-gui/tests/screen0-5.jpg) | [SHA256](./gpsbabel-gui/SHA256SUMS) |
-| [gpscorrelate-gui](./gpscorrelate-gui) | amd64  | ubuntu-noble | 2.0-4build2 | ![screen0-5.jpg](./gpscorrelate-gui/tests/screen0-5.jpg) | [SHA256](./gpscorrelate-gui/SHA256SUMS) |
-| [gpsd-clients](./gpsd-clients) | amd64  | ubuntu-noble | 3.25-3ubuntu3.1-20250327 | 失败 | N/A |
-| [gpsprune](./gpsprune) | amd64  | ubuntu-noble | 23.2-1 | ![screen0-5.jpg](./gpsprune/tests/screen0-5.jpg) | [SHA256](./gpsprune/SHA256SUMS) |
-| [gpxviewer](./gpxviewer) | amd64  | ubuntu-noble | 1.1.0-5-20250327 | 失败 | N/A |
-| [gpy](./gpy) | amd64  | deepin-v23 | 1.0.2.20210607 | ![screen0-5.jpg](./gpy/tests/screen0-5.jpg) | [SHA256](./gpy/SHA256SUMS) |
-| [gqrx-sdr](./gqrx-sdr) | amd64  | ubuntu-noble | 2.17.4-2build3-20250327 | 失败 | N/A |
-| [grace](./grace) | amd64  | ubuntu-noble | 5.1.25-14 | ![screen0-5.jpg](./grace/tests/screen0-5.jpg) | [SHA256](./grace/SHA256SUMS) |
-| [gradebook](./gradebook) | amd64  | ubuntu-noble | 1.2-0ubuntu3 | ![screen0-5.jpg](./gradebook/tests/screen0-5.jpg) | [SHA256](./gradebook/SHA256SUMS) |
-| [grads](./grads) | amd64  | ubuntu-noble | 2.2.1-6build2 | ![screen0-5.jpg](./grads/tests/screen0-5.jpg) | [SHA256](./grads/SHA256SUMS) |
-| [grafx2](./grafx2) | amd64  | ubuntu-noble | 2.8+ds-3build3 | ![screen0-5.jpg](./grafx2/tests/screen0-5.jpg) | [SHA256](./grafx2/SHA256SUMS) |
-| [graide](./graide) | amd64  | ubuntu-noble | 1.1.0+dfsg-4.1 | ![screen0-5.jpg](./graide/tests/screen0-5.jpg) | [SHA256](./graide/SHA256SUMS) |
-| [gramps](./gramps) | amd64  | ubuntu-noble | 5.1.6+dfsg-1ubuntu1-20250327 | 失败 | N/A |
-| [granatier](./granatier) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./granatier/tests/screen0-5.jpg) | [SHA256](./granatier/SHA256SUMS) |
-| [grandorgue](./grandorgue) | amd64  | ubuntu-noble | 3.13.1-1build2 | ![screen0-5.jpg](./grandorgue/tests/screen0-5.jpg) | [SHA256](./grandorgue/SHA256SUMS) |
-| [grandprinter-mfp](./grandprinter-mfp) | amd64  | deepin-v23 | 1.0.0-22041 | ![screen0-5.jpg](./grandprinter-mfp/tests/screen0-5.jpg) ![screen1-5.jpg](./grandprinter-mfp/tests/screen1-5.jpg) | [SHA256](./grandprinter-mfp/SHA256SUMS) |
-| [granite-7-demo](./granite-7-demo) | amd64  | ubuntu-noble | 7.4.0-1build3-20250327 | 失败 | [SHA256](./granite-7-demo/SHA256SUMS) |
-| [granite-demo](./granite-demo) | amd64  | ubuntu-noble | 6.2.0-3build3-20250327 | 失败 | [SHA256](./granite-demo/SHA256SUMS) |
-| [granule](./granule) | amd64  | ubuntu-noble | 1.4.0-7-10build3 | ![screen0-5.jpg](./granule/tests/screen0-5.jpg) | [SHA256](./granule/SHA256SUMS) |
-| [grass-core](./grass-core) | amd64  | ubuntu-noble | 8.3.2-1ubuntu2-20250327 | 失败 | [SHA256](./grass-core/SHA256SUMS) |
-| [gravitation](./gravitation) | amd64  | ubuntu-noble | 3+dfsg1-6 | ![screen0-5.jpg](./gravitation/tests/screen0-5.jpg) | [SHA256](./gravitation/SHA256SUMS) |
-| [gravitywars](./gravitywars) | amd64  | ubuntu-noble | 1.102-35 | ![screen0-5.jpg](./gravitywars/tests/screen0-5.jpg) | [SHA256](./gravitywars/SHA256SUMS) |
-| [grdesktop](./grdesktop) | amd64  | ubuntu-noble | 0.23+d040330-7build3 | ![screen0-5.jpg](./grdesktop/tests/screen0-5.jpg) | [SHA256](./grdesktop/SHA256SUMS) |
-| [greed](./greed) | amd64  | ubuntu-noble | 4.2-1-20250327 | 失败 | [SHA256](./greed/SHA256SUMS) |
-| [gretl-common](./gretl-common) | amd64  | ubuntu-noble | 2023c-2.1build3-20250327 | 失败 | [SHA256](./gretl-common/SHA256SUMS) |
-| [gridlock.app](./gridlock.app) | amd64  | ubuntu-noble | 1.10-5build4-20250327 | 失败 | [SHA256](./gridlock.app/SHA256SUMS) |
-| [grig](./grig) | amd64  | ubuntu-noble | 0.9.0-1build2 | ![screen0-5.jpg](./grig/tests/screen0-5.jpg) | [SHA256](./grig/SHA256SUMS) |
-| [grimripper](./grimripper) | amd64  | ubuntu-noble | 3.0.2-3build2 | ![screen0-5.jpg](./grimripper/tests/screen0-5.jpg) | [SHA256](./grimripper/SHA256SUMS) |
-| [gringotts](./gringotts) | amd64  | ubuntu-noble | 1.2.10-4build3 | ![screen0-5.jpg](./gringotts/tests/screen0-5.jpg) | [SHA256](./gringotts/SHA256SUMS) |
-| [grisbi](./grisbi) | amd64  | ubuntu-noble | 3.0.3-1build3 | ![screen0-5.jpg](./grisbi/tests/screen0-5.jpg) | [SHA256](./grisbi/SHA256SUMS) |
-| [gromit](./gromit) | amd64  | ubuntu-noble | 20041213-9build3-20250327 | 失败 | [SHA256](./gromit/SHA256SUMS) |
-| [gromit-mpx](./gromit-mpx) | amd64  | ubuntu-noble | 1.5.1-1build2 | ![screen0-5.jpg](./gromit-mpx/tests/screen0-5.jpg) | [SHA256](./gromit-mpx/SHA256SUMS) |
-| [groovy](./groovy) | amd64  | ubuntu-noble | 2.4.21-10-20250327 | 失败 | [SHA256](./groovy/SHA256SUMS) |
-| [grop](./grop) | amd64  | ubuntu-noble | 0.10-1.2build2 | ![screen0-5.jpg](./grop/tests/screen0-5.jpg) | [SHA256](./grop/SHA256SUMS) |
-| [growl-for-linux](./growl-for-linux) | amd64  | ubuntu-noble | 0.8.5-9.1build3-20250327 | 失败 | [SHA256](./growl-for-linux/SHA256SUMS) |
-| [grpn](./grpn) | amd64  | ubuntu-noble | 1.4.1-1.1build3 | ![screen0-5.jpg](./grpn/tests/screen0-5.jpg) | [SHA256](./grpn/SHA256SUMS) |
-| [grr.app](./grr.app) | amd64  | ubuntu-noble | 1.0-1build8-20250327 | 失败 | [SHA256](./grr.app/SHA256SUMS) |
-| [grsync](./grsync) | amd64  | ubuntu-noble | 1.3.0-1build2 | ![screen0-5.jpg](./grsync/tests/screen0-5.jpg) | [SHA256](./grsync/SHA256SUMS) |
-| [grub-customizer](./grub-customizer) | amd64  | deepin-v23 | 5.2.3-1deepin0-20250327 | 失败 | N/A |
-| [gscan2pdf](./gscan2pdf) | amd64  | ubuntu-noble | 2.13.2-1-20250327 | 失败 | N/A |
-| [gsequencer](./gsequencer) | amd64  | ubuntu-noble | 6.5.2-1build3 | ![screen0-5.jpg](./gsequencer/tests/screen0-5.jpg) | [SHA256](./gsequencer/SHA256SUMS) |
-| [gshutdown](./gshutdown) | amd64  | ubuntu-noble | 0.2-0ubuntu14 | ![screen0-5.jpg](./gshutdown/tests/screen0-5.jpg) | [SHA256](./gshutdown/SHA256SUMS) |
-| [gsmartcontrol](./gsmartcontrol) | amd64  | ubuntu-noble | 1.1.4-1build2-20250327 | 失败 | [SHA256](./gsmartcontrol/SHA256SUMS) |
-| [gtamsanalyzer.app](./gtamsanalyzer.app) | amd64  | ubuntu-noble | 0.42-8build1-20250327 | 失败 | [SHA256](./gtamsanalyzer.app/SHA256SUMS) |
-| [gtans](./gtans) | amd64  | ubuntu-noble | 1.99.0-2.1build2 | ![screen0-5.jpg](./gtans/tests/screen0-5.jpg) | [SHA256](./gtans/SHA256SUMS) |
-| [gtetrinet](./gtetrinet) | amd64  | ubuntu-noble | 0.7.11+git20200916.46e7ade-2build4 | ![screen0-5.jpg](./gtetrinet/tests/screen0-5.jpg) | [SHA256](./gtetrinet/SHA256SUMS) |
-| [gtg](./gtg) | amd64  | ubuntu-noble | 0.6-7-20250327 | 失败 | N/A |
-| [gthumb](./gthumb) | amd64  | ubuntu-noble | 3.12.6-1 | ![screen0-5.jpg](./gthumb/tests/screen0-5.jpg) | [SHA256](./gthumb/SHA256SUMS) |
-| [gtimelog](./gtimelog) | amd64  | ubuntu-noble | 0.12.0-1-20250327 | 失败 | N/A |
-| [gtk-3-examples](./gtk-3-examples) | amd64  | ubuntu-noble | 3.24.41-4ubuntu1.2-20250327 | 失败 | [SHA256](./gtk-3-examples/SHA256SUMS) |
-| [gtk-4-examples](./gtk-4-examples) | amd64  | ubuntu-noble | 4.14.2+ds-1ubuntu2 | ![screen0-5.jpg](./gtk-4-examples/tests/screen0-5.jpg) ![screen1-5.jpg](./gtk-4-examples/tests/screen1-5.jpg) ![screen2-5.jpg](./gtk-4-examples/tests/screen2-5.jpg) ![screen4-5.jpg](./gtk-4-examples/tests/screen4-5.jpg) | [SHA256](./gtk-4-examples/SHA256SUMS) |
-| [gtk-chtheme](./gtk-chtheme) | amd64  | ubuntu-noble | 0.3.1-6.1ubuntu1 | ![screen0-5.jpg](./gtk-chtheme/tests/screen0-5.jpg) | [SHA256](./gtk-chtheme/SHA256SUMS) |
-| [gtk-vector-screenshot](./gtk-vector-screenshot) | amd64  | ubuntu-noble | 0.3.3-2build2 | ![screen0-5.jpg](./gtk-vector-screenshot/tests/screen0-5.jpg) | [SHA256](./gtk-vector-screenshot/SHA256SUMS) |
-| [gtkam](./gtkam) | amd64  | ubuntu-noble | 1.0-4build1 | ![screen0-5.jpg](./gtkam/tests/screen0-5.jpg) | [SHA256](./gtkam/SHA256SUMS) |
-| [gtkatlantic](./gtkatlantic) | amd64  | ubuntu-noble | 0.6.3-2build2 | ![screen0-5.jpg](./gtkatlantic/tests/screen0-5.jpg) | [SHA256](./gtkatlantic/SHA256SUMS) |
-| [gtkballs](./gtkballs) | amd64  | ubuntu-noble | 3.1.5+git20210713.6e53b66-1build2 | ![screen0-5.jpg](./gtkballs/tests/screen0-5.jpg) | [SHA256](./gtkballs/SHA256SUMS) |
-| [gtkcrypto](./gtkcrypto) | amd64  | ubuntu-noble | 1.0.2-2build3 | ![screen0-5.jpg](./gtkcrypto/tests/screen0-5.jpg) | [SHA256](./gtkcrypto/SHA256SUMS) |
-| [gtkhash](./gtkhash) | amd64  | ubuntu-noble | 1.5-1build2 | ![screen0-5.jpg](./gtkhash/tests/screen0-5.jpg) | [SHA256](./gtkhash/SHA256SUMS) |
-| [gtkterm](./gtkterm) | amd64  | ubuntu-noble | 1.2.1-1ubuntu1 | ![screen0-5.jpg](./gtkterm/tests/screen0-5.jpg) | [SHA256](./gtkterm/SHA256SUMS) |
-| [gtkwave](./gtkwave) | amd64  | ubuntu-noble | 3.3.116-1build2 | ![screen0-5.jpg](./gtkwave/tests/screen0-5.jpg) | [SHA256](./gtkwave/SHA256SUMS) |
-| [gtranscribe](./gtranscribe) | amd64  | ubuntu-noble | 0.11-3-20250327 | 失败 | N/A |
-| [gtranslator](./gtranslator) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gtranslator/tests/screen0-5.jpg) | [SHA256](./gtranslator/SHA256SUMS) |
-| [guake](./guake) | amd64  | ubuntu-noble | 3.10-2-20250327 | 失败 | N/A |
-| [guake-indicator](./guake-indicator) | amd64  | ubuntu-noble | 1.4.5-2build2-20250327 | 失败 | N/A |
-| [gucharmap](./gucharmap) | amd64  | deepin-v23 | 15.1.5-1 | ![screen0-5.jpg](./gucharmap/tests/screen0-5.jpg) | N/A |
-| [gufw](./gufw) | amd64  | ubuntu-noble | 24.04.0-2-20250327 | 失败 | N/A |
-| [guidedog](./guidedog) | amd64  | ubuntu-noble | 1.3.0-1build3 | ![screen0-5.jpg](./guidedog/tests/screen0-5.jpg) | [SHA256](./guidedog/SHA256SUMS) |
-| [guitarix](./guitarix) | amd64  | ubuntu-noble | 0.46.0+dfsg-1 | ![screen0-5.jpg](./guitarix/tests/screen0-5.jpg) | [SHA256](./guitarix/SHA256SUMS) |
-| [gummi](./gummi) | amd64  | ubuntu-noble | 0.8.3+really0.8.3-1build3-20250327 | 失败 | N/A |
-| [gunroar](./gunroar) | amd64  | ubuntu-noble | 0.15.dfsg1-10 | ![screen0-5.jpg](./gunroar/tests/screen0-5.jpg) | [SHA256](./gunroar/SHA256SUMS) |
-| [gupnp-tools](./gupnp-tools) | amd64  | ubuntu-noble | 0.12.1-1build2 | ![screen0-5.jpg](./gupnp-tools/tests/screen0-5.jpg) ![screen1-5.jpg](./gupnp-tools/tests/screen1-5.jpg) ![screen2-5.jpg](./gupnp-tools/tests/screen2-5.jpg) | [SHA256](./gupnp-tools/SHA256SUMS) |
-| [guvcview](./guvcview) | amd64  | ubuntu-noble | 2.0.8-2.1build3 | ![screen0-5.jpg](./guvcview/tests/screen0-5.jpg) | [SHA256](./guvcview/SHA256SUMS) |
-| [guymager](./guymager) | amd64  | ubuntu-noble | 0.8.13-2build2-20250327 | 失败 | [SHA256](./guymager/SHA256SUMS) |
-| [gv](./gv) | amd64  | ubuntu-noble | 3.7.4-2build2-20250327 | 失败 | [SHA256](./gv/SHA256SUMS) |
-| [gvb](./gvb) | amd64  | ubuntu-noble | 1.4-1.1-20250327 | 失败 | N/A |
-| [gvidm](./gvidm) | amd64  | ubuntu-noble | 0.8-15build3-20250327 | 失败 | [SHA256](./gvidm/SHA256SUMS) |
-| [gwaei](./gwaei) | amd64  | ubuntu-noble | 3.6.2-9.2build1-20250327 | 失败 | [SHA256](./gwaei/SHA256SUMS) |
-| [gwakeonlan](./gwakeonlan) | amd64  | ubuntu-noble | 0.8.5-3-20250327 | 失败 | N/A |
-| [gwaterfall](./gwaterfall) | amd64  | ubuntu-noble | 0.1-5.1build3 | ![screen0-5.jpg](./gwaterfall/tests/screen0-5.jpg) | [SHA256](./gwaterfall/SHA256SUMS) |
-| [gweled](./gweled) | amd64  | ubuntu-noble | 1.0~beta1-1 | ![screen0-5.jpg](./gweled/tests/screen0-5.jpg) | [SHA256](./gweled/SHA256SUMS) |
-| [gwenview](./gwenview) | amd64  | ubuntu-noble | 23.08.5-0ubuntu5 | ![screen0-5.jpg](./gwenview/tests/screen0-5.jpg) | [SHA256](./gwenview/SHA256SUMS) |
-| [gworkspace.app](./gworkspace.app) | amd64  | ubuntu-noble | 1.0.0-1build2-20250327 | 失败 | [SHA256](./gworkspace.app/SHA256SUMS) |
-| [gworldclock](./gworldclock) | amd64  | ubuntu-noble | 1.4.4-11build2 | ![screen0-5.jpg](./gworldclock/tests/screen0-5.jpg) | [SHA256](./gworldclock/SHA256SUMS) |
-| [gwyddion](./gwyddion) | amd64  | ubuntu-noble | 2.64-1.1build3 | ![screen0-5.jpg](./gwyddion/tests/screen0-5.jpg) | [SHA256](./gwyddion/SHA256SUMS) |
-| [gxkb](./gxkb) | amd64  | ubuntu-noble | 0.9.3-1build2-20250327 | 失败 | [SHA256](./gxkb/SHA256SUMS) |
-| [gxtuner](./gxtuner) | amd64  | ubuntu-noble | 3.0-3build2-20250327 | 失败 | [SHA256](./gxtuner/SHA256SUMS) |
-| [gyrus](./gyrus) | amd64  | ubuntu-noble | 0.4.2-1.1build2 | ![screen0-5.jpg](./gyrus/tests/screen0-5.jpg) | [SHA256](./gyrus/SHA256SUMS) |
-| [hamexam](./hamexam) | amd64  | ubuntu-noble | 1.10.1-1-20250327 | 失败 | [SHA256](./hamexam/SHA256SUMS) |
-| [hamster-time-tracker](./hamster-time-tracker) | amd64  | ubuntu-noble | 3.0.3-1ubuntu1-20250327 | 失败 | N/A |
-| [handbrake](./handbrake) | amd64  | ubuntu-noble | 1.7.2+ds1-1build2 | ![screen0-5.jpg](./handbrake/tests/screen0-5.jpg) | [SHA256](./handbrake/SHA256SUMS) |
-| [hannah](./hannah) | amd64  | ubuntu-noble | 2.0.1+ds1-0.3-20250327 | 失败 | [SHA256](./hannah/SHA256SUMS) |
-| [hannah-foo2zjs](./hannah-foo2zjs) | amd64  | ubuntu-noble | 6build2 | ![screen0-5.jpg](./hannah-foo2zjs/tests/screen0-5.jpg) | [SHA256](./hannah-foo2zjs/SHA256SUMS) |
-| [hardinfo](./hardinfo) | amd64  | ubuntu-noble | 0.5.1+git20180227-2.1build3 | ![screen0-5.jpg](./hardinfo/tests/screen0-5.jpg) | [SHA256](./hardinfo/SHA256SUMS) |
-| [haruna](./haruna) | amd64  | ubuntu-noble | 0.12.3-1build4 | ![screen0-5.jpg](./haruna/tests/screen0-5.jpg) | [SHA256](./haruna/SHA256SUMS) |
-| [hasciicam](./hasciicam) | amd64  | ubuntu-noble | 1.1.2-1ubuntu3-20250327 | 失败 | [SHA256](./hasciicam/SHA256SUMS) |
-| [hashcheck](./hashcheck) | amd64  | ubuntu-noble | 1.0.0-2build2 | ![screen0-5.jpg](./hashcheck/tests/screen0-5.jpg) | [SHA256](./hashcheck/SHA256SUMS) |
-| [hatari](./hatari) | amd64  | ubuntu-noble | 2.4.1+dfsg-2build2-20250327 | 失败 | N/A |
-| [hdate-applet](./hdate-applet) | amd64  | ubuntu-noble | 0.15.11-4build2 | ![screen0-5.jpg](./hdate-applet/tests/screen0-5.jpg) | [SHA256](./hdate-applet/SHA256SUMS) |
-| [hdf-compass](./hdf-compass) | amd64  | ubuntu-noble | 0.7~b8-3 | ![screen0-5.jpg](./hdf-compass/tests/screen0-5.jpg) | [SHA256](./hdf-compass/SHA256SUMS) |
-| [hdhomerun-config-gui](./hdhomerun-config-gui) | amd64  | ubuntu-noble | 20161117-0ubuntu8 | ![screen0-5.jpg](./hdhomerun-config-gui/tests/screen0-5.jpg) | [SHA256](./hdhomerun-config-gui/SHA256SUMS) |
-| [heaptrack-gui](./heaptrack-gui) | amd64  | ubuntu-noble | 1.5.0+dfsg1-2ubuntu3 | ![screen0-5.jpg](./heaptrack-gui/tests/screen0-5.jpg) | [SHA256](./heaptrack-gui/SHA256SUMS) |
-| [hedgewars](./hedgewars) | amd64  | ubuntu-noble | 1.0.2-9build5 | ![screen0-5.jpg](./hedgewars/tests/screen0-5.jpg) | [SHA256](./hedgewars/SHA256SUMS) |
-| [helpman](./helpman) | amd64  | ubuntu-noble | 2.4-1-20250327 | 失败 | N/A |
-| [helpviewer.app](./helpviewer.app) | amd64  | ubuntu-noble | 0.4-1build1-20250327 | 失败 | [SHA256](./helpviewer.app/SHA256SUMS) |
-| [helvum](./helvum) | amd64  | ubuntu-noble | 0.5.1+20240328-1 | ![screen0-5.jpg](./helvum/tests/screen0-5.jpg) | [SHA256](./helvum/SHA256SUMS) |
-| [herculesstudio](./herculesstudio) | amd64  | ubuntu-noble | 1.5.0-6build2 | ![screen0-5.jpg](./herculesstudio/tests/screen0-5.jpg) | [SHA256](./herculesstudio/SHA256SUMS) |
-| [heroes](./heroes) | amd64  | ubuntu-noble | 0.21-18 | ![screen0-5.jpg](./heroes/tests/screen0-5.jpg) | [SHA256](./heroes/SHA256SUMS) |
-| [hex-a-hop](./hex-a-hop) | amd64  | ubuntu-noble | 1.1.0+git20140926-2-20250327 | 失败 | [SHA256](./hex-a-hop/SHA256SUMS) |
-| [hexalate](./hexalate) | amd64  | ubuntu-noble | 1.2.2-1build2 | ![screen0-5.jpg](./hexalate/tests/screen0-5.jpg) | [SHA256](./hexalate/SHA256SUMS) |
-| [hexchat](./hexchat) | amd64  | ubuntu-noble | 2.16.2-1build2 | ![screen0-5.jpg](./hexchat/tests/screen0-5.jpg) | [SHA256](./hexchat/SHA256SUMS) |
-| [hexter](./hexter) | amd64  | ubuntu-noble | 1.1.1-2build2-20250327 | 失败 | [SHA256](./hexter/SHA256SUMS) |
-| [hijra-applet](./hijra-applet) | amd64  | ubuntu-noble | 1.0-4-20250327 | 失败 | N/A |
-| [hime](./hime) | amd64  | ubuntu-noble | 0.9.11+dfsg-4build6 | ![screen0-5.jpg](./hime/tests/screen0-5.jpg) | [SHA256](./hime/SHA256SUMS) |
-| [hitori](./hitori) | amd64  | ubuntu-noble | 44.0-2build2 | ![screen0-5.jpg](./hitori/tests/screen0-5.jpg) | [SHA256](./hitori/SHA256SUMS) |
-| [hivelytracker](./hivelytracker) | amd64  | ubuntu-noble | 1.9+git20221114+ds-2build2-20250327 | 失败 | [SHA256](./hivelytracker/SHA256SUMS) |
-| [holotz-castle](./holotz-castle) | amd64  | ubuntu-noble | 1.3.14-12 | ![screen0-5.jpg](./holotz-castle/tests/screen0-5.jpg) | [SHA256](./holotz-castle/SHA256SUMS) |
-| [homebank](./homebank) | amd64  | ubuntu-noble | 5.7.4-1build4 | ![screen0-5.jpg](./homebank/tests/screen0-5.jpg) | [SHA256](./homebank/SHA256SUMS) |
-| [horae](./horae) | amd64  | ubuntu-noble | 071~svn537+ds1-1-20250327 | 失败 | [SHA256](./horae/SHA256SUMS) |
-| [horgand](./horgand) | amd64  | ubuntu-noble | 1.14-8build2-20250327 | 失败 | [SHA256](./horgand/SHA256SUMS) |
-| [horizon-eda](./horizon-eda) | amd64  | ubuntu-noble | 2.5.0-1build4 | ![screen0-5.jpg](./horizon-eda/tests/screen0-5.jpg) | [SHA256](./horizon-eda/SHA256SUMS) |
-| [hoteldruid](./hoteldruid) | amd64  | ubuntu-noble | 3.0.6-1-20250327 | 失败 | [SHA256](./hoteldruid/SHA256SUMS) |
-| [hotspot](./hotspot) | amd64  | ubuntu-noble | 1.3.0-2ubuntu4 | ![screen0-5.jpg](./hotspot/tests/screen0-5.jpg) | [SHA256](./hotspot/SHA256SUMS) |
-| [hplip-gui](./hplip-gui) | amd64  | ubuntu-noble | 3.22.10+dfsg0-5deepin2-07be3ef | 失败 | N/A |
-| [hsqldb-utils](./hsqldb-utils) | amd64  | ubuntu-noble | 2.6.1-1-07be3ef | 失败 | N/A |
-| [htmldoc](./htmldoc) | amd64  | ubuntu-noble | 1.9.13-1 | ![screen0-5.jpg](./htmldoc/tests/screen0-5.jpg) | N/A |
-| [htop](./htop) | amd64  | ubuntu-noble | 3.2.2-2-07be3ef | 失败 | N/A |
-| [huawei-pixlab-series](./huawei-pixlab-series) | amd64  | deepin-v23 | 1.0-71 | ![screen0-5.jpg](./huawei-pixlab-series/tests/screen0-5.jpg) | N/A |
-| [hwloc](./hwloc) | amd64  | deepin-v23 | 2.11.0-2 | ![screen0-5.jpg](./hwloc/tests/screen0-5.jpg) | N/A |
-| [iagno](./iagno) | amd64  | ubuntu-noble | 3.38.1-2 | ![screen0-5.jpg](./iagno/tests/screen0-5.jpg) | N/A |
-| [ibus](./ibus) | amd64  | ubuntu-noble | 1.5.29~rc1-1 | ![screen0-5.jpg](./ibus/tests/screen0-5.jpg) | N/A |
-| [ibus-cangjie](./ibus-cangjie) | amd64  | deepin-v23 | 2.4-7 | ![screen0-5.jpg](./ibus-cangjie/tests/screen0-5.jpg) ![screen1-5.jpg](./ibus-cangjie/tests/screen1-5.jpg) | N/A |
-| [ibus-chewing](./ibus-chewing) | amd64  | ubuntu-noble | 1.6.1-2-07be3ef | 失败 | N/A |
-| [ibus-pinyin](./ibus-pinyin) | amd64  | ubuntu-noble | 1.5.0-11-af50a04 | 失败 | [SHA256](./ibus-pinyin/SHA256SUMS) |
-| [ibus-table](./ibus-table) | amd64  | ubuntu-noble | 1.14.1-1-af50a04 | 失败 | [SHA256](./ibus-table/SHA256SUMS) |
-| [idle-python2.7](./idle-python2.7) | amd64  | deepin-v23 | 2.7.18.1-1+deepin-af50a04 | 失败 | N/A |
-| [im-config](./im-config) | amd64  | deepin-v23 | 0.57-2deepin2-af50a04 | 失败 | [SHA256](./im-config/SHA256SUMS) |
-| [info](./info) | amd64  | ubuntu-noble | 7.1-2deepin1-af50a04 | 失败 | [SHA256](./info/SHA256SUMS) |
-| [isag](./isag) | amd64  | deepin-v23 | 12.7.5-2-af50a04 | 失败 | N/A |
-| [juk](./juk) | amd64  | ubuntu-noble | 21.08.0-1deepin0-af50a04 | 失败 | N/A |
-| [kalgebra](./kalgebra) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [kapman](./kapman) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [katomic](./katomic) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [kblackbox](./kblackbox) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [kblocks](./kblocks) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [kbounce](./kbounce) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [kbreakout](./kbreakout) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [kded5](./kded5) | amd64  | ubuntu-noble | 5.103.0-1-af50a04 | 失败 | [SHA256](./kded5/SHA256SUMS) |
-| [kdiamond](./kdiamond) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [keditbookmarks](./keditbookmarks) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | [SHA256](./keditbookmarks/SHA256SUMS) |
-| [kernelshark](./kernelshark) | amd64  | deepin-v23 | 2.9.3+really2.3.1-2-af50a04 | 失败 | N/A |
-| [kgoldrunner](./kgoldrunner) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [kgpg](./kgpg) | amd64  | ubuntu-noble | 21.08.0-deepin1-af50a04 | 失败 | N/A |
-| [kigo](./kigo) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [kimagemapeditor](./kimagemapeditor) | amd64  | ubuntu-noble | 21.08.0-1deepin0-af50a04 | 失败 | N/A |
-| [kio](./kio) | amd64  | ubuntu-noble | 5.103.0-1deepin0-af50a04 | 失败 | [SHA256](./kio/SHA256SUMS) |
-| [kiriki](./kiriki) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [kjumpingcube](./kjumpingcube) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [kleopatra](./kleopatra) | amd64  | ubuntu-noble | 21.08.1-2deepin0-af50a04 | 失败 | N/A |
-| [klickety](./klickety) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [klines](./klines) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [kmahjongg](./kmahjongg) | amd64  | ubuntu-noble | 21.08.3-1-af50a04 | 失败 | N/A |
-| [kmines](./kmines) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [kmousetool](./kmousetool) | amd64  | ubuntu-noble | 21.08.0-1deepin0-af50a04 | 失败 | N/A |
-| [knavalbattle](./knavalbattle) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [kollision](./kollision) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [kolourpaint](./kolourpaint) | amd64  | ubuntu-noble | 21.08.2-1-af50a04 | 失败 | N/A |
-| [konquest](./konquest) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [kpat](./kpat) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [kshisen](./kshisen) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [ksnakeduel](./ksnakeduel) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [kspaceduel](./kspaceduel) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [ksquares](./ksquares) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [ktservice-driver-kaer](./ktservice-driver-kaer) | amd64  | deepin-v23 | 1.0.28-af50a04 | 失败 | N/A |
-| [kyodialog](./kyodialog) | amd64  | deepin-v23 | 9.4-0-af50a04 | 失败 | [SHA256](./kyodialog/SHA256SUMS) |
-| [lanxum-ga2820dn](./lanxum-ga2820dn) | amd64  | deepin-v23 | 1.0-af50a04 | 失败 | [SHA256](./lanxum-ga2820dn/SHA256SUMS) |
-| [lanxum-sane-backend](./lanxum-sane-backend) | amd64  | deepin-v23 | 20200707-2.6.8.020-af50a04 | 失败 | N/A |
-| [lanxum-touchscreen](./lanxum-touchscreen) | amd64  | deepin-v23 | 1.0.2-2020.05.27-af50a04 | 失败 | N/A |
-| [lenovo-image-g-series](./lenovo-image-g-series) | amd64  | deepin-v23 | 1.0-17-af50a04 | 失败 | N/A |
-| [lenovo-image-lj23-series](./lenovo-image-lj23-series) | amd64  | deepin-v23 | 1.0-16deepin0-af50a04 | 失败 | N/A |
-| [lenovo-printer-driver](./lenovo-printer-driver) | amd64  | deepin-v23 | 1.51-230329-af50a04 | 失败 | N/A |
-| [lenovo-sane-backend](./lenovo-sane-backend) | amd64  | deepin-v23 | 0.1.0-21166-af50a04 | 失败 | N/A |
-| [lenovo-spx251-321-series](./lenovo-spx251-321-series) | amd64  | deepin-v23 | 1.5.7-2-af50a04 | 失败 | N/A |
-| [lftp](./lftp) | amd64  | ubuntu-noble | 4.9.2-1-af50a04 | 失败 | N/A |
-| [libadwaita-1-examples](./libadwaita-1-examples) | amd64  | ubuntu-noble | 1.5.0-1deepin1+rb1-af50a04 | 失败 | [SHA256](./libadwaita-1-examples/SHA256SUMS) |
-| [libglib2.0-tests](./libglib2.0-tests) | amd64  | deepin-v23 | 2.80.1-1deepin1-af50a04 | 失败 | [SHA256](./libglib2.0-tests/SHA256SUMS) |
-| [libkf5guiaddons-bin](./libkf5guiaddons-bin) | amd64  | deepin-v23 | 5.103.0-1-af50a04 | 失败 | [SHA256](./libkf5guiaddons-bin/SHA256SUMS) |
-| [libkf5newstuff-data](./libkf5newstuff-data) | amd64  | ubuntu-noble | 5.103.0-1-af50a04 | 失败 | [SHA256](./libkf5newstuff-data/SHA256SUMS) |
-| [libkf5wallet-bin](./libkf5wallet-bin) | amd64  | ubuntu-noble | 5.103.0-1deepin0-af50a04 | 失败 | [SHA256](./libkf5wallet-bin/SHA256SUMS) |
-| [libreoffice-base](./libreoffice-base) | amd64  | ubuntu-noble | 24.2.0-1deepin2-af50a04 | 失败 | N/A |
-| [libreoffice-calc](./libreoffice-calc) | amd64  | ubuntu-noble | 24.2.0-1deepin2-af50a04 | 失败 | N/A |
-| [libreoffice-common](./libreoffice-common) | amd64  | ubuntu-noble | 24.2.0-1deepin2-af50a04 | 失败 | N/A |
-| [libreoffice-draw](./libreoffice-draw) | amd64  | ubuntu-noble | 24.2.0-1deepin2-af50a04 | 失败 | N/A |
-| [libreoffice-math](./libreoffice-math) | amd64  | ubuntu-noble | 24.2.0-1deepin2-af50a04 | 失败 | N/A |
-| [libreoffice-writer](./libreoffice-writer) | amd64  | ubuntu-noble | 24.2.0-1deepin2-af50a04 | 失败 | N/A |
-| [libts-bin](./libts-bin) | amd64  | ubuntu-noble | 1.22-1+rb3-af50a04 | 失败 | [SHA256](./libts-bin/SHA256SUMS) |
-| [linglong-installer](./linglong-installer) | amd64  | deepin-v23 | 1.6.3-1-af50a04 | 失败 | [SHA256](./linglong-installer/SHA256SUMS) |
-| [links2](./links2) | amd64  | ubuntu-noble | 2.25.1-1+dde-af50a04 | 失败 | N/A |
-| [love](./love) | amd64  | ubuntu-noble | 11.4-1-af50a04 | 失败 | [SHA256](./love/SHA256SUMS) |
-| [lshw-gtk](./lshw-gtk) | amd64  | deepin-v23 | 02.19.git.2021.06.19.996aaad9c7-2deepin0-af50a04 | 失败 | [SHA256](./lshw-gtk/SHA256SUMS) |
-| [lskat](./lskat) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A |
-| [lxpanel](./lxpanel) | amd64  | ubuntu-noble | 0.10.1-2-af50a04 | 失败 | [SHA256](./lxpanel/SHA256SUMS) |
-| [lxqt-about](./lxqt-about) | amd64  | ubuntu-noble | 0.16.0-1-af50a04 | 失败 | N/A |
-| [lxqt-config](./lxqt-config) | amd64  | ubuntu-noble | 0.16.1-1deepin0-af50a04 | 失败 | N/A |
-| [lxqt-globalkeys](./lxqt-globalkeys) | amd64  | ubuntu-noble | 0.16.0-1-af50a04 | 失败 | N/A |
-| [lxqt-notificationd](./lxqt-notificationd) | amd64  | ubuntu-noble | 0.16.0-1-af50a04 | 失败 | N/A |
-| [lxqt-powermanagement](./lxqt-powermanagement) | amd64  | ubuntu-noble | 0.16.0-1-af50a04 | 失败 | N/A |
-| [lxqt-session](./lxqt-session) | amd64  | ubuntu-noble | 0.16.0-1-af50a04 | 失败 | N/A |
-| [lxsession-default-apps](./lxsession-default-apps) | amd64  | deepin-v23 | 0.5.5-deepin1-af50a04 | 失败 | N/A |
-| [lyx](./lyx) | amd64  | ubuntu-noble | 2.3.6.1-deepin1+rb4-af50a04 | 失败 | N/A |
-| [malcontent-gui](./malcontent-gui) | amd64  | deepin-v23 | 0.11.1-3deepin1-af50a04 | 失败 | N/A |
-| [marble](./marble) | amd64  | ubuntu-noble | 21.08.3-1deepin0-af50a04 | 失败 | N/A |
-| [marble-data](./marble-data) | amd64  | ubuntu-noble | 21.08.3-1deepin0-af50a04 | 失败 | [SHA256](./marble-data/SHA256SUMS) |
-| [marble-maps](./marble-maps) | amd64  | ubuntu-noble | 21.08.3-1deepin0-af50a04 | 失败 | N/A |
-| [marble-qt](./marble-qt) | amd64  | ubuntu-noble | 21.08.3-1deepin0-af50a04 | 失败 | N/A |
-| [marco](./marco) | amd64  | ubuntu-noble | 1.24.1-3-af50a04 | 失败 | [SHA256](./marco/SHA256SUMS) |
-| [mate-control-center](./mate-control-center) | amd64  | ubuntu-noble | 1.24.1-deepin1-af50a04 | 失败 | N/A |
-| [mate-session-manager](./mate-session-manager) | amd64  | ubuntu-noble | 1.24.1-2-af50a04 | 失败 | N/A |
-| [mc](./mc) | amd64  | deepin-v23 | 4.8.31-1-af50a04 | 失败 | N/A |
-| [obs-studio](./obs-studio) | amd64  | obs-studio | 31.0.2 | ![screen0-5.jpg](./obs-studio/tests/screen0-5.jpg) | [SHA256](./obs-studio/SHA256SUMS) |
+| 包名  | 架构 |仓库| 版本 | 测试结果 | SHA256 |killer版本|
+|-------|-----|----|------|---------|--------|---------|
+| [0install](./0install) | amd64  | ubuntu-noble | 2.18-2ubuntu2 | ![screen0-5.jpg](./0install/tests/screen0-5.jpg) | N/A | N/A |
+| [2048](./2048) | amd64  | ubuntu-noble | 0.20221023.1237-1-20250327 | 失败 | N/A | N/A |
+| [2048-qt](./2048-qt) | amd64  | ubuntu-noble | 0.1.6-2build4 | ![screen0-5.jpg](./2048-qt/tests/screen0-5.jpg) | N/A | N/A |
+| [3dchess](./3dchess) | amd64  | ubuntu-noble | 0.8.1-21ubuntu1 | ![screen0-5.jpg](./3dchess/tests/screen0-5.jpg) | N/A | N/A |
+| [3depict](./3depict) | amd64  | ubuntu-noble | 0.0.23-2build3 | ![screen0-5.jpg](./3depict/tests/screen0-5.jpg) | N/A | N/A |
+| [4pane](./4pane) | amd64  | ubuntu-noble | 8.0-1build4 | ![screen0-5.jpg](./4pane/tests/screen0-5.jpg) | N/A | N/A |
+| [7kaa](./7kaa) | amd64  | ubuntu-noble | 2.15.6+ds-1build2 | ![screen0-5.jpg](./7kaa/tests/screen0-5.jpg) | N/A | N/A |
+| [a2d](./a2d) | amd64  | ubuntu-noble | 2.0.3-2-20250327 | 失败 | N/A | N/A |
+| [a7xpg](./a7xpg) | amd64  | ubuntu-noble | 0.11.dfsg1-11 | ![screen0-5.jpg](./a7xpg/tests/screen0-5.jpg) | N/A | N/A |
+| [abe](./abe) | amd64  | ubuntu-noble | 1.1+dfsg-5 | ![screen0-5.jpg](./abe/tests/screen0-5.jpg) | N/A | N/A |
+| [abiword](./abiword) | amd64  | ubuntu-noble | 3.0.5~dfsg-3.2build4 | ![screen0-5.jpg](./abiword/tests/screen0-5.jpg) | N/A | N/A |
+| [accerciser](./accerciser) | amd64  | ubuntu-noble | 3.42.0-1ubuntu0.1-20250327 | 失败 | N/A | N/A |
+| [accountwizard](./accountwizard) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3-20250327 | 失败 | N/A | N/A |
+| [ace-of-penguins](./ace-of-penguins) | amd64  | ubuntu-noble | 1.5~rc2-5ubuntu4 | ![screen0-5.jpg](./ace-of-penguins/tests/screen0-5.jpg) ![screen1-5.jpg](./ace-of-penguins/tests/screen1-5.jpg) ![screen2-5.jpg](./ace-of-penguins/tests/screen2-5.jpg) ![screen3-5.jpg](./ace-of-penguins/tests/screen3-5.jpg) ![screen4-5.jpg](./ace-of-penguins/tests/screen4-5.jpg) ![screen5-5.jpg](./ace-of-penguins/tests/screen5-5.jpg) ![screen6-5.jpg](./ace-of-penguins/tests/screen6-5.jpg) ![screen7-5.jpg](./ace-of-penguins/tests/screen7-5.jpg) ![screen8-5.jpg](./ace-of-penguins/tests/screen8-5.jpg) ![screen9-5.jpg](./ace-of-penguins/tests/screen9-5.jpg) ![screen10-5.jpg](./ace-of-penguins/tests/screen10-5.jpg) ![screen11-5.jpg](./ace-of-penguins/tests/screen11-5.jpg) | N/A | N/A |
+| [acetoneiso](./acetoneiso) | amd64  | ubuntu-noble | 2.4-4build2 | ![screen0-5.jpg](./acetoneiso/tests/screen0-5.jpg) | N/A | N/A |
+| [achilles](./achilles) | amd64  | ubuntu-noble | 2-12build2 | ![screen0-5.jpg](./achilles/tests/screen0-5.jpg) | N/A | N/A |
+| [aclock.app](./aclock.app) | amd64  | ubuntu-noble | 0.4.0-2build5 | ![screen0-5.jpg](./aclock.app/tests/screen0-5.jpg) | N/A | N/A |
+| [aconnectgui](./aconnectgui) | amd64  | ubuntu-noble | 0.9.0rc2-1-10.3build2 | ![screen0-5.jpg](./aconnectgui/tests/screen0-5.jpg) | N/A | N/A |
+| [actiona](./actiona) | amd64  | ubuntu-noble | 3.10.1-1build6 | ![screen0-5.jpg](./actiona/tests/screen0-5.jpg) | N/A | N/A |
+| [activity-aware-firefox](./activity-aware-firefox) | amd64  | ubuntu-noble | 0.4.2-1-20250327 | 失败 | N/A | N/A |
+| [activity-log-manager](./activity-log-manager) | amd64  | ubuntu-noble | 0.9.7-0ubuntu31 | ![screen0-5.jpg](./activity-log-manager/tests/screen0-5.jpg) | N/A | N/A |
+| [add64](./add64) | amd64  | ubuntu-noble | 3.9.3-0ubuntu3 | ![screen0-5.jpg](./add64/tests/screen0-5.jpg) | N/A | N/A |
+| [addressmanager.app](./addressmanager.app) | amd64  | ubuntu-noble | 0.4.8-3build6 | ![screen0-5.jpg](./addressmanager.app/tests/screen0-5.jpg) | N/A | N/A |
+| [adonthell-data](./adonthell-data) | amd64  | ubuntu-noble | 0.3.8-1 | ![screen0-5.jpg](./adonthell-data/tests/screen0-5.jpg) | N/A | N/A |
+| [adun.app](./adun.app) | amd64  | ubuntu-noble | 0.81-14build4 | ![screen0-5.jpg](./adun.app/tests/screen0-5.jpg) | N/A | N/A |
+| [aegisub](./aegisub) | amd64  | ubuntu-noble | 3.2.2+dfsg-7.1build2 | ![screen0-5.jpg](./aegisub/tests/screen0-5.jpg) | N/A | N/A |
+| [aeolus](./aeolus) | amd64  | ubuntu-noble | 0.10.4-1build3-20250327 | 失败 | N/A | N/A |
+| [aerc](./aerc) | amd64  | ubuntu-noble | 0.17.0-1ubuntu0.24.04.2-20250327 | 失败 | N/A | N/A |
+| [afterstep](./afterstep) | amd64  | ubuntu-noble | 2.2.12-17.1build3-20250327 | 失败 | N/A | N/A |
+| [afterstep-data](./afterstep-data) | amd64  | ubuntu-noble | 2.2.12-17.1build3-20250327 | 失败 | N/A | N/A |
+| [agenda.app](./agenda.app) | amd64  | ubuntu-noble | 0.46-3build3 | ![screen0-5.jpg](./agenda.app/tests/screen0-5.jpg) | N/A | N/A |
+| [aghermann](./aghermann) | amd64  | ubuntu-noble | 1.1.2-5build2 | ![screen0-5.jpg](./aghermann/tests/screen0-5.jpg) | N/A | N/A |
+| [agordejo](./agordejo) | amd64  | ubuntu-noble | 0.4.2-0ubuntu1-20250327 | 失败 | N/A | N/A |
+| [airstrike](./airstrike) | amd64  | ubuntu-noble | 0.99+1.0pre6a-11 | ![screen0-5.jpg](./airstrike/tests/screen0-5.jpg) | N/A | N/A |
+| [aisleriot](./aisleriot) | amd64  | ubuntu-noble | 3.22.31-1build2 | ![screen0-5.jpg](./aisleriot/tests/screen0-5.jpg) | N/A | N/A |
+| [akira](./akira) | amd64  | ubuntu-noble | 0.0.16-2build2 | ![screen0-5.jpg](./akira/tests/screen0-5.jpg) | N/A | N/A |
+| [akonadi-import-wizard](./akonadi-import-wizard) | amd64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./akonadi-import-wizard/tests/screen0-5.jpg) | N/A | N/A |
+| [akonadiconsole](./akonadiconsole) | amd64  | ubuntu-noble | 23.08.5-0ubuntu5.2 | ![screen0-5.jpg](./akonadiconsole/tests/screen0-5.jpg) | N/A | N/A |
+| [akregator](./akregator) | amd64  | ubuntu-noble | 23.08.5-0ubuntu4.1 | ![screen0-5.jpg](./akregator/tests/screen0-5.jpg) | N/A | N/A |
+| [alacarte](./alacarte) | amd64  | ubuntu-noble | 3.52.0-1-20250327 | 失败 | N/A | N/A |
+| [alacritty](./alacritty) | amd64  | deepin-v23 | 0.13.2-2 | ![screen0-5.jpg](./alacritty/tests/screen0-5.jpg) | [SHA256](./alacritty/SHA256SUMS) | N/A |
+| [aladin](./aladin) | amd64  | ubuntu-noble | 12.060+dfsg-3 | ![screen0-5.jpg](./aladin/tests/screen0-5.jpg) | N/A | N/A |
+| [alarm-clock-applet](./alarm-clock-applet) | amd64  | ubuntu-noble | 0.4.1-5build2 | ![screen0-5.jpg](./alarm-clock-applet/tests/screen0-5.jpg) | N/A | N/A |
+| [alex4](./alex4) | amd64  | ubuntu-noble | 1.1-10ubuntu4-20250327 | 失败 | N/A | N/A |
+| [algobox](./algobox) | amd64  | ubuntu-noble | 1.1.1+dfsg-1build2 | ![screen0-5.jpg](./algobox/tests/screen0-5.jpg) | N/A | N/A |
+| [alien-arena](./alien-arena) | amd64  | ubuntu-noble | 7.71.3+dfsg-3ubuntu1-20250327 | 失败 | N/A | N/A |
+| [alienblaster](./alienblaster) | amd64  | ubuntu-noble | 1.1.0-11 | ![screen0-5.jpg](./alienblaster/tests/screen0-5.jpg) | N/A | N/A |
+| [aliki](./aliki) | amd64  | ubuntu-noble | 0.3.0-6build2 | ![screen0-5.jpg](./aliki/tests/screen0-5.jpg) ![screen1-5.jpg](./aliki/tests/screen1-5.jpg) | N/A | N/A |
+| [alkimia-bin](./alkimia-bin) | amd64  | ubuntu-noble | 8.1.2-2build2-20250327 | 失败 | N/A | N/A |
+| [allure](./allure) | amd64  | ubuntu-noble | 0.11.0.0-1 | ![screen0-5.jpg](./allure/tests/screen0-5.jpg) | N/A | N/A |
+| [almanah](./almanah) | amd64  | ubuntu-noble | 0.12.3-2build3 | ![screen0-5.jpg](./almanah/tests/screen0-5.jpg) | N/A | N/A |
+| [alsa-scarlett-gui](./alsa-scarlett-gui) | amd64  | ubuntu-noble | 0.4.0-1 | ![screen0-5.jpg](./alsa-scarlett-gui/tests/screen0-5.jpg) | N/A | N/A |
+| [alsa-tools-gui](./alsa-tools-gui) | amd64  | deepin-v23 | 1.2.11-1.1-20250327 | 失败 | N/A | N/A |
+| [alsamixergui](./alsamixergui) | amd64  | ubuntu-noble | 0.9.0rc2-1-10.2build2 | ![screen0-5.jpg](./alsamixergui/tests/screen0-5.jpg) | N/A | N/A |
+| [alsaplayer-common](./alsaplayer-common) | amd64  | ubuntu-noble | 0.99.81-2build6 | ![screen0-5.jpg](./alsaplayer-common/tests/screen0-5.jpg) | N/A | N/A |
+| [altos](./altos) | amd64  | ubuntu-noble | 1.9.17-1ubuntu3 | ![screen0-5.jpg](./altos/tests/screen0-5.jpg) ![screen1-5.jpg](./altos/tests/screen1-5.jpg) ![screen2-5.jpg](./altos/tests/screen2-5.jpg) | N/A | N/A |
+| [amberol](./amberol) | amd64  | ubuntu-noble | 0.10.3-3ubuntu1 | ![screen0-5.jpg](./amberol/tests/screen0-5.jpg) | N/A | N/A |
+| [amide](./amide) | amd64  | ubuntu-noble | 1.0.6-5build2 | ![screen0-5.jpg](./amide/tests/screen0-5.jpg) | N/A | N/A |
+| [amoebax](./amoebax) | amd64  | ubuntu-noble | 0.2.1+dfsg-6 | ![screen0-5.jpg](./amoebax/tests/screen0-5.jpg) | N/A | N/A |
+| [amphetamine](./amphetamine) | amd64  | ubuntu-noble | 0.8.10-21build1 | ![screen0-5.jpg](./amphetamine/tests/screen0-5.jpg) | N/A | N/A |
+| [ams](./ams) | amd64  | ubuntu-noble | 2.2.1-1build3-20250327 | 失败 | N/A | N/A |
+| [amsynth](./amsynth) | amd64  | ubuntu-noble | 1.13.2-1build2 | ![screen0-5.jpg](./amsynth/tests/screen0-5.jpg) | N/A | N/A |
+| [amule](./amule) | amd64  | ubuntu-noble | 2.3.3-3build5 | ![screen0-5.jpg](./amule/tests/screen0-5.jpg) | N/A | N/A |
+| [amule-utils-gui](./amule-utils-gui) | amd64  | ubuntu-noble | 2.3.3-3build5 | ![screen0-5.jpg](./amule-utils-gui/tests/screen0-5.jpg) ![screen1-5.jpg](./amule-utils-gui/tests/screen1-5.jpg) ![screen2-5.jpg](./amule-utils-gui/tests/screen2-5.jpg) | N/A | N/A |
+| [anarchism](./anarchism) | amd64  | ubuntu-noble | 15.3-3-20250327 | 失败 | N/A | N/A |
+| [android-file-transfer](./android-file-transfer) | amd64  | ubuntu-noble | 4.3-1build3 | ![screen0-5.jpg](./android-file-transfer/tests/screen0-5.jpg) | N/A | N/A |
+| [angband-data](./angband-data) | amd64  | ubuntu-noble | 4.2.5+dfsg1-1-20250327 | 失败 | N/A | N/A |
+| [angelfish](./angelfish) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3-20250327 | 失败 | N/A | N/A |
+| [angrydd](./angrydd) | amd64  | ubuntu-noble | 1.0.1-14 | ![screen0-5.jpg](./angrydd/tests/screen0-5.jpg) | N/A | N/A |
+| [anki](./anki) | amd64  | ubuntu-noble | 2.1.15+dfsg-3ubuntu4.1 | ![screen0-5.jpg](./anki/tests/screen0-5.jpg) | N/A | N/A |
+| [ansifilter-gui](./ansifilter-gui) | amd64  | ubuntu-noble | 2.18+dfsg1-2build2 | ![screen0-5.jpg](./ansifilter-gui/tests/screen0-5.jpg) | N/A | N/A |
+| [antigravitaattori](./antigravitaattori) | amd64  | ubuntu-noble | 0.0.3-10build2-20250327 | 失败 | N/A | N/A |
+| [antimicro](./antimicro) | amd64  | ubuntu-noble | 3.1.4-2 | ![screen0-5.jpg](./antimicro/tests/screen0-5.jpg) | N/A | N/A |
+| [antimony](./antimony) | amd64  | ubuntu-noble | 0.9.3-2build9 | ![screen0-5.jpg](./antimony/tests/screen0-5.jpg) | N/A | N/A |
+| [anymeal](./anymeal) | amd64  | ubuntu-noble | 1.26-1build2 | ![screen0-5.jpg](./anymeal/tests/screen0-5.jpg) | N/A | N/A |
+| [aobook](./aobook) | amd64  | ubuntu-noble | 1.0.3-3build2 | ![screen0-5.jpg](./aobook/tests/screen0-5.jpg) | N/A | N/A |
+| [aoflagger](./aoflagger) | amd64  | ubuntu-noble | 3.4.0-2build4 | ![screen0-5.jpg](./aoflagger/tests/screen0-5.jpg) ![screen1-5.jpg](./aoflagger/tests/screen1-5.jpg) | N/A | N/A |
+| [apitrace-gui](./apitrace-gui) | amd64  | ubuntu-noble | 11.1+repack-1.2build3 | ![screen0-5.jpg](./apitrace-gui/tests/screen0-5.jpg) | N/A | N/A |
+| [apostrophe](./apostrophe) | amd64  | ubuntu-noble | 2.6.3-4-20250327 | 失败 | N/A | N/A |
+| [apper](./apper) | amd64  | ubuntu-noble | 1.0.0-5build2-20250327 | 失败 | N/A | N/A |
+| [apport-gtk](./apport-gtk) | amd64  | ubuntu-noble | 2.28.1-0ubuntu3.5-20250327 | 失败 | N/A | N/A |
+| [apport-kde](./apport-kde) | amd64  | ubuntu-noble | 2.28.1-0ubuntu3.5-20250327 | 失败 | N/A | N/A |
+| [apt-offline-gui](./apt-offline-gui) | amd64  | ubuntu-noble | 1.8.5-1 | ![screen0-5.jpg](./apt-offline-gui/tests/screen0-5.jpg) | N/A | N/A |
+| [apturl-common](./apturl-common) | amd64  | ubuntu-noble | 0.5.2ubuntu23-20250327 | 失败 | N/A | N/A |
+| [apvlv](./apvlv) | amd64  | ubuntu-noble | 0.5.0+repack-2build3 | ![screen0-5.jpg](./apvlv/tests/screen0-5.jpg) | N/A | N/A |
+| [aqemu](./aqemu) | amd64  | ubuntu-noble | 0.9.2-3ubuntu2 | ![screen0-5.jpg](./aqemu/tests/screen0-5.jpg) | N/A | N/A |
+| [arandr](./arandr) | amd64  | ubuntu-noble | 0.1.11-1-20250327 | 失败 | N/A | N/A |
+| [aranym](./aranym) | amd64  | ubuntu-noble | 1.1.0-2 | ![screen0-5.jpg](./aranym/tests/screen0-5.jpg) ![screen1-5.jpg](./aranym/tests/screen1-5.jpg) ![screen2-5.jpg](./aranym/tests/screen2-5.jpg) | N/A | N/A |
+| [aravis-tools](./aravis-tools) | amd64  | ubuntu-noble | 0.8.30-1build2-20250327 | 失败 | N/A | N/A |
+| [arb](./arb) | amd64  | ubuntu-noble | 6.0.6-7build3-20250327 | 失败 | N/A | N/A |
+| [arc-gui-clients](./arc-gui-clients) | amd64  | ubuntu-noble | 0.4.6-7build5 | ![screen0-5.jpg](./arc-gui-clients/tests/screen0-5.jpg) ![screen1-5.jpg](./arc-gui-clients/tests/screen1-5.jpg) ![screen3-5.jpg](./arc-gui-clients/tests/screen3-5.jpg) ![screen4-5.jpg](./arc-gui-clients/tests/screen4-5.jpg) | N/A | N/A |
+| [ardentryst](./ardentryst) | amd64  | ubuntu-noble | 1.71-10 | ![screen0-5.jpg](./ardentryst/tests/screen0-5.jpg) | N/A | N/A |
+| [ardour](./ardour) | amd64  | ubuntu-noble | 8.4.0+ds1-2ubuntu8 | ![screen0-5.jpg](./ardour/tests/screen0-5.jpg) | N/A | N/A |
+| [arduino](./arduino) | amd64  | ubuntu-noble | 1.8.19+dfsg1-2 | ![screen0-5.jpg](./arduino/tests/screen0-5.jpg) | N/A | N/A |
+| [ares](./ares) | amd64  | ubuntu-noble | 134+dfsg-1build2 | ![screen0-5.jpg](./ares/tests/screen0-5.jpg) | N/A | N/A |
+| [ario](./ario) | amd64  | ubuntu-noble | 1.6-1.2build4 | ![screen0-5.jpg](./ario/tests/screen0-5.jpg) | N/A | N/A |
+| [ark](./ark) | amd64  | ubuntu-noble | 23.08.5-0ubuntu5 | ![screen0-5.jpg](./ark/tests/screen0-5.jpg) | N/A | N/A |
+| [armagetronad](./armagetronad) | amd64  | ubuntu-noble | 0.2.9.1.1-1build2 | ![screen0-5.jpg](./armagetronad/tests/screen0-5.jpg) | N/A | N/A |
+| [arqiver](./arqiver) | amd64  | ubuntu-noble | 0.9.0-1build2 | ![screen0-5.jpg](./arqiver/tests/screen0-5.jpg) | N/A | N/A |
+| [artemis](./artemis) | amd64  | ubuntu-noble | 18.2.0+dfsg-3 | ![screen0-5.jpg](./artemis/tests/screen0-5.jpg) ![screen1-5.jpg](./artemis/tests/screen1-5.jpg) ![screen2-5.jpg](./artemis/tests/screen2-5.jpg) ![screen3-5.jpg](./artemis/tests/screen3-5.jpg) | N/A | N/A |
+| [artha](./artha) | amd64  | ubuntu-noble | 1.0.5-3build2 | ![screen0-5.jpg](./artha/tests/screen0-5.jpg) | N/A | N/A |
+| [artikulate](./artikulate) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./artikulate/tests/screen0-5.jpg) | N/A | N/A |
+| [asc](./asc) | amd64  | ubuntu-noble | 2.6.1.0-9build5 | ![screen0-5.jpg](./asc/tests/screen0-5.jpg) | N/A | N/A |
+| [asciijump](./asciijump) | amd64  | ubuntu-noble | 1.0.2~beta-10-20250327 | 失败 | N/A | N/A |
+| [ase](./ase) | amd64  | ubuntu-noble | 3.22.1-4 | ![screen0-5.jpg](./ase/tests/screen0-5.jpg) | N/A | N/A |
+| [aseba](./aseba) | amd64  | ubuntu-noble | 1.6.99+dfsg-9build2 | ![screen0-5.jpg](./aseba/tests/screen0-5.jpg) ![screen2-5.jpg](./aseba/tests/screen2-5.jpg) ![screen3-5.jpg](./aseba/tests/screen3-5.jpg) ![screen4-5.jpg](./aseba/tests/screen4-5.jpg) ![screen5-5.jpg](./aseba/tests/screen5-5.jpg) ![screen6-5.jpg](./aseba/tests/screen6-5.jpg) ![screen8-5.jpg](./aseba/tests/screen8-5.jpg) | N/A | N/A |
+| [assaultcube](./assaultcube) | amd64  | ubuntu-noble | 1.3.0.2+dfsg-5 | ![screen0-5.jpg](./assaultcube/tests/screen0-5.jpg) | N/A | N/A |
+| [astromenace](./astromenace) | amd64  | ubuntu-noble | 1.3.2+repack-7 | ![screen0-5.jpg](./astromenace/tests/screen0-5.jpg) | N/A | N/A |
+| [asunder](./asunder) | amd64  | ubuntu-noble | 3.0.1+ds-1build2 | ![screen0-5.jpg](./asunder/tests/screen0-5.jpg) | N/A | N/A |
+| [asylum](./asylum) | amd64  | ubuntu-noble | 0.3.2-3build1 | ![screen0-5.jpg](./asylum/tests/screen0-5.jpg) | N/A | N/A |
+| [atanks](./atanks) | amd64  | ubuntu-noble | 6.6~dfsg-1build2 | ![screen0-5.jpg](./atanks/tests/screen0-5.jpg) | N/A | N/A |
+| [atari800](./atari800) | amd64  | ubuntu-noble | 5.0.0-1build2 | ![screen0-5.jpg](./atari800/tests/screen0-5.jpg) | N/A | N/A |
+| [atomes](./atomes) | amd64  | ubuntu-noble | 1.1.12+repack-2ubuntu2 | ![screen0-5.jpg](./atomes/tests/screen0-5.jpg) | N/A | N/A |
+| [atomix](./atomix) | amd64  | ubuntu-noble | 44.0-3build3 | ![screen0-5.jpg](./atomix/tests/screen0-5.jpg) | N/A | N/A |
+| [atril](./atril) | amd64  | ubuntu-noble | 1.26.2-3build2 | ![screen0-5.jpg](./atril/tests/screen0-5.jpg) | N/A | N/A |
+| [audacious](./audacious) | amd64  | ubuntu-noble | 4.3.1-2.1build2 | ![screen0-5.jpg](./audacious/tests/screen0-5.jpg) | N/A | N/A |
+| [audacity](./audacity) | amd64  | deepin-v23 | 3.4.2+dfsg-1deepin0 | ![screen0-5.jpg](./audacity/tests/screen0-5.jpg) | [SHA256](./audacity/SHA256SUMS) | N/A |
+| [audmes](./audmes) | amd64  | ubuntu-noble | 2024.02.18-1build2 | ![screen0-5.jpg](./audmes/tests/screen0-5.jpg) | N/A | N/A |
+| [aumix](./aumix) | amd64  | ubuntu-noble | 2.9.1-7.1-20250327 | 失败 | N/A | N/A |
+| [auralquiz](./auralquiz) | amd64  | ubuntu-noble | 1.0.0-3build3 | ![screen0-5.jpg](./auralquiz/tests/screen0-5.jpg) | N/A | N/A |
+| [aurora-printer-a121](./aurora-printer-a121) | amd64  | deepin-v23 | 1.0.3-20250327 | 失败 | N/A | N/A |
+| [ausweisapp](./ausweisapp) | amd64  | ubuntu-noble | 2.1.0-1build1 | ![screen0-5.jpg](./ausweisapp/tests/screen0-5.jpg) | N/A | N/A |
+| [auto-multiple-choice](./auto-multiple-choice) | amd64  | ubuntu-noble | 1.6.0-3build4-20250327 | 失败 | N/A | N/A |
+| [autokey-gtk](./autokey-gtk) | amd64  | ubuntu-noble | 0.95.10-2.1-20250327 | 失败 | N/A | N/A |
+| [autokey-qt](./autokey-qt) | amd64  | ubuntu-noble | 0.95.10-2.1 | ![screen0-5.jpg](./autokey-qt/tests/screen0-5.jpg) | N/A | N/A |
+| [autorenamer](./autorenamer) | amd64  | ubuntu-noble | 0.6-1-20250327 | 失败 | N/A | N/A |
+| [avahi-discover](./avahi-discover) | amd64  | ubuntu-noble | 0.8-13ubuntu6-20250327 | 失败 | N/A | N/A |
+| [avahi-ui-utils](./avahi-ui-utils) | amd64  | ubuntu-noble | 0.8-13ubuntu6 | ![screen0-5.jpg](./avahi-ui-utils/tests/screen0-5.jpg) ![screen1-5.jpg](./avahi-ui-utils/tests/screen1-5.jpg) | N/A | N/A |
+| [avogadro](./avogadro) | amd64  | ubuntu-noble | 1.99.0-1build2 | ![screen0-5.jpg](./avogadro/tests/screen0-5.jpg) | N/A | N/A |
+| [awf-gtk3](./awf-gtk3) | amd64  | ubuntu-noble | 2.8.0-1build2 | ![screen0-5.jpg](./awf-gtk3/tests/screen0-5.jpg) | N/A | N/A |
+| [awf-gtk4](./awf-gtk4) | amd64  | ubuntu-noble | 2.8.0-1build2 | ![screen0-5.jpg](./awf-gtk4/tests/screen0-5.jpg) | N/A | N/A |
+| [ayatana-settings](./ayatana-settings) | amd64  | ubuntu-noble | 23.11.14-1-20250327 | 失败 | N/A | N/A |
+| [ayatana-webmail](./ayatana-webmail) | amd64  | ubuntu-noble | 23.12.25+dfsg-1-20250327 | 失败 | N/A | N/A |
+| [backintime-qt](./backintime-qt) | amd64  | ubuntu-noble | 1.4.3-1 | ![screen1-5.jpg](./backintime-qt/tests/screen1-5.jpg) | N/A | N/A |
+| [bacula-console-qt](./bacula-console-qt) | amd64  | ubuntu-noble | 13.0.4-1build3 | ![screen0-5.jpg](./bacula-console-qt/tests/screen0-5.jpg) | N/A | N/A |
+| [bacula-tray-monitor](./bacula-tray-monitor) | amd64  | ubuntu-noble | 13.0.4-1build3 | ![screen0-5.jpg](./bacula-tray-monitor/tests/screen0-5.jpg) | N/A | N/A |
+| [ballerburg](./ballerburg) | amd64  | ubuntu-noble | 1.2.1-1 | ![screen0-5.jpg](./ballerburg/tests/screen0-5.jpg) | N/A | N/A |
+| [ballview](./ballview) | amd64  | ubuntu-noble | 1.5.0+git20180813.37fc53c-11build5 | ![screen0-5.jpg](./ballview/tests/screen0-5.jpg) | N/A | N/A |
+| [ballz](./ballz) | amd64  | ubuntu-noble | 1.0.4-1.1build2 | ![screen0-5.jpg](./ballz/tests/screen0-5.jpg) | N/A | N/A |
+| [balsa](./balsa) | amd64  | ubuntu-noble | 2.6.4-2build5-20250327 | 失败 | N/A | N/A |
+| [bambam](./bambam) | amd64  | ubuntu-noble | 1.2.1+dfsg-1 | ![screen0-5.jpg](./bambam/tests/screen0-5.jpg) | N/A | N/A |
+| [bambootracker](./bambootracker) | amd64  | ubuntu-noble | 0.6.1-1build2-20250327 | 失败 | N/A | N/A |
+| [baobab](./baobab) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./baobab/tests/screen0-5.jpg) | N/A | N/A |
+| [barrage](./barrage) | amd64  | ubuntu-noble | 1.0.5-1 | ![screen0-5.jpg](./barrage/tests/screen0-5.jpg) | N/A | N/A |
+| [barrier](./barrier) | amd64  | ubuntu-noble | 2.4.0+dfsg-4build3 | ![screen0-5.jpg](./barrier/tests/screen0-5.jpg) | N/A | N/A |
+| [basex](./basex) | amd64  | ubuntu-noble | 10.5-1-20250327 | 失败 | N/A | N/A |
+| [basic256](./basic256) | amd64  | ubuntu-noble | 2.0.99.7-2build3 | ![screen0-5.jpg](./basic256/tests/screen0-5.jpg) | N/A | N/A |
+| [basilisk2](./basilisk2) | amd64  | ubuntu-noble | 0.9.20240401-1 | ![screen0-5.jpg](./basilisk2/tests/screen0-5.jpg) | N/A | N/A |
+| [basket](./basket) | amd64  | ubuntu-noble | 2.49-1build3 | ![screen0-5.jpg](./basket/tests/screen0-5.jpg) | N/A | N/A |
+| [bastet](./bastet) | amd64  | ubuntu-noble | 0.43-7build1-20250327 | 失败 | N/A | N/A |
+| [batmon.app](./batmon.app) | amd64  | ubuntu-noble | 0.9-2build5 | ![screen0-5.jpg](./batmon.app/tests/screen0-5.jpg) | N/A | N/A |
+| [battery-stats](./battery-stats) | amd64  | ubuntu-noble | 0.5.6-2.1 | ![screen0-5.jpg](./battery-stats/tests/screen0-5.jpg) | N/A | N/A |
+| [bb](./bb) | amd64  | deepin-v23 | 1.3rc1-13 | 失败 | [SHA256](./bb/SHA256SUMS) | N/A |
+| [bbpager](./bbpager) | amd64  | ubuntu-noble | 0.4.7-10-20250327 | 失败 | N/A | N/A |
+| [bcnc](./bcnc) | amd64  | ubuntu-noble | 0.9.14.318+ds-4 | ![screen0-5.jpg](./bcnc/tests/screen0-5.jpg) | N/A | N/A |
+| [bdbvu](./bdbvu) | amd64  | ubuntu-noble | 0.1-3.1build2 | ![screen0-5.jpg](./bdbvu/tests/screen0-5.jpg) | N/A | N/A |
+| [beads](./beads) | amd64  | ubuntu-noble | 1.1.22-1build4 | ![screen0-5.jpg](./beads/tests/screen0-5.jpg) | N/A | N/A |
+| [bear-factory](./bear-factory) | amd64  | ubuntu-noble | 0.6.0-8build5 | ![screen0-5.jpg](./bear-factory/tests/screen0-5.jpg) ![screen1-5.jpg](./bear-factory/tests/screen1-5.jpg) ![screen2-5.jpg](./bear-factory/tests/screen2-5.jpg) | N/A | N/A |
+| [beneath-a-steel-sky](./beneath-a-steel-sky) | amd64  | ubuntu-noble | 0.0372-8 | ![screen0-5.jpg](./beneath-a-steel-sky/tests/screen0-5.jpg) | N/A | N/A |
+| [berusky](./berusky) | amd64  | ubuntu-noble | 1.7.2-3build2 | ![screen0-5.jpg](./berusky/tests/screen0-5.jpg) | N/A | N/A |
+| [berusky2](./berusky2) | amd64  | ubuntu-noble | 0.12-4 | ![screen0-5.jpg](./berusky2/tests/screen0-5.jpg) | N/A | N/A |
+| [bespokesynth](./bespokesynth) | amd64  | ubuntu-noble | 1.2.1+dfsg-4build4 | ![screen0-5.jpg](./bespokesynth/tests/screen0-5.jpg) | N/A | N/A |
+| [betaradio](./betaradio) | amd64  | ubuntu-noble | 1.6-1build3 | ![screen0-5.jpg](./betaradio/tests/screen0-5.jpg) | N/A | N/A |
+| [between](./between) | amd64  | ubuntu-noble | 6+dfsg1-4 | ![screen0-5.jpg](./between/tests/screen0-5.jpg) | N/A | N/A |
+| [bibledit](./bibledit) | amd64  | ubuntu-noble | 5.1.002-1build5 | ![screen0-5.jpg](./bibledit/tests/screen0-5.jpg) | N/A | N/A |
+| [bibletime](./bibletime) | amd64  | ubuntu-noble | 3.0.3-3build2 | ![screen0-5.jpg](./bibletime/tests/screen0-5.jpg) | N/A | N/A |
+| [bibshelf](./bibshelf) | amd64  | ubuntu-noble | 1.6.0-0ubuntu9 | ![screen0-5.jpg](./bibshelf/tests/screen0-5.jpg) | N/A | N/A |
+| [biglybt](./biglybt) | amd64  | ubuntu-noble | 3.4.0.0-1-20250327 | 失败 | N/A | N/A |
+| [bijiben](./bijiben) | amd64  | ubuntu-noble | 40.1-6build4-20250327 | 失败 | N/A | N/A |
+| [billard-gl](./billard-gl) | amd64  | ubuntu-noble | 1.75-17build2 | ![screen0-5.jpg](./billard-gl/tests/screen0-5.jpg) | N/A | N/A |
+| [biloba](./biloba) | amd64  | ubuntu-noble | 0.9.3-11 | ![screen0-5.jpg](./biloba/tests/screen0-5.jpg) | N/A | N/A |
+| [biniax2](./biniax2) | amd64  | ubuntu-noble | 1.30-7 | ![screen0-5.jpg](./biniax2/tests/screen0-5.jpg) | N/A | N/A |
+| [bino](./bino) | amd64  | ubuntu-noble | 2.1-1build2-20250327 | 失败 | N/A | N/A |
+| [biogenesis](./biogenesis) | amd64  | ubuntu-noble | 0.8-3.1 | ![screen0-5.jpg](./biogenesis/tests/screen0-5.jpg) | N/A | N/A |
+| [birdfont](./birdfont) | amd64  | ubuntu-noble | 2.33.1-3build3 | ![screen0-5.jpg](./birdfont/tests/screen0-5.jpg) | N/A | N/A |
+| [bisheng-engine](./bisheng-engine) | amd64  | deepin-v23 | 2.0.14-1 | 失败 | [SHA256](./bisheng-engine/SHA256SUMS) | N/A |
+| [bitsnpicas](./bitsnpicas) | amd64  | ubuntu-noble | 2.0+ds-2-20250327 | 失败 | N/A | N/A |
+| [biz.zcjt.gaopaiyi](./biz.zcjt.gaopaiyi) | amd64  | deepin-v23 | 1.0.0-20250327 | 失败 | N/A | N/A |
+| [biz.zcjt.scanner](./biz.zcjt.scanner) | amd64  | deepin-v23 | 1.0.2.0-20250327 | 失败 | N/A | N/A |
+| [biz.zcjt.zc-a5930dn](./biz.zcjt.zc-a5930dn) | amd64  | deepin-v23 | 1.0.0-23166 | ![screen0-5.jpg](./biz.zcjt.zc-a5930dn/tests/screen0-5.jpg) ![screen1-5.jpg](./biz.zcjt.zc-a5930dn/tests/screen1-5.jpg) | N/A | N/A |
+| [biz.zcjt.zc-a5933dn](./biz.zcjt.zc-a5933dn) | amd64  | deepin-v23 | 1.0.0-23324 | ![screen0-5.jpg](./biz.zcjt.zc-a5933dn/tests/screen0-5.jpg) ![screen1-5.jpg](./biz.zcjt.zc-a5933dn/tests/screen1-5.jpg) | N/A | N/A |
+| [biz.zcjt.zhongchu-sane](./biz.zcjt.zhongchu-sane) | amd64  | deepin-v23 | 20240911-6.6.10.030-20250327 | 失败 | N/A | N/A |
+| [bkchem](./bkchem) | amd64  | ubuntu-noble | 0.14.0~pre4+git20211228-3-20250327 | 失败 | N/A | N/A |
+| [black-box](./black-box) | amd64  | ubuntu-noble | 1.4.8-4build1 | ![screen0-5.jpg](./black-box/tests/screen0-5.jpg) | N/A | N/A |
+| [blackbox-terminal](./blackbox-terminal) | amd64  | ubuntu-noble | 0.14.0-2build2 | ![screen0-5.jpg](./blackbox-terminal/tests/screen0-5.jpg) | N/A | N/A |
+| [blastem](./blastem) | amd64  | ubuntu-noble | 0.6.3.4-1build1 | ![screen0-5.jpg](./blastem/tests/screen0-5.jpg) | N/A | N/A |
+| [bleachbit](./bleachbit) | amd64  | ubuntu-noble | 4.6.0-3-20250327 | 失败 | N/A | N/A |
+| [blender](./blender) | amd64  | ubuntu-noble | 4.0.2+dfsg-1ubuntu8 | ![screen0-5.jpg](./blender/tests/screen0-5.jpg) | N/A | N/A |
+| [blinken](./blinken) | amd64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./blinken/tests/screen0-5.jpg) | N/A | N/A |
+| [blobandconquer](./blobandconquer) | amd64  | ubuntu-noble | 1.11-dfsg+20-2-20250327 | 失败 | N/A | N/A |
+| [blobby](./blobby) | amd64  | ubuntu-noble | 1.1+ds-1ubuntu1 | ![screen0-5.jpg](./blobby/tests/screen0-5.jpg) | N/A | N/A |
+| [bloboats](./bloboats) | amd64  | ubuntu-noble | 1.0.2+dfsg-4 | ![screen0-5.jpg](./bloboats/tests/screen0-5.jpg) | N/A | N/A |
+| [blobwars](./blobwars) | amd64  | ubuntu-noble | 2.00-4ubuntu1 | ![screen0-5.jpg](./blobwars/tests/screen0-5.jpg) | N/A | N/A |
+| [blockattack](./blockattack) | amd64  | ubuntu-noble | 2.8.0-1build1 | ![screen0-5.jpg](./blockattack/tests/screen0-5.jpg) | N/A | N/A |
+| [blockout2](./blockout2) | amd64  | ubuntu-noble | 2.5+dfsg1-1build3 | ![screen0-5.jpg](./blockout2/tests/screen0-5.jpg) | N/A | N/A |
+| [blocks-of-the-undead](./blocks-of-the-undead) | amd64  | ubuntu-noble | 1.0-7build1 | ![screen0-5.jpg](./blocks-of-the-undead/tests/screen0-5.jpg) | N/A | N/A |
+| [bluedevil](./bluedevil) | amd64  | ubuntu-noble | 5.27.11-0ubuntu2 | ![screen1-5.jpg](./bluedevil/tests/screen1-5.jpg) | N/A | N/A |
+| [bluefish](./bluefish) | amd64  | ubuntu-noble | 2.2.15-1 | ![screen0-5.jpg](./bluefish/tests/screen0-5.jpg) | N/A | N/A |
+| [blueman](./blueman) | amd64  | deepin-v23 | 2.3.5-3deepin0+rb1-20250327 | 失败 | N/A | N/A |
+| [blupimania](./blupimania) | amd64  | ubuntu-noble | 1.6.2-17-g5f6cf8b-1 | ![screen0-5.jpg](./blupimania/tests/screen0-5.jpg) | N/A | N/A |
+| [boats](./boats) | amd64  | ubuntu-noble | 202008-1build2 | ![screen0-5.jpg](./boats/tests/screen0-5.jpg) | N/A | N/A |
+| [boinc-manager](./boinc-manager) | amd64  | ubuntu-noble | 7.24.1+dfsg-4build1 | ![screen0-5.jpg](./boinc-manager/tests/screen0-5.jpg) | N/A | N/A |
+| [bomber](./bomber) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./bomber/tests/screen0-5.jpg) | N/A | N/A |
+| [bomberclone](./bomberclone) | amd64  | ubuntu-noble | 0.11.9-7.1 | ![screen0-5.jpg](./bomberclone/tests/screen0-5.jpg) | N/A | N/A |
+| [bookletimposer](./bookletimposer) | amd64  | ubuntu-noble | 0.3.1-4ubuntu1-20250327 | 失败 | N/A | N/A |
+| [bookworm](./bookworm) | amd64  | ubuntu-noble | 1.1.2+git20210715-4build3 | ![screen0-5.jpg](./bookworm/tests/screen0-5.jpg) | N/A | N/A |
+| [boomaga](./boomaga) | amd64  | ubuntu-noble | 3.0.0+git13-g7f7ad47-1build4 | ![screen0-5.jpg](./boomaga/tests/screen0-5.jpg) | N/A | N/A |
+| [bossa](./bossa) | amd64  | ubuntu-noble | 1.9.1-3ubuntu5 | ![screen0-5.jpg](./bossa/tests/screen0-5.jpg) | N/A | N/A |
+| [boswars](./boswars) | amd64  | ubuntu-noble | 2.8-2build2 | ![screen0-5.jpg](./boswars/tests/screen0-5.jpg) | N/A | N/A |
+| [bouncy](./bouncy) | amd64  | ubuntu-noble | 0.6.20071104-9 | ![screen0-5.jpg](./bouncy/tests/screen0-5.jpg) | N/A | N/A |
+| [bovo](./bovo) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./bovo/tests/screen0-5.jpg) | N/A | N/A |
+| [bpython](./bpython) | amd64  | ubuntu-noble | 0.24-1 | ![screen0-5.jpg](./bpython/tests/screen0-5.jpg) | N/A | N/A |
+| [brainparty](./brainparty) | amd64  | ubuntu-noble | 0.61+dfsg-7 | ![screen0-5.jpg](./brainparty/tests/screen0-5.jpg) | N/A | N/A |
+| [brasero](./brasero) | amd64  | ubuntu-noble | 3.12.3-2build4 | ![screen0-5.jpg](./brasero/tests/screen0-5.jpg) | N/A | N/A |
+| [brewtarget](./brewtarget) | amd64  | ubuntu-noble | 3.0.6-1build2 | ![screen0-5.jpg](./brewtarget/tests/screen0-5.jpg) | N/A | N/A |
+| [briquolo](./briquolo) | amd64  | ubuntu-noble | 0.5.7-11build2 | ![screen0-5.jpg](./briquolo/tests/screen0-5.jpg) | N/A | N/A |
+| [brp-pacu](./brp-pacu) | amd64  | ubuntu-noble | 2.1.2+git20210421-1build2 | ![screen0-5.jpg](./brp-pacu/tests/screen0-5.jpg) | N/A | N/A |
+| [brutalchess](./brutalchess) | amd64  | ubuntu-noble | 0.5.2+dfsg-8build1 | ![screen0-5.jpg](./brutalchess/tests/screen0-5.jpg) | N/A | N/A |
+| [bsdgames](./bsdgames) | amd64  | ubuntu-noble | 2.17-33 | ![screen0-5.jpg](./bsdgames/tests/screen0-5.jpg) ![screen1-5.jpg](./bsdgames/tests/screen1-5.jpg) ![screen3-5.jpg](./bsdgames/tests/screen3-5.jpg) ![screen4-5.jpg](./bsdgames/tests/screen4-5.jpg) ![screen5-5.jpg](./bsdgames/tests/screen5-5.jpg) ![screen9-5.jpg](./bsdgames/tests/screen9-5.jpg) ![screen14-5.jpg](./bsdgames/tests/screen14-5.jpg) ![screen16-5.jpg](./bsdgames/tests/screen16-5.jpg) ![screen19-5.jpg](./bsdgames/tests/screen19-5.jpg) ![screen22-5.jpg](./bsdgames/tests/screen22-5.jpg) | N/A | N/A |
+| [btanks](./btanks) | amd64  | ubuntu-noble | 0.9.8083-9build1 | ![screen0-5.jpg](./btanks/tests/screen0-5.jpg) | N/A | N/A |
+| [btop](./btop) | amd64  | deepin-v23 | 1.3.0-1 | 失败 | [SHA256](./btop/SHA256SUMS) | N/A |
+| [budgie-arm-environment](./budgie-arm-environment) | amd64  | ubuntu-noble | 0.20.13-20250327 | 失败 | N/A | N/A |
+| [budgie-control-center](./budgie-control-center) | amd64  | ubuntu-noble | 1.4.0-2build3-20250327 | 失败 | N/A | N/A |
+| [budgie-core](./budgie-core) | amd64  | ubuntu-noble | 10.9.1-3ubuntu4-20250327 | 失败 | N/A | N/A |
+| [budgie-desktop-environment](./budgie-desktop-environment) | amd64  | ubuntu-noble | 0.20.13-20250327 | 失败 | N/A | N/A |
+| [budgie-desktop-view](./budgie-desktop-view) | amd64  | ubuntu-noble | 1.3-2build1-20250327 | 失败 | N/A | N/A |
+| [budgie-hotcorners-applet](./budgie-hotcorners-applet) | amd64  | ubuntu-noble | 1.8.0-1build3 | ![screen0-5.jpg](./budgie-hotcorners-applet/tests/screen0-5.jpg) | N/A | N/A |
+| [budgie-previews](./budgie-previews) | amd64  | ubuntu-noble | 1.8.0-1build3 | ![screen0-5.jpg](./budgie-previews/tests/screen0-5.jpg) | N/A | N/A |
+| [budgie-quickchar](./budgie-quickchar) | amd64  | ubuntu-noble | 1.8.0-1build3-20250327 | 失败 | N/A | N/A |
+| [budgie-wallstreet](./budgie-wallstreet) | amd64  | ubuntu-noble | 1.8.0-1build3 | ![screen0-5.jpg](./budgie-wallstreet/tests/screen0-5.jpg) | N/A | N/A |
+| [budgie-welcome](./budgie-welcome) | amd64  | ubuntu-noble | 0.6.1 | ![screen0-5.jpg](./budgie-welcome/tests/screen0-5.jpg) ![screen1-5.jpg](./budgie-welcome/tests/screen1-5.jpg) ![screen2-5.jpg](./budgie-welcome/tests/screen2-5.jpg) ![screen3-5.jpg](./budgie-welcome/tests/screen3-5.jpg) | N/A | N/A |
+| [budgie-window-shuffler](./budgie-window-shuffler) | amd64  | ubuntu-noble | 1.8.0-1build3 | ![screen0-5.jpg](./budgie-window-shuffler/tests/screen0-5.jpg) | N/A | N/A |
+| [bugsquish](./bugsquish) | amd64  | ubuntu-noble | 0.0.6-10 | ![screen0-5.jpg](./bugsquish/tests/screen0-5.jpg) | N/A | N/A |
+| [bumprace](./bumprace) | amd64  | ubuntu-noble | 1.5.8-1 | ![screen0-5.jpg](./bumprace/tests/screen0-5.jpg) | N/A | N/A |
+| [burgerspace](./burgerspace) | amd64  | ubuntu-noble | 1.9.5-1build1 | ![screen0-5.jpg](./burgerspace/tests/screen0-5.jpg) | N/A | N/A |
+| [bustle](./bustle) | amd64  | ubuntu-noble | 0.8.0-2build2 | ![screen0-5.jpg](./bustle/tests/screen0-5.jpg) | N/A | N/A |
+| [butt](./butt) | amd64  | ubuntu-noble | 0.1.37-2build4 | ![screen0-5.jpg](./butt/tests/screen0-5.jpg) | N/A | N/A |
+| [buzztrax](./buzztrax) | amd64  | ubuntu-noble | 0.10.2-9build2 | ![screen0-5.jpg](./buzztrax/tests/screen0-5.jpg) | N/A | N/A |
+| [bzflag-client](./bzflag-client) | amd64  | ubuntu-noble | 2.4.26-1build3 | ![screen0-5.jpg](./bzflag-client/tests/screen0-5.jpg) | N/A | N/A |
+| [c-evo-dh-gtk2](./c-evo-dh-gtk2) | amd64  | ubuntu-noble | 1.10-1build3 | ![screen0-5.jpg](./c-evo-dh-gtk2/tests/screen0-5.jpg) ![screen1-5.jpg](./c-evo-dh-gtk2/tests/screen1-5.jpg) | N/A | N/A |
+| [cadabra2](./cadabra2) | amd64  | ubuntu-noble | 2.4.5.4-0ubuntu1-20250327 | 失败 | N/A | N/A |
+| [caffeine](./caffeine) | amd64  | ubuntu-noble | 2.9.12-1-20250327 | 失败 | N/A | N/A |
+| [cairo-dock-core](./cairo-dock-core) | amd64  | ubuntu-noble | 3.4.1+git20201103.0836f5d1-1build3 | ![screen0-5.jpg](./cairo-dock-core/tests/screen0-5.jpg) ![screen1-5.jpg](./cairo-dock-core/tests/screen1-5.jpg) | N/A | N/A |
+| [caja](./caja) | amd64  | ubuntu-noble | 1.26.3-1build3-20250327 | 失败 | N/A | N/A |
+| [caja-actions](./caja-actions) | amd64  | ubuntu-noble | 1.27.0-1build3 | ![screen0-5.jpg](./caja-actions/tests/screen0-5.jpg) | N/A | N/A |
+| [caja-dropbox](./caja-dropbox) | amd64  | ubuntu-noble | 1.26.0-4build2-20250327 | 失败 | N/A | N/A |
+| [caja-eiciel](./caja-eiciel) | amd64  | ubuntu-noble | 1.20.1-3build2 | ![screen0-5.jpg](./caja-eiciel/tests/screen0-5.jpg) | N/A | N/A |
+| [caja-seahorse](./caja-seahorse) | amd64  | ubuntu-noble | 1.18.5-3-20250327 | 失败 | N/A | N/A |
+| [calamares](./calamares) | amd64  | ubuntu-noble | 3.3.5-0ubuntu4-20250327 | 失败 | N/A | N/A |
+| [calamares-settings-debian](./calamares-settings-debian) | amd64  | ubuntu-noble | 13.0.5-1-20250327 | 失败 | N/A | N/A |
+| [calamares-settings-kubuntu](./calamares-settings-kubuntu) | amd64  | ubuntu-noble | 24.04.40-20250327 | 失败 | N/A | N/A |
+| [calamares-settings-lubuntu](./calamares-settings-lubuntu) | amd64  | ubuntu-noble | 24.04.40-20250327 | 失败 | N/A | N/A |
+| [calamares-settings-ubuntu-unity](./calamares-settings-ubuntu-unity) | amd64  | ubuntu-noble | 24.04.40-20250327 | 失败 | N/A | N/A |
+| [calc-common](./calc-common) | amd64  | ubuntu-noble | 2.15.0.4-1build2-20250327 | 失败 | N/A | N/A |
+| [calf-plugins](./calf-plugins) | amd64  | ubuntu-noble | 0.90.3-4build2-20250327 | 失败 | N/A | N/A |
+| [calibre](./calibre) | amd64  | ubuntu-noble | 7.6.0+ds-1build1-20250327 | 失败 | N/A | N/A |
+| [calindori](./calindori) | amd64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./calindori/tests/screen0-5.jpg) | N/A | N/A |
+| [calligra-data](./calligra-data) | amd64  | ubuntu-noble | 3.2.1+dfsg-8build4-20250327 | 失败 | N/A | N/A |
+| [calligra-gemini](./calligra-gemini) | amd64  | ubuntu-noble | 3.2.1+dfsg-8build4 | ![screen0-5.jpg](./calligra-gemini/tests/screen0-5.jpg) | N/A | N/A |
+| [calligraplan](./calligraplan) | amd64  | ubuntu-noble | 3.3.0-2build2 | ![screen0-5.jpg](./calligraplan/tests/screen0-5.jpg) ![screen1-5.jpg](./calligraplan/tests/screen1-5.jpg) | N/A | N/A |
+| [calligrasheets](./calligrasheets) | amd64  | ubuntu-noble | 3.2.1+dfsg-8build4 | ![screen0-5.jpg](./calligrasheets/tests/screen0-5.jpg) | N/A | N/A |
+| [calligrastage](./calligrastage) | amd64  | ubuntu-noble | 3.2.1+dfsg-8build4 | ![screen0-5.jpg](./calligrastage/tests/screen0-5.jpg) | N/A | N/A |
+| [calligrawords](./calligrawords) | amd64  | ubuntu-noble | 3.2.1+dfsg-8build4 | ![screen0-5.jpg](./calligrawords/tests/screen0-5.jpg) | N/A | N/A |
+| [camera.app](./camera.app) | amd64  | ubuntu-noble | 0.8.0-13build4 | ![screen0-5.jpg](./camera.app/tests/screen0-5.jpg) | N/A | N/A |
+| [camitk-actionstatemachine](./camitk-actionstatemachine) | amd64  | ubuntu-noble | 5.2.0-1build7-20250327 | 失败 | N/A | N/A |
+| [camitk-imp](./camitk-imp) | amd64  | ubuntu-noble | 5.2.0-1build7-20250327 | 失败 | N/A | N/A |
+| [caneda](./caneda) | amd64  | ubuntu-noble | 0.3.1+gitg08e22168-1build2 | ![screen0-5.jpg](./caneda/tests/screen0-5.jpg) | N/A | N/A |
+| [cantata](./cantata) | amd64  | ubuntu-noble | 2.5.0.ds1-2build3 | ![screen0-5.jpg](./cantata/tests/screen0-5.jpg) | N/A | N/A |
+| [cantor](./cantor) | amd64  | ubuntu-noble | 23.08.5-0ubuntu4.2 | ![screen0-5.jpg](./cantor/tests/screen0-5.jpg) | N/A | N/A |
+| [carburetor](./carburetor) | amd64  | ubuntu-noble | 4.5.1-1-20250327 | 失败 | N/A | N/A |
+| [cardpeek](./cardpeek) | amd64  | ubuntu-noble | 0.8.4-1.3build1 | ![screen0-5.jpg](./cardpeek/tests/screen0-5.jpg) | N/A | N/A |
+| [carla](./carla) | amd64  | ubuntu-noble | 2.5.8-0ubuntu5 | ![screen0-5.jpg](./carla/tests/screen0-5.jpg) ![screen1-5.jpg](./carla/tests/screen1-5.jpg) | N/A | N/A |
+| [carmetal](./carmetal) | amd64  | ubuntu-noble | 4.3-2-20250327 | 失败 | N/A | N/A |
+| [cataclysm-dda-sdl](./cataclysm-dda-sdl) | amd64  | deepin-v23 | 0.G-4deepin1 | ![screen0-5.jpg](./cataclysm-dda-sdl/tests/screen0-5.jpg) | [SHA256](./cataclysm-dda-sdl/SHA256SUMS) | N/A |
+| [catfish](./catfish) | amd64  | ubuntu-noble | 4.16.4-2-20250327 | 失败 | N/A | N/A |
+| [caveexpress](./caveexpress) | amd64  | ubuntu-noble | 2.5.2-2 | ![screen0-5.jpg](./caveexpress/tests/screen0-5.jpg) | N/A | N/A |
+| [cavepacker](./cavepacker) | amd64  | ubuntu-noble | 2.5.2-2 | ![screen0-5.jpg](./cavepacker/tests/screen0-5.jpg) | N/A | N/A |
+| [cb2bib](./cb2bib) | amd64  | ubuntu-noble | 2.0.1-2build2 | ![screen0-5.jpg](./cb2bib/tests/screen0-5.jpg) ![screen2-5.jpg](./cb2bib/tests/screen2-5.jpg) | N/A | N/A |
+| [cc.lotuscard.demo](./cc.lotuscard.demo) | amd64  | deepin-v23 | 1.0.0.0-20250327 | 失败 | N/A | N/A |
+| [cdogs-sdl](./cdogs-sdl) | amd64  | ubuntu-noble | 2.0.0+dfsg-1 | ![screen0-5.jpg](./cdogs-sdl/tests/screen0-5.jpg) | N/A | N/A |
+| [cecilia](./cecilia) | amd64  | ubuntu-noble | 5.4.1-2 | ![screen0-5.jpg](./cecilia/tests/screen0-5.jpg) | N/A | N/A |
+| [ceferino](./ceferino) | amd64  | ubuntu-noble | 0.97.8+svn37-3 | ![screen0-5.jpg](./ceferino/tests/screen0-5.jpg) | N/A | N/A |
+| [celluloid](./celluloid) | amd64  | ubuntu-noble | 0.26-1build2 | ![screen0-5.jpg](./celluloid/tests/screen0-5.jpg) | N/A | N/A |
+| [cen64-qt](./cen64-qt) | amd64  | ubuntu-noble | 20200219-alpha-1build2 | ![screen0-5.jpg](./cen64-qt/tests/screen0-5.jpg) | N/A | N/A |
+| [ceni](./ceni) | amd64  | ubuntu-noble | 2.33-4-20250327 | 失败 | N/A | N/A |
+| [cenon.app](./cenon.app) | amd64  | ubuntu-noble | 4.0.6+ds1-2build5 | ![screen0-5.jpg](./cenon.app/tests/screen0-5.jpg) | N/A | N/A |
+| [cervisia](./cervisia) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./cervisia/tests/screen0-5.jpg) | N/A | N/A |
+| [cf900](./cf900) | amd64  | deepin-v23 | 1.0 | ![screen0-5.jpg](./cf900/tests/screen0-5.jpg) ![screen1-5.jpg](./cf900/tests/screen1-5.jpg) | [SHA256](./cf900/SHA256SUMS) | N/A |
+| [cgoban](./cgoban) | amd64  | deepin-v23 | 1.9.14-19 | 失败 | [SHA256](./cgoban/SHA256SUMS) | N/A |
+| [charmap.app](./charmap.app) | amd64  | ubuntu-noble | 0.3~rc1-4build3 | ![screen0-5.jpg](./charmap.app/tests/screen0-5.jpg) | N/A | N/A |
+| [charmtimetracker](./charmtimetracker) | amd64  | ubuntu-noble | 1.12.0-3build2 | ![screen0-5.jpg](./charmtimetracker/tests/screen0-5.jpg) | N/A | N/A |
+| [chatty](./chatty) | amd64  | ubuntu-noble | 0.8.2-1ubuntu2 | ![screen0-5.jpg](./chatty/tests/screen0-5.jpg) | N/A | N/A |
+| [cheese](./cheese) | amd64  | ubuntu-noble | 44.1-1build4 | ![screen0-5.jpg](./cheese/tests/screen0-5.jpg) | N/A | N/A |
+| [cheesecutter](./cheesecutter) | amd64  | ubuntu-noble | 2.9+git20211011-2-20250327 | 失败 | N/A | N/A |
+| [chemtool](./chemtool) | amd64  | ubuntu-noble | 1.6.14-6build2 | ![screen0-5.jpg](./chemtool/tests/screen0-5.jpg) | N/A | N/A |
+| [cherrytree](./cherrytree) | amd64  | ubuntu-noble | 1.1.2+dfsg-1 | ![screen0-5.jpg](./cherrytree/tests/screen0-5.jpg) | N/A | N/A |
+| [chessx](./chessx) | amd64  | ubuntu-noble | 1.4.6-2build3 | ![screen0-5.jpg](./chessx/tests/screen0-5.jpg) | N/A | N/A |
+| [chewing-editor](./chewing-editor) | amd64  | ubuntu-noble | 0.1.1-5build2 | ![screen0-5.jpg](./chewing-editor/tests/screen0-5.jpg) | N/A | N/A |
+| [chiaki](./chiaki) | amd64  | ubuntu-noble | 2.2.0-1build3 | ![screen0-5.jpg](./chiaki/tests/screen0-5.jpg) | N/A | N/A |
+| [chirp](./chirp) | amd64  | ubuntu-noble | 20240224-1ubuntu0.1 | ![screen0-5.jpg](./chirp/tests/screen0-5.jpg) | N/A | N/A |
+| [chocolate-doom](./chocolate-doom) | amd64  | ubuntu-noble | 3.0.1+really3.0.0+git1548-1build2 | ![screen0-5.jpg](./chocolate-doom/tests/screen0-5.jpg) ![screen3-5.jpg](./chocolate-doom/tests/screen3-5.jpg) ![screen5-5.jpg](./chocolate-doom/tests/screen5-5.jpg) | N/A | N/A |
+| [choqok](./choqok) | amd64  | ubuntu-noble | 1.7.0-2build2 | ![screen0-5.jpg](./choqok/tests/screen0-5.jpg) | N/A | N/A |
+| [chroma](./chroma) | amd64  | ubuntu-noble | 1.19-1ubuntu1 | ![screen0-5.jpg](./chroma/tests/screen0-5.jpg) | N/A | N/A |
+| [chromium](./chromium) | amd64  | deepin-v23 | 128.0.6613.84-1deepin1-20250327 | 失败 | N/A | N/A |
+| [chromium-browser](./chromium-browser) | amd64  | ubuntu-noble | 1snap1-0ubuntu2-20250327 | 失败 | N/A | N/A |
+| [chromium-bsu](./chromium-bsu) | amd64  | ubuntu-noble | 0.9.16.1-3 | ![screen0-5.jpg](./chromium-bsu/tests/screen0-5.jpg) | N/A | N/A |
+| [chromono](./chromono) | amd64  | ubuntu-noble | 1.1.1-1.1 | ![screen0-5.jpg](./chromono/tests/screen0-5.jpg) | N/A | N/A |
+| [cinnamon](./cinnamon) | amd64  | ubuntu-noble | 6.0.4-4-20250327 | 失败 | N/A | N/A |
+| [cinnamon-control-center](./cinnamon-control-center) | amd64  | ubuntu-noble | 6.0.1-3-20250327 | 失败 | N/A | N/A |
+| [cinnamon-screensaver](./cinnamon-screensaver) | amd64  | ubuntu-noble | 6.0.3-1build2-20250327 | 失败 | N/A | N/A |
+| [cinnamon-settings-daemon](./cinnamon-settings-daemon) | amd64  | ubuntu-noble | 6.0.0-1build4-20250327 | 失败 | N/A | N/A |
+| [circuslinux](./circuslinux) | amd64  | ubuntu-noble | 1.0.3-35 | ![screen0-5.jpg](./circuslinux/tests/screen0-5.jpg) | N/A | N/A |
+| [citizen-cx-02-printerdriver](./citizen-cx-02-printerdriver) | amd64  | deepin-v23 | 1.0.0-0 | 失败 | [SHA256](./citizen-cx-02-printerdriver/SHA256SUMS) | N/A |
+| [citizen-cx-02s-printerdriver](./citizen-cx-02s-printerdriver) | amd64  | deepin-v23 | 1.0.0-0 | 失败 | [SHA256](./citizen-cx-02s-printerdriver/SHA256SUMS) | N/A |
+| [citizen-cx-02w-printerdriver](./citizen-cx-02w-printerdriver) | amd64  | deepin-v23 | 1.0.0-0 | 失败 | [SHA256](./citizen-cx-02w-printerdriver/SHA256SUMS) | N/A |
+| [citizen-cy-printerdriver](./citizen-cy-printerdriver) | amd64  | deepin-v23 | 1.0.0-0 | 失败 | [SHA256](./citizen-cy-printerdriver/SHA256SUMS) | N/A |
+| [citizen-cz-01-printerdriver](./citizen-cz-01-printerdriver) | amd64  | deepin-v23 | 1.0.0-0 | 失败 | [SHA256](./citizen-cz-01-printerdriver/SHA256SUMS) | N/A |
+| [ckb-next](./ckb-next) | amd64  | ubuntu-noble | 0.6.0+dfsg-0.2build2 | ![screen0-5.jpg](./ckb-next/tests/screen0-5.jpg) | N/A | N/A |
+| [clamtk](./clamtk) | amd64  | ubuntu-noble | 6.07-1.1-20250327 | 失败 | N/A | N/A |
+| [clamz](./clamz) | amd64  | ubuntu-noble | 0.5-2.1build2-20250327 | 失败 | N/A | N/A |
+| [clapper](./clapper) | amd64  | ubuntu-noble | 0.5.2-8build2-20250327 | 失败 | N/A | N/A |
+| [classicmenu-indicator](./classicmenu-indicator) | amd64  | ubuntu-noble | 0.11-0ubuntu1-20250327 | 失败 | N/A | N/A |
+| [classified-ads](./classified-ads) | amd64  | ubuntu-noble | 0.15-1build3 | ![screen0-5.jpg](./classified-ads/tests/screen0-5.jpg) | N/A | N/A |
+| [claws-mail](./claws-mail) | amd64  | ubuntu-noble | 4.2.0-2build7-20250327 | 失败 | N/A | N/A |
+| [clawsker](./clawsker) | amd64  | ubuntu-noble | 1.3.8-1-20250327 | 失败 | N/A | N/A |
+| [clementine](./clementine) | amd64  | ubuntu-noble | 1.4.0~rc1+git867-g9ef681b0e+dfsg-1ubuntu4 | ![screen0-5.jpg](./clementine/tests/screen0-5.jpg) | N/A | N/A |
+| [clipit](./clipit) | amd64  | ubuntu-noble | 1.4.5+git20210313-2 | ![screen0-5.jpg](./clipit/tests/screen0-5.jpg) | N/A | N/A |
+| [clips](./clips) | amd64  | ubuntu-noble | 6.30-4.1build1 | ![screen0-5.jpg](./clips/tests/screen0-5.jpg) | N/A | N/A |
+| [cloudcompare](./cloudcompare) | amd64  | ubuntu-noble | 2.11.3-7.1build3 | ![screen0-5.jpg](./cloudcompare/tests/screen0-5.jpg) ![screen1-5.jpg](./cloudcompare/tests/screen1-5.jpg) | N/A | N/A |
+| [clustalx](./clustalx) | amd64  | ubuntu-noble | 2.1+lgpl-9build2 | ![screen0-5.jpg](./clustalx/tests/screen0-5.jpg) | N/A | N/A |
+| [clusterssh](./clusterssh) | amd64  | ubuntu-noble | 4.16-4 | ![screen0-5.jpg](./clusterssh/tests/screen0-5.jpg) | N/A | N/A |
+| [cmake-qt-gui](./cmake-qt-gui) | amd64  | deepin-v23 | 3.30.5-1 | ![screen0-5.jpg](./cmake-qt-gui/tests/screen0-5.jpg) | [SHA256](./cmake-qt-gui/SHA256SUMS) | N/A |
+| [cmatrix](./cmatrix) | amd64  | ubuntu-noble | 2.0-6-20250327 | 失败 | N/A | N/A |
+| [cmst](./cmst) | amd64  | ubuntu-noble | 2023.03.14-1build2 | ![screen0-5.jpg](./cmst/tests/screen0-5.jpg) | N/A | N/A |
+| [cn.com.hisign.hidscanner](./cn.com.hisign.hidscanner) | amd64  | deepin-v23 | 1.0.0-1-20250327 | 失败 | N/A | N/A |
+| [cn.com.hisign.hsivlive](./cn.com.hisign.hsivlive) | amd64  | deepin-v23 | 3.10.8-20250327 | 失败 | N/A | N/A |
+| [cn.com.hsic.demo](./cn.com.hsic.demo) | amd64  | deepin-v23 | 1.0.0-1-20250327 | 失败 | N/A | N/A |
+| [cn.com.secuprint.smlmfp](./cn.com.secuprint.smlmfp) | amd64  | deepin-v23 | 1.0.3.0-20250327 | 失败 | N/A | N/A |
+| [cn.com.signpro.hwtabletserv](./cn.com.signpro.hwtabletserv) | amd64  | deepin-v23 | 2.7+b69-20250327 | 失败 | N/A | N/A |
+| [cn.com.signpro.sphttpserv](./cn.com.signpro.sphttpserv) | amd64  | deepin-v23 | 3.2+b83-20250327 | 失败 | N/A | N/A |
+| [cn.com.tongzhi.crypt.http](./cn.com.tongzhi.crypt.http) | amd64  | deepin-v23 | 1.0.3.4406-1 | 失败 | [SHA256](./cn.com.tongzhi.crypt.http/SHA256SUMS) | N/A |
+| [cn.dascom.dc8600-driver](./cn.dascom.dc8600-driver) | amd64  | deepin-v23 | 1.0.0-20250327 | 失败 | N/A | N/A |
+| [cn.hengbao.hbd7600-driver](./cn.hengbao.hbd7600-driver) | amd64  | deepin-v23 | 1.0.8-20250327 | 失败 | N/A | N/A |
+| [cn.huahom.pam.unlock](./cn.huahom.pam.unlock) | amd64  | deepin-v23 | 0.1.0 | ![screen0-5.jpg](./cn.huahom.pam.unlock/tests/screen0-5.jpg) | [SHA256](./cn.huahom.pam.unlock/SHA256SUMS) | N/A |
+| [cn.hzchancel.fifthfootprint](./cn.hzchancel.fifthfootprint) | amd64  | deepin-v23 | 0.0.1-20250327 | 失败 | N/A | N/A |
+| [cn.hzchancel.fouthfootprint](./cn.hzchancel.fouthfootprint) | amd64  | deepin-v23 | 0.0.1-20250327 | 失败 | N/A | N/A |
+| [cn.microdone.passguardservice](./cn.microdone.passguardservice) | amd64  | deepin-v23 | 1.0.0.0-20250327 | 失败 | N/A | N/A |
+| [cn.microdone.passguardservice.bj](./cn.microdone.passguardservice.bj) | amd64  | deepin-v23 | 1.0.0.0-20250327 | 失败 | N/A | N/A |
+| [cn.microdone.passguardservice.nb](./cn.microdone.passguardservice.nb) | amd64  | deepin-v23 | 1.0.0.7 | ![screen0-5.jpg](./cn.microdone.passguardservice.nb/tests/screen0-5.jpg) | N/A | N/A |
+| [cn.microdone.signmessenger.hz](./cn.microdone.signmessenger.hz) | amd64  | deepin-v23 | 1.0.0.0-20250327 | 失败 | N/A | N/A |
+| [cn.microdone.signmessenger.nb](./cn.microdone.signmessenger.nb) | amd64  | deepin-v23 | 1.0.0.2 | ![screen0-5.jpg](./cn.microdone.signmessenger.nb/tests/screen0-5.jpg) | N/A | N/A |
+| [cn.naturalcard.eserver](./cn.naturalcard.eserver) | amd64  | deepin-v23 | 1.0.0.1-20250327 | 失败 | N/A | N/A |
+| [cn.net.zonewin.smartscanner](./cn.net.zonewin.smartscanner) | amd64  | deepin-v23 | 1.0.11 | ![screen0-5.jpg](./cn.net.zonewin.smartscanner/tests/screen0-5.jpg) | N/A | N/A |
+| [cn.tianyi.eserver](./cn.tianyi.eserver) | amd64  | deepin-v23 | 1.0.0.1-20250327 | 失败 | N/A | N/A |
+| [cndrvcups-utility](./cndrvcups-utility) | amd64  | deepin-v23 | 1.10-1deepin0 | ![screen0-5.jpg](./cndrvcups-utility/tests/screen0-5.jpg) | [SHA256](./cndrvcups-utility/SHA256SUMS) | N/A |
+| [cnrdrvcups-ufr2-uk](./cnrdrvcups-ufr2-uk) | amd64  | deepin-v23 | 5.10-1+rb1 | ![screen0-5.jpg](./cnrdrvcups-ufr2-uk/tests/screen0-5.jpg) | [SHA256](./cnrdrvcups-ufr2-uk/SHA256SUMS) | N/A |
+| [cnrdrvcups-ufr2lt-uk](./cnrdrvcups-ufr2lt-uk) | amd64  | deepin-v23 | 5.00-1deepin0 | ![screen0-5.jpg](./cnrdrvcups-ufr2lt-uk/tests/screen0-5.jpg) | [SHA256](./cnrdrvcups-ufr2lt-uk/SHA256SUMS) | N/A |
+| [coccinella](./coccinella) | amd64  | ubuntu-noble | 0.96.20-9 | ![screen0-5.jpg](./coccinella/tests/screen0-5.jpg) | N/A | N/A |
+| [codeblocks-common](./codeblocks-common) | amd64  | ubuntu-noble | 20.03+svn13046-0.3build2-20250327 | 失败 | N/A | N/A |
+| [codelite](./codelite) | amd64  | ubuntu-noble | 17.0.0+dfsg-2build2 | ![screen0-5.jpg](./codelite/tests/screen0-5.jpg) | N/A | N/A |
+| [codfis](./codfis) | amd64  | ubuntu-noble | 0.4.7-2build4 | ![screen0-5.jpg](./codfis/tests/screen0-5.jpg) | N/A | N/A |
+| [colmap](./colmap) | amd64  | ubuntu-noble | 3.9.1-2build2 | ![screen0-5.jpg](./colmap/tests/screen0-5.jpg) | N/A | N/A |
+| [colobot](./colobot) | amd64  | ubuntu-noble | 0.2.1-1build3 | ![screen0-5.jpg](./colobot/tests/screen0-5.jpg) | N/A | N/A |
+| [color-picker](./color-picker) | amd64  | ubuntu-noble | 1.0.3-2ubuntu3 | ![screen0-5.jpg](./color-picker/tests/screen0-5.jpg) | N/A | N/A |
+| [colorcode](./colorcode) | amd64  | ubuntu-noble | 0.8.7-1build2 | ![screen0-5.jpg](./colorcode/tests/screen0-5.jpg) | N/A | N/A |
+| [colord-kde](./colord-kde) | amd64  | ubuntu-noble | 23.08.5-0ubuntu4-20250327 | 失败 | N/A | N/A |
+| [colorhug-client](./colorhug-client) | amd64  | ubuntu-noble | 0.2.8-3build4 | ![screen0-5.jpg](./colorhug-client/tests/screen0-5.jpg) ![screen1-5.jpg](./colorhug-client/tests/screen1-5.jpg) ![screen2-5.jpg](./colorhug-client/tests/screen2-5.jpg) ![screen3-5.jpg](./colorhug-client/tests/screen3-5.jpg) | N/A | N/A |
+| [colossal-cave-adventure](./colossal-cave-adventure) | amd64  | ubuntu-noble | 1.6-1 | ![screen0-5.jpg](./colossal-cave-adventure/tests/screen0-5.jpg) | N/A | N/A |
+| [com-huashuoaf-finger](./com-huashuoaf-finger) | amd64  | deepin-v23 | 1.0.0.3 | ![screen0-5.jpg](./com-huashuoaf-finger/tests/screen0-5.jpg) | [SHA256](./com-huashuoaf-finger/SHA256SUMS) | N/A |
+| [com.arc-uds.smartscan](./com.arc-uds.smartscan) | amd64  | deepin-v23 | 3.1.0.1 | ![screen0-5.jpg](./com.arc-uds.smartscan/tests/screen0-5.jpg) | [SHA256](./com.arc-uds.smartscan/SHA256SUMS) | N/A |
+| [com.avision.a4pq-series](./com.avision.a4pq-series) | amd64  | deepin-v23 | 1.0.0-23293 | ![screen0-5.jpg](./com.avision.a4pq-series/tests/screen0-5.jpg) ![screen1-5.jpg](./com.avision.a4pq-series/tests/screen1-5.jpg) | [SHA256](./com.avision.a4pq-series/SHA256SUMS) | N/A |
+| [com.avision.avision-sane](./com.avision.avision-sane) | amd64  | deepin-v23 | 20231120-8.6.10.020-20250327 | 失败 | N/A | N/A |
+| [com.bhyf.bhpainter](./com.bhyf.bhpainter) | amd64  | deepin-v23 | 2020.12.01-1 | ![screen0-5.jpg](./com.bhyf.bhpainter/tests/screen0-5.jpg) ![screen1-5.jpg](./com.bhyf.bhpainter/tests/screen1-5.jpg) | [SHA256](./com.bhyf.bhpainter/SHA256SUMS) | N/A |
+| [com.binup.fingerprint](./com.binup.fingerprint) | amd64  | deepin-v23 | 1.0.0.1-20250327 | 失败 | N/A | N/A |
+| [com.bjnja.njaep3kgmutil](./com.bjnja.njaep3kgmutil) | amd64  | deepin-v23 | 1.0.2-20250327 | 失败 | N/A | N/A |
+| [com.btit.linuxaction](./com.btit.linuxaction) | amd64  | deepin-v23 | 3.1.10.24194-uosv20-20250327 | 失败 | N/A | N/A |
+| [com.canon.ufr2](./com.canon.ufr2) | amd64  | deepin-v23 | 6.00-1.00 | 失败 | [SHA256](./com.canon.ufr2/SHA256SUMS) | N/A |
+| [com.centerm.gwq](./com.centerm.gwq) | amd64  | deepin-v23 | 2021.1.29-1 | ![screen0-5.jpg](./com.centerm.gwq/tests/screen0-5.jpg) | [SHA256](./com.centerm.gwq/SHA256SUMS) | N/A |
+| [com.centerm.gwq.common](./com.centerm.gwq.common) | amd64  | deepin-v23 | 1.0.0.0-1-20250327 | 失败 | N/A | N/A |
+| [com.colortrac](./com.colortrac) | amd64  | deepin-v23 | 1.0.7-20250327 | 失败 | N/A | N/A |
+| [com.comet.comet-sane](./com.comet.comet-sane) | amd64  | deepin-v23 | 20240814-11.7.11.063-20250327 | 失败 | N/A | N/A |
+| [com.contexscan](./com.contexscan) | amd64  | deepin-v23 | 1.0.7-20250327 | 失败 | N/A | N/A |
+| [com.deepin.gomoku](./com.deepin.gomoku) | amd64  | deepin-v23 | 1.0.11 | ![screen0-5.jpg](./com.deepin.gomoku/tests/screen0-5.jpg) | [SHA256](./com.deepin.gomoku/SHA256SUMS) | N/A |
+| [com.deepin.lianliankan](./com.deepin.lianliankan) | amd64  | deepin-v23 | 1.0.12 | ![screen0-5.jpg](./com.deepin.lianliankan/tests/screen0-5.jpg) | [SHA256](./com.deepin.lianliankan/SHA256SUMS) | N/A |
+| [com.deepin.microbox-scanner](./com.deepin.microbox-scanner) | amd64  | deepin-v23 | 1.2.1-20250327 | 失败 | N/A | N/A |
+| [com.deli.camera](./com.deli.camera) | amd64  | deepin-v23 | 2.1.7.9-20250327 | 失败 | N/A | N/A |
+| [com.deli.printer-c111](./com.deli.printer-c111) | amd64  | deepin-v23 | 1.0.038-20250327 | 失败 | N/A | N/A |
+| [com.deli.printer-d11](./com.deli.printer-d11) | amd64  | deepin-v23 | 1.10-1 | 失败 | [SHA256](./com.deli.printer-d11/SHA256SUMS) | N/A |
+| [com.deli.printer-d21](./com.deli.printer-d21) | amd64  | deepin-v23 | 1.10-1 | 失败 | [SHA256](./com.deli.printer-d21/SHA256SUMS) | N/A |
+| [com.delichina.deliscan](./com.delichina.deliscan) | amd64  | deepin-v23 | 4.51.24520.23319 | 失败 | [SHA256](./com.delichina.deliscan/SHA256SUMS) | N/A |
+| [com.elineprint.e-gm3001-an-3in1](./com.elineprint.e-gm3001-an-3in1) | amd64  | deepin-v23 | 1.0.0-20206 | 失败 | [SHA256](./com.elineprint.e-gm3001-an-3in1/SHA256SUMS) | N/A |
+| [com.everfine.finger](./com.everfine.finger) | amd64  | deepin-v23 | 2021.11.5-1 | ![screen0-5.jpg](./com.everfine.finger/tests/screen0-5.jpg) ![screen1-5.jpg](./com.everfine.finger/tests/screen1-5.jpg) ![screen2-5.jpg](./com.everfine.finger/tests/screen2-5.jpg) | N/A | N/A |
+| [com.everspry.escaps](./com.everspry.escaps) | amd64  | deepin-v23 | 24.7.8.8 | ![screen0-5.jpg](./com.everspry.escaps/tests/screen0-5.jpg) | [SHA256](./com.everspry.escaps/SHA256SUMS) | N/A |
+| [com.farshine.ygdevservice](./com.farshine.ygdevservice) | amd64  | deepin-v23 | 2.5.2-20250327 | 失败 | N/A | N/A |
+| [com.fenglinkeji.scanner](./com.fenglinkeji.scanner) | amd64  | deepin-v23 | 0.0.1-1-20250327 | 失败 | N/A | N/A |
+| [com.founder.linuxaction](./com.founder.linuxaction) | amd64  | deepin-v23 | 2.1.96.24365-uosv20 | ![screen0-5.jpg](./com.founder.linuxaction/tests/screen0-5.jpg) | N/A | N/A |
+| [com.founderinternational.founder-sane](./com.founderinternational.founder-sane) | amd64  | deepin-v23 | 20240820-1.6.10.015-20250327 | 失败 | N/A | N/A |
+| [com.ftsafe.epass3000gm-spabank](./com.ftsafe.epass3000gm-spabank) | amd64  | deepin-v23 | 1.2.4-1+b1-20250327 | 失败 | N/A | N/A |
+| [com.ftsafe.epass3000gmg-hnxa](./com.ftsafe.epass3000gmg-hnxa) | amd64  | deepin-v23 | 1.0.1-1+b1 | ![screen0-5.jpg](./com.ftsafe.epass3000gmg-hnxa/tests/screen0-5.jpg) | N/A | N/A |
+| [com.ftsafe.interpass3000-cib](./com.ftsafe.interpass3000-cib) | amd64  | deepin-v23 | 1.0.16.d1-1+b1-uos-20250327 | 失败 | N/A | N/A |
+| [com.ftsafe.interpass3000-cmbc](./com.ftsafe.interpass3000-cmbc) | amd64  | deepin-v23 | 1.3.13.d0-1+b1 | ![screen0-5.jpg](./com.ftsafe.interpass3000-cmbc/tests/screen0-5.jpg) | N/A | N/A |
+| [com.ftsafe.interpass3000-lfbk](./com.ftsafe.interpass3000-lfbk) | amd64  | deepin-v23 | 1.0.7-1+b1 | ![screen0-5.jpg](./com.ftsafe.interpass3000-lfbk/tests/screen0-5.jpg) | N/A | N/A |
+| [com.ftsafe.interpass3000-nbbank](./com.ftsafe.interpass3000-nbbank) | amd64  | deepin-v23 | 1.0.9-20250327 | 失败 | N/A | N/A |
+| [com.ftsafe.interpass3000-rzbank](./com.ftsafe.interpass3000-rzbank) | amd64  | deepin-v23 | 1.0.1-1+b1-20250327 | 失败 | N/A | N/A |
+| [com.ftsafe.interpass3000-scb](./com.ftsafe.interpass3000-scb) | amd64  | deepin-v23 | 1.0.5-1+b1-20250327 | 失败 | N/A | N/A |
+| [com.ftsafe.interpass3000-wfbank](./com.ftsafe.interpass3000-wfbank) | amd64  | deepin-v23 | 1.0.0.d1-1+b1-20250327 | 失败 | N/A | N/A |
+| [com.ftsafe.interpass3000zjrc](./com.ftsafe.interpass3000zjrc) | amd64  | deepin-v23 | 1.2.21-1+b1 | ![screen0-5.jpg](./com.ftsafe.interpass3000zjrc/tests/screen0-5.jpg) | N/A | N/A |
+| [com.ftsafe.interpasscitic](./com.ftsafe.interpasscitic) | amd64  | deepin-v23 | 1.2.8-1+b1 | ![screen0-5.jpg](./com.ftsafe.interpasscitic/tests/screen0-5.jpg) | N/A | N/A |
+| [com.fujitsu.fsane](./com.fujitsu.fsane) | amd64  | deepin-v23 | 2.0.1-2-20250327 | 失败 | N/A | N/A |
+| [com.fytech.cfs300b](./com.fytech.cfs300b) | amd64  | deepin-v23 | 1.0.0 | ![screen0-5.jpg](./com.fytech.cfs300b/tests/screen0-5.jpg) | [SHA256](./com.fytech.cfs300b/SHA256SUMS) | N/A |
+| [com.fytech.pfs408](./com.fytech.pfs408) | amd64  | deepin-v23 | 2021.5.8 | ![screen0-5.jpg](./com.fytech.pfs408/tests/screen0-5.jpg) | [SHA256](./com.fytech.pfs408/SHA256SUMS) | N/A |
+| [com.fytech.ps1300](./com.fytech.ps1300) | amd64  | deepin-v23 | 1.0.0 | ![screen0-5.jpg](./com.fytech.ps1300/tests/screen0-5.jpg) | [SHA256](./com.fytech.ps1300/SHA256SUMS) | N/A |
+| [com.ggimage.ggimage-printer](./com.ggimage.ggimage-printer) | amd64  | deepin-v23 | 1.0.3-1+uos | 失败 | [SHA256](./com.ggimage.ggimage-printer/SHA256SUMS) | N/A |
+| [com.gmrz.fido](./com.gmrz.fido) | amd64  | deepin-v23 | 1.0.3.2-20250327 | 失败 | N/A | N/A |
+| [com.goke.gksecurity](./com.goke.gksecurity) | amd64  | deepin-v23 | 2.0.3-20250327 | 失败 | N/A | N/A |
+| [com.greatwalltech.greatwall-sane](./com.greatwalltech.greatwall-sane) | amd64  | deepin-v23 | 20240918-7.6.10.051-20250327 | 失败 | N/A | N/A |
+| [com.gwi.dpm760a-tool](./com.gwi.dpm760a-tool) | amd64  | deepin-v23 | 1.0.0 | ![screen0-5.jpg](./com.gwi.dpm760a-tool/tests/screen0-5.jpg) | [SHA256](./com.gwi.dpm760a-tool/SHA256SUMS) | N/A |
+| [com.haitaichina.htukeytool20079](./com.haitaichina.htukeytool20079) | amd64  | deepin-v23 | 1.0.0.2404081-20250327 | 失败 | N/A | N/A |
+| [com.hanguang.hgfchanguangprinter](./com.hanguang.hgfchanguangprinter) | amd64  | deepin-v23 | 1-1 | 失败 | [SHA256](./com.hanguang.hgfchanguangprinter/SHA256SUMS) | N/A |
+| [com.hanguang.hgfcscanner](./com.hanguang.hgfcscanner) | amd64  | deepin-v23 | 1-1 | 失败 | [SHA256](./com.hanguang.hgfcscanner/SHA256SUMS) | N/A |
+| [com.hanlongbj.omniscan](./com.hanlongbj.omniscan) | amd64  | deepin-v23 | 1 | 失败 | [SHA256](./com.hanlongbj.omniscan/SHA256SUMS) | N/A |
+| [com.hanwang.linuxaction-sdk](./com.hanwang.linuxaction-sdk) | amd64  | deepin-v23 | 2.1.53.22043-uosv20 | ![screen0-5.jpg](./com.hanwang.linuxaction-sdk/tests/screen0-5.jpg) | N/A | N/A |
+| [com.hsreader.demo](./com.hsreader.demo) | amd64  | deepin-v23 | 1.1.0-20250327 | 失败 | N/A | N/A |
+| [com.huagaochina.huagoscan](./com.huagaochina.huagoscan) | amd64  | deepin-v23 | 2.2.3-1+rc4 | ![screen0-5.jpg](./com.huagaochina.huagoscan/tests/screen0-5.jpg) | N/A | N/A |
+| [com.huawei.cv81-series](./com.huawei.cv81-series) | amd64  | deepin-v23 | 2.0-88 | ![screen0-5.jpg](./com.huawei.cv81-series/tests/screen0-5.jpg) | [SHA256](./com.huawei.cv81-series/SHA256SUMS) | N/A |
+| [com.hw.signdriver](./com.hw.signdriver) | amd64  | deepin-v23 | 1.0.0-20250327 | 失败 | N/A | N/A |
+| [com.hw99.hanvon-sane](./com.hw99.hanvon-sane) | amd64  | deepin-v23 | 20230206-9.6.10.053-20250327 | 失败 | N/A | N/A |
+| [com.jetbrains.irisking](./com.jetbrains.irisking) | amd64  | deepin-v23 | 2021.01.20-1-20250327 | 失败 | N/A | N/A |
+| [com.joyusing.gwq](./com.joyusing.gwq) | amd64  | deepin-v23 | 1.0.0-20250327 | 失败 | N/A | N/A |
+| [com.joyusing.visualizer](./com.joyusing.visualizer) | amd64  | deepin-v23 | 1.0.0-20250327 | 失败 | N/A | N/A |
+| [com.joyusing.w05](./com.joyusing.w05) | amd64  | deepin-v23 | 1.0.0-20250327 | 失败 | N/A | N/A |
+| [com.joyusing.writingpad](./com.joyusing.writingpad) | amd64  | deepin-v23 | 1.0.0-20250327 | 失败 | N/A | N/A |
+| [com.kinghun.kinghuncamera](./com.kinghun.kinghuncamera) | amd64  | deepin-v23 | 1.0.0-20250327 | 失败 | N/A | N/A |
+| [com.lanxum-ga-series](./com.lanxum-ga-series) | amd64  | deepin-v23 | 1.0.1 | 失败 | [SHA256](./com.lanxum-ga-series/SHA256SUMS) | N/A |
+| [com.lanxum.ga2630dn-psm-2in1](./com.lanxum.ga2630dn-psm-2in1) | amd64  | deepin-v23 | 1.0.0-20301 | 失败 | [SHA256](./com.lanxum.ga2630dn-psm-2in1/SHA256SUMS) | N/A |
+| [com.lanxum.ga30-psm-2in1](./com.lanxum.ga30-psm-2in1) | amd64  | deepin-v23 | 1.0.0-21032 | 失败 | [SHA256](./com.lanxum.ga30-psm-2in1/SHA256SUMS) | N/A |
+| [com.lanxum.ga7030dn-psm-2in1](./com.lanxum.ga7030dn-psm-2in1) | amd64  | deepin-v23 | 1.0.0-21034 | 失败 | [SHA256](./com.lanxum.ga7030dn-psm-2in1/SHA256SUMS) | N/A |
+| [com.lanxum.gasd06.printerdriver](./com.lanxum.gasd06.printerdriver) | amd64  | deepin-v23 | 1.0.0-5+0-20250327 | 失败 | N/A | N/A |
+| [com.lanxum.gd34xxdn](./com.lanxum.gd34xxdn) | amd64  | deepin-v23 | 3.3.0 | ![screen0-5.jpg](./com.lanxum.gd34xxdn/tests/screen0-5.jpg) | [SHA256](./com.lanxum.gd34xxdn/SHA256SUMS) | N/A |
+| [com.lanxum.linuxaction](./com.lanxum.linuxaction) | amd64  | deepin-v23 | 2.1.91.24084-uosv20 | ![screen0-5.jpg](./com.lanxum.linuxaction/tests/screen0-5.jpg) | N/A | N/A |
+| [com.lanxum.printdevicemanager](./com.lanxum.printdevicemanager) | amd64  | deepin-v23 | 2.0.0-2+0-20250327 | 失败 | N/A | N/A |
+| [com.lanxum.rongtuscan](./com.lanxum.rongtuscan) | amd64  | deepin-v23 | 2.0.9 | ![screen0-5.jpg](./com.lanxum.rongtuscan/tests/screen0-5.jpg) | N/A | N/A |
+| [com.lanxum.sp1800-1-driver](./com.lanxum.sp1800-1-driver) | amd64  | deepin-v23 | 1.1.0-20250327 | 失败 | N/A | N/A |
+| [com.lanxum.sp1800-1-tool](./com.lanxum.sp1800-1-tool) | amd64  | deepin-v23 | 1.1.0-20250327 | 失败 | N/A | N/A |
+| [com.lenovo.lenovo-gpy](./com.lenovo.lenovo-gpy) | amd64  | deepin-v23 | 2.1.7.3-20250327 | 失败 | N/A | N/A |
+| [com.microtek.scaner](./com.microtek.scaner) | amd64  | deepin-v23 | 1.0.0-9c-20250327 | 失败 | N/A | N/A |
+| [com.mindeo.scannertext](./com.mindeo.scannertext) | amd64  | deepin-v23 | 1.2.2.4 | ![screen0-5.jpg](./com.mindeo.scannertext/tests/screen0-5.jpg) | [SHA256](./com.mindeo.scannertext/SHA256SUMS) | N/A |
+| [com.mt.cnlinux](./com.mt.cnlinux) | amd64  | deepin-v23 | 1.0.0.3 | ![screen0-5.jpg](./com.mt.cnlinux/tests/screen0-5.jpg) | [SHA256](./com.mt.cnlinux/SHA256SUMS) | N/A |
+| [com.mt.cnsscard](./com.mt.cnsscard) | amd64  | deepin-v23 | 1.0.0.4 | ![screen0-5.jpg](./com.mt.cnsscard/tests/screen0-5.jpg) | [SHA256](./com.mt.cnsscard/SHA256SUMS) | N/A |
+| [com.nantian.bpport](./com.nantian.bpport) | amd64  | deepin-v23 | 1.0.0.20210910 | ![screen0-5.jpg](./com.nantian.bpport/tests/screen0-5.jpg) | N/A | N/A |
+| [com.nantian.clientscreen](./com.nantian.clientscreen) | amd64  | deepin-v23 | 1.0.2.02261802-20250327 | 失败 | N/A | N/A |
+| [com.nantian.mmjp](./com.nantian.mmjp) | amd64  | deepin-v23 | 1.0.0.20210312-20250327 | 失败 | N/A | N/A |
+| [com.nbdeli.deli-sane](./com.nbdeli.deli-sane) | amd64  | deepin-v23 | 20240820-5.7.10.027-20250327 | 失败 | N/A | N/A |
+| [com.ncmem.down2](./com.ncmem.down2) | amd64  | deepin-v23 | 2020.12.3-1 | ![screen0-5.jpg](./com.ncmem.down2/tests/screen0-5.jpg) | [SHA256](./com.ncmem.down2/SHA256SUMS) | N/A |
+| [com.ncmem.up6](./com.ncmem.up6) | amd64  | deepin-v23 | 2020.12.3-1 | 失败 | [SHA256](./com.ncmem.up6/SHA256SUMS) | N/A |
+| [com.ncmem.wordpaster](./com.ncmem.wordpaster) | amd64  | deepin-v23 | 2020.12.3-1 | 失败 | [SHA256](./com.ncmem.wordpaster/SHA256SUMS) | N/A |
+| [com.neutralchina.neuscan](./com.neutralchina.neuscan) | amd64  | deepin-v23 | 4.52.26520.24289 | ![screen0-5.jpg](./com.neutralchina.neuscan/tests/screen0-5.jpg) | N/A | N/A |
+| [com.pantum.pantum](./com.pantum.pantum) | amd64  | deepin-v23 | 7.4.182-1+uos-20250327 | 失败 | N/A | N/A |
+| [com.pantum.pantum-235-325-2165](./com.pantum.pantum-235-325-2165) | amd64  | deepin-v23 | 1.0.0ab02-1+uos | ![screen0-5.jpg](./com.pantum.pantum-235-325-2165/tests/screen0-5.jpg) ![screen2-5.jpg](./com.pantum.pantum-235-325-2165/tests/screen2-5.jpg) ![screen3-5.jpg](./com.pantum.pantum-235-325-2165/tests/screen3-5.jpg) | [SHA256](./com.pantum.pantum-235-325-2165/SHA256SUMS) | N/A |
+| [com.pantum.pantum-scan-assistant](./com.pantum.pantum-scan-assistant) | amd64  | deepin-v23 | 3.0.1-20250327 | 失败 | N/A | N/A |
+| [com.pantum.pantumprint](./com.pantum.pantumprint) | amd64  | deepin-v23 | 1.1.24-1+uos | ![screen1-5.jpg](./com.pantum.pantumprint/tests/screen1-5.jpg) | [SHA256](./com.pantum.pantumprint/SHA256SUMS) | N/A |
+| [com.plustek.linuxaction](./com.plustek.linuxaction) | amd64  | deepin-v23 | 3.0.3.22342-uosv20-20250327 | 失败 | N/A | N/A |
+| [com.racertech.usbdisp](./com.racertech.usbdisp) | amd64  | deepin-v23 | 1.0.0-1-20250327 | 失败 | N/A | N/A |
+| [com.ricoh.pfu.fsane](./com.ricoh.pfu.fsane) | amd64  | deepin-v23 | 4.0.1-1-20250327 | 失败 | N/A | N/A |
+| [com.rightcolor](./com.rightcolor) | amd64  | deepin-v23 | 1.0.7-20250327 | 失败 | N/A | N/A |
+| [com.scanner.hanguang](./com.scanner.hanguang) | amd64  | deepin-v23 | 1.0-1-20250327 | 失败 | N/A | N/A |
+| [com.semxum.aisystem](./com.semxum.aisystem) | amd64  | deepin-v23 | 1.0.0-2+b1 | ![screen0-5.jpg](./com.semxum.aisystem/tests/screen0-5.jpg) | [SHA256](./com.semxum.aisystem/SHA256SUMS) | N/A |
+| [com.shensi.websocket](./com.shensi.websocket) | amd64  | deepin-v23 | 1.58 | ![screen0-5.jpg](./com.shensi.websocket/tests/screen0-5.jpg) | N/A | N/A |
+| [com.sogou.ime.ng.fcitx5.deepin](./com.sogou.ime.ng.fcitx5.deepin) | amd64  | deepin-v23 | 10.0.9.0.8-981 | 失败 | [SHA256](./com.sogou.ime.ng.fcitx5.deepin/SHA256SUMS) | N/A |
+| [com.sunrise.demo](./com.sunrise.demo) | amd64  | deepin-v23 | 2.2.2-20250327 | 失败 | N/A | N/A |
+| [com.sunrise.device](./com.sunrise.device) | amd64  | deepin-v23 | 2020.09.15-1-20250327 | 失败 | N/A | N/A |
+| [com.sxylzinfo.sxsscardsv](./com.sxylzinfo.sxsscardsv) | amd64  | deepin-v23 | 3.5.15 | ![screen0-5.jpg](./com.sxylzinfo.sxsscardsv/tests/screen0-5.jpg) | N/A | N/A |
+| [com.szshenshu.aidemo](./com.szshenshu.aidemo) | amd64  | deepin-v23 | 2022.01.11-1 | ![screen0-5.jpg](./com.szshenshu.aidemo/tests/screen0-5.jpg) | [SHA256](./com.szshenshu.aidemo/SHA256SUMS) | N/A |
+| [com.tdr.uosicbc](./com.tdr.uosicbc) | amd64  | deepin-v23 | 9.0.6-5-20250327 | 失败 | N/A | N/A |
+| [com.tg.aqdl](./com.tg.aqdl) | amd64  | deepin-v23 | 4.1.0.1-20250327 | 失败 | N/A | N/A |
+| [com.toec.oem3000dn](./com.toec.oem3000dn) | amd64  | deepin-v23 | 2.6-4 | ![screen0-5.jpg](./com.toec.oem3000dn/tests/screen0-5.jpg) | N/A | N/A |
+| [com.toec.toeca3oemseries](./com.toec.toeca3oemseries) | amd64  | deepin-v23 | 1.0 | 失败 | [SHA256](./com.toec.toeca3oemseries/SHA256SUMS) | N/A |
+| [com.toec.toeca3series](./com.toec.toeca3series) | amd64  | deepin-v23 | 2.5-7.1 | 失败 | [SHA256](./com.toec.toeca3series/SHA256SUMS) | N/A |
+| [com.toec.toeca4faxseries](./com.toec.toeca4faxseries) | amd64  | deepin-v23 | 2.6-4.1 | 失败 | [SHA256](./com.toec.toeca4faxseries/SHA256SUMS) | N/A |
+| [com.toec.toeca4printer](./com.toec.toeca4printer) | amd64  | deepin-v23 | 1.0-18.2 | 失败 | [SHA256](./com.toec.toeca4printer/SHA256SUMS) | N/A |
+| [com.toec.toeca4series](./com.toec.toeca4series) | amd64  | deepin-v23 | 2.7-3 | 失败 | [SHA256](./com.toec.toeca4series/SHA256SUMS) | N/A |
+| [com.toec.toecmyseries](./com.toec.toecmyseries) | amd64  | deepin-v23 | 3.0.0.11 | 失败 | [SHA256](./com.toec.toecmyseries/SHA256SUMS) | N/A |
+| [com.toec.toecrlseries](./com.toec.toecrlseries) | amd64  | deepin-v23 | 1.1-7 | 失败 | [SHA256](./com.toec.toecrlseries/SHA256SUMS) | N/A |
+| [com.toec.toecrlwseries](./com.toec.toecrlwseries) | amd64  | deepin-v23 | 1.1-1 | 失败 | [SHA256](./com.toec.toecrlwseries/SHA256SUMS) | N/A |
+| [com.toec.toecscanner](./com.toec.toecscanner) | amd64  | deepin-v23 | 2.6-4-20250327 | 失败 | N/A | N/A |
+| [com.tr.gpyapp](./com.tr.gpyapp) | amd64  | deepin-v23 | 1.0.0.2 | ![screen0-5.jpg](./com.tr.gpyapp/tests/screen0-5.jpg) | [SHA256](./com.tr.gpyapp/SHA256SUMS) | N/A |
+| [com.utel.uboxweb](./com.utel.uboxweb) | amd64  | deepin-v23 | 1.0.0.10-20250327 | 失败 | N/A | N/A |
+| [com.wendouscanner](./com.wendouscanner) | amd64  | deepin-v23 | 1.1 | 失败 | [SHA256](./com.wendouscanner/SHA256SUMS) | N/A |
+| [com.winmage.winmage-sane](./com.winmage.winmage-sane) | amd64  | deepin-v23 | 20240911-4.6.10.053-20250327 | 失败 | N/A | N/A |
+| [com.winuim.wmr06](./com.winuim.wmr06) | amd64  | deepin-v23 | 1.0.0.4-1 | ![screen0-5.jpg](./com.winuim.wmr06/tests/screen0-5.jpg) | [SHA256](./com.winuim.wmr06/SHA256SUMS) | N/A |
+| [com.wsd.gpy](./com.wsd.gpy) | amd64  | deepin-v23 | 1.0.26-20250327 | 失败 | N/A | N/A |
+| [com.yjcloud.asr.agent](./com.yjcloud.asr.agent) | amd64  | deepin-v23 | 5.0.0 | 失败 | [SHA256](./com.yjcloud.asr.agent/SHA256SUMS) | N/A |
+| [com.za.ld8800](./com.za.ld8800) | amd64  | deepin-v23 | 3.0.1.2 | ![screen0-5.jpg](./com.za.ld8800/tests/screen0-5.jpg) | [SHA256](./com.za.ld8800/SHA256SUMS) | N/A |
+| [com.za.zaz301](./com.za.zaz301) | amd64  | deepin-v23 | 3.0.1.2 | ![screen0-5.jpg](./com.za.zaz301/tests/screen0-5.jpg) | [SHA256](./com.za.zaz301/SHA256SUMS) | N/A |
+| [com.zebra.jaguardriver](./com.zebra.jaguardriver) | amd64  | deepin-v23 | 1.0.0.0 | 失败 | [SHA256](./com.zebra.jaguardriver/SHA256SUMS) | N/A |
+| [com.zhiankeji.hs108](./com.zhiankeji.hs108) | amd64  | deepin-v23 | 1.0.1-1 | 失败 | [SHA256](./com.zhiankeji.hs108/SHA256SUMS) | N/A |
+| [com.zhiankeji.hs110](./com.zhiankeji.hs110) | amd64  | deepin-v23 | 1.0.1-1 | 失败 | [SHA256](./com.zhiankeji.hs110/SHA256SUMS) | N/A |
+| [com.ztsave.ztfinger](./com.ztsave.ztfinger) | amd64  | deepin-v23 | 1.0.0-1 | ![screen0-5.jpg](./com.ztsave.ztfinger/tests/screen0-5.jpg) | [SHA256](./com.ztsave.ztfinger/SHA256SUMS) | N/A |
+| [compiz-boxmenu](./compiz-boxmenu) | amd64  | ubuntu-noble | 1.1.12-7build2-20250327 | 失败 | N/A | N/A |
+| [compiz-core](./compiz-core) | amd64  | ubuntu-noble | 0.9.14.2+22.10.20220822-0ubuntu12-20250327 | 失败 | N/A | N/A |
+| [compizconfig-settings-manager](./compizconfig-settings-manager) | amd64  | ubuntu-noble | 0.9.14.2+22.10.20220822-0ubuntu12-20250327 | 失败 | N/A | N/A |
+| [comptext](./comptext) | amd64  | ubuntu-noble | 1.0.1-6build2 | ![screen0-5.jpg](./comptext/tests/screen0-5.jpg) | N/A | N/A |
+| [compton](./compton) | amd64  | ubuntu-noble | 1-3 | ![screen0-5.jpg](./compton/tests/screen0-5.jpg) | N/A | N/A |
+| [compton-conf](./compton-conf) | amd64  | ubuntu-noble | 0.16.0-1ubuntu3 | ![screen0-5.jpg](./compton-conf/tests/screen0-5.jpg) | N/A | N/A |
+| [comptty](./comptty) | amd64  | ubuntu-noble | 1.0.1-5build2 | ![screen0-5.jpg](./comptty/tests/screen0-5.jpg) | N/A | N/A |
+| [confclerk](./confclerk) | amd64  | ubuntu-noble | 0.7.1-1build2 | ![screen0-5.jpg](./confclerk/tests/screen0-5.jpg) | N/A | N/A |
+| [configure-debian](./configure-debian) | amd64  | ubuntu-noble | 1.0.3+nmu3-20250327 | 失败 | N/A | N/A |
+| [confy](./confy) | amd64  | ubuntu-noble | 0.7.0-1-20250327 | 失败 | N/A | N/A |
+| [congruity](./congruity) | amd64  | ubuntu-noble | 21-1 | ![screen0-5.jpg](./congruity/tests/screen0-5.jpg) | N/A | N/A |
+| [conky-all](./conky-all) | amd64  | deepin-v23 | 1.21.1-1-20250327 | 失败 | N/A | N/A |
+| [conky-cli](./conky-cli) | amd64  | deepin-v23 | 1.21.1-1 | 失败 | [SHA256](./conky-cli/SHA256SUMS) | N/A |
+| [conky-std](./conky-std) | amd64  | deepin-v23 | 1.21.1-1 | 失败 | [SHA256](./conky-std/SHA256SUMS) | N/A |
+| [connectagram](./connectagram) | amd64  | ubuntu-noble | 1.3.5-2build1 | ![screen0-5.jpg](./connectagram/tests/screen0-5.jpg) | N/A | N/A |
+| [connectome-workbench](./connectome-workbench) | amd64  | ubuntu-noble | 1.5.0-2build2 | ![screen0-5.jpg](./connectome-workbench/tests/screen0-5.jpg) | N/A | N/A |
+| [connman-gtk](./connman-gtk) | amd64  | ubuntu-noble | 1.1.1+git20180626.b72c6ab-3build2 | ![screen0-5.jpg](./connman-gtk/tests/screen0-5.jpg) | N/A | N/A |
+| [content-hub](./content-hub) | amd64  | ubuntu-noble | 1.1.1-1build5-20250327 | 失败 | N/A | N/A |
+| [content-hub-testability](./content-hub-testability) | amd64  | ubuntu-noble | 1.1.1-1build5 | ![screen0-5.jpg](./content-hub-testability/tests/screen0-5.jpg) ![screen1-5.jpg](./content-hub-testability/tests/screen1-5.jpg) ![screen2-5.jpg](./content-hub-testability/tests/screen2-5.jpg) | N/A | N/A |
+| [converseen](./converseen) | amd64  | ubuntu-noble | 0.12.1.0-1build2 | ![screen0-5.jpg](./converseen/tests/screen0-5.jpg) | N/A | N/A |
+| [convertall](./convertall) | amd64  | ubuntu-noble | 0.8.0-2 | ![screen0-5.jpg](./convertall/tests/screen0-5.jpg) | N/A | N/A |
+| [cool-retro-term](./cool-retro-term) | amd64  | ubuntu-noble | 1.2.0+ds2-2build2 | ![screen0-5.jpg](./cool-retro-term/tests/screen0-5.jpg) | N/A | N/A |
+| [copyq](./copyq) | amd64  | ubuntu-noble | 7.1.0-1build2 | ![screen0-5.jpg](./copyq/tests/screen0-5.jpg) | N/A | N/A |
+| [coqide](./coqide) | amd64  | ubuntu-noble | 8.18.0+dfsg-1build2 | ![screen0-5.jpg](./coqide/tests/screen0-5.jpg) | N/A | N/A |
+| [corectrl](./corectrl) | amd64  | ubuntu-noble | 1.3.11+ds-1build1-20250327 | 失败 | N/A | N/A |
+| [corsix-th](./corsix-th) | amd64  | ubuntu-noble | 0.67-1 | ![screen0-5.jpg](./corsix-th/tests/screen0-5.jpg) | N/A | N/A |
+| [cppcheck-gui](./cppcheck-gui) | amd64  | ubuntu-noble | 2.13.0-2ubuntu3 | ![screen0-5.jpg](./cppcheck-gui/tests/screen0-5.jpg) | N/A | N/A |
+| [cpu-x](./cpu-x) | amd64  | ubuntu-noble | 5.0.3-2build2 | ![screen0-5.jpg](./cpu-x/tests/screen0-5.jpg) | N/A | N/A |
+| [cpupower-gui](./cpupower-gui) | amd64  | ubuntu-noble | 0.7.2-2.1ubuntu2-20250327 | 失败 | N/A | N/A |
+| [cqrlog](./cqrlog) | amd64  | ubuntu-noble | 2.5.2-3ubuntu2 | ![screen0-5.jpg](./cqrlog/tests/screen0-5.jpg) | N/A | N/A |
+| [crack-attack](./crack-attack) | amd64  | ubuntu-noble | 1.1.14-9.2build2 | ![screen0-5.jpg](./crack-attack/tests/screen0-5.jpg) | N/A | N/A |
+| [crawl](./crawl) | amd64  | ubuntu-noble | 0.28.0-1.1-20250327 | 失败 | N/A | N/A |
+| [crawl-tiles](./crawl-tiles) | amd64  | ubuntu-noble | 0.28.0-1.1 | ![screen0-5.jpg](./crawl-tiles/tests/screen0-5.jpg) | N/A | N/A |
+| [cream](./cream) | amd64  | ubuntu-noble | 0.43-3.1-20250327 | 失败 | N/A | N/A |
+| [crimson](./crimson) | amd64  | ubuntu-noble | 0.5.2-1.1build2 | ![screen0-5.jpg](./crimson/tests/screen0-5.jpg) | N/A | N/A |
+| [crispy-doom](./crispy-doom) | amd64  | ubuntu-noble | 6.0-2build2 | ![screen0-5.jpg](./crispy-doom/tests/screen0-5.jpg) ![screen3-5.jpg](./crispy-doom/tests/screen3-5.jpg) ![screen5-5.jpg](./crispy-doom/tests/screen5-5.jpg) | N/A | N/A |
+| [criticalmass](./criticalmass) | amd64  | ubuntu-noble | 1.0.2-4build3-20250327 | 失败 | N/A | N/A |
+| [critterding](./critterding) | amd64  | ubuntu-noble | 1.0-beta12.1-1.3build1 | ![screen0-5.jpg](./critterding/tests/screen0-5.jpg) | N/A | N/A |
+| [cronometer](./cronometer) | amd64  | ubuntu-noble | 0.9.9+dfsg1-1-20250327 | 失败 | N/A | N/A |
+| [crossfire-client](./crossfire-client) | amd64  | ubuntu-noble | 1.75.0-2build4 | ![screen0-5.jpg](./crossfire-client/tests/screen0-5.jpg) | N/A | N/A |
+| [crow-translate](./crow-translate) | amd64  | ubuntu-noble | 2.11.1+git20240108+ds-1build2 | ![screen0-5.jpg](./crow-translate/tests/screen0-5.jpg) | N/A | N/A |
+| [crrcsim](./crrcsim) | amd64  | ubuntu-noble | 0.9.13-3.2build2 | ![screen0-5.jpg](./crrcsim/tests/screen0-5.jpg) | N/A | N/A |
+| [crystal-facet-uml](./crystal-facet-uml) | amd64  | ubuntu-noble | 1.55.3-1build2 | ![screen0-5.jpg](./crystal-facet-uml/tests/screen0-5.jpg) | N/A | N/A |
+| [csoundqt](./csoundqt) | amd64  | ubuntu-noble | 1.1.1+dfsg0-1build2 | ![screen0-5.jpg](./csoundqt/tests/screen0-5.jpg) | N/A | N/A |
+| [ctsim](./ctsim) | amd64  | ubuntu-noble | 6.0.2-6build3 | ![screen0-5.jpg](./ctsim/tests/screen0-5.jpg) | N/A | N/A |
+| [cube2-data](./cube2-data) | amd64  | ubuntu-noble | 1.3-1 | ![screen0-5.jpg](./cube2-data/tests/screen0-5.jpg) | N/A | N/A |
+| [cubicsdr](./cubicsdr) | amd64  | ubuntu-noble | 0.2.7+dfsg-2build3 | ![screen0-5.jpg](./cubicsdr/tests/screen0-5.jpg) | N/A | N/A |
+| [cultivation](./cultivation) | amd64  | ubuntu-noble | 9+dfsg1-2build5 | ![screen0-5.jpg](./cultivation/tests/screen0-5.jpg) | N/A | N/A |
+| [curtain](./curtain) | amd64  | ubuntu-noble | 0.3-1.1build3 | ![screen0-5.jpg](./curtain/tests/screen0-5.jpg) | N/A | N/A |
+| [cutecom](./cutecom) | amd64  | ubuntu-noble | 0.51.0-1build2 | ![screen0-5.jpg](./cutecom/tests/screen0-5.jpg) | N/A | N/A |
+| [cutemaze](./cutemaze) | amd64  | ubuntu-noble | 1.3.2-1build2 | ![screen0-5.jpg](./cutemaze/tests/screen0-5.jpg) | N/A | N/A |
+| [cutesdr](./cutesdr) | amd64  | ubuntu-noble | 1.20-4build2 | ![screen0-5.jpg](./cutesdr/tests/screen0-5.jpg) | N/A | N/A |
+| [cuyo](./cuyo) | amd64  | ubuntu-noble | 2.1.0-1build1 | ![screen0-5.jpg](./cuyo/tests/screen0-5.jpg) | N/A | N/A |
+| [cycle](./cycle) | amd64  | ubuntu-noble | 0.3.3-1-20250327 | 失败 | N/A | N/A |
+| [cyclograph-gtk3](./cyclograph-gtk3) | amd64  | ubuntu-noble | 1.9.1-1.2-20250327 | 失败 | N/A | N/A |
+| [cyclograph-qt5](./cyclograph-qt5) | amd64  | ubuntu-noble | 1.9.1-1.2-20250327 | 失败 | N/A | N/A |
+| [cynthiune.app](./cynthiune.app) | amd64  | ubuntu-noble | 1.0.0-2build9 | ![screen0-5.jpg](./cynthiune.app/tests/screen0-5.jpg) | N/A | N/A |
+| [cytadela](./cytadela) | amd64  | ubuntu-noble | 1.1.0-4build1-20250327 | 失败 | N/A | N/A |
+| [d-feet](./d-feet) | amd64  | deepin-v23 | 0.3.16-3 | ![screen0-5.jpg](./d-feet/tests/screen0-5.jpg) | [SHA256](./d-feet/SHA256SUMS) | N/A |
+| [d-spy](./d-spy) | amd64  | ubuntu-noble | 1.10.0-1build1 | ![screen0-5.jpg](./d-spy/tests/screen0-5.jpg) | N/A | N/A |
+| [d1x-rebirth](./d1x-rebirth) | amd64  | ubuntu-noble | 0.58.1-1.2-20250327 | 失败 | N/A | N/A |
+| [d2x-rebirth](./d2x-rebirth) | amd64  | ubuntu-noble | 0.58.1-1.3-20250327 | 失败 | N/A | N/A |
+| [daisy-player](./daisy-player) | amd64  | ubuntu-noble | 13.0-4build2-20250327 | 失败 | N/A | N/A |
+| [dangen](./dangen) | amd64  | ubuntu-noble | 0.5-7 | ![screen0-5.jpg](./dangen/tests/screen0-5.jpg) | N/A | N/A |
+| [danmaq](./danmaq) | amd64  | ubuntu-noble | 0.2.3.2-2build2 | ![screen0-5.jpg](./danmaq/tests/screen0-5.jpg) | N/A | N/A |
+| [darkradiant](./darkradiant) | amd64  | ubuntu-noble | 3.8.0-2build4 | ![screen0-5.jpg](./darkradiant/tests/screen0-5.jpg) | N/A | N/A |
+| [darktable](./darktable) | amd64  | ubuntu-noble | 4.6.1-2ubuntu1 | ![screen0-5.jpg](./darktable/tests/screen0-5.jpg) | N/A | N/A |
+| [darnwdl](./darnwdl) | amd64  | ubuntu-noble | 0.8-1build1 | ![screen0-5.jpg](./darnwdl/tests/screen0-5.jpg) | N/A | N/A |
+| [dasher](./dasher) | amd64  | ubuntu-noble | 5.0.0~beta~repack2-4build3 | ![screen0-5.jpg](./dasher/tests/screen0-5.jpg) | N/A | N/A |
+| [davegnukem](./davegnukem) | amd64  | ubuntu-noble | 1.0.3-4 | ![screen0-5.jpg](./davegnukem/tests/screen0-5.jpg) | N/A | N/A |
+| [davmail](./davmail) | amd64  | ubuntu-noble | 6.2.1.3496-1 | ![screen0-5.jpg](./davmail/tests/screen0-5.jpg) | N/A | N/A |
+| [dawg](./dawg) | amd64  | ubuntu-noble | 1.2-4-20250327 | 失败 | N/A | N/A |
+| [dclock](./dclock) | amd64  | ubuntu-noble | 2.2.2-14build2 | ![screen0-5.jpg](./dclock/tests/screen0-5.jpg) | N/A | N/A |
+| [dconf-editor](./dconf-editor) | amd64  | ubuntu-noble | 45.0.1-1build2 | ![screen0-5.jpg](./dconf-editor/tests/screen0-5.jpg) | N/A | N/A |
+| [ddcui](./ddcui) | amd64  | ubuntu-noble | 0.3.0-1build3 | ![screen0-5.jpg](./ddcui/tests/screen0-5.jpg) | N/A | N/A |
+| [ddd](./ddd) | amd64  | ubuntu-noble | 3.3.12-5.4build2 | ![screen0-5.jpg](./ddd/tests/screen0-5.jpg) | N/A | N/A |
+| [dde-calendar](./dde-calendar) | amd64  | deepin-v23 | 5.14.7-20250327 | 失败 | N/A | N/A |
+| [dde-control-center](./dde-control-center) | amd64  | deepin-v23 | 6.0.75+deepin0+rb1-20250327 | 失败 | N/A | N/A |
+| [dde-cooperation](./dde-cooperation) | amd64  | deepin-v23 | 1.0.2-1 | ![screen0-5.jpg](./dde-cooperation/tests/screen0-5.jpg) | [SHA256](./dde-cooperation/SHA256SUMS) | N/A |
+| [dde-desktop](./dde-desktop) | amd64  | deepin-v23 | 6.5.10.4-20250327 | 失败 | N/A | N/A |
+| [dde-device-formatter](./dde-device-formatter) | amd64  | deepin-v23 | 0.0.1.16-20250327 | 失败 | N/A | N/A |
+| [dde-file-manager](./dde-file-manager) | amd64  | deepin-v23 | 6.5.10.4-20250327 | 失败 | N/A | N/A |
+| [dde-introduction](./dde-introduction) | amd64  | deepin-v23 | 7.0.9 | ![screen0-5.jpg](./dde-introduction/tests/screen0-5.jpg) | [SHA256](./dde-introduction/SHA256SUMS) | N/A |
+| [dde-printer](./dde-printer) | amd64  | deepin-v23 | 1.0.25-1+1060 | ![screen0-5.jpg](./dde-printer/tests/screen0-5.jpg) | N/A | N/A |
+| [dde-session-shell](./dde-session-shell) | amd64  | deepin-v23 | 6.0.23-20250327 | 失败 | N/A | N/A |
+| [dde-store](./dde-store) | amd64  | ubuntu-noble | 1.2.5-1build2-20250327 | 失败 | N/A | N/A |
+| [ddnet](./ddnet) | amd64  | ubuntu-noble | 16.4-1.2build5 | ![screen0-5.jpg](./ddnet/tests/screen0-5.jpg) | N/A | N/A |
+| [ddrescueview](./ddrescueview) | amd64  | ubuntu-noble | 0.4.5-2 | ![screen0-5.jpg](./ddrescueview/tests/screen0-5.jpg) | N/A | N/A |
+| [deb-gview](./deb-gview) | amd64  | ubuntu-noble | 0.3.7build2 | ![screen0-5.jpg](./deb-gview/tests/screen0-5.jpg) | N/A | N/A |
+| [debian-installer-launcher](./debian-installer-launcher) | amd64  | ubuntu-noble | 41 | ![screen0-5.jpg](./debian-installer-launcher/tests/screen0-5.jpg) | N/A | N/A |
+| [debian-reference-common](./debian-reference-common) | amd64  | ubuntu-noble | 2.122-20250327 | 失败 | N/A | N/A |
+| [deepin-album](./deepin-album) | amd64  | deepin-v23 | 5.10.25 | ![screen0-5.jpg](./deepin-album/tests/screen0-5.jpg) | [SHA256](./deepin-album/SHA256SUMS) | N/A |
+| [deepin-app-store](./deepin-app-store) | amd64  | deepin-v23 | 8.0.7.0010 | ![screen0-5.jpg](./deepin-app-store/tests/screen0-5.jpg) | [SHA256](./deepin-app-store/SHA256SUMS) | N/A |
+| [deepin-boot-maker](./deepin-boot-maker) | amd64  | deepin-v23 | 5.7.10-20250327 | 失败 | N/A | N/A |
+| [deepin-calculator](./deepin-calculator) | amd64  | deepin-v23 | 6.0.1 | ![screen0-5.jpg](./deepin-calculator/tests/screen0-5.jpg) | [SHA256](./deepin-calculator/SHA256SUMS) | N/A |
+| [deepin-camera](./deepin-camera) | amd64  | deepin-v23 | 6.5.5-20250327 | 失败 | N/A | N/A |
+| [deepin-compatibility-mode](./deepin-compatibility-mode) | amd64  | deepin-v23 | 0.1.2 | ![screen0-5.jpg](./deepin-compatibility-mode/tests/screen0-5.jpg) | N/A | N/A |
+| [deepin-compressor](./deepin-compressor) | amd64  | deepin-v23 | 6.0.2 | ![screen0-5.jpg](./deepin-compressor/tests/screen0-5.jpg) | [SHA256](./deepin-compressor/SHA256SUMS) | N/A |
+| [deepin-data-transfer](./deepin-data-transfer) | amd64  | deepin-v23 | 1.0.2-1 | ![screen0-5.jpg](./deepin-data-transfer/tests/screen0-5.jpg) | [SHA256](./deepin-data-transfer/SHA256SUMS) | N/A |
+| [deepin-deb-installer](./deepin-deb-installer) | amd64  | deepin-v23 | 6.5.0-20250327 | 失败 | N/A | N/A |
+| [deepin-devicemanager](./deepin-devicemanager) | amd64  | deepin-v23 | 6.0.28-20250327 | 失败 | N/A | N/A |
+| [deepin-diskmanager](./deepin-diskmanager) | amd64  | deepin-v23 | 1.4.1 | ![screen0-5.jpg](./deepin-diskmanager/tests/screen0-5.jpg) | [SHA256](./deepin-diskmanager/SHA256SUMS) | N/A |
+| [deepin-distrobox-ubuntu](./deepin-distrobox-ubuntu) | amd64  | deepin-v23 | 0 | ![screen0-5.jpg](./deepin-distrobox-ubuntu/tests/screen0-5.jpg) | N/A | N/A |
+| [deepin-draw](./deepin-draw) | amd64  | deepin-v23 | 7.0.4 | ![screen0-5.jpg](./deepin-draw/tests/screen0-5.jpg) | [SHA256](./deepin-draw/SHA256SUMS) | N/A |
+| [deepin-editor](./deepin-editor) | amd64  | deepin-v23 | 6.5.7 | ![screen0-5.jpg](./deepin-editor/tests/screen0-5.jpg) | N/A | N/A |
+| [deepin-feedback](./deepin-feedback) | amd64  | deepin-v23 | 6.0.0-20250327 | 失败 | N/A | N/A |
+| [deepin-font-manager](./deepin-font-manager) | amd64  | deepin-v23 | 6.5.3-20250327 | 失败 | N/A | N/A |
+| [deepin-home](./deepin-home) | amd64  | deepin-v23 | 1.6.3 | ![screen0-5.jpg](./deepin-home/tests/screen0-5.jpg) | N/A | N/A |
+| [deepin-image-viewer](./deepin-image-viewer) | amd64  | deepin-v23 | 5.9.20 | ![screen0-5.jpg](./deepin-image-viewer/tests/screen0-5.jpg) | [SHA256](./deepin-image-viewer/SHA256SUMS) | N/A |
+| [deepin-log-viewer](./deepin-log-viewer) | amd64  | deepin-v23 | 6.5.2 | ![screen0-5.jpg](./deepin-log-viewer/tests/screen0-5.jpg) | [SHA256](./deepin-log-viewer/SHA256SUMS) | N/A |
+| [deepin-mail](./deepin-mail) | amd64  | deepin-v23 | 6.4.10-20250327 | 失败 | N/A | N/A |
+| [deepin-manual](./deepin-manual) | amd64  | deepin-v23 | 6.5.6.1-20250327 | 失败 | N/A | N/A |
+| [deepin-movie](./deepin-movie) | amd64  | deepin-v23 | 6.0.13-1-20250327 | 失败 | N/A | N/A |
+| [deepin-music](./deepin-music) | amd64  | deepin-v23 | 6.2.40-20250327 | 失败 | N/A | N/A |
+| [deepin-ocr](./deepin-ocr) | amd64  | deepin-v23 | 1.1.2-20250327 | 失败 | N/A | N/A |
+| [deepin-picker](./deepin-picker) | amd64  | deepin-v23 | 6.0.1-20250327 | 失败 | N/A | N/A |
+| [deepin-reader](./deepin-reader) | amd64  | deepin-v23 | 6.5.2-20250327 | 失败 | N/A | N/A |
+| [deepin-screen-recorder](./deepin-screen-recorder) | amd64  | deepin-v23 | 6.0.9+deepin0+rb1-20250327 | 失败 | N/A | N/A |
+| [deepin-system-monitor](./deepin-system-monitor) | amd64  | deepin-v23 | 6.5.2 | ![screen0-5.jpg](./deepin-system-monitor/tests/screen0-5.jpg) | [SHA256](./deepin-system-monitor/SHA256SUMS) | N/A |
+| [deepin-system-upgrade](./deepin-system-upgrade) | amd64  | deepin-v23 | 6.0.3 | ![screen0-5.jpg](./deepin-system-upgrade/tests/screen0-5.jpg) | [SHA256](./deepin-system-upgrade/SHA256SUMS) | N/A |
+| [deepin-terminal](./deepin-terminal) | amd64  | deepin-v23 | 6.0.16 | ![screen0-5.jpg](./deepin-terminal/tests/screen0-5.jpg) | N/A | N/A |
+| [deepin-unioncode](./deepin-unioncode) | amd64  | deepin-v23 | 1.4.8-1-20250327 | 失败 | N/A | N/A |
+| [deepin-voice-note](./deepin-voice-note) | amd64  | deepin-v23 | 6.0.17-20250327 | 失败 | N/A | N/A |
+| [deja-dup](./deja-dup) | amd64  | ubuntu-noble | 45.2-1build2 | ![screen0-5.jpg](./deja-dup/tests/screen0-5.jpg) | N/A | N/A |
+| [deli-printer-a111](./deli-printer-a111) | amd64  | deepin-v23 | 1.1.022-20250327 | 失败 | N/A | N/A |
+| [dell-recovery](./dell-recovery) | amd64  | ubuntu-noble | 1.66-20250327 | 失败 | N/A | N/A |
+| [deluge-gtk](./deluge-gtk) | amd64  | ubuntu-noble | 2.1.2~dev0+20240121-1-20250327 | 失败 | N/A | N/A |
+| [denemo](./denemo) | amd64  | ubuntu-noble | 2.6.18-1build3-20250327 | 失败 | N/A | N/A |
+| [desktopfolder](./desktopfolder) | amd64  | ubuntu-noble | 1.1.3-3build2 | ![screen0-5.jpg](./desktopfolder/tests/screen0-5.jpg) | N/A | N/A |
+| [devede](./devede) | amd64  | ubuntu-noble | 4.17.0-1-20250327 | 失败 | N/A | N/A |
+| [developers-reference](./developers-reference) | amd64  | ubuntu-noble | 13.4-20250327 | 失败 | N/A | N/A |
+| [devhelp](./devhelp) | amd64  | ubuntu-noble | 43.0-4build3 | ![screen0-5.jpg](./devhelp/tests/screen0-5.jpg) | N/A | N/A |
+| [dfcgen-gtk](./dfcgen-gtk) | amd64  | ubuntu-noble | 0.6-2build2 | ![screen0-5.jpg](./dfcgen-gtk/tests/screen0-5.jpg) | N/A | N/A |
+| [dgedit](./dgedit) | amd64  | ubuntu-noble | 0.10.0-2build3 | ![screen0-5.jpg](./dgedit/tests/screen0-5.jpg) | N/A | N/A |
+| [dhelp](./dhelp) | amd64  | ubuntu-noble | 0.6.30-20250327 | 失败 | N/A | N/A |
+| [dhewm3-d3xp](./dhewm3-d3xp) | amd64  | ubuntu-noble | 1.5.2+dfsg-1build2-20250327 | 失败 | N/A | N/A |
+| [dhewm3-doom3](./dhewm3-doom3) | amd64  | ubuntu-noble | 1.5.2+dfsg-1build2-20250327 | 失败 | N/A | N/A |
+| [dia](./dia) | amd64  | ubuntu-noble | 0.98+git20240130-1build4-20250327 | 失败 | N/A | N/A |
+| [dialect](./dialect) | amd64  | ubuntu-noble | 2.1.1+~2.1.1-1-20250327 | 失败 | N/A | N/A |
+| [dianara](./dianara) | amd64  | ubuntu-noble | 1.4.4-1build2 | ![screen0-5.jpg](./dianara/tests/screen0-5.jpg) | N/A | N/A |
+| [dictionaryreader.app](./dictionaryreader.app) | amd64  | ubuntu-noble | 0+20080616+dfsg-2.1build1 | ![screen0-5.jpg](./dictionaryreader.app/tests/screen0-5.jpg) | N/A | N/A |
+| [diffpdf](./diffpdf) | amd64  | ubuntu-noble | 2.1.3.1-2build3 | ![screen0-5.jpg](./diffpdf/tests/screen0-5.jpg) | N/A | N/A |
+| [diffuse](./diffuse) | amd64  | ubuntu-noble | 0.8.2-1ubuntu1.1-20250327 | 失败 | N/A | N/A |
+| [digikam](./digikam) | amd64  | ubuntu-noble | 8.2.0-0ubuntu6.2 | ![screen0-5.jpg](./digikam/tests/screen0-5.jpg) | N/A | N/A |
+| [dillo](./dillo) | amd64  | ubuntu-noble | 3.0.5-7build5 | ![screen0-5.jpg](./dillo/tests/screen0-5.jpg) | N/A | N/A |
+| [din](./din) | amd64  | ubuntu-noble | 58.1+ds-1-20250327 | 失败 | N/A | N/A |
+| [ding](./ding) | amd64  | ubuntu-noble | 1.9-7 | ![screen0-5.jpg](./ding/tests/screen0-5.jpg) | N/A | N/A |
+| [dino-im](./dino-im) | amd64  | ubuntu-noble | 0.4.3-3 | ![screen0-5.jpg](./dino-im/tests/screen0-5.jpg) | N/A | N/A |
+| [diodon](./diodon) | amd64  | ubuntu-noble | 1.13.0-1build2 | ![screen0-5.jpg](./diodon/tests/screen0-5.jpg) | N/A | N/A |
+| [direwolf](./direwolf) | amd64  | ubuntu-noble | 1.7+dfsg-2build2-20250327 | 失败 | N/A | N/A |
+| [displaycal](./displaycal) | amd64  | ubuntu-noble | 3.9.11-2ubuntu0.24.04.1-20250327 | 失败 | N/A | N/A |
+| [distccmon-gnome](./distccmon-gnome) | amd64  | deepin-v23 | 3.4+really3.4-4deepin1 | ![screen0-5.jpg](./distccmon-gnome/tests/screen0-5.jpg) | [SHA256](./distccmon-gnome/SHA256SUMS) | N/A |
+| [djview4](./djview4) | amd64  | ubuntu-noble | 4.12-3build3 | ![screen0-6.jpg](./djview4/tests/screen0-6.jpg) | N/A | N/A |
+| [dkopp](./dkopp) | amd64  | ubuntu-noble | 6.5-2build2-20250327 | 失败 | N/A | N/A |
+| [dlt-viewer](./dlt-viewer) | amd64  | ubuntu-noble | 2.25.0+dfsg-2build3-20250327 | 失败 | N/A | N/A |
+| [dochelp](./dochelp) | amd64  | ubuntu-noble | 0.1.8-20250327 | 失败 | N/A | N/A |
+| [dodgindiamond2](./dodgindiamond2) | amd64  | ubuntu-noble | 0.2.2-4 | ![screen0-5.jpg](./dodgindiamond2/tests/screen0-5.jpg) | N/A | N/A |
+| [dolphin](./dolphin) | amd64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./dolphin/tests/screen0-5.jpg) | N/A | N/A |
+| [domino-chain](./domino-chain) | amd64  | ubuntu-noble | 1.1-3build3-20250327 | 失败 | N/A | N/A |
+| [doomsday](./doomsday) | amd64  | ubuntu-noble | 2.3.1+ds1-1build3 | ![screen0-5.jpg](./doomsday/tests/screen0-5.jpg) | N/A | N/A |
+| [doomsday-server](./doomsday-server) | amd64  | ubuntu-noble | 2.3.1+ds1-1build3 | ![screen0-5.jpg](./doomsday-server/tests/screen0-5.jpg) | N/A | N/A |
+| [dopewars](./dopewars) | amd64  | ubuntu-noble | 1.6.2-1build4-20250327 | 失败 | N/A | N/A |
+| [dosbox](./dosbox) | amd64  | ubuntu-noble | 0.74-3-5build2 | ![screen0-5.jpg](./dosbox/tests/screen0-5.jpg) | N/A | N/A |
+| [dosbox-x](./dosbox-x) | amd64  | ubuntu-noble | 2024.03.01+dfsg-1build2 | ![screen0-5.jpg](./dosbox-x/tests/screen0-5.jpg) | N/A | N/A |
+| [dossizola](./dossizola) | amd64  | ubuntu-noble | 1.0-12 | ![screen0-5.jpg](./dossizola/tests/screen0-5.jpg) | N/A | N/A |
+| [doublecmd-common](./doublecmd-common) | amd64  | ubuntu-noble | 1.1.11-1build1 | ![screen0-5.jpg](./doublecmd-common/tests/screen0-5.jpg) | N/A | N/A |
+| [dozzaqueux](./dozzaqueux) | amd64  | ubuntu-noble | 3.51-4 | ![screen0-5.jpg](./dozzaqueux/tests/screen0-5.jpg) | N/A | N/A |
+| [dpkg-www](./dpkg-www) | amd64  | ubuntu-noble | 2.65-20250327 | 失败 | N/A | N/A |
+| [dragonplayer](./dragonplayer) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./dragonplayer/tests/screen0-5.jpg) | N/A | N/A |
+| [drascula](./drascula) | amd64  | ubuntu-noble | 1.0+ds4-2 | ![screen0-5.jpg](./drascula/tests/screen0-5.jpg) | N/A | N/A |
+| [drascula-french](./drascula-french) | amd64  | ubuntu-noble | 1.0+ds4-2 | ![screen0-5.jpg](./drascula-french/tests/screen0-5.jpg) | N/A | N/A |
+| [drascula-german](./drascula-german) | amd64  | ubuntu-noble | 1.0+ds4-2 | ![screen0-5.jpg](./drascula-german/tests/screen0-5.jpg) | N/A | N/A |
+| [drascula-italian](./drascula-italian) | amd64  | ubuntu-noble | 1.0+ds4-2 | ![screen0-5.jpg](./drascula-italian/tests/screen0-5.jpg) | N/A | N/A |
+| [drascula-spanish](./drascula-spanish) | amd64  | ubuntu-noble | 1.0+ds4-2 | ![screen0-5.jpg](./drascula-spanish/tests/screen0-5.jpg) | N/A | N/A |
+| [drawing](./drawing) | amd64  | ubuntu-noble | 1.0.2-1build1-20250327 | 失败 | N/A | N/A |
+| [drawxtl](./drawxtl) | amd64  | ubuntu-noble | 5.5-6.1build2 | ![screen0-5.jpg](./drawxtl/tests/screen0-5.jpg) | N/A | N/A |
+| [dreamchess](./dreamchess) | amd64  | ubuntu-noble | 0.3.0-2 | ![screen0-5.jpg](./dreamchess/tests/screen0-5.jpg) | N/A | N/A |
+| [driftnet](./driftnet) | amd64  | ubuntu-noble | 1.5.0-0.2build3-20250327 | 失败 | N/A | N/A |
+| [drkonqi](./drkonqi) | amd64  | ubuntu-noble | 5.27.11-0ubuntu3-20250327 | 失败 | N/A | N/A |
+| [drumkv1](./drumkv1) | amd64  | ubuntu-noble | 0.9.34-1build3 | ![screen0-5.jpg](./drumkv1/tests/screen0-5.jpg) | N/A | N/A |
+| [drumstick-tools](./drumstick-tools) | amd64  | ubuntu-noble | 2.9.0-1.1build2 | ![screen0-5.jpg](./drumstick-tools/tests/screen0-5.jpg) ![screen1-5.jpg](./drumstick-tools/tests/screen1-5.jpg) ![screen2-5.jpg](./drumstick-tools/tests/screen2-5.jpg) | N/A | N/A |
+| [dsda-doom](./dsda-doom) | amd64  | ubuntu-noble | 0.27.5+dfsg-1build2 | ![screen0-5.jpg](./dsda-doom/tests/screen0-5.jpg) | N/A | N/A |
+| [dspdfviewer](./dspdfviewer) | amd64  | ubuntu-noble | 1.15.1-1.1build5 | ![screen0-5.jpg](./dspdfviewer/tests/screen0-5.jpg) | N/A | N/A |
+| [dummyapp-wpsoffice](./dummyapp-wpsoffice) | amd64  | deepin-v23 | 1.0.2-20250327 | 失败 | N/A | N/A |
+| [dupeguru](./dupeguru) | amd64  | ubuntu-noble | 4.3.1-4build1 | ![screen0-5.jpg](./dupeguru/tests/screen0-5.jpg) | N/A | N/A |
+| [dustracing2d](./dustracing2d) | amd64  | ubuntu-noble | 2.1.1-2build2 | ![screen0-5.jpg](./dustracing2d/tests/screen0-5.jpg) ![screen1-5.jpg](./dustracing2d/tests/screen1-5.jpg) | N/A | N/A |
+| [dvb-apps](./dvb-apps) | amd64  | ubuntu-noble | 1.1.1+rev1500-1.4build3-20250327 | 失败 | N/A | N/A |
+| [dvbcut](./dvbcut) | amd64  | ubuntu-noble | 0.7.4-1build4 | ![screen0-5.jpg](./dvbcut/tests/screen0-5.jpg) | N/A | N/A |
+| [dvorak7min](./dvorak7min) | amd64  | ubuntu-noble | 1.6.1+repack-4-20250327 | 失败 | N/A | N/A |
+| [dwarf-fortress](./dwarf-fortress) | amd64  | ubuntu-noble | 0.47.04+dfsg1-1build3 | ![screen0-5.jpg](./dwarf-fortress/tests/screen0-5.jpg) | N/A | N/A |
+| [dwww](./dwww) | amd64  | ubuntu-noble | 1.16-20250327 | 失败 | N/A | N/A |
+| [dx](./dx) | amd64  | ubuntu-noble | 4.4.4-15.1build2 | ![screen0-5.jpg](./dx/tests/screen0-5.jpg) | N/A | N/A |
+| [dxf2gcode](./dxf2gcode) | amd64  | ubuntu-noble | 20191025-2 | ![screen0-5.jpg](./dxf2gcode/tests/screen0-5.jpg) | N/A | N/A |
+| [dyssol-gui](./dyssol-gui) | amd64  | ubuntu-noble | 1.1.1+ds1-2.1build4 | ![screen0-5.jpg](./dyssol-gui/tests/screen0-5.jpg) | N/A | N/A |
+| [eartag](./eartag) | amd64  | ubuntu-noble | 0.6.0-1-20250327 | 失败 | N/A | N/A |
+| [easychem](./easychem) | amd64  | ubuntu-noble | 0.6-9build2 | ![screen0-5.jpg](./easychem/tests/screen0-5.jpg) | N/A | N/A |
+| [easyeffects](./easyeffects) | amd64  | deepin-v23 | 7.1.7-1-20250327 | 失败 | N/A | N/A |
+| [easyssh](./easyssh) | amd64  | ubuntu-noble | 1.7.9-4build2 | ![screen0-5.jpg](./easyssh/tests/screen0-5.jpg) | N/A | N/A |
+| [easytag](./easytag) | amd64  | ubuntu-noble | 2.4.3-5build3 | ![screen0-5.jpg](./easytag/tests/screen0-5.jpg) | N/A | N/A |
+| [ebook-speaker](./ebook-speaker) | amd64  | ubuntu-noble | 6.2.0-5build2-20250327 | 失败 | N/A | N/A |
+| [ebook2cwgui](./ebook2cwgui) | amd64  | ubuntu-noble | 0.1.2-7build3 | ![screen0-5.jpg](./ebook2cwgui/tests/screen0-5.jpg) | N/A | N/A |
+| [ebumeter](./ebumeter) | amd64  | ubuntu-noble | 0.5.1-1build2-20250327 | 失败 | N/A | N/A |
+| [edb-debugger](./edb-debugger) | amd64  | deepin-v23 | 1.3.0-2.1deepin0 | ![screen0-5.jpg](./edb-debugger/tests/screen0-5.jpg) | [SHA256](./edb-debugger/SHA256SUMS) | N/A |
+| [edenmath.app](./edenmath.app) | amd64  | ubuntu-noble | 1.1.1a-8build5 | ![screen0-5.jpg](./edenmath.app/tests/screen0-5.jpg) | N/A | N/A |
+| [edfbrowser](./edfbrowser) | amd64  | ubuntu-noble | 2.06+dfsg-1build2 | ![screen0-5.jpg](./edfbrowser/tests/screen0-5.jpg) | N/A | N/A |
+| [edgar](./edgar) | amd64  | ubuntu-noble | 1.37-1build2 | ![screen0-5.jpg](./edgar/tests/screen0-5.jpg) | N/A | N/A |
+| [edubuntu-docs](./edubuntu-docs) | amd64  | ubuntu-noble | 11.03.3 | ![screen0-5.jpg](./edubuntu-docs/tests/screen0-5.jpg) | N/A | N/A |
+| [edubuntu-installer](./edubuntu-installer) | amd64  | ubuntu-noble | 0.6 | ![screen0-5.jpg](./edubuntu-installer/tests/screen0-5.jpg) | N/A | N/A |
+| [edubuntu-menu](./edubuntu-menu) | amd64  | ubuntu-noble | 24.04.2.2-20250327 | 失败 | N/A | N/A |
+| [eekboek-gui](./eekboek-gui) | amd64  | ubuntu-noble | 2.04-1build1 | ![screen0-5.jpg](./eekboek-gui/tests/screen0-5.jpg) | N/A | N/A |
+| [efte](./efte) | amd64  | ubuntu-noble | 1.1-4 | ![screen0-5.jpg](./efte/tests/screen0-5.jpg) | N/A | N/A |
+| [eiciel](./eiciel) | amd64  | ubuntu-noble | 0.10.0-1build2 | ![screen0-5.jpg](./eiciel/tests/screen0-5.jpg) | N/A | N/A |
+| [einstein](./einstein) | amd64  | ubuntu-noble | 2.0.dfsg.2-10build1 | ![screen0-5.jpg](./einstein/tests/screen0-5.jpg) | N/A | N/A |
+| [eiskaltdcpp-gtk](./eiskaltdcpp-gtk) | amd64  | ubuntu-noble | 2.4.2-1.1build6 | ![screen0-5.jpg](./eiskaltdcpp-gtk/tests/screen0-5.jpg) | N/A | N/A |
+| [eiskaltdcpp-qt](./eiskaltdcpp-qt) | amd64  | ubuntu-noble | 2.4.2-1.1build6 | ![screen0-5.jpg](./eiskaltdcpp-qt/tests/screen0-5.jpg) | N/A | N/A |
+| [eiskaltdcpp-web](./eiskaltdcpp-web) | amd64  | ubuntu-noble | 1.0.1-2-20250327 | 失败 | N/A | N/A |
+| [electric](./electric) | amd64  | ubuntu-noble | 9.07+dfsg-7-20250327 | 失败 | N/A | N/A |
+| [elektroid](./elektroid) | amd64  | ubuntu-noble | 3.0.1-2build1 | ![screen0-5.jpg](./elektroid/tests/screen0-5.jpg) | N/A | N/A |
+| [elisa](./elisa) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./elisa/tests/screen0-5.jpg) | N/A | N/A |
+| [elki](./elki) | amd64  | ubuntu-noble | 0.7.1-10.1-20250327 | 失败 | N/A | N/A |
+| [emacs-common](./emacs-common) | amd64  | ubuntu-noble | 29.3+1-1ubuntu2-20250327 | 失败 | N/A | N/A |
+| [emacs-gtk](./emacs-gtk) | amd64  | ubuntu-noble | 29.3+1-1ubuntu2 | ![screen1-5.jpg](./emacs-gtk/tests/screen1-5.jpg) | N/A | N/A |
+| [emacs-lucid](./emacs-lucid) | amd64  | ubuntu-noble | 29.3+1-1ubuntu2 | ![screen1-5.jpg](./emacs-lucid/tests/screen1-5.jpg) | N/A | N/A |
+| [emacs-pgtk](./emacs-pgtk) | amd64  | ubuntu-noble | 29.3+1-1ubuntu2 | ![screen1-5.jpg](./emacs-pgtk/tests/screen1-5.jpg) | N/A | N/A |
+| [email-reminder](./email-reminder) | amd64  | ubuntu-noble | 0.8.3-1 | ![screen0-5.jpg](./email-reminder/tests/screen0-5.jpg) | N/A | N/A |
+| [emboss-explorer](./emboss-explorer) | amd64  | ubuntu-noble | 2.2.0-12-20250327 | 失败 | N/A | N/A |
+| [emerald](./emerald) | amd64  | ubuntu-noble | 0.8.18-4.2build1 | ![screen0-5.jpg](./emerald/tests/screen0-5.jpg) | N/A | N/A |
+| [empire](./empire) | amd64  | ubuntu-noble | 1.16-2-20250327 | 失败 | N/A | N/A |
+| [endeavour](./endeavour) | amd64  | ubuntu-noble | 43.0-1build3 | ![screen0-5.jpg](./endeavour/tests/screen0-5.jpg) | N/A | N/A |
+| [endless-sky](./endless-sky) | amd64  | ubuntu-noble | 0.10.4-1build2 | ![screen0-5.jpg](./endless-sky/tests/screen0-5.jpg) | N/A | N/A |
+| [enemylines3](./enemylines3) | amd64  | ubuntu-noble | 1.25-1build3 | ![screen0-5.jpg](./enemylines3/tests/screen0-5.jpg) | N/A | N/A |
+| [enemylines7](./enemylines7) | amd64  | ubuntu-noble | 0.6-6 | ![screen0-5.jpg](./enemylines7/tests/screen0-5.jpg) | N/A | N/A |
+| [engauge-digitizer](./engauge-digitizer) | amd64  | ubuntu-noble | 12.1+ds.1-1build3 | ![screen0-5.jpg](./engauge-digitizer/tests/screen0-5.jpg) | N/A | N/A |
+| [engrampa](./engrampa) | amd64  | ubuntu-noble | 1.26.2-4 | ![screen0-5.jpg](./engrampa/tests/screen0-5.jpg) | N/A | N/A |
+| [enigma](./enigma) | amd64  | ubuntu-noble | 1.30+dfsg-1build2 | ![screen0-5.jpg](./enigma/tests/screen0-5.jpg) | N/A | N/A |
+| [enlightenment](./enlightenment) | amd64  | ubuntu-noble | 0.26.0-2build2 | ![screen0-5.jpg](./enlightenment/tests/screen0-5.jpg) ![screen2-5.jpg](./enlightenment/tests/screen2-5.jpg) ![screen3-5.jpg](./enlightenment/tests/screen3-5.jpg) | N/A | N/A |
+| [entagged](./entagged) | amd64  | ubuntu-noble | 0.35-6 | ![screen0-5.jpg](./entagged/tests/screen0-5.jpg) | N/A | N/A |
+| [entangle](./entangle) | amd64  | ubuntu-noble | 3.0-4build2-20250327 | 失败 | N/A | N/A |
+| [eog](./eog) | amd64  | ubuntu-noble | 45.3-1ubuntu2-20250327 | 失败 | N/A | N/A |
+| [eom](./eom) | amd64  | ubuntu-noble | 1.26.1-1build3-20250327 | 失败 | N/A | N/A |
+| [ephoto](./ephoto) | amd64  | ubuntu-noble | 1.6.0-1build2 | ![screen0-5.jpg](./ephoto/tests/screen0-5.jpg) | N/A | N/A |
+| [epiphany](./epiphany) | amd64  | ubuntu-noble | 0.7.0+0-7-20250327 | 失败 | N/A | N/A |
+| [epiphany-browser](./epiphany-browser) | amd64  | ubuntu-noble | 46.0-2build1 | ![screen0-5.jpg](./epiphany-browser/tests/screen0-5.jpg) | N/A | N/A |
+| [epoptes](./epoptes) | amd64  | ubuntu-noble | 23.08-1-20250327 | 失败 | N/A | N/A |
+| [epson-tdbridge-pp100api](./epson-tdbridge-pp100api) | amd64  | deepin-v23 | 2.5.2-20250327 | 失败 | N/A | N/A |
+| [epsonscan2](./epsonscan2) | amd64  | deepin-v23 | 6.7.42.10-1 | ![screen0-5.jpg](./epsonscan2/tests/screen0-5.jpg) | [SHA256](./epsonscan2/SHA256SUMS) | N/A |
+| [eqonomize](./eqonomize) | amd64  | ubuntu-noble | 1.5.6-1build2 | ![screen0-5.jpg](./eqonomize/tests/screen0-5.jpg) | N/A | N/A |
+| [eric](./eric) | amd64  | ubuntu-noble | 23.2+ds1-2ubuntu1 | ![screen0-5.jpg](./eric/tests/screen0-5.jpg) ![screen1-5.jpg](./eric/tests/screen1-5.jpg) | N/A | N/A |
+| [errands](./errands) | amd64  | ubuntu-noble | 45.1.9-2-20250327 | 失败 | N/A | N/A |
+| [eskeysetuplog-admin](./eskeysetuplog-admin) | amd64  | deepin-v23 | 6.3.0.3 | ![screen1-5.jpg](./eskeysetuplog-admin/tests/screen1-5.jpg) | N/A | N/A |
+| [espeakedit](./espeakedit) | amd64  | ubuntu-noble | 1.48.15-2build3 | ![screen0-5.jpg](./espeakedit/tests/screen0-5.jpg) | N/A | N/A |
+| [etherape](./etherape) | amd64  | ubuntu-noble | 0.9.20-2build3 | ![screen0-5.jpg](./etherape/tests/screen0-5.jpg) | N/A | N/A |
+| [etm](./etm) | amd64  | ubuntu-noble | 3.2.39-1 | ![screen0-5.jpg](./etm/tests/screen0-5.jpg) | N/A | N/A |
+| [etoys](./etoys) | amd64  | ubuntu-noble | 5.0.2408-1build1 | ![screen0-5.jpg](./etoys/tests/screen0-5.jpg) | N/A | N/A |
+| [ettercap-graphical](./ettercap-graphical) | amd64  | ubuntu-noble | 0.8.3.1-13build3-20250327 | 失败 | N/A | N/A |
+| [etw](./etw) | amd64  | ubuntu-noble | 3.6+svn162-6build3 | ![screen0-5.jpg](./etw/tests/screen0-5.jpg) | N/A | N/A |
+| [euler](./euler) | amd64  | ubuntu-noble | 1.61.0-12build2-20250327 | 失败 | N/A | N/A |
+| [eureka](./eureka) | amd64  | ubuntu-noble | 1.27b-2build2 | ![screen0-5.jpg](./eureka/tests/screen0-5.jpg) | N/A | N/A |
+| [eviacam](./eviacam) | amd64  | ubuntu-noble | 2.1.4-2.1build2 | ![screen0-5.jpg](./eviacam/tests/screen0-5.jpg) | N/A | N/A |
+| [evilwm](./evilwm) | amd64  | deepin-v23 | 1.4.2-1-20250327 | 失败 | N/A | N/A |
+| [evince](./evince) | amd64  | ubuntu-noble | 46.3.1-0ubuntu1 | ![screen0-5.jpg](./evince/tests/screen0-5.jpg) | N/A | N/A |
+| [evolution](./evolution) | amd64  | ubuntu-noble | 3.52.3-0ubuntu1 | ![screen0-5.jpg](./evolution/tests/screen0-5.jpg) | N/A | N/A |
+| [evolution-data-server](./evolution-data-server) | amd64  | ubuntu-noble | 3.52.3-0ubuntu1-20250327 | 失败 | N/A | N/A |
+| [evolvotron](./evolvotron) | amd64  | ubuntu-noble | 0.8.1-1build3 | ![screen0-5.jpg](./evolvotron/tests/screen0-5.jpg) | N/A | N/A |
+| [exadrums](./exadrums) | amd64  | ubuntu-noble | 0.7.0-1build2 | ![screen0-5.jpg](./exadrums/tests/screen0-5.jpg) | N/A | N/A |
+| [exaile](./exaile) | amd64  | ubuntu-noble | 4.1.3+dfsg-2ubuntu1-20250327 | 失败 | N/A | N/A |
+| [excellent-bifurcation](./excellent-bifurcation) | amd64  | ubuntu-noble | 0.0.20071015-9build2 | ![screen0-5.jpg](./excellent-bifurcation/tests/screen0-5.jpg) | N/A | N/A |
+| [exfalso](./exfalso) | amd64  | deepin-v23 | 4.6.0-3 | ![screen0-5.jpg](./exfalso/tests/screen0-5.jpg) | [SHA256](./exfalso/SHA256SUMS) | N/A |
+| [expeyes](./expeyes) | amd64  | ubuntu-noble | 5.3.1+repack-6build1 | ![screen2-5.jpg](./expeyes/tests/screen2-5.jpg) | N/A | N/A |
+| [expeyes-doc-common](./expeyes-doc-common) | amd64  | ubuntu-noble | 4.3-3-20250327 | 失败 | N/A | N/A |
+| [explosive-c4](./explosive-c4) | amd64  | ubuntu-noble | 1.2-3build2 | ![screen0-5.jpg](./explosive-c4/tests/screen0-5.jpg) | N/A | N/A |
+| [extremetuxracer](./extremetuxracer) | amd64  | ubuntu-noble | 0.8.3-1build1 | ![screen0-5.jpg](./extremetuxracer/tests/screen0-5.jpg) | [SHA256](./extremetuxracer/SHA256SUMS) | N/A |
+| [exult](./exult) | amd64  | ubuntu-noble | 1.8-2build3 | ![screen0-5.jpg](./exult/tests/screen0-5.jpg) | N/A | N/A |
+| [eyes17](./eyes17) | amd64  | ubuntu-noble | 5.3.1+repack-6build1 | ![screen1-5.jpg](./eyes17/tests/screen1-5.jpg) | N/A | N/A |
+| [f3d](./f3d) | amd64  | ubuntu-noble | 2.2.1+dfsg-2build3 | ![screen0-5.jpg](./f3d/tests/screen0-5.jpg) | N/A | N/A |
+| [falkon](./falkon) | amd64  | ubuntu-noble | 24.01.75-1build3 | ![screen0-5.jpg](./falkon/tests/screen0-5.jpg) | N/A | N/A |
+| [fanwor](./fanwor) | amd64  | ubuntu-noble | 1.16-1build2 | ![screen0-5.jpg](./fanwor/tests/screen0-5.jpg) | N/A | N/A |
+| [far2l](./far2l) | amd64  | ubuntu-noble | 2.6.0~beta+ds-1ubuntu0.3 | ![screen0-5.jpg](./far2l/tests/screen0-5.jpg) | N/A | N/A |
+| [fastqc](./fastqc) | amd64  | ubuntu-noble | 0.12.1+dfsg-3 | ![screen0-5.jpg](./fastqc/tests/screen0-5.jpg) | N/A | N/A |
+| [faustworks](./faustworks) | amd64  | ubuntu-noble | 0.5~repack0-6build3 | ![screen0-5.jpg](./faustworks/tests/screen0-5.jpg) | N/A | N/A |
+| [fbreader](./fbreader) | amd64  | ubuntu-noble | 0.99.4+dfsg-5.1build3 | ![screen0-5.jpg](./fbreader/tests/screen0-5.jpg) | N/A | N/A |
+| [fbzx](./fbzx) | amd64  | ubuntu-noble | 4.8.0-2build2 | ![screen0-5.jpg](./fbzx/tests/screen0-5.jpg) | N/A | N/A |
+| [fccexam](./fccexam) | amd64  | ubuntu-noble | 1.0.7-1.1 | ![screen0-5.jpg](./fccexam/tests/screen0-5.jpg) | N/A | N/A |
+| [fceux](./fceux) | amd64  | ubuntu-noble | 2.6.5+dfsg1-2build3 | ![screen0-5.jpg](./fceux/tests/screen0-5.jpg) | N/A | N/A |
+| [fcitx-config-gtk](./fcitx-config-gtk) | amd64  | deepin-v23 | 0.4.10.32-2deepin-20250327 | 失败 | N/A | N/A |
+| [fcitx-data](./fcitx-data) | amd64  | deepin-v23 | 4.2.9.32.38-deepin-20250327 | 失败 | N/A | N/A |
+| [fcitx-ui-light](./fcitx-ui-light) | amd64  | ubuntu-noble | 0.1.3-5-20250327 | 失败 | N/A | N/A |
+| [fcitx-ui-qimpanel](./fcitx-ui-qimpanel) | amd64  | ubuntu-noble | 2.1.3-2build4 | ![screen0-5.jpg](./fcitx-ui-qimpanel/tests/screen0-5.jpg) | N/A | N/A |
+| [fcitx5](./fcitx5) | amd64  | deepin-v23 | 5.1.11-2deepin2 | ![screen0-5.jpg](./fcitx5/tests/screen0-5.jpg) ![screen1-5.jpg](./fcitx5/tests/screen1-5.jpg) | [SHA256](./fcitx5/SHA256SUMS) | N/A |
+| [fcitx5-config-qt](./fcitx5-config-qt) | amd64  | ubuntu-noble | 5.1.4-1 | ![screen0-5.jpg](./fcitx5-config-qt/tests/screen0-5.jpg) ![screen1-5.jpg](./fcitx5-config-qt/tests/screen1-5.jpg) | N/A | N/A |
+| [fcitx5-frontend-qt5](./fcitx5-frontend-qt5) | amd64  | deepin-v23 | 5.1.8-2deepin1+rb1-20250327 | 失败 | N/A | N/A |
+| [fcitx5-frontend-qt6](./fcitx5-frontend-qt6) | amd64  | deepin-v23 | 5.1.8-2deepin1+rb1-20250327 | 失败 | N/A | N/A |
+| [feathernotes](./feathernotes) | amd64  | ubuntu-noble | 1.1.1-1build2 | ![screen0-5.jpg](./feathernotes/tests/screen0-5.jpg) | N/A | N/A |
+| [featherpad](./featherpad) | amd64  | ubuntu-noble | 1.4.1-0ubuntu4 | ![screen0-5.jpg](./featherpad/tests/screen0-5.jpg) | N/A | N/A |
+| [feh](./feh) | amd64  | ubuntu-noble | 3.10.1-1ubuntu0.1-20250327 | 失败 | N/A | N/A |
+| [felix-latin](./felix-latin) | amd64  | ubuntu-noble | 2.0-14build2 | ![screen0-5.jpg](./felix-latin/tests/screen0-5.jpg) | N/A | N/A |
+| [ferret](./ferret) | amd64  | ubuntu-noble | 0.7-3 | ![screen0-5.jpg](./ferret/tests/screen0-5.jpg) | N/A | N/A |
+| [ferret-vis](./ferret-vis) | amd64  | ubuntu-noble | 7.6.0-7ubuntu1 | ![screen0-5.jpg](./ferret-vis/tests/screen0-5.jpg) | N/A | N/A |
+| [fet](./fet) | amd64  | ubuntu-noble | 6.8.5-1build2 | ![screen0-5.jpg](./fet/tests/screen0-5.jpg) | N/A | N/A |
+| [ffado-mixer-qt4](./ffado-mixer-qt4) | amd64  | deepin-v23 | 2.4.9-1 | ![screen0-5.jpg](./ffado-mixer-qt4/tests/screen0-5.jpg) | [SHA256](./ffado-mixer-qt4/SHA256SUMS) | N/A |
+| [fgallery](./fgallery) | amd64  | ubuntu-noble | 1.9.1+ds-2-20250327 | 失败 | N/A | N/A |
+| [fheroes2](./fheroes2) | amd64  | ubuntu-noble | 1.0.12+dfsg-1 | ![screen0-5.jpg](./fheroes2/tests/screen0-5.jpg) | N/A | N/A |
+| [file-roller](./file-roller) | amd64  | ubuntu-noble | 44.3-0ubuntu1 | ![screen0-5.jpg](./file-roller/tests/screen0-5.jpg) | N/A | N/A |
+| [filelight](./filelight) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./filelight/tests/screen0-5.jpg) | N/A | N/A |
+| [filezilla](./filezilla) | amd64  | ubuntu-noble | 3.66.5-2build2 | ![screen0-5.jpg](./filezilla/tests/screen0-5.jpg) | N/A | N/A |
+| [filius](./filius) | amd64  | ubuntu-noble | 2.5.1+ds-1-20250327 | 失败 | N/A | N/A |
+| [filler](./filler) | amd64  | ubuntu-noble | 1.02-6.4 | ![screen0-5.jpg](./filler/tests/screen0-5.jpg) | N/A | N/A |
+| [fillets-ng](./fillets-ng) | amd64  | ubuntu-noble | 1.0.1-4build2 | ![screen0-5.jpg](./fillets-ng/tests/screen0-5.jpg) | N/A | N/A |
+| [firefox](./firefox) | amd64  | deepin-v23 | 131.0.3-1deepin1 | ![screen0-5.jpg](./firefox/tests/screen0-5.jpg) | [SHA256](./firefox/SHA256SUMS) | N/A |
+| [firefox-esr](./firefox-esr) | amd64  | deepin-v23 | 115.2.1esr-1 | ![screen0-5.jpg](./firefox-esr/tests/screen0-5.jpg) | [SHA256](./firefox-esr/SHA256SUMS) | N/A |
+| [firetools](./firetools) | amd64  | ubuntu-noble | 0.9.72-1build2 | ![screen0-5.jpg](./firetools/tests/screen0-5.jpg) ![screen1-5.jpg](./firetools/tests/screen1-5.jpg) | N/A | N/A |
+| [firewall-config](./firewall-config) | amd64  | deepin-v23 | 2.1.2-1-20250327 | 失败 | N/A | N/A |
+| [fish-common](./fish-common) | amd64  | deepin-v23 | 3.7.1-1 | ![screen0-5.jpg](./fish-common/tests/screen0-5.jpg) | N/A | N/A |
+| [fityk](./fityk) | amd64  | ubuntu-noble | 1.3.2-3build3 | ![screen0-5.jpg](./fityk/tests/screen0-5.jpg) | N/A | N/A |
+| [five-or-more](./five-or-more) | amd64  | ubuntu-noble | 3.32.3-1build2 | ![screen0-5.jpg](./five-or-more/tests/screen0-5.jpg) | N/A | N/A |
+| [flamerobin](./flamerobin) | amd64  | ubuntu-noble | 0.9.10.ds.2-1build2 | ![screen0-5.jpg](./flamerobin/tests/screen0-5.jpg) | N/A | N/A |
+| [flameshot](./flameshot) | amd64  | deepin-v23 | 12.1.0-3 | ![screen0-5.jpg](./flameshot/tests/screen0-5.jpg) | [SHA256](./flameshot/SHA256SUMS) | N/A |
+| [flamp](./flamp) | amd64  | ubuntu-noble | 2.2.09-1build2 | ![screen0-5.jpg](./flamp/tests/screen0-5.jpg) | N/A | N/A |
+| [flare-engine](./flare-engine) | amd64  | ubuntu-noble | 1.14-3 | ![screen0-5.jpg](./flare-engine/tests/screen0-5.jpg) | N/A | N/A |
+| [fldiff](./fldiff) | amd64  | ubuntu-noble | 1.1+0-6build3 | ![screen0-5.jpg](./fldiff/tests/screen0-5.jpg) | N/A | N/A |
+| [fldigi](./fldigi) | amd64  | ubuntu-noble | 4.2.03-1build3 | ![screen0-5.jpg](./fldigi/tests/screen0-5.jpg) ![screen1-5.jpg](./fldigi/tests/screen1-5.jpg) | N/A | N/A |
+| [flent](./flent) | amd64  | ubuntu-noble | 2.1.1-2-20250327 | 失败 | N/A | N/A |
+| [flight-of-the-amazon-queen](./flight-of-the-amazon-queen) | amd64  | ubuntu-noble | 1.0.0-9 | ![screen0-5.jpg](./flight-of-the-amazon-queen/tests/screen0-5.jpg) | N/A | N/A |
+| [flightgear](./flightgear) | amd64  | ubuntu-noble | 2020.3.18+dfsg-1.1 | ![screen0-5.jpg](./flightgear/tests/screen0-5.jpg) ![screen1-5.jpg](./flightgear/tests/screen1-5.jpg) | N/A | N/A |
+| [flmsg](./flmsg) | amd64  | ubuntu-noble | 4.0.23-1build2 | ![screen0-5.jpg](./flmsg/tests/screen0-5.jpg) | N/A | N/A |
+| [flobopuyo](./flobopuyo) | amd64  | ubuntu-noble | 0.20-5.1 | ![screen0-5.jpg](./flobopuyo/tests/screen0-5.jpg) | N/A | N/A |
+| [flowblade](./flowblade) | amd64  | ubuntu-noble | 2.12.0.2-1ubuntu1-20250327 | 失败 | N/A | N/A |
+| [flpsed](./flpsed) | amd64  | ubuntu-noble | 0.7.3-9build2 | ![screen0-5.jpg](./flpsed/tests/screen0-5.jpg) | N/A | N/A |
+| [flrig](./flrig) | amd64  | ubuntu-noble | 2.0.04-1build2 | ![screen0-5.jpg](./flrig/tests/screen0-5.jpg) | N/A | N/A |
+| [fltk1.1-games](./fltk1.1-games) | amd64  | deepin-v23 | 1.1.10-29 | ![screen0-5.jpg](./fltk1.1-games/tests/screen0-5.jpg) ![screen1-5.jpg](./fltk1.1-games/tests/screen1-5.jpg) ![screen2-5.jpg](./fltk1.1-games/tests/screen2-5.jpg) | [SHA256](./fltk1.1-games/SHA256SUMS) | N/A |
+| [fltk1.3-games](./fltk1.3-games) | amd64  | ubuntu-noble | 1.3.8-6.1build2 | ![screen0-5.jpg](./fltk1.3-games/tests/screen0-5.jpg) ![screen1-5.jpg](./fltk1.3-games/tests/screen1-5.jpg) ![screen2-5.jpg](./fltk1.3-games/tests/screen2-5.jpg) | N/A | N/A |
+| [fluid](./fluid) | amd64  | ubuntu-noble | 1.3.8-6.1build2 | ![screen0-5.jpg](./fluid/tests/screen0-5.jpg) | N/A | N/A |
+| [fluidsynth-dssi](./fluidsynth-dssi) | amd64  | ubuntu-noble | 1.0.0-9build1-20250327 | 失败 | N/A | N/A |
+| [flwrap](./flwrap) | amd64  | ubuntu-noble | 1.3.6-1build2 | ![screen0-5.jpg](./flwrap/tests/screen0-5.jpg) | N/A | N/A |
+| [fmit](./fmit) | amd64  | ubuntu-noble | 1.2.14-0.1build4 | ![screen0-5.jpg](./fmit/tests/screen0-5.jpg) | N/A | N/A |
+| [fnott](./fnott) | amd64  | ubuntu-noble | 1.4.1+ds-1build3-20250327 | 失败 | N/A | N/A |
+| [focuswriter](./focuswriter) | amd64  | ubuntu-noble | 1.8.6-1build2 | ![screen0-5.jpg](./focuswriter/tests/screen0-5.jpg) | N/A | N/A |
+| [foliate](./foliate) | amd64  | ubuntu-noble | 4.~really3.1.1-1-20250327 | 失败 | N/A | N/A |
+| [font-downloader](./font-downloader) | amd64  | ubuntu-noble | 10.0.0-3-20250327 | 失败 | N/A | N/A |
+| [font-manager](./font-manager) | amd64  | ubuntu-noble | 0.8.8-4build2 | ![screen0-5.jpg](./font-manager/tests/screen0-5.jpg) | N/A | N/A |
+| [font-viewer](./font-viewer) | amd64  | ubuntu-noble | 0.8.8-4build2 | ![screen0-5.jpg](./font-viewer/tests/screen0-5.jpg) | N/A | N/A |
+| [fontforge](./fontforge) | amd64  | deepin-v23 | 20230101~dfsg-3 | ![screen0-5.jpg](./fontforge/tests/screen0-5.jpg) | [SHA256](./fontforge/SHA256SUMS) | N/A |
+| [fontmatrix](./fontmatrix) | amd64  | ubuntu-noble | 0.9.100+ds-1build2 | ![screen0-5.jpg](./fontmatrix/tests/screen0-5.jpg) | N/A | N/A |
+| [foobillardplus](./foobillardplus) | amd64  | ubuntu-noble | 3.43~svn170+dfsg-7build2 | ![screen0-5.jpg](./foobillardplus/tests/screen0-5.jpg) | N/A | N/A |
+| [fookb](./fookb) | amd64  | ubuntu-noble | 4.1-3 | ![screen0-5.jpg](./fookb/tests/screen0-5.jpg) | N/A | N/A |
+| [foot](./foot) | amd64  | ubuntu-noble | 1.16.2-2ubuntu0.1-20250327 | 失败 | N/A | N/A |
+| [form](./form) | amd64  | ubuntu-noble | 4.3.0+git20230104+ds-1build2-20250327 | 失败 | N/A | N/A |
+| [formiko](./formiko) | amd64  | ubuntu-noble | 1.4.3-2.1-20250327 | 失败 | N/A | N/A |
+| [fotoxx](./fotoxx) | amd64  | ubuntu-noble | 20.08-2build5 | ![screen0-5.jpg](./fotoxx/tests/screen0-5.jpg) | N/A | N/A |
+| [founder-sane-backend](./founder-sane-backend) | amd64  | deepin-v23 | 20200526-1.4.5.011-20250327 | 失败 | N/A | N/A |
+| [four-in-a-row](./four-in-a-row) | amd64  | deepin-v23 | 3.38.1-deepin1-20250327 | 失败 | N/A | N/A |
+| [foxtrotgps](./foxtrotgps) | amd64  | ubuntu-noble | 1.2.2+bzr332-1build4 | ![screen0-5.jpg](./foxtrotgps/tests/screen0-5.jpg) | N/A | N/A |
+| [fqterm](./fqterm) | amd64  | ubuntu-noble | 0.9.10.1-4build3 | ![screen0-5.jpg](./fqterm/tests/screen0-5.jpg) | N/A | N/A |
+| [fracplanet](./fracplanet) | amd64  | ubuntu-noble | 0.5.1-6build3 | ![screen0-5.jpg](./fracplanet/tests/screen0-5.jpg) | N/A | N/A |
+| [fractalnow](./fractalnow) | amd64  | ubuntu-noble | 0.8.2-5build2 | ![screen0-5.jpg](./fractalnow/tests/screen0-5.jpg) | N/A | N/A |
+| [fractgen](./fractgen) | amd64  | ubuntu-noble | 2.1.13-1build3 | ![screen0-5.jpg](./fractgen/tests/screen0-5.jpg) | N/A | N/A |
+| [fraqtive](./fraqtive) | amd64  | ubuntu-noble | 0.4.8.1-1build3 | ![screen0-5.jpg](./fraqtive/tests/screen0-5.jpg) | N/A | N/A |
+| [free42-nologo](./free42-nologo) | amd64  | ubuntu-noble | 3.1.4+ds-1build2 | ![screen0-5.jpg](./free42-nologo/tests/screen0-5.jpg) ![screen1-5.jpg](./free42-nologo/tests/screen1-5.jpg) | N/A | N/A |
+| [freealchemist](./freealchemist) | amd64  | ubuntu-noble | 0.5-2 | ![screen0-5.jpg](./freealchemist/tests/screen0-5.jpg) | N/A | N/A |
+| [freeciv-client-extras](./freeciv-client-extras) | amd64  | ubuntu-noble | 3.1.0+ds-1build5 | ![screen0-5.jpg](./freeciv-client-extras/tests/screen0-5.jpg) | N/A | N/A |
+| [freeciv-client-gtk3](./freeciv-client-gtk3) | amd64  | ubuntu-noble | 3.1.0+ds-1build5 | ![screen0-5.jpg](./freeciv-client-gtk3/tests/screen0-5.jpg) | N/A | N/A |
+| [freeciv-client-qt](./freeciv-client-qt) | amd64  | ubuntu-noble | 3.1.0+ds-1build5 | ![screen0-5.jpg](./freeciv-client-qt/tests/screen0-5.jpg) | N/A | N/A |
+| [freeciv-client-sdl](./freeciv-client-sdl) | amd64  | ubuntu-noble | 3.1.0+ds-1build5 | ![screen0-5.jpg](./freeciv-client-sdl/tests/screen0-5.jpg) | N/A | N/A |
+| [freeciv-ruleset-tools](./freeciv-ruleset-tools) | amd64  | ubuntu-noble | 3.1.0+ds-1build5 | ![screen0-5.jpg](./freeciv-ruleset-tools/tests/screen0-5.jpg) | N/A | N/A |
+| [freeciv-server](./freeciv-server) | amd64  | ubuntu-noble | 3.1.0+ds-1build5 | ![screen0-5.jpg](./freeciv-server/tests/screen0-5.jpg) | N/A | N/A |
+| [freecol](./freecol) | amd64  | ubuntu-noble | 1.1.0-1-20250327 | 失败 | N/A | N/A |
+| [freedink-dfarc](./freedink-dfarc) | amd64  | ubuntu-noble | 3.14-5build3 | ![screen0-5.jpg](./freedink-dfarc/tests/screen0-5.jpg) | N/A | N/A |
+| [freedink-engine](./freedink-engine) | amd64  | ubuntu-noble | 109.6-5 | ![screen0-5.jpg](./freedink-engine/tests/screen0-5.jpg) ![screen1-5.jpg](./freedink-engine/tests/screen1-5.jpg) | N/A | N/A |
+| [freedm](./freedm) | amd64  | ubuntu-noble | 0.13.0-1 | ![screen0-5.jpg](./freedm/tests/screen0-5.jpg) | N/A | N/A |
+| [freedoom](./freedoom) | amd64  | ubuntu-noble | 0.13.0-1 | ![screen0-5.jpg](./freedoom/tests/screen0-5.jpg) ![screen1-5.jpg](./freedoom/tests/screen1-5.jpg) | N/A | N/A |
+| [freedroid](./freedroid) | amd64  | ubuntu-noble | 1.0.2+cvs040112-7 | ![screen0-5.jpg](./freedroid/tests/screen0-5.jpg) | N/A | N/A |
+| [freedroidrpg](./freedroidrpg) | amd64  | ubuntu-noble | 1.0-1build2 | ![screen0-5.jpg](./freedroidrpg/tests/screen0-5.jpg) | N/A | N/A |
+| [freedv](./freedv) | amd64  | ubuntu-noble | 1.8.11-1build4 | ![screen0-5.jpg](./freedv/tests/screen0-5.jpg) | N/A | N/A |
+| [freefilesync](./freefilesync) | amd64  | ubuntu-noble | 13.3-2build3 | ![screen0-5.jpg](./freefilesync/tests/screen0-5.jpg) ![screen1-5.jpg](./freefilesync/tests/screen1-5.jpg) | N/A | N/A |
+| [freegish](./freegish) | amd64  | ubuntu-noble | 1.53+git20170110+dfsg-2build2 | ![screen0-5.jpg](./freegish/tests/screen0-5.jpg) | N/A | N/A |
+| [freeorion](./freeorion) | amd64  | ubuntu-noble | 0.5+git20230820-4build5 | ![screen0-5.jpg](./freeorion/tests/screen0-5.jpg) | N/A | N/A |
+| [freeplane](./freeplane) | amd64  | ubuntu-noble | 1.7.10-1-20250327 | 失败 | N/A | N/A |
+| [freespace2-launcher-wxlauncher](./freespace2-launcher-wxlauncher) | amd64  | ubuntu-noble | 0.12.0~rc3+dfsg-1build2 | ![screen0-5.jpg](./freespace2-launcher-wxlauncher/tests/screen0-5.jpg) ![screen1-5.jpg](./freespace2-launcher-wxlauncher/tests/screen1-5.jpg) | N/A | N/A |
+| [freesweep](./freesweep) | amd64  | ubuntu-noble | 1.0.2-1-20250327 | 失败 | N/A | N/A |
+| [freetuxtv](./freetuxtv) | amd64  | ubuntu-noble | 0.6.8~dfsg1-2build3 | ![screen0-5.jpg](./freetuxtv/tests/screen0-5.jpg) | N/A | N/A |
+| [freewheeling](./freewheeling) | amd64  | ubuntu-noble | 0.6.6-1build3-20250327 | 失败 | N/A | N/A |
+| [frescobaldi](./frescobaldi) | amd64  | ubuntu-noble | 3.3.0+ds1-2 | ![screen0-5.jpg](./frescobaldi/tests/screen0-5.jpg) | N/A | N/A |
+| [fritzing](./fritzing) | amd64  | ubuntu-noble | 1.0.1-1build4 | ![screen0-5.jpg](./fritzing/tests/screen0-5.jpg) | N/A | N/A |
+| [frogatto](./frogatto) | amd64  | ubuntu-noble | 1.3.1+dfsg-6build4 | ![screen0-5.jpg](./frogatto/tests/screen0-5.jpg) | N/A | N/A |
+| [frogr](./frogr) | amd64  | ubuntu-noble | 1.8.1-1build3 | ![screen0-5.jpg](./frogr/tests/screen0-5.jpg) | [SHA256](./frogr/SHA256SUMS) | N/A |
+| [frozen-bubble](./frozen-bubble) | amd64  | ubuntu-noble | 2.212-12build5 | ![screen0-5.jpg](./frozen-bubble/tests/screen0-5.jpg) | [SHA256](./frozen-bubble/SHA256SUMS) | N/A |
+| [fs-uae](./fs-uae) | amd64  | ubuntu-noble | 3.1.66-2build2-20250327 | 失败 | [SHA256](./fs-uae/SHA256SUMS) | N/A |
+| [fs-uae-arcade](./fs-uae-arcade) | amd64  | ubuntu-noble | 3.1.63-2-20250327 | 失败 | [SHA256](./fs-uae-arcade/SHA256SUMS) | N/A |
+| [ft2-clone](./ft2-clone) | amd64  | ubuntu-noble | 1.72.1+ds-1build3 | ![screen0-5.jpg](./ft2-clone/tests/screen0-5.jpg) | [SHA256](./ft2-clone/SHA256SUMS) | N/A |
+| [ftools-fv](./ftools-fv) | amd64  | ubuntu-noble | 5.5.2+dfsg-3-20250327 | 失败 | [SHA256](./ftools-fv/SHA256SUMS) | N/A |
+| [ftp.app](./ftp.app) | amd64  | ubuntu-noble | 0.6-2build5 | ![screen0-5.jpg](./ftp.app/tests/screen0-5.jpg) | [SHA256](./ftp.app/SHA256SUMS) | N/A |
+| [funguloids](./funguloids) | amd64  | ubuntu-noble | 1.06-15build2-20250327 | 失败 | [SHA256](./funguloids/SHA256SUMS) | N/A |
+| [funnyboat](./funnyboat) | amd64  | ubuntu-noble | 1.5-11-20250327 | 失败 | [SHA256](./funnyboat/SHA256SUMS) | N/A |
+| [fuse-emulator-gtk](./fuse-emulator-gtk) | amd64  | ubuntu-noble | 1.6.0+dfsg1-2build3 | ![screen0-5.jpg](./fuse-emulator-gtk/tests/screen0-5.jpg) | [SHA256](./fuse-emulator-gtk/SHA256SUMS) | N/A |
+| [fuse-emulator-sdl](./fuse-emulator-sdl) | amd64  | ubuntu-noble | 1.6.0+dfsg1-2build3 | ![screen0-5.jpg](./fuse-emulator-sdl/tests/screen0-5.jpg) | [SHA256](./fuse-emulator-sdl/SHA256SUMS) | N/A |
+| [fusion-icon](./fusion-icon) | amd64  | ubuntu-noble | 0.2.4-8-20250327 | 失败 | N/A | N/A |
+| [fwbuilder](./fwbuilder) | amd64  | ubuntu-noble | 5.3.7-5ubuntu0.24.04.1 | ![screen0-5.jpg](./fwbuilder/tests/screen0-5.jpg) | [SHA256](./fwbuilder/SHA256SUMS) | N/A |
+| [gabedit](./gabedit) | amd64  | ubuntu-noble | 2.5.1+ds-1build3 | ![screen0-5.jpg](./gabedit/tests/screen0-5.jpg) | [SHA256](./gabedit/SHA256SUMS) | N/A |
+| [gajim](./gajim) | amd64  | ubuntu-noble | 1.8.4-3-20250327 | 失败 | N/A | N/A |
+| [galculator](./galculator) | amd64  | ubuntu-noble | 2.1.4-1.2build2 | ![screen0-5.jpg](./galculator/tests/screen0-5.jpg) | [SHA256](./galculator/SHA256SUMS) | N/A |
+| [galois](./galois) | amd64  | ubuntu-noble | 0.8-1build2 | ![screen0-5.jpg](./galois/tests/screen0-5.jpg) | [SHA256](./galois/SHA256SUMS) | N/A |
+| [galternatives](./galternatives) | amd64  | ubuntu-noble | 1.0.9-20250327 | 失败 | N/A | N/A |
+| [gamazons](./gamazons) | amd64  | ubuntu-noble | 0.83-12 | ![screen0-5.jpg](./gamazons/tests/screen0-5.jpg) | [SHA256](./gamazons/SHA256SUMS) | N/A |
+| [gambas3-ide](./gambas3-ide) | amd64  | ubuntu-noble | 3.19.0-2ubuntu10 | ![screen0-5.jpg](./gambas3-ide/tests/screen0-5.jpg) | [SHA256](./gambas3-ide/SHA256SUMS) | N/A |
+| [game-data-packager-runtime](./game-data-packager-runtime) | amd64  | ubuntu-noble | 77ubuntu2-20250327 | 失败 | N/A | N/A |
+| [gameconqueror](./gameconqueror) | amd64  | ubuntu-noble | 0.17-5build2-20250327 | 失败 | N/A | N/A |
+| [gamgi](./gamgi) | amd64  | ubuntu-noble | 0.17.5-1build2 | ![screen0-5.jpg](./gamgi/tests/screen0-5.jpg) | [SHA256](./gamgi/SHA256SUMS) | N/A |
+| [gamine](./gamine) | amd64  | ubuntu-noble | 1.6-1build3 | ![screen0-5.jpg](./gamine/tests/screen0-5.jpg) | [SHA256](./gamine/SHA256SUMS) | N/A |
+| [gammaray](./gammaray) | amd64  | deepin-v23 | 2.11.3-3-20250327 | 失败 | N/A | N/A |
+| [gammastep](./gammastep) | amd64  | ubuntu-noble | 2.0.9-1build2-20250327 | 失败 | [SHA256](./gammastep/SHA256SUMS) | N/A |
+| [ganyremote](./ganyremote) | amd64  | ubuntu-noble | 8.1.1-1-20250327 | 失败 | N/A | N/A |
+| [garden-of-coloured-lights](./garden-of-coloured-lights) | amd64  | ubuntu-noble | 1.0.9-2build3 | ![screen0-5.jpg](./garden-of-coloured-lights/tests/screen0-5.jpg) | [SHA256](./garden-of-coloured-lights/SHA256SUMS) | N/A |
+| [gargoyle-free](./gargoyle-free) | amd64  | ubuntu-noble | 2023.1+dfsg-4build4 | ![screen0-5.jpg](./gargoyle-free/tests/screen0-5.jpg) | [SHA256](./gargoyle-free/SHA256SUMS) | N/A |
+| [garlic](./garlic) | amd64  | ubuntu-noble | 1.6-3 | ![screen0-5.jpg](./garlic/tests/screen0-5.jpg) | [SHA256](./garlic/SHA256SUMS) | N/A |
+| [gastman](./gastman) | amd64  | ubuntu-noble | 0.99+1.0rc1-0ubuntu12 | ![screen0-5.jpg](./gastman/tests/screen0-5.jpg) | [SHA256](./gastman/SHA256SUMS) | N/A |
+| [gaupol](./gaupol) | amd64  | ubuntu-noble | 1.11-2-20250327 | 失败 | N/A | N/A |
+| [gausssum](./gausssum) | amd64  | ubuntu-noble | 3.0.2-2-20250327 | 失败 | [SHA256](./gausssum/SHA256SUMS) | N/A |
+| [gav](./gav) | amd64  | ubuntu-noble | 0.9.0-3.2 | ![screen0-5.jpg](./gav/tests/screen0-5.jpg) | [SHA256](./gav/SHA256SUMS) | N/A |
+| [gbatnav](./gbatnav) | amd64  | ubuntu-noble | 1.0.4cvs20051004-7 | ![screen0-5.jpg](./gbatnav/tests/screen0-5.jpg) ![screen1-5.jpg](./gbatnav/tests/screen1-5.jpg) | [SHA256](./gbatnav/SHA256SUMS) | N/A |
+| [gbemol](./gbemol) | amd64  | ubuntu-noble | 0.3.2-2ubuntu6 | ![screen0-5.jpg](./gbemol/tests/screen0-5.jpg) | [SHA256](./gbemol/SHA256SUMS) | N/A |
+| [gbgoffice](./gbgoffice) | amd64  | ubuntu-noble | 1.4-12build2 | ![screen0-5.jpg](./gbgoffice/tests/screen0-5.jpg) | [SHA256](./gbgoffice/SHA256SUMS) | N/A |
+| [gbonds](./gbonds) | amd64  | ubuntu-noble | 2.0.3-17build3 | ![screen0-5.jpg](./gbonds/tests/screen0-5.jpg) | [SHA256](./gbonds/SHA256SUMS) | N/A |
+| [gbrainy](./gbrainy) | amd64  | ubuntu-noble | 2.4.6-2build1 | ![screen0-5.jpg](./gbrainy/tests/screen0-5.jpg) | [SHA256](./gbrainy/SHA256SUMS) | N/A |
+| [gbsplay](./gbsplay) | amd64  | ubuntu-noble | 0.0.96-1build3-20250327 | 失败 | [SHA256](./gbsplay/SHA256SUMS) | N/A |
+| [gchempaint](./gchempaint) | amd64  | ubuntu-noble | 0.14.17-6.2build2 | ![screen0-5.jpg](./gchempaint/tests/screen0-5.jpg) | [SHA256](./gchempaint/SHA256SUMS) | N/A |
+| [gcin](./gcin) | amd64  | ubuntu-noble | 2.9.0+dfsg1-3build1 | ![screen0-5.jpg](./gcin/tests/screen0-5.jpg) | [SHA256](./gcin/SHA256SUMS) | N/A |
+| [gcolor3](./gcolor3) | amd64  | ubuntu-noble | 2.4.0-2build2 | ![screen0-5.jpg](./gcolor3/tests/screen0-5.jpg) | [SHA256](./gcolor3/SHA256SUMS) | N/A |
+| [gcompris-qt](./gcompris-qt) | amd64  | ubuntu-noble | 4.0-1build3 | ![screen0-5.jpg](./gcompris-qt/tests/screen0-5.jpg) | [SHA256](./gcompris-qt/SHA256SUMS) | N/A |
+| [gconjugue](./gconjugue) | amd64  | ubuntu-noble | 0.8.5-2build2 | ![screen0-5.jpg](./gconjugue/tests/screen0-5.jpg) | [SHA256](./gconjugue/SHA256SUMS) | N/A |
+| [gcr](./gcr) | amd64  | ubuntu-noble | 3.41.2-1build3-20250327 | 失败 | [SHA256](./gcr/SHA256SUMS) | N/A |
+| [gcrystal](./gcrystal) | amd64  | ubuntu-noble | 0.14.17-6.2build2 | ![screen0-5.jpg](./gcrystal/tests/screen0-5.jpg) | [SHA256](./gcrystal/SHA256SUMS) | N/A |
+| [gcu-bin](./gcu-bin) | amd64  | ubuntu-noble | 0.14.17-6.2build2 | ![screen0-5.jpg](./gcu-bin/tests/screen0-5.jpg) ![screen1-5.jpg](./gcu-bin/tests/screen1-5.jpg) ![screen2-5.jpg](./gcu-bin/tests/screen2-5.jpg) ![screen3-5.jpg](./gcu-bin/tests/screen3-5.jpg) | [SHA256](./gcu-bin/SHA256SUMS) | N/A |
+| [gddccontrol](./gddccontrol) | amd64  | deepin-v23 | 1.0.3-1deepin1 | ![screen0-5.jpg](./gddccontrol/tests/screen0-5.jpg) | [SHA256](./gddccontrol/SHA256SUMS) | N/A |
+| [gdebi](./gdebi) | amd64  | deepin-v23 | 0.9.5.7+nmu7-20250327 | 失败 | N/A | N/A |
+| [gdigi](./gdigi) | amd64  | ubuntu-noble | 0.4.0+git20200615+1c2c89f-3build3-20250327 | 失败 | [SHA256](./gdigi/SHA256SUMS) | N/A |
+| [gdis](./gdis) | amd64  | ubuntu-noble | 0.90-6build3 | ![screen0-5.jpg](./gdis/tests/screen0-5.jpg) | [SHA256](./gdis/SHA256SUMS) | N/A |
+| [gdm-settings](./gdm-settings) | amd64  | ubuntu-noble | 4.3-1-20250327 | 失败 | N/A | N/A |
+| [gdm3](./gdm3) | amd64  | ubuntu-noble | 46.2-1ubuntu1~24.04.1-20250327 | 失败 | N/A | N/A |
+| [gdmap](./gdmap) | amd64  | ubuntu-noble | 1.2.0-1build2 | ![screen0-5.jpg](./gdmap/tests/screen0-5.jpg) | [SHA256](./gdmap/SHA256SUMS) | N/A |
+| [gdpc](./gdpc) | amd64  | ubuntu-noble | 2.2.5-16build2 | ![screen0-5.jpg](./gdpc/tests/screen0-5.jpg) | [SHA256](./gdpc/SHA256SUMS) | N/A |
+| [geany](./geany) | amd64  | ubuntu-noble | 2.0-1build2 | ![screen0-5.jpg](./geany/tests/screen0-5.jpg) | [SHA256](./geany/SHA256SUMS) | N/A |
+| [gearhead](./gearhead) | amd64  | ubuntu-noble | 1.310-3 | ![screen0-5.jpg](./gearhead/tests/screen0-5.jpg) | [SHA256](./gearhead/SHA256SUMS) | N/A |
+| [gearhead-sdl](./gearhead-sdl) | amd64  | ubuntu-noble | 1.310-3-20250327 | 失败 | [SHA256](./gearhead-sdl/SHA256SUMS) | N/A |
+| [gearhead2](./gearhead2) | amd64  | ubuntu-noble | 0.701-2 | ![screen0-5.jpg](./gearhead2/tests/screen0-5.jpg) | [SHA256](./gearhead2/SHA256SUMS) | N/A |
+| [gearhead2-sdl](./gearhead2-sdl) | amd64  | ubuntu-noble | 0.701-2-20250327 | 失败 | [SHA256](./gearhead2-sdl/SHA256SUMS) | N/A |
+| [geary](./geary) | amd64  | ubuntu-noble | 44.1-2build2-20250327 | 失败 | [SHA256](./geary/SHA256SUMS) | N/A |
+| [gedit](./gedit) | amd64  | ubuntu-noble | 46.2-2-20250327 | 失败 | N/A | N/A |
+| [geeqie](./geeqie) | amd64  | ubuntu-noble | 2.2-2build4-20250327 | 失败 | [SHA256](./geeqie/SHA256SUMS) | N/A |
+| [geeqie-common](./geeqie-common) | amd64  | ubuntu-noble | 2.2-2build4-20250327 | 失败 | [SHA256](./geeqie-common/SHA256SUMS) | N/A |
+| [geg](./geg) | amd64  | ubuntu-noble | 2.0.9-4build2 | ![screen0-5.jpg](./geg/tests/screen0-5.jpg) | [SHA256](./geg/SHA256SUMS) | N/A |
+| [geis-tools](./geis-tools) | amd64  | ubuntu-noble | 2.2.17+16.04.20160126-0ubuntu10-20250327 | 失败 | [SHA256](./geis-tools/SHA256SUMS) | N/A |
+| [geki2](./geki2) | amd64  | ubuntu-noble | 2.0.3-10 | ![screen0-5.jpg](./geki2/tests/screen0-5.jpg) | [SHA256](./geki2/SHA256SUMS) | N/A |
+| [geki3](./geki3) | amd64  | ubuntu-noble | 1.0.3-10 | ![screen0-5.jpg](./geki3/tests/screen0-5.jpg) | [SHA256](./geki3/SHA256SUMS) | N/A |
+| [gelemental](./gelemental) | amd64  | ubuntu-noble | 2.0.2-1.1build2 | ![screen0-5.jpg](./gelemental/tests/screen0-5.jpg) | [SHA256](./gelemental/SHA256SUMS) | N/A |
+| [gemdropx](./gemdropx) | amd64  | ubuntu-noble | 0.9-9 | ![screen0-5.jpg](./gemdropx/tests/screen0-5.jpg) | [SHA256](./gemdropx/SHA256SUMS) | N/A |
+| [gemrb](./gemrb) | amd64  | ubuntu-noble | 0.9.2+dfsg-1build3-20250327 | 失败 | [SHA256](./gemrb/SHA256SUMS) | N/A |
+| [gemrb-baldurs-gate](./gemrb-baldurs-gate) | amd64  | ubuntu-noble | 0.9.2+dfsg-1build3-20250327 | 失败 | [SHA256](./gemrb-baldurs-gate/SHA256SUMS) | N/A |
+| [gemrb-baldurs-gate-2](./gemrb-baldurs-gate-2) | amd64  | ubuntu-noble | 0.9.2+dfsg-1build3-20250327 | 失败 | [SHA256](./gemrb-baldurs-gate-2/SHA256SUMS) | N/A |
+| [gemrb-icewind-dale](./gemrb-icewind-dale) | amd64  | ubuntu-noble | 0.9.2+dfsg-1build3-20250327 | 失败 | [SHA256](./gemrb-icewind-dale/SHA256SUMS) | N/A |
+| [gemrb-icewind-dale-2](./gemrb-icewind-dale-2) | amd64  | ubuntu-noble | 0.9.2+dfsg-1build3-20250327 | 失败 | [SHA256](./gemrb-icewind-dale-2/SHA256SUMS) | N/A |
+| [gemrb-planescape-torment](./gemrb-planescape-torment) | amd64  | ubuntu-noble | 0.9.2+dfsg-1build3-20250327 | 失败 | [SHA256](./gemrb-planescape-torment/SHA256SUMS) | N/A |
+| [gentle](./gentle) | amd64  | ubuntu-noble | 1.9.5~alpha1+dfsg-1build2 | ![screen0-5.jpg](./gentle/tests/screen0-5.jpg) | [SHA256](./gentle/SHA256SUMS) | N/A |
+| [gentoo](./gentoo) | amd64  | ubuntu-noble | 0.20.7-3build2 | ![screen0-5.jpg](./gentoo/tests/screen0-5.jpg) | [SHA256](./gentoo/SHA256SUMS) | N/A |
+| [geoclue-2-demo](./geoclue-2-demo) | amd64  | deepin-v23 | 2.7.1-2-20250327 | 失败 | N/A | N/A |
+| [geoclue-2.0](./geoclue-2.0) | amd64  | deepin-v23 | 2.7.1-2-20250327 | 失败 | N/A | N/A |
+| [geogebra](./geogebra) | amd64  | ubuntu-noble | 4.0.34.0+dfsg1-9 | ![screen0-5.jpg](./geogebra/tests/screen0-5.jpg) | [SHA256](./geogebra/SHA256SUMS) | N/A |
+| [geomview](./geomview) | amd64  | ubuntu-noble | 1.9.5-4.1build2 | ![screen0-5.jpg](./geomview/tests/screen0-5.jpg) | [SHA256](./geomview/SHA256SUMS) | N/A |
+| [geonkick](./geonkick) | amd64  | ubuntu-noble | 2.10.2-0ubuntu4-20250327 | 失败 | [SHA256](./geonkick/SHA256SUMS) | N/A |
+| [geophar](./geophar) | amd64  | ubuntu-noble | 18.09+dfsg1-2-20250327 | 失败 | [SHA256](./geophar/SHA256SUMS) | N/A |
+| [geotranz](./geotranz) | amd64  | ubuntu-noble | 3.7-3ubuntu1 | ![screen0-5.jpg](./geotranz/tests/screen0-5.jpg) | [SHA256](./geotranz/SHA256SUMS) | N/A |
+| [gerbera](./gerbera) | amd64  | ubuntu-noble | 2.0.0+dfsg-1build3-20250327 | 失败 | [SHA256](./gerbera/SHA256SUMS) | N/A |
+| [gerbv](./gerbv) | amd64  | ubuntu-noble | 2.10.0-1build2 | ![screen0-5.jpg](./gerbv/tests/screen0-5.jpg) | [SHA256](./gerbv/SHA256SUMS) | N/A |
+| [gfaim](./gfaim) | amd64  | ubuntu-noble | 0.30-0ubuntu6-20250327 | 失败 | [SHA256](./gfaim/SHA256SUMS) | N/A |
+| [gfm](./gfm) | amd64  | ubuntu-noble | 1.09~git20220826.71eaa92-1build2 | ![screen0-5.jpg](./gfm/tests/screen0-5.jpg) | [SHA256](./gfm/SHA256SUMS) | N/A |
+| [gfpoken](./gfpoken) | amd64  | ubuntu-noble | 1-4build2 | ![screen0-5.jpg](./gfpoken/tests/screen0-5.jpg) | [SHA256](./gfpoken/SHA256SUMS) | N/A |
+| [gftp-gtk](./gftp-gtk) | amd64  | ubuntu-noble | 2.9.1~beta-2build2 | ![screen0-5.jpg](./gftp-gtk/tests/screen0-5.jpg) | [SHA256](./gftp-gtk/SHA256SUMS) | N/A |
+| [ggobi](./ggobi) | amd64  | ubuntu-noble | 2.1.11-2build3 | ![screen0-5.jpg](./ggobi/tests/screen0-5.jpg) | [SHA256](./ggobi/SHA256SUMS) | N/A |
+| [ghex](./ghex) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./ghex/tests/screen0-5.jpg) | [SHA256](./ghex/SHA256SUMS) | N/A |
+| [ghextris](./ghextris) | amd64  | ubuntu-noble | 0.9.0-5-20250327 | 失败 | N/A | N/A |
+| [ghostwriter](./ghostwriter) | amd64  | ubuntu-noble | 23.08.5+ds-0ubuntu3 | ![screen0-5.jpg](./ghostwriter/tests/screen0-5.jpg) | [SHA256](./ghostwriter/SHA256SUMS) | N/A |
+| [giada](./giada) | amd64  | ubuntu-noble | 0.22.0-4build2 | ![screen0-5.jpg](./giada/tests/screen0-5.jpg) | [SHA256](./giada/SHA256SUMS) | N/A |
+| [giara](./giara) | amd64  | ubuntu-noble | 1.1.0-0.1-20250327 | 失败 | N/A | N/A |
+| [gigalomania](./gigalomania) | amd64  | ubuntu-noble | 1.0+ds1-1.1 | ![screen0-5.jpg](./gigalomania/tests/screen0-5.jpg) | [SHA256](./gigalomania/SHA256SUMS) | N/A |
+| [giggle](./giggle) | amd64  | ubuntu-noble | 0.7-6build2 | ![screen0-5.jpg](./giggle/tests/screen0-5.jpg) | [SHA256](./giggle/SHA256SUMS) | N/A |
+| [gigolo](./gigolo) | amd64  | ubuntu-noble | 0.5.3-1build2 | ![screen0-5.jpg](./gigolo/tests/screen0-5.jpg) | [SHA256](./gigolo/SHA256SUMS) | N/A |
+| [gimagereader](./gimagereader) | amd64  | ubuntu-noble | 3.4.2-2build6-20250327 | 失败 | N/A | N/A |
+| [gimagereader-qt5](./gimagereader-qt5) | amd64  | ubuntu-noble | 3.4.2-2build6-20250327 | 失败 | N/A | N/A |
+| [gimp](./gimp) | amd64  | deepin-v23 | 2.10.38-1deepin2 | ![screen0-5.jpg](./gimp/tests/screen0-5.jpg) | [SHA256](./gimp/SHA256SUMS) | N/A |
+| [ginga](./ginga) | amd64  | ubuntu-noble | 5.0.0-1 | ![screen0-5.jpg](./ginga/tests/screen0-5.jpg) | [SHA256](./ginga/SHA256SUMS) | N/A |
+| [git-annex](./git-annex) | amd64  | ubuntu-noble | 10.20240129-1build1 | ![screen0-5.jpg](./git-annex/tests/screen0-5.jpg) | [SHA256](./git-annex/SHA256SUMS) | N/A |
+| [git-cola](./git-cola) | amd64  | ubuntu-noble | 4.6.1-1 | ![screen0-5.jpg](./git-cola/tests/screen0-5.jpg) ![screen1-5.jpg](./git-cola/tests/screen1-5.jpg) | [SHA256](./git-cola/SHA256SUMS) | N/A |
+| [gitg](./gitg) | amd64  | ubuntu-noble | 44-1build2-20250327 | 失败 | N/A | N/A |
+| [gitso](./gitso) | amd64  | ubuntu-noble | 0.6.2+svn158+dfsg-4 | ![screen0-5.jpg](./gitso/tests/screen0-5.jpg) | [SHA256](./gitso/SHA256SUMS) | N/A |
+| [gjacktransport](./gjacktransport) | amd64  | ubuntu-noble | 0.6.4-1build2 | ![screen0-5.jpg](./gjacktransport/tests/screen0-5.jpg) ![screen1-5.jpg](./gjacktransport/tests/screen1-5.jpg) | [SHA256](./gjacktransport/SHA256SUMS) | N/A |
+| [gjiten](./gjiten) | amd64  | ubuntu-noble | 3.1-2build2 | ![screen0-5.jpg](./gjiten/tests/screen0-5.jpg) | [SHA256](./gjiten/SHA256SUMS) | N/A |
+| [gjots2](./gjots2) | amd64  | ubuntu-noble | 3.1.9-0ubuntu2-20250327 | 失败 | [SHA256](./gjots2/SHA256SUMS) | N/A |
+| [gkamus](./gkamus) | amd64  | ubuntu-noble | 1.0-0ubuntu6 | ![screen0-5.jpg](./gkamus/tests/screen0-5.jpg) | [SHA256](./gkamus/SHA256SUMS) | N/A |
+| [gkbd-capplet](./gkbd-capplet) | amd64  | ubuntu-noble | 3.28.1-1build3-20250327 | 失败 | [SHA256](./gkbd-capplet/SHA256SUMS) | N/A |
+| [gkdebconf](./gkdebconf) | amd64  | ubuntu-noble | 2.1.1build2 | ![screen0-5.jpg](./gkdebconf/tests/screen0-5.jpg) | [SHA256](./gkdebconf/SHA256SUMS) | N/A |
+| [gkrellm](./gkrellm) | amd64  | ubuntu-noble | 2.3.11-2build2 | ![screen0-5.jpg](./gkrellm/tests/screen0-5.jpg) | [SHA256](./gkrellm/SHA256SUMS) | N/A |
+| [gl-117](./gl-117) | amd64  | ubuntu-noble | 1.3.2-3.1build1 | ![screen0-5.jpg](./gl-117/tests/screen0-5.jpg) | [SHA256](./gl-117/SHA256SUMS) | N/A |
+| [glabels](./glabels) | amd64  | ubuntu-noble | 3.4.1-4build3 | ![screen0-5.jpg](./glabels/tests/screen0-5.jpg) | [SHA256](./glabels/SHA256SUMS) | N/A |
+| [glade](./glade) | amd64  | ubuntu-noble | 3.40.0-5build2-20250327 | 失败 | N/A | N/A |
+| [glassgui](./glassgui) | amd64  | ubuntu-noble | 2.0.1-2build5 | ![screen0-5.jpg](./glassgui/tests/screen0-5.jpg) ![screen1-5.jpg](./glassgui/tests/screen1-5.jpg) | [SHA256](./glassgui/SHA256SUMS) | N/A |
+| [glob2](./glob2) | amd64  | ubuntu-noble | 0.9.4.4-6build1 | ![screen0-5.jpg](./glob2/tests/screen0-5.jpg) | [SHA256](./glob2/SHA256SUMS) | N/A |
+| [glogg](./glogg) | amd64  | ubuntu-noble | 1.1.4-1.1ubuntu2 | ![screen0-5.jpg](./glogg/tests/screen0-5.jpg) | [SHA256](./glogg/SHA256SUMS) | N/A |
+| [glogic](./glogic) | amd64  | ubuntu-noble | 2.6-6-20250327 | 失败 | N/A | N/A |
+| [glom](./glom) | amd64  | ubuntu-noble | 1.30.4-7build8-20250327 | 失败 | N/A | N/A |
+| [glpeces](./glpeces) | amd64  | ubuntu-noble | 5.2-3build3-20250327 | 失败 | [SHA256](./glpeces/SHA256SUMS) | N/A |
+| [gltron](./gltron) | amd64  | ubuntu-noble | 0.70final-12.4build2 | ![screen0-5.jpg](./gltron/tests/screen0-5.jpg) | [SHA256](./gltron/SHA256SUMS) | N/A |
+| [glueviz](./glueviz) | amd64  | ubuntu-noble | 1.17.1+dfsg-1-20250327 | 失败 | [SHA256](./glueviz/SHA256SUMS) | N/A |
+| [gm-assistant](./gm-assistant) | amd64  | ubuntu-noble | 1.2.4-1build3 | ![screen0-5.jpg](./gm-assistant/tests/screen0-5.jpg) | [SHA256](./gm-assistant/SHA256SUMS) | N/A |
+| [gmanedit](./gmanedit) | amd64  | ubuntu-noble | 0.4.2-8build3 | ![screen0-5.jpg](./gmanedit/tests/screen0-5.jpg) | [SHA256](./gmanedit/SHA256SUMS) | N/A |
+| [gmerlin](./gmerlin) | amd64  | ubuntu-noble | 2.0.0~svn6298~dfsg0-3.1build3 | ![screen0-5.jpg](./gmerlin/tests/screen0-5.jpg) ![screen1-5.jpg](./gmerlin/tests/screen1-5.jpg) ![screen3-5.jpg](./gmerlin/tests/screen3-5.jpg) ![screen4-5.jpg](./gmerlin/tests/screen4-5.jpg) | [SHA256](./gmerlin/SHA256SUMS) | N/A |
+| [gmidimonitor](./gmidimonitor) | amd64  | ubuntu-noble | 3.6+dfsg0-4build3-20250327 | 失败 | [SHA256](./gmidimonitor/SHA256SUMS) | N/A |
+| [gmpc](./gmpc) | amd64  | ubuntu-noble | 11.8.16-21build1 | ![screen0-5.jpg](./gmpc/tests/screen0-5.jpg) | [SHA256](./gmpc/SHA256SUMS) | N/A |
+| [gmrun](./gmrun) | amd64  | ubuntu-noble | 0.9.2-3build3 | ![screen0-5.jpg](./gmrun/tests/screen0-5.jpg) | [SHA256](./gmrun/SHA256SUMS) | N/A |
+| [gmsh](./gmsh) | amd64  | ubuntu-noble | 4.12.1+ds1-1.1build2 | ![screen0-5.jpg](./gmsh/tests/screen0-5.jpg) | [SHA256](./gmsh/SHA256SUMS) | N/A |
+| [gmtp](./gmtp) | amd64  | ubuntu-noble | 1.3.11-3.1build3 | ![screen0-5.jpg](./gmtp/tests/screen0-5.jpg) | [SHA256](./gmtp/SHA256SUMS) | N/A |
+| [gmult](./gmult) | amd64  | ubuntu-noble | 11.0-1build2 | ![screen0-5.jpg](./gmult/tests/screen0-5.jpg) | [SHA256](./gmult/SHA256SUMS) | N/A |
+| [gniall](./gniall) | amd64  | ubuntu-noble | 0.7.1-9build2 | ![screen0-5.jpg](./gniall/tests/screen0-5.jpg) | [SHA256](./gniall/SHA256SUMS) | N/A |
+| [gnomad2](./gnomad2) | amd64  | ubuntu-noble | 2.9.6-8ubuntu1 | ![screen0-5.jpg](./gnomad2/tests/screen0-5.jpg) | [SHA256](./gnomad2/SHA256SUMS) | N/A |
+| [gnome-2048](./gnome-2048) | amd64  | ubuntu-noble | 3.38.2-3build2 | ![screen0-5.jpg](./gnome-2048/tests/screen0-5.jpg) | [SHA256](./gnome-2048/SHA256SUMS) | N/A |
+| [gnome-activity-journal](./gnome-activity-journal) | amd64  | ubuntu-noble | 1.0.0-3ubuntu0.24.04.1-20250327 | 失败 | N/A | N/A |
+| [gnome-authenticator](./gnome-authenticator) | amd64  | ubuntu-noble | 3.32.2+dfsg1-5-20250327 | 失败 | N/A | N/A |
+| [gnome-bluetooth-sendto](./gnome-bluetooth-sendto) | amd64  | ubuntu-noble | 46.0-1ubuntu1-20250327 | 失败 | [SHA256](./gnome-bluetooth-sendto/SHA256SUMS) | N/A |
+| [gnome-boxes](./gnome-boxes) | amd64  | ubuntu-noble | 46.0-1build1-20250327 | 失败 | N/A | N/A |
+| [gnome-breakout](./gnome-breakout) | amd64  | ubuntu-noble | 0.5.3-8 | ![screen0-5.jpg](./gnome-breakout/tests/screen0-5.jpg) | [SHA256](./gnome-breakout/SHA256SUMS) | N/A |
+| [gnome-browser-connector](./gnome-browser-connector) | amd64  | ubuntu-noble | 42.1-4-20250327 | 失败 | N/A | N/A |
+| [gnome-builder](./gnome-builder) | amd64  | ubuntu-noble | 46.2-0ubuntu1-20250327 | 失败 | N/A | N/A |
+| [gnome-calculator](./gnome-calculator) | amd64  | ubuntu-noble | 46.1-1ubuntu1~24.04.1 | ![screen0-5.jpg](./gnome-calculator/tests/screen0-5.jpg) | [SHA256](./gnome-calculator/SHA256SUMS) | N/A |
+| [gnome-calendar](./gnome-calendar) | amd64  | ubuntu-noble | 46.1-0ubuntu2 | ![screen0-5.jpg](./gnome-calendar/tests/screen0-5.jpg) | [SHA256](./gnome-calendar/SHA256SUMS) | N/A |
+| [gnome-calls](./gnome-calls) | amd64  | ubuntu-noble | 46.0-1ubuntu1 | ![screen0-5.jpg](./gnome-calls/tests/screen0-5.jpg) | [SHA256](./gnome-calls/SHA256SUMS) | N/A |
+| [gnome-characters](./gnome-characters) | amd64  | ubuntu-noble | 46.0-1build1-20250327 | 失败 | N/A | N/A |
+| [gnome-chess](./gnome-chess) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-chess/tests/screen0-5.jpg) | [SHA256](./gnome-chess/SHA256SUMS) | N/A |
+| [gnome-clocks](./gnome-clocks) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-clocks/tests/screen0-5.jpg) | [SHA256](./gnome-clocks/SHA256SUMS) | N/A |
+| [gnome-color-manager](./gnome-color-manager) | amd64  | ubuntu-noble | 3.36.0-2build2 | ![screen0-5.jpg](./gnome-color-manager/tests/screen0-5.jpg) | [SHA256](./gnome-color-manager/SHA256SUMS) | N/A |
+| [gnome-commander](./gnome-commander) | amd64  | ubuntu-noble | 1.16.1-1build4 | ![screen0-5.jpg](./gnome-commander/tests/screen0-5.jpg) | [SHA256](./gnome-commander/SHA256SUMS) | N/A |
+| [gnome-connections](./gnome-connections) | amd64  | ubuntu-noble | 46.0-2 | ![screen0-5.jpg](./gnome-connections/tests/screen0-5.jpg) | [SHA256](./gnome-connections/SHA256SUMS) | N/A |
+| [gnome-console](./gnome-console) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-console/tests/screen0-5.jpg) | [SHA256](./gnome-console/SHA256SUMS) | N/A |
+| [gnome-contacts](./gnome-contacts) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-contacts/tests/screen0-5.jpg) | [SHA256](./gnome-contacts/SHA256SUMS) | N/A |
+| [gnome-control-center](./gnome-control-center) | amd64  | ubuntu-noble | 46.5-0ubuntu0.24.04.1-20250327 | 失败 | N/A | N/A |
+| [gnome-dictionary](./gnome-dictionary) | amd64  | ubuntu-noble | 40.0-3build2-20250327 | 失败 | [SHA256](./gnome-dictionary/SHA256SUMS) | N/A |
+| [gnome-disk-utility](./gnome-disk-utility) | amd64  | ubuntu-noble | 46.0-1ubuntu3 | ![screen0-5.jpg](./gnome-disk-utility/tests/screen0-5.jpg) | [SHA256](./gnome-disk-utility/SHA256SUMS) | N/A |
+| [gnome-dvb-client](./gnome-dvb-client) | amd64  | ubuntu-noble | 0.2.91~git20170110-5build3-20250327 | 失败 | N/A | N/A |
+| [gnome-feeds](./gnome-feeds) | amd64  | ubuntu-noble | 2.2.0-3-20250327 | 失败 | N/A | N/A |
+| [gnome-firmware](./gnome-firmware) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-firmware/tests/screen0-5.jpg) | [SHA256](./gnome-firmware/SHA256SUMS) | N/A |
+| [gnome-flashback](./gnome-flashback) | amd64  | ubuntu-noble | 3.52.1-2ubuntu1.1-20250327 | 失败 | N/A | N/A |
+| [gnome-font-viewer](./gnome-font-viewer) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-font-viewer/tests/screen0-5.jpg) | [SHA256](./gnome-font-viewer/SHA256SUMS) | N/A |
+| [gnome-genius](./gnome-genius) | amd64  | ubuntu-noble | 1.0.27-1build4 | ![screen0-5.jpg](./gnome-genius/tests/screen0-5.jpg) | [SHA256](./gnome-genius/SHA256SUMS) | N/A |
+| [gnome-initial-setup](./gnome-initial-setup) | amd64  | ubuntu-noble | 46.3-1ubuntu3~24.04.1-20250327 | 失败 | [SHA256](./gnome-initial-setup/SHA256SUMS) | N/A |
+| [gnome-keysign](./gnome-keysign) | amd64  | ubuntu-noble | 1.3.0-3-20250327 | 失败 | N/A | N/A |
+| [gnome-kiosk](./gnome-kiosk) | amd64  | ubuntu-noble | 46.0-1build2-20250327 | 失败 | N/A | N/A |
+| [gnome-kiosk-script-session](./gnome-kiosk-script-session) | amd64  | ubuntu-noble | 46.0-1build2-20250327 | 失败 | N/A | N/A |
+| [gnome-kiosk-search-appliance](./gnome-kiosk-search-appliance) | amd64  | ubuntu-noble | 46.0-1build2-20250327 | 失败 | N/A | N/A |
+| [gnome-klotski](./gnome-klotski) | amd64  | ubuntu-noble | 3.38.2-1build3 | ![screen0-5.jpg](./gnome-klotski/tests/screen0-5.jpg) | [SHA256](./gnome-klotski/SHA256SUMS) | N/A |
+| [gnome-logs](./gnome-logs) | amd64  | ubuntu-noble | 45.0-1build1 | ![screen0-5.jpg](./gnome-logs/tests/screen0-5.jpg) | [SHA256](./gnome-logs/SHA256SUMS) | N/A |
+| [gnome-mahjongg](./gnome-mahjongg) | amd64  | ubuntu-noble | 3.40.1-1 | ![screen0-5.jpg](./gnome-mahjongg/tests/screen0-5.jpg) | [SHA256](./gnome-mahjongg/SHA256SUMS) | N/A |
+| [gnome-maps](./gnome-maps) | amd64  | ubuntu-noble | 46.0-1build1-20250327 | 失败 | N/A | N/A |
+| [gnome-mastermind](./gnome-mastermind) | amd64  | ubuntu-noble | 0.4.0-4build2 | ![screen0-5.jpg](./gnome-mastermind/tests/screen0-5.jpg) | [SHA256](./gnome-mastermind/SHA256SUMS) | N/A |
+| [gnome-metronome](./gnome-metronome) | amd64  | ubuntu-noble | 1.3.0-2-20250327 | 失败 | [SHA256](./gnome-metronome/SHA256SUMS) | N/A |
+| [gnome-mines](./gnome-mines) | amd64  | ubuntu-noble | 40.1-1build2 | ![screen0-5.jpg](./gnome-mines/tests/screen0-5.jpg) | [SHA256](./gnome-mines/SHA256SUMS) | N/A |
+| [gnome-mousetrap](./gnome-mousetrap) | amd64  | ubuntu-noble | 3.17.3-9-20250327 | 失败 | N/A | N/A |
+| [gnome-multi-writer](./gnome-multi-writer) | amd64  | ubuntu-noble | 3.32.1-2build3 | ![screen0-5.jpg](./gnome-multi-writer/tests/screen0-5.jpg) | [SHA256](./gnome-multi-writer/SHA256SUMS) | N/A |
+| [gnome-music](./gnome-music) | amd64  | ubuntu-noble | 46.0-1build1-20250327 | 失败 | N/A | N/A |
+| [gnome-nettool](./gnome-nettool) | amd64  | ubuntu-noble | 42.0-1build2 | ![screen0-5.jpg](./gnome-nettool/tests/screen0-5.jpg) | [SHA256](./gnome-nettool/SHA256SUMS) | N/A |
+| [gnome-network-displays](./gnome-network-displays) | amd64  | ubuntu-noble | 0.92.1-2build2 | ![screen0-5.jpg](./gnome-network-displays/tests/screen0-5.jpg) | [SHA256](./gnome-network-displays/SHA256SUMS) | N/A |
+| [gnome-nibbles](./gnome-nibbles) | amd64  | ubuntu-noble | 4.0.4-1 | ![screen0-5.jpg](./gnome-nibbles/tests/screen0-5.jpg) | [SHA256](./gnome-nibbles/SHA256SUMS) | N/A |
+| [gnome-online-accounts](./gnome-online-accounts) | amd64  | ubuntu-noble | 3.50.4-0ubuntu2-20250327 | 失败 | [SHA256](./gnome-online-accounts/SHA256SUMS) | N/A |
+| [gnome-online-accounts-gtk](./gnome-online-accounts-gtk) | amd64  | ubuntu-noble | 3.50.1-0ubuntu1 | ![screen0-5.jpg](./gnome-online-accounts-gtk/tests/screen0-5.jpg) | [SHA256](./gnome-online-accounts-gtk/SHA256SUMS) | N/A |
+| [gnome-package-updater](./gnome-package-updater) | amd64  | ubuntu-noble | 43.0-2build3-20250327 | 失败 | N/A | N/A |
+| [gnome-packagekit](./gnome-packagekit) | amd64  | ubuntu-noble | 43.0-2build3-20250327 | 失败 | N/A | N/A |
+| [gnome-paint](./gnome-paint) | amd64  | ubuntu-noble | 0.4.0-9ubuntu1 | ![screen0-5.jpg](./gnome-paint/tests/screen0-5.jpg) | [SHA256](./gnome-paint/SHA256SUMS) | N/A |
+| [gnome-panel](./gnome-panel) | amd64  | ubuntu-noble | 3.52.0-1ubuntu2-20250327 | 失败 | [SHA256](./gnome-panel/SHA256SUMS) | N/A |
+| [gnome-pass-search-provider](./gnome-pass-search-provider) | amd64  | ubuntu-noble | 1.3.0-1-20250327 | 失败 | N/A | N/A |
+| [gnome-pie](./gnome-pie) | amd64  | ubuntu-noble | 0.7.3-2build2 | ![screen0-5.jpg](./gnome-pie/tests/screen0-5.jpg) | [SHA256](./gnome-pie/SHA256SUMS) | N/A |
+| [gnome-power-manager](./gnome-power-manager) | amd64  | ubuntu-noble | 43.0-2build2-20250327 | 失败 | [SHA256](./gnome-power-manager/SHA256SUMS) | N/A |
+| [gnome-remote-desktop](./gnome-remote-desktop) | amd64  | ubuntu-noble | 46.3-0ubuntu1-20250327 | 失败 | [SHA256](./gnome-remote-desktop/SHA256SUMS) | N/A |
+| [gnome-robots](./gnome-robots) | amd64  | ubuntu-noble | 40.0-2build2 | ![screen0-5.jpg](./gnome-robots/tests/screen0-5.jpg) | [SHA256](./gnome-robots/SHA256SUMS) | N/A |
+| [gnome-screensaver](./gnome-screensaver) | amd64  | ubuntu-noble | 3.6.1-13ubuntu4-20250327 | 失败 | [SHA256](./gnome-screensaver/SHA256SUMS) | N/A |
+| [gnome-screensaver-flags](./gnome-screensaver-flags) | amd64  | ubuntu-noble | 0.1-1.1-20250327 | 失败 | [SHA256](./gnome-screensaver-flags/SHA256SUMS) | N/A |
+| [gnome-screenshot](./gnome-screenshot) | amd64  | ubuntu-noble | 41.0-2build2 | ![screen0-5.jpg](./gnome-screenshot/tests/screen0-5.jpg) | [SHA256](./gnome-screenshot/SHA256SUMS) | N/A |
+| [gnome-shell](./gnome-shell) | amd64  | ubuntu-noble | 46.0-0ubuntu6~24.04.8-20250327 | 失败 | N/A | N/A |
+| [gnome-shell-extension-gsconnect](./gnome-shell-extension-gsconnect) | amd64  | ubuntu-noble | 57-1-20250327 | 失败 | N/A | N/A |
+| [gnome-shell-extension-manager](./gnome-shell-extension-manager) | amd64  | ubuntu-noble | 0.5.0-1build1-20250327 | 失败 | N/A | N/A |
+| [gnome-shell-extension-prefs](./gnome-shell-extension-prefs) | amd64  | ubuntu-noble | 46.0-0ubuntu6~24.04.8-20250327 | 失败 | N/A | N/A |
+| [gnome-shell-pomodoro](./gnome-shell-pomodoro) | amd64  | ubuntu-noble | 0.25.1-1-20250327 | 失败 | N/A | N/A |
+| [gnome-snapshot](./gnome-snapshot) | amd64  | ubuntu-noble | 46.2-1ubuntu2-20250327 | 失败 | [SHA256](./gnome-snapshot/SHA256SUMS) | N/A |
+| [gnome-software](./gnome-software) | amd64  | ubuntu-noble | 46.0-1ubuntu2-20250327 | 失败 | N/A | N/A |
+| [gnome-sound-recorder](./gnome-sound-recorder) | amd64  | ubuntu-noble | 43~beta-1-20250327 | 失败 | N/A | N/A |
+| [gnome-split](./gnome-split) | amd64  | ubuntu-noble | 1.2-5-20250327 | 失败 | [SHA256](./gnome-split/SHA256SUMS) | N/A |
+| [gnome-startup-applications](./gnome-startup-applications) | amd64  | ubuntu-noble | 46.0-1ubuntu4 | ![screen0-5.jpg](./gnome-startup-applications/tests/screen0-5.jpg) | [SHA256](./gnome-startup-applications/SHA256SUMS) | N/A |
+| [gnome-subtitles](./gnome-subtitles) | amd64  | ubuntu-noble | 1.8-1 | ![screen0-5.jpg](./gnome-subtitles/tests/screen0-5.jpg) | [SHA256](./gnome-subtitles/SHA256SUMS) | N/A |
+| [gnome-sudoku](./gnome-sudoku) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-sudoku/tests/screen0-5.jpg) | [SHA256](./gnome-sudoku/SHA256SUMS) | N/A |
+| [gnome-system-monitor](./gnome-system-monitor) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-system-monitor/tests/screen0-5.jpg) ![screen1-5.jpg](./gnome-system-monitor/tests/screen1-5.jpg) | [SHA256](./gnome-system-monitor/SHA256SUMS) | N/A |
+| [gnome-system-tools](./gnome-system-tools) | amd64  | ubuntu-noble | 3.0.0-9.1ubuntu4 | ![screen0-5.jpg](./gnome-system-tools/tests/screen0-5.jpg) ![screen1-5.jpg](./gnome-system-tools/tests/screen1-5.jpg) | [SHA256](./gnome-system-tools/SHA256SUMS) | N/A |
+| [gnome-taquin](./gnome-taquin) | amd64  | ubuntu-noble | 3.38.1-2build2 | ![screen0-5.jpg](./gnome-taquin/tests/screen0-5.jpg) | [SHA256](./gnome-taquin/SHA256SUMS) | N/A |
+| [gnome-terminal](./gnome-terminal) | amd64  | ubuntu-noble | 3.52.0-1ubuntu2-20250327 | 失败 | N/A | N/A |
+| [gnome-tetravex](./gnome-tetravex) | amd64  | ubuntu-noble | 3.38.2-3build2 | ![screen0-5.jpg](./gnome-tetravex/tests/screen0-5.jpg) | [SHA256](./gnome-tetravex/SHA256SUMS) | N/A |
+| [gnome-text-editor](./gnome-text-editor) | amd64  | ubuntu-noble | 46.3-0ubuntu2 | ![screen0-5.jpg](./gnome-text-editor/tests/screen0-5.jpg) | [SHA256](./gnome-text-editor/SHA256SUMS) | N/A |
+| [gnome-tour](./gnome-tour) | amd64  | ubuntu-noble | 46.0-2 | ![screen0-5.jpg](./gnome-tour/tests/screen0-5.jpg) | [SHA256](./gnome-tour/SHA256SUMS) | N/A |
+| [gnome-tweaks](./gnome-tweaks) | amd64  | ubuntu-noble | 46.0-2-20250327 | 失败 | N/A | N/A |
+| [gnome-usage](./gnome-usage) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gnome-usage/tests/screen0-5.jpg) | [SHA256](./gnome-usage/SHA256SUMS) | N/A |
+| [gnome-user-share](./gnome-user-share) | amd64  | ubuntu-noble | 43.0-1build2-20250327 | 失败 | [SHA256](./gnome-user-share/SHA256SUMS) | N/A |
+| [gnome-video-arcade](./gnome-video-arcade) | amd64  | ubuntu-noble | 0.8.8-5build3 | ![screen0-5.jpg](./gnome-video-arcade/tests/screen0-5.jpg) | [SHA256](./gnome-video-arcade/SHA256SUMS) | N/A |
+| [gnome-video-trimmer](./gnome-video-trimmer) | amd64  | ubuntu-noble | 0.8.2-2 | ![screen0-5.jpg](./gnome-video-trimmer/tests/screen0-5.jpg) | [SHA256](./gnome-video-trimmer/SHA256SUMS) | N/A |
+| [gnome-weather](./gnome-weather) | amd64  | ubuntu-noble | 46.0-1-20250327 | 失败 | N/A | N/A |
+| [gnomekiss](./gnomekiss) | amd64  | ubuntu-noble | 2.0-6.1build4 | ![screen0-5.jpg](./gnomekiss/tests/screen0-5.jpg) | [SHA256](./gnomekiss/SHA256SUMS) | N/A |
+| [gnomint](./gnomint) | amd64  | ubuntu-noble | 1.3.0-4build2 | ![screen0-5.jpg](./gnomint/tests/screen0-5.jpg) | [SHA256](./gnomint/SHA256SUMS) | N/A |
+| [gnote](./gnote) | amd64  | ubuntu-noble | 46.0-1 | ![screen0-5.jpg](./gnote/tests/screen0-5.jpg) | [SHA256](./gnote/SHA256SUMS) | N/A |
+| [gnubg](./gnubg) | amd64  | ubuntu-noble | 1.07.001-3build6 | ![screen0-5.jpg](./gnubg/tests/screen0-5.jpg) | [SHA256](./gnubg/SHA256SUMS) | N/A |
+| [gnubiff](./gnubiff) | amd64  | ubuntu-noble | 2.2.17-5build3 | ![screen0-5.jpg](./gnubiff/tests/screen0-5.jpg) | [SHA256](./gnubiff/SHA256SUMS) | N/A |
+| [gnucash](./gnucash) | amd64  | ubuntu-noble | 5.5-1.2build1-20250327 | 失败 | N/A | N/A |
+| [gnudatalanguage](./gnudatalanguage) | amd64  | ubuntu-noble | 1.0.4-1build6 | ![screen0-5.jpg](./gnudatalanguage/tests/screen0-5.jpg) | [SHA256](./gnudatalanguage/SHA256SUMS) | N/A |
+| [gnugo](./gnugo) | amd64  | ubuntu-noble | 3.8-11build2 | ![screen0-5.jpg](./gnugo/tests/screen0-5.jpg) | [SHA256](./gnugo/SHA256SUMS) | N/A |
+| [gnujump](./gnujump) | amd64  | ubuntu-noble | 1.0.8-3.1 | ![screen0-5.jpg](./gnujump/tests/screen0-5.jpg) | [SHA256](./gnujump/SHA256SUMS) | N/A |
+| [gnumail.app](./gnumail.app) | amd64  | ubuntu-noble | 1.4.0-2 | ![screen0-5.jpg](./gnumail.app/tests/screen0-5.jpg) | [SHA256](./gnumail.app/SHA256SUMS) | N/A |
+| [gnumed-client](./gnumed-client) | amd64  | ubuntu-noble | 1.8.18+dfsg-2-20250327 | 失败 | N/A | N/A |
+| [gnumeric](./gnumeric) | amd64  | ubuntu-noble | 1.12.56-2build5 | ![screen0-5.jpg](./gnumeric/tests/screen0-5.jpg) | [SHA256](./gnumeric/SHA256SUMS) | N/A |
+| [gnunet](./gnunet) | amd64  | ubuntu-noble | 0.20.0-4.1build3-20250327 | 失败 | [SHA256](./gnunet/SHA256SUMS) | N/A |
+| [gnunet-gtk](./gnunet-gtk) | amd64  | ubuntu-noble | 0.20.0-4 | ![screen0-5.jpg](./gnunet-gtk/tests/screen0-5.jpg) | [SHA256](./gnunet-gtk/SHA256SUMS) | N/A |
+| [gnuradio](./gnuradio) | amd64  | ubuntu-noble | 3.10.9.2-1.1ubuntu2-20250327 | 失败 | N/A | N/A |
+| [gnurobbo](./gnurobbo) | amd64  | ubuntu-noble | 0.68+dfsg-6 | ![screen0-5.jpg](./gnurobbo/tests/screen0-5.jpg) | [SHA256](./gnurobbo/SHA256SUMS) | N/A |
+| [gnuserv](./gnuserv) | amd64  | ubuntu-noble | 3.12.8-12-20250327 | 失败 | [SHA256](./gnuserv/SHA256SUMS) | N/A |
+| [gnusim8085](./gnusim8085) | amd64  | ubuntu-noble | 1.4.1-1build3 | ![screen0-5.jpg](./gnusim8085/tests/screen0-5.jpg) | [SHA256](./gnusim8085/SHA256SUMS) | N/A |
+| [gnustep-dl2](./gnustep-dl2) | amd64  | ubuntu-noble | 0.12.0-16build2 | ![screen0-5.jpg](./gnustep-dl2/tests/screen0-5.jpg) | [SHA256](./gnustep-dl2/SHA256SUMS) | N/A |
+| [gnustep-examples](./gnustep-examples) | amd64  | ubuntu-noble | 1.4.0-3build3 | ![screen0-5.jpg](./gnustep-examples/tests/screen0-5.jpg) ![screen1-5.jpg](./gnustep-examples/tests/screen1-5.jpg) | [SHA256](./gnustep-examples/SHA256SUMS) | N/A |
+| [go-for-it](./go-for-it) | amd64  | ubuntu-noble | 1.9.6-4build3 | ![screen0-5.jpg](./go-for-it/tests/screen0-5.jpg) | [SHA256](./go-for-it/SHA256SUMS) | N/A |
+| [goattracker](./goattracker) | amd64  | ubuntu-noble | 2.76+ds-3 | ![screen0-5.jpg](./goattracker/tests/screen0-5.jpg) | [SHA256](./goattracker/SHA256SUMS) | N/A |
+| [goban-ss](./goban-ss) | amd64  | ubuntu-noble | 1.1-6 | ![screen0-5.jpg](./goban-ss/tests/screen0-5.jpg) ![screen1-5.jpg](./goban-ss/tests/screen1-5.jpg) ![screen2-5.jpg](./goban-ss/tests/screen2-5.jpg) ![screen3-5.jpg](./goban-ss/tests/screen3-5.jpg) ![screen4-5.jpg](./goban-ss/tests/screen4-5.jpg) ![screen5-5.jpg](./goban-ss/tests/screen5-5.jpg) ![screen6-5.jpg](./goban-ss/tests/screen6-5.jpg) ![screen7-5.jpg](./goban-ss/tests/screen7-5.jpg) ![screen8-5.jpg](./goban-ss/tests/screen8-5.jpg) ![screen9-5.jpg](./goban-ss/tests/screen9-5.jpg) ![screen10-5.jpg](./goban-ss/tests/screen10-5.jpg) ![screen11-5.jpg](./goban-ss/tests/screen11-5.jpg) ![screen12-5.jpg](./goban-ss/tests/screen12-5.jpg) ![screen13-5.jpg](./goban-ss/tests/screen13-5.jpg) ![screen14-5.jpg](./goban-ss/tests/screen14-5.jpg) ![screen15-5.jpg](./goban-ss/tests/screen15-5.jpg) ![screen16-5.jpg](./goban-ss/tests/screen16-5.jpg) ![screen17-5.jpg](./goban-ss/tests/screen17-5.jpg) ![screen18-5.jpg](./goban-ss/tests/screen18-5.jpg) ![screen19-5.jpg](./goban-ss/tests/screen19-5.jpg) ![screen20-5.jpg](./goban-ss/tests/screen20-5.jpg) ![screen21-5.jpg](./goban-ss/tests/screen21-5.jpg) ![screen22-5.jpg](./goban-ss/tests/screen22-5.jpg) ![screen23-5.jpg](./goban-ss/tests/screen23-5.jpg) ![screen24-5.jpg](./goban-ss/tests/screen24-5.jpg) ![screen25-5.jpg](./goban-ss/tests/screen25-5.jpg) ![screen26-5.jpg](./goban-ss/tests/screen26-5.jpg) ![screen27-5.jpg](./goban-ss/tests/screen27-5.jpg) ![screen28-5.jpg](./goban-ss/tests/screen28-5.jpg) ![screen29-5.jpg](./goban-ss/tests/screen29-5.jpg) ![screen30-5.jpg](./goban-ss/tests/screen30-5.jpg) ![screen31-5.jpg](./goban-ss/tests/screen31-5.jpg) ![screen32-5.jpg](./goban-ss/tests/screen32-5.jpg) ![screen33-5.jpg](./goban-ss/tests/screen33-5.jpg) ![screen34-5.jpg](./goban-ss/tests/screen34-5.jpg) ![screen35-5.jpg](./goban-ss/tests/screen35-5.jpg) ![screen36-5.jpg](./goban-ss/tests/screen36-5.jpg) ![screen37-5.jpg](./goban-ss/tests/screen37-5.jpg) ![screen38-5.jpg](./goban-ss/tests/screen38-5.jpg) ![screen39-5.jpg](./goban-ss/tests/screen39-5.jpg) ![screen40-5.jpg](./goban-ss/tests/screen40-5.jpg) ![screen41-5.jpg](./goban-ss/tests/screen41-5.jpg) ![screen42-5.jpg](./goban-ss/tests/screen42-5.jpg) ![screen43-5.jpg](./goban-ss/tests/screen43-5.jpg) ![screen44-5.jpg](./goban-ss/tests/screen44-5.jpg) ![screen45-5.jpg](./goban-ss/tests/screen45-5.jpg) ![screen46-5.jpg](./goban-ss/tests/screen46-5.jpg) ![screen47-5.jpg](./goban-ss/tests/screen47-5.jpg) ![screen48-5.jpg](./goban-ss/tests/screen48-5.jpg) ![screen49-5.jpg](./goban-ss/tests/screen49-5.jpg) ![screen50-5.jpg](./goban-ss/tests/screen50-5.jpg) ![screen51-5.jpg](./goban-ss/tests/screen51-5.jpg) ![screen52-5.jpg](./goban-ss/tests/screen52-5.jpg) ![screen53-5.jpg](./goban-ss/tests/screen53-5.jpg) ![screen54-5.jpg](./goban-ss/tests/screen54-5.jpg) ![screen55-5.jpg](./goban-ss/tests/screen55-5.jpg) ![screen56-5.jpg](./goban-ss/tests/screen56-5.jpg) ![screen57-5.jpg](./goban-ss/tests/screen57-5.jpg) ![screen58-5.jpg](./goban-ss/tests/screen58-5.jpg) ![screen59-5.jpg](./goban-ss/tests/screen59-5.jpg) ![screen60-5.jpg](./goban-ss/tests/screen60-5.jpg) ![screen62-5.jpg](./goban-ss/tests/screen62-5.jpg) ![screen63-5.jpg](./goban-ss/tests/screen63-5.jpg) ![screen64-5.jpg](./goban-ss/tests/screen64-5.jpg) ![screen65-5.jpg](./goban-ss/tests/screen65-5.jpg) ![screen66-5.jpg](./goban-ss/tests/screen66-5.jpg) ![screen67-5.jpg](./goban-ss/tests/screen67-5.jpg) ![screen68-5.jpg](./goban-ss/tests/screen68-5.jpg) ![screen69-5.jpg](./goban-ss/tests/screen69-5.jpg) ![screen70-5.jpg](./goban-ss/tests/screen70-5.jpg) ![screen71-5.jpg](./goban-ss/tests/screen71-5.jpg) ![screen72-5.jpg](./goban-ss/tests/screen72-5.jpg) ![screen73-5.jpg](./goban-ss/tests/screen73-5.jpg) ![screen74-5.jpg](./goban-ss/tests/screen74-5.jpg) ![screen75-5.jpg](./goban-ss/tests/screen75-5.jpg) ![screen76-5.jpg](./goban-ss/tests/screen76-5.jpg) ![screen77-5.jpg](./goban-ss/tests/screen77-5.jpg) ![screen78-5.jpg](./goban-ss/tests/screen78-5.jpg) ![screen79-5.jpg](./goban-ss/tests/screen79-5.jpg) ![screen80-5.jpg](./goban-ss/tests/screen80-5.jpg) ![screen81-5.jpg](./goban-ss/tests/screen81-5.jpg) ![screen82-5.jpg](./goban-ss/tests/screen82-5.jpg) ![screen83-5.jpg](./goban-ss/tests/screen83-5.jpg) ![screen84-5.jpg](./goban-ss/tests/screen84-5.jpg) ![screen85-5.jpg](./goban-ss/tests/screen85-5.jpg) ![screen86-5.jpg](./goban-ss/tests/screen86-5.jpg) ![screen87-5.jpg](./goban-ss/tests/screen87-5.jpg) ![screen88-5.jpg](./goban-ss/tests/screen88-5.jpg) ![screen89-5.jpg](./goban-ss/tests/screen89-5.jpg) ![screen90-5.jpg](./goban-ss/tests/screen90-5.jpg) ![screen91-5.jpg](./goban-ss/tests/screen91-5.jpg) ![screen92-5.jpg](./goban-ss/tests/screen92-5.jpg) ![screen93-5.jpg](./goban-ss/tests/screen93-5.jpg) ![screen94-5.jpg](./goban-ss/tests/screen94-5.jpg) ![screen95-5.jpg](./goban-ss/tests/screen95-5.jpg) ![screen97-5.jpg](./goban-ss/tests/screen97-5.jpg) ![screen98-5.jpg](./goban-ss/tests/screen98-5.jpg) ![screen99-5.jpg](./goban-ss/tests/screen99-5.jpg) ![screen100-5.jpg](./goban-ss/tests/screen100-5.jpg) ![screen101-5.jpg](./goban-ss/tests/screen101-5.jpg) ![screen102-5.jpg](./goban-ss/tests/screen102-5.jpg) ![screen103-5.jpg](./goban-ss/tests/screen103-5.jpg) ![screen104-5.jpg](./goban-ss/tests/screen104-5.jpg) ![screen105-5.jpg](./goban-ss/tests/screen105-5.jpg) ![screen106-5.jpg](./goban-ss/tests/screen106-5.jpg) ![screen107-5.jpg](./goban-ss/tests/screen107-5.jpg) ![screen108-5.jpg](./goban-ss/tests/screen108-5.jpg) ![screen109-5.jpg](./goban-ss/tests/screen109-5.jpg) ![screen110-5.jpg](./goban-ss/tests/screen110-5.jpg) ![screen111-5.jpg](./goban-ss/tests/screen111-5.jpg) ![screen112-5.jpg](./goban-ss/tests/screen112-5.jpg) ![screen113-5.jpg](./goban-ss/tests/screen113-5.jpg) ![screen114-5.jpg](./goban-ss/tests/screen114-5.jpg) ![screen115-5.jpg](./goban-ss/tests/screen115-5.jpg) ![screen116-5.jpg](./goban-ss/tests/screen116-5.jpg) ![screen117-5.jpg](./goban-ss/tests/screen117-5.jpg) ![screen118-5.jpg](./goban-ss/tests/screen118-5.jpg) ![screen119-5.jpg](./goban-ss/tests/screen119-5.jpg) ![screen120-5.jpg](./goban-ss/tests/screen120-5.jpg) ![screen121-5.jpg](./goban-ss/tests/screen121-5.jpg) ![screen122-5.jpg](./goban-ss/tests/screen122-5.jpg) ![screen123-5.jpg](./goban-ss/tests/screen123-5.jpg) ![screen124-5.jpg](./goban-ss/tests/screen124-5.jpg) ![screen125-5.jpg](./goban-ss/tests/screen125-5.jpg) ![screen126-5.jpg](./goban-ss/tests/screen126-5.jpg) ![screen127-5.jpg](./goban-ss/tests/screen127-5.jpg) ![screen128-5.jpg](./goban-ss/tests/screen128-5.jpg) ![screen129-5.jpg](./goban-ss/tests/screen129-5.jpg) ![screen130-5.jpg](./goban-ss/tests/screen130-5.jpg) ![screen131-5.jpg](./goban-ss/tests/screen131-5.jpg) ![screen132-5.jpg](./goban-ss/tests/screen132-5.jpg) ![screen133-5.jpg](./goban-ss/tests/screen133-5.jpg) ![screen134-5.jpg](./goban-ss/tests/screen134-5.jpg) ![screen135-5.jpg](./goban-ss/tests/screen135-5.jpg) ![screen136-5.jpg](./goban-ss/tests/screen136-5.jpg) ![screen137-5.jpg](./goban-ss/tests/screen137-5.jpg) ![screen138-5.jpg](./goban-ss/tests/screen138-5.jpg) ![screen139-5.jpg](./goban-ss/tests/screen139-5.jpg) ![screen140-5.jpg](./goban-ss/tests/screen140-5.jpg) ![screen141-5.jpg](./goban-ss/tests/screen141-5.jpg) ![screen142-5.jpg](./goban-ss/tests/screen142-5.jpg) ![screen143-5.jpg](./goban-ss/tests/screen143-5.jpg) ![screen144-5.jpg](./goban-ss/tests/screen144-5.jpg) ![screen145-5.jpg](./goban-ss/tests/screen145-5.jpg) ![screen146-5.jpg](./goban-ss/tests/screen146-5.jpg) ![screen147-5.jpg](./goban-ss/tests/screen147-5.jpg) ![screen148-5.jpg](./goban-ss/tests/screen148-5.jpg) ![screen149-5.jpg](./goban-ss/tests/screen149-5.jpg) ![screen150-5.jpg](./goban-ss/tests/screen150-5.jpg) ![screen151-5.jpg](./goban-ss/tests/screen151-5.jpg) ![screen152-5.jpg](./goban-ss/tests/screen152-5.jpg) ![screen153-5.jpg](./goban-ss/tests/screen153-5.jpg) ![screen154-5.jpg](./goban-ss/tests/screen154-5.jpg) ![screen155-5.jpg](./goban-ss/tests/screen155-5.jpg) ![screen156-5.jpg](./goban-ss/tests/screen156-5.jpg) ![screen157-5.jpg](./goban-ss/tests/screen157-5.jpg) ![screen158-5.jpg](./goban-ss/tests/screen158-5.jpg) ![screen159-5.jpg](./goban-ss/tests/screen159-5.jpg) ![screen160-5.jpg](./goban-ss/tests/screen160-5.jpg) ![screen161-5.jpg](./goban-ss/tests/screen161-5.jpg) ![screen162-5.jpg](./goban-ss/tests/screen162-5.jpg) ![screen163-5.jpg](./goban-ss/tests/screen163-5.jpg) ![screen164-5.jpg](./goban-ss/tests/screen164-5.jpg) ![screen165-5.jpg](./goban-ss/tests/screen165-5.jpg) ![screen166-5.jpg](./goban-ss/tests/screen166-5.jpg) ![screen167-5.jpg](./goban-ss/tests/screen167-5.jpg) ![screen168-5.jpg](./goban-ss/tests/screen168-5.jpg) ![screen169-5.jpg](./goban-ss/tests/screen169-5.jpg) ![screen170-5.jpg](./goban-ss/tests/screen170-5.jpg) ![screen171-5.jpg](./goban-ss/tests/screen171-5.jpg) ![screen172-5.jpg](./goban-ss/tests/screen172-5.jpg) ![screen173-5.jpg](./goban-ss/tests/screen173-5.jpg) ![screen174-5.jpg](./goban-ss/tests/screen174-5.jpg) ![screen175-5.jpg](./goban-ss/tests/screen175-5.jpg) ![screen176-5.jpg](./goban-ss/tests/screen176-5.jpg) ![screen177-5.jpg](./goban-ss/tests/screen177-5.jpg) ![screen178-5.jpg](./goban-ss/tests/screen178-5.jpg) ![screen179-5.jpg](./goban-ss/tests/screen179-5.jpg) ![screen180-5.jpg](./goban-ss/tests/screen180-5.jpg) ![screen181-5.jpg](./goban-ss/tests/screen181-5.jpg) ![screen182-5.jpg](./goban-ss/tests/screen182-5.jpg) ![screen183-5.jpg](./goban-ss/tests/screen183-5.jpg) ![screen184-5.jpg](./goban-ss/tests/screen184-5.jpg) ![screen185-5.jpg](./goban-ss/tests/screen185-5.jpg) ![screen186-5.jpg](./goban-ss/tests/screen186-5.jpg) ![screen187-5.jpg](./goban-ss/tests/screen187-5.jpg) ![screen188-5.jpg](./goban-ss/tests/screen188-5.jpg) ![screen189-5.jpg](./goban-ss/tests/screen189-5.jpg) ![screen190-5.jpg](./goban-ss/tests/screen190-5.jpg) ![screen191-5.jpg](./goban-ss/tests/screen191-5.jpg) ![screen192-5.jpg](./goban-ss/tests/screen192-5.jpg) ![screen193-5.jpg](./goban-ss/tests/screen193-5.jpg) ![screen194-5.jpg](./goban-ss/tests/screen194-5.jpg) ![screen195-5.jpg](./goban-ss/tests/screen195-5.jpg) ![screen196-5.jpg](./goban-ss/tests/screen196-5.jpg) ![screen197-5.jpg](./goban-ss/tests/screen197-5.jpg) ![screen198-5.jpg](./goban-ss/tests/screen198-5.jpg) ![screen199-5.jpg](./goban-ss/tests/screen199-5.jpg) ![screen200-5.jpg](./goban-ss/tests/screen200-5.jpg) ![screen201-5.jpg](./goban-ss/tests/screen201-5.jpg) ![screen202-5.jpg](./goban-ss/tests/screen202-5.jpg) ![screen203-5.jpg](./goban-ss/tests/screen203-5.jpg) ![screen204-5.jpg](./goban-ss/tests/screen204-5.jpg) ![screen205-5.jpg](./goban-ss/tests/screen205-5.jpg) ![screen206-5.jpg](./goban-ss/tests/screen206-5.jpg) ![screen207-5.jpg](./goban-ss/tests/screen207-5.jpg) ![screen208-5.jpg](./goban-ss/tests/screen208-5.jpg) ![screen209-5.jpg](./goban-ss/tests/screen209-5.jpg) ![screen210-5.jpg](./goban-ss/tests/screen210-5.jpg) ![screen211-5.jpg](./goban-ss/tests/screen211-5.jpg) ![screen212-5.jpg](./goban-ss/tests/screen212-5.jpg) ![screen213-5.jpg](./goban-ss/tests/screen213-5.jpg) ![screen214-5.jpg](./goban-ss/tests/screen214-5.jpg) ![screen215-5.jpg](./goban-ss/tests/screen215-5.jpg) ![screen216-5.jpg](./goban-ss/tests/screen216-5.jpg) ![screen217-5.jpg](./goban-ss/tests/screen217-5.jpg) ![screen218-5.jpg](./goban-ss/tests/screen218-5.jpg) ![screen219-5.jpg](./goban-ss/tests/screen219-5.jpg) ![screen220-5.jpg](./goban-ss/tests/screen220-5.jpg) ![screen221-5.jpg](./goban-ss/tests/screen221-5.jpg) ![screen222-5.jpg](./goban-ss/tests/screen222-5.jpg) ![screen223-5.jpg](./goban-ss/tests/screen223-5.jpg) ![screen224-5.jpg](./goban-ss/tests/screen224-5.jpg) ![screen225-5.jpg](./goban-ss/tests/screen225-5.jpg) ![screen226-5.jpg](./goban-ss/tests/screen226-5.jpg) ![screen227-5.jpg](./goban-ss/tests/screen227-5.jpg) ![screen228-5.jpg](./goban-ss/tests/screen228-5.jpg) ![screen229-5.jpg](./goban-ss/tests/screen229-5.jpg) ![screen230-5.jpg](./goban-ss/tests/screen230-5.jpg) ![screen231-5.jpg](./goban-ss/tests/screen231-5.jpg) ![screen232-5.jpg](./goban-ss/tests/screen232-5.jpg) ![screen233-5.jpg](./goban-ss/tests/screen233-5.jpg) ![screen235-5.jpg](./goban-ss/tests/screen235-5.jpg) ![screen236-5.jpg](./goban-ss/tests/screen236-5.jpg) ![screen237-5.jpg](./goban-ss/tests/screen237-5.jpg) ![screen238-5.jpg](./goban-ss/tests/screen238-5.jpg) ![screen239-5.jpg](./goban-ss/tests/screen239-5.jpg) ![screen240-5.jpg](./goban-ss/tests/screen240-5.jpg) ![screen241-5.jpg](./goban-ss/tests/screen241-5.jpg) ![screen242-5.jpg](./goban-ss/tests/screen242-5.jpg) ![screen243-5.jpg](./goban-ss/tests/screen243-5.jpg) ![screen244-5.jpg](./goban-ss/tests/screen244-5.jpg) ![screen245-5.jpg](./goban-ss/tests/screen245-5.jpg) ![screen246-5.jpg](./goban-ss/tests/screen246-5.jpg) ![screen247-5.jpg](./goban-ss/tests/screen247-5.jpg) ![screen248-5.jpg](./goban-ss/tests/screen248-5.jpg) | [SHA256](./goban-ss/SHA256SUMS) | N/A |
+| [gobby](./gobby) | amd64  | ubuntu-noble | 0.6.0-2build2 | ![screen0-5.jpg](./gobby/tests/screen0-5.jpg) | [SHA256](./gobby/SHA256SUMS) | N/A |
+| [godot3](./godot3) | amd64  | ubuntu-noble | 3.5.2-stable-2build4 | ![screen0-5.jpg](./godot3/tests/screen0-5.jpg) | [SHA256](./godot3/SHA256SUMS) | N/A |
+| [goldencheetah](./goldencheetah) | amd64  | ubuntu-noble | 3.5-2ubuntu2 | ![screen0-5.jpg](./goldencheetah/tests/screen0-5.jpg) | [SHA256](./goldencheetah/SHA256SUMS) | N/A |
+| [goldendict](./goldendict) | amd64  | ubuntu-noble | 1.5.0-1build4 | ![screen0-5.jpg](./goldendict/tests/screen0-5.jpg) | [SHA256](./goldendict/SHA256SUMS) | N/A |
+| [goldendict-ng](./goldendict-ng) | amd64  | ubuntu-noble | 23.12.26-1build2 | ![screen0-5.jpg](./goldendict-ng/tests/screen0-5.jpg) | [SHA256](./goldendict-ng/SHA256SUMS) | N/A |
+| [goldendict-webengine](./goldendict-webengine) | amd64  | ubuntu-noble | 23.10.01-1build3 | ![screen0-5.jpg](./goldendict-webengine/tests/screen0-5.jpg) | [SHA256](./goldendict-webengine/SHA256SUMS) | N/A |
+| [golly](./golly) | amd64  | ubuntu-noble | 3.3-1.1build3 | ![screen0-5.jpg](./golly/tests/screen0-5.jpg) | [SHA256](./golly/SHA256SUMS) | N/A |
+| [gom](./gom) | amd64  | ubuntu-noble | 0.30.4-1-20250327 | 失败 | [SHA256](./gom/SHA256SUMS) | N/A |
+| [gomoku.app](./gomoku.app) | amd64  | ubuntu-noble | 1.2.9-5build1 | ![screen0-5.jpg](./gomoku.app/tests/screen0-5.jpg) | [SHA256](./gomoku.app/SHA256SUMS) | N/A |
+| [goobox](./goobox) | amd64  | ubuntu-noble | 3.6.0-11build2 | ![screen0-5.jpg](./goobox/tests/screen0-5.jpg) | [SHA256](./goobox/SHA256SUMS) | N/A |
+| [goodvibes](./goodvibes) | amd64  | ubuntu-noble | 0.7.9-1build2 | ![screen0-5.jpg](./goodvibes/tests/screen0-5.jpg) | [SHA256](./goodvibes/SHA256SUMS) | N/A |
+| [gopchop](./gopchop) | amd64  | ubuntu-noble | 1.1.8-7build4 | ![screen0-5.jpg](./gopchop/tests/screen0-5.jpg) | [SHA256](./gopchop/SHA256SUMS) | N/A |
+| [gorm.app](./gorm.app) | amd64  | ubuntu-noble | 1.3.1-1build1 | ![screen0-5.jpg](./gorm.app/tests/screen0-5.jpg) | [SHA256](./gorm.app/SHA256SUMS) | N/A |
+| [gosa-desktop](./gosa-desktop) | amd64  | ubuntu-noble | 2.8~git20230203.10abe45+dfsg-11-20250327 | 失败 | N/A | N/A |
+| [gourmand](./gourmand) | amd64  | ubuntu-noble | 1.1.0+really1.1.0~rc3-3-20250327 | 失败 | N/A | N/A |
+| [goverlay](./goverlay) | amd64  | ubuntu-noble | 0.9.1-2 | ![screen0-5.jpg](./goverlay/tests/screen0-5.jpg) | [SHA256](./goverlay/SHA256SUMS) | N/A |
+| [goxel](./goxel) | amd64  | ubuntu-noble | 0.11.0-1.1build3 | ![screen0-5.jpg](./goxel/tests/screen0-5.jpg) | [SHA256](./goxel/SHA256SUMS) | N/A |
+| [gpa](./gpa) | amd64  | ubuntu-noble | 0.10.0-6 | ![screen0-5.jpg](./gpa/tests/screen0-5.jpg) | [SHA256](./gpa/SHA256SUMS) | N/A |
+| [gpac](./gpac) | amd64  | ubuntu-noble | 2.2.1+dfsg1-3.1build2 | ![screen0-5.jpg](./gpac/tests/screen0-5.jpg) | [SHA256](./gpac/SHA256SUMS) | N/A |
+| [gparted](./gparted) | amd64  | deepin-v23 | 1.5.0-1deepin0-20250327 | 失败 | N/A | N/A |
+| [gpaste-2](./gpaste-2) | amd64  | ubuntu-noble | 45-2ubuntu5 | ![screen0-5.jpg](./gpaste-2/tests/screen0-5.jpg) | [SHA256](./gpaste-2/SHA256SUMS) | N/A |
+| [gperiodic](./gperiodic) | amd64  | ubuntu-noble | 3.0.3-1build2 | ![screen0-5.jpg](./gperiodic/tests/screen0-5.jpg) | [SHA256](./gperiodic/SHA256SUMS) | N/A |
+| [gpick](./gpick) | amd64  | ubuntu-noble | 0.2.6-1ubuntu2 | ![screen0-5.jpg](./gpick/tests/screen0-5.jpg) | [SHA256](./gpick/SHA256SUMS) | N/A |
+| [gpicview](./gpicview) | amd64  | deepin-v23 | 0.2.5-deepin1 | ![screen0-5.jpg](./gpicview/tests/screen0-5.jpg) | [SHA256](./gpicview/SHA256SUMS) | N/A |
+| [gplanarity](./gplanarity) | amd64  | ubuntu-noble | 17906-7build3 | ![screen0-5.jpg](./gplanarity/tests/screen0-5.jpg) | [SHA256](./gplanarity/SHA256SUMS) | N/A |
+| [gpodder](./gpodder) | amd64  | ubuntu-noble | 3.11.3-2ubuntu1-20250327 | 失败 | N/A | N/A |
+| [gpredict-doc](./gpredict-doc) | amd64  | ubuntu-noble | 2.3-115-g0f3beb6-3build3-20250327 | 失败 | [SHA256](./gpredict-doc/SHA256SUMS) | N/A |
+| [gprename](./gprename) | amd64  | deepin-v23 | 20210415-1 | ![screen0-5.jpg](./gprename/tests/screen0-5.jpg) | [SHA256](./gprename/SHA256SUMS) | N/A |
+| [gprompter](./gprompter) | amd64  | deepin-v23 | 0.9.1-2.2-deepin1+rb1 | ![screen0-5.jpg](./gprompter/tests/screen0-5.jpg) | [SHA256](./gprompter/SHA256SUMS) | N/A |
+| [gpsbabel-gui](./gpsbabel-gui) | amd64  | ubuntu-noble | 1.9.0+ds-2build3 | ![screen0-5.jpg](./gpsbabel-gui/tests/screen0-5.jpg) | [SHA256](./gpsbabel-gui/SHA256SUMS) | N/A |
+| [gpscorrelate-gui](./gpscorrelate-gui) | amd64  | ubuntu-noble | 2.0-4build2 | ![screen0-5.jpg](./gpscorrelate-gui/tests/screen0-5.jpg) | [SHA256](./gpscorrelate-gui/SHA256SUMS) | N/A |
+| [gpsd-clients](./gpsd-clients) | amd64  | ubuntu-noble | 3.25-3ubuntu3.1-20250327 | 失败 | N/A | N/A |
+| [gpsprune](./gpsprune) | amd64  | ubuntu-noble | 23.2-1 | ![screen0-5.jpg](./gpsprune/tests/screen0-5.jpg) | [SHA256](./gpsprune/SHA256SUMS) | N/A |
+| [gpxviewer](./gpxviewer) | amd64  | ubuntu-noble | 1.1.0-5-20250327 | 失败 | N/A | N/A |
+| [gpy](./gpy) | amd64  | deepin-v23 | 1.0.2.20210607 | ![screen0-5.jpg](./gpy/tests/screen0-5.jpg) | [SHA256](./gpy/SHA256SUMS) | N/A |
+| [gqrx-sdr](./gqrx-sdr) | amd64  | ubuntu-noble | 2.17.4-2build3-20250327 | 失败 | N/A | N/A |
+| [grace](./grace) | amd64  | ubuntu-noble | 5.1.25-14 | ![screen0-5.jpg](./grace/tests/screen0-5.jpg) | [SHA256](./grace/SHA256SUMS) | N/A |
+| [gradebook](./gradebook) | amd64  | ubuntu-noble | 1.2-0ubuntu3 | ![screen0-5.jpg](./gradebook/tests/screen0-5.jpg) | [SHA256](./gradebook/SHA256SUMS) | N/A |
+| [grads](./grads) | amd64  | ubuntu-noble | 2.2.1-6build2 | ![screen0-5.jpg](./grads/tests/screen0-5.jpg) | [SHA256](./grads/SHA256SUMS) | N/A |
+| [grafx2](./grafx2) | amd64  | ubuntu-noble | 2.8+ds-3build3 | ![screen0-5.jpg](./grafx2/tests/screen0-5.jpg) | [SHA256](./grafx2/SHA256SUMS) | N/A |
+| [graide](./graide) | amd64  | ubuntu-noble | 1.1.0+dfsg-4.1 | ![screen0-5.jpg](./graide/tests/screen0-5.jpg) | [SHA256](./graide/SHA256SUMS) | N/A |
+| [gramps](./gramps) | amd64  | ubuntu-noble | 5.1.6+dfsg-1ubuntu1-20250327 | 失败 | N/A | N/A |
+| [granatier](./granatier) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./granatier/tests/screen0-5.jpg) | [SHA256](./granatier/SHA256SUMS) | N/A |
+| [grandorgue](./grandorgue) | amd64  | ubuntu-noble | 3.13.1-1build2 | ![screen0-5.jpg](./grandorgue/tests/screen0-5.jpg) | [SHA256](./grandorgue/SHA256SUMS) | N/A |
+| [grandprinter-mfp](./grandprinter-mfp) | amd64  | deepin-v23 | 1.0.0-22041 | ![screen0-5.jpg](./grandprinter-mfp/tests/screen0-5.jpg) ![screen1-5.jpg](./grandprinter-mfp/tests/screen1-5.jpg) | [SHA256](./grandprinter-mfp/SHA256SUMS) | N/A |
+| [granite-7-demo](./granite-7-demo) | amd64  | ubuntu-noble | 7.4.0-1build3-20250327 | 失败 | [SHA256](./granite-7-demo/SHA256SUMS) | N/A |
+| [granite-demo](./granite-demo) | amd64  | ubuntu-noble | 6.2.0-3build3-20250327 | 失败 | [SHA256](./granite-demo/SHA256SUMS) | N/A |
+| [granule](./granule) | amd64  | ubuntu-noble | 1.4.0-7-10build3 | ![screen0-5.jpg](./granule/tests/screen0-5.jpg) | [SHA256](./granule/SHA256SUMS) | N/A |
+| [grass-core](./grass-core) | amd64  | ubuntu-noble | 8.3.2-1ubuntu2-20250327 | 失败 | [SHA256](./grass-core/SHA256SUMS) | N/A |
+| [gravitation](./gravitation) | amd64  | ubuntu-noble | 3+dfsg1-6 | ![screen0-5.jpg](./gravitation/tests/screen0-5.jpg) | [SHA256](./gravitation/SHA256SUMS) | N/A |
+| [gravitywars](./gravitywars) | amd64  | ubuntu-noble | 1.102-35 | ![screen0-5.jpg](./gravitywars/tests/screen0-5.jpg) | [SHA256](./gravitywars/SHA256SUMS) | N/A |
+| [grdesktop](./grdesktop) | amd64  | ubuntu-noble | 0.23+d040330-7build3 | ![screen0-5.jpg](./grdesktop/tests/screen0-5.jpg) | [SHA256](./grdesktop/SHA256SUMS) | N/A |
+| [greed](./greed) | amd64  | ubuntu-noble | 4.2-1-20250327 | 失败 | [SHA256](./greed/SHA256SUMS) | N/A |
+| [gretl-common](./gretl-common) | amd64  | ubuntu-noble | 2023c-2.1build3-20250327 | 失败 | [SHA256](./gretl-common/SHA256SUMS) | N/A |
+| [gridlock.app](./gridlock.app) | amd64  | ubuntu-noble | 1.10-5build4-20250327 | 失败 | [SHA256](./gridlock.app/SHA256SUMS) | N/A |
+| [grig](./grig) | amd64  | ubuntu-noble | 0.9.0-1build2 | ![screen0-5.jpg](./grig/tests/screen0-5.jpg) | [SHA256](./grig/SHA256SUMS) | N/A |
+| [grimripper](./grimripper) | amd64  | ubuntu-noble | 3.0.2-3build2 | ![screen0-5.jpg](./grimripper/tests/screen0-5.jpg) | [SHA256](./grimripper/SHA256SUMS) | N/A |
+| [gringotts](./gringotts) | amd64  | ubuntu-noble | 1.2.10-4build3 | ![screen0-5.jpg](./gringotts/tests/screen0-5.jpg) | [SHA256](./gringotts/SHA256SUMS) | N/A |
+| [grisbi](./grisbi) | amd64  | ubuntu-noble | 3.0.3-1build3 | ![screen0-5.jpg](./grisbi/tests/screen0-5.jpg) | [SHA256](./grisbi/SHA256SUMS) | N/A |
+| [gromit](./gromit) | amd64  | ubuntu-noble | 20041213-9build3-20250327 | 失败 | [SHA256](./gromit/SHA256SUMS) | N/A |
+| [gromit-mpx](./gromit-mpx) | amd64  | ubuntu-noble | 1.5.1-1build2 | ![screen0-5.jpg](./gromit-mpx/tests/screen0-5.jpg) | [SHA256](./gromit-mpx/SHA256SUMS) | N/A |
+| [groovy](./groovy) | amd64  | ubuntu-noble | 2.4.21-10-20250327 | 失败 | [SHA256](./groovy/SHA256SUMS) | N/A |
+| [grop](./grop) | amd64  | ubuntu-noble | 0.10-1.2build2 | ![screen0-5.jpg](./grop/tests/screen0-5.jpg) | [SHA256](./grop/SHA256SUMS) | N/A |
+| [growl-for-linux](./growl-for-linux) | amd64  | ubuntu-noble | 0.8.5-9.1build3-20250327 | 失败 | [SHA256](./growl-for-linux/SHA256SUMS) | N/A |
+| [grpn](./grpn) | amd64  | ubuntu-noble | 1.4.1-1.1build3 | ![screen0-5.jpg](./grpn/tests/screen0-5.jpg) | [SHA256](./grpn/SHA256SUMS) | N/A |
+| [grr.app](./grr.app) | amd64  | ubuntu-noble | 1.0-1build8-20250327 | 失败 | [SHA256](./grr.app/SHA256SUMS) | N/A |
+| [grsync](./grsync) | amd64  | ubuntu-noble | 1.3.0-1build2 | ![screen0-5.jpg](./grsync/tests/screen0-5.jpg) | [SHA256](./grsync/SHA256SUMS) | N/A |
+| [grub-customizer](./grub-customizer) | amd64  | deepin-v23 | 5.2.3-1deepin0-20250327 | 失败 | N/A | N/A |
+| [gscan2pdf](./gscan2pdf) | amd64  | ubuntu-noble | 2.13.2-1-20250327 | 失败 | N/A | N/A |
+| [gsequencer](./gsequencer) | amd64  | ubuntu-noble | 6.5.2-1build3 | ![screen0-5.jpg](./gsequencer/tests/screen0-5.jpg) | [SHA256](./gsequencer/SHA256SUMS) | N/A |
+| [gshutdown](./gshutdown) | amd64  | ubuntu-noble | 0.2-0ubuntu14 | ![screen0-5.jpg](./gshutdown/tests/screen0-5.jpg) | [SHA256](./gshutdown/SHA256SUMS) | N/A |
+| [gsmartcontrol](./gsmartcontrol) | amd64  | ubuntu-noble | 1.1.4-1build2-20250327 | 失败 | [SHA256](./gsmartcontrol/SHA256SUMS) | N/A |
+| [gtamsanalyzer.app](./gtamsanalyzer.app) | amd64  | ubuntu-noble | 0.42-8build1-20250327 | 失败 | [SHA256](./gtamsanalyzer.app/SHA256SUMS) | N/A |
+| [gtans](./gtans) | amd64  | ubuntu-noble | 1.99.0-2.1build2 | ![screen0-5.jpg](./gtans/tests/screen0-5.jpg) | [SHA256](./gtans/SHA256SUMS) | N/A |
+| [gtetrinet](./gtetrinet) | amd64  | ubuntu-noble | 0.7.11+git20200916.46e7ade-2build4 | ![screen0-5.jpg](./gtetrinet/tests/screen0-5.jpg) | [SHA256](./gtetrinet/SHA256SUMS) | N/A |
+| [gtg](./gtg) | amd64  | ubuntu-noble | 0.6-7-20250327 | 失败 | N/A | N/A |
+| [gthumb](./gthumb) | amd64  | ubuntu-noble | 3.12.6-1 | ![screen0-5.jpg](./gthumb/tests/screen0-5.jpg) | [SHA256](./gthumb/SHA256SUMS) | N/A |
+| [gtimelog](./gtimelog) | amd64  | ubuntu-noble | 0.12.0-1-20250327 | 失败 | N/A | N/A |
+| [gtk-3-examples](./gtk-3-examples) | amd64  | ubuntu-noble | 3.24.41-4ubuntu1.2-20250327 | 失败 | [SHA256](./gtk-3-examples/SHA256SUMS) | N/A |
+| [gtk-4-examples](./gtk-4-examples) | amd64  | ubuntu-noble | 4.14.2+ds-1ubuntu2 | ![screen0-5.jpg](./gtk-4-examples/tests/screen0-5.jpg) ![screen1-5.jpg](./gtk-4-examples/tests/screen1-5.jpg) ![screen2-5.jpg](./gtk-4-examples/tests/screen2-5.jpg) ![screen4-5.jpg](./gtk-4-examples/tests/screen4-5.jpg) | [SHA256](./gtk-4-examples/SHA256SUMS) | N/A |
+| [gtk-chtheme](./gtk-chtheme) | amd64  | ubuntu-noble | 0.3.1-6.1ubuntu1 | ![screen0-5.jpg](./gtk-chtheme/tests/screen0-5.jpg) | [SHA256](./gtk-chtheme/SHA256SUMS) | N/A |
+| [gtk-vector-screenshot](./gtk-vector-screenshot) | amd64  | ubuntu-noble | 0.3.3-2build2 | ![screen0-5.jpg](./gtk-vector-screenshot/tests/screen0-5.jpg) | [SHA256](./gtk-vector-screenshot/SHA256SUMS) | N/A |
+| [gtkam](./gtkam) | amd64  | ubuntu-noble | 1.0-4build1 | ![screen0-5.jpg](./gtkam/tests/screen0-5.jpg) | [SHA256](./gtkam/SHA256SUMS) | N/A |
+| [gtkatlantic](./gtkatlantic) | amd64  | ubuntu-noble | 0.6.3-2build2 | ![screen0-5.jpg](./gtkatlantic/tests/screen0-5.jpg) | [SHA256](./gtkatlantic/SHA256SUMS) | N/A |
+| [gtkballs](./gtkballs) | amd64  | ubuntu-noble | 3.1.5+git20210713.6e53b66-1build2 | ![screen0-5.jpg](./gtkballs/tests/screen0-5.jpg) | [SHA256](./gtkballs/SHA256SUMS) | N/A |
+| [gtkcrypto](./gtkcrypto) | amd64  | ubuntu-noble | 1.0.2-2build3 | ![screen0-5.jpg](./gtkcrypto/tests/screen0-5.jpg) | [SHA256](./gtkcrypto/SHA256SUMS) | N/A |
+| [gtkhash](./gtkhash) | amd64  | ubuntu-noble | 1.5-1build2 | ![screen0-5.jpg](./gtkhash/tests/screen0-5.jpg) | [SHA256](./gtkhash/SHA256SUMS) | N/A |
+| [gtkterm](./gtkterm) | amd64  | ubuntu-noble | 1.2.1-1ubuntu1 | ![screen0-5.jpg](./gtkterm/tests/screen0-5.jpg) | [SHA256](./gtkterm/SHA256SUMS) | N/A |
+| [gtkwave](./gtkwave) | amd64  | ubuntu-noble | 3.3.116-1build2 | ![screen0-5.jpg](./gtkwave/tests/screen0-5.jpg) | [SHA256](./gtkwave/SHA256SUMS) | N/A |
+| [gtranscribe](./gtranscribe) | amd64  | ubuntu-noble | 0.11-3-20250327 | 失败 | N/A | N/A |
+| [gtranslator](./gtranslator) | amd64  | ubuntu-noble | 46.0-1build1 | ![screen0-5.jpg](./gtranslator/tests/screen0-5.jpg) | [SHA256](./gtranslator/SHA256SUMS) | N/A |
+| [guake](./guake) | amd64  | ubuntu-noble | 3.10-2-20250327 | 失败 | N/A | N/A |
+| [guake-indicator](./guake-indicator) | amd64  | ubuntu-noble | 1.4.5-2build2-20250327 | 失败 | N/A | N/A |
+| [gucharmap](./gucharmap) | amd64  | deepin-v23 | 15.1.5-1 | ![screen0-5.jpg](./gucharmap/tests/screen0-5.jpg) | N/A | N/A |
+| [gufw](./gufw) | amd64  | ubuntu-noble | 24.04.0-2-20250327 | 失败 | N/A | N/A |
+| [guidedog](./guidedog) | amd64  | ubuntu-noble | 1.3.0-1build3 | ![screen0-5.jpg](./guidedog/tests/screen0-5.jpg) | [SHA256](./guidedog/SHA256SUMS) | N/A |
+| [guitarix](./guitarix) | amd64  | ubuntu-noble | 0.46.0+dfsg-1 | ![screen0-5.jpg](./guitarix/tests/screen0-5.jpg) | [SHA256](./guitarix/SHA256SUMS) | N/A |
+| [gummi](./gummi) | amd64  | ubuntu-noble | 0.8.3+really0.8.3-1build3-20250327 | 失败 | N/A | N/A |
+| [gunroar](./gunroar) | amd64  | ubuntu-noble | 0.15.dfsg1-10 | ![screen0-5.jpg](./gunroar/tests/screen0-5.jpg) | [SHA256](./gunroar/SHA256SUMS) | N/A |
+| [gupnp-tools](./gupnp-tools) | amd64  | ubuntu-noble | 0.12.1-1build2 | ![screen0-5.jpg](./gupnp-tools/tests/screen0-5.jpg) ![screen1-5.jpg](./gupnp-tools/tests/screen1-5.jpg) ![screen2-5.jpg](./gupnp-tools/tests/screen2-5.jpg) | [SHA256](./gupnp-tools/SHA256SUMS) | N/A |
+| [guvcview](./guvcview) | amd64  | ubuntu-noble | 2.0.8-2.1build3 | ![screen0-5.jpg](./guvcview/tests/screen0-5.jpg) | [SHA256](./guvcview/SHA256SUMS) | N/A |
+| [guymager](./guymager) | amd64  | ubuntu-noble | 0.8.13-2build2-20250327 | 失败 | [SHA256](./guymager/SHA256SUMS) | N/A |
+| [gv](./gv) | amd64  | ubuntu-noble | 3.7.4-2build2-20250327 | 失败 | [SHA256](./gv/SHA256SUMS) | N/A |
+| [gvb](./gvb) | amd64  | ubuntu-noble | 1.4-1.1-20250327 | 失败 | N/A | N/A |
+| [gvidm](./gvidm) | amd64  | ubuntu-noble | 0.8-15build3-20250327 | 失败 | [SHA256](./gvidm/SHA256SUMS) | N/A |
+| [gwaei](./gwaei) | amd64  | ubuntu-noble | 3.6.2-9.2build1-20250327 | 失败 | [SHA256](./gwaei/SHA256SUMS) | N/A |
+| [gwakeonlan](./gwakeonlan) | amd64  | ubuntu-noble | 0.8.5-3-20250327 | 失败 | N/A | N/A |
+| [gwaterfall](./gwaterfall) | amd64  | ubuntu-noble | 0.1-5.1build3 | ![screen0-5.jpg](./gwaterfall/tests/screen0-5.jpg) | [SHA256](./gwaterfall/SHA256SUMS) | N/A |
+| [gweled](./gweled) | amd64  | ubuntu-noble | 1.0~beta1-1 | ![screen0-5.jpg](./gweled/tests/screen0-5.jpg) | [SHA256](./gweled/SHA256SUMS) | N/A |
+| [gwenview](./gwenview) | amd64  | ubuntu-noble | 23.08.5-0ubuntu5 | ![screen0-5.jpg](./gwenview/tests/screen0-5.jpg) | [SHA256](./gwenview/SHA256SUMS) | N/A |
+| [gworkspace.app](./gworkspace.app) | amd64  | ubuntu-noble | 1.0.0-1build2-20250327 | 失败 | [SHA256](./gworkspace.app/SHA256SUMS) | N/A |
+| [gworldclock](./gworldclock) | amd64  | ubuntu-noble | 1.4.4-11build2 | ![screen0-5.jpg](./gworldclock/tests/screen0-5.jpg) | [SHA256](./gworldclock/SHA256SUMS) | N/A |
+| [gwyddion](./gwyddion) | amd64  | ubuntu-noble | 2.64-1.1build3 | ![screen0-5.jpg](./gwyddion/tests/screen0-5.jpg) | [SHA256](./gwyddion/SHA256SUMS) | N/A |
+| [gxkb](./gxkb) | amd64  | ubuntu-noble | 0.9.3-1build2-20250327 | 失败 | [SHA256](./gxkb/SHA256SUMS) | N/A |
+| [gxtuner](./gxtuner) | amd64  | ubuntu-noble | 3.0-3build2-20250327 | 失败 | [SHA256](./gxtuner/SHA256SUMS) | N/A |
+| [gyrus](./gyrus) | amd64  | ubuntu-noble | 0.4.2-1.1build2 | ![screen0-5.jpg](./gyrus/tests/screen0-5.jpg) | [SHA256](./gyrus/SHA256SUMS) | N/A |
+| [hamexam](./hamexam) | amd64  | ubuntu-noble | 1.10.1-1-20250327 | 失败 | [SHA256](./hamexam/SHA256SUMS) | N/A |
+| [hamster-time-tracker](./hamster-time-tracker) | amd64  | ubuntu-noble | 3.0.3-1ubuntu1-20250327 | 失败 | N/A | N/A |
+| [handbrake](./handbrake) | amd64  | ubuntu-noble | 1.7.2+ds1-1build2 | ![screen0-5.jpg](./handbrake/tests/screen0-5.jpg) | [SHA256](./handbrake/SHA256SUMS) | N/A |
+| [hannah](./hannah) | amd64  | ubuntu-noble | 2.0.1+ds1-0.3-20250327 | 失败 | [SHA256](./hannah/SHA256SUMS) | N/A |
+| [hannah-foo2zjs](./hannah-foo2zjs) | amd64  | ubuntu-noble | 6build2 | ![screen0-5.jpg](./hannah-foo2zjs/tests/screen0-5.jpg) | [SHA256](./hannah-foo2zjs/SHA256SUMS) | N/A |
+| [hardinfo](./hardinfo) | amd64  | ubuntu-noble | 0.5.1+git20180227-2.1build3 | ![screen0-5.jpg](./hardinfo/tests/screen0-5.jpg) | [SHA256](./hardinfo/SHA256SUMS) | N/A |
+| [haruna](./haruna) | amd64  | ubuntu-noble | 0.12.3-1build4 | ![screen0-5.jpg](./haruna/tests/screen0-5.jpg) | [SHA256](./haruna/SHA256SUMS) | N/A |
+| [hasciicam](./hasciicam) | amd64  | ubuntu-noble | 1.1.2-1ubuntu3-20250327 | 失败 | [SHA256](./hasciicam/SHA256SUMS) | N/A |
+| [hashcheck](./hashcheck) | amd64  | ubuntu-noble | 1.0.0-2build2 | ![screen0-5.jpg](./hashcheck/tests/screen0-5.jpg) | [SHA256](./hashcheck/SHA256SUMS) | N/A |
+| [hatari](./hatari) | amd64  | ubuntu-noble | 2.4.1+dfsg-2build2-20250327 | 失败 | N/A | N/A |
+| [hdate-applet](./hdate-applet) | amd64  | ubuntu-noble | 0.15.11-4build2 | ![screen0-5.jpg](./hdate-applet/tests/screen0-5.jpg) | [SHA256](./hdate-applet/SHA256SUMS) | N/A |
+| [hdf-compass](./hdf-compass) | amd64  | ubuntu-noble | 0.7~b8-3 | ![screen0-5.jpg](./hdf-compass/tests/screen0-5.jpg) | [SHA256](./hdf-compass/SHA256SUMS) | N/A |
+| [hdhomerun-config-gui](./hdhomerun-config-gui) | amd64  | ubuntu-noble | 20161117-0ubuntu8 | ![screen0-5.jpg](./hdhomerun-config-gui/tests/screen0-5.jpg) | [SHA256](./hdhomerun-config-gui/SHA256SUMS) | N/A |
+| [heaptrack-gui](./heaptrack-gui) | amd64  | ubuntu-noble | 1.5.0+dfsg1-2ubuntu3 | ![screen0-5.jpg](./heaptrack-gui/tests/screen0-5.jpg) | [SHA256](./heaptrack-gui/SHA256SUMS) | N/A |
+| [hedgewars](./hedgewars) | amd64  | ubuntu-noble | 1.0.2-9build5 | ![screen0-5.jpg](./hedgewars/tests/screen0-5.jpg) | [SHA256](./hedgewars/SHA256SUMS) | N/A |
+| [helpman](./helpman) | amd64  | ubuntu-noble | 2.4-1-20250327 | 失败 | N/A | N/A |
+| [helpviewer.app](./helpviewer.app) | amd64  | ubuntu-noble | 0.4-1build1-20250327 | 失败 | [SHA256](./helpviewer.app/SHA256SUMS) | N/A |
+| [helvum](./helvum) | amd64  | ubuntu-noble | 0.5.1+20240328-1 | ![screen0-5.jpg](./helvum/tests/screen0-5.jpg) | [SHA256](./helvum/SHA256SUMS) | N/A |
+| [herculesstudio](./herculesstudio) | amd64  | ubuntu-noble | 1.5.0-6build2 | ![screen0-5.jpg](./herculesstudio/tests/screen0-5.jpg) | [SHA256](./herculesstudio/SHA256SUMS) | N/A |
+| [heroes](./heroes) | amd64  | ubuntu-noble | 0.21-18 | ![screen0-5.jpg](./heroes/tests/screen0-5.jpg) | [SHA256](./heroes/SHA256SUMS) | N/A |
+| [hex-a-hop](./hex-a-hop) | amd64  | ubuntu-noble | 1.1.0+git20140926-2-20250327 | 失败 | [SHA256](./hex-a-hop/SHA256SUMS) | N/A |
+| [hexalate](./hexalate) | amd64  | ubuntu-noble | 1.2.2-1build2 | ![screen0-5.jpg](./hexalate/tests/screen0-5.jpg) | [SHA256](./hexalate/SHA256SUMS) | N/A |
+| [hexchat](./hexchat) | amd64  | ubuntu-noble | 2.16.2-1build2 | ![screen0-5.jpg](./hexchat/tests/screen0-5.jpg) | [SHA256](./hexchat/SHA256SUMS) | N/A |
+| [hexter](./hexter) | amd64  | ubuntu-noble | 1.1.1-2build2-20250327 | 失败 | [SHA256](./hexter/SHA256SUMS) | N/A |
+| [hijra-applet](./hijra-applet) | amd64  | ubuntu-noble | 1.0-4-20250327 | 失败 | N/A | N/A |
+| [hime](./hime) | amd64  | ubuntu-noble | 0.9.11+dfsg-4build6 | ![screen0-5.jpg](./hime/tests/screen0-5.jpg) | [SHA256](./hime/SHA256SUMS) | N/A |
+| [hitori](./hitori) | amd64  | ubuntu-noble | 44.0-2build2 | ![screen0-5.jpg](./hitori/tests/screen0-5.jpg) | [SHA256](./hitori/SHA256SUMS) | N/A |
+| [hivelytracker](./hivelytracker) | amd64  | ubuntu-noble | 1.9+git20221114+ds-2build2-20250327 | 失败 | [SHA256](./hivelytracker/SHA256SUMS) | N/A |
+| [holotz-castle](./holotz-castle) | amd64  | ubuntu-noble | 1.3.14-12 | ![screen0-5.jpg](./holotz-castle/tests/screen0-5.jpg) | [SHA256](./holotz-castle/SHA256SUMS) | N/A |
+| [homebank](./homebank) | amd64  | ubuntu-noble | 5.7.4-1build4 | ![screen0-5.jpg](./homebank/tests/screen0-5.jpg) | [SHA256](./homebank/SHA256SUMS) | N/A |
+| [horae](./horae) | amd64  | ubuntu-noble | 071~svn537+ds1-1-20250327 | 失败 | [SHA256](./horae/SHA256SUMS) | N/A |
+| [horgand](./horgand) | amd64  | ubuntu-noble | 1.14-8build2-20250327 | 失败 | [SHA256](./horgand/SHA256SUMS) | N/A |
+| [horizon-eda](./horizon-eda) | amd64  | ubuntu-noble | 2.5.0-1build4 | ![screen0-5.jpg](./horizon-eda/tests/screen0-5.jpg) | [SHA256](./horizon-eda/SHA256SUMS) | N/A |
+| [hoteldruid](./hoteldruid) | amd64  | ubuntu-noble | 3.0.6-1-20250327 | 失败 | [SHA256](./hoteldruid/SHA256SUMS) | N/A |
+| [hotspot](./hotspot) | amd64  | ubuntu-noble | 1.3.0-2ubuntu4 | ![screen0-5.jpg](./hotspot/tests/screen0-5.jpg) | [SHA256](./hotspot/SHA256SUMS) | N/A |
+| [hplip-gui](./hplip-gui) | amd64  | ubuntu-noble | 3.23.12+dfsg0-0ubuntu5-20250327 | 失败 | N/A | v1.5.0-amd64-nevm |
+| [hsqldb-utils](./hsqldb-utils) | amd64  | ubuntu-noble | 2.7.2-1-20250327 | 失败 | [SHA256](./hsqldb-utils/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [htmldoc](./htmldoc) | amd64  | ubuntu-noble | 1.9.17-1build3 | ![screen0-5.jpg](./htmldoc/tests/screen0-5.jpg) | [SHA256](./htmldoc/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [htop](./htop) | amd64  | ubuntu-noble | 3.3.0-4build1-20250327 | 失败 | [SHA256](./htop/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [httraqt](./httraqt) | amd64  | ubuntu-noble | 1.4.11-1build2 | ![screen0-5.jpg](./httraqt/tests/screen0-5.jpg) | [SHA256](./httraqt/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [huawei-pixlab-series](./huawei-pixlab-series) | amd64  | deepin-v23 | 1.0-71 | ![screen0-5.jpg](./huawei-pixlab-series/tests/screen0-5.jpg) | N/A | N/A |
+| [hwloc](./hwloc) | amd64  | deepin-v23 | 2.11.0-2 | ![screen0-5.jpg](./hwloc/tests/screen0-5.jpg) | N/A | N/A |
+| [iagno](./iagno) | amd64  | ubuntu-noble | 3.38.1-2 | ![screen0-5.jpg](./iagno/tests/screen0-5.jpg) | N/A | N/A |
+| [ibus](./ibus) | amd64  | ubuntu-noble | 1.5.29~rc1-1 | ![screen0-5.jpg](./ibus/tests/screen0-5.jpg) | N/A | N/A |
+| [ibus-cangjie](./ibus-cangjie) | amd64  | deepin-v23 | 2.4-7 | ![screen0-5.jpg](./ibus-cangjie/tests/screen0-5.jpg) ![screen1-5.jpg](./ibus-cangjie/tests/screen1-5.jpg) | N/A | N/A |
+| [ibus-chewing](./ibus-chewing) | amd64  | ubuntu-noble | 1.6.1-2-07be3ef | 失败 | N/A | N/A |
+| [ibus-pinyin](./ibus-pinyin) | amd64  | ubuntu-noble | 1.5.0-11-af50a04 | 失败 | [SHA256](./ibus-pinyin/SHA256SUMS) | N/A |
+| [ibus-table](./ibus-table) | amd64  | ubuntu-noble | 1.14.1-1-af50a04 | 失败 | [SHA256](./ibus-table/SHA256SUMS) | N/A |
+| [idle-python2.7](./idle-python2.7) | amd64  | deepin-v23 | 2.7.18.1-1+deepin-af50a04 | 失败 | N/A | N/A |
+| [im-config](./im-config) | amd64  | deepin-v23 | 0.57-2deepin2-af50a04 | 失败 | [SHA256](./im-config/SHA256SUMS) | N/A |
+| [info](./info) | amd64  | ubuntu-noble | 7.1-2deepin1-af50a04 | 失败 | [SHA256](./info/SHA256SUMS) | N/A |
+| [isag](./isag) | amd64  | deepin-v23 | 12.7.5-2-af50a04 | 失败 | N/A | N/A |
+| [juk](./juk) | amd64  | ubuntu-noble | 21.08.0-1deepin0-af50a04 | 失败 | N/A | N/A |
+| [kalgebra](./kalgebra) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [kapman](./kapman) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [katomic](./katomic) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [kblackbox](./kblackbox) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [kblocks](./kblocks) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [kbounce](./kbounce) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [kbreakout](./kbreakout) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [kded5](./kded5) | amd64  | ubuntu-noble | 5.103.0-1-af50a04 | 失败 | [SHA256](./kded5/SHA256SUMS) | N/A |
+| [kdiamond](./kdiamond) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [keditbookmarks](./keditbookmarks) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | [SHA256](./keditbookmarks/SHA256SUMS) | N/A |
+| [kernelshark](./kernelshark) | amd64  | deepin-v23 | 2.9.3+really2.3.1-2-af50a04 | 失败 | N/A | N/A |
+| [kgoldrunner](./kgoldrunner) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [kgpg](./kgpg) | amd64  | ubuntu-noble | 21.08.0-deepin1-af50a04 | 失败 | N/A | N/A |
+| [kigo](./kigo) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [kimagemapeditor](./kimagemapeditor) | amd64  | ubuntu-noble | 21.08.0-1deepin0-af50a04 | 失败 | N/A | N/A |
+| [kio](./kio) | amd64  | ubuntu-noble | 5.103.0-1deepin0-af50a04 | 失败 | [SHA256](./kio/SHA256SUMS) | N/A |
+| [kiriki](./kiriki) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [kjumpingcube](./kjumpingcube) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [kleopatra](./kleopatra) | amd64  | ubuntu-noble | 21.08.1-2deepin0-af50a04 | 失败 | N/A | N/A |
+| [klickety](./klickety) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [klines](./klines) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [kmahjongg](./kmahjongg) | amd64  | ubuntu-noble | 21.08.3-1-af50a04 | 失败 | N/A | N/A |
+| [kmines](./kmines) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [kmousetool](./kmousetool) | amd64  | ubuntu-noble | 21.08.0-1deepin0-af50a04 | 失败 | N/A | N/A |
+| [knavalbattle](./knavalbattle) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [kollision](./kollision) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [kolourpaint](./kolourpaint) | amd64  | ubuntu-noble | 21.08.2-1-af50a04 | 失败 | N/A | N/A |
+| [konquest](./konquest) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [kpat](./kpat) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [kshisen](./kshisen) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [ksnakeduel](./ksnakeduel) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [kspaceduel](./kspaceduel) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [ksquares](./ksquares) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [ktservice-driver-kaer](./ktservice-driver-kaer) | amd64  | deepin-v23 | 1.0.28-af50a04 | 失败 | N/A | N/A |
+| [kyodialog](./kyodialog) | amd64  | deepin-v23 | 9.4-0-af50a04 | 失败 | [SHA256](./kyodialog/SHA256SUMS) | N/A |
+| [lanxum-ga2820dn](./lanxum-ga2820dn) | amd64  | deepin-v23 | 1.0-af50a04 | 失败 | [SHA256](./lanxum-ga2820dn/SHA256SUMS) | N/A |
+| [lanxum-sane-backend](./lanxum-sane-backend) | amd64  | deepin-v23 | 20200707-2.6.8.020-af50a04 | 失败 | N/A | N/A |
+| [lanxum-touchscreen](./lanxum-touchscreen) | amd64  | deepin-v23 | 1.0.2-2020.05.27-af50a04 | 失败 | N/A | N/A |
+| [lenovo-image-g-series](./lenovo-image-g-series) | amd64  | deepin-v23 | 1.0-17-af50a04 | 失败 | N/A | N/A |
+| [lenovo-image-lj23-series](./lenovo-image-lj23-series) | amd64  | deepin-v23 | 1.0-16deepin0-af50a04 | 失败 | N/A | N/A |
+| [lenovo-printer-driver](./lenovo-printer-driver) | amd64  | deepin-v23 | 1.51-230329-af50a04 | 失败 | N/A | N/A |
+| [lenovo-sane-backend](./lenovo-sane-backend) | amd64  | deepin-v23 | 0.1.0-21166-af50a04 | 失败 | N/A | N/A |
+| [lenovo-spx251-321-series](./lenovo-spx251-321-series) | amd64  | deepin-v23 | 1.5.7-2-af50a04 | 失败 | N/A | N/A |
+| [lftp](./lftp) | amd64  | ubuntu-noble | 4.9.2-1-af50a04 | 失败 | N/A | N/A |
+| [libadwaita-1-examples](./libadwaita-1-examples) | amd64  | ubuntu-noble | 1.5.0-1deepin1+rb1-af50a04 | 失败 | [SHA256](./libadwaita-1-examples/SHA256SUMS) | N/A |
+| [libglib2.0-tests](./libglib2.0-tests) | amd64  | deepin-v23 | 2.80.1-1deepin1-af50a04 | 失败 | [SHA256](./libglib2.0-tests/SHA256SUMS) | N/A |
+| [libkf5guiaddons-bin](./libkf5guiaddons-bin) | amd64  | deepin-v23 | 5.103.0-1-af50a04 | 失败 | [SHA256](./libkf5guiaddons-bin/SHA256SUMS) | N/A |
+| [libkf5newstuff-data](./libkf5newstuff-data) | amd64  | ubuntu-noble | 5.103.0-1-af50a04 | 失败 | [SHA256](./libkf5newstuff-data/SHA256SUMS) | N/A |
+| [libkf5wallet-bin](./libkf5wallet-bin) | amd64  | ubuntu-noble | 5.103.0-1deepin0-af50a04 | 失败 | [SHA256](./libkf5wallet-bin/SHA256SUMS) | N/A |
+| [libreoffice-base](./libreoffice-base) | amd64  | ubuntu-noble | 24.2.0-1deepin2-af50a04 | 失败 | N/A | N/A |
+| [libreoffice-calc](./libreoffice-calc) | amd64  | ubuntu-noble | 24.2.0-1deepin2-af50a04 | 失败 | N/A | N/A |
+| [libreoffice-common](./libreoffice-common) | amd64  | ubuntu-noble | 24.2.0-1deepin2-af50a04 | 失败 | N/A | N/A |
+| [libreoffice-draw](./libreoffice-draw) | amd64  | ubuntu-noble | 24.2.0-1deepin2-af50a04 | 失败 | N/A | N/A |
+| [libreoffice-math](./libreoffice-math) | amd64  | ubuntu-noble | 24.2.0-1deepin2-af50a04 | 失败 | N/A | N/A |
+| [libreoffice-writer](./libreoffice-writer) | amd64  | ubuntu-noble | 24.2.0-1deepin2-af50a04 | 失败 | N/A | N/A |
+| [libts-bin](./libts-bin) | amd64  | ubuntu-noble | 1.22-1+rb3-af50a04 | 失败 | [SHA256](./libts-bin/SHA256SUMS) | N/A |
+| [linglong-installer](./linglong-installer) | amd64  | deepin-v23 | 1.6.3-1-af50a04 | 失败 | [SHA256](./linglong-installer/SHA256SUMS) | N/A |
+| [links2](./links2) | amd64  | ubuntu-noble | 2.25.1-1+dde-af50a04 | 失败 | N/A | N/A |
+| [love](./love) | amd64  | ubuntu-noble | 11.4-1-af50a04 | 失败 | [SHA256](./love/SHA256SUMS) | N/A |
+| [lshw-gtk](./lshw-gtk) | amd64  | deepin-v23 | 02.19.git.2021.06.19.996aaad9c7-2deepin0-af50a04 | 失败 | [SHA256](./lshw-gtk/SHA256SUMS) | N/A |
+| [lskat](./lskat) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
+| [lxpanel](./lxpanel) | amd64  | ubuntu-noble | 0.10.1-2-af50a04 | 失败 | [SHA256](./lxpanel/SHA256SUMS) | N/A |
+| [lxqt-about](./lxqt-about) | amd64  | ubuntu-noble | 0.16.0-1-af50a04 | 失败 | N/A | N/A |
+| [lxqt-config](./lxqt-config) | amd64  | ubuntu-noble | 0.16.1-1deepin0-af50a04 | 失败 | N/A | N/A |
+| [lxqt-globalkeys](./lxqt-globalkeys) | amd64  | ubuntu-noble | 0.16.0-1-af50a04 | 失败 | N/A | N/A |
+| [lxqt-notificationd](./lxqt-notificationd) | amd64  | ubuntu-noble | 0.16.0-1-af50a04 | 失败 | N/A | N/A |
+| [lxqt-powermanagement](./lxqt-powermanagement) | amd64  | ubuntu-noble | 0.16.0-1-af50a04 | 失败 | N/A | N/A |
+| [lxqt-session](./lxqt-session) | amd64  | ubuntu-noble | 0.16.0-1-af50a04 | 失败 | N/A | N/A |
+| [lxsession-default-apps](./lxsession-default-apps) | amd64  | deepin-v23 | 0.5.5-deepin1-af50a04 | 失败 | N/A | N/A |
+| [lyx](./lyx) | amd64  | ubuntu-noble | 2.3.6.1-deepin1+rb4-af50a04 | 失败 | N/A | N/A |
+| [malcontent-gui](./malcontent-gui) | amd64  | deepin-v23 | 0.11.1-3deepin1-af50a04 | 失败 | N/A | N/A |
+| [marble](./marble) | amd64  | ubuntu-noble | 21.08.3-1deepin0-af50a04 | 失败 | N/A | N/A |
+| [marble-data](./marble-data) | amd64  | ubuntu-noble | 21.08.3-1deepin0-af50a04 | 失败 | [SHA256](./marble-data/SHA256SUMS) | N/A |
+| [marble-maps](./marble-maps) | amd64  | ubuntu-noble | 21.08.3-1deepin0-af50a04 | 失败 | N/A | N/A |
+| [marble-qt](./marble-qt) | amd64  | ubuntu-noble | 21.08.3-1deepin0-af50a04 | 失败 | N/A | N/A |
+| [marco](./marco) | amd64  | ubuntu-noble | 1.24.1-3-af50a04 | 失败 | [SHA256](./marco/SHA256SUMS) | N/A |
+| [mate-control-center](./mate-control-center) | amd64  | ubuntu-noble | 1.24.1-deepin1-af50a04 | 失败 | N/A | N/A |
+| [mate-session-manager](./mate-session-manager) | amd64  | ubuntu-noble | 1.24.1-2-af50a04 | 失败 | N/A | N/A |
+| [mc](./mc) | amd64  | deepin-v23 | 4.8.31-1-af50a04 | 失败 | N/A | N/A |
+| [obs-studio](./obs-studio) | amd64  | obs-studio | 31.0.2 | ![screen0-5.jpg](./obs-studio/tests/screen0-5.jpg) | [SHA256](./obs-studio/SHA256SUMS) | N/A |
