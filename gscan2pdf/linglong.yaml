@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: gscan2pdf.linyaps
+  name: gscan2pdf
+  version: 2.13.2.1
+  kind: app
+  description: |-
+    GUI to produce PDFs or DjVus from scanned documents
+    Only five clicks are required to scan several pages and then save all or a
+    selection as a PDF or DjVu file, including metadata if required.
+
+    gscan2pdf can control flatbed or sheet-fed (ADF) scanners with SANE via
+    libimage-sane-perl, scanimage or scanadf, and can scan multiple
+    pages at once. It presents a thumbnail view of scanned pages, and permits
+    simple operations such as cropping, rotating and deleting pages.
+
+    OCR can be used to recognise text in the scans, and the output
+    embedded in the PDF or DjVu.
+
+    PDF conversion is done by PDF::Builder.
+
+    The resulting document may be saved as a PDF, DjVu, multipage TIFF file, or
+    single page image file.
+command:
+- /opt/apps/gscan2pdf.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
