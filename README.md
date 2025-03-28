@@ -1,11 +1,11 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|1503|940 |563 | 62.54%| 30.33%|
+|3099|1506|942 |564 | 62.55%| 30.40%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|1258|852 |406 | 67.73%| 30.88%|
+|ubuntu-noble|2759|1261|854 |407 | 67.72%| 30.95%|
 |deepin-v23|340|245|88 |157 | 35.92%| 25.88%|
 ## 详细结果
 | 包名  | 架构 |仓库| 版本 | 测试结果 | SHA256 |killer版本|
@@ -1354,12 +1354,14 @@
 | [josm](./josm) | arm64  | ubuntu-noble | 0.0.svn18969+dfsg-1 | ![screen0-5.jpg](./josm/tests/screen0-5.jpg) | [SHA256](./josm/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [josm-installer](./josm-installer) | arm64  | ubuntu-noble | 0.0.3+svn18889-20250327 | 失败 | [SHA256](./josm-installer/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [js8call](./js8call) | arm64  | ubuntu-noble | 2.2.0+ds-5build2 | ![screen0-5.jpg](./js8call/tests/screen0-5.jpg) | [SHA256](./js8call/SHA256SUMS) | v1.5.0-arm64-nevm |
+| [jstest-gtk](./jstest-gtk) | arm64  | ubuntu-noble | 0.1.1~git20180602-2build2 | ![screen0-5.jpg](./jstest-gtk/tests/screen0-5.jpg) | [SHA256](./jstest-gtk/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [jtdx](./jtdx) | arm64  | ubuntu-noble | 2.2.159-2build2 | ![screen0-5.jpg](./jtdx/tests/screen0-5.jpg) | [SHA256](./jtdx/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [juce-tools](./juce-tools) | arm64  | ubuntu-noble | 7.0.5+ds-2 | ![screen0-5.jpg](./juce-tools/tests/screen0-5.jpg) | [SHA256](./juce-tools/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [juffed](./juffed) | arm64  | ubuntu-noble | 0.10-89-g3690b60-8.1build3 | ![screen0-5.jpg](./juffed/tests/screen0-5.jpg) | [SHA256](./juffed/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [jugglinglab](./jugglinglab) | arm64  | ubuntu-noble | 0.6.2+ds.1-2.1-20250327 | 失败 | [SHA256](./jugglinglab/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [juk](./juk) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./juk/tests/screen0-5.jpg) | [SHA256](./juk/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [jumpnbump](./jumpnbump) | arm64  | ubuntu-noble | 1.61-4-20250327 | 失败 | N/A | v1.5.0-arm64-nevm |
+| [jupp](./jupp) | arm64  | ubuntu-noble | 3.1.41-1-20250327 | 失败 | [SHA256](./jupp/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [jupyter-notebook](./jupyter-notebook) | arm64  | ubuntu-noble | 6.4.12-2.2ubuntu1-20250327 | 失败 | [SHA256](./jupyter-notebook/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [jupyter-qtconsole](./jupyter-qtconsole) | arm64  | ubuntu-noble | 5.5.1-1 | ![screen0-5.jpg](./jupyter-qtconsole/tests/screen0-5.jpg) | [SHA256](./jupyter-qtconsole/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [jverein](./jverein) | arm64  | ubuntu-noble | 2.8.19+dfsg-1-20250327 | 失败 | [SHA256](./jverein/SHA256SUMS) | v1.5.0-arm64-nevm |
@@ -1513,3 +1515,4 @@
 | [kompare](./kompare) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kompare/tests/screen0-5.jpg) | [SHA256](./kompare/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [kongress](./kongress) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kongress/tests/screen0-5.jpg) | [SHA256](./kongress/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [konqueror](./konqueror) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3.2 | ![screen0-5.jpg](./konqueror/tests/screen0-5.jpg) | [SHA256](./konqueror/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [konsole](./konsole) | arm64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./konsole/tests/screen0-5.jpg) | [SHA256](./konsole/SHA256SUMS) | v1.5.1-arm64-nevm |
