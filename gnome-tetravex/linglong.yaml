@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gnome-tetravex.linyaps
+  name: gnome-tetravex
+  version: 3.38.2.3
+  kind: app
+  description: |-
+    put tiles on a board and match their edges together
+    GNOME Tetravex is a simple puzzle game which scope is to move the
+    various pieces from one side of the board to the other side, so that
+    the same numbers depicted on the pieces are touching each other.
+command:
+- /opt/apps/gnome-tetravex.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
