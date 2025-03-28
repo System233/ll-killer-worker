@@ -1,0 +1,151 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  deepin-app-store-runtime libnss-myhostname libselinux1 libsystemd-shared
+  libsystemd0 libudev1 mount systemd systemd-dev systemd-timesyncd udev
+Suggested packages:
+  nfs-common systemd-container systemd-homed systemd-userdbd systemd-boot
+  systemd-resolved libip4tc2 libqrencode4 libtss2-rc0 polkitd
+The following packages will be REMOVED:
+  systemd-standalone-sysusers
+The following NEW packages will be installed:
+  deepin-app-store-runtime lanxum-touchscreen mount systemd systemd-timesyncd
+The following packages will be upgraded:
+  libnss-myhostname libselinux1 libsystemd-shared libsystemd0 libudev1
+  systemd-dev udev
+7 upgraded, 5 newly installed, 1 to remove and 226 not upgraded.
+Need to get 8008 kB of archives.
+After this operation, 121 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main arm64 systemd-dev all 255.2-4deepin3 [58.2 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main arm64 libselinux1 arm64 3.5-1deepin5 [76.9 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main arm64 libsystemd-shared arm64 255.2-4deepin3 [1720 kB]
+Get:4 https://community-packages.deepin.com/beige beige/main arm64 libsystemd0 arm64 255.2-4deepin3 [335 kB]
+Get:5 https://community-packages.deepin.com/beige beige/main arm64 mount arm64 2.39.3-6deepin1 [143 kB]
+Get:6 https://community-packages.deepin.com/beige beige/main arm64 udev arm64 255.2-4deepin3 [1716 kB]
+Get:7 https://community-packages.deepin.com/beige beige/main arm64 systemd arm64 255.2-4deepin3 [3284 kB]
+Get:8 https://community-packages.deepin.com/beige beige/main arm64 libudev1 arm64 255.2-4deepin3 [117 kB]
+Get:9 https://community-packages.deepin.com/beige beige/main arm64 systemd-timesyncd arm64 255.2-4deepin3 [69.8 kB]
+Get:10 https://community-packages.deepin.com/beige beige/main arm64 deepin-app-store-runtime arm64 1.0.2+community [2332 B]
+Get:11 https://community-packages.deepin.com/driver-23 driver/non-free arm64 lanxum-touchscreen arm64 1.0.1-2019.12.19 [391 kB]
+Get:12 https://community-packages.deepin.com/beige beige/main arm64 libnss-myhostname arm64 255.2-4deepin3 [94.4 kB]
+Fetched 8008 kB in 2s (3433 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../systemd-dev_255.2-4deepin3_all.deb ...
+Unpacking systemd-dev (255.2-4deepin3) over (255.2-4) ...
+Preparing to unpack .../libselinux1_3.5-1deepin5_arm64.deb ...
+Unpacking libselinux1:arm64 (3.5-1deepin5) over (3.5-1) ...
+Setting up libselinux1:arm64 (3.5-1deepin5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libsystemd-shared_255.2-4deepin3_arm64.deb ...
+Unpacking libsystemd-shared:arm64 (255.2-4deepin3) over (255.2-4) ...
+Preparing to unpack .../libsystemd0_255.2-4deepin3_arm64.deb ...
+Unpacking libsystemd0:arm64 (255.2-4deepin3) over (255.2-4) ...
+Setting up libsystemd0:arm64 (255.2-4deepin3) ...
+Selecting previously unselected package mount.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../mount_2.39.3-6deepin1_arm64.deb ...
+Unpacking mount (2.39.3-6deepin1) ...
+Preparing to unpack .../udev_255.2-4deepin3_arm64.deb ...
+Unpacking udev (255.2-4deepin3) over (255.2-4) ...
+dpkg: systemd-standalone-sysusers: dependency problems, but removing anyway as you requested:
+ udev depends on systemd | systemd-standalone-sysusers | systemd-sysusers; however:
+  Package systemd is not installed.
+  Package systemd-standalone-sysusers is to be removed.
+  Package systemd-sysusers is not installed.
+  Package systemd-standalone-sysusers which provides systemd-sysusers is to be removed.
+ udev depends on systemd | systemd-standalone-sysusers | systemd-sysusers; however:
+  Package systemd is not installed.
+  Package systemd-standalone-sysusers is to be removed.
+  Package systemd-sysusers is not installed.
+  Package systemd-standalone-sysusers which provides systemd-sysusers is to be removed.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27766 files and directories currently installed.)
+Removing systemd-standalone-sysusers (255.2-4) ...
+Selecting previously unselected package systemd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27759 files and directories currently installed.)
+Preparing to unpack .../systemd_255.2-4deepin3_arm64.deb ...
+Unpacking systemd (255.2-4deepin3) ...
+Preparing to unpack .../libudev1_255.2-4deepin3_arm64.deb ...
+Unpacking libudev1:arm64 (255.2-4deepin3) over (255.2-4) ...
+Setting up libudev1:arm64 (255.2-4deepin3) ...
+Selecting previously unselected package systemd-timesyncd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28711 files and directories currently installed.)
+Preparing to unpack .../systemd-timesyncd_255.2-4deepin3_arm64.deb ...
+Unpacking systemd-timesyncd (255.2-4deepin3) ...
+Selecting previously unselected package deepin-app-store-runtime.
+Preparing to unpack .../deepin-app-store-runtime_1.0.2+community_arm64.deb ...
+Unpacking deepin-app-store-runtime (1.0.2+community) ...
+Selecting previously unselected package lanxum-touchscreen.
+Preparing to unpack .../lanxum-touchscreen_1.0.1-2019.12.19_arm64.deb ...
+Unpacking lanxum-touchscreen (1.0.1-2019.12.19) ...
+Preparing to unpack .../libnss-myhostname_255.2-4deepin3_arm64.deb ...
+Unpacking libnss-myhostname:arm64 (255.2-4deepin3) over (255.2-4) ...
+Setting up deepin-app-store-runtime (1.0.2+community) ...
+Setting up systemd-dev (255.2-4deepin3) ...
+Setting up libsystemd-shared:arm64 (255.2-4deepin3) ...
+Setting up libnss-myhostname:arm64 (255.2-4deepin3) ...
+Setting up mount (2.39.3-6deepin1) ...
+Setting up systemd (255.2-4deepin3) ...
+
+Configuration file '/etc/systemd/journald.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/logind.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/networkd.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/pstore.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/sleep.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/system.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/user.conf', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/system/getty.target.wants/getty@tty1.service → /usr/lib/systemd/system/getty@.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target → /usr/lib/systemd/system/remote-fs.target.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-pstore.service → /usr/lib/systemd/system/systemd-pstore.service.
+Setting access ACL "u::rwx,g::r-x,g:adm:r-x,m::r-x,o::r-x" on /var/log/journal failed: Invalid argument
+Setting up lanxum-touchscreen (1.0.1-2019.12.19) ...
+cp: cannot stat '/tmp/lanxum-touchscreen.ko': No such file or directory
+lanxum-touchscreen.service is not a native service, redirecting to systemd-sysv-install.
+Executing: /usr/lib/systemd/systemd-sysv-install enable lanxum-touchscreen
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'start'
+/var/lib/dpkg/info/lanxum-touchscreen.postinst: 12: sudo: not found
+dpkg: error processing package lanxum-touchscreen (--configure):
+ installed lanxum-touchscreen package post-installation script subprocess returned error exit status 127
+Setting up systemd-timesyncd (255.2-4deepin3) ...
+
+Configuration file '/etc/dhcp/dhclient-exit-hooks.d/timesyncd', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/timesyncd.conf', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/system/dbus-org.freedesktop.timesync1.service → /usr/lib/systemd/system/systemd-timesyncd.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-timesyncd.service → /usr/lib/systemd/system/systemd-timesyncd.service.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Setting up udev (255.2-4deepin3) ...
+fchmod() of /dev/loop-control failed: Operation not permitted
+fchmod() of /dev/vhost-net failed: Operation not permitted
+fchmod() of /dev/vhost-vsock failed: Operation not permitted
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'restart'
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for dbus (1.14.10-3) ...
+Processing triggers for initramfs-tools (0.142) ...
+Errors were encountered while processing:
+ lanxum-touchscreen
+E: Sub-process /usr/bin/dpkg returned an error code (1)
