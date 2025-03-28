@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: freedink-engine.linyaps
+  name: freedink-engine
+  version: 109.6.0.5
+  kind: app
+  description: |-
+    humorous top-down adventure and role-playing game (engine)
+    Dink Smallwood is an adventure/role-playing game, similar to classic
+    Zelda, made by RTsoft. Besides twisted humor, it includes the actual
+    game editor, allowing players to create hundreds of new adventures
+    called Dink Modules or D-Mods for short.
+
+    GNU FreeDink is a new and portable version of the game engine, which
+    runs the original game as well as its D-Mods, with close
+    compatibility, under multiple platforms.
+
+    This package contains the game engine alone.
+command:
+- /opt/apps/freedink-engine.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
