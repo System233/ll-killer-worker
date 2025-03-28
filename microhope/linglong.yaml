@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: microhope.linyaps
+  name: microhope
+  version: 5.3.1.6
+  kind: app
+  description: |-
+    hardware & software framework to learn microcontrollers
+    This package provides a set of example programs to drive an ATmega32
+    microcontroller, together with a tutorqial explaining how to compile
+    them, upload them to the microcontroller, and how to make simple and
+    more complicated modifications. It is meant to be used with the
+    "microhope" board which makes it easy to upload code to the microcontroller
+    through a USB link.
+
+    In addition to examples there is a library to drive all of the peripherals
+    available on the "microhope" board: LED, LCD display, ADC connected to
+    sensors.
+
+    A Graphic User Interface is provided too.
+command:
+- /opt/apps/microhope.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
