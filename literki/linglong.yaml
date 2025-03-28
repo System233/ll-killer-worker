@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: literki.linyaps
+  name: literki
+  version: 0.0.0.1
+  kind: app
+  description: |-
+    Keyboard with configurable layout and transparency
+    Literki is a full qwerty keyboard with configurable layout and
+    always-on functionality by usage of transparency. Applications
+    do not need to redraw and popping up the keyboard is therefore
+    very fast.
+
+    In addition to keyboard, literki comes with touchpad and scroll
+    buttons.
+command:
+- /opt/apps/literki.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
