@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: gnomint.linyaps
+  name: gnomint
+  version: 1.3.0.4
+  kind: app
+  description: |-
+    X.509 Certification Authority management tool for GNOME
+    gnoMint is a tool for easily creating and managing certification authorities.
+    It provides fancy visualization of all the pieces of information that pertain
+    to a CA, such as X.509 certificates, CSRs, and CRLs.
+
+    gnoMint is currently capable of managing a CA that emits certificates that are
+    able to authenticate people or machines in VPNs (IPSec or other protocols),
+    secure HTTP communications with SSL/TLS, authenticate and cipher HTTP
+    communications through Web-client certificates, and sign or crypt email
+    messages.
+command:
+- /opt/apps/gnomint.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
