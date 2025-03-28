@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: gaupol.linyaps
+  name: gaupol
+  version: 1.11.0.2
+  kind: app
+  description: |-
+    subtitle editor for text-based subtitle files
+    Text-based subtitles are commonly used with DivX video. Gaupol supports
+    multiple subtitle file formats and provides means of text corrections and time
+    manipulations. Gaupol's user interface is designed with attention to batch
+    processing of multiple documents and convenient translating.
+
+    Supported formats are:
+    * Advanced Sub Station Alpha (.ssa)
+    * MicroDVD (.sub)
+    * MPL2 (.txt)
+    * SubRip (.srt)
+    * Sub Station Alpha (.ssa)
+    * SubViewer2 (.sub)
+    * TMPlayer (.txt)
+
+    VobSubs (image-based subtitles used in DVDs) are NOT supported.
+command:
+- /opt/apps/gaupol.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
