@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kalgebramobile.linyaps
+  name: kalgebramobile
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    algebraic graphing calculator for small touch based interfaces
+    KAlgebra is a algebraic graphing calculator with support for 3D graphing and
+    MathML markup language. This is the version for small touch based interfaces
+
+    This package is part of the KDE education module.
+command:
+- /opt/apps/kalgebramobile.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
