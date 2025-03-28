@@ -1,0 +1,35 @@
+version: "1"
+package:
+  id: glassgui.linyaps
+  name: glassgui
+  version: 2.0.1.2
+  kind: app
+  description: |-
+    minimalist audio encoder GUI for generating live streams
+    GlassCoder is a minimalist audio encoder for IceCase and Soutcase
+    streaming servers as well as HTTP Live Streaming (HLS). It supports
+    the following audio sources:
+
+    Advanced Linux Sound Architecture (ALSA)
+    File Streaming (FILE)
+    JACK Audio Connection Kit (JACK)
+
+    The base GlassCoder streamer component utilizes no configuration files or
+    GUI interface whatsoever; with the 'user interface' consisting entirely of
+    the command-line invocation.  As such, it is well suited for use cases where
+    the encoder is completely driven by an external system or script.
+
+    The following audio codecs are supported:
+
+    MPEG-1/1.5 Layer 3 ('MP3')
+    Ogg Opus
+    Ogg Vorbis
+    PCM16
+
+    This package contains GlassGui, a graphical point-and-click interface that
+    can be used to drive GlassCoder or generate command-line invocations that
+    can be copy/pasted to other systems
+command:
+- /opt/apps/glassgui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
