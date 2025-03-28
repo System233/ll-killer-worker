@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kgeography.linyaps
+  name: kgeography
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    geography learning aid for KDE
+    KGeography is an aid for learning about world geography.  You can use it to
+    explore a map, show information about regions and features, and play quiz
+    games to test your geography knowledge.
+
+    This package is part of the KDE education module.
+command:
+- /opt/apps/kgeography.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
