@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: magnus.linyaps
+  name: magnus
+  version: 1.0.3.4
+  kind: app
+  description: |-
+    Very simple screen magnifier
+    Magnus is a simple screen magnifying glass. It nicely integrates with
+    X11 desktops like MATE or Xfce (probably with others not named here,
+    too).
+
+    Visually impaired users may find this tool helpful for zooming into
+    certain screen areas in order to improve readability/visibilty of fonts,
+    icons and other data.
+command:
+- /opt/apps/magnus.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
