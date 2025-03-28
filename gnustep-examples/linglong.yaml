@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gnustep-examples.linyaps
+  name: gnustep-examples
+  version: 1.4.0.3
+  kind: app
+  description: |-
+    GNUstep example applications
+    A collection of examples for the GNUstep libraries.  Some of them are
+    useful applications on their own, others are intended only for
+    testing purposes.
+command:
+- /opt/apps/gnustep-examples.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
