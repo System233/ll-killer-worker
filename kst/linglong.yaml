@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: kst.linyaps
+  name: kst
+  version: 2.0.8.5
+  kind: app
+  description: |-
+    scientific data plotting tool
+    Kst is a fast real-time large-dataset viewing and plotting tool.
+    It has basic data analysis functionality, contains many powerful
+    built-in features and is expandable with plugins and extensions.
+command:
+- /opt/apps/kst.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
