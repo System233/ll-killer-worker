@@ -1,0 +1,28 @@
+正在测试: APPID=freesweep.linyaps LAYER=freesweep.linyaps_1.0.2.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install freesweep.linyaps_1.0.2.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:freesweep.linyaps
+Layer文件:freesweep.linyaps_1.0.2.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: freesweep.linyaps_1.0.2.1_x86_64_binary.layer
+offset: 719
+mountpoint: /tmp/tmp.bMc1YHazfg/mnt
+dbglevel: 0
+[成功] freesweep.desktop: freesweep -> /opt/apps/freesweep.linyaps/files/share/icons/hicolor/128x128/apps/freesweep.png
+[成功] /opt/apps/freesweep.linyaps/files/share/applications/freesweep.desktop: /opt/apps/freesweep.linyaps/files/entrypoint.sh freesweep
+[正在测试启动项]
+包名:freesweep.linyaps
+Layer文件:freesweep.linyaps_1.0.2.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: freesweep.linyaps_1.0.2.1_x86_64_binary.layer
+offset: 719
+mountpoint: /tmp/tmp.UYAe3rt6jV/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run freesweep.linyaps -- /opt/apps/freesweep.linyaps/files/entrypoint.sh freesweep
+[PID 5446] 进程已启动
+[PID 5446] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall freesweep.linyaps
