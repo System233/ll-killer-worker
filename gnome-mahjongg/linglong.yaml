@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: gnome-mahjongg.linyaps
+  name: gnome-mahjongg
+  version: 3.40.1.1
+  kind: app
+  description: |-
+    classic Eastern tile game for GNOME
+    This is a solitaire (one player) version of the classic Eastern tile
+    game, Mahjongg.
+
+    You start with five levels of tiles which are stacked so some are
+    covered up by the tiles on top. The object of Mahjongg is to remove all
+    the tiles from the game, by finding matching pairs which look alike.
+command:
+- /opt/apps/gnome-mahjongg.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
