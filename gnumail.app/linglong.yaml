@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gnumail.app.linyaps
+  name: gnumail.app
+  version: 1.4.0.2
+  kind: app
+  description: |-
+    Mail client for GNUstep
+    GNUMail is a clone of NeXT/Apple's Mail.app application. It uses the
+    GNUstep development framework (or Apple Cocoa, which is based on the
+    OpenStep specification provided by NeXT, Inc.).
+command:
+- /opt/apps/gnumail.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
