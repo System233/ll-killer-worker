@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: gpsbabel-gui.linyaps
+  name: gpsbabel-gui
+  version: 1.9.0.2
+  kind: app
+  description: |-
+    GPS file conversion plus transfer to/from GPS units - GUI
+    GPSBabel converts waypoints, tracks, and routes from one format to
+    another, whether that format is a common mapping format like Delorme,
+    Streets and Trips, or even a serial upload or download to a GPS unit
+    such as those from Garmin and Magellan.
+
+    This package contains gpsbabelfe, a QT based frontend for gpsbabel.
+command:
+- /opt/apps/gpsbabel-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
