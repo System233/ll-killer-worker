@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: hoteldruid.linyaps
+  name: hoteldruid
+  version: 3.0.6.1
+  kind: app
+  description: |-
+    web-based property management system for hotels or B&Bs
+    HotelDruid is designed to make hotel rooms, bed and breakfast apartments,
+    or any other kind of daily rental easy to manage from a web browser.
+
+    Main features:
+    * automatic assignment of reservations to rooms by user-defined rules;
+    * creation of public web pages displaying room availability, etc.;
+    * saving, printing, and emailing of documents and invoices;
+    * electronic point of sale;
+    * management of groups and privileges for multi-user operation;
+    * generation of statistical reports.
+
+    It uses an SQLite database by default but can be configured for use
+    with MySQL or PostgreSQL.
+command:
+- /opt/apps/hoteldruid.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
