@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: gnome-activity-journal.linyaps
+  name: gnome-activity-journal
+  version: 1.0.0.3
+  kind: app
+  description: |-
+    graphical user interface for Zeitgeist
+    Zeitgeist is a service which logs the user's activities and events (files
+    opened, websites visited, conversations held with other people, etc.) and
+    makes the relevant information available to other applications.
+
+    It serves as a comprehensive activity log and also makes it possible to
+    determine relationships between items based on usage patterns.
+
+    This package contains the GNOME Activity Journal, a graphical user interface
+    which shows a journal of your activities.
+command:
+- /opt/apps/gnome-activity-journal.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
