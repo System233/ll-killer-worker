@@ -1,0 +1,35 @@
+正在测试: APPID=input-pad.linyaps LAYER=input-pad.linyaps_1.0.99.2_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install input-pad.linyaps_1.0.99.2_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:input-pad.linyaps
+Layer文件:input-pad.linyaps_1.0.99.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: input-pad.linyaps_1.0.99.2_x86_64_binary.layer
+offset: 661
+mountpoint: /tmp/tmp.MAzk4hJn4S/mnt
+dbglevel: 0
+find: ‘/opt/apps/input-pad.linyaps/files/share/icons’: No such file or directory
+[成功] input-pad.desktop: input-pad -> /opt/apps/input-pad.linyaps/files/share/pixmaps/input-pad.png
+[成功] /opt/apps/input-pad.linyaps/files/share/applications/input-pad.desktop: /opt/apps/input-pad.linyaps/files/entrypoint.sh input-pad
+[正在测试启动项]
+包名:input-pad.linyaps
+Layer文件:input-pad.linyaps_1.0.99.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: input-pad.linyaps_1.0.99.2_x86_64_binary.layer
+offset: 661
+mountpoint: /tmp/tmp.eIYpQnGdKK/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run input-pad.linyaps -- /opt/apps/input-pad.linyaps/files/entrypoint.sh input-pad
+[PID 8058] 进程已启动
+[PID 8058] 已检测到窗口:PID=36
+[PID 8058] 正在截图 0秒: tests/screen0-0.jpg
+[PID 8058] 正在截图 1秒: tests/screen0-1.jpg
+[PID 8058] 正在截图 4秒: tests/screen0-4.jpg
+[PID 8058] 正在截图 5秒: tests/screen0-5.jpg
+[PID 8058] 正在通知并等待进程退出
+[PID 8058] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall input-pad.linyaps
