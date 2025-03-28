@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: kxstitch.linyaps
+  name: kxstitch
+  version: 2.2.0.3
+  kind: app
+  description: |-
+    Cross stitch pattern editor
+    KXStitch is a program that lets you create cross stitch patterns and charts.
+    Patterns can be created from scratch on a user defined size of grid, which
+    can be enlarged or reduced in size as your pattern progresses.
+command:
+- /opt/apps/kxstitch.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
