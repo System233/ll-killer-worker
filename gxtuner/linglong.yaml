@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: gxtuner.linyaps
+  name: gxtuner
+  version: 3.0.0.3
+  kind: app
+  description: |-
+    Tuner for Jack
+    A simple, small and lightweight guitar/bass tuner for jack.
+    Gxtuner comes with a analogue like interface (scale),
+    show the tune (char) and the accumulated frequency (Hz).
+
+    It's a break out of the guitarix tuner module.
+command:
+- /opt/apps/gxtuner.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
