@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: flrig.linyaps
+  name: flrig
+  version: 2.0.4.1
+  kind: app
+  description: |-
+    ham radio transceiver control program
+    Flrig is a graphical ham radio transceiver control program designed
+    to be used either stand-alone or as an adjunct to fldigi.
+command:
+- /opt/apps/flrig.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
