@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: lmarbles.linyaps
+  name: lmarbles
+  version: 1.0.8.0
+  kind: app
+  description: |-
+    game where you build figures out of colored marbles
+    The goal of this game is to create a more or less complex figure
+    out of single marbles within a time limit to reach the next level.
+    Sounds easy? Well, there is a problem: If a marble starts to move,
+    it will not stop until it hits a wall or another marble.
+command:
+- /opt/apps/lmarbles.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
