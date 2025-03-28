@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: entagged.linyaps
+  name: entagged
+  version: 0.35.0.6
+  kind: app
+  description: |-
+    graphical audio file tagger with freedb support
+    Entagged is an audio file tagger written in Java, using the freedb online
+    database for the retrieval of the tags. It can be used to organize files into
+    complex directory structures according to their tags, or to tag them from
+    their filenames. Supports: APE, FLAC, MP3, MPC, OGG, WMA.
+command:
+- /opt/apps/entagged.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
