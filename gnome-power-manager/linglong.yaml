@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: gnome-power-manager.linyaps
+  name: gnome-power-manager
+  version: 43.0.0.2
+  kind: app
+  description: |-
+    power management tool for the GNOME desktop
+    GNOME Power Manager is a session daemon for the GNOME desktop
+    that takes care of system or desktop events related to power, and
+    triggers actions accordingly. Its philosophy is to completely hide
+    these complex tasks and only show some settings important to the user.
+
+    GNOME power manager displays and manages battery status, power plug
+    events, display brightness, CPU, graphics card and hard disk drive
+    power saving, and can trigger suspend-to-RAM, hibernate or shutdown
+    events, all integrated to other components of the GNOME desktop.
+command:
+- /opt/apps/gnome-power-manager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
