@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: merkaartor.linyaps
+  name: merkaartor
+  version: 0.19.0.5
+  kind: app
+  description: |-
+    map editor for OpenStreetMap.org
+    Merkaartor is a map editor for OpenStreetMap.org, the free editable map of the
+    whole world.
+
+    Features:
+    * download from and upload to the OpenStreetMap server
+    * open .osm and .gpx files
+    * create and move trackpoints, ways, and areas
+    * add tags, delete features
+    * reverse, split and join ways
+    * visualize some leisure/landuse areas and road types
+    * displaying GPS information
+command:
+- /opt/apps/merkaartor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
