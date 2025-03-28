@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: mopidy.linyaps
+  name: mopidy
+  version: 3.4.2.1
+  kind: app
+  description: |-
+    extensible music server
+    Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music,
+    and more. You can edit the playlist from any phone, tablet, or computer using
+    a variety of MPD and web clients.
+
+    Vanilla Mopidy only plays music from files and radio streams. Through
+    extensions, Mopidy can play music from cloud services like Spotify,
+    SoundCloud, and Google Play Music.
+command:
+- /opt/apps/mopidy.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
