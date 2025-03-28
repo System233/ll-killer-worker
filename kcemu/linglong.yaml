@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: kcemu.linyaps
+  name: kcemu
+  version: 0.5.2.2
+  kind: app
+  description: |-
+    KC 85/4 emulator
+    KCemu is an emulator for the KC85 homecomputer series and other
+    Z80 based microcomputers like Z1013, LC80, Polycomputer 880 and
+    BIC A5105. The emulation supports a number of additional hardware,
+    e.g. floppy disk drives and extended graphic modules.
+
+    The Debian package does not contain the ROM images required to
+    run the emulated machines. Please refer to the README.Debian
+    file for more information.
+
+    Some alternate keywords for the above:
+    KC85, KC87, LC80, Z1013, A5105, Polycomputer 880
+
+    For original programs and general information about the
+    emulated computer systems have a look at http://www.kc-club.de/
+    and http://www.kc85emu.de/.
+command:
+- /opt/apps/kcemu.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
