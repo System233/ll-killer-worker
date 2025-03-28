@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: gnome-disk-utility.linyaps
+  name: gnome-disk-utility
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    manage and configure disk drives and media
+    GNOME Disks is a tool to manage disk drives and media:
+
+    * Format and partition drives.
+    * Mount and unmount partitions.
+    * Query S.M.A.R.T. attributes.
+
+    It utilizes udisks.
+command:
+- /opt/apps/gnome-disk-utility.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
