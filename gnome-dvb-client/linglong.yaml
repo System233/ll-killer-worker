@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: gnome-dvb-client.linyaps
+  name: gnome-dvb-client
+  version: 0.2.91.5
+  kind: app
+  description: |-
+    client for gnome-dvb-daemon
+    GNOME DVB Daemon is a GStreamer based daemon to setup your
+    DVB devices, record and/or watch TV shows and browse EPG.
+
+    This package contains the Python GTK+ client, which speaks
+    to the daemon via DBUS.
+command:
+- /opt/apps/gnome-dvb-client.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
