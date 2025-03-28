@@ -1,0 +1,33 @@
+正在测试: APPID=gemrb-baldurs-gate.linyaps LAYER=gemrb-baldurs-gate.linyaps_0.9.2.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install gemrb-baldurs-gate.linyaps_0.9.2.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:gemrb-baldurs-gate.linyaps
+Layer文件:gemrb-baldurs-gate.linyaps_0.9.2.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: gemrb-baldurs-gate.linyaps_0.9.2.1_arm64_binary.layer
+offset: 759
+mountpoint: /tmp/tmp.fBBVxJyzAh/mnt
+dbglevel: 0
+[成功] baldurs-gate-tosc.desktop: baldurs-gate-tosc -> /opt/apps/gemrb-baldurs-gate.linyaps/files/share/icons/hicolor/scalable/apps/baldurs-gate-tosc.svg
+[成功] /opt/apps/gemrb-baldurs-gate.linyaps/files/share/applications/baldurs-gate-tosc.desktop: /opt/apps/gemrb-baldurs-gate.linyaps/files/entrypoint.sh baldurs-gate-tosc
+[成功] baldurs-gate.desktop: baldurs-gate -> /opt/apps/gemrb-baldurs-gate.linyaps/files/share/icons/hicolor/scalable/apps/baldurs-gate.svg
+[成功] /opt/apps/gemrb-baldurs-gate.linyaps/files/share/applications/baldurs-gate.desktop: /opt/apps/gemrb-baldurs-gate.linyaps/files/entrypoint.sh baldurs-gate
+[正在测试启动项]
+包名:gemrb-baldurs-gate.linyaps
+Layer文件:gemrb-baldurs-gate.linyaps_0.9.2.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: gemrb-baldurs-gate.linyaps_0.9.2.1_arm64_binary.layer
+offset: 759
+mountpoint: /tmp/tmp.dO9kBSE0Mr/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run gemrb-baldurs-gate.linyaps -- /opt/apps/gemrb-baldurs-gate.linyaps/files/entrypoint.sh baldurs-gate-tosc
+[PID 24633] 进程已启动
+[PID 24633] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run gemrb-baldurs-gate.linyaps -- /opt/apps/gemrb-baldurs-gate.linyaps/files/entrypoint.sh baldurs-gate
+[PID 24762] 进程已启动
+[PID 24762] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall gemrb-baldurs-gate.linyaps
