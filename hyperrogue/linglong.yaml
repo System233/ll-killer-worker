@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: hyperrogue.linyaps
+  name: hyperrogue
+  version: 12.1.0.1
+  kind: app
+  description: |-
+    non-euclidean graphical rogue-like game
+    HyperRogue is a game in which the player collects treasures and fights
+    monsters -- rogue-like but for the fact that it is played on the hyperbolic
+    plane and not in euclidean space.
+
+    In HyperRogue, the player can move through different parts of the world, which
+    are home to particular creatures and may be subject to own rules of "physics".
+
+    While it can use ASCII characters to display the world the classical rogue
+    symbols, the game needs graphics to render the non-euclidean world.
+command:
+- /opt/apps/hyperrogue.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
