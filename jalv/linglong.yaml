@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: jalv.linyaps
+  name: jalv
+  version: 1.6.8.1
+  kind: app
+  description: |-
+    tool to run LV2 plugins as stand-alone applications
+    jalv is a stand-alone version of lv2jack that supports plugin UIs
+    via libsuil. It allows one to run an LV2 plugin as a JACK application.
+
+    This package contains a replacement for the lv2jack utility, which was
+    previously provided by the lilv-utils package.
+command:
+- /opt/apps/jalv.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
