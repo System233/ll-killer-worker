@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: monodoc-http.linyaps
+  name: monodoc-http
+  version: 4.2.0.3
+  kind: app
+  description: |-
+    MonoDoc http based viewer
+    The MonoDoc Project is the documentation framework of the Mono project which
+    provides detailed API documentation for all Mono components and the Mono CLI
+    implementation.
+
+    This package contains ASP.NET scripts which allow viewing the Mono
+    documentation via an ASP.NET enabled webserver with a standard http
+    webbrowser.
+command:
+- /opt/apps/monodoc-http.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
