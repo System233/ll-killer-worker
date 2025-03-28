@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: gcu-bin.linyaps
+  name: gcu-bin
+  version: 0.14.17.6
+  kind: app
+  description: |-
+    GNOME chemistry utils (helper applications)
+    The GNOME Chemistry Utils provide C++ classes and Gtk+-2 widgets
+    related to chemistry. They will be used in future versions of both
+    gcrystal and gchempaint.
+
+    This package provides 4 applications:
+
+    * a molecular structures viewer (GChem3D)
+    * a molar mass calculator (GChemCalc)
+    * a periodic table of the elements (GChemTable)
+    * a spectra viewer (GSpectrum)
+command:
+- /opt/apps/gcu-bin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
