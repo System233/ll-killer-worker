@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: hatari.linyaps
+  name: hatari
+  version: 2.4.1.2
+  kind: app
+  description: |-
+    Emulator for the Atari ST, STE, TT, and Falcon computers
+    Hatari is an emulator for the Atari ST line of computers.
+
+    The Atari ST was a 16/32 bit computer system which was first released by
+    Atari in 1985. Using the Motorola 68000 CPU, it was a very popular computer
+    having quite a lot of CPU power at that time.
+
+    Unlike most other open source Atari ST emulators which try to provide a good
+    environment for running GEM applications, Hatari tries to emulate the hardware
+    of a ST as close as possible so that it is able to run most of the old Atari
+    games and demos. Because of this, it may be somewhat slower than less accurate
+    emulators.
+command:
+- /opt/apps/hatari.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
