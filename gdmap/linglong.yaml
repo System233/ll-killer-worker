@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: gdmap.linyaps
+  name: gdmap
+  version: 1.2.0.1
+  kind: app
+  description: |-
+    Tool to visualize diskspace
+    GdMap is a tool which allows you to visualize disk space. Ever
+    wondered why your hard disk is full or what directory and files take
+    up most of the space? With GdMap these questions can be answered
+    quickly. To display directory structures cushion treemaps are used
+    which visualize a complete folder or even the whole hard drive with
+    one picture.
+command:
+- /opt/apps/gdmap.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
