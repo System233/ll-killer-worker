@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gtimelog.linyaps
+  name: gtimelog
+  version: 0.12.0.1
+  kind: app
+  description: |-
+    time logging application
+    gtimelog provides a time tracking application to allow the user to track what
+    they work on during the day and how long they spend doing it.
+command:
+- /opt/apps/gtimelog.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
