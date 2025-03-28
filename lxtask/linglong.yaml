@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: lxtask.linyaps
+  name: lxtask
+  version: 0.1.10.2
+  kind: app
+  description: |-
+    LXDE task manager
+    LXTask is a GUI application for the Lightweight X11 Desktop Environment (LXDE).
+
+    LXTask - lightweight and desktop-independent task manager derived from
+    xfce4-taskmanager with all dependencies on Xfce removed, new features,
+    and some improvement of the user interface. LXTask is based on GTK+ toolkit.
+    It allows monitoring and controlling of running processes.
+command:
+- /opt/apps/lxtask.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
