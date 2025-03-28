@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: hashcheck.linyaps
+  name: hashcheck
+  version: 1.0.0.2
+  kind: app
+  description: |-
+    verifies the files on a live mounted ISO image
+    Provides a graphical interface to verify a live mounted ISO image.
+    The image is expected to be mounted under /lib/live/mount/medium
+
+    It is useful as part of a live environment
+command:
+- /opt/apps/hashcheck.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
