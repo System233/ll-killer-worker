@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: ghostwriter.linyaps
+  name: ghostwriter
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Distraction-free, themeable Markdown editor
+    ghostwriter is a Markdown editor that provides a themable,
+    distraction-free writing environment, along with a live HTML
+    preview as you type, easy document navigation with an outline HUD,
+    and export to popular document formats with Sundown, Pandoc,
+    MultiMarkdown, Discount, cmark, or cmark-gfm processors.  It also
+    features a live word count and auto-save. Eliminate distractions in
+    fullscreen mode, or concentrate on the current text you are writing
+    in focus mode.  It even remembers your last opened file and position
+    within the file, so you can pick up where you last left off.
+command:
+- /opt/apps/ghostwriter.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
