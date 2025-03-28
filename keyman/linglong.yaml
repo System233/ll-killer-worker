@@ -1,0 +1,34 @@
+version: "1"
+package:
+  id: keyman.linyaps
+  name: keyman
+  version: 17.0.295.1
+  kind: app
+  description: |-
+    Type in your language with Keyman for Linux
+    Keyman makes it possible for you to type in over 2,000 languages on Windows,
+    macOS, Linux, iPhone, iPad, Android tablets and phones, and even instantly
+    in your web browser. With the world's most powerful keyboarding engine,
+    intuitive and rapid text input is now possible in your language, and for
+    over 99% of the global population's mother tongues!
+
+    Originally created in 1993 to type Lao on Windows, Keyman is now a free and
+    open source keyboarding platform which allows anyone to write a keyboard
+    layout for their language. Keyman is available for many platforms, including
+    Windows, macOS, iOS, Android, Linux and the web.
+
+    Keyboard layouts are defined with a clear and easy to understand keyboard
+    grammar. Keyman's contextual input model means keyboard layouts can be
+    intelligent and make it simple to type even the most complex languages.
+    Keyboard layouts are distributed through an open catalog to all major desktop
+    and mobile platforms.
+
+    Install, uninstall and view information about Keyman keyboard
+    packages.
+
+    This package depends on all that is needed for using Keyman
+    for Linux.
+command:
+- /opt/apps/keyman.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
