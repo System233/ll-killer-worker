@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: kdepim-themeeditors.linyaps
+  name: kdepim-themeeditors
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Theme Editors for KDE PIM applications
+    KDE PIM Theme Editors allow you to create and edit various KDE themes for
+    KDE PIM software such as KMail and KAddressBook.
+command:
+- /opt/apps/kdepim-themeeditors.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
