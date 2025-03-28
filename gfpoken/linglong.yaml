@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gfpoken.linyaps
+  name: gfpoken
+  version: 1.0.0.4
+  kind: app
+  description: |-
+    Recreate a grid of mirrors from clues given by tests
+    Send balls through an invisible grid of mirrors (and other interesting
+    widgets) and observe where they end up.  Then, try to recreate the same
+    grid from the results you just obtained.
+command:
+- /opt/apps/gfpoken.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
