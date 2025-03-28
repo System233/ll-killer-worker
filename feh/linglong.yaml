@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: feh.linyaps
+  name: feh
+  version: 3.10.1.1
+  kind: app
+  description: |-
+    imlib2 based image viewer
+    feh is a fast, lightweight image viewer which uses imlib2. It is
+    commandline-driven and supports multiple images through
+    slideshows, thumbnail browsing or multiple windows, and montages
+    or index prints (using TrueType fonts to display file info).
+    Advanced features include fast dynamic zooming, progressive
+    loading, loading via HTTP (with reload support for watching
+    webcams), recursive file opening (slideshow of a directory
+    hierarchy), and mouse wheel/keyboard control.
+command:
+- /opt/apps/feh.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
