@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: juffed.linyaps
+  name: juffed
+  version: 0.10.0.8
+  kind: app
+  description: |-
+    Lightweight yet powerful Qt text editor
+    JuffEd is a simple, cross-platform text editor written using the Qt toolkit
+    and the QScintilla library. It supports most features found in modern text
+    editors, including syntax highlighting, bracket matching, switching encodings,
+    sessions, and a plugin API.
+
+    This package contains the JuffEd editor.
+command:
+- /opt/apps/juffed.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
