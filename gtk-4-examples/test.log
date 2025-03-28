@@ -1,0 +1,77 @@
+正在测试: APPID=gtk-4-examples.linyaps LAYER=gtk-4-examples.linyaps_4.14.2.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install gtk-4-examples.linyaps_4.14.2.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:gtk-4-examples.linyaps
+Layer文件:gtk-4-examples.linyaps_4.14.2.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: gtk-4-examples.linyaps_4.14.2.1_arm64_binary.layer
+offset: 686
+mountpoint: /tmp/tmp.swAaZQavtX/mnt
+dbglevel: 0
+[成功] org.gtk.Demo4.desktop: org.gtk.Demo4 -> /opt/apps/gtk-4-examples.linyaps/files/share/icons/hicolor/scalable/apps/org.gtk.Demo4.svg
+[成功] /opt/apps/gtk-4-examples.linyaps/files/share/applications/org.gtk.Demo4.desktop: /opt/apps/gtk-4-examples.linyaps/files/entrypoint.sh gtk4-demo
+[成功] org.gtk.IconBrowser4.desktop: org.gtk.IconBrowser4 -> /opt/apps/gtk-4-examples.linyaps/files/share/icons/hicolor/scalable/apps/org.gtk.IconBrowser4.svg
+[成功] /opt/apps/gtk-4-examples.linyaps/files/share/applications/org.gtk.IconBrowser4.desktop: /opt/apps/gtk-4-examples.linyaps/files/entrypoint.sh gtk4-icon-browser
+[成功] org.gtk.PrintEditor4.desktop: org.gtk.PrintEditor4 -> /opt/apps/gtk-4-examples.linyaps/files/share/icons/hicolor/scalable/apps/org.gtk.PrintEditor4.svg
+[成功] /opt/apps/gtk-4-examples.linyaps/files/share/applications/org.gtk.PrintEditor4.desktop: /opt/apps/gtk-4-examples.linyaps/files/entrypoint.sh gtk4-print-editor %f
+[成功] org.gtk.WidgetFactory4.desktop: org.gtk.WidgetFactory4 -> /opt/apps/gtk-4-examples.linyaps/files/share/icons/hicolor/scalable/apps/org.gtk.WidgetFactory4.svg
+[成功] /opt/apps/gtk-4-examples.linyaps/files/share/applications/org.gtk.WidgetFactory4.desktop: /opt/apps/gtk-4-examples.linyaps/files/entrypoint.sh gtk4-widget-factory
+[成功] org.gtk.gtk4.NodeEditor.desktop: org.gtk.gtk4.NodeEditor -> /opt/apps/gtk-4-examples.linyaps/files/share/icons/hicolor/scalable/apps/org.gtk.gtk4.NodeEditor.svg
+[成功] /opt/apps/gtk-4-examples.linyaps/files/share/applications/org.gtk.gtk4.NodeEditor.desktop: /opt/apps/gtk-4-examples.linyaps/files/entrypoint.sh gtk4-node-editor
+[正在测试启动项]
+包名:gtk-4-examples.linyaps
+Layer文件:gtk-4-examples.linyaps_4.14.2.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: gtk-4-examples.linyaps_4.14.2.1_arm64_binary.layer
+offset: 686
+mountpoint: /tmp/tmp.Q8yQvFqGBv/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run gtk-4-examples.linyaps -- /opt/apps/gtk-4-examples.linyaps/files/entrypoint.sh gtk4-demo
+[PID 8885] 进程已启动
+[PID 8885] 已检测到窗口:PID=37
+[PID 8885] 正在截图 0秒: tests/screen0-0.jpg
+[PID 8885] 正在截图 1秒: tests/screen0-1.jpg
+[PID 8885] 正在截图 3秒: tests/screen0-3.jpg
+[PID 8885] 正在截图 5秒: tests/screen0-5.jpg
+[PID 8885] 正在通知并等待进程退出
+[PID 8885] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run gtk-4-examples.linyaps -- /opt/apps/gtk-4-examples.linyaps/files/entrypoint.sh gtk4-icon-browser
+[PID 9094] 进程已启动
+[PID 9094] 已检测到窗口:PID=36
+[PID 9094] 正在截图 0秒: tests/screen1-0.jpg
+[PID 9094] 正在截图 1秒: tests/screen1-1.jpg
+[PID 9094] 正在截图 3秒: tests/screen1-3.jpg
+[PID 9094] 正在截图 5秒: tests/screen1-5.jpg
+[PID 9094] 正在通知并等待进程退出
+[PID 9094] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run gtk-4-examples.linyaps -- /opt/apps/gtk-4-examples.linyaps/files/entrypoint.sh gtk4-print-editor
+[PID 9281] 进程已启动
+[PID 9281] 已检测到窗口:PID=36
+[PID 9281] 正在截图 0秒: tests/screen2-0.jpg
+[PID 9281] 正在截图 1秒: tests/screen2-1.jpg
+[PID 9281] 正在截图 3秒: tests/screen2-3.jpg
+[PID 9281] 正在截图 5秒: tests/screen2-5.jpg
+[PID 9281] 正在通知并等待进程退出
+[PID 9281] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run gtk-4-examples.linyaps -- /opt/apps/gtk-4-examples.linyaps/files/entrypoint.sh gtk4-widget-factory
+[PID 9450] 进程已启动
+[PID 9450] 已检测到窗口:PID=36
+[PID 9450] 正在截图 0秒: tests/screen3-0.jpg
+[PID 9450] 正在截图 1秒: tests/screen3-1.jpg
+[PID 9450] 正在截图 3秒: tests/screen3-3.jpg
+[PID 9450] 正在截图 5秒: tests/screen3-5.jpg
+[PID 9450] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run gtk-4-examples.linyaps -- /opt/apps/gtk-4-examples.linyaps/files/entrypoint.sh gtk4-node-editor
+[PID 9665] 进程已启动
+[PID 9665] 已检测到窗口:PID=36
+[PID 9665] 正在截图 0秒: tests/screen4-0.jpg
+[PID 9665] 正在截图 1秒: tests/screen4-1.jpg
+[PID 9665] 正在截图 3秒: tests/screen4-3.jpg
+[PID 9665] 正在截图 5秒: tests/screen4-5.jpg
+[PID 9665] 正在通知并等待进程退出
+[PID 9665] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall gtk-4-examples.linyaps
