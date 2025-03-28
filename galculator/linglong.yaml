@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: galculator.linyaps
+  name: galculator
+  version: 2.1.4.1
+  kind: app
+  description: |-
+    scientific calculator
+    galculator is a scientific calculator. It supports different number
+    bases (DEC/HEX/OCT/BIN) and angles bases (DEG/RAD/GRAD) and features a
+    wide range of mathematical (basic arithmetic operations, trigonometric
+    functions, etc) and other useful functions (memory, etc) at the moment.
+    galculator can be used in algebraic mode as well as in Reverse Polish
+    Notation (RPN).
+command:
+- /opt/apps/galculator.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
