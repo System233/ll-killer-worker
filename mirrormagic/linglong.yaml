@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: mirrormagic.linyaps
+  name: mirrormagic
+  version: 3.3.0.1
+  kind: app
+  description: |-
+    Shoot around obstacles to collect energy using your beam.
+    A game like "Deflektor" (C 64) or "Mindbender" (Amiga).
+    The goal is to work out how to get around obstacles to shoot
+    energy containers with your beam, enabling the path to the
+    next level to be opened. Included are many levels known from
+    the games "Deflektor" and "Mindbender".
+
+    Some features:
+    - stereo sound effects and music
+    - music module support for SDL version (Unix/Win32)
+    - fullscreen support for SDL version (Unix/Win32)
+    - complete source code included under GNU GPL
+command:
+- /opt/apps/mirrormagic.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
