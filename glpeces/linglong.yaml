@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: glpeces.linyaps
+  name: glpeces
+  version: 5.2.0.3
+  kind: app
+  description: |-
+    Tangram (puzzle) game clone
+    The Tangram is an ancient Chinese puzzle game where the player has to arrange
+    a set of figures with 7 polygonal pieces.
+    Peces allows playing 40 different modalities of tangrams and it includes more
+    than 31,000 figures to solve. Also, it allows creating new figures and
+    competitions. glpeces is especially designed to use in education.
+command:
+- /opt/apps/glpeces.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
