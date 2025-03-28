@@ -1,0 +1,16 @@
+包名:eyes17.linyaps
+Layer文件:eyes17.linyaps_5.3.1.6_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: eyes17.linyaps_5.3.1.6_arm64_binary.layer
+offset: 1120
+mountpoint: /tmp/tmp.d26eiN07zQ/mnt
+dbglevel: 0
+Traceback (most recent call last):
+  File "/usr/share/eyes17/main.py", line 4, in <module>
+    from utils import cnf
+  File "/usr/share/eyes17/utils.py", line 4, in <module>
+    from QtVersion import *
+  File "/usr/share/eyes17/QtVersion.py", line 26, in <module>
+    from PyQt5 import QtGui, QtCore, QtWidgets, QtSvg
+ImportError: cannot import name 'QtSvg' from 'PyQt5' (/usr/lib/python3/dist-packages/PyQt5/__init__.py)

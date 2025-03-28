@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: eyes17.linyaps
+  name: eyes17
+  version: 5.3.1.6
+  kind: app
+  description: |-
+    hardware & software framework for developing science experiments
+    This package provides high level interfaces for making science experiments
+    with an ExpEYES-17 box.
+
+    ExpEYES-17 is from the PHOENIX project of Inter-University Accelerator
+    Centre, New Delhi. It is a hardware & software framework for
+    developing science experiments, demonstrations and projects and learn
+    science and engineering by exploration. Capable of doing real time
+    measurements and analysing the data in different ways. When compared with
+    previous ExpEYES boxes (Expeyes, Expeyes-Junior), ExpEYES-17 is richer
+    in various features: multiple soft input ranges, more flexible wave
+    generator, better time resolution, better voltage resolution, supports
+    seamlessly cheap I2C sensors.
+command:
+- /opt/apps/eyes17.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
