@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: kjots.linyaps
+  name: kjots
+  version: 5.1.1.0
+  kind: app
+  description: |-
+    note-taking utility
+    Kjots is a notebook utility that organizes notes using groups of pages.
+
+    This package is part of the KDE PIM module.
+command:
+- /opt/apps/kjots.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
