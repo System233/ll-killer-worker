@@ -1,11 +1,11 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|1312|807 |505 | 61.51%| 26.04%|
+|3099|1325|812 |513 | 61.28%| 26.20%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|1070|720 |350 | 67.29%| 26.10%|
+|ubuntu-noble|2759|1083|725 |358 | 66.94%| 26.28%|
 |deepin-v23|340|242|87 |155 | 35.95%| 25.59%|
 ## 详细结果
 | 包名  | 架构 |仓库| 版本 | 测试结果 | SHA256 |killer版本|
@@ -1301,6 +1301,7 @@
 | [imagination](./imagination) | arm64  | ubuntu-noble | 3.6-2build3 | ![screen0-5.jpg](./imagination/tests/screen0-5.jpg) | [SHA256](./imagination/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [imv](./imv) | arm64  | ubuntu-noble | 4.4.0-1build3-20250327 | 失败 | [SHA256](./imv/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [imview](./imview) | arm64  | ubuntu-noble | 1.1.9h-4build3 | ![screen0-5.jpg](./imview/tests/screen0-5.jpg) | [SHA256](./imview/SHA256SUMS) | v1.5.0-arm64-nevm |
+| [indicator-china-weather](./indicator-china-weather) | arm64  | ubuntu-noble | 3.0.4.1-0ubuntu3-20250327 | 失败 | [SHA256](./indicator-china-weather/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [indicator-sensors](./indicator-sensors) | arm64  | ubuntu-noble | 1.4-1build2-20250327 | 失败 | N/A | v1.5.0-arm64-nevm |
 | [info](./info) | arm64  | ubuntu-noble | 7.1-3build2-20250327 | 失败 | [SHA256](./info/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [inkscape](./inkscape) | arm64  | deepin-v23 | 1.2.2-4 | ![screen0-5.jpg](./inkscape/tests/screen0-5.jpg) | [SHA256](./inkscape/SHA256SUMS) | v1.5.0-arm64-nevm |
@@ -1310,15 +1311,27 @@
 | [iraf](./iraf) | arm64  | ubuntu-noble | 2.17.1-5build3-20250327 | 失败 | [SHA256](./iraf/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [ironseed](./ironseed) | arm64  | ubuntu-noble | 0.3.6-5 | ![screen0-5.jpg](./ironseed/tests/screen0-5.jpg) | [SHA256](./ironseed/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [isenkram](./isenkram) | arm64  | ubuntu-noble | 0.57-20250327 | 失败 | N/A | v1.5.0-arm64-nevm |
+| [itinerary](./itinerary) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3-20250327 | 失败 | [SHA256](./itinerary/SHA256SUMS) | v1.5.0-arm64-nevm |
+| [jaaa](./jaaa) | arm64  | ubuntu-noble | 0.9.2-1build2-20250327 | 失败 | [SHA256](./jaaa/SHA256SUMS) | v1.5.0-arm64-nevm |
+| [jabref](./jabref) | arm64  | ubuntu-noble | 3.8.2+ds-17-20250327 | 失败 | [SHA256](./jabref/SHA256SUMS) | v1.5.0-arm64-nevm |
+| [jack-keyboard](./jack-keyboard) | arm64  | ubuntu-noble | 2.7.2-1build2 | ![screen0-5.jpg](./jack-keyboard/tests/screen0-5.jpg) | [SHA256](./jack-keyboard/SHA256SUMS) | v1.5.0-arm64-nevm |
+| [jag](./jag) | arm64  | ubuntu-noble | 0.3.8-2build2-20250327 | 失败 | [SHA256](./jag/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [jalv](./jalv) | arm64  | ubuntu-noble | 1.6.8-1build3 | ![screen0-5.jpg](./jalv/tests/screen0-5.jpg) | [SHA256](./jalv/SHA256SUMS) | v1.5.0-arm64-nevm |
+| [jameica](./jameica) | arm64  | ubuntu-noble | 2.10.4+dfsg-1-20250327 | 失败 | [SHA256](./jameica/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [jami](./jami) | arm64  | ubuntu-noble | 20231201.0~ds2-1-20250327 | 失败 | [SHA256](./jami/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [jamin](./jamin) | arm64  | ubuntu-noble | 0.98.9~git20170111~199091~repack1-2build2-20250327 | 失败 | [SHA256](./jamin/SHA256SUMS) | v1.5.0-arm64-nevm |
+| [jamulus](./jamulus) | arm64  | ubuntu-noble | 3.9.1+dfsg-1build2 | ![screen0-5.jpg](./jamulus/tests/screen0-5.jpg) | [SHA256](./jamulus/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [japa](./japa) | arm64  | ubuntu-noble | 0.9.4-1build2-20250327 | 失败 | [SHA256](./japa/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [jaxe](./jaxe) | arm64  | ubuntu-noble | 3.5-14 | ![screen0-5.jpg](./jaxe/tests/screen0-5.jpg) | [SHA256](./jaxe/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [jclic](./jclic) | arm64  | ubuntu-noble | 0.3.2.10-1.1-20250327 | 失败 | N/A | v1.5.0-arm64-nevm |
 | [jed](./jed) | arm64  | ubuntu-noble | 0.99.20~pre.180+dfsg-2-20250327 | 失败 | [SHA256](./jed/SHA256SUMS) | v1.5.0-arm64-nevm |
+| [jedit](./jedit) | arm64  | ubuntu-noble | 5.5.0+dfsg-2-20250327 | 失败 | [SHA256](./jedit/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [jeex](./jeex) | arm64  | ubuntu-noble | 12.0.4-1.1build3 | ![screen0-5.jpg](./jeex/tests/screen0-5.jpg) | [SHA256](./jeex/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [jemboss](./jemboss) | arm64  | ubuntu-noble | 6.6.0+dfsg-12ubuntu2-20250327 | 失败 | [SHA256](./jemboss/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [jester](./jester) | arm64  | ubuntu-noble | 1.0-15-20250327 | 失败 | [SHA256](./jester/SHA256SUMS) | v1.5.0-arm64-nevm |
+| [jfractionlab](./jfractionlab) | arm64  | ubuntu-noble | 0.92-3 | ![screen0-5.jpg](./jfractionlab/tests/screen0-5.jpg) | [SHA256](./jfractionlab/SHA256SUMS) | v1.5.0-arm64-nevm |
+| [jftp](./jftp) | arm64  | ubuntu-noble | 1.60+dfsg-4-20250327 | 失败 | [SHA256](./jftp/SHA256SUMS) | v1.5.0-arm64-nevm |
+| [jigzo](./jigzo) | arm64  | ubuntu-noble | 0.6.1-7.1build2 | ![screen0-5.jpg](./jigzo/tests/screen0-5.jpg) | [SHA256](./jigzo/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [jkmeter](./jkmeter) | arm64  | ubuntu-noble | 0.9.0-1build2-20250327 | 失败 | [SHA256](./jkmeter/SHA256SUMS) | v1.5.0-arm64-nevm |
+| [jmol](./jmol) | arm64  | ubuntu-noble | 14.32.83+dfsg-3 | ![screen0-5.jpg](./jmol/tests/screen0-5.jpg) | [SHA256](./jmol/SHA256SUMS) | v1.5.0-arm64-nevm |
 | [jnoisemeter](./jnoisemeter) | arm64  | ubuntu-noble | 0.4.1-1build2-20250327 | 失败 | [SHA256](./jnoisemeter/SHA256SUMS) | v1.5.0-arm64-nevm |
