@@ -1,0 +1,539 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  imagemagick imagemagick-6-common imagemagick-6.q16 libarchive-zip-perl
+  libcompress-raw-lzma-perl libdb5.3t64 libde265-0 libdjvulibre-text
+  libdjvulibre21 libfftw3-double3 libfftw3-single3 libgdbm-compat4t64
+  libgdbm6t64 libglib2.0-0t64 libheif-plugin-aomdec libheif-plugin-aomenc
+  libheif-plugin-libde265 libheif1 libhtml-parser-perl
+  libimage-base-bundle-perl libimage-exiftool-perl libimage-info-perl
+  libimage-metadata-jpeg-perl libimath-3-1-29t64 libio-compress-brotli-perl
+  libio-string-perl libjpeg-turbo8 libjpeg8 libjxr-tools libjxr0t64 liblqr-1-0
+  libmagickcore-6.q16-7-extra libmagickcore-6.q16-7t64
+  libmagickwand-6.q16-7t64 libmime-charset-perl libnet-ssleay-perl
+  libopenexr-3-1-30 libperl5.38t64 libpng16-16t64 libraw23t64 libsombok3
+  libssl3t64 libunicode-linebreak-perl libwmflite-0.2-7 libxml-libxml-perl
+  libxml-namespacesupport-perl libxml-parser-perl libxml-sax-base-perl
+  libxml-sax-expat-perl libxml-sax-perl libxml-simple-perl perl perl-base
+  perl-modules-5.38 perl-tk
+Suggested packages:
+  imagemagick-6-doc autotrace enscript ffmpeg gimp gnuplot grads graphviz
+  groff-base hp2xx html2ps libwmf-bin mplayer povray radiance sane-utils
+  texlive-base-bin transfig libraw-bin xdg-utils libfftw3-bin libfftw3-dev
+  gdbm-l10n low-memory-monitor libheif-plugin-x265 libheif-plugin-ffmpegdec
+  libheif-plugin-jpegdec libheif-plugin-jpegenc libheif-plugin-j2kdec
+  libheif-plugin-j2kenc libheif-plugin-rav1e libheif-plugin-svtenc
+  libdata-dump-perl libposix-strptime-perl inkscape libencode-eucjpascii-perl
+  libencode-hanextra-perl libpod2-base-perl libxml-sax-expatxs-perl jpegpixi
+  perl-doc libterm-readline-gnu-perl | libterm-readline-perl-perl make
+  libtap-harness-archive-perl
+Recommended packages:
+  libjpeg-progs jhead
+The following packages will be REMOVED:
+  dictionaries-common gir1.2-atk-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0
+  gir1.2-glib-2.0 gir1.2-harfbuzz-0.0 gir1.2-pango-1.0 libdb5.3
+  libgdbm-compat4 libgdbm6 libglib2.0-0 libglib2.0-bin libjpeg-turbo-progs
+  libpng16-16 libtext-iconv-perl libturbojpeg0 xscreensaver-data-extra
+The following NEW packages will be installed:
+  imagemagick imagemagick-6-common imagemagick-6.q16 libarchive-zip-perl
+  libcompress-raw-lzma-perl libdb5.3t64 libde265-0 libdjvulibre-text
+  libdjvulibre21 libfftw3-double3 libgdbm-compat4t64 libgdbm6t64
+  libglib2.0-0t64 libheif-plugin-aomdec libheif-plugin-aomenc
+  libheif-plugin-libde265 libheif1 libimage-base-bundle-perl
+  libimage-exiftool-perl libimage-info-perl libimage-metadata-jpeg-perl
+  libimath-3-1-29t64 libio-compress-brotli-perl libio-string-perl
+  libjpeg-turbo8 libjpeg8 libjxr-tools libjxr0t64 liblqr-1-0
+  libmagickcore-6.q16-7-extra libmagickcore-6.q16-7t64
+  libmagickwand-6.q16-7t64 libmime-charset-perl libopenexr-3-1-30
+  libperl5.38t64 libpng16-16t64 libraw23t64 libsombok3 libssl3t64
+  libunicode-linebreak-perl libwmflite-0.2-7 libxml-libxml-perl
+  libxml-namespacesupport-perl libxml-parser-perl libxml-sax-base-perl
+  libxml-sax-expat-perl libxml-sax-perl libxml-simple-perl mapivi
+  perl-modules-5.38 perl-tk
+The following packages will be upgraded:
+  libfftw3-single3 libhtml-parser-perl libnet-ssleay-perl perl perl-base
+5 upgraded, 51 newly installed, 17 to remove and 442 not upgraded.
+Need to get 29.8 MB of archives.
+After this operation, 104 MB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libhtml-parser-perl amd64 3.81-1build3 [85.8 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libssl3t64 amd64 3.0.13-0ubuntu3.5 [1940 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libnet-ssleay-perl amd64 1.94-1build4 [316 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 perl-modules-5.38 all 5.38.2-3.2build2.1 [3110 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libdb5.3t64 amd64 5.3.28+dfsg2-7 [734 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libgdbm6t64 amd64 1.23-5.1build1 [34.4 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libgdbm-compat4t64 amd64 1.23-5.1build1 [6710 B]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libperl5.38t64 amd64 5.38.2-3.2build2.1 [4867 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 perl amd64 5.38.2-3.2build2.1 [231 kB]
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 perl-base amd64 5.38.2-3.2build2.1 [1823 kB]
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libglib2.0-0t64 amd64 2.80.0-6ubuntu3.2 [1546 kB]
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpng16-16t64 amd64 1.6.43-5build1 [187 kB]
+Get:13 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libfftw3-double3 amd64 3.3.10-1ubuntu3 [838 kB]
+Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif-plugin-aomdec amd64 1.17.6-1ubuntu4.1 [10.4 kB]
+Get:15 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libde265-0 amd64 1.0.15-1build3 [166 kB]
+Get:16 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif-plugin-libde265 amd64 1.17.6-1ubuntu4.1 [8176 B]
+Get:17 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif1 amd64 1.17.6-1ubuntu4.1 [275 kB]
+Get:18 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-turbo8 amd64 2.1.5-2ubuntu2 [150 kB]
+Get:19 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg8 amd64 8c-2ubuntu11 [2148 B]
+Get:20 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 liblqr-1-0 amd64 0.4.2-2.1build2 [28.5 kB]
+Get:21 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libraw23t64 amd64 0.21.2-2.1build1 [378 kB]
+Get:22 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 imagemagick-6-common all 8:6.9.12.98+dfsg1-5.2build2 [69.5 kB]
+Get:23 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libmagickcore-6.q16-7t64 amd64 8:6.9.12.98+dfsg1-5.2build2 [1811 kB]
+Get:24 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libmagickwand-6.q16-7t64 amd64 8:6.9.12.98+dfsg1-5.2build2 [318 kB]
+Get:25 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 imagemagick-6.q16 amd64 8:6.9.12.98+dfsg1-5.2build2 [254 kB]
+Get:26 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 imagemagick amd64 8:6.9.12.98+dfsg1-5.2build2 [14.2 kB]
+Get:27 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libarchive-zip-perl all 1.68-1 [90.2 kB]
+Get:28 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libcompress-raw-lzma-perl amd64 2.209-1build2 [35.1 kB]
+Get:29 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libdjvulibre-text all 3.5.28-2build4 [50.8 kB]
+Get:30 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libdjvulibre21 amd64 3.5.28-2build4 [638 kB]
+Get:31 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libfftw3-single3 amd64 3.3.10-1ubuntu3 [868 kB]
+Get:32 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif-plugin-aomenc amd64 1.17.6-1ubuntu4.1 [14.7 kB]
+Get:33 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libimage-exiftool-perl all 12.76+dfsg-1 [3901 kB]
+Get:34 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libimage-base-bundle-perl all 1.0.7-3.5 [27.0 kB]
+Get:35 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libio-string-perl all 1.08-4 [11.1 kB]
+Get:36 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxml-namespacesupport-perl all 1.12-2 [13.5 kB]
+Get:37 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxml-sax-base-perl all 1.09-3 [18.9 kB]
+Get:38 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxml-sax-perl all 1.02+dfsg-3 [57.0 kB]
+Get:39 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxml-libxml-perl amd64 2.0207+dfsg+really+2.0134-1build4 [304 kB]
+Get:40 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxml-parser-perl amd64 2.47-1build3 [204 kB]
+Get:41 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxml-sax-expat-perl all 0.51-2 [8644 B]
+Get:42 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxml-simple-perl all 2.25-2 [64.1 kB]
+Get:43 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libimage-info-perl all 1.44-2 [57.6 kB]
+Get:44 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libimage-metadata-jpeg-perl all 0.159-1 [203 kB]
+Get:45 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libimath-3-1-29t64 amd64 3.1.9-3.1ubuntu2 [72.2 kB]
+Get:46 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libio-compress-brotli-perl amd64 0.004001-2build3 [16.6 kB]
+Get:47 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libjxr0t64 amd64 1.2~git20170615.f752187-5.1ubuntu2 [181 kB]
+Get:48 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libjxr-tools amd64 1.2~git20170615.f752187-5.1ubuntu2 [15.8 kB]
+Get:49 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libopenexr-3-1-30 amd64 3.1.5-5.1build3 [1004 kB]
+Get:50 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libwmflite-0.2-7 amd64 0.2.13-1.1build3 [68.6 kB]
+Get:51 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libmagickcore-6.q16-7-extra amd64 8:6.9.12.98+dfsg1-5.2build2 [70.1 kB]
+Get:52 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libmime-charset-perl all 1.013.1-2 [31.0 kB]
+Get:53 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libsombok3 amd64 2.4.0-2build1 [29.4 kB]
+Get:54 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libunicode-linebreak-perl amd64 0.0.20190101-1build7 [92.6 kB]
+Get:55 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 perl-tk amd64 1:804.036+dfsg1-1ubuntu3 [2047 kB]
+Get:56 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 mapivi all 1.2+svn356-1 [370 kB]
+Fetched 29.8 MB in 3s (9257 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libhtml-parser-perl_3.81-1build3_amd64.deb ...
+Unpacking libhtml-parser-perl:amd64 (3.81-1build3) over (3.76-1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27595 files and directories currently installed.)
+Removing xscreensaver-data-extra (6.02+dfsg1-3) ...
+Removing dictionaries-common (1.28.12) ...
+Removing 'diversion of /usr/share/dict/words to /usr/share/dict/words.pre-dictionaries-common by dictionaries-common'
+Removing libtext-iconv-perl (1.7-deepin1) ...
+Selecting previously unselected package libssl3t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27120 files and directories currently installed.)
+Preparing to unpack .../libssl3t64_3.0.13-0ubuntu3.5_amd64.deb ...
+Unpacking libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:amd64 (3.2.0-2) ...
+Preparing to unpack .../libnet-ssleay-perl_1.94-1build4_amd64.deb ...
+Unpacking libnet-ssleay-perl:amd64 (1.94-1build4) over (1.92-2) ...
+Preparing to unpack .../perl_5.38.2-3.2build2.1_amd64.deb ...
+Unpacking perl (5.38.2-3.2build2.1) over (5.36.0-10) ...
+Selecting previously unselected package perl-modules-5.38.
+Preparing to unpack .../perl-modules-5.38_5.38.2-3.2build2.1_all.deb ...
+Unpacking perl-modules-5.38 (5.38.2-3.2build2.1) ...
+dpkg: libdb5.3:amd64: dependency problems, but removing anyway as you requested:
+ libsasl2-modules-db:amd64 depends on libdb5.3.
+ libpython3.12-stdlib:amd64 depends on libdb5.3.
+ libpython3.11-stdlib:amd64 depends on libdb5.3.
+ libperl5.36:amd64 depends on libdb5.3.
+ libpam-modules:amd64 depends on libdb5.3.
+ libjack-jackd2-0:amd64 depends on libdb5.3.
+ libical3:amd64 depends on libdb5.3.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28532 files and directories currently installed.)
+Removing libdb5.3:amd64 (5.3.28+dfsg1-0.8) ...
+Selecting previously unselected package libdb5.3t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28526 files and directories currently installed.)
+Preparing to unpack .../libdb5.3t64_5.3.28+dfsg2-7_amd64.deb ...
+Unpacking libdb5.3t64:amd64 (5.3.28+dfsg2-7) ...
+Setting up libdb5.3t64:amd64 (5.3.28+dfsg2-7) ...
+dpkg: libgdbm6:amd64: dependency problems, but removing anyway as you requested:
+ libperl5.36:amd64 depends on libgdbm6 (>= 1.21).
+ libgdbm-compat4:amd64 depends on libgdbm6 (>= 1.16).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28532 files and directories currently installed.)
+Removing libgdbm6:amd64 (1.22-1) ...
+Selecting previously unselected package libgdbm6t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28526 files and directories currently installed.)
+Preparing to unpack .../libgdbm6t64_1.23-5.1build1_amd64.deb ...
+Unpacking libgdbm6t64:amd64 (1.23-5.1build1) ...
+dpkg: libgdbm-compat4:amd64: dependency problems, but removing anyway as you requested:
+ libperl5.36:amd64 depends on libgdbm-compat4 (>= 1.18-3).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28532 files and directories currently installed.)
+Removing libgdbm-compat4:amd64 (1.22-1) ...
+Selecting previously unselected package libgdbm-compat4t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28526 files and directories currently installed.)
+Preparing to unpack .../libgdbm-compat4t64_1.23-5.1build1_amd64.deb ...
+Unpacking libgdbm-compat4t64:amd64 (1.23-5.1build1) ...
+Selecting previously unselected package libperl5.38t64:amd64.
+Preparing to unpack .../libperl5.38t64_5.38.2-3.2build2.1_amd64.deb ...
+Unpacking libperl5.38t64:amd64 (5.38.2-3.2build2.1) ...
+Preparing to unpack .../perl-base_5.38.2-3.2build2.1_amd64.deb ...
+Unpacking perl-base (5.38.2-3.2build2.1) over (5.36.0-10) ...
+Setting up perl-base (5.38.2-3.2build2.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29056 files and directories currently installed.)
+Removing gir1.2-atk-1.0:amd64 (2.50.0-1) ...
+Removing gir1.2-pango-1.0:amd64 (1.52.2+ds-1) ...
+Removing gir1.2-harfbuzz-0.0:amd64 (8.0.1-1+rb1) ...
+Removing gir1.2-freedesktop:amd64 (1.80.1-2) ...
+Removing gir1.2-gdkpixbuf-2.0:amd64 (2.42.10+dfsg-3) ...
+Removing gir1.2-glib-2.0:amd64 (2.80.1-1deepin1) ...
+Removing libglib2.0-bin (2.80.1-1deepin1) ...
+dpkg: libglib2.0-0:amd64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-gl depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-data depends on libglib2.0-0 (>= 2.16.0).
+ shared-mime-info depends on libglib2.0-0 (>= 2.75.3).
+ pulseaudio-module-bluetooth depends on libglib2.0-0 (>= 2.12.0).
+ pulseaudio depends on libglib2.0-0 (>= 2.32.0).
+ libspa-0.2-bluetooth:amd64 depends on libglib2.0-0 (>= 2.38.0).
+ librsvg2-2:amd64 depends on libglib2.0-0 (>= 2.77.3).
+ libpulse-mainloop-glib0:amd64 depends on libglib2.0-0 (>= 2.28.0).
+ libpipewire-0.3-modules:amd64 depends on libglib2.0-0 (>= 2.32.0).
+ libpangoxft-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangoft2-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangocairo-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libpango-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libical3:amd64 depends on libglib2.0-0 (>= 2.42.0).
+ libharfbuzz0b:amd64 depends on libglib2.0-0 (>= 2.32.0).
+ libharfbuzz-gobject0:amd64 depends on libglib2.0-0 (>= 2.14.0).
+ libgtk2.0-0:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ libgtk-3-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libgstreamer1.0-0:amd64 depends on libglib2.0-0 (>= 2.77.0).
+ libgstreamer-plugins-base1.0-0:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ libglibmm-2.4-1v5:amd64 depends on libglib2.0-0 (>= 2.62.0).
+ libgdk-pixbuf-xlib-2.0-0:amd64 depends on libglib2.0-0 (>= 2.48.0).
+ libgdk-pixbuf-2.0-0:amd64 depends on libglib2.0-0 (>= 2.75.0).
+ libfcitx5gclient2:amd64 depends on libglib2.0-0 (>= 2.38.0).
+ libdconf1:amd64 depends on libglib2.0-0 (>= 2.77.0).
+ libcolord2:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ libcloudproviders0:amd64 depends on libglib2.0-0 (>= 2.56.0).
+ libcairo-gobject2:amd64 depends on libglib2.0-0 (>= 2.68.0).
+ libavcodec60:amd64 depends on libglib2.0-0 (>= 2.12.0).
+ libatspi2.0-0:amd64 depends on libglib2.0-0 (>= 2.62).
+ libatk1.0-0:amd64 depends on libglib2.0-0 (>= 2.62).
+ libatk-bridge2.0-0:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ gtk-update-icon-cache depends on libglib2.0-0 (>= 2.57.2).
+ glib-networking-services depends on libglib2.0-0 (>= 2.73.3).
+ glib-networking:amd64 depends on libglib2.0-0 (>= 2.73.3).
+ fcitx5-frontend-gtk3 depends on libglib2.0-0 (>= 2.75.3).
+ fcitx5-frontend-gtk2 depends on libglib2.0-0 (>= 2.75.3).
+ dconf-service depends on libglib2.0-0 (>= 2.77.0).
+ dconf-gsettings-backend:amd64 depends on libglib2.0-0 (>= 2.77.0).
+ bluez-obexd depends on libglib2.0-0 (>= 2.77.0).
+ bluez depends on libglib2.0-0 (>= 2.75.3).
+
+Removing libglib2.0-0:amd64 (2.80.1-1deepin1) ...
+Selecting previously unselected package libglib2.0-0t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28964 files and directories currently installed.)
+Preparing to unpack .../libglib2.0-0t64_2.80.0-6ubuntu3.2_amd64.deb ...
+libglib2.0-0t64.preinst: Removing /var/lib/dpkg/info/libglib2.0-0:amd64.postrm to avoid loss of /usr/share/glib-2.0/schemas/gschemas.compiled...
+removed '/var/lib/dpkg/info/libglib2.0-0:amd64.postrm'
+Unpacking libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28985 files and directories currently installed.)
+Removing libjpeg-turbo-progs (1:2.1.5-2) ...
+dpkg: libpng16-16:amd64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:amd64 depends on libpng16-16 (>= 1.6.2).
+
+Removing libpng16-16:amd64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28952 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_amd64.deb ...
+Unpacking libpng16-16t64:amd64 (1.6.43-5build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28963 files and directories currently installed.)
+Removing libturbojpeg0:amd64 (1:2.1.5-2) ...
+Selecting previously unselected package libfftw3-double3:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28956 files and directories currently installed.)
+Preparing to unpack .../00-libfftw3-double3_3.3.10-1ubuntu3_amd64.deb ...
+Unpacking libfftw3-double3:amd64 (3.3.10-1ubuntu3) ...
+Selecting previously unselected package libheif-plugin-aomdec:amd64.
+Preparing to unpack .../01-libheif-plugin-aomdec_1.17.6-1ubuntu4.1_amd64.deb ...
+Unpacking libheif-plugin-aomdec:amd64 (1.17.6-1ubuntu4.1) ...
+Selecting previously unselected package libde265-0:amd64.
+Preparing to unpack .../02-libde265-0_1.0.15-1build3_amd64.deb ...
+Unpacking libde265-0:amd64 (1.0.15-1build3) ...
+Selecting previously unselected package libheif-plugin-libde265:amd64.
+Preparing to unpack .../03-libheif-plugin-libde265_1.17.6-1ubuntu4.1_amd64.deb ...
+Unpacking libheif-plugin-libde265:amd64 (1.17.6-1ubuntu4.1) ...
+Selecting previously unselected package libheif1:amd64.
+Preparing to unpack .../04-libheif1_1.17.6-1ubuntu4.1_amd64.deb ...
+Unpacking libheif1:amd64 (1.17.6-1ubuntu4.1) ...
+Selecting previously unselected package libjpeg-turbo8:amd64.
+Preparing to unpack .../05-libjpeg-turbo8_2.1.5-2ubuntu2_amd64.deb ...
+Unpacking libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Selecting previously unselected package libjpeg8:amd64.
+Preparing to unpack .../06-libjpeg8_8c-2ubuntu11_amd64.deb ...
+Unpacking libjpeg8:amd64 (8c-2ubuntu11) ...
+Selecting previously unselected package liblqr-1-0:amd64.
+Preparing to unpack .../07-liblqr-1-0_0.4.2-2.1build2_amd64.deb ...
+Unpacking liblqr-1-0:amd64 (0.4.2-2.1build2) ...
+Selecting previously unselected package libraw23t64:amd64.
+Preparing to unpack .../08-libraw23t64_0.21.2-2.1build1_amd64.deb ...
+Unpacking libraw23t64:amd64 (0.21.2-2.1build1) ...
+Selecting previously unselected package imagemagick-6-common.
+Preparing to unpack .../09-imagemagick-6-common_8%3a6.9.12.98+dfsg1-5.2build2_all.deb ...
+Unpacking imagemagick-6-common (8:6.9.12.98+dfsg1-5.2build2) ...
+Selecting previously unselected package libmagickcore-6.q16-7t64:amd64.
+Preparing to unpack .../10-libmagickcore-6.q16-7t64_8%3a6.9.12.98+dfsg1-5.2build2_amd64.deb ...
+Unpacking libmagickcore-6.q16-7t64:amd64 (8:6.9.12.98+dfsg1-5.2build2) ...
+Selecting previously unselected package libmagickwand-6.q16-7t64:amd64.
+Preparing to unpack .../11-libmagickwand-6.q16-7t64_8%3a6.9.12.98+dfsg1-5.2build2_amd64.deb ...
+Unpacking libmagickwand-6.q16-7t64:amd64 (8:6.9.12.98+dfsg1-5.2build2) ...
+Selecting previously unselected package imagemagick-6.q16.
+Preparing to unpack .../12-imagemagick-6.q16_8%3a6.9.12.98+dfsg1-5.2build2_amd64.deb ...
+Unpacking imagemagick-6.q16 (8:6.9.12.98+dfsg1-5.2build2) ...
+Selecting previously unselected package imagemagick.
+Preparing to unpack .../13-imagemagick_8%3a6.9.12.98+dfsg1-5.2build2_amd64.deb ...
+Unpacking imagemagick (8:6.9.12.98+dfsg1-5.2build2) ...
+Selecting previously unselected package libarchive-zip-perl.
+Preparing to unpack .../14-libarchive-zip-perl_1.68-1_all.deb ...
+Unpacking libarchive-zip-perl (1.68-1) ...
+Selecting previously unselected package libcompress-raw-lzma-perl:amd64.
+Preparing to unpack .../15-libcompress-raw-lzma-perl_2.209-1build2_amd64.deb ...
+Unpacking libcompress-raw-lzma-perl:amd64 (2.209-1build2) ...
+Selecting previously unselected package libdjvulibre-text.
+Preparing to unpack .../16-libdjvulibre-text_3.5.28-2build4_all.deb ...
+Unpacking libdjvulibre-text (3.5.28-2build4) ...
+Selecting previously unselected package libdjvulibre21:amd64.
+Preparing to unpack .../17-libdjvulibre21_3.5.28-2build4_amd64.deb ...
+Unpacking libdjvulibre21:amd64 (3.5.28-2build4) ...
+Preparing to unpack .../18-libfftw3-single3_3.3.10-1ubuntu3_amd64.deb ...
+Unpacking libfftw3-single3:amd64 (3.3.10-1ubuntu3) over (3.3.8-2) ...
+Selecting previously unselected package libheif-plugin-aomenc:amd64.
+Preparing to unpack .../19-libheif-plugin-aomenc_1.17.6-1ubuntu4.1_amd64.deb ...
+Unpacking libheif-plugin-aomenc:amd64 (1.17.6-1ubuntu4.1) ...
+Selecting previously unselected package libimage-exiftool-perl.
+Preparing to unpack .../20-libimage-exiftool-perl_12.76+dfsg-1_all.deb ...
+Unpacking libimage-exiftool-perl (12.76+dfsg-1) ...
+Selecting previously unselected package libimage-base-bundle-perl.
+Preparing to unpack .../21-libimage-base-bundle-perl_1.0.7-3.5_all.deb ...
+Unpacking libimage-base-bundle-perl (1.0.7-3.5) ...
+Selecting previously unselected package libio-string-perl.
+Preparing to unpack .../22-libio-string-perl_1.08-4_all.deb ...
+Unpacking libio-string-perl (1.08-4) ...
+Selecting previously unselected package libxml-namespacesupport-perl.
+Preparing to unpack .../23-libxml-namespacesupport-perl_1.12-2_all.deb ...
+Unpacking libxml-namespacesupport-perl (1.12-2) ...
+Selecting previously unselected package libxml-sax-base-perl.
+Preparing to unpack .../24-libxml-sax-base-perl_1.09-3_all.deb ...
+Unpacking libxml-sax-base-perl (1.09-3) ...
+Selecting previously unselected package libxml-sax-perl.
+Preparing to unpack .../25-libxml-sax-perl_1.02+dfsg-3_all.deb ...
+Unpacking libxml-sax-perl (1.02+dfsg-3) ...
+Selecting previously unselected package libxml-libxml-perl.
+Preparing to unpack .../26-libxml-libxml-perl_2.0207+dfsg+really+2.0134-1build4_amd64.deb ...
+Unpacking libxml-libxml-perl (2.0207+dfsg+really+2.0134-1build4) ...
+Selecting previously unselected package libxml-parser-perl.
+Preparing to unpack .../27-libxml-parser-perl_2.47-1build3_amd64.deb ...
+Unpacking libxml-parser-perl (2.47-1build3) ...
+Selecting previously unselected package libxml-sax-expat-perl.
+Preparing to unpack .../28-libxml-sax-expat-perl_0.51-2_all.deb ...
+Unpacking libxml-sax-expat-perl (0.51-2) ...
+Selecting previously unselected package libxml-simple-perl.
+Preparing to unpack .../29-libxml-simple-perl_2.25-2_all.deb ...
+Unpacking libxml-simple-perl (2.25-2) ...
+Selecting previously unselected package libimage-info-perl.
+Preparing to unpack .../30-libimage-info-perl_1.44-2_all.deb ...
+Unpacking libimage-info-perl (1.44-2) ...
+Selecting previously unselected package libimage-metadata-jpeg-perl.
+Preparing to unpack .../31-libimage-metadata-jpeg-perl_0.159-1_all.deb ...
+Unpacking libimage-metadata-jpeg-perl (0.159-1) ...
+Selecting previously unselected package libimath-3-1-29t64:amd64.
+Preparing to unpack .../32-libimath-3-1-29t64_3.1.9-3.1ubuntu2_amd64.deb ...
+Unpacking libimath-3-1-29t64:amd64 (3.1.9-3.1ubuntu2) ...
+Selecting previously unselected package libio-compress-brotli-perl.
+Preparing to unpack .../33-libio-compress-brotli-perl_0.004001-2build3_amd64.deb ...
+Unpacking libio-compress-brotli-perl (0.004001-2build3) ...
+Selecting previously unselected package libjxr0t64:amd64.
+Preparing to unpack .../34-libjxr0t64_1.2~git20170615.f752187-5.1ubuntu2_amd64.deb ...
+Unpacking libjxr0t64:amd64 (1.2~git20170615.f752187-5.1ubuntu2) ...
+Selecting previously unselected package libjxr-tools.
+Preparing to unpack .../35-libjxr-tools_1.2~git20170615.f752187-5.1ubuntu2_amd64.deb ...
+Unpacking libjxr-tools (1.2~git20170615.f752187-5.1ubuntu2) ...
+Selecting previously unselected package libopenexr-3-1-30:amd64.
+Preparing to unpack .../36-libopenexr-3-1-30_3.1.5-5.1build3_amd64.deb ...
+Unpacking libopenexr-3-1-30:amd64 (3.1.5-5.1build3) ...
+Selecting previously unselected package libwmflite-0.2-7:amd64.
+Preparing to unpack .../37-libwmflite-0.2-7_0.2.13-1.1build3_amd64.deb ...
+Unpacking libwmflite-0.2-7:amd64 (0.2.13-1.1build3) ...
+Selecting previously unselected package libmagickcore-6.q16-7-extra:amd64.
+Preparing to unpack .../38-libmagickcore-6.q16-7-extra_8%3a6.9.12.98+dfsg1-5.2build2_amd64.deb ...
+Unpacking libmagickcore-6.q16-7-extra:amd64 (8:6.9.12.98+dfsg1-5.2build2) ...
+Selecting previously unselected package libmime-charset-perl.
+Preparing to unpack .../39-libmime-charset-perl_1.013.1-2_all.deb ...
+Unpacking libmime-charset-perl (1.013.1-2) ...
+Selecting previously unselected package libsombok3:amd64.
+Preparing to unpack .../40-libsombok3_2.4.0-2build1_amd64.deb ...
+Unpacking libsombok3:amd64 (2.4.0-2build1) ...
+Selecting previously unselected package libunicode-linebreak-perl.
+Preparing to unpack .../41-libunicode-linebreak-perl_0.0.20190101-1build7_amd64.deb ...
+Unpacking libunicode-linebreak-perl (0.0.20190101-1build7) ...
+Selecting previously unselected package perl-tk.
+Preparing to unpack .../42-perl-tk_1%3a804.036+dfsg1-1ubuntu3_amd64.deb ...
+Unpacking perl-tk (1:804.036+dfsg1-1ubuntu3) ...
+Selecting previously unselected package mapivi.
+Preparing to unpack .../43-mapivi_1.2+svn356-1_all.deb ...
+Unpacking mapivi (1.2+svn356-1) ...
+Setting up imagemagick-6-common (8:6.9.12.98+dfsg1-5.2build2) ...
+
+Configuration file '/etc/ImageMagick-6/coder.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/colors.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/delegates.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/log.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/magic.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/mime.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/policy-debian.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/policy-limited.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/policy-open.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/policy-secure.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/policy-websafe.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/policy.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/quantization-table.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/thresholds.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/type-apple.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/type-dejavu.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/type-ghostscript.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/type-urw-base35.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/type-windows.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/type.xml', does not exist on system.
+Installing new config file as you requested.
+Setting up libfftw3-single3:amd64 (3.3.10-1ubuntu3) ...
+Setting up libgdbm6t64:amd64 (1.23-5.1build1) ...
+Setting up libwmflite-0.2-7:amd64 (0.2.13-1.1build3) ...
+Setting up libgdbm-compat4t64:amd64 (1.23-5.1build1) ...
+Setting up libsombok3:amd64 (2.4.0-2build1) ...
+Setting up libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Setting up libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.2) ...
+Setting up libjxr0t64:amd64 (1.2~git20170615.f752187-5.1ubuntu2) ...
+Setting up perl-modules-5.38 (5.38.2-3.2build2.1) ...
+Setting up libpng16-16t64:amd64 (1.6.43-5build1) ...
+Setting up libimath-3-1-29t64:amd64 (3.1.9-3.1ubuntu2) ...
+Setting up libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Setting up libfftw3-double3:amd64 (3.3.10-1ubuntu3) ...
+Setting up liblqr-1-0:amd64 (0.4.2-2.1build2) ...
+Setting up libperl5.38t64:amd64 (5.38.2-3.2build2.1) ...
+Setting up libdjvulibre-text (3.5.28-2build4) ...
+Setting up libde265-0:amd64 (1.0.15-1build3) ...
+Setting up libjpeg8:amd64 (8c-2ubuntu11) ...
+Setting up libjxr-tools (1.2~git20170615.f752187-5.1ubuntu2) ...
+Setting up libdjvulibre21:amd64 (3.5.28-2build4) ...
+Setting up perl (5.38.2-3.2build2.1) ...
+Setting up libio-compress-brotli-perl (0.004001-2build3) ...
+Setting up libopenexr-3-1-30:amd64 (3.1.5-5.1build3) ...
+Setting up libraw23t64:amd64 (0.21.2-2.1build1) ...
+Setting up libmime-charset-perl (1.013.1-2) ...
+Setting up libhtml-parser-perl:amd64 (3.81-1build3) ...
+Setting up libimage-base-bundle-perl (1.0.7-3.5) ...
+Setting up libnet-ssleay-perl:amd64 (1.94-1build4) ...
+Setting up libxml-parser-perl (2.47-1build3) ...
+Setting up perl-tk (1:804.036+dfsg1-1ubuntu3) ...
+Setting up libarchive-zip-perl (1.68-1) ...
+Setting up libxml-namespacesupport-perl (1.12-2) ...
+Setting up libimage-exiftool-perl (12.76+dfsg-1) ...
+Setting up libimage-metadata-jpeg-perl (0.159-1) ...
+Setting up libcompress-raw-lzma-perl:amd64 (2.209-1build2) ...
+Setting up libxml-sax-base-perl (1.09-3) ...
+Setting up libio-string-perl (1.08-4) ...
+Setting up libunicode-linebreak-perl (0.0.20190101-1build7) ...
+Setting up libxml-sax-perl (1.02+dfsg-3) ...
+update-perl-sax-parsers: Registering Perl SAX parser XML::SAX::PurePerl with priority 10...
+update-perl-sax-parsers: Updating overall Perl SAX parser modules info file...
+
+Creating config file /etc/perl/XML/SAX/ParserDetails.ini with new version
+Setting up libxml-libxml-perl (2.0207+dfsg+really+2.0134-1build4) ...
+update-perl-sax-parsers: Registering Perl SAX parser XML::LibXML::SAX::Parser with priority 50...
+update-perl-sax-parsers: Registering Perl SAX parser XML::LibXML::SAX with priority 50...
+update-perl-sax-parsers: Updating overall Perl SAX parser modules info file...
+Replacing config file /etc/perl/XML/SAX/ParserDetails.ini with new version
+Setting up libxml-sax-expat-perl (0.51-2) ...
+update-perl-sax-parsers: Registering Perl SAX parser XML::SAX::Expat with priority 50...
+update-perl-sax-parsers: Updating overall Perl SAX parser modules info file...
+Replacing config file /etc/perl/XML/SAX/ParserDetails.ini with new version
+Setting up libxml-simple-perl (2.25-2) ...
+Setting up libimage-info-perl (1.44-2) ...
+Setting up mapivi (1.2+svn356-1) ...
+Setting up libheif-plugin-aomdec:amd64 (1.17.6-1ubuntu4.1) ...
+Setting up libheif-plugin-libde265:amd64 (1.17.6-1ubuntu4.1) ...
+Setting up libheif1:amd64 (1.17.6-1ubuntu4.1) ...
+Setting up libmagickcore-6.q16-7t64:amd64 (8:6.9.12.98+dfsg1-5.2build2) ...
+Setting up libmagickwand-6.q16-7t64:amd64 (8:6.9.12.98+dfsg1-5.2build2) ...
+Setting up imagemagick-6.q16 (8:6.9.12.98+dfsg1-5.2build2) ...
+update-alternatives: using /usr/bin/compare-im6.q16 to provide /usr/bin/compare (compare) in auto mode
+update-alternatives: using /usr/bin/compare-im6.q16 to provide /usr/bin/compare-im6 (compare-im6) in auto mode
+update-alternatives: using /usr/bin/animate-im6.q16 to provide /usr/bin/animate (animate) in auto mode
+update-alternatives: using /usr/bin/animate-im6.q16 to provide /usr/bin/animate-im6 (animate-im6) in auto mode
+update-alternatives: using /usr/bin/convert-im6.q16 to provide /usr/bin/convert (convert) in auto mode
+update-alternatives: using /usr/bin/convert-im6.q16 to provide /usr/bin/convert-im6 (convert-im6) in auto mode
+update-alternatives: using /usr/bin/composite-im6.q16 to provide /usr/bin/composite (composite) in auto mode
+update-alternatives: using /usr/bin/composite-im6.q16 to provide /usr/bin/composite-im6 (composite-im6) in auto mode
+update-alternatives: using /usr/bin/conjure-im6.q16 to provide /usr/bin/conjure (conjure) in auto mode
+update-alternatives: using /usr/bin/conjure-im6.q16 to provide /usr/bin/conjure-im6 (conjure-im6) in auto mode
+update-alternatives: using /usr/bin/import-im6.q16 to provide /usr/bin/import (import) in auto mode
+update-alternatives: using /usr/bin/import-im6.q16 to provide /usr/bin/import-im6 (import-im6) in auto mode
+update-alternatives: using /usr/bin/identify-im6.q16 to provide /usr/bin/identify (identify) in auto mode
+update-alternatives: using /usr/bin/identify-im6.q16 to provide /usr/bin/identify-im6 (identify-im6) in auto mode
+update-alternatives: using /usr/bin/stream-im6.q16 to provide /usr/bin/stream (stream) in auto mode
+update-alternatives: using /usr/bin/stream-im6.q16 to provide /usr/bin/stream-im6 (stream-im6) in auto mode
+update-alternatives: using /usr/bin/display-im6.q16 to provide /usr/bin/display (display) in auto mode
+update-alternatives: using /usr/bin/display-im6.q16 to provide /usr/bin/display-im6 (display-im6) in auto mode
+update-alternatives: using /usr/bin/montage-im6.q16 to provide /usr/bin/montage (montage) in auto mode
+update-alternatives: using /usr/bin/montage-im6.q16 to provide /usr/bin/montage-im6 (montage-im6) in auto mode
+update-alternatives: using /usr/bin/mogrify-im6.q16 to provide /usr/bin/mogrify (mogrify) in auto mode
+update-alternatives: using /usr/bin/mogrify-im6.q16 to provide /usr/bin/mogrify-im6 (mogrify-im6) in auto mode
+Setting up libmagickcore-6.q16-7-extra:amd64 (8:6.9.12.98+dfsg1-5.2build2) ...
+Setting up libheif-plugin-aomenc:amd64 (1.17.6-1ubuntu4.1) ...
+Setting up imagemagick (8:6.9.12.98+dfsg1-5.2build2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libc-bin (2.38-6deepin4) ...
