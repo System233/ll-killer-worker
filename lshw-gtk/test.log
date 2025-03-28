@@ -1,0 +1,29 @@
+正在测试: APPID=lshw-gtk.linyaps LAYER=lshw-gtk.linyaps_2.19.2021.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install lshw-gtk.linyaps_2.19.2021.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:lshw-gtk.linyaps
+Layer文件:lshw-gtk.linyaps_2.19.2021.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: lshw-gtk.linyaps_2.19.2021.2_arm64_binary.layer
+offset: 798
+mountpoint: /tmp/tmp.3nTzPSI10J/mnt
+dbglevel: 0
+find: ‘/opt/apps/lshw-gtk.linyaps/files/share/icons’: No such file or directory
+[成功] lshw-gtk.desktop: lshw-gtk -> /opt/apps/lshw-gtk.linyaps/files/share/pixmaps/lshw-gtk.svg
+[成功] /opt/apps/lshw-gtk.linyaps/files/share/applications/lshw-gtk.desktop: /opt/apps/lshw-gtk.linyaps/files/entrypoint.sh su-to-root -X -c lshw-gtk
+[正在测试启动项]
+包名:lshw-gtk.linyaps
+Layer文件:lshw-gtk.linyaps_2.19.2021.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: lshw-gtk.linyaps_2.19.2021.2_arm64_binary.layer
+offset: 798
+mountpoint: /tmp/tmp.tIKEljDmno/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run lshw-gtk.linyaps -- /opt/apps/lshw-gtk.linyaps/files/entrypoint.sh su-to-root -X -c lshw-gtk
+[PID 6047] 进程已启动
+[PID 6047] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall lshw-gtk.linyaps
