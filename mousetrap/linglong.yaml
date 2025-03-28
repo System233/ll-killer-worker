@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: mousetrap.linyaps
+  name: mousetrap
+  version: 1.0.0.2
+  kind: app
+  description: |-
+    Simple game of ball chasing
+    This is a simple game in which the player moves their character
+    to capture the white balls while avoiding the red ones.
+command:
+- /opt/apps/mousetrap.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
