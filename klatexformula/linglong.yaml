@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: klatexformula.linyaps
+  name: klatexformula
+  version: 4.1.0.1
+  kind: app
+  description: |-
+    GUI to easily get an image from a LaTeX formula or equation
+    With klatexformula, just enter a formula and click "Evaluate" to get an image
+    of a LaTeX formula. You can drag&drop, copy or save the resulting image
+    directly from the GUI, which makes klatexformula a very convenient tool for
+    presentations. Klatexformula also provides also tools for equation prototyping
+    in LaTeX and a user-library of used equations.
+command:
+- /opt/apps/klatexformula.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
