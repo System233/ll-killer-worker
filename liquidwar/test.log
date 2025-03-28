@@ -1,0 +1,31 @@
+正在测试: APPID=liquidwar.linyaps LAYER=liquidwar.linyaps_5.6.5.2_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install liquidwar.linyaps_5.6.5.2_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:liquidwar.linyaps
+Layer文件:liquidwar.linyaps_5.6.5.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: liquidwar.linyaps_5.6.5.2_x86_64_binary.layer
+offset: 874
+mountpoint: /tmp/tmp.FgZtLaJFTr/mnt
+dbglevel: 0
+find: ‘/opt/apps/liquidwar.linyaps/files/share/icons’: No such file or directory
+[成功] liquidwar.desktop: liquidwar -> /opt/apps/liquidwar.linyaps/files/share/pixmaps/liquidwar.xpm
+[成功] /opt/apps/liquidwar.linyaps/files/share/applications/liquidwar.desktop: /opt/apps/liquidwar.linyaps/files/entrypoint.sh liquidwar
+[正在测试启动项]
+包名:liquidwar.linyaps
+Layer文件:liquidwar.linyaps_5.6.5.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: liquidwar.linyaps_5.6.5.2_x86_64_binary.layer
+offset: 874
+mountpoint: /tmp/tmp.WXGTvMviy0/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run liquidwar.linyaps -- /opt/apps/liquidwar.linyaps/files/entrypoint.sh liquidwar
+[PID 5553] 进程已启动
+[PID 5553] 等待超时，未能检测到窗口
+[PID 5553] 正在通知并等待进程退出
+[PID 5553] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall liquidwar.linyaps
