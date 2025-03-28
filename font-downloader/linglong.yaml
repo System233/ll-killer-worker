@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: font-downloader.linyaps
+  name: font-downloader
+  version: 10.0.0.3
+  kind: app
+  description: |-
+    Download and install fonts from fonts.google.com
+    font-downloader allows you download fonts from fonts.google.com.
+    Local export of a typeset is also possible. The *.ttf files get
+    stored under ~/.local/share/fonts .
+command:
+- /opt/apps/font-downloader.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
