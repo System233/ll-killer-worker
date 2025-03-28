@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: minizinc-ide.linyaps
+  name: minizinc-ide
+  version: 2.8.2.1
+  kind: app
+  description: |-
+    MiniZinc constraint modelling language IDE
+    The MiniZinc IDE is a simple Integrated Development Environment for
+    writing and running MiniZinc models. It provides a tabbed editor with
+    MiniZinc syntax highlighting, configuration dialogs for solver
+    options and model parameters, and an integrated environment for
+    compiling models and running solvers.
+command:
+- /opt/apps/minizinc-ide.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
