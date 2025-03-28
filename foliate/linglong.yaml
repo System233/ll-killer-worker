@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: foliate.linyaps
+  name: foliate
+  version: 4.3.1.1
+  kind: app
+  description: |-
+    simple and modern ebook viewer
+    Foliate is an ebook reader with many features:
+
+    - View .epub, .mobi, .azw, and .azw3 files in two-page view or scrolled view
+    - Fetch books from online catalogs using OPDS feeds
+    - Customize font, line-spacing, margins, and brightness
+    - Light, sepia, dark, and invert mode, or add your own custom themes
+    - Reading progress slider with chapter marks and reading time prediction
+    - Bookmarks and annotations
+    - Find in book
+    - Quick dictionary lookup with Wiktionary, Wikipedia, and dictd
+    - Touchpad gestures—use two-finger swipe to turn the page
+    - Basic text-to-speech support with eSpeak NG and Festival
+    - Sync or backup reading progress and notes
+    - Supports phones and tablets
+command:
+- /opt/apps/foliate.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
