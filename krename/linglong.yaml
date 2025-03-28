@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: krename.linyaps
+  name: krename
+  version: 5.0.2.2
+  kind: app
+  description: |-
+    powerful batch renamer for KDE
+    KRename is a very powerful batch file renamer for KDE which can rename a list
+    of files based on a set of expressions. It can copy/move the files to another
+    directory or simply rename the input files.
+command:
+- /opt/apps/krename.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
