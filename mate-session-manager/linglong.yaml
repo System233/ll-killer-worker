@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: mate-session-manager.linyaps
+  name: mate-session-manager
+  version: 1.26.1.2
+  kind: app
+  description: |-
+    Session manager of the MATE desktop environment
+    This package contains a session that can be started from a display
+    manager such as MDM. It will load all necessary applications for a
+    full-featured user session.
+
+    The session manager also features the ability to save a running session
+    and restore it later.
+
+    This version is configured to start the MATE desktop, based on the
+    MATE panel.
+command:
+- /opt/apps/mate-session-manager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
