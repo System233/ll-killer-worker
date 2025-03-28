@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gufw.linyaps
+  name: gufw
+  version: 24.4.0.2
+  kind: app
+  description: |-
+    graphical user interface for ufw
+    gufw is an easy and intuitive way to manage your Linux firewall. It supports
+    common tasks such as allowing or blocking pre-configured, common p2p, or
+    individual port(s), and many others!
+command:
+- /opt/apps/gufw.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
