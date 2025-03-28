@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: goobox.linyaps
+  name: goobox
+  version: 3.6.0.11
+  kind: app
+  description: |-
+    CD player and ripper with GNOME 3 integration
+    Goobox is an CD player and ripper for the GNOME 3 environment. It follows the
+    "Just Works" principle so its interface is beautiful and easy-to-use.
+
+    It uses GNOME/GTK+ for its user interface, GStreamer framework for CD playing,
+    and ripping operations, musicbrainz for CD indexing, and Google to search
+    for album cover images.
+command:
+- /opt/apps/goobox.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
