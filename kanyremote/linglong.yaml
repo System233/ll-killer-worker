@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kanyremote.linyaps
+  name: kanyremote
+  version: 8.1.1.1
+  kind: app
+  description: |-
+    KDE frontend for anyRemote
+    kAnyRemote package is KDE GUI frontend for anyRemote.
+    (http://anyremote.sourceforge.net/). The overall goal of this project is to
+    provide remote control service on Linux through Bluetooth, InfraRed, Wi-Fi
+    or TCP/IP connection.
+command:
+- /opt/apps/kanyremote.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
