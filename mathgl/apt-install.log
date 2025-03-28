@@ -1,0 +1,122 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libaec0 libfltk1.3t64 libgif7 libgsl27 libgslcblas0 libhdf4-0
+  libhdf5-103-1t64 libhpdf-2.3.0 libjpeg-turbo8 libjpeg8 libmgl-data
+  libmgl-fltk8t64 libmgl8t64 libpng16-16t64 libsz2
+Suggested packages:
+  gsl-ref-psdoc | gsl-doc-pdf | gsl-doc-info | gsl-ref-html libhdf4-doc
+  libhdf4-dev hdf4-tools
+The following packages will be REMOVED:
+  libjpeg-turbo-progs libpng16-16 libturbojpeg0 xscreensaver-data-extra
+The following NEW packages will be installed:
+  libaec0 libfltk1.3t64 libgif7 libgsl27 libgslcblas0 libhdf4-0
+  libhdf5-103-1t64 libhpdf-2.3.0 libjpeg-turbo8 libjpeg8 libmgl-data
+  libmgl-fltk8t64 libmgl8t64 libpng16-16t64 libsz2 mathgl
+0 upgraded, 16 newly installed, 4 to remove and 451 not upgraded.
+Need to get 16.6 MB of archives.
+After this operation, 56.1 MB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpng16-16t64 amd64 1.6.43-5build1 [187 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libaec0 amd64 1.1.2-1build1 [22.9 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libfltk1.3t64 amd64 1.3.8-6.1build2 [606 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libgif7 amd64 5.2.2-1ubuntu1 [35.2 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libgslcblas0 amd64 2.7.1+dfsg-6ubuntu2 [104 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libgsl27 amd64 2.7.1+dfsg-6ubuntu2 [987 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-turbo8 amd64 2.1.5-2ubuntu2 [150 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg8 amd64 8c-2ubuntu11 [2148 B]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libhdf4-0 amd64 4.2.16-4build1 [324 kB]
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libsz2 amd64 1.1.2-1build1 [5476 B]
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libhdf5-103-1t64 amd64 1.10.10+repack-3.1ubuntu4 [1270 kB]
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libhpdf-2.3.0 amd64 2.3.0+dfsg-1build3 [432 kB]
+Get:13 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libmgl-data all 8.0.1-7.1build1 [9793 kB]
+Get:14 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libmgl8t64 amd64 8.0.1-7.1build1 [1226 kB]
+Get:15 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libmgl-fltk8t64 amd64 8.0.1-7.1build1 [62.9 kB]
+Get:16 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 mathgl amd64 8.0.1-7.1build1 [1395 kB]
+Fetched 16.6 MB in 1s (15.3 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing xscreensaver-data-extra (6.02+dfsg1-3) ...
+Removing libjpeg-turbo-progs (1:2.1.5-2) ...
+dpkg: libpng16-16:amd64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:amd64 depends on libpng16-16 (>= 1.6.2).
+
+Removing libpng16-16:amd64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27161 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_amd64.deb ...
+Unpacking libpng16-16t64:amd64 (1.6.43-5build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27172 files and directories currently installed.)
+Removing libturbojpeg0:amd64 (1:2.1.5-2) ...
+Selecting previously unselected package libaec0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27165 files and directories currently installed.)
+Preparing to unpack .../00-libaec0_1.1.2-1build1_amd64.deb ...
+Unpacking libaec0:amd64 (1.1.2-1build1) ...
+Selecting previously unselected package libfltk1.3t64:amd64.
+Preparing to unpack .../01-libfltk1.3t64_1.3.8-6.1build2_amd64.deb ...
+Unpacking libfltk1.3t64:amd64 (1.3.8-6.1build2) ...
+Selecting previously unselected package libgif7:amd64.
+Preparing to unpack .../02-libgif7_5.2.2-1ubuntu1_amd64.deb ...
+Unpacking libgif7:amd64 (5.2.2-1ubuntu1) ...
+Selecting previously unselected package libgslcblas0:amd64.
+Preparing to unpack .../03-libgslcblas0_2.7.1+dfsg-6ubuntu2_amd64.deb ...
+Unpacking libgslcblas0:amd64 (2.7.1+dfsg-6ubuntu2) ...
+Selecting previously unselected package libgsl27:amd64.
+Preparing to unpack .../04-libgsl27_2.7.1+dfsg-6ubuntu2_amd64.deb ...
+Unpacking libgsl27:amd64 (2.7.1+dfsg-6ubuntu2) ...
+Selecting previously unselected package libjpeg-turbo8:amd64.
+Preparing to unpack .../05-libjpeg-turbo8_2.1.5-2ubuntu2_amd64.deb ...
+Unpacking libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Selecting previously unselected package libjpeg8:amd64.
+Preparing to unpack .../06-libjpeg8_8c-2ubuntu11_amd64.deb ...
+Unpacking libjpeg8:amd64 (8c-2ubuntu11) ...
+Selecting previously unselected package libhdf4-0:amd64.
+Preparing to unpack .../07-libhdf4-0_4.2.16-4build1_amd64.deb ...
+Unpacking libhdf4-0:amd64 (4.2.16-4build1) ...
+Selecting previously unselected package libsz2:amd64.
+Preparing to unpack .../08-libsz2_1.1.2-1build1_amd64.deb ...
+Unpacking libsz2:amd64 (1.1.2-1build1) ...
+Selecting previously unselected package libhdf5-103-1t64:amd64.
+Preparing to unpack .../09-libhdf5-103-1t64_1.10.10+repack-3.1ubuntu4_amd64.deb ...
+Unpacking libhdf5-103-1t64:amd64 (1.10.10+repack-3.1ubuntu4) ...
+Selecting previously unselected package libhpdf-2.3.0:amd64.
+Preparing to unpack .../10-libhpdf-2.3.0_2.3.0+dfsg-1build3_amd64.deb ...
+Unpacking libhpdf-2.3.0:amd64 (2.3.0+dfsg-1build3) ...
+Selecting previously unselected package libmgl-data.
+Preparing to unpack .../11-libmgl-data_8.0.1-7.1build1_all.deb ...
+Unpacking libmgl-data (8.0.1-7.1build1) ...
+Selecting previously unselected package libmgl8t64.
+Preparing to unpack .../12-libmgl8t64_8.0.1-7.1build1_amd64.deb ...
+Unpacking libmgl8t64 (8.0.1-7.1build1) ...
+Selecting previously unselected package libmgl-fltk8t64.
+Preparing to unpack .../13-libmgl-fltk8t64_8.0.1-7.1build1_amd64.deb ...
+Unpacking libmgl-fltk8t64 (8.0.1-7.1build1) ...
+Selecting previously unselected package mathgl.
+Preparing to unpack .../14-mathgl_8.0.1-7.1build1_amd64.deb ...
+Unpacking mathgl (8.0.1-7.1build1) ...
+Setting up libgslcblas0:amd64 (2.7.1+dfsg-6ubuntu2) ...
+Setting up libgsl27:amd64 (2.7.1+dfsg-6ubuntu2) ...
+Setting up libaec0:amd64 (1.1.2-1build1) ...
+Setting up libmgl-data (8.0.1-7.1build1) ...
+Setting up libpng16-16t64:amd64 (1.6.43-5build1) ...
+Setting up libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Setting up libgif7:amd64 (5.2.2-1ubuntu1) ...
+Setting up libfltk1.3t64:amd64 (1.3.8-6.1build2) ...
+Setting up libsz2:amd64 (1.1.2-1build1) ...
+Setting up libjpeg8:amd64 (8c-2ubuntu11) ...
+Setting up libhpdf-2.3.0:amd64 (2.3.0+dfsg-1build3) ...
+Setting up libhdf4-0:amd64 (4.2.16-4build1) ...
+Setting up libhdf5-103-1t64:amd64 (1.10.10+repack-3.1ubuntu4) ...
+Setting up libmgl8t64 (8.0.1-7.1build1) ...
+Setting up libmgl-fltk8t64 (8.0.1-7.1build1) ...
+Setting up mathgl (8.0.1-7.1build1) ...
+Processing triggers for shared-mime-info (2.2-1) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...

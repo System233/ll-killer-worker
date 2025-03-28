@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: mathgl.linyaps
+  name: mathgl
+  version: 8.0.1.7
+  kind: app
+  description: |-
+    library for scientific graphs (utilities and examples)
+    A free cross-platform library of fast C++ routines for plotting data in up
+    to 3 dimensions. It can export plots to bitmaps and vector EPS, SVG, IDTF
+    files. There are simple window interfaces based on GLUT, FLTK and/or Qt.
+    MathGL can also be used in the console. There are interfaces to a set of
+    languages, such as, C, Fortran, Pascal, Forth, Python, Octave.
+
+    This package contains MathGL utilities and examples.
+command:
+- /opt/apps/mathgl.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
