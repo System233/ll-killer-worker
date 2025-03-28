@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: libwine.linyaps
+  name: libwine
+  version: 9.0.0.4
+  kind: app
+  description: |-
+    Windows API implementation - library
+    Wine is a free MS-Windows API implementation.
+
+    This package provides the Wine library.
+command:
+- /opt/apps/libwine.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
