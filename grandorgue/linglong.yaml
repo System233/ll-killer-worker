@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: grandorgue.linyaps
+  name: grandorgue
+  version: 3.13.1.1
+  kind: app
+  description: |-
+    sample-based pipe organ simulator
+    GrandOrgue allows the user to load and play virtual pipe organs.
+    Using sample sets, GrandOrgue is able to combine the individual pipe
+    sounds and organ behaviors to simulate a variety of pipe organs.
+
+    When connected to MIDI keyboards and an audio system, it can accurately
+    simulate the sound of a real pipe organ.
+
+    The user can create and load organ samplesets using a dedicated file format. A
+    demonstration organ sampleset is provided in the grandorgue-demo package.
+command:
+- /opt/apps/grandorgue.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
