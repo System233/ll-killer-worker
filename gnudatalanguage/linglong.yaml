@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: gnudatalanguage.linyaps
+  name: gnudatalanguage
+  version: 1.0.4.1
+  kind: app
+  description: |-
+    Free IDL compatible incremental compiler
+    GNU Data Language (GDL) is a free IDL (Interactive Data Language)
+    compatible incremental compiler. It has full syntax compatibility
+    with IDL 7.1. IDL is a registered trademark of ITT Visual Information
+    Solutions. From IDL 8.0, the following language elements are
+    supported:
+
+    * FOREACH loop
+    * negative array indices
+    * garbage collection pointers and objects
+    * call methods on an object using "." (e. g. `object.aMemberProcedure,arg1`)
+
+    The file input output system is fully implemented. GUI support (widgets) is
+    officially provided, but it's not complete yet.
+
+    This package contains the main commandline and interpreter frontend.
+command:
+- /opt/apps/gnudatalanguage.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
