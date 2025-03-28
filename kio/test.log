@@ -1,0 +1,29 @@
+正在测试: APPID=kio.linyaps LAYER=kio.linyaps_5.115.0.0_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install kio.linyaps_5.115.0.0_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:kio.linyaps
+Layer文件:kio.linyaps_5.115.0.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: kio.linyaps_5.115.0.0_arm64_binary.layer
+offset: 655
+mountpoint: /tmp/tmp.BEPqVSZB9U/mnt
+dbglevel: 0
+find: ‘/opt/apps/kio.linyaps/files/share/icons’: No such file or directory
+[成功] kcm_trash.desktop: user-trash -> /usr/share/icons/Adwaita/16x16/places/user-trash.png
+[31m[失败] /opt/apps/kio.linyaps/files/share/applications/kcm_trash.desktop:kcmshell5: 找不到此启动文件 [0m
+find: ‘/opt/apps/kio.linyaps/files/share/icons’: No such file or directory
+[成功] ktelnetservice5.desktop: utilities-terminal -> /usr/share/icons/Humanity/apps/22/utilities-terminal.svg
+[成功] /opt/apps/kio.linyaps/files/share/applications/ktelnetservice5.desktop: /opt/apps/kio.linyaps/files/entrypoint.sh ktelnetservice5 %u
+[正在测试启动项]
+包名:kio.linyaps
+Layer文件:kio.linyaps_5.115.0.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: kio.linyaps_5.115.0.0_arm64_binary.layer
+offset: 655
+mountpoint: /tmp/tmp.VfI4q9BD0e/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall kio.linyaps

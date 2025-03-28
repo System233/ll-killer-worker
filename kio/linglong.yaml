@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kio.linyaps
+  name: kio
+  version: 5.115.0.0
+  kind: app
+  description: |-
+    resource and network access abstraction
+    KDE Input/Output framework provides a single API for
+    operating on files, whether local or on a remote server.
+    Additionally, KIO Slaves provide support for individual
+    protocols. Some particularly useful ones are http, ftp,
+    sftp, smb, nfs, ssh (fish), man, tar and zip.
+command:
+- /opt/apps/kio.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
