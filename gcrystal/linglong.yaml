@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gcrystal.linyaps
+  name: gcrystal
+  version: 0.14.17.6
+  kind: app
+  description: |-
+    lightweight crystal structures visualizer
+    GNOME Crystal is a light model visualizer for crystal-structures. It
+    is based on the GNOME Chemistry Utils and should display models of all
+    sorts of crystal microscopic structures using OpenGL.
+command:
+- /opt/apps/gcrystal.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
