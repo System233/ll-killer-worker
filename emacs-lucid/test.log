@@ -1,13 +1,13 @@
-正在测试: APPID=emacs-lucid.linyaps LAYER=emacs-lucid.linyaps_29.1.0.5_x86_64_binary.layer
-build-aux/ll-cli.sh 忽略命令：install emacs-lucid.linyaps_29.1.0.5_x86_64_binary.layer
+正在测试: APPID=emacs-lucid.linyaps LAYER=emacs-lucid.linyaps_29.3.0.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install emacs-lucid.linyaps_29.3.0.1_x86_64_binary.layer
 [正在测试快捷方式/服务单元]
 包名:emacs-lucid.linyaps
-Layer文件:emacs-lucid.linyaps_29.1.0.5_x86_64_binary.layer
+Layer文件:emacs-lucid.linyaps_29.3.0.1_x86_64_binary.layer
 Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
 Runtime文件系统:
-disk: emacs-lucid.linyaps_29.1.0.5_x86_64_binary.layer
+disk: emacs-lucid.linyaps_29.3.0.1_x86_64_binary.layer
 offset: 913
-mountpoint: /tmp/tmp.Kl7Mnjj79F/mnt
+mountpoint: /tmp/tmp.UVA9kmRpZD/mnt
 dbglevel: 0
 [成功] emacs-term.desktop: emacs -> /opt/apps/emacs-lucid.linyaps/files/share/icons/hicolor/128x128/apps/emacs.png
 [成功] /opt/apps/emacs-lucid.linyaps/files/share/applications/emacs-term.desktop: /opt/apps/emacs-lucid.linyaps/files/entrypoint.sh /usr/bin/emacs -nw %F
@@ -15,25 +15,25 @@ dbglevel: 0
 [成功] /opt/apps/emacs-lucid.linyaps/files/share/applications/emacs.desktop: /opt/apps/emacs-lucid.linyaps/files/entrypoint.sh /usr/bin/emacs %F
 [正在测试启动项]
 包名:emacs-lucid.linyaps
-Layer文件:emacs-lucid.linyaps_29.1.0.5_x86_64_binary.layer
+Layer文件:emacs-lucid.linyaps_29.3.0.1_x86_64_binary.layer
 Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
 Runtime文件系统:
-disk: emacs-lucid.linyaps_29.1.0.5_x86_64_binary.layer
+disk: emacs-lucid.linyaps_29.3.0.1_x86_64_binary.layer
 offset: 913
-mountpoint: /tmp/tmp.ZqeFVpWmMG/mnt
+mountpoint: /tmp/tmp.en3CtcuwJX/mnt
 dbglevel: 0
 启动项排除列表：NoDisplay
 [PID ?] 启动进程: build-aux/ll-cli.sh run emacs-lucid.linyaps -- /opt/apps/emacs-lucid.linyaps/files/entrypoint.sh /usr/bin/emacs -nw
-[PID 6501] 进程已启动
-[PID 6501] 进程提前退出，测试失败
+[PID 11418] 进程已启动
+[PID 11418] 进程提前退出，测试失败
 [PID ?] 启动进程: build-aux/ll-cli.sh run emacs-lucid.linyaps -- /opt/apps/emacs-lucid.linyaps/files/entrypoint.sh /usr/bin/emacs
-[PID 6625] 进程已启动
-[PID 6625] 已检测到窗口:PID=36
-[PID 6625] 正在截图 0秒: tests/screen1-0.jpg
-[PID 6625] 正在截图 1秒: tests/screen1-1.jpg
-[PID 6625] 正在截图 3秒: tests/screen1-3.jpg
-[PID 6625] 正在截图 5秒: tests/screen1-5.jpg
-[PID 6625] 正在通知并等待进程退出
-[PID 6625] 进程已退出
+[PID 11541] 进程已启动
+[PID 11541] 已检测到窗口:PID=36
+[PID 11541] 正在截图 0秒: tests/screen1-0.jpg
+[PID 11541] 正在截图 1秒: tests/screen1-1.jpg
+[PID 11541] 正在截图 3秒: tests/screen1-3.jpg
+[PID 11541] 正在截图 5秒: tests/screen1-5.jpg
+[PID 11541] 正在通知并等待进程退出
+[PID 11541] 进程已退出
 测试完成，可在tests中查看测试输出。
 build-aux/ll-cli.sh 忽略命令：uninstall emacs-lucid.linyaps
