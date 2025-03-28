@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: grandprinter-mfp.linyaps
+  name: grandprinter-mfp
+  version: 1.0.0.22041
+  kind: app
+  description: Grandprinter MFP Linux Driver
+command:
+- /opt/apps/grandprinter-mfp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
