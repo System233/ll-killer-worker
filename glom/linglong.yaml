@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: glom.linyaps
+  name: glom
+  version: 1.30.4.7
+  kind: app
+  description: |-
+    database designer and user interface
+    With Glom you can design table definitions and the relationships between
+    them, plus arrange the fields on the screen. You can edit and search the
+    data in those tables, and specify field values in terms of other fields.
+    It's as easy as it should be.
+
+    The design is loosely based on FileMaker Pro, with the added advantage of
+    separation between interface and data. Its simple framework should be enough
+    to implement most database applications. Without Glom these systems normally
+    consist of lots of repetitive, unmaintainable code.
+command:
+- /opt/apps/glom.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
