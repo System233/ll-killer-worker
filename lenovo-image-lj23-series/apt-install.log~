@@ -1,0 +1,26 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following NEW packages will be installed:
+  lenovo-image-lj23-series
+0 upgraded, 1 newly installed, 0 to remove and 236 not upgraded.
+Need to get 15.4 MB of archives.
+After this operation, 50.1 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/driver-23 driver/non-free amd64 lenovo-image-lj23-series amd64 1.0-16deepin0 [15.4 MB]
+Fetched 15.4 MB in 2s (7899 kB/s)
+Selecting previously unselected package lenovo-image-lj23-series.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../lenovo-image-lj23-series_1.0-16deepin0_amd64.deb ...
+Unpacking lenovo-image-lj23-series (1.0-16deepin0) ...
+Setting up lenovo-image-lj23-series (1.0-16deepin0) ...
+/var/lib/dpkg/info/lenovo-image-lj23-series.postinst: line 2: sudo: command not found
+nohup: appending output to 'nohup.out'
+Can't exec "systemctl": No such file or directory at /usr/sbin/update-rc.d line 98.
+/usr/sbin/service: 179: exec: systemctl: not found
+dpkg: error processing package lenovo-image-lj23-series (--configure):
+ installed lenovo-image-lj23-series package post-installation script subprocess returned error exit status 127
+Errors were encountered while processing:
+ lenovo-image-lj23-series
+E: Sub-process /usr/bin/dpkg returned an error code (1)
