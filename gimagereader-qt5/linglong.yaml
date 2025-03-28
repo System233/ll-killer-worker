@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: gimagereader-qt5.linyaps
+  name: gimagereader-qt5
+  version: 3.4.2.2
+  kind: app
+  description: |-
+    Graphical Qt 5 front-end to tesseract-ocr
+    gImageReader is a simple front-end to tesseract-ocr. Tesseract is probably
+    the most accurate open source optical character recognition (OCR) software and
+    can recognize text in over 60 languages.
+
+    gImageReader supports automatic page layout detection but the user can also
+    manually define and adjust the recognition regions. It is possible to import
+    images from disk, scanning devices, clipboard and screenshots. gImageReader
+    also supports multipage PDF documents. Recognized text is displayed directly
+    next to the image and basic text editing including search/replace and removing
+    of line breaks is possible. Spellchecking for the output text is also supported
+    if the corresponding dictionaries are installed.
+
+    This package contains the Qt 5 variant of gImageReader.
+command:
+- /opt/apps/gimagereader-qt5.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
