@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gltron.linyaps
+  name: gltron
+  version: 0.70.0.12
+  kind: app
+  description: |-
+    3D lightcycle game
+    glTron is a tron-like lightcycle game with a nice 3D perspective.
+    3D acceleration is recommended.
+command:
+- /opt/apps/gltron.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
