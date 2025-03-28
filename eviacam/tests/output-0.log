@@ -1,0 +1,18 @@
+包名:eviacam.linyaps
+Layer文件:eviacam.linyaps_2.1.4.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: eviacam.linyaps_2.1.4.2_arm64_binary.layer
+offset: 639
+mountpoint: /tmp/tmp.vy3h4JYBIr/mnt
+dbglevel: 0
+Use: 1001, Group: 1001. Eff. usr: 1001, Eff. group: 1001
+eviacamloader: this program needs root privileges. not renicing.
+ERROR: ld.so: object '/usr/\37LIB/pulseaudio/libpulsedsp.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+[ERROR:0@0.517] global ./modules/core/src/persistence.cpp (505) open Can't open file: '/usr/share/eviacam/haarcascade_frontalface_default.xml' in read mode
+[ERROR:0@0.517] global ./modules/core/src/persistence.cpp (505) open Can't open file: '/usr/share/opencv/haarcascades/haarcascade_frontalface_default.xml' in read mode
+[ERROR:0@0.517] global ./modules/core/src/persistence.cpp (505) open Can't open file: '/usr/share/OpenCV/haarcascades/haarcascade_frontalface_default.xml' in read mode
+[ WARN:0@3.092] global ./modules/videoio/src/videoio_c.cpp (15) cvCreateCameraCapture cvCreateCameraCapture doesn't support legacy API anymore.
