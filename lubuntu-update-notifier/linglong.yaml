@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: lubuntu-update-notifier.linyaps
+  name: lubuntu-update-notifier
+  version: 1.0.0.0
+  kind: app
+  description: |-
+    Lubuntu's update installer
+    Lubuntu Update is an enhanced, modern update installer for the Lubuntu
+    operating system. It is designed to:
+    * Be easy to use,
+    * Look nice, and
+    * Integrate well with the Lubuntu desktop.
+command:
+- /opt/apps/lubuntu-update-notifier.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
