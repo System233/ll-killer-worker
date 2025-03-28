@@ -1,0 +1,191 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  gcc-14-base ibverbs-providers libatomic1 libevent-core-2.1-7t64
+  libevent-pthreads-2.1-7t64 libfabric1 libgcc-s1 libgomp1 libhwloc-plugins
+  libhwloc15 libibverbs1 libmunge2 libnl-3-200 libnl-route-3-200
+  libopenmpi3t64 libpmix2t64 librdmacm1t64 libstdc++6 libucx0 libxnvctrl0
+  strace
+The following NEW packages will be installed:
+  form gcc-14-base ibverbs-providers libatomic1 libevent-core-2.1-7t64
+  libevent-pthreads-2.1-7t64 libfabric1 libhwloc-plugins libhwloc15
+  libibverbs1 libmunge2 libnl-3-200 libnl-route-3-200 libopenmpi3t64
+  libpmix2t64 librdmacm1t64 libucx0 libxnvctrl0 strace
+The following packages will be upgraded:
+  libgcc-s1 libgomp1 libstdc++6
+3 upgraded, 19 newly installed, 0 to remove and 447 not upgraded.
+Need to get 8885 kB of archives.
+After this operation, 34.3 MB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 gcc-14-base arm64 14.2.0-4ubuntu2~24.04 [50.8 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgcc-s1 arm64 14.2.0-4ubuntu2~24.04 [61.9 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libstdc++6 arm64 14.2.0-4ubuntu2~24.04 [751 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libnl-3-200 arm64 3.7.0-0.3build1.1 [57.5 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libnl-route-3-200 arm64 3.7.0-0.3build1.1 [182 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libibverbs1 arm64 50.0-2build2 [67.3 kB]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 ibverbs-providers arm64 50.0-2build2 [367 kB]
+Get:8 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 strace arm64 6.8-0ubuntu2 [477 kB]
+Get:9 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libevent-core-2.1-7t64 arm64 2.1.12-stable-9ubuntu2 [90.3 kB]
+Get:10 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libevent-pthreads-2.1-7t64 arm64 2.1.12-stable-9ubuntu2 [7932 B]
+Get:11 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libatomic1 arm64 14.2.0-4ubuntu2~24.04 [11.6 kB]
+Get:12 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 librdmacm1t64 arm64 50.0-2build2 [70.6 kB]
+Get:13 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libfabric1 arm64 1.17.0-3build2 [541 kB]
+Get:14 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libhwloc15 arm64 2.10.0-1build1 [159 kB]
+Get:15 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libmunge2 arm64 0.5.15-4build1 [14.9 kB]
+Get:16 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxnvctrl0 arm64 510.47.03-0ubuntu4 [12.4 kB]
+Get:17 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libhwloc-plugins arm64 2.10.0-1build1 [15.7 kB]
+Get:18 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libpmix2t64 arm64 5.0.1-4.1build1 [655 kB]
+Get:19 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libucx0 arm64 1.16.0+ds-5ubuntu1 [1074 kB]
+Get:20 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libopenmpi3t64 arm64 4.1.6-7ubuntu2 [2463 kB]
+Get:21 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 form arm64 4.3.0+git20230104+ds-1build2 [1609 kB]
+Get:22 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgomp1 arm64 14.2.0-4ubuntu2~24.04 [145 kB]
+Fetched 8885 kB in 3s (3046 kB/s)
+Selecting previously unselected package gcc-14-base:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../gcc-14-base_14.2.0-4ubuntu2~24.04_arm64.deb ...
+Unpacking gcc-14-base:arm64 (14.2.0-4ubuntu2~24.04) ...
+Setting up gcc-14-base:arm64 (14.2.0-4ubuntu2~24.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27745 files and directories currently installed.)
+Preparing to unpack .../libgcc-s1_14.2.0-4ubuntu2~24.04_arm64.deb ...
+Unpacking libgcc-s1:arm64 (14.2.0-4ubuntu2~24.04) over (13.2.0-3deepin2) ...
+Setting up libgcc-s1:arm64 (14.2.0-4ubuntu2~24.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27745 files and directories currently installed.)
+Preparing to unpack .../libstdc++6_14.2.0-4ubuntu2~24.04_arm64.deb ...
+Unpacking libstdc++6:arm64 (14.2.0-4ubuntu2~24.04) over (13.2.0-3deepin2) ...
+Setting up libstdc++6:arm64 (14.2.0-4ubuntu2~24.04) ...
+Selecting previously unselected package libnl-3-200:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27745 files and directories currently installed.)
+Preparing to unpack .../00-libnl-3-200_3.7.0-0.3build1.1_arm64.deb ...
+Unpacking libnl-3-200:arm64 (3.7.0-0.3build1.1) ...
+Selecting previously unselected package libnl-route-3-200:arm64.
+Preparing to unpack .../01-libnl-route-3-200_3.7.0-0.3build1.1_arm64.deb ...
+Unpacking libnl-route-3-200:arm64 (3.7.0-0.3build1.1) ...
+Selecting previously unselected package libibverbs1:arm64.
+Preparing to unpack .../02-libibverbs1_50.0-2build2_arm64.deb ...
+Unpacking libibverbs1:arm64 (50.0-2build2) ...
+Selecting previously unselected package ibverbs-providers:arm64.
+Preparing to unpack .../03-ibverbs-providers_50.0-2build2_arm64.deb ...
+Unpacking ibverbs-providers:arm64 (50.0-2build2) ...
+Selecting previously unselected package strace.
+Preparing to unpack .../04-strace_6.8-0ubuntu2_arm64.deb ...
+Unpacking strace (6.8-0ubuntu2) ...
+Selecting previously unselected package libevent-core-2.1-7t64:arm64.
+Preparing to unpack .../05-libevent-core-2.1-7t64_2.1.12-stable-9ubuntu2_arm64.deb ...
+Unpacking libevent-core-2.1-7t64:arm64 (2.1.12-stable-9ubuntu2) ...
+Selecting previously unselected package libevent-pthreads-2.1-7t64:arm64.
+Preparing to unpack .../06-libevent-pthreads-2.1-7t64_2.1.12-stable-9ubuntu2_arm64.deb ...
+Unpacking libevent-pthreads-2.1-7t64:arm64 (2.1.12-stable-9ubuntu2) ...
+Selecting previously unselected package libatomic1:arm64.
+Preparing to unpack .../07-libatomic1_14.2.0-4ubuntu2~24.04_arm64.deb ...
+Unpacking libatomic1:arm64 (14.2.0-4ubuntu2~24.04) ...
+Selecting previously unselected package librdmacm1t64:arm64.
+Preparing to unpack .../08-librdmacm1t64_50.0-2build2_arm64.deb ...
+Unpacking librdmacm1t64:arm64 (50.0-2build2) ...
+Selecting previously unselected package libfabric1:arm64.
+Preparing to unpack .../09-libfabric1_1.17.0-3build2_arm64.deb ...
+Unpacking libfabric1:arm64 (1.17.0-3build2) ...
+Selecting previously unselected package libhwloc15:arm64.
+Preparing to unpack .../10-libhwloc15_2.10.0-1build1_arm64.deb ...
+Unpacking libhwloc15:arm64 (2.10.0-1build1) ...
+Selecting previously unselected package libmunge2:arm64.
+Preparing to unpack .../11-libmunge2_0.5.15-4build1_arm64.deb ...
+Unpacking libmunge2:arm64 (0.5.15-4build1) ...
+Selecting previously unselected package libxnvctrl0:arm64.
+Preparing to unpack .../12-libxnvctrl0_510.47.03-0ubuntu4_arm64.deb ...
+Unpacking libxnvctrl0:arm64 (510.47.03-0ubuntu4) ...
+Selecting previously unselected package libhwloc-plugins:arm64.
+Preparing to unpack .../13-libhwloc-plugins_2.10.0-1build1_arm64.deb ...
+Unpacking libhwloc-plugins:arm64 (2.10.0-1build1) ...
+Selecting previously unselected package libpmix2t64:arm64.
+Preparing to unpack .../14-libpmix2t64_5.0.1-4.1build1_arm64.deb ...
+Unpacking libpmix2t64:arm64 (5.0.1-4.1build1) ...
+Selecting previously unselected package libucx0:arm64.
+Preparing to unpack .../15-libucx0_1.16.0+ds-5ubuntu1_arm64.deb ...
+Unpacking libucx0:arm64 (1.16.0+ds-5ubuntu1) ...
+Selecting previously unselected package libopenmpi3t64:arm64.
+Preparing to unpack .../16-libopenmpi3t64_4.1.6-7ubuntu2_arm64.deb ...
+Unpacking libopenmpi3t64:arm64 (4.1.6-7ubuntu2) ...
+Selecting previously unselected package form.
+Preparing to unpack .../17-form_4.3.0+git20230104+ds-1build2_arm64.deb ...
+Unpacking form (4.3.0+git20230104+ds-1build2) ...
+Preparing to unpack .../18-libgomp1_14.2.0-4ubuntu2~24.04_arm64.deb ...
+Unpacking libgomp1:arm64 (14.2.0-4ubuntu2~24.04) over (13.2.0-3deepin2) ...
+Setting up libgomp1:arm64 (14.2.0-4ubuntu2~24.04) ...
+Setting up libxnvctrl0:arm64 (510.47.03-0ubuntu4) ...
+Setting up libmunge2:arm64 (0.5.15-4build1) ...
+Setting up strace (6.8-0ubuntu2) ...
+Setting up libhwloc15:arm64 (2.10.0-1build1) ...
+Setting up libatomic1:arm64 (14.2.0-4ubuntu2~24.04) ...
+Setting up libnl-3-200:arm64 (3.7.0-0.3build1.1) ...
+
+Configuration file '/etc/libnl-3/classid', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libnl-3/pktloc', does not exist on system.
+Installing new config file as you requested.
+Setting up libevent-core-2.1-7t64:arm64 (2.1.12-stable-9ubuntu2) ...
+Setting up libevent-pthreads-2.1-7t64:arm64 (2.1.12-stable-9ubuntu2) ...
+Setting up libhwloc-plugins:arm64 (2.10.0-1build1) ...
+Setting up libnl-route-3-200:arm64 (3.7.0-0.3build1.1) ...
+Setting up libpmix2t64:arm64 (5.0.1-4.1build1) ...
+Setting up libibverbs1:arm64 (50.0-2build2) ...
+Setting up ibverbs-providers:arm64 (50.0-2build2) ...
+
+Configuration file '/etc/libibverbs.d/bnxt_re.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/cxgb4.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/efa.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/erdma.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/hfi1verbs.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/hns.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/ipathverbs.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/irdma.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/mana.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/mlx4.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/mlx5.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/mthca.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/ocrdma.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/qedr.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/rxe.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/siw.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/vmw_pvrdma.driver', does not exist on system.
+Installing new config file as you requested.
+Setting up librdmacm1t64:arm64 (50.0-2build2) ...
+Setting up libfabric1:arm64 (1.17.0-3build2) ...
+Setting up libucx0:arm64 (1.16.0+ds-5ubuntu1) ...
+Setting up libopenmpi3t64:arm64 (4.1.6-7ubuntu2) ...
+Setting up form (4.3.0+git20230104+ds-1build2) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
