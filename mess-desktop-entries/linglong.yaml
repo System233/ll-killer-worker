@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: mess-desktop-entries.linyaps
+  name: mess-desktop-entries
+  version: 0.2.0.4
+  kind: app
+  description: |-
+    Desktop entries for MESS ROMs
+    This is a collection of desktop entries to handle ROM files for certain game
+    consoles. They use the Multiple Emulator Super System (MESS) to start a
+    game by simply double-clicking the ROM file from a file manager.
+command:
+- /opt/apps/mess-desktop-entries.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
