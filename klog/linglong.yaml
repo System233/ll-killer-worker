@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: klog.linyaps
+  name: klog
+  version: 2.3.3.2
+  kind: app
+  description: |-
+    Multiplatform ham radio logging program
+    This package provides a ham radio logging program.
+    This application supports logging for HF, VHF and sats operations.
+    It supports many features like QSL, DXCC, IOTA, WAZ and awards.
+    KLog produces ADIF as default file format.
+    This application also includes a DX-Cluster client fully integrated
+    into the main interface and is also integrated with WSJT-X.
+    KLog can run in Linux, OSX & Windows systems.
+command:
+- /opt/apps/klog.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
