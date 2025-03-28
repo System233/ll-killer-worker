@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gcompris-qt.linyaps
+  name: gcompris-qt
+  version: 4.0.0.1
+  kind: app
+  description: |-
+    educational games for small children
+    GCompris is a high quality educational software suite, including a large
+    number of activities for children aged 2 to 10. Some of the activities
+    are game orientated, but nonetheless still educational.
+command:
+- /opt/apps/gcompris-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
