@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: gnubg.linyaps
+  name: gnubg
+  version: 1.7.1.3
+  kind: app
+  description: |-
+    graphical or console backgammon program with analysis
+    GNU Backgammon is a strong backgammon program (world-class with a bearoff
+    database installed) usable either as an engine by other programs or as a
+    standalone backgammon game.  In addition to supporting simple play, it
+    also has extensive analysis features, a tutor mode, adjustable
+    difficulty, and support for exporting annotated games.  It can be played
+    either from a GTK+ graphical interface, optionally with a 3D board, or
+    from a simple text console.
+command:
+- /opt/apps/gnubg.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
