@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gastman.linyaps
+  name: gastman
+  version: 0.99.0.0
+  kind: app
+  description: |-
+    GUI tool for Asterisk administration and monitoring
+    Gastman is a graphical Manager interface for Asterisk. It uses
+    the GTK+ library, and so is usually run under XWindow, although
+    GTK+ environments also exist for Windows and Mac OS X.
+command:
+- /opt/apps/gastman.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
