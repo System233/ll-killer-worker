@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: lxinput.linyaps
+  name: lxinput
+  version: 0.3.5.1
+  kind: app
+  description: |-
+    LXDE keyboard and mouse configuration
+    LXInput is a GUI application for the Lightweight X11 Desktop Environment
+    (LXDE).
+
+    It configures keyboard and mouse settings:
+
+    * Delay and Interval for character repeat
+    * Enable/Disable beeps of keyboard input error
+    * Swap left and right mouse buttons
+    * Mouse acceleration and sensitivity
+command:
+- /opt/apps/lxinput.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
