@@ -1,11 +1,11 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|1489|926 |563 | 62.19%| 29.88%|
+|3099|1503|940 |563 | 62.54%| 30.33%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|1244|838 |406 | 67.36%| 30.37%|
+|ubuntu-noble|2759|1258|852 |406 | 67.73%| 30.88%|
 |deepin-v23|340|245|88 |157 | 35.92%| 25.88%|
 ## 详细结果
 | 包名  | 架构 |仓库| 版本 | 测试结果 | SHA256 |killer版本|
@@ -1489,13 +1489,27 @@
 | [klystrack](./klystrack) | arm64  | ubuntu-noble | 0.20171212-6 | ![screen0-5.jpg](./klystrack/tests/screen0-5.jpg) | [SHA256](./klystrack/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [kmag](./kmag) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kmag/tests/screen0-5.jpg) | [SHA256](./kmag/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [kmahjongg](./kmahjongg) | arm64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./kmahjongg/tests/screen0-5.jpg) | [SHA256](./kmahjongg/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [kmail](./kmail) | arm64  | ubuntu-noble | 23.08.5-0ubuntu5.1 | ![screen0-5.jpg](./kmail/tests/screen0-5.jpg) ![screen1-5.jpg](./kmail/tests/screen1-5.jpg) | [SHA256](./kmail/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [kmenuedit](./kmenuedit) | arm64  | ubuntu-noble | 5.27.11-0ubuntu3 | ![screen0-5.jpg](./kmenuedit/tests/screen0-5.jpg) | [SHA256](./kmenuedit/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [kmetronome](./kmetronome) | arm64  | ubuntu-noble | 1.4.0-1build2 | ![screen0-5.jpg](./kmetronome/tests/screen0-5.jpg) | [SHA256](./kmetronome/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [kmines](./kmines) | arm64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./kmines/tests/screen0-5.jpg) | [SHA256](./kmines/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [kmix](./kmix) | arm64  | ubuntu-noble | 23.08.5-0ubuntu5 | ![screen0-5.jpg](./kmix/tests/screen0-5.jpg) | [SHA256](./kmix/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [kmousetool](./kmousetool) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kmousetool/tests/screen0-5.jpg) | [SHA256](./kmousetool/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [kmouth](./kmouth) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kmouth/tests/screen0-5.jpg) | [SHA256](./kmouth/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [kmplayer](./kmplayer) | arm64  | ubuntu-noble | 0.12.0b+de96d9e-1build2 | ![screen0-5.jpg](./kmplayer/tests/screen0-5.jpg) | [SHA256](./kmplayer/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [kmplot](./kmplot) | arm64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./kmplot/tests/screen0-5.jpg) | [SHA256](./kmplot/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [kmymoney](./kmymoney) | arm64  | ubuntu-noble | 5.1.3-1build15 | ![screen0-5.jpg](./kmymoney/tests/screen0-5.jpg) | [SHA256](./kmymoney/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [knavalbattle](./knavalbattle) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./knavalbattle/tests/screen0-5.jpg) | [SHA256](./knavalbattle/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [knetwalk](./knetwalk) | arm64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./knetwalk/tests/screen0-5.jpg) | [SHA256](./knetwalk/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [knights](./knights) | arm64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./knights/tests/screen0-5.jpg) | [SHA256](./knights/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [knotes](./knotes) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3-20250327 | 失败 | [SHA256](./knotes/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [knowthelist](./knowthelist) | arm64  | ubuntu-noble | 2.3.1-1build4 | ![screen0-5.jpg](./knowthelist/tests/screen0-5.jpg) | [SHA256](./knowthelist/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [kobodeluxe](./kobodeluxe) | arm64  | ubuntu-noble | 0.5.1-10build1 | ![screen0-5.jpg](./kobodeluxe/tests/screen0-5.jpg) | [SHA256](./kobodeluxe/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [kodi](./kodi) | arm64  | ubuntu-noble | 20.5+dfsg-1ubuntu1-20250327 | 失败 | [SHA256](./kodi/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [koko](./koko) | arm64  | ubuntu-noble | 23.08.5+ds.1-1ubuntu2 | ![screen0-5.jpg](./koko/tests/screen0-5.jpg) | [SHA256](./koko/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [kolf](./kolf) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kolf/tests/screen0-5.jpg) | [SHA256](./kolf/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [kollision](./kollision) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kollision/tests/screen0-5.jpg) | [SHA256](./kollision/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [kolourpaint](./kolourpaint) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kolourpaint/tests/screen0-5.jpg) | [SHA256](./kolourpaint/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [kompare](./kompare) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kompare/tests/screen0-5.jpg) | [SHA256](./kompare/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [kongress](./kongress) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kongress/tests/screen0-5.jpg) | [SHA256](./kongress/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [konqueror](./konqueror) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3.2 | ![screen0-5.jpg](./konqueror/tests/screen0-5.jpg) | [SHA256](./konqueror/SHA256SUMS) | v1.5.1-arm64-nevm |
