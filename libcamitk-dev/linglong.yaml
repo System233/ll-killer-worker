@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: libcamitk-dev.linyaps
+  name: libcamitk-dev
+  version: 5.2.0.1
+  kind: app
+  description: |-
+    Computer Assisted Medical Intervention Tool Kit - development
+    Helps researchers and clinicians to easily and rapidly collaborate in
+    order to prototype CAMI applications, that feature medical images,
+    surgical navigation and biomechanical simulations.
+
+    This package contains development files needed to build CamiTK applications.
+    This package also provides the CamiTK wizard application to create new
+    extensions.
+command:
+- /opt/apps/libcamitk-dev.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
