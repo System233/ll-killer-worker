@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: goldencheetah.linyaps
+  name: goldencheetah
+  version: 3.5.0.2
+  kind: app
+  description: |-
+    set of analysis tools for cycling performance
+    GoldenCheetah is a software package that:
+    * Provides a rich set of analysis tools, including a critical power graph,
+    BikeScore calculation, histogram analysis, a best interval finder, and
+    a pedal force versus pedal velocity chart, to name just a few.
+    * Downloads ride data directly from supported devices.
+    * Imports ride data downloaded with other programs, including
+    TrainingPeaks WKO+ and the manufacturers' software for the Ergomo,
+    Garmin, Polar, PowerTap, and SRM devices.
+command:
+- /opt/apps/goldencheetah.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
