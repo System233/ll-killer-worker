@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: mrrescue.linyaps
+  name: mrrescue
+  version: 1.2.0.3
+  kind: app
+  description: |-
+    Mr Rescue is an arcade 2d action game
+    Mr. Rescue is an arcade styled 2d action game centered around evacuating
+    civilians from burning buildings. The game features fast paced fire
+    extinguishing action, intense boss battles, a catchy soundtrack and lots of
+    throwing people around in pseudo-randomly generated buildings.
+command:
+- /opt/apps/mrrescue.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
