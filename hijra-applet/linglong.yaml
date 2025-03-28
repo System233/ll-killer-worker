@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: hijra-applet.linyaps
+  name: hijra-applet
+  version: 1.0.0.4
+  kind: app
+  description: |-
+    Hijri Islamic Calendar tray applet
+    Hijri Tray Applet for GNOME (also works with KDE) that uses Hijra Algorithm by
+    Muayyad Saleh Alsadi provided by python-hijra package.
+
+    This algorithm is based on integer operations which that there is no round
+    errors (given accurate coefficients) the accuracy of this algorithm is based
+    on 3 constants (p, q and a) where p/q is the full months percentage [ gcd(p,q)
+    must be 1 ] currently it is set to 191/360 which mean that there is 191 months
+    having 30 days in a span of 360 years, other months are 29 days, and a is just
+    a shift.
+command:
+- /opt/apps/hijra-applet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
