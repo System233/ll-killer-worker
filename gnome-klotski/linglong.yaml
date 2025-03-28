@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gnome-klotski.linyaps
+  name: gnome-klotski
+  version: 3.38.2.1
+  kind: app
+  description: |-
+    Klotski puzzle game for GNOME
+    This is a clone of the popular Klotski game. The objective is to move
+    a patterned block to a given place using the mouse, in as few moves as
+    possible. Other blocks will need to be moved out of the way.
+command:
+- /opt/apps/gnome-klotski.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
