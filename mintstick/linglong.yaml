@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: mintstick.linyaps
+  name: mintstick
+  version: 1.6.0.1
+  kind: app
+  description: |-
+    USB stick formatter and ISO image writer
+    GUI tool to write .img or .iso files to a USB Key. It can also format them.
+
+    This software is developed by Linux Mint.
+command:
+- /opt/apps/mintstick.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
