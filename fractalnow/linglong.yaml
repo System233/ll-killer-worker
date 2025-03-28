@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: fractalnow.linyaps
+  name: fractalnow
+  version: 0.8.2.5
+  kind: app
+  description: |-
+    Fast, advanced fractal generator
+    FractalNow provides users with tools to generate pictures of various types of
+    fractals quickly and easily.
+
+    It is made of both a command line (FractalNow) and a graphical tool
+    (QFractalNow).
+
+    The graphical tool, based on Qt library, allows users to explore fractals
+    intuitively and generate pictures.
+
+    Both tools are entirely multi-threaded and implement advanced algorithms and
+    heuristics that make computation very fast compared to most existing free
+    fractal generators.
+command:
+- /opt/apps/fractalnow.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
