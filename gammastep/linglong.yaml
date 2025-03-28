@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: gammastep.linyaps
+  name: gammastep
+  version: 2.0.9.1
+  kind: app
+  description: |-
+    Adjust display hue to outside lighting conditions
+    Gammastep automatically adjusts the color temperature of computer
+    displays to help reduce the eye strain that comes with working in
+    low-light conditions.
+
+    Based on the geographical location of the computer system, Gammastep
+    will keep the screen at the default bluish hue during daytime but
+    adjust to an orange or reddish color in the evening hours and
+    nighttime.
+command:
+- /opt/apps/gammastep.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
