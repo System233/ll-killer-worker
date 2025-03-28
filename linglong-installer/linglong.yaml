@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: linglong-installer.linyaps
+  name: linglong-installer
+  version: 1.6.3.1
+  kind: app
+  description: |-
+    Linglong online store application installation tool.
+    Linglong apps installation tool for deepin linglong web store(https://store.linglong.dev/).
+command:
+- /opt/apps/linglong-installer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
