@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: hivelytracker.linyaps
+  name: hivelytracker
+  version: 1.9.0.2
+  kind: app
+  description: |-
+    Music tracker for AHX and HVL formats
+    This is a music tracker program based upon the AHX. The
+    original dates back to Amiga.
+command:
+- /opt/apps/hivelytracker.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
