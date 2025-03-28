@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: emerald.linyaps
+  name: emerald
+  version: 0.8.18.4
+  kind: app
+  description: |-
+    Decorator for compiz
+    Emerald is a window decorator for the Compiz window manager, using a custom
+    theme format (*.emerald). It is highly customizable and supports different
+    theme engines, with transparency and precise placement of borders and window
+    title elements.
+
+    This package provides a decorator for compiz and a themer application.
+command:
+- /opt/apps/emerald.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
