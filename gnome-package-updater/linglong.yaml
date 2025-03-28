@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: gnome-package-updater.linyaps
+  name: gnome-package-updater
+  version: 43.0.0.2
+  kind: app
+  description: |-
+    Software package updater for GNOME
+    GNOME Package Updater allows you to update packages on your system without
+    rebooting. You can view details about each update and choose which updates
+    to apply.
+
+    The updater utility uses PackageKit for package management abstraction.
+command:
+- /opt/apps/gnome-package-updater.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
