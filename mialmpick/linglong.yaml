@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: mialmpick.linyaps
+  name: mialmpick
+  version: 0.2.15.2
+  kind: app
+  description: |-
+    Tools for landmark picking in 3D volume data sets
+    This tool provides a simple 3D renderer that can visualize surfaces
+    directly from 3D volumes and can be used to set 3D landmarks.
+    It is best suited for CT data sets.
+command:
+- /opt/apps/mialmpick.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
