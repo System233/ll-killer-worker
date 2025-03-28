@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: libkf5wallet-bin.linyaps
+  name: libkf5wallet-bin
+  version: 5.115.0.0
+  kind: app
+  description: |-
+    Secure and unified container for user passwords.
+    Runtime for interface to KWallet, the safe desktop-wide storage
+    for passwords on KDE workspaces.
+
+    Contains the runtime files for kwallet-framework
+command:
+- /opt/apps/libkf5wallet-bin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
