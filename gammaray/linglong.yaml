@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: gammaray.linyaps
+  name: gammaray
+  version: 2.11.3.3
+  kind: app
+  description: |-
+    Tool for examining the internals of Qt application
+    GammaRay is a tool for examining the internals of a Qt application and
+    to some extent also manipulate it. GammaRay uses injection methods to
+    hook into an application at runtime and provide access to a wide variety
+    of interesting information. It provides easy ways of navigating through
+    the complex internal structures you find in some Qt frameworks, such as
+    QGraphicsView, model/view, QTextDocument, state machines and more.
+command:
+- /opt/apps/gammaray.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
