@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: grimripper.linyaps
+  name: grimripper
+  version: 3.0.2.3
+  kind: app
+  description: |-
+    Graphical audio CD ripper and encoder
+    Can be used to save tracks from Audio CDs. Main features:
+    * Supports WAV, MP3, Ogg Vorbis, FLAC, and Wavpack audio files
+    * Uses CDDB to name and tag each track
+    * Can encode to multiple formats in one session
+    * Creates M3U playlists
+    * Allows for each track to be by a different artist
+    * Does not require a specific desktop environment (just Gtk3)
+command:
+- /opt/apps/grimripper.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
