@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: grub-customizer.linyaps
+  name: grub-customizer
+  version: 5.2.3.1
+  kind: app
+  description: |-
+    GUI to configure GRUB2 and BURG
+    Grub Customizer is a graphical interface to configure GRUB2 and BURG. It can
+    do changes for settings and menuentries easily.
+
+    Grub Customizer has the following features:
+    * Move, remove or rename menuentries (they stey updatable by update-grub).
+    * Edit the contents of menuentries or create new ones (internally it edits
+    the 40_custom file).
+    * Provide reinstallation of the bootloader to MBR.
+    * Allow make settings like default operating system, kernel params,
+    background image, text colors, etc.
+    * Allow one to change the installed operating system by running on a live
+    CD/DVD or from an OS inside a flash drive.
+
+    Grub Customizer is useful for customizations and recovering actions over any
+    Linux distribution.
+command:
+- /opt/apps/grub-customizer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
