@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: geki2.linyaps
+  name: geki2
+  version: 2.0.3.10
+  kind: app
+  description: |-
+    Xenon-like vertical shoot'em-up
+    Geki 2 is a vertical shoot'em-up game similar to classic arcade games such
+    as Xenon, Target Renegade or Gunhed. It features six levels and two different
+    weapons.
+command:
+- /opt/apps/geki2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
