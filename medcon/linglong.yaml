@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: medcon.linyaps
+  name: medcon
+  version: 0.23.0.1
+  kind: app
+  description: |-
+    Medical Image (DICOM, ECAT, ...) conversion tool
+    This project stands for Medical Image Conversion. Released under the
+    (L)GPL, it comes with the full C-source code of the library, a
+    flexible command line utility and a neat graphical front-end using
+    the GTK+ toolkit. The currently supported formats are: Acr/Nema 2.0,
+    Analyze (SPM), DICOM 3.0, InterFile 3.3 and PNG.
+
+    The program also allows one to read unsupported files without
+    compression, to print pixel values or to extract/reorder specified
+    images. It is possible to retrieve the raw binary/ascii image arrays
+    or to write PNG for desktop applications.
+
+    This is the command line tool for batch processing.
+command:
+- /opt/apps/medcon.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
