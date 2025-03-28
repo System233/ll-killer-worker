@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: gdm-settings.linyaps
+  name: gdm-settings
+  version: 4.3.0.1
+  kind: app
+  description: |-
+    settings app for GNOME's Login Manager, GDM
+    Configure GDM settings using a graphical interface.
+command:
+- /opt/apps/gdm-settings.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
