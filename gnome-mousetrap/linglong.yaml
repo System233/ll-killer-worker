@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gnome-mousetrap.linyaps
+  name: gnome-mousetrap
+  version: 3.17.3.9
+  kind: app
+  description: |-
+    Head tracked mouse control
+    MouseTrap permits people with movements impairments to access the computer.
+    It uses image processing to translate the user's head movements into
+    mouse events (movements, clicks) which allow users to interact with
+    the different desktops managers and applications.
+command:
+- /opt/apps/gnome-mousetrap.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
