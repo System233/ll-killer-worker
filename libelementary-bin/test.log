@@ -1,0 +1,56 @@
+正在测试: APPID=libelementary-bin.linyaps LAYER=libelementary-bin.linyaps_1.27.0.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install libelementary-bin.linyaps_1.27.0.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:libelementary-bin.linyaps
+Layer文件:libelementary-bin.linyaps_1.27.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: libelementary-bin.linyaps_1.27.0.1_x86_64_binary.layer
+offset: 785
+mountpoint: /tmp/tmp.m5emVXQ0Oi/mnt
+dbglevel: 0
+[成功] elementary_config.desktop: elementary -> /opt/apps/libelementary-bin.linyaps/files/share/icons/hicolor/128x128/apps/elementary.png
+[成功] /opt/apps/libelementary-bin.linyaps/files/share/applications/elementary_config.desktop: /opt/apps/libelementary-bin.linyaps/files/entrypoint.sh elementary_config
+[成功] elementary_perf.desktop: elementary -> /opt/apps/libelementary-bin.linyaps/files/share/icons/hicolor/128x128/apps/elementary.png
+[成功] /opt/apps/libelementary-bin.linyaps/files/share/applications/elementary_perf.desktop: /opt/apps/libelementary-bin.linyaps/files/entrypoint.sh elementary_perf
+[成功] elementary_test.desktop: elementary -> /opt/apps/libelementary-bin.linyaps/files/share/icons/hicolor/128x128/apps/elementary.png
+[成功] /opt/apps/libelementary-bin.linyaps/files/share/applications/elementary_test.desktop: /opt/apps/libelementary-bin.linyaps/files/entrypoint.sh elementary_test
+[正在测试启动项]
+包名:libelementary-bin.linyaps
+Layer文件:libelementary-bin.linyaps_1.27.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: libelementary-bin.linyaps_1.27.0.1_x86_64_binary.layer
+offset: 785
+mountpoint: /tmp/tmp.ECHuGW0q2r/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run libelementary-bin.linyaps -- /opt/apps/libelementary-bin.linyaps/files/entrypoint.sh elementary_config
+[PID 11952] 进程已启动
+[PID 11952] 已检测到窗口:PID=36
+[PID 11952] 正在截图 0秒: tests/screen0-0.jpg
+[PID 11952] 正在截图 1秒: tests/screen0-1.jpg
+[PID 11952] 正在截图 3秒: tests/screen0-3.jpg
+[PID 11952] 正在截图 5秒: tests/screen0-5.jpg
+[PID 11952] 正在通知并等待进程退出
+[PID 11952] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run libelementary-bin.linyaps -- /opt/apps/libelementary-bin.linyaps/files/entrypoint.sh elementary_perf
+[PID 12141] 进程已启动
+[PID 12141] 已检测到窗口:PID=36
+[PID 12141] 正在截图 0秒: tests/screen1-0.jpg
+[PID 12141] 正在截图 1秒: tests/screen1-1.jpg
+[PID 12141] 正在截图 3秒: tests/screen1-3.jpg
+[PID 12141] 正在截图 5秒: tests/screen1-5.jpg
+[PID 12141] 正在通知并等待进程退出
+[PID 12141] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run libelementary-bin.linyaps -- /opt/apps/libelementary-bin.linyaps/files/entrypoint.sh elementary_test
+[PID 12319] 进程已启动
+[PID 12319] 已检测到窗口:PID=36
+[PID 12319] 正在截图 0秒: tests/screen2-0.jpg
+[PID 12319] 正在截图 1秒: tests/screen2-1.jpg
+[PID 12319] 正在截图 4秒: tests/screen2-4.jpg
+[PID 12319] 正在截图 5秒: tests/screen2-5.jpg
+[PID 12319] 正在通知并等待进程退出
+[PID 12319] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall libelementary-bin.linyaps
