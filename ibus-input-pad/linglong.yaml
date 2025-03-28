@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ibus-input-pad.linyaps
+  name: ibus-input-pad
+  version: 1.4.99.3
+  kind: app
+  description: |-
+    Input Pad for IBus
+    The input pad engine for IBus platform.
+    It provides the interface to use input-pad with IBus.
+
+    This package contains the IBus engine.
+command:
+- /opt/apps/ibus-input-pad.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
