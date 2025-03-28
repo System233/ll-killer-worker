@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: gwenview.linyaps
+  name: gwenview
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    image viewer
+    Gwenview is an image viewer, ideal for browsing and displaying a collection of
+    images.  It is capable of showing images in a full-screen slideshow view and
+    making simple adjustments, such as rotating or cropping images.
+
+    This package is part of the KDE graphics module.
+command:
+- /opt/apps/gwenview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
