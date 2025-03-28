@@ -1,0 +1,28 @@
+正在测试: APPID=lomiri-music-app.linyaps LAYER=lomiri-music-app.linyaps_3.0.3.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install lomiri-music-app.linyaps_3.0.3.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:lomiri-music-app.linyaps
+Layer文件:lomiri-music-app.linyaps_3.0.3.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: lomiri-music-app.linyaps_3.0.3.1_arm64_binary.layer
+offset: 780
+mountpoint: /tmp/tmp.1Dw07wqbGZ/mnt
+dbglevel: 0
+[成功] lomiri-music-app.desktop: lomiri-music-app.linyaps-music-app -> /opt/apps/lomiri-music-app.linyaps/files/share/icons/hicolor/scalable/apps/lomiri-music-app.linyaps-music-app.svg
+[成功] /opt/apps/lomiri-music-app.linyaps/files/share/applications/lomiri-music-app.desktop: /opt/apps/lomiri-music-app.linyaps/files/entrypoint.sh lomiri-music-app
+[正在测试启动项]
+包名:lomiri-music-app.linyaps
+Layer文件:lomiri-music-app.linyaps_3.0.3.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: lomiri-music-app.linyaps_3.0.3.1_arm64_binary.layer
+offset: 780
+mountpoint: /tmp/tmp.yPTX8b5vzC/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run lomiri-music-app.linyaps -- /opt/apps/lomiri-music-app.linyaps/files/entrypoint.sh lomiri-music-app
+[PID 24031] 进程已启动
+[PID 24031] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall lomiri-music-app.linyaps
