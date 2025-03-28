@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gdpc.linyaps
+  name: gdpc
+  version: 2.2.5.16
+  kind: app
+  description: |-
+    visualiser of molecular dynamic simulations
+    gpdc is a graphical program for visualising output data from
+    molecular dynamics simulations. It reads input in the standard xyz
+    format, as well as other custom formats, and can output pictures of
+    each frame in JPG or PNG format.
+command:
+- /opt/apps/gdpc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
