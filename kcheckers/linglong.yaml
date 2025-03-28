@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: kcheckers.linyaps
+  name: kcheckers
+  version: 0.8.1.6
+  kind: app
+  description: |-
+    Checkers boardgame
+    kcheckers is a Qt version of the classic boardgame "checkers", also known as
+    "draughts".  It has the following features:
+    * Built-in checkers engine.
+    * Beginner, Novice, Average, Good, Expert and Master levels of skill.
+    * Several themes of the board.
+    * Portable Draughts Notation database format support.
+    * Saving, loading and restarting of game.
+    * Auto change of the men's color.
+    * Multiple Undos/Redos.
+    * Optional numeration of the board.
+    * Internationalization support (English, German, Catalan, French and Spanish).
+command:
+- /opt/apps/kcheckers.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
