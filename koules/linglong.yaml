@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: koules.linyaps
+  name: koules
+  version: 1.4.0.28
+  kind: app
+  description: |-
+    abstract space action game
+    Koules is a fast action arcade-style game. This version is compiled for X11.
+    It has cool 256 color graphics, a multiplayer mode for up to 5 players, full
+    sound and, of course, network support. Koules is an original idea. The first
+    version of Koules was developed from scratch by Jan Hubicka in July 1995.
+
+    It supports multiplayer deathmatch and cooperative play.
+command:
+- /opt/apps/koules.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
