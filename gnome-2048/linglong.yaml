@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: gnome-2048.linyaps
+  name: gnome-2048
+  version: 3.38.2.3
+  kind: app
+  description: |-
+    sliding tile puzzle game
+    GNOME 2048 is a clone of Gabriele Cirulli's 2048, a puzzle game based on
+    Veewo Studios' 1024.
+
+    Move the sliding tiles with one of the four arrow keys on your keyboard.
+    When two tiles with the same number touch, they combine into a single tile
+    and the numbers are added together.
+command:
+- /opt/apps/gnome-2048.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
