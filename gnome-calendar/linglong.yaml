@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gnome-calendar.linyaps
+  name: gnome-calendar
+  version: 46.1.0.0
+  kind: app
+  description: |-
+    Calendar application for GNOME
+    GNOME Calendar is a simple and beautiful calendar application designed
+    to perfectly fit the GNOME desktop. By reusing the components which the
+    GNOME desktop is build on, Calendar nicely integrates with the GNOME
+    ecosystem.
+command:
+- /opt/apps/gnome-calendar.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
