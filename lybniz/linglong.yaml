@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: lybniz.linyaps
+  name: lybniz
+  version: 3.0.4.6
+  kind: app
+  description: |-
+    mathematical function graph plotter
+    Lybniz is a simple desktop graph plotter. It can currently plot three
+    functions and allows you to navigate the plot. Functions are entered
+    in Python or C-like notation.
+command:
+- /opt/apps/lybniz.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
