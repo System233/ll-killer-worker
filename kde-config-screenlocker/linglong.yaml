@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: kde-config-screenlocker.linyaps
+  name: kde-config-screenlocker
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    KCM Module for kscreenlocker
+    KDE systemsettings module to configure kscreenlocker.
+
+    kscreenlocker can be configured to support the PAM ("Pluggable Authentication
+    Modules") system for password checking (for unlocking the display).
+
+    PAM is a flexible application-transparent configurable user-authentication
+    system found on FreeBSD, Solaris, and Linux (and maybe other unixes).
+
+    Information about PAM may be found on its homepage
+    http://www.kernel.org/pub/linux/libs/pam/
+    (Despite the location, this information is NOT Linux-specific.)
+
+    This package contains the KCM settings module for kscreenlocker.
+command:
+- /opt/apps/kde-config-screenlocker.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
