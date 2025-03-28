@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: hime.linyaps
+  name: hime
+  version: 0.9.11.4
+  kind: app
+  description: |-
+    GTK+ based input method for Chinese users
+    HIME Input Method Editor is a input method platform, which is forked
+    from the famous gcin input method.
+
+    To use HIME, the correspondence immodule packages also need to be installed.
+    They are:
+
+    * hime-gtk2-immodule for GTK2
+    * hime-gtk3-immodule for GTK3
+    * hime-qt5-immodule for Qt5
+command:
+- /opt/apps/hime.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
