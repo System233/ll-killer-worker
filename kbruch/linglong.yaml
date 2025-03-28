@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: kbruch.linyaps
+  name: kbruch
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    fraction learning aid for KDE
+    KBruch is an aid for learning how to calculate with fractions.
+
+    This package is part of the KDE education module.
+command:
+- /opt/apps/kbruch.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
