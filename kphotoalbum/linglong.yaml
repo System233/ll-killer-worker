@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: kphotoalbum.linyaps
+  name: kphotoalbum
+  version: 5.12.0.1
+  kind: app
+  description: |-
+    tool for indexing, searching and viewing images by keywords for KDE
+    KPhotoAlbum lets you index, search, group and view images by keywords, date,
+    locations and persons. It provides a quick and elegant way to lookup groups of
+    images when you have thousands of pictures on your hard disk.
+
+    The information associated with each photo is stored in an XML file. Together
+    with its keywords, KPhotoAlbum stores each picture's MD5 sum, so it will
+    recognize them even if you move them to another directory. KPhotoAlbum can
+    also create HTML galleries with the images you select.
+
+    KPhotoAlbum can also make use of the KIPI image handling plugins to extend its
+    capabilities. The kipi-plugins package contains many useful extensions. Among
+    others, it contains extensions for photo manipulation, importing, exporting
+    and batch processing.
+command:
+- /opt/apps/kphotoalbum.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
