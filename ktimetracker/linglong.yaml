@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: ktimetracker.linyaps
+  name: ktimetracker
+  version: 5.0.1.3
+  kind: app
+  description: |-
+    time tracker tool
+    KTimetracker is a time tracker for busy people who need to keep track
+    of the amount of time they spend on various tasks.
+command:
+- /opt/apps/ktimetracker.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
