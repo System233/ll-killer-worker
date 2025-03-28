@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gnome-clocks.linyaps
+  name: gnome-clocks
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    Simple GNOME app with stopwatch, timer, and world clock support
+    GNOME Clocks is a simple application to show the time and date in multiple
+    locations and set alarms or timers. A stopwatch is also included.
+command:
+- /opt/apps/gnome-clocks.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
