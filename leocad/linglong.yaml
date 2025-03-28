@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: leocad.linyaps
+  name: leocad
+  version: 21.6.0.1
+  kind: app
+  description: |-
+    virtual brick CAD software
+    LeoCAD is a CAD program for creating virtual LEGO models.
+
+    It has an easy to use interface and currently features thousands of
+    different pieces created by the LDraw community when installed with
+    the ldraw-parts package.
+command:
+- /opt/apps/leocad.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
