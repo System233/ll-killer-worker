@@ -1,0 +1,45 @@
+version: "1"
+package:
+  id: mp3diags.linyaps
+  name: mp3diags
+  version: 1.5.1.2
+  kind: app
+  description: |-
+    find issues in MP3 files and help to solve them
+    MP3 Diags is a GUI-based application that allows end-users to identify issues
+    with their MP3 files, fix some of the issues and make other changes, like
+    adding track information. It also allows user to "look inside" an MP3 file.
+
+    Unlike some programs that are designed to deal with a single topic (like
+    fixing VBR headers or adding cover art), MP3 Diags is a one stop solution
+    that identifies more than 50 different issues in MP3 files and provides the
+    means to fix many of them.
+
+    Some of the more important issues that are found:
+
+    * Broken tags / headers / audio.
+    * Duplicate tags / headers.
+    * Incorrect placement of tags / headers (ID3V2, ID3V1, LAME, Xing, etc).
+    * Low quality audio.
+    * Missing VBR header.
+    * Missing track info / cover art.
+    * Broken track info / cover art.
+    * Missing normalization data.
+    * Character encoding issues (for languages other than English).
+
+    Some of the fixes and changes that MP3 Diags can do:
+
+    * Adding / fixing track info, including album cover; information can be
+    retrieved from several sources: Internet, clipboard, file name, local
+    files, and (obviously) keyboard.
+    * Correcting files that show incorrect song duration.
+    * Correcting files in which the player cannot seek correctly.
+    * Converting characters for non-English names.
+    * Adding composer name to the artist field, for players that don't handle
+    the composer field.
+    * Renaming files based on their fields.
+    * Changing word case for track info.
+command:
+- /opt/apps/mp3diags.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
