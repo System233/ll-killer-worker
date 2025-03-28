@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: ettercap-graphical.linyaps
+  name: ettercap-graphical
+  version: 0.8.3.13
+  kind: app
+  description: |-
+    Ettercap GUI-enabled executable
+    Ettercap supports active and passive dissection of many protocols
+    (even encrypted ones) and includes many feature for network and host
+    analysis.
+
+    Data injection in an established connection and filtering (substitute
+    or drop a packet) on the fly is also possible, keeping the connection
+    synchronized.
+
+    Many sniffing modes are implemented, for a powerful and complete
+    sniffing suite. It is possible to sniff in four modes: IP Based, MAC Based,
+    ARP Based (full-duplex) and PublicARP Based (half-duplex).
+
+    Ettercap also has the ability to detect a switched LAN, and to use OS
+    fingerprints (active or passive) to find the geometry of the LAN.
+
+    This package contains the ettercap GUI-enabled executable.
+command:
+- /opt/apps/ettercap-graphical.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
