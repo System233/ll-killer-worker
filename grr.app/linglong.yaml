@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: grr.app.linyaps
+  name: grr.app
+  version: 1.0.0.1
+  kind: app
+  description: |-
+    RSS reader for GNUstep
+    Grr (Günther's RSS Reader) is a reader for RSS news feeds.  It has
+    the following features:
+
+    * Parsing RSS feeds (including Atom).
+    * Fetching feeds from the web.
+    * Showing headlines.
+    * Showing the article's descriptions.
+    * Categories for feeds.
+    * Articles can be rated.
+    * Simple HTML rendering on GNUstep.
+    * Serializing obtained feed information to hard disk.
+    * Managing (adding, removing) feeds.
+command:
+- /opt/apps/grr.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
