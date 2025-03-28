@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: lxqt-globalkeys.linyaps
+  name: lxqt-globalkeys
+  version: 1.4.0.0
+  kind: app
+  description: |-
+    daemon used to register global keyboard shortcuts (appl.)
+    Daemon used to register global keyboard shortcuts.
+
+    This package contain the program files for LXQt globalskeys.
+command:
+- /opt/apps/lxqt-globalkeys.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
