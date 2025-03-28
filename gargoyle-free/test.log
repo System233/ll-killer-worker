@@ -1,0 +1,39 @@
+正在测试: APPID=gargoyle-free.linyaps LAYER=gargoyle-free.linyaps_2023.1.0.4_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install gargoyle-free.linyaps_2023.1.0.4_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:gargoyle-free.linyaps
+Layer文件:gargoyle-free.linyaps_2023.1.0.4_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: gargoyle-free.linyaps_2023.1.0.4_x86_64_binary.layer
+offset: 2139
+mountpoint: /tmp/tmp.uLCGxcO1s8/mnt
+dbglevel: 0
+[成功] io.github.garglk.Gargoyle.desktop: io.github.garglk.Gargoyle -> /opt/apps/gargoyle-free.linyaps/files/share/icons/io.github.garglk.Gargoyle.png
+[成功] /opt/apps/gargoyle-free.linyaps/files/share/applications/io.github.garglk.Gargoyle.desktop: /opt/apps/gargoyle-free.linyaps/files/entrypoint.sh gargoyle-free %f
+[成功] io.github.garglk.GargoyleEditConfig.desktop: gargoyle-house -> /opt/apps/gargoyle-free.linyaps/files/share/pixmaps/gargoyle-house.png
+[成功] /opt/apps/gargoyle-free.linyaps/files/share/applications/io.github.garglk.GargoyleEditConfig.desktop: /opt/apps/gargoyle-free.linyaps/files/entrypoint.sh gargoyle-free --edit-config
+[正在测试启动项]
+包名:gargoyle-free.linyaps
+Layer文件:gargoyle-free.linyaps_2023.1.0.4_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: gargoyle-free.linyaps_2023.1.0.4_x86_64_binary.layer
+offset: 2139
+mountpoint: /tmp/tmp.KAcIYYLwtm/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run gargoyle-free.linyaps -- /opt/apps/gargoyle-free.linyaps/files/entrypoint.sh gargoyle-free
+[PID 11248] 进程已启动
+[PID 11248] 已检测到窗口:PID=36
+[PID 11248] 正在截图 0秒: tests/screen0-0.jpg
+[PID 11248] 正在截图 1秒: tests/screen0-1.jpg
+[PID 11248] 正在截图 3秒: tests/screen0-3.jpg
+[PID 11248] 正在截图 5秒: tests/screen0-5.jpg
+[PID 11248] 正在通知并等待进程退出
+[PID 11248] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run gargoyle-free.linyaps -- /opt/apps/gargoyle-free.linyaps/files/entrypoint.sh gargoyle-free --edit-config
+[PID 11414] 进程已启动
+[PID 11414] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall gargoyle-free.linyaps
