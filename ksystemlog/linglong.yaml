@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: ksystemlog.linyaps
+  name: ksystemlog
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    system log viewer
+    KSystemLog show all logs of your system, grouped by General (Default system
+    log, Authentication, Kernel, X.org...), and optional Services (Apache, Cups,
+    etc, ...). It includes many features to read nicely your log files:
+    * Colorize log lines depending on their severities
+    * Tabbed view to allow displaying several logs at the same time
+    * Auto display new lines logged
+    * Detailed information for each log lines
+
+    This package is part of the KDE administration module.
+command:
+- /opt/apps/ksystemlog.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
