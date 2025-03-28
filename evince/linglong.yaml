@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: evince.linyaps
+  name: evince
+  version: 46.3.1.0
+  kind: app
+  description: |-
+    Document (PostScript, PDF) viewer
+    Evince is a simple multi-page document viewer.  It can display and print
+    PostScript (PS), Encapsulated PostScript (EPS), DjVu, DVI, Portable
+    Document Format (PDF) and XML Paper Specification (XPS) files.
+    When supported by the document, it also allows searching for text,
+    copying text to the clipboard, hypertext navigation, and
+    table-of-contents bookmarks.
+command:
+- /opt/apps/evince.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
