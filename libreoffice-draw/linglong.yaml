@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: libreoffice-draw.linyaps
+  name: libreoffice-draw
+  version: 24.2.7.0
+  kind: app
+  description: |-
+    office productivity suite -- drawing
+    LibreOffice is a full-featured office productivity suite that provides
+    a near drop-in replacement for Microsoft(R) Office.
+
+    This package contains the drawing component for LibreOffice.
+command:
+- /opt/apps/libreoffice-draw.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
