@@ -1,0 +1,34 @@
+正在测试: APPID=font-viewer.linyaps LAYER=font-viewer.linyaps_0.8.8.4_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install font-viewer.linyaps_0.8.8.4_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:font-viewer.linyaps
+Layer文件:font-viewer.linyaps_0.8.8.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: font-viewer.linyaps_0.8.8.4_arm64_binary.layer
+offset: 801
+mountpoint: /tmp/tmp.YhAb8me5L2/mnt
+dbglevel: 0
+[成功] org.gnome.FontViewer.desktop: org.gnome.FontViewer -> /opt/apps/font-viewer.linyaps/files/share/icons/hicolor/128x128/apps/org.gnome.FontViewer.png
+[成功] /opt/apps/font-viewer.linyaps/files/share/applications/org.gnome.FontViewer.desktop: /opt/apps/font-viewer.linyaps/files/entrypoint.sh /usr/libexec/font-manager/font-viewer %u
+[正在测试启动项]
+包名:font-viewer.linyaps
+Layer文件:font-viewer.linyaps_0.8.8.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: font-viewer.linyaps_0.8.8.4_arm64_binary.layer
+offset: 801
+mountpoint: /tmp/tmp.GSPsDzHS2R/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run font-viewer.linyaps -- /opt/apps/font-viewer.linyaps/files/entrypoint.sh /usr/libexec/font-manager/font-viewer
+[PID 8612] 进程已启动
+[PID 8612] 已检测到窗口:PID=36
+[PID 8612] 正在截图 0秒: tests/screen0-0.jpg
+[PID 8612] 正在截图 2秒: tests/screen0-2.jpg
+[PID 8612] 正在截图 4秒: tests/screen0-4.jpg
+[PID 8612] 正在截图 5秒: tests/screen0-5.jpg
+[PID 8612] 正在通知并等待进程退出
+[PID 8612] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall font-viewer.linyaps

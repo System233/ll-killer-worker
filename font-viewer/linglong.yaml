@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: font-viewer.linyaps
+  name: font-viewer
+  version: 0.8.8.4
+  kind: app
+  description: |-
+    Full-featured font preview application for GTK Environments
+    Font Manager is intended to provide a way for average users to easily manage
+    desktop fonts, without having to resort to command line tools or editing
+    configuration files by hand. While designed primarily with the GNOME Desktop
+    Environment in mind, it should work well with other Gtk+ desktop environments.
+
+    This package provides the font-viewer component of Font Manager.
+command:
+- /opt/apps/font-viewer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
