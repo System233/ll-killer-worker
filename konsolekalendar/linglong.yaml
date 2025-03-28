@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: konsolekalendar.linyaps
+  name: konsolekalendar
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    konsole personal organizer
+    KonsoleKalendar is a command-line interface to KDE calendars.
+    KonsoleKalendar complements KOrganizer by providing a console
+    frontend to manage your calendars.
+command:
+- /opt/apps/konsolekalendar.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
