@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: gnome-browser-connector.linyaps
+  name: gnome-browser-connector
+  version: 42.1.0.4
+  kind: app
+  description: |-
+    GNOME Shell extensions integration for web browsers
+    Provides integration with GNOME Shell extensions repository for
+    Chromium (and derivatives) and Firefox
+
+    This package provides the connector that talks with the browser
+    extension
+command:
+- /opt/apps/gnome-browser-connector.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
