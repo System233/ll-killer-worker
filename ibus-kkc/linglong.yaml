@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: ibus-kkc.linyaps
+  name: ibus-kkc
+  version: 1.5.22.4
+  kind: app
+  description: |-
+    Japanese Kana Kanji input engine for IBus
+    IBus is an Intelligent Input Bus. It is a new input framework for Linux
+    OS. It provides full featured and user friendly input method user interface.
+    It also may help developers to develop input method easily.
+
+    ibus-kkc is an input method (IM) for Japanese, based on IBus.
+command:
+- /opt/apps/ibus-kkc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
