@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kbackup.linyaps
+  name: kbackup
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Easy to use backup program
+    Kbackup is a program that lets you back up any directories or files. It uses
+    an easy to use directory tree to select the things to back up and lets you
+    save your settings in "profile" files. These are simple textfiles containing
+    definitions for directories and files to be included or excluded from the
+    backup process.
+command:
+- /opt/apps/kbackup.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
