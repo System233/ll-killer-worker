@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: ktechlab.linyaps
+  name: ktechlab
+  version: 0.51.0.2
+  kind: app
+  description: |-
+    IDE for microcontrollers and electronics
+    KTechLab is an IDE for microcontrollers and electronics.
+
+    It supports circuit simulation, program development for microcontrollers and
+    simulating the programmed microcontroller together with its application
+    circuit.
+command:
+- /opt/apps/ktechlab.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
