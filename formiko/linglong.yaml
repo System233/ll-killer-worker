@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: formiko.linyaps
+  name: formiko
+  version: 1.4.3.2
+  kind: app
+  description: |-
+    reStructuredText and MarkDown editor and live previewer
+    Features:
+    * GtkSourceView based editor with syntax highlighting
+    * possible use Vim editor
+    * vertical or horizontal window splitting
+    * preview mode
+    * periodic save file
+    * json and html preview
+command:
+- /opt/apps/formiko.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
