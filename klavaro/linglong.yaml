@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: klavaro.linyaps
+  name: klavaro
+  version: 3.11.0.1
+  kind: app
+  description: |-
+    Flexible touch typing tutor
+    Klavaro is a simple tutor to teach correct typing, almost independently of
+    language and very flexible regarding to new or unknown keyboard layouts.
+
+    Its key features are:
+    * Internationalization
+    * Ready to use keyboard layouts
+    * Keyboard layout editor
+    * Basic course
+    * Adaptability, velocity and fluidness exercises
+    * Progress charts.
+command:
+- /opt/apps/klavaro.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
