@@ -1,0 +1,28 @@
+正在测试: APPID=jmeters.linyaps LAYER=jmeters.linyaps_0.4.5.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install jmeters.linyaps_0.4.5.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:jmeters.linyaps
+Layer文件:jmeters.linyaps_0.4.5.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: jmeters.linyaps_0.4.5.1_arm64_binary.layer
+offset: 609
+mountpoint: /tmp/tmp.U8VhCECex8/mnt
+dbglevel: 0
+[成功] jmeters.desktop: jmeters_32x32 -> /opt/apps/jmeters.linyaps/files/share/pixmaps/jmeters_32x32.xpm
+[成功] /opt/apps/jmeters.linyaps/files/share/applications/jmeters.desktop: /opt/apps/jmeters.linyaps/files/entrypoint.sh jmeters -t din -c 2 L R
+[正在测试启动项]
+包名:jmeters.linyaps
+Layer文件:jmeters.linyaps_0.4.5.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: jmeters.linyaps_0.4.5.1_arm64_binary.layer
+offset: 609
+mountpoint: /tmp/tmp.HXGT6gYvmi/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run jmeters.linyaps -- /opt/apps/jmeters.linyaps/files/entrypoint.sh jmeters -t din -c 2 L R
+[PID 11814] 进程已启动
+[PID 11814] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall jmeters.linyaps
