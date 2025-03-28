@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: jdim.linyaps
+  name: jdim
+  version: 0.10.1.1
+  kind: app
+  description: |-
+    simple browser for "2ch-style" web forum sites
+    JDim (JD improved) offers a comfortable browsing experience on 2ch-style
+    bulletin board systems. Its features include:
+
+    - automated login,
+    - message viewing/posting,
+    - image viewing,
+    - mouse gestures,
+    - ignore lists,
+    - "play-by-play" mode.
+
+    It can also significantly reduce the load on servers by bypassing CGI programs
+    and directly retrieving thread data files to your local hard drives.
+
+    "2ch-style" web forum sites have their origins in 2channel, which was a very
+    popular Internet forum in Japan. Such sites are often available only in the
+    Japanese language.
+command:
+- /opt/apps/jdim.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
