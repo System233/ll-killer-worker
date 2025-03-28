@@ -1,0 +1,28 @@
+正在测试: APPID=meterbridge.linyaps LAYER=meterbridge.linyaps_0.9.2.14_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install meterbridge.linyaps_0.9.2.14_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:meterbridge.linyaps
+Layer文件:meterbridge.linyaps_0.9.2.14_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: meterbridge.linyaps_0.9.2.14_x86_64_binary.layer
+offset: 649
+mountpoint: /tmp/tmp.HxI5iGW3iw/mnt
+dbglevel: 0
+[31m[失败] meterbridge.desktop:meterbridge32x32.xpm: 找不到此图标 [0m
+[成功] /opt/apps/meterbridge.linyaps/files/share/applications/meterbridge.desktop: /opt/apps/meterbridge.linyaps/files/entrypoint.sh /usr/bin/meterbridge -t vu alsa_pcm:playback_1 alsa_pcm:playback_2
+[正在测试启动项]
+包名:meterbridge.linyaps
+Layer文件:meterbridge.linyaps_0.9.2.14_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: meterbridge.linyaps_0.9.2.14_x86_64_binary.layer
+offset: 649
+mountpoint: /tmp/tmp.2INEQEdL6D/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run meterbridge.linyaps -- /opt/apps/meterbridge.linyaps/files/entrypoint.sh /usr/bin/meterbridge -t vu alsa_pcm:playback_1 alsa_pcm:playback_2
+[PID 12051] 进程已启动
+[PID 12051] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall meterbridge.linyaps
