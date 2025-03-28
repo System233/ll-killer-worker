@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gniall.linyaps
+  name: gniall
+  version: 0.7.1.9
+  kind: app
+  description: |-
+    program that tries to learn a human language
+    gNiall attempts to learn whatever language you try to teach it. It is
+    basically a dissociator: it collects statistics on sentences you type
+    and tries to construct meaningful replies. gNiall is inspired by Niall,
+    an Amiga program by Matthew Peck.
+command:
+- /opt/apps/gniall.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
