@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gnome-logs.linyaps
+  name: gnome-logs
+  version: 45.0.0.1
+  kind: app
+  description: |-
+    viewer for the systemd journal
+    The GNOME Logs application is an application to view system logs
+    (from the systemd journal) for the GNOME Desktop environment.
+command:
+- /opt/apps/gnome-logs.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
