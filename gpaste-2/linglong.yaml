@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: gpaste-2.linyaps
+  name: gpaste-2
+  version: 45.0.0.2
+  kind: app
+  description: |-
+    Clipboard management system for GNOME
+    GPaste manages clipboard history and allows easy access to it using
+    keyboard shortcuts, gnome-shell extension, command-line tools, gir
+    bindings.
+
+    This package contains the command-line tools, the D-Bus service, the
+    GNOME Control Center key bindings, and desktop/appdata files.
+command:
+- /opt/apps/gpaste-2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
