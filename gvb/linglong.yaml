@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: gvb.linyaps
+  name: gvb
+  version: 1.4.0.1
+  kind: app
+  description: |-
+    visual simulator of 1 and 2-dimensional vibrations
+    Good ViBrations (gvb) is a small program that aims at providing a nice
+    interface to play with waves in 1 or 2 dimensions.
+
+    It features several ways of setting initial conditions, as well as different
+    calculation methods and graphic outputs. It is also possible to dump animation
+    frames to png images in order to make a movie with them.
+
+    It relies on the Python library scipy to get the best possible performance in
+    calculations.
+command:
+- /opt/apps/gvb.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
