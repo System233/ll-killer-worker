@@ -1,0 +1,36 @@
+正在测试: APPID=gthumb.linyaps LAYER=gthumb.linyaps_3.12.6.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install gthumb.linyaps_3.12.6.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:gthumb.linyaps
+Layer文件:gthumb.linyaps_3.12.6.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: gthumb.linyaps_3.12.6.1_x86_64_binary.layer
+offset: 794
+mountpoint: /tmp/tmp.LMU5Gx0D5a/mnt
+dbglevel: 0
+[成功] org.gnome.gThumb.Import.desktop: org.gnome.gThumb -> /opt/apps/gthumb.linyaps/files/share/icons/hicolor/16x16/apps/org.gnome.gThumb.png
+[成功] /opt/apps/gthumb.linyaps/files/share/applications/org.gnome.gThumb.Import.desktop: /opt/apps/gthumb.linyaps/files/entrypoint.sh gthumb --import-photos %U
+[成功] org.gnome.gThumb.desktop: org.gnome.gThumb -> /opt/apps/gthumb.linyaps/files/share/icons/hicolor/16x16/apps/org.gnome.gThumb.png
+[成功] /opt/apps/gthumb.linyaps/files/share/applications/org.gnome.gThumb.desktop: /opt/apps/gthumb.linyaps/files/entrypoint.sh gthumb %U
+[正在测试启动项]
+包名:gthumb.linyaps
+Layer文件:gthumb.linyaps_3.12.6.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: gthumb.linyaps_3.12.6.1_x86_64_binary.layer
+offset: 794
+mountpoint: /tmp/tmp.KjvfjG7hyk/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run gthumb.linyaps -- /opt/apps/gthumb.linyaps/files/entrypoint.sh gthumb
+[PID 17880] 进程已启动
+[PID 17880] 已检测到窗口:PID=36
+[PID 17880] 正在截图 0秒: tests/screen0-0.jpg
+[PID 17880] 正在截图 1秒: tests/screen0-1.jpg
+[PID 17880] 正在截图 3秒: tests/screen0-3.jpg
+[PID 17880] 正在截图 5秒: tests/screen0-5.jpg
+[PID 17880] 正在通知并等待进程退出
+[PID 17880] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall gthumb.linyaps
