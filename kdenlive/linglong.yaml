@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: kdenlive.linyaps
+  name: kdenlive
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    non-linear video editor
+    Kdenlive is a non-linear video editing suite, which supports DV, HDV and many
+    more formats.
+    Its main features are:
+    * Guides and marker for organizing timelines
+    * Copy and paste support for clips, effects and transitions
+    * Real time changes
+    * FireWire and Video4Linux capture
+    * Screen grabbing
+    * Exporting to any by FFMPEG supported format
+command:
+- /opt/apps/kdenlive.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
