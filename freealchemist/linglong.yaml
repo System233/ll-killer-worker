@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: freealchemist.linyaps
+  name: freealchemist
+  version: 0.5.0.2
+  kind: app
+  description: |-
+    simpler figure block game
+    FreeAlchemist is a figure block game written in Python where you have to
+    connect blocks.
+
+    The three or more blocks connected with the same shape will be replaced by a
+    block with a different shape.
+command:
+- /opt/apps/freealchemist.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
