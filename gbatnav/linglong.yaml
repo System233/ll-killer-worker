@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gbatnav.linyaps
+  name: gbatnav
+  version: 1.0.4.7
+  kind: app
+  description: |-
+    networked BattleShip game
+    Batalla Naval is a networked BattleShip game. It supports multiple players
+    and multiple robots at the same time.
+command:
+- /opt/apps/gbatnav.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
