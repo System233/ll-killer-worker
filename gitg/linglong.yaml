@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: gitg.linyaps
+  name: gitg
+  version: 44.0.0.1
+  kind: app
+  description: |-
+    git repository viewer
+    gitg is a fast git repository browser.
+    It currently features:
+
+    * Loading large repositories very fast
+    * Show/browse repository history
+    * Show highlighted revision diff
+    * Browse file tree of a revision and export by drag and drop
+    * Search in the revision history on subject, author or hash
+    * Switch between history view of branches easily
+    * Commit view providing per hunk stage/unstage and commit
+command:
+- /opt/apps/gitg.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
