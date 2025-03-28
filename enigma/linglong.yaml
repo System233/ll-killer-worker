@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: enigma.linyaps
+  name: enigma
+  version: 1.30.0.1
+  kind: app
+  description: |-
+    Game where you control a marble with the mouse
+    Enigma is a puzzle game similar to Oxyd on the Atari ST or Rock'n'Roll
+    on the Amiga and good old Marble Madness. It also has Sokoban levels, and
+    some interesting twists on the original sokoban concept.
+
+    In Enigma, your objective is to locate and uncover matching pairs of
+    Oxyd stones. Simple as it sounds, this task is made more difficult by
+    the fact that Oxyd stones tend to be hidden, inaccessible or protected
+    by unexpected traps. Overcoming these obstacles often requires a lot
+    of dexterity and wit (and can be quite addictive).
+
+    This package contains the game engine.
+command:
+- /opt/apps/enigma.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
