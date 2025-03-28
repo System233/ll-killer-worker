@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: fotoxx.linyaps
+  name: fotoxx
+  version: 20.8.0.2
+  kind: app
+  description: |-
+    Edit photos and manage a large collection
+    Navigate a large image collection with a thumbnail browser.
+    View and edit image files (RAW, jpeg, png, tiff ...).
+    Editing is done in 24 bits/color, output is 8 or 16 bits/color.
+    Fotoxx has extensive tools for edit, repair, and special effects.
+    Fotoxx is fast and interactive: view full image as it changes.
+    Undo and redo within and across edit functions.
+    File versioning: save and recall multiple edit stages.
+    Select image features or areas to edit separately from background.
+    Copy and paste area selections within and across images.
+    Composite functions: HDR, HDF, panorama, stack, image/text montage.
+    Metadata edit and report: tags, captions, dates, locations ...
+    Search images based on any metadata and folder/file names or parts.
+    Albums: select images and arranged order with drag and drop.
+    Slide Show with animated transitions and pan/zoom.
+    Scalable world map with image markers - click marker for gallery.
+    Batch functions: convert, resize, upright, move, revise metatata.
+    User Guide (English) describes all functions in great detail.
+command:
+- /opt/apps/fotoxx.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
