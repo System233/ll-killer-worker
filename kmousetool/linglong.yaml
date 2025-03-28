@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kmousetool.linyaps
+  name: kmousetool
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    mouse manipulation tool for the disabled
+    KMouseTool clicks the mouse whenever the mouse cursor pauses briefly. It was
+    designed to help those with repetitive strain injuries, for whom pressing
+    buttons hurts.
+
+    This package is part of the KDE accessibility module.
+command:
+- /opt/apps/kmousetool.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
