@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: keepass2.linyaps
+  name: keepass2
+  version: 2.47.0.2
+  kind: app
+  description: |-
+    Password manager
+    KeePass is a easy-to-use password manager for Windows, Linux, Mac OS X and
+    mobile devices. You can store your passwords in highly-encrypted databases,
+    which can only be unlocked with one master password and/or a key file.
+    A database consists of only one file that can be transferred from one computer
+    to another easily.
+    KeePass can import data from various file formats. The password list can be
+    exported to various formats, including TXT, HTML, XML and CSV files.
+command:
+- /opt/apps/keepass2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
