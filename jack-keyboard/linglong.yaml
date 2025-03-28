@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: jack-keyboard.linyaps
+  name: jack-keyboard
+  version: 2.7.2.1
+  kind: app
+  description: |-
+    Virtual MIDI keyboard for JACK MIDI
+    JACK keyboard is a program that allows you to send JACK MIDI
+    events (play ;-) using your PC keyboard. It's somewhat similar to
+    vkeybd, except it uses JACK MIDI instead of ALSA, and the default
+    keyboard mapping is much better - it uses the same layout as
+    trackers (like Impulse Tracker) did, so you have two and half
+    octaves under your fingers.
+command:
+- /opt/apps/jack-keyboard.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
