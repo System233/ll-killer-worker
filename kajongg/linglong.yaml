@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kajongg.linyaps
+  name: kajongg
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    classical Mah Jongg game
+    This is the classical Mah Jongg for four players.
+    If you are looking for the Mah Jongg solitaire please use the application
+    kmahjongg.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/kajongg.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
