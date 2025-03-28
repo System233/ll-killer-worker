@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: mate-hud.linyaps
+  name: mate-hud
+  version: 22.10.3.2
+  kind: app
+  description: |-
+    Run menubar commands, much like the Unity 7 HUD
+    A Heads-Up Display (HUD) allows you to search through an application's
+    appmenu. So if you're trying to find that single filter in Gimp but
+    can't remember which filter category it fits into or if you can't
+    recall if preferences sits under File, Edit or Tools on your favourite
+    browser, you can just search for it rather than hunting through the
+    menus.
+command:
+- /opt/apps/mate-hud.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
