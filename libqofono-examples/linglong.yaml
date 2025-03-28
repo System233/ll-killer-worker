@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: libqofono-examples.linyaps
+  name: libqofono-examples
+  version: 0.122.0.2
+  kind: app
+  description: |-
+    QtQuick/QML example application for libqofono-qt5
+    Shared library for accessing the ofono daemon, and a declarative plugin
+    for it. This allows accessing ofono in qtquick and friends.
+
+    This package contains the ofonotest example application written in
+    QtQuick/QML.
+command:
+- /opt/apps/libqofono-examples.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
