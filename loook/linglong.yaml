@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: loook.linyaps
+  name: loook
+  version: 0.9.0.1
+  kind: app
+  description: |-
+    Search strings in ODF and OOXML documents
+    You can look for strings in ODF text documents, spreadsheets,
+    presentations, drawings and formsm made by OpenOffice.org,
+    Libreoffice, Apache OpenOffice or other programs, creating ODF files.
+    You can look for strings in OOXML documents, too.
+
+    Loook has a convenient graphical user interface.
+command:
+- /opt/apps/loook.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
