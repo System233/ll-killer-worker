@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kbounce.linyaps
+  name: kbounce
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Jezzball arcade game
+    KBounce is a game where the player builds walls to confine a number of
+    bouncing balls.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/kbounce.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
