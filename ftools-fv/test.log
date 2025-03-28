@@ -1,0 +1,29 @@
+正在测试: APPID=ftools-fv.linyaps LAYER=ftools-fv.linyaps_5.5.2.3_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install ftools-fv.linyaps_5.5.2.3_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:ftools-fv.linyaps
+Layer文件:ftools-fv.linyaps_5.5.2.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: ftools-fv.linyaps_5.5.2.3_x86_64_binary.layer
+offset: 879
+mountpoint: /tmp/tmp.7XKMujuAci/mnt
+dbglevel: 0
+find: ‘/opt/apps/ftools-fv.linyaps/files/share/icons’: No such file or directory
+[成功] fv.desktop: fv -> /opt/apps/ftools-fv.linyaps/files/share/pixmaps/fv.xpm
+[成功] /opt/apps/ftools-fv.linyaps/files/share/applications/fv.desktop: /opt/apps/ftools-fv.linyaps/files/entrypoint.sh fv %F
+[正在测试启动项]
+包名:ftools-fv.linyaps
+Layer文件:ftools-fv.linyaps_5.5.2.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: ftools-fv.linyaps_5.5.2.3_x86_64_binary.layer
+offset: 879
+mountpoint: /tmp/tmp.jHqzyd9gdM/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run ftools-fv.linyaps -- /opt/apps/ftools-fv.linyaps/files/entrypoint.sh fv
+[PID 5830] 进程已启动
+[PID 5830] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall ftools-fv.linyaps
