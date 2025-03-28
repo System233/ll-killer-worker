@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: fldiff.linyaps
+  name: fldiff
+  version: 1.1.0.6
+  kind: app
+  description: |-
+    graphical diff program
+    Fldiff is a graphical diff program that shows the differences between
+    two files/directories, or a file/directory and a CVS or Subversion repository.
+    It is inspired by xdiff (Motif-based) and xxdiff (Qt-based), whose choice of
+    GUI toolkit has hampered their portability to many of the systems.
+
+    Fldiff uses the Fast Light Toolkit (FLTK) and has been tested on AIX, IRIX,
+    Linux, MacOS X, and Solaris, and should also run on Windows.
+command:
+- /opt/apps/fldiff.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
