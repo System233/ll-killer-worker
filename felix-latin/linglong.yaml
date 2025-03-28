@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: felix-latin.linyaps
+  name: felix-latin
+  version: 2.0.0.14
+  kind: app
+  description: |-
+    Félix Gaffiot's Latin-French dictionary - viewer
+    Félix Gaffiot (1870-1937) was a philologist, a teacher of French, and the
+    author of a Latin-French reference dictionary.
+
+    This package provides "felix", a graphical interface for searching the
+    dictionary. Entering a Latin word opens the corresponding page in the
+    form of a scanned image that can be zoomed and panned over.
+command:
+- /opt/apps/felix-latin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
