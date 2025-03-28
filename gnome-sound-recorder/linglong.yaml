@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gnome-sound-recorder.linyaps
+  name: gnome-sound-recorder
+  version: 43.0.0.1
+  kind: app
+  description: |-
+    simple and modern sound recorder for GNOME
+    GNOME sound recorder is an utility to make simple audio recording from your
+    GNOME desktop. It supports several formats like OGG, MP3 or FLAC.
+command:
+- /opt/apps/gnome-sound-recorder.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
