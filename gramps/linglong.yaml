@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: gramps.linyaps
+  name: gramps
+  version: 5.1.6.1
+  kind: app
+  description: |-
+    Genealogical research program
+    Gramps is an Open Source genealogy program written in Python, using
+    the GTK/GNOME interface. It is an extremely flexible program fitting
+    the needs for both the amateur genealogist and serious genealogical
+    researcher.
+    Gramps has the ability to import GEDCOM files exported from many
+    proprietary genealogy programs and can produce a large number of
+    reports in many popular formats.
+command:
+- /opt/apps/gramps.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
