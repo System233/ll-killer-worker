@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: handbrake.linyaps
+  name: handbrake
+  version: 1.7.2.1
+  kind: app
+  description: |-
+    versatile DVD ripper and video transcoder (GTK+ GUI)
+    HandBrake is a versatile, easy-to-use tool for converting DVDs and other
+    videos into H.264, XViD, or Ogg formatted media. It's particularly useful
+    for making videos that are compatible with portable video devices such as
+    the Apple iPod/iPhone or Sony PSP.
+
+    This package contains the graphical variant, ghb.
+command:
+- /opt/apps/handbrake.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
