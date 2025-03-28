@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: freeciv-server.linyaps
+  name: freeciv-server
+  version: 3.1.0.1
+  kind: app
+  description: |-
+    Civilization turn based strategy game (server files)
+    Freeciv is a free clone of the turn based strategy game Civilization.
+    In this game, each player becomes leader of a civilisation, fighting to
+    obtain the ultimate goal: the extinction of all other civilisations.
+
+    This is the Freeciv game server.
+command:
+- /opt/apps/freeciv-server.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
