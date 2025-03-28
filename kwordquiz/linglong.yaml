@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: kwordquiz.linyaps
+  name: kwordquiz
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    flashcard learning program
+    KWordQuiz is a general purpose flashcard program, typically used for
+    vocabulary training.
+
+    KWordQuiz can open vocabulary data in various formats, including the kvtml
+    format used by KDE programs such as Parley, the WQL format used by
+    WordQuiz for Windows, the xml.gz format used by Pauker, and CSV text.
+
+    This package is part of the KDE education module.
+command:
+- /opt/apps/kwordquiz.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
