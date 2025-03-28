@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: mate-desktop.linyaps
+  name: mate-desktop
+  version: 1.26.2.1
+  kind: app
+  description: |-
+    Library with common API for various MATE modules
+    The MATE component mate-desktop contains the libmate-desktop library, the
+    mate-about program, as well as some desktop-wide documents.
+
+    The libmate-desktop library provides an API shared by several applications
+    on the desktop, but that cannot live in the platform for various
+    reasons.
+
+    The mate-about program helps with finding which version of MATE is installed.
+
+    NOTE: This package does not install the complete MATE desktop environment
+    for you. The full desktop environment can be installed via the metapackage
+    mate-desktop-environment.
+command:
+- /opt/apps/mate-desktop.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
