@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: josm.linyaps
+  name: josm
+  version: 0.0.18969.1
+  kind: app
+  description: |-
+    Editor for OpenStreetMap
+    JOSM is an editor for OpenStreetMap (OSM) written in Java.
+    The current version supports stand alone GPX tracks, GPX track data
+    from OSM database and existing nodes, line segments and metadata tags
+    from the OSM database.
+
+    OpenStreetMap is a project aimed squarely at creating and providing
+    free geographic data such as street maps to anyone who wants them.
+    The project was started because most maps you think of as free actually
+    have legal or technical restrictions on their use, holding back people
+    from using them in creative, productive or unexpected ways.
+command:
+- /opt/apps/josm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
