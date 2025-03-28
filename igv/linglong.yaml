@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: igv.linyaps
+  name: igv
+  version: 2.17.3.1
+  kind: app
+  description: |-
+    Integrative Genomics Viewer
+    The Integrative Genomics Viewer (IGV) is a high-performance viewer that
+    efficiently handles large heterogeneous data sets, while providing a
+    smooth and intuitive user experience at all levels of genome resolution.
+    A key characteristic of IGV is its focus on the integrative nature of
+    genomic studies, with support for both array-based and next-generation
+    sequencing data, and the integration of clinical and phenotypic data.
+    Although IGV is often used to view genomic data from public sources,
+    its primary emphasis is to support researchers who wish to visualize and
+    explore their own data sets or those from colleagues. To that end, IGV
+    supports flexible loading of local and remote data sets, and is
+    optimized to provide high-performance data visualization and exploration
+    on standard desktop systems.
+command:
+- /opt/apps/igv.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
