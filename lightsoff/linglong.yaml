@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: lightsoff.linyaps
+  name: lightsoff
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    Light puzzle game
+    Puzzle where all lights have to be switched off.
+command:
+- /opt/apps/lightsoff.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
