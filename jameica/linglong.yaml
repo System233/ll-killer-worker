@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: jameica.linyaps
+  name: jameica
+  version: 2.10.4.1
+  kind: app
+  description: |-
+    Run-time system for Java applications
+    runtime environment for Java applications, which are implemented as plugins.
+
+    Jameica takes care of recurring tasks, such as:
+    * consistent Look & Feel
+    * strict user- and programdata separation
+    * standardized access to configuration files
+    * common navigation- and menuelements
+    * synchronous and asynchronous data exchange between plugins
+    * supports client-server model via RMI, XML-RPC or SOAP
+    * simplified usage of encryption methods (integrated wallet system)
+    * headless support for servers
+    * logging
+command:
+- /opt/apps/jameica.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
