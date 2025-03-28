@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: kleopatra.linyaps
+  name: kleopatra
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Certificate Manager and Unified Crypto GUI
+    Kleopatra is a certificate manager and a universal crypto GUI. It supports
+    managing X.509 and OpenPGP certificates in the GpgSM keybox and retrieving
+    certificates from LDAP servers.
+command:
+- /opt/apps/kleopatra.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
