@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: kturtle.linyaps
+  name: kturtle
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    educational programming environment
+    KTurtle is an educational programming environment which uses the TurtleScript
+    programming language (inspired by Logo) to make programming as easy and
+    accessible as possible.
+
+    The user issues TurtleScript language commands to control the "turtle", which
+    draws on the canvas, making KTurtle suitable for teaching elementary
+    mathematics, geometry and programming.
+
+    This package is part of the KDE education module.
+command:
+- /opt/apps/kturtle.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
