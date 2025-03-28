@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: kdf.linyaps
+  name: kdf
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    disk information utility
+    KDiskFree displays information about hard disks and other storage devices,
+    including the amount of free space available. It can also mount and unmount
+    storage devices and view them in the file manager.
+
+    KwikDisk is an icon for the system tray that provides convenient access to
+    the features of KDiskFree.
+
+    This package is part of the KDE Applications utilities module.
+command:
+- /opt/apps/kdf.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
