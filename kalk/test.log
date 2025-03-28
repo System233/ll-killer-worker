@@ -1,0 +1,30 @@
+正在测试: APPID=kalk.linyaps LAYER=kalk.linyaps_23.8.5.0_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install kalk.linyaps_23.8.5.0_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:kalk.linyaps
+Layer文件:kalk.linyaps_23.8.5.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: kalk.linyaps_23.8.5.0_arm64_binary.layer
+offset: 738
+mountpoint: /tmp/tmp.a1YYIlnP7B/mnt
+dbglevel: 0
+[成功] org.kde.kalk.desktop: org.kde.kalk -> /opt/apps/kalk.linyaps/files/share/icons/hicolor/scalable/apps/org.kde.kalk.svg
+[成功] /opt/apps/kalk.linyaps/files/share/applications/org.kde.kalk.desktop: /opt/apps/kalk.linyaps/files/entrypoint.sh kalk
+[正在测试启动项]
+包名:kalk.linyaps
+Layer文件:kalk.linyaps_23.8.5.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: kalk.linyaps_23.8.5.0_arm64_binary.layer
+offset: 738
+mountpoint: /tmp/tmp.QhUNyKiuCQ/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run kalk.linyaps -- /opt/apps/kalk.linyaps/files/entrypoint.sh kalk
+[PID 10470] 进程已启动
+[PID 10470] 等待超时，未能检测到窗口
+[PID 10470] 正在通知并等待进程退出
+[PID 10470] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall kalk.linyaps

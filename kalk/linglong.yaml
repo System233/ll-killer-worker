@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: kalk.linyaps
+  name: kalk
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Powerful cross-platform calculator based on the Kirigami framework
+    Kalk is a convergent calculator application built with the Kirigami framework.
+    Although it is mainly targeted for mobile platforms, it can also be used
+    on the desktop.
+
+    Originally starting as a fork of Liri calculator, Kalk has gone through heavy
+    development, and no longer shares the same codebase with Liri calculator.
+command:
+- /opt/apps/kalk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
