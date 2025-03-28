@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: filler.linyaps
+  name: filler
+  version: 1.2.0.6
+  kind: app
+  description: |-
+    simple game where two players try to capture half the board
+    Filler is a simple game where two players try to capture half of the board.
+    Players take turns selecting colours to capture all adjacent hexes of the
+    same colour.
+command:
+- /opt/apps/filler.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
