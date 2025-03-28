@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gnome-shell-extension-manager.linyaps
+  name: gnome-shell-extension-manager
+  version: 0.5.0.1
+  kind: app
+  description: |-
+    Utility for managing GNOME Shell Extensions
+    The GNOME shell extension manager is a tool for helping you manage your
+    installed GNOME shell extensions.
+command:
+- /opt/apps/gnome-shell-extension-manager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
