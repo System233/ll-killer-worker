@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: gm-assistant.linyaps
+  name: gm-assistant
+  version: 1.2.4.1
+  kind: app
+  description: |-
+    Game Master assistant for role-playing games
+    GM-Assistant is designed to be the perfect assistant for the Game Master
+    during tabletop role-playing games.
+
+    GM-Assistant enables to build structured scenarii with history and character
+    table before the game, and to take notes, play music or sound effects, and
+    display pictures during the game.
+    It also includes a dice simulator and a combat manager.
+command:
+- /opt/apps/gm-assistant.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
