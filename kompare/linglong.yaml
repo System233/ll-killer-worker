@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kompare.linyaps
+  name: kompare
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    file difference viewer
+    Kompare displays the differences between files.  It can compare the
+    contents of files or directories, as well as create, display, and merge patch
+    files.
+
+    This package is part of the KDE Software Development Kit module.
+command:
+- /opt/apps/kompare.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
