@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: kexi.linyaps
+  name: kexi
+  version: 3.2.0.3
+  kind: app
+  description: |-
+    visual database applications builder
+    KEXI is a visual database applications builder. It can be used for
+    designing database applications, inserting and editing data,
+    performing queries, and processing data. Forms can be created to
+    provide a custom interface to your data. All database objects -
+    tables, queries, forms, reports - are stored in the database, making
+    it easy to share data and design.
+
+    KEXI is considered as a long awaited Open Source competitor for MS Access,
+    Filemaker and Oracle Forms. Its development is motivated by the lack of
+    Rapid Application Development (RAD) tools for database systems that are
+    sufficiently powerful, inexpensive, open standards driven and portable
+    across many operating systems and hardware platforms.
+command:
+- /opt/apps/kexi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
