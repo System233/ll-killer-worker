@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: gosa-desktop.linyaps
+  name: gosa-desktop
+  version: 2.8.10.11
+  kind: app
+  description: |-
+    Desktop integration for GOsa²
+    This package includes a Gosa² menu definition for your desktop
+    environment.
+
+    GOsa² is a combination of system-administrator and end-user web
+    interface, designed to handle LDAP based setups.
+command:
+- /opt/apps/gosa-desktop.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
