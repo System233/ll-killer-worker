@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: lxqt-notificationd.linyaps
+  name: lxqt-notificationd
+  version: 1.4.0.0
+  kind: app
+  description: |-
+    LXQt notification daemon
+    The LXQt notification daemon.
+
+    This package contain the LXQt notification daemon.
+command:
+- /opt/apps/lxqt-notificationd.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
