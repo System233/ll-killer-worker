@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: manaplus.linyaps
+  name: manaplus
+  version: 2.1.3.7
+  kind: app
+  description: |-
+    Extended client for Evol Online and The Mana World
+    ManaPlus is an extended client for Evol Online, The Mana World, and similar
+    servers based on a fork of eAthena. Evol Online is a 2D fantasy-style game
+    which aims to create a friendly environment for interacting with others where
+    people can escape reality and enjoy themselves. The Mana World (TMW) is a
+    serious effort to create an innovative free and open source MMORPG.
+    TMW uses 2D graphics and aims to create a large and diverse interactive world.
+command:
+- /opt/apps/manaplus.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
