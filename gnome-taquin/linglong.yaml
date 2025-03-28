@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gnome-taquin.linyaps
+  name: gnome-taquin
+  version: 3.38.1.2
+  kind: app
+  description: |-
+    game to move tiles so that they reach their places
+    Taquin is a computer version of the 15-puzzle and other sliding
+    puzzles. The object of Taquin is to move tiles so that they reach their
+    places, either indicated with numbers, or with parts of a great image.
+command:
+- /opt/apps/gnome-taquin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
