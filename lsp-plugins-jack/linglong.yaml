@@ -1,0 +1,32 @@
+version: "1"
+package:
+  id: lsp-plugins-jack.linyaps
+  name: lsp-plugins-jack
+  version: 1.2.14.1
+  kind: app
+  description: |-
+    LSP (Linux Studio Plugins) audio-plugins (standalone JACK clients)
+    Linux Studio Plugins (LSP) provides a collection of audio effects,
+    synthesizers, and a selection of audio tools for music and sound
+    production. It provides standalone JACK clients and integrates
+    into the LV2, CLAP, LADSPA and VST plugin frameworks.
+
+    LSP provides the following plugins:
+
+    Audio effects: limiters, dynamic processors, expanders, gates,
+    graphic equalisers, impulse responses, impulse reverbs, compressors,
+    multiband compressors, parametric equalisers, phase detector,
+    sidechain multiband compressors, sidechain limiters,
+    sidechain dynamic processors, sidechain expanders, sidechain gates,
+    sidechain compressors, slapback delays, delay compensators, triggers.
+
+    Synths: samplers, and multisamplers.
+
+    Tools: latency meters, oscillators, profiler, spectrum analyzers,
+    and MIDI triggers
+
+    This package provides the standalone JACK clients.
+command:
+- /opt/apps/lsp-plugins-jack.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
