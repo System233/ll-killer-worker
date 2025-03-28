@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: k3b.linyaps
+  name: k3b
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Sophisticated CD/DVD burning application
+    K3b is a full-featured CD/DVD/Blu-ray burning and ripping application.
+    It supports a variety of project types as well as copying of optical
+    media, burning of different types of images, and ripping Audio CDs,
+    Video CDs, and Video DVDs.
+    Its convenient user interface is targeted at all audiences, trying to
+    be as simple as possible for novice users, while also providing all
+    features an advanced user might need.
+command:
+- /opt/apps/k3b.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
