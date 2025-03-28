@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: geeqie.linyaps
+  name: geeqie
+  version: 2.2.0.2
+  kind: app
+  description: |-
+    image viewer using GTK+
+    Geeqie is a browser for graphics files offering single click viewing of
+    your graphics files. It includes thumbnail view, zoom, filtering
+    features and external editor support.
+command:
+- /opt/apps/geeqie.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
