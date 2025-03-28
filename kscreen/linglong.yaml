@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: kscreen.linyaps
+  name: kscreen
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    KDE monitor hotplug and screen handling
+    KScreen provides multiple monitor support.  This support tries to be
+    as smart as possible adapting the behavior of it to each use case
+    making the configuration of monitors as simple as plugging them into
+    your computer.
+
+    This package contains the modules and plugins for monitor hotplug and
+    automatic screen handling.
+command:
+- /opt/apps/kscreen.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
