@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: kdialog.linyaps
+  name: kdialog
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Dialog display utility
+    kdialog allows you to display dialog boxes from shell scripts. The syntax is
+    very much inspired from the "dialog" command (which shows text mode dialogs).
+command:
+- /opt/apps/kdialog.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
