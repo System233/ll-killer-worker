@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: mu-cade.linyaps
+  name: mu-cade
+  version: 0.11.1.13
+  kind: app
+  description: |-
+    physics centipede invasion, smashup waggly shmup
+    Mu-cade is another shoot-em-up game by Kenta Cho. In this game Kenta has
+    introduced physics into his formula of hardcore shooting games. Similar
+    in some ways to Asteroids and Nibbles, the playing area is a rectangular
+    arena in which vessel-snakes have only one idea at the head: expelling
+    the others into the vacuum. You incarnate one of them, and you'll quickly
+    realize the subtlety of the goal: your tail lengthens as you destroy your
+    enemies.
+command:
+- /opt/apps/mu-cade.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
