@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: iotas.linyaps
+  name: iotas
+  version: 0.2.8.1
+  kind: app
+  description: |-
+    Simple mobile-friendly note-taking application
+    Iotas is a simple note-taking app with mobile-first design and a focus on
+    sync with a Nextcloud Notes.
+
+    It can be used offline, and optionally sync with Nextcloud when a connection
+    is available. Iotas also provides advanced features such as basic search,
+    categorization of notes, spell checking, Markdown editing and much more.
+command:
+- /opt/apps/iotas.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
