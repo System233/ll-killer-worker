@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: mhwaveedit.linyaps
+  name: mhwaveedit
+  version: 1.4.24.1
+  kind: app
+  description: |-
+    Simple and fast GTK2 sound editor
+    mhWaveEdit is a graphical program for editing sound files. It is
+    intended to be user-friendly and robust. It does not require
+    a fast computer.
+
+    Supports JACK, ALSA, OSS and PulseAudio.
+command:
+- /opt/apps/mhwaveedit.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
