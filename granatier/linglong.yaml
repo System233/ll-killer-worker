@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: granatier.linyaps
+  name: granatier
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Bomberman clone
+    Granatier is a clone of the classic Bomberman game, inspired by the work of
+    the Clanbomber clone.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/granatier.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
