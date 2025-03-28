@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: megaglest-data.linyaps
+  name: megaglest-data
+  version: 3.13.0.3
+  kind: app
+  description: |-
+    data files for MegaGlest
+    This package contains the data, docs and translations for MegaGlest.
+
+    It contains many factions, models, textures, maps, tilesets, scenarios,
+    tutorials and language files.
+command:
+- /opt/apps/megaglest-data.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
