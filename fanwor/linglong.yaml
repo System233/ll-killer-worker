@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: fanwor.linyaps
+  name: fanwor
+  version: 1.16.0.1
+  kind: app
+  description: |-
+    top-down action-adventure game similar to Zelda
+    Fanwor is an action-adventures in the style of the game "The Legend of
+    Zelda" (© by Nintendo). The basic story is that monsters stole the
+    eight Gems of Power and have hidden them in dungeons across the world.
+    You play as the hero trying to recover these gems.
+command:
+- /opt/apps/fanwor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
