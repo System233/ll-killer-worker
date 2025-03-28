@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: excellent-bifurcation.linyaps
+  name: excellent-bifurcation
+  version: 0.0.20071015.9
+  kind: app
+  description: |-
+    abstract vertical shooter with two sides to play on
+    Excellent Bifurcation is a vertical shooter in which you have two sides
+    available to play on. Its graphics try to mimic the colours, sounds and
+    feeling of the 8-bit games.
+
+    In the game, you drive two ships at the same time, on two sides of the
+    screen. The game play is very unique and fun. It might be quite a brain
+    bender anyway.
+
+    Excellent Bifurcation was Linley Henzel's entry in the AutoFire 2007 Shooter
+    Competition, and finished in 2nd place.
+command:
+- /opt/apps/excellent-bifurcation.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
