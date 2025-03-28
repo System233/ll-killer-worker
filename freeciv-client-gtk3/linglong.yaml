@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: freeciv-client-gtk3.linyaps
+  name: freeciv-client-gtk3
+  version: 3.1.0.1
+  kind: app
+  description: |-
+    Civilization turn based strategy game (GTK 3 client)
+    Freeciv is a free clone of the turn based strategy game Civilization.
+    In this game, each player becomes leader of a civilisation, fighting to
+    obtain the ultimate goal: the extinction of all other civilisations.
+
+    This is the GTK 3 version of Freeciv. It is the most sophisticated and
+    recommended client to play the game.
+command:
+- /opt/apps/freeciv-client-gtk3.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
