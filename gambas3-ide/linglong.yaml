@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gambas3-ide.linyaps
+  name: gambas3-ide
+  version: 3.19.0.2
+  kind: app
+  description: |-
+    Visual development environment for the Gambas programming language
+    Gambas is a free development environment based on a Basic interpreter
+    with object extensions, like Visual Basic(tm) (but it is NOT a clone!).
+
+    This package includes the Gambas Development Environment.
+command:
+- /opt/apps/gambas3-ide.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
