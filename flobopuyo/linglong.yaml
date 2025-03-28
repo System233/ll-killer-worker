@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: flobopuyo.linyaps
+  name: flobopuyo
+  version: 0.20.0.5
+  kind: app
+  description: |-
+    Clone of the PuyoPuyo game
+    The goal of FloboPuyo is to make groups of four or more Puyos (coloured
+    bubbles) to make them explode and send bad ghost Puyos to your opponent.
+    You win the game if your opponent reaches the top of the board. You can
+    play against computer or another human.
+command:
+- /opt/apps/flobopuyo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
