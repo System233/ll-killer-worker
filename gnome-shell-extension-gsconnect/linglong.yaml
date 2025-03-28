@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: gnome-shell-extension-gsconnect.linyaps
+  name: gnome-shell-extension-gsconnect
+  version: 57.0.0.1
+  kind: app
+  description: |-
+    KDE Connect implementation for GNOME Shell
+    This extension enables you to connect your phone or other devices to your
+    system, sending remote sms, see phone calls, share notifications, send files.
+
+    To connect an Android device, install the KDE Connect Android app from
+    the Google Play Store or F-Droid.
+
+    GSConnect is a complete KDE Connect protocol implementation for GNOME Shell
+    with Nautilus, contacts and Shell integration.
+command:
+- /opt/apps/gnome-shell-extension-gsconnect.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
