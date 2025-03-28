@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: jugglinglab.linyaps
+  name: jugglinglab
+  version: 0.6.2.2
+  kind: app
+  description: |-
+    Application for creating and animating juggling patterns
+    Juggling Lab is an application written in Java for creating and animating
+    juggling patterns.
+
+    Its main goals are to help people learn juggling patterns, and to assist in
+    inventing new ones.
+
+    It generates and animates synchronous and asynchronous siteswaps and also
+    multiplex siteswaps. Hand and body movement can be adjusted.
+
+    Part of the program is its siteswap generator, which allows one to generate
+    siteswaps automatically by entering parameters like the number of objects,
+    maximum height of throws and length of the pattern.
+command:
+- /opt/apps/jugglinglab.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

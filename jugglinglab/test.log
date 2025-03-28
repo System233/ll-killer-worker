@@ -1,0 +1,28 @@
+正在测试: APPID=jugglinglab.linyaps LAYER=jugglinglab.linyaps_0.6.2.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install jugglinglab.linyaps_0.6.2.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:jugglinglab.linyaps
+Layer文件:jugglinglab.linyaps_0.6.2.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: jugglinglab.linyaps_0.6.2.2_arm64_binary.layer
+offset: 963
+mountpoint: /tmp/tmp.DZwIJtdaCZ/mnt
+dbglevel: 0
+[成功] jugglinglab.desktop: jugglinglab -> /opt/apps/jugglinglab.linyaps/files/share/icons/hicolor/scalable/apps/jugglinglab.svg
+[成功] /opt/apps/jugglinglab.linyaps/files/share/applications/jugglinglab.desktop: /opt/apps/jugglinglab.linyaps/files/entrypoint.sh jugglinglab
+[正在测试启动项]
+包名:jugglinglab.linyaps
+Layer文件:jugglinglab.linyaps_0.6.2.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: jugglinglab.linyaps_0.6.2.2_arm64_binary.layer
+offset: 963
+mountpoint: /tmp/tmp.YIBnsqAb8Q/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run jugglinglab.linyaps -- /opt/apps/jugglinglab.linyaps/files/entrypoint.sh jugglinglab
+[PID 10021] 进程已启动
+[PID 10021] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall jugglinglab.linyaps
