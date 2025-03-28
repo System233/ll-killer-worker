@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: ghextris.linyaps
+  name: ghextris
+  version: 0.9.0.5
+  kind: app
+  description: |-
+    Tetris-like game on a hexagonal grid
+    The object of the game is basically the same as in Tetris; use the
+    pieces that fall down from the top of the game area to construct
+    fully filled lines, which will then disappear to make room for more
+    pieces. The twist is that the pieces are composed of hexagonal
+    blocks, so your visualization skills will get an extra workout.
+command:
+- /opt/apps/ghextris.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
