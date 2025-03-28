@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: lxqt-powermanagement.linyaps
+  name: lxqt-powermanagement
+  version: 1.4.0.0
+  kind: app
+  description: |-
+    power management module for LXQt
+    The Power management module for LXQt.
+
+    This package contain power management module for LXQt.
+command:
+- /opt/apps/lxqt-powermanagement.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
