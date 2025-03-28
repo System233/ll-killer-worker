@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: mixxx.linyaps
+  name: mixxx
+  version: 2.4.0.2
+  kind: app
+  description: |-
+    Digital Disc Jockey Interface
+    Mixxx is a digital DJ system, where Wave, Ogg, FLAC and MP3 files can be
+    mixed on a computer for use in live performances. Filters, crossfader, and
+    speed control are provided. Mixxx can sync the 2 streams automatically, using
+    an algorithm to detect the beat.
+
+    Mixxx works with Jack or OSS, can be controlled from the GUI or from external
+    controllers, including MIDI devices and joysticks, and supports skins.
+command:
+- /opt/apps/mixxx.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
