@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kmymoney.linyaps
+  name: kmymoney
+  version: 5.1.3.1
+  kind: app
+  description: |-
+    personal finance manager for KDE
+    KMyMoney is the Personal Finance Manager for KDE. It operates similar to
+    MS-Money and Quicken, supports different account types, categorisation of
+    expenses, QIF import/export, multiple currencies and initial online banking
+    support.
+command:
+- /opt/apps/kmymoney.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
