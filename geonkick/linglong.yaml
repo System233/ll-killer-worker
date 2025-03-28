@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: geonkick.linyaps
+  name: geonkick
+  version: 2.10.2.0
+  kind: app
+  description: |-
+    Kick drum synthesizer
+    Geonkick is a synthesizer that can synthesize elements of percussion. The most
+    basic examples are: kick drums, snares, hit-hats, shakers, claps, steaks.
+
+    Available as an LV2 plugin and JACK standalone version.
+command:
+- /opt/apps/geonkick.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
