@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: gnome-kiosk.linyaps
+  name: gnome-kiosk
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    mutter based compositor for kiosks
+    GNOME Kiosk provides a desktop environment suitable for fixed purpose, or
+    single application deployments like wall displays and point-of-sale systems.
+
+    It provides a very minimal wayland display server and compositor and Xorg
+    compositor and window manager. It automatically starts applications fullscreen.
+
+    Notably, GNOME Kiosk features no panels, dashes, or docks that could distract
+    from the application using it as a platform.
+command:
+- /opt/apps/gnome-kiosk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
