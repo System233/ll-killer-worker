@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: fcitx-data.linyaps
+  name: fcitx-data
+  version: 4.2.9.0
+  kind: app
+  description: |-
+    Flexible Input Method Framework - essential data files
+    Fcitx is an input method framework with extension support, which provides
+    an interface for entering characters of different scripts in applications
+    using a variety of mapping systems.
+
+    It offers a pleasant and modern experience, with intuitive graphical
+    configuration tools and customizable skins and mapping tables. It is
+    highly modularized and extensible, with GTK+ 2/3 and Qt 4/5 IM Modules, support
+    for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+    API.
+
+    This package provides the essential data files. If you are looking for a
+    working input experience, please install the package "fcitx" instead.
+command:
+- /opt/apps/fcitx-data.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
