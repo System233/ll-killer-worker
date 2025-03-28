@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: gnome-text-editor.linyaps
+  name: gnome-text-editor
+  version: 46.3.0.0
+  kind: app
+  description: |-
+    simple text editor for GNOME
+    GNOME Text Editor is a simple editor for GNOME focused on being a good
+    general purpose default editor.
+
+    It works hard to keep track of changes and state even if you quit the
+    application. You can come back to your work even if you've never saved
+    it to a file.
+
+    It is simpler than gedit.
+command:
+- /opt/apps/gnome-text-editor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
