@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: gtkterm.linyaps
+  name: gtkterm
+  version: 1.2.1.1
+  kind: app
+  description: |-
+    simple GTK+ serial port terminal
+    gtkterm is a simple GTK+ terminal used to communicate with the serial port.
+
+    Its features :
+
+    * Serial port terminal window
+    * Serial port setup (speed, parity, bits, stopbits, flow control)
+    * Using the termios API
+    * Possible to send a file (only RAW data, no protocol)
+    * End of line delay while sending a file
+    * Special character wait before next line while sending a file
+    * Possible to toggle control lines manually (DTR, CTS)
+    * Also reads the state of control lines (RTS, CD, DSR, RI)
+
+    Author:   Julien Schmitt <julien@jls-info.com>
+command:
+- /opt/apps/gtkterm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
