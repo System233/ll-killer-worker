@@ -73,7 +73,7 @@ const generateStatistic = async (rootDir, pkgId, repo, arch) => {
     VERSION: version || "N/A",
     TEST: testResults || "失败",
     REPO: repo,
-    SHA256SUM: sha256sum ? `[SHA256SUM](./${pkgId}/SHA256SUMS)` : "N/A",
+    SHA256SUM: sha256sum ? `[SHA256](./${pkgId}/SHA256SUMS)` : "N/A",
   };
 };
 
@@ -157,7 +157,7 @@ const main = async () => {
         `|${item.name}|${item.index}|${item.total}|${item.success} |${item.total - item.success} | ${formatPercentage(item.success, item.total)}| ${formatPercentage(item.success, item.index)}|`,
     ),
     "## 详细结果",
-    "| 包名   | 架构 |仓库| 版本    | 测试结果 | SHA256SUM |",
+    "| 包名   | 架构 |仓库| 版本    | 测试结果 | SHA256 |",
     "|-------|------|-----|----|---------|-----------|",
     ...stats.map(
       (stat) =>
