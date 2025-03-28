@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: guake.linyaps
+  name: guake
+  version: 3.10.0.2
+  kind: app
+  description: |-
+    Drop-down terminal for GNOME Desktop Environment
+    Guake is a drop-down terminal for GNOME Desktop Environment, so you just
+    need to press a key to invoke him, and press again to hide.
+    Guake supports hotkeys, tabs, background transparent, etc.
+command:
+- /opt/apps/guake.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
