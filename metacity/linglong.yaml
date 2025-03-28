@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: metacity.linyaps
+  name: metacity
+  version: 3.52.0.1
+  kind: app
+  description: |-
+    lightweight GTK window manager
+    Metacity is a small window manager, using GTK to do everything.
+
+    As the author says, metacity is a "Boring window manager for the adult in
+    you. Many window managers are like Marshmallow Froot Loops; Metacity is
+    like Cheerios."
+
+    This package contains the core binaries.
+command:
+- /opt/apps/metacity.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
