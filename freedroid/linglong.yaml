@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: freedroid.linyaps
+  name: freedroid
+  version: 1.0.2.7
+  kind: app
+  description: |-
+    Clone of Paradroid - a strategic shoot-em up
+    You must clear a spaceship from all droids.  To achieve this your
+    device will need to take control of more powerful droids, more able
+    to confront the most powerful ones.  But you'll also need to manage
+    your energy, as you won't be able to control any droid for an
+    indefinite time, and even your own device has a limited lifetime.
+
+    Note that this package is different from the freedroidrpg game,
+    developed by the same team, and also available in Debian.
+command:
+- /opt/apps/freedroid.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
