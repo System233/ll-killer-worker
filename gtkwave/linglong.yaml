@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gtkwave.linyaps
+  name: gtkwave
+  version: 3.3.116.1
+  kind: app
+  description: |-
+    VCD (Value Change Dump) file waveform viewer
+    gtkwave is a viewer for VCD (Value Change Dump) files which
+    are usually created by digital circuit simulators. (These files
+    have no connection to video CDs!)
+command:
+- /opt/apps/gtkwave.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
