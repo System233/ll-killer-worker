@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kiwix.linyaps
+  name: kiwix
+  version: 2.3.1.2
+  kind: app
+  description: |-
+    offline Wikipedia reader
+    Kiwix is an offline reader and manager for online content
+    like Wikipedia, Project Gutenberg, or TED Talks.
+    Kiwix allows you to read and search through offline content
+    as they were online. Similar to a browser, Kiwix works with
+    the highly compressed ZIM file format.
+command:
+- /opt/apps/kiwix.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
