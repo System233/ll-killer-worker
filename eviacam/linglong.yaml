@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: eviacam.linyaps
+  name: eviacam
+  version: 2.1.4.2
+  kind: app
+  description: |-
+    camera based mouse emulator
+    Enable Viacam (aka eViacam) is a mouse replacement program that moves
+    the pointer tracking the user's head movements. It works on a standard
+    computer equipped with a "webcam". No additional hardware is required.
+    Based on the award winning Facial Mouse.
+command:
+- /opt/apps/eviacam.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

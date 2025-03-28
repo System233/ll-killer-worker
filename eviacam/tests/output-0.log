@@ -1,0 +1,20 @@
+包名:eviacam.linyaps
+Layer文件:eviacam.linyaps_2.1.4.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: eviacam.linyaps_2.1.4.2_x86_64_binary.layer
+offset: 641
+mountpoint: /tmp/tmp.8p5LIaPm22/mnt
+dbglevel: 0
+Use: 1001, Group: 1001. Eff. usr: 1001, Eff. group: 1001
+eviacamloader: this program needs root privileges. not renicing.
+ERROR: ld.so: object '/usr/\37LIB/pulseaudio/libpulsedsp.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+
+(eviacam:37): dbind-[1;33mWARNING[0m **: [34m02:35:54.841[0m: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+[ERROR:0@0.240] global ./modules/core/src/persistence.cpp (505) open Can't open file: '/usr/share/eviacam/haarcascade_frontalface_default.xml' in read mode
+[ERROR:0@0.240] global ./modules/core/src/persistence.cpp (505) open Can't open file: '/usr/share/opencv/haarcascades/haarcascade_frontalface_default.xml' in read mode
+[ERROR:0@0.240] global ./modules/core/src/persistence.cpp (505) open Can't open file: '/usr/share/OpenCV/haarcascades/haarcascade_frontalface_default.xml' in read mode
+[ WARN:0@1.248] global ./modules/videoio/src/videoio_c.cpp (15) cvCreateCameraCapture cvCreateCameraCapture doesn't support legacy API anymore.
