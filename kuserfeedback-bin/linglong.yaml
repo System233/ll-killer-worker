@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: kuserfeedback-bin.linyaps
+  name: kuserfeedback-bin
+  version: 1.3.0.3
+  kind: app
+  description: |-
+    user feedback for applications - executables
+    Framework for collecting user feedback for applications via telemetry
+    and surveys.
+
+    Telemetry
+    * Extensible set of data sources for telemetry.
+    * Full control for the user on what data to contribute.
+    Surveys
+    * Distribute surveys and offer users to participate in them.
+    * Survey targeting based on telemetry data.
+    * Allow the user to configure how often they want to participate in surveys.
+
+    This package contains the management and analytics applications.
+command:
+- /opt/apps/kuserfeedback-bin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
