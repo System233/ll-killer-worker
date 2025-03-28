@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: gnome-genius.linyaps
+  name: gnome-genius
+  version: 1.0.27.1
+  kind: app
+  description: |-
+    advanced general purpose calculator program (GNOME frontend)
+    Genius is a general purpose calculator program similar in some aspects to
+    BC, Matlab or Maple. It is useful both as a simple calculator and as a
+    research or educational tool. The syntax is very intuitive and is designed
+    to mimic how mathematics is usually written.
+
+    This package contains a GNOME frontend for genius.
+command:
+- /opt/apps/gnome-genius.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
