@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: grsync.linyaps
+  name: grsync
+  version: 1.3.0.1
+  kind: app
+  description: |-
+    GTK+ frontend for rsync
+    grsync is a simple graphical interface using GTK2 for the rsync command line
+    program. It currently supports only a limited set of the most important rsync
+    features, but can be used effectively for local directory synchronization.
+command:
+- /opt/apps/grsync.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
