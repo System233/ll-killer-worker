@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: laby.linyaps
+  name: laby
+  version: 0.7.0.2
+  kind: app
+  description: |-
+    Learn how to program with ants and spider webs
+    Laby is a small program to learn how to program with ants and spider webs.
+    You have to move an ant out of a labyrinth, avoid spider webs, move rocks,
+    etc.
+
+    Using Laby, you can learn OCaml, C, C++, Java, Prolog, Ruby, Pascal,
+    JavaScript, Python, Lua, Vala, Scheme, Go and PHP. Other bindings can
+    easily be added to support new programming languages.
+command:
+- /opt/apps/laby.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
