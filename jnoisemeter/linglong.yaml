@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: jnoisemeter.linyaps
+  name: jnoisemeter
+  version: 0.4.1.1
+  kind: app
+  description: |-
+    audio test signals meter
+    A jnoisemeter is a small app designed to measure audio
+    test signals and in particular noise signals.
+
+    The simplest use is to measure the S/N ratio of your
+    sound card. If you can calibrate the input levels of
+    your soundcard it can also be used (with some external
+    hardware) to measure noise levels of any type of audio
+    equipment, including preamps and microphones.
+command:
+- /opt/apps/jnoisemeter.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
