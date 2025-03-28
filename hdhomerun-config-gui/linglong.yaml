@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: hdhomerun-config-gui.linyaps
+  name: hdhomerun-config-gui
+  version: 20161117.0.0.0
+  kind: app
+  description: |-
+    GUI Configuration utility for Silicon Dust HD HomeRun
+    This package supports the Silicon Dust HDHomeRun.
+    The HDHomeRun is a networked, two tuner digital TV tuner
+    compatible with MythTV, SageTV, and VLC.
+
+    This utility can be used for:
+    * Discovering your tuner location and name
+    * Gathering tuner settings
+    * Setting tuner setting
+    * Performing scans
+    * Performing firmware upgrades
+command:
+- /opt/apps/hdhomerun-config-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
