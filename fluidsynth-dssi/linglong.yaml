@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: fluidsynth-dssi.linyaps
+  name: fluidsynth-dssi
+  version: 1.0.0.9
+  kind: app
+  description: |-
+    DSSI wrapper for the FluidSynth SoundFont-playing synthesizer
+    The FluidSynth-DSSI  package contains FluidSynth-DSSI, a wrapper for the
+    FluidSynth SoundFont-playing software synthesizer, allowing it to function
+    as a DSSI plugin.
+
+    DSSI is an API for audio processing plugins, particularly useful for software
+    synthesis plugins with user interfaces.
+command:
+- /opt/apps/fluidsynth-dssi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
