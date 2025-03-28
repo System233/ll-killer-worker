@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kio-audiocd.linyaps
+  name: kio-audiocd
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    transparent audio CD access for applications using the KDE Platform
+    This package includes the audiocd KIO plugin, which allows applications using
+    the KDE Platform to read audio from CDs and automatically convert it into other
+    formats.
+
+    This package is part of the KDE multimedia module.
+command:
+- /opt/apps/kio-audiocd.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
