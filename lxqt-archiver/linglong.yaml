@@ -1,0 +1,36 @@
+version: "1"
+package:
+  id: lxqt-archiver.linyaps
+  name: lxqt-archiver
+  version: 0.9.1.0
+  kind: app
+  description: |-
+    Archive Manager for LXQt
+    LXQt Archiver is an archive manager for the LXQt environment.
+    It allows you to:
+    * Create and modify archives.
+    * View the content of an archive.
+    * View a file contained in an archive.
+    * Extract files from the archive.
+
+    LXQt Archiver supports the following formats:
+    * Tar (.tar) archives, including those compressed with
+    gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),
+    compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),
+    lzma (.tar.lzma) and xz (.tar.xz)
+    * Zip archives (.zip)
+    * Jar archives (.jar, .ear, .war)
+    * 7z archives (.7z)
+    * iso9660 CD images (.iso)
+    * Lha archives (.lzh)
+    * Single files compressed with gzip (.gz), bzip (.bz), bzip2 (.bz2),
+    compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) and xz (.xz)
+
+    LXQt Archiver doesn't perform archive operations by itself, but relies on
+    standard tools for this.
+
+    This package contain the LXQt archiver.
+command:
+- /opt/apps/lxqt-archiver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
