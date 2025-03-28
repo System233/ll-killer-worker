@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: freecol.linyaps
+  name: freecol
+  version: 1.1.0.1
+  kind: app
+  description: |-
+    open source remake of the old Colonization
+    freecol is a game in the spirit of Civilization but taking place in a
+    colonial background. Colonize the new world, build towns, trade or
+    fight with natives and other European civilizations, trade with your
+    homeland until you're ready to fight for your independence !
+command:
+- /opt/apps/freecol.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
