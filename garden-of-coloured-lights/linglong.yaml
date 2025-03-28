@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: garden-of-coloured-lights.linyaps
+  name: garden-of-coloured-lights
+  version: 1.0.9.2
+  kind: app
+  description: |-
+    abstract vertical shooter with music elements
+    The game is basically a vertical shooter with music elements. The
+    enemies, in fact, are kind of musical. Linley has added a simple background
+    tune, that gets mixed with the diffetent notes played when enemies shoot.
+
+    Part of what stands out about Garden of Coloured Lights are its graphics,
+    that even though are kept quite simple, are also carefully taken care of.
+    Every ship still has moving parts and mechanisms that open and close, and
+    every level is different, even though all of them share a common theme.
+
+    Your ship comes equipped with 3 options, each with its own unique weapon.
+    There are a few pre-designed schemes to play with, or you can create your
+    own combination of weapons.
+
+    Garden of Coloured Lights was Linley Henzel's entry for the SHMUP-DEV
+    Competition 2k7 Round 2.
+command:
+- /opt/apps/garden-of-coloured-lights.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
