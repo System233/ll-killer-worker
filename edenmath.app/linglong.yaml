@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: edenmath.app.linyaps
+  name: edenmath.app
+  version: 1.1.1.8
+  kind: app
+  description: |-
+    Scientific calculator for GNUstep
+    EdenMath is a scientific calculator. It does standard arithmetic,
+    probability, and trigonometric functions.
+
+    This is a GNUstep port of the original MacOS X application:
+    http://www.edenwaith.com/products/edenmath/
+command:
+- /opt/apps/edenmath.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
