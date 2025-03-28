@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: gnome-shell.linyaps
+  name: gnome-shell
+  version: 46.0.0.0
+  kind: app
+  description: |-
+    graphical shell for the GNOME desktop
+    The GNOME Shell provides core interface functions like switching
+    windows, launching applications or see your notifications. It takes
+    advantage of the capabilities of modern graphics hardware and
+    introduces innovative user interface concepts to provide a
+    delightful and easy to use experience. GNOME Shell is the defining
+    technology of the GNOME 3 user experience.
+command:
+- /opt/apps/gnome-shell.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
