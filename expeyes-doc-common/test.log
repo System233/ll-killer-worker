@@ -1,0 +1,38 @@
+正在测试: APPID=expeyes-doc-common.linyaps LAYER=expeyes-doc-common.linyaps_4.3.0.3_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install expeyes-doc-common.linyaps_4.3.0.3_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:expeyes-doc-common.linyaps
+Layer文件:expeyes-doc-common.linyaps_4.3.0.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: expeyes-doc-common.linyaps_4.3.0.3_x86_64_binary.layer
+offset: 1119
+mountpoint: /tmp/tmp.fkAdbtGn7h/mnt
+dbglevel: 0
+[成功] expeyes-doc.desktop: eyes-doc -> /opt/apps/expeyes-doc-common.linyaps/files/share/icons/eyes-doc.png
+[成功] /opt/apps/expeyes-doc-common.linyaps/files/share/applications/expeyes-doc.desktop: /opt/apps/expeyes-doc-common.linyaps/files/entrypoint.sh expeyes-doc
+[成功] expeyes-junior-doc.desktop: eyesj-doc -> /opt/apps/expeyes-doc-common.linyaps/files/share/icons/eyesj-doc.png
+[成功] /opt/apps/expeyes-doc-common.linyaps/files/share/applications/expeyes-junior-doc.desktop: /opt/apps/expeyes-doc-common.linyaps/files/entrypoint.sh expeyes-junior-doc
+[成功] progman-jr-doc.desktop: expeyes-progman-jr-doc -> /opt/apps/expeyes-doc-common.linyaps/files/share/icons/expeyes-progman-jr-doc.png
+[成功] /opt/apps/expeyes-doc-common.linyaps/files/share/applications/progman-jr-doc.desktop: /opt/apps/expeyes-doc-common.linyaps/files/entrypoint.sh expeyes-progman-jr-doc
+[正在测试启动项]
+包名:expeyes-doc-common.linyaps
+Layer文件:expeyes-doc-common.linyaps_4.3.0.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: expeyes-doc-common.linyaps_4.3.0.3_x86_64_binary.layer
+offset: 1119
+mountpoint: /tmp/tmp.MKF6LsBKHN/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run expeyes-doc-common.linyaps -- /opt/apps/expeyes-doc-common.linyaps/files/entrypoint.sh expeyes-doc
+[PID 11503] 进程已启动
+[PID 11503] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run expeyes-doc-common.linyaps -- /opt/apps/expeyes-doc-common.linyaps/files/entrypoint.sh expeyes-junior-doc
+[PID 11628] 进程已启动
+[PID 11628] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run expeyes-doc-common.linyaps -- /opt/apps/expeyes-doc-common.linyaps/files/entrypoint.sh expeyes-progman-jr-doc
+[PID 11753] 进程已启动
+[PID 11753] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall expeyes-doc-common.linyaps
