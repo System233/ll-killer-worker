@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: freeciv-client-sdl.linyaps
+  name: freeciv-client-sdl
+  version: 3.1.0.1
+  kind: app
+  description: |-
+    Civilization turn based strategy game (SDL client)
+    Freeciv is a free clone of the turn based strategy game Civilization.
+    In this game, each player becomes leader of a civilisation, fighting to
+    obtain the ultimate goal: the extinction of all other civilisations.
+
+    This version of Freeciv is based on SDL, the Simple DirectMedia Layer library.
+    It is recommended to install the »freeciv-client-gtk3« package and to use the
+    GTK 3 client unless you really want to try this one. The SDL client offers a
+    different look&feel but lacks some functionality of the GTK 3 client.
+command:
+- /opt/apps/freeciv-client-sdl.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
