@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: grisbi.linyaps
+  name: grisbi
+  version: 3.0.3.1
+  kind: app
+  description: |-
+    personal finance management program
+    Grisbi is a personal accounting program. Grisbi can handle multiple
+    accounts, currencies and users. It helps you manage your money using
+    third party, expenditure and receipt categories, as well as budgetary
+    lines, financial years, and other information that makes it adapted
+    for both personal and associative accounting.
+
+    Grisbi can import accounts from QIF, OFX and Gnucash files. It can
+    print reports using LaTeX or export them via HTML.
+command:
+- /opt/apps/grisbi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
