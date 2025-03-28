@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: lxhotkey-gtk.linyaps
+  name: lxhotkey-gtk
+  version: 0.1.1.2
+  kind: app
+  description: |-
+    LXHotkey keyboard shortcuts configurator (GTK+ GUI plugin)
+    LXHotkey is an universal application for the Lightweight X11 Desktop
+    Environment (LXDE) which allows view and change global keyboard shortcuts
+    for Window Manager actions, including ones to start applications.
+
+    This package contains a GTK+ 2.0 GUI plugin.
+command:
+- /opt/apps/lxhotkey-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
