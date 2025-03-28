@@ -1,0 +1,35 @@
+version: "1"
+package:
+  id: kwave.linyaps
+  name: kwave
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    sound editor for KDE
+    Kwave is a sound editor designed for the KDE Desktop Environment.
+
+    With Kwave you can record, play back, import and edit many sorts of audio
+    files including multi-channel files.
+
+    Kwave includes some plugins to transform audio files in several ways and
+    presents a graphical view with a complete zoom- and scroll capability.
+
+    Its features include:
+    * 24 Bit Support
+    * Undo/Redo
+    * Use of multicore CPUs (SMP, hyperthreading)
+    * Simple Drag & Drop
+    * Realtime Pre-Listen for some effects
+    * Support for multi-track files
+    * Playback and recording via native ALSA, PulseAudio (or OSS deprecated)
+    * Playback via Phonon
+    * Load and edit-capability for large files (can use virtual memory)
+    * Reading and auto-repair of damaged wav-files
+    * Supports multiple windows
+    * Extendable Plugin interface
+    * a nice splashscreen
+    * some label handling
+command:
+- /opt/apps/kwave.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
