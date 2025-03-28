@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: hv3.linyaps
+  name: hv3
+  version: 3.0.0.8
+  kind: app
+  description: |-
+    Lightweight web browser
+    Hv3 is a cross-platform web browser with support for modern web
+    standards like HTML, CSS, HTTP.
+
+    ECMAScript (a.k.a. javascript) is not supported since the corresponding
+    library (SEE) is not available in Debian yet.
+command:
+- /opt/apps/hv3.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
