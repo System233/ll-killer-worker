@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: mate-tweak.linyaps
+  name: mate-tweak
+  version: 22.10.0.3
+  kind: app
+  description: |-
+    MATE desktop tweak tool
+    Configures some aspects of the MATE desktop not exposed via the
+    MATE Control Center applets.
+
+    Settings that can be handled via MATE Tweak:
+
+    - Show/hide standard desktop icons
+    - Panel fine-tuning (icon visibility, in menus and on buttons,
+    icon size, button labelling, contex menus, etc.)
+    - Window manager fine-tuning
+command:
+- /opt/apps/mate-tweak.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
