@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kasts.linyaps
+  name: kasts
+  version: 23.8.5.1
+  kind: app
+  description: |-
+    Kirigami-based podcast player
+    Kasts is a convergent podcast application.
+    It allows discovering via an online directory
+    to find podcasts, and then downloads and plays.
+
+    The GUI uses Kirigami, so it works on mobile and desktop.
+command:
+- /opt/apps/kasts.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
