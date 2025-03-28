@@ -1,11 +1,11 @@
 # amd64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3160|1074|608 |466 | 56.61%| 19.24%|
+|3160|1079|610 |469 | 56.53%| 19.30%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2779|788|510 |278 | 64.72%| 18.35%|
+|ubuntu-noble|2779|793|512 |281 | 64.56%| 18.42%|
 |deepin-v23|380|285|97 |188 | 34.04%| 25.53%|
 |obs-studio|1|1|1 |0 | 100.00%| 100.00%|
 ## 详细结果
@@ -956,6 +956,11 @@
 | [gearhead2-sdl](./gearhead2-sdl) | amd64  | ubuntu-noble | 0.701-2-20250327 | 失败 | [SHA256](./gearhead2-sdl/SHA256SUMS) |
 | [geary](./geary) | amd64  | ubuntu-noble | 44.1-2build2-20250327 | 失败 | [SHA256](./geary/SHA256SUMS) |
 | [gedit](./gedit) | amd64  | ubuntu-noble | 46.2-2-20250327 | 失败 | N/A |
+| [geeqie](./geeqie) | amd64  | ubuntu-noble | 2.2-2build4-20250327 | 失败 | [SHA256](./geeqie/SHA256SUMS) |
+| [geeqie-common](./geeqie-common) | amd64  | ubuntu-noble | 2.2-2build4-20250327 | 失败 | [SHA256](./geeqie-common/SHA256SUMS) |
+| [geg](./geg) | amd64  | ubuntu-noble | 2.0.9-4build2 | ![screen0-5.jpg](./geg/tests/screen0-5.jpg) | [SHA256](./geg/SHA256SUMS) |
+| [geis-tools](./geis-tools) | amd64  | ubuntu-noble | 2.2.17+16.04.20160126-0ubuntu10-20250327 | 失败 | [SHA256](./geis-tools/SHA256SUMS) |
+| [geki2](./geki2) | amd64  | ubuntu-noble | 2.0.3-10 | ![screen0-5.jpg](./geki2/tests/screen0-5.jpg) | [SHA256](./geki2/SHA256SUMS) |
 | [geoclue-2-demo](./geoclue-2-demo) | amd64  | deepin-v23 | 2.7.1-2-07be3ef | 失败 | N/A |
 | [geoclue-2.0](./geoclue-2.0) | amd64  | deepin-v23 | 2.7.1-2-07be3ef | 失败 | N/A |
 | [gftp-gtk](./gftp-gtk) | amd64  | ubuntu-noble | 2.8.0~beta-1 | ![screen0-5.jpg](./gftp-gtk/tests/screen0-5.jpg) | [SHA256](./gftp-gtk/SHA256SUMS) |
