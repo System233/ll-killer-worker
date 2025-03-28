@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: horizon-eda.linyaps
+  name: horizon-eda
+  version: 2.5.0.1
+  kind: app
+  description: |-
+    EDA layout and schematic application
+    Horizon is an Electronic Design Automation (EDA) tool for circuit
+    board design. It manages the full design flow from schematic entry
+    to gerber export. The main differentiator from KiCAD is a different
+    (more sane) part library design. It is quite new software in 2018
+    so may have rough edges but is already very capable.
+
+    Notable features:
+    * Sane library management
+    * Unified editor for everything from symbol to board
+    * Netlist-aware schematic editor
+    * KiCad's awesome interactive router
+    * Lag- and glitch-free rendering
+    * Rule-based DRC
+    * Undo/redo
+    * Copy/paste for some objects
+    * Builds and runs on Linux and Windows
+command:
+- /opt/apps/horizon-eda.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
