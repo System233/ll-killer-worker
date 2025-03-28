@@ -1,0 +1,32 @@
+version: "1"
+package:
+  id: gabedit.linyaps
+  name: gabedit
+  version: 2.5.1.1
+  kind: app
+  description: |-
+    graphical user interface to Ab Initio packages
+    Gabedit is a graphical user interface to computational chemistry
+    packages like:
+
+    - MPQC
+    - GAMESS-US
+    - Gaussian
+    - Molcas
+    - Molpro
+    - Q-Chem
+
+    These Ab Initio software packages might run locally or on a remote
+    server (supporting FTP, RSH and SSH). Gabedit can display a variety
+    of calculation results including most major molecular file formats.
+    The advanced "Molecule Builder" allows one to rapidly sketch in
+    molecules and examine them in 3D. Graphics can further be exported
+    to various formats, including animations.
+
+    slurm-wlm-torque and gridengine-client are workload managers which
+    provide wrappers for PBS commands. Gabedit also allows one to
+    configure it for any other workload manager.
+command:
+- /opt/apps/gabedit.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

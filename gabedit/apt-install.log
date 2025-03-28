@@ -1,0 +1,822 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  at-spi2-common cups cups-bsd cups-client cups-common cups-core-drivers
+  cups-daemon cups-ipp-utils cups-ppdc cups-server-common gcc-14-base
+  gnutls-bin ibverbs-providers libamd-comgr2 libamdhip64-5 libasound2-data
+  libatk1.0-0t64 libatomic1 libblas3 libboost-iostreams1.83.0 libcups2t64
+  libdw1t64 libelf1t64 libevent-core-2.1-7t64 libevent-pthreads-2.1-7t64
+  libfabric1 libgail-common libgail18t64 libgcc-s1 libgfortran5 libgl2ps1.4
+  libglib2.0-0t64 libgnutls-dane0t64 libgnutls30t64 libgomp1 libgtk2.0-0t64
+  libgtk2.0-bin libgtkglext1 libhogweed6t64 libhsa-runtime64-1 libhsakmt1
+  libhwloc-plugins libhwloc15 libibverbs1 libinchi1 libint1 libjson-glib-1.0-0
+  libjson-glib-1.0-common liblapack3 libmaeparser1 libmunge2 libnettle8t64
+  libnl-3-200 libnl-route-3-200 libopenbabel7 libopenmpi3t64 libp11-kit0
+  libpmix2t64 libpsl5t64 libpsm-infinipath1 libpsm2-2 librdmacm1t64 librsvg2-2
+  librsvg2-common libsc-data libsc7v5 libsnapd-glib-2-1 libsoup-3.0-0
+  libsoup-3.0-common libssl3t64 libstdc++6 libsymspg2 libucx0 libunistring5
+  libxmu6 libxmuu1 libxnvctrl0 mpi-default-bin mpqc openbabel openmpi-bin
+  openmpi-common openssh-client p11-kit p11-kit-modules publicsuffix xauth
+Suggested packages:
+  cups-pdf foomatic-db-compressed-ppds | foomatic-db smbclient inetutils-inetd
+  | inet-superserver update-inetd a2ps ftp-ssl | ftp slurm-wlm-torque
+  | gridengine-client alsa-utils low-memory-monitor dns-root-data gvfs
+  libhwloc-contrib-plugins librsvg2-bin snapd mpqc-support gfortran
+  | fortran-compiler keychain libpam-ssh monkeysphere ssh-askpass
+Recommended packages:
+  avahi-daemon colord cups-browsed ipp-usb alsa-ucm-conf alsa-topology-conf
+The following packages will be REMOVED:
+  gir1.2-atk-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0 gir1.2-glib-2.0
+  gir1.2-harfbuzz-0.0 gir1.2-pango-1.0 libatk1.0-0 libcups2 libcupsimage2
+  libdw1 libelf1 libglib2.0-0 libglib2.0-bin libgnutls-dane0 libgnutls30
+  libhogweed6 libnettle8 libpsl5
+The following NEW packages will be installed:
+  gabedit gcc-14-base ibverbs-providers libamd-comgr2 libamdhip64-5
+  libatk1.0-0t64 libatomic1 libblas3 libboost-iostreams1.83.0 libcups2t64
+  libdw1t64 libelf1t64 libevent-core-2.1-7t64 libevent-pthreads-2.1-7t64
+  libfabric1 libgail-common libgail18t64 libgfortran5 libgl2ps1.4
+  libglib2.0-0t64 libgnutls-dane0t64 libgnutls30t64 libgtk2.0-0t64
+  libgtk2.0-bin libgtkglext1 libhogweed6t64 libhsa-runtime64-1 libhsakmt1
+  libhwloc-plugins libhwloc15 libibverbs1 libinchi1 libint1 libjson-glib-1.0-0
+  libjson-glib-1.0-common liblapack3 libmaeparser1 libmunge2 libnettle8t64
+  libnl-3-200 libnl-route-3-200 libopenbabel7 libopenmpi3t64 libpmix2t64
+  libpsl5t64 libpsm-infinipath1 libpsm2-2 librdmacm1t64 librsvg2-common
+  libsc-data libsc7v5 libsnapd-glib-2-1 libsoup-3.0-0 libsoup-3.0-common
+  libssl3t64 libsymspg2 libucx0 libunistring5 libxmuu1 libxnvctrl0
+  mpi-default-bin mpqc openbabel openmpi-bin openmpi-common openssh-client
+  publicsuffix xauth
+The following packages will be upgraded:
+  at-spi2-common cups cups-bsd cups-client cups-common cups-core-drivers
+  cups-daemon cups-ipp-utils cups-ppdc cups-server-common gnutls-bin
+  libasound2-data libgcc-s1 libgomp1 libp11-kit0 librsvg2-2 libstdc++6 libxmu6
+  p11-kit p11-kit-modules
+20 upgraded, 68 newly installed, 18 to remove and 429 not upgraded.
+Need to get 68.2 MB of archives.
+After this operation, 211 MB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 gcc-14-base amd64 14.2.0-4ubuntu2~24.04 [50.8 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgcc-s1 amd64 14.2.0-4ubuntu2~24.04 [78.6 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 librsvg2-2 amd64 2.58.0+dfsg-1build1 [2135 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libglib2.0-0t64 amd64 2.80.0-6ubuntu3.2 [1546 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libatk1.0-0t64 amd64 2.52.0-1build1 [55.3 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 at-spi2-common all 2.52.0-1build1 [8674 B]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 cups-ipp-utils amd64 2.4.7-1.2ubuntu7.3 [233 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjson-glib-1.0-common all 1.8.0-2build2 [4244 B]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjson-glib-1.0-0 amd64 1.8.0-2build2 [68.0 kB]
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsoup-3.0-common all 3.4.4-5ubuntu0.1 [10.3 kB]
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpsl5t64 amd64 0.21.2-1.1build1 [57.1 kB]
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libunistring5 amd64 1.1-2build1.1 [536 kB]
+Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsoup-3.0-0 amd64 3.4.4-5ubuntu0.1 [287 kB]
+Get:14 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsnapd-glib-2-1 amd64 1.64-0ubuntu5 [107 kB]
+Get:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 cups-daemon amd64 2.4.7-1.2ubuntu7.3 [362 kB]
+Get:16 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 cups-core-drivers amd64 2.4.7-1.2ubuntu7.3 [29.5 kB]
+Get:17 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 cups-common all 2.4.7-1.2ubuntu7.3 [262 kB]
+Get:18 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 cups-bsd amd64 2.4.7-1.2ubuntu7.3 [42.2 kB]
+Get:19 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 cups-client amd64 2.4.7-1.2ubuntu7.3 [153 kB]
+Get:20 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libstdc++6 amd64 14.2.0-4ubuntu2~24.04 [791 kB]
+Get:21 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 cups-ppdc amd64 2.4.7-1.2ubuntu7.3 [119 kB]
+Get:22 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 cups-server-common all 2.4.7-1.2ubuntu7.3 [419 kB]
+Get:23 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 cups amd64 2.4.7-1.2ubuntu7.3 [292 kB]
+Get:24 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgnutls-dane0t64 amd64 3.8.3-1.1ubuntu3.3 [23.5 kB]
+Get:25 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 gnutls-bin amd64 3.8.3-1.1ubuntu3.3 [270 kB]
+Get:26 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libnettle8t64 amd64 3.9.1-2.2build1.1 [182 kB]
+Get:27 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libhogweed6t64 amd64 3.9.1-2.2build1.1 [199 kB]
+Get:28 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 p11-kit-modules amd64 0.25.3-4ubuntu2.1 [328 kB]
+Get:29 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libp11-kit0 amd64 0.25.3-4ubuntu2.1 [300 kB]
+Get:30 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgnutls30t64 amd64 3.8.3-1.1ubuntu3.3 [995 kB]
+Get:31 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libcups2t64 amd64 2.4.7-1.2ubuntu7.3 [272 kB]
+Get:32 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libdw1t64 amd64 0.190-1.1ubuntu0.1 [261 kB]
+Get:33 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libelf1t64 amd64 0.190-1.1ubuntu0.1 [57.8 kB]
+Get:34 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libssl3t64 amd64 3.0.13-0ubuntu3.5 [1940 kB]
+Get:35 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libnl-3-200 amd64 3.7.0-0.3build1.1 [55.7 kB]
+Get:36 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libnl-route-3-200 amd64 3.7.0-0.3build1.1 [189 kB]
+Get:37 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libibverbs1 amd64 50.0-2build2 [67.8 kB]
+Get:38 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 ibverbs-providers amd64 50.0-2build2 [374 kB]
+Get:39 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxmuu1 amd64 2:1.1.3-3build2 [8958 B]
+Get:40 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 openssh-client amd64 1:9.6p1-3ubuntu13.9 [905 kB]
+Get:41 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 publicsuffix all 20231001.0357-0.1 [129 kB]
+Get:42 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 xauth amd64 1:1.1.2-1build1 [25.6 kB]
+Get:43 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgomp1 amd64 14.2.0-4ubuntu2~24.04 [148 kB]
+Get:44 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libinchi1 amd64 1.03+dfsg-4build1 [463 kB]
+Get:45 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libboost-iostreams1.83.0 amd64 1.83.0-2.1ubuntu3.1 [259 kB]
+Get:46 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libmaeparser1 amd64 1.3.1-1build1 [90.2 kB]
+Get:47 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libopenbabel7 amd64 3.1.1+dfsg-9ubuntu5 [3240 kB]
+Get:48 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 openbabel amd64 3.1.1+dfsg-9ubuntu5 [129 kB]
+Get:49 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libgl2ps1.4 amd64 1.4.2+dfsg1-2build1 [41.9 kB]
+Get:50 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgtk2.0-0t64 amd64 2.24.33-4ubuntu1.1 [2006 kB]
+Get:51 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxmu6 amd64 2:1.1.3-3build2 [47.6 kB]
+Get:52 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libgtkglext1 amd64 1.2.0-11build2 [82.3 kB]
+Get:53 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libsymspg2 amd64 2.3.1-1ubuntu2 [209 kB]
+Get:54 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 gabedit amd64 2.5.1+ds-1build3 [2151 kB]
+Get:55 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libamd-comgr2 amd64 6.0+git20231212.4510c28+dfsg-3build2 [14.4 MB]
+Get:56 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libhsakmt1 amd64 5.7.0-1build1 [62.9 kB]
+Get:57 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libhsa-runtime64-1 amd64 5.7.1-2build1 [491 kB]
+Get:58 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libamdhip64-5 amd64 5.7.1-3 [9621 kB]
+Get:59 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libasound2-data all 1.2.11-1build2 [21.0 kB]
+Get:60 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libatomic1 amd64 14.2.0-4ubuntu2~24.04 [10.5 kB]
+Get:61 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libblas3 amd64 3.12.0-3build1.1 [238 kB]
+Get:62 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libevent-core-2.1-7t64 amd64 2.1.12-stable-9ubuntu2 [91.3 kB]
+Get:63 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libevent-pthreads-2.1-7t64 amd64 2.1.12-stable-9ubuntu2 [7982 B]
+Get:64 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libpsm-infinipath1 amd64 3.3+20.604758e7-6.3build1 [178 kB]
+Get:65 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libpsm2-2 amd64 11.2.185-2build1 [194 kB]
+Get:66 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 librdmacm1t64 amd64 50.0-2build2 [70.7 kB]
+Get:67 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libfabric1 amd64 1.17.0-3build2 [657 kB]
+Get:68 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgail18t64 amd64 2.24.33-4ubuntu1.1 [15.9 kB]
+Get:69 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgail-common amd64 2.24.33-4ubuntu1.1 [126 kB]
+Get:70 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgfortran5 amd64 14.2.0-4ubuntu2~24.04 [916 kB]
+Get:71 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgtk2.0-bin amd64 2.24.33-4ubuntu1.1 [7954 B]
+Get:72 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libhwloc15 amd64 2.10.0-1build1 [172 kB]
+Get:73 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libint1 amd64 1.2.1-6 [7550 kB]
+Get:74 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 liblapack3 amd64 3.12.0-3build1.1 [2646 kB]
+Get:75 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libmunge2 amd64 0.5.15-4build1 [14.7 kB]
+Get:76 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxnvctrl0 amd64 510.47.03-0ubuntu4 [12.6 kB]
+Get:77 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libhwloc-plugins amd64 2.10.0-1build1 [15.7 kB]
+Get:78 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libpmix2t64 amd64 5.0.1-4.1build1 [697 kB]
+Get:79 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libucx0 amd64 1.16.0+ds-5ubuntu1 [1140 kB]
+Get:80 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libopenmpi3t64 amd64 4.1.6-7ubuntu2 [2563 kB]
+Get:81 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 librsvg2-common amd64 2.58.0+dfsg-1build1 [11.8 kB]
+Get:82 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libsc-data all 2.3.1-22build2 [105 kB]
+Get:83 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libsc7v5 amd64 2.3.1-22build2 [2574 kB]
+Get:84 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 openmpi-common all 4.1.6-7ubuntu2 [170 kB]
+Get:85 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 openmpi-bin amd64 4.1.6-7ubuntu2 [114 kB]
+Get:86 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 mpi-default-bin amd64 1.15build1 [2376 B]
+Get:87 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 mpqc amd64 2.3.1-22build2 [86.4 kB]
+Get:88 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 p11-kit amd64 0.25.3-4ubuntu2.1 [141 kB]
+Fetched 68.2 MB in 4s (16.0 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing gir1.2-atk-1.0:amd64 (2.50.0-1) ...
+Removing gir1.2-pango-1.0:amd64 (1.52.2+ds-1) ...
+Removing gir1.2-harfbuzz-0.0:amd64 (8.0.1-1+rb1) ...
+Removing gir1.2-freedesktop:amd64 (1.80.1-2) ...
+Removing gir1.2-gdkpixbuf-2.0:amd64 (2.42.10+dfsg-3) ...
+Removing gir1.2-glib-2.0:amd64 (2.80.1-1deepin1) ...
+Selecting previously unselected package gcc-14-base:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27546 files and directories currently installed.)
+Preparing to unpack .../gcc-14-base_14.2.0-4ubuntu2~24.04_amd64.deb ...
+Unpacking gcc-14-base:amd64 (14.2.0-4ubuntu2~24.04) ...
+Setting up gcc-14-base:amd64 (14.2.0-4ubuntu2~24.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27551 files and directories currently installed.)
+Preparing to unpack .../libgcc-s1_14.2.0-4ubuntu2~24.04_amd64.deb ...
+Unpacking libgcc-s1:amd64 (14.2.0-4ubuntu2~24.04) over (13.2.0-3deepin2) ...
+Setting up libgcc-s1:amd64 (14.2.0-4ubuntu2~24.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27551 files and directories currently installed.)
+Preparing to unpack .../librsvg2-2_2.58.0+dfsg-1build1_amd64.deb ...
+Unpacking librsvg2-2:amd64 (2.58.0+dfsg-1build1) over (2.54.7+dfsg-2deepin1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27551 files and directories currently installed.)
+Removing libglib2.0-bin (2.80.1-1deepin1) ...
+Selecting previously unselected package libglib2.0-0t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27528 files and directories currently installed.)
+Preparing to unpack .../libglib2.0-0t64_2.80.0-6ubuntu3.2_amd64.deb ...
+libglib2.0-0t64.preinst: Removing /var/lib/dpkg/info/libglib2.0-0:amd64.postrm to avoid loss of /usr/share/glib-2.0/schemas/gschemas.compiled...
+removed '/var/lib/dpkg/info/libglib2.0-0:amd64.postrm'
+Unpacking libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.2) ...
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: trying to overwrite '/usr/lib/x86_64-linux-gnu/glib-2.0/gio-launch-desktop', which is also in package libglib2.0-0:amd64 2.80.1-1deepin1
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: trying to overwrite '/usr/lib/x86_64-linux-gnu/glib-2.0/gio-querymodules', which is also in package libglib2.0-0:amd64 2.80.1-1deepin1
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: trying to overwrite '/usr/lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas', which is also in package libglib2.0-0:amd64 2.80.1-1deepin1
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: trying to overwrite '/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0', which is also in package libglib2.0-0:amd64 2.80.1-1deepin1
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: trying to overwrite '/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0', which is also in package libglib2.0-0:amd64 2.80.1-1deepin1
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: trying to overwrite '/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0', which is also in package libglib2.0-0:amd64 2.80.1-1deepin1
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: trying to overwrite '/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0', which is also in package libglib2.0-0:amd64 2.80.1-1deepin1
+dpkg: warning: overriding problem because --force enabled:
+dpkg: warning: trying to overwrite '/usr/lib/x86_64-linux-gnu/libgthread-2.0.so.0', which is also in package libglib2.0-0:amd64 2.80.1-1deepin1
+dpkg: libatk1.0-0:amd64: dependency problems, but removing anyway as you requested:
+ libgtk2.0-0:amd64 depends on libatk1.0-0 (>= 1.32.0).
+ libgtk-3-0:amd64 depends on libatk1.0-0 (>= 2.35.1).
+ libatk-bridge2.0-0:amd64 depends on libatk1.0-0 (>= 2.33.1).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27540 files and directories currently installed.)
+Removing libatk1.0-0:amd64 (2.50.0-1) ...
+Selecting previously unselected package libatk1.0-0t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27534 files and directories currently installed.)
+Preparing to unpack .../libatk1.0-0t64_2.52.0-1build1_amd64.deb ...
+Unpacking libatk1.0-0t64:amd64 (2.52.0-1build1) ...
+dpkg: libglib2.0-0:amd64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libglib2.0-0 (>= 2.16.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ xscreensaver-gl depends on libglib2.0-0 (>= 2.16.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ xscreensaver-data-extra depends on libglib2.0-0 (>= 2.16.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ xscreensaver-data depends on libglib2.0-0 (>= 2.16.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ shared-mime-info depends on libglib2.0-0 (>= 2.75.3); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ pulseaudio-module-bluetooth depends on libglib2.0-0 (>= 2.12.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ pulseaudio depends on libglib2.0-0 (>= 2.32.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libspa-0.2-bluetooth:amd64 depends on libglib2.0-0 (>= 2.38.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libpulse-mainloop-glib0:amd64 depends on libglib2.0-0 (>= 2.28.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libpipewire-0.3-modules:amd64 depends on libglib2.0-0 (>= 2.32.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libpangoxft-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libpangoft2-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libpangocairo-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libpango-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libical3:amd64 depends on libglib2.0-0 (>= 2.42.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libharfbuzz0b:amd64 depends on libglib2.0-0 (>= 2.32.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libharfbuzz-gobject0:amd64 depends on libglib2.0-0 (>= 2.14.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libgtk2.0-0:amd64 depends on libglib2.0-0 (>= 2.75.3); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libgtk-3-0:amd64 depends on libglib2.0-0 (>= 2.79.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libgstreamer1.0-0:amd64 depends on libglib2.0-0 (>= 2.77.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libgstreamer-plugins-base1.0-0:amd64 depends on libglib2.0-0 (>= 2.75.3); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libglibmm-2.4-1v5:amd64 depends on libglib2.0-0 (>= 2.62.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libgdk-pixbuf-xlib-2.0-0:amd64 depends on libglib2.0-0 (>= 2.48.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libgdk-pixbuf-2.0-0:amd64 depends on libglib2.0-0 (>= 2.75.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libfcitx5gclient2:amd64 depends on libglib2.0-0 (>= 2.38.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libdconf1:amd64 depends on libglib2.0-0 (>= 2.77.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libcolord2:amd64 depends on libglib2.0-0 (>= 2.75.3); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libcloudproviders0:amd64 depends on libglib2.0-0 (>= 2.56.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libcairo-gobject2:amd64 depends on libglib2.0-0 (>= 2.68.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libavcodec60:amd64 depends on libglib2.0-0 (>= 2.12.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libatspi2.0-0:amd64 depends on libglib2.0-0 (>= 2.62); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ libatk-bridge2.0-0:amd64 depends on libglib2.0-0 (>= 2.75.3); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ gtk-update-icon-cache depends on libglib2.0-0 (>= 2.57.2); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ glib-networking-services depends on libglib2.0-0 (>= 2.73.3); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ glib-networking:amd64 depends on libglib2.0-0 (>= 2.73.3); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ fcitx5-frontend-gtk3 depends on libglib2.0-0 (>= 2.75.3); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ fcitx5-frontend-gtk2 depends on libglib2.0-0 (>= 2.75.3); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ dconf-service depends on libglib2.0-0 (>= 2.77.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ dconf-gsettings-backend:amd64 depends on libglib2.0-0 (>= 2.77.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ bluez-obexd depends on libglib2.0-0 (>= 2.77.0); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+ bluez depends on libglib2.0-0 (>= 2.75.3); however:
+  Package libglib2.0-0:amd64 is to be removed.
+  Package libglib2.0-0t64:amd64 which provides libglib2.0-0 is not configured yet.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27540 files and directories currently installed.)
+Removing libglib2.0-0:amd64 (2.80.1-1deepin1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27528 files and directories currently installed.)
+Preparing to unpack .../at-spi2-common_2.52.0-1build1_all.deb ...
+Unpacking at-spi2-common (2.52.0-1build1) over (2.50.0-1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27426 files and directories currently installed.)
+Removing libcupsimage2:amd64 (2.4.2-5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27421 files and directories currently installed.)
+Preparing to unpack .../cups-ipp-utils_2.4.7-1.2ubuntu7.3_amd64.deb ...
+Unpacking cups-ipp-utils (2.4.7-1.2ubuntu7.3) over (2.4.2-5) ...
+Selecting previously unselected package libjson-glib-1.0-common.
+Preparing to unpack .../libjson-glib-1.0-common_1.8.0-2build2_all.deb ...
+Unpacking libjson-glib-1.0-common (1.8.0-2build2) ...
+Selecting previously unselected package libjson-glib-1.0-0:amd64.
+Preparing to unpack .../libjson-glib-1.0-0_1.8.0-2build2_amd64.deb ...
+Unpacking libjson-glib-1.0-0:amd64 (1.8.0-2build2) ...
+Selecting previously unselected package libsoup-3.0-common.
+Preparing to unpack .../libsoup-3.0-common_3.4.4-5ubuntu0.1_all.deb ...
+Unpacking libsoup-3.0-common (3.4.4-5ubuntu0.1) ...
+dpkg: libpsl5:amd64: dependency problems, but removing anyway as you requested:
+ libcurl4:amd64 depends on libpsl5 (>= 0.16.0).
+ libcurl3-gnutls:amd64 depends on libpsl5 (>= 0.16.0).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27432 files and directories currently installed.)
+Removing libpsl5:amd64 (0.21.0-1.2) ...
+Selecting previously unselected package libpsl5t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27426 files and directories currently installed.)
+Preparing to unpack .../0-libpsl5t64_0.21.2-1.1build1_amd64.deb ...
+Unpacking libpsl5t64:amd64 (0.21.2-1.1build1) ...
+Selecting previously unselected package libunistring5:amd64.
+Preparing to unpack .../1-libunistring5_1.1-2build1.1_amd64.deb ...
+Unpacking libunistring5:amd64 (1.1-2build1.1) ...
+Selecting previously unselected package libsoup-3.0-0:amd64.
+Preparing to unpack .../2-libsoup-3.0-0_3.4.4-5ubuntu0.1_amd64.deb ...
+Unpacking libsoup-3.0-0:amd64 (3.4.4-5ubuntu0.1) ...
+Selecting previously unselected package libsnapd-glib-2-1:amd64.
+Preparing to unpack .../3-libsnapd-glib-2-1_1.64-0ubuntu5_amd64.deb ...
+Unpacking libsnapd-glib-2-1:amd64 (1.64-0ubuntu5) ...
+Preparing to unpack .../4-cups-daemon_2.4.7-1.2ubuntu7.3_amd64.deb ...
+Unpacking cups-daemon (2.4.7-1.2ubuntu7.3) over (2.4.2-5) ...
+Preparing to unpack .../5-cups-core-drivers_2.4.7-1.2ubuntu7.3_amd64.deb ...
+Unpacking cups-core-drivers (2.4.7-1.2ubuntu7.3) over (2.4.2-5) ...
+Preparing to unpack .../6-cups-common_2.4.7-1.2ubuntu7.3_all.deb ...
+Unpacking cups-common (2.4.7-1.2ubuntu7.3) over (2.4.2-5) ...
+Preparing to unpack .../7-cups-bsd_2.4.7-1.2ubuntu7.3_amd64.deb ...
+Unpacking cups-bsd (2.4.7-1.2ubuntu7.3) over (2.4.2-5) ...
+Preparing to unpack .../8-cups-client_2.4.7-1.2ubuntu7.3_amd64.deb ...
+Unpacking cups-client (2.4.7-1.2ubuntu7.3) over (2.4.2-5) ...
+Preparing to unpack .../9-libstdc++6_14.2.0-4ubuntu2~24.04_amd64.deb ...
+Unpacking libstdc++6:amd64 (14.2.0-4ubuntu2~24.04) over (13.2.0-3deepin2) ...
+Setting up libstdc++6:amd64 (14.2.0-4ubuntu2~24.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27447 files and directories currently installed.)
+Preparing to unpack .../cups-ppdc_2.4.7-1.2ubuntu7.3_amd64.deb ...
+Unpacking cups-ppdc (2.4.7-1.2ubuntu7.3) over (2.4.2-5) ...
+Preparing to unpack .../cups-server-common_2.4.7-1.2ubuntu7.3_all.deb ...
+Unpacking cups-server-common (2.4.7-1.2ubuntu7.3) over (2.4.2-5) ...
+Preparing to unpack .../cups_2.4.7-1.2ubuntu7.3_amd64.deb ...
+Unpacking cups (2.4.7-1.2ubuntu7.3) over (2.4.2-5) ...
+dpkg: libgnutls-dane0:amd64: dependency problems, but removing anyway as you requested:
+ gnutls-bin depends on libgnutls-dane0 (>= 3.7.0).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27444 files and directories currently installed.)
+Removing libgnutls-dane0:amd64 (3.7.9-2) ...
+Selecting previously unselected package libgnutls-dane0t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27438 files and directories currently installed.)
+Preparing to unpack .../libgnutls-dane0t64_3.8.3-1.1ubuntu3.3_amd64.deb ...
+Unpacking libgnutls-dane0t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+Preparing to unpack .../gnutls-bin_3.8.3-1.1ubuntu3.3_amd64.deb ...
+Unpacking gnutls-bin (3.8.3-1.1ubuntu3.3) over (3.7.9-2) ...
+dpkg: libhogweed6:amd64: dependency problems, but removing anyway as you requested:
+ libunbound8:amd64 depends on libhogweed6.
+ librtmp1:amd64 depends on libhogweed6.
+ libgnutls30:amd64 depends on libhogweed6 (>= 3.6).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27441 files and directories currently installed.)
+Removing libhogweed6:amd64 (3.7.3-1) ...
+dpkg: libnettle8:amd64: dependency problems, but removing anyway as you requested:
+ libunbound8:amd64 depends on libnettle8.
+ librtmp1:amd64 depends on libnettle8.
+ libgnutls30:amd64 depends on libnettle8 (>= 3.7~).
+ libcurl3-gnutls:amd64 depends on libnettle8.
+ libarchive13:amd64 depends on libnettle8.
+
+Removing libnettle8:amd64 (3.7.3-1) ...
+Selecting previously unselected package libnettle8t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27427 files and directories currently installed.)
+Preparing to unpack .../libnettle8t64_3.9.1-2.2build1.1_amd64.deb ...
+Unpacking libnettle8t64:amd64 (3.9.1-2.2build1.1) ...
+Selecting previously unselected package libhogweed6t64:amd64.
+Preparing to unpack .../libhogweed6t64_3.9.1-2.2build1.1_amd64.deb ...
+Unpacking libhogweed6t64:amd64 (3.9.1-2.2build1.1) ...
+Preparing to unpack .../p11-kit-modules_0.25.3-4ubuntu2.1_amd64.deb ...
+Unpacking p11-kit-modules:amd64 (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Preparing to unpack .../libp11-kit0_0.25.3-4ubuntu2.1_amd64.deb ...
+Unpacking libp11-kit0:amd64 (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+dpkg: libgnutls30:amd64: dependency problems, but removing anyway as you requested:
+ librtmp1:amd64 depends on libgnutls30 (>= 3.7.5).
+ libqpdf29:amd64 depends on libgnutls30 (>= 3.7.0).
+ libldap-2.5-0:amd64 depends on libgnutls30 (>= 3.7.5).
+ libcurl3-gnutls:amd64 depends on libgnutls30 (>= 3.7.5).
+ libcups2:amd64 depends on libgnutls30 (>= 3.7.5).
+ glib-networking:amd64 depends on libgnutls30 (>= 3.7.5).
+ dirmngr depends on libgnutls30 (>= 3.7.5).
+ apt depends on libgnutls30 (>= 3.7.5).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27440 files and directories currently installed.)
+Removing libgnutls30:amd64 (3.7.9-2) ...
+Selecting previously unselected package libgnutls30t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27412 files and directories currently installed.)
+Preparing to unpack .../libgnutls30t64_3.8.3-1.1ubuntu3.3_amd64.deb ...
+Unpacking libgnutls30t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+dpkg: libcups2:amd64: dependency problems, but removing anyway as you requested:
+ libgtk2.0-0:amd64 depends on libcups2 (>= 1.6.0).
+ libgtk-3-0:amd64 depends on libcups2 (>= 1.7.0).
+ libgs9:amd64 depends on libcups2 (>= 2.3~b6).
+ libcupsfilters1:amd64 depends on libcups2 (>= 2.3~b6).
+ cups-filters-core-drivers depends on libcups2 (>= 2.3~b6).
+ cups-filters depends on libcups2 (>= 2.3~b6).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27424 files and directories currently installed.)
+Removing libcups2:amd64 (2.4.2-5) ...
+Selecting previously unselected package libcups2t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27416 files and directories currently installed.)
+Preparing to unpack .../libcups2t64_2.4.7-1.2ubuntu7.3_amd64.deb ...
+Unpacking libcups2t64:amd64 (2.4.7-1.2ubuntu7.3) ...
+dpkg: libdw1:amd64: dependency problems, but removing anyway as you requested:
+ libgstreamer1.0-0:amd64 depends on libdw1 (>= 0.126).
+ bluez depends on libdw1 (>= 0.127).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27424 files and directories currently installed.)
+Removing libdw1:amd64 (0.188-2.1deepin1) ...
+Selecting previously unselected package libdw1t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27418 files and directories currently installed.)
+Preparing to unpack .../libdw1t64_0.190-1.1ubuntu0.1_amd64.deb ...
+Unpacking libdw1t64:amd64 (0.190-1.1ubuntu0.1) ...
+dpkg: libelf1:amd64: dependency problems, but removing anyway as you requested:
+ mesa-vulkan-drivers:amd64 depends on libelf1 (>= 0.142).
+ mesa-vdpau-drivers:amd64 depends on libelf1 (>= 0.142).
+ libgl1-mesa-dri:amd64 depends on libelf1 (>= 0.142).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27423 files and directories currently installed.)
+Removing libelf1:amd64 (0.188-2.1deepin1) ...
+Selecting previously unselected package libelf1t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27410 files and directories currently installed.)
+Preparing to unpack .../00-libelf1t64_0.190-1.1ubuntu0.1_amd64.deb ...
+Unpacking libelf1t64:amd64 (0.190-1.1ubuntu0.1) ...
+Selecting previously unselected package libssl3t64:amd64.
+Preparing to unpack .../01-libssl3t64_3.0.13-0ubuntu3.5_amd64.deb ...
+Unpacking libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:amd64 (3.2.0-2) ...
+Selecting previously unselected package libnl-3-200:amd64.
+Preparing to unpack .../02-libnl-3-200_3.7.0-0.3build1.1_amd64.deb ...
+Unpacking libnl-3-200:amd64 (3.7.0-0.3build1.1) ...
+Selecting previously unselected package libnl-route-3-200:amd64.
+Preparing to unpack .../03-libnl-route-3-200_3.7.0-0.3build1.1_amd64.deb ...
+Unpacking libnl-route-3-200:amd64 (3.7.0-0.3build1.1) ...
+Selecting previously unselected package libibverbs1:amd64.
+Preparing to unpack .../04-libibverbs1_50.0-2build2_amd64.deb ...
+Unpacking libibverbs1:amd64 (50.0-2build2) ...
+Selecting previously unselected package ibverbs-providers:amd64.
+Preparing to unpack .../05-ibverbs-providers_50.0-2build2_amd64.deb ...
+Unpacking ibverbs-providers:amd64 (50.0-2build2) ...
+Selecting previously unselected package libxmuu1:amd64.
+Preparing to unpack .../06-libxmuu1_2%3a1.1.3-3build2_amd64.deb ...
+Unpacking libxmuu1:amd64 (2:1.1.3-3build2) ...
+Selecting previously unselected package openssh-client.
+Preparing to unpack .../07-openssh-client_1%3a9.6p1-3ubuntu13.9_amd64.deb ...
+Unpacking openssh-client (1:9.6p1-3ubuntu13.9) ...
+Selecting previously unselected package publicsuffix.
+Preparing to unpack .../08-publicsuffix_20231001.0357-0.1_all.deb ...
+Unpacking publicsuffix (20231001.0357-0.1) ...
+Selecting previously unselected package xauth.
+Preparing to unpack .../09-xauth_1%3a1.1.2-1build1_amd64.deb ...
+Unpacking xauth (1:1.1.2-1build1) ...
+Preparing to unpack .../10-libgomp1_14.2.0-4ubuntu2~24.04_amd64.deb ...
+Unpacking libgomp1:amd64 (14.2.0-4ubuntu2~24.04) over (13.2.0-3deepin2) ...
+Selecting previously unselected package libinchi1.
+Preparing to unpack .../11-libinchi1_1.03+dfsg-4build1_amd64.deb ...
+Unpacking libinchi1 (1.03+dfsg-4build1) ...
+Selecting previously unselected package libboost-iostreams1.83.0:amd64.
+Preparing to unpack .../12-libboost-iostreams1.83.0_1.83.0-2.1ubuntu3.1_amd64.deb ...
+Unpacking libboost-iostreams1.83.0:amd64 (1.83.0-2.1ubuntu3.1) ...
+Selecting previously unselected package libmaeparser1:amd64.
+Preparing to unpack .../13-libmaeparser1_1.3.1-1build1_amd64.deb ...
+Unpacking libmaeparser1:amd64 (1.3.1-1build1) ...
+Selecting previously unselected package libopenbabel7.
+Preparing to unpack .../14-libopenbabel7_3.1.1+dfsg-9ubuntu5_amd64.deb ...
+Unpacking libopenbabel7 (3.1.1+dfsg-9ubuntu5) ...
+Selecting previously unselected package openbabel.
+Preparing to unpack .../15-openbabel_3.1.1+dfsg-9ubuntu5_amd64.deb ...
+Unpacking openbabel (3.1.1+dfsg-9ubuntu5) ...
+Selecting previously unselected package libgl2ps1.4.
+Preparing to unpack .../16-libgl2ps1.4_1.4.2+dfsg1-2build1_amd64.deb ...
+Unpacking libgl2ps1.4 (1.4.2+dfsg1-2build1) ...
+Selecting previously unselected package libgtk2.0-0t64:amd64.
+Preparing to unpack .../17-libgtk2.0-0t64_2.24.33-4ubuntu1.1_amd64.deb ...
+libgtk2.0-0t64.preinst: Removing /var/lib/dpkg/info/libgtk2.0-0:amd64.postrm to avoid loss of /usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/immodules.cache...
+removed '/var/lib/dpkg/info/libgtk2.0-0:amd64.postrm'
+Unpacking libgtk2.0-0t64:amd64 (2.24.33-4ubuntu1.1) ...
+Replacing files in old package libgtk2.0-0:amd64 (2.24.33-4+deepin) ...
+Preparing to unpack .../18-libxmu6_2%3a1.1.3-3build2_amd64.deb ...
+Unpacking libxmu6:amd64 (2:1.1.3-3build2) over (2:1.1.2-deepin1) ...
+Selecting previously unselected package libgtkglext1:amd64.
+Preparing to unpack .../19-libgtkglext1_1.2.0-11build2_amd64.deb ...
+Unpacking libgtkglext1:amd64 (1.2.0-11build2) ...
+Selecting previously unselected package libsymspg2:amd64.
+Preparing to unpack .../20-libsymspg2_2.3.1-1ubuntu2_amd64.deb ...
+Unpacking libsymspg2:amd64 (2.3.1-1ubuntu2) ...
+Selecting previously unselected package gabedit.
+Preparing to unpack .../21-gabedit_2.5.1+ds-1build3_amd64.deb ...
+Unpacking gabedit (2.5.1+ds-1build3) ...
+Selecting previously unselected package libamd-comgr2:amd64.
+Preparing to unpack .../22-libamd-comgr2_6.0+git20231212.4510c28+dfsg-3build2_amd64.deb ...
+Unpacking libamd-comgr2:amd64 (6.0+git20231212.4510c28+dfsg-3build2) ...
+Selecting previously unselected package libhsakmt1:amd64.
+Preparing to unpack .../23-libhsakmt1_5.7.0-1build1_amd64.deb ...
+Unpacking libhsakmt1:amd64 (5.7.0-1build1) ...
+Selecting previously unselected package libhsa-runtime64-1.
+Preparing to unpack .../24-libhsa-runtime64-1_5.7.1-2build1_amd64.deb ...
+Unpacking libhsa-runtime64-1 (5.7.1-2build1) ...
+Selecting previously unselected package libamdhip64-5.
+Preparing to unpack .../25-libamdhip64-5_5.7.1-3_amd64.deb ...
+Unpacking libamdhip64-5 (5.7.1-3) ...
+Preparing to unpack .../26-libasound2-data_1.2.11-1build2_all.deb ...
+Unpacking libasound2-data (1.2.11-1build2) over (1.2.8-1) ...
+Selecting previously unselected package libatomic1:amd64.
+Preparing to unpack .../27-libatomic1_14.2.0-4ubuntu2~24.04_amd64.deb ...
+Unpacking libatomic1:amd64 (14.2.0-4ubuntu2~24.04) ...
+Selecting previously unselected package libblas3:amd64.
+Preparing to unpack .../28-libblas3_3.12.0-3build1.1_amd64.deb ...
+Unpacking libblas3:amd64 (3.12.0-3build1.1) ...
+Selecting previously unselected package libevent-core-2.1-7t64:amd64.
+Preparing to unpack .../29-libevent-core-2.1-7t64_2.1.12-stable-9ubuntu2_amd64.deb ...
+Unpacking libevent-core-2.1-7t64:amd64 (2.1.12-stable-9ubuntu2) ...
+Selecting previously unselected package libevent-pthreads-2.1-7t64:amd64.
+Preparing to unpack .../30-libevent-pthreads-2.1-7t64_2.1.12-stable-9ubuntu2_amd64.deb ...
+Unpacking libevent-pthreads-2.1-7t64:amd64 (2.1.12-stable-9ubuntu2) ...
+Selecting previously unselected package libpsm-infinipath1.
+Preparing to unpack .../31-libpsm-infinipath1_3.3+20.604758e7-6.3build1_amd64.deb ...
+Unpacking libpsm-infinipath1 (3.3+20.604758e7-6.3build1) ...
+Selecting previously unselected package libpsm2-2.
+Preparing to unpack .../32-libpsm2-2_11.2.185-2build1_amd64.deb ...
+Unpacking libpsm2-2 (11.2.185-2build1) ...
+Selecting previously unselected package librdmacm1t64:amd64.
+Preparing to unpack .../33-librdmacm1t64_50.0-2build2_amd64.deb ...
+Unpacking librdmacm1t64:amd64 (50.0-2build2) ...
+Selecting previously unselected package libfabric1:amd64.
+Preparing to unpack .../34-libfabric1_1.17.0-3build2_amd64.deb ...
+Unpacking libfabric1:amd64 (1.17.0-3build2) ...
+Selecting previously unselected package libgail18t64:amd64.
+Preparing to unpack .../35-libgail18t64_2.24.33-4ubuntu1.1_amd64.deb ...
+Unpacking libgail18t64:amd64 (2.24.33-4ubuntu1.1) ...
+Selecting previously unselected package libgail-common:amd64.
+Preparing to unpack .../36-libgail-common_2.24.33-4ubuntu1.1_amd64.deb ...
+Unpacking libgail-common:amd64 (2.24.33-4ubuntu1.1) ...
+Selecting previously unselected package libgfortran5:amd64.
+Preparing to unpack .../37-libgfortran5_14.2.0-4ubuntu2~24.04_amd64.deb ...
+Unpacking libgfortran5:amd64 (14.2.0-4ubuntu2~24.04) ...
+Selecting previously unselected package libgtk2.0-bin.
+Preparing to unpack .../38-libgtk2.0-bin_2.24.33-4ubuntu1.1_amd64.deb ...
+Unpacking libgtk2.0-bin (2.24.33-4ubuntu1.1) ...
+Selecting previously unselected package libhwloc15:amd64.
+Preparing to unpack .../39-libhwloc15_2.10.0-1build1_amd64.deb ...
+Unpacking libhwloc15:amd64 (2.10.0-1build1) ...
+Selecting previously unselected package libint1.
+Preparing to unpack .../40-libint1_1.2.1-6_amd64.deb ...
+Unpacking libint1 (1.2.1-6) ...
+Selecting previously unselected package liblapack3:amd64.
+Preparing to unpack .../41-liblapack3_3.12.0-3build1.1_amd64.deb ...
+Unpacking liblapack3:amd64 (3.12.0-3build1.1) ...
+Selecting previously unselected package libmunge2:amd64.
+Preparing to unpack .../42-libmunge2_0.5.15-4build1_amd64.deb ...
+Unpacking libmunge2:amd64 (0.5.15-4build1) ...
+Selecting previously unselected package libxnvctrl0:amd64.
+Preparing to unpack .../43-libxnvctrl0_510.47.03-0ubuntu4_amd64.deb ...
+Unpacking libxnvctrl0:amd64 (510.47.03-0ubuntu4) ...
+Selecting previously unselected package libhwloc-plugins:amd64.
+Preparing to unpack .../44-libhwloc-plugins_2.10.0-1build1_amd64.deb ...
+Unpacking libhwloc-plugins:amd64 (2.10.0-1build1) ...
+Selecting previously unselected package libpmix2t64:amd64.
+Preparing to unpack .../45-libpmix2t64_5.0.1-4.1build1_amd64.deb ...
+Unpacking libpmix2t64:amd64 (5.0.1-4.1build1) ...
+Selecting previously unselected package libucx0:amd64.
+Preparing to unpack .../46-libucx0_1.16.0+ds-5ubuntu1_amd64.deb ...
+Unpacking libucx0:amd64 (1.16.0+ds-5ubuntu1) ...
+Selecting previously unselected package libopenmpi3t64:amd64.
+Preparing to unpack .../47-libopenmpi3t64_4.1.6-7ubuntu2_amd64.deb ...
+Unpacking libopenmpi3t64:amd64 (4.1.6-7ubuntu2) ...
+Selecting previously unselected package librsvg2-common:amd64.
+Preparing to unpack .../48-librsvg2-common_2.58.0+dfsg-1build1_amd64.deb ...
+Unpacking librsvg2-common:amd64 (2.58.0+dfsg-1build1) ...
+Selecting previously unselected package libsc-data.
+Preparing to unpack .../49-libsc-data_2.3.1-22build2_all.deb ...
+Unpacking libsc-data (2.3.1-22build2) ...
+Selecting previously unselected package libsc7v5.
+Preparing to unpack .../50-libsc7v5_2.3.1-22build2_amd64.deb ...
+Unpacking libsc7v5 (2.3.1-22build2) ...
+Selecting previously unselected package openmpi-common.
+Preparing to unpack .../51-openmpi-common_4.1.6-7ubuntu2_all.deb ...
+Unpacking openmpi-common (4.1.6-7ubuntu2) ...
+Selecting previously unselected package openmpi-bin.
+Preparing to unpack .../52-openmpi-bin_4.1.6-7ubuntu2_amd64.deb ...
+Unpacking openmpi-bin (4.1.6-7ubuntu2) ...
+Selecting previously unselected package mpi-default-bin.
+Preparing to unpack .../53-mpi-default-bin_1.15build1_amd64.deb ...
+Unpacking mpi-default-bin (1.15build1) ...
+Selecting previously unselected package mpqc.
+Preparing to unpack .../54-mpqc_2.3.1-22build2_amd64.deb ...
+Unpacking mpqc (2.3.1-22build2) ...
+Preparing to unpack .../55-p11-kit_0.25.3-4ubuntu2.1_amd64.deb ...
+Unpacking p11-kit (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Setting up libxmu6:amd64 (2:1.1.3-3build2) ...
+Setting up cups-server-common (2.4.7-1.2ubuntu7.3) ...
+Setting up libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Setting up openssh-client (1:9.6p1-3ubuntu13.9) ...
+
+Configuration file '/etc/ssh/ssh_config', does not exist on system.
+Installing new config file as you requested.
+Setting up cups-common (2.4.7-1.2ubuntu7.3) ...
+Setting up libint1 (1.2.1-6) ...
+Setting up libsoup-3.0-common (3.4.4-5ubuntu0.1) ...
+Setting up libgomp1:amd64 (14.2.0-4ubuntu2~24.04) ...
+Setting up libelf1t64:amd64 (0.190-1.1ubuntu0.1) ...
+Setting up libgl2ps1.4 (1.4.2+dfsg1-2build1) ...
+Setting up libdw1t64:amd64 (0.190-1.1ubuntu0.1) ...
+Setting up libxnvctrl0:amd64 (510.47.03-0ubuntu4) ...
+Setting up libsymspg2:amd64 (2.3.1-1ubuntu2) ...
+Setting up libasound2-data (1.2.11-1build2) ...
+Setting up libnettle8t64:amd64 (3.9.1-2.2build1.1) ...
+Setting up libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.2) ...
+Setting up libblas3:amd64 (3.12.0-3build1.1) ...
+update-alternatives: using /usr/lib/x86_64-linux-gnu/blas/libblas.so.3 to provide /usr/lib/x86_64-linux-gnu/libblas.so.3 (libblas.so.3-x86_64-linux-gnu) in auto mode
+Setting up libmunge2:amd64 (0.5.15-4build1) ...
+Setting up libboost-iostreams1.83.0:amd64 (1.83.0-2.1ubuntu3.1) ...
+Setting up libp11-kit0:amd64 (0.25.3-4ubuntu2.1) ...
+Setting up libunistring5:amd64 (1.1-2build1.1) ...
+Setting up libhwloc15:amd64 (2.10.0-1build1) ...
+Setting up libatomic1:amd64 (14.2.0-4ubuntu2~24.04) ...
+Setting up libsc-data (2.3.1-22build2) ...
+Setting up libgfortran5:amd64 (14.2.0-4ubuntu2~24.04) ...
+Setting up libhogweed6t64:amd64 (3.9.1-2.2build1.1) ...
+Setting up at-spi2-common (2.52.0-1build1) ...
+Setting up libnl-3-200:amd64 (3.7.0-0.3build1.1) ...
+
+Configuration file '/etc/libnl-3/classid', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libnl-3/pktloc', does not exist on system.
+Installing new config file as you requested.
+Setting up libpsm2-2 (11.2.185-2build1) ...
+Setting up openmpi-common (4.1.6-7ubuntu2) ...
+Setting up libjson-glib-1.0-common (1.8.0-2build2) ...
+Setting up libevent-core-2.1-7t64:amd64 (2.1.12-stable-9ubuntu2) ...
+Setting up libamd-comgr2:amd64 (6.0+git20231212.4510c28+dfsg-3build2) ...
+Setting up libpsm-infinipath1 (3.3+20.604758e7-6.3build1) ...
+update-alternatives: using /usr/lib/libpsm1/libpsm_infinipath.so.1.16 to provide /usr/lib/x86_64-linux-gnu/libpsm_infinipath.so.1 (libpsm_infinipath.so.1) in auto mode
+Setting up publicsuffix (20231001.0357-0.1) ...
+Setting up libxmuu1:amd64 (2:1.1.3-3build2) ...
+Setting up libhsakmt1:amd64 (5.7.0-1build1) ...
+Setting up libinchi1 (1.03+dfsg-4build1) ...
+Setting up libgnutls30t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+
+Configuration file '/etc/gnutls/config', does not exist on system.
+Installing new config file as you requested.
+Setting up liblapack3:amd64 (3.12.0-3build1.1) ...
+update-alternatives: using /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3 to provide /usr/lib/x86_64-linux-gnu/liblapack.so.3 (liblapack.so.3-x86_64-linux-gnu) in auto mode
+Setting up libatk1.0-0t64:amd64 (2.52.0-1build1) ...
+Setting up libevent-pthreads-2.1-7t64:amd64 (2.1.12-stable-9ubuntu2) ...
+Setting up libpsl5t64:amd64 (0.21.2-1.1build1) ...
+Setting up libhwloc-plugins:amd64 (2.10.0-1build1) ...
+Setting up libjson-glib-1.0-0:amd64 (1.8.0-2build2) ...
+Setting up libnl-route-3-200:amd64 (3.7.0-0.3build1.1) ...
+Setting up libmaeparser1:amd64 (1.3.1-1build1) ...
+Setting up librsvg2-2:amd64 (2.58.0+dfsg-1build1) ...
+Setting up p11-kit-modules:amd64 (0.25.3-4ubuntu2.1) ...
+Setting up libgnutls-dane0t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+Setting up libpmix2t64:amd64 (5.0.1-4.1build1) ...
+Setting up librsvg2-common:amd64 (2.58.0+dfsg-1build1) ...
+Setting up xauth (1:1.1.2-1build1) ...
+Setting up libhsa-runtime64-1 (5.7.1-2build1) ...
+Setting up p11-kit (0.25.3-4ubuntu2.1) ...
+Setting up libcups2t64:amd64 (2.4.7-1.2ubuntu7.3) ...
+Setting up cups-ipp-utils (2.4.7-1.2ubuntu7.3) ...
+Setting up gnutls-bin (3.8.3-1.1ubuntu3.3) ...
+Setting up libibverbs1:amd64 (50.0-2build2) ...
+Setting up cups-ppdc (2.4.7-1.2ubuntu7.3) ...
+Setting up ibverbs-providers:amd64 (50.0-2build2) ...
+
+Configuration file '/etc/libibverbs.d/bnxt_re.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/cxgb4.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/efa.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/erdma.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/hfi1verbs.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/hns.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/ipathverbs.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/irdma.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/mana.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/mlx4.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/mlx5.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/mthca.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/ocrdma.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/qedr.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/rxe.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/siw.driver', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libibverbs.d/vmw_pvrdma.driver', does not exist on system.
+Installing new config file as you requested.
+Setting up libsoup-3.0-0:amd64 (3.4.4-5ubuntu0.1) ...
+Setting up libopenbabel7 (3.1.1+dfsg-9ubuntu5) ...
+Setting up cups-client (2.4.7-1.2ubuntu7.3) ...
+Setting up libamdhip64-5 (5.7.1-3) ...
+Setting up libgtk2.0-0t64:amd64 (2.24.33-4ubuntu1.1) ...
+Setting up libgail18t64:amd64 (2.24.33-4ubuntu1.1) ...
+Setting up libsnapd-glib-2-1:amd64 (1.64-0ubuntu5) ...
+Setting up libgtk2.0-bin (2.24.33-4ubuntu1.1) ...
+Setting up librdmacm1t64:amd64 (50.0-2build2) ...
+Setting up libfabric1:amd64 (1.17.0-3build2) ...
+Setting up libucx0:amd64 (1.16.0+ds-5ubuntu1) ...
+Setting up libgail-common:amd64 (2.24.33-4ubuntu1.1) ...
+Setting up cups-bsd (2.4.7-1.2ubuntu7.3) ...
+Setting up openbabel (3.1.1+dfsg-9ubuntu5) ...
+Setting up libgtkglext1:amd64 (1.2.0-11build2) ...
+Setting up cups-daemon (2.4.7-1.2ubuntu7.3) ...
+Installing new version of config file /etc/apparmor.d/usr.sbin.cupsd ...
+Installing new version of config file /etc/cups/cups-files.conf ...
+Can't exec "systemctl": No such file or directory at /usr/sbin/update-rc.d line 98.
+/usr/sbin/invoke-rc.d: 290: systemctl: not found
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: WARNING: No init system and policy-rc.d missing! Defaulting to block.
+/var/lib/dpkg/info/cups-daemon.postinst: 128: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+cups.path is a disabled or a static unit not running, not starting it.
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+cups.service is a disabled or a static unit not running, not starting it.
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+cups.socket is a disabled or a static unit not running, not starting it.
+Setting up libopenmpi3t64:amd64 (4.1.6-7ubuntu2) ...
+Setting up gabedit (2.5.1+ds-1build3) ...
+Setting up openmpi-bin (4.1.6-7ubuntu2) ...
+
+Configuration file '/etc/openmpi/openmpi-default-hostfile', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/openmpi/openmpi-mca-params.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/openmpi/openmpi-totalview.tcl', does not exist on system.
+Installing new config file as you requested.
+update-alternatives: using /usr/bin/mpirun.openmpi to provide /usr/bin/mpirun (mpirun) in auto mode
+update-alternatives: using /usr/bin/mpicc.openmpi to provide /usr/bin/mpicc (mpi) in auto mode
+Setting up cups-core-drivers (2.4.7-1.2ubuntu7.3) ...
+Setting up cups (2.4.7-1.2ubuntu7.3) ...
+Setting up mpi-default-bin (1.15build1) ...
+Setting up libsc7v5 (2.3.1-22build2) ...
+Setting up mpqc (2.3.1-22build2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libgtk2.0-0:amd64 (2.24.33-4+deepin) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for shared-mime-info (2.2-1) ...
+Processing triggers for libgdk-pixbuf-2.0-0:amd64 (2.42.10+dfsg-3) ...
