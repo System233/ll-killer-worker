@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: korganizer.linyaps
+  name: korganizer
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    calendar and personal organizer
+    This package contains KOrganizer, a calendar and scheduling program.
+
+    KOrganizer aims to be a complete program for organizing appointments,
+    contacts, projects, etc. KOrganizer natively supports information interchange
+    with other calendar applications, through the industry standard vCalendar
+    personal data interchange file format. This eases the move from other
+    modern PIMs to KOrganizer.
+command:
+- /opt/apps/korganizer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
