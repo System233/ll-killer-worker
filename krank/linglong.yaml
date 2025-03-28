@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: krank.linyaps
+  name: krank
+  version: 0.7.0.4
+  kind: app
+  description: |-
+    game of dexterity where you match stones together
+    krank is a game of dexterity, being somewhere between Breakout and billiard,
+    where the aim of each level is to shove floating stones towards compatible
+    static stones. You control a short chain of stones with your mouse to achieve
+    that.
+command:
+- /opt/apps/krank.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
