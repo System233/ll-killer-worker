@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: kontrast.linyaps
+  name: kontrast
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    check contrast ratio between 2 colors
+    Kontrast is a color contrast checker and tells you if your color combinations
+    are distinct enough to be readable and accessible.
+command:
+- /opt/apps/kontrast.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
