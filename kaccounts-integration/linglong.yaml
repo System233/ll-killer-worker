@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: kaccounts-integration.linyaps
+  name: kaccounts-integration
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    System to administer web accounts
+    Small system to administer web accounts for the sites and services
+    across the Plasma desktop, including: Google, Facebook, Owncloud, IMAP,
+    Jabber and others.
+command:
+- /opt/apps/kaccounts-integration.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
