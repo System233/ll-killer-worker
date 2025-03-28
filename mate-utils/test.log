@@ -1,0 +1,89 @@
+正在测试: APPID=mate-utils.linyaps LAYER=mate-utils.linyaps_1.26.1.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install mate-utils.linyaps_1.26.1.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:mate-utils.linyaps
+Layer文件:mate-utils.linyaps_1.26.1.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: mate-utils.linyaps_1.26.1.1_x86_64_binary.layer
+offset: 833
+mountpoint: /tmp/tmp.y4cUF1e0Fr/mnt
+dbglevel: 0
+[成功] mate-dictionary.desktop: accessories-dictionary -> /usr/share/icons/Humanity/apps/16/accessories-dictionary.svg
+[成功] /opt/apps/mate-utils.linyaps/files/share/applications/mate-dictionary.desktop: /opt/apps/mate-utils.linyaps/files/entrypoint.sh mate-dictionary
+[成功] mate-disk-image-mounter.desktop: drive-removable-media -> /usr/share/icons/Humanity/devices/16/drive-removable-media.svg
+[成功] /opt/apps/mate-utils.linyaps/files/share/applications/mate-disk-image-mounter.desktop: /opt/apps/mate-utils.linyaps/files/entrypoint.sh mate-disk-image-mounter %U
+[成功] mate-disk-usage-analyzer.desktop: mate-disk-usage-analyzer -> /opt/apps/mate-utils.linyaps/files/share/icons/hicolor/128x128/apps/mate-disk-usage-analyzer.png
+[成功] /opt/apps/mate-utils.linyaps/files/share/applications/mate-disk-usage-analyzer.desktop: /opt/apps/mate-utils.linyaps/files/entrypoint.sh mate-disk-usage-analyzer
+[成功] mate-screenshot.desktop: applets-screenshooter -> /usr/share/icons/Humanity/apps/24/applets-screenshooter.svg
+[成功] /opt/apps/mate-utils.linyaps/files/share/applications/mate-screenshot.desktop: /opt/apps/mate-utils.linyaps/files/entrypoint.sh mate-screenshot --interactive
+[31m[失败] mate-search-tool.desktop:system-search: 找不到此图标 [0m
+[成功] /opt/apps/mate-utils.linyaps/files/share/applications/mate-search-tool.desktop: /opt/apps/mate-utils.linyaps/files/entrypoint.sh mate-search-tool
+[成功] mate-system-log.desktop: mate-system-log -> /opt/apps/mate-utils.linyaps/files/share/icons/hicolor/16x16/apps/mate-system-log.png
+[成功] /opt/apps/mate-utils.linyaps/files/share/applications/mate-system-log.desktop: /opt/apps/mate-utils.linyaps/files/entrypoint.sh mate-system-log
+[正在测试启动项]
+包名:mate-utils.linyaps
+Layer文件:mate-utils.linyaps_1.26.1.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: mate-utils.linyaps_1.26.1.1_x86_64_binary.layer
+offset: 833
+mountpoint: /tmp/tmp.PTVlDpaem2/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run mate-utils.linyaps -- /opt/apps/mate-utils.linyaps/files/entrypoint.sh mate-dictionary
+[PID 14184] 进程已启动
+[PID 14184] 已检测到窗口:PID=37
+[PID 14184] 正在截图 0秒: tests/screen0-0.jpg
+[PID 14184] 正在截图 1秒: tests/screen0-1.jpg
+[PID 14184] 正在截图 3秒: tests/screen0-3.jpg
+[PID 14184] 正在截图 5秒: tests/screen0-5.jpg
+[PID 14184] 正在通知并等待进程退出
+[PID 14184] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run mate-utils.linyaps -- /opt/apps/mate-utils.linyaps/files/entrypoint.sh mate-disk-image-mounter
+[PID 14360] 进程已启动
+[PID 14360] 已检测到窗口:PID=36
+[PID 14360] 正在截图 0秒: tests/screen1-0.jpg
+[PID 14360] 正在截图 1秒: tests/screen1-1.jpg
+[PID 14360] 正在截图 3秒: tests/screen1-3.jpg
+[PID 14360] 正在截图 5秒: tests/screen1-5.jpg
+[PID 14360] 正在通知并等待进程退出
+[PID 14360] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run mate-utils.linyaps -- /opt/apps/mate-utils.linyaps/files/entrypoint.sh mate-disk-usage-analyzer
+[PID 14533] 进程已启动
+[PID 14533] 已检测到窗口:PID=36
+[PID 14533] 正在截图 0秒: tests/screen2-0.jpg
+[PID 14533] 正在截图 1秒: tests/screen2-1.jpg
+[PID 14533] 正在截图 3秒: tests/screen2-3.jpg
+[PID 14533] 正在截图 5秒: tests/screen2-5.jpg
+[PID 14533] 正在通知并等待进程退出
+[PID 14533] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run mate-utils.linyaps -- /opt/apps/mate-utils.linyaps/files/entrypoint.sh mate-screenshot --interactive
+[PID 14704] 进程已启动
+[PID 14704] 已检测到窗口:PID=36
+[PID 14704] 正在截图 0秒: tests/screen3-0.jpg
+[PID 14704] 正在截图 1秒: tests/screen3-1.jpg
+[PID 14704] 正在截图 3秒: tests/screen3-3.jpg
+[PID 14704] 正在截图 5秒: tests/screen3-5.jpg
+[PID 14704] 正在通知并等待进程退出
+[PID 14704] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run mate-utils.linyaps -- /opt/apps/mate-utils.linyaps/files/entrypoint.sh mate-search-tool
+[PID 14874] 进程已启动
+[PID 14874] 已检测到窗口:PID=36
+[PID 14874] 正在截图 0秒: tests/screen4-0.jpg
+[PID 14874] 正在截图 1秒: tests/screen4-1.jpg
+[PID 14874] 正在截图 3秒: tests/screen4-3.jpg
+[PID 14874] 正在截图 5秒: tests/screen4-5.jpg
+[PID 14874] 正在通知并等待进程退出
+[PID 14874] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run mate-utils.linyaps -- /opt/apps/mate-utils.linyaps/files/entrypoint.sh mate-system-log
+[PID 15045] 进程已启动
+[PID 15045] 已检测到窗口:PID=36
+[PID 15045] 正在截图 0秒: tests/screen5-0.jpg
+[PID 15045] 正在截图 1秒: tests/screen5-1.jpg
+[PID 15045] 正在截图 3秒: tests/screen5-3.jpg
+[PID 15045] 正在截图 5秒: tests/screen5-5.jpg
+[PID 15045] 正在通知并等待进程退出
+[PID 15045] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall mate-utils.linyaps
