@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: lightyears.linyaps
+  name: lightyears
+  version: 1.5.0.3
+  kind: app
+  description: |-
+    single player real-time strategy game with steampunk sci-fi
+    You have to build and maintain a steam distribution network on an alien
+    planet, while under attack from aliens and other hazards. The game has
+    three difficulty levels, an interactive tutorial, and a scoring system.
+
+    "20.000 Light Years Into Space" is written in Python using pygame.
+    It was rewarded with the second place in the Pyweek March 2006 Individual
+    Entries category.
+command:
+- /opt/apps/lightyears.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
