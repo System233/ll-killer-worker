@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: isag.linyaps
+  name: isag
+  version: 12.7.5.2
+  kind: app
+  description: |-
+    Interactive System Activity Grapher for sysstat
+    This package provides the command isag, which graphically displays the
+    system activity data stored in the binary logs produced by sar (in the
+    package sysstat).
+command:
+- /opt/apps/isag.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
