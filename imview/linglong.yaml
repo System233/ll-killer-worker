@@ -1,0 +1,32 @@
+version: "1"
+package:
+  id: imview.linyaps
+  name: imview
+  version: 1.1.9.4
+  kind: app
+  description: |-
+    Image viewing and analysis application
+    Imview is an application which
+
+    * Displays a large number of image formats.
+    * Displays 2D or 3D (as slices) images with a very good zoom and pan
+    feature.
+    * Works with multi-spectral, time series or multi-page documents (e.g.:
+    Satellite images, TIFF stacks, animated GIFs and heterogeneous
+    multi-component files).
+    * Displays all pixel types (1-bit to 64-bit data, integer or floating
+    point).
+    * Arbitrary 1-D profile of 2-D images (or of 2-D slices of 3-D images) can
+    be displayed.
+    * Has support for arbitrary colourmaps for all pixel types (i.e.: false
+    colour display).
+    * Has standard image manipulation facilities (brightness/contrast, gamma,
+    zoom, crop, rotation, etc).
+    * Can be controlled remotely via sockets and text commands (for easy
+    integration into various image analysis systems).
+    * Images can be uploaded into Imview via sockets or shared memory.
+    * And much more!
+command:
+- /opt/apps/imview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
