@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: lxsession-edit.linyaps
+  name: lxsession-edit
+  version: 0.5.5.1
+  kind: app
+  description: |-
+    configure what application start up automatically in LXDE
+    LXSession-Edit is a simple session editor GUI for autostarting applications
+    which follows autostart specs from FreeDesktop.Org.
+
+    This package can be used without lxsession package as well.
+command:
+- /opt/apps/lxsession-edit.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
