@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gnomad2.linyaps
+  name: gnomad2
+  version: 2.9.6.8
+  kind: app
+  description: |-
+    Manage a Creative Labs Nomad Jukebox
+    Gnomad 2 is a GUI built on top of GTK/GNOME 2, id3lib and libnjb that
+    makes it possible to transfer tracks and files from/to a Creative
+    Nomad Jukebox (all brands). It is designed much like an ordinary
+    graphical FTP program.
+command:
+- /opt/apps/gnomad2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
