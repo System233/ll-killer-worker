@@ -1,0 +1,30 @@
+version: "1"
+package:
+  id: endless-sky.linyaps
+  name: endless-sky
+  version: 0.10.4.1
+  kind: app
+  description: |-
+    space exploration, trading and combat game
+    Explore other star systems.
+
+    Earn money by trading, carrying passengers, or completing missions.
+    Use your earnings to buy a better ship or to upgrade the weapons and engines
+    on your current one.
+
+    Blow up pirates.
+    Take sides in a civil war.
+    Or leave human space behind and hope to find some friendly aliens whose
+    culture is more civilized than your own...
+
+    Endless Sky is a sandbox-style space exploration game similar to Elite,
+    Escape Velocity, or Star Control.
+    You start out as the captain of a tiny spaceship and can choose what to do
+    from there.
+    The game includes a major plot line and many minor missions, but you can
+    choose whether you want to play through the plot or strike out on your own as
+    a merchant or bounty hunter or explorer.
+command:
+- /opt/apps/endless-sky.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
