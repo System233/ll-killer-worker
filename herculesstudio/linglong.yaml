@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: herculesstudio.linyaps
+  name: herculesstudio
+  version: 1.5.0.6
+  kind: app
+  description: |-
+    Hercules GUI front-end
+    Hercules Studio is a GUI front-end of the Hercules mainframe Emulator.
+    With Hercules Studio, you can easily control and monitor the hercules
+    virtual machine.
+command:
+- /opt/apps/herculesstudio.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
