@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: glueviz.linyaps
+  name: glueviz
+  version: 1.17.1.1
+  kind: app
+  description: |-
+    Linked data visualization
+    Glue is a Python project to link visualizations of scientific datasets across
+    many files. Some of its features are:
+
+    * Interactive, linked statistical graphics of multiple files.
+    * Support for many file formats including common image formats,
+    ascii tables, astronomical image and table formats (fits, vot, ipac), and
+    HDF5. Custom data loaders can also be easily added.
+    * Highly scriptable and extendable.
+command:
+- /opt/apps/glueviz.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
