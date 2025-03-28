@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: i3-wm.linyaps
+  name: i3-wm
+  version: 4.23.0.1
+  kind: app
+  description: |-
+    improved dynamic tiling window manager
+    Key features of i3 are good documentation, reasonable defaults (changeable in
+    a simple configuration file) and good multi-monitor support. The user
+    interface is designed for power users and emphasizes keyboard usage. i3 uses
+    XCB for asynchronous communication with X11 and aims to be fast and
+    light-weight.
+
+    Please be aware i3 is primarily targeted at advanced users and developers.
+command:
+- /opt/apps/i3-wm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
