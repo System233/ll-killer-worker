@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gnome-contacts.linyaps
+  name: gnome-contacts
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    Contacts manager for GNOME
+    GNOME Contacts is a standalone application to view and manage contacts
+    provided by all available contacts sources (Evolution, Empathy, etc).
+command:
+- /opt/apps/gnome-contacts.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
