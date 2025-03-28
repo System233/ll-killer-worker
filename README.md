@@ -1,11 +1,11 @@
 # amd64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3160|1072|606 |466 | 56.53%| 19.18%|
+|3160|1074|608 |466 | 56.61%| 19.24%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2779|786|508 |278 | 64.63%| 18.28%|
+|ubuntu-noble|2779|788|510 |278 | 64.72%| 18.35%|
 |deepin-v23|380|285|97 |188 | 34.04%| 25.53%|
 |obs-studio|1|1|1 |0 | 100.00%| 100.00%|
 ## 详细结果
@@ -940,6 +940,7 @@
 | [gconjugue](./gconjugue) | amd64  | ubuntu-noble | 0.8.5-2build2 | ![screen0-5.jpg](./gconjugue/tests/screen0-5.jpg) | [SHA256](./gconjugue/SHA256SUMS) |
 | [gcr](./gcr) | amd64  | ubuntu-noble | 3.41.2-1build3-20250327 | 失败 | [SHA256](./gcr/SHA256SUMS) |
 | [gcrystal](./gcrystal) | amd64  | ubuntu-noble | 0.14.17-6.2build2 | ![screen0-5.jpg](./gcrystal/tests/screen0-5.jpg) | [SHA256](./gcrystal/SHA256SUMS) |
+| [gcu-bin](./gcu-bin) | amd64  | ubuntu-noble | 0.14.17-6.2build2 | ![screen0-5.jpg](./gcu-bin/tests/screen0-5.jpg) ![screen1-5.jpg](./gcu-bin/tests/screen1-5.jpg) ![screen2-5.jpg](./gcu-bin/tests/screen2-5.jpg) ![screen3-5.jpg](./gcu-bin/tests/screen3-5.jpg) | [SHA256](./gcu-bin/SHA256SUMS) |
 | [gddccontrol](./gddccontrol) | amd64  | deepin-v23 | 1.0.3-1deepin1 | ![screen0-5.jpg](./gddccontrol/tests/screen0-5.jpg) | [SHA256](./gddccontrol/SHA256SUMS) |
 | [gdebi](./gdebi) | amd64  | deepin-v23 | 0.9.5.7+nmu7-20250327 | 失败 | N/A |
 | [gdigi](./gdigi) | amd64  | ubuntu-noble | 0.4.0+git20200615+1c2c89f-3build3-20250327 | 失败 | [SHA256](./gdigi/SHA256SUMS) |
@@ -949,6 +950,7 @@
 | [gdmap](./gdmap) | amd64  | ubuntu-noble | 1.2.0-1build2 | ![screen0-5.jpg](./gdmap/tests/screen0-5.jpg) | [SHA256](./gdmap/SHA256SUMS) |
 | [gdpc](./gdpc) | amd64  | ubuntu-noble | 2.2.5-16build2 | ![screen0-5.jpg](./gdpc/tests/screen0-5.jpg) | [SHA256](./gdpc/SHA256SUMS) |
 | [geany](./geany) | amd64  | ubuntu-noble | 2.0-1build2 | ![screen0-5.jpg](./geany/tests/screen0-5.jpg) | [SHA256](./geany/SHA256SUMS) |
+| [gearhead](./gearhead) | amd64  | ubuntu-noble | 1.310-3 | ![screen0-5.jpg](./gearhead/tests/screen0-5.jpg) | [SHA256](./gearhead/SHA256SUMS) |
 | [gearhead-sdl](./gearhead-sdl) | amd64  | ubuntu-noble | 1.310-3-20250327 | 失败 | [SHA256](./gearhead-sdl/SHA256SUMS) |
 | [gearhead2](./gearhead2) | amd64  | ubuntu-noble | 0.701-2 | ![screen0-5.jpg](./gearhead2/tests/screen0-5.jpg) | [SHA256](./gearhead2/SHA256SUMS) |
 | [gearhead2-sdl](./gearhead2-sdl) | amd64  | ubuntu-noble | 0.701-2-20250327 | 失败 | [SHA256](./gearhead2-sdl/SHA256SUMS) |
