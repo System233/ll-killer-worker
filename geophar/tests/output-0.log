@@ -1,0 +1,16 @@
+包名:geophar.linyaps
+Layer文件:geophar.linyaps_18.9.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: geophar.linyaps_18.9.0.2_arm64_binary.layer
+offset: 668
+mountpoint: /tmp/tmp.0Y0snVBeyE/mnt
+dbglevel: 0
+Traceback (most recent call last):
+  File "/usr/share/geophar/geophar.pyw", line 42, in <module>
+    from wxgeometrie.initialisation import initialiser
+  File "/usr/share/geophar/wxgeometrie/__init__.py", line 30, in <module>
+    from .dependances import tester_dependances, configurer_dependances
+  File "/usr/share/geophar/wxgeometrie/dependances.py", line 25, in <module>
+    import sys, imp, platform, os, shutil, subprocess
+ModuleNotFoundError: No module named 'imp'
