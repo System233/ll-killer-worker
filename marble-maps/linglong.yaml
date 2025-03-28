@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: marble-maps.linyaps
+  name: marble-maps
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    globe and map widget for mobile form factors
+    Marble is a generic geographical map widget and framework for KDE
+    applications. The Marble widget shows the earth as a sphere but does not
+    require hardware acceleration.  A minimal set of geographical data is
+    included, so it can be used without an internet connection.
+
+    This package is part of the KDE education module.
+command:
+- /opt/apps/marble-maps.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
