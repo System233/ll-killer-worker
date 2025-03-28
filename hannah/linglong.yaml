@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: hannah.linyaps
+  name: hannah
+  version: 2.0.1.0
+  kind: app
+  description: |-
+    pacman-like game, child oriented
+    Help Hannah's Horse is like a cross between Pacman and the Dizzy game
+    "Fastfood". The objective is to move Hannah to collect the pills around
+    the maze while avoiding the ghosts. Moving around the maze there are also
+    carrots which Hannah must also collect in order to complete the level.
+command:
+- /opt/apps/hannah.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
