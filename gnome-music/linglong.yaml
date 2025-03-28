@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gnome-music.linyaps
+  name: gnome-music
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    Music playing app for the GNOME Desktop
+    Music is a music playing application that is a simple and elegant
+    replacement for using Files to show the Music directory.
+command:
+- /opt/apps/gnome-music.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
