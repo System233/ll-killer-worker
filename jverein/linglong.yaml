@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: jverein.linyaps
+  name: jverein
+  version: 2.8.19.1
+  kind: app
+  description: |-
+    Tool to administrate an association
+    JVerein is an open source association administration with a connection
+    to the homebanking software Hibiscus, which is also under open source
+    license. The implementation is done with Java. The procedure
+    thus guaranteed on many platforms. Jameica is used as the GUI framework.
+command:
+- /opt/apps/jverein.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
