@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kjumpingcube.linyaps
+  name: kjumpingcube
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    simple tactical game
+    KJumpingcube is a simple tactical game for one or two players, played on a
+    grid of numbered squares.  Each turn, players compete for control of the board
+    by capturing or adding to one square.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/kjumpingcube.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
