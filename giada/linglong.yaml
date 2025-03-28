@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: giada.linyaps
+  name: giada
+  version: 0.22.0.4
+  kind: app
+  description: |-
+    Hardcore Loop Machine
+    free, minimal, hardcore audio tool for DJs, live performers and electronic
+    musicians. Pick up your channel, fill it with samples or MIDI events and start
+    the show by using this tiny piece of software as a loop machine, drum machine,
+    sequencer, live sampler or yet as a plugin/effect host.
+
+    Giada aims to be a compact and portable virtual device for production use and
+    live sets.
+command:
+- /opt/apps/giada.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
