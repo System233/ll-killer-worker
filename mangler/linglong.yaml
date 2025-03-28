@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: mangler.linyaps
+  name: mangler
+  version: 1.2.5.5
+  kind: app
+  description: |-
+    Ventrilo compatible client for Linux
+    Mangler is an open source VOIP client capable of connecting to Ventrilo 3.x
+    servers. It is capable of performing almost all standard user functionality
+    found in a Windows Ventrilo client.
+command:
+- /opt/apps/mangler.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
