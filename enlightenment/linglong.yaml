@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: enlightenment.linyaps
+  name: enlightenment
+  version: 0.26.0.2
+  kind: app
+  description: |-
+    X11 window manager based on EFL
+    Enlightenment is an advanced window manager for X11. Unique
+    features include: a fully animated background, nice drop shadows
+    around windows, backed by an extremely clean and optimized
+    foundation of APIs.
+
+    This package contains the core files for Enlightenment.
+command:
+- /opt/apps/enlightenment.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

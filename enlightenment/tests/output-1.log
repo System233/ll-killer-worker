@@ -1,0 +1,35 @@
+包名:enlightenment.linyaps
+Layer文件:enlightenment.linyaps_0.26.0.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: enlightenment.linyaps_0.26.0.2_x86_64_binary.layer
+offset: 672
+mountpoint: /tmp/tmp.9u58MRx7Px/mnt
+dbglevel: 0
+ERR<36>: ../src/bin/tools/filemanager/e_fm_cmdline.c:53 fm_open_reply() org.freedesktop.DBus.Error.ServiceUnknown: The name org.enlightenment.FileManager was not provided by any .service files
+## Copy & Paste the below (until EOF) into a terminal, then hit Enter
+
+eina_btlog << EOF
+/lib/x86_64-linux-gnu/libeina.so.1 0x7f43e9d73091 0x7f43e9d46000
+/lib/x86_64-linux-gnu/libeina.so.1 0x7f43e9d72bb1 0x7f43e9d46000
+/lib/x86_64-linux-gnu/libeina.so.1 0x7f43e9d74565 0x7f43e9d46000
+/usr/bin/enlightenment_filemanager 0x55cffef01780 0x55cffeeff000
+/lib/x86_64-linux-gnu/libeldbus.so.1 0x7f43e9c792f1 0x7f43e9c6a000
+/lib/x86_64-linux-gnu/libdbus-1.so.3 0x7f43e9778bf2 0x7f43e9765000
+/lib/x86_64-linux-gnu/libdbus-1.so.3 0x7f43e977d28e 0x7f43e9765000
+/lib/x86_64-linux-gnu/libeldbus.so.1 0x7f43e9c80289 0x7f43e9c6a000
+/lib/x86_64-linux-gnu/libecore.so.1 0x7f43e9ccdd4b 0x7f43e9cb7000
+/lib/x86_64-linux-gnu/libeo.so.1 0x7f43e98eaf6f 0x7f43e98d4000
+/lib/x86_64-linux-gnu/libeo.so.1 0x7f43e98eb214 0x7f43e98d4000
+/lib/x86_64-linux-gnu/libecore.so.1 0x7f43e9cd839f 0x7f43e9cb7000
+/lib/x86_64-linux-gnu/libecore.so.1 0x7f43e9cd8cad 0x7f43e9cb7000
+/lib/x86_64-linux-gnu/libecore.so.1 0x7f43e9ce34e0 0x7f43e9cb7000
+/lib/x86_64-linux-gnu/libecore.so.1 0x7f43e9cdced5 0x7f43e9cb7000
+/lib/x86_64-linux-gnu/libecore.so.1 0x7f43e9cd3915 0x7f43e9cb7000
+/usr/bin/enlightenment_filemanager 0x55cffef01516 0x55cffeeff000
+/lib/x86_64-linux-gnu/libc.so.6 0x7f43e9a2a1ca 0x7f43e9a00000
+/lib/x86_64-linux-gnu/libc.so.6 0x7f43e9a2a28b 0x7f43e9a00000
+/usr/bin/enlightenment_filemanager 0x55cffef015f5 0x55cffeeff000
+EOF
+
+Did you unload the EFM module? Try loading it.
