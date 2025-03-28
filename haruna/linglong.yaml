@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: haruna.linyaps
+  name: haruna
+  version: 0.12.3.1
+  kind: app
+  description: |-
+    Video player built with Qt/QML on top of libmpv
+    Haruna is an open source video player built with Qt/QML on top of
+    libmpv.
+
+    Compared with other video player frontends, it provides some special
+    features, such as:
+    * play online videos, through youtube-dl
+    * toggle playlist with mouse-over, playlist overlays the video
+    * auto skip chapter containing certain words
+    * configurable shortcuts and mouse buttons
+    * quick jump to next chapter by middle click on progress bar
+command:
+- /opt/apps/haruna.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
