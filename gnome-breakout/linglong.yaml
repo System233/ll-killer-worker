@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gnome-breakout.linyaps
+  name: gnome-breakout
+  version: 0.5.3.8
+  kind: app
+  description: |-
+    Clone of the classic game Breakout, written for GNOME
+    A clone of the classic game "Breakout". Control a paddle at the
+    bottom of the playfield and bounce a ball against bricks at the
+    top to destroy them.
+command:
+- /opt/apps/gnome-breakout.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
