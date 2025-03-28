@@ -1,0 +1,84 @@
+正在测试: APPID=mate-screensaver.linyaps LAYER=mate-screensaver.linyaps_1.26.2.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install mate-screensaver.linyaps_1.26.2.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:mate-screensaver.linyaps
+Layer文件:mate-screensaver.linyaps_1.26.2.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: mate-screensaver.linyaps_1.26.2.1_arm64_binary.layer
+offset: 712
+mountpoint: /tmp/tmp.4ojEZFyJ4t/mnt
+dbglevel: 0
+[成功] mate-screensaver-preferences.desktop: preferences-desktop-screensaver -> /usr/share/icons/Humanity/apps/48/preferences-desktop-screensaver.svg
+[成功] /opt/apps/mate-screensaver.linyaps/files/share/applications/mate-screensaver-preferences.desktop: /opt/apps/mate-screensaver.linyaps/files/entrypoint.sh mate-screensaver-preferences
+[成功] /opt/apps/mate-screensaver.linyaps/files/share/applications/screensavers/cosmos-slideshow.desktop: /opt/apps/mate-screensaver.linyaps/files/entrypoint.sh /usr/libexec/mate-screensaver/slideshow --location=/usr/share/backgrounds/cosmos
+[成功] /opt/apps/mate-screensaver.linyaps/files/share/applications/screensavers/footlogo-floaters.desktop: /opt/apps/mate-screensaver.linyaps/files/entrypoint.sh /usr/libexec/mate-screensaver/floaters /usr/share/pixmaps/mate-logo-white.svg
+[成功] /opt/apps/mate-screensaver.linyaps/files/share/applications/screensavers/gnomelogo-floaters.desktop: /opt/apps/mate-screensaver.linyaps/files/entrypoint.sh /usr/libexec/mate-screensaver/floaters /usr/share/pixmaps/gnome-logo-white.svg
+[成功] /opt/apps/mate-screensaver.linyaps/files/share/applications/screensavers/personal-slideshow.desktop: /opt/apps/mate-screensaver.linyaps/files/entrypoint.sh /usr/libexec/mate-screensaver/slideshow
+[成功] /opt/apps/mate-screensaver.linyaps/files/share/applications/screensavers/popsquares.desktop: /opt/apps/mate-screensaver.linyaps/files/entrypoint.sh /usr/libexec/mate-screensaver/popsquares
+[正在测试启动项]
+包名:mate-screensaver.linyaps
+Layer文件:mate-screensaver.linyaps_1.26.2.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: mate-screensaver.linyaps_1.26.2.1_arm64_binary.layer
+offset: 712
+mountpoint: /tmp/tmp.jshar3oqJk/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run mate-screensaver.linyaps -- /opt/apps/mate-screensaver.linyaps/files/entrypoint.sh mate-screensaver-preferences
+[PID 28421] 进程已启动
+[PID 28421] 已检测到窗口:PID=36
+[PID 28421] 正在截图 0秒: tests/screen0-0.jpg
+[PID 28421] 正在截图 1秒: tests/screen0-1.jpg
+[PID 28421] 正在截图 3秒: tests/screen0-3.jpg
+[PID 28421] 正在截图 5秒: tests/screen0-5.jpg
+[PID 28421] 正在通知并等待进程退出
+[PID 28421] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run mate-screensaver.linyaps -- /opt/apps/mate-screensaver.linyaps/files/entrypoint.sh /usr/libexec/mate-screensaver/slideshow --location=/usr/share/backgrounds/cosmos
+[PID 28634] 进程已启动
+[PID 28634] 已检测到窗口:PID=37
+[PID 28634] 正在截图 0秒: tests/screen1-0.jpg
+[PID 28634] 正在截图 1秒: tests/screen1-1.jpg
+[PID 28634] 正在截图 3秒: tests/screen1-3.jpg
+[PID 28634] 正在截图 5秒: tests/screen1-5.jpg
+[PID 28634] 正在通知并等待进程退出
+[PID 28634] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run mate-screensaver.linyaps -- /opt/apps/mate-screensaver.linyaps/files/entrypoint.sh /usr/libexec/mate-screensaver/floaters /usr/share/pixmaps/mate-logo-white.svg
+[PID 28799] 进程已启动
+[PID 28799] 已检测到窗口:PID=36
+[PID 28799] 正在截图 0秒: tests/screen2-0.jpg
+[PID 28799] 正在截图 1秒: tests/screen2-1.jpg
+[PID 28799] 正在截图 3秒: tests/screen2-3.jpg
+[PID 28799] 正在截图 5秒: tests/screen2-5.jpg
+[PID 28799] 正在通知并等待进程退出
+[PID 28799] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run mate-screensaver.linyaps -- /opt/apps/mate-screensaver.linyaps/files/entrypoint.sh /usr/libexec/mate-screensaver/floaters /usr/share/pixmaps/gnome-logo-white.svg
+[PID 28962] 进程已启动
+[PID 28962] 已检测到窗口:PID=36
+[PID 28962] 正在截图 0秒: tests/screen3-0.jpg
+[PID 28962] 正在截图 1秒: tests/screen3-1.jpg
+[PID 28962] 正在截图 3秒: tests/screen3-3.jpg
+[PID 28962] 正在截图 5秒: tests/screen3-5.jpg
+[PID 28962] 正在通知并等待进程退出
+[PID 28962] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run mate-screensaver.linyaps -- /opt/apps/mate-screensaver.linyaps/files/entrypoint.sh /usr/libexec/mate-screensaver/slideshow
+[PID 29126] 进程已启动
+[PID 29126] 已检测到窗口:PID=36
+[PID 29126] 正在截图 0秒: tests/screen4-0.jpg
+[PID 29126] 正在截图 1秒: tests/screen4-1.jpg
+[PID 29126] 正在截图 3秒: tests/screen4-3.jpg
+[PID 29126] 正在截图 5秒: tests/screen4-5.jpg
+[PID 29126] 正在通知并等待进程退出
+[PID 29126] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run mate-screensaver.linyaps -- /opt/apps/mate-screensaver.linyaps/files/entrypoint.sh /usr/libexec/mate-screensaver/popsquares
+[PID 29288] 进程已启动
+[PID 29288] 已检测到窗口:PID=36
+[PID 29288] 正在截图 0秒: tests/screen5-0.jpg
+[PID 29288] 正在截图 1秒: tests/screen5-1.jpg
+[PID 29288] 正在截图 3秒: tests/screen5-3.jpg
+[PID 29288] 正在截图 5秒: tests/screen5-5.jpg
+[PID 29288] 正在通知并等待进程退出
+[PID 29288] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall mate-screensaver.linyaps
