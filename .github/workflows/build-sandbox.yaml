@@ -222,7 +222,7 @@ jobs:
             if [ "$SANDBOX_FAIL" = "yes" ];then
               echo -n "-${HASH}">>$PKGID/version
             fi
-            
+            truncate -s 32K $PKGID/tests/output-*.log || true
             git add "$PKGID"
             git diff --cached --quiet || git commit -m "Update ${PKGID}"
             for((i=0;i<10;++i));do
