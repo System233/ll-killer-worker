@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: guitarix.linyaps
+  name: guitarix
+  version: 0.46.0.1
+  kind: app
+  description: |-
+    Rock guitar amplifier for JACK
+    Guitarix is a rock guitar amplifier for the JACK Audio Connection Kit with
+    one input and two outputs. It provides one JACK input port and two JACK output
+    ports. It is designed to produce nice thrash/metal/rock/blues guitar sounds.
+    Controls for bass, treble, gain, compressor, tube selector, distortion,
+    flanger, freeverb, crybaby (wah), etc are available.
+
+    Guitarix is available as a GTK+ interface and the project provides LV2 and
+    LADSPA plugins (see the guitarix-lv2 and guitarix-ladspa packages).
+
+    This package provides the standalone application with a GTK+ interface.
+command:
+- /opt/apps/guitarix.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
