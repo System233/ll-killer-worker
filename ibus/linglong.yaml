@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: ibus.linyaps
+  name: ibus
+  version: 1.5.29.2
+  kind: app
+  description: |-
+    Intelligent Input Bus - core
+    IBus is an Intelligent Input Bus. It is a new input framework for the Linux
+    OS. It provides full featured and user friendly input method user interface.
+    It also may help developers to develop input method easily.
+command:
+- /opt/apps/ibus.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
