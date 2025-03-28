@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: hdf-compass.linyaps
+  name: hdf-compass
+  version: 0.7.0.3
+  kind: app
+  description: |-
+    viewer for HDF5 and related formats
+    HDF Compass is an experimental viewer program for HDF5 and related formats,
+    designed to complement other more complex applications like HDFView. Strong
+    emphasis is placed on clean minimal design, and maximum extensibility through
+    a plugin system for new formats.
+
+    This package provides the HDF Compass application.
+command:
+- /opt/apps/hdf-compass.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
