@@ -1,0 +1,29 @@
+正在测试: APPID=hexter.linyaps LAYER=hexter.linyaps_1.1.1.2_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install hexter.linyaps_1.1.1.2_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:hexter.linyaps
+Layer文件:hexter.linyaps_1.1.1.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: hexter.linyaps_1.1.1.2_x86_64_binary.layer
+offset: 638
+mountpoint: /tmp/tmp.ob6wcwXvK1/mnt
+dbglevel: 0
+find: ‘/opt/apps/hexter.linyaps/files/share/icons’: No such file or directory
+[成功] hexter.desktop: hexter.linyaps-hexter -> /opt/apps/hexter.linyaps/files/share/pixmaps/hexter.linyaps-hexter.xpm
+[成功] /opt/apps/hexter.linyaps/files/share/applications/hexter.desktop: /opt/apps/hexter.linyaps/files/entrypoint.sh sh -c 'jack-dssi-host /usr/lib/dssi/hexter.so'
+[正在测试启动项]
+包名:hexter.linyaps
+Layer文件:hexter.linyaps_1.1.1.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: hexter.linyaps_1.1.1.2_x86_64_binary.layer
+offset: 638
+mountpoint: /tmp/tmp.ZMxgAoOAOV/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run hexter.linyaps -- /opt/apps/hexter.linyaps/files/entrypoint.sh sh -c 'jack-dssi-host /usr/lib/dssi/hexter.so'
+[PID 5589] 进程已启动
+[PID 5589] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall hexter.linyaps
