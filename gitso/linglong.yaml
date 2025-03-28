@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: gitso.linyaps
+  name: gitso
+  version: 0.6.2.4
+  kind: app
+  description: |-
+    simple frontend for reverse VNC connections (remote assistance)
+    Gitso is a cross-platform (Linux, OS X and Windows) graphical program to
+    easily connect one person to another person's screen, keyboard and mouse.
+    This makes it straight-forward to get help or give technical support.
+
+    In a simple two-step process, the person giving support first sets up port
+    forwarding and firewalling on his end, if necessary, and starts Gitso to
+    listen for incoming connections on port 5500. Then, the person looking for
+    help uses Gitso to connect to the supporter's address (IP or domain name),
+    making their screen remotely visible and allowing the supporter to use their
+    keyboard and mouse.
+command:
+- /opt/apps/gitso.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
