@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: mpdcon.app.linyaps
+  name: mpdcon.app
+  version: 1.5.1.0
+  kind: app
+  description: |-
+    MPD controller for GNUstep
+    MPDCon is a simple GNUstep controller for MPD (Music Player Daemon).
+    It has minimalistic graphical interface, although it provides the
+    basic features an MPD client is supposed to offer.
+command:
+- /opt/apps/mpdcon.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
