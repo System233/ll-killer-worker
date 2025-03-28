@@ -214,7 +214,12 @@ jobs:
             ls -l "$SRC_DIR"
 
             cd $WORK_DIR
+            
+            echo "::group::git pull"
             git pull origin $ARCH --rebase
+            echo "::endgroup::"
+
+            echo "::group::commit"
             rm -rf "$PKGID"
             mkdir -p "$PKGID"
             cp -arfT "$SRC_DIR" "$PKGID" || true
@@ -225,12 +230,14 @@ jobs:
             truncate -s 32K $PKGID/tests/output-*.log || true
             git add "$PKGID"
             git diff --cached --quiet || git commit -m "Update ${PKGID}"
+            
             for((i=0;i<10;++i));do
               if git pull origin $ARCH --rebase&&git push -u origin HEAD:$ARCH;then
                 break
               fi
               sleep 1
             done
+            echo "::endgroup::"
         env:
             SANDBOX_FAIL: ${{steps.test.outputs.fail}}
       - uses: valeriangalliat/action-sshd-cloudflared@v3
