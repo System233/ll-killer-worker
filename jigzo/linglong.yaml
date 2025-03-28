@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: jigzo.linyaps
+  name: jigzo
+  version: 0.6.1.7
+  kind: app
+  description: |-
+    Photo puzzle game for children
+    jigzo (formerly glpuzzle) is a jigsaw puzzle game. Choose from 12 puzzles of
+    increasing difficult. The difficulty ranges from 4 to 25 puzzle pieces. This
+    game requires a OpenGl hardware acceleration.
+command:
+- /opt/apps/jigzo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
