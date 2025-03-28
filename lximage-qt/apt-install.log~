@@ -1,0 +1,32 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ libfm-extra4t64 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libfm-qt14 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+              Depends: libqt5gui5t64 (>= 5.12.2) but it is not installable or
+                       libqt5gui5-gles (>= 5.12.2) but it is not installable
+ libmenu-cache-bin : Depends: libglib2.0-0t64 (>= 2.75.3) but it is not installable
+ libmenu-cache3 : Depends: libglib2.0-0t64 (>= 2.75.3) but it is not installable
+ libqt5core5t64 : Depends: libglib2.0-0t64 (>= 2.22.0) but it is not installable
+ libqt5printsupport5t64 : Depends: libqt5gui5t64 (>= 5.14.1) but it is not installable or
+                                   libqt5gui5-gles (>= 5.14.1) but it is not installable
+ libqt5svg5 : Depends: libqt5gui5t64 (>= 5.15.13+dfsg~) but it is not installable or
+                       libqt5gui5-gles (>= 5.15.13+dfsg~) but it is not installable
+ libqt5widgets5t64 : Depends: libqt5gui5t64 (>= 5.15.1) but it is not installable or
+                              libqt5gui5-gles (>= 5.15.1) but it is not installable
+ libqt5x11extras5 : Depends: libqt5gui5t64 (>= 5.15.13+dfsg~) but it is not installable or
+                             libqt5gui5-gles (>= 5.15.13+dfsg~) but it is not installable
+ lximage-qt : Depends: libglib2.0-0t64 (>= 2.36.0) but it is not installable
+              Depends: libqt5gui5t64 (>= 5.14.1) but it is not installable or
+                       libqt5gui5-gles (>= 5.14.1) but it is not installable
+              Recommends: qt5-image-formats-plugins but it is not installable
+E: Unable to correct problems, you have held broken packages.
