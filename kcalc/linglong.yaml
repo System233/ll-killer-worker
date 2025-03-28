@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: kcalc.linyaps
+  name: kcalc
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    simple and scientific calculator
+    KCalc is a scientific calculator.
+
+    KCalc provides:
+    * Trigonometric functions, logic operations, and statistical calculations
+    * Calculation in decimal, hexadecimal, octal, and binary bases
+    * Memory functions for storing results
+    * A comprehensive collection of mathematical constants
+
+    This package is part of the KDE Utilities module.
+command:
+- /opt/apps/kcalc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
