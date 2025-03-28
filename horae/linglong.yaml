@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: horae.linyaps
+  name: horae
+  version: 71.0.0.1
+  kind: app
+  description: |-
+    interactive graphical processing and analysis of EXAFS data
+    ATHENA is an interactive graphical utility for processing EXAFS data. It
+    handles most of the common data handling chores of interest, including
+    deglitching, aligning, merging, background removal, and Fourier transforms.
+
+    ARTEMIS is an interactive graphical utility for fitting EXAFS data using
+    theoretical standards from FEFF and sophisticated data modelling along with
+    flexible data visualization and statistical analysis.
+
+    HEPHAESTUS is a souped up periodic table for the x-ray absorption
+    spectroscopist. It provides a number of utilities involving tables of
+    absorption coefficients and other chemical data.
+command:
+- /opt/apps/horae.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
