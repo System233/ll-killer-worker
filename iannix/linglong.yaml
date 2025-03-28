@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: iannix.linyaps
+  name: iannix
+  version: 0.9.20.1
+  kind: app
+  description: |-
+    graphical OSC sequencer for digital arts
+    IanniX is a graphical sequencer for digital arts,
+    inspired by Iannis Xenakis' upic system for graphical scores.
+    IanniX manages events described via graphical elements (like curves) and
+    controls your real-time environment via Open Sound Control (OSC).
+    It can also be fully controlled via OSC (or FUDI, if you prefer).
+command:
+- /opt/apps/iannix.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
