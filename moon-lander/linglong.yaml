@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: moon-lander.linyaps
+  name: moon-lander
+  version: 1.0.0.9
+  kind: app
+  description: |-
+    game based on the classic moon lander
+    Moonlander is a fun and enjoyable modern graphical version (with
+    sound) of the classic moonlander game.  The objective is to land
+    your rocketship safely using a limited amount of fuel while
+    fighting gravity.
+command:
+- /opt/apps/moon-lander.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
