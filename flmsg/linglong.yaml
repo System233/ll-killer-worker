@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: flmsg.linyaps
+  name: flmsg
+  version: 4.0.23.1
+  kind: app
+  description: |-
+    amateur radio forms management editor
+    Flmsg is a simple forms management editor for the amateur radio supported
+    standard message formats, including ICS, HICS, MARS, IARU, Radiogram NTS,
+    Red Cross, and plaintext.  Its data files are pure ASCII text that can
+    be sent from point to point using the internet, amateur radio, or other
+    electronic link.
+command:
+- /opt/apps/flmsg.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
