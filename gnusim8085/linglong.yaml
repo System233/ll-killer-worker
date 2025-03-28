@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: gnusim8085.linyaps
+  name: gnusim8085
+  version: 1.4.1.1
+  kind: app
+  description: |-
+    Graphical Intel 8085 simulator, assembler and debugger
+    GNUSim8085 is a graphical simulator, assembler and debugger for the
+    Intel 8085 microprocessor.
+    The application has following features.
+    - A simple editor component with syntax highlighting.
+    - A keypad to input assembly language instructions with appropriate arguments.
+    - Easy view of register contents.
+    - Easy view of flag contents.
+    - Decimal &lt;–&gt; Hexadecimal converter.
+    - View of stack, memory and I/O contents.
+    - Support for breakpoints for program debugging.
+    - Stepwise program execution.
+    - One click conversion of assembly program to opcode listing.
+    - Printing support.
+    - UI translated in various languages.
+command:
+- /opt/apps/gnusim8085.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
