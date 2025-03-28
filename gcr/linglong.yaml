@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gcr.linyaps
+  name: gcr
+  version: 3.41.2.1
+  kind: app
+  description: |-
+    GNOME crypto services (daemon and tools)
+    GCR is a library for crypto UI and related tasks.
+
+    This package contains the certificate viewer and prompter service.
+command:
+- /opt/apps/gcr.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
