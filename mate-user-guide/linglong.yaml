@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: mate-user-guide.linyaps
+  name: mate-user-guide
+  version: 1.26.2.1
+  kind: app
+  description: |-
+    User documentation for MATE Desktop Environment
+    The MATE Desktop Environment is the continuation of GNOME 2. It provides an
+    intuitive and attractive desktop environment using traditional metaphors for
+    Linux and other Unix-like operating systems.
+
+    This package contains the user guide for MATE Desktop Environment and
+    its main applications.
+command:
+- /opt/apps/mate-user-guide.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
