@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gnome-pass-search-provider.linyaps
+  name: gnome-pass-search-provider
+  version: 1.3.0.1
+  kind: app
+  description: |-
+    GNOME Shell search provider for the pass password manager
+    This GNOME search provider integrates the pass utility into GNOME Shell.
+    It can search password entries and copy passwords as well as arbitrary
+    fields (username, pin, etc.) from the GNOME Shell search frontend. It
+    also supports the OTP extension (from the pass-extension-otp package).
+command:
+- /opt/apps/gnome-pass-search-provider.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
