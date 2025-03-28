@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: lubuntu-default-settings.linyaps
+  name: lubuntu-default-settings
+  version: 24.4.11.0
+  kind: app
+  description: |-
+    default settings for Lubuntu
+    Various system settings tailored for Lubuntu.
+command:
+- /opt/apps/lubuntu-default-settings.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
