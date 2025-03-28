@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: freewheeling.linyaps
+  name: freewheeling
+  version: 0.6.6.1
+  kind: app
+  description: |-
+    live looping musical instrument
+    FreeWheeling is a live looping instrument built for improvisation. Using a
+    keyboard or a MIDI controller, it allows one to build and control
+    repetitive patterns from a live audio stream.
+
+    FreeWheeling uses the Jack Audio Connection Kit, Fluidsynth, and SDL.
+command:
+- /opt/apps/freewheeling.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
