@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: gnome-sudoku.linyaps
+  name: gnome-sudoku
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    Sudoku puzzle game for GNOME
+    This is an application for playing the popular sudoku logic puzzle
+    game, in which one must fill a 9 by 9 square with the correct digits.
+
+    It features automatic puzzle generation, saving and restoring games,
+    annotations, trackers, and much more.
+command:
+- /opt/apps/gnome-sudoku.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
