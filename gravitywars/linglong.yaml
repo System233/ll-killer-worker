@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: gravitywars.linyaps
+  name: gravitywars
+  version: 1.102.0.35
+  kind: app
+  description: |-
+    clone of Gravity Force
+    Gravity Wars is inspired by Gravity Force, one of the greatest games
+    for the Amiga. This version is a little different, with a much higher
+    resolution, and better graphics.
+
+    The aim of the game is to guide a spaceship using only thrust and
+    orientation to the exit, fighting against gravity and inertia. It
+    includes some new features like water, exploding doors, bonus objects,
+    fans (ie. wind), and some other special effects like exploding bullets
+    and splashing water.
+
+    Gravity Wars is no longer maintained upstream and this Debian package
+    should be considered the current upstream version.
+command:
+- /opt/apps/gravitywars.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
