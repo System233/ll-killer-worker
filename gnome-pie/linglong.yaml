@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: gnome-pie.linyaps
+  name: gnome-pie
+  version: 0.7.3.2
+  kind: app
+  description: |-
+    visual application launcher for GNOME
+    gnome-pie is a radial visual application launcher for GNOME. It allows the
+    user to bind groups of frequently used applications to a ring that appears
+    when a hot key / mouse binding is triggered.
+
+    It was inspired by the OPie addon written for the game World of Warcraft.
+command:
+- /opt/apps/gnome-pie.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
