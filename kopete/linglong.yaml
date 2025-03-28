@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kopete.linyaps
+  name: kopete
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    instant messaging and chat application
+    Kopete is an instant messaging and chat application with support for a wide
+    variety of services, such as AIM, Yahoo, ICQ, MSN, and Jabber.  Advanced
+    features and additional protocols are available as plugins.
+
+    This package is part of the KDE networking module.
+command:
+- /opt/apps/kopete.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
