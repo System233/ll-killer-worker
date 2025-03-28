@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kamera.linyaps
+  name: kamera
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    digital camera support for KDE applications
+    This package allows any KDE application to access and manipulate pictures on
+    a digital camera.
+
+    This package is part of the KDE graphics module.
+command:
+- /opt/apps/kamera.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
