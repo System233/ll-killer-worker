@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: klayout.linyaps
+  name: klayout
+  version: 0.28.16.0
+  kind: app
+  description: |-
+    High Performance Layout Viewer and Editor
+    This is very good viewer for GDSII and other layout files used in the
+    semiconductor industry.
+
+    It is similar to 'magic', but has a much more modern GUI and is more robust
+    handling all kinds of GDSII files created by various other tools. Its focus is
+    more on viewing than on editing, but it also has limited, but expanding,
+    support for DRC and extraction for LVS.
+command:
+- /opt/apps/klayout.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
