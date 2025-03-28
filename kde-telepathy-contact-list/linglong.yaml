@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: kde-telepathy-contact-list.linyaps
+  name: kde-telepathy-contact-list
+  version: 23.4.3.0
+  kind: app
+  description: |-
+    Telepathy contact list for the KDE Plasma Desktop
+    This package provides a contact list application based on telepathy,
+    which allows you to list your friends from all your IM accounts and
+    begin chatting with them.
+
+    This package is not meant to be used standalone. It is recommended
+    to install the kde-telepathy metapackage instead.
+command:
+- /opt/apps/kde-telepathy-contact-list.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
