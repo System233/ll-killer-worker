@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: mediathekview.linyaps
+  name: mediathekview
+  version: 13.2.1.1
+  kind: app
+  description: |-
+    view streams from German public television stations
+    This application searches for various media center video content of the German
+    television program (ARD, ZDF, Arte, 3Sat, MDR, ORF, SRF and many more).
+    You can watch, download and even subscribe to an offered show.
+command:
+- /opt/apps/mediathekview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
