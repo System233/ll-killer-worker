@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: flamerobin.linyaps
+  name: flamerobin
+  version: 0.9.10.1
+  kind: app
+  description: |-
+    graphical database administration tool for Firebird DBMS
+    FlameRobin is a graphical database administration tool for Firebird database
+    management system.
+
+    Its goals are:
+    - to be lightweight (small footprint, fast execution)
+    - cross-platform (Linux, Windows for start, others planned too)
+    - dependent only on other open source software
+
+    You need to setup firebird server on local or remote machine before using
+    FlameRobin. See package firebird3.0-server.
+command:
+- /opt/apps/flamerobin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
