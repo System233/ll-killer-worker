@@ -1,0 +1,35 @@
+version: "1"
+package:
+  id: linssid.linyaps
+  name: linssid
+  version: 3.6.0.8
+  kind: app
+  description: |-
+    graphical wireless scanner
+    LinSSID is a graphical program that displays locally receivable 802.11
+    wireless attach points and ad hoc networks.
+
+    A table is displayed with various parameters such as MAC address, channel,
+    and signal strength. Graphs are also displayed with signal strength by
+    channel and signal strength over time.
+
+    LinSSID is graphically and functionally similar to inSSIDer (for Microsoft
+    Windows) and Wi-Fi Analyzer (for Android).
+
+    LinSSID can be used to measure the local performance or to search for an
+    interference free channel to be set in a wireless router (access point or
+    AP). The wireless established link won't be affected by these operations
+    because LinSSID needn't set the monitor mode in network interface.
+
+    Some features:
+
+    - Table of locally receivable attach points with many columns of different
+    information and sortable and movable columns.
+    - Adjustable speed, real-time update.
+    - Graphs of signal strength by channel and over time.
+    - AP bandwidth displayed.
+    - Works on both 2.4 GHz and 5 GHz channels.
+command:
+- /opt/apps/linssid.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
