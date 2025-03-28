@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: morph-browser.linyaps
+  name: morph-browser
+  version: 1.1.0.1
+  kind: app
+  description: |-
+    Web Browser for Lomiri
+    Lightweight web browser tailored for Lomiri, based on the Qt WebEngine
+    and using the Lomiri UI components.
+command:
+- /opt/apps/morph-browser.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
