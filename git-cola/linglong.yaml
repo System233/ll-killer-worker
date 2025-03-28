@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: git-cola.linyaps
+  name: git-cola
+  version: 4.6.1.1
+  kind: app
+  description: |-
+    highly caffeinated git GUI
+    Git-cola is a git GUI optimized for working with the git index.
+
+    Git-cola can compare arbitrary commits using standard merge tools.
+    With it you can search commit messages, content, authors, paths,
+    data ranges etc. and it makes it easy to interactively edit the
+    index.
+command:
+- /opt/apps/git-cola.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
