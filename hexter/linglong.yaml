@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: hexter.linyaps
+  name: hexter
+  version: 1.1.1.2
+  kind: app
+  description: |-
+    Yamaha DX7 modeling DSSI plugin
+    hexter is a software synthesizer that models the sound generation of a Yamaha
+    DX7 synthesizer. It can easily load most DX7 patch bank files, accept patch
+    editing commands via MIDI sys-ex messages, and recreate the sound of the DX7
+    with great accuracy.
+command:
+- /opt/apps/hexter.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
