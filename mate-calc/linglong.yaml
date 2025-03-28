@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: mate-calc.linyaps
+  name: mate-calc
+  version: 1.26.0.1
+  kind: app
+  description: |-
+    MATE desktop calculator
+    mate-calc is a powerful graphical calculator with financial, logical and
+    scientific modes. It uses a multiple precision package to do its arithmetic
+    to give a high degree of accuracy.
+command:
+- /opt/apps/mate-calc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
