@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: ksudoku.linyaps
+  name: ksudoku
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Sudoku puzzle game and solver
+    KSudoku is a Sudoku game and solver, supporting a range of 2D and 3D Sudoku
+    variants.  In addition to playing Sudoku, it can print Sudoku puzzle sheets
+    and find the solution to any Sudoku puzzle.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/ksudoku.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
