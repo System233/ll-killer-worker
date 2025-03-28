@@ -1,0 +1,20 @@
+包名:fs-uae-arcade.linyaps
+Layer文件:fs-uae-arcade.linyaps_3.1.63.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: fs-uae-arcade.linyaps_3.1.63.2_arm64_binary.layer
+offset: 653
+mountpoint: /tmp/tmp.iXdhkbq1s6/mnt
+dbglevel: 0
+sys.path = ['/usr/share/fs-uae-arcade', '/usr/lib/python312.zip', '/usr/lib/python3.12', '/usr/lib/python3.12/lib-dynload', '/usr/local/lib/python3.12/dist-packages', '/usr/lib/python3/dist-packages']
+sending quit signal
+Traceback (most recent call last):
+  File "/usr/bin/fs-uae-arcade", line 141, in <module>
+    main()
+  File "/usr/bin/fs-uae-arcade", line 124, in main
+    import arcade.arcade_main
+  File "/usr/share/fs-uae-arcade/arcade/arcade_main.py", line 2, in <module>
+    from arcade.glui.imageloader import ImageLoader
+  File "/usr/share/fs-uae-arcade/arcade/glui/imageloader.py", line 8, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'

@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: fs-uae-arcade.linyaps
+  name: fs-uae-arcade
+  version: 3.1.63.2
+  kind: app
+  description: |-
+    Full-screen game browser for FS-UAE
+    FS-UAE is a cross-platform Amiga emulator based on updated emulation code
+    from WinUAE. FS-UAE uses SDL for input, OpenAL for audio and OpenGL
+    for graphics.
+
+    This package contains FS-UAE Arcade, a fullscreen game browser
+    for couch potatoes.
+command:
+- /opt/apps/fs-uae-arcade.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
