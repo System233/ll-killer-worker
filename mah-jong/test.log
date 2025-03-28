@@ -1,0 +1,35 @@
+正在测试: APPID=mah-jong.linyaps LAYER=mah-jong.linyaps_1.16.0.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install mah-jong.linyaps_1.16.0.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:mah-jong.linyaps
+Layer文件:mah-jong.linyaps_1.16.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: mah-jong.linyaps_1.16.0.1_x86_64_binary.layer
+offset: 872
+mountpoint: /tmp/tmp.LzEgJCU47O/mnt
+dbglevel: 0
+find: ‘/opt/apps/mah-jong.linyaps/files/share/icons’: No such file or directory
+[成功] mah-jong.desktop: mah-jong -> /opt/apps/mah-jong.linyaps/files/share/pixmaps/mah-jong.xpm
+[成功] /opt/apps/mah-jong.linyaps/files/share/applications/mah-jong.desktop: /opt/apps/mah-jong.linyaps/files/entrypoint.sh xmj
+[正在测试启动项]
+包名:mah-jong.linyaps
+Layer文件:mah-jong.linyaps_1.16.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: mah-jong.linyaps_1.16.0.1_x86_64_binary.layer
+offset: 872
+mountpoint: /tmp/tmp.782DO3pbUS/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run mah-jong.linyaps -- /opt/apps/mah-jong.linyaps/files/entrypoint.sh xmj
+[PID 7810] 进程已启动
+[PID 7810] 已检测到窗口:PID=36
+[PID 7810] 正在截图 0秒: tests/screen0-0.jpg
+[PID 7810] 正在截图 2秒: tests/screen0-2.jpg
+[PID 7810] 正在截图 4秒: tests/screen0-4.jpg
+[PID 7810] 正在截图 5秒: tests/screen0-5.jpg
+[PID 7810] 正在通知并等待进程退出
+[PID 7810] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall mah-jong.linyaps
