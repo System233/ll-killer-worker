@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: lusernet.app.linyaps
+  name: lusernet.app
+  version: 0.4.3.1
+  kind: app
+  description: |-
+    News reader for GNUstep
+    LuserNET is an NNTP based news reader for GNUstep.  Although it's at
+    an early version, it's already quite usable.  The following features
+    are available:
+
+    * Coloring of messages based on quoting depth.
+    * Background read-ahead.
+    * Intelligent scrolling.
+    * Handles multiple servers.
+    * Completely asynchronous.
+    * Good MIME conformance and handling.
+command:
+- /opt/apps/lusernet.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
