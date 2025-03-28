@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: lutris.linyaps
+  name: lutris
+  version: 0.5.14.2
+  kind: app
+  description: |-
+    video game preservation platform
+    Lutris helps you install and play video games from all eras and from most
+    gaming systems. By leveraging and combining existing emulators, engine
+    re-implementations and compatibility layers, it gives you a central interface
+    to launch all your games.
+command:
+- /opt/apps/lutris.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
