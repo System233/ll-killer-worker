@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: loqui.linyaps
+  name: loqui
+  version: 0.7.0.2
+  kind: app
+  description: |-
+    GTK+ based multipane IRC/Chat Client
+    Loqui is a IRC/chat client based on GTK+, supports multiple servers and
+    multiple protocols, has and the common buffer (a buffer to show messages
+    on the channels that not currently selected).
+
+    It also has a friendly multipane interface, you can easily use it.
+command:
+- /opt/apps/loqui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
