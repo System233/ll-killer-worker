@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: homebank.linyaps
+  name: homebank
+  version: 5.7.4.1
+  kind: app
+  description: |-
+    Manage your personal accounts at home
+    HomeBank is a fast, simple and easy to use program to manage your personal
+    accounting.
+    It has a lot of features such as easy analysis with  graphical charts
+    (statistics, budget, overdrawn, car cost), useful reports ("Where your
+    money goes", "Trend Time Report" ), multi-accounts  support, budget
+    management, reminder, import from  OFX/QFX-CSV files, visual status of
+    operations. It is based on GTK2.
+command:
+- /opt/apps/homebank.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
