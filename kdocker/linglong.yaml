@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kdocker.linyaps
+  name: kdocker
+  version: 5.4.0.1
+  kind: app
+  description: |-
+    lets you dock any application into the system tray
+    KDocker will help you dock any application into the system tray.
+    This means you can dock openoffice, xmms, firefox, thunderbird, anything!
+    Just point and click. Works for all NET WM compliant window managers - that
+    includes KDE, GNOME, Xfce, Fluxbox and many more.
+command:
+- /opt/apps/kdocker.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

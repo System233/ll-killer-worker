@@ -1,0 +1,28 @@
+正在测试: APPID=kdocker.linyaps LAYER=kdocker.linyaps_5.4.0.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install kdocker.linyaps_5.4.0.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:kdocker.linyaps
+Layer文件:kdocker.linyaps_5.4.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: kdocker.linyaps_5.4.0.1_x86_64_binary.layer
+offset: 674
+mountpoint: /tmp/tmp.YQEfXeJHHx/mnt
+dbglevel: 0
+[成功] kdocker.desktop: kdocker -> /opt/apps/kdocker.linyaps/files/share/icons/hicolor/128x128/apps/kdocker.png
+[成功] /opt/apps/kdocker.linyaps/files/share/applications/kdocker.desktop: /opt/apps/kdocker.linyaps/files/entrypoint.sh kdocker
+[正在测试启动项]
+包名:kdocker.linyaps
+Layer文件:kdocker.linyaps_5.4.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: kdocker.linyaps_5.4.0.1_x86_64_binary.layer
+offset: 674
+mountpoint: /tmp/tmp.pM8SGJUA4v/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run kdocker.linyaps -- /opt/apps/kdocker.linyaps/files/entrypoint.sh kdocker
+[PID 9155] 进程已启动
+[PID 9155] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall kdocker.linyaps
