@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: gnome-shell-pomodoro.linyaps
+  name: gnome-shell-pomodoro
+  version: 0.25.1.1
+  kind: app
+  description: |-
+    GNOME Shell time-management app
+    This GNOME Shell app helps you to manage time according to the
+    pomodoro technique.
+
+    Features:
+    * puts a countdown timer in the GNOME Shell top panel;
+    * nags you with reminders about taking a break;
+    * uses full screen notifications that can be easily dismissed;
+    * hides other notifications until the start of the break;
+    * sets your IM (Empathy) status to "busy".
+
+    The pomodoro technique is a time and focus management method which improves
+    productivity and quality of work. The name comes from a kitchen timer, which
+    can be used to keep track of time. In short, you are supposed to focus on work
+    for around 25 minutes and then have a well deserved break in which you should
+    relax. Then when this cycle repeats for the fourth time you should take a
+    longer break (have a walk or something).
+command:
+- /opt/apps/gnome-shell-pomodoro.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
