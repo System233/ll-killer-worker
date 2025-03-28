@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: gnome-packagekit.linyaps
+  name: gnome-packagekit
+  version: 43.0.0.2
+  kind: app
+  description: |-
+    Graphical distribution neutral package manager for GNOME
+    PackageKit allows performing simple software management tasks over a DBus
+    interface  e.g. refreshing the cache, updating, installing and removing
+    software packages or searching for multimedia codecs and file handlers.
+
+    This package contains a GTK+ based application for package installation
+    and removal, a simple repository editor and graphical PackageKit
+    configuration tool and a viewer for package installation history.
+command:
+- /opt/apps/gnome-packagekit.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
