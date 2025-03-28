@@ -1,0 +1,41 @@
+version: "1"
+package:
+  id: karbon.linyaps
+  name: karbon
+  version: 3.2.1.8
+  kind: app
+  description: |-
+    vector graphics application for the Calligra Suite
+    Karbon is a vector drawing application with an user interface that is easy to
+    use, highly customizable and extensible. That makes Karbon a great application
+    for users starting to explore the world of vector graphics as well as for
+    artists wanting to create breathtaking vector art. Features include:
+
+    * Loading support for ODG, SVG, WMF, WPG, EPS/PS
+    * Writing support for ODG, SVG, WMF, PNG, PDF
+    * Customizable user interface with freely placeable toolbars and dockers
+    * Layer docker for easy handling of complex documents including preview
+    thumbnails, support for grouping shapes via drag and drop,
+    controlling visibility of shapes or locking
+    * Advanced path editing tool with great on-canvas editing capabilities
+    * Various drawing tools for creating path shapes including a draw path
+    tool and a pencil tool, as well as a calligraphy drawing tool
+    * Gradient and pattern tools for easy on-canvas editing of gradient and
+    pattern styles
+    * Top notch snapping facilities for guided drawing and editing (e.g.
+    snapping to grid, guide lines, path nodes, bounding boxes, orthogonal
+    positions, intersections of path shapes or extensions of lines and
+    paths)
+    * Many predefined basic shapes included, such as circle/ellipse, star or
+    rectangle
+    * Artistic text shape with support for following path outlines
+    (i.e. text on path)
+    * Complex path operations and effects like Boolean set operations,
+    path flattening, rounding and refining as well as whirl/pinch effects
+    * Extensible by writing plugins for new tools, shapes and dockers
+
+    This package is part of the Calligra Suite.
+command:
+- /opt/apps/karbon.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
