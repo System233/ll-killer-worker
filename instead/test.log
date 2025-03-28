@@ -1,0 +1,35 @@
+正在测试: APPID=instead.linyaps LAYER=instead.linyaps_3.3.2.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install instead.linyaps_3.3.2.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:instead.linyaps
+Layer文件:instead.linyaps_3.3.2.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: instead.linyaps_3.3.2.1_arm64_binary.layer
+offset: 795
+mountpoint: /tmp/tmp.LtGxqtA4gO/mnt
+dbglevel: 0
+find: ‘/opt/apps/instead.linyaps/files/share/icons’: No such file or directory
+[成功] instead.desktop: sdl_instead -> /opt/apps/instead.linyaps/files/share/pixmaps/sdl_instead.png
+[成功] /opt/apps/instead.linyaps/files/share/applications/instead.desktop: /opt/apps/instead.linyaps/files/entrypoint.sh /usr/games/sdl-instead
+[正在测试启动项]
+包名:instead.linyaps
+Layer文件:instead.linyaps_3.3.2.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: instead.linyaps_3.3.2.1_arm64_binary.layer
+offset: 795
+mountpoint: /tmp/tmp.wkPyVsMT9v/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run instead.linyaps -- /opt/apps/instead.linyaps/files/entrypoint.sh /usr/games/sdl-instead
+[PID 10042] 进程已启动
+[PID 10042] 已检测到窗口:PID=36
+[PID 10042] 正在截图 0秒: tests/screen0-0.jpg
+[PID 10042] 正在截图 1秒: tests/screen0-1.jpg
+[PID 10042] 正在截图 3秒: tests/screen0-3.jpg
+[PID 10042] 正在截图 5秒: tests/screen0-5.jpg
+[PID 10042] 正在通知并等待进程退出
+[PID 10042] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall instead.linyaps
