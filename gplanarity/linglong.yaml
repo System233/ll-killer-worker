@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: gplanarity.linyaps
+  name: gplanarity
+  version: 17906.0.0.7
+  kind: app
+  description: |-
+    simple puzzle game involving untangling planar graphs
+    gPlanarity is a puzzle game with the goal to untangle planar graphs for
+    fun and prizes. If you tend to get addicted to cute little math  puzzles,
+    this one is a doozy.
+
+    gPlanarity is a super-clone of the flash Planarity game written by John
+    Tantalo. The original Planarity ran well in IE and Firefox on other
+    platforms, but was slow and liked to lock up or abort under Linux
+    browsers.
+
+    gPlanarity implements gameplay identical to the original Planarity but
+    adds some UI and game extras around the basic game such as multiple
+    board generation algorithms, puzzle boards, complete backing state,
+    group select/drag and so on.
+command:
+- /opt/apps/gplanarity.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
