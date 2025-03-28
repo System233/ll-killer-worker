@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: kaffeine.linyaps
+  name: kaffeine
+  version: 2.0.18.1
+  kind: app
+  description: |-
+    versatile media player for KDE
+    Kaffeine is a media player for KDE based on VLC, which gives it a wide variety
+    of supported media types and lets Kaffeine access CDs, DVDs, and network
+    streams easily.  Kaffeine also has an excellent support of digital TV (DVB).
+
+    Kaffeine can keep track of multiple playlists simultaneously, and supports
+    autoloading of subtitle files for use while playing video.
+command:
+- /opt/apps/kaffeine.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
