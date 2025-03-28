@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: jaaa.linyaps
+  name: jaaa
+  version: 0.9.2.1
+  kind: app
+  description: |-
+    audio signal generator and spectrum analyser
+    Jaaa (JACK and ALSA Audio Analyser) is an audio signal generator and
+    spectrum analyser designed to make accurate measurements.
+
+    Jaaa allows you select on of the four inputs,
+    'Min' and 'Max' the min and max displayed frequencies.
+    There can be up to two markers which helps accurately
+    read off values in the display.
+command:
+- /opt/apps/jaaa.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
