@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ktimer.linyaps
+  name: ktimer
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    countdown timer
+    KTimer is a countdown timer for running commands after a delay.
+    The countdown can be paused or set to loop continuously.
+
+    This package is part of the KDE SC utilities module.
+command:
+- /opt/apps/ktimer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
