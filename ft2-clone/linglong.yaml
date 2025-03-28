@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: ft2-clone.linyaps
+  name: ft2-clone
+  version: 1.72.1.1
+  kind: app
+  description: |-
+    Fasttracker II clone
+    Multi-platform clone of the classic music making software
+    FastTracker II. It can load XM, MOD, S3M, STM module files.
+command:
+- /opt/apps/ft2-clone.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
