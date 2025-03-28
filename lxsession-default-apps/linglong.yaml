@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: lxsession-default-apps.linyaps
+  name: lxsession-default-apps
+  version: 0.5.5.1
+  kind: app
+  description: |-
+    utility to configure lxsession and its default applications
+    LXSession is the default session manager for the Lightweight X11 Desktop
+    Environment (LXDE).
+
+    LXSession-Default-Apps is an utility to configure lxsession and its default
+    applications.
+command:
+- /opt/apps/lxsession-default-apps.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
