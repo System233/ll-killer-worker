@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: mantis-xray.linyaps
+  name: mantis-xray
+  version: 3.1.15.1
+  kind: app
+  description: |-
+    Multivariate ANalysis Tool for x-ray Spectromicroscopy
+    Spectromicroscopy combines spectral data with microscopy, where
+    typical datasets consist of a stack of microscopic images taken
+    across an energy range. Due to the data complexity, manual analysis
+    can be time consuming and inefficient, whereas multivariate analysis
+    tools not only reduce the time needed but also can uncover hidden
+    trends in the data.
+
+    Mantis is Multivariate ANalysis Tool for Spectromicroscopy developed
+    in Python by 2nd Look Consulting. It uses principal component
+    analysis and cluster analysis to classify pixels according to
+    spectral similarity.
+command:
+- /opt/apps/mantis-xray.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
