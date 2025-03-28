@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gtkam.linyaps
+  name: gtkam
+  version: 1.0.0.4
+  kind: app
+  description: |-
+    application for retrieving media from digital cameras
+    GTKam is a graphical application based on GTK+ that allows you
+    to transfer pictures and movies from a digital camera.
+command:
+- /opt/apps/gtkam.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
