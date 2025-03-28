@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: kdepim-runtime.linyaps
+  name: kdepim-runtime
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    runtime components for Akonadi KDE
+    This package contains Akonadi agents written using KDE Development Platform
+    libraries.
+    Any package that uses Akonadi should probably pull this in as a dependency.
+    The kres-bridges is also parts of this package.
+
+    This package is part of the kdepim-runtime module.
+command:
+- /opt/apps/kdepim-runtime.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
