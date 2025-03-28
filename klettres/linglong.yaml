@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: klettres.linyaps
+  name: klettres
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    foreign alphabet tutor for KDE
+    KLettres is an aid for learning how to read and pronounce the alphabet of a
+    foreign language.
+
+    Seven languages are currently available: Czech, Danish, Dutch, English,
+    French, Italian and Slovak.
+
+    This package is part of the KDE education module.
+command:
+- /opt/apps/klettres.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
