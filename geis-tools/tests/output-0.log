@@ -1,0 +1,14 @@
+包名:geis-tools.linyaps
+Layer文件:geis-tools.linyaps_2.2.17.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: geis-tools.linyaps_2.2.17.0_arm64_binary.layer
+offset: 553
+mountpoint: /tmp/tmp.8gnS20ayeE/mnt
+dbglevel: 0
+Traceback (most recent call last):
+  File "/usr/bin/geisview", line 29, in <module>
+    import geisview.classview
+  File "/usr/lib/python3/dist-packages/geisview/classview.py", line 22, in <module>
+    from gi.repository import Gtk
+ModuleNotFoundError: No module named 'gi'
