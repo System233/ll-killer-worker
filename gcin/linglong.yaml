@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: gcin.linyaps
+  name: gcin
+  version: 2.9.0.3
+  kind: app
+  description: |-
+    GTK+ based input method for Chinese users
+    gcin is a GTK+ based input method which focused mainly on Traditional
+    Chinese. However, it is also very useful for Simplified Chinese, Japanese,
+    and many other languages.
+
+    To use gcin, the correspondence immodule packages also need to be installed.
+    They are:
+
+    * gcin-gtk2-immodule for GTK2
+    * gcin-gtk3-immodule for GTK3
+    * gcin-qt5-immodule for Qt5
+command:
+- /opt/apps/gcin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
