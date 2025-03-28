@@ -1,0 +1,87 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  gcc-14-base libgcc-s1 libgfortran5 libgomp1 libssl3t64 libstdc++6 sudo
+Recommended packages:
+  libquadmath0
+The following NEW packages will be installed:
+  gcc-14-base libgfortran5 libssl3t64 matlab-support sudo
+The following packages will be upgraded:
+  libgcc-s1 libgomp1 libstdc++6
+3 upgraded, 5 newly installed, 0 to remove and 447 not upgraded.
+Need to get 4273 kB of archives.
+After this operation, 12.5 MB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 gcc-14-base arm64 14.2.0-4ubuntu2~24.04 [50.8 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgcc-s1 arm64 14.2.0-4ubuntu2~24.04 [61.9 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libstdc++6 arm64 14.2.0-4ubuntu2~24.04 [751 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libssl3t64 arm64 3.0.13-0ubuntu3.5 [1797 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 sudo arm64 1.9.15p5-3ubuntu5 [929 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgfortran5 arm64 14.2.0-4ubuntu2~24.04 [444 kB]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgomp1 arm64 14.2.0-4ubuntu2~24.04 [145 kB]
+Get:8 https://azure.ports.ubuntu.com/ubuntu-ports noble/multiverse arm64 matlab-support all 0.1 [94.7 kB]
+Fetched 4273 kB in 1s (3558 kB/s)
+Selecting previously unselected package gcc-14-base:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../gcc-14-base_14.2.0-4ubuntu2~24.04_arm64.deb ...
+Unpacking gcc-14-base:arm64 (14.2.0-4ubuntu2~24.04) ...
+Setting up gcc-14-base:arm64 (14.2.0-4ubuntu2~24.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27745 files and directories currently installed.)
+Preparing to unpack .../libgcc-s1_14.2.0-4ubuntu2~24.04_arm64.deb ...
+Unpacking libgcc-s1:arm64 (14.2.0-4ubuntu2~24.04) over (13.2.0-3deepin2) ...
+Setting up libgcc-s1:arm64 (14.2.0-4ubuntu2~24.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27745 files and directories currently installed.)
+Preparing to unpack .../libstdc++6_14.2.0-4ubuntu2~24.04_arm64.deb ...
+Unpacking libstdc++6:arm64 (14.2.0-4ubuntu2~24.04) over (13.2.0-3deepin2) ...
+Setting up libstdc++6:arm64 (14.2.0-4ubuntu2~24.04) ...
+Selecting previously unselected package libssl3t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27745 files and directories currently installed.)
+Preparing to unpack .../libssl3t64_3.0.13-0ubuntu3.5_arm64.deb ...
+Unpacking libssl3t64:arm64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:arm64 (3.2.0-2) ...
+Selecting previously unselected package sudo.
+Preparing to unpack .../sudo_1.9.15p5-3ubuntu5_arm64.deb ...
+Unpacking sudo (1.9.15p5-3ubuntu5) ...
+Selecting previously unselected package libgfortran5:arm64.
+Preparing to unpack .../libgfortran5_14.2.0-4ubuntu2~24.04_arm64.deb ...
+Unpacking libgfortran5:arm64 (14.2.0-4ubuntu2~24.04) ...
+Preparing to unpack .../libgomp1_14.2.0-4ubuntu2~24.04_arm64.deb ...
+Unpacking libgomp1:arm64 (14.2.0-4ubuntu2~24.04) over (13.2.0-3deepin2) ...
+Selecting previously unselected package matlab-support.
+Preparing to unpack .../matlab-support_0.1_all.deb ...
+Unpacking matlab-support (0.1) ...
+Setting up libssl3t64:arm64 (3.0.13-0ubuntu3.5) ...
+Setting up libgomp1:arm64 (14.2.0-4ubuntu2~24.04) ...
+Setting up sudo (1.9.15p5-3ubuntu5) ...
+
+Configuration file '/etc/pam.d/sudo', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/pam.d/sudo-i', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sudo.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sudo_logsrvd.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sudoers', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sudoers.d/README', does not exist on system.
+Installing new config file as you requested.
+Setting up libgfortran5:arm64 (14.2.0-4ubuntu2~24.04) ...
+Setting up matlab-support (0.1) ...
+No matlab found and maybe running in non-interactive mode. No way out -- failing...
+dpkg: error processing package matlab-support (--configure):
+ installed matlab-support package post-installation script subprocess returned error exit status 1
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Errors were encountered while processing:
+ matlab-support
+E: Sub-process /usr/bin/dpkg returned an error code (1)
