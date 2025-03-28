@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: gerbera.linyaps
+  name: gerbera
+  version: 2.0.0.1
+  kind: app
+  description: |-
+    UPnP MediaServer
+    Gerbera is an UPnP MediaServer with a nice web user interface based on
+    MediaTomb. It allows you to stream your digital media through your home
+    network and listen to/watch it on a variety of UPnP compatible devices.
+
+    Gerbera implements the UPnP MediaServer V 1.0 specification that can be found
+    on http://www.upnp.org/. The current implementation focuses on parts that are
+    required by the specification, however Gerbera's functionality is extended to
+    cover the optional parts of the spec as well.
+command:
+- /opt/apps/gerbera.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
