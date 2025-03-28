@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: geg.linyaps
+  name: geg
+  version: 2.0.9.4
+  kind: app
+  description: |-
+    GTK+ Equation Grapher
+    geg is a very simple utility for parsing and plotting 2D-functions, eg
+    f(x) = 3 + sin(x), and much more complicated functions of course.
+    It is written with GTK+ and provides a neat, configurable user interface.
+command:
+- /opt/apps/geg.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
