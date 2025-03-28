@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: merkuro.linyaps
+  name: merkuro
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Kirigami based PIM applications
+    Merkuro is a small collection of applications to manage your calendar, your
+    mail and your addressbook.
+
+    Merkuro Calendar is a Kirigami based calendar and task management application
+    that uses Akonadi. It lets you add, edit and delete events and tasks from
+    local and remote accounts  of your choice, while keeping changes synchronised
+    across your Plasma desktop or phone.
+
+    Merkuro Contact is a Kirigami based addressbook application.
+
+    Merkuro Mail is a work-in-progress mail application that uses Akonadi. For now,
+    it just allows you to read your mail.
+command:
+- /opt/apps/merkuro.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

@@ -1,0 +1,47 @@
+正在测试: APPID=merkuro.linyaps LAYER=merkuro.linyaps_23.8.5.0_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install merkuro.linyaps_23.8.5.0_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:merkuro.linyaps
+Layer文件:merkuro.linyaps_23.8.5.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: merkuro.linyaps_23.8.5.0_x86_64_binary.layer
+offset: 952
+mountpoint: /tmp/tmp.Pw4LL0s7En/mnt
+dbglevel: 0
+[成功] org.kde.merkuro.calendar.desktop: org.kde.merkuro.calendar -> /opt/apps/merkuro.linyaps/files/share/icons/hicolor/128x128/apps/org.kde.merkuro.calendar.png
+[成功] /opt/apps/merkuro.linyaps/files/share/applications/org.kde.merkuro.calendar.desktop: /opt/apps/merkuro.linyaps/files/entrypoint.sh merkuro-calendar %u
+[成功] org.kde.merkuro.contact.desktop: org.kde.merkuro.contact -> /opt/apps/merkuro.linyaps/files/share/icons/hicolor/128x128/apps/org.kde.merkuro.contact.png
+[成功] /opt/apps/merkuro.linyaps/files/share/applications/org.kde.merkuro.contact.desktop: /opt/apps/merkuro.linyaps/files/entrypoint.sh merkuro-contact
+[成功] org.kde.merkuro.mail.desktop: org.kde.merkuro.mail -> /opt/apps/merkuro.linyaps/files/share/icons/hicolor/128x128/apps/org.kde.merkuro.mail.png
+[成功] /opt/apps/merkuro.linyaps/files/share/applications/org.kde.merkuro.mail.desktop: /opt/apps/merkuro.linyaps/files/entrypoint.sh merkuro-mail
+[正在测试启动项]
+包名:merkuro.linyaps
+Layer文件:merkuro.linyaps_23.8.5.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: merkuro.linyaps_23.8.5.0_x86_64_binary.layer
+offset: 952
+mountpoint: /tmp/tmp.Wfs1l1OlG1/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run merkuro.linyaps -- /opt/apps/merkuro.linyaps/files/entrypoint.sh merkuro-calendar
+[PID 42596] 进程已启动
+[PID 42596] 已检测到窗口:PID=36
+[PID 42596] 正在截图 0秒: tests/screen0-0.jpg
+[PID 42596] 正在截图 1秒: tests/screen0-1.jpg
+[PID 42596] 正在截图 3秒: tests/screen0-3.jpg
+[PID 42596] 正在截图 5秒: tests/screen0-5.jpg
+[PID 42596] 正在通知并等待进程退出
+[PID 42596] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run merkuro.linyaps -- /opt/apps/merkuro.linyaps/files/entrypoint.sh merkuro-contact
+[PID 43026] 进程已启动
+[PID 43026] 已检测到窗口:PID=36
+[PID 43026] 正在截图 0秒: tests/screen1-0.jpg
+[PID 43026] 正在截图 1秒: tests/screen1-1.jpg
+[PID 43026] 正在截图 3秒: tests/screen1-3.jpg
+[PID 43026] 正在截图 5秒: tests/screen1-5.jpg
+[PID 43026] 正在通知并等待进程退出
+[PID 43026] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall merkuro.linyaps
