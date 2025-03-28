@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: ledgerhelpers.linyaps
+  name: ledgerhelpers
+  version: 0.3.10.2
+  kind: app
+  description: |-
+    collection of helper programs and a helper library for ledger
+    This is a collection of small single-purpose programs to aid your accounting
+    with ledger. Think of it as the batteries that were never included with
+    ledger. What can you do with these programs:
+
+    - Enter transactions easily with addtrans.
+    - Record multi-currency ATM withdrawals with withdraw-cli.
+    - Record FIFO stock or commodity sales with sellstock-cli.
+    - Interactively clear transactions with cleartrans-cli.
+    - Keep your ledger chronologically sorted with sorttrans-cli.
+command:
+- /opt/apps/ledgerhelpers.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
