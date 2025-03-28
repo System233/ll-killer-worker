@@ -49,7 +49,7 @@ endif
 	$(MAKE) -C "$(PKG_WORK_DIR)" config PKG=$(PKG) PKGID=$(PKGID) $(ARGS)
 	echo "cat /etc/resolv.conf" | $(MAKE) -C "$(PKG_WORK_DIR)" build
 	$(MAKE) -C "$(PKG_WORK_DIR)" layer
-	cd $(PKG_WORK_DIR); sha256sum *.layer >SHA256SUMS
+	cd $(PKG_WORK_DIR); ls *.layer | xargs -rI{} sh -c 'sha256sum {} >{}.sha256sum';cat *.sha256sum > SHA256SUMS; true
 test:
 	$(MAKE) -C "$(PKG_WORK_DIR)" test
 

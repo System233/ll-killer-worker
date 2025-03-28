@@ -115,6 +115,7 @@ jobs:
                 ${{env.PKG_WORK_DIR}}/*.mk
                 ${{env.PKG_WORK_DIR}}/version
                 ${{env.PKG_WORK_DIR}}/SHA*SUMS
+                ${{env.PKG_WORK_DIR}}/*.layer.sha*sum
                 ${{env.PKG_WORK_DIR}}/killer-version
                 ${{env.PKG_WORK_DIR}}/tests/*.log
                 ${{env.PKG_WORK_DIR}}/tests/screen*.jpg
@@ -181,17 +182,19 @@ jobs:
             echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_key
             chmod 700 -R ~/.ssh
             
+            FILES=$(find "${PKG_WORK_DIR}" -name "*.layer" -or  -name "*.layer.sha256sum")
             for((i=0;i<10;++i));do
-                scp -i ~/.ssh/id_key "${SSH_ARGS[@]}" ${PKG_WORK_DIR}/*.layer "${SSH_URL}"&&break
-                echo "SSH上传失败,稍后重试"
+                scp -i ~/.ssh/id_key "${SSH_ARGS[@]}" "$FILES" "${SSH_URL}"&&break
+                echo "SSH上传失败,稍后重试[$i]"
                 sleep 10
             done
           fi
           if [ -n "$FTP_URL" ];then
             echo "Upload via FTP"
+            FILES=$(find "${PKG_WORK_DIR}" -name "*.layer" -or  -name "*.layer.sha256sum"|paste -sd,)
             for((i=0;i<10;++i));do
-                curl "${FTP_ARGS[@]}" -T ${PKG_WORK_DIR}/*.layer "${FTP_URL}"&&break
-                echo "FTP上传失败,稍后重试"
+                curl "${FTP_ARGS[@]}" -T "{$FILES}" "${FTP_URL}"&&break
+                echo "FTP上传失败,稍后重试[$i]"
                 sleep 10
             done
           fi
