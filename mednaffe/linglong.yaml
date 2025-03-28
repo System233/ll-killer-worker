@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: mednaffe.linyaps
+  name: mednaffe
+  version: 0.9.2.1
+  kind: app
+  description: |-
+    front-end for the Mednafen multi-system emulator
+    Mednaffe is a graphical front-end for the Mednafen multi-system
+    emulator. It allows all of Mednafen's options to be configured, and
+    provides simple game-management features.
+command:
+- /opt/apps/mednaffe.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
