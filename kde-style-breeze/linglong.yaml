@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: kde-style-breeze.linyaps
+  name: kde-style-breeze
+  version: 5.27.12.0
+  kind: app
+  description: |-
+    Widget style for Qt and KDE Software
+    This is the default widget style for KDE's Plasma desktop.
+
+    This package is part of the Breeze theme module.
+command:
+- /opt/apps/kde-style-breeze.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
