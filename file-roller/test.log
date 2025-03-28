@@ -1,0 +1,34 @@
+正在测试: APPID=file-roller.linyaps LAYER=file-roller.linyaps_44.3.0.0_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install file-roller.linyaps_44.3.0.0_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:file-roller.linyaps
+Layer文件:file-roller.linyaps_44.3.0.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: file-roller.linyaps_44.3.0.0_arm64_binary.layer
+offset: 1447
+mountpoint: /tmp/tmp.QyNyPZRZzJ/mnt
+dbglevel: 0
+[成功] org.gnome.FileRoller.desktop: org.gnome.FileRoller -> /opt/apps/file-roller.linyaps/files/share/icons/hicolor/scalable/apps/org.gnome.FileRoller.svg
+[成功] /opt/apps/file-roller.linyaps/files/share/applications/org.gnome.FileRoller.desktop: /opt/apps/file-roller.linyaps/files/entrypoint.sh file-roller %U
+[正在测试启动项]
+包名:file-roller.linyaps
+Layer文件:file-roller.linyaps_44.3.0.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: file-roller.linyaps_44.3.0.0_arm64_binary.layer
+offset: 1447
+mountpoint: /tmp/tmp.iT0CJLlPZa/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run file-roller.linyaps -- /opt/apps/file-roller.linyaps/files/entrypoint.sh file-roller
+[PID 25596] 进程已启动
+[PID 25596] 已检测到窗口:PID=36
+[PID 25596] 正在截图 0秒: tests/screen0-0.jpg
+[PID 25596] 正在截图 2秒: tests/screen0-2.jpg
+[PID 25596] 正在截图 4秒: tests/screen0-4.jpg
+[PID 25596] 正在截图 5秒: tests/screen0-5.jpg
+[PID 25596] 正在通知并等待进程退出
+[PID 25596] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall file-roller.linyaps
