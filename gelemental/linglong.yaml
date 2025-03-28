@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: gelemental.linyaps
+  name: gelemental
+  version: 2.0.2.1
+  kind: app
+  description: |-
+    Periodic Table viewer
+    gElemental is a GTK+ periodic table viewer that provides detailed information
+    about chemical elements.
+
+    It features a table view which allows the elements to be coloured thematically
+    by several properties, a sortable list view and an element properties
+    dialog, displaying a variety of information, including historical,
+    thermodynamic, electrochemical, and crystallographic properties.
+
+    This package contains the main application.
+command:
+- /opt/apps/gelemental.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
