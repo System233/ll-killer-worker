@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: fish-common.linyaps
+  name: fish-common
+  version: 3.7.1.1
+  kind: app
+  description: |-
+    friendly interactive shell (architecture-independent files)
+    Fish is a shell geared towards interactive use.  Its features are focused on
+    user friendliness and discoverability.  The language syntax is simple but
+    incompatible with other shell languages.
+
+    This package contains the common fish files shared by all architectures.
+command:
+- /opt/apps/fish-common.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
