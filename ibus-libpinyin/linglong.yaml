@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: ibus-libpinyin.linyaps
+  name: ibus-libpinyin
+  version: 1.15.7.1
+  kind: app
+  description: |-
+    Intelligent Pinyin engine based on libpinyin for IBus
+    It includes a Chinese Pinyin input method and a Chinese ZhuYin (Bopomofo)
+    input method based on libpinyin for IBus.
+command:
+- /opt/apps/ibus-libpinyin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
