@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: latexdraw.linyaps
+  name: latexdraw
+  version: 3.3.8.2
+  kind: app
+  description: |-
+    vector drawing program for LaTeX using PSTricks
+    LaTeXDraw is a free PSTricks code generator or PSTricks editor for LaTeX.
+    It has the usual drawing tools (lines, rectangles, circles, Bezier curves)
+    and can resize, rotate, move and join objects using vector transformations.
+    LaTeXDraw uses SVG as its file format and figures can be exported as PSTricks
+    code, pdf, eps, jpg, bmp, png, ppm.
+
+    PSTricks is an extension of LaTeX which allows the creation of drawings,
+    diagrams and graphs in 2D or 3D.
+command:
+- /opt/apps/latexdraw.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
