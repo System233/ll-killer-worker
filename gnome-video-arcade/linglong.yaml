@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gnome-video-arcade.linyaps
+  name: gnome-video-arcade
+  version: 0.8.8.5
+  kind: app
+  description: |-
+    Simple MAME frontend
+    GNOME Video Arcade is a simple MAME frontend for the GNOME desktop.
+    Its goal is not providing a UI for the many options MAME supports, or
+    helping manage a ROM collection: the focus is on a clean interface that
+    allows quick search and launch of games, thanks to the use of tags.
+command:
+- /opt/apps/gnome-video-arcade.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
