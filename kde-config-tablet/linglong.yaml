@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: kde-config-tablet.linyaps
+  name: kde-config-tablet
+  version: 3.2.0.5
+  kind: app
+  description: |-
+    implements a KDE configuration GUI for the Wacom drivers
+    KDE Wacom tablet KCModule
+
+    This module implements a GUI for the Wacom Linux Drivers and extends it
+    with profile support to handle different button / pen layouts per profile.
+
+    For hardware support have a look at http://www.linuxwacom.sourceforge.net
+
+    All tablets can be set up as long as they are found via xorg.conf or HAL
+    configuration.
+command:
+- /opt/apps/kde-config-tablet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
