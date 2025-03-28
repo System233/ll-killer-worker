@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: jaxe.linyaps
+  name: jaxe
+  version: 3.5.0.14
+  kind: app
+  description: |-
+    JAva Xml Editor
+    Jaxe is an XML editor adaptable to XML languages. It uses an XML schema and a
+    configuration file for the graphical user interface.
+command:
+- /opt/apps/jaxe.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
