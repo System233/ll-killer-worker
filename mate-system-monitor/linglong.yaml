@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: mate-system-monitor.linyaps
+  name: mate-system-monitor
+  version: 1.26.3.1
+  kind: app
+  description: |-
+    Process viewer and system resource monitor for MATE
+    MATE system monitor allows you to graphically view and manipulate the running
+    processes on your system.  It also provides an overview of available
+    resources such as CPU and memory.
+command:
+- /opt/apps/mate-system-monitor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
