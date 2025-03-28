@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: jag.linyaps
+  name: jag
+  version: 0.3.8.2
+  kind: app
+  description: |-
+    arcade and puzzle 2D game
+    Puzzle game where the goal is to break all the target pieces in each level
+    and do this before the time runs out.
+
+    Move game pieces using mouse into matches of 3 or more in a straight
+    line horizontally or vertically.
+command:
+- /opt/apps/jag.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
