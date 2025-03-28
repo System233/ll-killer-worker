@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: kde-cli-tools.linyaps
+  name: kde-cli-tools
+  version: 5.27.12.0
+  kind: app
+  description: |-
+    tools to use KDE services from the command line
+    These command line tools enable you to use KDE services such as
+    kioslaves, kdesu, QtSVG, kcontrol modules, KDE trader and start
+    applications from the command line.
+
+    This package is part of the KDE Plasma.
+command:
+- /opt/apps/kde-cli-tools.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
