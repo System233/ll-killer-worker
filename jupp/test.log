@@ -1,0 +1,28 @@
+正在测试: APPID=jupp.linyaps LAYER=jupp.linyaps_3.1.41.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install jupp.linyaps_3.1.41.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:jupp.linyaps
+Layer文件:jupp.linyaps_3.1.41.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: jupp.linyaps_3.1.41.1_arm64_binary.layer
+offset: 2293
+mountpoint: /tmp/tmp.vif1nq7QpH/mnt
+dbglevel: 0
+[成功] org.mirbsd.Jupp.jupp.desktop: jupp.linyaps-jupp -> /opt/apps/jupp.linyaps/files/share/icons/hicolor/64x64/apps/jupp.linyaps-jupp.png
+[成功] /opt/apps/jupp.linyaps/files/share/applications/org.mirbsd.Jupp.jupp.desktop: /opt/apps/jupp.linyaps/files/entrypoint.sh jupp %F
+[正在测试启动项]
+包名:jupp.linyaps
+Layer文件:jupp.linyaps_3.1.41.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: jupp.linyaps_3.1.41.1_arm64_binary.layer
+offset: 2293
+mountpoint: /tmp/tmp.KEKnVzHSw6/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run jupp.linyaps -- /opt/apps/jupp.linyaps/files/entrypoint.sh jupp
+[PID 5449] 进程已启动
+[PID 5449] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall jupp.linyaps
