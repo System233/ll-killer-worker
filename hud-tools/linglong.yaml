@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: hud-tools.linyaps
+  name: hud-tools
+  version: 14.10.10.0
+  kind: app
+  description: |-
+    Tools for debugging the Unity HUD.
+    Unity HUD is a heads-up-display interface for controlling the behavior of
+    applications as well as Unity via typed-in commands. It provides access to
+    all applications menu via a single central interface, in order to simplify
+    application usage and make menus more accessible.
+
+    This package provides tools for working with Unity's HUD.
+command:
+- /opt/apps/hud-tools.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
