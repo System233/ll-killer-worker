@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kgames.linyaps
+  name: kgames
+  version: 2.3.0.1
+  kind: app
+  description: |-
+    Venerable selection of Xaw-based games
+    These are a selection of various games that use the Xaw toolkit. They
+    are all from the 80's and 90's and look the part. As a result, they
+    are also very lightweight. There are a bunch of solitaire (patience)
+    variants, mille bournes, cribbage and dominos.
+command:
+- /opt/apps/kgames.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
