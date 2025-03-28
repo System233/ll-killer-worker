@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: joe-jupp.linyaps
+  name: joe-jupp
+  version: 3.1.41.1
+  kind: app
+  description: |-
+    reimplement the joe Debian package using jupp
+    This package contains symbolic links to replace the Debian joe package
+    using the jupp package’s JOE implementation (binaries and manpages).
+    It also contains the appropriate conffiles and, in contrast to Debian’s
+    joe flavour, supports SELinux context copying (on Debian systems with
+    the Linux kernel), and has many bugs fixed and makes some of jupp’s new
+    features available to the joe, jstar, jmacs, jpico and rjoe flavours.
+command:
+- /opt/apps/joe-jupp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
