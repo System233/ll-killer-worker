@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: mozo.linyaps
+  name: mozo
+  version: 1.26.2.1
+  kind: app
+  description: |-
+    easy MATE menu editing tool
+    Mozo is an easy-to-use menu editor for MATE that can add
+    and edit new entries and menus. It works with the freedesktop.org
+    menu specification and should work with any desktop environment
+    that uses the spec.
+command:
+- /opt/apps/mozo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
