@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: kraft.linyaps
+  name: kraft
+  version: 1.1.0.1
+  kind: app
+  description: |-
+    small business-management application
+    Kraft creates and handles office documents in small enterprises. In a workshop
+    or any similar company daily tasks can be done in a smart manner.
+
+    Features include:
+    Customer management, integrated using KAddressbook
+    Automated creation of quotes, invoices and similar documents
+    Text templates
+    Calculation
+    Material management
+    Configurable document creation in PDF format
+command:
+- /opt/apps/kraft.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
