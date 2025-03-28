@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: meteo-qt.linyaps
+  name: meteo-qt
+  version: 3.3.0.2
+  kind: app
+  description: |-
+    Application to display weather information
+    meteo-qt is an application to display weather information in desktop panels,
+    desktop notifications and it's own window.
+
+    Weather data is taken from OpenWeatherMap (http://openweathermap.org/). The
+    application is based on Python 3 and Qt 5.
+command:
+- /opt/apps/meteo-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
