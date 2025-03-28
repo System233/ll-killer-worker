@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: king.linyaps
+  name: king
+  version: 2.24.0.2
+  kind: app
+  description: |-
+    interactive system for three-dimensional vector graphics
+    KiNG (Kinemage, Next Generation) is an interactive system for
+    three-dimensional vector graphics. It supports a set of graphics
+    primitives that make it suitable for many types of graphs, plots, and
+    other illustrations; although its first use was to display
+    macromolecular structures for biophysical research. KiNG builds on Mage,
+    JavaMage, and the "kinemage" (kinetic image) concept to deliver a
+    full-featured Java application with a user-friendly interface and
+    integrated editing features. The KiNG jar file can be used within a web
+    page as a Java applet or Java object to promote easy access to kinemages
+    or coordinate files from a web browser.
+command:
+- /opt/apps/king.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
