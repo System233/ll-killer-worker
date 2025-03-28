@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: indicator-china-weather.linyaps
+  name: indicator-china-weather
+  version: 3.0.4.0
+  kind: app
+  description: |-
+    Indicator that displays China weather information
+    Kylin Weather displays detail weather information for one place,
+    including weather forecast and observe weather, and you can
+    change it.
+command:
+- /opt/apps/indicator-china-weather.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
