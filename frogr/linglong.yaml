@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: frogr.linyaps
+  name: frogr
+  version: 1.8.1.1
+  kind: app
+  description: |-
+    Flickr Remote Organizer for GNOME
+    Frogr is a small application for the GNOME desktop that allows users
+    to manage their accounts in the Flickr image hosting website.
+    It supports all the basic tasks, including uploading pictures, adding
+    descriptions, setting tags and managing sets.
+command:
+- /opt/apps/frogr.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
