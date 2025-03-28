@@ -1,0 +1,36 @@
+version: "1"
+package:
+  id: gdis.linyaps
+  name: gdis
+  version: 0.90.0.6
+  kind: app
+  description: |-
+    molecular and crystal model viewer
+    A GTK+ based program for the display and manipulation of
+    isolated molecules, periodic systems and crystalline habits.
+    It is in development, but is nonetheless fairly functional.
+    It has the following features:
+
+    * Support for several file types (CIF, BIOSYM, XYZ,
+    XTL, MARVIN, and GULP)
+    * A simple molecular creation and manipulation tool
+    * A dialogue for creating starting configurations for
+    molecular dynamics simulations
+    * Assorted tools for visualization (geometry information,
+    region highlighting, etc.)
+    * Animation of BIOSYM files (also rendered animations,
+    see below)
+
+    GDIS also allows you to perform the following functions
+    through other packages:
+
+    * Model rendering (courtesy of POVRay)
+    * Energy minimization (courtesy of GULP)
+    * Morphology calculation (courtesy of cdd)
+    * Space group processing (courtesy of SgInfo)
+    * View the Periodic Table (courtesy of GPeriodic)
+    * Load additional filetypes, such as PDB (courtesy of Babel)
+command:
+- /opt/apps/gdis.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

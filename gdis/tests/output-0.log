@@ -1,0 +1,20 @@
+包名:gdis.linyaps
+Layer文件:gdis.linyaps_0.90.0.6_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: gdis.linyaps_0.90.0.6_arm64_binary.layer
+offset: 1337
+mountpoint: /tmp/tmp.0BN8T58815/mnt
+dbglevel: 0
+scanning: /usr/bin/../share/gdis/gdis.elements               [ok]
+creating: /home/runner/.gdisrc                               [ok]
+scanning: /usr/bin/gdis.manual
+scanning: /usr/bin/gdis.library
+Attempting to load: /usr/bin/libld.so.so
+/usr/bin/libld.so.so: cannot open shared object file: No such file or directory
+module: ld.so is invalid.
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+
+(gdis:36): Pango-[1;35mCRITICAL[0m **: [34m03:51:55.000[0m: pango_context_get_matrix: assertion 'PANGO_IS_CONTEXT (context)' failed
