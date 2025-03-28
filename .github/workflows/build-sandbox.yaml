@@ -103,6 +103,7 @@ jobs:
       - name: Build and Test
         run: |
           make build test||true
+          ls -l "$PKG_WORK_DIR"
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -144,6 +145,7 @@ jobs:
       - name: Test
         id: test
         run: |
+          ls -l "$PKG_WORK_DIR"
           layer=yes
           desktop=yes
           fail=no
