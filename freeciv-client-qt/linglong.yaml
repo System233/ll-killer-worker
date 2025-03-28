@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: freeciv-client-qt.linyaps
+  name: freeciv-client-qt
+  version: 3.1.0.1
+  kind: app
+  description: |-
+    Civilization turn based strategy game (Qt client)
+    Freeciv is a free clone of the turn based strategy game Civilization.
+    In this game, each player becomes leader of a civilisation, fighting to
+    obtain the ultimate goal: the extinction of all other civilisations.
+
+    This is the Qt version of Freeciv.
+command:
+- /opt/apps/freeciv-client-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
