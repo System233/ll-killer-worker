@@ -1,0 +1,28 @@
+正在测试: APPID=jack-mixer.linyaps LAYER=jack-mixer.linyaps_18.0.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install jack-mixer.linyaps_18.0.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:jack-mixer.linyaps
+Layer文件:jack-mixer.linyaps_18.0.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: jack-mixer.linyaps_18.0.0.1_arm64_binary.layer
+offset: 664
+mountpoint: /tmp/tmp.yPpKlUY1g6/mnt
+dbglevel: 0
+[成功] jack_mixer.desktop: jack_mixer -> /opt/apps/jack-mixer.linyaps/files/share/icons/hicolor/16x16/apps/jack_mixer.png
+[成功] /opt/apps/jack-mixer.linyaps/files/share/applications/jack_mixer.desktop: /opt/apps/jack-mixer.linyaps/files/entrypoint.sh jack_mixer
+[正在测试启动项]
+包名:jack-mixer.linyaps
+Layer文件:jack-mixer.linyaps_18.0.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: jack-mixer.linyaps_18.0.0.1_arm64_binary.layer
+offset: 664
+mountpoint: /tmp/tmp.S2e8WL3d9Y/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run jack-mixer.linyaps -- /opt/apps/jack-mixer.linyaps/files/entrypoint.sh jack_mixer
+[PID 12056] 进程已启动
+[PID 12056] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall jack-mixer.linyaps

@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: jack-mixer.linyaps
+  name: jack-mixer
+  version: 18.0.0.1
+  kind: app
+  description: |-
+    GTK+ JACK audio mixer application (Python 3)
+    Jack Audio Mixer provides a GTK+ GUI to mix JACK audio
+    streams. It maintains the appearance of a hardware audio
+    mixing desk. It can set levels, balance, mute, etc through
+    the interface or via MIDI.
+
+    This package installs the application for Python 3.
+command:
+- /opt/apps/jack-mixer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
