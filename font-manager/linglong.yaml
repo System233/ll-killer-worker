@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: font-manager.linyaps
+  name: font-manager
+  version: 0.8.8.4
+  kind: app
+  description: |-
+    font management application for the GNOME desktop
+    Font Manager is intended to provide a way for average users to easily manage
+    desktop fonts, without having to resort to command line tools or editing
+    configuration files by hand. While designed primarily with the GNOME Desktop
+    Environment in mind, it should work well with other Gtk+ desktop environments.
+command:
+- /opt/apps/font-manager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
