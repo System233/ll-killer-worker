@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: mobile-atlas-creator.linyaps
+  name: mobile-atlas-creator
+  version: 2.1.4.2
+  kind: app
+  description: |-
+    program to create offline atlases for GPS/cell phone applications
+    Formerly known as "TrekBuddy Atlas Creator". This application creates
+    off-line atlases for the J2ME application TrekBuddy and various other mobile
+    applications on Android and WindowsCE. The abbreviation of ths app is mobac.
+command:
+- /opt/apps/mobile-atlas-creator.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
