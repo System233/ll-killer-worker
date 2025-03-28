@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: kde-spectacle.linyaps
+  name: kde-spectacle
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Screenshot capture utility
+    Spectacle captures images of the screen. It can capture the whole screen,
+    a specified region, an individual window, or only part of a window.
+command:
+- /opt/apps/kde-spectacle.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
