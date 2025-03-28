@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: japa.linyaps
+  name: japa
+  version: 0.9.4.1
+  kind: app
+  description: |-
+    JACK and ALSA Perceptual Analyser
+    Japa, is a 'perceptual' or 'psychoacoustic' audio spectrum analyser. Possible
+    uses include spectrum monitoring while mixing or mastering, evaluation of
+    ambient noise, and (using pink noise) equalisation of PA systems.
+
+    It supports up to four audio inputs of which two can graphically be compared.
+    Additionally a pink noise and white noise generator is running after starting
+    japa.
+command:
+- /opt/apps/japa.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
