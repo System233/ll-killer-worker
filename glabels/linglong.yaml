@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: glabels.linyaps
+  name: glabels
+  version: 3.4.1.4
+  kind: app
+  description: |-
+    label, business card and media cover creation program for GNOME
+    gLabels is a lightweight program for creating labels, barcodes, business
+    cards and media covers for the GNOME desktop environment. It is designed to
+    work with various laser/ink-jet peel-off label and business card sheets that
+    you'll find at most office supply stores.
+
+    gLabels also supports mail merge from sources such as CSV files, vCards and
+    Evolution data servers.
+command:
+- /opt/apps/glabels.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
