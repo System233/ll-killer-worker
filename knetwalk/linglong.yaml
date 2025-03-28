@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: knetwalk.linyaps
+  name: knetwalk
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    wire puzzle game
+    KNetwalk is a puzzle game where the player arranges sections of wire to
+    connect all the computers on the board.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/knetwalk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
