@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: gddccontrol.linyaps
+  name: gddccontrol
+  version: 1.0.3.1
+  kind: app
+  description: |-
+    program to control monitor parameters (graphical interface)
+    DDCcontrol is a tool used to control monitor parameters, like brightness
+    and contrast, without using the OSD (On Screen Display) and the buttons
+    in front of the monitor.
+
+    This package provides a graphical user interface.
+command:
+- /opt/apps/gddccontrol.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
