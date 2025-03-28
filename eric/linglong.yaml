@@ -1,0 +1,33 @@
+version: "1"
+package:
+  id: eric.linyaps
+  name: eric
+  version: 23.2.0.2
+  kind: app
+  description: |-
+    full featured Python IDE
+    eric is a full featured Python IDE written in PyQt using the QScintilla
+    editor widget. Some highlights
+    * Any number of editors with configurable syntax highlighting, code
+    folding, auto indenting and brace highlighting.
+    * Integrated Project Management facility to organize your projects.  The
+    project browser shows all source files, all forms and all translations
+    each on its own tab. The source browser has built in class browsing
+    capabilities.
+    * Integrated and full featured debuggers for Python and Ruby.
+    * Interactive shells for Python and Ruby.
+    * An explorer window for walking through your directory structure with
+    built in class browsing capabilities for Python files.
+    * Variable windows that display local and global variables in the
+    current scope while debugging a program.
+    * An integrated interface to the Python Module "unittest".
+    * An integrated help viewer to display HTML help files. Alternatively
+    you can choose to use Qt-Assistant to view help files.
+    * Display of the UI in different languages.
+    * The capability to start Qt-Designer and Qt-Linguist from within eric5.
+    * The ability to compile Qt-Designer forms, to produce Qt-Linguist files
+    and release them from within the IDE.
+command:
+- /opt/apps/eric.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
