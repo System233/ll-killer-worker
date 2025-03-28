@@ -1,0 +1,28 @@
+正在测试: APPID=le.linyaps LAYER=le.linyaps_1.16.8.0_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install le.linyaps_1.16.8.0_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:le.linyaps
+Layer文件:le.linyaps_1.16.8.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: le.linyaps_1.16.8.0_x86_64_binary.layer
+offset: 692
+mountpoint: /tmp/tmp.HvXbd1hRIO/mnt
+dbglevel: 0
+[成功] le.desktop: le-icon -> /opt/apps/le.linyaps/files/share/icons/hicolor/48x48/apps/le-icon.png
+[成功] /opt/apps/le.linyaps/files/share/applications/le.desktop: /opt/apps/le.linyaps/files/entrypoint.sh le
+[正在测试启动项]
+包名:le.linyaps
+Layer文件:le.linyaps_1.16.8.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: le.linyaps_1.16.8.0_x86_64_binary.layer
+offset: 692
+mountpoint: /tmp/tmp.ivIQAOv8az/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run le.linyaps -- /opt/apps/le.linyaps/files/entrypoint.sh le
+[PID 5325] 进程已启动
+[PID 5325] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall le.linyaps

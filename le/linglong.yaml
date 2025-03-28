@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: le.linyaps
+  name: le
+  version: 1.16.8.0
+  kind: app
+  description: |-
+    Text editor with block and binary operations
+    LE has many block operations with stream and rectangular blocks,
+    can edit both Unix and DOS style files (LF/CRLF), is binary clean,
+    has hexadecimal mode, can edit large files and mmap'able devices,
+    has tunable syntax highlighting, tunable key map, and tunable
+    color scheme (but can use default colors).
+command:
+- /opt/apps/le.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
