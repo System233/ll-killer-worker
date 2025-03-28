@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: evilwm.linyaps
+  name: evilwm
+  version: 1.4.2.1
+  kind: app
+  description: |-
+    minimalist window manager for X11
+    evilwm is based on aewm by Decklin Foster. It's minimalist
+    in that it omits unnecessary stuff like window decorations
+    and icons. But it's very usable in that it provides good
+    keyboard control with repositioning and maximize toggles,
+    solid window drags, snap-to-border support, and virtual desktops.
+command:
+- /opt/apps/evilwm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
