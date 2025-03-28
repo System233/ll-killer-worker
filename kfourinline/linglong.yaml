@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kfourinline.linyaps
+  name: kfourinline
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Connect Four game
+    KFourInLine is a game where two players take turns dropping pieces into a grid,
+    the winner being the first to place four pieces in a line.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/kfourinline.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
