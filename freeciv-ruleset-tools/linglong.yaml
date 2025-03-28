@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: freeciv-ruleset-tools.linyaps
+  name: freeciv-ruleset-tools
+  version: 3.1.0.1
+  kind: app
+  description: |-
+    Civilization turn based strategy game (ruleset tools)
+    Freeciv is a free clone of the turn based strategy game Civilization.
+    In this game, each player becomes leader of a civilisation, fighting to
+    obtain the ultimate goal: the extinction of all other civilisations.
+
+    The package contains tools to update and edit rulesets.
+command:
+- /opt/apps/freeciv-ruleset-tools.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
