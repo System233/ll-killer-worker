@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: krdc.linyaps
+  name: krdc
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Remote Desktop Connection client
+    The KDE Remote Desktop Connection client can view and control a desktop
+    session running on another system.  It can connect to Windows Terminal Servers
+    using RDP and many other platforms using VNC/RFB.
+
+    This package is part of the KDE networking module.
+command:
+- /opt/apps/krdc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
