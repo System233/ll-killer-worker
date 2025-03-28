@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: guake-indicator.linyaps
+  name: guake-indicator
+  version: 1.4.5.2
+  kind: app
+  description: |-
+    Guake terminal app indicator
+    Guake indicator lets you send custom commands through the D-Bus System.
+    Commands can be manually edited in a XML file under ~/.guake.indicator
+    or generated through guake-indicator edit-menu system GUI.
+
+    Guake-indicator sticks to your "System Tray" and displays your
+    favorites commands retrieved from ~/.guake.indicator/guake-indicator.xml.
+    If guake-indicator.xml does not exist, guake-indicator will create a default
+    configuration file with some examples.
+command:
+- /opt/apps/guake-indicator.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
