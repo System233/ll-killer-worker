@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: ltris.linyaps
+  name: ltris
+  version: 1.2.8.1
+  kind: app
+  description: |-
+    very polished Tetris clone with CPU opponents
+    LTris is a very polished tetris clone, which offers three
+    types of games. The classic mode, a figures mode, where
+    different figures appear every level, and a multiplayer
+    mode. LTris is highly configurable through its menu
+    system.
+command:
+- /opt/apps/ltris.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
