@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: kernelshark.linyaps
+  name: kernelshark
+  version: 2.9.3.2
+  kind: app
+  description: |-
+    Utilities for graphically analyzing function tracing in the kernel
+    KernelShark is a front end reader of trace-cmd output. It reads a trace-cmd.dat
+    formatted file and produces a graph and list view of the data.
+command:
+- /opt/apps/kernelshark.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
