@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gnome-maps.linyaps
+  name: gnome-maps
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    map application for GNOME
+    Maps is a map application for GNOME that allows you to view maps in different
+    zoom levels, search for places, etc.
+command:
+- /opt/apps/gnome-maps.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
