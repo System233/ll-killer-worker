@@ -1,0 +1,28 @@
+正在测试: APPID=moon-lander.linyaps LAYER=moon-lander.linyaps_1.0.0.9_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install moon-lander.linyaps_1.0.0.9_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:moon-lander.linyaps
+Layer文件:moon-lander.linyaps_1.0.0.9_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: moon-lander.linyaps_1.0.0.9_x86_64_binary.layer
+offset: 615
+mountpoint: /tmp/tmp.SBOzg5kUeC/mnt
+dbglevel: 0
+[成功] moon-lander.desktop: moon-lander -> /opt/apps/moon-lander.linyaps/files/share/icons/hicolor/64x64/apps/moon-lander.png
+[成功] /opt/apps/moon-lander.linyaps/files/share/applications/moon-lander.desktop: /opt/apps/moon-lander.linyaps/files/entrypoint.sh /usr/games/moon-lander
+[正在测试启动项]
+包名:moon-lander.linyaps
+Layer文件:moon-lander.linyaps_1.0.0.9_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: moon-lander.linyaps_1.0.0.9_x86_64_binary.layer
+offset: 615
+mountpoint: /tmp/tmp.EtTYFWc36N/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run moon-lander.linyaps -- /opt/apps/moon-lander.linyaps/files/entrypoint.sh /usr/games/moon-lander
+[PID 7872] 进程已启动
+[PID 7872] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall moon-lander.linyaps
