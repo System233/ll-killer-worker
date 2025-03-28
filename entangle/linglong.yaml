@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: entangle.linyaps
+  name: entangle
+  version: 3.0.0.4
+  kind: app
+  description: |-
+    Tethered Camera Control & Capture
+    Entangle provides a graphical interface for "tethered shooting", aka
+    taking photographs with a digital camera completely controlled from the
+    computer.
+
+    Using Entangle is as easy as 1,2,3...
+    * Connect camera
+    * Launch Entangle
+    * Shoot photos
+
+    With a sufficiently capable digital SLR camera Entangle allows:
+    * Trigger the shutter from the computer
+    * Live preview of scene before shooting
+    * Automatic download and display of photos as they are shot
+    * Control of all camera settings from computer
+command:
+- /opt/apps/entangle.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
