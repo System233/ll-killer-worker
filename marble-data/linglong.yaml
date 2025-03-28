@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: marble-data.linyaps
+  name: marble-data
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    data files for Marble
+    Marble is a generic geographical map widget and framework for KDE
+    applications. The Marble widget shows the earth as a sphere but does not
+    require hardware acceleration.  A minimal set of geographical data is
+    included, so it can be used without an internet connection.
+
+    This package contains the architecture-independent data files for the Marble
+    desktop globe.
+
+    This package is part of the KDE education module.
+command:
+- /opt/apps/marble-data.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
