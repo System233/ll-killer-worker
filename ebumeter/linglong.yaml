@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: ebumeter.linyaps
+  name: ebumeter
+  version: 0.5.1.1
+  kind: app
+  description: |-
+    loudness measurement according to EBU-R128
+    These tools help controlling loudness of audio material aimed
+    primarily for broadcasting, but they can be useful in other
+    situation.
+
+    ebumeter and ebur128 allow users to measure Momentary (400 ms),
+    Short term (3s) and Integrated Loudness (from start to stop).
+    They can be used on audio files and signals through JACK.
+
+    This package contains two programs:
+    * ebumeter - interactive meter working via jackd
+    * ebur128 - the command line app to measure sound files
+command:
+- /opt/apps/ebumeter.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
