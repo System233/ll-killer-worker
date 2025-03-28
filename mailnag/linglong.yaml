@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: mailnag.linyaps
+  name: mailnag
+  version: 2.2.0.2
+  kind: app
+  description: |-
+    extensible mail notification daemon
+    Mailnag is a daemon program that checks POP3 and IMAP servers for new mail.
+    On mail arrival it performs various actions provided by plugins. Mailnag
+    comes with a set of desktop-independent default plugins for visual/sound
+    notifications, script execution etc. and can be extended with additional
+    plugins easily.
+command:
+- /opt/apps/mailnag.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
