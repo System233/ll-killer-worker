@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gnome-startup-applications.linyaps
+  name: gnome-startup-applications
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    Startup Applications manager for GNOME
+    The Startup Applications Preferences app allows configuring
+    applications to run automatically when logging in to your desktop.
+    This app complies with the FreeDesktop.org Desktop Application Autostart
+    Specification so it will work even if your chosen desktop is not GNOME.
+command:
+- /opt/apps/gnome-startup-applications.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
