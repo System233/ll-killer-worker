@@ -1,0 +1,49 @@
+正在测试: APPID=lenovo-printer-driver.linyaps LAYER=lenovo-printer-driver.linyaps_1.51.0.230707_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install lenovo-printer-driver.linyaps_1.51.0.230707_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:lenovo-printer-driver.linyaps
+Layer文件:lenovo-printer-driver.linyaps_1.51.0.230707_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: lenovo-printer-driver.linyaps_1.51.0.230707_arm64_binary.layer
+offset: 425
+mountpoint: /tmp/tmp.cx6Fy9HdsV/mnt
+dbglevel: 0
+find: ‘/opt/apps/lenovo-printer-driver.linyaps/files/share/icons’: No such file or directory
+find: ‘/opt/apps/lenovo-printer-driver.linyaps/files/share/pixmaps’: No such file or directory
+[31m[失败] lenovo-sm.desktop:lenovo-sm: 找不到此图标 [0m
+[成功] /opt/apps/lenovo-printer-driver.linyaps/files/share/applications/lenovo-sm.desktop: /opt/apps/lenovo-printer-driver.linyaps/files/entrypoint.sh /opt/lenovo/vop/lenovo-sm.sh
+find: ‘/opt/apps/lenovo-printer-driver.linyaps/files/share/icons’: No such file or directory
+find: ‘/opt/apps/lenovo-printer-driver.linyaps/files/share/pixmaps’: No such file or directory
+[31m[失败] lenovo-vop.desktop:lenovo-vop: 找不到此图标 [0m
+[成功] /opt/apps/lenovo-printer-driver.linyaps/files/share/applications/lenovo-vop.desktop: /opt/apps/lenovo-printer-driver.linyaps/files/entrypoint.sh /opt/lenovo/vop/lenovo-vop.sh
+[正在测试启动项]
+包名:lenovo-printer-driver.linyaps
+Layer文件:lenovo-printer-driver.linyaps_1.51.0.230707_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: lenovo-printer-driver.linyaps_1.51.0.230707_arm64_binary.layer
+offset: 425
+mountpoint: /tmp/tmp.qpdwWLwNGk/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run lenovo-printer-driver.linyaps -- /opt/apps/lenovo-printer-driver.linyaps/files/entrypoint.sh /opt/lenovo/vop/lenovo-sm.sh
+[PID 5764] 进程已启动
+[PID 5764] 已检测到窗口:PID=43
+[PID 5764] 正在截图 0秒: tests/screen0-0.jpg
+[PID 5764] 正在截图 1秒: tests/screen0-1.jpg
+[PID 5764] 正在截图 3秒: tests/screen0-3.jpg
+[PID 5764] 正在截图 5秒: tests/screen0-5.jpg
+[PID 5764] 正在通知并等待进程退出
+[PID 5764] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run lenovo-printer-driver.linyaps -- /opt/apps/lenovo-printer-driver.linyaps/files/entrypoint.sh /opt/lenovo/vop/lenovo-vop.sh
+[PID 5965] 进程已启动
+[PID 5965] 已检测到窗口:PID=45
+[PID 5965] 正在截图 0秒: tests/screen1-0.jpg
+[PID 5965] 正在截图 1秒: tests/screen1-1.jpg
+[PID 5965] 正在截图 3秒: tests/screen1-3.jpg
+[PID 5965] 正在截图 5秒: tests/screen1-5.jpg
+[PID 5965] 正在通知并等待进程退出
+[PID 5965] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall lenovo-printer-driver.linyaps

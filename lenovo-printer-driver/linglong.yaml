@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: lenovo-printer-driver.linyaps
+  name: lenovo-printer-driver
+  version: 1.51.0.230707
+  kind: app
+  description: Driver for Lenovo printer
+command:
+- /opt/apps/lenovo-printer-driver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
