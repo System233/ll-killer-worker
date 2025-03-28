@@ -1,0 +1,49 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libfcft4t64 libpng16-16t64 libutf8proc3
+The following packages will be REMOVED:
+  libpng16-16
+The following NEW packages will be installed:
+  fnott libfcft4t64 libpng16-16t64 libutf8proc3
+0 upgraded, 4 newly installed, 1 to remove and 452 not upgraded.
+Need to get 407 kB of archives.
+After this operation, 687 kB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpng16-16t64 amd64 1.6.43-5build1 [187 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libutf8proc3 amd64 2.9.0-1build1 [70.6 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libfcft4t64 amd64 3.1.8-1.1build1 [57.4 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fnott amd64 1.4.1+ds-1build3 [91.9 kB]
+Fetched 407 kB in 0s (1859 kB/s)
+dpkg: libpng16-16:amd64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:amd64 depends on libpng16-16 (>= 1.6.2).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing libpng16-16:amd64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27583 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_amd64.deb ...
+Unpacking libpng16-16t64:amd64 (1.6.43-5build1) ...
+Selecting previously unselected package libutf8proc3:amd64.
+Preparing to unpack .../libutf8proc3_2.9.0-1build1_amd64.deb ...
+Unpacking libutf8proc3:amd64 (2.9.0-1build1) ...
+Selecting previously unselected package libfcft4t64.
+Preparing to unpack .../libfcft4t64_3.1.8-1.1build1_amd64.deb ...
+Unpacking libfcft4t64 (3.1.8-1.1build1) ...
+Selecting previously unselected package fnott.
+Preparing to unpack .../fnott_1.4.1+ds-1build3_amd64.deb ...
+Unpacking fnott (1.4.1+ds-1build3) ...
+Setting up libutf8proc3:amd64 (2.9.0-1build1) ...
+Setting up libfcft4t64 (3.1.8-1.1build1) ...
+Setting up libpng16-16t64:amd64 (1.6.43-5build1) ...
+Setting up fnott (1.4.1+ds-1build3) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...

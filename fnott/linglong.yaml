@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: fnott.linyaps
+  name: fnott
+  version: 1.4.1.1
+  kind: app
+  description: |-
+    lightweight notification daemon for wlroots-based compositors
+    Fnott is a keyboard driven and lightweight notification daemon for
+    wlroots-based Wayland compositors.
+
+    It implements (parts of) the Desktop Notification Specification.
+command:
+- /opt/apps/fnott.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
