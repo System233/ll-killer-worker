@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: lifeograph.linyaps
+  name: lifeograph
+  version: 2.0.3.1
+  kind: app
+  description: |-
+    Private digital diary
+    Lifeograph is an off-line and private journal and note taking application
+    for one's self evaluation of his/her own life.
+command:
+- /opt/apps/lifeograph.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
