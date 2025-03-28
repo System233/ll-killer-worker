@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: gearhead2-sdl.linyaps
+  name: gearhead2-sdl
+  version: 0.701.0.2
+  kind: app
+  description: |-
+    roguelike mecha role playing game in space
+    Set a century and a half after nuclear war, you can explore a world
+    where various factions compete to determine the future of the human
+    race. Major features include random plot generation, a detailed
+    character system, and over two hundred customizable mecha designs.
+
+    GearHead 2 is set five years after the events of GearHead 1. It is
+    currently under development and is initially set in the L5 Orbital
+    Pattern.
+
+    This is the SDL version.  For the console version, use gearhead
+    instead.
+command:
+- /opt/apps/gearhead2-sdl.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
