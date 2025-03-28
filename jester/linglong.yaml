@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: jester.linyaps
+  name: jester
+  version: 1.0.0.15
+  kind: app
+  description: |-
+    board game similar to Othello
+    Simple two-player turn-based strategy game played on an 8x8 grid.
+    Convert the opponent's pieces to your color by bracketing them between
+    your pieces.  The game can be played head-to-head on a single screen or
+    by a single player against the computer. Jester allows you to waste
+    valuable time that could otherwise be spent playing Solitaire.
+command:
+- /opt/apps/jester.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
