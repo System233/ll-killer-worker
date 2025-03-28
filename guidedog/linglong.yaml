@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: guidedog.linyaps
+  name: guidedog
+  version: 1.3.0.1
+  kind: app
+  description: |-
+    NAT/masquerading/port-forwarding configuration tool in Qt5
+    Guidedog is a GUI utility which allows you to easily activate and
+    configure your machine for packet routing, Network Address
+    Translation/IP Masquerading (NAT) and port-forwarding.
+
+    If you are using the functions of this program, it is recommended that
+    you setup/configure a firewall to protect your machine - guidedog does
+    not setup a firewall for you.
+command:
+- /opt/apps/guidedog.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
