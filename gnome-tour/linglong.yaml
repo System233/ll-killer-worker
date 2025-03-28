@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gnome-tour.linyaps
+  name: gnome-tour
+  version: 46.0.0.2
+  kind: app
+  description: |-
+    guided tour and greeter for GNOME
+    This simple app has been part of the first run experience for
+    GNOME since 3.38.
+command:
+- /opt/apps/gnome-tour.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
