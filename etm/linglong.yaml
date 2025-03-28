@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: etm.linyaps
+  name: etm
+  version: 3.2.39.1
+  kind: app
+  description: |-
+    manages events and tasks using simple text files
+    Manage events and tasks using simple text files
+    etm is an acronym for event and task manager.
+
+    In contrast to most calendar/todo applications, creating items (events,
+    tasks, and so forth) in etm does not require filling out fields in a
+    form. Instead, items are created as free-form text entries using a
+    simple, intuitive format and stored in plain text files.
+command:
+- /opt/apps/etm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
