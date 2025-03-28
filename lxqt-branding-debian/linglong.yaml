@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: lxqt-branding-debian.linyaps
+  name: lxqt-branding-debian
+  version: 0.14.0.4
+  kind: app
+  description: |-
+    Debian branding for LXQt
+    LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
+    technologies. It has been tailored for users who value simplicity, speed, and
+    an intuitive interface. Unlike most desktop environments, LXQt also works
+    fine with less powerful machines.
+
+    The branding package contains misc. downstream configurations for LXQt.
+command:
+- /opt/apps/lxqt-branding-debian.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

@@ -1,0 +1,44 @@
+正在测试: APPID=lxqt-branding-debian.linyaps LAYER=lxqt-branding-debian.linyaps_0.14.0.4_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install lxqt-branding-debian.linyaps_0.14.0.4_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:lxqt-branding-debian.linyaps
+Layer文件:lxqt-branding-debian.linyaps_0.14.0.4_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: lxqt-branding-debian.linyaps_0.14.0.4_x86_64_binary.layer
+offset: 759
+mountpoint: /tmp/tmp.5EDc03nHF3/mnt
+dbglevel: 0
+[成功] lxqt-xfwm-settings.desktop: xfwm4 -> /opt/apps/lxqt-branding-debian.linyaps/files/share/icons/Papirus/16x16/apps/xfwm4.svg
+[成功] /opt/apps/lxqt-branding-debian.linyaps/files/share/applications/lxqt-xfwm-settings.desktop: /opt/apps/lxqt-branding-debian.linyaps/files/entrypoint.sh xfwm4-settings
+[成功] lxqt-xfwm-workspaces.desktop: xfce4-workspaces -> /opt/apps/lxqt-branding-debian.linyaps/files/share/icons/Papirus/16x16/apps/xfce4-workspaces.svg
+[成功] /opt/apps/lxqt-branding-debian.linyaps/files/share/applications/lxqt-xfwm-workspaces.desktop: /opt/apps/lxqt-branding-debian.linyaps/files/entrypoint.sh xfwm4-workspace-settings
+[成功] lxqt-xfwmtweaks.desktop: wmtweaks -> /opt/apps/lxqt-branding-debian.linyaps/files/share/icons/Papirus/16x16/apps/wmtweaks.svg
+[成功] /opt/apps/lxqt-branding-debian.linyaps/files/share/applications/lxqt-xfwmtweaks.desktop: /opt/apps/lxqt-branding-debian.linyaps/files/entrypoint.sh xfwm4-tweaks-settings
+[正在测试启动项]
+包名:lxqt-branding-debian.linyaps
+Layer文件:lxqt-branding-debian.linyaps_0.14.0.4_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: lxqt-branding-debian.linyaps_0.14.0.4_x86_64_binary.layer
+offset: 759
+mountpoint: /tmp/tmp.fQzvva8IBP/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run lxqt-branding-debian.linyaps -- /opt/apps/lxqt-branding-debian.linyaps/files/entrypoint.sh xfwm4-settings
+[PID 21295] 进程已启动
+[PID 21295] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run lxqt-branding-debian.linyaps -- /opt/apps/lxqt-branding-debian.linyaps/files/entrypoint.sh xfwm4-workspace-settings
+[PID 21422] 进程已启动
+[PID 21422] 已检测到窗口:PID=36
+[PID 21422] 正在截图 0秒: tests/screen1-0.jpg
+[PID 21422] 正在截图 1秒: tests/screen1-1.jpg
+[PID 21422] 正在截图 3秒: tests/screen1-3.jpg
+[PID 21422] 正在截图 5秒: tests/screen1-5.jpg
+[PID 21422] 正在通知并等待进程退出
+[PID 21422] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run lxqt-branding-debian.linyaps -- /opt/apps/lxqt-branding-debian.linyaps/files/entrypoint.sh xfwm4-tweaks-settings
+[PID 21598] 进程已启动
+[PID 21598] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall lxqt-branding-debian.linyaps
