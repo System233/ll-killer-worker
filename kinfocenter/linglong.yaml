@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: kinfocenter.linyaps
+  name: kinfocenter
+  version: 5.27.12.0
+  kind: app
+  description: |-
+    system information viewer
+    The kinfocenter provides you with a centralized and convenient
+    overview of your system and desktop environment.
+
+    The information center is made up of multiple modules.  Each module is a
+    separate application, but the information center organizes all of these
+    programs into a convenient location.
+command:
+- /opt/apps/kinfocenter.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
