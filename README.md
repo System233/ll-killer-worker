@@ -1,11 +1,11 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|888|559 |329 | 62.95%| 18.04%|
+|3099|891|562 |329 | 63.08%| 18.13%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|670|481 |189 | 71.79%| 17.43%|
+|ubuntu-noble|2759|673|484 |189 | 71.92%| 17.54%|
 |deepin-v23|340|218|78 |140 | 35.78%| 22.94%|
 ## 详细结果
 | 包名   | 架构 |仓库| 版本    | 测试结果 | SHA256SUM |
@@ -893,8 +893,11 @@
 | [gbonds](./gbonds) | arm64  | ubuntu-noble | 2.0.3-17build3 | ![screen0-5.jpg](./gbonds/tests/screen0-5.jpg) | N/A |
 | [gbrainy](./gbrainy) | arm64  | ubuntu-noble | 2.4.6-2build1 | ![screen0-5.jpg](./gbrainy/tests/screen0-5.jpg) | N/A |
 | [gbsplay](./gbsplay) | arm64  | ubuntu-noble | 0.0.96-1build3-20250327 | 失败 | N/A |
+| [gchempaint](./gchempaint) | arm64  | ubuntu-noble | 0.14.17-6.2build2 | ![screen0-5.jpg](./gchempaint/tests/screen0-5.jpg) | N/A |
 | [gcin](./gcin) | arm64  | ubuntu-noble | 2.9.0+dfsg1-3build1 | ![screen0-5.jpg](./gcin/tests/screen0-5.jpg) | N/A |
 | [gcolor3](./gcolor3) | arm64  | ubuntu-noble | 2.4.0-2build2 | ![screen0-5.jpg](./gcolor3/tests/screen0-5.jpg) | N/A |
 | [gcompris-qt](./gcompris-qt) | arm64  | ubuntu-noble | 4.0-1build3 | ![screen0-5.jpg](./gcompris-qt/tests/screen0-5.jpg) | N/A |
 | [gconjugue](./gconjugue) | arm64  | ubuntu-noble | 0.8.5-2build2 | ![screen0-5.jpg](./gconjugue/tests/screen0-5.jpg) | N/A |
 | [gcr](./gcr) | arm64  | ubuntu-noble | 3.41.2-1build3-20250327 | 失败 | N/A |
+| [gcrystal](./gcrystal) | arm64  | ubuntu-noble | 0.14.17-6.2build2 | ![screen0-5.jpg](./gcrystal/tests/screen0-5.jpg) | N/A |
+| [gcu-bin](./gcu-bin) | arm64  | ubuntu-noble | 0.14.17-6.2build2 | ![screen0-5.jpg](./gcu-bin/tests/screen0-5.jpg) ![screen1-5.jpg](./gcu-bin/tests/screen1-5.jpg) ![screen2-5.jpg](./gcu-bin/tests/screen2-5.jpg) ![screen3-5.jpg](./gcu-bin/tests/screen3-5.jpg) | N/A |
