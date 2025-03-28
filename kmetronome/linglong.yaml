@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: kmetronome.linyaps
+  name: kmetronome
+  version: 1.4.0.1
+  kind: app
+  description: |-
+    ALSA MIDI Metronome
+    KMetronome is a MIDI based metronome using the ALSA sequencer.
+
+    The intended audience are musicians and music students. Like the solid, real
+    metronomes it is a tool to keep the rhythm while playing musical instruments.
+
+    It uses MIDI for sound generation instead of digital audio, allowing low CPU
+    usage and very accurate timing thanks to the ALSA sequencer
+command:
+- /opt/apps/kmetronome.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
