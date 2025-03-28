@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: jtdx.linyaps
+  name: jtdx
+  version: 2.2.159.2
+  kind: app
+  description: |-
+    Weak-signal amateur radio communications, JTDX version
+    JTDX means "JT modes for DXing", it is being developed with main focus on the
+    sensitivity and decoding efficiency, both in overcrowded and half empty HF
+    band conditions. JTDX is forked from WSJT-X, a computer program dedicated to
+    amateur radio communication using very weak signals.
+command:
+- /opt/apps/jtdx.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
