@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: muffin.linyaps
+  name: muffin
+  version: 6.0.1.2
+  kind: app
+  description: |-
+    window and compositing manager
+    Muffin is a window manager performing compositing as well based on
+    GTK+ and Clutter and used in Cinnamon desktop environment.
+
+    This package contains the core binaries.
+command:
+- /opt/apps/muffin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
