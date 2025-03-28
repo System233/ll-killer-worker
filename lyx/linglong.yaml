@@ -1,0 +1,34 @@
+version: "1"
+package:
+  id: lyx.linyaps
+  name: lyx
+  version: 2.4.0.1
+  kind: app
+  description: |-
+    document processor
+    LyX is an almost WYSIWYG-frontend for LaTeX. It makes the power and
+    typesetting quality of LaTeX available for people who are used to
+    word processors. Since LyX supports LaTeX's concept of general
+    mark-ups, it is even easier and faster to create professional quality
+    documents with it than with usual word processors. It is also
+    possible to use LaTeX commands within LyX, so nothing of LaTeX's
+    power is lost.
+
+    You can extend the functionality of LyX by installing these packages:
+    * chktex: check for typographical errors
+    * gnuhtml2latex: import HTML documents
+    * groff: improved table formatting in plain text exports
+    * gnumeric: import spreadsheats
+    * librsvg2-bin, inkscape: use the SVG image format in LyX documents
+    * lilypond: support for musical sheets
+    * maxima: integrated CAS support for equation evaluation
+    * mythes-*: use the OpenOffice.org/LibreOffice Thesaurus
+    * noweb, r-cran-knitr: use literate programming
+    * rcs, cvs, svn, git: integrated version control
+    * texlive-xetex/luatex: use the XeTeX/LuaTeX typesetting system
+    * wv: import MS Word documents
+    * xsltproc (or saxon with openjdk-17-jre), docbook-xsl: ePub export
+command:
+- /opt/apps/lyx.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
