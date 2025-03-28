@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: kcachegrind.linyaps
+  name: kcachegrind
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    visualisation tool for the Valgrind profiler
+    KCachegrind is a visualisation tool for the profiling data generated
+    by calltree, a memory profiling tool for valgrind.  Any executable can be
+    profiled using calltree without being recompiled, including multi-threaded
+    applications, shared libraries, and plugins.
+
+    For visualising the output from profiling tools other than Valgrind, several
+    converters can be found in the kcachegrind-converters package.
+
+    This package is part of the KDE Software Development Kit module.
+command:
+- /opt/apps/kcachegrind.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
