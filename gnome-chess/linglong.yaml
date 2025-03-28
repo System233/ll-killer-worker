@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gnome-chess.linyaps
+  name: gnome-chess
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    simple chess game
+    This is the chess game from the GNOME desktop. It allows one to play
+    with most existing chess engines, or against a human opponent.
+command:
+- /opt/apps/gnome-chess.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
