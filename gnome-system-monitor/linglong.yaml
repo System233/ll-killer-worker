@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gnome-system-monitor.linyaps
+  name: gnome-system-monitor
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    Process viewer and system resource monitor for GNOME
+    This package allows you to graphically view and manipulate the running
+    processes on your system.  It also provides an overview of available
+    resources such as CPU and memory.
+command:
+- /opt/apps/gnome-system-monitor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
