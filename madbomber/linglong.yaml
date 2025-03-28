@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: madbomber.linyaps
+  name: madbomber
+  version: 0.2.5.9
+  kind: app
+  description: |-
+    Kaboom! clone
+    "Mad Bomber" is a clone of Activision's classic Atari 2600 console
+    game, "Kaboom!," by Larry Kaplan, with spruced-up graphics and
+    sound effects, and music.
+
+    The Mad Bomber is loose in the city and he's dropping bombs everywhere!
+    It's your job to catch them before they hit the ground and explode.
+    Luckily, you have a set of trusty buckets to extinguish the bombs with.
+command:
+- /opt/apps/madbomber.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
