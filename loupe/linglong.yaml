@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: loupe.linyaps
+  name: loupe
+  version: 46.2.0.0
+  kind: app
+  description: |-
+    Image viewer for GNOME
+    Loupe is a simple image viewer for the GNOME desktop.
+    It uses glycin-loaders for image loading and decoding.
+    A wide range of image formats is supported.
+    Starting with GNOME 45 this is the default image viewer.
+command:
+- /opt/apps/loupe.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
