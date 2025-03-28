@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: knotes.linyaps
+  name: knotes
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    sticky notes application
+    KNotes is a program that lets you write sticky notes. The notes are saved
+    automatically when you exit the program, and they display when you open the
+    program.  The program supports printing and mailing your notes.
+command:
+- /opt/apps/knotes.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
