@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: ibus-braille.linyaps
+  name: ibus-braille
+  version: 0.3.0.8
+  kind: app
+  description: |-
+    Braille input engine for IBus
+    Ibus-braille allows one to use the PC keyboard to type text in
+    graphical desktops in a Perkins-like way, i.e. braille patterns.
+
+    It supports several braille tables  (english, french, indian, spanish),
+    contracted braille and abbreviations.
+
+    It comes with table editors.
+command:
+- /opt/apps/ibus-braille.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
