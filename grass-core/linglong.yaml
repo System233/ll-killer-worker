@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: grass-core.linyaps
+  name: grass-core
+  version: 8.3.2.1
+  kind: app
+  description: |-
+    GRASS GIS core components
+    Commonly referred to as GRASS, this is a Geographic Information
+    System (GIS) used for geospatial data management and analysis,
+    image processing, graphics/map production, spatial modeling, and
+    visualization. GRASS is currently used in academic and commercial
+    settings around the world, as well as by many government agencies
+    and environmental consulting companies.
+
+    This package contains the core processing components, but not the GUI.
+command:
+- /opt/apps/grass-core.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
