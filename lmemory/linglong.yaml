@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: lmemory.linyaps
+  name: lmemory
+  version: 0.6.0.11
+  kind: app
+  description: |-
+    Children's game based on the "memory" card game
+    The Linux Memory Game is an X11 game for children ages 3 and up, based on
+    the card game "Memory". It is written using GTK+ library. Although it is a
+    children's game, it has five skill levels, the higher ones are challenging
+    to adults as well.
+    It features the ability to add your own 64x64 pixmap images.
+command:
+- /opt/apps/lmemory.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
