@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: kcolorchooser.linyaps
+  name: kcolorchooser
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    color chooser and palette editor
+    KColorChooser is a color palette tool, used to mix colors and create custom
+    color palettes.  Using the dropper, it can obtain the color of any pixel on
+    the screen.
+
+    A number of common color palettes are included, such as the standard Web colors
+    and the Oxygen color scheme.
+
+    This package is part of the KDE graphics module.
+command:
+- /opt/apps/kcolorchooser.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
