@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: fcitx5.linyaps
+  name: fcitx5
+  version: 5.1.11.2
+  kind: app
+  description: |-
+    Fcitx Input Method Framework v5
+    Fcitx5 is the next generation of fcitx input method framework. It
+    provides pleasant and modern input experience with intuitive graphical
+    configuration tools. The framework is highly extensible with support
+    for GTK+ and Qt toolkits, D-Bus interfaces, a large variety of desktop
+    environments and a developer-friendly API.
+
+    Some of its new features include support of both Wayland and Xorg
+    and the ability to mimic IBus Input Method Framework in order to
+    provide better compatibility across different Linux distributions
+    and desktop environments.
+
+    This package provides core fcitx5 framework files.
+command:
+- /opt/apps/fcitx5.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

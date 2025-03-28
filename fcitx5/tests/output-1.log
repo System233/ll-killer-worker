@@ -1,0 +1,55 @@
+包名:fcitx5.linyaps
+Layer文件:fcitx5.linyaps_5.1.11.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: fcitx5.linyaps_5.1.11.2_arm64_binary.layer
+offset: 990
+mountpoint: /tmp/tmp.mBTbFcGfAT/mnt
+dbglevel: 0
+I2025-03-28 02:33:30.131523 instance.cpp:1404] Override Enabled Addons: {}
+I2025-03-28 02:33:30.137624 instance.cpp:1405] Override Disabled Addons: {}
+E2025-03-28 02:33:30.154568 waylandmodule.cpp:239] Failed to open wayland connection
+I2025-03-28 02:33:30.154614 addonmanager.cpp:205] Loaded addon wayland
+I2025-03-28 02:33:30.155193 addonmanager.cpp:205] Loaded addon imselector
+I2025-03-28 02:33:30.160070 xcbconnection.cpp:189] Connecting to X11 display, display name::99.
+I2025-03-28 02:33:30.160339 addonmanager.cpp:205] Loaded addon xcb
+I2025-03-28 02:33:30.163909 addonmanager.cpp:205] Loaded addon quickphrase
+I2025-03-28 02:33:30.164948 addonmanager.cpp:205] Loaded addon waylandim
+I2025-03-28 02:33:30.170658 addonmanager.cpp:205] Loaded addon keyboard
+I2025-03-28 02:33:30.171832 addonmanager.cpp:205] Loaded addon clipboard
+I2025-03-28 02:33:30.172623 addonmanager.cpp:205] Loaded addon unicode
+I2025-03-28 02:33:30.174086 addonmanager.cpp:205] Loaded addon dbus
+I2025-03-28 02:33:30.175099 addonmanager.cpp:205] Loaded addon dbusfrontend
+I2025-03-28 02:33:30.219675 addonmanager.cpp:205] Loaded addon fcitx4frontend
+I2025-03-28 02:33:30.221276 addonmanager.cpp:205] Loaded addon ibusfrontend
+I2025-03-28 02:33:30.222919 addonmanager.cpp:205] Loaded addon xim
+I2025-03-28 02:33:30.296324 inputmethodmanager.cpp:209] Found 724 input method(s) in addon keyboard
+I2025-03-28 02:33:30.296520 inputmethodmanager.cpp:132] No valid input method group in configuration. Building a default one
+I2025-03-28 02:33:30.304303 instance.cpp:398] Items in Default: [InputMethodGroupItem(keyboard-us,layout=)]
+I2025-03-28 02:33:30.304344 instance.cpp:403] Generated groups: [Default]
+I2025-03-28 02:33:30.316298 addonmanager.cpp:205] Loaded addon kimpanel
+I2025-03-28 02:33:30.317012 addonmanager.cpp:205] Loaded addon virtualkeyboard
+I2025-03-28 02:33:30.344517 classicui.cpp:64] Created classicui for x11 display::99
+I2025-03-28 02:33:30.344556 addonmanager.cpp:205] Loaded addon classicui
+I2025-03-28 02:33:30.349775 addonmanager.cpp:205] Loaded addon notificationitem
+I2025-03-28 02:33:30.350709 addonmanager.cpp:205] Loaded addon notifications
+I2025-03-28 02:33:30.353869 dbusmodule.cpp:790] Service name change: org.fcitx.Fcitx5  :1.3
+I2025-03-28 02:33:30.353966 kimpanel.cpp:116] Kimpanel new owner: 
+I2025-03-28 02:33:30.353995 virtualkeyboard.cpp:216] VirtualKeyboard new owner: 
+E2025-03-28 02:33:30.354024 portalsettingmonitor.cpp:115] DBus call error: org.freedesktop.DBus.Error.ServiceUnknown The name org.freedesktop.portal.Desktop was not provided by any .service files
+=========================
+Fcitx 5.1.11 -- Get Signal No.: 15
+Date: try "date -d @1743129246" if you are using GNU date ***
+ProcessID: 36
+/usr/bin/fcitx5(+0xcfa8)[0xab8e85b1cfa8]
+linux-vdso.so.1(__kernel_rt_sigreturn+0x0)[0xff9974df87e0]
+/lib/aarch64-linux-gnu/libc.so.6(epoll_pwait+0x94)[0xff997473a0a4]
+/lib/aarch64-linux-gnu/libsystemd.so.0(sd_event_wait+0x13c)[0xff997459af1c]
+/lib/aarch64-linux-gnu/libsystemd.so.0(sd_event_run+0x144)[0xff997459c254]
+/lib/aarch64-linux-gnu/libsystemd.so.0(sd_event_loop+0x4c)[0xff997459c3dc]
+/lib/aarch64-linux-gnu/libFcitx5Utils.so.2(_ZN5fcitx9EventLoop4execEv+0x18)[0xff9974bc5b98]
+/lib/aarch64-linux-gnu/libFcitx5Core.so.7(_ZN5fcitx8Instance4execEv+0x5c)[0xff9974cf53dc]
+/usr/bin/fcitx5(+0xb61c)[0xab8e85b1b61c]
+/lib/aarch64-linux-gnu/libc.so.6(+0x27540)[0xff9974677540]
+/lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98)[0xff9974677618]
+/usr/bin/fcitx5(+0xbef0)[0xab8e85b1bef0]
