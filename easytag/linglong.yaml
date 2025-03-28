@@ -1,0 +1,39 @@
+version: "1"
+package:
+  id: easytag.linyaps
+  name: easytag
+  version: 2.4.3.5
+  kind: app
+  description: |-
+    GTK+ editor for audio file tags
+    EasyTAG is an utility for viewing, editing and writing
+    the tags of different audio files, using a GTK+ interface.
+
+    Currently EasyTAG supports the following:
+    - View, edit, write tags of MP3, MP2 files (ID3 tag), FLAC files (FLAC Vorbis
+    tag), Ogg Opus, Ogg Speex and Ogg Vorbis files (Ogg Vorbis tag),
+    MP4/M4A/AAC files (MPEG-4 Part 10 tag), and MusePack, Monkey's Audio files
+    (APE tag);
+    - Auto tagging: parse file and directory names using masks to automatically
+    fill in tag fields;
+    - Cover art support for all formats;
+    - Rename files from the tag fields (using masks) or by loading a text file;
+    - Process selected files of the selected directory;
+    - Ability to browse subdirectories;
+    - Recursion for tagging, removing, renaming, saving, etc;
+    - Can set a field (artist, title, ...) on all other selected files;
+    - Read file header information (bitrate, time, ...) and display it;
+    - Undo and redo last changes;
+    - Ability to process tag fields and file names (convert letters into
+    uppercase, lowercase, etc);
+    - Ability to open a directory or a file with an external program;
+    - CDDB support (from http protocol);
+    - A tree based browser;
+    - A list to select files;
+    - A playlist generator window;
+    - A file searching window;
+    - Simple and explicit interface.
+command:
+- /opt/apps/easytag.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
