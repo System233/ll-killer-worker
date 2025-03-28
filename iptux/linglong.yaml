@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: iptux.linyaps
+  name: iptux
+  version: 0.8.4.1
+  kind: app
+  description: |-
+    Intranet communication tool for Linux
+    iptux is an “IP Messenger” client for Linux.
+
+    It can:
+    - auto-detect other clients on the intranet.
+    - send message to other clients.
+    - send file to other clients.
+
+    It is (supposedly) compatible with 飞鸽传书 (Feige) and 飞秋 (FeiQ)
+    from China, and with the original “IP Messenger” clients from Japan
+    as listed on http://ipmsg.org/ including g2ipmsg and xipmsg in Debian.
+command:
+- /opt/apps/iptux.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
