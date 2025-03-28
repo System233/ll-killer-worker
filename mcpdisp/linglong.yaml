@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: mcpdisp.linyaps
+  name: mcpdisp
+  version: 0.1.2.0
+  kind: app
+  description: |-
+    Mackie Control Protocol Display Program.
+    mcpdisp presents a jack midi port that will accept mackie control protocol
+    display messages that would normally appear on the surface "scribble strip"
+    and displays them on the screen. The strip LEDs and meters are displayed as
+    well.
+command:
+- /opt/apps/mcpdisp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
