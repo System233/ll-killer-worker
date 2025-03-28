@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: flowblade.linyaps
+  name: flowblade
+  version: 2.12.0.1
+  kind: app
+  description: |-
+    non-linear video editor
+    Flowblade Movie Editor is designed to provide a fast, precise and
+    as-simple-as-possible editing experience.
+
+    Flowblade employs film style editing paradigm in which clips are
+    usually automatically placed tightly after the previous clip - or
+    between two existing clips - when they are inserted on the timeline.
+    Edits are fine-tuned by trimming in and out points of clips, or by
+    cutting and deleting parts of clips. Film style editing is faster for
+    creating programs with mostly straight cuts and audio splits, but may
+    be slower when programs contain complex composites unless correct work
+    flow is followed.
+command:
+- /opt/apps/flowblade.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
