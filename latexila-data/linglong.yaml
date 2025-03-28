@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: latexila-data.linyaps
+  name: latexila-data
+  version: 3.22.0.1
+  kind: app
+  description: |-
+    LaTeXila editor -- arch-independent files
+    LaTeXila is a LaTeX editor for GNOME. It integrates the various tools required
+    for processing LaTeX documents. It provides menus, buttons and templates to
+    assist with the edition and the compilation of documents.
+
+    This package contains documentation and arch-independent files for LaTeXila
+command:
+- /opt/apps/latexila-data.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
