@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: ksnip.linyaps
+  name: ksnip
+  version: 1.10.1.1
+  kind: app
+  description: |-
+    Qt-based cross-platform screenshot tool
+    Ksnip is a Qt-based cross-platform screenshot tool that provides many
+    annotation features for your screenshots. It provides a traditional
+    user interface with experimental GNOME/KDE Wayland support.
+command:
+- /opt/apps/ksnip.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
