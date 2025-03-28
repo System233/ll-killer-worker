@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: kwrite.linyaps
+  name: kwrite
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    simple text editor
+    KWrite is a simple text editor built on the KDE Platform. It uses the Kate
+    editor component, so it supports powerful features such as flexible syntax
+    highlighting, automatic indentation, and numerous other text tools.
+command:
+- /opt/apps/kwrite.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
