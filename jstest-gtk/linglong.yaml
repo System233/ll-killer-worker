@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: jstest-gtk.linyaps
+  name: jstest-gtk
+  version: 0.1.1.2
+  kind: app
+  description: |-
+    joystick testing and configuration tool
+    jstest-gtk is a simple graphical joystick tester. It provides a list
+    of attached joysticks, and for each one can display which buttons and
+    axes are pressed, remap axes and buttons, and calibrate the device.
+
+    Even when your joystick is working mostly fine, you might want to
+    give it a try, as the calibration lets you get rid of overlarge
+    default deadzones that many joysticks use and which are a noticeable
+    problem in some games.
+
+    Installing the joystick package in addition to this one will allow
+    you to store your calibration settings and mappings and have the
+    automatically restored.
+command:
+- /opt/apps/jstest-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
