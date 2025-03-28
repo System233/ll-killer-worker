@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: hamster-time-tracker.linyaps
+  name: hamster-time-tracker
+  version: 3.0.3.1
+  kind: app
+  description: |-
+    time tracking application for GNOME
+    Project Hamster helps you to keep track of how much time you spend on various
+    activities during the day.  Whenever you move from one task to another, you
+    can change your current activity, or you can record time spent afterwards.
+
+    It can present graphical statistics of how long you have spent on each task,
+    and may be useful for project management or keeping employee timesheets.
+
+    This package contains the background daemon and GNOME application, an
+    extension to integrate into the gnome-shell top bar is separately available.
+command:
+- /opt/apps/hamster-time-tracker.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
