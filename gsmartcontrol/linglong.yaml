@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: gsmartcontrol.linyaps
+  name: gsmartcontrol
+  version: 1.1.4.1
+  kind: app
+  description: |-
+    graphical user interface for smartctl
+    GSmartControl is a graphical user interface for smartctl, which is a tool for
+    querying and controlling SMART (Self-Monitoring, Analysis, and Reporting
+    Technology) data on modern hard disk drives. It allows you to inspect the
+    drive's SMART data to determine its health, as well as run various tests on it.
+
+    Features:
+
+    * automatically reports and highlights any anomalies;
+    * allows enabling/disabling Automatic Offline Data Collection;
+    * allows enabling/disabling SMART itself;
+    * supports configuration of global and per-drive options for smartctl;
+    * performs SMART self-tests;
+    * displays drive IDs, capabilities, attributes, and self-test/error logs;
+    * can read in smartctl data from a saved file, interpreting it as a read-only
+    virtual device.
+command:
+- /opt/apps/gsmartcontrol.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
