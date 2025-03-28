@@ -1,11 +1,11 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|940|587 |353 | 62.45%| 18.94%|
+|3099|944|591 |353 | 62.61%| 19.07%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|718|508 |210 | 70.75%| 18.41%|
+|ubuntu-noble|2759|722|512 |210 | 70.91%| 18.56%|
 |deepin-v23|340|222|79 |143 | 35.59%| 23.24%|
 ## 详细结果
 | 包名   | 架构 |仓库| 版本    | 测试结果 | SHA256 |
@@ -945,8 +945,12 @@
 | [gfaim](./gfaim) | arm64  | ubuntu-noble | 0.30-0ubuntu6-20250327 | 失败 | [SHA256](./gfaim/SHA256SUMS) |
 | [gfm](./gfm) | arm64  | ubuntu-noble | 1.09~git20220826.71eaa92-1build2 | ![screen0-5.jpg](./gfm/tests/screen0-5.jpg) | [SHA256](./gfm/SHA256SUMS) |
 | [gfpoken](./gfpoken) | arm64  | ubuntu-noble | 1-4build2 | ![screen0-5.jpg](./gfpoken/tests/screen0-5.jpg) | [SHA256](./gfpoken/SHA256SUMS) |
+| [gftp-gtk](./gftp-gtk) | arm64  | ubuntu-noble | 2.9.1~beta-2build2 | ![screen0-5.jpg](./gftp-gtk/tests/screen0-5.jpg) | [SHA256](./gftp-gtk/SHA256SUMS) |
 | [ggobi](./ggobi) | arm64  | ubuntu-noble | 2.1.11-2build3 | ![screen0-5.jpg](./ggobi/tests/screen0-5.jpg) | [SHA256](./ggobi/SHA256SUMS) |
 | [ghextris](./ghextris) | arm64  | ubuntu-noble | 0.9.0-5-20250327 | 失败 | N/A |
+| [giada](./giada) | arm64  | ubuntu-noble | 0.22.0-4build2 | ![screen0-5.jpg](./giada/tests/screen0-5.jpg) | [SHA256](./giada/SHA256SUMS) |
 | [giara](./giara) | arm64  | ubuntu-noble | 1.1.0-0.1-20250327 | 失败 | N/A |
+| [gigalomania](./gigalomania) | arm64  | ubuntu-noble | 1.0+ds1-1.1 | ![screen0-5.jpg](./gigalomania/tests/screen0-5.jpg) | [SHA256](./gigalomania/SHA256SUMS) |
+| [giggle](./giggle) | arm64  | ubuntu-noble | 0.7-6build2 | ![screen0-5.jpg](./giggle/tests/screen0-5.jpg) | [SHA256](./giggle/SHA256SUMS) |
 | [gimagereader](./gimagereader) | arm64  | ubuntu-noble | 3.4.2-2build6-20250327 | 失败 | N/A |
 | [gimagereader-qt5](./gimagereader-qt5) | arm64  | ubuntu-noble | 3.4.2-2build6-20250327 | 失败 | N/A |
