@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: menulibre.linyaps
+  name: menulibre
+  version: 2.4.0.0
+  kind: app
+  description: |-
+    advanced FreeDesktop.org compliant menu editor
+    An advanced menu editor that provides modern features in a clean, easy-to-use
+    interface. All without GNOME dependencies, so even lightweight systems can
+    benefit from the sanity that MenuLibre offers. MenuLibre is your one-stop shop
+    for menus in Linux, whether you use GNOME, LXDE, Xfce, or Unity.
+command:
+- /opt/apps/menulibre.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
