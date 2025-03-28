@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: fldigi.linyaps
+  name: fldigi
+  version: 4.2.3.1
+  kind: app
+  description: |-
+    digital modem program for hamradio operators
+    Fldigi is a modem program which supports most of the digital modes used
+    by hamradio operators today. You can also use the program for
+    calibrating your sound card to WWV or doing a frequency measurement test.
+    The program also comes with a CW decoder. Fldigi is written with the
+    help of the Fast Light Toolkit X GUI.
+command:
+- /opt/apps/fldigi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
