@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: goverlay.linyaps
+  name: goverlay
+  version: 0.9.1.2
+  kind: app
+  description: |-
+    Graphical UI to help manage Vulkan / OpenGL overlays
+    GOverlay can configure Vulkan / OpenGL overlays with a preview. Currently
+    supported are MangoHud, vkBasalt and ReplaySorcery.
+command:
+- /opt/apps/goverlay.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
