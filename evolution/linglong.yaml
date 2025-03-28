@@ -1,0 +1,33 @@
+version: "1"
+package:
+  id: evolution.linyaps
+  name: evolution
+  version: 3.52.3.0
+  kind: app
+  description: |-
+    groupware suite with mail client and organizer
+    Evolution is a groupware suite which integrates mail, calendar,
+    address book, to-do list and memo tools.
+
+    Additional features include integration with Exchange
+    servers, newsgroup client, LDAP support and web calendars
+
+    The following plugins belonging to the "base" set are included.
+    - calendar-file
+    - calendar-http
+    - itip-formatter
+    - default-source
+    - addressbook-file
+    - mark-all-read
+    - publish-calendar
+    - caldav
+    - imap-features
+    - google-account-setup
+    - webdav-account-setup
+    - calendar-weather
+    - sa-junk-plugin
+    - bogo-junk-pluginm
+command:
+- /opt/apps/evolution.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

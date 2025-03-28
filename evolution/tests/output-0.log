@@ -1,0 +1,60 @@
+包名:evolution.linyaps
+Layer文件:evolution.linyaps_3.52.3.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: evolution.linyaps_3.52.3.0_arm64_binary.layer
+offset: 959
+mountpoint: /tmp/tmp.0Q6oXvSPcX/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+
+(evolution:36): e-data-server-[1;35mCRITICAL[0m **: [34m02:23:58.360[0m: e_source_registry_ref_builtin_proxy: assertion 'source != NULL' failed
+
+(evolution:36): GLib-GObject-[1;35mCRITICAL[0m **: [34m02:23:58.360[0m: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(evolution:36): e-data-server-[1;35mCRITICAL[0m **: [34m02:23:58.439[0m: e_source_registry_ref_builtin_mail_account: assertion 'source != NULL' failed
+
+(evolution:36): e-data-server-[1;35mCRITICAL[0m **: [34m02:23:58.439[0m: e_source_registry_ref_default_mail_account: assertion 'E_IS_SOURCE (source)' failed
+
+(evolution:36): e-mail-engine-[1;35mCRITICAL[0m **: [34m02:23:58.439[0m: mail_session_configure_local_store: assertion 'service != NULL' failed
+
+(evolution:36): e-mail-engine-[1;35mCRITICAL[0m **: [34m02:23:58.439[0m: mail_session_configure_vfolder_store: assertion 'service != NULL' failed
+
+(evolution:36): module-mail-[1;35mCRITICAL[0m **: [34m02:23:58.500[0m: mail_shell_backend_constructed: assertion 'vstore != NULL' failed
+
+(evolution:36): module-rss-[1;33mWARNING[0m **: [34m02:23:59.922[0m: Failed to commit RSS source: The name org.gnome.evolution.dataserver.Sources5 was not provided by any .service files
+
+(evolution:36): e-data-server-[1;35mCRITICAL[0m **: [34m02:23:59.923[0m: e_source_registry_ref_builtin_mail_account: assertion 'source != NULL' failed
+
+(evolution:36): e-data-server-[1;35mCRITICAL[0m **: [34m02:23:59.923[0m: e_source_registry_ref_default_mail_account: assertion 'E_IS_SOURCE (source)' failed
+
+(evolution:36): GLib-GObject-[1;35mCRITICAL[0m **: [34m02:24:00.435[0m: invalid (NULL) pointer instance
+
+(evolution:36): GLib-GObject-[1;35mCRITICAL[0m **: [34m02:24:00.435[0m: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(evolution:36): GLib-GObject-[1;35mCRITICAL[0m **: [34m02:24:00.435[0m: invalid (NULL) pointer instance
+
+(evolution:36): GLib-GObject-[1;35mCRITICAL[0m **: [34m02:24:00.435[0m: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(evolution:36): Gtk-[1;35mCRITICAL[0m **: [34m02:24:00.632[0m: gtk_list_store_reorder: assertion 'new_order != NULL' failed
+MESA: error: ZINK: failed to choose pdev
+libEGL warning: egl: failed to create dri2 screen
+
+(evolution:36): GLib-GObject-[1;35mCRITICAL[0m **: [34m02:24:05.434[0m: g_object_bind_property_full: assertion 'G_IS_OBJECT (source)' failed
+
+(evolution:36): GLib-GObject-[1;35mCRITICAL[0m **: [34m02:24:05.434[0m: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(evolution:36): GLib-GObject-[1;35mCRITICAL[0m **: [34m02:24:05.436[0m: g_object_bind_property_full: assertion 'G_IS_OBJECT (source)' failed
+
+(evolution:36): GLib-GObject-[1;35mCRITICAL[0m **: [34m02:24:05.436[0m: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(evolution:36): e-mail-engine-[1;35mCRITICAL[0m **: [34m02:24:05.492[0m: e_mail_session_get_local_folder_uri: assertion 'type < local_folder_uris->len' failed
+
+(evolution:36): e-mail-engine-[1;35mCRITICAL[0m **: [34m02:24:05.492[0m: e_mail_session_get_local_folder_uri: assertion 'type < local_folder_uris->len' failed
+
+(evolution:36): e-mail-engine-[1;35mCRITICAL[0m **: [34m02:24:05.492[0m: e_mail_session_get_local_folder_uri: assertion 'type < local_folder_uris->len' failed
+Received terminate signal...
+
+(evolution:36): e-mail-engine-[1;35mCRITICAL[0m **: [34m02:24:12.011[0m: e_mail_session_get_local_folder: assertion 'type < local_folders->len' failed
