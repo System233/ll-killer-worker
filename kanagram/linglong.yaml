@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: kanagram.linyaps
+  name: kanagram
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    jumble word puzzle
+    KAnagram is a game where a random word is shown with its letters scrambled.
+    To win, the player must rearrange the letters into the correct order.
+
+    This package is part of the KDE education module
+command:
+- /opt/apps/kanagram.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
