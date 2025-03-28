@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: munipack-gui.linyaps
+  name: munipack-gui
+  version: 0.6.1.1
+  kind: app
+  description: |-
+    Graphical user interface of Munipack
+    Munipack is a general astronomical photometry software package.
+    Currently implements functions for standard photometry processing
+    (photometry reductions - dark, flat), aperture  photometry, astrometry
+    and photometry calibration, accessing Virtual observatory, etc.
+
+    This package provides "xmunipack" command which offers graphical
+    user interface for Munipack.
+command:
+- /opt/apps/munipack-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
