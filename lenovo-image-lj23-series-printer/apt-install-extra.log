@@ -1,0 +1,50 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libpci3 libsnmp-base pci.ids
+Suggested packages:
+  snmp-mibs-downloader
+The following NEW packages will be installed:
+  libpci3 libsnmp-base libsnmp30 libtiff5 pci.ids
+0 upgraded, 5 newly installed, 0 to remove and 234 not upgraded.
+Need to get 4562 kB of archives.
+After this operation, 9679 kB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main arm64 pci.ids all 0.0~2024.11.26-0deepin1 [263 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main arm64 libpci3 arm64 1:3.10.0-2 [69.5 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main arm64 libsnmp-base all 5.9.4+dfsg-1 [1770 kB]
+Get:4 https://community-packages.deepin.com/beige beige/main arm64 libsnmp30 arm64 5.7.3+dfsg-5deepin1+deb10u4 [2210 kB]
+Get:5 https://community-packages.deepin.com/driver-23 driver/non-free arm64 libtiff5 arm64 4.1.0+git191117-2~deb10u9 [250 kB]
+Fetched 4562 kB in 1s (3472 kB/s)
+Selecting previously unselected package pci.ids.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27832 files and directories currently installed.)
+Preparing to unpack .../pci.ids_0.0~2024.11.26-0deepin1_all.deb ...
+Unpacking pci.ids (0.0~2024.11.26-0deepin1) ...
+Selecting previously unselected package libpci3:arm64.
+Preparing to unpack .../libpci3_1%3a3.10.0-2_arm64.deb ...
+Unpacking libpci3:arm64 (1:3.10.0-2) ...
+Selecting previously unselected package libsnmp-base.
+Preparing to unpack .../libsnmp-base_5.9.4+dfsg-1_all.deb ...
+Unpacking libsnmp-base (5.9.4+dfsg-1) ...
+Selecting previously unselected package libsnmp30:arm64.
+Preparing to unpack .../libsnmp30_5.7.3+dfsg-5deepin1+deb10u4_arm64.deb ...
+Unpacking libsnmp30:arm64 (5.7.3+dfsg-5deepin1+deb10u4) ...
+Selecting previously unselected package libtiff5:arm64.
+Preparing to unpack .../libtiff5_4.1.0+git191117-2~deb10u9_arm64.deb ...
+Unpacking libtiff5:arm64 (4.1.0+git191117-2~deb10u9) ...
+Setting up pci.ids (0.0~2024.11.26-0deepin1) ...
+Setting up libsnmp-base (5.9.4+dfsg-1) ...
+
+Configuration file '/etc/snmp/snmp.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up libpci3:arm64 (1:3.10.0-2) ...
+Setting up libtiff5:arm64 (4.1.0+git191117-2~deb10u9) ...
+Setting up libsnmp30:arm64 (5.7.3+dfsg-5deepin1+deb10u4) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+ldconfig: /lib/aarch64-linux-gnu/libjpeg.so.8 is not a symbolic link
+
+ldconfig: /lib/aarch64-linux-gnu/libpng12.so.0 is not a symbolic link
+

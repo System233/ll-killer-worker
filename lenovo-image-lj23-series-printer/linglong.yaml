@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: lenovo-image-lj23-series-printer.linyaps
+  name: lenovo-image-lj23-series-printer
+  version: 1.9.0.0
+  kind: app
+  description: Printer Driver for Lenovo Image LJ2310N/LJ2320DN Printer
+command:
+- /opt/apps/lenovo-image-lj23-series-printer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
