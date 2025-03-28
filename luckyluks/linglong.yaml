@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: luckyluks.linyaps
+  name: luckyluks
+  version: 2.1.0.3
+  kind: app
+  description: |-
+    GUI for creating and unlocking LUKS/TrueCrypt
+    This program is a Linux GUI for creating and (un-)locking encrypted volumes
+    from container files. Unlocked containers leave an icon in the systray as
+    a reminder to close them eventually. Supports cryptsetup/LUKS and Truecrypt
+    container files.
+command:
+- /opt/apps/luckyluks.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
