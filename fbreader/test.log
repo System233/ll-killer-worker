@@ -1,0 +1,35 @@
+正在测试: APPID=fbreader.linyaps LAYER=fbreader.linyaps_0.99.4.5_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install fbreader.linyaps_0.99.4.5_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:fbreader.linyaps
+Layer文件:fbreader.linyaps_0.99.4.5_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: fbreader.linyaps_0.99.4.5_arm64_binary.layer
+offset: 1105
+mountpoint: /tmp/tmp.TfTC6DCejg/mnt
+dbglevel: 0
+find: ‘/opt/apps/fbreader.linyaps/files/share/icons’: No such file or directory
+[成功] FBReader.desktop: FBReader -> /opt/apps/fbreader.linyaps/files/share/pixmaps/FBReader.png
+[成功] /opt/apps/fbreader.linyaps/files/share/applications/FBReader.desktop: /opt/apps/fbreader.linyaps/files/entrypoint.sh FBReader %F
+[正在测试启动项]
+包名:fbreader.linyaps
+Layer文件:fbreader.linyaps_0.99.4.5_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: fbreader.linyaps_0.99.4.5_arm64_binary.layer
+offset: 1105
+mountpoint: /tmp/tmp.hUJathxHMR/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run fbreader.linyaps -- /opt/apps/fbreader.linyaps/files/entrypoint.sh FBReader
+[PID 9265] 进程已启动
+[PID 9265] 已检测到窗口:PID=36
+[PID 9265] 正在截图 0秒: tests/screen0-0.jpg
+[PID 9265] 正在截图 2秒: tests/screen0-2.jpg
+[PID 9265] 正在截图 4秒: tests/screen0-4.jpg
+[PID 9265] 正在截图 5秒: tests/screen0-5.jpg
+[PID 9265] 正在通知并等待进程退出
+[PID 9265] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall fbreader.linyaps

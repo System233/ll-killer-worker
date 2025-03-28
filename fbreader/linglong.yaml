@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: fbreader.linyaps
+  name: fbreader
+  version: 0.99.4.5
+  kind: app
+  description: |-
+    e-book reader
+    FBReader is an e-book reader.
+
+    Main features:
+    * supports several open e-book formats: fb2, html, chm, plucker,
+    palmdoc, ztxt, tcr (psion text), rtf, oeb, openreader, non-DRM'ed
+    mobipocket, plain text, epub, eReader
+    * reads directly from tar, zip, gzip, bzip2 archives (you can have
+    several books in one archive)
+    * supports a structured view of your e-book collection
+    * automatically determines encodings
+    * automatically generates a table of contents
+    * keeps the last open book and the last read positions for all open books
+    between runs
+    * automatic hyphenation (patterns for several languages are included)
+    * searching and downloading books from www.feedbooks.com and www.litres.ru
+    * partial CSS support for epub files
+command:
+- /opt/apps/fbreader.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
