@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: holotz-castle.linyaps
+  name: holotz-castle
+  version: 1.3.14.12
+  kind: app
+  description: |-
+    platform game with high doses of mystery
+    A great mystery is hidden beyond the walls of Holotz's Castle. Will
+    you be able to help Ybelle and Ludar to escape alive from the castle?
+    Test your dexterity with this tremendously exciting platform game!
+command:
+- /opt/apps/holotz-castle.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
