@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: lynis.linyaps
+  name: lynis
+  version: 3.0.9.1
+  kind: app
+  description: |-
+    security auditing tool for Unix based systems
+    Lynis is an auditing tool for hardening GNU/Linux and Unix based systems.
+    It scans the system configuration and creates an overview of system information
+    and security issues usable by professional auditors.
+    It can assist in automated audits.
+
+    Lynis can be used in addition to other software, like security
+    scanners, system benchmarking and fine-tuning tools.
+command:
+- /opt/apps/lynis.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

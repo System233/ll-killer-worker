@@ -1,0 +1,29 @@
+正在测试: APPID=lynis.linyaps LAYER=lynis.linyaps_3.0.9.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install lynis.linyaps_3.0.9.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:lynis.linyaps
+Layer文件:lynis.linyaps_3.0.9.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: lynis.linyaps_3.0.9.1_arm64_binary.layer
+offset: 757
+mountpoint: /tmp/tmp.uJYifS74Lz/mnt
+dbglevel: 0
+[成功] /opt/apps/lynis.linyaps/files/share/applications/lynis.desktop: /opt/apps/lynis.linyaps/files/entrypoint.sh su-to-root -c '/usr/sbin/lynis audit system --no-colors'
+[正在测试启动项]
+包名:lynis.linyaps
+Layer文件:lynis.linyaps_3.0.9.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: lynis.linyaps_3.0.9.1_arm64_binary.layer
+offset: 757
+mountpoint: /tmp/tmp.2VCF3Y6p1K/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run lynis.linyaps -- /opt/apps/lynis.linyaps/files/entrypoint.sh su-to-root -c '/usr/sbin/lynis audit system --no-colors'
+[PID 5938] 进程已启动
+[PID 5938] 等待超时，未能检测到窗口
+[PID 5938] 正在通知并等待进程退出
+[PID 5938] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall lynis.linyaps
