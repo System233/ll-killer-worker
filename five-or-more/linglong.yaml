@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: five-or-more.linyaps
+  name: five-or-more
+  version: 3.32.3.1
+  kind: app
+  description: |-
+    make color lines of five or more length
+    This is a GNOME port of the once popular “Color Lines” game.
+
+    The game's objective is to align as often as possible five or more
+    objects of the same color and shape causing them to disappear.
+command:
+- /opt/apps/five-or-more.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
