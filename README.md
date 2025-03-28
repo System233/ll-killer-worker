@@ -1,11 +1,11 @@
 # amd64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3161|1576|926 |650 | 58.76%| 29.29%|
+|3161|1580|932 |648 | 58.99%| 29.48%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2779|1281|820 |461 | 64.01%| 29.51%|
+|ubuntu-noble|2779|1285|826 |459 | 64.28%| 29.72%|
 |deepin-v23|380|293|104 |189 | 35.49%| 27.37%|
 |shiftkey|1|1|1 |0 | 100.00%| 100.00%|
 |obs-studio|1|1|1 |0 | 100.00%| 100.00%|
@@ -1528,8 +1528,12 @@
 | [kleopatra](./kleopatra) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kleopatra/tests/screen0-5.jpg) | [SHA256](./kleopatra/SHA256SUMS) | v1.5.1-amd64-nevm |
 | [klettres](./klettres) | amd64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./klettres/tests/screen0-5.jpg) | [SHA256](./klettres/SHA256SUMS) | v1.5.1-amd64-nevm |
 | [klickety](./klickety) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./klickety/tests/screen0-5.jpg) ![screen1-5.jpg](./klickety/tests/screen1-5.jpg) | [SHA256](./klickety/SHA256SUMS) | v1.5.1-amd64-nevm |
-| [klines](./klines) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
-| [kmahjongg](./kmahjongg) | amd64  | ubuntu-noble | 21.08.3-1-af50a04 | 失败 | N/A | N/A |
+| [klines](./klines) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./klines/tests/screen0-5.jpg) | [SHA256](./klines/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [klog](./klog) | amd64  | ubuntu-noble | 2.3.3-2build2 | ![screen0-5.jpg](./klog/tests/screen0-5.jpg) | [SHA256](./klog/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [kluppe](./kluppe) | amd64  | ubuntu-noble | 0.6.20-1.2build2 | ![screen0-5.jpg](./kluppe/tests/screen0-5.jpg) | [SHA256](./kluppe/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [klystrack](./klystrack) | amd64  | ubuntu-noble | 0.20171212-6 | ![screen0-5.jpg](./klystrack/tests/screen0-5.jpg) | [SHA256](./klystrack/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [kmag](./kmag) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kmag/tests/screen0-5.jpg) | [SHA256](./kmag/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [kmahjongg](./kmahjongg) | amd64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./kmahjongg/tests/screen0-5.jpg) | [SHA256](./kmahjongg/SHA256SUMS) | v1.5.1-amd64-nevm |
 | [kmines](./kmines) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
 | [kmousetool](./kmousetool) | amd64  | ubuntu-noble | 21.08.0-1deepin0-af50a04 | 失败 | N/A | N/A |
 | [knavalbattle](./knavalbattle) | amd64  | ubuntu-noble | 21.08.0-1-af50a04 | 失败 | N/A | N/A |
