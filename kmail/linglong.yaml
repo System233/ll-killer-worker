@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: kmail.linyaps
+  name: kmail
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    full featured graphical email client
+    KMail supports multiple accounts, mail filtering and email encryption.
+    The program let you configure your workflow and it has good integration into
+    KDE (Plasma Desktop) but is also useable with other Desktop Environments.
+command:
+- /opt/apps/kmail.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
