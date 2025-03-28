@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: gnome-mines.linyaps
+  name: gnome-mines
+  version: 40.1.0.1
+  kind: app
+  description: |-
+    popular minesweeper puzzle game for GNOME
+    Mines is a puzzle game where you locate mines floating in an ocean
+    using only your brain and a little bit of luck.
+command:
+- /opt/apps/gnome-mines.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
