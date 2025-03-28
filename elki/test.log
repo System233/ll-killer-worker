@@ -1,0 +1,28 @@
+正在测试: APPID=elki.linyaps LAYER=elki.linyaps_0.7.1.10_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install elki.linyaps_0.7.1.10_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:elki.linyaps
+Layer文件:elki.linyaps_0.7.1.10_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: elki.linyaps_0.7.1.10_x86_64_binary.layer
+offset: 1171
+mountpoint: /tmp/tmp.WrVBTNZVGr/mnt
+dbglevel: 0
+[成功] elki.desktop: elki-icon -> /opt/apps/elki.linyaps/files/share/pixmaps/elki-icon.png
+[成功] /opt/apps/elki.linyaps/files/share/applications/elki.desktop: /opt/apps/elki.linyaps/files/entrypoint.sh elki
+[正在测试启动项]
+包名:elki.linyaps
+Layer文件:elki.linyaps_0.7.1.10_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: elki.linyaps_0.7.1.10_x86_64_binary.layer
+offset: 1171
+mountpoint: /tmp/tmp.xYUjVvoo5B/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run elki.linyaps -- /opt/apps/elki.linyaps/files/entrypoint.sh elki
+[PID 10854] 进程已启动
+[PID 10854] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall elki.linyaps
