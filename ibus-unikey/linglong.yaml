@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: ibus-unikey.linyaps
+  name: ibus-unikey
+  version: 0.7.0.1
+  kind: app
+  description: |-
+    Vietnamese Input Method Engine for IBus using Unikey Engine
+    IBus is an Intelligent Input Bus. It is a new input framework for Linux
+    OS. It provides full featured and user friendly input method user interface.
+    It also may help developers to develop input method easily.
+
+    Ibus-Unikey is a Vietnamese input method for Ibus
+    Use Unikey engine to process keyevent
+command:
+- /opt/apps/ibus-unikey.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
