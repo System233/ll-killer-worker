@@ -1,0 +1,17 @@
+包名:freedv.linyaps
+Layer文件:freedv.linyaps_1.8.11.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: freedv.linyaps_1.8.11.1_arm64_binary.layer
+offset: 1327
+mountpoint: /tmp/tmp.DRfMojdTeQ/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+Making sure your machine can handle 2020 mode:
+Generating test audio...
+Decoding modulated audio...
+One second of 2020 decoded in 264 ms
+2020 allowed: 1
+Assertion 'pthread_mutex_lock(&m->mutex) == 0' failed at ../src/pulsecore/mutex-posix.c:92, function pa_mutex_lock(). Aborting.
