@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: kamoso.linyaps
+  name: kamoso
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    tool to take pictures and videos from your webcam
+    Kamoso is a utility that does the very simple actions a webcam offers,
+    like taking pictures or recording videos and adds some extra features that will
+    make the webcam usage both funnier and more useful.
+command:
+- /opt/apps/kamoso.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
