@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: fontforge.linyaps
+  name: fontforge
+  version: 20230101.0.0.3
+  kind: app
+  description: |-
+    font editor
+    FontForge is a font editor.
+    Use it to create, edit and convert fonts
+    in OpenType, TrueType, UFO, CID-keyed, Multiple Master,
+    and many other formats.
+
+    This package also provides these programs and utilities:
+    fontimage - produce a font thumbnail image;
+    fontlint  - checks the font for certain common errors;
+    sfddiff   - compare two font files.
+command:
+- /opt/apps/fontforge.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
