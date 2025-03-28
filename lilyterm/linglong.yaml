@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: lilyterm.linyaps
+  name: lilyterm
+  version: 0.9.9.5
+  kind: app
+  description: |-
+    Light and eazy-to-use terminal emulator for X
+    LilyTerm is a terminal emulator for the X Window System, based on the libvte
+    library, and aims to be fast and lightweight.
+
+    LilyTerm features the ability to use multiple terminals in a single window and
+    customize key binding.
+command:
+- /opt/apps/lilyterm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
