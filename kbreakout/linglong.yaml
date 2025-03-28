@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: kbreakout.linyaps
+  name: kbreakout
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    ball and paddle game
+    kbreakout is a game similar to the classics breakout and xboing, featuring
+    a number of added graphical enhancements and effects.  You control a paddle
+    at the bottom of the playing-field, and must destroy bricks at the top
+    by bouncing balls against them.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/kbreakout.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
