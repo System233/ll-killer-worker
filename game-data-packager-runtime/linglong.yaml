@@ -1,0 +1,32 @@
+version: "1"
+package:
+  id: game-data-packager-runtime.linyaps
+  name: game-data-packager-runtime
+  version: 77.0.0.0
+  kind: app
+  description: |-
+    Launcher for proprietary games
+    Various games are divided into two logical parts: engine
+    and data. Often the engine and data are licensed in
+    different ways, such that the engine can be distributed
+    in Debian but the data cannot.
+
+    Some of the games supported by game-data-packager need to be
+    started by a special launcher script that will create symbolic
+    links or do other setup. This package contains those launcher
+    scripts.
+
+    The following games currently require this package:
+
+    * Doom 2: The Master Levels (doom2-masterlevels-wad)
+    * Quake series and Enemy Territory: Quake Wars
+    (quake, quake2, quake3, quake4, etqw)
+    * Return to Castle Wolfenstein (rtcw)
+    * Star Wars Jedi Knight 2: Jedi Outcast and Jedi Academy
+    (openjk-outcast, openjk-academy)
+    * Unreal, Unreal Gold and Unreal Tournament
+    (unreal-classic, unreal-gold, ut99)
+command:
+- /opt/apps/game-data-packager-runtime.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
