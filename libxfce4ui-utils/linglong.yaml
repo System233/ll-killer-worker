@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: libxfce4ui-utils.linyaps
+  name: libxfce4ui-utils
+  version: 4.18.6.1
+  kind: app
+  description: |-
+    Utility files for libxfce4ui
+    This package contains the Xfce settings plugin and the utility files for
+    libxfce4ui-2-0 which are:
+    - xfce4-about
+command:
+- /opt/apps/libxfce4ui-utils.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
