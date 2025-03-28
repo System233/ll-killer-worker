@@ -1,0 +1,28 @@
+正在测试: APPID=gnome-power-manager.linyaps LAYER=gnome-power-manager.linyaps_43.0.0.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install gnome-power-manager.linyaps_43.0.0.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:gnome-power-manager.linyaps
+Layer文件:gnome-power-manager.linyaps_43.0.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: gnome-power-manager.linyaps_43.0.0.2_arm64_binary.layer
+offset: 977
+mountpoint: /tmp/tmp.JgGsFpH9sB/mnt
+dbglevel: 0
+[成功] org.gnome.PowerStats.desktop: org.gnome.PowerStats -> /opt/apps/gnome-power-manager.linyaps/files/share/icons/hicolor/16x16/apps/org.gnome.PowerStats.png
+[成功] /opt/apps/gnome-power-manager.linyaps/files/share/applications/org.gnome.PowerStats.desktop: /opt/apps/gnome-power-manager.linyaps/files/entrypoint.sh gnome-power-statistics
+[正在测试启动项]
+包名:gnome-power-manager.linyaps
+Layer文件:gnome-power-manager.linyaps_43.0.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: gnome-power-manager.linyaps_43.0.0.2_arm64_binary.layer
+offset: 977
+mountpoint: /tmp/tmp.n8DIbMl2KK/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run gnome-power-manager.linyaps -- /opt/apps/gnome-power-manager.linyaps/files/entrypoint.sh gnome-power-statistics
+[PID 18021] 进程已启动
+[PID 18021] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall gnome-power-manager.linyaps
