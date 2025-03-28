@@ -1,0 +1,28 @@
+正在测试: APPID=gnome-split.linyaps LAYER=gnome-split.linyaps_1.2.0.5_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install gnome-split.linyaps_1.2.0.5_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:gnome-split.linyaps
+Layer文件:gnome-split.linyaps_1.2.0.5_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: gnome-split.linyaps_1.2.0.5_x86_64_binary.layer
+offset: 685
+mountpoint: /tmp/tmp.UHDcpfyHEr/mnt
+dbglevel: 0
+[成功] gnome-split.desktop: gnome-split.linyaps-gnome-split -> /opt/apps/gnome-split.linyaps/files/share/icons/hicolor/64x64/apps/gnome-split.linyaps-gnome-split.png
+[成功] /opt/apps/gnome-split.linyaps/files/share/applications/gnome-split.desktop: /opt/apps/gnome-split.linyaps/files/entrypoint.sh /usr/bin/gnome-split
+[正在测试启动项]
+包名:gnome-split.linyaps
+Layer文件:gnome-split.linyaps_1.2.0.5_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:
+disk: gnome-split.linyaps_1.2.0.5_x86_64_binary.layer
+offset: 685
+mountpoint: /tmp/tmp.kMUpuuHYRN/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run gnome-split.linyaps -- /opt/apps/gnome-split.linyaps/files/entrypoint.sh /usr/bin/gnome-split
+[PID 11222] 进程已启动
+[PID 11222] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall gnome-split.linyaps
