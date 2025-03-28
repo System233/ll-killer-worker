@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: kasumi.linyaps
+  name: kasumi
+  version: 2.5.0.1
+  kind: app
+  description: |-
+    Simple dictionary utility for Anthy
+    Kasumi is a personal dictionary management tool for Anthy.
+    Anthy is a Japanese input method to convert Hiragana text to
+    Kana Kanji mixed text.
+
+    Featuring add words, edit words, delete words, search words
+    and so on.
+command:
+- /opt/apps/kasumi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
