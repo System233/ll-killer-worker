@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: luola.linyaps
+  name: luola
+  version: 1.3.2.14
+  kind: app
+  description: |-
+    multiplayer cave-flying game
+    Luola is a 2D arcade game where you fly a small V shaped ship in different
+    kinds of levels.
+
+    Luola's genre "Luolalentely", or cave-flying, has been
+    very popular in Finland.   Although cave-flying games
+    are not originally from Finland, most new cave-flying
+    games are.
+command:
+- /opt/apps/luola.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
