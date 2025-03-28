@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: kazam.linyaps
+  name: kazam
+  version: 1.4.5.6
+  kind: app
+  description: |-
+    screencast and screenshot application created with design in mind
+    Kazam provides a well designed and easy to use interface for capturing
+    screencasts and screenshots. It can record desktop video and multiple audio
+    streams simultaneously with control over audio levels and the screen region
+    being captured.
+
+    Support for H264 and VP8 codecs is built in.
+command:
+- /opt/apps/kazam.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
