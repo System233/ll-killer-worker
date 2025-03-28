@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: fbzx.linyaps
+  name: fbzx
+  version: 4.8.0.2
+  kind: app
+  description: |-
+    ZX Spectrum emulator
+    FBZX is a Sinclair ZX Spectrum emulator for Linux/Unix. It
+    can work over X or in a FrameBuffer console.
+command:
+- /opt/apps/fbzx.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
