@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: gl-117.linyaps
+  name: gl-117
+  version: 1.3.2.3
+  kind: app
+  description: |-
+    action flight simulator
+    gl-117 is a 3D action flight simulator featuring 20 missions, different
+    fighters, a random terrain generator, lighting effects, sound effects, music,
+    and joystick support.
+command:
+- /opt/apps/gl-117.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
