@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: mm3d.linyaps
+  name: mm3d
+  version: 1.3.14.2
+  kind: app
+  description: |-
+    OpenGL based 3D model editor
+    This is an OpenGL based 3D model editor that works with triangle-based
+    models. It supports multi-level undo, skeletal animations, simple texturing,
+    scripting, command-line batch processing, and a plugin system for adding new
+    model and image filters. Complete online help is included. It is designed to
+    be easy to use and easy to extend with plugins and scripts.
+
+    It supports the following 3d files: MilkShape (ms3d), Wavefront (obj),
+    LightWave 3d Object (lwo), Quake 2 model (md2), Quake 3 model (md3),
+    Caligari trueSpace (cob), and AutoCAD (dxf).
+command:
+- /opt/apps/mm3d.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
