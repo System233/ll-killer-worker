@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: kanadic.linyaps
+  name: kanadic
+  version: 6.5.0.13
+  kind: app
+  description: |-
+    katakana and hiragana drill files for KDrill
+    This package provides files for practicing katakana and hiragana with
+    KDrill. It includes basic and extended versions of each list.
+command:
+- /opt/apps/kanadic.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
