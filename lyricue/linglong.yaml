@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: lyricue.linyaps
+  name: lyricue
+  version: 4.0.13.0
+  kind: app
+  description: |-
+    The GNU Lyric Display System
+    This application is used to edit/display song lyrics on a second
+    screen/projector for use at singing events such as church services.
+    Features
+    * User access controls
+    * Networkable (ie run interface and server on different machines)
+    * Multiple Playlists
+    * Copyright info for songs
+    * Automatic Page advance
+    * Re-orderable playlist
+    * Playlist entries to change background
+    * All songs kept in a database and so screens are dynamically generated,
+    allowing you to easily change the backdrop, font etc without having
+    to change all the songs
+    * Can automatically create screens for bible verses
+    * Quick searching for songs
+command:
+- /opt/apps/lyricue.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
