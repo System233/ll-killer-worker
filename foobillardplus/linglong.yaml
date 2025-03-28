@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: foobillardplus.linyaps
+  name: foobillardplus
+  version: 3.43.0.7
+  kind: app
+  description: |-
+    3D OpenGL Billiard Game
+    FooBillard++ is an advanced 3D OpenGL billiard game based on the original
+    foobillard 3.0a sources from Florian Berger. You can play it with one or two
+    players or against the computer.
+
+    The game features:
+
+    * Wood paneled table with gold covers and gold diamonds.
+    * Reflections on balls.
+    * Zoom in and out, rotation, different angles and bird's eye view.
+    * Different game modes: 8 or 9-ball, Snooker or Karambol.
+    * Tournaments. Compete against other players.
+    * Animated cue with strength and eccentric hit adjustment.
+    * Jump shots and snipping.
+    * Realistic gameplay and billiard sounds.
+    * Red-Green stereo.
+    * And much more.
+command:
+- /opt/apps/foobillardplus.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
