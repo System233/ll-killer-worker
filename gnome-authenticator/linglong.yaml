@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: gnome-authenticator.linyaps
+  name: gnome-authenticator
+  version: 3.32.2.5
+  kind: app
+  description: |-
+    TOTP authentication app for the GNOME Desktop
+    Authenticator is a GTK3 application for the GNOME desktop, featuring:
+    - QR code scanner
+    - Beautiful UI
+    - Huge database of more than 560 supported services
+    - Keep your PIN tokens secure by locking the application with a password
+    - Automatically fetch an image for services using their favicon
+    - The possibility to add new services
+command:
+- /opt/apps/gnome-authenticator.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
