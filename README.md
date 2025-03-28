@@ -1,11 +1,11 @@
 # amd64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3160|1031|581 |450 | 56.35%| 18.39%|
+|3160|1072|606 |466 | 56.53%| 19.18%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2779|745|483 |262 | 64.83%| 17.38%|
+|ubuntu-noble|2779|786|508 |278 | 64.63%| 18.28%|
 |deepin-v23|380|285|97 |188 | 34.04%| 25.53%|
 |obs-studio|1|1|1 |0 | 100.00%| 100.00%|
 ## 详细结果
@@ -780,6 +780,7 @@
 | [expeyes](./expeyes) | amd64  | ubuntu-noble | 5.3.1+repack-6build1 | ![screen2-5.jpg](./expeyes/tests/screen2-5.jpg) | N/A |
 | [expeyes-doc-common](./expeyes-doc-common) | amd64  | ubuntu-noble | 4.3-3-20250327 | 失败 | N/A |
 | [explosive-c4](./explosive-c4) | amd64  | ubuntu-noble | 1.2-3build2 | ![screen0-5.jpg](./explosive-c4/tests/screen0-5.jpg) | N/A |
+| [extremetuxracer](./extremetuxracer) | amd64  | ubuntu-noble | 0.8.3-1build1 | ![screen0-5.jpg](./extremetuxracer/tests/screen0-5.jpg) | [SHA256](./extremetuxracer/SHA256SUMS) |
 | [exult](./exult) | amd64  | ubuntu-noble | 1.8-2build3 | ![screen0-5.jpg](./exult/tests/screen0-5.jpg) | N/A |
 | [eyes17](./eyes17) | amd64  | ubuntu-noble | 5.3.1+repack-6build1 | ![screen1-5.jpg](./eyes17/tests/screen1-5.jpg) | N/A |
 | [f3d](./f3d) | amd64  | ubuntu-noble | 2.2.1+dfsg-2build3 | ![screen0-5.jpg](./f3d/tests/screen0-5.jpg) | N/A |
@@ -905,14 +906,54 @@
 | [fuse-emulator-sdl](./fuse-emulator-sdl) | amd64  | ubuntu-noble | 1.6.0+dfsg1-2build3 | ![screen0-5.jpg](./fuse-emulator-sdl/tests/screen0-5.jpg) | [SHA256](./fuse-emulator-sdl/SHA256SUMS) |
 | [fusion-icon](./fusion-icon) | amd64  | ubuntu-noble | 0.2.4-8-20250327 | 失败 | N/A |
 | [fwbuilder](./fwbuilder) | amd64  | ubuntu-noble | 5.3.7-5ubuntu0.24.04.1 | ![screen0-5.jpg](./fwbuilder/tests/screen0-5.jpg) | [SHA256](./fwbuilder/SHA256SUMS) |
-| [galculator](./galculator) | amd64  | ubuntu-noble | 2.1.4-1.1 | ![screen0-5.jpg](./galculator/tests/screen0-5.jpg) | [SHA256](./galculator/SHA256SUMS) |
-| [gamgi](./gamgi) | amd64  | ubuntu-noble | 0.17.5-1 | ![screen0-5.jpg](./gamgi/tests/screen0-5.jpg) | [SHA256](./gamgi/SHA256SUMS) |
-| [gammaray](./gammaray) | amd64  | deepin-v23 | 2.11.3-3-07be3ef | 失败 | N/A |
-| [gcr](./gcr) | amd64  | ubuntu-noble | 3.41.1-3-07be3ef | 失败 | N/A |
+| [gabedit](./gabedit) | amd64  | ubuntu-noble | 2.5.1+ds-1build3 | ![screen0-5.jpg](./gabedit/tests/screen0-5.jpg) | [SHA256](./gabedit/SHA256SUMS) |
+| [gajim](./gajim) | amd64  | ubuntu-noble | 1.8.4-3-20250327 | 失败 | N/A |
+| [galculator](./galculator) | amd64  | ubuntu-noble | 2.1.4-1.2build2 | ![screen0-5.jpg](./galculator/tests/screen0-5.jpg) | [SHA256](./galculator/SHA256SUMS) |
+| [galois](./galois) | amd64  | ubuntu-noble | 0.8-1build2 | ![screen0-5.jpg](./galois/tests/screen0-5.jpg) | [SHA256](./galois/SHA256SUMS) |
+| [galternatives](./galternatives) | amd64  | ubuntu-noble | 1.0.9-20250327 | 失败 | N/A |
+| [gamazons](./gamazons) | amd64  | ubuntu-noble | 0.83-12 | ![screen0-5.jpg](./gamazons/tests/screen0-5.jpg) | [SHA256](./gamazons/SHA256SUMS) |
+| [gambas3-ide](./gambas3-ide) | amd64  | ubuntu-noble | 3.19.0-2ubuntu10 | ![screen0-5.jpg](./gambas3-ide/tests/screen0-5.jpg) | [SHA256](./gambas3-ide/SHA256SUMS) |
+| [game-data-packager-runtime](./game-data-packager-runtime) | amd64  | ubuntu-noble | 77ubuntu2-20250327 | 失败 | N/A |
+| [gameconqueror](./gameconqueror) | amd64  | ubuntu-noble | 0.17-5build2-20250327 | 失败 | N/A |
+| [gamgi](./gamgi) | amd64  | ubuntu-noble | 0.17.5-1build2 | ![screen0-5.jpg](./gamgi/tests/screen0-5.jpg) | [SHA256](./gamgi/SHA256SUMS) |
+| [gamine](./gamine) | amd64  | ubuntu-noble | 1.6-1build3 | ![screen0-5.jpg](./gamine/tests/screen0-5.jpg) | [SHA256](./gamine/SHA256SUMS) |
+| [gammaray](./gammaray) | amd64  | deepin-v23 | 2.11.3-3-20250327 | 失败 | N/A |
+| [gammastep](./gammastep) | amd64  | ubuntu-noble | 2.0.9-1build2-20250327 | 失败 | [SHA256](./gammastep/SHA256SUMS) |
+| [ganyremote](./ganyremote) | amd64  | ubuntu-noble | 8.1.1-1-20250327 | 失败 | N/A |
+| [garden-of-coloured-lights](./garden-of-coloured-lights) | amd64  | ubuntu-noble | 1.0.9-2build3 | ![screen0-5.jpg](./garden-of-coloured-lights/tests/screen0-5.jpg) | [SHA256](./garden-of-coloured-lights/SHA256SUMS) |
+| [gargoyle-free](./gargoyle-free) | amd64  | ubuntu-noble | 2023.1+dfsg-4build4 | ![screen0-5.jpg](./gargoyle-free/tests/screen0-5.jpg) | [SHA256](./gargoyle-free/SHA256SUMS) |
+| [garlic](./garlic) | amd64  | ubuntu-noble | 1.6-3 | ![screen0-5.jpg](./garlic/tests/screen0-5.jpg) | [SHA256](./garlic/SHA256SUMS) |
+| [gastman](./gastman) | amd64  | ubuntu-noble | 0.99+1.0rc1-0ubuntu12 | ![screen0-5.jpg](./gastman/tests/screen0-5.jpg) | [SHA256](./gastman/SHA256SUMS) |
+| [gaupol](./gaupol) | amd64  | ubuntu-noble | 1.11-2-20250327 | 失败 | N/A |
+| [gausssum](./gausssum) | amd64  | ubuntu-noble | 3.0.2-2-20250327 | 失败 | [SHA256](./gausssum/SHA256SUMS) |
+| [gav](./gav) | amd64  | ubuntu-noble | 0.9.0-3.2 | ![screen0-5.jpg](./gav/tests/screen0-5.jpg) | [SHA256](./gav/SHA256SUMS) |
+| [gbatnav](./gbatnav) | amd64  | ubuntu-noble | 1.0.4cvs20051004-7 | ![screen0-5.jpg](./gbatnav/tests/screen0-5.jpg) ![screen1-5.jpg](./gbatnav/tests/screen1-5.jpg) | [SHA256](./gbatnav/SHA256SUMS) |
+| [gbemol](./gbemol) | amd64  | ubuntu-noble | 0.3.2-2ubuntu6 | ![screen0-5.jpg](./gbemol/tests/screen0-5.jpg) | [SHA256](./gbemol/SHA256SUMS) |
+| [gbgoffice](./gbgoffice) | amd64  | ubuntu-noble | 1.4-12build2 | ![screen0-5.jpg](./gbgoffice/tests/screen0-5.jpg) | [SHA256](./gbgoffice/SHA256SUMS) |
+| [gbonds](./gbonds) | amd64  | ubuntu-noble | 2.0.3-17build3 | ![screen0-5.jpg](./gbonds/tests/screen0-5.jpg) | [SHA256](./gbonds/SHA256SUMS) |
+| [gbrainy](./gbrainy) | amd64  | ubuntu-noble | 2.4.6-2build1 | ![screen0-5.jpg](./gbrainy/tests/screen0-5.jpg) | [SHA256](./gbrainy/SHA256SUMS) |
+| [gbsplay](./gbsplay) | amd64  | ubuntu-noble | 0.0.96-1build3-20250327 | 失败 | [SHA256](./gbsplay/SHA256SUMS) |
+| [gchempaint](./gchempaint) | amd64  | ubuntu-noble | 0.14.17-6.2build2 | ![screen0-5.jpg](./gchempaint/tests/screen0-5.jpg) | [SHA256](./gchempaint/SHA256SUMS) |
+| [gcin](./gcin) | amd64  | ubuntu-noble | 2.9.0+dfsg1-3build1 | ![screen0-5.jpg](./gcin/tests/screen0-5.jpg) | [SHA256](./gcin/SHA256SUMS) |
+| [gcolor3](./gcolor3) | amd64  | ubuntu-noble | 2.4.0-2build2 | ![screen0-5.jpg](./gcolor3/tests/screen0-5.jpg) | [SHA256](./gcolor3/SHA256SUMS) |
+| [gcompris-qt](./gcompris-qt) | amd64  | ubuntu-noble | 4.0-1build3 | ![screen0-5.jpg](./gcompris-qt/tests/screen0-5.jpg) | [SHA256](./gcompris-qt/SHA256SUMS) |
+| [gconjugue](./gconjugue) | amd64  | ubuntu-noble | 0.8.5-2build2 | ![screen0-5.jpg](./gconjugue/tests/screen0-5.jpg) | [SHA256](./gconjugue/SHA256SUMS) |
+| [gcr](./gcr) | amd64  | ubuntu-noble | 3.41.2-1build3-20250327 | 失败 | [SHA256](./gcr/SHA256SUMS) |
+| [gcrystal](./gcrystal) | amd64  | ubuntu-noble | 0.14.17-6.2build2 | ![screen0-5.jpg](./gcrystal/tests/screen0-5.jpg) | [SHA256](./gcrystal/SHA256SUMS) |
 | [gddccontrol](./gddccontrol) | amd64  | deepin-v23 | 1.0.3-1deepin1 | ![screen0-5.jpg](./gddccontrol/tests/screen0-5.jpg) | [SHA256](./gddccontrol/SHA256SUMS) |
-| [gdebi](./gdebi) | amd64  | deepin-v23 | 0.9.5.7+nmu7-07be3ef | 失败 | N/A |
-| [geany](./geany) | amd64  | ubuntu-noble | 1.38-1 | ![screen0-5.jpg](./geany/tests/screen0-5.jpg) | [SHA256](./geany/SHA256SUMS) |
-| [gedit](./gedit) | amd64  | ubuntu-noble | 41.0-2 | ![screen0-5.jpg](./gedit/tests/screen0-5.jpg) | [SHA256](./gedit/SHA256SUMS) |
+| [gdebi](./gdebi) | amd64  | deepin-v23 | 0.9.5.7+nmu7-20250327 | 失败 | N/A |
+| [gdigi](./gdigi) | amd64  | ubuntu-noble | 0.4.0+git20200615+1c2c89f-3build3-20250327 | 失败 | [SHA256](./gdigi/SHA256SUMS) |
+| [gdis](./gdis) | amd64  | ubuntu-noble | 0.90-6build3 | ![screen0-5.jpg](./gdis/tests/screen0-5.jpg) | [SHA256](./gdis/SHA256SUMS) |
+| [gdm-settings](./gdm-settings) | amd64  | ubuntu-noble | 4.3-1-20250327 | 失败 | N/A |
+| [gdm3](./gdm3) | amd64  | ubuntu-noble | 46.2-1ubuntu1~24.04.1-20250327 | 失败 | N/A |
+| [gdmap](./gdmap) | amd64  | ubuntu-noble | 1.2.0-1build2 | ![screen0-5.jpg](./gdmap/tests/screen0-5.jpg) | [SHA256](./gdmap/SHA256SUMS) |
+| [gdpc](./gdpc) | amd64  | ubuntu-noble | 2.2.5-16build2 | ![screen0-5.jpg](./gdpc/tests/screen0-5.jpg) | [SHA256](./gdpc/SHA256SUMS) |
+| [geany](./geany) | amd64  | ubuntu-noble | 2.0-1build2 | ![screen0-5.jpg](./geany/tests/screen0-5.jpg) | [SHA256](./geany/SHA256SUMS) |
+| [gearhead-sdl](./gearhead-sdl) | amd64  | ubuntu-noble | 1.310-3-20250327 | 失败 | [SHA256](./gearhead-sdl/SHA256SUMS) |
+| [gearhead2](./gearhead2) | amd64  | ubuntu-noble | 0.701-2 | ![screen0-5.jpg](./gearhead2/tests/screen0-5.jpg) | [SHA256](./gearhead2/SHA256SUMS) |
+| [gearhead2-sdl](./gearhead2-sdl) | amd64  | ubuntu-noble | 0.701-2-20250327 | 失败 | [SHA256](./gearhead2-sdl/SHA256SUMS) |
+| [geary](./geary) | amd64  | ubuntu-noble | 44.1-2build2-20250327 | 失败 | [SHA256](./geary/SHA256SUMS) |
+| [gedit](./gedit) | amd64  | ubuntu-noble | 46.2-2-20250327 | 失败 | N/A |
 | [geoclue-2-demo](./geoclue-2-demo) | amd64  | deepin-v23 | 2.7.1-2-07be3ef | 失败 | N/A |
 | [geoclue-2.0](./geoclue-2.0) | amd64  | deepin-v23 | 2.7.1-2-07be3ef | 失败 | N/A |
 | [gftp-gtk](./gftp-gtk) | amd64  | ubuntu-noble | 2.8.0~beta-1 | ![screen0-5.jpg](./gftp-gtk/tests/screen0-5.jpg) | [SHA256](./gftp-gtk/SHA256SUMS) |
