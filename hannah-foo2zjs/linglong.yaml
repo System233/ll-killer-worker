@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: hannah-foo2zjs.linyaps
+  name: hannah-foo2zjs
+  version: 6.0.0.0
+  kind: app
+  description: |-
+    Graphical firmware downloader for the foo2zjs package
+    Hannah is a graphical firmware downloader for the foo2zjs package. You
+    can select one or more firmware(s) from a list, and let hannah download
+    and install them.
+
+    With this software you can potentially install non-free software, so
+    beware of that.
+command:
+- /opt/apps/hannah-foo2zjs.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
