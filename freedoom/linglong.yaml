@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: freedoom.linyaps
+  name: freedoom
+  version: 0.13.0.1
+  kind: app
+  description: |-
+    two single player campaigns for Doom-compatible engines
+    The Freedoom project aims to produce three base-game data files
+    (IWADs) for Doom-compatible engines.  With it comes the
+    capability to also play the wide range of mods created for Doom
+    by a vibrant community.
+
+    Freedoom: Phase 1 contains four chapters, nine levels each, to
+    provide a smoothly-paced first person action game.  In it is a
+    wide variety of mazes and enemies to fight and challenge your
+    reflexes.
+
+    Freedoom: Phase 2 is a 32-level game, expanding upon Phase 1 and
+    adding a double-barrelled shotgun and more enemy types, along
+    with even more brutal gameplay to really test your limits.
+
+    Freedoom: Phase 1 is fully compatible with The Ultimate Doom mods.
+    Freedoom: Phase 2 is fully compatible with Doom II and Final Doom mods.
+command:
+- /opt/apps/freedoom.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
