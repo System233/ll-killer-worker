@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: kfloppy.linyaps
+  name: kfloppy
+  version: 23.4.3.0
+  kind: app
+  description: |-
+    floppy formatter
+    Kfloppy is a utility for formatting floppy disks.
+
+    This package is part of the KDE SC utilities module.
+command:
+- /opt/apps/kfloppy.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
