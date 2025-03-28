@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gperiodic.linyaps
+  name: gperiodic
+  version: 3.0.3.1
+  kind: app
+  description: |-
+    periodic table application
+    GPeriodic is a small X/GTK+-based program which allows you to
+    browse through a periodic table of chemical elements, and view
+    somewhat detailed information on each of the elements.
+    118 elements are currently listed.
+command:
+- /opt/apps/gperiodic.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
