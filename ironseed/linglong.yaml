@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: ironseed.linyaps
+  name: ironseed
+  version: 0.3.6.5
+  kind: app
+  description: |-
+    science-fiction exploration/strategy adventure game in space
+    It was originally both developed and published by Channel 7 for DOS in 1994.
+    Gameplay is real-time, featuring trading, diplomacy, and strategy, and
+    somewhat resembles Star Control 2 / Ur-Quan masters.
+
+    Storyline: Escaping the iron fist of a fanatic theocracy, the members of
+    the Ironseed Movement launch into space and are set adrift after suffering
+    a computer malfunction. As captain, you awaken along with the crew some
+    thousand years later and are confronted by an alien horde...
+command:
+- /opt/apps/ironseed.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
