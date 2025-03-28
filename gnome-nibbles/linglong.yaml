@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gnome-nibbles.linyaps
+  name: gnome-nibbles
+  version: 4.0.4.1
+  kind: app
+  description: |-
+    snake game, up to four players
+    This is a GNOME port of the popular “Snake” game.
+
+    Nibbles is a game where the user controls a worm. The worm moves around
+    the board, eating diamonds while avoiding the walls placed around it.
+command:
+- /opt/apps/gnome-nibbles.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
