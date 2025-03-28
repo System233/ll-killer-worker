@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: gbsplay.linyaps
+  name: gbsplay
+  version: 0.0.96.1
+  kind: app
+  description: |-
+    Gameboy sound player
+    This program emulates the sound hardware of the Nintendo Gameboy.  It
+    is able to play the sounds from a Gameboy module dump (.GBS format).
+    Also included is the gbsinfo tool which displays information about
+    a .GBS file.
+command:
+- /opt/apps/gbsplay.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
