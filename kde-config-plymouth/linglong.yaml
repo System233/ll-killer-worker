@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: kde-config-plymouth.linyaps
+  name: kde-config-plymouth
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    KCM for Plymouth
+    KDE systemsettings module to manage plymouth theming.
+command:
+- /opt/apps/kde-config-plymouth.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
