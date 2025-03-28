@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: flightgear.linyaps
+  name: flightgear
+  version: 2020.3.18.1
+  kind: app
+  description: |-
+    Flight Gear Flight Simulator
+    FlightGear Flight Simulator (often shortened to FlightGear or FGFS)
+    is a sophisticated free, completely open-source flight simulator
+    framework, created by volunteers.
+
+    This package contains the runtime binaries.
+command:
+- /opt/apps/flightgear.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
