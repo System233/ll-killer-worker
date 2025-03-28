@@ -1,0 +1,13 @@
+包名:freecol.linyaps
+Layer文件:freecol.linyaps_1.1.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: freecol.linyaps_1.1.0.1_arm64_binary.layer
+offset: 666
+mountpoint: /tmp/tmp.8urDareuLT/mnt
+dbglevel: 0
+Disabling IPV6 network stack to work around bug #560056 on openjdk
+If you experience problems with connecting to remote servers, 
+you can put it back by running Freecol this way:
+  freecol --enable-ipv6
+/usr/games/freecol: 304: exec: /usr/lib/jvm/temurin-17-jdk-arm64/bin/java: not found
