@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: freefilesync.linyaps
+  name: freefilesync
+  version: 13.3.0.2
+  kind: app
+  description: |-
+    Cross-platform file sync utility with GUI (GPL release)
+    FreeFileSync is a folder comparison and synchronization software that
+    creates and manages backup copies of all your important files. Instead
+    of copying every file every time, FreeFileSync determines the
+    differences between a source and a target folder and transfers only the
+    minimum amount of data needed. FreeFileSync is Open Source software,
+    available for Windows, Linux and macOS.
+
+    This is the "GPL release" which uses the sources as published by the author,
+    as opposed to the "FreeFileSync Donation Edition".
+command:
+- /opt/apps/freefilesync.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
