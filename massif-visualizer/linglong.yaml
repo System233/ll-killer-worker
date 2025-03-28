@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: massif-visualizer.linyaps
+  name: massif-visualizer
+  version: 0.7.0.4
+  kind: app
+  description: |-
+    Tool for visualizing memory usage recorded by Valgrind Massif
+    Massif Visualizer is a graphical interface to visualize memory usage recorded
+    by Valgrind Massif tool.
+
+    Run your application in Valgrind with --tool=massif and then open the
+    generated massif.out.%pid in the visualizer. Gzip or Bzip2 compressed Massif
+    files can also be opened transparently.
+command:
+- /opt/apps/massif-visualizer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
