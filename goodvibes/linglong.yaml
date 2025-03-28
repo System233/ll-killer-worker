@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: goodvibes.linyaps
+  name: goodvibes
+  version: 0.7.9.1
+  kind: app
+  description: |-
+    lightweight internet radio player
+    Goodvibes is a lightweight internet radio player for GNU/Linux.
+    It offers a simple way to have your favorite radio stations
+    at easy reach.
+command:
+- /opt/apps/goodvibes.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

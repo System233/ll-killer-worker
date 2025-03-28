@@ -1,0 +1,34 @@
+正在测试: APPID=goodvibes.linyaps LAYER=goodvibes.linyaps_0.7.9.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install goodvibes.linyaps_0.7.9.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:goodvibes.linyaps
+Layer文件:goodvibes.linyaps_0.7.9.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: goodvibes.linyaps_0.7.9.1_arm64_binary.layer
+offset: 534
+mountpoint: /tmp/tmp.7h3vSsPElE/mnt
+dbglevel: 0
+[成功] io.gitlab.Goodvibes.desktop: io.gitlab.Goodvibes -> /opt/apps/goodvibes.linyaps/files/share/icons/hicolor/16x16/apps/io.gitlab.Goodvibes.png
+[成功] /opt/apps/goodvibes.linyaps/files/share/applications/io.gitlab.Goodvibes.desktop: /opt/apps/goodvibes.linyaps/files/entrypoint.sh goodvibes %u
+[正在测试启动项]
+包名:goodvibes.linyaps
+Layer文件:goodvibes.linyaps_0.7.9.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:
+disk: goodvibes.linyaps_0.7.9.1_arm64_binary.layer
+offset: 534
+mountpoint: /tmp/tmp.V7TjCV0g2X/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run goodvibes.linyaps -- /opt/apps/goodvibes.linyaps/files/entrypoint.sh goodvibes
+[PID 20483] 进程已启动
+[PID 20483] 已检测到窗口:PID=36
+[PID 20483] 正在截图 0秒: tests/screen0-0.jpg
+[PID 20483] 正在截图 2秒: tests/screen0-2.jpg
+[PID 20483] 正在截图 4秒: tests/screen0-4.jpg
+[PID 20483] 正在截图 5秒: tests/screen0-5.jpg
+[PID 20483] 正在通知并等待进程退出
+[PID 20483] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall goodvibes.linyaps
