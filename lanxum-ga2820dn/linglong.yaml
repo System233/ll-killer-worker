@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: lanxum-ga2820dn.linyaps
+  name: lanxum-ga2820dn
+  version: 1.0.0.0
+  kind: app
+  description: Driver for printer lanxum ga2820dn.
+command:
+- /opt/apps/lanxum-ga2820dn.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
