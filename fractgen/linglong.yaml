@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: fractgen.linyaps
+  name: fractgen
+  version: 2.1.13.1
+  kind: app
+  description: |-
+    Extensible Fractal Generator
+    FractalGenerator is a Qt-based program to generate fractal images (e.g.
+    Mandelbrot set). The size of the calculated images is only limited by the
+    computer's virtual memory. That is, images may use the full printer
+    resolution !
+
+    It is possible to zoom into images. Image parameters can be saved in XML files
+    and loaded from XML files. Calculated images can be exported as PNG files.
+
+    The intention of this program is to generate graphics to be post-processed by
+    other image tools, e.g. in order to generate nice screen backgrounds or book
+    covers.
+command:
+- /opt/apps/fractgen.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
