@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: ii-esu.linyaps
+  name: ii-esu
+  version: 1.0.2.2
+  kind: app
+  description: |-
+    shooter game
+    Your ship is surrounded by two circles. You shoot in the direction of
+    your mouse points, and you move if the mouse pointer is outside the
+    inner circle.
+
+    The original name of the game is ES, which is pronounced ii-esu in Japanese.
+command:
+- /opt/apps/ii-esu.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
