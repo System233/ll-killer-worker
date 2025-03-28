@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: exult.linyaps
+  name: exult
+  version: 1.8.0.2
+  kind: app
+  description: |-
+    engine for Ultima VII (BG, FOV, SI, SS)
+    Exult is an open source engine for playing Ultima VII on a variety of
+    modern operating systems and environments.  The Black Gate (including
+    Forge of Virtue) and Serpent Isle (plus Silver Seed) are both playable
+    to the end.  Some differences to the original games exist; see sections
+    5.3/5.4 of the FAQ.
+
+    While it is possible to use the engine for other games, no such game has
+    been written yet. Therefore, Exult is useless unless you own a copy of one
+    of the Ultima VIIs.
+command:
+- /opt/apps/exult.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
