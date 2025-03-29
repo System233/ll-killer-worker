@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: pyhoca-gui.linyaps
+  name: pyhoca-gui
+  version: 0.6.1.1
+  kind: app
+  description: |-
+    Graphical X2Go client written in (wx)Python
+    X2Go is a server based computing environment with
+    - session resuming
+    - low bandwidth support
+    - sesion brokerage support
+    - client-side mass storage mounting support
+    - client-side printing support
+    - audio support
+    - authentication by smartcard and USB stick
+
+    PyHoca-GUI is a slim X2Go client that docks to the desktop's
+    notification area and allows multiple X2Go session handling.
+command:
+- /opt/apps/pyhoca-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
