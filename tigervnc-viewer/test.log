@@ -1,0 +1,34 @@
+正在测试: APPID=tigervnc-viewer.linyaps LAYER=tigervnc-viewer.linyaps_1.13.1.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install tigervnc-viewer.linyaps_1.13.1.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:tigervnc-viewer.linyaps
+Layer文件:tigervnc-viewer.linyaps_1.13.1.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: tigervnc-viewer.linyaps_1.13.1.2_arm64_binary.layer
+offset: 921
+mountpoint: /tmp/tmp.Mmno7xlAbh/mnt
+dbglevel: 0
+[成功] xtigervncviewer.desktop: tigervnc -> /opt/apps/tigervnc-viewer.linyaps/files/share/icons/hicolor/128x128/apps/tigervnc.png
+[成功] /opt/apps/tigervnc-viewer.linyaps/files/share/applications/xtigervncviewer.desktop: /opt/apps/tigervnc-viewer.linyaps/files/entrypoint.sh /usr/bin/xtigervncviewer
+[正在测试启动项]
+包名:tigervnc-viewer.linyaps
+Layer文件:tigervnc-viewer.linyaps_1.13.1.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: tigervnc-viewer.linyaps_1.13.1.2_arm64_binary.layer
+offset: 921
+mountpoint: /tmp/tmp.VMUg29GaZI/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run tigervnc-viewer.linyaps -- /opt/apps/tigervnc-viewer.linyaps/files/entrypoint.sh /usr/bin/xtigervncviewer
+[PID 7149] 进程已启动
+[PID 7149] 已检测到窗口:PID=36
+[PID 7149] 正在截图 0秒: tests/screen0-0.jpg
+[PID 7149] 正在截图 2秒: tests/screen0-2.jpg
+[PID 7149] 正在截图 4秒: tests/screen0-4.jpg
+[PID 7149] 正在截图 5秒: tests/screen0-5.jpg
+[PID 7149] 正在通知并等待进程退出
+[PID 7149] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall tigervnc-viewer.linyaps
