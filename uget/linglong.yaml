@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: uget.linyaps
+  name: uget
+  version: 2.2.3.2
+  kind: app
+  description: |-
+    easy-to-use download manager written in GTK+
+    Uget (formerly urlgfe) is a simple, lightweight and easy-to-use
+    download manager.
+    It provides the following features:
+    * Resume downloads.
+    * Queue downloads.
+    * Classify downloads in categories.
+    * Mozilla Firefox integration (through Flashgot plugin).
+    * Clipboard monitoring.
+    * Import downloads import from HTML files.
+    * Batch download.
+
+    It also can be launched from the command line.
+command:
+- /opt/apps/uget.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
