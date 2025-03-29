@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: planets.linyaps
+  name: planets
+  version: 0.1.13.22
+  kind: app
+  description: |-
+    Gravitation simulation of planetary bodies
+    Planets is a simple interactive program for playing with simulations
+    of planetary systems. It is great for teaching gravitation on planet
+    level.
+
+    The user interface is aimed at being simple enough for a fairly young
+    kid to enjoy it, there is a special kid-mode for this purpose.
+command:
+- /opt/apps/planets.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
