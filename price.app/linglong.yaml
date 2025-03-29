@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: price.app.linyaps
+  name: price.app
+  version: 1.3.0.5
+  kind: app
+  description: |-
+    Image filtering and manipulation using GNUstep
+    PRICE can open several image file formats and apply high-quality filters
+    and other enhancements.
+command:
+- /opt/apps/price.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
