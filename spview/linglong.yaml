@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: spview.linyaps
+  name: spview
+  version: 2.0.2.1
+  kind: app
+  description: |-
+    Spectrum Viewer
+    SPVIEW is a multiplatform Java application that allows graphical assignment of
+    high-resolution molecular spectra. It is possible to load, display and
+    manipulate experimental and simulated spectra (XY ASCII or OPUS formats) as
+    well as stick spectra in various formats (including HITRAN format).
+command:
+- /opt/apps/spview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
