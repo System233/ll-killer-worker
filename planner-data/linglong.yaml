@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: planner-data.linyaps
+  name: planner-data
+  version: 0.14.91.3
+  kind: app
+  description: |-
+    Data files for planner
+    Planner is a Project Management application that supports Gantt charts,
+    resource allocation and integration with other GNOME applications.
+
+    This package contains data files for planner like images, icons, and
+    arch-independent files.
+command:
+- /opt/apps/planner-data.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
