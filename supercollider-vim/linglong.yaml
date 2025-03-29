@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: supercollider-vim.linyaps
+  name: supercollider-vim
+  version: 3.13.0.1
+  kind: app
+  description: |-
+    SuperCollider mode for Vim
+    SuperCollider is an environment and programming language for real time
+    audio synthesis and algorithmic composition. It provides an interpreted
+    object-oriented language which functions as a network client
+    to a state of the art, realtime sound synthesis server.
+
+    This package provides the SuperCollider mode for Vim.
+command:
+- /opt/apps/supercollider-vim.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
