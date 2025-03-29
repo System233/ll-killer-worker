@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: python3-napari.linyaps
+  name: python3-napari
+  version: 0.5.0.5
+  kind: app
+  description: |-
+    n-dimensional array viewer in Python
+    Fast, interactive, multi-dimensional image viewer for Python. It's
+    designed for browsing, annotating, and analyzing large
+    multi-dimensional images. It's built on top of Qt (for the GUI),
+    vispy (for performant GPU-based rendering), and the scientific Python
+    stack (numpy, scipy).
+command:
+- /opt/apps/python3-napari.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
