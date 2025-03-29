@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: reader-ty19-all.linyaps
+  name: reader-ty19-all
+  version: 1.0.0.0
+  kind: app
+  description: reader-ty19-all
+command:
+- /opt/apps/reader-ty19-all.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

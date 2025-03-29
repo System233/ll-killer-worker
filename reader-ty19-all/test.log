@@ -1,0 +1,30 @@
+正在测试: APPID=reader-ty19-all.linyaps LAYER=reader-ty19-all.linyaps_1.0.0.0_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install reader-ty19-all.linyaps_1.0.0.0_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:reader-ty19-all.linyaps
+Layer文件:reader-ty19-all.linyaps_1.0.0.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: reader-ty19-all.linyaps_1.0.0.0_arm64_binary.layer
+offset: 391
+mountpoint: /tmp/tmp.ScVQ9RQVIv/mnt
+dbglevel: 0
+find: ‘/opt/apps/reader-ty19-all.linyaps/files/share/pixmaps’: No such file or directory
+[31m[失败] ty19.desktop:/usr/share/icons/hicolor/96x96/apps/ty19.png: 找不到此图标 [0m
+[31m[失败] /opt/apps/reader-ty19-all.linyaps/files/share/applications/ty19.desktop:/opt/apps/reader-ty19-all/bin/ty19.sh: 找不到此启动文件 [0m
+[正在测试启动项]
+包名:reader-ty19-all.linyaps
+Layer文件:reader-ty19-all.linyaps_1.0.0.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: reader-ty19-all.linyaps_1.0.0.0_arm64_binary.layer
+offset: 391
+mountpoint: /tmp/tmp.LS2dFNnOZK/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+awk: cmd. line:3: (FILENAME=- FNR=2) warning: Invalid multibyte data detected. There may be a mismatch between your data and your locale.
+[PID ?] 启动进程: build-aux/ll-cli.sh run reader-ty19-all.linyaps -- /opt/apps/reader-ty19-all.linyaps/files/entrypoint.sh /opt/apps/reader-ty19-all/bin/ty19.sh
+[PID 5313] 进程已启动
+[PID 5313] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall reader-ty19-all.linyaps
