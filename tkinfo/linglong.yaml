@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: tkinfo.linyaps
+  name: tkinfo
+  version: 2.11.0.4
+  kind: app
+  description: |-
+    Tcl/Tk Info browser
+    TKInfo is a very fast lightweight viewer for GNU info files, requiring
+    no configuration. It is particularly effective for local browsing of
+    large and/or interconnected sets of info files.
+
+    TkInfo can be used stand alone, or embedded within an application
+    to provide integrated, on-line help.
+command:
+- /opt/apps/tkinfo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
