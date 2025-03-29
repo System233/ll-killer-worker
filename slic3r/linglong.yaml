@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: slic3r.linyaps
+  name: slic3r
+  version: 1.3.0.5
+  kind: app
+  description: |-
+    G-code generator for 3D printers
+    Slic3r converts digital 3D models into printing instructions (G-code)
+    for your 3D printer. It cuts the model into horizontal slices (layers),
+    generates toolpaths to fill them and calculates the amount of material
+    to be extruded.
+
+    Slic3r supports input in the STL, AMF and OBJ formats, and can output
+    G-code for several series of 3D printers, including RepRap, Ultimaker,
+    Makerbot, as well as SVG files for DLP printers.
+
+    It can be used with a graphical interface, or in batch mode via the
+    command-line.
+command:
+- /opt/apps/slic3r.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
