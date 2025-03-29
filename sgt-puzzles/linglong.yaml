@@ -1,0 +1,55 @@
+version: "1"
+package:
+  id: sgt-puzzles.linyaps
+  name: sgt-puzzles
+  version: 20230410.71.0.2
+  kind: app
+  description: |-
+    Simon Tatham's Portable Puzzle Collection - 1-player puzzle games
+    Simon Tatham's Portable Puzzle Collection contains a number of popular
+    puzzle games for one player.  It currently consists of these games:
+
+    * Black Box, ball-finding puzzle
+    * Bridges, bridge-placing puzzle
+    * Cube, rolling cube puzzle
+    * Dominosa, domino tiling puzzle
+    * Fifteen, sliding block puzzle
+    * Filling, polyomino puzzle
+    * Flip, tile inversion puzzle
+    * Flood, flood-filling puzzle
+    * Galaxies, symmetric polyomino puzzle
+    * Guess, combination-guessing puzzle
+    * Inertia, gem-collecting puzzle
+    * Keen, arithmetic Latin square puzzle
+    * Light Up, light-bulb placing puzzle
+    * Loopy, loop-drawing puzzle
+    * Magnets, magnet-placing puzzle
+    * Map, map-colouring puzzle
+    * Mines, mine-finding puzzle
+    * Mosaic, grid-filling puzzle
+    * Net, network jigsaw puzzle
+    * Netslide, toroidal sliding network puzzle
+    * Palisade, grid-division puzzle
+    * Pattern, pattern puzzle
+    * Pearl, loop-drawing puzzle
+    * Pegs, peg solitaire puzzle
+    * Range, visible-distance puzzle
+    * Rectangles, rectangles puzzle
+    * Same Game, block-clearing puzzle
+    * Signpost, square-connecting puzzle
+    * Singles, number-removing puzzle
+    * Sixteen, toroidal sliding block puzzle
+    * Slant, maze-drawing puzzle
+    * Solo, number placement puzzle
+    * Tents, tent-placing puzzle
+    * Towers, tower-placing Latin square puzzle
+    * Tracks, path-finding railway track puzzle
+    * Twiddle, rotational sliding block puzzle
+    * Undead, monster-placing puzzle
+    * Unequal, Latin square puzzle
+    * Unruly, black and white grid puzzle
+    * Untangle, planar graph layout puzzle
+command:
+- /opt/apps/sgt-puzzles.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
