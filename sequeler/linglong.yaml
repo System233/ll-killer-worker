@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: sequeler.linyaps
+  name: sequeler
+  version: 0.8.2.1
+  kind: app
+  description: |-
+    SQL client built in Vala and Gtk
+    Sequeler is a native Linux SQL client built in Vala and Gtk. It allows you to
+    connect to your local and remote databases, write SQL in a handy text editor
+    with language recognition, and visualize SELECT results in a Gtk.Grid Widget.
+
+    Supported databases:
+    * PostgreSQL
+    * MariaDB/MySQL
+    * SQLite
+command:
+- /opt/apps/sequeler.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
