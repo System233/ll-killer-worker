@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: scanner-driver-microtek.linyaps
+  name: scanner-driver-microtek
+  version: 2.1.2.1
+  kind: app
+  description: |-
+    Microtek Scanner;a4sf;a4sfu3;duplex_adf_fb;fastscan;speedyscan;xt6140hs;xt7000hs;xt3500;a3fbhs;Microtek Speed Scanner;Microtek H-Speed Scaner;fs1710xlplus;xt5750hs;fs2325;fs2500
+    中晶扫描应用软件
+command:
+- /opt/apps/scanner-driver-microtek.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
