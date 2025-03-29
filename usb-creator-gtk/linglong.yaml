@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: usb-creator-gtk.linyaps
+  name: usb-creator-gtk
+  version: 0.3.17.0
+  kind: app
+  description: |-
+    create a startup disk using a CD or disc image (for GNOME)
+    Startup Disk Creator converts a USB key or SD card into a volume from which you
+    can start up and run Ubuntu. You can also store files and settings in any space
+    left over.
+
+    The program also works for Debian, or any other Debian-based OS for which you
+    have a CD or .iso image.
+
+    This package contains the GTK+ client frontend.
+command:
+- /opt/apps/usb-creator-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
