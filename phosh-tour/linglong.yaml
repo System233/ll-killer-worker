@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: phosh-tour.linyaps
+  name: phosh-tour
+  version: 0.38.0.1
+  kind: app
+  description: |-
+    Short introduction to phosh on smartphones
+    Phosh tour gives a short visual introduction on how to use
+    phosh on a smartphone explaining the available gestures
+    for navigation, quick settings, etc.
+command:
+- /opt/apps/phosh-tour.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
