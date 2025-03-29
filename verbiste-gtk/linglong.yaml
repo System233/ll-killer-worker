@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: verbiste-gtk.linyaps
+  name: verbiste-gtk
+  version: 0.1.48.1
+  kind: app
+  description: |-
+    French and Italian conjugator - GTK app
+    Verbiste is a program that gives the complete conjugation for French and
+    Italian verbs. The knowledge base contains over 6800 verbs.
+
+    This package contains a GTK interface.
+command:
+- /opt/apps/verbiste-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
