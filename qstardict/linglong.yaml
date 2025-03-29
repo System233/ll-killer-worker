@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: qstardict.linyaps
+  name: qstardict
+  version: 1.4.1.1
+  kind: app
+  description: |-
+    International dictionary written using Qt
+    QStarDict is a modern international dictionary written using Qt.
+
+    Main features include:
+    * Full support of StarDict dictionaries
+    * Fuzzy search
+    * Support for hyper links in translations
+    * Working from the system tray
+    * Scanning mouse selection and showing pop-up windows with translation of
+    selected words
+    * Translations reformatting
+    * Pronouncing of the translated words
+    * Plugins support
+command:
+- /opt/apps/qstardict.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
