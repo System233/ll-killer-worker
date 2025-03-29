@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: ukui-notebook.linyaps
+  name: ukui-notebook
+  version: 3.1.1.1
+  kind: app
+  description: |-
+    Notebook for UKUI desktop environment
+    UKUI Notebook is a small plug-in for the ukui desktop
+    environment which makes it easy to create notes and
+    pin it on desktop.
+command:
+- /opt/apps/ukui-notebook.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
