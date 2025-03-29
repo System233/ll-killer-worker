@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: qxgedit.linyaps
+  name: qxgedit
+  version: 0.9.12.1
+  kind: app
+  description: |-
+    MIDI System Exclusive files editor
+    qxgedit is a Qt GUI for editing
+    MIDI System Exclusive files
+    for XG devices (eg. Yamaha DB50XG)
+command:
+- /opt/apps/qxgedit.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
