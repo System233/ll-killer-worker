@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: siril.linyaps
+  name: siril
+  version: 1.2.1.1
+  kind: app
+  description: |-
+    astronomical image processing tool
+    Siril is an image processing tool specially tailored for noise reduction and
+    improving the signal/noise ratio of an image from multiple captures, as
+    required in astronomy. Siril can align automatically or manually, stack and
+    enhance pictures from various file formats, even images sequences (movies and
+    SER files).
+command:
+- /opt/apps/siril.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
