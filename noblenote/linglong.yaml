@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: noblenote.linyaps
+  name: noblenote
+  version: 1.2.0.1
+  kind: app
+  description: |-
+    Qt program for taking notes
+    nobleNote is a program to organize and create notes. It has an icon
+    in the system tray and supports drag and drop. The note-editor supports
+    different fonts, font sizes and colors as well as background colors.
+    You can also import notes from other programs like gnote and tomboy.
+    The notes are saved in the html format.
+command:
+- /opt/apps/noblenote.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
