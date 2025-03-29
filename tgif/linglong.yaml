@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: tgif.linyaps
+  name: tgif
+  version: 4.2.5.1
+  kind: app
+  description: |-
+    2D vector graphic drawing tool using Xlib
+    Tgif (originally the "Tangram Graphic Interface Facility") is a
+    classic drawing program for 2D vector graphics. Image objects can
+    be hierarchically constructed out of primitives such as polygons,
+    text, and splines (though the splines Tgif draws are not Bézier
+    curves).
+
+    It natively supports PostScript formats suitable for LaTeX, as well
+    as X11 bitmap or (version 1) pixmap formats. Other vector and raster
+    image formats such as SVG and PNG can be handled via filters.
+
+    Tgif stores drawings as .obj files and individual building-block
+    objects as .sym files, both in Prolog-compatible fact file format.
+command:
+- /opt/apps/tgif.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
