@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: poe.app.linyaps
+  name: poe.app
+  version: 0.5.1.6
+  kind: app
+  description: |-
+    Vorbis comment editor
+    Poe is a vorbis comment editor for GNUstep. It tries to follow the
+    vorbis comment header specification closely, while being convenient
+    and flexible to use.
+command:
+- /opt/apps/poe.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
