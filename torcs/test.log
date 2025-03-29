@@ -1,0 +1,31 @@
+正在测试: APPID=torcs.linyaps LAYER=torcs.linyaps_1.3.7.5_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install torcs.linyaps_1.3.7.5_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:torcs.linyaps
+Layer文件:torcs.linyaps_1.3.7.5_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: torcs.linyaps_1.3.7.5_x86_64_binary.layer
+offset: 639
+mountpoint: /tmp/tmp.BwYCq8c7GY/mnt
+dbglevel: 0
+find: ‘/opt/apps/torcs.linyaps/files/share/icons’: No such file or directory
+[成功] torcs.desktop: torcs -> /opt/apps/torcs.linyaps/files/share/pixmaps/torcs.png
+[成功] /opt/apps/torcs.linyaps/files/share/applications/torcs.desktop: /opt/apps/torcs.linyaps/files/entrypoint.sh torcs
+[正在测试启动项]
+包名:torcs.linyaps
+Layer文件:torcs.linyaps_1.3.7.5_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: torcs.linyaps_1.3.7.5_x86_64_binary.layer
+offset: 639
+mountpoint: /tmp/tmp.fCUMJDSH4n/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run torcs.linyaps -- /opt/apps/torcs.linyaps/files/entrypoint.sh torcs
+[PID 6741] 进程已启动
+[PID 6741] 等待超时，未能检测到窗口
+[PID 6741] 正在通知并等待进程退出
+[PID 6741] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall torcs.linyaps
