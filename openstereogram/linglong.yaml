@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: openstereogram.linyaps
+  name: openstereogram
+  version: 0.1.0.3
+  kind: app
+  description: |-
+    Stereogram ("Magic Eye") generator with GUI
+    A desktop application written in Java to generate autosterograms,
+    made popular through the book "Magic Eye." Users create images which appear to
+    pop out in 3D when looked at cross-eyed or wall-eyed (parallel vision).
+command:
+- /opt/apps/openstereogram.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
