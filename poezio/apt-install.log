@@ -1,0 +1,324 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  fonts-font-awesome fonts-lato javascript-common libcares2 libdb5.3t64
+  libexpat1 libjs-jquery libjs-sphinxdoc libjs-underscore libpython3-stdlib
+  libpython3.12-minimal libpython3.12-stdlib libreadline8t64 libssl3t64
+  python3 python3-aiodns python3-aiohttp python3-aiosignal
+  python3-async-timeout python3-attr python3-cffi python3-cffi-backend
+  python3-cryptography python3-emoji python3-frozenlist python3-gnupg
+  python3-idna python3-minimal python3-multidict python3-pkg-resources
+  python3-ply python3-poezio-poopt python3-pyasn1 python3-pyasn1-modules
+  python3-pycares python3-pycparser python3-slixmpp python3-slixmpp-lib
+  python3-typing-extensions python3-yarl python3.12 python3.12-minimal
+  readline-common sphinx-rtd-theme-common
+Suggested packages:
+  apache2 | lighttpd | httpd python3-doc python3-tk python3-venv
+  python-attr-doc python3-dev python-cryptography-doc
+  python3-cryptography-vectors python3-setuptools python-ply-doc
+  python-pycares-doc cpp python3.12-venv python3.12-doc binfmt-support
+  readline-doc
+The following packages will be REMOVED:
+  libdb5.3 libpython3.12 libreadline8
+The following NEW packages will be installed:
+  fonts-font-awesome fonts-lato javascript-common libcares2 libdb5.3t64
+  libjs-jquery libjs-sphinxdoc libjs-underscore libreadline8t64 libssl3t64
+  poezio python3-aiodns python3-aiohttp python3-aiosignal
+  python3-async-timeout python3-attr python3-cffi python3-cffi-backend
+  python3-cryptography python3-emoji python3-frozenlist python3-gnupg
+  python3-idna python3-multidict python3-pkg-resources python3-ply
+  python3-poezio-poopt python3-pyasn1 python3-pyasn1-modules python3-pycares
+  python3-pycparser python3-slixmpp python3-slixmpp-lib
+  python3-typing-extensions python3-yarl sphinx-rtd-theme-common
+The following packages will be upgraded:
+  libexpat1 libpython3-stdlib libpython3.12-minimal libpython3.12-stdlib
+  python3 python3-minimal python3.12 python3.12-minimal readline-common
+9 upgraded, 36 newly installed, 3 to remove and 442 not upgraded.
+Need to get 16.8 MB of archives.
+After this operation, 32.7 MB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libssl3t64 arm64 3.0.13-0ubuntu3.5 [1797 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libexpat1 arm64 2.6.1-2ubuntu0.2 [76.4 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3.12 arm64 3.12.3-1ubuntu0.5 [651 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3.12-minimal arm64 3.12.3-1ubuntu0.5 [2254 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3.12-minimal arm64 3.12.3-1ubuntu0.5 [831 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libreadline8t64 arm64 8.2-4build1 [153 kB]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3.12-stdlib arm64 3.12.3-1ubuntu0.5 [2037 kB]
+Get:8 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libdb5.3t64 arm64 5.3.28+dfsg2-7 [732 kB]
+Get:9 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 readline-common all 8.2-4build1 [56.5 kB]
+Get:10 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3-minimal arm64 3.12.3-0ubuntu2 [27.4 kB]
+Get:11 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3 arm64 3.12.3-0ubuntu2 [23.0 kB]
+Get:12 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3-stdlib arm64 3.12.3-0ubuntu2 [10.0 kB]
+Get:13 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 fonts-lato all 2.015-1 [2781 kB]
+Get:14 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-cffi-backend arm64 1.16.0-2build1 [82.2 kB]
+Get:15 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3-pkg-resources all 68.1.2-2ubuntu1.1 [168 kB]
+Get:16 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 fonts-font-awesome all 5.0.10+really4.7.0~dfsg-4.1 [516 kB]
+Get:17 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 javascript-common all 11+nmu1 [5936 B]
+Get:18 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libcares2 arm64 1.27.0-1.0ubuntu1 [74.1 kB]
+Get:19 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjs-jquery all 3.6.1+dfsg+~3.5.14-1 [328 kB]
+Get:20 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjs-underscore all 1.13.4~dfsg+~1.11.4-3 [118 kB]
+Get:21 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjs-sphinxdoc all 7.2.6-6 [149 kB]
+Get:22 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3-idna all 3.6-2ubuntu0.1 [49.0 kB]
+Get:23 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-pycares arm64 4.4.0-1build2 [29.4 kB]
+Get:24 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-aiodns all 3.1.1-1 [7556 B]
+Get:25 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-pyasn1 all 0.4.8-4 [51.2 kB]
+Get:26 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-pyasn1-modules all 0.2.8-1 [68.0 kB]
+Get:27 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-typing-extensions all 4.10.0-1 [60.7 kB]
+Get:28 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-slixmpp all 1.8.5-1build1 [245 kB]
+Get:29 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 sphinx-rtd-theme-common all 2.0.0+dfsg-1 [1012 kB]
+Get:30 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-ply all 3.11-6 [46.5 kB]
+Get:31 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-pycparser all 2.21-1 [76.9 kB]
+Get:32 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-cffi all 1.16.0-2build1 [74.3 kB]
+Get:33 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-gnupg all 0.5.2-1 [21.6 kB]
+Get:34 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-poezio-poopt arm64 0.14-3build1 [8396 B]
+Get:35 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 poezio all 0.14-3build1 [631 kB]
+Get:36 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-multidict arm64 6.0.4-1.1build1 [33.5 kB]
+Get:37 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-yarl arm64 1.8.2-3build2 [55.0 kB]
+Get:38 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-async-timeout all 4.0.3-1 [6412 B]
+Get:39 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-frozenlist arm64 1.4.0-1build2 [41.1 kB]
+Get:40 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-aiosignal all 1.3.1-1 [5172 B]
+Get:41 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-attr all 23.2.0-2 [48.6 kB]
+Get:42 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/universe arm64 python3-aiohttp arm64 3.9.1-1ubuntu0.1 [276 kB]
+Get:43 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3-cryptography arm64 41.0.7-4ubuntu0.1 [772 kB]
+Get:44 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-emoji all 2.8.0-1 [285 kB]
+Get:45 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-slixmpp-lib arm64 1.8.5-1build1 [22.9 kB]
+Fetched 16.8 MB in 5s (3254 kB/s)
+Selecting previously unselected package libssl3t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libssl3t64_3.0.13-0ubuntu3.5_arm64.deb ...
+Unpacking libssl3t64:arm64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:arm64 (3.2.0-2) ...
+Preparing to unpack .../libexpat1_2.6.1-2ubuntu0.2_arm64.deb ...
+Unpacking libexpat1:arm64 (2.6.1-2ubuntu0.2) over (2.5.0-2) ...
+Preparing to unpack .../python3.12_3.12.3-1ubuntu0.5_arm64.deb ...
+Unpacking python3.12 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+Preparing to unpack .../python3.12-minimal_3.12.3-1ubuntu0.5_arm64.deb ...
+Unpacking python3.12-minimal (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+Preparing to unpack .../libpython3.12-minimal_3.12.3-1ubuntu0.5_arm64.deb ...
+Unpacking libpython3.12-minimal:arm64 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+dpkg: libreadline8:arm64: dependency problems, but removing anyway as you requested:
+ sqlite3 depends on libreadline8 (>= 6.0).
+ pipewire-bin depends on libreadline8 (>= 6.0).
+ libpython3.12-stdlib:arm64 depends on libreadline8 (>= 7.0~beta).
+ libpython3.11-stdlib:arm64 depends on libreadline8 (>= 7.0~beta).
+ gpgsm depends on libreadline8 (>= 6.0).
+ gpgconf depends on libreadline8 (>= 6.0).
+ gpg depends on libreadline8 (>= 6.0).
+ gnupg-utils depends on libreadline8 (>= 6.0).
+ gawk depends on libreadline8 (>= 6.0).
+ fdisk depends on libreadline8 (>= 6.0).
+ bluez depends on libreadline8 (>= 6.0).
+ bc depends on libreadline8 (>= 6.0).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27743 files and directories currently installed.)
+Removing libreadline8:arm64 (8.2-3) ...
+Selecting previously unselected package libreadline8t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27730 files and directories currently installed.)
+Preparing to unpack .../libreadline8t64_8.2-4build1_arm64.deb ...
+Adding 'diversion of /lib/aarch64-linux-gnu/libhistory.so.8 to /lib/aarch64-linux-gnu/libhistory.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/aarch64-linux-gnu/libhistory.so.8.2 to /lib/aarch64-linux-gnu/libhistory.so.8.2.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/aarch64-linux-gnu/libreadline.so.8 to /lib/aarch64-linux-gnu/libreadline.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/aarch64-linux-gnu/libreadline.so.8.2 to /lib/aarch64-linux-gnu/libreadline.so.8.2.usr-is-merged by libreadline8t64'
+Unpacking libreadline8t64:arm64 (8.2-4build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27750 files and directories currently installed.)
+Removing libpython3.12:arm64 (3.12.0-1deepin1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27744 files and directories currently installed.)
+Preparing to unpack .../libpython3.12-stdlib_3.12.3-1ubuntu0.5_arm64.deb ...
+Unpacking libpython3.12-stdlib:arm64 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+dpkg: libdb5.3:arm64: dependency problems, but removing anyway as you requested:
+ libsasl2-modules-db:arm64 depends on libdb5.3.
+ libpython3.11-stdlib:arm64 depends on libdb5.3.
+ libperl5.36:arm64 depends on libdb5.3.
+ libpam-modules:arm64 depends on libdb5.3.
+ libjack-jackd2-0:arm64 depends on libdb5.3.
+ libical3:arm64 depends on libdb5.3.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27763 files and directories currently installed.)
+Removing libdb5.3:arm64 (5.3.28+dfsg1-0.8) ...
+Selecting previously unselected package libdb5.3t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27757 files and directories currently installed.)
+Preparing to unpack .../libdb5.3t64_5.3.28+dfsg2-7_arm64.deb ...
+Unpacking libdb5.3t64:arm64 (5.3.28+dfsg2-7) ...
+Setting up libdb5.3t64:arm64 (5.3.28+dfsg2-7) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27763 files and directories currently installed.)
+Preparing to unpack .../readline-common_8.2-4build1_all.deb ...
+Unpacking readline-common (8.2-4build1) over (8.2-3) ...
+Setting up libssl3t64:arm64 (3.0.13-0ubuntu3.5) ...
+Setting up libpython3.12-minimal:arm64 (3.12.3-1ubuntu0.5) ...
+Setting up libexpat1:arm64 (2.6.1-2ubuntu0.2) ...
+Setting up python3.12-minimal (3.12.3-1ubuntu0.5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27762 files and directories currently installed.)
+Preparing to unpack .../python3-minimal_3.12.3-0ubuntu2_arm64.deb ...
+Unpacking python3-minimal (3.12.3-0ubuntu2) over (3.11.4-5) ...
+Setting up python3-minimal (3.12.3-0ubuntu2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27762 files and directories currently installed.)
+Preparing to unpack .../00-python3_3.12.3-0ubuntu2_arm64.deb ...
+Unpacking python3 (3.12.3-0ubuntu2) over (3.11.4-5) ...
+Preparing to unpack .../01-libpython3-stdlib_3.12.3-0ubuntu2_arm64.deb ...
+Unpacking libpython3-stdlib:arm64 (3.12.3-0ubuntu2) over (3.11.4-5) ...
+Selecting previously unselected package fonts-lato.
+Preparing to unpack .../02-fonts-lato_2.015-1_all.deb ...
+Unpacking fonts-lato (2.015-1) ...
+Selecting previously unselected package python3-cffi-backend:arm64.
+Preparing to unpack .../03-python3-cffi-backend_1.16.0-2build1_arm64.deb ...
+Unpacking python3-cffi-backend:arm64 (1.16.0-2build1) ...
+Selecting previously unselected package python3-pkg-resources.
+Preparing to unpack .../04-python3-pkg-resources_68.1.2-2ubuntu1.1_all.deb ...
+Unpacking python3-pkg-resources (68.1.2-2ubuntu1.1) ...
+Selecting previously unselected package fonts-font-awesome.
+Preparing to unpack .../05-fonts-font-awesome_5.0.10+really4.7.0~dfsg-4.1_all.deb ...
+Unpacking fonts-font-awesome (5.0.10+really4.7.0~dfsg-4.1) ...
+Selecting previously unselected package javascript-common.
+Preparing to unpack .../06-javascript-common_11+nmu1_all.deb ...
+Unpacking javascript-common (11+nmu1) ...
+Selecting previously unselected package libcares2:arm64.
+Preparing to unpack .../07-libcares2_1.27.0-1.0ubuntu1_arm64.deb ...
+Unpacking libcares2:arm64 (1.27.0-1.0ubuntu1) ...
+Selecting previously unselected package libjs-jquery.
+Preparing to unpack .../08-libjs-jquery_3.6.1+dfsg+~3.5.14-1_all.deb ...
+Unpacking libjs-jquery (3.6.1+dfsg+~3.5.14-1) ...
+Selecting previously unselected package libjs-underscore.
+Preparing to unpack .../09-libjs-underscore_1.13.4~dfsg+~1.11.4-3_all.deb ...
+Unpacking libjs-underscore (1.13.4~dfsg+~1.11.4-3) ...
+Selecting previously unselected package libjs-sphinxdoc.
+Preparing to unpack .../10-libjs-sphinxdoc_7.2.6-6_all.deb ...
+Unpacking libjs-sphinxdoc (7.2.6-6) ...
+Selecting previously unselected package python3-idna.
+Preparing to unpack .../11-python3-idna_3.6-2ubuntu0.1_all.deb ...
+Unpacking python3-idna (3.6-2ubuntu0.1) ...
+Selecting previously unselected package python3-pycares.
+Preparing to unpack .../12-python3-pycares_4.4.0-1build2_arm64.deb ...
+Unpacking python3-pycares (4.4.0-1build2) ...
+Selecting previously unselected package python3-aiodns.
+Preparing to unpack .../13-python3-aiodns_3.1.1-1_all.deb ...
+Unpacking python3-aiodns (3.1.1-1) ...
+Selecting previously unselected package python3-pyasn1.
+Preparing to unpack .../14-python3-pyasn1_0.4.8-4_all.deb ...
+Unpacking python3-pyasn1 (0.4.8-4) ...
+Selecting previously unselected package python3-pyasn1-modules.
+Preparing to unpack .../15-python3-pyasn1-modules_0.2.8-1_all.deb ...
+Unpacking python3-pyasn1-modules (0.2.8-1) ...
+Selecting previously unselected package python3-typing-extensions.
+Preparing to unpack .../16-python3-typing-extensions_4.10.0-1_all.deb ...
+Unpacking python3-typing-extensions (4.10.0-1) ...
+Selecting previously unselected package python3-slixmpp.
+Preparing to unpack .../17-python3-slixmpp_1.8.5-1build1_all.deb ...
+Unpacking python3-slixmpp (1.8.5-1build1) ...
+Selecting previously unselected package sphinx-rtd-theme-common.
+Preparing to unpack .../18-sphinx-rtd-theme-common_2.0.0+dfsg-1_all.deb ...
+Unpacking sphinx-rtd-theme-common (2.0.0+dfsg-1) ...
+Selecting previously unselected package python3-ply.
+Preparing to unpack .../19-python3-ply_3.11-6_all.deb ...
+Unpacking python3-ply (3.11-6) ...
+Selecting previously unselected package python3-pycparser.
+Preparing to unpack .../20-python3-pycparser_2.21-1_all.deb ...
+Unpacking python3-pycparser (2.21-1) ...
+Selecting previously unselected package python3-cffi.
+Preparing to unpack .../21-python3-cffi_1.16.0-2build1_all.deb ...
+Unpacking python3-cffi (1.16.0-2build1) ...
+Selecting previously unselected package python3-gnupg.
+Preparing to unpack .../22-python3-gnupg_0.5.2-1_all.deb ...
+Unpacking python3-gnupg (0.5.2-1) ...
+Selecting previously unselected package python3-poezio-poopt:arm64.
+Preparing to unpack .../23-python3-poezio-poopt_0.14-3build1_arm64.deb ...
+Unpacking python3-poezio-poopt:arm64 (0.14-3build1) ...
+Selecting previously unselected package poezio.
+Preparing to unpack .../24-poezio_0.14-3build1_all.deb ...
+Unpacking poezio (0.14-3build1) ...
+Selecting previously unselected package python3-multidict.
+Preparing to unpack .../25-python3-multidict_6.0.4-1.1build1_arm64.deb ...
+Unpacking python3-multidict (6.0.4-1.1build1) ...
+Selecting previously unselected package python3-yarl.
+Preparing to unpack .../26-python3-yarl_1.8.2-3build2_arm64.deb ...
+Unpacking python3-yarl (1.8.2-3build2) ...
+Selecting previously unselected package python3-async-timeout.
+Preparing to unpack .../27-python3-async-timeout_4.0.3-1_all.deb ...
+Unpacking python3-async-timeout (4.0.3-1) ...
+Selecting previously unselected package python3-frozenlist.
+Preparing to unpack .../28-python3-frozenlist_1.4.0-1build2_arm64.deb ...
+Unpacking python3-frozenlist (1.4.0-1build2) ...
+Selecting previously unselected package python3-aiosignal.
+Preparing to unpack .../29-python3-aiosignal_1.3.1-1_all.deb ...
+Unpacking python3-aiosignal (1.3.1-1) ...
+Selecting previously unselected package python3-attr.
+Preparing to unpack .../30-python3-attr_23.2.0-2_all.deb ...
+Unpacking python3-attr (23.2.0-2) ...
+Selecting previously unselected package python3-aiohttp.
+Preparing to unpack .../31-python3-aiohttp_3.9.1-1ubuntu0.1_arm64.deb ...
+Unpacking python3-aiohttp (3.9.1-1ubuntu0.1) ...
+Selecting previously unselected package python3-cryptography.
+Preparing to unpack .../32-python3-cryptography_41.0.7-4ubuntu0.1_arm64.deb ...
+Unpacking python3-cryptography (41.0.7-4ubuntu0.1) ...
+Selecting previously unselected package python3-emoji.
+Preparing to unpack .../33-python3-emoji_2.8.0-1_all.deb ...
+Unpacking python3-emoji (2.8.0-1) ...
+Selecting previously unselected package python3-slixmpp-lib:arm64.
+Preparing to unpack .../34-python3-slixmpp-lib_1.8.5-1build1_arm64.deb ...
+Unpacking python3-slixmpp-lib:arm64 (1.8.5-1build1) ...
+Setting up javascript-common (11+nmu1) ...
+
+Configuration file '/etc/apache2/conf-available/javascript-common.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/lighttpd/conf-available/90-javascript-alias.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up fonts-lato (2.015-1) ...
+Setting up libcares2:arm64 (1.27.0-1.0ubuntu1) ...
+Setting up libjs-jquery (3.6.1+dfsg+~3.5.14-1) ...
+Setting up readline-common (8.2-4build1) ...
+Setting up fonts-font-awesome (5.0.10+really4.7.0~dfsg-4.1) ...
+Setting up sphinx-rtd-theme-common (2.0.0+dfsg-1) ...
+Setting up libjs-underscore (1.13.4~dfsg+~1.11.4-3) ...
+Setting up libjs-sphinxdoc (7.2.6-6) ...
+Setting up libreadline8t64:arm64 (8.2-4build1) ...
+Setting up libpython3.12-stdlib:arm64 (3.12.3-1ubuntu0.5) ...
+Setting up python3.12 (3.12.3-1ubuntu0.5) ...
+Setting up libpython3-stdlib:arm64 (3.12.3-0ubuntu2) ...
+Setting up python3 (3.12.3-0ubuntu2) ...
+Setting up python3-multidict (6.0.4-1.1build1) ...
+Setting up python3-frozenlist (1.4.0-1build2) ...
+Setting up python3-aiosignal (1.3.1-1) ...
+Setting up python3-async-timeout (4.0.3-1) ...
+Setting up python3-idna (3.6-2ubuntu0.1) ...
+Setting up python3-typing-extensions (4.10.0-1) ...
+Setting up python3-pyasn1 (0.4.8-4) ...
+Setting up python3-emoji (2.8.0-1) ...
+Setting up python3-yarl (1.8.2-3build2) ...
+Setting up python3-poezio-poopt:arm64 (0.14-3build1) ...
+Setting up python3-cffi-backend:arm64 (1.16.0-2build1) ...
+Setting up python3-pkg-resources (68.1.2-2ubuntu1.1) ...
+Setting up python3-attr (23.2.0-2) ...
+Setting up python3-gnupg (0.5.2-1) ...
+Setting up python3-ply (3.11-6) ...
+Setting up python3-slixmpp-lib:arm64 (1.8.5-1build1) ...
+Setting up python3-aiohttp (3.9.1-1ubuntu0.1) ...
+Setting up python3-pycparser (2.21-1) ...
+Setting up python3-pyasn1-modules (0.2.8-1) ...
+Setting up python3-cryptography (41.0.7-4ubuntu0.1) ...
+Setting up python3-pycares (4.4.0-1build2) ...
+Setting up python3-cffi (1.16.0-2build1) ...
+Setting up python3-aiodns (3.1.1-1) ...
+Setting up python3-slixmpp (1.8.5-1build1) ...
+Setting up poezio (0.14-3build1) ...
+/usr/lib/python3/dist-packages/poezio_plugins/cyber.py:38: SyntaxWarning: invalid escape sequence '\W'
+  word for word in re.split('\W+', msg['body']) if len(word) > 3
+/usr/lib/python3/dist-packages/poezio_plugins/emoji_ascii.py:44: SyntaxWarning: invalid escape sequence '\*'
+  self.emoji_pattern = re.compile('|'.join(self.emoji_to_ascii.keys()).replace('*', '\*'))
+/usr/lib/python3/dist-packages/poezio_plugins/emoji_ascii.py:45: SyntaxWarning: invalid escape sequence '\+'
+  self.alias_pattern = re.compile('|'.join(self.ascii_to_emoji.keys()).replace('+', '\+'))
+/usr/lib/python3/dist-packages/poezio_plugins/link.py:92: SyntaxWarning: invalid escape sequence '\S'
+  '(?:http[s]?://(?:\S+))|'
+/usr/lib/python3/dist-packages/poezio_plugins/link.py:93: SyntaxWarning: invalid escape sequence '\?'
+  '(?:magnet:\?(?:\S+))|'
+/usr/lib/python3/dist-packages/poezio_plugins/link.py:94: SyntaxWarning: invalid escape sequence '\S'
+  '(?:aesgcm://(?:\S+))|'
+/usr/lib/python3/dist-packages/poezio_plugins/link.py:95: SyntaxWarning: invalid escape sequence '\S'
+  '(?:gopher://(?:\S+))|'
+/usr/lib/python3/dist-packages/poezio_plugins/link.py:96: SyntaxWarning: invalid escape sequence '\S'
+  '(?:gemini://(?:\S+))'
+/usr/lib/python3/dist-packages/poezio_plugins/link.py:116: SyntaxWarning: invalid escape sequence '\o'
+  'Opens the last link from the conversation into a browser.\n\
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for fontconfig (2.14.2-6) ...

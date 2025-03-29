@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: poezio.linyaps
+  name: poezio
+  version: 0.14.0.3
+  kind: app
+  description: |-
+    Console-based XMPP client
+    Poezio is a free console XMPP client (the protocol on which the Jabber IM
+    network is built).
+
+    Its goal is to let you connect very easily (no account creation needed) to the
+    network and join various chatrooms, immediately. It tries to look like the most
+    famous IRC clients (weechat, irssi, etc). Many commands are identical and
+    you won't be lost if you already know these clients. Configuration can be made
+    in a configuration file or directly from the client.
+command:
+- /opt/apps/poezio.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
