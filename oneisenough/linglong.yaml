@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: oneisenough.linyaps
+  name: oneisenough
+  version: 0.40.0.6
+  kind: app
+  description: |-
+    2D platform game about the epic struggle of balls
+    One Is Enough, a 2D platform game in which a communist ball needs to
+    convert capitalist balls into fellow communist balls. More and more
+    capitalist balls will be issued by the bank, creating new enemies.
+command:
+- /opt/apps/oneisenough.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
