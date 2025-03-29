@@ -1,0 +1,33 @@
+正在测试: APPID=openjazz.linyaps LAYER=openjazz.linyaps_20231028.0.0.2_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install openjazz.linyaps_20231028.0.0.2_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:openjazz.linyaps
+Layer文件:openjazz.linyaps_20231028.0.0.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: openjazz.linyaps_20231028.0.0.2_x86_64_binary.layer
+offset: 1196
+mountpoint: /tmp/tmp.h7a9pvYfzL/mnt
+dbglevel: 0
+[成功] OpenJazz-HH95.desktop: OpenJazz -> /opt/apps/openjazz.linyaps/files/share/icons/hicolor/48x48/apps/OpenJazz.png
+[成功] /opt/apps/openjazz.linyaps/files/share/applications/OpenJazz-HH95.desktop: /opt/apps/openjazz.linyaps/files/entrypoint.sh OpenJazz /usr/share/games/jazz-jackrabbit-hh95
+[成功] OpenJazz.desktop: OpenJazz -> /opt/apps/openjazz.linyaps/files/share/icons/hicolor/48x48/apps/OpenJazz.png
+[成功] /opt/apps/openjazz.linyaps/files/share/applications/OpenJazz.desktop: /opt/apps/openjazz.linyaps/files/entrypoint.sh OpenJazz
+[正在测试启动项]
+包名:openjazz.linyaps
+Layer文件:openjazz.linyaps_20231028.0.0.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: openjazz.linyaps_20231028.0.0.2_x86_64_binary.layer
+offset: 1196
+mountpoint: /tmp/tmp.jBHOQM4te1/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run openjazz.linyaps -- /opt/apps/openjazz.linyaps/files/entrypoint.sh OpenJazz /usr/share/games/jazz-jackrabbit-hh95
+[PID 11016] 进程已启动
+[PID 11016] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run openjazz.linyaps -- /opt/apps/openjazz.linyaps/files/entrypoint.sh OpenJazz
+[PID 11155] 进程已启动
+[PID 11155] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall openjazz.linyaps
