@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: torus-trooper.linyaps
+  name: torus-trooper
+  version: 0.22.1.13
+  kind: app
+  description: |-
+    speeding ship sailing through barrage
+    Torus Trooper is a fast-paced abstract scrolling shooter game. It
+    features 3D graphics and a style similar to that of games such as
+    Tempest.
+
+    Torus Trooper is another gem among many by Kenta Cho.
+command:
+- /opt/apps/torus-trooper.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
