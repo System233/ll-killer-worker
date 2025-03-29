@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: tuxtype.linyaps
+  name: tuxtype
+  version: 1.8.3.5
+  kind: app
+  description: |-
+    Educational Typing Tutor Game Starring Tux
+    TuxTyping is an educational typing tutorial game starring
+    Tux, the Linux Penguin. The player guides Tux to eat fish
+    which are falling from the top of the screen. Each fish has a
+    letter written on it. When the player presses the
+    corresponding key, Tux will position himself to eat the fish.
+    The game is intended for children learning to type, though it
+    does have higher difficulty levels which even experienced
+    typists may find challenging.
+command:
+- /opt/apps/tuxtype.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
