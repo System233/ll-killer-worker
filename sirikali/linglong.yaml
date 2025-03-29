@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: sirikali.linyaps
+  name: sirikali
+  version: 1.5.1.1
+  kind: app
+  description: |-
+    Manage user encrypted volumes
+    Sirikali provides a Qt/C++ GUI front end to cryfs,gocryptfs,securefs and encfs,
+    allowing the user to create, mount, and unmount encrypted volumes.
+command:
+- /opt/apps/sirikali.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
