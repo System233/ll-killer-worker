@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: openclonk.linyaps
+  name: openclonk
+  version: 8.1.0.4
+  kind: app
+  description: |-
+    multiplayer game of strategy, action and skill
+    OpenClonk is a free multiplayer action game where you control clonks,
+    small but witty and nimble humanoid beings. The game is mainly about
+    mining, settling and fast-paced melees. OpenClonk is also not just a
+    game but also a versatile 2D game engine that offers countless
+    possibilities to make own mods.
+
+    This package contains the OpenClonk engine.
+command:
+- /opt/apps/openclonk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
