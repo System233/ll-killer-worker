@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: nitrogen.linyaps
+  name: nitrogen
+  version: 1.6.1.2
+  kind: app
+  description: |-
+    wallpaper browser and changing utility for X
+    nitrogen is a graphical wallpaper utility that can be used in two
+    modes, browser and recall.
+    Some of the things to look for in nitrogen are:
+
+    * Multihead and Xinerama support (setting
+    different wallpapers for each monitor)
+    * Recall mode to restore wallpapers via startup script
+    * Uses freedesktop.org standard for thumbnails
+    * Can set GNOME background
+    * Command line set modes for script usage
+    * Inotify monitoring of browsed directories
+command:
+- /opt/apps/nitrogen.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
