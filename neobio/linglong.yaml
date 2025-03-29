@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: neobio.linyaps
+  name: neobio
+  version: 0.0.20030929.6
+  kind: app
+  description: |-
+    computes alignments of amino acid and nucleotide sequences
+    Library and graphical user interface for pairwise sequence alignments.
+    Implementation of the dynamic programming methods of Needleman & Wunsch
+    (global alignment) and Smith & Waterman (local alignment).
+command:
+- /opt/apps/neobio.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
