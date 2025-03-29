@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: obconf-qt.linyaps
+  name: obconf-qt
+  version: 0.16.4.0
+  kind: app
+  description: |-
+    Openbox configuration with a Qt interface
+    obconf-qt is an utility to configure openbox with a Qt interface.
+
+    This package contain the application files.
+command:
+- /opt/apps/obconf-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
