@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: solarwolf.linyaps
+  name: solarwolf
+  version: 1.5.0.6
+  kind: app
+  description: |-
+    Collect the boxes and don't become mad
+    Solarwolf is an action/arcade game written entirely in Python,
+    featuring amazing graphics and cool music.
+    It is originally based on the SolarFox game on the Atari 2600.
+
+    All this, yet the best feature of all is; it is a hecka lotta fun!
+    The point of the game is to scramble through 60 levels of patterns,
+    collecting all the boxes. The part that makes it tricky is avoiding
+    the relentless hailstorm of fire coming at you from all directions.
+command:
+- /opt/apps/solarwolf.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
