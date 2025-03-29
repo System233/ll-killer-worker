@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: pasaffe.linyaps
+  name: pasaffe
+  version: 0.58.0.0
+  kind: app
+  description: |-
+    Password manager for GNOME
+    Pasaffe is an easy to use password manager for GNOME. You can use it
+    to safely store all your usernames and passwords into a single encrypted
+    database protected by as master password. The database is encrypted with
+    Twofish and is PasswordSafe v3 compatible.
+command:
+- /opt/apps/pasaffe.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
