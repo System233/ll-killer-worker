@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: plasmidomics.linyaps
+  name: plasmidomics
+  version: 0.2.0.10
+  kind: app
+  description: |-
+    draw plasmids and vector maps with PostScript graphics export
+    Plasmidomics is written for easy drawing of plasmids and vector maps
+    to use them in theses, presentations or other forms of publications. It
+    natively supports PostScript as output format.
+command:
+- /opt/apps/plasmidomics.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
