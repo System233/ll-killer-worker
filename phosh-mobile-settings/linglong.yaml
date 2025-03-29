@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: phosh-mobile-settings.linyaps
+  name: phosh-mobile-settings
+  version: 0.38.0.1
+  kind: app
+  description: |-
+    Phosh and related settings for mobile
+    Mobile Settings allows one to configure some advanced settings of the Phosh
+    mobile environment that would otherwise involve using the command line.
+command:
+- /opt/apps/phosh-mobile-settings.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
