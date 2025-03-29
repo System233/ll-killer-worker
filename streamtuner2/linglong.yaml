@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: streamtuner2.linyaps
+  name: streamtuner2
+  version: 2.2.2.2
+  kind: app
+  description: |-
+    Browser for Internet Radio Stations
+    streamtuner2 is a browser for radio station directories. It can fetch lists
+    from SHOUTcast, Xiph.org, Live365, Jamendo, DMOZ, basic.ch, Punkcast.
+    And it lists stream entries by category or genre. It reuses existing audio
+    players, and recording is delegated to streamripper.
+
+    It mimics the original streamtuner 0.99.99, but is easier to extend because
+    it's written entirely in Python. It's already in a stable and useable form.
+command:
+- /opt/apps/streamtuner2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
