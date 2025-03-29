@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: nicotine.linyaps
+  name: nicotine
+  version: 3.2.9.2
+  kind: app
+  description: |-
+    graphical client for the Soulseek peer-to-peer network
+    Nicotine+ aims to be a pleasant, free and open source (FOSS) alternative
+    to the official Soulseek client, providing additional functionality
+    while keeping current with the Soulseek protocol.
+
+    Nicotine+ uses GTK for its graphical user interface, and is written in Python.
+command:
+- /opt/apps/nicotine.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
