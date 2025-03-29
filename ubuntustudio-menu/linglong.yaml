@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ubuntustudio-menu.linyaps
+  name: ubuntustudio-menu
+  version: 0.86.1.0
+  kind: app
+  description: |-
+    Menu for Ubuntu Studio
+    Menu for Ubuntu Studio's use case. This menu has new Audio production,
+    Video production, and Graphics subsections for artistic creation. This
+    menu is designed to be merged into any xdg (open desktop) menu, such as
+    KDE or Xfce, and includes Application Overview folders for GNOME.
+command:
+- /opt/apps/ubuntustudio-menu.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
