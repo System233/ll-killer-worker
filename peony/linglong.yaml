@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: peony.linyaps
+  name: peony
+  version: 4.0.0.1
+  kind: app
+  description: |-
+    file Manager for the UKUI desktop
+    Peony is the official file manager for the UKUI desktop. It allows one
+    to browse directories, preview files and launch applications associated
+    with them. It is also responsible for handling the icons on the UKUI
+    desktop. It works on local and remote filesystems.
+command:
+- /opt/apps/peony.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
