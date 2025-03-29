@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: slashtime.linyaps
+  name: slashtime
+  version: 0.5.13.3
+  kind: app
+  description: |-
+    Display the time in various places
+    A small program which displays the time in various places. It has a compact
+    display of locations along with supporting information such as the date and
+    the abbreviated code used to name that timezone.
+
+    Time data displayed will be as accurate as the system's zoneinfo data is used.
+    Somewhat unusually, Slashtime shows the offset from the current location, not
+    from UTC. When running you can change the center point by double-clicking on
+    another city.
+
+    There is a meeting planner built into Slashtime. You can specify a date and
+    time and see what the corresponding time in other locations will be.
+command:
+- /opt/apps/slashtime.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
