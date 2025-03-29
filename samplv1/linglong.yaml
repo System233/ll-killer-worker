@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: samplv1.linyaps
+  name: samplv1
+  version: 0.9.34.1
+  kind: app
+  description: |-
+    polyphonic sampler synthesizer - standalone
+    samplv1 is an old-school all-digital polyphonic sampler
+    synthesizer with stereo effects.
+
+    Although other samplers like specimen provide more features,
+    one could find samplv1 much easier and accessible. Plus, it
+    is provided in both forms of a JACK stand-alone client and
+    a LV2 plugin.
+
+    This package provides the standalone app.
+command:
+- /opt/apps/samplv1.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
