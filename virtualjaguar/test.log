@@ -1,0 +1,35 @@
+正在测试: APPID=virtualjaguar.linyaps LAYER=virtualjaguar.linyaps_2.1.3.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install virtualjaguar.linyaps_2.1.3.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:virtualjaguar.linyaps
+Layer文件:virtualjaguar.linyaps_2.1.3.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: virtualjaguar.linyaps_2.1.3.2_arm64_binary.layer
+offset: 1199
+mountpoint: /tmp/tmp.IwYGewXK9V/mnt
+dbglevel: 0
+find: ‘/opt/apps/virtualjaguar.linyaps/files/share/icons’: No such file or directory
+[31m[失败] virtualjaguar.desktop:vj.xpm: 找不到此图标 [0m
+[成功] /opt/apps/virtualjaguar.linyaps/files/share/applications/virtualjaguar.desktop: /opt/apps/virtualjaguar.linyaps/files/entrypoint.sh virtualjaguar %f
+[正在测试启动项]
+包名:virtualjaguar.linyaps
+Layer文件:virtualjaguar.linyaps_2.1.3.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: virtualjaguar.linyaps_2.1.3.2_arm64_binary.layer
+offset: 1199
+mountpoint: /tmp/tmp.frjzMe87jo/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run virtualjaguar.linyaps -- /opt/apps/virtualjaguar.linyaps/files/entrypoint.sh virtualjaguar
+[PID 9365] 进程已启动
+[PID 9365] 已检测到窗口:PID=36
+[PID 9365] 正在截图 0秒: tests/screen0-0.jpg
+[PID 9365] 正在截图 1秒: tests/screen0-1.jpg
+[PID 9365] 正在截图 4秒: tests/screen0-4.jpg
+[PID 9365] 正在截图 5秒: tests/screen0-5.jpg
+[PID 9365] 正在通知并等待进程退出
+[PID 9365] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall virtualjaguar.linyaps

@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: virtualjaguar.linyaps
+  name: virtualjaguar
+  version: 2.1.3.2
+  kind: app
+  description: |-
+    Cross-platform Atari Jaguar emulator
+    Virtual Jaguar is a cross-platform emulator for Atari's infamous
+    Jaguar console, the last video game system to be ever released by
+    the now defunct company. The Jaguar was marketed as the first
+    64-bit video game system despite the fact that it was actually
+    a 32-bit system at heart, just the blitter operated in 64-bit
+    mode. The system was a commercial failure and eventually lead
+    to Atari leaving the market for video game systems for good.
+
+    This emulator features an intuitive user interface and emulation
+    of all of the major subsystems of the Atari Jaguar console. This
+    includes full GPU and DSP emulation as well as emulation of the
+    Atari Jaguar CD. Most of the commercial Atari games are supported,
+    albeit some of them have some minor glitches when running in the
+    emulator.
+command:
+- /opt/apps/virtualjaguar.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
