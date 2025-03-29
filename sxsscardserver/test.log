@@ -1,0 +1,30 @@
+正在测试: APPID=sxsscardserver.linyaps LAYER=sxsscardserver.linyaps_3.5.15.0_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install sxsscardserver.linyaps_3.5.15.0_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:sxsscardserver.linyaps
+Layer文件:sxsscardserver.linyaps_3.5.15.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: sxsscardserver.linyaps_3.5.15.0_arm64_binary.layer
+offset: 445
+mountpoint: /tmp/tmp.kseM0UazYD/mnt
+dbglevel: 0
+[成功] sxsscardserver.desktop: sxsscardserver.linyaps-sxsscardserver -> /opt/apps/sxsscardserver.linyaps/files/share/icons/hicolor/128x128/apps/sxsscardserver.linyaps-sxsscardserver.png
+[成功] /opt/apps/sxsscardserver.linyaps/files/share/applications/sxsscardserver.desktop: /opt/apps/sxsscardserver.linyaps/files/entrypoint.sh /opt/apps/sxsscardserver/bin/sxsscardtool -h
+[正在测试启动项]
+包名:sxsscardserver.linyaps
+Layer文件:sxsscardserver.linyaps_3.5.15.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: sxsscardserver.linyaps_3.5.15.0_arm64_binary.layer
+offset: 445
+mountpoint: /tmp/tmp.8LBcLXhpe5/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run sxsscardserver.linyaps -- /opt/apps/sxsscardserver.linyaps/files/entrypoint.sh /opt/apps/sxsscardserver/bin/sxsscardtool -h
+[PID 5643] 进程已启动
+[PID 5643] 等待超时，未能检测到窗口
+[PID 5643] 正在通知并等待进程退出
+[PID 5643] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall sxsscardserver.linyaps
