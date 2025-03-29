@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: ukui-session-manager.linyaps
+  name: ukui-session-manager
+  version: 4.0.0.1
+  kind: app
+  description: |-
+    Session manager of the UKUI desktop environment
+    This package contains a session that can be started from a display
+    manager such as lightdm. It will load all necessary applications for
+    a full-featured user session.
+
+    This package contain the session manager component.
+command:
+- /opt/apps/ukui-session-manager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
