@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: vonsh.linyaps
+  name: vonsh
+  version: 1.0.0.0
+  kind: app
+  description: |-
+    Snake-like game with line of people running around to get more food
+    Player has to pick up foodstuffs appearing randomly on the board,
+    and avoid colliding with obstacles and the line itself. With each picked up
+    food item, line grows in length, new obstacles appear,
+    and difficulty explodes ;). Game is based on libSDL.
+command:
+- /opt/apps/vonsh.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
