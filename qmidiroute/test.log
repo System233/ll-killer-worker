@@ -1,0 +1,28 @@
+正在测试: APPID=qmidiroute.linyaps LAYER=qmidiroute.linyaps_0.4.0.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install qmidiroute.linyaps_0.4.0.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:qmidiroute.linyaps
+Layer文件:qmidiroute.linyaps_0.4.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: qmidiroute.linyaps_0.4.0.2_arm64_binary.layer
+offset: 727
+mountpoint: /tmp/tmp.JASQd4ltDq/mnt
+dbglevel: 0
+[成功] qmidiroute.desktop: qmidiroute_32x32 -> /opt/apps/qmidiroute.linyaps/files/share/pixmaps/qmidiroute_32x32.xpm
+[成功] /opt/apps/qmidiroute.linyaps/files/share/applications/qmidiroute.desktop: /opt/apps/qmidiroute.linyaps/files/entrypoint.sh qmidiroute
+[正在测试启动项]
+包名:qmidiroute.linyaps
+Layer文件:qmidiroute.linyaps_0.4.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: qmidiroute.linyaps_0.4.0.2_arm64_binary.layer
+offset: 727
+mountpoint: /tmp/tmp.AvDyBSX0yn/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run qmidiroute.linyaps -- /opt/apps/qmidiroute.linyaps/files/entrypoint.sh qmidiroute
+[PID 9293] 进程已启动
+[PID 9293] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall qmidiroute.linyaps
