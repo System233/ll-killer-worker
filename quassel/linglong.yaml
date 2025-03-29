@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: quassel.linyaps
+  name: quassel
+  version: 0.14.0.2
+  kind: app
+  description: |-
+    distributed IRC client - monolithic core+client
+    Quassel is a modern, cross-platform, distributed IRC client, meaning that
+    one or more clients can attach to and detach from the central core. It's
+    much like the popular combination of screen and a text-based IRC client
+    such as WeeChat or irssi, but graphical.
+
+    This package provides the monolithic client. It contains both core and
+    client and can be used like a traditional IRC client, without requiring an
+    external core.
+command:
+- /opt/apps/quassel.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
