@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: sound-juicer.linyaps
+  name: sound-juicer
+  version: 3.40.0.1
+  kind: app
+  description: |-
+    GNOME CD Ripper
+    A CD ripper for GNOME which aims to have a simple, clean, easy to use
+    interface.
+
+    The package includes support by default for Vorbis and FLAC formats.
+    For other supports you need the following packages:
+    * gstreamer1.0-plugins-ugly to encode to MP2,
+    * gstreamer1.0-lame (not available in the Debian archive) to encode
+    to MP3,
+    * gstreamer1.0-plugins-really-bad (not available in Debian) to encode
+    to AAC.
+command:
+- /opt/apps/sound-juicer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
