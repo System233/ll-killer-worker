@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: pdf-presenter-console.linyaps
+  name: pdf-presenter-console
+  version: 4.6.0.3
+  kind: app
+  description: |-
+    multi-monitor presentation tool (ala Keynote) for PDF files
+    PPC is a viewer for PDF which uses Keynote-like multi-monitor output
+    to provide meta information to the speaker.  It can show a normal
+    presentation window on one screen and a more sophisticated overview
+    on the other, with information like a picture of the next slide and a
+    clock with the time remaining.
+command:
+- /opt/apps/pdf-presenter-console.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
