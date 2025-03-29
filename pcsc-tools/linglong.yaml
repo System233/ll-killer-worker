@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: pcsc-tools.linyaps
+  name: pcsc-tools
+  version: 1.7.1.1
+  kind: app
+  description: |-
+    Some tools to use with smart cards and PC/SC
+    This archive contains some tools useful for a PC/SC user. The tools
+    provided are:
+
+    pcsc_scan(1) scans available smart card readers and print detected
+    events: card insertion with ATR, card removal;
+
+    ATR_analysis(1) analyses a smart card ATR (Answer To Reset)
+
+    scriptor(1) Perl script to send commands to a smart card using a
+    batch file or stdin;
+
+    gscriptor(1) the same idea as scriptor.pl(1) but with Perl-Gtk GUI.
+command:
+- /opt/apps/pcsc-tools.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
