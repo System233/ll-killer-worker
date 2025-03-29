@@ -1,0 +1,28 @@
+正在测试: APPID=winmage-sane-backend.linyaps LAYER=winmage-sane-backend.linyaps_20200616.0.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install winmage-sane-backend.linyaps_20200616.0.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:winmage-sane-backend.linyaps
+Layer文件:winmage-sane-backend.linyaps_20200616.0.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: winmage-sane-backend.linyaps_20200616.0.0.1_arm64_binary.layer
+offset: 431
+mountpoint: /tmp/tmp.YeKO0cu6yf/mnt
+dbglevel: 0
+[成功] winmage_scan.desktop: winmage-sane-backend.linyaps-winmagescan -> /opt/apps/winmage-sane-backend.linyaps/files/share/icons/hicolor/16x16/apps/winmage-sane-backend.linyaps-winmagescan.png
+[成功] /opt/apps/winmage-sane-backend.linyaps/files/share/applications/winmage_scan.desktop: /opt/apps/winmage-sane-backend.linyaps/files/entrypoint.sh /opt/printer/winmage/main/winmage-scan
+[正在测试启动项]
+包名:winmage-sane-backend.linyaps
+Layer文件:winmage-sane-backend.linyaps_20200616.0.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: winmage-sane-backend.linyaps_20200616.0.0.1_arm64_binary.layer
+offset: 431
+mountpoint: /tmp/tmp.CJmb3xRsjM/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run winmage-sane-backend.linyaps -- /opt/apps/winmage-sane-backend.linyaps/files/entrypoint.sh /opt/printer/winmage/main/winmage-scan
+[PID 7612] 进程已启动
+[PID 7612] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall winmage-sane-backend.linyaps

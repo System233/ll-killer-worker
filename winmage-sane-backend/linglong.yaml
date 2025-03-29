@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: winmage-sane-backend.linyaps
+  name: winmage-sane-backend
+  version: 20200616.0.0.1
+  kind: app
+  description: SANE-Backend for WinMage scanner
+command:
+- /opt/apps/winmage-sane-backend.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
