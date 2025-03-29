@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: neovim-runtime.linyaps
+  name: neovim-runtime
+  version: 0.9.5.6
+  kind: app
+  description: |-
+    heavily refactored vim fork (runtime files)
+    Neovim is a fork of Vim focused on modern code and features, rather than
+    running in legacy environments.
+
+    This package contains the architecture independent runtime files used by
+    neovim.  Examples of such files are: documentation, rules for
+    language-specific highlighting and indentation, color schemes, and standard
+    plugins.
+command:
+- /opt/apps/neovim-runtime.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
