@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: plume-creator.linyaps
+  name: plume-creator
+  version: 0.66.0.3
+  kind: app
+  description: |-
+    open-source tool for novelists
+    Plume Creator helps you to write your stories in chapters and
+    scenes, write fullscreen, edit notes and synopses, export in
+    html and odt formats, edit in rich text, and manage characters,
+    places and items.
+command:
+- /opt/apps/plume-creator.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
