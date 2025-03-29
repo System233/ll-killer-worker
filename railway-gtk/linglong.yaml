@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: railway-gtk.linyaps
+  name: railway-gtk
+  version: 2.4.0.3
+  kind: app
+  description: |-
+    Look up travel information for different rail providers
+    Railway allows one to search for journeys, view the details of a journey
+    including departure, arrivals, delays, platforms. A lot of individual
+    providers are supported: DB, Irish Rail, OEBB, BART...
+
+    Bookmarking a search or a journey and displaying prices is possible, too.
+
+    Railway is a GNOME Circle app.
+command:
+- /opt/apps/railway-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
