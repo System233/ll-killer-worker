@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: qmidinet.linyaps
+  name: qmidinet
+  version: 0.9.12.1
+  kind: app
+  description: |-
+    MIDI Network Gateway via UDP/IP Multicast
+    QmidiNet is a MIDI network gateway application that sends and receives
+    MIDI data (ALSA Sequencer) over the network, using UDP/IP multicast.
+    It was inspired by multimidicast (https://llg.cubic.org/tools) and
+    designed to be compatible with ipMIDI for Windows (https://nerds.de).
+command:
+- /opt/apps/qmidinet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
