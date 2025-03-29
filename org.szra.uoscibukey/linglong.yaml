@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: org.szra.uoscibukey.linyaps
+  name: org.szra.uoscibukey
+  version: 3.30.2.5
+  kind: app
+  description: 兴业银行网盾管理工具(神州融安)
+command:
+- /opt/apps/org.szra.uoscibukey.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
