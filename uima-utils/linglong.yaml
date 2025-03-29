@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: uima-utils.linyaps
+  name: uima-utils
+  version: 2.10.2.4
+  kind: app
+  description: |-
+    UIMA tools
+    Apache UIMA is an implementation of the OASIS-UIMA specifications.
+
+    OASIS UIMA Committee: <http://www.oasis-open.org/committees/uima/>.
+
+    Unstructured Information Management applications are software systems
+    that analyze large volumes of unstructured information in order to
+    discover knowledge that is relevant to an end user.
+
+    An example UIM application might ingest plain text and identify
+    entities, such as persons, places, organizations; or relations,
+    such as works-for or located-at.
+
+    This package provides the UIMA tools : annotationViewer, cpeGui,
+    documentAnalyzer, jcasgen, runAE, runCPE, runPearInstaller, runPearMerger,
+    runPearPackager
+command:
+- /opt/apps/uima-utils.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
