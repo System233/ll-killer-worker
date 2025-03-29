@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: sddm-conf.linyaps
+  name: sddm-conf
+  version: 0.2.0.0
+  kind: app
+  description: |-
+    Configuration editor for SDDM
+    Configuration editor for SDDM similar to sddm-config-editor, but written in
+    C++. Requires polkit to save settings.
+command:
+- /opt/apps/sddm-conf.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
