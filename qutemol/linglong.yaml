@@ -1,0 +1,33 @@
+version: "1"
+package:
+  id: qutemol.linyaps
+  name: qutemol
+  version: 0.4.1.15
+  kind: app
+  description: |-
+    interactive visualization of macromolecules
+    QuteMol is an interactive, high quality molecular visualization
+    system. It exploits the current GPU capabilities through OpenGL shaders
+    to offer an array of innovative visual effects. QuteMol visualization
+    techniques are aimed at improving clarity and an easier understanding
+    of the 3D shape and structure of large molecules or complex proteins.
+
+    Qutemol uses advanced OpenGL techniques and might not work correctly
+    with all video cards and drivers.
+
+    Features QuteMol offers include:
+
+    * Real time ambient occlusion
+    * Depth aware silhouette enhancement
+    * Ball-and-stick, space-filling and liquorice visualization modes
+    * High resolution antialiased snapshots for creating publication
+    quality renderings
+    * Automatic generation of animated gifs of rotating molecules for
+    web page animations
+    * Interactive rendering of macromolecules (>100k atoms)
+
+    QuteMol reads PDB files as input.
+command:
+- /opt/apps/qutemol.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
