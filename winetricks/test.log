@@ -1,0 +1,28 @@
+正在测试: APPID=winetricks.linyaps LAYER=winetricks.linyaps_20240105.0.0.2_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install winetricks.linyaps_20240105.0.0.2_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:winetricks.linyaps
+Layer文件:winetricks.linyaps_20240105.0.0.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: winetricks.linyaps_20240105.0.0.2_x86_64_binary.layer
+offset: 803
+mountpoint: /tmp/tmp.jUokbAzvIb/mnt
+dbglevel: 0
+[成功] winetricks.desktop: winetricks -> /opt/apps/winetricks.linyaps/files/share/icons/hicolor/scalable/apps/winetricks.svg
+[成功] /opt/apps/winetricks.linyaps/files/share/applications/winetricks.desktop: /opt/apps/winetricks.linyaps/files/entrypoint.sh winetricks --gui
+[正在测试启动项]
+包名:winetricks.linyaps
+Layer文件:winetricks.linyaps_20240105.0.0.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: winetricks.linyaps_20240105.0.0.2_x86_64_binary.layer
+offset: 803
+mountpoint: /tmp/tmp.1q3efs3Qf5/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run winetricks.linyaps -- /opt/apps/winetricks.linyaps/files/entrypoint.sh winetricks --gui
+[PID 25667] 进程已启动
+[PID 25667] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall winetricks.linyaps
