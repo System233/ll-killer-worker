@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: syncthing-gtk.linyaps
+  name: syncthing-gtk
+  version: 0.9.4.3
+  kind: app
+  description: |-
+    GTK3-based GUI and notification area icon for syncthing
+    A GTK3-based GUI for Syncthing that supports:
+
+    * Adding / editing / deleting nodes
+    * Adding / editing / deleting repositories
+    * Restart / shutdown server
+    * Editing daemon settings
+    * Quick initial configuration using a wizard
+
+    It also provides desktop integration with various file managers
+    (Nautilus, Nemo and Caja) as well as with the desktop
+    environment in the form of an app indicator.
+command:
+- /opt/apps/syncthing-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
