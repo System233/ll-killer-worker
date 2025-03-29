@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: screenruler.linyaps
+  name: screenruler
+  version: 1.2.1.1
+  kind: app
+  description: |-
+    measure objects on screen with a variety of metrics
+    ScreenRuler will display a ruler on screen which allows you to measure the
+    other objects that you've there. It has the following features:
+    * Horizontal and vertical measurement in 6 different metrics:
+    pixels, centimetres, inches, picas, points, and as a percentage
+    of the ruler's length.
+    * Cusomizable colors and fonts.
+    * Keyboard control for precise positioning.
+    * Option for the ruler to stay always on top of other windows.
+command:
+- /opt/apps/screenruler.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
