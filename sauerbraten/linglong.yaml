@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: sauerbraten.linyaps
+  name: sauerbraten
+  version: 0.0.20201227.1
+  kind: app
+  description: |-
+    3D first-person shooter game
+    Sauerbraten is a networked 3D first-person shooter game. It supports modern
+    graphic effects and conveys a sense of fast-paced oldschool gameplay.
+
+    The game client also works as the map editor. It is even possible to create
+    and edit a map together with other people over a network connection.
+
+    This package installs maps, textures, sounds and other artwork of Sauerbraten.
+command:
+- /opt/apps/sauerbraten.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
