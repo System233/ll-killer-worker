@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: vkeybd.linyaps
+  name: vkeybd
+  version: 0.1.18.4
+  kind: app
+  description: |-
+    Virtual MIDI Keyboard
+    This program allows you to use the Linux AWE32 driver, OSS MIDI sequencer,
+    or ALSA MIDI sequencer and provides "virtual" keyboard (the musical type),
+    which can be "played" using the keyboard or mouse under X11.
+command:
+- /opt/apps/vkeybd.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
