@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ser-player.linyaps
+  name: ser-player
+  version: 1.7.3.2
+  kind: app
+  description: |-
+    Video player and processing utility for SER files
+    The SER file format can be used to store data from fast frame rate astronomy
+    cameras instead of using the AVI file format.  This application enables users
+    to review SER files in the same way that AVI files are reviewed with a video
+    player.
+command:
+- /opt/apps/ser-player.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
