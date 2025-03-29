@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: ocaml-interp.linyaps
+  name: ocaml-interp
+  version: 4.14.1.1
+  kind: app
+  description: |-
+    OCaml interactive interpreter and standard libraries
+    Objective Caml (OCaml) is an implementation of the ML language, based on
+    the Caml Light dialect extended with a complete class-based object system
+    and a powerful module system in the style of Standard ML.
+
+    This package contains the files required to run an OCaml shell from the
+    command line.
+command:
+- /opt/apps/ocaml-interp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
