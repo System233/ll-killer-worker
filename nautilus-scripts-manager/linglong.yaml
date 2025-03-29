@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: nautilus-scripts-manager.linyaps
+  name: nautilus-scripts-manager
+  version: 2.0.0.1
+  kind: app
+  description: |-
+    simple tool for nautilus scripts management
+    nautilus-scripts-manager is a small and easy to use application which allows
+    any user to activate, deactivate or just see Nautilus scripts installed in the
+    system.
+
+    Nautilus scripts are just ordinary scripts which, once activated, can be ran
+    directly from the right-click menu in the popular GNOME files manager.
+
+    This program can be used through its intuitive graphical interface or with a
+    set of command line options. In particular, it can transparently replace the
+    command line utility nautilus-script-manager (notice the missing "s").
+
+    Once installed, it will appear among the user settings utilities (usually in
+    the "Preferences" menu).
+command:
+- /opt/apps/nautilus-scripts-manager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
