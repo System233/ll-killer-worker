@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: setzer.linyaps
+  name: setzer
+  version: 62.0.0.1
+  kind: app
+  description: |-
+    simple yet full-featured LaTeX editor
+    Setzer features shortcuts for many LaTeX elements and symbols, a document
+    creation wizard, a dark mode, a high screen to content ratio and a good
+    side-by-side pdf viewer.
+command:
+- /opt/apps/setzer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
