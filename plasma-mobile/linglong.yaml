@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: plasma-mobile.linyaps
+  name: plasma-mobile
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    Open-source user interface for phones, based on Plasma technologies
+    Plasma Mobile is an open-source user interface and ecosystem targeted at
+    mobile devices, built on the KDE Plasma stack.
+
+    A pragmatic approach is taken that is inclusive to software regardless of
+    toolkit, giving users the power to choose whichever software they want to
+    use on their device.
+
+    Plasma Mobile aims to contribute to and implement open standards, and is
+    developed in a transparent process that is open for anyone to participate in.
+command:
+- /opt/apps/plasma-mobile.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
