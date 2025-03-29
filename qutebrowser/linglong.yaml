@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: qutebrowser.linyaps
+  name: qutebrowser
+  version: 2.5.4.2
+  kind: app
+  description: |-
+    Keyboard-driven, vim-like browser based on PyQt5
+    qutebrowser is a keyboard-focused browser with a minimal GUI. It's
+    based on Python and PyQt5 and was inspired by other browsers/addons
+    like dwb and Vimperator/Pentadactyl.
+
+    qutebrowser supports two different rendering engine backends:
+    QtWebKit and QtWebEngine.
+command:
+- /opt/apps/qutebrowser.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
