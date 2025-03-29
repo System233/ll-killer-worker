@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: pqiv.linyaps
+  name: pqiv
+  version: 2.12.0.1
+  kind: app
+  description: |-
+    Powerful image viewer with minimal UI
+    pqiv is a powerful GTK 3 based command-line image viewer with a minimal UI. It
+    is highly customizable, can be fully controlled from scripts, and has support
+    for various file formats including PDF, Postscript, video files and archives.
+    It is optimized to be quick and responsive.
+
+    It comes with support for animations, slideshows, transparency, VIM-like key
+    bindings, automated loading of new images as they appear, external image
+    filters, image preloading, and much more.
+
+    pqiv started as a Python rewrite of qiv avoiding imlib, but evolved into a
+    much more powerful tool. Today, pqiv stands for powerful quick image viewer.
+command:
+- /opt/apps/pqiv.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
