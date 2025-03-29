@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ubuntustudio-installer.linyaps
+  name: ubuntustudio-installer
+  version: 1.18.4.0
+  kind: app
+  description: |-
+    Software Installer for Ubuntu Studio
+    Installs Ubuntu Studio's backend configuration on Ubuntu and
+    official Ubuntu flavours and gives metapackage selection GUI
+    for users to creativity applications for their purposes or
+    further configure their installation.
+command:
+- /opt/apps/ubuntustudio-installer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
