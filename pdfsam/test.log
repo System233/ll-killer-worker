@@ -1,0 +1,28 @@
+正在测试: APPID=pdfsam.linyaps LAYER=pdfsam.linyaps_4.3.4.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install pdfsam.linyaps_4.3.4.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:pdfsam.linyaps
+Layer文件:pdfsam.linyaps_4.3.4.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pdfsam.linyaps_4.3.4.1_x86_64_binary.layer
+offset: 572
+mountpoint: /tmp/tmp.OCIpb0ZSvU/mnt
+dbglevel: 0
+[成功] pdfsam.desktop: pdfsam -> /opt/apps/pdfsam.linyaps/files/share/icons/hicolor/scalable/apps/pdfsam.svg
+[成功] /opt/apps/pdfsam.linyaps/files/share/applications/pdfsam.desktop: /opt/apps/pdfsam.linyaps/files/entrypoint.sh pdfsam %F
+[正在测试启动项]
+包名:pdfsam.linyaps
+Layer文件:pdfsam.linyaps_4.3.4.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pdfsam.linyaps_4.3.4.1_x86_64_binary.layer
+offset: 572
+mountpoint: /tmp/tmp.UIdx5oB1JE/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run pdfsam.linyaps -- /opt/apps/pdfsam.linyaps/files/entrypoint.sh pdfsam
+[PID 12463] 进程已启动
+[PID 12463] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall pdfsam.linyaps
