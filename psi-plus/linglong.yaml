@@ -1,0 +1,30 @@
+version: "1"
+package:
+  id: psi-plus.linyaps
+  name: psi-plus
+  version: 1.4.554.5
+  kind: app
+  description: |-
+    Qt-based XMPP client (basic version)
+    This package contains basic version of Psi+. Use it if you prefer old
+    fashioned plain text chats from era of IRC heyday.
+
+    Psi IM is a capable XMPP client aimed at experienced users. There are
+    keybindings for just about everything, Unicode is supported throughout,
+    contacts are cached offline. Security is also a major consideration, and
+    Psi IM provides it for both client-to-server (TLS) and client-to-client
+    (GnuPG, OTR, OMEMO).
+
+    Psi+ is a development branch of Psi IM. Project purposes are:
+    implementation of new features, writing of patches and plugins for
+    transferring them to Psi IM.
+
+    List of supported XEPs you may found at:
+    https://github.com/psi-im/psi/wiki/Supported-XEPs
+
+    Full list of Psi+ features you may found at:
+    https://psi-plus.com/wiki/en:features
+command:
+- /opt/apps/psi-plus.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
