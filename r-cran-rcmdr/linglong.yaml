@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: r-cran-rcmdr.linyaps
+  name: r-cran-rcmdr
+  version: 2.9.0.1
+  kind: app
+  description: |-
+    GNU R platform-independent basic-statistics GUI
+    This package provides a simple GUI, based on the GNU interface to Tcl/Tk,
+    that is suitable for teaching introductory statistics.
+command:
+- /opt/apps/r-cran-rcmdr.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
