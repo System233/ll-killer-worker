@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: pysatellites.linyaps
+  name: pysatellites
+  version: 2.7.0.2
+  kind: app
+  description: |-
+    simulates the launching of satellites
+    This program can be used to train people to spatial mechanics at an
+    elementary level. You are given the power to launch a satellite, from
+    outside the atmosphere, around a handful of predefined planets, or around
+    any special object you may imagine. Input the initial velocity vector of the
+    satellite, and you will get the simulated trajectory, as well as some
+    information like the plots of variation of speed. As an extra, you can
+    compute a movie, which represents the planet seen from the satellite's
+    point of view during its orbital period.
+command:
+- /opt/apps/pysatellites.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
