@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: progvis.linyaps
+  name: progvis
+  version: 0.6.20.1
+  kind: app
+  description: |-
+    Program visualization tool for C/C++ (and others)
+    A program visualization tool written in Storm. Supports a subset
+    of C/C++, and other languages supported by the Storm language
+    platform. Aimed at showing how concurrent programs interact with
+    pointers/references and other fundamental programming concepts.
+command:
+- /opt/apps/progvis.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
