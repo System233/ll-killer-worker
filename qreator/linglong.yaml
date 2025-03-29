@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: qreator.linyaps
+  name: qreator
+  version: 16.6.1.7
+  kind: app
+  description: |-
+    graphical utility for creating QR codes
+    Qreator enables you to easily create your own QR codes to encode different
+    types of information in an efficient, compact and cool way.
+
+    Qreator supports creating the following kinds of QR codes:
+    - Business card
+    - Geolocation
+    - Phone call/SMS
+    - Text
+    - URL
+    - Wi-Fi network
+command:
+- /opt/apps/qreator.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
