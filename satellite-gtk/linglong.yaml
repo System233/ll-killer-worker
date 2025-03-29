@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: satellite-gtk.linyaps
+  name: satellite-gtk
+  version: 0.4.2.1
+  kind: app
+  description: |-
+    Adaptive GTK application which displays GNSS data
+    Satellite is an adaptive GTK / libhandy application
+    which displays global navigation satellite system (GNSS: GPS et al.) data
+    obtained from ModemManager API.
+
+    It can also be used to record gpx tracks.
+command:
+- /opt/apps/satellite-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
