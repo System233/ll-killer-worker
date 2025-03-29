@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: picom.linyaps
+  name: picom
+  version: 10.2.0.3
+  kind: app
+  description: |-
+    lightweight compositor for X11
+    picom is a compositor for X11, based on xcompmgr. In addition to shadows,
+    fading and translucency, picom implements window frame opacity control,
+    inactive window transparency, and shadows on argb windows.
+
+    picom is a fork of compton as it seems to have become unmaintained.
+command:
+- /opt/apps/picom.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
