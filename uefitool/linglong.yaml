@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: uefitool.linyaps
+  name: uefitool
+  version: 0.28.0.1
+  kind: app
+  description: |-
+    UEFI firmware image viewer and editor
+    UEFITool is a cross-platform C++/Qt program for parsing, extracting and
+    modifying UEFI firmware images.
+
+    It supports parsing of full BIOS images starting with the flash descriptor or
+    any binary files containing UEFI volumes.
+
+    This package contains the GUI utility, UEFITool. For the CLI versions, see
+    uefitool-cli.
+command:
+- /opt/apps/uefitool.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
