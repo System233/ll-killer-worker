@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: osdlyrics.linyaps
+  name: osdlyrics
+  version: 0.5.15.2
+  kind: app
+  description: |-
+    Show synchronized lyrics with various media players
+    OSD Lyrics is a standalone desktop application to view lyrics. It is
+    compatible with various media players. It shows lyrics on your desktop
+    in the style similar to KaraOK. It also provides the feature to download
+    lyrics from the Internet automatically.
+command:
+- /opt/apps/osdlyrics.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
