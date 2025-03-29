@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: pineapple-pictures.linyaps
+  name: pineapple-pictures
+  version: 0.7.3.1
+  kind: app
+  description: |-
+    Lightweight Qt5 image viewer
+    An uncluttered and fast image viewer which is very simple and easy to
+    use. There is also an option to make the window stay on top so users
+    can also pin the window with their image as a reference image window
+    and work with other software they want. This software will always keep
+    the image file as-is, will never accidentally modify the original
+    image file when you just simply rotated the image and etc.
+
+    Key features:
+    - Minimized UI
+    - Fast
+    - Easy to use
+    - High quality scaling
+    - Never modify the original image file
+    - Stay-on-top option available for pinning reference image
+    and work with other applications
+command:
+- /opt/apps/pineapple-pictures.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
