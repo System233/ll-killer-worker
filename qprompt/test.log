@@ -1,0 +1,28 @@
+正在测试: APPID=qprompt.linyaps LAYER=qprompt.linyaps_1.1.6.0_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install qprompt.linyaps_1.1.6.0_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:qprompt.linyaps
+Layer文件:qprompt.linyaps_1.1.6.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: qprompt.linyaps_1.1.6.0_x86_64_binary.layer
+offset: 522
+mountpoint: /tmp/tmp.Gzz67NyQcG/mnt
+dbglevel: 0
+[成功] com.cuperino.qprompt.desktop: com.cuperino.qprompt -> /opt/apps/qprompt.linyaps/files/share/icons/hicolor/128x128/apps/com.cuperino.qprompt.png
+[成功] /opt/apps/qprompt.linyaps/files/share/applications/com.cuperino.qprompt.desktop: /opt/apps/qprompt.linyaps/files/entrypoint.sh qprompt %u
+[正在测试启动项]
+包名:qprompt.linyaps
+Layer文件:qprompt.linyaps_1.1.6.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: qprompt.linyaps_1.1.6.0_x86_64_binary.layer
+offset: 522
+mountpoint: /tmp/tmp.UTxROsWFYo/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run qprompt.linyaps -- /opt/apps/qprompt.linyaps/files/entrypoint.sh qprompt
+[PID 10296] 进程已启动
+[PID 10296] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall qprompt.linyaps
