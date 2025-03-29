@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: spek.linyaps
+  name: spek
+  version: 0.8.5.3
+  kind: app
+  description: |-
+    acoustic spectrum analyser
+    Spek helps to analyse your audio files by showing their spectrogram.
+    It supports all popular lossy and lossless audio file formats.
+
+    Features:
+
+    * Ultra-fast signal processing, uses multiple threads to further
+    speed up the analysis
+    * Shows the codec name and the audio signal parameters
+    * Can save the spectrogram as an image file
+    * Drag-and-drop support; associates with common audio file formats
+    * Auto-fitting time, frequency and spectral density rulers
+    * Adjustable spectral density range
+command:
+- /opt/apps/spek.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
