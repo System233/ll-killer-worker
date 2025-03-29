@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: sopwith.linyaps
+  name: sopwith
+  version: 2.5.0.1
+  kind: app
+  description: |-
+    port of the 1980's side-scrolling WWI dogfighting game
+    This is an updated version of the 1980's game developed by David L. Clark of
+    BMB Compuscience Canada.  It has been adapted to run under *nix using the SDL
+    toolkit. Poor graphics, stupid AI, and horrible sound await you. The gameplay
+    is simple, addictive, and fun. A `side-scroller', you pilot your biplane
+    across a static field, destroying enemy encampments and planes.
+command:
+- /opt/apps/sopwith.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
