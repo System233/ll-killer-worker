@@ -19,7 +19,7 @@ $(PKG_INDEX): $(TARGET_INDEX)
 index: $(PKG_INDEX)
 
 CHECK_PKGID=$(if $(PKGID),,$(error "未提供PKGID参数"))
-READ_CONFIG=IFS=, read -r PKGID VERSION CONFIG URL FILENAME <<<$$(grep -P "^$(PKGID)," "$(PKG_INDEX)" )
+READ_CONFIG=IFS=, read -r PKGID VERSION CONFIG URL FILENAME <<<$$(awk -F, -v pkgid="$(PKGID)" '$$1 == pkgid {print $$0}' "$(PKG_INDEX)")
 build test: 
 	$(CHECK_PKGID)
 	$(READ_CONFIG);\
