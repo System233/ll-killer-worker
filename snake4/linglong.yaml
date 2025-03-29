@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: snake4.linyaps
+  name: snake4
+  version: 1.0.14.1
+  kind: app
+  description: |-
+    Snake game
+    This is a basic but nice implementation of the snake game. The objective
+    is to "snake around" and eat fruit, while avoiding the evil headbanger
+    and not crashing into your tail.
+
+    Features five levels of difficulty and a site-wide high score list.
+command:
+- /opt/apps/snake4.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
