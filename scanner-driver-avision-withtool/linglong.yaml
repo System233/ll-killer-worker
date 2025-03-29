@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: scanner-driver-avision-withtool.linyaps
+  name: scanner-driver-avision-withtool
+  version: 0.1.0.23177
+  kind: app
+  description: SANE-Backend for Avision scanner
+command:
+- /opt/apps/scanner-driver-avision-withtool.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
