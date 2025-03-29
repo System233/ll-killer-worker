@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: rocksndiamonds.linyaps
+  name: rocksndiamonds
+  version: 4.3.8.1
+  kind: app
+  description: |-
+    arcade-style game
+    This package provides the game engine for Rocks'n'Diamonds, an arcade
+    game in the tradition of "Boulder Dash", "Emerald Mine", "Supaplex",
+    "Sokoban", etcetera. Game levels emulating all of these can be
+    downloaded from ArtSoft.org.
+command:
+- /opt/apps/rocksndiamonds.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
