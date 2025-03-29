@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: sweethome3d-furniture-editor.linyaps
+  name: sweethome3d-furniture-editor
+  version: 1.30.0.1
+  kind: app
+  description: |-
+    Sweet Home 3D Furniture Library Editor
+    Sweet Home 3D is an interior design Java application for quickly choosing and
+    placing furniture on a house 2D plan drawn by the end-user, with a 3D preview.
+
+    This package contains furniture library editor for creating your own libraries.
+command:
+- /opt/apps/sweethome3d-furniture-editor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
