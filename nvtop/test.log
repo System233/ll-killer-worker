@@ -1,0 +1,28 @@
+正在测试: APPID=nvtop.linyaps LAYER=nvtop.linyaps_3.0.2.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install nvtop.linyaps_3.0.2.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:nvtop.linyaps
+Layer文件:nvtop.linyaps_3.0.2.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: nvtop.linyaps_3.0.2.1_arm64_binary.layer
+offset: 596
+mountpoint: /tmp/tmp.qcPUFwdBQH/mnt
+dbglevel: 0
+[成功] nvtop.desktop: nvtop -> /opt/apps/nvtop.linyaps/files/share/icons/nvtop.svg
+[成功] /opt/apps/nvtop.linyaps/files/share/applications/nvtop.desktop: /opt/apps/nvtop.linyaps/files/entrypoint.sh nvtop
+[正在测试启动项]
+包名:nvtop.linyaps
+Layer文件:nvtop.linyaps_3.0.2.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: nvtop.linyaps_3.0.2.1_arm64_binary.layer
+offset: 596
+mountpoint: /tmp/tmp.7DNwuueN5o/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run nvtop.linyaps -- /opt/apps/nvtop.linyaps/files/entrypoint.sh nvtop
+[PID 5261] 进程已启动
+[PID 5261] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall nvtop.linyaps
