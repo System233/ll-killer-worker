@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: poedit.linyaps
+  name: poedit
+  version: 3.4.2.1
+  kind: app
+  description: |-
+    gettext catalog editor
+    Poedit is an editor for gettext catalogs (.po files). It aims to provide a
+    convenient approach to editing catalogs. It features UTF-8 support, fuzzy and
+    untranslated records highlighting, whitespace highlighting, references browser,
+    header editing and can be used to create new catalogs or update existing
+    catalogs from source code with a single click. It is built with wxWidgets
+    toolkit.
+command:
+- /opt/apps/poedit.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
