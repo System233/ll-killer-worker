@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: pavucontrol-qt.linyaps
+  name: pavucontrol-qt
+  version: 1.4.0.0
+  kind: app
+  description: |-
+    Qt port of volume control pavucontrol
+    Qt port of volume control pavucontrol of sound server PulseAudio. As such it
+    can be used to adjust all controls provided by PulseAudio as well as some
+    additional settings.
+
+    The software belongs to the LXQt project but its usage isn't limited to this
+    desktop environment.
+
+    This package contain the application files.
+command:
+- /opt/apps/pavucontrol-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
