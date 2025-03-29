@@ -1,11 +1,11 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|2382|1418 |964 | 59.53%| 45.76%|
+|3099|2413|1442 |971 | 59.76%| 46.53%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|2086|1309 |777 | 62.75%| 47.44%|
+|ubuntu-noble|2759|2117|1333 |784 | 62.97%| 48.31%|
 |deepin-v23|340|296|109 |187 | 36.82%| 32.06%|
 ## 详细结果
 | 包名  | 架构 |仓库| 版本 | 测试结果 | SHA256 |killer版本|
@@ -2385,10 +2385,41 @@
 | [renpy-thequestion](./renpy-thequestion) | arm64  | ubuntu-noble | 8.1.3+dfsg-1build2-20250327 | 失败 | [SHA256](./renpy-thequestion/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [repetier-host](./repetier-host) | arm64  | ubuntu-noble | 0.85+dfsg-5-20250327 | 失败 | [SHA256](./repetier-host/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [reportbug-gtk](./reportbug-gtk) | arm64  | ubuntu-noble | 13.0.1ubuntu1-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [retext](./retext) | arm64  | ubuntu-noble | 8.0.2-1 | ![screen0-5.jpg](./retext/tests/screen0-5.jpg) | [SHA256](./retext/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [retroarch](./retroarch) | arm64  | ubuntu-noble | 1.18.0+dfsg-1 | ![screen0-5.jpg](./retroarch/tests/screen0-5.jpg) | [SHA256](./retroarch/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [revelation](./revelation) | arm64  | ubuntu-noble | 0.5.5-1-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
 | [revolt](./revolt) | arm64  | ubuntu-noble | 0.0+git20211216.7f6f762-2-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
 | [rfdump](./rfdump) | arm64  | ubuntu-noble | 1.6-9.1build2 | ![screen0-5.jpg](./rfdump/tests/screen0-5.jpg) | [SHA256](./rfdump/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [rgbpaint](./rgbpaint) | arm64  | ubuntu-noble | 0.8.7-6.1build3 | ![screen0-5.jpg](./rgbpaint/tests/screen0-5.jpg) | [SHA256](./rgbpaint/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [rhinote](./rhinote) | arm64  | ubuntu-noble | 0.7.4-5-20250327 | 失败 | [SHA256](./rhinote/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rhythmbox](./rhythmbox) | arm64  | ubuntu-noble | 3.4.7-2ubuntu6 | ![screen0-5.jpg](./rhythmbox/tests/screen0-5.jpg) | [SHA256](./rhythmbox/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [ri-li](./ri-li) | arm64  | ubuntu-noble | 3.1.4-1build2 | ![screen0-5.jpg](./ri-li/tests/screen0-5.jpg) | [SHA256](./ri-li/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [ricochet](./ricochet) | arm64  | ubuntu-noble | 0.10-20250327 | 失败 | [SHA256](./ricochet/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [ricochet-im](./ricochet-im) | arm64  | ubuntu-noble | 1.1.4-3build8 | ![screen0-5.jpg](./ricochet-im/tests/screen0-5.jpg) | [SHA256](./ricochet-im/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [ripoff](./ripoff) | arm64  | ubuntu-noble | 0.8.3-0ubuntu20 | ![screen0-5.jpg](./ripoff/tests/screen0-5.jpg) | [SHA256](./ripoff/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [ripperx](./ripperx) | arm64  | ubuntu-noble | 2.8.0-3build2 | ![screen0-5.jpg](./ripperx/tests/screen0-5.jpg) | [SHA256](./ripperx/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [riseup-vpn](./riseup-vpn) | arm64  | ubuntu-noble | 0.21.11+ds1-5ubuntu2.2 | ![screen0-5.jpg](./riseup-vpn/tests/screen0-5.jpg) | [SHA256](./riseup-vpn/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [ristretto](./ristretto) | arm64  | ubuntu-noble | 0.13.1-1build2 | ![screen0-5.jpg](./ristretto/tests/screen0-5.jpg) | [SHA256](./ristretto/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rkward](./rkward) | arm64  | ubuntu-noble | 0.7.5-2build2 | ![screen0-5.jpg](./rkward/tests/screen0-5.jpg) | [SHA256](./rkward/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rlvm](./rlvm) | arm64  | ubuntu-noble | 0.14-5.2build3 | ![screen0-5.jpg](./rlvm/tests/screen0-5.jpg) | [SHA256](./rlvm/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rmlint-gui](./rmlint-gui) | arm64  | ubuntu-noble | 2.9.0-2.3-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [robocode](./robocode) | arm64  | ubuntu-noble | 1.9.3.9-3-20250327 | 失败 | [SHA256](./robocode/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [robocut](./robocut) | arm64  | ubuntu-noble | 1.0.11-1build3 | ![screen0-5.jpg](./robocut/tests/screen0-5.jpg) | [SHA256](./robocut/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [robotfindskitten](./robotfindskitten) | arm64  | ubuntu-noble | 2.8284271.702-1-20250327 | 失败 | [SHA256](./robotfindskitten/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rockdodger](./rockdodger) | arm64  | ubuntu-noble | 1.1.4-2 | ![screen0-5.jpg](./rockdodger/tests/screen0-5.jpg) | [SHA256](./rockdodger/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rockhopper](./rockhopper) | arm64  | ubuntu-noble | 2.0.3+dfsg2-4 | ![screen0-5.jpg](./rockhopper/tests/screen0-5.jpg) | [SHA256](./rockhopper/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rocksndiamonds](./rocksndiamonds) | arm64  | ubuntu-noble | 4.3.8.1+dfsg-1 | ![screen0-5.jpg](./rocksndiamonds/tests/screen0-5.jpg) | [SHA256](./rocksndiamonds/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rocs](./rocs) | arm64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./rocs/tests/screen0-5.jpg) | [SHA256](./rocs/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rofi](./rofi) | arm64  | ubuntu-noble | 1.7.5-0.1build2 | ![screen0-5.jpg](./rofi/tests/screen0-5.jpg) ![screen1-5.jpg](./rofi/tests/screen1-5.jpg) | [SHA256](./rofi/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rosegarden](./rosegarden) | arm64  | ubuntu-noble | 22.12.1-2build3 | ![screen0-5.jpg](./rosegarden/tests/screen0-5.jpg) | [SHA256](./rosegarden/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rott](./rott) | arm64  | ubuntu-noble | 20230810-1-20250327 | 失败 | [SHA256](./rott/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rpi-imager](./rpi-imager) | arm64  | ubuntu-noble | 1.8.5+noembed-0ubuntu5 | ![screen0-5.jpg](./rpi-imager/tests/screen0-5.jpg) | [SHA256](./rpi-imager/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rrootage](./rrootage) | arm64  | ubuntu-noble | 0.23a-13 | ![screen0-5.jpg](./rrootage/tests/screen0-5.jpg) | [SHA256](./rrootage/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rsibreak](./rsibreak) | arm64  | ubuntu-noble | 0.12.15-1build2 | ![screen0-5.jpg](./rsibreak/tests/screen0-5.jpg) | [SHA256](./rsibreak/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rss-glx](./rss-glx) | arm64  | ubuntu-noble | 0.9.1-6.5build2-20250327 | 失败 | [SHA256](./rss-glx/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rssguard](./rssguard) | arm64  | ubuntu-noble | 4.0.4+dfsg-1.1build2 | ![screen0-5.jpg](./rssguard/tests/screen0-5.jpg) | [SHA256](./rssguard/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rtcw](./rtcw) | arm64  | ubuntu-noble | 1.51.c+dfsg1-7build2-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [runescape](./runescape) | arm64  | ubuntu-noble | 0.8-2 | ![screen0-5.jpg](./runescape/tests/screen0-5.jpg) | [SHA256](./runescape/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rxvt-unicode](./rxvt-unicode) | arm64  | ubuntu-noble | 9.31-3build2 | ![screen0-5.jpg](./rxvt-unicode/tests/screen0-5.jpg) | [SHA256](./rxvt-unicode/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rygel](./rygel) | arm64  | ubuntu-noble | 0.42.5-1ubuntu3-20250327 | 失败 | [SHA256](./rygel/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rygel-preferences](./rygel-preferences) | arm64  | ubuntu-noble | 0.42.5-1ubuntu3 | ![screen0-5.jpg](./rygel-preferences/tests/screen0-5.jpg) | [SHA256](./rygel-preferences/SHA256SUMS) | v1.5.2-arm64-nevm |
