@@ -1,0 +1,25 @@
+正在测试: APPID=oidc-agent-desktop.linyaps LAYER=oidc-agent-desktop.linyaps_4.2.6.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install oidc-agent-desktop.linyaps_4.2.6.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:oidc-agent-desktop.linyaps
+Layer文件:oidc-agent-desktop.linyaps_4.2.6.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: oidc-agent-desktop.linyaps_4.2.6.1_x86_64_binary.layer
+offset: 971
+mountpoint: /tmp/tmp.JN0RMng343/mnt
+dbglevel: 0
+[成功] oidc-gen.desktop: utilities-terminal -> /usr/share/icons/Humanity/apps/16/utilities-terminal.svg
+[成功] /opt/apps/oidc-agent-desktop.linyaps/files/share/applications/oidc-gen.desktop: /opt/apps/oidc-agent-desktop.linyaps/files/entrypoint.sh x-terminal-emulator -e bash -c "/usr/bin/oidc-gen --codeExchange=%u; exec bash"
+[正在测试启动项]
+包名:oidc-agent-desktop.linyaps
+Layer文件:oidc-agent-desktop.linyaps_4.2.6.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: oidc-agent-desktop.linyaps_4.2.6.1_x86_64_binary.layer
+offset: 971
+mountpoint: /tmp/tmp.aVGvL1K6y6/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall oidc-agent-desktop.linyaps
