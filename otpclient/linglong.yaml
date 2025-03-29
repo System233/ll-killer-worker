@@ -1,0 +1,31 @@
+version: "1"
+package:
+  id: otpclient.linyaps
+  name: otpclient
+  version: 3.2.1.2
+  kind: app
+  description: |-
+    Simple GTK+ software to generate OTPs (TOTP and HOTP)
+    OTPClient is GTK+ software for two-factor authentication
+    that supports both Time-based One-time Passwords (TOTP)
+    and HMAC-Based One-Time Passwords (HOTP).
+
+    Features:
+    - Support both TOTP and HOTP.
+    - Support setting custom digits (between 4 and 10 inclusive).
+    - Support setting a custom period (between 10 and 120 seconds inclusive).
+    - Support SHA1, SHA256 and SHA512 algorithms.
+    - Support for Steam codes.
+    - Import encrypted Authenticator Plus backup.
+    - Import and export encrypted and/or plain andOTP backup.
+    - Import and export plain FreeOTPPlus backup (key URI format only).
+    - Import and export plain Aegis backup (plain json only).
+    - Local database is encrypted using AES256-GCM.
+    * Key is derived using PBKDF2 with SHA512 and 100k iterations.
+    * Decrypted file is never saved (and hopefully never swapped) to disk.
+    While the app is running, the decrypted content resides
+    in a "secure memory" buffer allocated by Gcrypt.
+command:
+- /opt/apps/otpclient.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
