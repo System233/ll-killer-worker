@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: qt6ct.linyaps
+  name: qt6ct
+  version: 0.9.0.2
+  kind: app
+  description: |-
+    Qt6 Configuration Tool
+    Allows users to configure Qt6 settings (theme, font, icons, etc.)
+    under DE/WM without Qt integration.
+command:
+- /opt/apps/qt6ct.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
