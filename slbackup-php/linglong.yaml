@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: slbackup-php.linyaps
+  name: slbackup-php
+  version: 0.4.5.5
+  kind: app
+  description: |-
+    Web-based administration tool for slbackup
+    Slbackup-php provides the necessary functions to maintain a slbackup
+    repository.
+
+    Features:
+    - scheduling of slbackup execution;
+    - editing of the configuration file;
+    - verifying SSH keys and successful backups;
+    - restoring from backups;
+    - removing old backups from the repository.
+command:
+- /opt/apps/slbackup-php.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
