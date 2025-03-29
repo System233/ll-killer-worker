@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: swami.linyaps
+  name: swami
+  version: 2.2.2.2
+  kind: app
+  description: |-
+    MIDI instrument editor application
+    Swami (Sampled Waveforms And Musical Instruments) is an application
+    for editing and managing MIDI instruments, such as SoundFont files.
+    A programming API is also provided for integration with other
+    applications.
+command:
+- /opt/apps/swami.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
