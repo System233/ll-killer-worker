@@ -1,0 +1,96 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libfltk-images1.3t64 libfltk1.3t64 libfreeimage3 libimath-3-1-29t64
+  libjpeg-turbo8 libjpeg8 libjxr0t64 libopenexr-3-1-30 libpng16-16t64
+  libraw23t64
+The following packages will be REMOVED:
+  libjpeg-turbo-progs libpng16-16 libturbojpeg0 xscreensaver-data-extra
+The following NEW packages will be installed:
+  libfltk-images1.3t64 libfltk1.3t64 libfreeimage3 libimath-3-1-29t64
+  libjpeg-turbo8 libjpeg8 libjxr0t64 libopenexr-3-1-30 libpng16-16t64
+  libraw23t64 posterazor
+0 upgraded, 11 newly installed, 4 to remove and 452 not upgraded.
+Need to get 3039 kB of archives.
+After this operation, 1108 kB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpng16-16t64 amd64 1.6.43-5build1 [187 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libfltk1.3t64 amd64 1.3.8-6.1build2 [606 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-turbo8 amd64 2.1.5-2ubuntu2 [150 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg8 amd64 8c-2ubuntu11 [2148 B]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libfltk-images1.3t64 amd64 1.3.8-6.1build2 [28.3 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libimath-3-1-29t64 amd64 3.1.9-3.1ubuntu2 [72.2 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libjxr0t64 amd64 1.2~git20170615.f752187-5.1ubuntu2 [181 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libopenexr-3-1-30 amd64 3.1.5-5.1build3 [1004 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libraw23t64 amd64 0.21.2-2.1build1 [378 kB]
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libfreeimage3 amd64 3.18.0+ds2-10build4 [297 kB]
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 posterazor amd64 1.5.1-10build2 [133 kB]
+Fetched 3039 kB in 0s (13.4 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing xscreensaver-data-extra (6.02+dfsg1-3) ...
+Removing libjpeg-turbo-progs (1:2.1.5-2) ...
+dpkg: libpng16-16:amd64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:amd64 depends on libpng16-16 (>= 1.6.2).
+
+Removing libpng16-16:amd64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27161 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_amd64.deb ...
+Unpacking libpng16-16t64:amd64 (1.6.43-5build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27172 files and directories currently installed.)
+Removing libturbojpeg0:amd64 (1:2.1.5-2) ...
+Selecting previously unselected package libfltk1.3t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27165 files and directories currently installed.)
+Preparing to unpack .../0-libfltk1.3t64_1.3.8-6.1build2_amd64.deb ...
+Unpacking libfltk1.3t64:amd64 (1.3.8-6.1build2) ...
+Selecting previously unselected package libjpeg-turbo8:amd64.
+Preparing to unpack .../1-libjpeg-turbo8_2.1.5-2ubuntu2_amd64.deb ...
+Unpacking libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Selecting previously unselected package libjpeg8:amd64.
+Preparing to unpack .../2-libjpeg8_8c-2ubuntu11_amd64.deb ...
+Unpacking libjpeg8:amd64 (8c-2ubuntu11) ...
+Selecting previously unselected package libfltk-images1.3t64:amd64.
+Preparing to unpack .../3-libfltk-images1.3t64_1.3.8-6.1build2_amd64.deb ...
+Unpacking libfltk-images1.3t64:amd64 (1.3.8-6.1build2) ...
+Selecting previously unselected package libimath-3-1-29t64:amd64.
+Preparing to unpack .../4-libimath-3-1-29t64_3.1.9-3.1ubuntu2_amd64.deb ...
+Unpacking libimath-3-1-29t64:amd64 (3.1.9-3.1ubuntu2) ...
+Selecting previously unselected package libjxr0t64:amd64.
+Preparing to unpack .../5-libjxr0t64_1.2~git20170615.f752187-5.1ubuntu2_amd64.deb ...
+Unpacking libjxr0t64:amd64 (1.2~git20170615.f752187-5.1ubuntu2) ...
+Selecting previously unselected package libopenexr-3-1-30:amd64.
+Preparing to unpack .../6-libopenexr-3-1-30_3.1.5-5.1build3_amd64.deb ...
+Unpacking libopenexr-3-1-30:amd64 (3.1.5-5.1build3) ...
+Selecting previously unselected package libraw23t64:amd64.
+Preparing to unpack .../7-libraw23t64_0.21.2-2.1build1_amd64.deb ...
+Unpacking libraw23t64:amd64 (0.21.2-2.1build1) ...
+Selecting previously unselected package libfreeimage3:amd64.
+Preparing to unpack .../8-libfreeimage3_3.18.0+ds2-10build4_amd64.deb ...
+Unpacking libfreeimage3:amd64 (3.18.0+ds2-10build4) ...
+Selecting previously unselected package posterazor.
+Preparing to unpack .../9-posterazor_1.5.1-10build2_amd64.deb ...
+Unpacking posterazor (1.5.1-10build2) ...
+Setting up libjxr0t64:amd64 (1.2~git20170615.f752187-5.1ubuntu2) ...
+Setting up libpng16-16t64:amd64 (1.6.43-5build1) ...
+Setting up libimath-3-1-29t64:amd64 (3.1.9-3.1ubuntu2) ...
+Setting up libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Setting up libfltk1.3t64:amd64 (1.3.8-6.1build2) ...
+Setting up libjpeg8:amd64 (8c-2ubuntu11) ...
+Setting up libfltk-images1.3t64:amd64 (1.3.8-6.1build2) ...
+Setting up libopenexr-3-1-30:amd64 (3.1.5-5.1build3) ...
+Setting up libraw23t64:amd64 (0.21.2-2.1build1) ...
+Setting up libfreeimage3:amd64 (3.18.0+ds2-10build4) ...
+Setting up posterazor (1.5.1-10build2) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
