@@ -1,0 +1,136 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libasound2-data libasound2t64 libhidapi-libusb0 libjpeg-turbo8 libjpeg8
+  libopenhmd0 libpng16-16t64 libsdl2-2.0-0 libsdl2-ttf-2.0-0 libvorbis0a
+  libvorbisenc2 libvorbisfile3 libxss1 neverball-common neverputt-data
+Suggested packages:
+  alsa-utils xdg-utils fonts-wqy-microhei neverball
+Recommended packages:
+  alsa-ucm-conf alsa-topology-conf
+The following packages will be REMOVED:
+  libasound2 libjpeg-turbo-progs libpng16-16 libturbojpeg0
+  xscreensaver-data-extra
+The following NEW packages will be installed:
+  libasound2t64 libhidapi-libusb0 libjpeg-turbo8 libjpeg8 libopenhmd0
+  libpng16-16t64 libsdl2-2.0-0 libsdl2-ttf-2.0-0 libvorbisfile3 libxss1
+  neverball-common neverputt neverputt-data
+The following packages will be upgraded:
+  libasound2-data libvorbis0a libvorbisenc2
+3 upgraded, 13 newly installed, 5 to remove and 447 not upgraded.
+Need to get 26.6 MB of archives.
+After this operation, 47.0 MB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libasound2-data all 1.2.11-1build2 [21.0 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libasound2t64 arm64 1.2.11-1build2 [387 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libpng16-16t64 arm64 1.6.43-5build1 [185 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjpeg-turbo8 arm64 2.1.5-2ubuntu2 [163 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjpeg8 arm64 8c-2ubuntu11 [2148 B]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libhidapi-libusb0 arm64 0.14.0-1build1 [17.2 kB]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libopenhmd0 arm64 0.3.0-1.1 [71.6 kB]
+Get:8 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxss1 arm64 1:1.2.3-1build3 [7244 B]
+Get:9 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libsdl2-2.0-0 arm64 2.30.0+dfsg-1build3 [671 kB]
+Get:10 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libsdl2-ttf-2.0-0 arm64 2.22.0+dfsg-1 [31.1 kB]
+Get:11 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libvorbisenc2 arm64 1.3.7-1build3 [80.0 kB]
+Get:12 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libvorbis0a arm64 1.3.7-1build3 [94.0 kB]
+Get:13 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libvorbisfile3 arm64 1.3.7-1build3 [17.1 kB]
+Get:14 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 neverball-common all 1.6.0+git20180603-3build2 [16.8 MB]
+Get:15 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 neverputt-data all 1.6.0+git20180603-3build2 [7906 kB]
+Get:16 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 neverputt arm64 1.6.0+git20180603-3build2 [109 kB]
+Fetched 26.6 MB in 3s (10.0 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libasound2-data_1.2.11-1build2_all.deb ...
+Unpacking libasound2-data (1.2.11-1build2) over (1.2.8-1) ...
+dpkg: libasound2:arm64: dependency problems, but removing anyway as you requested:
+ pulseaudio depends on libasound2 (>= 1.2.1.1).
+ pipewire-bin depends on libasound2 (>= 1.2.1.1).
+ libspa-0.2-modules:arm64 depends on libasound2 (>= 1.2.1.1).
+ libasound2-plugins:arm64 depends on libasound2 (>= 1.2.5).
+ bluez depends on libasound2 (>= 1.0.17).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Removing libasound2:arm64 (1.2.8-1) ...
+Selecting previously unselected package libasound2t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27733 files and directories currently installed.)
+Preparing to unpack .../libasound2t64_1.2.11-1build2_arm64.deb ...
+Unpacking libasound2t64:arm64 (1.2.11-1build2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27741 files and directories currently installed.)
+Removing xscreensaver-data-extra (6.02+dfsg1-3) ...
+Removing libjpeg-turbo-progs (1:2.1.5-2) ...
+dpkg: libpng16-16:arm64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:arm64 depends on libpng16-16 (>= 1.6.2).
+
+Removing libpng16-16:arm64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27308 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_arm64.deb ...
+Unpacking libpng16-16t64:arm64 (1.6.43-5build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27319 files and directories currently installed.)
+Removing libturbojpeg0:arm64 (1:2.1.5-2) ...
+Selecting previously unselected package libjpeg-turbo8:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27312 files and directories currently installed.)
+Preparing to unpack .../00-libjpeg-turbo8_2.1.5-2ubuntu2_arm64.deb ...
+Unpacking libjpeg-turbo8:arm64 (2.1.5-2ubuntu2) ...
+Selecting previously unselected package libjpeg8:arm64.
+Preparing to unpack .../01-libjpeg8_8c-2ubuntu11_arm64.deb ...
+Unpacking libjpeg8:arm64 (8c-2ubuntu11) ...
+Selecting previously unselected package libhidapi-libusb0:arm64.
+Preparing to unpack .../02-libhidapi-libusb0_0.14.0-1build1_arm64.deb ...
+Unpacking libhidapi-libusb0:arm64 (0.14.0-1build1) ...
+Selecting previously unselected package libopenhmd0:arm64.
+Preparing to unpack .../03-libopenhmd0_0.3.0-1.1_arm64.deb ...
+Unpacking libopenhmd0:arm64 (0.3.0-1.1) ...
+Selecting previously unselected package libxss1:arm64.
+Preparing to unpack .../04-libxss1_1%3a1.2.3-1build3_arm64.deb ...
+Unpacking libxss1:arm64 (1:1.2.3-1build3) ...
+Selecting previously unselected package libsdl2-2.0-0:arm64.
+Preparing to unpack .../05-libsdl2-2.0-0_2.30.0+dfsg-1build3_arm64.deb ...
+Unpacking libsdl2-2.0-0:arm64 (2.30.0+dfsg-1build3) ...
+Selecting previously unselected package libsdl2-ttf-2.0-0:arm64.
+Preparing to unpack .../06-libsdl2-ttf-2.0-0_2.22.0+dfsg-1_arm64.deb ...
+Unpacking libsdl2-ttf-2.0-0:arm64 (2.22.0+dfsg-1) ...
+Preparing to unpack .../07-libvorbisenc2_1.3.7-1build3_arm64.deb ...
+Unpacking libvorbisenc2:arm64 (1.3.7-1build3) over (1.3.7-1) ...
+Preparing to unpack .../08-libvorbis0a_1.3.7-1build3_arm64.deb ...
+Unpacking libvorbis0a:arm64 (1.3.7-1build3) over (1.3.7-1) ...
+Selecting previously unselected package libvorbisfile3:arm64.
+Preparing to unpack .../09-libvorbisfile3_1.3.7-1build3_arm64.deb ...
+Unpacking libvorbisfile3:arm64 (1.3.7-1build3) ...
+Selecting previously unselected package neverball-common.
+Preparing to unpack .../10-neverball-common_1.6.0+git20180603-3build2_all.deb ...
+Unpacking neverball-common (1.6.0+git20180603-3build2) ...
+Selecting previously unselected package neverputt-data.
+Preparing to unpack .../11-neverputt-data_1.6.0+git20180603-3build2_all.deb ...
+Unpacking neverputt-data (1.6.0+git20180603-3build2) ...
+Selecting previously unselected package neverputt.
+Preparing to unpack .../12-neverputt_1.6.0+git20180603-3build2_arm64.deb ...
+Unpacking neverputt (1.6.0+git20180603-3build2) ...
+Setting up libasound2-data (1.2.11-1build2) ...
+Setting up libasound2t64:arm64 (1.2.11-1build2) ...
+Setting up libpng16-16t64:arm64 (1.6.43-5build1) ...
+Setting up libvorbis0a:arm64 (1.3.7-1build3) ...
+Setting up libhidapi-libusb0:arm64 (0.14.0-1build1) ...
+Setting up libjpeg-turbo8:arm64 (2.1.5-2ubuntu2) ...
+Setting up neverball-common (1.6.0+git20180603-3build2) ...
+Setting up libxss1:arm64 (1:1.2.3-1build3) ...
+Setting up libsdl2-2.0-0:arm64 (2.30.0+dfsg-1build3) ...
+Setting up libvorbisenc2:arm64 (1.3.7-1build3) ...
+Setting up libjpeg8:arm64 (8c-2ubuntu11) ...
+Setting up libopenhmd0:arm64 (0.3.0-1.1) ...
+Setting up neverputt-data (1.6.0+git20180603-3build2) ...
+Setting up libvorbisfile3:arm64 (1.3.7-1build3) ...
+Setting up libsdl2-ttf-2.0-0:arm64 (2.22.0+dfsg-1) ...
+Setting up neverputt (1.6.0+git20180603-3build2) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
