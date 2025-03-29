@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: opentyrian.linyaps
+  name: opentyrian
+  version: 2.1.20221123.1
+  kind: app
+  description: |-
+    open-source port of the DOS shoot-em-up Tyrian
+    Tyrian is an arcade-style vertical scrolling shooter. The story is set in
+    20,031 where you play as Trent Hawkins, a skilled fighter-pilot employed to
+    fight Microsol and save the galaxy.
+
+    This package needs game data from the original Tyrian game, which is available
+    as a freeware. It can be installed using game-data-packager.
+command:
+- /opt/apps/opentyrian.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
