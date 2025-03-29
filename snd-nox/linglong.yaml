@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: snd-nox.linyaps
+  name: snd-nox
+  version: 24.1.0.1
+  kind: app
+  description: |-
+    Sound file editor (cmdline)
+    Snd is a powerful sound file editor that can be customized and extended
+    using the Scheme programming language.
+
+    This package contains a version of snd compiled with both JACK and ALSA
+    support, but without support for X.
+command:
+- /opt/apps/snd-nox.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
