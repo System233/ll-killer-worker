@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: pidgin.linyaps
+  name: pidgin
+  version: 2.14.13.1
+  kind: app
+  description: |-
+    graphical multi-protocol instant messaging client
+    Pidgin is a graphical, modular instant messaging client capable of using
+    multiple networks at once.  Currently supported out of the box are:
+    Jabber/XMPP, Bonjour, Gadu-Gadu, IRC, Novell GroupWise Messenger, Lotus
+    Sametime, SIMPLE, and Zephyr. It can support many more with plugins.
+
+    Some extra packages are suggested to use increased functionality:
+    * gnome-panel | kdebase-workspace-bin | docker:
+    - To use the system tray icon functionality (minimizing to an icon, having
+    the icon blink when there are new messages, etc.)
+    * libsqlite3-0:
+    - To use Contact Availability Prediction plugin
+command:
+- /opt/apps/pidgin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
