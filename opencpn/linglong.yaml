@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: opencpn.linyaps
+  name: opencpn
+  version: 5.8.4.1
+  kind: app
+  description: |-
+    Open Source Chartplotter and Marine GPS Navigation Software
+    Chart Plotter and Navigational software program for use underway
+    or as a planning tool. Developed by a team of active sailors using real
+    world conditions for program testing and refinement.
+    By default supports raster and vector formats like BSB and S63. Support for
+    many other formats are available in plugins. Other plugins provides
+    support for e. g., AIS, radar and weather maps.
+    Application has language support in 20+ languages.
+
+    This package contains programs, libraries and some support files.
+command:
+- /opt/apps/opencpn.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
