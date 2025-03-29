@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: pycirkuit.linyaps
+  name: pycirkuit
+  version: 0.5.1.3
+  kind: app
+  description: |-
+    front-end for "Circuit Macros" and the PIC language
+    PyCirkuit is a front-end for Dwight Aplevich's Circuit Macros,
+    which is a set of macros for drawing high-quality line diagrams
+    to include in TeX, LaTeX, etc. PyCirkuit builds a live preview
+    and allows it to be exported as TikZ.
+command:
+- /opt/apps/pycirkuit.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
