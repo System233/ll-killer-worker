@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: neovim-qt.linyaps
+  name: neovim-qt
+  version: 0.2.18.1
+  kind: app
+  description: |-
+    neovim client library and GUI
+    neovim-qt provides a Qt5 GUI interface for neovim
+command:
+- /opt/apps/neovim-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
