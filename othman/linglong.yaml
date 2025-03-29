@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: othman.linyaps
+  name: othman
+  version: 1.0.0.2
+  kind: app
+  description: |-
+    electronic Quran browser
+    Othman electronic Quran browser displays Quranic text in Arabic Othmani script
+    style as written under authority of Othman ibn Affan the companion of prophet
+    Muhammad (Peace Be Upon Him).
+
+    Othman browser features fast search, autoscrolling, copying Quranic text to
+    clipboard.
+command:
+- /opt/apps/othman.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
