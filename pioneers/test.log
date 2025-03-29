@@ -1,0 +1,56 @@
+正在测试: APPID=pioneers.linyaps LAYER=pioneers.linyaps_15.6.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install pioneers.linyaps_15.6.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:pioneers.linyaps
+Layer文件:pioneers.linyaps_15.6.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pioneers.linyaps_15.6.0.1_arm64_binary.layer
+offset: 642
+mountpoint: /tmp/tmp.fFi8n0rPx1/mnt
+dbglevel: 0
+[成功] pioneers-editor.desktop: pioneers-editor -> /opt/apps/pioneers.linyaps/files/share/icons/hicolor/48x48/apps/pioneers-editor.png
+[成功] /opt/apps/pioneers.linyaps/files/share/applications/pioneers-editor.desktop: /opt/apps/pioneers.linyaps/files/entrypoint.sh pioneers-editor
+[成功] pioneers-server-gtk.desktop: pioneers-server -> /opt/apps/pioneers.linyaps/files/share/icons/hicolor/48x48/apps/pioneers-server.png
+[成功] /opt/apps/pioneers.linyaps/files/share/applications/pioneers-server-gtk.desktop: /opt/apps/pioneers.linyaps/files/entrypoint.sh pioneers-server-gtk
+[成功] pioneers.desktop: pioneers -> /opt/apps/pioneers.linyaps/files/share/icons/hicolor/48x48/apps/pioneers.png
+[成功] /opt/apps/pioneers.linyaps/files/share/applications/pioneers.desktop: /opt/apps/pioneers.linyaps/files/entrypoint.sh pioneers
+[正在测试启动项]
+包名:pioneers.linyaps
+Layer文件:pioneers.linyaps_15.6.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pioneers.linyaps_15.6.0.1_arm64_binary.layer
+offset: 642
+mountpoint: /tmp/tmp.k1qUqxuCTu/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run pioneers.linyaps -- /opt/apps/pioneers.linyaps/files/entrypoint.sh pioneers-editor
+[PID 15920] 进程已启动
+[PID 15920] 已检测到窗口:PID=37
+[PID 15920] 正在截图 0秒: tests/screen0-0.jpg
+[PID 15920] 正在截图 1秒: tests/screen0-1.jpg
+[PID 15920] 正在截图 3秒: tests/screen0-3.jpg
+[PID 15920] 正在截图 5秒: tests/screen0-5.jpg
+[PID 15920] 正在通知并等待进程退出
+[PID 15920] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run pioneers.linyaps -- /opt/apps/pioneers.linyaps/files/entrypoint.sh pioneers-server-gtk
+[PID 16120] 进程已启动
+[PID 16120] 已检测到窗口:PID=37
+[PID 16120] 正在截图 0秒: tests/screen1-0.jpg
+[PID 16120] 正在截图 1秒: tests/screen1-1.jpg
+[PID 16120] 正在截图 3秒: tests/screen1-3.jpg
+[PID 16120] 正在截图 5秒: tests/screen1-5.jpg
+[PID 16120] 正在通知并等待进程退出
+[PID 16120] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run pioneers.linyaps -- /opt/apps/pioneers.linyaps/files/entrypoint.sh pioneers
+[PID 16295] 进程已启动
+[PID 16295] 已检测到窗口:PID=36
+[PID 16295] 正在截图 0秒: tests/screen2-0.jpg
+[PID 16295] 正在截图 1秒: tests/screen2-1.jpg
+[PID 16295] 正在截图 3秒: tests/screen2-3.jpg
+[PID 16295] 正在截图 5秒: tests/screen2-5.jpg
+[PID 16295] 正在通知并等待进程退出
+[PID 16295] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall pioneers.linyaps

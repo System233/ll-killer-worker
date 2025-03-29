@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: pioneers.linyaps
+  name: pioneers
+  version: 15.6.0.1
+  kind: app
+  description: |-
+    Settlers of Catan board game
+    Pioneers is a computer implementation of the Settlers of Catan board game.
+    It can be played over the internet.
+
+    The game includes a server, a client, a computer player, an editor and
+    (in a separate package) a metaserver (for locating running servers).
+command:
+- /opt/apps/pioneers.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
