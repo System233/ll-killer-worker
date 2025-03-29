@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: qtcreator.linyaps
+  name: qtcreator
+  version: 15.0.0.2
+  kind: app
+  description: |-
+    integrated development environment (IDE) for Qt
+    Qt Creator is a cross-platform integrated development environment (IDE)
+    designed to make development with the Qt application framework faster
+    and easier.
+
+    It includes:
+    * An advanced C++ code editor
+    * Integrated GUI layout and forms designer
+    * Project and build management tools
+    * Integrated, context-sensitive help system
+    * Visual debugger
+    * Rapid code navigation tools
+    * Supports multiple platforms
+    * Qt Quick Designer
+command:
+- /opt/apps/qtcreator.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
