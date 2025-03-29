@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: sweethome3d.linyaps
+  name: sweethome3d
+  version: 7.2.0.1
+  kind: app
+  description: |-
+    Interior 2D design application with 3D preview
+    Sweet Home 3D is an interior design Java application for
+    quickly choosing and placing furniture on a house 2D plan
+    drawn by the end-user, with a 3D preview.
+command:
+- /opt/apps/sweethome3d.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
