@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: rpi-imager.linyaps
+  name: rpi-imager
+  version: 1.8.5.0
+  kind: app
+  description: |-
+    Raspberry Pi imaging utility
+    Graphical utility user-interface to write (optionally compressed) disk images
+    (from local files or remote hosts) to removable storage. Primarily intended
+    for use with OS images for the Raspberry Pi.
+command:
+- /opt/apps/rpi-imager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
