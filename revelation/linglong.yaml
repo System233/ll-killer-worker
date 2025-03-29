@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: revelation.linyaps
+  name: revelation
+  version: 0.5.5.1
+  kind: app
+  description: |-
+    GNOME3 Password manager
+    Revelation is a password manager for the GNOME 3 desktop. It organizes
+    accounts in a tree structure, and stores them as AES-encrypted XML.
+command:
+- /opt/apps/revelation.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
