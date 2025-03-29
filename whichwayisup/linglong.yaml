@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: whichwayisup.linyaps
+  name: whichwayisup
+  version: 0.7.9.10
+  kind: app
+  description: |-
+    2D platform game with a slight rotational twist
+    Which Way Is Up, a traditional and challenging 2D platform game with a
+    slight rotational twist. Help a mysterious big-eared salaryman named Guy
+    find his keys in a labyrinth of dangers and bad dialogue.
+command:
+- /opt/apps/whichwayisup.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
