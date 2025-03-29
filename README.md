@@ -1,11 +1,11 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|2101|1261 |840 | 60.02%| 40.69%|
+|3099|2103|1262 |841 | 60.01%| 40.72%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|1819|1157 |662 | 63.61%| 41.94%|
+|ubuntu-noble|2759|1821|1158 |663 | 63.59%| 41.97%|
 |deepin-v23|340|282|104 |178 | 36.88%| 30.59%|
 ## 详细结果
 | 包名  | 架构 |仓库| 版本 | 测试结果 | SHA256 |killer版本|
@@ -1542,6 +1542,7 @@
 | [kruler](./kruler) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kruler/tests/screen0-5.jpg) | [SHA256](./kruler/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [krusader](./krusader) | arm64  | ubuntu-noble | 2.8.1-0ubuntu3 | ![screen0-5.jpg](./krusader/tests/screen0-5.jpg) | [SHA256](./krusader/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [kscreen](./kscreen) | arm64  | ubuntu-noble | 5.27.11-0ubuntu2-20250327 | 失败 | [SHA256](./kscreen/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [ksh93u+m](./ksh93u+m) | arm64  | ubuntu-noble | 1.0.8-1-20250327 | 失败 | [SHA256](./ksh93u+m/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [kshisen](./kshisen) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kshisen/tests/screen0-5.jpg) | [SHA256](./kshisen/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [kshutdown](./kshutdown) | arm64  | ubuntu-noble | 5.2-2build2 | ![screen0-5.jpg](./kshutdown/tests/screen0-5.jpg) | [SHA256](./kshutdown/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [ksirk](./ksirk) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./ksirk/tests/screen0-5.jpg) ![screen1-5.jpg](./ksirk/tests/screen1-5.jpg) | [SHA256](./ksirk/SHA256SUMS) | v1.5.1-arm64-nevm |
@@ -2109,5 +2110,6 @@
 | [picplanner](./picplanner) | arm64  | ubuntu-noble | 0.4.0-1build2 | ![screen0-5.jpg](./picplanner/tests/screen0-5.jpg) | [SHA256](./picplanner/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [pidgin](./pidgin) | arm64  | ubuntu-noble | 2.14.13-1ubuntu2-20250327 | 失败 | N/A | v1.5.1-arm64-nevm |
 | [pikopixel.app](./pikopixel.app) | arm64  | ubuntu-noble | 1.0-b10b-1build1-20250327 | 失败 | [SHA256](./pikopixel.app/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [pim-data-exporter](./pim-data-exporter) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./pim-data-exporter/tests/screen0-5.jpg) | [SHA256](./pim-data-exporter/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [pim-sieve-editor](./pim-sieve-editor) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./pim-sieve-editor/tests/screen0-5.jpg) | [SHA256](./pim-sieve-editor/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [pinball](./pinball) | arm64  | ubuntu-noble | 0.3.20230219-1 | ![screen0-5.jpg](./pinball/tests/screen0-5.jpg) | [SHA256](./pinball/SHA256SUMS) | v1.5.2-arm64-nevm |
