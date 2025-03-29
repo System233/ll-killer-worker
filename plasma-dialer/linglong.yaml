@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: plasma-dialer.linyaps
+  name: plasma-dialer
+  version: 23.1.0.1
+  kind: app
+  description: |-
+    Dialer for Plasma Mobile
+    This application aims at enabling voice calls features inside
+    a Plasma Mobile environment.
+
+    It is based on Qt graphical libraries and relies on some KDE
+    Frameworks. It depends on ModemManager in order to interface
+    with the radio device, and on Callaudio to manage audio
+    profiles during voice calls.
+command:
+- /opt/apps/plasma-dialer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

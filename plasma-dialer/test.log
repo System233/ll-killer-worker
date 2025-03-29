@@ -1,0 +1,28 @@
+正在测试: APPID=plasma-dialer.linyaps LAYER=plasma-dialer.linyaps_23.1.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install plasma-dialer.linyaps_23.1.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:plasma-dialer.linyaps
+Layer文件:plasma-dialer.linyaps_23.1.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: plasma-dialer.linyaps_23.1.0.1_arm64_binary.layer
+offset: 702
+mountpoint: /tmp/tmp.YBIF5tEV8T/mnt
+dbglevel: 0
+[成功] org.kde.phone.dialer.desktop: dialer -> /opt/apps/plasma-dialer.linyaps/files/share/icons/hicolor/scalable/apps/dialer.svg
+[成功] /opt/apps/plasma-dialer.linyaps/files/share/applications/org.kde.phone.dialer.desktop: /opt/apps/plasma-dialer.linyaps/files/entrypoint.sh /usr/bin/plasmaphonedialer %u
+[正在测试启动项]
+包名:plasma-dialer.linyaps
+Layer文件:plasma-dialer.linyaps_23.1.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: plasma-dialer.linyaps_23.1.0.1_arm64_binary.layer
+offset: 702
+mountpoint: /tmp/tmp.eR0URR8v3b/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run plasma-dialer.linyaps -- /opt/apps/plasma-dialer.linyaps/files/entrypoint.sh /usr/bin/plasmaphonedialer
+[PID 21270] 进程已启动
+[PID 21270] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall plasma-dialer.linyaps
