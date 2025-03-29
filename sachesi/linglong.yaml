@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: sachesi.linyaps
+  name: sachesi
+  version: 2.0.4.7
+  kind: app
+  description: |-
+    BlackBerry 10 device utility
+    Sachesi installs applications and firmware on BlackBerry 10 devices.
+    It can also back up, restore, and wipe data.
+
+    Sachesi mimics communications performed by official BlackBerry tools.
+    None of its activities require development mode.
+command:
+- /opt/apps/sachesi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
