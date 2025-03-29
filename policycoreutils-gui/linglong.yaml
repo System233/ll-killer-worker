@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: policycoreutils-gui.linyaps
+  name: policycoreutils-gui
+  version: 3.5.0.1
+  kind: app
+  description: |-
+    SELinux core policy utilities (graphical utilities)
+    Security-enhanced Linux is a patch of the Linux® kernel and a number
+    of utilities with enhanced security functionality designed to add
+    mandatory access controls to Linux.  The Security-enhanced Linux
+    kernel contains new architectural components originally developed to
+    improve the security of the Flask operating system. These
+    architectural components provide general support for the enforcement
+    of many kinds of mandatory access control policies, including those
+    based on the concepts of Type Enforcement®, Role-based Access Control,
+    and Multi-level Security.
+
+    This package contains the system-config-selinux and the selinux-polgengui
+    utilities.
+command:
+- /opt/apps/policycoreutils-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
