@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: pitivi.linyaps
+  name: pitivi
+  version: 2023.3.0.1
+  kind: app
+  description: |-
+    non-linear audio/video editor using GStreamer
+    GStreamer is a streaming media framework, based on graphs of filters
+    which operate on media data.  Applications using this library can do
+    anything from real-time sound processing to playing videos, and just
+    about anything else media-related.  Its plugin-based architecture means
+    that new data types or processing capabilities can be added simply by
+    installing new plug-ins.
+
+    PiTiVi allows users to easily edit audio/video projects based on the
+    GStreamer framework.  PiTIVi provides several ways of creating and
+    modifying a timeline.  Ranging from a simple synopsis view (a-la
+    iMovie) to the full-blown editing view (aka Complex View) which puts
+    you in complete control of your editing.
+command:
+- /opt/apps/pitivi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
