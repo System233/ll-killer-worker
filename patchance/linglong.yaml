@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: patchance.linyaps
+  name: patchance
+  version: 1.1.0.0
+  kind: app
+  description: |-
+    Jack Patchbay GUI
+    Patchance is one more JACK patchbay GUI for GNU/Linux systems, but it could be
+    adapted to Mac and Windows with little effort. It is a direct alternative to
+    Catia or Patchage.
+
+    Features:
+    - Stereo detection for port grouping with their name, for faster
+    connections and readability
+    - Wrap/Unwrap boxes to can hide things you don't need
+    - Prevent the boxes from overlapping
+    - Search a box with a pattern
+    - Connection with double click for easier touchpad use
+    - Connection from context menu
+    - Editable themes (9 Themes embedded)
+    - show only Audio, only MIDI, or only CV ports
+    - Transport controls
+    - Customizable tool bar
+    - many others...
+command:
+- /opt/apps/patchance.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
