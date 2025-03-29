@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: tumiki-fighters.linyaps
+  name: tumiki-fighters
+  version: 0.2.1.10
+  kind: app
+  description: |-
+    sticky 2D shooter
+    Tumiki Fighters brings a different twist to the side-scrolling shooter genre.
+    With simple 3D graphics, the player has to control a ship and shoot down the
+    enemies. The player can swoop in and attach the wreckage to its own hull for
+    bonus points and protection from enemy attacks. .
+
+    Tumiki Fighters is another gem among many by Kenta Cho.
+command:
+- /opt/apps/tumiki-fighters.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
