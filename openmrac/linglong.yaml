@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: openmrac.linyaps
+  name: openmrac
+  version: 1.2.0.2
+  kind: app
+  description: |-
+    split-screen multiplayer 3D racing game
+    OpenMRac is an open-source release of FranticWare's MultiRacer. It is a
+    multiplayer racing game that runs on Linux and Microsoft Windows.
+
+    It can be played in single player mode, running against oneself's "ghost" from
+    previous lap, or in multi-player mode, in a vertical split screen against up
+    to 3 other opponents.
+
+    OpenMRac is simpler than TORCS, although it offers better model reflections
+    than the latter.
+command:
+- /opt/apps/openmrac.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
