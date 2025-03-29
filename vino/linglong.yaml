@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: vino.linyaps
+  name: vino
+  version: 3.22.0.6
+  kind: app
+  description: |-
+    VNC server for GNOME
+    VNC is a protocol that allows remote display of a user's desktop. This
+    package provides a VNC server that integrates with GNOME, allowing you
+    to export your running desktop to another computer for remote use or
+    diagnosis.
+command:
+- /opt/apps/vino.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
