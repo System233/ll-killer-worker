@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: repetier-host.linyaps
+  name: repetier-host
+  version: 0.85.0.5
+  kind: app
+  description: |-
+    host controller for RepRap style 3D printers
+    Repetier-Host allows you to perform all the steps needed to 3D-print models.
+    It supplies the following features:
+    - arranging model(s) on a virtual print plate
+    - slicing the model and computing paths for printer head
+    - checking the g-code for errors
+    - sending the g-code to printer
+    - monitoring the printer
+command:
+- /opt/apps/repetier-host.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
