@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: scolasync.linyaps
+  name: scolasync
+  version: 5.5.0.1
+  kind: app
+  description: |-
+    graphic tool to copy data to or from a set of USB storage media
+    Teachers may use this package to manage a set of USB sticks owned by their
+    students. The keys are recognized (with their owner's name), and the teachers
+    can copy assignments to them and retrieve consistently the homeworks from
+    the usb sticks.
+command:
+- /opt/apps/scolasync.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
