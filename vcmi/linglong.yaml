@@ -1,0 +1,37 @@
+version: "1"
+package:
+  id: vcmi.linyaps
+  name: vcmi
+  version: 1.4.1.1
+  kind: app
+  description: |-
+    Rewrite of the Heroes of Might and Magic 3 game engine
+    The purpose of VCMI project is to create a free implementation of the "Heroes
+    of Might and Magic 3: In the Wake of Gods" engine to overcome limitations
+    of the original engine for better modding support, higher resolutions,
+    bigger map sizes and extended engine limits.
+
+    VCMI is a turn-based strategy game where the player controls a number of
+    heroes commanding an army of creatures. The player explores the game map
+    with their heroes, conquers enemy towns and improves their own.
+
+    VCMI stands for Vinyar Callor Meletya Ingole which means "New Heroes of Might
+    and Magic" in Quenya.
+
+    This game requires the graphics, sound and videos of the "Heroes of Might and
+    Magic 3: In the Wake of Gods" game. After installing this package, run either
+    one of the following commands depending on whether you have access to the
+    Good Old Games installer (1), the original CDs (2) or just the installed
+    game directory (3):
+
+    (1): vcmibuilder --gog /path/to/gog.com/installer
+    (2): vcmibuilder --cd1 /path/to/iso/or/cd --cd2 /path/to/second/cd
+    (3): vcmibuilder --data /path/to/h3/data
+
+    Alternatively, use `game-data-packager heroes3`.
+
+    This package contains the game engine.
+command:
+- /opt/apps/vcmi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
