@@ -1,0 +1,36 @@
+正在测试: APPID=protontricks.linyaps LAYER=protontricks.linyaps_1.10.5.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install protontricks.linyaps_1.10.5.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:protontricks.linyaps
+Layer文件:protontricks.linyaps_1.10.5.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: protontricks.linyaps_1.10.5.1_arm64_binary.layer
+offset: 668
+mountpoint: /tmp/tmp.kaFWqNVo0R/mnt
+dbglevel: 0
+[31m[失败] protontricks-launch.desktop:wine: 找不到此图标 [0m
+[成功] /opt/apps/protontricks.linyaps/files/share/applications/protontricks-launch.desktop: /opt/apps/protontricks.linyaps/files/entrypoint.sh protontricks-launch --no-term %f
+[31m[失败] protontricks.desktop:wine: 找不到此图标 [0m
+[成功] /opt/apps/protontricks.linyaps/files/share/applications/protontricks.desktop: /opt/apps/protontricks.linyaps/files/entrypoint.sh protontricks --no-term --gui
+[正在测试启动项]
+包名:protontricks.linyaps
+Layer文件:protontricks.linyaps_1.10.5.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: protontricks.linyaps_1.10.5.1_arm64_binary.layer
+offset: 668
+mountpoint: /tmp/tmp.3t8e1MPSVR/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run protontricks.linyaps -- /opt/apps/protontricks.linyaps/files/entrypoint.sh protontricks --no-term --gui
+[PID 32160] 进程已启动
+[PID 32160] 已检测到窗口:PID=37
+[PID 32160] 正在截图 0秒: tests/screen0-0.jpg
+[PID 32160] 正在截图 1秒: tests/screen0-1.jpg
+[PID 32160] 正在截图 3秒: tests/screen0-3.jpg
+[PID 32160] 正在截图 5秒: tests/screen0-5.jpg
+[PID 32160] 正在通知并等待进程退出
+[PID 32160] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall protontricks.linyaps
