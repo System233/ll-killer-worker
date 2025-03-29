@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: qemu-system-data.linyaps
+  name: qemu-system-data
+  version: 8.2.2.0
+  kind: app
+  description: |-
+    QEMU full system emulation (data files)
+    This package provides architecture-neutral data files
+    (such as keyboard definitions, icons) for system-mode
+    QEMU emulation (qemu-system-*) packages.
+command:
+- /opt/apps/qemu-system-data.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
