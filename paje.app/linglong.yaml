@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: paje.app.linyaps
+  name: paje.app
+  version: 1.98.0.1
+  kind: app
+  description: |-
+    generic visualization tool (Gantt chart and more)
+    Paje is a graphical tool that displays traces produced during the
+    execution of multithreaded programs. Other programs can also generate
+    traces for this tool.
+
+    Key Features
+    * Supports multi threaded programs
+    o each thread of the analysed program can be individually displayed,
+    or multiple threads can be combined, to reduce screen space usage.
+    * Interactivity
+    o each entity represented on the screen can be interrogated for
+    more information,
+    o related entities are highlighted as mouse cursor passes over
+    some representation
+command:
+- /opt/apps/paje.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
