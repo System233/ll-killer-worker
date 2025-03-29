@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: syncplay-server.linyaps
+  name: syncplay-server
+  version: 1.7.0.2
+  kind: app
+  description: |-
+    Synchronize playback of various video players via internet (Server)
+    To learn what Syncplay is read the description of package 'syncplay'.
+
+    This package installs the Syncplay server program. Install this package when
+    you plan to set up your own Syncplay server that your friends and family
+    connect to.
+
+    Note that the computer that runs the Syncplay server must be reachable from the
+    Internet. To enable encryption, you need a domain and a valid certificate. The
+    package provides a hook script for the recommended certbot package to simplify
+    encrypted configurations. Integration with the suggested packages dehydrated
+    or acme-tiny requires manual configuration.
+command:
+- /opt/apps/syncplay-server.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

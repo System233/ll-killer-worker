@@ -1,0 +1,366 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  certbot libdb5.3t64 libexpat1 libpython3-stdlib libpython3.12-minimal
+  libpython3.12-stdlib libreadline8t64 libssl3t64 lsb-release python3
+  python3-acme python3-attr python3-automat python3-bcrypt python3-certbot
+  python3-certifi python3-cffi-backend python3-chardet python3-click
+  python3-colorama python3-configargparse python3-configobj python3-constantly
+  python3-cryptography python3-distro python3-hamcrest python3-hyperlink
+  python3-icu python3-idna python3-incremental python3-josepy python3-minimal
+  python3-openssl python3-parsedatetime python3-pem python3-pkg-resources
+  python3-pyasn1 python3-pyasn1-modules python3-requests python3-rfc3339
+  python3-service-identity python3-twisted python3-tz python3-urllib3
+  python3-zope.interface python3.12 python3.12-minimal readline-common
+  syncplay-common
+Suggested packages:
+  python-certbot-doc python3-certbot-apache python3-certbot-nginx python3-doc
+  python3-tk python3-venv python-acme-doc python-attr-doc python-configobj-doc
+  python-cryptography-doc python3-cryptography-vectors python-openssl-doc
+  python3-openssl-dbg python3-setuptools python3-socks python-requests-doc
+  python3-pampy python3-serial python3-wxgtk4.0 python3-brotli python3.12-venv
+  python3.12-doc binfmt-support readline-doc dehydrated | acme-tiny
+The following packages will be REMOVED:
+  libdb5.3 libpython3.12 libreadline8
+The following NEW packages will be installed:
+  certbot libdb5.3t64 libreadline8t64 libssl3t64 lsb-release python3-acme
+  python3-attr python3-automat python3-bcrypt python3-certbot python3-certifi
+  python3-cffi-backend python3-chardet python3-click python3-colorama
+  python3-configargparse python3-configobj python3-constantly
+  python3-cryptography python3-distro python3-hamcrest python3-hyperlink
+  python3-icu python3-idna python3-incremental python3-josepy python3-openssl
+  python3-parsedatetime python3-pem python3-pkg-resources python3-pyasn1
+  python3-pyasn1-modules python3-requests python3-rfc3339
+  python3-service-identity python3-twisted python3-tz python3-urllib3
+  python3-zope.interface syncplay-common syncplay-server
+The following packages will be upgraded:
+  libexpat1 libpython3-stdlib libpython3.12-minimal libpython3.12-stdlib
+  python3 python3-minimal python3.12 python3.12-minimal readline-common
+9 upgraded, 41 newly installed, 3 to remove and 444 not upgraded.
+Need to get 14.5 MB of archives.
+After this operation, 28.6 MB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libssl3t64 amd64 3.0.13-0ubuntu3.5 [1940 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libexpat1 amd64 2.6.1-2ubuntu0.2 [87.4 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12 amd64 3.12.3-1ubuntu0.5 [651 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12-minimal amd64 3.12.3-1ubuntu0.5 [2342 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-minimal amd64 3.12.3-1ubuntu0.5 [835 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libreadline8t64 amd64 8.2-4build1 [153 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-stdlib amd64 3.12.3-1ubuntu0.5 [2069 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libdb5.3t64 amd64 5.3.28+dfsg2-7 [734 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 readline-common all 8.2-4build1 [56.5 kB]
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-minimal amd64 3.12.3-0ubuntu2 [27.4 kB]
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3 amd64 3.12.3-0ubuntu2 [23.0 kB]
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3-stdlib amd64 3.12.3-0ubuntu2 [10.0 kB]
+Get:13 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 lsb-release all 12.0-2 [6564 B]
+Get:14 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-cffi-backend amd64 1.16.0-2build1 [77.3 kB]
+Get:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-pkg-resources all 68.1.2-2ubuntu1.1 [168 kB]
+Get:16 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-cryptography amd64 41.0.7-4ubuntu0.1 [810 kB]
+Get:17 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-openssl all 23.2.0-1 [47.8 kB]
+Get:18 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 python3-josepy all 1.14.0-1 [22.1 kB]
+Get:19 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-certifi all 2023.11.17-1 [165 kB]
+Get:20 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-chardet all 5.2.0+dfsg-1 [117 kB]
+Get:21 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-idna all 3.6-2ubuntu0.1 [49.0 kB]
+Get:22 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-urllib3 all 2.0.7-1ubuntu0.1 [93.1 kB]
+Get:23 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-requests all 2.31.0+dfsg-1ubuntu1 [50.7 kB]
+Get:24 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-tz all 2024.1-2 [31.4 kB]
+Get:25 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 python3-rfc3339 all 1.1-4 [6744 B]
+Get:26 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 python3-acme all 2.9.0-1 [48.5 kB]
+Get:27 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-attr all 23.2.0-2 [48.6 kB]
+Get:28 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-automat all 22.10.0-2 [27.5 kB]
+Get:29 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 python3-configargparse all 1.7-1 [31.7 kB]
+Get:30 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-configobj all 5.0.8-3 [33.8 kB]
+Get:31 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-distro all 1.9.0-1 [19.0 kB]
+Get:32 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 python3-parsedatetime all 2.6-3 [32.8 kB]
+Get:33 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 python3-certbot all 2.9.0-1 [267 kB]
+Get:34 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-colorama all 0.4.6-4 [32.1 kB]
+Get:35 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-click all 8.1.6-2 [79.0 kB]
+Get:36 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-constantly all 23.10.4-1 [13.7 kB]
+Get:37 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-hamcrest all 2.1.0-1 [28.1 kB]
+Get:38 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-hyperlink all 21.0.0-5 [68.0 kB]
+Get:39 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-icu amd64 2.12-1build2 [534 kB]
+Get:40 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-incremental all 22.10.0-1 [17.6 kB]
+Get:41 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 python3-pem all 19.1.0-2 [8076 B]
+Get:42 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-pyasn1 all 0.4.8-4 [51.2 kB]
+Get:43 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-pyasn1-modules all 0.2.8-1 [68.0 kB]
+Get:44 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-service-identity all 24.1.0-1 [11.2 kB]
+Get:45 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-bcrypt amd64 3.2.2-1build1 [33.0 kB]
+Get:46 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-zope.interface amd64 6.1-1build1 [137 kB]
+Get:47 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-twisted all 24.3.0-1ubuntu0.1 [2058 kB]
+Get:48 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 syncplay-common all 1.7.0+repack1-2ubuntu0.1 [188 kB]
+Get:49 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 syncplay-server all 1.7.0+repack1-2ubuntu0.1 [18.0 kB]
+Get:50 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 certbot all 2.9.0-1 [89.2 kB]
+Fetched 14.5 MB in 1s (17.7 MB/s)
+Selecting previously unselected package libssl3t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libssl3t64_3.0.13-0ubuntu3.5_amd64.deb ...
+Unpacking libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:amd64 (3.2.0-2) ...
+Preparing to unpack .../libexpat1_2.6.1-2ubuntu0.2_amd64.deb ...
+Unpacking libexpat1:amd64 (2.6.1-2ubuntu0.2) over (2.5.0-2) ...
+Preparing to unpack .../python3.12_3.12.3-1ubuntu0.5_amd64.deb ...
+Unpacking python3.12 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+Preparing to unpack .../python3.12-minimal_3.12.3-1ubuntu0.5_amd64.deb ...
+Unpacking python3.12-minimal (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+Preparing to unpack .../libpython3.12-minimal_3.12.3-1ubuntu0.5_amd64.deb ...
+Unpacking libpython3.12-minimal:amd64 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+dpkg: libreadline8:amd64: dependency problems, but removing anyway as you requested:
+ sqlite3 depends on libreadline8 (>= 6.0).
+ pipewire-bin depends on libreadline8 (>= 6.0).
+ libpython3.12-stdlib:amd64 depends on libreadline8 (>= 7.0~beta).
+ libpython3.11-stdlib:amd64 depends on libreadline8 (>= 7.0~beta).
+ gpgsm depends on libreadline8 (>= 6.0).
+ gpgconf depends on libreadline8 (>= 6.0).
+ gpg depends on libreadline8 (>= 6.0).
+ gnupg-utils depends on libreadline8 (>= 6.0).
+ gawk depends on libreadline8 (>= 6.0).
+ fdisk depends on libreadline8 (>= 6.0).
+ bluez depends on libreadline8 (>= 6.0).
+ bc depends on libreadline8 (>= 6.0).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27597 files and directories currently installed.)
+Removing libreadline8:amd64 (8.2-3) ...
+Selecting previously unselected package libreadline8t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27584 files and directories currently installed.)
+Preparing to unpack .../libreadline8t64_8.2-4build1_amd64.deb ...
+Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8 to /lib/x86_64-linux-gnu/libhistory.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8.2 to /lib/x86_64-linux-gnu/libhistory.so.8.2.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8 to /lib/x86_64-linux-gnu/libreadline.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8.2 to /lib/x86_64-linux-gnu/libreadline.so.8.2.usr-is-merged by libreadline8t64'
+Unpacking libreadline8t64:amd64 (8.2-4build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27604 files and directories currently installed.)
+Removing libpython3.12:amd64 (3.12.0-1deepin1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27598 files and directories currently installed.)
+Preparing to unpack .../libpython3.12-stdlib_3.12.3-1ubuntu0.5_amd64.deb ...
+Unpacking libpython3.12-stdlib:amd64 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+dpkg: libdb5.3:amd64: dependency problems, but removing anyway as you requested:
+ libsasl2-modules-db:amd64 depends on libdb5.3.
+ libpython3.11-stdlib:amd64 depends on libdb5.3.
+ libperl5.36:amd64 depends on libdb5.3.
+ libpam-modules:amd64 depends on libdb5.3.
+ libjack-jackd2-0:amd64 depends on libdb5.3.
+ libical3:amd64 depends on libdb5.3.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27617 files and directories currently installed.)
+Removing libdb5.3:amd64 (5.3.28+dfsg1-0.8) ...
+Selecting previously unselected package libdb5.3t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27611 files and directories currently installed.)
+Preparing to unpack .../libdb5.3t64_5.3.28+dfsg2-7_amd64.deb ...
+Unpacking libdb5.3t64:amd64 (5.3.28+dfsg2-7) ...
+Setting up libdb5.3t64:amd64 (5.3.28+dfsg2-7) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27617 files and directories currently installed.)
+Preparing to unpack .../readline-common_8.2-4build1_all.deb ...
+Unpacking readline-common (8.2-4build1) over (8.2-3) ...
+Setting up libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Setting up libpython3.12-minimal:amd64 (3.12.3-1ubuntu0.5) ...
+Setting up libexpat1:amd64 (2.6.1-2ubuntu0.2) ...
+Setting up python3.12-minimal (3.12.3-1ubuntu0.5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27616 files and directories currently installed.)
+Preparing to unpack .../python3-minimal_3.12.3-0ubuntu2_amd64.deb ...
+Unpacking python3-minimal (3.12.3-0ubuntu2) over (3.11.4-5) ...
+Setting up python3-minimal (3.12.3-0ubuntu2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27616 files and directories currently installed.)
+Preparing to unpack .../00-python3_3.12.3-0ubuntu2_amd64.deb ...
+Unpacking python3 (3.12.3-0ubuntu2) over (3.11.4-5) ...
+Preparing to unpack .../01-libpython3-stdlib_3.12.3-0ubuntu2_amd64.deb ...
+Unpacking libpython3-stdlib:amd64 (3.12.3-0ubuntu2) over (3.11.4-5) ...
+Selecting previously unselected package lsb-release.
+Preparing to unpack .../02-lsb-release_12.0-2_all.deb ...
+Unpacking lsb-release (12.0-2) ...
+Selecting previously unselected package python3-cffi-backend:amd64.
+Preparing to unpack .../03-python3-cffi-backend_1.16.0-2build1_amd64.deb ...
+Unpacking python3-cffi-backend:amd64 (1.16.0-2build1) ...
+Selecting previously unselected package python3-pkg-resources.
+Preparing to unpack .../04-python3-pkg-resources_68.1.2-2ubuntu1.1_all.deb ...
+Unpacking python3-pkg-resources (68.1.2-2ubuntu1.1) ...
+Selecting previously unselected package python3-cryptography.
+Preparing to unpack .../05-python3-cryptography_41.0.7-4ubuntu0.1_amd64.deb ...
+Unpacking python3-cryptography (41.0.7-4ubuntu0.1) ...
+Selecting previously unselected package python3-openssl.
+Preparing to unpack .../06-python3-openssl_23.2.0-1_all.deb ...
+Unpacking python3-openssl (23.2.0-1) ...
+Selecting previously unselected package python3-josepy.
+Preparing to unpack .../07-python3-josepy_1.14.0-1_all.deb ...
+Unpacking python3-josepy (1.14.0-1) ...
+Selecting previously unselected package python3-certifi.
+Preparing to unpack .../08-python3-certifi_2023.11.17-1_all.deb ...
+Unpacking python3-certifi (2023.11.17-1) ...
+Selecting previously unselected package python3-chardet.
+Preparing to unpack .../09-python3-chardet_5.2.0+dfsg-1_all.deb ...
+Unpacking python3-chardet (5.2.0+dfsg-1) ...
+Selecting previously unselected package python3-idna.
+Preparing to unpack .../10-python3-idna_3.6-2ubuntu0.1_all.deb ...
+Unpacking python3-idna (3.6-2ubuntu0.1) ...
+Selecting previously unselected package python3-urllib3.
+Preparing to unpack .../11-python3-urllib3_2.0.7-1ubuntu0.1_all.deb ...
+Unpacking python3-urllib3 (2.0.7-1ubuntu0.1) ...
+Selecting previously unselected package python3-requests.
+Preparing to unpack .../12-python3-requests_2.31.0+dfsg-1ubuntu1_all.deb ...
+Unpacking python3-requests (2.31.0+dfsg-1ubuntu1) ...
+Selecting previously unselected package python3-tz.
+Preparing to unpack .../13-python3-tz_2024.1-2_all.deb ...
+Unpacking python3-tz (2024.1-2) ...
+Selecting previously unselected package python3-rfc3339.
+Preparing to unpack .../14-python3-rfc3339_1.1-4_all.deb ...
+Unpacking python3-rfc3339 (1.1-4) ...
+Selecting previously unselected package python3-acme.
+Preparing to unpack .../15-python3-acme_2.9.0-1_all.deb ...
+Unpacking python3-acme (2.9.0-1) ...
+Selecting previously unselected package python3-attr.
+Preparing to unpack .../16-python3-attr_23.2.0-2_all.deb ...
+Unpacking python3-attr (23.2.0-2) ...
+Selecting previously unselected package python3-automat.
+Preparing to unpack .../17-python3-automat_22.10.0-2_all.deb ...
+Unpacking python3-automat (22.10.0-2) ...
+Selecting previously unselected package python3-configargparse.
+Preparing to unpack .../18-python3-configargparse_1.7-1_all.deb ...
+Unpacking python3-configargparse (1.7-1) ...
+Selecting previously unselected package python3-configobj.
+Preparing to unpack .../19-python3-configobj_5.0.8-3_all.deb ...
+Unpacking python3-configobj (5.0.8-3) ...
+Selecting previously unselected package python3-distro.
+Preparing to unpack .../20-python3-distro_1.9.0-1_all.deb ...
+Unpacking python3-distro (1.9.0-1) ...
+Selecting previously unselected package python3-parsedatetime.
+Preparing to unpack .../21-python3-parsedatetime_2.6-3_all.deb ...
+Unpacking python3-parsedatetime (2.6-3) ...
+Selecting previously unselected package python3-certbot.
+Preparing to unpack .../22-python3-certbot_2.9.0-1_all.deb ...
+Unpacking python3-certbot (2.9.0-1) ...
+Selecting previously unselected package python3-colorama.
+Preparing to unpack .../23-python3-colorama_0.4.6-4_all.deb ...
+Unpacking python3-colorama (0.4.6-4) ...
+Selecting previously unselected package python3-click.
+Preparing to unpack .../24-python3-click_8.1.6-2_all.deb ...
+Unpacking python3-click (8.1.6-2) ...
+Selecting previously unselected package python3-constantly.
+Preparing to unpack .../25-python3-constantly_23.10.4-1_all.deb ...
+Unpacking python3-constantly (23.10.4-1) ...
+Selecting previously unselected package python3-hamcrest.
+Preparing to unpack .../26-python3-hamcrest_2.1.0-1_all.deb ...
+Unpacking python3-hamcrest (2.1.0-1) ...
+Selecting previously unselected package python3-hyperlink.
+Preparing to unpack .../27-python3-hyperlink_21.0.0-5_all.deb ...
+Unpacking python3-hyperlink (21.0.0-5) ...
+Selecting previously unselected package python3-icu.
+Preparing to unpack .../28-python3-icu_2.12-1build2_amd64.deb ...
+Unpacking python3-icu (2.12-1build2) ...
+Selecting previously unselected package python3-incremental.
+Preparing to unpack .../29-python3-incremental_22.10.0-1_all.deb ...
+Unpacking python3-incremental (22.10.0-1) ...
+Selecting previously unselected package python3-pem.
+Preparing to unpack .../30-python3-pem_19.1.0-2_all.deb ...
+Unpacking python3-pem (19.1.0-2) ...
+Selecting previously unselected package python3-pyasn1.
+Preparing to unpack .../31-python3-pyasn1_0.4.8-4_all.deb ...
+Unpacking python3-pyasn1 (0.4.8-4) ...
+Selecting previously unselected package python3-pyasn1-modules.
+Preparing to unpack .../32-python3-pyasn1-modules_0.2.8-1_all.deb ...
+Unpacking python3-pyasn1-modules (0.2.8-1) ...
+Selecting previously unselected package python3-service-identity.
+Preparing to unpack .../33-python3-service-identity_24.1.0-1_all.deb ...
+Unpacking python3-service-identity (24.1.0-1) ...
+Selecting previously unselected package python3-bcrypt.
+Preparing to unpack .../34-python3-bcrypt_3.2.2-1build1_amd64.deb ...
+Unpacking python3-bcrypt (3.2.2-1build1) ...
+Selecting previously unselected package python3-zope.interface.
+Preparing to unpack .../35-python3-zope.interface_6.1-1build1_amd64.deb ...
+Unpacking python3-zope.interface (6.1-1build1) ...
+Selecting previously unselected package python3-twisted.
+Preparing to unpack .../36-python3-twisted_24.3.0-1ubuntu0.1_all.deb ...
+Unpacking python3-twisted (24.3.0-1ubuntu0.1) ...
+Selecting previously unselected package syncplay-common.
+Preparing to unpack .../37-syncplay-common_1.7.0+repack1-2ubuntu0.1_all.deb ...
+Unpacking syncplay-common (1.7.0+repack1-2ubuntu0.1) ...
+Selecting previously unselected package syncplay-server.
+Preparing to unpack .../38-syncplay-server_1.7.0+repack1-2ubuntu0.1_all.deb ...
+Unpacking syncplay-server (1.7.0+repack1-2ubuntu0.1) ...
+Selecting previously unselected package certbot.
+Preparing to unpack .../39-certbot_2.9.0-1_all.deb ...
+Unpacking certbot (2.9.0-1) ...
+Setting up lsb-release (12.0-2) ...
+Setting up readline-common (8.2-4build1) ...
+Setting up libreadline8t64:amd64 (8.2-4build1) ...
+Setting up libpython3.12-stdlib:amd64 (3.12.3-1ubuntu0.5) ...
+Setting up python3.12 (3.12.3-1ubuntu0.5) ...
+Setting up libpython3-stdlib:amd64 (3.12.3-0ubuntu2) ...
+Setting up python3 (3.12.3-0ubuntu2) ...
+Setting up python3-tz (2024.1-2) ...
+Setting up python3-configobj (5.0.8-3) ...
+Setting up python3-certifi (2023.11.17-1) ...
+Setting up python3-incremental (22.10.0-1) ...
+Setting up python3-idna (3.6-2ubuntu0.1) ...
+Setting up python3-urllib3 (2.0.7-1ubuntu0.1) ...
+Setting up python3-pyasn1 (0.4.8-4) ...
+Setting up python3-constantly (23.10.4-1) ...
+Setting up python3-rfc3339 (1.1-4) ...
+Setting up python3-cffi-backend:amd64 (1.16.0-2build1) ...
+Setting up python3-pkg-resources (68.1.2-2ubuntu1.1) ...
+Setting up python3-configargparse (1.7-1) ...
+Setting up python3-attr (23.2.0-2) ...
+Setting up python3-pem (19.1.0-2) ...
+Setting up python3-parsedatetime (2.6-3) ...
+Setting up python3-distro (1.9.0-1) ...
+Setting up python3-icu (2.12-1build2) ...
+Setting up python3-colorama (0.4.6-4) ...
+Setting up python3-zope.interface (6.1-1build1) ...
+Setting up python3-bcrypt (3.2.2-1build1) ...
+Setting up python3-automat (22.10.0-2) ...
+Setting up python3-hamcrest (2.1.0-1) ...
+Setting up python3-click (8.1.6-2) ...
+Setting up python3-chardet (5.2.0+dfsg-1) ...
+Setting up python3-pyasn1-modules (0.2.8-1) ...
+Setting up python3-cryptography (41.0.7-4ubuntu0.1) ...
+Setting up python3-requests (2.31.0+dfsg-1ubuntu1) ...
+Setting up python3-hyperlink (21.0.0-5) ...
+Setting up python3-service-identity (24.1.0-1) ...
+Setting up python3-openssl (23.2.0-1) ...
+Setting up python3-twisted (24.3.0-1ubuntu0.1) ...
+Setting up python3-josepy (1.14.0-1) ...
+Setting up syncplay-common (1.7.0+repack1-2ubuntu0.1) ...
+/usr/lib/python3/dist-packages/syncplay/constants.py:115: SyntaxWarning: invalid escape sequence '\.'
+  FILENAME_STRIP_REGEX = "[-~_\.\[\](): ]"
+/usr/lib/python3/dist-packages/syncplay/constants.py:116: SyntaxWarning: invalid escape sequence '\-'
+  CONTROL_PASSWORD_STRIP_REGEX = "[^a-zA-Z0-9\-]"
+/usr/lib/python3/dist-packages/syncplay/constants.py:117: SyntaxWarning: invalid escape sequence '\+'
+  ROOM_NAME_STRIP_REGEX = "^(\+)(?P<roomnamebase>.*)(:)(\w{12})$"
+/usr/lib/python3/dist-packages/syncplay/constants.py:165: SyntaxWarning: invalid escape sequence '\m'
+  MPC64_EXECUTABLES = ["mpc-hc64.exe", "mpc-hc64_nvo.exe", "x64\mpc-hc\shoukaku.exe"]
+/usr/lib/python3/dist-packages/syncplay/constants.py:303: SyntaxWarning: invalid escape sequence '\.'
+  MPLAYER_ANSWER_REGEX = "^ANS_([a-zA-Z_-]+)=(.+)$|^(Exiting)\.\.\. \((.+)\)$"
+/usr/lib/python3/dist-packages/syncplay/utils.py:279: SyntaxWarning: invalid escape sequence '\g'
+  return re.sub(constants.ROOM_NAME_STRIP_REGEX, "\g<roomnamebase>", RoomName)
+/usr/lib/python3/dist-packages/syncplay/utils.py:457: SyntaxWarning: invalid escape sequence '\+'
+  CONTROLLED_ROOM_REGEX = re.compile("^\+(.*):(\w{12})$")
+/usr/lib/python3/dist-packages/syncplay/utils.py:458: SyntaxWarning: invalid escape sequence '\d'
+  PASSWORD_REGEX = re.compile("[A-Z]{2}-\d{3}-\d{3}")
+Setting up syncplay-server (1.7.0+repack1-2ubuntu0.1) ...
+
+Configuration file '/etc/default/syncplay-server', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/letsencrypt/renewal-hooks/deploy/syncplay-server', does not exist on system.
+Installing new config file as you requested.
+Setting up python3-acme (2.9.0-1) ...
+Setting up python3-certbot (2.9.0-1) ...
+Setting up certbot (2.9.0-1) ...
+
+Configuration file '/etc/cron.d/certbot', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/letsencrypt/cli.ini', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/logrotate.d/certbot', does not exist on system.
+Installing new config file as you requested.
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-helper line 682.
+/var/lib/dpkg/info/certbot.postinst: 23: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+certbot.timer is a disabled or a static unit, not starting it.
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
