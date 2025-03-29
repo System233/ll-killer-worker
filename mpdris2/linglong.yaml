@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: mpdris2.linyaps
+  name: mpdris2
+  version: 0.9.1.2
+  kind: app
+  description: |-
+    media player interface (MPRIS2) bridge for MPD
+    mpDris2 is an implementation of the MPRIS2 media player interface as a
+    client for MPD, allowing MPRIS2 clients to control MPD and observe its
+    track changes via a standard D-Bus interface.
+
+    It can also respond to multimedia keys if running under GNOME,
+    and send track-change notifications if gir1.2-notify-0.7 is installed.
+command:
+- /opt/apps/mpdris2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
