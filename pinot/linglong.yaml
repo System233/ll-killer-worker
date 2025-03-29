@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: pinot.linyaps
+  name: pinot
+  version: 1.21.0.1
+  kind: app
+  description: |-
+    meta-search engine for local files and web queries
+    Pinot provides a D-Bus service
+    that crawls, indexes your documents and monitors them for changes.
+    This service can then be used via a command-line interface,
+    or through a GTK-based GUI that enables to query the index
+    built by the service and your favourite Web engines,
+    and display and analyze the results.
+
+    Pinot also provides a Xesam interface,
+    which can be used through Xesam Query Language
+    and Xesam User Language.
+
+    To crawl rpm files, install the packages rpm and file.
+
+    To use plugin Xapian Omega, install the package xapian-omega,
+    and also apache2 or another CGI-cabable web server.
+command:
+- /opt/apps/pinot.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
