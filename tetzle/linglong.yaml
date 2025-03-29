@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: tetzle.linyaps
+  name: tetzle
+  version: 2.2.3.1
+  kind: app
+  description: |-
+    Jigsaw puzzle game
+    Any image can be imported and used to create puzzles with a wide range of
+    sizes. Games are saved automatically, and you can select between currently
+    in progress games.
+command:
+- /opt/apps/tetzle.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
