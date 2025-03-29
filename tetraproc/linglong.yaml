@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: tetraproc.linyaps
+  name: tetraproc
+  version: 0.9.2.1
+  kind: app
+  description: |-
+    Tetrahedral Microphone Processor for Ambisonic Recording
+    TetraProc converts the A-format signals from a tetrahedral Ambisonic
+    microphone into B-format signals ready for recording. Main features:
+
+    * A-B conversion using a classic scalar matrix and minimum phase
+    filters, or
+    * A-B conversion using a 4 by 4 convolution matrix using measured
+    or computed impulse responses, or a combination of both.
+    * Individual microphone calibration facilities.
+    * 24 dB/oct higpass filters.
+    * Metering, monitoring and test facilities.
+    * Virtual stereo mic for stereo monitoring or recording.
+    * Unlimited number of stored configurations.
+    * Jack client with graphical user interface.
+command:
+- /opt/apps/tetraproc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
