@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: quickcal.linyaps
+  name: quickcal
+  version: 2.4.0.1
+  kind: app
+  description: |-
+    fast and easy to use calculator with support for filing
+    Quickcal accepts quick pasting of a large set of numbers, separated with
+    newlines or spaces or tabs and performs arithmetic / statistical calculations
+    based on the button or keyboard shortcut pressed.
+
+    As in other calculators, basic math can be performed too, with the +,-,*,/,%,^
+    operators, in between numbers. Setting the scale allows for more decimals to
+    be displayed. Also, about 65 statistical calculations can be performed by
+    choosing an option from the more stats list box.
+
+    Filing and viewing support for history and tallying purpose, at the end of the
+    day, helpful for shopkeepers and others too.
+command:
+- /opt/apps/quickcal.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
