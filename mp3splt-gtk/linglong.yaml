@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: mp3splt-gtk.linyaps
+  name: mp3splt-gtk
+  version: 0.9.2.3
+  kind: app
+  description: |-
+    split MP3, Ogg Vorbis, or FLAC files without re-encoding
+    This package provides the graphical interface for splitting audio files at a
+    given begin and end time position without decoding.  If splitting an album,
+    you can select split points and filenames manually or read them from CDDB or
+    cue files.  Splitting on silence and data from Mp3Wrap or AlbumWrap is also
+    supported.  For mp3 files, both ID3v1 & ID3v2 tags are supported.  A command
+    line interface is provided in the mp3splt package.
+command:
+- /opt/apps/mp3splt-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
