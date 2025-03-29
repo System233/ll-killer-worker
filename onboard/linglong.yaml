@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: onboard.linyaps
+  name: onboard
+  version: 1.4.1.7
+  kind: app
+  description: |-
+    Simple On-screen Keyboard
+    On-screen Keyboard (OSK) with macros, easy layout creation and word
+    suggestion.
+
+    This virtual keyboard can be useful for tablet PC users operated via
+    touchscreens, as well as for mobility impaired users.
+command:
+- /opt/apps/onboard.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
