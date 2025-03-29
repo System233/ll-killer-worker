@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: squeak-vm.linyaps
+  name: squeak-vm
+  version: 4.10.2.2
+  kind: app
+  description: |-
+    virtual machine for Smalltalk
+    Squeak is a full-featured implementation of the Smalltalk programming
+    language and environment based on (and largely compatible with) the
+    original Smalltalk-80 system.
+
+    This package contains just the Unix Squeak virtual machine.  You will
+    likely need also an image file containing a "snapshot" of a live Squeak
+    session - e.g. one of the Debian packages etoys or scratch.
+command:
+- /opt/apps/squeak-vm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
