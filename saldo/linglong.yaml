@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: saldo.linyaps
+  name: saldo
+  version: 0.7.0.2
+  kind: app
+  description: |-
+    Banking application to show transactions
+    Saldo is a banking application that can show and author transactions.
+    Multiple accounts and statistics are supported.
+
+    Currently only European banks supporting FinTS are supported.
+    UK and US banks won't work.
+
+    The executable is named org.tabos.saldo.
+command:
+- /opt/apps/saldo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
