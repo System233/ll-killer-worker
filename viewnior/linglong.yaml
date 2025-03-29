@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: viewnior.linyaps
+  name: viewnior
+  version: 1.8.0.3
+  kind: app
+  description: |-
+    simple, fast and elegant image viewer
+    This is Viewnior, an image viewer program. Created to be simple, fast
+    and elegant. Its minimalistic interface provides more screenspace for
+    your images. Among its features are:
+
+    * Fullscreen & Slideshow
+    * Rotate, flip, crop, save, delete images
+    * Animation support
+    * Browse only selected images
+    * Navigation window
+    * Set image as wallpaper (under GNOME, Fluxbox and LXDE)
+    * Simple interface
+    * Configurable mouse actions
+command:
+- /opt/apps/viewnior.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
