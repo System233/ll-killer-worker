@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: nheko.linyaps
+  name: nheko
+  version: 0.11.3.1
+  kind: app
+  description: |-
+    desktop IM client for the Matrix protocol
+    Nheko is a Qt-based chat client for Matrix, an open, federated communications
+    protocol.  The motivation behind the project is to provide a native desktop
+    app for Matrix that feels more like a mainstream chat app and less like an IRC
+    client.
+command:
+- /opt/apps/nheko.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
