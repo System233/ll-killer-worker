@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: python3-mecavideo.linyaps
+  name: python3-mecavideo
+  version: 8.0.0.2
+  kind: app
+  description: |-
+    pedagogic tool to analyze video records for mechanics
+    You can track the movement of one or many points in video frames and export
+    the position measurements to standard analysis tools.
+command:
+- /opt/apps/python3-mecavideo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
