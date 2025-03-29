@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: packagesearch.linyaps
+  name: packagesearch
+  version: 2.8.1.0
+  kind: app
+  description: |-
+    GUI for searching packages and viewing package information
+    This tool is aimed to help you search the packages you need. It should
+    make the task of searching a pleasant experience.
+
+    Search can be done by
+    * pattern
+    * tags (based on the debtags system)
+    * files
+    * installed status
+    * orphaned packages
+    Additionally a lot of information about the packages is displayed,
+    including screenshots and the files within a package.
+
+    It is possible to install or remove packages.
+command:
+- /opt/apps/packagesearch.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
