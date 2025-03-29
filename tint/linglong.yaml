@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: tint.linyaps
+  name: tint
+  version: 0.7.0.0
+  kind: app
+  description: |-
+    Tetris clone for text based terminal
+    TINT Is Not Tetris(tm) ...at least the name isn't.
+
+    As the title suggests, this is a clone of the original tetris game
+    written by Alexey Pajitnov, Dmitry Pavlovsky, and Vadim Gerasimov.
+
+    The game is as close to the original as possible, but there are a few
+    differences. Nevertheless, it's probably the closest to the original
+    that you'll ever find in the UNIX world...
+command:
+- /opt/apps/tint.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
