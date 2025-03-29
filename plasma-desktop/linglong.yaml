@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: plasma-desktop.linyaps
+  name: plasma-desktop
+  version: 5.27.12.0
+  kind: app
+  description: |-
+    Tools and widgets for the desktop
+    Plasma Desktop offers a beautiful looking desktop
+    that takes complete advantage of modern computing technology.
+    Through the use of visual effects and scalable graphics,
+    the desktop experience is not only smooth but also pleasant
+    to the eye. The looks of Plasma Desktop not only provide beauty,
+    they are also used to support and improve your computer
+    activities effectively, without being distracting.
+
+    This package is part of the KDE Plasma.
+command:
+- /opt/apps/plasma-desktop.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
