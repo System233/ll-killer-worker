@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: wiredpanda.linyaps
+  name: wiredpanda
+  version: 4.1.12.1
+  kind: app
+  description: |-
+    logic circuits simulator
+    WiRed Panda is designed to help students to learn about logic circuits
+    and simulate them in an easy and friendly way.
+
+    The main features of the software are:
+    Real time logic simulation;
+    User-friendly interface;
+    It's intuitive and easy to use;
+    Export your work as an image or a PDF.
+command:
+- /opt/apps/wiredpanda.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
