@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: snapd.linyaps
+  name: snapd
+  version: 2.67.1.4
+  kind: app
+  description: |-
+    Daemon and tooling that enable snap packages
+    Install, configure, refresh and remove snap packages. Snaps are
+    'universal' packages that work across many different Linux systems,
+    enabling secure distribution of the latest apps and utilities for
+    cloud, servers, desktops and the internet of things.
+
+    Start with 'snap list' to see installed snaps.
+command:
+- /opt/apps/snapd.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
