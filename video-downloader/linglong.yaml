@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: video-downloader.linyaps
+  name: video-downloader
+  version: 0.12.10.2
+  kind: app
+  description: |-
+    Download videos from websites with an easy-to-use interface
+    This package is an easy-to-use user interface based on yt-dlp.
+    It provides the following features:
+    - Convert videos to MP3
+    - Supports password-protected and private videos
+    - Download single videos or whole playlists
+    - Automatically selects a video format based on your quality demands
+
+    yt-dlp is a command-line program to download videos from a variety of
+    supported websites.
+command:
+- /opt/apps/video-downloader.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
