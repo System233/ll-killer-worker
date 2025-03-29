@@ -1,0 +1,28 @@
+正在测试: APPID=python3-xrt.linyaps LAYER=python3-xrt.linyaps_1.6.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install python3-xrt.linyaps_1.6.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:python3-xrt.linyaps
+Layer文件:python3-xrt.linyaps_1.6.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: python3-xrt.linyaps_1.6.0.1_arm64_binary.layer
+offset: 722
+mountpoint: /tmp/tmp.Qod3vsw3Wx/mnt
+dbglevel: 0
+[成功] xray_tracer.desktop: python3-xrt.linyaps-logo-xrtQt -> /opt/apps/python3-xrt.linyaps/files/share/icons/hicolor/16x16/apps/python3-xrt.linyaps-logo-xrtQt.png
+[成功] /opt/apps/python3-xrt.linyaps/files/share/applications/xray_tracer.desktop: /opt/apps/python3-xrt.linyaps/files/entrypoint.sh /usr/bin/xrtQookStart
+[正在测试启动项]
+包名:python3-xrt.linyaps
+Layer文件:python3-xrt.linyaps_1.6.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: python3-xrt.linyaps_1.6.0.1_arm64_binary.layer
+offset: 722
+mountpoint: /tmp/tmp.rHkKAQ2fK8/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run python3-xrt.linyaps -- /opt/apps/python3-xrt.linyaps/files/entrypoint.sh /usr/bin/xrtQookStart
+[PID 65593] 进程已启动
+[PID 65593] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall python3-xrt.linyaps

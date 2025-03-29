@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: python3-xrt.linyaps
+  name: python3-xrt
+  version: 1.6.0.1
+  kind: app
+  description: |-
+    XRay Tracer and wave propagation (Python 3)
+    XRayTracer is a python software library for ray tracing and wave
+    propagation in x-ray regime. It is primarily meant for modeling
+    synchrotron sources, beamlines and beamline elements. Includes a
+    GUI for creating a beamline and interactively viewing it in 3D.
+
+    This package installs the library for Python 3.
+command:
+- /opt/apps/python3-xrt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
