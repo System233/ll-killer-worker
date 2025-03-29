@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: ri-li.linyaps
+  name: ri-li
+  version: 3.1.4.1
+  kind: app
+  description: |-
+    toy train simulation game
+    Ri-li is a game in which you drive a wooden toy steam locomotive across many
+    levels and collect all the coaches to win.
+
+    It features:
+    * a colorful animated wooden steam locomotive;
+    * 50 game levels;
+    * 3 beautiful tunes and many sound effects;
+    * 14 languages (Arabic, Breton, Chinese, English, Esperanto, French,
+    German, Italian, Japanese, Portuguese, Russian, Slovak, Spanish, and
+    Swedish).
+command:
+- /opt/apps/ri-li.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
