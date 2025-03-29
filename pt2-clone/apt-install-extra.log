@@ -1,0 +1,45 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libxt6t64
+Suggested packages:
+  nas sndiod
+The following packages will be REMOVED:
+  libxt6
+The following NEW packages will be installed:
+  libaudio2 libsndio7.0 libxt6t64
+0 upgraded, 3 newly installed, 1 to remove and 449 not upgraded.
+Need to get 254 kB of archives.
+After this operation, 228 kB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxt6t64 amd64 1:1.2.1-1.2build1 [171 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libaudio2 amd64 1.9.4-8 [53.2 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libsndio7.0 amd64 1.9.0-0.3build3 [29.6 kB]
+Fetched 254 kB in 0s (7155 kB/s)
+dpkg: libxt6:amd64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libxt6.
+ xscreensaver-gl depends on libxt6.
+ xscreensaver-data depends on libxt6.
+ x11-xkb-utils depends on libxt6.
+ libxmu6:amd64 depends on libxt6.
+ libxaw7:amd64 depends on libxt6.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27520 files and directories currently installed.)
+Removing libxt6:amd64 (1:1.2.0-1) ...
+Selecting previously unselected package libxt6t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27514 files and directories currently installed.)
+Preparing to unpack .../libxt6t64_1%3a1.2.1-1.2build1_amd64.deb ...
+Unpacking libxt6t64:amd64 (1:1.2.1-1.2build1) ...
+Selecting previously unselected package libaudio2:amd64.
+Preparing to unpack .../libaudio2_1.9.4-8_amd64.deb ...
+Unpacking libaudio2:amd64 (1.9.4-8) ...
+Selecting previously unselected package libsndio7.0:amd64.
+Preparing to unpack .../libsndio7.0_1.9.0-0.3build3_amd64.deb ...
+Unpacking libsndio7.0:amd64 (1.9.0-0.3build3) ...
+Setting up libxt6t64:amd64 (1:1.2.1-1.2build1) ...
+Setting up libaudio2:amd64 (1.9.4-8) ...
+Setting up libsndio7.0:amd64 (1.9.0-0.3build3) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
