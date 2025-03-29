@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: welle.io.linyaps
+  name: welle.io
+  version: 2.4.0.2
+  kind: app
+  description: |-
+    DAB/DAB+ Software Radio
+    This is an open source DAB and DAB+ software defined radio (SDR) with support
+    for rtl-sdr (RTL2832U) and airspy. It supports high DPI and touch displays and
+    it runs even on cheap computers like Raspberry Pi 2/3 and 100€ China Windows
+    10 tablets.
+command:
+- /opt/apps/welle.io.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
