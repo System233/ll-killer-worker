@@ -1,0 +1,38 @@
+version: "1"
+package:
+  id: strawberry.linyaps
+  name: strawberry
+  version: 1.0.23.1
+  kind: app
+  description: |-
+    audio player and music collection organizer
+    Strawberry is a music player aimed at music collectors and audiophiles.
+    It is a fork of Clementine. The name is inspired by the band Strawbs.
+
+    Features:
+    - Play and organize music
+    - Supports WAV, FLAC, WavPack, Ogg Vorbis, Speex, MPC, TrueAudio,
+    -   AIFF, MP4, MP3 and ASF
+    - Audio CD playback
+    - Native desktop notifications
+    - Playlist management
+    - Playlists in multiple formats
+    - Advanced audio and device configuration for bit-perfect playback on Linux
+    - Edit tags on audio files
+    - Automatically retrieve tags from MusicBrainz
+    - Album cover art from Last.fm, Musicbrainz, Discogs, Musixmatch, Deezer,
+    -   Tidal, Qobuz and Spotify
+    - Song lyrics from Lyrics.com, AudD, Genius, Musixmatch, ChartLyrics,
+    -   lyrics.ovh and lololyrics.com
+    - Support for multiple backends
+    - Audio analyzer
+    - Audio equalizer
+    - Transfer music to mass-storage USB players, MTP compatible devices
+    -   and iPod Nano/Classic
+    - Scrobbler with support for Last.fm, Libre.fm and ListenBrainz
+    - Streaming support for Subsonic-compatible servers
+    - Unofficial streaming support for Tidal and Qobuz
+command:
+- /opt/apps/strawberry.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
