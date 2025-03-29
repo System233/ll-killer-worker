@@ -1,0 +1,32 @@
+version: "1"
+package:
+  id: steam-installer.linyaps
+  name: steam-installer
+  version: 1.0.0.2
+  kind: app
+  description: |-
+    Valve's Steam digital software delivery system
+    Steam (https://www.steampowered.com) is a software content delivery system
+    developed by Valve software (https://www.valvesoftware.com).  There is
+    some free software available, but for the most part the content delivered
+    is non-free.
+
+    This package provides a script that downloads and installs the Steam client,
+    and depends on 32-bit and 64-bit libraries and other components that are
+    required by the Steam client. The actual Steam installation and all Steam
+    games will be installed into the home directory of each user who runs
+    the installer script.
+
+    Because Steam requires 32-bit libraries, before installing this package it
+    will be necessary to run, as root:
+
+    dpkg --add-architecture i386; apt update
+
+    Use of Steam is subject to several license agreements and other legal
+    terms. Please see <https://store.steampowered.com/subscriber_agreement/>
+    and <https://store.steampowered.com/legal/> for more details,
+    and pay attention and read carefully if you're worried about your rights.
+command:
+- /opt/apps/steam-installer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

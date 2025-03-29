@@ -1,0 +1,16 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ steam-installer : Depends: steam-libs-i386 (= 1:1.0.0.79~ds-2) but it is not installable
+                   Depends: zenity but it is not going to be installed or
+                            yad but it is not going to be installed
+E: Unable to correct problems, you have held broken packages.
