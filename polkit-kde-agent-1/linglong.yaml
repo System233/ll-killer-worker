@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: polkit-kde-agent-1.linyaps
+  name: polkit-kde-agent-1
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    KDE dialogs for PolicyKit
+    PolicyKit is an application-level toolkit for defining and handling the policy
+    that allows unprivileged processes to speak to privileged processes.
+
+    It is a framework for centralizing the decision making process with respect to
+    granting access to privileged operations (like calling the HAL Mount() method)
+    for unprivileged (desktop) applications.
+
+    PolicyKit-Kde provides a D-Bus session bus service that is used to
+    bring up authentication dialogs used for obtaining privileges.
+command:
+- /opt/apps/polkit-kde-agent-1.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
