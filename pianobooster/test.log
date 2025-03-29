@@ -1,0 +1,28 @@
+正在测试: APPID=pianobooster.linyaps LAYER=pianobooster.linyaps_1.0.0.3_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install pianobooster.linyaps_1.0.0.3_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:pianobooster.linyaps
+Layer文件:pianobooster.linyaps_1.0.0.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pianobooster.linyaps_1.0.0.3_arm64_binary.layer
+offset: 1047
+mountpoint: /tmp/tmp.HHY7PTg0Wi/mnt
+dbglevel: 0
+[成功] pianobooster.desktop: pianobooster -> /opt/apps/pianobooster.linyaps/files/share/icons/hicolor/32x32/apps/pianobooster.png
+[成功] /opt/apps/pianobooster.linyaps/files/share/applications/pianobooster.desktop: /opt/apps/pianobooster.linyaps/files/entrypoint.sh pianobooster %f
+[正在测试启动项]
+包名:pianobooster.linyaps
+Layer文件:pianobooster.linyaps_1.0.0.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pianobooster.linyaps_1.0.0.3_arm64_binary.layer
+offset: 1047
+mountpoint: /tmp/tmp.RO6fYmOIe5/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run pianobooster.linyaps -- /opt/apps/pianobooster.linyaps/files/entrypoint.sh pianobooster
+[PID 11147] 进程已启动
+[PID 11147] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall pianobooster.linyaps
