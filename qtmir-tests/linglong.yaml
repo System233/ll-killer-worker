@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: qtmir-tests.linyaps
+  name: qtmir-tests
+  version: 0.8.0.1
+  kind: app
+  description: |-
+    QtMir tests and demos
+    QtMir is a set of Qt5 components to enable one to write a Mir server with Qt.
+    It contains a QPA (Qt Platform Abstraction) plugin which creates and manages
+    a Mir server. It also exposes some internal Mir functionality.
+
+    This package provides benchmark tests and a simple shell and client using the
+    QtMir QPA.
+command:
+- /opt/apps/qtmir-tests.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
