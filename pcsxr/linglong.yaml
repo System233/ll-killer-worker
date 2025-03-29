@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: pcsxr.linyaps
+  name: pcsxr
+  version: 1.9.94.6
+  kind: app
+  description: |-
+    Sony PlayStation emulator
+    PCSX is an advanced PlayStation (PSX) emulator, which uses a plugin
+    architecture to provide full support for all components of the PSX.
+    It has full emulation support for gamepads, videos, sound, memory cards,
+    and other important PSX components, and is able to play many games
+    without problems.
+
+    This package contains PCSX-Reloaded, which is based on PCSX-df 1.9 which
+    is in turn based on the original PCSX.
+command:
+- /opt/apps/pcsxr.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
