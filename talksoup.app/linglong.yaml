@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: talksoup.app.linyaps
+  name: talksoup.app
+  version: 1.1.0.1
+  kind: app
+  description: |-
+    IRC client for GNUstep
+    TalkSoup is a GNUstep IRC client built on the extensibility of the
+    Objective-C language. The entire IRC client is implemented by plugins,
+    so one can pick and choose what they want to use.
+command:
+- /opt/apps/talksoup.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
