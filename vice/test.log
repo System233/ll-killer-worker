@@ -1,0 +1,59 @@
+正在测试: APPID=vice.linyaps LAYER=vice.linyaps_3.7.1.2_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install vice.linyaps_3.7.1.2_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:vice.linyaps
+Layer文件:vice.linyaps_3.7.1.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: vice.linyaps_3.7.1.2_x86_64_binary.layer
+offset: 1034
+mountpoint: /tmp/tmp.473XltamXh/mnt
+dbglevel: 0
+find: ‘/opt/apps/vice.linyaps/files/share/icons’: No such file or directory
+[成功] x128.desktop: vice.linyaps-c128icon-32x28 -> /opt/apps/vice.linyaps/files/share/pixmaps/vice.linyaps-c128icon-32x28.xpm
+[成功] /opt/apps/vice.linyaps/files/share/applications/x128.desktop: /opt/apps/vice.linyaps/files/entrypoint.sh /usr/bin/x128
+find: ‘/opt/apps/vice.linyaps/files/share/icons’: No such file or directory
+[成功] x64.desktop: vice.linyaps-c64icon-32x28 -> /opt/apps/vice.linyaps/files/share/pixmaps/vice.linyaps-c64icon-32x28.xpm
+[成功] /opt/apps/vice.linyaps/files/share/applications/x64.desktop: /opt/apps/vice.linyaps/files/entrypoint.sh /usr/bin/x64sc
+find: ‘/opt/apps/vice.linyaps/files/share/icons’: No such file or directory
+[成功] xcbm2.desktop: vice.linyaps-cbm2icon-32x28 -> /opt/apps/vice.linyaps/files/share/pixmaps/vice.linyaps-cbm2icon-32x28.xpm
+[成功] /opt/apps/vice.linyaps/files/share/applications/xcbm2.desktop: /opt/apps/vice.linyaps/files/entrypoint.sh /usr/bin/xcbm2
+find: ‘/opt/apps/vice.linyaps/files/share/icons’: No such file or directory
+[成功] xpet.desktop: vice.linyaps-peticon-32x28 -> /opt/apps/vice.linyaps/files/share/pixmaps/vice.linyaps-peticon-32x28.xpm
+[成功] /opt/apps/vice.linyaps/files/share/applications/xpet.desktop: /opt/apps/vice.linyaps/files/entrypoint.sh /usr/bin/xpet
+find: ‘/opt/apps/vice.linyaps/files/share/icons’: No such file or directory
+[成功] xplus4.desktop: vice.linyaps-plus4icon-32x28 -> /opt/apps/vice.linyaps/files/share/pixmaps/vice.linyaps-plus4icon-32x28.xpm
+[成功] /opt/apps/vice.linyaps/files/share/applications/xplus4.desktop: /opt/apps/vice.linyaps/files/entrypoint.sh /usr/bin/xplus4
+find: ‘/opt/apps/vice.linyaps/files/share/icons’: No such file or directory
+[成功] xvic.desktop: vice.linyaps-vic20icon-32x28 -> /opt/apps/vice.linyaps/files/share/pixmaps/vice.linyaps-vic20icon-32x28.xpm
+[成功] /opt/apps/vice.linyaps/files/share/applications/xvic.desktop: /opt/apps/vice.linyaps/files/entrypoint.sh /usr/bin/xvic
+[正在测试启动项]
+包名:vice.linyaps
+Layer文件:vice.linyaps_3.7.1.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: vice.linyaps_3.7.1.2_x86_64_binary.layer
+offset: 1034
+mountpoint: /tmp/tmp.0JAVpnuI3i/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run vice.linyaps -- /opt/apps/vice.linyaps/files/entrypoint.sh /usr/bin/x128
+[PID 8537] 进程已启动
+[PID 8537] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run vice.linyaps -- /opt/apps/vice.linyaps/files/entrypoint.sh /usr/bin/x64sc
+[PID 8679] 进程已启动
+[PID 8679] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run vice.linyaps -- /opt/apps/vice.linyaps/files/entrypoint.sh /usr/bin/xcbm2
+[PID 8807] 进程已启动
+[PID 8807] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run vice.linyaps -- /opt/apps/vice.linyaps/files/entrypoint.sh /usr/bin/xpet
+[PID 8938] 进程已启动
+[PID 8938] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run vice.linyaps -- /opt/apps/vice.linyaps/files/entrypoint.sh /usr/bin/xplus4
+[PID 9070] 进程已启动
+[PID 9070] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run vice.linyaps -- /opt/apps/vice.linyaps/files/entrypoint.sh /usr/bin/xvic
+[PID 9201] 进程已启动
+[PID 9201] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall vice.linyaps

@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: vice.linyaps
+  name: vice
+  version: 3.7.1.2
+  kind: app
+  description: |-
+    Versatile Commodore Emulator
+    VICE emulates well the hardware of the Commodore Business Machines of
+    the pre-Amiga era. Supported are the various Pets, the VIC-20, the
+    Commodore 64, the Commodore 128, the CBM-II series, and the PLUS/4.
+
+    Some alternate keywords for the above: VIC20, C64, C=64, C64 DTV, C128,
+    C=128, CBM-500, CBM-600, CBM-700, PLUS4 .
+
+    This package does not contain the various ROM images needed to
+    actually use the emulators; they are available separately from other
+    locations (see the README.ROMs file).  A corporation in the
+    Netherlands called Tulip holds the copyrights to the ROM images, and
+    redistribution is not permitted, but VICE itself is unencumbered.
+command:
+- /opt/apps/vice.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
