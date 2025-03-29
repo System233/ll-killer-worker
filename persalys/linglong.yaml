@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: persalys.linyaps
+  name: persalys
+  version: 15.0.0.3
+  kind: app
+  description: |-
+    GUI for uncertainty treatment and variabilities management
+    Persalys is a graphical user interface for OpenTURNS, dedicated to the
+    treatment of uncertainty and the management of variabilities. The software is
+    a tool between the computer simulation, probabilistic analyses and the data
+    sciences. The interface is available in French or in English.
+
+    Persalys allows one to:
+    - create mathematical models: analytical, coupling with an external model
+    (finite elements, ...), FMU;
+    - analyse the variability of one's parameters thanks to many methods and
+    visualisation tools;
+    - statistically analyse one's measuring data, infer probability distributions
+    or create metamodels.
+command:
+- /opt/apps/persalys.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
