@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: vectoroids.linyaps
+  name: vectoroids
+  version: 1.1.0.16
+  kind: app
+  description: |-
+    vector-based rock-shooting
+    "Vectoroids" is a vector-based rock-shooting game similar to the
+    arcade classic "Asteroids."
+    Pilot a spaceship and destroy asteroids by shooting them into smaller and
+    smaller pieces while trying to avoid being smashed or shot by UFOs.
+
+    "Vectoroids" is an SDL game based on the source for
+    "Agendaroids," an X-Window game written for the Agenda VR3 Linux-based PDA
+    written by the same author.
+command:
+- /opt/apps/vectoroids.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
