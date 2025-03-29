@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: wfview.linyaps
+  name: wfview
+  version: 1.64.0.2
+  kind: app
+  description: |-
+    remote-control and waterfall for modern ICOM radios
+    wfview is an open-source front-end application for the
+
+    * Icom IC-705 HF portable SDR Amateur Radio
+    * Icom IC-7300 HF SDR Amateur Radio
+    * Icom IC-7610 HF SDR Amateur Radio
+    * Icom IC-7850 HF Hybrid SDR Amateur Radio
+    * Icom IC-7851 HF Hybrid SDR Amateur Radio
+    * Icom IC-9700 VHF/UHF SDR Amateur Radio
+
+    wfview supports viewing the spectrum display waterfall and most normal radio
+    controls. Using wfview, the radio can be operated using the mouse, or just the
+    keyboard (great for those with visual impairments), or even a touch screen
+    display. The gorgous waterfall spectrum can be displayed on a monitor of any
+    size, and can even projected onto a wall for a presentation.
+command:
+- /opt/apps/wfview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
