@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: uqm.linyaps
+  name: uqm
+  version: 0.8.0.2
+  kind: app
+  description: |-
+    The Ur-Quan Masters - An inter-galactic adventure game
+    You return to Earth with a vessel built from technology discovered from an
+    ancient race called the Precursors only to find it enslaved. Gather allies
+    from a wide variety of races, engage in space combat with various foes, and
+    save the galaxy from the Ur-Quan!
+
+    The Ur-Quan Masters is derived from the classic game Star Control II.
+    It includes both the adventure game described above and a fast-paced
+    Super Melee.
+command:
+- /opt/apps/uqm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
