@@ -1,0 +1,30 @@
+version: "1"
+package:
+  id: sugar-write-activity.linyaps
+  name: sugar-write-activity
+  version: 101.0.0.2
+  kind: app
+  description: |-
+    Sugar Learning Platform - writing activity
+    Sugar Learning Platform promotes collaborative learning through Sugar
+    Activities that encourage critical thinking, the heart of a quality
+    education.  Designed from the ground up especially for children, Sugar
+    offers an alternative to traditional “office-desktop” software.
+
+    Learner applications in Sugar are called Activities.  They are software
+    packages that automatically save your work - producing specific
+    instances of the Activity that can be resumed at a later time.  Many
+    Activities support learner collaboration, where multiple learners may
+    be invited to join a collective Activity session.
+
+    The Write activity serves as a basic text editing application.  Its
+    simple interface provides an easy starting point for children,
+    presenting tools that make writing a story, poem or essay simple and
+    straightforward.  It also supports basic tools for inserting images,
+    creating tables, and performing basic layout operations as children
+    begin to require some of these features often associated with word
+    processors.
+command:
+- /opt/apps/sugar-write-activity.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
