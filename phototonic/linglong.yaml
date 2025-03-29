@@ -1,0 +1,33 @@
+version: "1"
+package:
+  id: phototonic.linyaps
+  name: phototonic
+  version: 2.1.0.3
+  kind: app
+  description: |-
+    image viewer and organizer
+    Phototonic is an image viewer and organizer for Linux written in C++ and Qt5.
+
+    Features:
+    - Light weight with a smooth and clear user interface
+    - Does not depend on any desktop environment
+    - Supports several customized thumbnail layouts
+    - Load thumbnails and browse images recursively on a folder tree
+    - Dynamic thumbnails loading, enables fast browsing of very large folders
+    - Filter thumbnails by name
+    - Image navigation and file management
+    - Slide show
+    - Transformation: rotation, flipping, cropping, image mirroring and scaling
+    - Adjust image brightness, saturation, hue and contrast
+    - Keep transformations, zoom and colors while browsing multiple images
+    - Extensive automatic and manual zoom options
+    - Supported image formats: BMP, GIF, ICO, JPEG, MNG, PBM, PGM, PNG, PPM,
+    TGA, XBM, XPM and SVG, SVGZ, TIFF with plugins
+    - Supports GIF animations
+    - Keyboard shortcuts and mouse behavior customization
+    - Load image files or folders from command line
+    - Open images with external applications
+command:
+- /opt/apps/phototonic.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
