@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: pychess.linyaps
+  name: pychess
+  version: 1.0.4.0
+  kind: app
+  description: |-
+    Fully featured, nice looking, easy to use Chess Client
+    The goal of pychess, is to provide a fully featured, nice looking,
+    easy to use chess client for the gnome-desktop.
+
+    The client should be usable both to those totally new to chess, and
+    those who want to use a computer to further enchance their play.
+
+    Features include:
+    Tabbed interface
+    pgn+epd read/write support
+    Hints and spymode
+    xboard/cecp engine support
+    Builtin Python based engine
+    Openingbook using sqlite
+    Clean interface and dialogs
+    Builtin move validator
+    Legal move highlighting
+    Supports drag'n'drop.
+command:
+- /opt/apps/pychess.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
