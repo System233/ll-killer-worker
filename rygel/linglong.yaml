@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: rygel.linyaps
+  name: rygel
+  version: 0.42.5.1
+  kind: app
+  description: |-
+    GNOME UPnP/DLNA services
+    Rygel is a home media solution that allows you to easily share audio, video
+    and pictures, and control of media player on your home network. In technical
+    terms it is both a UPnP AV MediaServer and MediaRenderer implemented through
+    a plug-in mechanism. Interoperability with other devices in the market is
+    achieved by conformance to very strict requirements of DLNA and on the fly
+    conversion of media to format that client devices are capable of handling.
+
+    This package contains the core of Rygel and following plugins:
+    * media-export: Recursively exports folders and files specified in the
+    user configuration. This plugin supports all types of URIs that
+    gio/gvfs and GStreamer can handle.
+    * external: A MediaServer plugin that exports media hierarchies
+    provided by external applications.
+    * mpris: Export of media players that implement MPRIS2 D-Bus interface,
+    as MediaRenderer devices.
+command:
+- /opt/apps/rygel.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
