@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: qasconfig.linyaps
+  name: qasconfig
+  version: 1.4.0.1
+  kind: app
+  description: |-
+    ALSA configuration browser
+    QasTools is a collection of desktop applications for the
+    Linux sound system ALSA.
+
+    The applications included are:
+    - QasConfig - browser for the ALSA configuration tree
+    - QasHctl - mixer for ALSA's High level Control Interface
+    - QasMixer - desktop mixer with features similar to alsamixer
+
+    ALSA's configuration resides in a tree structure which gets built
+    from the contents of the files /etc/asound.conf and ~/.asoundrc.
+    QasConfig is a simple browser for this configuration tree and can
+    help to analyze and debug an ALSA setup.
+command:
+- /opt/apps/qasconfig.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
