@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: scanner-driver-zcjt.linyaps
+  name: scanner-driver-zcjt
+  version: 2.1.0.3
+  kind: app
+  description: |-
+    Scanner Application
+    扫描应用软件 ZC LnxScan
+command:
+- /opt/apps/scanner-driver-zcjt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
