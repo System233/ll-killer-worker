@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: toxic.linyaps
+  name: toxic
+  version: 0.11.1.3
+  kind: app
+  description: |-
+    curses Tox based instant messenging client
+    This is a Tox-based instant messenging client which formerly resided in
+    the Tox core repository, and is now available as a standalone
+    application.
+
+    Tox is a secure and distributed Skype replacement.
+
+    At its heart it’s a client dealing with its core library communicating
+    on its own protocol. All communications are encrypted using the peer
+    audited NaCl cypto library and this encryption can not be turned off.
+
+    Tox is powered by a distributed network which uses P2P connections for
+    chats between people, unlike other Skype replacements no federated
+    servers, centralized servers, or supernodes are used.
+command:
+- /opt/apps/toxic.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

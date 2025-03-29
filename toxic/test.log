@@ -1,0 +1,32 @@
+正在测试: APPID=toxic.linyaps LAYER=toxic.linyaps_0.11.1.3_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install toxic.linyaps_0.11.1.3_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:toxic.linyaps
+Layer文件:toxic.linyaps_0.11.1.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: toxic.linyaps_0.11.1.3_arm64_binary.layer
+offset: 1007
+mountpoint: /tmp/tmp.Oe4dB6a4S0/mnt
+dbglevel: 0
+find: ‘/opt/apps/toxic.linyaps/files/share/icons’: No such file or directory
+find: ‘/opt/apps/toxic.linyaps/files/share/pixmaps’: No such file or directory
+[成功] toxic.desktop: utilities-terminal -> /usr/share/icons/Humanity/apps/22/utilities-terminal.svg
+[成功] /opt/apps/toxic.linyaps/files/share/applications/toxic.desktop: /opt/apps/toxic.linyaps/files/entrypoint.sh toxic
+[正在测试启动项]
+包名:toxic.linyaps
+Layer文件:toxic.linyaps_0.11.1.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: toxic.linyaps_0.11.1.3_arm64_binary.layer
+offset: 1007
+mountpoint: /tmp/tmp.qAbSVzvXUu/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run toxic.linyaps -- /opt/apps/toxic.linyaps/files/entrypoint.sh toxic
+[PID 6197] 进程已启动
+[PID 6197] 等待超时，未能检测到窗口
+[PID 6197] 正在通知并等待进程退出
+[PID 6197] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall toxic.linyaps
