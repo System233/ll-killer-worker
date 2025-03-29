@@ -1,0 +1,50 @@
+正在测试: APPID=thunar.linyaps LAYER=thunar.linyaps_4.18.8.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install thunar.linyaps_4.18.8.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:thunar.linyaps
+Layer文件:thunar.linyaps_4.18.8.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: thunar.linyaps_4.18.8.1_x86_64_binary.layer
+offset: 603
+mountpoint: /tmp/tmp.PjYR4giXFC/mnt
+dbglevel: 0
+[成功] thunar-bulk-rename.desktop: org.xfce.thunar -> /opt/apps/thunar.linyaps/files/share/icons/hicolor/128x128/apps/org.xfce.thunar.png
+[成功] /opt/apps/thunar.linyaps/files/share/applications/thunar-bulk-rename.desktop: /opt/apps/thunar.linyaps/files/entrypoint.sh thunar --bulk-rename %F
+[成功] thunar-settings.desktop: org.xfce.thunar -> /opt/apps/thunar.linyaps/files/share/icons/hicolor/128x128/apps/org.xfce.thunar.png
+[成功] /opt/apps/thunar.linyaps/files/share/applications/thunar-settings.desktop: /opt/apps/thunar.linyaps/files/entrypoint.sh thunar-settings
+[成功] thunar.desktop: org.xfce.thunar -> /opt/apps/thunar.linyaps/files/share/icons/hicolor/128x128/apps/org.xfce.thunar.png
+[成功] /opt/apps/thunar.linyaps/files/share/applications/thunar.desktop: /opt/apps/thunar.linyaps/files/entrypoint.sh thunar %U
+[正在测试启动项]
+包名:thunar.linyaps
+Layer文件:thunar.linyaps_4.18.8.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: thunar.linyaps_4.18.8.1_x86_64_binary.layer
+offset: 603
+mountpoint: /tmp/tmp.faKp8v24SR/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run thunar.linyaps -- /opt/apps/thunar.linyaps/files/entrypoint.sh thunar --bulk-rename
+[PID 21422] 进程已启动
+[PID 21422] 已检测到窗口:PID=36
+[PID 21422] 正在截图 0秒: tests/screen0-0.jpg
+[PID 21422] 正在截图 1秒: tests/screen0-1.jpg
+[PID 21422] 正在截图 3秒: tests/screen0-3.jpg
+[PID 21422] 正在截图 5秒: tests/screen0-5.jpg
+[PID 21422] 正在通知并等待进程退出
+[PID 21422] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run thunar.linyaps -- /opt/apps/thunar.linyaps/files/entrypoint.sh thunar-settings
+[PID 21605] 进程已启动
+[PID 21605] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run thunar.linyaps -- /opt/apps/thunar.linyaps/files/entrypoint.sh thunar
+[PID 21731] 进程已启动
+[PID 21731] 已检测到窗口:PID=36
+[PID 21731] 正在截图 0秒: tests/screen2-0.jpg
+[PID 21731] 正在截图 1秒: tests/screen2-1.jpg
+[PID 21731] 正在截图 3秒: tests/screen2-3.jpg
+[PID 21731] 正在截图 5秒: tests/screen2-5.jpg
+[PID 21731] 正在通知并等待进程退出
+[PID 21731] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall thunar.linyaps
