@@ -11,9 +11,7 @@ $(TARGET_INDEX):
 	ASSETS=$$(printf "%s" "$$RESP" | jq 'limit(1; .assets[] | select(.name | test("$(PATTERN)")))');\
 	URL=$$(printf "%s" "$$ASSETS" | jq -r '.browser_download_url');\
 	FILENAME=$$(printf "%s" "$$ASSETS" | jq -r '.name');\
-	test -n "$$URL"||(echo "$(CONFIG):找不到匹配项" && exit 0);\
-	echo "$(PKGID),$$TAG_NAME,$$CONFIG,$$URL,$$FILENAME"|tee "$@~";\
-	mv $@~ $@
+	test -n "$$URL"&&echo "$(PKGID),$$TAG_NAME,$$CONFIG,$$URL,$$FILENAME"|tee "$@~"&&mv $@~ $@||echo "找不到匹配项:$(PKGID)"
 
 INDEX_TARGET=$(TARGET_INDEX)
 include config/strategy/base.mk
