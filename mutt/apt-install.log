@@ -1,0 +1,73 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  gsasl-common libgpgme11 libgsasl7 libntlm0 libtokyocabinet9 mailcap
+Suggested packages:
+  default-mta | mail-transport-agent urlview aspell | ispell
+The following NEW packages will be installed:
+  gsasl-common libgpgme11 libgsasl7 libntlm0 libtokyocabinet9 mailcap mutt
+0 upgraded, 7 newly installed, 0 to remove and 236 not upgraded.
+Need to get 3028 kB of archives.
+After this operation, 10.1 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main amd64 gsasl-common all 1.10.0-5 [172 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main amd64 libgpgme11 amd64 1.18.0-4deepin1+rb1 [300 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main amd64 libntlm0 amd64 1.6-4 [83.6 kB]
+Get:4 https://community-packages.deepin.com/beige beige/main amd64 libgsasl7 amd64 1.10.0-5 [191 kB]
+Get:5 https://community-packages.deepin.com/beige beige/main amd64 libtokyocabinet9 amd64 1.4.48-13 [369 kB]
+Get:6 https://community-packages.deepin.com/beige beige/main amd64 mailcap all 3.70 [31.8 kB]
+Get:7 https://community-packages.deepin.com/beige beige/community amd64 mutt amd64 2.2.13-1 [1880 kB]
+Fetched 3028 kB in 2s (1669 kB/s)
+Selecting previously unselected package gsasl-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../0-gsasl-common_1.10.0-5_all.deb ...
+Unpacking gsasl-common (1.10.0-5) ...
+Selecting previously unselected package libgpgme11:amd64.
+Preparing to unpack .../1-libgpgme11_1.18.0-4deepin1+rb1_amd64.deb ...
+Unpacking libgpgme11:amd64 (1.18.0-4deepin1+rb1) ...
+Selecting previously unselected package libntlm0:amd64.
+Preparing to unpack .../2-libntlm0_1.6-4_amd64.deb ...
+Unpacking libntlm0:amd64 (1.6-4) ...
+Selecting previously unselected package libgsasl7:amd64.
+Preparing to unpack .../3-libgsasl7_1.10.0-5_amd64.deb ...
+Unpacking libgsasl7:amd64 (1.10.0-5) ...
+Selecting previously unselected package libtokyocabinet9:amd64.
+Preparing to unpack .../4-libtokyocabinet9_1.4.48-13_amd64.deb ...
+Unpacking libtokyocabinet9:amd64 (1.4.48-13) ...
+Selecting previously unselected package mailcap.
+Preparing to unpack .../5-mailcap_3.70_all.deb ...
+Unpacking mailcap (3.70) ...
+Selecting previously unselected package mutt.
+Preparing to unpack .../6-mutt_2.2.13-1_amd64.deb ...
+Unpacking mutt (2.2.13-1) ...
+Setting up libtokyocabinet9:amd64 (1.4.48-13) ...
+Setting up libgpgme11:amd64 (1.18.0-4deepin1+rb1) ...
+Setting up libntlm0:amd64 (1.6-4) ...
+Setting up gsasl-common (1.10.0-5) ...
+Setting up mailcap (3.70) ...
+
+Configuration file '/etc/mailcap.order', does not exist on system.
+Installing new config file as you requested.
+Setting up libgsasl7:amd64 (1.10.0-5) ...
+Setting up mutt (2.2.13-1) ...
+
+Configuration file '/etc/Muttrc', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/Muttrc.d/charset.rc', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/Muttrc.d/colors.rc', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/Muttrc.d/compressed-folders.rc', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/Muttrc.d/gpg.rc', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/Muttrc.d/smime.rc', does not exist on system.
+Installing new config file as you requested.
+Processing triggers for libc-bin (2.38-6deepin4) ...
