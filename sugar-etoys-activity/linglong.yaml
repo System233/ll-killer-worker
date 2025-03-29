@@ -1,0 +1,32 @@
+version: "1"
+package:
+  id: sugar-etoys-activity.linyaps
+  name: sugar-etoys-activity
+  version: 116.0.0.10
+  kind: app
+  description: |-
+    Etoys activity for Sugar Learning Platform
+    Sugar Learning Platform promotes collaborative learning through Sugar
+    Activities that encourage critical thinking, the heart of a quality
+    education.  Designed from the ground up especially for children, Sugar
+    offers an alternative to traditional “office-desktop” software.
+
+    Learner applications in Sugar are called Activities.  They are software
+    packages that automatically save your work - producing specific
+    instances of the Activity that can be resumed at a later time.  Many
+    Activities support learner collaboration, where multiple learners may
+    be invited to join a collective Activity session.
+
+    Squeak Etoys was inspired by LOGO, PARC-Smalltalk, Hypercard, and
+    starLOGO. It is a media-rich authoring environment with a simple,
+    powerful scripted object model for many kinds of objects created by
+    end-users. It includes 2D and 3D graphics, images, text, particles,
+    presentations, web-pages, videos, sound and MIDI, etc. It includes the
+    ability to share desktops with other Etoy users in real-time, so many
+    forms of immersive mentoring and play can be done over the Internet.
+
+    The Etoys activity embeds Squeak Etoys into Sugar.
+command:
+- /opt/apps/sugar-etoys-activity.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
