@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: tunnelx.linyaps
+  name: tunnelx
+  version: 20190701.0.0.1
+  kind: app
+  description: |-
+    Cave Survey drawing software
+    Tunnel enables you to draw cave surveys based on Survex-compatible
+    centreline data. Drawings will be adjusted to fit if the underlying
+    data moves due to loop closures. Original drawings/scans/pockettopo
+    imports can be used as a basis to draw over. Complex multi-layered
+    surveys can be drawn, with flexible facilties for colour-grouping
+    and adding images or background maps. The application can use data
+    stored online and works on all major platforms.
+command:
+- /opt/apps/tunnelx.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
