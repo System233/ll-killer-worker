@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: qcalcfilehash.linyaps
+  name: qcalcfilehash
+  version: 1.1.1.1
+  kind: app
+  description: |-
+    graphical utility for calculation and verification of hash sums
+    QCalcFileHash is a graphical utility for calculation and verification of
+    a wide range of hash sums like SHA1, SHA-224, SHA-256, SHA-384, SHA-512,
+    MD5, CRC32, CRC8.
+
+    It can be used on command line as well.
+command:
+- /opt/apps/qcalcfilehash.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
