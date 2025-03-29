@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: org.szra.uosxabukey.linyaps
+  name: org.szra.uosxabukey
+  version: 3.29.2.5
+  kind: app
+  description: 西安银行e盾管理工具(神州融安)
+command:
+- /opt/apps/org.szra.uosxabukey.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
