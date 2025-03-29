@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: qt5-style-kvantum.linyaps
+  name: qt5-style-kvantum
+  version: 1.0.10.1
+  kind: app
+  description: |-
+    Kvantum style engine (binaries)
+    Kvantum is an SVG-based theme engine for Qt4/Qt5, KDE and LXQt, with an
+    emphasis on elegance, usability and practicality.
+
+    This package contain the application files.
+command:
+- /opt/apps/qt5-style-kvantum.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
