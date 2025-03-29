@@ -1,0 +1,40 @@
+正在测试: APPID=parole.linyaps LAYER=parole.linyaps_4.18.1.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install parole.linyaps_4.18.1.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:parole.linyaps
+Layer文件:parole.linyaps_4.18.1.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: parole.linyaps_4.18.1.1_x86_64_binary.layer
+offset: 691
+mountpoint: /tmp/tmp.mlPxipvYGd/mnt
+dbglevel: 0
+[成功] org.xfce.Parole.desktop: org.xfce.parole -> /opt/apps/parole.linyaps/files/share/icons/hicolor/128x128/apps/org.xfce.parole.png
+find: ‘/opt/apps/parole.linyaps/files/share/pixmaps’: No such file or directory
+[成功] org.xfce.Parole.desktop: media-playback-start-symbolic -> /usr/share/icons/Adwaita/symbolic/actions/media-playback-start-symbolic.svg
+find: ‘/opt/apps/parole.linyaps/files/share/pixmaps’: No such file or directory
+[成功] org.xfce.Parole.desktop: media-skip-backward-symbolic -> /usr/share/icons/Adwaita/symbolic/actions/media-skip-backward-symbolic.svg
+find: ‘/opt/apps/parole.linyaps/files/share/pixmaps’: No such file or directory
+[成功] org.xfce.Parole.desktop: media-skip-forward-symbolic -> /usr/share/icons/Adwaita/symbolic/actions/media-skip-forward-symbolic.svg
+[成功] /opt/apps/parole.linyaps/files/share/applications/org.xfce.Parole.desktop: /opt/apps/parole.linyaps/files/entrypoint.sh parole %F
+[正在测试启动项]
+包名:parole.linyaps
+Layer文件:parole.linyaps_4.18.1.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: parole.linyaps_4.18.1.1_x86_64_binary.layer
+offset: 691
+mountpoint: /tmp/tmp.0aQAmPBDUt/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run parole.linyaps -- /opt/apps/parole.linyaps/files/entrypoint.sh parole
+[PID 11798] 进程已启动
+[PID 11798] 已检测到窗口:PID=36
+[PID 11798] 正在截图 0秒: tests/screen0-0.jpg
+[PID 11798] 正在截图 1秒: tests/screen0-1.jpg
+[PID 11798] 正在截图 3秒: tests/screen0-3.jpg
+[PID 11798] 正在截图 5秒: tests/screen0-5.jpg
+[PID 11798] 正在通知并等待进程退出
+[PID 11798] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall parole.linyaps

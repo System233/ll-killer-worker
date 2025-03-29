@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: parole.linyaps
+  name: parole
+  version: 4.18.1.1
+  kind: app
+  description: |-
+    media player based on GStreamer framework
+    Parole is a media player for the Xfce desktop environment, written using the
+    GStreamer framework.
+
+    Parole features playback of local media files, including video with subtitles
+    support, DVD/CD and live streams; it is also extensible via plugins.
+
+    This package contains Parole media player.
+command:
+- /opt/apps/parole.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
