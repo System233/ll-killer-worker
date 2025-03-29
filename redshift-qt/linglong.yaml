@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: redshift-qt.linyaps
+  name: redshift-qt
+  version: 0.6.0.3
+  kind: app
+  description: |-
+    redshift-gtk rewrite with C++/Qt
+    redshift-qt is a drop-in replacement for redshift-gtk. It provides all of the
+    same features as redshift-gtk, but integrates better with a Qt-based desktop.
+command:
+- /opt/apps/redshift-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
