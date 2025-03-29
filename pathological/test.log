@@ -1,0 +1,29 @@
+正在测试: APPID=pathological.linyaps LAYER=pathological.linyaps_1.1.3.17_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install pathological.linyaps_1.1.3.17_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:pathological.linyaps
+Layer文件:pathological.linyaps_1.1.3.17_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pathological.linyaps_1.1.3.17_arm64_binary.layer
+offset: 731
+mountpoint: /tmp/tmp.FkNhxwjLi3/mnt
+dbglevel: 0
+find: ‘/opt/apps/pathological.linyaps/files/share/icons’: No such file or directory
+[成功] pathological.desktop: pathological -> /opt/apps/pathological.linyaps/files/share/pixmaps/pathological.xpm
+[成功] /opt/apps/pathological.linyaps/files/share/applications/pathological.desktop: /opt/apps/pathological.linyaps/files/entrypoint.sh pathological
+[正在测试启动项]
+包名:pathological.linyaps
+Layer文件:pathological.linyaps_1.1.3.17_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pathological.linyaps_1.1.3.17_arm64_binary.layer
+offset: 731
+mountpoint: /tmp/tmp.ZVF3d6fzsW/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run pathological.linyaps -- /opt/apps/pathological.linyaps/files/entrypoint.sh pathological
+[PID 10904] 进程已启动
+[PID 10904] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall pathological.linyaps
