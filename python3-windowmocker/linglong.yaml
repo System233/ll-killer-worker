@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: python3-windowmocker.linyaps
+  name: python3-windowmocker
+  version: 1.4.4.0
+  kind: app
+  description: |-
+    create windows and applications from specifications
+    Window Mocker is a simple tool that allows developers to create windows and
+    applications that follow a certain specification. This is especially useful
+    when testing applications that interact with other windows (like a window
+    manager, for example).
+command:
+- /opt/apps/python3-windowmocker.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
