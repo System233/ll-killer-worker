@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: riseup-vpn.linyaps
+  name: riseup-vpn
+  version: 0.21.11.5
+  kind: app
+  description: |-
+    Easy, fast, and secure VPN service from riseup.net
+    Riseup offers Personal VPN service for censorship circumvention,
+    location anonymization and traffic encryption. To make this possible, it
+    sends all user's internet traffic through an encrypted connection to
+    riseup.net, where it then goes out onto the public internet.
+command:
+- /opt/apps/riseup-vpn.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
