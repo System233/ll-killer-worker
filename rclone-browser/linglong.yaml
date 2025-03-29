@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: rclone-browser.linyaps
+  name: rclone-browser
+  version: 1.8.0.4
+  kind: app
+  description: |-
+    Simple cross platform GUI for rclone
+    This is a GUI for rclone, which is a program to sync files and directories
+    between the local file system and a variety of commercial cloud storage
+    providers.
+command:
+- /opt/apps/rclone-browser.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
