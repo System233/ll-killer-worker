@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: openshot-qt.linyaps
+  name: openshot-qt
+  version: 3.1.1.1
+  kind: app
+  description: |-
+    create and edit videos and movies
+    OpenShot Video Editor is a free, open-source, non-linear video editor. It
+    can create and edit videos and movies using many popular video, audio, and
+    image formats. Create videos for YouTube, Flickr, Vimeo, Metacafe, iPod,
+    Xbox, and many more common formats!
+
+    Features include:
+    * Multiple tracks (layers)
+    * Compositing, image overlays, and watermarks
+    * Support for image sequences (rotoscoping)
+    * Key-frame animation
+    * Video and audio effects (chroma-key)
+    * Transitions (lumas and masks)
+    * 3D animation (titles and physics simulations)
+    * Chroma key (green screen & blue screen)
+    * Transcode (convert video encodings)
+    * Upload videos (YouTube and Vimeo supported)
+command:
+- /opt/apps/openshot-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
