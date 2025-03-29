@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: qstopmotion.linyaps
+  name: qstopmotion
+  version: 2.5.2.1
+  kind: app
+  description: |-
+    Application for creating stop-motion animation movies
+    The users will be able to create stop-motions from pictures imported
+    from a camera or from the harddrive and export the animation to
+    different video formats such as mpeg or avi.
+command:
+- /opt/apps/qstopmotion.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
