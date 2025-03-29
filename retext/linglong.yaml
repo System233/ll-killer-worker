@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: retext.linyaps
+  name: retext
+  version: 8.0.2.1
+  kind: app
+  description: |-
+    Simple text editor for Markdown and reStructuredText
+    ReText is a simple editor for Markdown and reStructuredText markup languages.
+
+    ReText supports tabs, live text preview and syntax highlighting. Supported
+    export formats: HTML, ODT, PDF. It is also possible to write custom export
+    extensions.
+
+    It is written in Python using Qt libraries.
+command:
+- /opt/apps/retext.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
