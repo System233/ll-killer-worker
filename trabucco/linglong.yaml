@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: trabucco.linyaps
+  name: trabucco
+  version: 1.5.0.1
+  kind: app
+  description: |-
+    This is a launcher for people that are nostalgic about katapult
+    Trabucco means trebuchet in Italian, which is a siege weapon, like a catapult.
+    When KDE4 was released, katapult was replaced by krunner.
+
+    Trabucco aims at providing an experience similar to katapult, using modern
+    freedesktop.org standards.
+
+    It shows only one action per search query, and it is very deterministic about
+    it.
+
+    It is much faster than krunner.
+command:
+- /opt/apps/trabucco.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
