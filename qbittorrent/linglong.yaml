@@ -1,0 +1,30 @@
+version: "1"
+package:
+  id: qbittorrent.linyaps
+  name: qbittorrent
+  version: 4.6.3.1
+  kind: app
+  description: |-
+    bittorrent client based on libtorrent-rasterbar with a Qt5 GUI
+    BitTorrent client written in C++ and based on libtorrent-rasterbar with a
+    Qt5 user interface. qBittorrent is a feature rich but lightweight client
+    that is very similar to uTorrent. Its main features are:
+
+    * Polished uTorrent-like user interface
+    * Well integrated and extensible search engine
+    * Remote control through a Web user interface
+    * Vuze-compatible protocol encryption
+    * uTorrent-compatible Peer eXchange (PeX)
+    * DHT (trackerless) support
+    * UPnP / NAT-PMP port forwarding
+    * IPv6 compliant
+    * RSS support with advanced download filters
+    * Advanced control over torrent content and trackers
+    * IP Filtering (eMule / Peer Guardian filters)
+    * Torrents queueing and prioritizing
+    * Good localization (~25 languages supported)
+    * Unicode support
+command:
+- /opt/apps/qbittorrent.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
