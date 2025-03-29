@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: timekpr-next.linyaps
+  name: timekpr-next
+  version: 0.5.4.1
+  kind: app
+  description: |-
+    Keep control of computer usage
+    Timekpr-nExT is a fresh, simple and easy-to-use time managing software
+    that helps optimizing time spent at computer for Your subordinates,
+    children or even for Yourself.
+
+    The software is targeted at parents or supervisors to optimize / limit
+    time spent at computer as they see fit.
+
+    Please report any bugs to Timekpr-nExT’s bug tracker on Launchpad at:
+    https://bugs.launchpad.net/timekpr-next/+bugs
+command:
+- /opt/apps/timekpr-next.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
