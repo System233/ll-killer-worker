@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: qpwgraph.linyaps
+  name: qpwgraph
+  version: 0.6.1.1
+  kind: app
+  description: |-
+    User interface for controlling the PipeWire Graph
+    qpwgraph is a graph manager dedicated to PipeWire (https://pipewire.org),
+    using the Qt C++ framework (https://qt.io), based and pretty much like the
+    same of QjackCtl (https://qjackctl.sourceforge.io).
+command:
+- /opt/apps/qpwgraph.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
