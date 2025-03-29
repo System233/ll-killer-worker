@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: systemsettings.linyaps
+  name: systemsettings
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    System Settings interface
+    Desktop configuration application.
+
+    This package is part of the KDE base workspace module.
+command:
+- /opt/apps/systemsettings.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
