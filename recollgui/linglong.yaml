@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: recollgui.linyaps
+  name: recollgui
+  version: 1.36.1.1
+  kind: app
+  description: |-
+    GUI program and elements for recoll
+    This package contains main recoll GUI for configuring, controlling and
+    querying recoll indexes.
+command:
+- /opt/apps/recollgui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
