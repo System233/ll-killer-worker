@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: openpgp-applet.linyaps
+  name: openpgp-applet
+  version: 1.1.0.3
+  kind: app
+  description: |-
+    GNOME applet for OpenPGP text encryption
+    OpenPGP Applet is a graphical frontend on top of GnuPG.
+
+    It allows encryption and decryption of the clipboard's content either
+    with public key cryptography, or with a symmetric cipher using a passphrase.
+    Creating and verifying clear text signatures is also supported.
+
+    Note: OpenPGP Applet does not handle passphrase input. Since it also does not
+    offer terminal interaction unless explicitly run from there, it relies in
+    practice on GnuPG agent to be running and configured to use a passphrase entry
+    dialog, such as pinentry-gnome3.
+command:
+- /opt/apps/openpgp-applet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
