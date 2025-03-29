@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: vitables.linyaps
+  name: vitables
+  version: 3.0.2.4
+  kind: app
+  description: |-
+    graphical tool to browse and edit PyTables and HDF5 files
+    ViTables is a component of the PyTables family. It is a graphical
+    tool for browsing and editing files in both PyTables and HDF5
+    formats.
+
+    ViTables capabilities include easy navigation through the data
+    hierarchy, displaying of real data and its associated metadata, a
+    simple, yet powerful, browsing of multidimensional data and much
+    more.
+
+    One of the greatest strengths of ViTables is its ability to display
+    very large tables. Tables with one thousand millions of rows (and
+    beyond) are navigated stunningly fast and with very low memory
+    requirements. So, if you ever need to browse very large tables, don't
+    hesitate, ViTables is your choice.
+command:
+- /opt/apps/vitables.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
