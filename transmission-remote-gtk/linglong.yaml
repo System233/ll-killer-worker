@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: transmission-remote-gtk.linyaps
+  name: transmission-remote-gtk
+  version: 1.5.1.1
+  kind: app
+  description: |-
+    GTK+ interface for the Transmission BitTorrent daemon
+    transmission-remote-gtk is a GTK+ interface for controlling the
+    Transmission BitTorrent daemon.  It is a full featured client,
+    providing the ability to upload, queue, and delete torrent files,
+    monitor downloads, and adjust speed limits.
+command:
+- /opt/apps/transmission-remote-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
