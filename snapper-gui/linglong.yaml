@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: snapper-gui.linyaps
+  name: snapper-gui
+  version: 0.960.0.6
+  kind: app
+  description: |-
+    graphical user interface for snapper
+    Snapper-gui is a graphical user interface for the tool snapper
+    for Linux filesystem snapshot management. It can compare snapshots
+    and revert differences between snapshots. In simple terms, this
+    allows root and non-root users to view older versions of files and
+    revert changes
+
+    Currently works with btrfs, ext4 and thin-provisioned LVM volumes
+command:
+- /opt/apps/snapper-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
