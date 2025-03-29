@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: tickr.linyaps
+  name: tickr
+  version: 0.7.1.1
+  kind: app
+  description: |-
+    GTK-based highly graphically-customizable Feed Ticker
+    Tickr is a GTK-based RSS/Atom Reader that displays feeds as a smooth
+    scrolling line on your Desktop, as known from TV stations. Open feed
+    links in your favourite Browser. Graphics are highly customizable.
+command:
+- /opt/apps/tickr.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
