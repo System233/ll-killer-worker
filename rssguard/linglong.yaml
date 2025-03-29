@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: rssguard.linyaps
+  name: rssguard
+  version: 4.0.4.1
+  kind: app
+  description: |-
+    simple, light and easy-to-use RSS/ATOM feed aggregator
+    RSS Guard is simple, light and easy-to-use RSS/ATOM feed aggregator
+    developed using Qt framework which supports online feed synchronization
+    with these services:
+    - [Tiny Tiny RSS](https://tt-rss.org),
+    - [Inoreader](https://www.inoreader.com),
+    - [Nextcloud News](https://apps.nextcloud.com/apps/news),
+    - [Gmail API](https://developers.google.com/gmail/api).
+command:
+- /opt/apps/rssguard.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
