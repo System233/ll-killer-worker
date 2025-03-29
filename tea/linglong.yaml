@@ -1,0 +1,33 @@
+version: "1"
+package:
+  id: tea.linyaps
+  name: tea
+  version: 62.0.2.1
+  kind: app
+  description: |-
+    graphical text editor with syntax highlighting
+    TEA provides you with hundreds of functions. Want some tea?
+
+    TEA features:
+    * Qt-based GUI with a tabbed layout engine;
+    * hotkey customization;
+    * spell checking (using aspell or hunspell);
+    * support for multiple encodings;
+    * syntax highlighting;
+    * support for code snippets and templates;
+    * string-handling functions such as sorting, reversing, de-formatting,
+    trimming, filtering, conversions etc.;
+    * editing support for Wikipedia, DocBook, LaTeX, and Lout;
+    * reading support for text-based word processor formats (ABW, DOCX, FB2,
+    KWD, ODT, RTF, SLA, SWX);
+    * reading support for PDF and DjVu files, if they contain text;
+    * bookmarks;
+    * miscellaneous XML/XHTML/HTML tools;
+    * "open at cursor" function from HTML href or img tags;
+    * preview in external browsers;
+    * drag'n'drop support (with text files and pictures);
+    * built-in image viewer (BMP, GIF, JPEG, PNG, SVG, WBMP).
+command:
+- /opt/apps/tea.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
