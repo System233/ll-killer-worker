@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: picmi.linyaps
+  name: picmi
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Number logic game
+    Picmi is a number logic game in which cells in a grid have to be colored or
+    left blank according to numbers given at the side of the grid to reveal a
+    hidden picture.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/picmi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
