@@ -1,0 +1,30 @@
+version: "1"
+package:
+  id: skrooge.linyaps
+  name: skrooge
+  version: 2.31.0.1
+  kind: app
+  description: |-
+    personal finance manager for KDE
+    Skrooge allows you to manage your personal finances. It is intended to be used
+    by individuals who want to keep track of their incomes, expenses and
+    investments. Its philosophy is to stay simple and intuitive.
+
+    Here is the list of Skrooge main features:
+    * QIF, CSV, KMyMoney, Skrooge,  import/export
+    * OFX, QFX, GnuCash, Grisbi, HomeBank import
+    * Advanced Graphical Reports
+    * Several tabs to help you organize your work
+    * Infinite undo/redo
+    * Instant filtering on operations and reports
+    * Infinite categories levels
+    * Mass update of operations
+    * Scheduled operations
+    * Track refund of your expenses
+    * Automatically process operations based on search conditions
+    * Multi currencies
+    * Dashboard
+command:
+- /opt/apps/skrooge.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
