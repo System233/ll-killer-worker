@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: tenmado.linyaps
+  name: tenmado
+  version: 0.10.0.5
+  kind: app
+  description: |-
+    hard-core shoot 'em up game in blue-or-red world
+    tenmado is a vertically scrolling, late 1990s style (that is, a massive
+    number of enemy shots against a smaller-than-it-looks spaceship) shoot 'em
+    up game.  A very accurate collision detection makes it a game of
+    dexterity.  If something looks like a triangle, it is a triangle, not
+    a rectangle of similar size.
+
+    However, surviving is only 20% of the game.  The main feature of tenmado
+    is the "color chain bonus".  You can get a very big score (about 100 times
+    bigger than a normal enemy-destruction point) by destroying enemies of
+    the same color successively.  It is easy or difficult depending on how
+    greedy you are.
+command:
+- /opt/apps/tenmado.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
