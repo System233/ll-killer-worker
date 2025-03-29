@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: traceshark.linyaps
+  name: traceshark
+  version: 0.9.14.1
+  kind: app
+  description: |-
+    Graphical viewer for the Ftrace and Perf events
+    The trace can be collected using trace-cmd or perf.
+    It can be used to visualize the following events:
+    cpu_frequency
+    cpu_idle
+    sched_migrate_task
+    sched_process_exit
+    sched_process_fork
+    sched_switch
+    sched_wakeup
+    sched_wakeup_new
+    sched_waking
+command:
+- /opt/apps/traceshark.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
