@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: twpsk.linyaps
+  name: twpsk
+  version: 4.3.0.1
+  kind: app
+  description: |-
+    Soundcard-based X program for operating PSK31
+    Twpsk uses a soundcard to receive and transmit PSK31, an extremely
+    narrow band HF-mode. PSK31 is a mode for keyboard QSO's. It offers
+    narrow signal width and gives excellent results with low power
+    and minimal antenna systems.
+command:
+- /opt/apps/twpsk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
