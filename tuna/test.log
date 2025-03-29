@@ -1,0 +1,29 @@
+正在测试: APPID=tuna.linyaps LAYER=tuna.linyaps_0.15.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install tuna.linyaps_0.15.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:tuna.linyaps
+Layer文件:tuna.linyaps_0.15.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: tuna.linyaps_0.15.0.1_arm64_binary.layer
+offset: 729
+mountpoint: /tmp/tmp.IqJeEhvwqX/mnt
+dbglevel: 0
+find: ‘/opt/apps/tuna.linyaps/files/share/icons’: No such file or directory
+[成功] tuna.desktop: gtk-preferences -> /usr/share/icons/Humanity/categories/48/gtk-preferences.svg
+[成功] /opt/apps/tuna.linyaps/files/share/applications/tuna.desktop: /opt/apps/tuna.linyaps/files/entrypoint.sh tuna --gui
+[正在测试启动项]
+包名:tuna.linyaps
+Layer文件:tuna.linyaps_0.15.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: tuna.linyaps_0.15.0.1_arm64_binary.layer
+offset: 729
+mountpoint: /tmp/tmp.xuY0GoCeut/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run tuna.linyaps -- /opt/apps/tuna.linyaps/files/entrypoint.sh tuna --gui
+[PID 7393] 进程已启动
+[PID 7393] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall tuna.linyaps
