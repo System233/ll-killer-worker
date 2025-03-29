@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: tkcon.linyaps
+  name: tkcon
+  version: 2.7.11.1
+  kind: app
+  description: |-
+    Enhanced interactive console for developing in Tcl
+    TkCon is a Tcl shell and console, making it ideal for
+    experimenting with Tcl and Tk programs interactively.
+
+    Features:
+    Command history
+    Path (Unix style) / Proc / Variable name expansion
+    Multiple consoles, each with its own state (via multiple interpreters)
+    Captures stdout and stderr to console window (puts overridden)
+    Hot errors (click on error result to see stack trace)
+    Electric character matching (a la emacs)
+    Electric proc highlighting
+    Communication between consoles and other Tk interpreters
+    (including non-Tcl ones)
+command:
+- /opt/apps/tkcon.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
