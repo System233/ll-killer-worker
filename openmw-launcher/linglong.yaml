@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: openmw-launcher.linyaps
+  name: openmw-launcher
+  version: 0.48.0.1
+  kind: app
+  description: |-
+    Launcher for OpenMW using the Qt-Gui-Toolkit
+    A launcher for OpenMW for handling installation of games and their
+    expansions, mods and configuration details.
+
+    While not necessary, it automates the first time setup and configuration of
+    OpenMW.
+command:
+- /opt/apps/openmw-launcher.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
