@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: supercollider-ide.linyaps
+  name: supercollider-ide
+  version: 3.13.0.1
+  kind: app
+  description: |-
+    integrated development environment for supercollider audio system
+    SuperCollider is an environment and programming language for real time
+    audio synthesis and algorithmic composition. It provides an interpreted
+    object-oriented language which functions as a network client
+    to a state of the art, realtime sound synthesis server.
+
+    This package contains the graphical IDE, the recommended interface for
+    working with SuperCollider code.
+command:
+- /opt/apps/supercollider-ide.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
