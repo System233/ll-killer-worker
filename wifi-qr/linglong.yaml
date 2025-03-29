@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: wifi-qr.linyaps
+  name: wifi-qr
+  version: 0.3.0.1
+  kind: app
+  description: |-
+    WiFi password share via QR codes
+    Shares WiFi SSID and password via a QR code.
+    Generate a QR code of a WiFi network with its password.
+    Scan QR codes and easily connect to WiFi Networks.
+
+    For Android, OS version 10 and above is supported.
+
+    For iOS, the Shortcut app supports generating WiFi QR codes.
+command:
+- /opt/apps/wifi-qr.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
