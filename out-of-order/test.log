@@ -1,0 +1,28 @@
+正在测试: APPID=out-of-order.linyaps LAYER=out-of-order.linyaps_1.0.0.3_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install out-of-order.linyaps_1.0.0.3_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:out-of-order.linyaps
+Layer文件:out-of-order.linyaps_1.0.0.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: out-of-order.linyaps_1.0.0.3_x86_64_binary.layer
+offset: 814
+mountpoint: /tmp/tmp.7q0esqrppF/mnt
+dbglevel: 0
+[成功] out-of-order.desktop: out-of-order.linyaps-out-of-order -> /opt/apps/out-of-order.linyaps/files/share/pixmaps/out-of-order.linyaps-out-of-order.xpm
+[成功] /opt/apps/out-of-order.linyaps/files/share/applications/out-of-order.desktop: /opt/apps/out-of-order.linyaps/files/entrypoint.sh out-of-order
+[正在测试启动项]
+包名:out-of-order.linyaps
+Layer文件:out-of-order.linyaps_1.0.0.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: out-of-order.linyaps_1.0.0.3_x86_64_binary.layer
+offset: 814
+mountpoint: /tmp/tmp.YqyRr5ojCk/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run out-of-order.linyaps -- /opt/apps/out-of-order.linyaps/files/entrypoint.sh out-of-order
+[PID 10216] 进程已启动
+[PID 10216] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall out-of-order.linyaps
