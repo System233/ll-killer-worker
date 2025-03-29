@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: planetblupi.linyaps
+  name: planetblupi
+  version: 1.15.0.5
+  kind: app
+  description: |-
+    Planet Blupi - A delirious spell-binding game
+    Planet Blupi is a strategy and adventure game. It subtly blends action with
+    thought-provoking challenges. Behind the quiet and gentle facade, you'll enjoy
+    a fascinating diversion full of surprises.
+command:
+- /opt/apps/planetblupi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
