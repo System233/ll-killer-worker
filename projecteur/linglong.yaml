@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: projecteur.linyaps
+  name: projecteur
+  version: 0.10.0.2
+  kind: app
+  description: |-
+    virtual laser pointer for Logitech Spotlight devices
+    Projecteur is a virtual laser pointer for use with inertial pointers such as
+    the Logitech Spotlight. Projecteur can show a colored dot, a highlighted
+    circle or a zoom effect to act as a pointer. The location of the pointer
+    moves in response to moving the handheld pointer device. The effect is much
+    like that of a traditional laser pointer, except that it is captured by
+    recording software and works across multiple screens.
+command:
+- /opt/apps/projecteur.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
