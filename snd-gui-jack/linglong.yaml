@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: snd-gui-jack.linyaps
+  name: snd-gui-jack
+  version: 24.1.0.1
+  kind: app
+  description: |-
+    Sound file editor (graphical user interface - JACK)
+    Snd is a powerful sound file editor that can be customized and extended
+    using the Scheme programming language.
+
+    This package contains the files for the graphical user interface with
+    JACK and ALSA support.
+command:
+- /opt/apps/snd-gui-jack.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
