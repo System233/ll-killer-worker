@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: seafile-gui.linyaps
+  name: seafile-gui
+  version: 9.0.4.1
+  kind: app
+  description: |-
+    Seafile Desktop Client
+    Seafile is a file syncing and sharing software with file encryption
+    and group sharing, emphasis on reliability and high performance.
+
+    Seafile is an open source cloud storage system with privacy protection
+    and teamwork features. Collections of files are called libraries. Each
+    library can be synced separately. A library can also be encrypted with
+    a user chosen password. Seafile also allows users to create groups and
+    easily sharing files into groups.
+
+    This package contains the graphical Desktop Client for Seafile.
+command:
+- /opt/apps/seafile-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
