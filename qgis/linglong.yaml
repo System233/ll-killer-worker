@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: qgis.linyaps
+  name: qgis
+  version: 3.34.4.4
+  kind: app
+  description: |-
+    Geographic Information System (GIS)
+    A Geographic Information System (GIS) manages, analyzes, and displays
+    databases of geographic information. QGIS supports shape file viewing and
+    editing, spatial data storage with PostgreSQL/PostGIS, projection on-the-fly,
+    map composition, and a number of other features via a plugin interface. QGIS
+    also supports display of various georeferenced raster and Digital Elevation
+    Model (DEM) formats including GeoTIFF, Arc/Info ASCII Grid, and USGS ASCII
+    DEM.
+command:
+- /opt/apps/qgis.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
