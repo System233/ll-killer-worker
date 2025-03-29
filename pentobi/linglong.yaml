@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: pentobi.linyaps
+  name: pentobi
+  version: 23.1.0.1
+  kind: app
+  description: |-
+    clone of the strategy board game Blokus
+    Pentobi is a strategy board game played on a square grid board using playing
+    pieces in the shapes of polyominoes, similar to Tetris pieces.  The aim of the
+    game is to place all of your pieces while trying to block your opponent from
+    placing all of theirs.
+
+    The game ends when no one can place any more pieces and the winner is
+    determined by calculating the score based on the points of any remaining
+    playing pieces. Bonus points are added for playing every piece and additional
+    bonus points are added if the monomino, the 1x1 square piece, is played last.
+command:
+- /opt/apps/pentobi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
