@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: units-master.linyaps
+  name: units-master
+  version: 4.2.1.1
+  kind: app
+  description: |-
+    Powerful units converter with a GUI
+    Units-master is a graphic application with three features:
+    - check the syntax of a physical quantity, like "25 m/s", or "1.2 µA"
+    - perform conversions, like "1.2 µA" to "1.2e-3 mA"
+    - render physical quantities to plain LaTeX, PNG, SVG.
+command:
+- /opt/apps/units-master.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
