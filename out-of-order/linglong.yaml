@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: out-of-order.linyaps
+  name: out-of-order
+  version: 1.0.0.3
+  kind: app
+  description: |-
+    comedy science fiction adventure game
+    Ever woken up in the middle of the night to find you've been kidnapped...
+    and so's your bedroom? Ever had to fend for yourself in the face of
+    strangely hypnotic music, alien doctors, talking computers a-plenty and
+    half-finished bathrooms? Ever found something unpleasant in a burger?
+
+    If so, Out Of Order should play like any other day in your life.
+
+    Otherwise, it's an experience not to be missed.
+command:
+- /opt/apps/out-of-order.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

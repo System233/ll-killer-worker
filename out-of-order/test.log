@@ -1,0 +1,34 @@
+正在测试: APPID=out-of-order.linyaps LAYER=out-of-order.linyaps_1.0.0.3_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install out-of-order.linyaps_1.0.0.3_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:out-of-order.linyaps
+Layer文件:out-of-order.linyaps_1.0.0.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: out-of-order.linyaps_1.0.0.3_arm64_binary.layer
+offset: 812
+mountpoint: /tmp/tmp.GnNddF4DfR/mnt
+dbglevel: 0
+[成功] out-of-order.desktop: out-of-order.linyaps-out-of-order -> /opt/apps/out-of-order.linyaps/files/share/pixmaps/out-of-order.linyaps-out-of-order.xpm
+[成功] /opt/apps/out-of-order.linyaps/files/share/applications/out-of-order.desktop: /opt/apps/out-of-order.linyaps/files/entrypoint.sh out-of-order
+[正在测试启动项]
+包名:out-of-order.linyaps
+Layer文件:out-of-order.linyaps_1.0.0.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: out-of-order.linyaps_1.0.0.3_arm64_binary.layer
+offset: 812
+mountpoint: /tmp/tmp.iJnUmr4wtd/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run out-of-order.linyaps -- /opt/apps/out-of-order.linyaps/files/entrypoint.sh out-of-order
+[PID 10198] 进程已启动
+[PID 10198] 已检测到窗口:PID=37
+[PID 10198] 正在截图 0秒: tests/screen0-0.jpg
+[PID 10198] 正在截图 2秒: tests/screen0-2.jpg
+[PID 10198] 正在截图 4秒: tests/screen0-4.jpg
+[PID 10198] 正在截图 5秒: tests/screen0-5.jpg
+[PID 10198] 正在通知并等待进程退出
+[PID 10198] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall out-of-order.linyaps
