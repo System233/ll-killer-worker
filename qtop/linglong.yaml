@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: qtop.linyaps
+  name: qtop
+  version: 2.3.4.3
+  kind: app
+  description: |-
+    windowed version of the console top command
+    qtop provides a dynamic real-time view of a running system. It has only
+    a small fraction of the options provided by its console counterparts,
+    but hopefully the most used ones.
+command:
+- /opt/apps/qtop.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
