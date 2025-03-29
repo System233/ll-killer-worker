@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: okular-backend-odt.linyaps
+  name: okular-backend-odt
+  version: 3.2.1.8
+  kind: app
+  description: |-
+    Okular backend for ODT documents
+    This package provides a backend for Okular to view OpenDocument Text
+    (ODT) documents, but also DOC, DOCX, RTF and WPD documents.
+
+    This package is part of the Calligra Suite.
+command:
+- /opt/apps/okular-backend-odt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
