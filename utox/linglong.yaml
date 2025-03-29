@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: utox.linyaps
+  name: utox
+  version: 0.18.1.1
+  kind: app
+  description: |-
+    lightest and fluffiest Tox client
+    µTox is the lightweight client with minimal dependencies; it not only looks
+    pretty, it runs fast! µTox is available for Windows, OS X, and Linux (Android
+    support is experimental), with full support for chat, file transfers,
+    audio/video calling, and desktop sharing (both as video and inline
+    screenshots). It also supports text group chats with audio groups pending the
+    next Toxcore update.
+command:
+- /opt/apps/utox.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
