@@ -1,0 +1,28 @@
+正在测试: APPID=qvidcap.linyaps LAYER=qvidcap.linyaps_1.26.1.4_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install qvidcap.linyaps_1.26.1.4_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:qvidcap.linyaps
+Layer文件:qvidcap.linyaps_1.26.1.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: qvidcap.linyaps_1.26.1.4_arm64_binary.layer
+offset: 591
+mountpoint: /tmp/tmp.sYLmuYJAOf/mnt
+dbglevel: 0
+[成功] qvidcap.desktop: qvidcap -> /opt/apps/qvidcap.linyaps/files/share/icons/hicolor/16x16/apps/qvidcap.png
+[成功] /opt/apps/qvidcap.linyaps/files/share/applications/qvidcap.desktop: /opt/apps/qvidcap.linyaps/files/entrypoint.sh qvidcap
+[正在测试启动项]
+包名:qvidcap.linyaps
+Layer文件:qvidcap.linyaps_1.26.1.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: qvidcap.linyaps_1.26.1.4_arm64_binary.layer
+offset: 591
+mountpoint: /tmp/tmp.wScoH4z0p3/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run qvidcap.linyaps -- /opt/apps/qvidcap.linyaps/files/entrypoint.sh qvidcap
+[PID 9219] 进程已启动
+[PID 9219] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall qvidcap.linyaps
