@@ -1,0 +1,31 @@
+正在测试: APPID=overgod.linyaps LAYER=overgod.linyaps_1.0.0.6_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install overgod.linyaps_1.0.0.6_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:overgod.linyaps
+Layer文件:overgod.linyaps_1.0.0.6_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: overgod.linyaps_1.0.0.6_arm64_binary.layer
+offset: 759
+mountpoint: /tmp/tmp.dhSZDMduEI/mnt
+dbglevel: 0
+find: ‘/opt/apps/overgod.linyaps/files/share/icons’: No such file or directory
+[成功] overgod.desktop: overgod -> /opt/apps/overgod.linyaps/files/share/pixmaps/overgod.xpm
+[成功] /opt/apps/overgod.linyaps/files/share/applications/overgod.desktop: /opt/apps/overgod.linyaps/files/entrypoint.sh overgod
+[正在测试启动项]
+包名:overgod.linyaps
+Layer文件:overgod.linyaps_1.0.0.6_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: overgod.linyaps_1.0.0.6_arm64_binary.layer
+offset: 759
+mountpoint: /tmp/tmp.frnx0tO6Y2/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run overgod.linyaps -- /opt/apps/overgod.linyaps/files/entrypoint.sh overgod
+[PID 5524] 进程已启动
+[PID 5524] 等待超时，未能检测到窗口
+[PID 5524] 正在通知并等待进程退出
+[PID 5524] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall overgod.linyaps

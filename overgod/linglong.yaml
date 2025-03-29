@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: overgod.linyaps
+  name: overgod
+  version: 1.0.0.6
+  kind: app
+  description: |-
+    bi-directional scrolling arcade game
+    Overgod is an arcade game with bi-directional scrolling where you need to
+    destroy all enemies in an area in a given time. The game is a mix of the
+    classic arcade games Asteroids and Thrust with a lot of additional features.
+
+    Overgod can also be played in two-player duel or cooperative modes, or in
+    a special "Time Attack" version where enemies endlessly appear.
+command:
+- /opt/apps/overgod.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
