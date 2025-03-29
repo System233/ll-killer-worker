@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: pipenightdreams.linyaps
+  name: pipenightdreams
+  version: 0.10.0.15
+  kind: app
+  description: |-
+    connect pipes to get the water flowing from inlet to outlet
+    If you know the old arcade-game "Pipe Dreams", you'll instantly recognize
+    this. The goal is to connect different pipe segments to let the water flow
+    from the inlet and through as many pipes as possible, until it finally
+    reaches the outlet. This requires an even combination of speed, skill and
+    foresight.
+command:
+- /opt/apps/pipenightdreams.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
