@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: tecla.linyaps
+  name: tecla
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    keyboard layout viewer for the GNOME desktop
+    This app is a basic keyboard layout viewer for integration
+    with the GNOME desktop.
+command:
+- /opt/apps/tecla.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
