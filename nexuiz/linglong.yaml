@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: nexuiz.linyaps
+  name: nexuiz
+  version: 2.5.2.9
+  kind: app
+  description: |-
+    Fast-paced 3D first-person shooter
+    Nexuiz Classic is a fast-paced 3D deathmatch game with high-end and complex
+    graphics effects. It is intended to be played over the Internet or over a
+    local network. Several different game types, such as classic deathmatch, team
+    deathmatch and capture the flag are available.
+    It also supports a single-player mode and playing against the computer.
+
+    The game brings deathmatch back to the basics, with perfect weapon  balancing
+    and fast paced action, keeping itself away from the current trend of realistic
+    shooters.
+
+    This package installs the client to play the game.
+
+    This game was originally released as "Nexuiz", but is now referred to as
+    "Nexuiz Classic" since the Nexuiz name was re-used for a non-free game
+    for consoles.
+command:
+- /opt/apps/nexuiz.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
