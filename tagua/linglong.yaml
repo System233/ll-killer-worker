@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: tagua.linyaps
+  name: tagua
+  version: 1.0.0.3
+  kind: app
+  description: |-
+    Board-game frontend for playing chess variants and other games
+    Tagua is a frontend for a variety of board games.  Currently
+    supported games include chess, shogi and a couple of variants of
+    those games.
+
+    Tagua is based on a powerful plugin system that allows many games to
+    share the same graphical framework, game history handling,
+    interoperability with AI engines and connectivity to network servers.
+
+    It currently has support for xboard-compatible chess engines, and
+    xshogi-compatible shogi engines, as well as network play on chess ICS
+    servers.
+command:
+- /opt/apps/tagua.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
