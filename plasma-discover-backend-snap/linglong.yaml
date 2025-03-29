@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: plasma-discover-backend-snap.linyaps
+  name: plasma-discover-backend-snap
+  version: 5.27.12.0
+  kind: app
+  description: |-
+    Discover software management suite - Snap backend
+    Discover is a graphical software manager for the Plasma workspace.
+    It helps users easily and quickly find applications and other software
+    they might want to install.
+
+    This package contains a backend for the Ubuntu Core Snappy application
+    bundling system.
+command:
+- /opt/apps/plasma-discover-backend-snap.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
