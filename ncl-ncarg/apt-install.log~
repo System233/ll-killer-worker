@@ -1,0 +1,22 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ ncl-ncarg : Depends: libg2c0 (>= 1.8.0) but it is not going to be installed
+             Depends: libgdal34t64 (>= 2.0.1) but it is not going to be installed
+             Depends: libncarg0t64 (>= 6.6.2.dfsg.1) but it is not going to be installed
+             Depends: libnetcdf19t64 (>= 4.6.2) but it is not going to be installed
+             Depends: libpng16-16t64 (>= 1.6.2) but it is not going to be installed
+             Depends: libproj25 (>= 5.0.0) but it is not going to be installed
+             Depends: libsphere0d (>= 3.3~a1) but it is not installable
+             Depends: libxaw7 (>= 2:1.0.14) but 2:1.0.13-1.1 is to be installed
+             Depends: libxt6t64 but it is not going to be installed
+E: Unable to correct problems, you have held broken packages.
