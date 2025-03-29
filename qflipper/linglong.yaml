@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: qflipper.linyaps
+  name: qflipper
+  version: 1.3.3.1
+  kind: app
+  description: |-
+    Flipper Zero firmware updater
+    qFlipper is a desktop application for updating Flipper Zero firmware.
+
+    Features include:
+    - Update Flipper's firmware and supplemental data with a press of one button
+    - Repair a broken firmware installation
+    - Stream Flipper's display and control it remotely
+    - Install firmware from a .dfu file
+    - Backup and restore settings, progress and pairing data
+    - Command line interface
+command:
+- /opt/apps/qflipper.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
