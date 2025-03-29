@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: natbraille.linyaps
+  name: natbraille
+  version: 2.0.0.15
+  kind: app
+  description: |-
+    French braille typesetting program
+    Nat is a braille translation engine that can translate into
+    transcribed French braille:
+
+    * Text documents
+    * OpenOffice 1 and 2 documents, including equations.
+    * Microsoft Word documents saved as text, whose equations have been
+    converted to mathml with MathType
+    * Simple HTML documents which respect norms.
+command:
+- /opt/apps/natbraille.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
