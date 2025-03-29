@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: quaternion.linyaps
+  name: quaternion
+  version: 0.0.95.1
+  kind: app
+  description: |-
+    desktop IM client for the Matrix protocol
+    Quaternion is a Qt-based chat client for the Matrix protocol.  Matrix is an
+    open, federated communications protocol.
+command:
+- /opt/apps/quaternion.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
