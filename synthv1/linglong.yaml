@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: synthv1.linyaps
+  name: synthv1
+  version: 0.9.34.1
+  kind: app
+  description: |-
+    old-school polyphonic synthesizer - standalone
+    synthv1 is an old-school all-digital 4-oscillator subtractive
+    polyphonic synthesizer with stereo effects, especially suited
+    to create strong bass sounds.
+
+    This package provides the standalone app.
+command:
+- /opt/apps/synthv1.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
