@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: skanpage.linyaps
+  name: skanpage
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Multi-page scanning and saving of documents and images
+    Skanpage is a simple scanning application designed for multi-page
+    scanning and saving of documents and images.
+
+    Features:
+
+    - Scanning from flatbed and ADF scanners
+    - Configurable options for scanning device
+    - Reordering, rotation and deletion of scanned pages
+    - Saving to multi-page PDF documents and image files
+command:
+- /opt/apps/skanpage.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
