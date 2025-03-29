@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: openssn.linyaps
+  name: openssn
+  version: 1.4.0.4
+  kind: app
+  description: |-
+    modern submarine tactical simulator
+    OpenSSN is a submarine simulation (subsim) which tries to emulate the
+    behaviour of modern submarines. The player is placed in command of a
+    submarine and is able to move about in a deep ocean environment.
+command:
+- /opt/apps/openssn.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
