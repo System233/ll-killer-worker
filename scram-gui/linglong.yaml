@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: scram-gui.linyaps
+  name: scram-gui
+  version: 0.16.2.3
+  kind: app
+  description: |-
+    SCRAM GUI front-end
+    The complementary SCRAM GUI front-end
+    for visualization and manipulation
+    of risk analysis models and reports.
+command:
+- /opt/apps/scram-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
