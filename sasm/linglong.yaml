@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: sasm.linyaps
+  name: sasm
+  version: 3.14.0.1
+  kind: app
+  description: |-
+    simple IDE for NASM, GAS and FASM assembly languages
+    This is a simple IDE for assembly languages. It has syntax highlighting
+    and a debugger. The program works out of the box and is great for
+    beginners to learn assembly language.
+command:
+- /opt/apps/sasm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
