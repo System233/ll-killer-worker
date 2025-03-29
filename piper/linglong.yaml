@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: piper.linyaps
+  name: piper
+  version: 0.7.0.1
+  kind: app
+  description: |-
+    GTK application to configure gaming devices
+    Piper is a graphical user interface to configure gaming devices. Configuration
+    options include changing the resolution (DPI) of mice, adding and removing
+    profiles, setting LED colors and changing button behaviors.
+command:
+- /opt/apps/piper.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
