@@ -1,0 +1,28 @@
+正在测试: APPID=topparser.linyaps LAYER=topparser.linyaps_1.3.0.3_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install topparser.linyaps_1.3.0.3_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:topparser.linyaps
+Layer文件:topparser.linyaps_1.3.0.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: topparser.linyaps_1.3.0.3_x86_64_binary.layer
+offset: 678
+mountpoint: /tmp/tmp.fTO1SJ0c2k/mnt
+dbglevel: 0
+[成功] topparser.desktop: topparser -> /opt/apps/topparser.linyaps/files/share/icons/hicolor/scalable/apps/topparser.svg
+[成功] /opt/apps/topparser.linyaps/files/share/applications/topparser.desktop: /opt/apps/topparser.linyaps/files/entrypoint.sh topparser
+[正在测试启动项]
+包名:topparser.linyaps
+Layer文件:topparser.linyaps_1.3.0.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: topparser.linyaps_1.3.0.3_x86_64_binary.layer
+offset: 678
+mountpoint: /tmp/tmp.Oa5pCWOAtS/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run topparser.linyaps -- /opt/apps/topparser.linyaps/files/entrypoint.sh topparser
+[PID 5371] 进程已启动
+[PID 5371] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall topparser.linyaps

@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: topparser.linyaps
+  name: topparser
+  version: 1.3.0.3
+  kind: app
+  description: |-
+    Conversion utility from pockettopo to therion, for cave surveying
+    Converts a .top file from pockettopo into a therion directory layout,
+    extracting centreline and drawing information into suitable files.
+    Greatly simplifies your workflow if using both Pockettopo and therion.
+    Can also create survex centreline files.
+command:
+- /opt/apps/topparser.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
