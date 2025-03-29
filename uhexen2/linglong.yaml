@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: uhexen2.linyaps
+  name: uhexen2
+  version: 1.5.9.1
+  kind: app
+  description: |-
+    Hexen II - engine package
+    Hammer of Thyrion is a Hexen II engine
+
+    This package will run the original Hexen II game, Portal of Praevus
+    mission pack and HexenWorld.
+    A dedicated server h2ded, is included in this package.
+command:
+- /opt/apps/uhexen2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
