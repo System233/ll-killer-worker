@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: qfitsview.linyaps
+  name: qfitsview
+  version: 4.1.0.2
+  kind: app
+  description: |-
+    FITS file viewer based on DPUSER
+    QFitsView is a FITS file viewer based on DPUSER. In addition to displaying
+    two-dimensional images, it also provides means to explore three-dimensional
+    data cubes. It integrates the functionality of DPUSER which can be accessed
+    directly out of QFitsView.
+
+    Note that this package was compiled with the giza library instead of PGPLOT,
+    since the latter is non-free software.
+command:
+- /opt/apps/qfitsview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
