@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: pinhole.linyaps
+  name: pinhole
+  version: 0.1.0.1
+  kind: app
+  description: |-
+    Simple camera application for the GNOME desktop
+    Camera is a GNOME application for taking photos and videos with your camera.
+    It is designed to work well on mobile Linux devices but it will run on any
+    Linux computer with a connected camera.
+command:
+- /opt/apps/pinhole.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
