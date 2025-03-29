@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: playonlinux.linyaps
+  name: playonlinux
+  version: 4.3.4.3
+  kind: app
+  description: |-
+    front-end for Wine
+    PlayOnLinux is a front-end for wine. It permits you to easily install Windows
+    Games and software on Linux. It is advised to have a functional internet
+    connection.
+command:
+- /opt/apps/playonlinux.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
