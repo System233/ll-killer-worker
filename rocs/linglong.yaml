@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: rocs.linyaps
+  name: rocs
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    graph theory IDE
+    Rocs aims to be a Graph Theory IDE for helping professors to show the results
+    of a graph algorithm and also helping students to do the algorithms.
+
+    Rocs has a scripting module, done in Qt Script, that interacts with the drawn
+    graph and every change in the graph with the script is reflected on the drawn
+    one.
+
+    This package is part of the KDE education module.
+command:
+- /opt/apps/rocs.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
