@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: notification-daemon.linyaps
+  name: notification-daemon
+  version: 3.20.0.1
+  kind: app
+  description: |-
+    daemon for displaying passive pop-up notifications
+    notification-daemon displays passive pop-up notifications, as per
+    the Desktop Notifications Specification.
+
+    The Desktop Notifications Specification provides a standard way of
+    doing passive pop-up notifications on the Linux desktop. These are
+    designed to notify the user of something without interrupting their
+    work with a dialog box that they must close.  Passive popups can
+    automatically disappear after a short period of time.
+command:
+- /opt/apps/notification-daemon.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
