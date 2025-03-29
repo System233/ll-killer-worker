@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: pcalendar.linyaps
+  name: pcalendar
+  version: 3.4.1.5
+  kind: app
+  description: |-
+    track menstrual cycles and predict fertility periods
+    Periodic Calendar is a GUI application which assists in women menstrual
+    cycles tracking and fertility periods prediction. This information can
+    be used as supportive either for conception or contraception planning.
+
+    Periodic Calendar provides support for BBT and sympto-thermal methods
+    which have the highest reliability in fertility periods prediction. User
+    can choose any subset of the features to be used or even fall to the generic
+    calendar method (which if used alone is very unreliable).
+
+    Authors of the Periodic Calendar still insist on not being an equal
+    substitute to the fertility planning consultants or doctors. Before
+    using this application please talk to your doctor or read a good book
+    on the subject.
+
+    THE PREDICTIONS MADE BY THIS PROGRAM CAN BE NEVER BE CONSIDERED AS FINAL. THE
+    METHODS USED ARE NOT 100% EFFECTIVE FOR ALL WOMEN.
+command:
+- /opt/apps/pcalendar.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
