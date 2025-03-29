@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: parley.linyaps
+  name: parley
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    vocabulary trainer
+    Parley is a utility to help train vocabulary when learning a foreign language.
+    It is intended as a replacement for flash cards.
+
+    This package is part of the KDE education module.
+command:
+- /opt/apps/parley.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
