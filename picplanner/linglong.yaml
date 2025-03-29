@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: picplanner.linyaps
+  name: picplanner
+  version: 0.4.0.1
+  kind: app
+  description: |-
+    Graphical application for photography planning
+    Calculates and displays the positions of the Sun, Moon and Milky Way
+    for any time and location on the earth.
+
+    This tool is useful for photography planning as
+    it gives information on when these celestial bodies rise and set,
+    as well as where in the sky they should be visible
+    in terms of azimuth and elevation.
+command:
+- /opt/apps/picplanner.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
