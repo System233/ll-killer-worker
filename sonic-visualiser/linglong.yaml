@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: sonic-visualiser.linyaps
+  name: sonic-visualiser
+  version: 4.5.2.2
+  kind: app
+  description: |-
+    viewing and analysing the contents of music audio files
+    The aim of Sonic Visualiser is to be the first program you reach for
+    when want to study a musical recording rather than simply listen to it.
+
+    Sonic Visualiser could be of particular interest to musicologists,
+    archivists, signal-processing researchers and anyone else looking for a
+    friendly way to take a look at what lies inside the audio file.
+command:
+- /opt/apps/sonic-visualiser.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
