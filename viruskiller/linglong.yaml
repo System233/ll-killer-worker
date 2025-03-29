@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: viruskiller.linyaps
+  name: viruskiller
+  version: 1.3.0.2
+  kind: app
+  description: |-
+    Game about viruses invading your computer
+    Your computer has been invaded! Dozens of little viruses are pouring in via
+    security holes in Microsoft Internet Explorer, Microsoft Outlook, Microsoft
+    MSN Messenger and Microsoft Recycle Bin! Using your trusty mouse you must
+    shoot the buggers before they can destroy your files! Some will steal them
+    from their home directories and take them back to their security hole. Others
+    will just eat them right there on the spot! See how long you and your computer
+    can survive the onslaught!
+command:
+- /opt/apps/viruskiller.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
