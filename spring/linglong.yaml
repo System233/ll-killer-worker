@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: spring.linyaps
+  name: spring
+  version: 106.0.0.3
+  kind: app
+  description: |-
+    modern full-3D RTS game engine
+    Spring is a modern full-3D RTS (Real Time Strategy) game engine originally
+    created to bring the gameplay experience of Total Annihilation into 3D.
+    Games are played using one of a number of mods.
+
+    This package just includes the game engine and the default AI, with no maps,
+    mods or rich user interface.
+command:
+- /opt/apps/spring.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
