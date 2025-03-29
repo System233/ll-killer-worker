@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: ukwm.linyaps
+  name: ukwm
+  version: 1.2.2.1
+  kind: app
+  description: |-
+    lightweight GTK+ window manager
+    Ukwm is a small window manager, using GTK+ and Clutter to do
+    everything.
+
+    Ukwm is the clutter-based evolution of Metacity, which, as the
+    author says, is a "Boring window manager for the adult in you. Many
+    window managers are like Marshmallow Froot Loops; Metacity is like
+    Cheerios."
+
+    This package contains the core binaries.
+command:
+- /opt/apps/ukwm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
