@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: skycat.linyaps
+  name: skycat
+  version: 3.1.2.7
+  kind: app
+  description: |-
+    Image visualization and access to catalogs and data for astronomy
+    The ESO/Starlink Skycat tool combines the image display capabilities
+    of the RTD (Real-Time Display) with a set of classes for accessing
+    astronomical catalogs locally and over the network using HTTP. The tool
+    allows you to view FITS images from files or from the Digitized Sky
+    Survey (DSS).
+command:
+- /opt/apps/skycat.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
