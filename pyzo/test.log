@@ -1,0 +1,28 @@
+正在测试: APPID=pyzo.linyaps LAYER=pyzo.linyaps_4.12.3.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install pyzo.linyaps_4.12.3.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:pyzo.linyaps
+Layer文件:pyzo.linyaps_4.12.3.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pyzo.linyaps_4.12.3.1_arm64_binary.layer
+offset: 1113
+mountpoint: /tmp/tmp.c5kWaP4Il7/mnt
+dbglevel: 0
+[成功] pyzo.desktop: pyzologo -> /opt/apps/pyzo.linyaps/files/share/icons/hicolor/128x128/apps/pyzologo.png
+[成功] /opt/apps/pyzo.linyaps/files/share/applications/pyzo.desktop: /opt/apps/pyzo.linyaps/files/entrypoint.sh pyzo %f
+[正在测试启动项]
+包名:pyzo.linyaps
+Layer文件:pyzo.linyaps_4.12.3.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pyzo.linyaps_4.12.3.1_arm64_binary.layer
+offset: 1113
+mountpoint: /tmp/tmp.5sYG4N8hUp/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run pyzo.linyaps -- /opt/apps/pyzo.linyaps/files/entrypoint.sh pyzo
+[PID 22509] 进程已启动
+[PID 22509] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall pyzo.linyaps
