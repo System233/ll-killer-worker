@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: syncthing.linyaps
+  name: syncthing
+  version: 1.27.2.1
+  kind: app
+  description: |-
+    decentralized file synchronization
+    Syncthing is an application that lets you synchronize your files across
+    multiple devices. This means the creation, modification or deletion of files
+    on one machine will automatically be replicated to your other devices.
+    Syncthing does not upload your data to the cloud but exchanges your data
+    across your machines as soon as they are online at the same time.
+
+    This package contains the main binary: syncthing.
+command:
+- /opt/apps/syncthing.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

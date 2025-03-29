@@ -1,0 +1,35 @@
+正在测试: APPID=syncthing.linyaps LAYER=syncthing.linyaps_1.27.2.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install syncthing.linyaps_1.27.2.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:syncthing.linyaps
+Layer文件:syncthing.linyaps_1.27.2.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: syncthing.linyaps_1.27.2.1_x86_64_binary.layer
+offset: 813
+mountpoint: /tmp/tmp.XJFpBmchUa/mnt
+dbglevel: 0
+[成功] syncthing-start.desktop: syncthing -> /opt/apps/syncthing.linyaps/files/share/icons/hicolor/128x128/apps/syncthing.png
+[成功] /opt/apps/syncthing.linyaps/files/share/applications/syncthing-start.desktop: /opt/apps/syncthing.linyaps/files/entrypoint.sh /usr/bin/syncthing serve --no-browser --logfile=default
+[成功] syncthing-ui.desktop: syncthing -> /opt/apps/syncthing.linyaps/files/share/icons/hicolor/128x128/apps/syncthing.png
+[成功] /opt/apps/syncthing.linyaps/files/share/applications/syncthing-ui.desktop: /opt/apps/syncthing.linyaps/files/entrypoint.sh /usr/bin/syncthing --browser-only
+[正在测试启动项]
+包名:syncthing.linyaps
+Layer文件:syncthing.linyaps_1.27.2.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: syncthing.linyaps_1.27.2.1_x86_64_binary.layer
+offset: 813
+mountpoint: /tmp/tmp.yfuK9iBJtt/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run syncthing.linyaps -- /opt/apps/syncthing.linyaps/files/entrypoint.sh /usr/bin/syncthing serve --no-browser --logfile=default
+[PID 9807] 进程已启动
+[PID 9807] 等待超时，未能检测到窗口
+[PID 9807] 正在通知并等待进程退出
+[PID 9807] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run syncthing.linyaps -- /opt/apps/syncthing.linyaps/files/entrypoint.sh /usr/bin/syncthing --browser-only
+[PID 10251] 进程已启动
+[PID 10251] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall syncthing.linyaps
