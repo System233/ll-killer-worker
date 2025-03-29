@@ -1,0 +1,33 @@
+正在测试: APPID=webhttrack.linyaps LAYER=webhttrack.linyaps_3.49.5.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install webhttrack.linyaps_3.49.5.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:webhttrack.linyaps
+Layer文件:webhttrack.linyaps_3.49.5.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: webhttrack.linyaps_3.49.5.1_arm64_binary.layer
+offset: 1118
+mountpoint: /tmp/tmp.xhlUst0AFl/mnt
+dbglevel: 0
+[成功] WebHTTrack-Websites.desktop: httrack -> /opt/apps/webhttrack.linyaps/files/share/icons/hicolor/16x16/apps/httrack.png
+[成功] /opt/apps/webhttrack.linyaps/files/share/applications/WebHTTrack-Websites.desktop: /opt/apps/webhttrack.linyaps/files/entrypoint.sh webhttrack browse
+[成功] WebHTTrack.desktop: httrack -> /opt/apps/webhttrack.linyaps/files/share/icons/hicolor/16x16/apps/httrack.png
+[成功] /opt/apps/webhttrack.linyaps/files/share/applications/WebHTTrack.desktop: /opt/apps/webhttrack.linyaps/files/entrypoint.sh webhttrack
+[正在测试启动项]
+包名:webhttrack.linyaps
+Layer文件:webhttrack.linyaps_3.49.5.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: webhttrack.linyaps_3.49.5.1_arm64_binary.layer
+offset: 1118
+mountpoint: /tmp/tmp.hiIFA6leUx/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run webhttrack.linyaps -- /opt/apps/webhttrack.linyaps/files/entrypoint.sh webhttrack browse
+[PID 5529] 进程已启动
+[PID 5529] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run webhttrack.linyaps -- /opt/apps/webhttrack.linyaps/files/entrypoint.sh webhttrack
+[PID 5668] 进程已启动
+[PID 5668] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall webhttrack.linyaps
