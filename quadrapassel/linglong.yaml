@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: quadrapassel.linyaps
+  name: quadrapassel
+  version: 40.2.0.1
+  kind: app
+  description: |-
+    popular Russian game, similar to Tetris
+    Quadrapassel comes from the classic falling-block game, Tetris. The
+    goal of the game is to create complete horizontal lines of blocks,
+    which will disappear.
+command:
+- /opt/apps/quadrapassel.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
