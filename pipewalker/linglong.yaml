@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: pipewalker.linyaps
+  name: pipewalker
+  version: 1.0.0.1
+  kind: app
+  description: |-
+    combination puzzle game
+    This is a puzzle game in which components need to be combined into a single
+    circuit: connect all computers to a network server, bring water to the taps
+    and so on.
+
+    The game comes with different themes and support user-provided ones through
+    PNG files.
+command:
+- /opt/apps/pipewalker.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
