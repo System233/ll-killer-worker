@@ -1,0 +1,35 @@
+正在测试: APPID=phlipple.linyaps LAYER=phlipple.linyaps_0.8.5.5_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install phlipple.linyaps_0.8.5.5_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:phlipple.linyaps
+Layer文件:phlipple.linyaps_0.8.5.5_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: phlipple.linyaps_0.8.5.5_arm64_binary.layer
+offset: 748
+mountpoint: /tmp/tmp.4ERnowY6IA/mnt
+dbglevel: 0
+find: ‘/opt/apps/phlipple.linyaps/files/share/icons’: No such file or directory
+[成功] phlipple.desktop: phlipple -> /opt/apps/phlipple.linyaps/files/share/pixmaps/phlipple.xpm
+[成功] /opt/apps/phlipple.linyaps/files/share/applications/phlipple.desktop: /opt/apps/phlipple.linyaps/files/entrypoint.sh phlipple
+[正在测试启动项]
+包名:phlipple.linyaps
+Layer文件:phlipple.linyaps_0.8.5.5_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: phlipple.linyaps_0.8.5.5_arm64_binary.layer
+offset: 748
+mountpoint: /tmp/tmp.KWuldMifag/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run phlipple.linyaps -- /opt/apps/phlipple.linyaps/files/entrypoint.sh phlipple
+[PID 7738] 进程已启动
+[PID 7738] 已检测到窗口:PID=36
+[PID 7738] 正在截图 0秒: tests/screen0-0.jpg
+[PID 7738] 正在截图 1秒: tests/screen0-1.jpg
+[PID 7738] 正在截图 3秒: tests/screen0-3.jpg
+[PID 7738] 正在截图 5秒: tests/screen0-5.jpg
+[PID 7738] 正在通知并等待进程退出
+[PID 7738] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall phlipple.linyaps
