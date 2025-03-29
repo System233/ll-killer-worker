@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: simple-scan.linyaps
+  name: simple-scan
+  version: 46.0.0.0
+  kind: app
+  description: |-
+    Simple Scanning Utility
+    Simple Scan is an easy-to-use application, designed to let users
+    connect their scanner and quickly have the image/document in an
+    appropriate format.
+
+    Simple Scan is basically a frontend for SANE - which is the same
+    backend as XSANE uses. This means that all existing scanners will
+    work and the interface is well tested.
+command:
+- /opt/apps/simple-scan.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
