@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: net.hesan.gpy.linyaps
+  name: net.hesan.gpy
+  version: 1.0.26.0
+  kind: app
+  description: this is HeSan program
+command:
+- /opt/apps/net.hesan.gpy.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
