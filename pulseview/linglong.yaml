@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: pulseview.linyaps
+  name: pulseview
+  version: 0.4.2.3
+  kind: app
+  description: |-
+    sigrok logic analyzer, oscilloscope, and MSO GUI
+    PulseView is a GUI for sigrok that supports logic analyzers, oscilloscopes,
+    and MSOs.
+
+    It can acquire samples from a supported device and display them,
+    load and display captures from existing sigrok *.sr files, as well
+    as run protocol decoders and display their annotations.
+command:
+- /opt/apps/pulseview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
