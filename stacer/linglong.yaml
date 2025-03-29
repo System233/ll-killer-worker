@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: stacer.linyaps
+  name: stacer
+  version: 1.1.0.2
+  kind: app
+  description: |-
+    Linux system optimizer and monitoring
+    Monitor your system (CPU, memory, disk) in a graphical application (qt).
+    Change and monitor your services. Summarizes basic system information and
+    can show network download/upload speeds/totals.
+command:
+- /opt/apps/stacer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
