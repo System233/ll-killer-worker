@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: python3-refnx.linyaps
+  name: python3-refnx
+  version: 0.1.38.1
+  kind: app
+  description: |-
+    Neutron and X-ray Reflectometry Analysis in Python
+    Flexible, powerful, Python package for generalised curvefitting
+    analysis, specifically neutron and X-ray reflectometry data.
+
+    It uses several scipy.optimize algorithms for fitting data, and
+    estimating parameter uncertainties. As well as the scipy algorithms
+    refnx uses the emcee Affine Invariant Markov chain Monte Carlo (MCMC)
+    Ensemble sampler for Bayesian parameter estimation.
+command:
+- /opt/apps/python3-refnx.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
