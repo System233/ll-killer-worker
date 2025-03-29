@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: vlc-plugin-bittorrent.linyaps
+  name: vlc-plugin-bittorrent
+  version: 2.15.0.1
+  kind: app
+  description: |-
+    Bittorrent plugin for VLC
+    VLC is the VideoLAN project's media player.
+
+    This plugin adds support streaming content using bittorrent, either by
+    specifying a torrent file, or by providing a magnet link.
+command:
+- /opt/apps/vlc-plugin-bittorrent.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
