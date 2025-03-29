@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: tenace.linyaps
+  name: tenace
+  version: 0.17.0.1
+  kind: app
+  description: |-
+    Bridge hand viewer and editor
+    Tenace is a Bridge hand viewer and editor. Hand records are read using
+    BBO's .lin format. The board editor allows one to easily move cards around to
+    simulate different distributions. The double dummy solver computes optimal
+    lines of play and par scores.
+
+    Bridge is an intellectually challenging card game for four players.
+command:
+- /opt/apps/tenace.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
