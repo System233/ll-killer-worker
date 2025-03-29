@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: pterm.linyaps
+  name: pterm
+  version: 0.81.0.1
+  kind: app
+  description: |-
+    PuTTY terminal emulator
+    This is an X terminal emulator based on the popular Windows SSH client,
+    PuTTY. It supports xterm escape sequences, plus some Linux console
+    sequences for colour palette configuration and some DECterm sequences for
+    title bar control, and with an appropriate font it supports the UTF-8
+    encoding of Unicode. It also has some nifty features like rectangular
+    selection and NetHack keypad mode.
+command:
+- /opt/apps/pterm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
