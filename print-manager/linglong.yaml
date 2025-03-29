@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: print-manager.linyaps
+  name: print-manager
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    printer configuration and monitoring tools
+    This package provides a KDE configuration module and a Plasma widget for
+    installing and configuring printers, and monitoring printers, print jobs and
+    print queues.
+
+    This package is part of the KDE utilities module.
+command:
+- /opt/apps/print-manager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
