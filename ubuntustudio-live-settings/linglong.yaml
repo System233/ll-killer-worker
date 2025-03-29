@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: ubuntustudio-live-settings.linyaps
+  name: ubuntustudio-live-settings
+  version: 24.4.26.7
+  kind: app
+  description: |-
+    Configuration for the Ubuntu Studio Live .iso Image
+    This package contains live .iso image customizations used by
+    Ubuntu Studio.
+command:
+- /opt/apps/ubuntustudio-live-settings.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
