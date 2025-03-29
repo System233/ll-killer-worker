@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: qhimdtransfer.linyaps
+  name: qhimdtransfer
+  version: 0.9.16.2
+  kind: app
+  description: |-
+    Transfer software for HiMD Walkman
+    qhimdtransfer is a simple graphical user interface application
+    for accessing MiniDisc devices. Currently, qhimdtransfer
+    supports HiMD devices only through libhimd. Support for
+    NetMD devices through libnetmd is being planned and
+    implemented by upstream for the next releases.
+command:
+- /opt/apps/qhimdtransfer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
