@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: sweeper.linyaps
+  name: sweeper
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    history and temporary file cleaner
+    Sweeper can quickly remove temporary information, such as web page cookies,
+    browser history, or the list of recently-opened documents.  It helps provide
+    additional privacy on a system shared between multiple users.
+
+    This package is part of the KDE SC utilities module.
+command:
+- /opt/apps/sweeper.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
