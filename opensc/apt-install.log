@@ -1,0 +1,80 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libccid libeac3 libpcsclite1 opensc-pkcs11 pcscd
+Suggested packages:
+  pcmciautils systemd
+The following NEW packages will be installed:
+  libccid libeac3 libpcsclite1 opensc opensc-pkcs11 pcscd
+0 upgraded, 6 newly installed, 0 to remove and 236 not upgraded.
+Need to get 1847 kB of archives.
+After this operation, 5582 kB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main amd64 libccid amd64 1.4.36-2 [343 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main amd64 libpcsclite1 amd64 1.9.4-1 [49.5 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main amd64 pcscd amd64 1.9.4-1 [89.0 kB]
+Get:4 https://community-packages.deepin.com/beige beige/main amd64 libeac3 amd64 1.1.2+ds+git20220117+453c3d6b03a0-1.1 [50.6 kB]
+Get:5 https://community-packages.deepin.com/beige beige/main amd64 opensc-pkcs11 amd64 0.25.1-1 [918 kB]
+Get:6 https://community-packages.deepin.com/beige beige/main amd64 opensc amd64 0.25.1-1 [398 kB]
+Fetched 1847 kB in 1s (1586 kB/s)
+Selecting previously unselected package libccid.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../0-libccid_1.4.36-2_amd64.deb ...
+Unpacking libccid (1.4.36-2) ...
+Selecting previously unselected package libpcsclite1:amd64.
+Preparing to unpack .../1-libpcsclite1_1.9.4-1_amd64.deb ...
+Unpacking libpcsclite1:amd64 (1.9.4-1) ...
+Selecting previously unselected package pcscd.
+Preparing to unpack .../2-pcscd_1.9.4-1_amd64.deb ...
+Unpacking pcscd (1.9.4-1) ...
+Selecting previously unselected package libeac3:amd64.
+Preparing to unpack .../3-libeac3_1.1.2+ds+git20220117+453c3d6b03a0-1.1_amd64.deb ...
+Unpacking libeac3:amd64 (1.1.2+ds+git20220117+453c3d6b03a0-1.1) ...
+Selecting previously unselected package opensc-pkcs11:amd64.
+Preparing to unpack .../4-opensc-pkcs11_0.25.1-1_amd64.deb ...
+Unpacking opensc-pkcs11:amd64 (0.25.1-1) ...
+Selecting previously unselected package opensc.
+Preparing to unpack .../5-opensc_0.25.1-1_amd64.deb ...
+Unpacking opensc (0.25.1-1) ...
+Setting up libccid (1.4.36-2) ...
+
+Configuration file '/etc/libccid_Info.plist', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/reader.conf.d/libccidtwin', does not exist on system.
+Installing new config file as you requested.
+Setting up libeac3:amd64 (1.1.2+ds+git20220117+453c3d6b03a0-1.1) ...
+Setting up opensc-pkcs11:amd64 (0.25.1-1) ...
+Setting up libpcsclite1:amd64 (1.9.4-1) ...
+Setting up opensc (0.25.1-1) ...
+
+Configuration file '/etc/eac/cvc/DESCHSMCVCA00001', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/eac/cvc/DESRCACC100001', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/opensc/opensc.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/xdg/autostart/pkcs11-register.desktop', does not exist on system.
+Installing new config file as you requested.
+Setting up pcscd (1.9.4-1) ...
+
+Configuration file '/etc/init.d/pcscd', does not exist on system.
+Installing new config file as you requested.
+Can't exec "systemctl": No such file or directory at /usr/sbin/update-rc.d line 98.
+/usr/sbin/invoke-rc.d: 290: systemctl: not found
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: WARNING: No init system and policy-rc.d missing! Defaulting to block.
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-helper line 682.
+/var/lib/dpkg/info/pcscd.postinst: 56: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+pcscd.service is a disabled or a static unit, not starting it.
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+pcscd.socket is a disabled or a static unit, not starting it.
+Processing triggers for libc-bin (2.38-6deepin4) ...

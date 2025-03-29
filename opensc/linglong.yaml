@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: opensc.linyaps
+  name: opensc
+  version: 0.25.1.1
+  kind: app
+  description: |-
+    Smart card utilities with support for PKCS#15 compatible cards
+    OpenSC provides a set of libraries and utilities to access smart
+    cards.  It mainly focuses on cards that support cryptographic
+    operations. It facilitates their use in security applications such as
+    mail encryption, authentication, and digital signature. OpenSC
+    implements the PKCS#11 API. Applications supporting this API, such as
+    Iceweasel and Icedove, can use it. OpenSC implements the PKCS#15
+    standard and aims to be compatible with all software that does so as
+    well.
+
+    Before purchasing any cards, please read carefully documentation in
+    https://github.com/OpenSC/OpenSC/wiki - only some cards are
+    supported. Not only does card type matters, but also card version,
+    card OS version and preloaded applet. Only a subset of possible
+    operations may be supported for your card. Card initialization may
+    require third party proprietary software.
+
+    This package contains tools for interacting with smart cards.
+command:
+- /opt/apps/opensc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
