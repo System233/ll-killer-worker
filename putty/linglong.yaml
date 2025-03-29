@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: putty.linyaps
+  name: putty
+  version: 0.81.0.1
+  kind: app
+  description: |-
+    Telnet/SSH client for X
+    This is the Unix port of the popular Windows SSH client, PuTTY. It supports
+    flexible terminal setup, mid-session reconfiguration using Ctrl-rightclick,
+    multiple X11 authentication protocols, and various other interesting things
+    not provided by ssh in an xterm.
+
+    Pageant is an SSH authentication agent, and a tool for communicating with
+    an already-running agent.
+command:
+- /opt/apps/putty.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
