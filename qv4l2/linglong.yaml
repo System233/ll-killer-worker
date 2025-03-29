@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: qv4l2.linyaps
+  name: qv4l2
+  version: 1.26.1.4
+  kind: app
+  description: |-
+    Test bench application for video4linux devices
+    Qt v4l2 control panel application. You can change all through the v4l2
+    interface exposed device controls.
+command:
+- /opt/apps/qv4l2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
