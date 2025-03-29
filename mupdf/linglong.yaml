@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: mupdf.linyaps
+  name: mupdf
+  version: 1.23.10.1
+  kind: app
+  description: |-
+    lightweight PDF viewer
+    MuPDF is a lightweight PDF viewer and toolkit written in portable C.
+    It also reads XPS, OpenXPS and ePub documents.
+
+    The renderer in MuPDF is tailored for high quality anti-aliased graphics.
+    It renders text with metrics and spacing accurate to within fractions of a
+    pixel for the highest fidelity in reproducing the look of a printed page
+    on screen.
+command:
+- /opt/apps/mupdf.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
