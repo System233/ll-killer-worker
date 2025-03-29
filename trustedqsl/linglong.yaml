@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: trustedqsl.linyaps
+  name: trustedqsl
+  version: 2.7.2.1
+  kind: app
+  description: |-
+    QSL log signing for the Logbook of the World (LoTW)
+    Open source libraries and utilities to support using digital signatures
+    for amateur radio QSL information.
+
+    A QSL is a confirmation of contact between two amateur radio stations.
+    The ARRL Logbook of the World project is a database which collects
+    data about contacts between amateur stations (QSOs). This package
+    provides the 'tqsl' program for maintaining your digital certificates
+    for LoTW and signing and uploading QSO log files.
+command:
+- /opt/apps/trustedqsl.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
