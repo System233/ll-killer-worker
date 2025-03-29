@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: webcamoid.linyaps
+  name: webcamoid
+  version: 9.1.1.1
+  kind: app
+  description: |-
+    full featured webcam capture application
+    webcamoid allows one to capture, save and view a video stream. It also can
+    do a lot of funny things.
+
+    Features:
+
+    * Take pictures and record videos with the webcam.
+    * Manages multiple webcams.
+    * GUI interface.
+    * Custom controls for each webcam.
+    * Add funny effects to the webcam.
+    * +60 effects available.
+    * Effects with live previews.
+    * Translated to many languages.
+    * Use custom network and local files as capture devices.
+    * Capture from desktop.
+    * Many recording formats.
+    * Virtual webcam support for feeding other programs.
+command:
+- /opt/apps/webcamoid.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
