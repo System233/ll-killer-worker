@@ -1,0 +1,28 @@
+正在测试: APPID=pysolfc.linyaps LAYER=pysolfc.linyaps_2.6.4.3_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install pysolfc.linyaps_2.6.4.3_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:pysolfc.linyaps
+Layer文件:pysolfc.linyaps_2.6.4.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pysolfc.linyaps_2.6.4.3_arm64_binary.layer
+offset: 976
+mountpoint: /tmp/tmp.ZAZMtDroIn/mnt
+dbglevel: 0
+[成功] pysol.desktop: pysolfc.linyaps-pysol01 -> /opt/apps/pysolfc.linyaps/files/share/icons/hicolor/16x16/apps/pysolfc.linyaps-pysol01.png
+[成功] /opt/apps/pysolfc.linyaps/files/share/applications/pysol.desktop: /opt/apps/pysolfc.linyaps/files/entrypoint.sh pysolfc
+[正在测试启动项]
+包名:pysolfc.linyaps
+Layer文件:pysolfc.linyaps_2.6.4.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pysolfc.linyaps_2.6.4.3_arm64_binary.layer
+offset: 976
+mountpoint: /tmp/tmp.10Cg1Mg7Sq/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run pysolfc.linyaps -- /opt/apps/pysolfc.linyaps/files/entrypoint.sh pysolfc
+[PID 11917] 进程已启动
+[PID 11917] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall pysolfc.linyaps
