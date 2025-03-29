@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: wavbreaker.linyaps
+  name: wavbreaker
+  version: 0.16.0.3
+  kind: app
+  description: |-
+    tool to split wave files into multiple chunks
+    This application's purpose in life is to take a wave file and
+    break it up into multiple wave files.  It makes a clean break
+    at the correct position to burn the files to an audio cd
+    without any dead air between the tracks.
+command:
+- /opt/apps/wavbreaker.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
