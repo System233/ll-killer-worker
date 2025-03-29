@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: qt5ct.linyaps
+  name: qt5ct
+  version: 1.5.0.1
+  kind: app
+  description: |-
+    Qt5 Configuration Utility
+    This utility allows users to configure Qt5 settings (theme, font,
+    icons, etc.) under DE/WM without Qt integration.
+
+    Qt5ct will only be active on environments other than Plasma.
+    Default configuration have switch to disable running on Plasma.
+
+    Qt5ct could use qt5 gtk theme, KDE breeze theme, the fusion theme,
+    QtCurve theme and many more. Each style could be customized further
+    by changing the color schema.
+command:
+- /opt/apps/qt5ct.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
