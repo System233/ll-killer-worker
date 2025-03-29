@@ -1,0 +1,67 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libjpeg-turbo8 libjpeg8 libpng16-16t64 sunclock-maps
+Suggested packages:
+  imagemagick
+The following packages will be REMOVED:
+  libjpeg-turbo-progs libpng16-16 libturbojpeg0 xscreensaver-data-extra
+The following NEW packages will be installed:
+  libjpeg-turbo8 libjpeg8 libpng16-16t64 sunclock sunclock-maps
+0 upgraded, 5 newly installed, 4 to remove and 452 not upgraded.
+Need to get 1852 kB of archives.
+After this operation, 7678 kB disk space will be freed.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpng16-16t64 amd64 1.6.43-5build1 [187 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-turbo8 amd64 2.1.5-2ubuntu2 [150 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg8 amd64 8c-2ubuntu11 [2148 B]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 sunclock-maps all 3.57-13build2 [1296 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 sunclock amd64 3.57-13build2 [217 kB]
+Fetched 1852 kB in 1s (2114 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing xscreensaver-data-extra (6.02+dfsg1-3) ...
+Removing libjpeg-turbo-progs (1:2.1.5-2) ...
+dpkg: libpng16-16:amd64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:amd64 depends on libpng16-16 (>= 1.6.2).
+
+Removing libpng16-16:amd64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27161 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_amd64.deb ...
+Unpacking libpng16-16t64:amd64 (1.6.43-5build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27172 files and directories currently installed.)
+Removing libturbojpeg0:amd64 (1:2.1.5-2) ...
+Selecting previously unselected package libjpeg-turbo8:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27165 files and directories currently installed.)
+Preparing to unpack .../libjpeg-turbo8_2.1.5-2ubuntu2_amd64.deb ...
+Unpacking libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Selecting previously unselected package libjpeg8:amd64.
+Preparing to unpack .../libjpeg8_8c-2ubuntu11_amd64.deb ...
+Unpacking libjpeg8:amd64 (8c-2ubuntu11) ...
+Selecting previously unselected package sunclock-maps.
+Preparing to unpack .../sunclock-maps_3.57-13build2_all.deb ...
+Unpacking sunclock-maps (3.57-13build2) ...
+Selecting previously unselected package sunclock.
+Preparing to unpack .../sunclock_3.57-13build2_amd64.deb ...
+Unpacking sunclock (3.57-13build2) ...
+Setting up sunclock-maps (3.57-13build2) ...
+Setting up libpng16-16t64:amd64 (1.6.43-5build1) ...
+Setting up libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Setting up libjpeg8:amd64 (8c-2ubuntu11) ...
+Setting up sunclock (3.57-13build2) ...
+
+Configuration file '/etc/Sunclockrc', does not exist on system.
+Installing new config file as you requested.
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
