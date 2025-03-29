@@ -1,0 +1,28 @@
+正在测试: APPID=snek.linyaps LAYER=snek.linyaps_1.9.0.3_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install snek.linyaps_1.9.0.3_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:snek.linyaps
+Layer文件:snek.linyaps_1.9.0.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: snek.linyaps_1.9.0.3_arm64_binary.layer
+offset: 715
+mountpoint: /tmp/tmp.8UiDu0itiY/mnt
+dbglevel: 0
+[成功] snekde.desktop: snek.linyaps-snek -> /opt/apps/snek.linyaps/files/share/icons/hicolor/scalable/apps/snek.linyaps-snek.svg
+[成功] /opt/apps/snek.linyaps/files/share/applications/snekde.desktop: /opt/apps/snek.linyaps/files/entrypoint.sh /usr/bin/snekde
+[正在测试启动项]
+包名:snek.linyaps
+Layer文件:snek.linyaps_1.9.0.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: snek.linyaps_1.9.0.3_arm64_binary.layer
+offset: 715
+mountpoint: /tmp/tmp.Lfc58p3teo/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run snek.linyaps -- /opt/apps/snek.linyaps/files/entrypoint.sh /usr/bin/snekde
+[PID 5421] 进程已启动
+[PID 5421] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall snek.linyaps
