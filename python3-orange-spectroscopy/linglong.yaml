@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: python3-orange-spectroscopy.linyaps
+  name: python3-orange-spectroscopy
+  version: 0.6.10.4
+  kind: app
+  description: |-
+    Extends Orange to handle spectral and hyperspectral analysis
+    Orange add-on for spectral data analysis. Provides spectra and
+    hyperspectra plotting, interpolation, preprocessing (cutting, smoothing,
+    normalization), and integration. Supports common spectral file formats.
+
+    Features
+    --------
+    ### Load and process data
+    * Load the spectroscopy data
+    * Preprocess and interpolate spectra
+    * Integrate spectra
+    * Average spectra
+    * Performs Fast Fourier Transform
+
+    ### Visualisation
+    * Visually explore series of spectra
+    * Plots 2D map of hyperspectra
+command:
+- /opt/apps/python3-orange-spectroscopy.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
