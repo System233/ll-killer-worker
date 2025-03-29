@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: twinvoicerecalc.linyaps
+  name: twinvoicerecalc
+  version: 0.0.20170711.1
+  kind: app
+  description: |-
+    Taiwan invoice reverse calculator
+    In Taiwan, the customer usually get the gross price. But on the invoice we
+    have to write the net price with tax. This program helps you to reverse
+    calculate the gross price to net price and tax. And automatically adjust the
+    net price if needed.
+command:
+- /opt/apps/twinvoicerecalc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
