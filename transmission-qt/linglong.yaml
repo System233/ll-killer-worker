@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: transmission-qt.linyaps
+  name: transmission-qt
+  version: 4.0.5.1
+  kind: app
+  description: |-
+    lightweight BitTorrent client (Qt interface)
+    Transmission is a set of lightweight BitTorrent clients (in GUI, CLI
+    and daemon form). All its incarnations feature a very simple, intuitive
+    interface on top on an efficient, cross-platform back-end.
+
+    This package contains the Qt stand-alone client.
+command:
+- /opt/apps/transmission-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
