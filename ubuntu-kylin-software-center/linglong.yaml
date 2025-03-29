@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: ubuntu-kylin-software-center.linyaps
+  name: ubuntu-kylin-software-center
+  version: 3.3.4.0
+  kind: app
+  description: |-
+    Software maintenance management tools
+    Ubuntu Kylin Software Center is a newly built software center client
+    for Ubuntu Kylin. The aim is to improve localization experience. The
+    applications and related data come from both Ubuntu and Ubuntu Kylin
+    repositories.
+
+    Features:
+    * Categorized and selected applications for users
+    * Newly designed user interface
+    * Work with Ubuntu software center and hold special packages from
+    Ubuntu Kylin archive
+command:
+- /opt/apps/ubuntu-kylin-software-center.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
