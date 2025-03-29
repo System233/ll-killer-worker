@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: rkward.linyaps
+  name: rkward
+  version: 0.7.5.2
+  kind: app
+  description: |-
+    KDE frontend to the R statistics language
+    RKWard aims to become an easy to use, transparent frontend to R,
+    a powerful system for statistical computation and graphics.
+    Besides a convenient GUI for the most important statistical functions,
+    future versions will also provide seamless integration with an
+    office-suite.
+command:
+- /opt/apps/rkward.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
