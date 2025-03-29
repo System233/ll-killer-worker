@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: spout.linyaps
+  name: spout
+  version: 1.4.0.5
+  kind: app
+  description: |-
+    Tiny abstract black and white 2D cave-shooter
+    This is a small, abstract shooting game from Japanese developer Kuni. It is a
+    'caveflier' in which the exhaust from the engine also serves as a tool to
+    erode the cave walls.
+
+    Your goal is to fly upwards as long as you possibly can, without crashing
+    against the cave walls and the window borders.
+command:
+- /opt/apps/spout.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
