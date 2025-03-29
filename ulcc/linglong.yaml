@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: ulcc.linyaps
+  name: ulcc
+  version: 1.0.2.3
+  kind: app
+  description: |-
+    teaching children by pictures
+    ulcc is an educational tool/game targeted at children. It is designed to aid
+    in learning words through visual samples. As a side function it can also help
+    to familiarize one with a mouse.
+
+    This package is useful for elementary schools.
+command:
+- /opt/apps/ulcc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
