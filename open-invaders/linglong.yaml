@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: open-invaders.linyaps
+  name: open-invaders
+  version: 0.3.0.8
+  kind: app
+  description: |-
+    Space Invaders clone
+    Space Invaders is one of the earliest arcade shoot 'em up games.
+    The player can move horizontally across the bottom of the screen
+    and must shoot at an incoming wave of aliens before they reach
+    the bottom.
+
+    Open Invaders is a clone of the legendary 70's classic, but with
+    completely new graphics, several bonus levels, etc.
+command:
+- /opt/apps/open-invaders.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
