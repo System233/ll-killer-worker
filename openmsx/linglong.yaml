@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: openmsx.linyaps
+  name: openmsx
+  version: 19.1.0.1
+  kind: app
+  description: |-
+    MSX emulator that aims for perfection
+    openMSX is an open source MSX emulator that uses a unique emulation model,
+    which tries to achieve the highest level of accuracy possible. It allows
+    emulating a large number of different MSX machines. Combined with the
+    C-BIOS ROM-files that are available in a separate package, you can run game
+    ROM-files without the need for non-free BIOS ROM files.
+command:
+- /opt/apps/openmsx.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
