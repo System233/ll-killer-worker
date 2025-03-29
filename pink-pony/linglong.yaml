@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: pink-pony.linyaps
+  name: pink-pony
+  version: 1.4.1.3
+  kind: app
+  description: |-
+    3D racing game with ponies
+    Pink Pony is a Tron­-like multiplayer racing­ game. You control little
+    ponies that leave a trail of flowers everywhere they step. You have to
+    evade these trails and force other ponies into them. The last pony standing
+    wins the game.
+
+    OpenGL 2.0 is needed for Pink Pony to work.
+command:
+- /opt/apps/pink-pony.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
