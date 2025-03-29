@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: mustang-plug.linyaps
+  name: mustang-plug
+  version: 1.2.0.3
+  kind: app
+  description: |-
+    control Fender Mustang amplifiers
+    PLUG was originally created as a Linux replacement for Fender FUSE
+    software for Fender Mustang guitar amplifier. Its Qt4-based graphical
+    interface allows one to control the amplifier and effect stages of
+    all Mustang amplifiers from I to V.
+command:
+- /opt/apps/mustang-plug.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
