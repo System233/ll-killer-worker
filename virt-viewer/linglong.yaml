@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: virt-viewer.linyaps
+  name: virt-viewer
+  version: 11.0.0.3
+  kind: app
+  description: |-
+    Displaying the graphical console of a virtual machine
+    The console is accessed using the VNC or SPICE protocol. The guest can be
+    referred to based on its name, ID, or UUID. If the guest is not already
+    running, then the viewer can be told to wait until is starts before attempting
+    to connect to the console The viewer can connect to remote hosts to lookup the
+    console information and then also connect to the remote console using the same
+    network transport.
+command:
+- /opt/apps/virt-viewer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
