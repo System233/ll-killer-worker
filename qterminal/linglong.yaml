@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: qterminal.linyaps
+  name: qterminal
+  version: 1.4.0.0
+  kind: app
+  description: |-
+    Lightweight Qt terminal emulator
+    QTerminal is a lightweight terminal emulator based on QTermWidget.
+
+    Among other it features
+    * Split terminals (horizontally and vertically).
+    * Multiple tabs.
+    * Customizable shortcuts.
+    * Various color schemes.
+command:
+- /opt/apps/qterminal.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
