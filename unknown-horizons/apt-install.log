@@ -1,0 +1,296 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  fonts-unifont libasound2-data libasound2t64 libboost-filesystem1.83.0
+  libdb5.3t64 libenet7 libexpat1 libfifechan0.1.5t64 libglew2.2 libjpeg-turbo8
+  libjpeg8 libopenal-data libopenal1 libpng16-16t64 libpython3-stdlib
+  libpython3.12-minimal libpython3.12-stdlib libpython3.12t64 libreadline8t64
+  libsdl2-2.0-0 libsdl2-image-2.0-0 libsdl2-ttf-2.0-0 libsndio7.0 libssl3t64
+  libtinyxml2.6.2v5 libvorbis0a libvorbisenc2 libvorbisfile3 libxss1
+  libyaml-0-2 python3 python3-enet python3-fife python3-minimal python3-yaml
+  python3.12 python3.12-minimal readline-common
+Suggested packages:
+  alsa-utils glew-utils libportaudio2 xdg-utils sndiod python3-doc python3-tk
+  python3-venv python3.12-venv python3.12-doc binfmt-support readline-doc
+Recommended packages:
+  alsa-ucm-conf alsa-topology-conf
+The following packages will be REMOVED:
+  libasound2 libdb5.3 libjpeg-turbo-progs libpng16-16 libpython3.12
+  libreadline8 libturbojpeg0 xscreensaver-data-extra
+The following NEW packages will be installed:
+  fonts-unifont libasound2t64 libboost-filesystem1.83.0 libdb5.3t64 libenet7
+  libfifechan0.1.5t64 libglew2.2 libjpeg-turbo8 libjpeg8 libopenal-data
+  libopenal1 libpng16-16t64 libpython3.12t64 libreadline8t64 libsdl2-2.0-0
+  libsdl2-image-2.0-0 libsdl2-ttf-2.0-0 libsndio7.0 libssl3t64
+  libtinyxml2.6.2v5 libvorbisfile3 libxss1 libyaml-0-2 python3-enet
+  python3-fife python3-yaml unknown-horizons
+The following packages will be upgraded:
+  libasound2-data libexpat1 libpython3-stdlib libpython3.12-minimal
+  libpython3.12-stdlib libvorbis0a libvorbisenc2 python3 python3-minimal
+  python3.12 python3.12-minimal readline-common
+12 upgraded, 27 newly installed, 8 to remove and 440 not upgraded.
+Need to get 272 MB of archives.
+After this operation, 426 MB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libasound2-data all 1.2.11-1build2 [21.0 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libasound2t64 amd64 1.2.11-1build2 [399 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libssl3t64 amd64 3.0.13-0ubuntu3.5 [1940 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libexpat1 amd64 2.6.1-2ubuntu0.2 [87.4 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12 amd64 3.12.3-1ubuntu0.5 [651 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12-minimal amd64 3.12.3-1ubuntu0.5 [2342 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-minimal amd64 3.12.3-1ubuntu0.5 [835 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libreadline8t64 amd64 8.2-4build1 [153 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-stdlib amd64 3.12.3-1ubuntu0.5 [2069 kB]
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libdb5.3t64 amd64 5.3.28+dfsg2-7 [734 kB]
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpng16-16t64 amd64 1.6.43-5build1 [187 kB]
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 readline-common all 8.2-4build1 [56.5 kB]
+Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-minimal amd64 3.12.3-0ubuntu2 [27.4 kB]
+Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3 amd64 3.12.3-0ubuntu2 [23.0 kB]
+Get:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3-stdlib amd64 3.12.3-0ubuntu2 [10.0 kB]
+Get:16 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libyaml-0-2 amd64 0.2.5-1build1 [51.5 kB]
+Get:17 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-yaml amd64 6.0.1-2build2 [123 kB]
+Get:18 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-unifont all 1:15.1.01-1build1 [2993 kB]
+Get:19 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libboost-filesystem1.83.0 amd64 1.83.0-2.1ubuntu3.1 [283 kB]
+Get:20 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libenet7 amd64 1.3.17+ds-2build1 [25.1 kB]
+Get:21 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxss1 amd64 1:1.2.3-1build3 [7204 B]
+Get:22 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsdl2-2.0-0 amd64 2.30.0+dfsg-1build3 [685 kB]
+Get:23 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-turbo8 amd64 2.1.5-2ubuntu2 [150 kB]
+Get:24 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg8 amd64 8c-2ubuntu11 [2148 B]
+Get:25 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libsdl2-image-2.0-0 amd64 2.8.2+dfsg-1build2 [65.1 kB]
+Get:26 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libfifechan0.1.5t64 amd64 0.1.5-3.1build1 [170 kB]
+Get:27 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libglew2.2 amd64 2.2.0-4build1 [187 kB]
+Get:28 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libopenal-data all 1:1.23.1-4build1 [161 kB]
+Get:29 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12t64 amd64 3.12.3-1ubuntu0.5 [2339 kB]
+Get:30 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libsdl2-ttf-2.0-0 amd64 2.22.0+dfsg-1 [35.7 kB]
+Get:31 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libsndio7.0 amd64 1.9.0-0.3build3 [29.6 kB]
+Get:32 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libtinyxml2.6.2v5 amd64 2.6.2-6.1 [37.4 kB]
+Get:33 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libvorbisenc2 amd64 1.3.7-1build3 [80.8 kB]
+Get:34 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libvorbis0a amd64 1.3.7-1build3 [97.6 kB]
+Get:35 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libvorbisfile3 amd64 1.3.7-1build3 [17.1 kB]
+Get:36 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 python3-enet amd64 0.0~vcs.2022.12.26.git-0.2build3 [68.8 kB]
+Get:37 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libopenal1 amd64 1:1.23.1-4build1 [540 kB]
+Get:38 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 python3-fife amd64 0.4.2-6build4 [3544 kB]
+Get:39 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 unknown-horizons all 2019.1-7 [251 MB]
+Fetched 272 MB in 4s (67.9 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libasound2-data_1.2.11-1build2_all.deb ...
+Unpacking libasound2-data (1.2.11-1build2) over (1.2.8-1) ...
+dpkg: libasound2:amd64: dependency problems, but removing anyway as you requested:
+ pulseaudio depends on libasound2 (>= 1.2.1.1).
+ pipewire-bin depends on libasound2 (>= 1.2.1.1).
+ libspa-0.2-modules:amd64 depends on libasound2 (>= 1.2.1.1).
+ libasound2-plugins:amd64 depends on libasound2 (>= 1.2.5).
+ bluez depends on libasound2 (>= 1.0.17).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing libasound2:amd64 (1.2.8-1) ...
+Selecting previously unselected package libasound2t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27587 files and directories currently installed.)
+Preparing to unpack .../0-libasound2t64_1.2.11-1build2_amd64.deb ...
+Unpacking libasound2t64:amd64 (1.2.11-1build2) ...
+Selecting previously unselected package libssl3t64:amd64.
+Preparing to unpack .../1-libssl3t64_3.0.13-0ubuntu3.5_amd64.deb ...
+Unpacking libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:amd64 (3.2.0-2) ...
+Preparing to unpack .../2-libexpat1_2.6.1-2ubuntu0.2_amd64.deb ...
+Unpacking libexpat1:amd64 (2.6.1-2ubuntu0.2) over (2.5.0-2) ...
+Preparing to unpack .../3-python3.12_3.12.3-1ubuntu0.5_amd64.deb ...
+Unpacking python3.12 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+Preparing to unpack .../4-python3.12-minimal_3.12.3-1ubuntu0.5_amd64.deb ...
+Unpacking python3.12-minimal (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+Preparing to unpack .../5-libpython3.12-minimal_3.12.3-1ubuntu0.5_amd64.deb ...
+Unpacking libpython3.12-minimal:amd64 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+dpkg: libreadline8:amd64: dependency problems, but removing anyway as you requested:
+ sqlite3 depends on libreadline8 (>= 6.0).
+ pipewire-bin depends on libreadline8 (>= 6.0).
+ libpython3.12-stdlib:amd64 depends on libreadline8 (>= 7.0~beta).
+ libpython3.11-stdlib:amd64 depends on libreadline8 (>= 7.0~beta).
+ gpgsm depends on libreadline8 (>= 6.0).
+ gpgconf depends on libreadline8 (>= 6.0).
+ gpg depends on libreadline8 (>= 6.0).
+ gnupg-utils depends on libreadline8 (>= 6.0).
+ gawk depends on libreadline8 (>= 6.0).
+ fdisk depends on libreadline8 (>= 6.0).
+ bluez depends on libreadline8 (>= 6.0).
+ bc depends on libreadline8 (>= 6.0).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27598 files and directories currently installed.)
+Removing libreadline8:amd64 (8.2-3) ...
+Selecting previously unselected package libreadline8t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27585 files and directories currently installed.)
+Preparing to unpack .../libreadline8t64_8.2-4build1_amd64.deb ...
+Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8 to /lib/x86_64-linux-gnu/libhistory.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8.2 to /lib/x86_64-linux-gnu/libhistory.so.8.2.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8 to /lib/x86_64-linux-gnu/libreadline.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8.2 to /lib/x86_64-linux-gnu/libreadline.so.8.2.usr-is-merged by libreadline8t64'
+Unpacking libreadline8t64:amd64 (8.2-4build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27605 files and directories currently installed.)
+Removing libpython3.12:amd64 (3.12.0-1deepin1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27599 files and directories currently installed.)
+Preparing to unpack .../libpython3.12-stdlib_3.12.3-1ubuntu0.5_amd64.deb ...
+Unpacking libpython3.12-stdlib:amd64 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+dpkg: libdb5.3:amd64: dependency problems, but removing anyway as you requested:
+ libsasl2-modules-db:amd64 depends on libdb5.3.
+ libpython3.11-stdlib:amd64 depends on libdb5.3.
+ libperl5.36:amd64 depends on libdb5.3.
+ libpam-modules:amd64 depends on libdb5.3.
+ libjack-jackd2-0:amd64 depends on libdb5.3.
+ libical3:amd64 depends on libdb5.3.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27618 files and directories currently installed.)
+Removing libdb5.3:amd64 (5.3.28+dfsg1-0.8) ...
+Selecting previously unselected package libdb5.3t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27612 files and directories currently installed.)
+Preparing to unpack .../libdb5.3t64_5.3.28+dfsg2-7_amd64.deb ...
+Unpacking libdb5.3t64:amd64 (5.3.28+dfsg2-7) ...
+Setting up libdb5.3t64:amd64 (5.3.28+dfsg2-7) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27618 files and directories currently installed.)
+Removing xscreensaver-data-extra (6.02+dfsg1-3) ...
+Removing libjpeg-turbo-progs (1:2.1.5-2) ...
+dpkg: libpng16-16:amd64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:amd64 depends on libpng16-16 (>= 1.6.2).
+
+Removing libpng16-16:amd64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27185 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_amd64.deb ...
+Unpacking libpng16-16t64:amd64 (1.6.43-5build1) ...
+Preparing to unpack .../readline-common_8.2-4build1_all.deb ...
+Unpacking readline-common (8.2-4build1) over (8.2-3) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27195 files and directories currently installed.)
+Removing libturbojpeg0:amd64 (1:2.1.5-2) ...
+Setting up libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Setting up libpython3.12-minimal:amd64 (3.12.3-1ubuntu0.5) ...
+Setting up libexpat1:amd64 (2.6.1-2ubuntu0.2) ...
+Setting up python3.12-minimal (3.12.3-1ubuntu0.5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27188 files and directories currently installed.)
+Preparing to unpack .../python3-minimal_3.12.3-0ubuntu2_amd64.deb ...
+Unpacking python3-minimal (3.12.3-0ubuntu2) over (3.11.4-5) ...
+Setting up python3-minimal (3.12.3-0ubuntu2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27188 files and directories currently installed.)
+Preparing to unpack .../00-python3_3.12.3-0ubuntu2_amd64.deb ...
+Unpacking python3 (3.12.3-0ubuntu2) over (3.11.4-5) ...
+Preparing to unpack .../01-libpython3-stdlib_3.12.3-0ubuntu2_amd64.deb ...
+Unpacking libpython3-stdlib:amd64 (3.12.3-0ubuntu2) over (3.11.4-5) ...
+Selecting previously unselected package libyaml-0-2:amd64.
+Preparing to unpack .../02-libyaml-0-2_0.2.5-1build1_amd64.deb ...
+Unpacking libyaml-0-2:amd64 (0.2.5-1build1) ...
+Selecting previously unselected package python3-yaml.
+Preparing to unpack .../03-python3-yaml_6.0.1-2build2_amd64.deb ...
+Unpacking python3-yaml (6.0.1-2build2) ...
+Selecting previously unselected package fonts-unifont.
+Preparing to unpack .../04-fonts-unifont_1%3a15.1.01-1build1_all.deb ...
+Unpacking fonts-unifont (1:15.1.01-1build1) ...
+Selecting previously unselected package libboost-filesystem1.83.0:amd64.
+Preparing to unpack .../05-libboost-filesystem1.83.0_1.83.0-2.1ubuntu3.1_amd64.deb ...
+Unpacking libboost-filesystem1.83.0:amd64 (1.83.0-2.1ubuntu3.1) ...
+Selecting previously unselected package libenet7:amd64.
+Preparing to unpack .../06-libenet7_1.3.17+ds-2build1_amd64.deb ...
+Unpacking libenet7:amd64 (1.3.17+ds-2build1) ...
+Selecting previously unselected package libxss1:amd64.
+Preparing to unpack .../07-libxss1_1%3a1.2.3-1build3_amd64.deb ...
+Unpacking libxss1:amd64 (1:1.2.3-1build3) ...
+Selecting previously unselected package libsdl2-2.0-0:amd64.
+Preparing to unpack .../08-libsdl2-2.0-0_2.30.0+dfsg-1build3_amd64.deb ...
+Unpacking libsdl2-2.0-0:amd64 (2.30.0+dfsg-1build3) ...
+Selecting previously unselected package libjpeg-turbo8:amd64.
+Preparing to unpack .../09-libjpeg-turbo8_2.1.5-2ubuntu2_amd64.deb ...
+Unpacking libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Selecting previously unselected package libjpeg8:amd64.
+Preparing to unpack .../10-libjpeg8_8c-2ubuntu11_amd64.deb ...
+Unpacking libjpeg8:amd64 (8c-2ubuntu11) ...
+Selecting previously unselected package libsdl2-image-2.0-0:amd64.
+Preparing to unpack .../11-libsdl2-image-2.0-0_2.8.2+dfsg-1build2_amd64.deb ...
+Unpacking libsdl2-image-2.0-0:amd64 (2.8.2+dfsg-1build2) ...
+Selecting previously unselected package libfifechan0.1.5t64:amd64.
+Preparing to unpack .../12-libfifechan0.1.5t64_0.1.5-3.1build1_amd64.deb ...
+Unpacking libfifechan0.1.5t64:amd64 (0.1.5-3.1build1) ...
+Selecting previously unselected package libglew2.2:amd64.
+Preparing to unpack .../13-libglew2.2_2.2.0-4build1_amd64.deb ...
+Unpacking libglew2.2:amd64 (2.2.0-4build1) ...
+Selecting previously unselected package libopenal-data.
+Preparing to unpack .../14-libopenal-data_1%3a1.23.1-4build1_all.deb ...
+Unpacking libopenal-data (1:1.23.1-4build1) ...
+Selecting previously unselected package libpython3.12t64:amd64.
+Preparing to unpack .../15-libpython3.12t64_3.12.3-1ubuntu0.5_amd64.deb ...
+Unpacking libpython3.12t64:amd64 (3.12.3-1ubuntu0.5) ...
+Selecting previously unselected package libsdl2-ttf-2.0-0:amd64.
+Preparing to unpack .../16-libsdl2-ttf-2.0-0_2.22.0+dfsg-1_amd64.deb ...
+Unpacking libsdl2-ttf-2.0-0:amd64 (2.22.0+dfsg-1) ...
+Selecting previously unselected package libsndio7.0:amd64.
+Preparing to unpack .../17-libsndio7.0_1.9.0-0.3build3_amd64.deb ...
+Unpacking libsndio7.0:amd64 (1.9.0-0.3build3) ...
+Selecting previously unselected package libtinyxml2.6.2v5:amd64.
+Preparing to unpack .../18-libtinyxml2.6.2v5_2.6.2-6.1_amd64.deb ...
+Unpacking libtinyxml2.6.2v5:amd64 (2.6.2-6.1) ...
+Preparing to unpack .../19-libvorbisenc2_1.3.7-1build3_amd64.deb ...
+Unpacking libvorbisenc2:amd64 (1.3.7-1build3) over (1.3.7-1) ...
+Preparing to unpack .../20-libvorbis0a_1.3.7-1build3_amd64.deb ...
+Unpacking libvorbis0a:amd64 (1.3.7-1build3) over (1.3.7-1) ...
+Selecting previously unselected package libvorbisfile3:amd64.
+Preparing to unpack .../21-libvorbisfile3_1.3.7-1build3_amd64.deb ...
+Unpacking libvorbisfile3:amd64 (1.3.7-1build3) ...
+Selecting previously unselected package python3-enet.
+Preparing to unpack .../22-python3-enet_0.0~vcs.2022.12.26.git-0.2build3_amd64.deb ...
+Unpacking python3-enet (0.0~vcs.2022.12.26.git-0.2build3) ...
+Selecting previously unselected package libopenal1:amd64.
+Preparing to unpack .../23-libopenal1_1%3a1.23.1-4build1_amd64.deb ...
+Unpacking libopenal1:amd64 (1:1.23.1-4build1) ...
+Selecting previously unselected package python3-fife.
+Preparing to unpack .../24-python3-fife_0.4.2-6build4_amd64.deb ...
+Unpacking python3-fife (0.4.2-6build4) ...
+Selecting previously unselected package unknown-horizons.
+Preparing to unpack .../25-unknown-horizons_2019.1-7_all.deb ...
+Unpacking unknown-horizons (2019.1-7) ...
+Setting up libenet7:amd64 (1.3.17+ds-2build1) ...
+Setting up libyaml-0-2:amd64 (0.2.5-1build1) ...
+Setting up libboost-filesystem1.83.0:amd64 (1.83.0-2.1ubuntu3.1) ...
+Setting up libasound2-data (1.2.11-1build2) ...
+Setting up libasound2t64:amd64 (1.2.11-1build2) ...
+Setting up libpng16-16t64:amd64 (1.6.43-5build1) ...
+Setting up libvorbis0a:amd64 (1.3.7-1build3) ...
+Setting up libtinyxml2.6.2v5:amd64 (2.6.2-6.1) ...
+Setting up libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Setting up libglew2.2:amd64 (2.2.0-4build1) ...
+Setting up libsndio7.0:amd64 (1.9.0-0.3build3) ...
+Setting up libopenal-data (1:1.23.1-4build1) ...
+
+Configuration file '/etc/openal/alsoft.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up libxss1:amd64 (1:1.2.3-1build3) ...
+Setting up libsdl2-2.0-0:amd64 (2.30.0+dfsg-1build3) ...
+Setting up readline-common (8.2-4build1) ...
+Setting up libvorbisenc2:amd64 (1.3.7-1build3) ...
+Setting up fonts-unifont (1:15.1.01-1build1) ...
+Setting up libjpeg8:amd64 (8c-2ubuntu11) ...
+Setting up libsdl2-image-2.0-0:amd64 (2.8.2+dfsg-1build2) ...
+Setting up libopenal1:amd64 (1:1.23.1-4build1) ...
+Setting up libvorbisfile3:amd64 (1.3.7-1build3) ...
+Setting up libfifechan0.1.5t64:amd64 (0.1.5-3.1build1) ...
+Setting up libreadline8t64:amd64 (8.2-4build1) ...
+Setting up libsdl2-ttf-2.0-0:amd64 (2.22.0+dfsg-1) ...
+Setting up libpython3.12-stdlib:amd64 (3.12.3-1ubuntu0.5) ...
+Setting up python3.12 (3.12.3-1ubuntu0.5) ...
+Setting up libpython3.12t64:amd64 (3.12.3-1ubuntu0.5) ...
+Setting up libpython3-stdlib:amd64 (3.12.3-0ubuntu2) ...
+Setting up python3 (3.12.3-0ubuntu2) ...
+Setting up python3-enet (0.0~vcs.2022.12.26.git-0.2build3) ...
+Setting up python3-fife (0.4.2-6build4) ...
+Setting up python3-yaml (6.0.1-2build2) ...
+Setting up unknown-horizons (2019.1-7) ...
+/usr/lib/python3/dist-packages/horizons/util/tile_orientation.py:26: SyntaxWarning: invalid escape sequence '\ '
+  """
+Processing triggers for fontconfig (2.14.2-6) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libc-bin (2.38-6deepin4) ...
