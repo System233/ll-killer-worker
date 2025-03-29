@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: pytrainer.linyaps
+  name: pytrainer
+  version: 2.2.1.4
+  kind: app
+  description: |-
+    desktop application for logging sport activities
+    Pytrainer is a desktop application for logging and graphing sporting
+    activities such as running or cycling sessions. Data can be imported from GPS
+    devices, files or input manually. Currently pytrainer supports GPX, TCX and
+    FIT files.
+command:
+- /opt/apps/pytrainer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
