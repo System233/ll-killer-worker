@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: plasma-workspace.linyaps
+  name: plasma-workspace
+  version: 5.27.12.0
+  kind: app
+  description: |-
+    Plasma Workspace for KF5
+    Plasma Workspace for KF5. Workspaces provide
+    support for KDE Plasma Widgets, integrated search,
+    hardware management and a high degree of customizability.
+command:
+- /opt/apps/plasma-workspace.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
