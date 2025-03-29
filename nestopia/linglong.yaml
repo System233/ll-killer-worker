@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: nestopia.linyaps
+  name: nestopia
+  version: 1.52.0.1
+  kind: app
+  description: |-
+    Nintendo Entertainment System/Famicom emulator
+    Nestopia is a cycle-accurate NES/Famicom emulator. It has a high
+    compatibility rate and support for many peripherals and input
+    devices.
+
+    Features:
+    * Save states
+    * Movie recording
+    * Game rewinding
+    * GUI or command line interface
+    * Emulation of NTSC, PAL, and Dendy systems
+    * Support for NES Zapper games
+    * Support for Famicom Disk System games
+command:
+- /opt/apps/nestopia.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
