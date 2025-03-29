@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: org.szra.uosboscukey.linyaps
+  name: org.szra.uosboscukey
+  version: 3.28.2.3
+  kind: app
+  description: 上海银行网盾管理工具(神州融安)
+command:
+- /opt/apps/org.szra.uosboscukey.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
