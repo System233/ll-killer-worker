@@ -1,0 +1,33 @@
+version: "1"
+package:
+  id: raysession.linyaps
+  name: raysession
+  version: 0.14.3.0
+  kind: app
+  description: |-
+    Session Manager for Audio Software
+    Ray Session is a GNU/Linux session manager for audio programs as Ardour,
+    Carla, QTractor, Non-Timeline, etc...
+
+    It uses the same API as Non Session Manager, so programs compatible with NSM
+    are also compatible with Ray Session. As Non Session Manager, the principle
+    is to load together audio programs, then be able to save or close all
+    documents together.
+
+    Ray Session offers a little more:
+
+    - Factory templates for NSM and LASH compatible applications
+    - Possibility to save any client as template
+    - Save session as template
+    - Name files with a prettier way
+    - remember if client was started or not
+    - Abort session almost anytime
+    - Change Main Folder of sessions on GUI
+    - Possibility to KILL client if clean exit is too long
+    - Open Session Folder button (open default file manager)
+
+    Ray Session is being developed by houston4444, using Python3 and Qt5.
+command:
+- /opt/apps/raysession.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

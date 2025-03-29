@@ -1,0 +1,42 @@
+正在测试: APPID=raysession.linyaps LAYER=raysession.linyaps_0.14.3.0_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install raysession.linyaps_0.14.3.0_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:raysession.linyaps
+Layer文件:raysession.linyaps_0.14.3.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: raysession.linyaps_0.14.3.0_arm64_binary.layer
+offset: 1269
+mountpoint: /tmp/tmp.90wEzmanHy/mnt
+dbglevel: 0
+[31m[失败] ray-alsapatch.desktop:curve-connector: 找不到此图标 [0m
+[成功] /opt/apps/raysession.linyaps/files/share/applications/ray-alsapatch.desktop: /opt/apps/raysession.linyaps/files/entrypoint.sh ray-alsapatch
+[成功] ray-jack_checker.desktop: raysession -> /opt/apps/raysession.linyaps/files/share/icons/hicolor/128x128/apps/raysession.png
+[成功] /opt/apps/raysession.linyaps/files/share/applications/ray-jack_checker.desktop: /opt/apps/raysession.linyaps/files/entrypoint.sh ray-jack_checker_daemon --force-reliable
+[31m[失败] ray-jackpatch.desktop:curve-connector: 找不到此图标 [0m
+[成功] /opt/apps/raysession.linyaps/files/share/applications/ray-jackpatch.desktop: /opt/apps/raysession.linyaps/files/entrypoint.sh ray-jackpatch
+[成功] ray-network.desktop: network-wired -> /usr/share/icons/ubuntu-mono-dark/status/22/network-wired.svg
+[成功] /opt/apps/raysession.linyaps/files/share/applications/ray-network.desktop: /opt/apps/raysession.linyaps/files/entrypoint.sh ray-network
+[成功] raysession.desktop: raysession -> /opt/apps/raysession.linyaps/files/share/icons/hicolor/128x128/apps/raysession.png
+[成功] /opt/apps/raysession.linyaps/files/share/applications/raysession.desktop: /opt/apps/raysession.linyaps/files/entrypoint.sh raysession
+[正在测试启动项]
+包名:raysession.linyaps
+Layer文件:raysession.linyaps_0.14.3.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: raysession.linyaps_0.14.3.0_arm64_binary.layer
+offset: 1269
+mountpoint: /tmp/tmp.z3BstfECvM/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run raysession.linyaps -- /opt/apps/raysession.linyaps/files/entrypoint.sh raysession
+[PID 23083] 进程已启动
+[PID 23083] 已检测到窗口:PID=37
+[PID 23083] 正在截图 0秒: tests/screen0-0.jpg
+[PID 23083] 正在截图 1秒: tests/screen0-1.jpg
+[PID 23083] 正在截图 3秒: tests/screen0-3.jpg
+[PID 23083] 正在截图 5秒: tests/screen0-5.jpg
+[PID 23083] 正在通知并等待进程退出
+[PID 23083] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall raysession.linyaps
