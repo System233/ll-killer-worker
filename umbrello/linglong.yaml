@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: umbrello.linyaps
+  name: umbrello
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    UML modelling tool and code generator
+    Umbrello UML Modeller is a Unified Modelling Language diagram editor for KDE.
+    It can create diagrams of software and other systems in the industry-standard
+    UML format, and can also generate code from UML diagrams in a variety of
+    programming languages.
+
+    This package is part of the KDE Software Development Kit module.
+command:
+- /opt/apps/umbrello.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
