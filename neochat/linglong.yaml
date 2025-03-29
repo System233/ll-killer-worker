@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: neochat.linyaps
+  name: neochat
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Matrix client for desktop and mobile made by KDE
+    A chat application for Matrix, a decentralized communication protocol, created
+    by the KDE community. It allows one to send text messages, videos and audio
+    files to your family, colleagues and  friends using the Matrix protocol.
+
+    It features an elegant and responsive user interface allows one to adapt to any
+    screen size automatically and gracefully. It works on both Desktop and Mobile.
+command:
+- /opt/apps/neochat.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
