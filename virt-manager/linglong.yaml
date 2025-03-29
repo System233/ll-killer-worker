@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: virt-manager.linyaps
+  name: virt-manager
+  version: 4.1.0.3
+  kind: app
+  description: |-
+    desktop application for managing virtual machines
+    The virt-manager application is a desktop user interface for managing virtual
+    machines through libvirt. It primarily targets KVM VMs, but also manages Xen
+    and LXC (Linux containers). It presents a summary view of running domains,
+    their live performance & resource utilization statistics. Wizards enable the
+    creation of new domains, and configuration & adjustment of a domain's resource
+    allocation & virtual hardware. An embedded VNC and SPICE client viewer
+    presents a full graphical console to the guest domain.
+command:
+- /opt/apps/virt-manager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
