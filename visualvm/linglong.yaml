@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: visualvm.linyaps
+  name: visualvm
+  version: 2.1.8.1
+  kind: app
+  description: |-
+    All-in-One Java Troubleshooting Tool
+    VisualVM is a visual tool integrating several commandline JDK tools
+    and lightweight profiling capabilities. Designed for both production
+    and development time use, it further enhances the capability of
+    monitoring and performance analysis for the Java SE platform.
+
+    VisualVM is designed for
+    - Application Developers: Monitor, profile, take thread dumps,
+    browse heap dumps.
+    - System Administrators: Monitor and control Java applications
+    across the entire network.
+    - Java Application Users: Create bug reports containing all the
+    necessary information.
+command:
+- /opt/apps/visualvm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
