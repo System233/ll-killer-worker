@@ -1,0 +1,59 @@
+正在测试: APPID=usermode.linyaps LAYER=usermode.linyaps_1.114.0.3_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install usermode.linyaps_1.114.0.3_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:usermode.linyaps
+Layer文件:usermode.linyaps_1.114.0.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: usermode.linyaps_1.114.0.3_arm64_binary.layer
+offset: 820
+mountpoint: /tmp/tmp.d6Fl4N7EbU/mnt
+dbglevel: 0
+find: ‘/opt/apps/usermode.linyaps/files/share/icons’: No such file or directory
+[成功] redhat-userinfo.desktop: user_icon -> /opt/apps/usermode.linyaps/files/share/pixmaps/user_icon.png
+[成功] /opt/apps/usermode.linyaps/files/share/applications/redhat-userinfo.desktop: /opt/apps/usermode.linyaps/files/entrypoint.sh userinfo
+find: ‘/opt/apps/usermode.linyaps/files/share/icons’: No such file or directory
+[成功] redhat-usermount.desktop: disks -> /opt/apps/usermode.linyaps/files/share/pixmaps/disks.png
+[成功] /opt/apps/usermode.linyaps/files/share/applications/redhat-usermount.desktop: /opt/apps/usermode.linyaps/files/entrypoint.sh usermount
+find: ‘/opt/apps/usermode.linyaps/files/share/icons’: No such file or directory
+[成功] redhat-userpasswd.desktop: password -> /opt/apps/usermode.linyaps/files/share/pixmaps/password.png
+[成功] /opt/apps/usermode.linyaps/files/share/applications/redhat-userpasswd.desktop: /opt/apps/usermode.linyaps/files/entrypoint.sh userpasswd
+[正在测试启动项]
+包名:usermode.linyaps
+Layer文件:usermode.linyaps_1.114.0.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: usermode.linyaps_1.114.0.3_arm64_binary.layer
+offset: 820
+mountpoint: /tmp/tmp.tQ4gCpA5D9/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run usermode.linyaps -- /opt/apps/usermode.linyaps/files/entrypoint.sh userinfo
+[PID 8478] 进程已启动
+[PID 8478] 已检测到窗口:PID=37
+[PID 8478] 正在截图 0秒: tests/screen0-0.jpg
+[PID 8478] 正在截图 1秒: tests/screen0-1.jpg
+[PID 8478] 正在截图 3秒: tests/screen0-3.jpg
+[PID 8478] 正在截图 5秒: tests/screen0-5.jpg
+[PID 8478] 正在通知并等待进程退出
+[PID 8478] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run usermode.linyaps -- /opt/apps/usermode.linyaps/files/entrypoint.sh usermount
+[PID 8671] 进程已启动
+[PID 8671] 已检测到窗口:PID=37
+[PID 8671] 正在截图 0秒: tests/screen1-0.jpg
+[PID 8671] 正在截图 1秒: tests/screen1-1.jpg
+[PID 8671] 正在截图 3秒: tests/screen1-3.jpg
+[PID 8671] 正在截图 5秒: tests/screen1-5.jpg
+[PID 8671] 正在通知并等待进程退出
+[PID 8671] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run usermode.linyaps -- /opt/apps/usermode.linyaps/files/entrypoint.sh userpasswd
+[PID 8832] 进程已启动
+[PID 8832] 已检测到窗口:PID=37
+[PID 8832] 正在截图 0秒: tests/screen2-0.jpg
+[PID 8832] 正在截图 1秒: tests/screen2-1.jpg
+[PID 8832] 正在截图 3秒: tests/screen2-3.jpg
+[PID 8832] 正在截图 5秒: tests/screen2-5.jpg
+[PID 8832] 正在通知并等待进程退出
+[PID 8832] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall usermode.linyaps
