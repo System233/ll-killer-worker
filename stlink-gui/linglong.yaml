@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: stlink-gui.linyaps
+  name: stlink-gui
+  version: 1.8.0.1
+  kind: app
+  description: |-
+    OpenSource ST-Link tools replacement.
+    Flashing tools for STMicroelectronics STM32VL and STM32L. The transport layers
+    STLINKv1 and STLINKv2 are supported.
+
+    This package contains a GUI tool for stlink.
+command:
+- /opt/apps/stlink-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
