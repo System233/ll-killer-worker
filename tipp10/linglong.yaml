@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: tipp10.linyaps
+  name: tipp10
+  version: 3.3.0.2
+  kind: app
+  description: |-
+    free open source touch typing software
+    TIPP10 is a free touch typing tutor for Windows, Mac OS and Linux. The
+    ingenious thing about the software is its intelligence feature.
+    Characters that are mistyped are repeated more frequently. Beginners
+    will find their way around right away so they can start practicing
+    without a hitch.
+
+    Useful support functions and an extensive progress tracker, topical
+    lessons and the ability to create your own practice lessons make
+    learning to type easy.
+command:
+- /opt/apps/tipp10.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
