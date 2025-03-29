@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: qasmixer.linyaps
+  name: qasmixer
+  version: 1.4.0.1
+  kind: app
+  description: |-
+    ALSA mixer for the desktop
+    QasTools is a collection of desktop applications for the
+    Linux sound system ALSA.
+
+    The applications included are:
+    - QasConfig - browser for the ALSA configuration tree
+    - QasHctl - mixer for ALSA's High level Control Interface
+    - QasMixer - desktop mixer with features similar to alsamixer
+
+    QasMixer is a desktop mixer application for ALSA's
+    "Simple Mixer Interface" and offers features similar to alsamixer.
+    It also features a system tray icon with basic mixer functionality.
+command:
+- /opt/apps/qasmixer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
