@@ -1,0 +1,23 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ libadwaita-1-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libappstream5 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libgraphene-1.0-0 : Depends: libglib2.0-0t64 (>= 2.14.0) but it is not installable
+ libgtk-4-1 : Depends: libcairo-gobject2 (>= 1.10.0) but it is not going to be installed
+              Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+              Recommends: libgtk-4-bin but it is not installable
+              Recommends: librsvg2-common (>= 2.52.0) but it is not installable
+              Recommends: libgtk-4-media-gstreamer but it is not installable
+ libxmlb2 : Depends: libglib2.0-0t64 (>= 2.54.0) but it is not installable
+ zenity : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+E: Unable to correct problems, you have held broken packages.
