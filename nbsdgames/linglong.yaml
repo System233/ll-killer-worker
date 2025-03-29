@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: nbsdgames.linyaps
+  name: nbsdgames
+  version: 5.0.0.6
+  kind: app
+  description: |-
+    text based mini games for your terminal
+    This is a collection of diverse textual games featuring AI, 2 player mode,
+    flexible board size, color, mouse support etc.
+
+    It includes: battleship, checkers, fifteen, fisher, jewels, memoblocks,
+    miketron, mines, muncher, pipes, rabbithole, redsquare, reversi, sos,
+    sudoku.
+command:
+- /opt/apps/nbsdgames.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
