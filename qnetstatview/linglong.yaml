@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: qnetstatview.linyaps
+  name: qnetstatview
+  version: 1.5.8.2
+  kind: app
+  description: |-
+    Shows detailed listings of all TCP and UDP endpoints
+    QNetStatView is a program that will show you detailed listings of all TCP and
+    UDP endpoints on your system, including the local and remote addresses and
+    state of TCP connections.
+command:
+- /opt/apps/qnetstatview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
