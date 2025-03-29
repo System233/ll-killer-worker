@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: tuxpaint-config.linyaps
+  name: tuxpaint-config
+  version: 0.17.0.1
+  kind: app
+  description: |-
+    Configuration tool for Tux Paint
+    Tux Paint has a rich set of configuration options, controllable via
+    command-line options or configuration files.  This configuration tool
+    provides a point-and-click interface for administrators to tailor Tux
+    Paint to suit the needs of their users.
+command:
+- /opt/apps/tuxpaint-config.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
