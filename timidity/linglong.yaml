@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: timidity.linyaps
+  name: timidity
+  version: 2.14.0.1
+  kind: app
+  description: |-
+    Software sound renderer (MIDI sequencer, MOD player)
+    TiMidity++ is a very high quality software-only MIDI sequencer and MOD player.
+    It uses sound fonts (GUS-compatible or SF2-compatible) to render MIDI files,
+    which are not included in this package.
+
+    * Plays MIDI files without any external MIDI instruments at all
+    * Understands SMF, RCP/R36/G18/G36, MFI, RMI (MIDI)
+    * Autodetects and supports GM/GS/XG MIDI
+    * Understands MOD, XM, S3M, IT, 699, AMF, DSM, FAR, GDM,
+    IMF, MED, MTM, STM, STX, ULT, UNI (MOD)
+    * Does MOD to MIDI conversion (including playback)
+    * Outputs audio into various audio file formats: WAV, au, AIFF,
+    Ogg (Vorbis, FLAC, Speex)
+    * Supports JACK, ALSA and AO drivers
+    * Uses Gravis Ultrasound compatible patch files and SoundFont2 patch
+    files as the voice data for MIDI instruments
+    * Supports playing from archives (zip, lzh, tar...).
+    * Timidity++ can be used as an ALSA sequencer device
+command:
+- /opt/apps/timidity.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

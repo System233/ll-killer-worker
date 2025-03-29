@@ -1,0 +1,49 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libao-common libao4
+Suggested packages:
+  libaudio2 libsndio6.1 fluid-soundfont-gs freepats pmidi timidity-daemon
+Recommended packages:
+  fluid-soundfont-gm
+The following NEW packages will be installed:
+  libao-common libao4 timidity
+0 upgraded, 3 newly installed, 0 to remove and 236 not upgraded.
+Need to get 664 kB of archives.
+After this operation, 1760 kB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main amd64 libao-common all 1.2.2+20180113-1.1 [7924 B]
+Get:2 https://community-packages.deepin.com/beige beige/main amd64 libao4 amd64 1.2.2+20180113-1.1 [33.6 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main amd64 timidity amd64 2.14.0-deepin1 [622 kB]
+Fetched 664 kB in 1s (619 kB/s)
+Selecting previously unselected package libao-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libao-common_1.2.2+20180113-1.1_all.deb ...
+Unpacking libao-common (1.2.2+20180113-1.1) ...
+Selecting previously unselected package libao4:amd64.
+Preparing to unpack .../libao4_1.2.2+20180113-1.1_amd64.deb ...
+Unpacking libao4:amd64 (1.2.2+20180113-1.1) ...
+Selecting previously unselected package timidity.
+Preparing to unpack .../timidity_2.14.0-deepin1_amd64.deb ...
+Unpacking timidity (2.14.0-deepin1) ...
+Setting up libao-common (1.2.2+20180113-1.1) ...
+
+Configuration file '/etc/libao.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up libao4:amd64 (1.2.2+20180113-1.1) ...
+Setting up timidity (2.14.0-deepin1) ...
+
+Configuration file '/etc/X11/app-defaults/TiMidity', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/ja_JP.UTF-8/app-defaults/TiMidity', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/ja_JP.eucJP/app-defaults/TiMidity', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/timidity/timidity.cfg', does not exist on system.
+Installing new config file as you requested.
+Processing triggers for libc-bin (2.38-6deepin4) ...
