@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: ticketbooth.linyaps
+  name: ticketbooth
+  version: 1.0.3.2
+  kind: app
+  description: |-
+    Watchlist for movies and TV shows
+    Ticket Booth is a graphical application meant for managing a watchlist for
+    movies and TV shows. It helps one keep track of watched titles and be notified
+    of new releases.
+
+    This application can be used fully offline (relying on the user for entering
+    the details of a new movie/series) or by fetching data from TMDB for easier
+    usage.
+command:
+- /opt/apps/ticketbooth.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
