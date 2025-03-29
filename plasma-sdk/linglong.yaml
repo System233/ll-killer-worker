@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: plasma-sdk.linyaps
+  name: plasma-sdk
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    IDE tailored for development of Plasma components
+    A small IDE tailored for development of Plasma components,
+    such as Widgets, Runners, Dataengines.
+
+    This package is part of the KDE Plasma.
+command:
+- /opt/apps/plasma-sdk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

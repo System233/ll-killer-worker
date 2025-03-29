@@ -1,0 +1,74 @@
+正在测试: APPID=plasma-sdk.linyaps LAYER=plasma-sdk.linyaps_5.27.11.0_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install plasma-sdk.linyaps_5.27.11.0_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:plasma-sdk.linyaps
+Layer文件:plasma-sdk.linyaps_5.27.11.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: plasma-sdk.linyaps_5.27.11.0_x86_64_binary.layer
+offset: 558
+mountpoint: /tmp/tmp.Nvik4QLDNj/mnt
+dbglevel: 0
+find: ‘/opt/apps/plasma-sdk.linyaps/files/share/icons’: No such file or directory
+[31m[失败] org.kde.plasma.cuttlefish.desktop:cuttlefish: 找不到此图标 [0m
+[成功] /opt/apps/plasma-sdk.linyaps/files/share/applications/org.kde.plasma.cuttlefish.desktop: /opt/apps/plasma-sdk.linyaps/files/entrypoint.sh cuttlefish
+find: ‘/opt/apps/plasma-sdk.linyaps/files/share/icons’: No such file or directory
+[成功] org.kde.plasma.lookandfeelexplorer.desktop: preferences-desktop-theme -> /usr/share/icons/Humanity/apps/16/preferences-desktop-theme.svg
+[成功] /opt/apps/plasma-sdk.linyaps/files/share/applications/org.kde.plasma.lookandfeelexplorer.desktop: /opt/apps/plasma-sdk.linyaps/files/entrypoint.sh lookandfeelexplorer
+find: ‘/opt/apps/plasma-sdk.linyaps/files/share/icons’: No such file or directory
+[成功] org.kde.plasma.themeexplorer.desktop: preferences-desktop-theme -> /usr/share/icons/Humanity/apps/16/preferences-desktop-theme.svg
+[成功] /opt/apps/plasma-sdk.linyaps/files/share/applications/org.kde.plasma.themeexplorer.desktop: /opt/apps/plasma-sdk.linyaps/files/entrypoint.sh plasmathemeexplorer
+find: ‘/opt/apps/plasma-sdk.linyaps/files/share/icons’: No such file or directory
+[31m[失败] org.kde.plasmaengineexplorer.desktop:plasma: 找不到此图标 [0m
+[成功] /opt/apps/plasma-sdk.linyaps/files/share/applications/org.kde.plasmaengineexplorer.desktop: /opt/apps/plasma-sdk.linyaps/files/entrypoint.sh plasmaengineexplorer
+find: ‘/opt/apps/plasma-sdk.linyaps/files/share/icons’: No such file or directory
+[31m[失败] org.kde.plasmoidviewer.desktop:plasma: 找不到此图标 [0m
+[成功] /opt/apps/plasma-sdk.linyaps/files/share/applications/org.kde.plasmoidviewer.desktop: /opt/apps/plasma-sdk.linyaps/files/entrypoint.sh plasmoidviewer
+[正在测试启动项]
+包名:plasma-sdk.linyaps
+Layer文件:plasma-sdk.linyaps_5.27.11.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: plasma-sdk.linyaps_5.27.11.0_x86_64_binary.layer
+offset: 558
+mountpoint: /tmp/tmp.QZnEJj5qEC/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run plasma-sdk.linyaps -- /opt/apps/plasma-sdk.linyaps/files/entrypoint.sh cuttlefish
+[PID 26095] 进程已启动
+[PID 26095] 已检测到窗口:PID=36
+[PID 26095] 正在截图 0秒: tests/screen0-0.jpg
+[PID 26095] 正在截图 1秒: tests/screen0-1.jpg
+[PID 26095] 正在截图 3秒: tests/screen0-3.jpg
+[PID 26095] 正在截图 5秒: tests/screen0-5.jpg
+[PID 26095] 正在通知并等待进程退出
+[PID 26095] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run plasma-sdk.linyaps -- /opt/apps/plasma-sdk.linyaps/files/entrypoint.sh lookandfeelexplorer
+[PID 26274] 进程已启动
+[PID 26274] 已检测到窗口:PID=36
+[PID 26274] 正在截图 0秒: tests/screen1-0.jpg
+[PID 26274] 正在截图 1秒: tests/screen1-1.jpg
+[PID 26274] 正在截图 3秒: tests/screen1-3.jpg
+[PID 26274] 正在截图 5秒: tests/screen1-5.jpg
+[PID 26274] 正在通知并等待进程退出
+[PID 26274] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run plasma-sdk.linyaps -- /opt/apps/plasma-sdk.linyaps/files/entrypoint.sh plasmathemeexplorer
+[PID 26449] 进程已启动
+[PID 26449] 已检测到窗口:PID=36
+[PID 26449] 正在截图 0秒: tests/screen2-0.jpg
+[PID 26449] 正在截图 2秒: tests/screen2-2.jpg
+[PID 26449] 正在截图 4秒: tests/screen2-4.jpg
+[PID 26449] 正在截图 5秒: tests/screen2-5.jpg
+[PID 26449] 正在通知并等待进程退出
+[PID 26449] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run plasma-sdk.linyaps -- /opt/apps/plasma-sdk.linyaps/files/entrypoint.sh plasmaengineexplorer
+[PID 26634] 进程已启动
+[PID 26634] 已检测到窗口:PID=36
+[PID 26634] 正在截图 0秒: tests/screen3-0.jpg
+[PID 26634] 正在截图 1秒: tests/screen3-1.jpg
+[PID 26634] 正在截图 3秒: tests/screen3-3.jpg
+[PID 26634] 正在截图 5秒: tests/screen3-5.jpg
+[PID 26634] 正在通知并等待进程退出
+[PID 26634] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall plasma-sdk.linyaps
