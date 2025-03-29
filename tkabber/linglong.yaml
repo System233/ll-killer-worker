@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: tkabber.linyaps
+  name: tkabber
+  version: 1.1.2.1
+  kind: app
+  description: |-
+    GUI client for XMPP (Jabber) instant messaging protocol
+    Tkabber is a GUI client for XMPP (Jabber) instant messaging protocol.
+    It provides full support of basic XMPP specifications as well as many
+    protocol extensions (XEPs), such as multi-user conferencing,
+    file transfers, extensive handling of privacy lists and much more.
+    Tkabber is written in Tcl/Tk and thus is easily extensible.
+
+    Also a rich set of Tkabber external plugins is available
+    in the package named "tkabber-plugins".
+command:
+- /opt/apps/tkabber.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
