@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: notepadqq.linyaps
+  name: notepadqq
+  version: 2.0.0.4
+  kind: app
+  description: |-
+    Notepad++-like editor for Linux
+    Notepadqq is a text editor designed from developers,
+    for developers.
+
+    It support for multiple programming languages, multiple
+    encodings, plugins and unnamed buffers.
+command:
+- /opt/apps/notepadqq.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
