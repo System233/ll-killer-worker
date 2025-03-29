@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: opencity.linyaps
+  name: opencity
+  version: 0.0.6.5
+  kind: app
+  description: |-
+    3D city simulator game
+    OpenCity is 3D city construction simulator. You can build some zones of
+    housing, trading and industry, electric plant and roads. Besides you can also
+    raise or lower the terrain.
+    OpenCity is similar in spirit to other city construction games, heading
+    towards a classic SimCity feeling, although with some additional features.
+    It is not intended to be a clone of any famous city simulator.
+command:
+- /opt/apps/opencity.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
