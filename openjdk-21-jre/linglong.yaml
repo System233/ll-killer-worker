@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: openjdk-21-jre.linyaps
+  name: openjdk-21-jre
+  version: 21.0.6.1
+  kind: app
+  description: |-
+    OpenJDK Java runtime, using Hotspot JIT
+    Full Java runtime environment - needed for executing Java GUI and Webstart
+    programs, using Hotspot JIT.
+command:
+- /opt/apps/openjdk-21-jre.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
