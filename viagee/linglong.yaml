@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: viagee.linyaps
+  name: viagee
+  version: 3.7.2.1
+  kind: app
+  description: |-
+    support for Gmail as the preferred email application in GNOME
+    Viagee integrates the Gmail web interface into the GNOME environment.
+    Once installed, Gmail becomes a choice as the default Mail Reader in the GNOME
+    Preferred Applications administration application. When selected, a Gmail web
+    page will be used whenever an email service is requested.
+
+    Logout to complete the configuration.
+command:
+- /opt/apps/viagee.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
