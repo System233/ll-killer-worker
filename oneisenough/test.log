@@ -1,0 +1,35 @@
+正在测试: APPID=oneisenough.linyaps LAYER=oneisenough.linyaps_0.40.0.6_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install oneisenough.linyaps_0.40.0.6_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:oneisenough.linyaps
+Layer文件:oneisenough.linyaps_0.40.0.6_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: oneisenough.linyaps_0.40.0.6_x86_64_binary.layer
+offset: 624
+mountpoint: /tmp/tmp.ezVKvxl8mP/mnt
+dbglevel: 0
+find: ‘/opt/apps/oneisenough.linyaps/files/share/icons’: No such file or directory
+[成功] oneisenough.desktop: oneisenough -> /opt/apps/oneisenough.linyaps/files/share/pixmaps/oneisenough.png
+[成功] /opt/apps/oneisenough.linyaps/files/share/applications/oneisenough.desktop: /opt/apps/oneisenough.linyaps/files/entrypoint.sh oneisenough
+[正在测试启动项]
+包名:oneisenough.linyaps
+Layer文件:oneisenough.linyaps_0.40.0.6_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: oneisenough.linyaps_0.40.0.6_x86_64_binary.layer
+offset: 624
+mountpoint: /tmp/tmp.g17qxmoyEy/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run oneisenough.linyaps -- /opt/apps/oneisenough.linyaps/files/entrypoint.sh oneisenough
+[PID 10715] 进程已启动
+[PID 10715] 已检测到窗口:PID=37
+[PID 10715] 正在截图 0秒: tests/screen0-0.jpg
+[PID 10715] 正在截图 1秒: tests/screen0-1.jpg
+[PID 10715] 正在截图 3秒: tests/screen0-3.jpg
+[PID 10715] 正在截图 5秒: tests/screen0-5.jpg
+[PID 10715] 正在通知并等待进程退出
+[PID 10715] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall oneisenough.linyaps
