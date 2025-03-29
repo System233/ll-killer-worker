@@ -1,12 +1,12 @@
 # amd64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3161|2098|1236 |862 | 58.91%| 39.10%|
+|3161|2125|1250 |875 | 58.82%| 39.54%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2779|1779|1117 |662 | 62.79%| 40.19%|
-|deepin-v23|380|317|118 |199 | 37.22%| 31.05%|
+|ubuntu-noble|2779|1805|1130 |675 | 62.60%| 40.66%|
+|deepin-v23|380|318|119 |199 | 37.42%| 31.32%|
 |shiftkey|1|1|1 |0 | 100.00%| 100.00%|
 |obs-studio|1|1|0 |1 | 0.00%| 0.00%|
 ## 详细结果
@@ -1585,6 +1585,7 @@
 | [kruler](./kruler) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kruler/tests/screen0-5.jpg) | [SHA256](./kruler/SHA256SUMS) | v1.5.1-amd64-nevm |
 | [krusader](./krusader) | amd64  | ubuntu-noble | 2.8.1-0ubuntu3 | ![screen0-5.jpg](./krusader/tests/screen0-5.jpg) | [SHA256](./krusader/SHA256SUMS) | v1.5.1-amd64-nevm |
 | [kscreen](./kscreen) | amd64  | ubuntu-noble | 5.27.11-0ubuntu2-20250327 | 失败 | [SHA256](./kscreen/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [ksh93u+m](./ksh93u+m) | amd64  | ubuntu-noble | 1.0.8-1-20250327 | 失败 | [SHA256](./ksh93u+m/SHA256SUMS) | v1.5.2-amd64-nevm |
 | [kshisen](./kshisen) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kshisen/tests/screen0-5.jpg) | [SHA256](./kshisen/SHA256SUMS) | v1.5.1-amd64-nevm |
 | [kshutdown](./kshutdown) | amd64  | ubuntu-noble | 5.2-2build2 | ![screen0-5.jpg](./kshutdown/tests/screen0-5.jpg) | [SHA256](./kshutdown/SHA256SUMS) | v1.5.1-amd64-nevm |
 | [ksirk](./ksirk) | amd64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./ksirk/tests/screen0-5.jpg) ![screen1-5.jpg](./ksirk/tests/screen1-5.jpg) | [SHA256](./ksirk/SHA256SUMS) | v1.5.1-amd64-nevm |
@@ -2025,6 +2026,7 @@
 | [openarena](./openarena) | amd64  | ubuntu-noble | 0.8.8+dfsg-7 | ![screen0-5.jpg](./openarena/tests/screen0-5.jpg) | [SHA256](./openarena/SHA256SUMS) | v1.5.1-amd64-nevm |
 | [openboard](./openboard) | amd64  | ubuntu-noble | 1.6.4+dfsg-1build8 | ![screen0-5.jpg](./openboard/tests/screen0-5.jpg) | [SHA256](./openboard/SHA256SUMS) | v1.5.1-amd64-nevm |
 | [openbox](./openbox) | amd64  | ubuntu-noble | 3.6.1-12build5-20250327 | 失败 | [SHA256](./openbox/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [openbox-lxde-session](./openbox-lxde-session) | amd64  | ubuntu-noble | 0.99.2-5-20250327 | 失败 | [SHA256](./openbox-lxde-session/SHA256SUMS) | v1.5.1-amd64-nevm |
 | [opencfu](./opencfu) | amd64  | ubuntu-noble | 4.0.0+dfsg-2build2 | ![screen0-5.jpg](./opencfu/tests/screen0-5.jpg) | [SHA256](./opencfu/SHA256SUMS) | v1.5.1-amd64-nevm |
 | [opencity](./opencity) | amd64  | ubuntu-noble | 0.0.6.5stable-5 | ![screen0-5.jpg](./opencity/tests/screen0-5.jpg) | [SHA256](./opencity/SHA256SUMS) | v1.5.1-amd64-nevm |
 | [openclonk](./openclonk) | amd64  | ubuntu-noble | 8.1-4build3-20250327 | 失败 | [SHA256](./openclonk/SHA256SUMS) | v1.5.1-amd64-nevm |
@@ -2110,3 +2112,28 @@
 | [patchance](./patchance) | amd64  | ubuntu-noble | 1.1.0-0ubuntu2-20250327 | 失败 | [SHA256](./patchance/SHA256SUMS) | v1.5.1-amd64-nevm |
 | [pathogen](./pathogen) | amd64  | ubuntu-noble | 1.1.1-5build1 | ![screen0-5.jpg](./pathogen/tests/screen0-5.jpg) | [SHA256](./pathogen/SHA256SUMS) | v1.5.1-amd64-nevm |
 | [pathological](./pathological) | amd64  | ubuntu-noble | 1.1.3-17-20250327 | 失败 | [SHA256](./pathological/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [pavucontrol](./pavucontrol) | amd64  | ubuntu-noble | 5.0-2build3 | ![screen0-5.jpg](./pavucontrol/tests/screen0-5.jpg) | [SHA256](./pavucontrol/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [pavucontrol-qt](./pavucontrol-qt) | amd64  | ubuntu-noble | 1.4.0-0ubuntu6 | ![screen0-5.jpg](./pavucontrol-qt/tests/screen0-5.jpg) | [SHA256](./pavucontrol-qt/SHA256SUMS) | v1.5.2-amd64-nevm |
+| [pavumeter](./pavumeter) | amd64  | ubuntu-noble | 0.9.3-4build5 | ![screen0-5.jpg](./pavumeter/tests/screen0-5.jpg) ![screen1-5.jpg](./pavumeter/tests/screen1-5.jpg) | [SHA256](./pavumeter/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [pax-britannica](./pax-britannica) | amd64  | ubuntu-noble | 1.0.0-5build2-20250327 | 失败 | [SHA256](./pax-britannica/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [pcalendar](./pcalendar) | amd64  | ubuntu-noble | 3.4.1-5 | ![screen0-5.jpg](./pcalendar/tests/screen0-5.jpg) | [SHA256](./pcalendar/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [pcmanfm](./pcmanfm) | amd64  | ubuntu-noble | 1.3.2-4build2 | ![screen0-5.jpg](./pcmanfm/tests/screen0-5.jpg) ![screen1-5.jpg](./pcmanfm/tests/screen1-5.jpg) | [SHA256](./pcmanfm/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [pcmanfm-qt](./pcmanfm-qt) | amd64  | ubuntu-noble | 1.4.1-0ubuntu6-20250327 | 失败 | N/A | v1.5.1-amd64-nevm |
+| [pcp-gui](./pcp-gui) | amd64  | deepin-v23 | 6.3.1-1 | ![screen0-5.jpg](./pcp-gui/tests/screen0-5.jpg) | [SHA256](./pcp-gui/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [pcsc-tools](./pcsc-tools) | amd64  | ubuntu-noble | 1.7.1-1-20250327 | 失败 | [SHA256](./pcsc-tools/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [pcsxr](./pcsxr) | amd64  | ubuntu-noble | 1.9.94-6 | ![screen0-5.jpg](./pcsxr/tests/screen0-5.jpg) | [SHA256](./pcsxr/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [pdf-presenter-console](./pdf-presenter-console) | amd64  | ubuntu-noble | 4.6.0-3build3-20250327 | 失败 | [SHA256](./pdf-presenter-console/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [pdfarranger](./pdfarranger) | amd64  | ubuntu-noble | 1.10.1-1-20250327 | 失败 | N/A | v1.5.1-amd64-nevm |
+| [pdfchain](./pdfchain) | amd64  | ubuntu-noble | 0.4.4.2-2build2 | ![screen0-5.jpg](./pdfchain/tests/screen0-5.jpg) | [SHA256](./pdfchain/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [pdfsam](./pdfsam) | amd64  | ubuntu-noble | 4.3.4-1-20250327 | 失败 | [SHA256](./pdfsam/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [peek](./peek) | amd64  | ubuntu-noble | 1.5.1+git20230114-1build2 | ![screen0-5.jpg](./peek/tests/screen0-5.jpg) | [SHA256](./peek/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [peg-e](./peg-e) | amd64  | ubuntu-noble | 1.3.2-1build2 | ![screen0-5.jpg](./peg-e/tests/screen0-5.jpg) | [SHA256](./peg-e/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [peg-solitaire](./peg-solitaire) | amd64  | ubuntu-noble | 2.2-4build2-20250327 | 失败 | [SHA256](./peg-solitaire/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [pegsolitaire](./pegsolitaire) | amd64  | ubuntu-noble | 0.3-2build2 | ![screen0-5.jpg](./pegsolitaire/tests/screen0-5.jpg) | [SHA256](./pegsolitaire/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [pekka-kana-2](./pekka-kana-2) | amd64  | ubuntu-noble | 1.2.7-1-20250327 | 失败 | [SHA256](./pekka-kana-2/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [pencil2d](./pencil2d) | amd64  | ubuntu-noble | 0.6.6-3build2 | ![screen0-5.jpg](./pencil2d/tests/screen0-5.jpg) | [SHA256](./pencil2d/SHA256SUMS) | v1.5.1-amd64-nevm |
+| [pente](./pente) | amd64  | ubuntu-noble | 2.2.5-11-20250327 | 失败 | [SHA256](./pente/SHA256SUMS) | v1.5.2-amd64-nevm |
+| [pentobi](./pentobi) | amd64  | ubuntu-noble | 23.1-1build2 | ![screen0-5.jpg](./pentobi/tests/screen0-5.jpg) | [SHA256](./pentobi/SHA256SUMS) | v1.5.2-amd64-nevm |
+| [peony](./peony) | amd64  | ubuntu-noble | 4.0.0.1-1-20250327 | 失败 | N/A | v1.5.2-amd64-nevm |
+| [performous](./performous) | amd64  | ubuntu-noble | 1.3.0+ds-1build4 | ![screen0-5.jpg](./performous/tests/screen0-5.jpg) | [SHA256](./performous/SHA256SUMS) | v1.5.2-amd64-nevm |
+| [perlprimer](./perlprimer) | amd64  | ubuntu-noble | 1.2.4-2-20250327 | 失败 | [SHA256](./perlprimer/SHA256SUMS) | v1.5.2-amd64-nevm |
