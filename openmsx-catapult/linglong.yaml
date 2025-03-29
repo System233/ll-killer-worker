@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: openmsx-catapult.linyaps
+  name: openmsx-catapult
+  version: 19.0.0.1
+  kind: app
+  description: |-
+    GUI for openMSX
+    OpenMSX catapult is a graphical frontend for starting the openMSX emulator.
+command:
+- /opt/apps/openmsx-catapult.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
