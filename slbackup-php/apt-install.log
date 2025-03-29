@@ -1,0 +1,1603 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils bsdextrautils bsdutils curl
+  dbus dbus-bin dbus-daemon dbus-session-bus-common dbus-system-bus-common
+  dbus-user-session dbus-x11 eject fdisk gettext gettext-base gnutls-bin
+  libapache2-mod-php8.3 libapr1t64 libaprutil1-dbd-sqlite3 libaprutil1-ldap
+  libaprutil1t64 libblkid1 libc-bin libc-dev-bin libc6 libc6-dev libcurl4t64
+  libdb5.3t64 libdbus-1-3 libexpat1 libfdisk1 libgdbm6t64 libglib2.0-0t64
+  libgnutls-dane0t64 libgnutls30t64 libhogweed6t64 libldap-common libldap2
+  liblua5.4-0 libmount1 libncurses6 libncursesw6 libnettle8t64
+  libnss-myhostname libnss-systemd libp11-kit0 libpam-systemd libpsl5t64
+  libpython3-stdlib libpython3.12-minimal libpython3.12-stdlib libreadline8t64
+  libsmartcols1 libsodium23 libssh-4 libssl3t64 libsystemd-shared libsystemd0
+  libtinfo6 libudev1 libunistring5 libuuid1 libxmu6 libxmuu1 locales
+  lsb-release mount ncurses-base ncurses-bin ncurses-term openssh-client
+  openssh-server openssh-sftp-server p11-kit p11-kit-modules php php-common
+  php8.3 php8.3-cli php8.3-common php8.3-opcache php8.3-readline psmisc
+  publicsuffix python3 python3-blinker python3-cffi-backend
+  python3-cryptography python3-distro python3-httplib2 python3-jwt
+  python3-launchpadlib python3-lazr.restfulclient python3-lazr.uri
+  python3-minimal python3-oauthlib python3-pkg-resources python3-pyparsing
+  python3-six python3-wadllib python3.12 python3.12-minimal readline-common
+  rfkill smarty-gettext smarty3 ssh ssh-import-id systemd systemd-dev
+  systemd-hwe-hwdb systemd-resolved systemd-sysv systemd-timesyncd udev
+  util-linux wget xauth
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom www-browser ufw
+  autopoint gettext-doc libasprintf-dev libgettextpo-dev php-pear manpages
+  glibc-doc libnss-nis libnss-nisplus manpages-dev gdbm-l10n
+  low-memory-monitor dns-root-data nfs-common keychain libpam-ssh monkeysphere
+  ssh-askpass molly-guard python3-doc python3-tk python3-venv
+  python-blinker-doc python-cryptography-doc python3-cryptography-vectors
+  python3-crypto python3-keyring python3-testresources python3-setuptools
+  python-pyparsing-doc python3.12-venv python3.12-doc binfmt-support
+  readline-doc x-www-browser slbackup smarty4 systemd-container systemd-homed
+  systemd-userdbd systemd-boot libip4tc2 libqrencode4 libtss2-mu-4.0.1-0
+  libtss2-rc0 polkitd dosfstools util-linux-extra util-linux-locales
+Recommended packages:
+  manpages manpages-dev libc-devtools libgpm2 uuid-runtime networkd-dispatcher
+The following packages will be REMOVED:
+  gir1.2-atk-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0 gir1.2-glib-2.0
+  gir1.2-harfbuzz-0.0 gir1.2-pango-1.0 libcurl4 libdb5.3 libgdbm6 libglib2.0-0
+  libglib2.0-bin libgnutls-dane0 libgnutls30 libhogweed6 libnettle8 libpsl5
+  libpython3.12 libreadline8 systemd-standalone-sysusers
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils dbus-user-session gettext
+  libapache2-mod-php8.3 libapr1t64 libaprutil1-dbd-sqlite3 libaprutil1-ldap
+  libaprutil1t64 libcurl4t64 libdb5.3t64 libgdbm6t64 libglib2.0-0t64
+  libgnutls-dane0t64 libgnutls30t64 libhogweed6t64 libldap-common libldap2
+  liblua5.4-0 libnettle8t64 libnss-systemd libpam-systemd libpsl5t64
+  libreadline8t64 libsodium23 libssh-4 libssl3t64 libunistring5 libxmuu1
+  lsb-release mount ncurses-term openssh-client openssh-server
+  openssh-sftp-server php php-common php8.3 php8.3-cli php8.3-common
+  php8.3-opcache php8.3-readline psmisc publicsuffix python3-blinker
+  python3-cffi-backend python3-cryptography python3-distro python3-httplib2
+  python3-jwt python3-launchpadlib python3-lazr.restfulclient python3-lazr.uri
+  python3-oauthlib python3-pkg-resources python3-pyparsing python3-six
+  python3-wadllib slbackup-php smarty-gettext smarty3 ssh ssh-import-id
+  systemd systemd-hwe-hwdb systemd-resolved systemd-sysv systemd-timesyncd
+  wget xauth
+The following packages will be upgraded:
+  bsdextrautils bsdutils curl dbus dbus-bin dbus-daemon
+  dbus-session-bus-common dbus-system-bus-common dbus-x11 eject fdisk
+  gettext-base gnutls-bin libblkid1 libc-bin libc-dev-bin libc6 libc6-dev
+  libdbus-1-3 libexpat1 libfdisk1 libmount1 libncurses6 libncursesw6
+  libnss-myhostname libp11-kit0 libpython3-stdlib libpython3.12-minimal
+  libpython3.12-stdlib libsmartcols1 libsystemd-shared libsystemd0 libtinfo6
+  libudev1 libuuid1 libxmu6 locales ncurses-base ncurses-bin p11-kit
+  p11-kit-modules python3 python3-minimal python3.12 python3.12-minimal
+  readline-common rfkill systemd-dev udev util-linux
+50 upgraded, 72 newly installed, 19 to remove and 399 not upgraded.
+Need to get 49.4 MB of archives.
+After this operation, 65.4 MB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 bsdutils amd64 1:2.39.3-9ubuntu6.2 [95.2 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 locales all 2.39-0ubuntu8.4 [4229 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc-dev-bin amd64 2.39-0ubuntu8.4 [20.4 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6-dev amd64 2.39-0ubuntu8.4 [2124 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6 amd64 2.39-0ubuntu8.4 [3264 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc-bin amd64 2.39-0ubuntu8.4 [682 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libncurses6 amd64 6.4+20240113-1ubuntu2 [112 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libncursesw6 amd64 6.4+20240113-1ubuntu2 [148 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libtinfo6 amd64 6.4+20240113-1ubuntu2 [108 kB]
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 ncurses-bin amd64 6.4+20240113-1ubuntu2 [188 kB]
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 util-linux amd64 2.39.3-9ubuntu6.2 [1127 kB]
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 ncurses-base all 6.4+20240113-1ubuntu2 [25.5 kB]
+Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgnutls-dane0t64 amd64 3.8.3-1.1ubuntu3.3 [23.5 kB]
+Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 gnutls-bin amd64 3.8.3-1.1ubuntu3.3 [270 kB]
+Get:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libnettle8t64 amd64 3.9.1-2.2build1.1 [182 kB]
+Get:16 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libhogweed6t64 amd64 3.9.1-2.2build1.1 [199 kB]
+Get:17 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 p11-kit-modules amd64 0.25.3-4ubuntu2.1 [328 kB]
+Get:18 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libp11-kit0 amd64 0.25.3-4ubuntu2.1 [300 kB]
+Get:19 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libunistring5 amd64 1.1-2build1.1 [536 kB]
+Get:20 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgnutls30t64 amd64 3.8.3-1.1ubuntu3.3 [995 kB]
+Get:21 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libldap2 amd64 2.6.7+dfsg-1~exp1ubuntu8.2 [196 kB]
+Get:22 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 curl amd64 8.5.0-2ubuntu10.6 [226 kB]
+Get:23 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpsl5t64 amd64 0.21.2-1.1build1 [57.1 kB]
+Get:24 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libssl3t64 amd64 3.0.13-0ubuntu3.5 [1940 kB]
+Get:25 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libssh-4 amd64 0.10.6-2build2 [188 kB]
+Get:26 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libcurl4t64 amd64 8.5.0-2ubuntu10.6 [341 kB]
+Get:27 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libexpat1 amd64 2.6.1-2ubuntu0.2 [87.4 kB]
+Get:28 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12 amd64 3.12.3-1ubuntu0.5 [651 kB]
+Get:29 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12-minimal amd64 3.12.3-1ubuntu0.5 [2342 kB]
+Get:30 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-minimal amd64 3.12.3-1ubuntu0.5 [835 kB]
+Get:31 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 fdisk amd64 2.39.3-9ubuntu6.2 [121 kB]
+Get:32 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libreadline8t64 amd64 8.2-4build1 [153 kB]
+Get:33 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-stdlib amd64 3.12.3-1ubuntu0.5 [2069 kB]
+Get:34 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libdb5.3t64 amd64 5.3.28+dfsg2-7 [734 kB]
+Get:35 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libgdbm6t64 amd64 1.23-5.1build1 [34.4 kB]
+Get:36 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 eject amd64 2.39.3-9ubuntu6.2 [26.3 kB]
+Get:37 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 readline-common all 8.2-4build1 [56.5 kB]
+Get:38 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libfdisk1 amd64 2.39.3-9ubuntu6.2 [146 kB]
+Get:39 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libmount1 amd64 2.39.3-9ubuntu6.2 [134 kB]
+Get:40 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libblkid1 amd64 2.39.3-9ubuntu6.2 [123 kB]
+Get:41 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libuuid1 amd64 2.39.3-9ubuntu6.2 [35.5 kB]
+Get:42 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 bsdextrautils amd64 2.39.3-9ubuntu6.2 [73.9 kB]
+Get:43 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 rfkill amd64 2.39.3-9ubuntu6.2 [20.2 kB]
+Get:44 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsmartcols1 amd64 2.39.3-9ubuntu6.2 [65.2 kB]
+Get:45 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libglib2.0-0t64 amd64 2.80.0-6ubuntu3.2 [1546 kB]
+Get:46 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 systemd-dev all 255.4-1ubuntu8.6 [104 kB]
+Get:47 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsystemd-shared amd64 255.4-1ubuntu8.6 [2073 kB]
+Get:48 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsystemd0 amd64 255.4-1ubuntu8.6 [433 kB]
+Get:49 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 mount amd64 2.39.3-9ubuntu6.2 [118 kB]
+Get:50 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 udev amd64 255.4-1ubuntu8.6 [1873 kB]
+Get:51 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 systemd amd64 255.4-1ubuntu8.6 [3471 kB]
+Get:52 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-minimal amd64 3.12.3-0ubuntu2 [27.4 kB]
+Get:53 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3 amd64 3.12.3-0ubuntu2 [23.0 kB]
+Get:54 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3-stdlib amd64 3.12.3-0ubuntu2 [10.0 kB]
+Get:55 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 systemd-sysv amd64 255.4-1ubuntu8.6 [11.9 kB]
+Get:56 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libapr1t64 amd64 1.7.2-3.1ubuntu0.1 [108 kB]
+Get:57 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libaprutil1t64 amd64 1.6.3-1.1ubuntu7 [91.9 kB]
+Get:58 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.3-1.1ubuntu7 [11.2 kB]
+Get:59 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libaprutil1-ldap amd64 1.6.3-1.1ubuntu7 [9116 B]
+Get:60 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 liblua5.4-0 amd64 5.4.6-3build2 [166 kB]
+Get:61 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 apache2-bin amd64 2.4.58-1ubuntu8.5 [1329 kB]
+Get:62 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 apache2-data all 2.4.58-1ubuntu8.5 [163 kB]
+Get:63 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 apache2-utils amd64 2.4.58-1ubuntu8.5 [97.1 kB]
+Get:64 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 apache2 amd64 2.4.58-1ubuntu8.5 [90.2 kB]
+Get:65 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 openssh-client amd64 1:9.6p1-3ubuntu13.9 [905 kB]
+Get:66 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 openssh-sftp-server amd64 1:9.6p1-3ubuntu13.9 [37.3 kB]
+Get:67 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 openssh-server amd64 1:9.6p1-3ubuntu13.9 [509 kB]
+Get:68 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libudev1 amd64 255.4-1ubuntu8.6 [175 kB]
+Get:69 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 dbus-system-bus-common all 1.14.10-4ubuntu4.1 [81.6 kB]
+Get:70 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 dbus-session-bus-common all 1.14.10-4ubuntu4.1 [80.5 kB]
+Get:71 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 dbus-x11 amd64 1.14.10-4ubuntu4.1 [23.3 kB]
+Get:72 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 dbus-daemon amd64 1.14.10-4ubuntu4.1 [118 kB]
+Get:73 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 dbus-bin amd64 1.14.10-4ubuntu4.1 [39.3 kB]
+Get:74 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 dbus amd64 1.14.10-4ubuntu4.1 [24.3 kB]
+Get:75 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libdbus-1-3 amd64 1.14.10-4ubuntu4.1 [210 kB]
+Get:76 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpam-systemd amd64 255.4-1ubuntu8.6 [235 kB]
+Get:77 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 dbus-user-session amd64 1.14.10-4ubuntu4.1 [9968 B]
+Get:78 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libnss-systemd amd64 255.4-1ubuntu8.6 [159 kB]
+Get:79 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 lsb-release all 12.0-2 [6564 B]
+Get:80 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-cffi-backend amd64 1.16.0-2build1 [77.3 kB]
+Get:81 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-pkg-resources all 68.1.2-2ubuntu1.1 [168 kB]
+Get:82 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 systemd-hwe-hwdb all 255.1.4 [3200 B]
+Get:83 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 systemd-resolved amd64 255.4-1ubuntu8.6 [296 kB]
+Get:84 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 systemd-timesyncd amd64 255.4-1ubuntu8.6 [35.3 kB]
+Get:85 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 gettext-base amd64 0.21-14ubuntu2 [38.4 kB]
+Get:86 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxmuu1 amd64 2:1.1.3-3build2 [8958 B]
+Get:87 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 psmisc amd64 23.7-1build1 [179 kB]
+Get:88 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 publicsuffix all 20231001.0357-0.1 [129 kB]
+Get:89 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 wget amd64 1.21.4-1ubuntu4.1 [334 kB]
+Get:90 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 xauth amd64 1:1.1.2-1build1 [25.6 kB]
+Get:91 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 gettext amd64 0.21-14ubuntu2 [864 kB]
+Get:92 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 php-common all 2:93ubuntu2 [13.9 kB]
+Get:93 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 php8.3-common amd64 8.3.6-0ubuntu0.24.04.3 [739 kB]
+Get:94 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 php8.3-opcache amd64 8.3.6-0ubuntu0.24.04.3 [372 kB]
+Get:95 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 php8.3-readline amd64 8.3.6-0ubuntu0.24.04.3 [13.5 kB]
+Get:96 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsodium23 amd64 1.0.18-1build3 [161 kB]
+Get:97 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 php8.3-cli amd64 8.3.6-0ubuntu0.24.04.3 [1914 kB]
+Get:98 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libapache2-mod-php8.3 amd64 8.3.6-0ubuntu0.24.04.3 [1849 kB]
+Get:99 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libldap-common all 2.6.7+dfsg-1~exp1ubuntu8.2 [31.7 kB]
+Get:100 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxmu6 amd64 2:1.1.3-3build2 [47.6 kB]
+Get:101 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 ncurses-term all 6.4+20240113-1ubuntu2 [275 kB]
+Get:102 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 php8.3 all 8.3.6-0ubuntu0.24.04.3 [9178 B]
+Get:103 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 php all 2:8.3+93ubuntu2 [4076 B]
+Get:104 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-blinker all 1.7.0-1 [14.3 kB]
+Get:105 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-cryptography amd64 41.0.7-4ubuntu0.1 [810 kB]
+Get:106 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-pyparsing all 3.1.1-1 [86.2 kB]
+Get:107 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-httplib2 all 0.20.4-3 [30.4 kB]
+Get:108 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-jwt all 2.7.0-1 [20.9 kB]
+Get:109 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-lazr.uri all 1.0.6-3 [13.5 kB]
+Get:110 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-wadllib all 1.3.6-5 [35.9 kB]
+Get:111 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-distro all 1.9.0-1 [19.0 kB]
+Get:112 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-oauthlib all 3.2.2-1 [89.7 kB]
+Get:113 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-lazr.restfulclient all 0.14.6-1 [50.8 kB]
+Get:114 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-six all 1.16.0-4 [12.4 kB]
+Get:115 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 python3-launchpadlib all 1.11.0-6 [127 kB]
+Get:116 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 ssh all 1:9.6p1-3ubuntu13.9 [4656 B]
+Get:117 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 smarty3 all 3.1.48-1ubuntu0.24.04.1 [170 kB]
+Get:118 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 smarty-gettext all 1.7.0-1 [4022 B]
+Get:119 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 slbackup-php all 0.4.5-5 [22.4 kB]
+Get:120 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 libnss-myhostname amd64 255.4-1ubuntu8.6 [148 kB]
+Get:121 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 p11-kit amd64 0.25.3-4ubuntu2.1 [141 kB]
+Get:122 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 ssh-import-id all 5.11-0ubuntu2.24.04.1 [10.1 kB]
+Fetched 49.4 MB in 5s (9675 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../bsdutils_1%3a2.39.3-9ubuntu6.2_amd64.deb ...
+Unpacking bsdutils (1:2.39.3-9ubuntu6.2) over (1:2.39.3-6deepin1) ...
+Setting up bsdutils (1:2.39.3-9ubuntu6.2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27593 files and directories currently installed.)
+Preparing to unpack .../locales_2.39-0ubuntu8.4_all.deb ...
+Unpacking locales (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Preparing to unpack .../libc-dev-bin_2.39-0ubuntu8.4_amd64.deb ...
+Unpacking libc-dev-bin (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Preparing to unpack .../libc6-dev_2.39-0ubuntu8.4_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Preparing to unpack .../libc6_2.39-0ubuntu8.4_amd64.deb ...
+Unpacking libc6:amd64 (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Setting up libc6:amd64 (2.39-0ubuntu8.4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27610 files and directories currently installed.)
+Preparing to unpack .../libc-bin_2.39-0ubuntu8.4_amd64.deb ...
+Unpacking libc-bin (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Setting up libc-bin (2.39-0ubuntu8.4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27610 files and directories currently installed.)
+Preparing to unpack .../libncurses6_6.4+20240113-1ubuntu2_amd64.deb ...
+Unpacking libncurses6:amd64 (6.4+20240113-1ubuntu2) over (6.4-4) ...
+Preparing to unpack .../libncursesw6_6.4+20240113-1ubuntu2_amd64.deb ...
+Unpacking libncursesw6:amd64 (6.4+20240113-1ubuntu2) over (6.4-4) ...
+Preparing to unpack .../libtinfo6_6.4+20240113-1ubuntu2_amd64.deb ...
+Unpacking libtinfo6:amd64 (6.4+20240113-1ubuntu2) over (6.4-4) ...
+Setting up libtinfo6:amd64 (6.4+20240113-1ubuntu2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27609 files and directories currently installed.)
+Preparing to unpack .../ncurses-bin_6.4+20240113-1ubuntu2_amd64.deb ...
+Unpacking ncurses-bin (6.4+20240113-1ubuntu2) over (6.4-4) ...
+Setting up ncurses-bin (6.4+20240113-1ubuntu2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27608 files and directories currently installed.)
+Preparing to unpack .../util-linux_2.39.3-9ubuntu6.2_amd64.deb ...
+Unpacking util-linux (2.39.3-9ubuntu6.2) over (2.39.3-6deepin1) ...
+Setting up util-linux (2.39.3-9ubuntu6.2) ...
+update-alternatives: warning: forcing reinstallation of alternative /bin/more because link group pager is broken
+/var/lib/dpkg/info/util-linux.postinst: 28: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+fstrim.timer is a disabled or a static unit not running, not starting it.
+/var/lib/dpkg/info/util-linux.postinst: 41: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+fstrim.service is a disabled or a static unit not running, not starting it.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27607 files and directories currently installed.)
+Preparing to unpack .../ncurses-base_6.4+20240113-1ubuntu2_all.deb ...
+Unpacking ncurses-base (6.4+20240113-1ubuntu2) over (6.4-4) ...
+Setting up ncurses-base (6.4+20240113-1ubuntu2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27604 files and directories currently installed.)
+Removing gir1.2-atk-1.0:amd64 (2.50.0-1) ...
+Removing gir1.2-pango-1.0:amd64 (1.52.2+ds-1) ...
+Removing gir1.2-harfbuzz-0.0:amd64 (8.0.1-1+rb1) ...
+Removing gir1.2-freedesktop:amd64 (1.80.1-2) ...
+Removing gir1.2-gdkpixbuf-2.0:amd64 (2.42.10+dfsg-3) ...
+Removing gir1.2-glib-2.0:amd64 (2.80.1-1deepin1) ...
+dpkg: libgnutls-dane0:amd64: dependency problems, but removing anyway as you requested:
+ gnutls-bin depends on libgnutls-dane0 (>= 3.7.0).
+
+Removing libgnutls-dane0:amd64 (3.7.9-2) ...
+Selecting previously unselected package libgnutls-dane0t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27550 files and directories currently installed.)
+Preparing to unpack .../libgnutls-dane0t64_3.8.3-1.1ubuntu3.3_amd64.deb ...
+Unpacking libgnutls-dane0t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+Preparing to unpack .../gnutls-bin_3.8.3-1.1ubuntu3.3_amd64.deb ...
+Unpacking gnutls-bin (3.8.3-1.1ubuntu3.3) over (3.7.9-2) ...
+dpkg: libhogweed6:amd64: dependency problems, but removing anyway as you requested:
+ libunbound8:amd64 depends on libhogweed6.
+ librtmp1:amd64 depends on libhogweed6.
+ libgnutls30:amd64 depends on libhogweed6 (>= 3.6).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27553 files and directories currently installed.)
+Removing libhogweed6:amd64 (3.7.3-1) ...
+dpkg: libnettle8:amd64: dependency problems, but removing anyway as you requested:
+ libunbound8:amd64 depends on libnettle8.
+ librtmp1:amd64 depends on libnettle8.
+ libgnutls30:amd64 depends on libnettle8 (>= 3.7~).
+ libcurl3-gnutls:amd64 depends on libnettle8.
+ libarchive13:amd64 depends on libnettle8.
+
+Removing libnettle8:amd64 (3.7.3-1) ...
+Selecting previously unselected package libnettle8t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27539 files and directories currently installed.)
+Preparing to unpack .../libnettle8t64_3.9.1-2.2build1.1_amd64.deb ...
+Unpacking libnettle8t64:amd64 (3.9.1-2.2build1.1) ...
+Selecting previously unselected package libhogweed6t64:amd64.
+Preparing to unpack .../libhogweed6t64_3.9.1-2.2build1.1_amd64.deb ...
+Unpacking libhogweed6t64:amd64 (3.9.1-2.2build1.1) ...
+Preparing to unpack .../p11-kit-modules_0.25.3-4ubuntu2.1_amd64.deb ...
+Unpacking p11-kit-modules:amd64 (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Preparing to unpack .../libp11-kit0_0.25.3-4ubuntu2.1_amd64.deb ...
+Unpacking libp11-kit0:amd64 (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Selecting previously unselected package libunistring5:amd64.
+Preparing to unpack .../libunistring5_1.1-2build1.1_amd64.deb ...
+Unpacking libunistring5:amd64 (1.1-2build1.1) ...
+dpkg: libgnutls30:amd64: dependency problems, but removing anyway as you requested:
+ librtmp1:amd64 depends on libgnutls30 (>= 3.7.5).
+ libqpdf29:amd64 depends on libgnutls30 (>= 3.7.0).
+ libldap-2.5-0:amd64 depends on libgnutls30 (>= 3.7.5).
+ libcurl3-gnutls:amd64 depends on libgnutls30 (>= 3.7.5).
+ libcups2:amd64 depends on libgnutls30 (>= 3.7.5).
+ glib-networking:amd64 depends on libgnutls30 (>= 3.7.5).
+ dirmngr depends on libgnutls30 (>= 3.7.5).
+ apt depends on libgnutls30 (>= 3.7.5).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27557 files and directories currently installed.)
+Removing libgnutls30:amd64 (3.7.9-2) ...
+Selecting previously unselected package libgnutls30t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27529 files and directories currently installed.)
+Preparing to unpack .../libgnutls30t64_3.8.3-1.1ubuntu3.3_amd64.deb ...
+Unpacking libgnutls30t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+Setting up libnettle8t64:amd64 (3.9.1-2.2build1.1) ...
+Setting up libhogweed6t64:amd64 (3.9.1-2.2build1.1) ...
+Setting up libp11-kit0:amd64 (0.25.3-4ubuntu2.1) ...
+Setting up libunistring5:amd64 (1.1-2build1.1) ...
+Setting up libgnutls30t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+
+Configuration file '/etc/gnutls/config', does not exist on system.
+Installing new config file as you requested.
+Selecting previously unselected package libldap2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27541 files and directories currently installed.)
+Preparing to unpack .../libldap2_2.6.7+dfsg-1~exp1ubuntu8.2_amd64.deb ...
+Unpacking libldap2:amd64 (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+Preparing to unpack .../curl_8.5.0-2ubuntu10.6_amd64.deb ...
+Unpacking curl (8.5.0-2ubuntu10.6) over (8.5.0-2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27548 files and directories currently installed.)
+Removing libcurl4:amd64 (8.5.0-2) ...
+dpkg: libpsl5:amd64: dependency problems, but removing anyway as you requested:
+ libcurl3-gnutls:amd64 depends on libpsl5 (>= 0.16.0).
+
+Removing libpsl5:amd64 (0.21.0-1.2) ...
+Selecting previously unselected package libpsl5t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27536 files and directories currently installed.)
+Preparing to unpack .../0-libpsl5t64_0.21.2-1.1build1_amd64.deb ...
+Unpacking libpsl5t64:amd64 (0.21.2-1.1build1) ...
+Selecting previously unselected package libssl3t64:amd64.
+Preparing to unpack .../1-libssl3t64_3.0.13-0ubuntu3.5_amd64.deb ...
+Unpacking libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:amd64 (3.2.0-2) ...
+Selecting previously unselected package libssh-4:amd64.
+Preparing to unpack .../2-libssh-4_0.10.6-2build2_amd64.deb ...
+Unpacking libssh-4:amd64 (0.10.6-2build2) ...
+Selecting previously unselected package libcurl4t64:amd64.
+Preparing to unpack .../3-libcurl4t64_8.5.0-2ubuntu10.6_amd64.deb ...
+Unpacking libcurl4t64:amd64 (8.5.0-2ubuntu10.6) ...
+Preparing to unpack .../4-libexpat1_2.6.1-2ubuntu0.2_amd64.deb ...
+Unpacking libexpat1:amd64 (2.6.1-2ubuntu0.2) over (2.5.0-2) ...
+Preparing to unpack .../5-python3.12_3.12.3-1ubuntu0.5_amd64.deb ...
+Unpacking python3.12 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+Preparing to unpack .../6-python3.12-minimal_3.12.3-1ubuntu0.5_amd64.deb ...
+Unpacking python3.12-minimal (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+Preparing to unpack .../7-libpython3.12-minimal_3.12.3-1ubuntu0.5_amd64.deb ...
+Unpacking libpython3.12-minimal:amd64 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+Preparing to unpack .../8-fdisk_2.39.3-9ubuntu6.2_amd64.deb ...
+Unpacking fdisk (2.39.3-9ubuntu6.2) over (2.39.3-6deepin1) ...
+dpkg: libreadline8:amd64: dependency problems, but removing anyway as you requested:
+ sqlite3 depends on libreadline8 (>= 6.0).
+ pipewire-bin depends on libreadline8 (>= 6.0).
+ libpython3.12-stdlib:amd64 depends on libreadline8 (>= 7.0~beta).
+ libpython3.11-stdlib:amd64 depends on libreadline8 (>= 7.0~beta).
+ gpgsm depends on libreadline8 (>= 6.0).
+ gpgconf depends on libreadline8 (>= 6.0).
+ gpg depends on libreadline8 (>= 6.0).
+ gnupg-utils depends on libreadline8 (>= 6.0).
+ gawk depends on libreadline8 (>= 6.0).
+ bluez depends on libreadline8 (>= 6.0).
+ bc depends on libreadline8 (>= 6.0).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27557 files and directories currently installed.)
+Removing libreadline8:amd64 (8.2-3) ...
+Selecting previously unselected package libreadline8t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27544 files and directories currently installed.)
+Preparing to unpack .../libreadline8t64_8.2-4build1_amd64.deb ...
+Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8 to /lib/x86_64-linux-gnu/libhistory.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8.2 to /lib/x86_64-linux-gnu/libhistory.so.8.2.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8 to /lib/x86_64-linux-gnu/libreadline.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8.2 to /lib/x86_64-linux-gnu/libreadline.so.8.2.usr-is-merged by libreadline8t64'
+Unpacking libreadline8t64:amd64 (8.2-4build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27564 files and directories currently installed.)
+Removing libpython3.12:amd64 (3.12.0-1deepin1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27558 files and directories currently installed.)
+Preparing to unpack .../libpython3.12-stdlib_3.12.3-1ubuntu0.5_amd64.deb ...
+Unpacking libpython3.12-stdlib:amd64 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+dpkg: libdb5.3:amd64: dependency problems, but removing anyway as you requested:
+ libsasl2-modules-db:amd64 depends on libdb5.3.
+ libpython3.11-stdlib:amd64 depends on libdb5.3.
+ libperl5.36:amd64 depends on libdb5.3.
+ libpam-modules:amd64 depends on libdb5.3.
+ libjack-jackd2-0:amd64 depends on libdb5.3.
+ libical3:amd64 depends on libdb5.3.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27577 files and directories currently installed.)
+Removing libdb5.3:amd64 (5.3.28+dfsg1-0.8) ...
+Selecting previously unselected package libdb5.3t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27571 files and directories currently installed.)
+Preparing to unpack .../libdb5.3t64_5.3.28+dfsg2-7_amd64.deb ...
+Unpacking libdb5.3t64:amd64 (5.3.28+dfsg2-7) ...
+Setting up libdb5.3t64:amd64 (5.3.28+dfsg2-7) ...
+dpkg: libgdbm6:amd64: dependency problems, but removing anyway as you requested:
+ libperl5.36:amd64 depends on libgdbm6 (>= 1.21).
+ libgdbm-compat4:amd64 depends on libgdbm6 (>= 1.16).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27577 files and directories currently installed.)
+Removing libgdbm6:amd64 (1.22-1) ...
+Selecting previously unselected package libgdbm6t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27571 files and directories currently installed.)
+Preparing to unpack .../libgdbm6t64_1.23-5.1build1_amd64.deb ...
+Unpacking libgdbm6t64:amd64 (1.23-5.1build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27577 files and directories currently installed.)
+Removing libglib2.0-bin (2.80.1-1deepin1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27554 files and directories currently installed.)
+Preparing to unpack .../eject_2.39.3-9ubuntu6.2_amd64.deb ...
+Unpacking eject (2.39.3-9ubuntu6.2) over (2.39.3-6deepin1) ...
+Preparing to unpack .../readline-common_8.2-4build1_all.deb ...
+Unpacking readline-common (8.2-4build1) over (8.2-3) ...
+Preparing to unpack .../libfdisk1_2.39.3-9ubuntu6.2_amd64.deb ...
+Unpacking libfdisk1:amd64 (2.39.3-9ubuntu6.2) over (2.39.3-6deepin1) ...
+Preparing to unpack .../libmount1_2.39.3-9ubuntu6.2_amd64.deb ...
+Unpacking libmount1:amd64 (2.39.3-9ubuntu6.2) over (2.39.3-6deepin1) ...
+Setting up libmount1:amd64 (2.39.3-9ubuntu6.2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27550 files and directories currently installed.)
+Preparing to unpack .../libblkid1_2.39.3-9ubuntu6.2_amd64.deb ...
+Unpacking libblkid1:amd64 (2.39.3-9ubuntu6.2) over (2.39.3-6deepin1) ...
+Setting up libblkid1:amd64 (2.39.3-9ubuntu6.2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27549 files and directories currently installed.)
+Preparing to unpack .../libuuid1_2.39.3-9ubuntu6.2_amd64.deb ...
+Unpacking libuuid1:amd64 (2.39.3-9ubuntu6.2) over (2.39.3-6deepin1) ...
+Setting up libuuid1:amd64 (2.39.3-9ubuntu6.2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27548 files and directories currently installed.)
+Preparing to unpack .../bsdextrautils_2.39.3-9ubuntu6.2_amd64.deb ...
+Unpacking bsdextrautils (2.39.3-9ubuntu6.2) over (2.39.3-6deepin1) ...
+Preparing to unpack .../rfkill_2.39.3-9ubuntu6.2_amd64.deb ...
+Unpacking rfkill (2.39.3-9ubuntu6.2) over (2.39.3-6deepin1) ...
+Preparing to unpack .../libsmartcols1_2.39.3-9ubuntu6.2_amd64.deb ...
+Unpacking libsmartcols1:amd64 (2.39.3-9ubuntu6.2) over (2.39.3-6deepin1) ...
+Setting up libsmartcols1:amd64 (2.39.3-9ubuntu6.2) ...
+dpkg: libglib2.0-0:amd64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-gl depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-data-extra depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-data depends on libglib2.0-0 (>= 2.16.0).
+ shared-mime-info depends on libglib2.0-0 (>= 2.75.3).
+ pulseaudio-module-bluetooth depends on libglib2.0-0 (>= 2.12.0).
+ pulseaudio depends on libglib2.0-0 (>= 2.32.0).
+ libspa-0.2-bluetooth:amd64 depends on libglib2.0-0 (>= 2.38.0).
+ librsvg2-2:amd64 depends on libglib2.0-0 (>= 2.77.3).
+ libpulse-mainloop-glib0:amd64 depends on libglib2.0-0 (>= 2.28.0).
+ libpipewire-0.3-modules:amd64 depends on libglib2.0-0 (>= 2.32.0).
+ libpangoxft-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangoft2-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangocairo-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libpango-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libical3:amd64 depends on libglib2.0-0 (>= 2.42.0).
+ libharfbuzz0b:amd64 depends on libglib2.0-0 (>= 2.32.0).
+ libharfbuzz-gobject0:amd64 depends on libglib2.0-0 (>= 2.14.0).
+ libgtk2.0-0:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ libgtk-3-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libgstreamer1.0-0:amd64 depends on libglib2.0-0 (>= 2.77.0).
+ libgstreamer-plugins-base1.0-0:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ libglibmm-2.4-1v5:amd64 depends on libglib2.0-0 (>= 2.62.0).
+ libgdk-pixbuf-xlib-2.0-0:amd64 depends on libglib2.0-0 (>= 2.48.0).
+ libgdk-pixbuf-2.0-0:amd64 depends on libglib2.0-0 (>= 2.75.0).
+ libfcitx5gclient2:amd64 depends on libglib2.0-0 (>= 2.38.0).
+ libdconf1:amd64 depends on libglib2.0-0 (>= 2.77.0).
+ libcolord2:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ libcloudproviders0:amd64 depends on libglib2.0-0 (>= 2.56.0).
+ libcairo-gobject2:amd64 depends on libglib2.0-0 (>= 2.68.0).
+ libavcodec60:amd64 depends on libglib2.0-0 (>= 2.12.0).
+ libatspi2.0-0:amd64 depends on libglib2.0-0 (>= 2.62).
+ libatk1.0-0:amd64 depends on libglib2.0-0 (>= 2.62).
+ libatk-bridge2.0-0:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ gtk-update-icon-cache depends on libglib2.0-0 (>= 2.57.2).
+ glib-networking-services depends on libglib2.0-0 (>= 2.73.3).
+ glib-networking:amd64 depends on libglib2.0-0 (>= 2.73.3).
+ fcitx5-frontend-gtk3 depends on libglib2.0-0 (>= 2.75.3).
+ fcitx5-frontend-gtk2 depends on libglib2.0-0 (>= 2.75.3).
+ dconf-service depends on libglib2.0-0 (>= 2.77.0).
+ dconf-gsettings-backend:amd64 depends on libglib2.0-0 (>= 2.77.0).
+ bluez-obexd depends on libglib2.0-0 (>= 2.77.0).
+ bluez depends on libglib2.0-0 (>= 2.75.3).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27545 files and directories currently installed.)
+Removing libglib2.0-0:amd64 (2.80.1-1deepin1) ...
+Selecting previously unselected package libglib2.0-0t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27524 files and directories currently installed.)
+Preparing to unpack .../libglib2.0-0t64_2.80.0-6ubuntu3.2_amd64.deb ...
+libglib2.0-0t64.preinst: Removing /var/lib/dpkg/info/libglib2.0-0:amd64.postrm to avoid loss of /usr/share/glib-2.0/schemas/gschemas.compiled...
+removed '/var/lib/dpkg/info/libglib2.0-0:amd64.postrm'
+Unpacking libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.2) ...
+Preparing to unpack .../systemd-dev_255.4-1ubuntu8.6_all.deb ...
+Unpacking systemd-dev (255.4-1ubuntu8.6) over (255.2-4) ...
+Preparing to unpack .../libsystemd-shared_255.4-1ubuntu8.6_amd64.deb ...
+Unpacking libsystemd-shared:amd64 (255.4-1ubuntu8.6) over (255.2-4) ...
+Preparing to unpack .../libsystemd0_255.4-1ubuntu8.6_amd64.deb ...
+Unpacking libsystemd0:amd64 (255.4-1ubuntu8.6) over (255.2-4) ...
+Setting up libsystemd0:amd64 (255.4-1ubuntu8.6) ...
+Selecting previously unselected package mount.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27545 files and directories currently installed.)
+Preparing to unpack .../mount_2.39.3-9ubuntu6.2_amd64.deb ...
+Unpacking mount (2.39.3-9ubuntu6.2) ...
+Preparing to unpack .../udev_255.4-1ubuntu8.6_amd64.deb ...
+Unpacking udev (255.4-1ubuntu8.6) over (255.2-4) ...
+dpkg: systemd-standalone-sysusers: dependency problems, but removing anyway as you requested:
+ udev depends on systemd | systemd-standalone-sysusers | systemd-sysusers; however:
+  Package systemd is not installed.
+  Package systemd-standalone-sysusers is to be removed.
+  Package systemd-sysusers is not installed.
+  Package systemd-standalone-sysusers which provides systemd-sysusers is to be removed.
+ udev depends on systemd | systemd-standalone-sysusers | systemd-sysusers; however:
+  Package systemd is not installed.
+  Package systemd-standalone-sysusers is to be removed.
+  Package systemd-sysusers is not installed.
+  Package systemd-standalone-sysusers which provides systemd-sysusers is to be removed.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27575 files and directories currently installed.)
+Removing systemd-standalone-sysusers (255.2-4) ...
+Setting up libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Selecting previously unselected package systemd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27568 files and directories currently installed.)
+Preparing to unpack .../systemd_255.4-1ubuntu8.6_amd64.deb ...
+Unpacking systemd (255.4-1ubuntu8.6) ...
+Setting up libpython3.12-minimal:amd64 (3.12.3-1ubuntu0.5) ...
+Setting up libexpat1:amd64 (2.6.1-2ubuntu0.2) ...
+Setting up python3.12-minimal (3.12.3-1ubuntu0.5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28486 files and directories currently installed.)
+Preparing to unpack .../python3-minimal_3.12.3-0ubuntu2_amd64.deb ...
+Unpacking python3-minimal (3.12.3-0ubuntu2) over (3.11.4-5) ...
+Setting up python3-minimal (3.12.3-0ubuntu2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28486 files and directories currently installed.)
+Preparing to unpack .../python3_3.12.3-0ubuntu2_amd64.deb ...
+Unpacking python3 (3.12.3-0ubuntu2) over (3.11.4-5) ...
+Preparing to unpack .../libpython3-stdlib_3.12.3-0ubuntu2_amd64.deb ...
+Unpacking libpython3-stdlib:amd64 (3.12.3-0ubuntu2) over (3.11.4-5) ...
+Setting up libfdisk1:amd64 (2.39.3-9ubuntu6.2) ...
+Setting up libsystemd-shared:amd64 (255.4-1ubuntu8.6) ...
+Setting up systemd-dev (255.4-1ubuntu8.6) ...
+Setting up mount (2.39.3-9ubuntu6.2) ...
+Setting up systemd (255.4-1ubuntu8.6) ...
+
+Configuration file '/etc/systemd/journald.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/logind.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/networkd.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/pstore.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/sleep.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/system.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/user.conf', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/system/getty.target.wants/getty@tty1.service → /usr/lib/systemd/system/getty@.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target → /usr/lib/systemd/system/remote-fs.target.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-pstore.service → /usr/lib/systemd/system/systemd-pstore.service.
+Setting access ACL "u::rwx,g::r-x,g:adm:r-x,m::r-x,o::r-x" on /var/log/journal failed: Invalid argument
+fchmod() of /dev/loop-control failed: Operation not permitted
+fchmod() of /dev/kvm failed: Operation not permitted
+fchmod() of /dev/vhost-net failed: Operation not permitted
+fchmod() of /dev/vhost-vsock failed: Operation not permitted
+Setting access ACL "u::rwx,g::r-x,g:adm:r-x,m::r-x,o::r-x" on /var/log/journal failed: Invalid argument
+Selecting previously unselected package systemd-sysv.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28486 files and directories currently installed.)
+Preparing to unpack .../00-systemd-sysv_255.4-1ubuntu8.6_amd64.deb ...
+Unpacking systemd-sysv (255.4-1ubuntu8.6) ...
+Selecting previously unselected package libapr1t64:amd64.
+Preparing to unpack .../01-libapr1t64_1.7.2-3.1ubuntu0.1_amd64.deb ...
+Unpacking libapr1t64:amd64 (1.7.2-3.1ubuntu0.1) ...
+Selecting previously unselected package libaprutil1t64:amd64.
+Preparing to unpack .../02-libaprutil1t64_1.6.3-1.1ubuntu7_amd64.deb ...
+Unpacking libaprutil1t64:amd64 (1.6.3-1.1ubuntu7) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../03-libaprutil1-dbd-sqlite3_1.6.3-1.1ubuntu7_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.3-1.1ubuntu7) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../04-libaprutil1-ldap_1.6.3-1.1ubuntu7_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.6.3-1.1ubuntu7) ...
+Selecting previously unselected package liblua5.4-0:amd64.
+Preparing to unpack .../05-liblua5.4-0_5.4.6-3build2_amd64.deb ...
+Unpacking liblua5.4-0:amd64 (5.4.6-3build2) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../06-apache2-bin_2.4.58-1ubuntu8.5_amd64.deb ...
+Unpacking apache2-bin (2.4.58-1ubuntu8.5) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../07-apache2-data_2.4.58-1ubuntu8.5_all.deb ...
+Unpacking apache2-data (2.4.58-1ubuntu8.5) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../08-apache2-utils_2.4.58-1ubuntu8.5_amd64.deb ...
+Unpacking apache2-utils (2.4.58-1ubuntu8.5) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../09-apache2_2.4.58-1ubuntu8.5_amd64.deb ...
+Unpacking apache2 (2.4.58-1ubuntu8.5) ...
+Selecting previously unselected package openssh-client.
+Preparing to unpack .../10-openssh-client_1%3a9.6p1-3ubuntu13.9_amd64.deb ...
+Unpacking openssh-client (1:9.6p1-3ubuntu13.9) ...
+Selecting previously unselected package openssh-sftp-server.
+Preparing to unpack .../11-openssh-sftp-server_1%3a9.6p1-3ubuntu13.9_amd64.deb ...
+Unpacking openssh-sftp-server (1:9.6p1-3ubuntu13.9) ...
+Selecting previously unselected package openssh-server.
+Preparing to unpack .../12-openssh-server_1%3a9.6p1-3ubuntu13.9_amd64.deb ...
+Unpacking openssh-server (1:9.6p1-3ubuntu13.9) ...
+Preparing to unpack .../13-libudev1_255.4-1ubuntu8.6_amd64.deb ...
+Unpacking libudev1:amd64 (255.4-1ubuntu8.6) over (255.2-4) ...
+Setting up libudev1:amd64 (255.4-1ubuntu8.6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29291 files and directories currently installed.)
+Preparing to unpack .../00-dbus-system-bus-common_1.14.10-4ubuntu4.1_all.deb ...
+Unpacking dbus-system-bus-common (1.14.10-4ubuntu4.1) over (1.14.10-3) ...
+Preparing to unpack .../01-dbus-session-bus-common_1.14.10-4ubuntu4.1_all.deb ...
+Unpacking dbus-session-bus-common (1.14.10-4ubuntu4.1) over (1.14.10-3) ...
+Preparing to unpack .../02-dbus-x11_1.14.10-4ubuntu4.1_amd64.deb ...
+Unpacking dbus-x11 (1.14.10-4ubuntu4.1) over (1.14.10-3) ...
+Preparing to unpack .../03-dbus-daemon_1.14.10-4ubuntu4.1_amd64.deb ...
+Unpacking dbus-daemon (1.14.10-4ubuntu4.1) over (1.14.10-3) ...
+Preparing to unpack .../04-dbus-bin_1.14.10-4ubuntu4.1_amd64.deb ...
+Unpacking dbus-bin (1.14.10-4ubuntu4.1) over (1.14.10-3) ...
+Preparing to unpack .../05-dbus_1.14.10-4ubuntu4.1_amd64.deb ...
+Unpacking dbus (1.14.10-4ubuntu4.1) over (1.14.10-3) ...
+Preparing to unpack .../06-libdbus-1-3_1.14.10-4ubuntu4.1_amd64.deb ...
+Unpacking libdbus-1-3:amd64 (1.14.10-4ubuntu4.1) over (1.14.10-3) ...
+Selecting previously unselected package libpam-systemd:amd64.
+Preparing to unpack .../07-libpam-systemd_255.4-1ubuntu8.6_amd64.deb ...
+Unpacking libpam-systemd:amd64 (255.4-1ubuntu8.6) ...
+Selecting previously unselected package dbus-user-session.
+Preparing to unpack .../08-dbus-user-session_1.14.10-4ubuntu4.1_amd64.deb ...
+Unpacking dbus-user-session (1.14.10-4ubuntu4.1) ...
+Selecting previously unselected package libnss-systemd:amd64.
+Preparing to unpack .../09-libnss-systemd_255.4-1ubuntu8.6_amd64.deb ...
+Unpacking libnss-systemd:amd64 (255.4-1ubuntu8.6) ...
+Selecting previously unselected package lsb-release.
+Preparing to unpack .../10-lsb-release_12.0-2_all.deb ...
+Unpacking lsb-release (12.0-2) ...
+Selecting previously unselected package python3-cffi-backend:amd64.
+Preparing to unpack .../11-python3-cffi-backend_1.16.0-2build1_amd64.deb ...
+Unpacking python3-cffi-backend:amd64 (1.16.0-2build1) ...
+Selecting previously unselected package python3-pkg-resources.
+Preparing to unpack .../12-python3-pkg-resources_68.1.2-2ubuntu1.1_all.deb ...
+Unpacking python3-pkg-resources (68.1.2-2ubuntu1.1) ...
+Selecting previously unselected package systemd-hwe-hwdb.
+Preparing to unpack .../13-systemd-hwe-hwdb_255.1.4_all.deb ...
+Unpacking systemd-hwe-hwdb (255.1.4) ...
+Selecting previously unselected package systemd-resolved.
+Preparing to unpack .../14-systemd-resolved_255.4-1ubuntu8.6_amd64.deb ...
+Unpacking systemd-resolved (255.4-1ubuntu8.6) ...
+Selecting previously unselected package systemd-timesyncd.
+Preparing to unpack .../15-systemd-timesyncd_255.4-1ubuntu8.6_amd64.deb ...
+Unpacking systemd-timesyncd (255.4-1ubuntu8.6) ...
+Preparing to unpack .../16-gettext-base_0.21-14ubuntu2_amd64.deb ...
+Unpacking gettext-base (0.21-14ubuntu2) over (0.21-4) ...
+Selecting previously unselected package libxmuu1:amd64.
+Preparing to unpack .../17-libxmuu1_2%3a1.1.3-3build2_amd64.deb ...
+Unpacking libxmuu1:amd64 (2:1.1.3-3build2) ...
+Selecting previously unselected package psmisc.
+Preparing to unpack .../18-psmisc_23.7-1build1_amd64.deb ...
+Unpacking psmisc (23.7-1build1) ...
+Selecting previously unselected package publicsuffix.
+Preparing to unpack .../19-publicsuffix_20231001.0357-0.1_all.deb ...
+Unpacking publicsuffix (20231001.0357-0.1) ...
+Selecting previously unselected package wget.
+Preparing to unpack .../20-wget_1.21.4-1ubuntu4.1_amd64.deb ...
+Unpacking wget (1.21.4-1ubuntu4.1) ...
+Selecting previously unselected package xauth.
+Preparing to unpack .../21-xauth_1%3a1.1.2-1build1_amd64.deb ...
+Unpacking xauth (1:1.1.2-1build1) ...
+Selecting previously unselected package gettext.
+Preparing to unpack .../22-gettext_0.21-14ubuntu2_amd64.deb ...
+Unpacking gettext (0.21-14ubuntu2) ...
+Selecting previously unselected package php-common.
+Preparing to unpack .../23-php-common_2%3a93ubuntu2_all.deb ...
+Unpacking php-common (2:93ubuntu2) ...
+Selecting previously unselected package php8.3-common.
+Preparing to unpack .../24-php8.3-common_8.3.6-0ubuntu0.24.04.3_amd64.deb ...
+Unpacking php8.3-common (8.3.6-0ubuntu0.24.04.3) ...
+Selecting previously unselected package php8.3-opcache.
+Preparing to unpack .../25-php8.3-opcache_8.3.6-0ubuntu0.24.04.3_amd64.deb ...
+Unpacking php8.3-opcache (8.3.6-0ubuntu0.24.04.3) ...
+Selecting previously unselected package php8.3-readline.
+Preparing to unpack .../26-php8.3-readline_8.3.6-0ubuntu0.24.04.3_amd64.deb ...
+Unpacking php8.3-readline (8.3.6-0ubuntu0.24.04.3) ...
+Selecting previously unselected package libsodium23:amd64.
+Preparing to unpack .../27-libsodium23_1.0.18-1build3_amd64.deb ...
+Unpacking libsodium23:amd64 (1.0.18-1build3) ...
+Selecting previously unselected package php8.3-cli.
+Preparing to unpack .../28-php8.3-cli_8.3.6-0ubuntu0.24.04.3_amd64.deb ...
+Unpacking php8.3-cli (8.3.6-0ubuntu0.24.04.3) ...
+Selecting previously unselected package libapache2-mod-php8.3.
+Preparing to unpack .../29-libapache2-mod-php8.3_8.3.6-0ubuntu0.24.04.3_amd64.deb ...
+Unpacking libapache2-mod-php8.3 (8.3.6-0ubuntu0.24.04.3) ...
+Selecting previously unselected package libldap-common.
+Preparing to unpack .../30-libldap-common_2.6.7+dfsg-1~exp1ubuntu8.2_all.deb ...
+Unpacking libldap-common (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+Preparing to unpack .../31-libxmu6_2%3a1.1.3-3build2_amd64.deb ...
+Unpacking libxmu6:amd64 (2:1.1.3-3build2) over (2:1.1.2-deepin1) ...
+Selecting previously unselected package ncurses-term.
+Preparing to unpack .../32-ncurses-term_6.4+20240113-1ubuntu2_all.deb ...
+Unpacking ncurses-term (6.4+20240113-1ubuntu2) ...
+Selecting previously unselected package php8.3.
+Preparing to unpack .../33-php8.3_8.3.6-0ubuntu0.24.04.3_all.deb ...
+Unpacking php8.3 (8.3.6-0ubuntu0.24.04.3) ...
+Selecting previously unselected package php.
+Preparing to unpack .../34-php_2%3a8.3+93ubuntu2_all.deb ...
+Unpacking php (2:8.3+93ubuntu2) ...
+Selecting previously unselected package python3-blinker.
+Preparing to unpack .../35-python3-blinker_1.7.0-1_all.deb ...
+Unpacking python3-blinker (1.7.0-1) ...
+Selecting previously unselected package python3-cryptography.
+Preparing to unpack .../36-python3-cryptography_41.0.7-4ubuntu0.1_amd64.deb ...
+Unpacking python3-cryptography (41.0.7-4ubuntu0.1) ...
+Selecting previously unselected package python3-pyparsing.
+Preparing to unpack .../37-python3-pyparsing_3.1.1-1_all.deb ...
+Unpacking python3-pyparsing (3.1.1-1) ...
+Selecting previously unselected package python3-httplib2.
+Preparing to unpack .../38-python3-httplib2_0.20.4-3_all.deb ...
+Unpacking python3-httplib2 (0.20.4-3) ...
+Selecting previously unselected package python3-jwt.
+Preparing to unpack .../39-python3-jwt_2.7.0-1_all.deb ...
+Unpacking python3-jwt (2.7.0-1) ...
+Selecting previously unselected package python3-lazr.uri.
+Preparing to unpack .../40-python3-lazr.uri_1.0.6-3_all.deb ...
+Unpacking python3-lazr.uri (1.0.6-3) ...
+Selecting previously unselected package python3-wadllib.
+Preparing to unpack .../41-python3-wadllib_1.3.6-5_all.deb ...
+Unpacking python3-wadllib (1.3.6-5) ...
+Selecting previously unselected package python3-distro.
+Preparing to unpack .../42-python3-distro_1.9.0-1_all.deb ...
+Unpacking python3-distro (1.9.0-1) ...
+Selecting previously unselected package python3-oauthlib.
+Preparing to unpack .../43-python3-oauthlib_3.2.2-1_all.deb ...
+Unpacking python3-oauthlib (3.2.2-1) ...
+Selecting previously unselected package python3-lazr.restfulclient.
+Preparing to unpack .../44-python3-lazr.restfulclient_0.14.6-1_all.deb ...
+Unpacking python3-lazr.restfulclient (0.14.6-1) ...
+Selecting previously unselected package python3-six.
+Preparing to unpack .../45-python3-six_1.16.0-4_all.deb ...
+Unpacking python3-six (1.16.0-4) ...
+Selecting previously unselected package python3-launchpadlib.
+Preparing to unpack .../46-python3-launchpadlib_1.11.0-6_all.deb ...
+Unpacking python3-launchpadlib (1.11.0-6) ...
+Selecting previously unselected package ssh.
+Preparing to unpack .../47-ssh_1%3a9.6p1-3ubuntu13.9_all.deb ...
+Unpacking ssh (1:9.6p1-3ubuntu13.9) ...
+Selecting previously unselected package smarty3.
+Preparing to unpack .../48-smarty3_3.1.48-1ubuntu0.24.04.1_all.deb ...
+Unpacking smarty3 (3.1.48-1ubuntu0.24.04.1) ...
+Selecting previously unselected package smarty-gettext.
+Preparing to unpack .../49-smarty-gettext_1.7.0-1_all.deb ...
+Unpacking smarty-gettext (1.7.0-1) ...
+Selecting previously unselected package slbackup-php.
+Preparing to unpack .../50-slbackup-php_0.4.5-5_all.deb ...
+Unpacking slbackup-php (0.4.5-5) ...
+Preparing to unpack .../51-libnss-myhostname_255.4-1ubuntu8.6_amd64.deb ...
+Unpacking libnss-myhostname:amd64 (255.4-1ubuntu8.6) over (255.2-4) ...
+Preparing to unpack .../52-p11-kit_0.25.3-4ubuntu2.1_amd64.deb ...
+Unpacking p11-kit (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Selecting previously unselected package ssh-import-id.
+Preparing to unpack .../53-ssh-import-id_5.11-0ubuntu2.24.04.1_all.deb ...
+Unpacking ssh-import-id (5.11-0ubuntu2.24.04.1) ...
+Setting up systemd-sysv (255.4-1ubuntu8.6) ...
+Setting up libxmu6:amd64 (2:1.1.3-3build2) ...
+Setting up libsodium23:amd64 (1.0.18-1build3) ...
+Setting up libgdbm6t64:amd64 (1.23-5.1build1) ...
+Setting up bsdextrautils (2.39.3-9ubuntu6.2) ...
+Setting up psmisc (23.7-1build1) ...
+Setting up openssh-client (1:9.6p1-3ubuntu13.9) ...
+
+Configuration file '/etc/ssh/ssh_config', does not exist on system.
+Installing new config file as you requested.
+Setting up libpsl5t64:amd64 (0.21.2-1.1build1) ...
+Setting up gettext-base (0.21-14ubuntu2) ...
+Setting up libnss-systemd:amd64 (255.4-1ubuntu8.6) ...
+Setting up locales (2.39-0ubuntu8.4) ...
+Installing new version of config file /etc/locale.alias ...
+Generating locales (this might take a while)...
+Generation complete.
+Setting up libldap-common (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+
+Configuration file '/etc/ldap/ldap.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up eject (2.39.3-9ubuntu6.2) ...
+Setting up p11-kit-modules:amd64 (0.25.3-4ubuntu2.1) ...
+Setting up libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.2) ...
+Setting up libgnutls-dane0t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+Setting up libncurses6:amd64 (6.4+20240113-1ubuntu2) ...
+Setting up libdbus-1-3:amd64 (1.14.10-4ubuntu4.1) ...
+Setting up rfkill (2.39.3-9ubuntu6.2) ...
+Setting up systemd-timesyncd (255.4-1ubuntu8.6) ...
+
+Configuration file '/etc/dhcp/dhclient-exit-hooks.d/timesyncd', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/timesyncd.conf', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/system/dbus-org.freedesktop.timesync1.service → /usr/lib/systemd/system/systemd-timesyncd.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-timesyncd.service → /usr/lib/systemd/system/systemd-timesyncd.service.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Setting up udev (255.4-1ubuntu8.6) ...
+fchmod() of /dev/loop-control failed: Operation not permitted
+fchmod() of /dev/kvm failed: Operation not permitted
+fchmod() of /dev/vhost-net failed: Operation not permitted
+fchmod() of /dev/vhost-vsock failed: Operation not permitted
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'restart'
+Setting up libnss-myhostname:amd64 (255.4-1ubuntu8.6) ...
+Setting up libncursesw6:amd64 (6.4+20240113-1ubuntu2) ...
+Setting up libssh-4:amd64 (0.10.6-2build2) ...
+Setting up systemd-hwe-hwdb (255.1.4) ...
+Setting up dbus-session-bus-common (1.14.10-4ubuntu4.1) ...
+Setting up libapr1t64:amd64 (1.7.2-3.1ubuntu0.1) ...
+Setting up liblua5.4-0:amd64 (5.4.6-3build2) ...
+Setting up apache2-data (2.4.58-1ubuntu8.5) ...
+Setting up p11-kit (0.25.3-4ubuntu2.1) ...
+Setting up lsb-release (12.0-2) ...
+Setting up dbus-system-bus-common (1.14.10-4ubuntu4.1) ...
+Setting up libc-dev-bin (2.39-0ubuntu8.4) ...
+Setting up readline-common (8.2-4build1) ...
+Setting up publicsuffix (20231001.0357-0.1) ...
+Setting up libldap2:amd64 (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+Setting up libxmuu1:amd64 (2:1.1.3-3build2) ...
+Setting up dbus-bin (1.14.10-4ubuntu4.1) ...
+Setting up ncurses-term (6.4+20240113-1ubuntu2) ...
+Setting up gnutls-bin (3.8.3-1.1ubuntu3.3) ...
+Setting up libaprutil1t64:amd64 (1.6.3-1.1ubuntu7) ...
+Setting up php-common (2:93ubuntu2) ...
+
+Configuration file '/etc/cron.d/php', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/system/timers.target.wants/phpsessionclean.timer → /usr/lib/systemd/system/phpsessionclean.timer.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Running in chroot, ignoring command 'daemon-reload'
+Setting up openssh-sftp-server (1:9.6p1-3ubuntu13.9) ...
+Setting up gettext (0.21-14ubuntu2) ...
+Setting up wget (1.21.4-1ubuntu4.1) ...
+
+Configuration file '/etc/wgetrc', does not exist on system.
+Installing new config file as you requested.
+Setting up openssh-server (1:9.6p1-3ubuntu13.9) ...
+
+Configuration file '/etc/default/ssh', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/init.d/ssh', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/pam.d/sshd', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ssh/moduli', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ufw/applications.d/openssh-server', does not exist on system.
+Installing new config file as you requested.
+
+Creating config file /etc/ssh/sshd_config with new version
+Creating SSH2 RSA key; this may take some time ...
+3072 SHA256:ZI1PzdEupNs3nA5+6JEb6vTsFhxKiomAm/BGxhek9OE root@fv-az1755-887 (RSA)
+Creating SSH2 ECDSA key; this may take some time ...
+256 SHA256:6Mso/6+k6M9RvRWuo8O6cptddnKre2b8z2TTCukb1Ic root@fv-az1755-887 (ECDSA)
+Creating SSH2 ED25519 key; this may take some time ...
+256 SHA256:pbk1nVL5TWStP0AHWpAREZwOvEGdIUgSuFnjjkRQg1g root@fv-az1755-887 (ED25519)
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring request.
+Running in chroot, ignoring command 'show'
+Created symlink /etc/systemd/system/sockets.target.wants/ssh.socket → /usr/lib/systemd/system/ssh.socket.
+Created symlink /etc/systemd/system/ssh.service.requires/ssh.socket → /usr/lib/systemd/system/ssh.socket.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'restart'
+Setting up libcurl4t64:amd64 (8.5.0-2ubuntu10.6) ...
+Setting up php8.3-common (8.3.6-0ubuntu0.24.04.3) ...
+
+Creating config file /etc/php/8.3/mods-available/calendar.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/ctype.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/exif.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/fileinfo.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/ffi.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/ftp.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/gettext.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/iconv.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/pdo.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/phar.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/posix.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/shmop.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/sockets.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/sysvmsg.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/sysvsem.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/sysvshm.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/tokenizer.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+Setting up dbus-daemon (1.14.10-4ubuntu4.1) ...
+Setting up libaprutil1-ldap:amd64 (1.6.3-1.1ubuntu7) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.3-1.1ubuntu7) ...
+Setting up php8.3-readline (8.3.6-0ubuntu0.24.04.3) ...
+
+Creating config file /etc/php/8.3/mods-available/readline.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+Setting up dbus (1.14.10-4ubuntu4.1) ...
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'try-restart'
+Setting up libreadline8t64:amd64 (8.2-4build1) ...
+Setting up xauth (1:1.1.2-1build1) ...
+Setting up dbus-x11 (1.14.10-4ubuntu4.1) ...
+Setting up smarty-gettext (1.7.0-1) ...
+Setting up libpam-systemd:amd64 (255.4-1ubuntu8.6) ...
+Setting up libc6-dev:amd64 (2.39-0ubuntu8.4) ...
+Setting up curl (8.5.0-2ubuntu10.6) ...
+Setting up php8.3-opcache (8.3.6-0ubuntu0.24.04.3) ...
+
+Creating config file /etc/php/8.3/mods-available/opcache.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+Setting up systemd-resolved (255.4-1ubuntu8.6) ...
+
+Configuration file '/etc/systemd/resolved.conf', does not exist on system.
+Installing new config file as you requested.
+Failed to check if group systemd-resolve already exists: Connection refused
+Created symlink /etc/systemd/system/dbus-org.freedesktop.resolve1.service → /usr/lib/systemd/system/systemd-resolved.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-resolved.service → /usr/lib/systemd/system/systemd-resolved.service.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Setting up apache2-utils (2.4.58-1ubuntu8.5) ...
+Setting up libpython3.12-stdlib:amd64 (3.12.3-1ubuntu0.5) ...
+Setting up ssh (1:9.6p1-3ubuntu13.9) ...
+Setting up python3.12 (3.12.3-1ubuntu0.5) ...
+Setting up php8.3-cli (8.3.6-0ubuntu0.24.04.3) ...
+update-alternatives: using /usr/bin/php8.3 to provide /usr/bin/php (php) in auto mode
+update-alternatives: using /usr/bin/phar8.3 to provide /usr/bin/phar (phar) in auto mode
+update-alternatives: using /usr/bin/phar.phar8.3 to provide /usr/bin/phar.phar (phar.phar) in auto mode
+
+Creating config file /etc/php/8.3/cli/php.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+Setting up apache2-bin (2.4.58-1ubuntu8.5) ...
+Setting up smarty3 (3.1.48-1ubuntu0.24.04.1) ...
+Setting up fdisk (2.39.3-9ubuntu6.2) ...
+Setting up dbus-user-session (1.14.10-4ubuntu4.1) ...
+
+Configuration file '/etc/X11/Xsession.d/20dbus_xdg-runtime', does not exist on system.
+Installing new config file as you requested.
+Setting up libapache2-mod-php8.3 (8.3.6-0ubuntu0.24.04.3) ...
+
+Configuration file '/etc/apache2/mods-available/php8.3.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/php8.3.load', does not exist on system.
+Installing new config file as you requested.
+Package apache2 is not configured yet. Will defer actions by package libapache2-mod-php8.3.
+
+Creating config file /etc/php/8.3/apache2/php.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+No module matches 
+Setting up libpython3-stdlib:amd64 (3.12.3-0ubuntu2) ...
+Setting up apache2 (2.4.58-1ubuntu8.5) ...
+
+Configuration file '/etc/apache2/apache2.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/conf-available/charset.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/conf-available/localized-error-pages.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/conf-available/other-vhosts-access-log.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/conf-available/security.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/conf-available/serve-cgi-bin.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/envvars', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/magic', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/access_compat.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/actions.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/actions.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/alias.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/alias.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/allowmethods.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/asis.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/auth_basic.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/auth_digest.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/auth_form.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authn_anon.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authn_core.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authn_dbd.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authn_dbm.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authn_file.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authn_socache.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authnz_fcgi.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authnz_ldap.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authz_core.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authz_dbd.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authz_dbm.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authz_groupfile.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authz_host.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authz_owner.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authz_user.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/autoindex.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/autoindex.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/brotli.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/buffer.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/cache.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/cache_disk.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/cache_disk.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/cache_socache.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/cern_meta.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/cgi.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/cgid.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/cgid.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/charset_lite.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/data.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/dav.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/dav_fs.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/dav_fs.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/dav_lock.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/dbd.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/deflate.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/deflate.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/dialup.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/dir.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/dir.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/dump_io.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/echo.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/env.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/expires.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/ext_filter.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/file_cache.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/filter.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/headers.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/heartbeat.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/heartmonitor.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/http2.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/http2.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/ident.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/imagemap.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/include.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/info.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/info.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/lbmethod_bybusyness.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/lbmethod_byrequests.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/lbmethod_bytraffic.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/lbmethod_heartbeat.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/ldap.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/ldap.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/log_debug.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/log_forensic.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/lua.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/macro.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/md.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mime.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mime.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mime_magic.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mime_magic.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mpm_event.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mpm_event.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mpm_prefork.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mpm_prefork.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mpm_worker.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mpm_worker.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/negotiation.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/negotiation.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_ajp.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_balancer.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_balancer.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_connect.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_express.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_fcgi.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_fdpass.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_ftp.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_ftp.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_hcheck.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_html.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_html.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_http.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_http2.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_scgi.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_uwsgi.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_wstunnel.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/ratelimit.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/reflector.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/remoteip.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/reqtimeout.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/reqtimeout.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/request.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/rewrite.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/sed.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/session.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/session_cookie.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/session_crypto.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/session_dbd.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/setenvif.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/setenvif.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/slotmem_plain.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/slotmem_shm.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/socache_dbm.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/socache_memcache.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/socache_redis.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/socache_shmcb.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/speling.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/ssl.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/ssl.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/status.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/status.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/substitute.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/suexec.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/unique_id.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/userdir.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/userdir.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/usertrack.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/vhost_alias.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/xml2enc.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/ports.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/sites-available/000-default.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/sites-available/default-ssl.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/cron.daily/apache2', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/default/apache-htcacheclean', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/init.d/apache-htcacheclean', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/init.d/apache2', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/logrotate.d/apache2', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ufw/applications.d/apache2-utils.ufw.profile', does not exist on system.
+Installing new config file as you requested.
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+info: Switch to mpm prefork for package libapache2-mod-php8.3
+logger: socket /dev/log: Connection refused
+Module mpm_event disabled.
+Enabling module mpm_prefork.
+info: Executing deferred 'a2enmod php8.3' for package libapache2-mod-php8.3
+logger: socket /dev/log: Connection refused
+Enabling module php8.3.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring request.
+Running in chroot, ignoring command 'show'
+Running in chroot, ignoring command 'daemon-reload'
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /usr/lib/systemd/system/apache2.service.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /usr/lib/systemd/system/apache-htcacheclean.service.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'daemon-reload'
+Setting up python3 (3.12.3-0ubuntu2) ...
+Setting up python3-six (1.16.0-4) ...
+Setting up php8.3 (8.3.6-0ubuntu0.24.04.3) ...
+Setting up python3-pyparsing (3.1.1-1) ...
+Setting up slbackup-php (0.4.5-5) ...
+
+Configuration file '/etc/slbackup-php/apache.conf', does not exist on system.
+Installing new config file as you requested.
+apache2_invoke: Enable configuration slbackup-php
+logger: socket /dev/log: Connection refused
+Running in chroot, ignoring request.
+Running in chroot, ignoring command 'reload'
+Setting up python3-httplib2 (0.20.4-3) ...
+Setting up python3-cffi-backend:amd64 (1.16.0-2build1) ...
+Setting up python3-blinker (1.7.0-1) ...
+Setting up python3-pkg-resources (68.1.2-2ubuntu1.1) ...
+Setting up php (2:8.3+93ubuntu2) ...
+Setting up python3-distro (1.9.0-1) ...
+Setting up python3-jwt (2.7.0-1) ...
+Setting up python3-lazr.uri (1.0.6-3) ...
+Setting up python3-cryptography (41.0.7-4ubuntu0.1) ...
+Setting up python3-wadllib (1.3.6-5) ...
+Setting up python3-oauthlib (3.2.2-1) ...
+Setting up python3-lazr.restfulclient (0.14.6-1) ...
+Setting up python3-launchpadlib (1.11.0-6) ...
+Created symlink /etc/systemd/user/timers.target.wants/launchpadlib-cache-clean.timer → /usr/lib/systemd/user/launchpadlib-cache-clean.timer.
+Setting up ssh-import-id (5.11-0ubuntu2.24.04.1) ...
+
+Configuration file '/etc/ssh/ssh_import_id', does not exist on system.
+Installing new config file as you requested.
+Processing triggers for initramfs-tools (0.142) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+Processing triggers for php8.3-cli (8.3.6-0ubuntu0.24.04.3) ...
+Processing triggers for libapache2-mod-php8.3 (8.3.6-0ubuntu0.24.04.3) ...
+Running in chroot, ignoring request.
+Running in chroot, ignoring command 'restart'
