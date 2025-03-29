@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: occt-draw.linyaps
+  name: occt-draw
+  version: 7.6.3.7
+  kind: app
+  description: |-
+    Open CASCADE Technology command interpreter and graphical test system
+    Open CASCADE Technology is a suite for 3D surface and solid modeling,
+    visualization, data exchange and rapid application development.  It is an
+    excellent platform for development of numerical simulation software including
+    CAD/CAM/CAE, AEC and GIS, as well as PDM applications.
+
+    Draw is a command interpreter based on Tcl and a graphical system used to test
+    and demonstrate Open CASCADE Technology modeling libraries.
+command:
+- /opt/apps/occt-draw.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
