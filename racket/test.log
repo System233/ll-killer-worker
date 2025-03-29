@@ -1,0 +1,34 @@
+正在测试: APPID=racket.linyaps LAYER=racket.linyaps_8.10.0.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install racket.linyaps_8.10.0.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:racket.linyaps
+Layer文件:racket.linyaps_8.10.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: racket.linyaps_8.10.0.2_arm64_binary.layer
+offset: 984
+mountpoint: /tmp/tmp.DxbGCjS8vx/mnt
+dbglevel: 0
+[成功] drracket.desktop: racket-logo -> /opt/apps/racket.linyaps/files/share/icons/hicolor/scalable/apps/racket-logo.svg
+[成功] /opt/apps/racket.linyaps/files/share/applications/drracket.desktop: /opt/apps/racket.linyaps/files/entrypoint.sh drracket -singleInstance %F
+[正在测试启动项]
+包名:racket.linyaps
+Layer文件:racket.linyaps_8.10.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: racket.linyaps_8.10.0.2_arm64_binary.layer
+offset: 984
+mountpoint: /tmp/tmp.6FW9f53aWn/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run racket.linyaps -- /opt/apps/racket.linyaps/files/entrypoint.sh drracket -singleInstance
+[PID 20235] 进程已启动
+[PID 20235] 已检测到窗口:PID=37
+[PID 20235] 正在截图 0秒: tests/screen0-0.jpg
+[PID 20235] 正在截图 1秒: tests/screen0-1.jpg
+[PID 20235] 正在截图 3秒: tests/screen0-3.jpg
+[PID 20235] 正在截图 5秒: tests/screen0-5.jpg
+[PID 20235] 正在通知并等待进程退出
+[PID 20235] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall racket.linyaps
