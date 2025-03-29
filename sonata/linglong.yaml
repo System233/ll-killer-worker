@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: sonata.linyaps
+  name: sonata
+  version: 1.7.0.2
+  kind: app
+  description: |-
+    GTK+ client for the Music Player Daemon (MPD)
+    Sonata is a lightweight GTK+ music client for the Music Player Daemon (MPD).
+    It aims to be efficient (no toolbar, main menu, or statusbar),
+    user-friendly, and clean.
+command:
+- /opt/apps/sonata.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
