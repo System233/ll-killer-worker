@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: pdfchain.linyaps
+  name: pdfchain
+  version: 0.4.4.2
+  kind: app
+  description: |-
+    graphical user interface for the PDF Tool Kit
+    The package includes features designed to handle PDF files in a easy
+    way. Basically it can merge, split, add backgrounds or stamps and add
+    attachments. There are some tools for extended needs, too.
+
+    The GUI is written in GTKmm, a C++ library for GTK+.
+command:
+- /opt/apps/pdfchain.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
