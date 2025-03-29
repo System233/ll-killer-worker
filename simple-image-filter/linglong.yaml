@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: simple-image-filter.linyaps
+  name: simple-image-filter
+  version: 1.1.2.1
+  kind: app
+  description: |-
+    Image processing software
+    simple image filter is an Image processing software, can handle image rotation,
+    clip, basic beautification, filter and other graph functions.
+command:
+- /opt/apps/simple-image-filter.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
