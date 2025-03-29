@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: pageedit.linyaps
+  name: pageedit
+  version: 2.0.0.1
+  kind: app
+  description: |-
+    ePub visual XHTML editor based on Sigil's Deprecated BookView
+    This package contains the removed BookView feature that used to be part of
+    Sigil before the 0.9.15 release.
+
+    It allows users to edit the XHTML editor with a WYSIWYG interface.
+command:
+- /opt/apps/pageedit.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
