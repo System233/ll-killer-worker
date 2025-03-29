@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: pt2-clone.linyaps
+  name: pt2-clone
+  version: 1.66.1.1
+  kind: app
+  description: |-
+    Music tracker clone of ProTracker 2 for modern computers
+    Multi-platform clone of the classic music making software
+    "ProTracker" (version 2) from the Commodore Amiga days.
+    Aims to work exactly like you remember it, with added features and
+    fixes.
+command:
+- /opt/apps/pt2-clone.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
