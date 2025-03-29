@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: pushover.linyaps
+  name: pushover
+  version: 1.1.0.3
+  kind: app
+  description: |-
+    transitional package
+    This is a transitional package. It can safely be removed.
+command:
+- /opt/apps/pushover.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
