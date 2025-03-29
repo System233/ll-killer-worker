@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: qvidcap.linyaps
+  name: qvidcap
+  version: 1.26.1.4
+  kind: app
+  description: |-
+    Capture test utility for video4linux devices
+    The qvidcap tool is used to test video4linux capture devices,
+    either using a video device, a file, or over network.
+    This application can also serve as a generic video/TV viewer application.
+command:
+- /opt/apps/qvidcap.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
