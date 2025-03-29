@@ -1,0 +1,30 @@
+正在测试: APPID=visidata.linyaps LAYER=visidata.linyaps_3.0.2.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install visidata.linyaps_3.0.2.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:visidata.linyaps
+Layer文件:visidata.linyaps_3.0.2.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: visidata.linyaps_3.0.2.1_x86_64_binary.layer
+offset: 636
+mountpoint: /tmp/tmp.sIMOcu8IoN/mnt
+dbglevel: 0
+find: ‘/opt/apps/visidata.linyaps/files/share/icons’: No such file or directory
+find: ‘/opt/apps/visidata.linyaps/files/share/pixmaps’: No such file or directory
+[成功] visidata.desktop: utilities-terminal -> /usr/share/icons/Humanity/apps/16/utilities-terminal.svg
+[成功] /opt/apps/visidata.linyaps/files/share/applications/visidata.desktop: /opt/apps/visidata.linyaps/files/entrypoint.sh bash -i -c 'vd %f'
+[正在测试启动项]
+包名:visidata.linyaps
+Layer文件:visidata.linyaps_3.0.2.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: visidata.linyaps_3.0.2.1_x86_64_binary.layer
+offset: 636
+mountpoint: /tmp/tmp.jNuSglvHMb/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run visidata.linyaps -- /opt/apps/visidata.linyaps/files/entrypoint.sh bash -i -c 'vd
+[PID 5614] 进程已启动
+[PID 5614] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall visidata.linyaps
