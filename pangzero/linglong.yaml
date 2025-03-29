@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: pangzero.linyaps
+  name: pangzero
+  version: 1.4.1.6
+  kind: app
+  description: |-
+    action game that involves popping balloons with a harpoon
+    Pang Zero is a clone and enhancement of Super Pang, a fast-paced action
+    game that involves popping balloons with a harpoon.
+
+    The intention is to create a fun, open-source game that many (currently
+    up to 6) people can play together. You can play Pang Zero alone, but it's
+    a lot more fun to play with your friends.
+command:
+- /opt/apps/pangzero.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
