@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: val-and-rick.linyaps
+  name: val-and-rick
+  version: 0.1.1.7
+  kind: app
+  description: |-
+    shooter game
+    Val & Rick is probably the precursor to Gunroar, featuring similar controls
+    but in a different environment. Only 2D sprites and backgrounds are used in
+    what seems like a tribute to Xevious and Star Soldier.
+
+    Val & Rick is another gem among many by Kenta Cho.
+command:
+- /opt/apps/val-and-rick.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
