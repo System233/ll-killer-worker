@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: stoken.linyaps
+  name: stoken
+  version: 0.92.0.1
+  kind: app
+  description: |-
+    Software Token for cryptographic authentication
+    stoken is a software token which generates one-time passwords compatible
+    with RSA SecurID 128-bit (AES) tokens.  SecurID tokens are commonly
+    used to authenticate end users to protected network resources and VPNs,
+    as OTPs provide greater resistance to many attacks associated with static
+    passwords.
+
+    stoken aims to provide a Linux-friendly, free software alternative to the
+    proprietary RSA SecurID Software Authenticators.
+
+    This package contains standalone command-line and GTK+ GUI programs that
+    allow for importing token seeds, generating tokencodes, and various
+    utility/testing functions.
+command:
+- /opt/apps/stoken.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
