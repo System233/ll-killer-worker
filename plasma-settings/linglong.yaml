@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: plasma-settings.linyaps
+  name: plasma-settings
+  version: 23.1.0.1
+  kind: app
+  description: |-
+    Settings application for Plasma Mobile
+    This package contains configuration modules for the Plasma mobile
+    environment, allowing the user to modify in a graphical interface, various
+    configurations related to audio, Bluetooth, monitor, default applications,
+    virtual keyboard, notifications, time and date, localization, network modem,
+    and other components of the Plasma environment.
+
+    It is based on Qt graphical libraries and KDE Frameworks. In particular,
+    it relies on Kirigami so its user interface can fit a variety of display
+    sizes. However, it has been optimized for touch devices, so desktop users
+    should install the 'systemsettings' package instead.
+command:
+- /opt/apps/plasma-settings.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
