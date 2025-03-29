@@ -1,0 +1,34 @@
+version: "1"
+package:
+  id: veyon-master.linyaps
+  name: veyon-master
+  version: 4.7.5.1
+  kind: app
+  description: |-
+    Computer Monitoring and Classroom Management Software - master
+    Veyon is a software for computer monitoring and classroom management
+    supporting Windows and Linux. It enables teachers to view and control
+    computer labs and interact with students. Veyon is available in many different
+    languages and provides numerous features supporting teachers and
+    administrators at their daily work:
+
+    - Overview: monitor all computers in one or multiple locations or classrooms
+    - Remote access: view or control computers to watch and support users
+    - Demo: broadcast the teacher's screen in realtime (fullscreen/window)
+    - Screen lock: draw attention to what matters right now
+    - Communication: send text messages to students
+    - Start and end lessons: log in and log out users all at once
+    - Screenshots: record learning progress and document infringements
+    - Programs & websites: launch programs and open website URLs remotely
+    - Teaching material: distribute and open documents, images and videos easily
+    - Administration: power on/off and reboot computers remotely
+
+    Veyon is the continuation of iTALC.
+
+    This package contains the veyon-master software. With veyon-master a teacher
+    or tutor can control other machines if they run Veyon's client service software
+    (package: veyon-service).
+command:
+- /opt/apps/veyon-master.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
