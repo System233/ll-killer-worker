@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: unihedron-device-manager.linyaps
+  name: unihedron-device-manager
+  version: 1.0.0.1
+  kind: app
+  description: |-
+    Unihedron Device manager (UDM)
+    The Unihedron Device Manager (UDM) program is intended for use in maintaining
+    and testing the Unihedron connected Sky Quality Meter products.
+    It is used to:
+    - Read version information.
+    - Request readings.
+    - Read and set calibration data.
+    - Read and set all other meter parameters.
+    - Install new firmware.
+    - Setup and retrieve data from datalogging meters.
+    - Continuously log data from connected meters.
+command:
+- /opt/apps/unihedron-device-manager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
