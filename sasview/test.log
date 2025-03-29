@@ -1,0 +1,28 @@
+正在测试: APPID=sasview.linyaps LAYER=sasview.linyaps_5.0.6.2_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install sasview.linyaps_5.0.6.2_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:sasview.linyaps
+Layer文件:sasview.linyaps_5.0.6.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: sasview.linyaps_5.0.6.2_x86_64_binary.layer
+offset: 1118
+mountpoint: /tmp/tmp.WgeGnmkhnw/mnt
+dbglevel: 0
+[成功] sasview.desktop: sasview -> /opt/apps/sasview.linyaps/files/share/pixmaps/sasview.png
+[成功] /opt/apps/sasview.linyaps/files/share/applications/sasview.desktop: /opt/apps/sasview.linyaps/files/entrypoint.sh sasview
+[正在测试启动项]
+包名:sasview.linyaps
+Layer文件:sasview.linyaps_5.0.6.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: sasview.linyaps_5.0.6.2_x86_64_binary.layer
+offset: 1118
+mountpoint: /tmp/tmp.VA3iYfcWUU/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run sasview.linyaps -- /opt/apps/sasview.linyaps/files/entrypoint.sh sasview
+[PID 238581] 进程已启动
+[PID 238581] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall sasview.linyaps

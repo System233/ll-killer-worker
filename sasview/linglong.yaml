@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: sasview.linyaps
+  name: sasview
+  version: 5.0.6.2
+  kind: app
+  description: |-
+    Small Angle Scattering Analysis suite
+    SasView is software for the analysis of Small-Angle Scattering (SAS)
+    data.
+
+    It fits analytic functions describing different types of material
+    microstructure to experimental data in order to determine the shape,
+    size and degree of ordering.
+
+    SasView also includes tools for calculating scattering length
+    densities, slit sizes, resolution, fringe thicknesses/d-spacings, the
+    (Porod) invariant ('total scattering'), and distance distribution
+    functions.
+
+    SasView is a Small Angle Scattering Analysis Software Package,
+    originally developed as part of the NSF DANSE project under the name
+    SansView, now managed by an international collaboration of facilities.
+
+    This package installs the sasview executable script.
+command:
+- /opt/apps/sasview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
