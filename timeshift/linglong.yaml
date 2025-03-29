@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: timeshift.linyaps
+  name: timeshift
+  version: 24.1.1.1
+  kind: app
+  description: |-
+    System restore utility
+    Timeshift is a system restore utility which takes snapshots
+    of the system at regular intervals. These snapshots can be restored
+    at a later date to undo system changes. Creates incremental snapshots
+    using rsync or BTRFS snapshots using BTRFS tools.
+command:
+- /opt/apps/timeshift.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
