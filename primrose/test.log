@@ -1,0 +1,34 @@
+正在测试: APPID=primrose.linyaps LAYER=primrose.linyaps_6.0.0.4_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install primrose.linyaps_6.0.0.4_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:primrose.linyaps
+Layer文件:primrose.linyaps_6.0.0.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: primrose.linyaps_6.0.0.4_arm64_binary.layer
+offset: 1471
+mountpoint: /tmp/tmp.U1NdSjYZ2z/mnt
+dbglevel: 0
+[成功] primrose.desktop: primrose -> /opt/apps/primrose.linyaps/files/share/icons/hicolor/128x128/apps/primrose.png
+[成功] /opt/apps/primrose.linyaps/files/share/applications/primrose.desktop: /opt/apps/primrose.linyaps/files/entrypoint.sh primrose
+[正在测试启动项]
+包名:primrose.linyaps
+Layer文件:primrose.linyaps_6.0.0.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: primrose.linyaps_6.0.0.4_arm64_binary.layer
+offset: 1471
+mountpoint: /tmp/tmp.Ox9MrXRz2e/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run primrose.linyaps -- /opt/apps/primrose.linyaps/files/entrypoint.sh primrose
+[PID 5605] 进程已启动
+[PID 5605] 已检测到窗口:PID=36
+[PID 5605] 正在截图 0秒: tests/screen0-0.jpg
+[PID 5605] 正在截图 2秒: tests/screen0-2.jpg
+[PID 5605] 正在截图 4秒: tests/screen0-4.jpg
+[PID 5605] 正在截图 5秒: tests/screen0-5.jpg
+[PID 5605] 正在通知并等待进程退出
+[PID 5605] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall primrose.linyaps
