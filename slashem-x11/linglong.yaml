@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: slashem-x11.linyaps
+  name: slashem-x11
+  version: 0.0.7.11
+  kind: app
+  description: |-
+    variant of Nethack (X11 window port)
+    Super Lotsa Added Stuff Hack - Extended Magic (SLASH'EM)
+    is a role-playing game where you control a single character. The
+    interface and gameplay are similar in style to Rogue, ADOM, Angband
+    and, of course, Nethack. You control the actions through the
+    keyboard and view the world from an overhead perspective.
+
+    The problem: The Amulet of Yendor has been stolen. Not only
+    that but it appears that the Wizard of Yendor (not a nice person),
+    who took the amulet, is hiding in the Dungeons of Doom (not a
+    friendly place).
+
+    This package provides the X11 window port of Slash'EM
+command:
+- /opt/apps/slashem-x11.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
