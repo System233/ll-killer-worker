@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: skanlite.linyaps
+  name: skanlite
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    image scanner based on the KSane backend
+    Skanlite is a small and simple scanner application which allows easy scanning
+    of images with an attached scanner. Through the KSane backend, it can access
+    a wide variety of different scanner models.
+command:
+- /opt/apps/skanlite.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
