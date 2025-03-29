@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: plakativ.linyaps
+  name: plakativ
+  version: 0.5.2.1
+  kind: app
+  description: |-
+    create posters and banners from multiple glued-together pages
+    This program is for situations when you want to create a large poster or
+    banner but do not have a printer that supports large sheets of paper. Plakativ
+    allows one to enlarge and split a PDF across multiple pages, creating another
+    PDF with pages of the desired printable size. After printing, the pages can be
+    glued together to form a larger poster. Features:
+
+    - lossless operation
+    - no pixel artifacts when upscaling if PDF contains vector graphics
+    - GUI with preview functionality
+    - complex layouter to save paper
+    - optimize by number of pages, output poster size or multiple of input area
+
+    This package contains the executable.
+command:
+- /opt/apps/plakativ.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
