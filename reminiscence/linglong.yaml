@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: reminiscence.linyaps
+  name: reminiscence
+  version: 0.2.1.2
+  kind: app
+  description: |-
+    free implementation of Flashback game engine
+    REminiscence is a free re-implementation of the game engine used to run the
+    Flashback platform action game. It uses the data files from the original
+    PC/DOS game and can make use of the Amiga sound files.
+
+    Flashback is a platform action game, in which you control a character that has
+    lost his memory. Your task is to bring the memories back and, ultimately, save
+    the world.
+command:
+- /opt/apps/reminiscence.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

@@ -1,0 +1,27 @@
+正在测试: APPID=reminiscence.linyaps LAYER=reminiscence.linyaps_0.2.1.2_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install reminiscence.linyaps_0.2.1.2_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:reminiscence.linyaps
+Layer文件:reminiscence.linyaps_0.2.1.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: reminiscence.linyaps_0.2.1.2_x86_64_binary.layer
+offset: 794
+mountpoint: /tmp/tmp.U9HBwXLrzE/mnt
+dbglevel: 0
+[成功] /opt/apps/reminiscence.linyaps/files/share/applications/reminiscence.desktop: /opt/apps/reminiscence.linyaps/files/entrypoint.sh reminiscence
+[正在测试启动项]
+包名:reminiscence.linyaps
+Layer文件:reminiscence.linyaps_0.2.1.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: reminiscence.linyaps_0.2.1.2_x86_64_binary.layer
+offset: 794
+mountpoint: /tmp/tmp.0AuMJnQEoQ/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run reminiscence.linyaps -- /opt/apps/reminiscence.linyaps/files/entrypoint.sh reminiscence
+[PID 5429] 进程已启动
+[PID 5429] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall reminiscence.linyaps
