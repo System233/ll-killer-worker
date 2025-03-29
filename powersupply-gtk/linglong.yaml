@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: powersupply-gtk.linyaps
+  name: powersupply-gtk
+  version: 0.9.0.1
+  kind: app
+  description: |-
+    Graphical power status tool for Linux mobile devices
+    Powersupply is a simple GTK+3 application monitoring the status of power
+    supply nodes, exposing the current battery and USB power status through
+    a simple UI.
+
+    This application is aimed primarily at mobile devices (such as phones
+    and tablets) running Linux, but it should work on laptops as well.
+command:
+- /opt/apps/powersupply-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
