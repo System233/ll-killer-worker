@@ -1,0 +1,28 @@
+正在测试: APPID=phpliteadmin.linyaps LAYER=phpliteadmin.linyaps_1.9.8.2_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install phpliteadmin.linyaps_1.9.8.2_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:phpliteadmin.linyaps
+Layer文件:phpliteadmin.linyaps_1.9.8.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: phpliteadmin.linyaps_1.9.8.2_x86_64_binary.layer
+offset: 995
+mountpoint: /tmp/tmp.Z8VVsWpnBp/mnt
+dbglevel: 0
+[成功] phpliteadmin.desktop: phpliteadmin -> /opt/apps/phpliteadmin.linyaps/files/share/icons/hicolor/16x16/apps/phpliteadmin.png
+[31m[失败] /opt/apps/phpliteadmin.linyaps/files/share/applications/phpliteadmin.desktop:open: 找不到此启动文件 [0m
+[正在测试启动项]
+包名:phpliteadmin.linyaps
+Layer文件:phpliteadmin.linyaps_1.9.8.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: phpliteadmin.linyaps_1.9.8.2_x86_64_binary.layer
+offset: 995
+mountpoint: /tmp/tmp.MR3MNQVlL1/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run phpliteadmin.linyaps -- /opt/apps/phpliteadmin.linyaps/files/entrypoint.sh open http://localhost/phpliteadmin/phpliteadmin.php
+[PID 16052] 进程已启动
+[PID 16052] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall phpliteadmin.linyaps

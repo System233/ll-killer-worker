@@ -1,0 +1,1038 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils curl gnutls-bin
+  javascript-common libapache2-mod-php libapache2-mod-php8.3 libapr1t64
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap libaprutil1t64 libcurl4t64
+  libdb5.3t64 libgdbm6t64 libgnutls-dane0t64 libgnutls30t64 libhogweed6t64
+  libjs-codemirror libldap-common libldap2 liblua5.4-0 libnettle8t64 libonig5
+  libp11-kit0 libpsl5t64 libsodium23 libssh-4 libssl3t64 libunistring5 p11-kit
+  p11-kit-modules php-common php-mbstring php-sqlite3 php8.3-cli php8.3-common
+  php8.3-mbstring php8.3-opcache php8.3-readline php8.3-sqlite3 psmisc
+  publicsuffix
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom www-browser ufw
+  php-pear gdbm-l10n dns-root-data libjs-requirejs
+The following packages will be REMOVED:
+  libcurl4 libdb5.3 libgdbm6 libgnutls-dane0 libgnutls30 libhogweed6
+  libnettle8 libpsl5
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils javascript-common
+  libapache2-mod-php libapache2-mod-php8.3 libapr1t64 libaprutil1-dbd-sqlite3
+  libaprutil1-ldap libaprutil1t64 libcurl4t64 libdb5.3t64 libgdbm6t64
+  libgnutls-dane0t64 libgnutls30t64 libhogweed6t64 libjs-codemirror
+  libldap-common libldap2 liblua5.4-0 libnettle8t64 libonig5 libpsl5t64
+  libsodium23 libssh-4 libssl3t64 libunistring5 php-common php-mbstring
+  php-sqlite3 php8.3-cli php8.3-common php8.3-mbstring php8.3-opcache
+  php8.3-readline php8.3-sqlite3 phpliteadmin psmisc publicsuffix
+The following packages will be upgraded:
+  curl gnutls-bin libp11-kit0 p11-kit p11-kit-modules
+5 upgraded, 40 newly installed, 8 to remove and 448 not upgraded.
+Need to get 15.8 MB of archives.
+After this operation, 47.0 MB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgnutls-dane0t64 amd64 3.8.3-1.1ubuntu3.3 [23.5 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 gnutls-bin amd64 3.8.3-1.1ubuntu3.3 [270 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libnettle8t64 amd64 3.9.1-2.2build1.1 [182 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libhogweed6t64 amd64 3.9.1-2.2build1.1 [199 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 p11-kit-modules amd64 0.25.3-4ubuntu2.1 [328 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libp11-kit0 amd64 0.25.3-4ubuntu2.1 [300 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libunistring5 amd64 1.1-2build1.1 [536 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgnutls30t64 amd64 3.8.3-1.1ubuntu3.3 [995 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libldap2 amd64 2.6.7+dfsg-1~exp1ubuntu8.2 [196 kB]
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 curl amd64 8.5.0-2ubuntu10.6 [226 kB]
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpsl5t64 amd64 0.21.2-1.1build1 [57.1 kB]
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libssl3t64 amd64 3.0.13-0ubuntu3.5 [1940 kB]
+Get:13 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libssh-4 amd64 0.10.6-2build2 [188 kB]
+Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libcurl4t64 amd64 8.5.0-2ubuntu10.6 [341 kB]
+Get:15 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libdb5.3t64 amd64 5.3.28+dfsg2-7 [734 kB]
+Get:16 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libgdbm6t64 amd64 1.23-5.1build1 [34.4 kB]
+Get:17 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libapr1t64 amd64 1.7.2-3.1ubuntu0.1 [108 kB]
+Get:18 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libaprutil1t64 amd64 1.6.3-1.1ubuntu7 [91.9 kB]
+Get:19 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.3-1.1ubuntu7 [11.2 kB]
+Get:20 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libaprutil1-ldap amd64 1.6.3-1.1ubuntu7 [9116 B]
+Get:21 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 liblua5.4-0 amd64 5.4.6-3build2 [166 kB]
+Get:22 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 apache2-bin amd64 2.4.58-1ubuntu8.5 [1329 kB]
+Get:23 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 apache2-data all 2.4.58-1ubuntu8.5 [163 kB]
+Get:24 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 apache2-utils amd64 2.4.58-1ubuntu8.5 [97.1 kB]
+Get:25 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 apache2 amd64 2.4.58-1ubuntu8.5 [90.2 kB]
+Get:26 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 psmisc amd64 23.7-1build1 [179 kB]
+Get:27 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 publicsuffix all 20231001.0357-0.1 [129 kB]
+Get:28 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 javascript-common all 11+nmu1 [5936 B]
+Get:29 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 php-common all 2:93ubuntu2 [13.9 kB]
+Get:30 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 php8.3-common amd64 8.3.6-0ubuntu0.24.04.3 [739 kB]
+Get:31 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 php8.3-opcache amd64 8.3.6-0ubuntu0.24.04.3 [372 kB]
+Get:32 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 php8.3-readline amd64 8.3.6-0ubuntu0.24.04.3 [13.5 kB]
+Get:33 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsodium23 amd64 1.0.18-1build3 [161 kB]
+Get:34 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 php8.3-cli amd64 8.3.6-0ubuntu0.24.04.3 [1914 kB]
+Get:35 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libapache2-mod-php8.3 amd64 8.3.6-0ubuntu0.24.04.3 [1849 kB]
+Get:36 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libapache2-mod-php all 2:8.3+93ubuntu2 [4224 B]
+Get:37 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libldap-common all 2.6.7+dfsg-1~exp1ubuntu8.2 [31.7 kB]
+Get:38 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libonig5 amd64 6.9.9-1build1 [172 kB]
+Get:39 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 php8.3-mbstring amd64 8.3.6-0ubuntu0.24.04.3 [512 kB]
+Get:40 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 php-mbstring all 2:8.3+93ubuntu2 [1848 B]
+Get:41 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 php8.3-sqlite3 amd64 8.3.6-0ubuntu0.24.04.3 [34.2 kB]
+Get:42 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 php-sqlite3 all 2:8.3+93ubuntu2 [1844 B]
+Get:43 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libjs-codemirror all 5.65.0+~cs5.83.9-3 [755 kB]
+Get:44 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 phpliteadmin all 1.9.8.2-2 [122 kB]
+Get:45 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 p11-kit amd64 0.25.3-4ubuntu2.1 [141 kB]
+Fetched 15.8 MB in 1s (26.5 MB/s)
+dpkg: libgnutls-dane0:amd64: dependency problems, but removing anyway as you requested:
+ gnutls-bin depends on libgnutls-dane0 (>= 3.7.0).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing libgnutls-dane0:amd64 (3.7.9-2) ...
+Selecting previously unselected package libgnutls-dane0t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27588 files and directories currently installed.)
+Preparing to unpack .../libgnutls-dane0t64_3.8.3-1.1ubuntu3.3_amd64.deb ...
+Unpacking libgnutls-dane0t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+Preparing to unpack .../gnutls-bin_3.8.3-1.1ubuntu3.3_amd64.deb ...
+Unpacking gnutls-bin (3.8.3-1.1ubuntu3.3) over (3.7.9-2) ...
+dpkg: libhogweed6:amd64: dependency problems, but removing anyway as you requested:
+ libunbound8:amd64 depends on libhogweed6.
+ librtmp1:amd64 depends on libhogweed6.
+ libgnutls30:amd64 depends on libhogweed6 (>= 3.6).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27591 files and directories currently installed.)
+Removing libhogweed6:amd64 (3.7.3-1) ...
+dpkg: libnettle8:amd64: dependency problems, but removing anyway as you requested:
+ libunbound8:amd64 depends on libnettle8.
+ librtmp1:amd64 depends on libnettle8.
+ libgnutls30:amd64 depends on libnettle8 (>= 3.7~).
+ libcurl3-gnutls:amd64 depends on libnettle8.
+ libarchive13:amd64 depends on libnettle8.
+
+Removing libnettle8:amd64 (3.7.3-1) ...
+Selecting previously unselected package libnettle8t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27577 files and directories currently installed.)
+Preparing to unpack .../libnettle8t64_3.9.1-2.2build1.1_amd64.deb ...
+Unpacking libnettle8t64:amd64 (3.9.1-2.2build1.1) ...
+Selecting previously unselected package libhogweed6t64:amd64.
+Preparing to unpack .../libhogweed6t64_3.9.1-2.2build1.1_amd64.deb ...
+Unpacking libhogweed6t64:amd64 (3.9.1-2.2build1.1) ...
+Preparing to unpack .../p11-kit-modules_0.25.3-4ubuntu2.1_amd64.deb ...
+Unpacking p11-kit-modules:amd64 (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Preparing to unpack .../libp11-kit0_0.25.3-4ubuntu2.1_amd64.deb ...
+Unpacking libp11-kit0:amd64 (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Selecting previously unselected package libunistring5:amd64.
+Preparing to unpack .../libunistring5_1.1-2build1.1_amd64.deb ...
+Unpacking libunistring5:amd64 (1.1-2build1.1) ...
+dpkg: libgnutls30:amd64: dependency problems, but removing anyway as you requested:
+ librtmp1:amd64 depends on libgnutls30 (>= 3.7.5).
+ libqpdf29:amd64 depends on libgnutls30 (>= 3.7.0).
+ libldap-2.5-0:amd64 depends on libgnutls30 (>= 3.7.5).
+ libcurl3-gnutls:amd64 depends on libgnutls30 (>= 3.7.5).
+ libcups2:amd64 depends on libgnutls30 (>= 3.7.5).
+ glib-networking:amd64 depends on libgnutls30 (>= 3.7.5).
+ dirmngr depends on libgnutls30 (>= 3.7.5).
+ apt depends on libgnutls30 (>= 3.7.5).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27595 files and directories currently installed.)
+Removing libgnutls30:amd64 (3.7.9-2) ...
+Selecting previously unselected package libgnutls30t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27567 files and directories currently installed.)
+Preparing to unpack .../libgnutls30t64_3.8.3-1.1ubuntu3.3_amd64.deb ...
+Unpacking libgnutls30t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+Setting up libnettle8t64:amd64 (3.9.1-2.2build1.1) ...
+Setting up libhogweed6t64:amd64 (3.9.1-2.2build1.1) ...
+Setting up libp11-kit0:amd64 (0.25.3-4ubuntu2.1) ...
+Setting up libunistring5:amd64 (1.1-2build1.1) ...
+Setting up libgnutls30t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+
+Configuration file '/etc/gnutls/config', does not exist on system.
+Installing new config file as you requested.
+Selecting previously unselected package libldap2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27579 files and directories currently installed.)
+Preparing to unpack .../libldap2_2.6.7+dfsg-1~exp1ubuntu8.2_amd64.deb ...
+Unpacking libldap2:amd64 (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+Preparing to unpack .../curl_8.5.0-2ubuntu10.6_amd64.deb ...
+Unpacking curl (8.5.0-2ubuntu10.6) over (8.5.0-2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27586 files and directories currently installed.)
+Removing libcurl4:amd64 (8.5.0-2) ...
+dpkg: libpsl5:amd64: dependency problems, but removing anyway as you requested:
+ libcurl3-gnutls:amd64 depends on libpsl5 (>= 0.16.0).
+
+Removing libpsl5:amd64 (0.21.0-1.2) ...
+Selecting previously unselected package libpsl5t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27574 files and directories currently installed.)
+Preparing to unpack .../libpsl5t64_0.21.2-1.1build1_amd64.deb ...
+Unpacking libpsl5t64:amd64 (0.21.2-1.1build1) ...
+Selecting previously unselected package libssl3t64:amd64.
+Preparing to unpack .../libssl3t64_3.0.13-0ubuntu3.5_amd64.deb ...
+Unpacking libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:amd64 (3.2.0-2) ...
+Selecting previously unselected package libssh-4:amd64.
+Preparing to unpack .../libssh-4_0.10.6-2build2_amd64.deb ...
+Unpacking libssh-4:amd64 (0.10.6-2build2) ...
+Selecting previously unselected package libcurl4t64:amd64.
+Preparing to unpack .../libcurl4t64_8.5.0-2ubuntu10.6_amd64.deb ...
+Unpacking libcurl4t64:amd64 (8.5.0-2ubuntu10.6) ...
+dpkg: libdb5.3:amd64: dependency problems, but removing anyway as you requested:
+ libsasl2-modules-db:amd64 depends on libdb5.3.
+ libpython3.12-stdlib:amd64 depends on libdb5.3.
+ libpython3.11-stdlib:amd64 depends on libdb5.3.
+ libperl5.36:amd64 depends on libdb5.3.
+ libpam-modules:amd64 depends on libdb5.3.
+ libjack-jackd2-0:amd64 depends on libdb5.3.
+ libical3:amd64 depends on libdb5.3.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27597 files and directories currently installed.)
+Removing libdb5.3:amd64 (5.3.28+dfsg1-0.8) ...
+Selecting previously unselected package libdb5.3t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27591 files and directories currently installed.)
+Preparing to unpack .../libdb5.3t64_5.3.28+dfsg2-7_amd64.deb ...
+Unpacking libdb5.3t64:amd64 (5.3.28+dfsg2-7) ...
+Setting up libdb5.3t64:amd64 (5.3.28+dfsg2-7) ...
+dpkg: libgdbm6:amd64: dependency problems, but removing anyway as you requested:
+ libperl5.36:amd64 depends on libgdbm6 (>= 1.21).
+ libgdbm-compat4:amd64 depends on libgdbm6 (>= 1.16).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27597 files and directories currently installed.)
+Removing libgdbm6:amd64 (1.22-1) ...
+Selecting previously unselected package libgdbm6t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27591 files and directories currently installed.)
+Preparing to unpack .../00-libgdbm6t64_1.23-5.1build1_amd64.deb ...
+Unpacking libgdbm6t64:amd64 (1.23-5.1build1) ...
+Selecting previously unselected package libapr1t64:amd64.
+Preparing to unpack .../01-libapr1t64_1.7.2-3.1ubuntu0.1_amd64.deb ...
+Unpacking libapr1t64:amd64 (1.7.2-3.1ubuntu0.1) ...
+Selecting previously unselected package libaprutil1t64:amd64.
+Preparing to unpack .../02-libaprutil1t64_1.6.3-1.1ubuntu7_amd64.deb ...
+Unpacking libaprutil1t64:amd64 (1.6.3-1.1ubuntu7) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../03-libaprutil1-dbd-sqlite3_1.6.3-1.1ubuntu7_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.3-1.1ubuntu7) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../04-libaprutil1-ldap_1.6.3-1.1ubuntu7_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.6.3-1.1ubuntu7) ...
+Selecting previously unselected package liblua5.4-0:amd64.
+Preparing to unpack .../05-liblua5.4-0_5.4.6-3build2_amd64.deb ...
+Unpacking liblua5.4-0:amd64 (5.4.6-3build2) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../06-apache2-bin_2.4.58-1ubuntu8.5_amd64.deb ...
+Unpacking apache2-bin (2.4.58-1ubuntu8.5) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../07-apache2-data_2.4.58-1ubuntu8.5_all.deb ...
+Unpacking apache2-data (2.4.58-1ubuntu8.5) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../08-apache2-utils_2.4.58-1ubuntu8.5_amd64.deb ...
+Unpacking apache2-utils (2.4.58-1ubuntu8.5) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../09-apache2_2.4.58-1ubuntu8.5_amd64.deb ...
+Unpacking apache2 (2.4.58-1ubuntu8.5) ...
+Selecting previously unselected package psmisc.
+Preparing to unpack .../10-psmisc_23.7-1build1_amd64.deb ...
+Unpacking psmisc (23.7-1build1) ...
+Selecting previously unselected package publicsuffix.
+Preparing to unpack .../11-publicsuffix_20231001.0357-0.1_all.deb ...
+Unpacking publicsuffix (20231001.0357-0.1) ...
+Selecting previously unselected package javascript-common.
+Preparing to unpack .../12-javascript-common_11+nmu1_all.deb ...
+Unpacking javascript-common (11+nmu1) ...
+Selecting previously unselected package php-common.
+Preparing to unpack .../13-php-common_2%3a93ubuntu2_all.deb ...
+Unpacking php-common (2:93ubuntu2) ...
+Selecting previously unselected package php8.3-common.
+Preparing to unpack .../14-php8.3-common_8.3.6-0ubuntu0.24.04.3_amd64.deb ...
+Unpacking php8.3-common (8.3.6-0ubuntu0.24.04.3) ...
+Selecting previously unselected package php8.3-opcache.
+Preparing to unpack .../15-php8.3-opcache_8.3.6-0ubuntu0.24.04.3_amd64.deb ...
+Unpacking php8.3-opcache (8.3.6-0ubuntu0.24.04.3) ...
+Selecting previously unselected package php8.3-readline.
+Preparing to unpack .../16-php8.3-readline_8.3.6-0ubuntu0.24.04.3_amd64.deb ...
+Unpacking php8.3-readline (8.3.6-0ubuntu0.24.04.3) ...
+Selecting previously unselected package libsodium23:amd64.
+Preparing to unpack .../17-libsodium23_1.0.18-1build3_amd64.deb ...
+Unpacking libsodium23:amd64 (1.0.18-1build3) ...
+Selecting previously unselected package php8.3-cli.
+Preparing to unpack .../18-php8.3-cli_8.3.6-0ubuntu0.24.04.3_amd64.deb ...
+Unpacking php8.3-cli (8.3.6-0ubuntu0.24.04.3) ...
+Selecting previously unselected package libapache2-mod-php8.3.
+Preparing to unpack .../19-libapache2-mod-php8.3_8.3.6-0ubuntu0.24.04.3_amd64.deb ...
+Unpacking libapache2-mod-php8.3 (8.3.6-0ubuntu0.24.04.3) ...
+Selecting previously unselected package libapache2-mod-php.
+Preparing to unpack .../20-libapache2-mod-php_2%3a8.3+93ubuntu2_all.deb ...
+Unpacking libapache2-mod-php (2:8.3+93ubuntu2) ...
+Selecting previously unselected package libldap-common.
+Preparing to unpack .../21-libldap-common_2.6.7+dfsg-1~exp1ubuntu8.2_all.deb ...
+Unpacking libldap-common (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+Selecting previously unselected package libonig5:amd64.
+Preparing to unpack .../22-libonig5_6.9.9-1build1_amd64.deb ...
+Unpacking libonig5:amd64 (6.9.9-1build1) ...
+Selecting previously unselected package php8.3-mbstring.
+Preparing to unpack .../23-php8.3-mbstring_8.3.6-0ubuntu0.24.04.3_amd64.deb ...
+Unpacking php8.3-mbstring (8.3.6-0ubuntu0.24.04.3) ...
+Selecting previously unselected package php-mbstring.
+Preparing to unpack .../24-php-mbstring_2%3a8.3+93ubuntu2_all.deb ...
+Unpacking php-mbstring (2:8.3+93ubuntu2) ...
+Selecting previously unselected package php8.3-sqlite3.
+Preparing to unpack .../25-php8.3-sqlite3_8.3.6-0ubuntu0.24.04.3_amd64.deb ...
+Unpacking php8.3-sqlite3 (8.3.6-0ubuntu0.24.04.3) ...
+Selecting previously unselected package php-sqlite3.
+Preparing to unpack .../26-php-sqlite3_2%3a8.3+93ubuntu2_all.deb ...
+Unpacking php-sqlite3 (2:8.3+93ubuntu2) ...
+Selecting previously unselected package libjs-codemirror.
+Preparing to unpack .../27-libjs-codemirror_5.65.0+~cs5.83.9-3_all.deb ...
+Unpacking libjs-codemirror (5.65.0+~cs5.83.9-3) ...
+Selecting previously unselected package phpliteadmin.
+Preparing to unpack .../28-phpliteadmin_1.9.8.2-2_all.deb ...
+Unpacking phpliteadmin (1.9.8.2-2) ...
+Preparing to unpack .../29-p11-kit_0.25.3-4ubuntu2.1_amd64.deb ...
+Unpacking p11-kit (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Setting up javascript-common (11+nmu1) ...
+
+Configuration file '/etc/apache2/conf-available/javascript-common.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/lighttpd/conf-available/90-javascript-alias.conf', does not exist on system.
+Installing new config file as you requested.
+Package apache2 is not configured yet. Will defer actions by package javascript-common.
+Setting up libsodium23:amd64 (1.0.18-1build3) ...
+Setting up libgdbm6t64:amd64 (1.23-5.1build1) ...
+Setting up psmisc (23.7-1build1) ...
+Setting up libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Setting up libpsl5t64:amd64 (0.21.2-1.1build1) ...
+Setting up libldap-common (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+
+Configuration file '/etc/ldap/ldap.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up p11-kit-modules:amd64 (0.25.3-4ubuntu2.1) ...
+Setting up libgnutls-dane0t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+Setting up libjs-codemirror (5.65.0+~cs5.83.9-3) ...
+Setting up libssh-4:amd64 (0.10.6-2build2) ...
+Setting up libapr1t64:amd64 (1.7.2-3.1ubuntu0.1) ...
+Setting up liblua5.4-0:amd64 (5.4.6-3build2) ...
+Setting up apache2-data (2.4.58-1ubuntu8.5) ...
+Setting up p11-kit (0.25.3-4ubuntu2.1) ...
+Setting up publicsuffix (20231001.0357-0.1) ...
+Setting up libldap2:amd64 (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+Setting up libonig5:amd64 (6.9.9-1build1) ...
+Setting up gnutls-bin (3.8.3-1.1ubuntu3.3) ...
+Setting up libaprutil1t64:amd64 (1.6.3-1.1ubuntu7) ...
+Setting up php-common (2:93ubuntu2) ...
+
+Configuration file '/etc/cron.d/php', does not exist on system.
+Installing new config file as you requested.
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-helper line 682.
+/var/lib/dpkg/info/php-common.postinst: 36: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+phpsessionclean.timer is a disabled or a static unit, not starting it.
+/var/lib/dpkg/info/php-common.postinst: 49: systemctl: not found
+Setting up libcurl4t64:amd64 (8.5.0-2ubuntu10.6) ...
+Setting up php8.3-common (8.3.6-0ubuntu0.24.04.3) ...
+
+Creating config file /etc/php/8.3/mods-available/calendar.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/ctype.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/exif.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/fileinfo.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/ffi.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/ftp.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/gettext.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/iconv.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/pdo.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/phar.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/posix.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/shmop.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/sockets.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/sysvmsg.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/sysvsem.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/sysvshm.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/tokenizer.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+Setting up libaprutil1-ldap:amd64 (1.6.3-1.1ubuntu7) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.3-1.1ubuntu7) ...
+Setting up php8.3-sqlite3 (8.3.6-0ubuntu0.24.04.3) ...
+
+Creating config file /etc/php/8.3/mods-available/sqlite3.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+
+Creating config file /etc/php/8.3/mods-available/pdo_sqlite.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+Setting up php8.3-mbstring (8.3.6-0ubuntu0.24.04.3) ...
+
+Creating config file /etc/php/8.3/mods-available/mbstring.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+Setting up php8.3-readline (8.3.6-0ubuntu0.24.04.3) ...
+
+Creating config file /etc/php/8.3/mods-available/readline.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+Setting up curl (8.5.0-2ubuntu10.6) ...
+Setting up php8.3-opcache (8.3.6-0ubuntu0.24.04.3) ...
+
+Creating config file /etc/php/8.3/mods-available/opcache.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+Setting up apache2-utils (2.4.58-1ubuntu8.5) ...
+Setting up php-sqlite3 (2:8.3+93ubuntu2) ...
+Setting up php8.3-cli (8.3.6-0ubuntu0.24.04.3) ...
+update-alternatives: using /usr/bin/php8.3 to provide /usr/bin/php (php) in auto mode
+update-alternatives: using /usr/bin/phar8.3 to provide /usr/bin/phar (phar) in auto mode
+update-alternatives: using /usr/bin/phar.phar8.3 to provide /usr/bin/phar.phar (phar.phar) in auto mode
+
+Creating config file /etc/php/8.3/cli/php.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+Setting up apache2-bin (2.4.58-1ubuntu8.5) ...
+Setting up php-mbstring (2:8.3+93ubuntu2) ...
+Setting up libapache2-mod-php8.3 (8.3.6-0ubuntu0.24.04.3) ...
+
+Configuration file '/etc/apache2/mods-available/php8.3.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/php8.3.load', does not exist on system.
+Installing new config file as you requested.
+Package apache2 is not configured yet. Will defer actions by package libapache2-mod-php8.3.
+
+Creating config file /etc/php/8.3/apache2/php.ini with new version
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+logger: socket /dev/log: Connection refused
+No module matches 
+Setting up phpliteadmin (1.9.8.2-2) ...
+
+Configuration file '/etc/apache2/conf-available/phpliteadmin.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/phpliteadmin.config.php', does not exist on system.
+Installing new config file as you requested.
+Package apache2 is not configured yet. Will defer actions by package phpliteadmin.
+Setting up apache2 (2.4.58-1ubuntu8.5) ...
+
+Configuration file '/etc/apache2/apache2.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/conf-available/charset.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/conf-available/localized-error-pages.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/conf-available/other-vhosts-access-log.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/conf-available/security.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/conf-available/serve-cgi-bin.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/envvars', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/magic', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/access_compat.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/actions.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/actions.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/alias.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/alias.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/allowmethods.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/asis.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/auth_basic.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/auth_digest.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/auth_form.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authn_anon.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authn_core.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authn_dbd.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authn_dbm.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authn_file.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authn_socache.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authnz_fcgi.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authnz_ldap.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authz_core.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authz_dbd.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authz_dbm.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authz_groupfile.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authz_host.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authz_owner.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/authz_user.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/autoindex.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/autoindex.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/brotli.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/buffer.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/cache.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/cache_disk.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/cache_disk.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/cache_socache.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/cern_meta.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/cgi.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/cgid.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/cgid.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/charset_lite.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/data.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/dav.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/dav_fs.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/dav_fs.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/dav_lock.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/dbd.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/deflate.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/deflate.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/dialup.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/dir.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/dir.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/dump_io.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/echo.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/env.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/expires.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/ext_filter.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/file_cache.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/filter.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/headers.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/heartbeat.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/heartmonitor.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/http2.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/http2.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/ident.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/imagemap.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/include.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/info.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/info.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/lbmethod_bybusyness.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/lbmethod_byrequests.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/lbmethod_bytraffic.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/lbmethod_heartbeat.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/ldap.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/ldap.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/log_debug.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/log_forensic.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/lua.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/macro.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/md.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mime.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mime.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mime_magic.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mime_magic.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mpm_event.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mpm_event.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mpm_prefork.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mpm_prefork.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mpm_worker.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/mpm_worker.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/negotiation.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/negotiation.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_ajp.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_balancer.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_balancer.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_connect.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_express.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_fcgi.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_fdpass.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_ftp.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_ftp.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_hcheck.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_html.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_html.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_http.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_http2.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_scgi.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_uwsgi.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/proxy_wstunnel.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/ratelimit.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/reflector.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/remoteip.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/reqtimeout.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/reqtimeout.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/request.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/rewrite.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/sed.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/session.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/session_cookie.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/session_crypto.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/session_dbd.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/setenvif.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/setenvif.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/slotmem_plain.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/slotmem_shm.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/socache_dbm.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/socache_memcache.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/socache_redis.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/socache_shmcb.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/speling.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/ssl.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/ssl.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/status.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/status.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/substitute.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/suexec.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/unique_id.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/userdir.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/userdir.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/usertrack.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/vhost_alias.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/mods-available/xml2enc.load', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/ports.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/sites-available/000-default.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/apache2/sites-available/default-ssl.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/cron.daily/apache2', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/default/apache-htcacheclean', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/init.d/apache-htcacheclean', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/init.d/apache2', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/logrotate.d/apache2', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ufw/applications.d/apache2-utils.ufw.profile', does not exist on system.
+Installing new config file as you requested.
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+info: Executing deferred 'a2enconf javascript-common' for package javascript-common
+logger: socket /dev/log: Connection refused
+Enabling conf javascript-common.
+info: Switch to mpm prefork for package libapache2-mod-php8.3
+logger: socket /dev/log: Connection refused
+Module mpm_event disabled.
+Enabling module mpm_prefork.
+info: Executing deferred 'a2enmod php8.3' for package libapache2-mod-php8.3
+logger: socket /dev/log: Connection refused
+Enabling module php8.3.
+info: Executing deferred 'a2enconf phpliteadmin' for package phpliteadmin
+logger: socket /dev/log: Connection refused
+Enabling conf phpliteadmin.
+Can't exec "systemctl": No such file or directory at /usr/sbin/update-rc.d line 98.
+/usr/sbin/invoke-rc.d: 290: systemctl: not found
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: WARNING: No init system and policy-rc.d missing! Defaulting to block.
+Can't exec "systemctl": No such file or directory at /usr/sbin/update-rc.d line 98.
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-helper line 682.
+/var/lib/dpkg/info/apache2.postinst: line 322: systemctl: command not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+apache2.service is a disabled or a static unit, not starting it.
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-helper line 682.
+/var/lib/dpkg/info/apache2.postinst: line 352: systemctl: command not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+apache-htcacheclean.service is a disabled or a static unit, not starting it.
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-helper line 682.
+Can't exec "systemctl": No such file or directory at /usr/sbin/update-rc.d line 98.
+Setting up libapache2-mod-php (2:8.3+93ubuntu2) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for php8.3-cli (8.3.6-0ubuntu0.24.04.3) ...
+Processing triggers for libapache2-mod-php8.3 (8.3.6-0ubuntu0.24.04.3) ...
+apache2_reload: Your configuration is broken. Not restarting Apache 2
+logger: socket /dev/log: Connection refused
+apache2_reload: mktemp: failed to create directory via template '/var/lock/apache2.XXXXXXXXXX': No such file or directory
+logger: socket /dev/log: Connection refused
+apache2_reload: chmod: missing operand after '755'
+logger: socket /dev/log: Connection refused
+apache2_reload: Try 'chmod --help' for more information.
+logger: socket /dev/log: Connection refused
