@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: sdl-ball.linyaps
+  name: sdl-ball
+  version: 1.4.0.1
+  kind: app
+  description: |-
+    brick-breaking game like DX-Ball/Arkanoid
+    Your mission: To smash your way through a series of progressively harder
+    and more tricky levels.
+    Your tools: Ultrakinetic titanium balls and your trusty
+    Gruntmazter-3000-Paddle edition.
+command:
+- /opt/apps/sdl-ball.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
