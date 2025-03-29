@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: nlkt.linyaps
+  name: nlkt
+  version: 0.3.2.2
+  kind: app
+  description: |-
+    non-linear keyboard trainer
+    Nlkt is a lightweight keyboard trainer (touch-typing tutor).
+
+    Non-linearness means that the program use dynamic, not static exercises, which
+    are based on the current user's progress and mistakes.
+
+    Exercises are built from user's mistakes and fortunes.
+
+    Features: multiple accounts for single user, support for several layouts,
+    visual keyboard state, keyboard hints.
+command:
+- /opt/apps/nlkt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
