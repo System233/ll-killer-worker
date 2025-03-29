@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: sudoku-solver.linyaps
+  name: sudoku-solver
+  version: 1.0.1.4
+  kind: app
+  description: |-
+    sudoku puzzles solver
+    Sudoku solver that contains several logical resolution methods, as well as
+    brute force selection.
+command:
+- /opt/apps/sudoku-solver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
