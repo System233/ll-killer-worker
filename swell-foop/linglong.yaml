@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: swell-foop.linyaps
+  name: swell-foop
+  version: 46.0.0.1
+  kind: app
+  description: |-
+    Colored ball puzzle game
+    Remove blocks of balls of the same color in as few moves as possible. Try to
+    remove all balls for a bonus.
+command:
+- /opt/apps/swell-foop.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
