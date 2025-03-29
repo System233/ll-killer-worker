@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: ubiquity-frontend-gtk.linyaps
+  name: ubiquity-frontend-gtk
+  version: 24.4.5.0
+  kind: app
+  description: |-
+    GTK+ frontend for Ubiquity live installer
+    This package provides a GTK+-based user interface frontend for the Ubiquity
+    live CD installer.
+command:
+- /opt/apps/ubiquity-frontend-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
