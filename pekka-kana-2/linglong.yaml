@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: pekka-kana-2.linyaps
+  name: pekka-kana-2
+  version: 1.2.7.1
+  kind: app
+  description: |-
+    2D Oldschool platform game where you control a rooster
+    Your mission in Pekka Kana 2 is to save Pekka's chicken friends
+    from an evil crow.
+
+    The simple goal in each level is to find the exit sign, which is usually
+    not that simple as it sounds because of enemies, traps, and quirky puzzles.
+command:
+- /opt/apps/pekka-kana-2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
