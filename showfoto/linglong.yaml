@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: showfoto.linyaps
+  name: showfoto
+  version: 8.2.0.0
+  kind: app
+  description: |-
+    image viewer/editor for KDE
+    showFoto is the standalone image editor of the digiKam project.
+
+    It runs without digiKam images database support, but provides all Image Editor
+    functions.
+command:
+- /opt/apps/showfoto.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
