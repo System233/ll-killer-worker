@@ -1,0 +1,55 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ gir1.2-gstreamer-1.0 : Depends: libgstreamer1.0-0 (>= 1.23.90) but 1.22.6-1 is to be installed
+ gstreamer1.0-libav : Depends: libavcodec60 (>= 7:6.0)
+                      Depends: libavfilter9 (>= 7:6.0)
+                      Depends: libavformat60 (>= 7:6.0)
+                      Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                      Depends: libgstreamer1.0-0 (>= 1.24.0) but 1.22.6-1 is to be installed
+ gstreamer1.0-plugins-base : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                             Depends: libgstreamer1.0-0 (>= 1.24.0) but 1.22.6-1 is to be installed
+ gstreamer1.0-plugins-good : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                             Depends: libgstreamer1.0-0 (>= 1.24.0) but 1.22.6-1 is to be installed
+                             Recommends: gstreamer1.0-x but it is not installable
+ libdbusmenu-glib4 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libdee-1.0-4 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libgexiv2-2 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libgirepository-1.0-1 : Depends: libglib2.0-0t64 (>= 2.80.0) but it is not installable
+ libgstreamer-plugins-base1.0-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                                  Depends: libgstreamer1.0-0 (>= 1.24.0) but 1.22.6-1 is to be installed
+ libgstreamer-plugins-good1.0-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                                  Depends: libgstreamer1.0-0 (>= 1.24.0) but 1.22.6-1 is to be installed
+ libgudev-1.0-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libnotify4 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libqt5core5t64 : Depends: libglib2.0-0t64 (>= 2.22.0) but it is not installable
+ libqt5designer5 : Depends: libqt5gui5t64 (>= 5.14.1) but it is not installable or
+                            libqt5gui5-gles (>= 5.14.1) but it is not installable
+ libqt5help5 : Depends: libqt5gui5t64 (>= 5.0.2) but it is not installable or
+                        libqt5gui5-gles (>= 5.0.2) but it is not installable
+ libqt5printsupport5t64 : Depends: libqt5gui5t64 (>= 5.14.1) but it is not installable or
+                                   libqt5gui5-gles (>= 5.14.1) but it is not installable
+ libqt5svg5 : Depends: libqt5gui5t64 (>= 5.15.13+dfsg~) but it is not installable or
+                       libqt5gui5-gles (>= 5.15.13+dfsg~) but it is not installable
+ libqt5widgets5t64 : Depends: libqt5gui5t64 (>= 5.15.1) but it is not installable or
+                              libqt5gui5-gles (>= 5.15.1) but it is not installable
+ libsoup-3.0-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libudisks2-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libunity-protocol-private0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libunity9 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ python3-gi : Depends: libglib2.0-0t64 (>= 2.77.0) but it is not installable
+ python3-pyqt5 : Depends: libqt5gui5t64 (>= 5.15) but it is not installable
+                 Depends: libqt5gui5t64 (>= 5.15.1) but it is not installable or
+                          libqt5gui5-gles (>= 5.15.1) but it is not installable
+ qt5-image-formats-plugins : Depends: libqt5gui5t64 (>= 5.15.13+dfsg~) but it is not installable or
+                                      libqt5gui5-gles (>= 5.15.13+dfsg~) but it is not installable
+E: Unable to correct problems, you have held broken packages.
