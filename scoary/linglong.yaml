@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: scoary.linyaps
+  name: scoary
+  version: 1.6.16.6
+  kind: app
+  description: |-
+    pangenome-wide association studies
+    Scoary is designed to take the gene_presence_absence.csv file from
+    Roary as well as a traits file created by the user and calculate the
+    associations between all genes in the accessory genome and the traits. It
+    reports a list of genes sorted by strength of association per trait.
+command:
+- /opt/apps/scoary.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
