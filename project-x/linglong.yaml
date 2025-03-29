@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: project-x.linyaps
+  name: project-x
+  version: 0.90.4.0
+  kind: app
+  description: |-
+    DVB demuxing tool
+    European digital radio & television uses the DVB standard to broadcast its
+    data. Project X gives you a look behind the transmissions and tries its
+    best to handle & repair many stream types and shows what went wrong on
+    reception.
+command:
+- /opt/apps/project-x.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
