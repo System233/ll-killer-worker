@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: python3-navarp.linyaps
+  name: python3-navarp
+  version: 1.6.0.2
+  kind: app
+  description: |-
+    Navigation tool for ARPES data (Python 3)
+    NavARP provides a navigation tool for Angle Resolved Photoemission
+    spectroscopy data.  NavARP is a companion app during ARPES data
+    acquitision (as in beamtime) and set of dedicated libraries helping to
+    get high quality figures for publication.
+
+    This package installs the navarp utility for Python 3.
+command:
+- /opt/apps/python3-navarp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
