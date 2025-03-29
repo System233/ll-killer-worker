@@ -1,0 +1,29 @@
+正在测试: APPID=netgen.linyaps LAYER=netgen.linyaps_6.2.2401.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install netgen.linyaps_6.2.2401.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:netgen.linyaps
+Layer文件:netgen.linyaps_6.2.2401.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: netgen.linyaps_6.2.2401.1_x86_64_binary.layer
+offset: 645
+mountpoint: /tmp/tmp.FnYMnhPjEk/mnt
+dbglevel: 0
+find: ‘/opt/apps/netgen.linyaps/files/share/icons’: No such file or directory
+[成功] netgen.desktop: netgen16x16 -> /opt/apps/netgen.linyaps/files/share/pixmaps/netgen16x16.xpm
+[成功] /opt/apps/netgen.linyaps/files/share/applications/netgen.desktop: /opt/apps/netgen.linyaps/files/entrypoint.sh sh -c 'LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/netgen NETGENDIR=/usr/share/netgen /usr/bin/netgen'
+[正在测试启动项]
+包名:netgen.linyaps
+Layer文件:netgen.linyaps_6.2.2401.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: netgen.linyaps_6.2.2401.1_x86_64_binary.layer
+offset: 645
+mountpoint: /tmp/tmp.gbJYMXDiBq/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run netgen.linyaps -- /opt/apps/netgen.linyaps/files/entrypoint.sh sh -c 'LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/netgen NETGENDIR=/usr/share/netgen /usr/bin/netgen'
+[PID 11455] 进程已启动
+[PID 11455] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall netgen.linyaps
