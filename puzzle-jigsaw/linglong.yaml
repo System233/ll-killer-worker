@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: puzzle-jigsaw.linyaps
+  name: puzzle-jigsaw
+  version: 1.0.2.4
+  kind: app
+  description: |-
+    tile puzzle game
+    puzzle-jigsaw is a tile puzzle that requires the assembly of often oddly
+    shaped interlocking and mosaiced pieces.
+command:
+- /opt/apps/puzzle-jigsaw.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
