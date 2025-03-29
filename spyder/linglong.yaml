@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: spyder.linyaps
+  name: spyder
+  version: 5.5.1.1
+  kind: app
+  description: |-
+    Richly-featured Python IDE
+    Spyder is a powerful interactive development environment for Python
+    providing many features and facilities, including advanced editing facilities
+    (including tooltips and completion facilities), issue highlighting,
+    interactive testing, debugging and introspection facilities, an embedded
+    console (IPython) supporting graphics and much more.
+
+    This package provides the application.
+
+    There is one plugin currently available in Debian: spyder-unittest,
+    in the package python3-spyder-unittest.
+command:
+- /opt/apps/spyder.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
