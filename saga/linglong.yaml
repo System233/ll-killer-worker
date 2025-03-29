@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: saga.linyaps
+  name: saga
+  version: 9.3.1.3
+  kind: app
+  description: |-
+    System for Automated Geoscientific Analyses
+    SAGA GIS (System for Automated Geoscientific Analyses) is a free and
+    open source geographic information system used for editing and
+    analysing spatial data. It includes a large number of modules for the
+    analysis of vector (point, line and polygon), table, grid and image
+    data. Among others the package includes modules for geostatistics,
+    image classification, projections, simulation of dynamic processes
+    (hydrology, landscape development) and terrain analysis.
+    The functionality can be accessed through a GUI, the command line or
+    by using the C++ API.
+command:
+- /opt/apps/saga.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
