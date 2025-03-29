@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: phosh-antispam.linyaps
+  name: phosh-antispam
+  version: 3.4.0.1
+  kind: app
+  description: |-
+    Reject spam calls for gnome-calls
+    Phosh Antispam is a program that monitors GNOME Calls and
+    automatically hangs up depending on the user's preferences.
+command:
+- /opt/apps/phosh-antispam.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
