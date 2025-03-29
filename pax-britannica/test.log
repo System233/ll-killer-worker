@@ -1,0 +1,29 @@
+正在测试: APPID=pax-britannica.linyaps LAYER=pax-britannica.linyaps_1.0.0.5_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install pax-britannica.linyaps_1.0.0.5_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:pax-britannica.linyaps
+Layer文件:pax-britannica.linyaps_1.0.0.5_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pax-britannica.linyaps_1.0.0.5_arm64_binary.layer
+offset: 835
+mountpoint: /tmp/tmp.WLzhGXLL5n/mnt
+dbglevel: 0
+find: ‘/opt/apps/pax-britannica.linyaps/files/share/icons’: No such file or directory
+[成功] pax-britannica.desktop: pax-britannica -> /opt/apps/pax-britannica.linyaps/files/share/pixmaps/pax-britannica.png
+[成功] /opt/apps/pax-britannica.linyaps/files/share/applications/pax-britannica.desktop: /opt/apps/pax-britannica.linyaps/files/entrypoint.sh pax-britannica
+[正在测试启动项]
+包名:pax-britannica.linyaps
+Layer文件:pax-britannica.linyaps_1.0.0.5_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pax-britannica.linyaps_1.0.0.5_arm64_binary.layer
+offset: 835
+mountpoint: /tmp/tmp.sJXcyVTsXI/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run pax-britannica.linyaps -- /opt/apps/pax-britannica.linyaps/files/entrypoint.sh pax-britannica
+[PID 5527] 进程已启动
+[PID 5527] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall pax-britannica.linyaps
