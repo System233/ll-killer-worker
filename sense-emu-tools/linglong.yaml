@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: sense-emu-tools.linyaps
+  name: sense-emu-tools
+  version: 1.2.0.0
+  kind: app
+  description: |-
+    Emulator for the Raspberry Pi Sense HAT.
+    sense-emu is an emulator of the Raspberry Pi Sense HAT which runs on multiple
+    platforms, and provides an emulation of each sensor on the HAT, along with the
+    pixel display and the joystick. The API is exactly the same as the official
+    API, meaning code developed against the emulator should require no more than
+    a one word change to run on the actual HAT.
+
+    This is the tools (GUI and command line) for the emulator.
+command:
+- /opt/apps/sense-emu-tools.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
