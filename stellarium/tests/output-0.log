@@ -1,0 +1,325 @@
+包名:stellarium.linyaps
+Layer文件:stellarium.linyaps_23.4.0.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: stellarium.linyaps_23.4.0.2_x86_64_binary.layer
+offset: 1821
+mountpoint: /tmp/tmp.GkSLeRy5P5/mnt
+dbglevel: 0
+MESA: error: ZINK: failed to choose pdev
+glx: failed to create drisw screen
+failed to load driver: zink
+User config directory does not exist:  "/home/runner/.stellarium"
+Creating directory  "/home/runner/.stellarium"
+ -------------------------------------------------------------
+[ This is Stellarium 24.4 (v24.4.0) - https://stellarium.org/ ]
+[ Copyright (C) 2000-2024 Stellarium Developers               ]
+ -------------------------------------------------------------
+Writing log file to: /home/runner/.stellarium/log.txt
+File search paths:
+ [0]: /home/runner/.stellarium
+ [1]: /usr/share/stellarium
+Config file /home/runner/.stellarium/config.ini does not exist. Copying the default file.
+Config file: /home/runner/.stellarium/config.ini
+Default surface format:  QSurfaceFormat(version 2.0, options QFlags<QSurfaceFormat::FormatOption>(), depthBufferSize -1, redBufferSize -1, greenBufferSize -1, blueBufferSize -1, alphaBufferSize -1, stencilBufferSize -1, samples -1, swapBehavior QSurfaceFormat::DefaultSwapBehavior, swapInterval 1, colorSpace QSurfaceFormat::DefaultColorSpace, profile  QSurfaceFormat::NoProfile)
+OpenGL module type: desktop OpenGL
+Warning: Setting a new default format with a different version or profile after the global shared context is created may cause issues with context sharing.
+Couldn't load translations for language  "C" in section "stellarium"
+Empty translation file for language  "C" in section "stellarium"
+Default surface format:  QSurfaceFormat(version 3.3, options QFlags<QSurfaceFormat::FormatOption>(), depthBufferSize 24, redBufferSize 8, greenBufferSize 8, blueBufferSize 8, alphaBufferSize -1, stencilBufferSize 8, samples -1, swapBehavior QSurfaceFormat::DefaultSwapBehavior, swapInterval 1, colorSpace QSurfaceFormat::DefaultColorSpace, profile  QSurfaceFormat::CoreProfile)
+OpenGL module type: desktop OpenGL
+StelGLWidget constructor
+StelGraphicsScene constructor
+initializeGL(windowWidth = 1024, windowHeight = 768)
+OpenGL supported version:  "4.5 (Core Profile) Mesa 24.0.1-1deepin3"
+Current Format:  QSurfaceFormat(version 4.5, options QFlags<QSurfaceFormat::FormatOption>(), depthBufferSize 24, redBufferSize 8, greenBufferSize 8, blueBufferSize 8, alphaBufferSize 0, stencilBufferSize 8, samples 0, swapBehavior QSurfaceFormat::DefaultSwapBehavior, swapInterval 1, colorSpace QSurfaceFormat::DefaultColorSpace, profile  QSurfaceFormat::CoreProfile)
+Initialization StelMainView
+Luminance textures are not supported
+Maximum texture anisotropy: 16
+Maximum 2D texture size: 16384
+Detected: OpenGL 4.5
+Driver version string: 4.5 (Core Profile) Mesa 24.0.1-1deepin3
+GL vendor: Mesa
+GL renderer: llvmpipe (LLVM 17.0.6, 256 bits)
+GL Shading Language version: 4.50
+MESA Version Number detected: 24
+Mesa version is fine, we should not see a graphics problem.
+GLSL Version Number detected: 4.5
+GLSL version is fine, we should not see a graphics problem.
+stel.OpenGLArray: Vertex Array Objects are supported
+Couldn't load translations for language  "C" in section "stellarium-skycultures"
+Empty translation file for language  "C" in section "stellarium-skycultures"
+Sky language: C
+Couldn't load translations for language  "C" in section "stellarium-planetary-features"
+Empty translation file for language  "C" in section "stellarium-planetary-features"
+Planetary features language: C
+Couldn't load translations for language  "C" in section "stellarium"
+Empty translation file for language  "C" in section "stellarium"
+Application language: C
+Couldn't load translations for language  "C" in section "stellarium-scripts"
+Empty translation file for language  "C" in section "stellarium-scripts"
+Scripts language: C
+Cache directory: /home/runner/.cache/stellarium/stellarium
+Loaded 252 countries
+Loaded 193 regions
+Loading Solar System data (1: planets and moons) ...
+Loading from: /usr/share/stellarium/data/ssystem_major.ini
+Solar System has 83 entries.
+Loaded 83 Solar System bodies
+Loading Solar System data (2: minor bodies) ...
+Loading from: /usr/share/stellarium/data/ssystem_minor.ini
+Solar System has 359 entries.
+Loaded 276 Solar System bodies
+File ssystem_minor.ini is loaded successfully...
+libpng warning: iCCP: profile 'ICC profile': 'RGB ': RGB color space not permitted on grayscale PNG
+Loading nomenclature for Solar system bodies ...
+Loaded 15933 / 15946 items of planetary surface nomenclature
+INFO: Cannot find these planetary objects to assign nomenclature items: "Dactyl, Dimorphos"
+Could not find the starsConfig.json file: will copy the default one.
+Creating directory  "/home/runner/.stellarium/stars/default"
+Creates file  "/home/runner/.stellarium/stars/default/starsConfig.json"
+Loading star data ...
+Loading star catalog: /usr/share/stellarium/stars/default/stars_0_0v0_8.cat - 0_0v0_8; 4979 entries
+Loading star catalog: /usr/share/stellarium/stars/default/stars_1_0v0_8.cat - 1_0v0_8; 21806 entries
+Loading star catalog: /usr/share/stellarium/stars/default/stars_2_0v0_8.cat - 2_0v0_8; 150826 entries
+Loading star catalog: /usr/share/stellarium/stars/default/stars_3_1v0_4.cat - 3_1v0_4; 425807 entries
+Finished loading star catalogue data, max_geodesic_level: 3
+Loading scientific star names from /usr/share/stellarium/stars/default/name.fab
+Loaded 4942 / 4942 scientific star names
+Loading scientific star extra names from /usr/share/stellarium/stars/default/extra_name.fab
+Loaded 26200 / 26200 scientific star extra names
+Loading variable stars from /usr/share/stellarium/stars/default/gcvs_hip_part.dat
+Loaded 6862 / 6862 variable stars
+Loading double stars from /usr/share/stellarium/stars/default/wds_hip_part.dat
+Loaded 22992 / 22992 double stars
+Loading cross-identification data from /usr/share/stellarium/stars/default/cross-id.dat
+libpng warning: iCCP: profile 'icc': 'GRAY': Gray color space not permitted on RGB PNG
+Loaded 108378 / 108378 cross-identification data records for stars
+Loading parallax errors data from /usr/share/stellarium/stars/default/hip_plx_err.dat
+Loaded 117703 / 117703 parallax error data records for stars
+Loading proper motion data from /usr/share/stellarium/stars/default/hip_pm.dat
+Loaded 117955 / 117955 proper motion data records for stars
+navigation/preset_sky_time is a double - treating as jday: 2451514.25001
+Loading DSO data ...
+[...] Stellarium DSO Catalog, version 3.20 (standard edition)
+Loaded 94660 DSO records
+Loading DSO outline data ...
+Loaded 98 DSO outline records successfully
+Loading DSO discovery data ...
+Loaded 183 / 183 DSO discovery records successfully
+LandscapeMgr: initialized Cache for 100 MB.
+Got location ", , United States (37.751, -97.822; America/Chicago)" for IP "20.169.0.199"
+Loading star names from /usr/share/stellarium/skycultures/modern/star_names.fab
+Loaded 1104 / 1104 common star names
+Loading DSO name data ...
+Loaded 1338 / 1363 DSO name records successfully
+WARNING - No position data for 25 objects: PGC 2798, PGC 2907, PGC 23521, PGC 28759, PGC 29167, PGC 34658, PGC 42102, PGC 44750, PGC 54559, PGC 59117, PGC 59858, PGC 59953, PGC 69018, PGC 69877, PGC 73957, PGC 95597, PGC 100170, PGC 100170, PGC 119230, PGC 1000714, PGC 1436754, PGC 1694462, PGC 2822840, PGC 2826829, PGC 3098124
+Loaded 88 / 88 constellation records successfully for culture "modern"
+Loaded 85 / 85 constellation art records successfully for culture "modern"
+Loaded 88 / 88 constellation names
+Loading constellation boundary data ... 
+Loaded 782 constellation boundary segments
+Error in asterism "TA6" - can't find star with coordinates 2.14697 / 8.55097
+ERROR reading asterism lines record at line  88 for culture "modern"
+Loaded 83 / 84 asterism records successfully for culture "modern"
+WARNING - asterism abbreviation "TA6" not found when loading asterism names
+Loaded 73 / 74 asterism names
+Initializing basic GL shaders... 
+Creating GUI ...
+Loading style file: :/graphicGui/normalStyle.css
+Loaded plugin "Exoplanets"
+Creating directory  "/home/runner/.stellarium/modules/Exoplanets"
+[Exoplanets] No Exoplanets section exists in main config file - creating with defaults
+[Exoplanets] exoplanets.json does not exist - copying default catalog to /home/runner/.stellarium/modules/Exoplanets/exoplanets.json
+[Exoplanets] Default exoplanets.json to /home/runner/.stellarium/modules/Exoplanets/exoplanets.json
+[Exoplanets] loading catalog file: /home/runner/.stellarium/modules/Exoplanets/exoplanets.json
+Loaded plugin "MeteorShowers"
+Creating directory  "/home/runner/.stellarium/modules/MeteorShowers"
+[MeteorShowersMgr] Loading catalog file: /home/runner/.stellarium/modules/MeteorShowers/MeteorShowers.json
+[MeteorShowersMgr] Trying to restore the default catalog to "/home/runner/.stellarium/modules/MeteorShowers/MeteorShowers.json"
+[MeteorShowersMgr] The default catalog was copied!
+[MeteorShowersMgr] Version of the format of the catalog: 2
+Loaded plugin "MissingStars"
+[MissingStars] Loaded 56 extra stars (missing in main catalogs)
+Loaded plugin "Novae"
+Creating directory  "/home/runner/.stellarium/modules/Novae"
+[Novae] no Novae section exists in main config file - creating with defaults
+[Novae] novae.json does not exist - copying default file to /home/runner/.stellarium/modules/Novae/novae.json
+[Novae] copied default novae.json to "/home/runner/.stellarium/modules/Novae/novae.json"
+[Novae] Loading catalog file: /home/runner/.stellarium/modules/Novae/novae.json
+Loaded plugin "Oculars"
+Creating directory  "/home/runner/.stellarium/modules/Oculars"
+Oculars::validateAndLoadIniFile() copied default_ocular.ini to  "/home/runner/.stellarium/modules/Oculars/ocular.ini"
+Loaded plugin "Satellites"
+Creating directory  "/home/runner/.stellarium/modules/Satellites"
+[Satellites] satellites.json does not exist - copying default file to  "/home/runner/.stellarium/modules/Satellites/satellites.json"
+[Satellites] copied default satellites.json to  "/home/runner/.stellarium/modules/Satellites/satellites.json"
+[Satellites] loading catalogue file: "/home/runner/.stellarium/modules/Satellites/satellites.json"
+Satellite has invalid orbit: "METEOR 1-29" "11251"
+Satellite has invalid orbit: "COSMOS 1544" "14819"
+Satellite has invalid orbit: "IRIDIUM 2" "25527"
+Satellite has invalid orbit: "AIM" "31304"
+Satellite has invalid orbit: "M-CUBED & EXP-1 PRIME" "37855"
+Satellite has invalid orbit: "CZ-2C R/B" "39364"
+Satellite has invalid orbit: "CP10 (EXOCUBE)" "40380"
+Satellite has invalid orbit: "XW-2E" "40909"
+Satellite has invalid orbit: "XW-2F" "40910"
+Satellite has invalid orbit: "E-ST@R-II" "41459"
+Satellite has invalid orbit: "AIST-2D (RS-48)" "41465"
+Satellite has invalid orbit: "LEMUR-2-ANUBHAVTHAKUR" "41873"
+Satellite has invalid orbit: "DIDO-2" "42000"
+Satellite has invalid orbit: "NIUSAT" "42766"
+Satellite has invalid orbit: "URSA MAIOR" "42776"
+Satellite has invalid orbit: "MAX VALIER SAT" "42778"
+Satellite has invalid orbit: "LEMUR-2-SAM-AMELIA" "42781"
+Satellite has invalid orbit: "DIAMOND RED" "42783"
+Satellite has invalid orbit: "DIAMOND GREEN" "42785"
+Satellite has invalid orbit: "DIAMOND BLUE" "42786"
+Satellite has invalid orbit: "CICERO 6" "42793"
+Satellite has invalid orbit: "CORVUS BC3" "43118"
+Satellite has invalid orbit: "CNUSAIL-1" "43133"
+Satellite has invalid orbit: "ZHOU ENLAI" "43156"
+Satellite has invalid orbit: "GOMX-4A" "43197"
+Satellite has invalid orbit: "NUSAT-5 (MARYAM)" "43204"
+Satellite has invalid orbit: "IGS Radar 6 r" "43496"
+Satellite has invalid orbit: "CHANGSHAGAOXIN (TY 4-01)" "43669"
+Satellite has invalid orbit: "CICERO 10" "43690"
+Satellite has invalid orbit: "PROXIMA I" "43694"
+Satellite has invalid orbit: "PROXIMA II" "43696"
+Satellite has invalid orbit: "CHOMPTT" "43855"
+Satellite has invalid orbit: "ZACUBE-2" "43907"
+Satellite has invalid orbit: "AISTECHSAT-3" "44103"
+Satellite has invalid orbit: "AIS & APRS & ARIS & R/B" "44104"
+Satellite has invalid orbit: "VDNH-80" "44392"
+Satellite has invalid orbit: "D-STAR ONE (LIGHTSAT)" "44393"
+Satellite has invalid orbit: "AMGU-1 (AMURSAT)" "44394"
+Satellite has invalid orbit: "LEMUR-2-MORAG" "44403"
+Satellite has invalid orbit: "SOKRAT" "44404"
+Satellite has invalid orbit: "LEMUR-2-DUSTINTHEWIND" "44405"
+Satellite has invalid orbit: "LEMUR-2-ALEX-MADDY" "44407"
+Satellite has invalid orbit: "BEESAT 9" "44412"
+Satellite has invalid orbit: "LEMUR-2-YNDRD" "44413"
+Satellite has invalid orbit: "NARSSCUBE-2" "44415"
+Satellite has invalid orbit: "JAISAT-1" "44419"
+Satellite has invalid orbit: "STARLINK-1024" "44729"
+Satellite has invalid orbit: "OPS-SAT" "44878"
+Satellite has invalid orbit: "STARLINK-1110" "44946"
+Satellite has invalid orbit: "STARLINK-1126" "44951"
+Satellite has invalid orbit: "USA 294" "45110"
+Satellite has invalid orbit: "IGS Opt 7 r" "45166"
+Satellite has invalid orbit: "STARLINK-1290" "45392"
+Satellite has invalid orbit: "STARLINK-1309" "45414"
+Satellite has invalid orbit: "STARLINK-1488" "45775"
+Satellite has invalid orbit: "SKYSAT-C14" "45788"
+Satellite has invalid orbit: "SKYSAT-C16" "45789"
+Satellite has invalid orbit: "STARLINK-1601" "46120"
+Satellite has invalid orbit: "STARLINK-1613" "46165"
+Satellite has invalid orbit: "FLOCK 4V-7" "46291"
+Satellite has invalid orbit: "LEMUR-2-ETHANOAKES" "46298"
+Satellite has invalid orbit: "FLOCK 4V-1" "46313"
+Satellite has invalid orbit: "STARLINK-1550" "46365"
+Satellite has invalid orbit: "FLOCK 4V-16" "46527"
+Satellite has invalid orbit: "FLOCK 4V-15" "46528"
+Satellite has invalid orbit: "FLOCK 4V-17" "46529"
+Satellite has invalid orbit: "FLOCK 4V-18" "46597"
+Satellite has invalid orbit: "FLOCK 4V-19" "46609"
+Satellite has invalid orbit: "FLOCK 4V-24" "46738"
+Satellite has invalid orbit: "FLOCK 4V-25" "46812"
+Satellite has invalid orbit: "FLOCK 4E'-8" "46816"
+Satellite has invalid orbit: "FLOCK 4E'-5" "46817"
+Satellite has invalid orbit: "FLOCK 4E'-3" "46819"
+Satellite has invalid orbit: "STARLINK-1927" "47181"
+Satellite has invalid orbit: "USA 313" "47295"
+Satellite has invalid orbit: "RADFXSAT-2 (AO-109)" "47311"
+Satellite has invalid orbit: "CP12 (EXOCUBE 2)" "47319"
+Satellite has invalid orbit: "YUSAT-1" "47439"
+Satellite has invalid orbit: "FLOCK 4S-8" "47474"
+Satellite has invalid orbit: "FLOCK 4S-31" "47475"
+Satellite has invalid orbit: "LEMUR-2-MANGO1" "47493"
+Satellite has invalid orbit: "LEMUR-2-RUAIRI-EILIDH" "47511"
+Satellite has invalid orbit: "FLOCK 4S-16" "47516"
+Satellite has invalid orbit: "LEMUR-2-CHANTAL" "47529"
+Satellite has invalid orbit: "LEMUR-2-NOOBNOOB" "47538"
+Satellite has invalid orbit: "SMOG-1" "47964"
+Satellite has invalid orbit: "STARLINK-2300" "48027"
+Satellite has invalid orbit: "STARLINK-2445" "48109"
+Satellite has invalid orbit: "SL-3 R/B" "4814"
+Satellite has invalid orbit: "CSS (TIANHE)" "48274"
+Satellite has invalid orbit: "STARLINK-2715" "48697"
+Satellite has invalid orbit: "STARLINK-3089" "49166"
+Satellite has invalid orbit: "STARLINK-3234" "50815"
+Satellite has invalid orbit: "TEVEL-3" "50988"
+Satellite has invalid orbit: "TEVEL-6" "50999"
+Satellite has invalid orbit: "STARLINK-3531" "51723"
+Satellite has invalid orbit: "STARLINK-3530" "51730"
+Satellite has invalid orbit: "STARLINK-3627" "51797"
+Satellite has invalid orbit: "STARLINK-3634" "51798"
+Satellite has invalid orbit: "2022-019U" "51842"
+Satellite has invalid orbit: "STARLINK-3692" "51958"
+Satellite has invalid orbit: "STARLINK-3665" "52098"
+Satellite has invalid orbit: "CZ-2C R/B" "53131"
+Satellite has invalid orbit: "CSS (WENTIAN)" "53239"
+Satellite has invalid orbit: "CYCLOPS (RS29S)" "53373"
+Satellite has invalid orbit: "MONITOR-1 (RS32S)" "53374"
+Satellite has invalid orbit: "KUZBASS-300 (RS34S)" "53375"
+Satellite has invalid orbit: "UTMN (RS23S)" "53376"
+Satellite has invalid orbit: "MIET-AIS (RS28S)" "53377"
+Satellite has invalid orbit: "KAI-1 (RS26S)" "53378"
+Satellite has invalid orbit: "ISOI (RS19S)" "53381"
+Satellite has invalid orbit: "CUBESX-HSE-2 (RS21S)" "53383"
+Satellite has invalid orbit: "SIREN (RS30S)" "53384"
+Satellite has invalid orbit: "STARLINK-4380" "53650"
+Satellite has invalid orbit: "CSS (MENGTIAN)" "54216"
+Satellite has invalid orbit: "STARLINK-5437" "54782"
+Satellite has invalid orbit: "STARLINK-5359" "54864"
+Satellite has invalid orbit: "STARLINK-30064" "55700"
+Satellite has invalid orbit: "STARLINK-5826" "55782"
+Satellite has invalid orbit: "STARLINK-5898" "55929"
+Satellite has invalid orbit: "GSLV R/B" "56082"
+Satellite has invalid orbit: "STARLINK-6264" "56429"
+Satellite has invalid orbit: "TIANZHOU-6" "56446"
+Satellite has invalid orbit: "STARLINK-5486" "56473"
+Satellite has invalid orbit: "STARLINK-30087" "56691"
+Satellite has invalid orbit: "ISS DEB" "57212"
+Satellite has invalid orbit: "MOONLIGHTER" "57316"
+Satellite has invalid orbit: "STARLINK-30105" "57433"
+Satellite has invalid orbit: "CYGNUS NG-19" "57488"
+Satellite has invalid orbit: "STARLINK-30169" "57499"
+Satellite has invalid orbit: "STARLINK-30328" "57638"
+Satellite has invalid orbit: "STARLINK-30423" "57843"
+Satellite has invalid orbit: "STARLINK-30272" "57860"
+Satellite has invalid orbit: "STARLINK-30491" "57916"
+Satellite has invalid orbit: "STARLINK-30499" "57918"
+Satellite has invalid orbit: "STARLINK-30543" "57996"
+Satellite has invalid orbit: "STARLINK-30556" "58031"
+Satellite has invalid orbit: "STARLINK-30564" "58043"
+Satellite has invalid orbit: "STARLINK-30594" "58097"
+Satellite has invalid orbit: "STARLINK-30614" "58098"
+Satellite has invalid orbit: "STARLINK-30600" "58100"
+Satellite has invalid orbit: "STARLINK-30592" "58102"
+Satellite has invalid orbit: "STARLINK-30616" "58105"
+Satellite has invalid orbit: "STARLINK-30421" "58107"
+Satellite has invalid orbit: "STARLINK-30611" "58108"
+Satellite has invalid orbit: "STARLINK-30596" "58110"
+Satellite has invalid orbit: "SHENZHOU-17 (SZ-17)" "58146"
+Satellite has invalid orbit: "STARLINK-30763" "58163"
+Satellite has invalid orbit: "ISS DEB" "58174"
+Satellite has invalid orbit: "STARLINK-30872" "58225"
+Satellite has invalid orbit: "STARLINK-30865" "58226"
+Satellite has invalid orbit: "ISS DEB" "58229"
+Satellite has invalid orbit: "STARLINK-30903" "58355"
+Satellite has invalid orbit: "STARLINK-30884" "58372"
+Satellite has invalid orbit: "STARLINK-30964" "58402"
+Satellite has invalid orbit: "STARLINK-30931" "58413"
+Satellite has invalid orbit: "STARLINK-30949" "58415"
+Satellite has invalid orbit: "STARLINK-30917" "58419"
+Satellite has invalid orbit: "STARLINK-30902" "58421"
+Satellite has invalid orbit: "STARLINK-30908" "58424"
+Satellite has invalid orbit: "STARLINK-30956" "58481"
+Satellite has invalid orbit: "BEAK" "58612"
+Satellite has invalid orbit: "CLARK SAT-1 (AMBITIOUS)" "58613"
+Loaded plugin "SolarSystemEditor"
+Trying to copy ssystem_minor.ini to "/home/runner/.stellarium/data/ssystem_minor.ini"
+SSE: Comet cross-index data: Overwriting entry for "453P"
+Creating scene FBO with size 1024x768
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
