@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: nagstamon.linyaps
+  name: nagstamon
+  version: 3.14.0.1
+  kind: app
+  description: |-
+    Nagios status monitor which takes place in systray or on desktop
+    Nagstamon is a Nagios status monitor which takes place in systray or
+    on desktop (GNOME, KDE) as floating statusbar to inform you in
+    realtime about the status of your Nagios and some of its derivatives monitored
+    network. It allows one to connect to multiple Nagios, Icinga, Opsview,
+    Centreon, Op5Monitor, Checkmk Multisite, Thruk, Zabbix and Zenoss servers.
+    Events could be handled by instant access to failed hosts/services.
+command:
+- /opt/apps/nagstamon.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
