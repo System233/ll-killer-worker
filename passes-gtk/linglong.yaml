@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: passes-gtk.linyaps
+  name: passes-gtk
+  version: 0.9.0.1
+  kind: app
+  description: |-
+    GTK-based digital pass manager
+    Passes is a graphical application for managing digital passes.
+
+    It provides a mobile-friendly user interface and can import and display
+    PKPASS files, and display Aztec, PDF417 and QR codes.
+command:
+- /opt/apps/passes-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
