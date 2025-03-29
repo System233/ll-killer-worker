@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: qtractor.linyaps
+  name: qtractor
+  version: 0.9.39.1
+  kind: app
+  description: |-
+    MIDI/Audio multi-track sequencer application
+    This is a MIDI/Audio multi-track sequencer application written
+    in C++.
+
+    The Jack Audio Connection Kit (JACK) for audio, and the Advanced Linux
+    Sound Architecture (ALSA) for MIDI, are the main infrastructures to
+    evolve as a fairly-featured Linux Desktop Audio Workstation GUI, especially
+    dedicated to the personal home-studio.
+command:
+- /opt/apps/qtractor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
