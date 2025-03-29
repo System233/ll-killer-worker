@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: picard.linyaps
+  name: picard
+  version: 2.11.0.1
+  kind: app
+  description: |-
+    Next-Generation MusicBrainz audio files tagger
+    Picard is the next generation MusicBrainz tagging application.
+
+    This new tagging concept is album oriented, as opposed to track oriented
+    like the others taggers are.
+command:
+- /opt/apps/picard.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
