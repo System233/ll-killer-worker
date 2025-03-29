@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: qosmic.linyaps
+  name: qosmic
+  version: 1.6.0.1
+  kind: app
+  description: |-
+    GUI for creating & rendering fractal flame images
+    Graphical interface (Qt) for creating, editing, and rendering
+    flam3 IFS fractal flame images, which can be saved as png files.
+
+    The theory of fractal flames is described here
+    https://flam3.com/flame_draves.pdf
+command:
+- /opt/apps/qosmic.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
