@@ -1,0 +1,35 @@
+version: "1"
+package:
+  id: quisk.linyaps
+  name: quisk
+  version: 4.2.30.1
+  kind: app
+  description: |-
+    Software Defined Radio (SDR)
+    This is Quisk, a Software Defined Radio (SDR). You supply an antenna and a
+    complex (I/Q) mixer to convert the radio spectrum to a low IF. Then send that
+    IF to your computer using the sound card, Ethernet or USB. The Quisk software
+    will read the I/Q data, tune it, filter it, demodulate it, and send the audio
+    to headphones or speakers. Quisk has a microphone input and a key input so it
+    can operate as a complete transceiver.
+
+    Quisk works with this hardware:
+    * SoftRock connected to the sound card
+    * Many other SDR's connected to the sound card
+    * SDR-IQ connected by USB
+    * Perseus connected by USB
+    * N2ADR hardware connected by Ethernet and IP
+    * HiQSDR hardware connected by Ethernet and IP
+    * The Hermes-Lite project at hermeslite.com
+    * Quisk can be used as a pan adapter, and can control some radios
+
+    Quisk is small and simple, and has been designed so that it is easy to change
+    Quisk to suit your own hardware. Quisk rhymes with "brisk", and is QSK plus a
+    few letters to make it easier to pronounce. QSK is a Q signal meaning full
+    breakin CW operation, and Quisk has been designed for low latency. Quisk
+    includes an input keying signal that can mute the audio and substitute a
+    sidetone.
+command:
+- /opt/apps/quisk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
