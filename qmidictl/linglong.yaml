@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: qmidictl.linyaps
+  name: qmidictl
+  version: 0.9.10.1
+  kind: app
+  description: |-
+    graphical application sending MIDI Machine Control commands over the network
+    The MIDI Machine Control specification defines commands like Play,
+    Pause and Record for remote control of audio recording equipment.
+
+    Originally inspired by multimidicast, the qmidictl application
+    imitates a MIDI control surface, on which the user selects commands
+    to send over the network using UDP/IP multicast.
+    Programs like qmidinet on Linux or ipMIDI on Windows can then forward
+    the commands, for example to a concrete cable.
+command:
+- /opt/apps/qmidictl.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
