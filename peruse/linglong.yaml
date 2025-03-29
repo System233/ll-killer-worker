@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: peruse.linyaps
+  name: peruse
+  version: 1.80.0.2
+  kind: app
+  description: |-
+    comic book reader
+    Peruse was created as a way to make exactly that as easy and pleasant
+    as possible, and to simply get out of the way and let you read your
+    comic books.  One could say that it allows you to peruse your comic
+    books at your leisure, but that would be a silly way of putting it -
+    so, peruse your comic books at your leisure!
+command:
+- /opt/apps/peruse.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
