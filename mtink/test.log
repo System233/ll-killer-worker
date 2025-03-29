@@ -1,0 +1,33 @@
+正在测试: APPID=mtink.linyaps LAYER=mtink.linyaps_1.0.16.15_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install mtink.linyaps_1.0.16.15_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:mtink.linyaps
+Layer文件:mtink.linyaps_1.0.16.15_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: mtink.linyaps_1.0.16.15_x86_64_binary.layer
+offset: 633
+mountpoint: /tmp/tmp.QXstHHHC2q/mnt
+dbglevel: 0
+[成功] /opt/apps/mtink.linyaps/files/share/applications/mtink.desktop: /opt/apps/mtink.linyaps/files/entrypoint.sh mtink
+[成功] /opt/apps/mtink.linyaps/files/share/applications/mtinkc.desktop: /opt/apps/mtink.linyaps/files/entrypoint.sh mtinkc
+[正在测试启动项]
+包名:mtink.linyaps
+Layer文件:mtink.linyaps_1.0.16.15_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: mtink.linyaps_1.0.16.15_x86_64_binary.layer
+offset: 633
+mountpoint: /tmp/tmp.K5U0jgpxwa/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run mtink.linyaps -- /opt/apps/mtink.linyaps/files/entrypoint.sh mtink
+[PID 8203] 进程已启动
+[PID 8203] 等待超时，未能检测到窗口
+[PID 8203] 正在通知并等待进程退出
+[PID 8203] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run mtink.linyaps -- /opt/apps/mtink.linyaps/files/entrypoint.sh mtinkc
+[PID 20069] 进程已启动
+[PID 20069] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall mtink.linyaps
