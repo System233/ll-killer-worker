@@ -1,0 +1,74 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libreadline8t64 python3-serial readline-common snek usbutils
+Suggested packages:
+  python3-wxgtk3.0 | python3-wxgtk readline-doc usbutils-py
+The following packages will be REMOVED:
+  libreadline8
+The following NEW packages will be installed:
+  libreadline8t64 python3-serial snek snek-bin usbutils
+The following packages will be upgraded:
+  readline-common
+1 upgraded, 5 newly installed, 1 to remove and 450 not upgraded.
+Need to get 14.5 MB of archives.
+After this operation, 19.0 MB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 readline-common all 8.2-4build1 [56.5 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libreadline8t64 arm64 8.2-4build1 [153 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 usbutils arm64 1:017-3build1 [82.3 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-serial all 3.5-2 [78.6 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 snek all 1.9-3build2 [14.0 MB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 snek-bin arm64 1.9-3build2 [40.2 kB]
+Fetched 14.5 MB in 1s (9968 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../readline-common_8.2-4build1_all.deb ...
+Unpacking readline-common (8.2-4build1) over (8.2-3) ...
+dpkg: libreadline8:arm64: dependency problems, but removing anyway as you requested:
+ sqlite3 depends on libreadline8 (>= 6.0).
+ pipewire-bin depends on libreadline8 (>= 6.0).
+ libpython3.12-stdlib:arm64 depends on libreadline8 (>= 7.0~beta).
+ libpython3.11-stdlib:arm64 depends on libreadline8 (>= 7.0~beta).
+ gpgsm depends on libreadline8 (>= 6.0).
+ gpgconf depends on libreadline8 (>= 6.0).
+ gpg depends on libreadline8 (>= 6.0).
+ gnupg-utils depends on libreadline8 (>= 6.0).
+ gawk depends on libreadline8 (>= 6.0).
+ fdisk depends on libreadline8 (>= 6.0).
+ bluez depends on libreadline8 (>= 6.0).
+ bc depends on libreadline8 (>= 6.0).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27739 files and directories currently installed.)
+Removing libreadline8:arm64 (8.2-3) ...
+Selecting previously unselected package libreadline8t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27726 files and directories currently installed.)
+Preparing to unpack .../libreadline8t64_8.2-4build1_arm64.deb ...
+Adding 'diversion of /lib/aarch64-linux-gnu/libhistory.so.8 to /lib/aarch64-linux-gnu/libhistory.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/aarch64-linux-gnu/libhistory.so.8.2 to /lib/aarch64-linux-gnu/libhistory.so.8.2.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/aarch64-linux-gnu/libreadline.so.8 to /lib/aarch64-linux-gnu/libreadline.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/aarch64-linux-gnu/libreadline.so.8.2 to /lib/aarch64-linux-gnu/libreadline.so.8.2.usr-is-merged by libreadline8t64'
+Unpacking libreadline8t64:arm64 (8.2-4build1) ...
+Selecting previously unselected package usbutils.
+Preparing to unpack .../usbutils_1%3a017-3build1_arm64.deb ...
+Unpacking usbutils (1:017-3build1) ...
+Selecting previously unselected package python3-serial.
+Preparing to unpack .../python3-serial_3.5-2_all.deb ...
+Unpacking python3-serial (3.5-2) ...
+Selecting previously unselected package snek.
+Preparing to unpack .../snek_1.9-3build2_all.deb ...
+Unpacking snek (1.9-3build2) ...
+Selecting previously unselected package snek-bin.
+Preparing to unpack .../snek-bin_1.9-3build2_arm64.deb ...
+Unpacking snek-bin (1.9-3build2) ...
+Setting up usbutils (1:017-3build1) ...
+Setting up python3-serial (3.5-2) ...
+Setting up readline-common (8.2-4build1) ...
+Setting up snek (1.9-3build2) ...
+Setting up libreadline8t64:arm64 (8.2-4build1) ...
+Setting up snek-bin (1.9-3build2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libc-bin (2.38-6deepin4) ...

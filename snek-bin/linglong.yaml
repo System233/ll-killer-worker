@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: snek-bin.linyaps
+  name: snek-bin
+  version: 1.9.0.3
+  kind: app
+  description: |-
+    Host binary version of Snek programming language
+    Snek is a small python-like language designed for embedded
+    computers. It can run on systems as small as an Arduino Duemilanove
+    board, which is an ATmega 328 processor with 32kB of flash and 2kB of
+    ram. This package provides a host snek binary for playing with the
+    language on your host machine.
+command:
+- /opt/apps/snek-bin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
