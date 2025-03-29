@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: nvpy.linyaps
+  name: nvpy
+  version: 2.0.0.2
+  kind: app
+  description: |-
+    Simplenote-syncing note-taking tool
+    nvpy is a simplenote-syncing note-taking tool inspired by Notational Velocity
+    (and a little bit by nvALT too) on OSX and ResophNotes on Windows. It is
+    significantly uglier, but it is cross-platform.
+command:
+- /opt/apps/nvpy.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
