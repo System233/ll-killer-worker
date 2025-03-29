@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: opencubicplayer.linyaps
+  name: opencubicplayer
+  version: 0.2.107.1
+  kind: app
+  description: |-
+    UNIX port of Open Cubic Player
+    This is a port of the Open Cubic Player to UNIX from DOS. Provides a
+    nice textbased frontend, with some few optional features in graphical.
+    Plays modules, sids, wave, audio CD, midi, ogg, flac, adlib, mp3, ahx,
+    hvl, and ym.
+command:
+- /opt/apps/opencubicplayer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
