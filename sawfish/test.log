@@ -1,0 +1,29 @@
+正在测试: APPID=sawfish.linyaps LAYER=sawfish.linyaps_1.11.90.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install sawfish.linyaps_1.11.90.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:sawfish.linyaps
+Layer文件:sawfish.linyaps_1.11.90.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: sawfish.linyaps_1.11.90.1_arm64_binary.layer
+offset: 613
+mountpoint: /tmp/tmp.2vxB1l9HI7/mnt
+dbglevel: 0
+[成功] /opt/apps/sawfish.linyaps/files/share/applications/sawfish.desktop: /opt/apps/sawfish.linyaps/files/entrypoint.sh sawfish
+[正在测试启动项]
+包名:sawfish.linyaps
+Layer文件:sawfish.linyaps_1.11.90.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: sawfish.linyaps_1.11.90.1_arm64_binary.layer
+offset: 613
+mountpoint: /tmp/tmp.hkkzjhT8Q9/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run sawfish.linyaps -- /opt/apps/sawfish.linyaps/files/entrypoint.sh sawfish
+[PID 26780] 进程已启动
+[PID 26780] 等待超时，未能检测到窗口
+[PID 26780] 正在通知并等待进程退出
+[PID 26780] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall sawfish.linyaps
