@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: nsxiv.linyaps
+  name: nsxiv
+  version: 32.0.0.1
+  kind: app
+  description: |-
+    neo simple X image viewer
+    nsxiv (the Neo Simple X Image Viewer) is a fork of the now-unmaintained
+    sxiv project, with the purpose of being a drop-in replacement for sxiv,
+    maintaining its interface, and adding simple, sensible features. nsxiv aims
+    to be easy to modify and customise, and works nicely with tiling window
+    managers.
+
+    Features:
+
+    - Basic image operations, e.g. zooming, panning, rotating
+    - Customizable key and mouse button mappings
+    - Scriptable via configuration files
+    - Thumbnail mode: grid of selectable previews of all images
+    - Ability to cache thumbnails for fast re-loading
+    - Basic support for animated/multi-frame images (GIF/WebP)
+    - Display image information in status bar
+    - Display image name/path in X title
+command:
+- /opt/apps/nsxiv.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
