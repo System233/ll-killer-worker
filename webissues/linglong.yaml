@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: webissues.linyaps
+  name: webissues
+  version: 1.1.5.10
+  kind: app
+  description: |-
+    network system supporting team collaboration
+    Webissues is a system supporting team collaboration
+    across the Internet. It can be used for storing bugs
+    and other information with customizable attributes,
+    comments and file attachments.
+command:
+- /opt/apps/webissues.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
