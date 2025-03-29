@@ -1,0 +1,36 @@
+version: "1"
+package:
+  id: ricochet-im.linyaps
+  name: ricochet-im
+  version: 1.1.4.3
+  kind: app
+  description: |-
+    anonymous metadata-resistant instant messaging
+    Ricochet is an experiment with a different kind of instant messaging that
+    doesn't trust anyone with your identity, your contact list, or your
+    communications.
+
+    - You can chat without exposing your identity (or IP address) to anyone
+    - Nobody can discover who your contacts are or when you talk (metadata-free)
+    - There are no servers or operators to compromise that could access your
+    information
+    - It's cross-platform and easy for non-technical users
+
+    Ricochet is a peer-to-peer instant messaging system built on Tor hidden
+    services. Your login is your hidden service address, and contacts connect to
+    you (not an intermediate server) through Tor. The rendezvous system makes it
+    extremely hard for anyone to learn your identity from your address.
+
+    Ricochet is not affiliated with or endorsed by The Tor Project. For more
+    information, you can read about Tor and learn about Ricochet's design or
+    protocol (or the old protocol). Everything is open-source and open to
+    contribution.
+
+    **This software is an experiment**. It hasn't been audited or formally
+    reviewed by anyone. Security and anonymity are difficult topics, and you
+    should carefully evaluate your risks and exposure with any software. Do not
+    rely on Ricochet for your safety.
+command:
+- /opt/apps/ricochet-im.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
