@@ -1,0 +1,35 @@
+正在测试: APPID=vym.linyaps LAYER=vym.linyaps_2.6.11.3_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install vym.linyaps_2.6.11.3_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:vym.linyaps
+Layer文件:vym.linyaps_2.6.11.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: vym.linyaps_2.6.11.3_x86_64_binary.layer
+offset: 1001
+mountpoint: /tmp/tmp.0N8BP7LfJ2/mnt
+dbglevel: 0
+find: ‘/opt/apps/vym.linyaps/files/share/icons’: No such file or directory
+[成功] vym.desktop: vym -> /opt/apps/vym.linyaps/files/share/pixmaps/vym.png
+[成功] /opt/apps/vym.linyaps/files/share/applications/vym.desktop: /opt/apps/vym.linyaps/files/entrypoint.sh vym %f
+[正在测试启动项]
+包名:vym.linyaps
+Layer文件:vym.linyaps_2.6.11.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: vym.linyaps_2.6.11.3_x86_64_binary.layer
+offset: 1001
+mountpoint: /tmp/tmp.D0RssHNEHt/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run vym.linyaps -- /opt/apps/vym.linyaps/files/entrypoint.sh vym
+[PID 9323] 进程已启动
+[PID 9323] 已检测到窗口:PID=36
+[PID 9323] 正在截图 0秒: tests/screen0-0.jpg
+[PID 9323] 正在截图 1秒: tests/screen0-1.jpg
+[PID 9323] 正在截图 3秒: tests/screen0-3.jpg
+[PID 9323] 正在截图 5秒: tests/screen0-5.jpg
+[PID 9323] 正在通知并等待进程退出
+[PID 9323] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall vym.linyaps
