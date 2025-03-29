@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: phpliteadmin.linyaps
+  name: phpliteadmin
+  version: 1.9.8.2
+  kind: app
+  description: |-
+    web-based SQLite database admin tool
+    phpLiteAdmin is a web-based SQLite database admin tool written in PHP with
+    support for SQLite3 and SQLite2 (not in Debian). Following in the spirit of the
+    flat-file system used by SQLite, phpLiteAdmin consists of a single source file,
+    phpliteadmin.php, that is dropped into a directory on a server and then visited
+    in a browser. The available operations, feature set, interface, and user
+    experience is comparable to that of phpMyAdmin.
+
+    In this package, you will find phpliteadmin.php already configured to work with
+    Apache2. This package provides the main features of the script.
+command:
+- /opt/apps/phpliteadmin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
