@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: pumpa.linyaps
+  name: pumpa
+  version: 0.9.3.1
+  kind: app
+  description: |-
+    simple desktop client for pump.io, the distributed social network
+    Pumpa is a simple Qt-based desktop client for identi.ca and other
+    pump.io-based distributed social network services.  Pumpa offers
+    several improvements over using the web interface, such as better
+    notifications and the ability to @reply particular users.
+command:
+- /opt/apps/pumpa.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
