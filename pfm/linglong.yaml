@@ -1,0 +1,34 @@
+version: "1"
+package:
+  id: pfm.linyaps
+  name: pfm
+  version: 2.0.8.3
+  kind: app
+  description: |-
+    PostgreSQL graphical client using Tcl/Tk
+    Postgres Forms (pfm) is a client application with a graphical user
+    interface for the PostgreSQL data base server. It enables the user:
+    to design forms for adding, modifying or deleting records of data
+    base tables;
+
+    - to design links (one to many relationships) from one form
+    to another, for navigating in the data base;
+
+    - to design and to generate reports based on the data in a
+    table or view;
+
+    - to edit and to execute SQL statements.
+
+    Postgres Forms is implemented in Tcl/Tk, but there is no need for the
+    user to program anything in Tcl/Tk. The user only has to use SQL for
+    creating tables and views and for designing forms, links and reports.
+
+    Postgres Forms makes no attempt to hide the underlying SQL. On the
+    contrary, in most cases, it shows both the SQL statements it sends to
+    the PostgreSQL server and the results it gets back.
+
+    The PostgreSQL server can be remote or local.
+command:
+- /opt/apps/pfm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
