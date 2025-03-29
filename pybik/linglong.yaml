@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: pybik.linyaps
+  name: pybik
+  version: 3.0.0.6
+  kind: app
+  description: |-
+    Rubik's cube game
+    Pybik is a 3D puzzle game about the cube invented by Ernő Rubik.
+
+    * Various 3D puzzles, such as cubes, towers, prisms, tetrahedra, octahedra,
+    dodecahedra and many more
+    * Solvers for some puzzles
+    * Pretty patterns
+    * Editor for move sequences
+    * Custom colors and images on the surface of the puzzles
+command:
+- /opt/apps/pybik.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
