@@ -1,0 +1,30 @@
+version: "1"
+package:
+  id: qtads.linyaps
+  name: qtads
+  version: 3.4.0.1
+  kind: app
+  description: |-
+    Qt HTML interpreter for TADS
+    This package provides an interpreter for TADS game files, using a
+    Qt interface.  It can run either TADS 2 games (which have an
+    extension of .gam) or TADS 3 games (which have an extension of .t3).
+    See http://www.ifarchive.org/indexes/if-archiveXgamesXtads.html for a
+    large collection of available TADS games.
+
+    This interpreter supports HTML-TADS multimedia features.  Other
+    features include:
+    * Full Unicode support for TADS 3 and HTML TADS games.
+    * Full text justification.
+    * Support for multiple user configurations, which you can switch
+    between at runtime.
+
+    TADS, the Text Adventure Development System, is a system for writing
+    and playing interactive fiction games.  This means that the primary
+    method for interacting with the game is to type in commands, to which
+    the game produces a response in prose -- similar to Infocom's games
+    from the 1980's.
+command:
+- /opt/apps/qtads.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
