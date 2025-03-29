@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: transgui.linyaps
+  name: transgui
+  version: 5.18.0.3
+  kind: app
+  description: |-
+    Front-end to remotely control Transmission
+    This package contains Transmission Remote GUI, which is a feature rich,
+    cross platform, front-end to remotely control Transmission daemon via its
+    RPC protocol. It is faster and has more functionality than build-in
+    Transmission web interface.
+command:
+- /opt/apps/transgui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
