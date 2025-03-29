@@ -1,0 +1,28 @@
+正在测试: APPID=supertransball2.linyaps LAYER=supertransball2.linyaps_1.5.0.11_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install supertransball2.linyaps_1.5.0.11_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:supertransball2.linyaps
+Layer文件:supertransball2.linyaps_1.5.0.11_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: supertransball2.linyaps_1.5.0.11_arm64_binary.layer
+offset: 904
+mountpoint: /tmp/tmp.YGq8zowlSE/mnt
+dbglevel: 0
+[成功] supertransball2.desktop: supertransball2 -> /opt/apps/supertransball2.linyaps/files/share/icons/hicolor/128x128/apps/supertransball2.png
+[成功] /opt/apps/supertransball2.linyaps/files/share/applications/supertransball2.desktop: /opt/apps/supertransball2.linyaps/files/entrypoint.sh supertransball2
+[正在测试启动项]
+包名:supertransball2.linyaps
+Layer文件:supertransball2.linyaps_1.5.0.11_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: supertransball2.linyaps_1.5.0.11_arm64_binary.layer
+offset: 904
+mountpoint: /tmp/tmp.uTP8UOxAEe/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run supertransball2.linyaps -- /opt/apps/supertransball2.linyaps/files/entrypoint.sh supertransball2
+[PID 7738] 进程已启动
+[PID 7738] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall supertransball2.linyaps
