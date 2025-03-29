@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: thunar-volman.linyaps
+  name: thunar-volman
+  version: 4.18.0.1
+  kind: app
+  description: |-
+    Thunar extension for volumes management
+    The Thunar Volume Manager is an extension for the Thunar file manager, which
+    enables automatic management of removable drives and media.
+command:
+- /opt/apps/thunar-volman.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
