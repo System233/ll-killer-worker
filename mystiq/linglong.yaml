@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: mystiq.linyaps
+  name: mystiq
+  version: 20.3.23.3
+  kind: app
+  description: |-
+    Powerful FFmpeg GUI front-end based on Qt5 and written in C++
+    Powerful media converter. FFmpeg can read audio and video files in various
+    formats and convert them into other formats. MystiQ features an intuitive
+    graphical interface and a rich set of presets to help you convert media
+    files within a few clicks. Advanced users can also adjust conversion
+    parameters in detail.
+command:
+- /opt/apps/mystiq.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
