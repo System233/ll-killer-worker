@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: openttd.linyaps
+  name: openttd
+  version: 13.4.0.1
+  kind: app
+  description: |-
+    reimplementation of Transport Tycoon Deluxe with enhancements
+    OpenTTD is a reimplementation of the Microprose game "Transport
+    Tycoon Deluxe" with lots of new features and enhancements.
+
+    OpenTTD is playable with the free graphics files from the openttd-opengfx
+    package and optional sound and music files from the openttd-opensfx and
+    openttd-openmsx packages Alternatively, OpenTTD can use the graphics files
+    from the original Transport Tycoon Deluxe game (See README.Debian on how to set
+    this up).
+command:
+- /opt/apps/openttd.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
