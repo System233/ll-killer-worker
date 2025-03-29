@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: njplot.linyaps
+  name: njplot
+  version: 2.4.0.9
+  kind: app
+  description: |-
+    phylogenetic tree drawing program
+    NJplot is able to draw any dendrogram expressed in the Newick standard
+    phylogenetic tree format (e.g., the format used by the Phylip package).
+    NJplot is especially convenient for rooting the unrooted trees
+    obtained from parsimony, distance or maximum likelihood tree-building
+    methods.
+command:
+- /opt/apps/njplot.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
