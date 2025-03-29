@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: vodovod.linyaps
+  name: vodovod
+  version: 1.10.0.5
+  kind: app
+  description: |-
+    puzzle game, you must lead the water to the storage tank
+    Vodovod is a game similar to Pipe Mania and Pipe Dream, in which you have to
+    lead the water from the house to the storage tank. You get a limited number
+    of pipes on each level and need to combine them to lead the water from the
+    house at the top of the screen to the storage tank at the bottom. It has
+    joystick/joypad support.
+command:
+- /opt/apps/vodovod.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
