@@ -1,0 +1,28 @@
+正在测试: APPID=raincat.linyaps LAYER=raincat.linyaps_1.2.1.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install raincat.linyaps_1.2.1.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:raincat.linyaps
+Layer文件:raincat.linyaps_1.2.1.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: raincat.linyaps_1.2.1.1_x86_64_binary.layer
+offset: 624
+mountpoint: /tmp/tmp.meeeccdlF1/mnt
+dbglevel: 0
+[成功] raincat.desktop: raincat -> /opt/apps/raincat.linyaps/files/share/icons/hicolor/128x128/apps/raincat.png
+[成功] /opt/apps/raincat.linyaps/files/share/applications/raincat.desktop: /opt/apps/raincat.linyaps/files/entrypoint.sh raincat
+[正在测试启动项]
+包名:raincat.linyaps
+Layer文件:raincat.linyaps_1.2.1.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: raincat.linyaps_1.2.1.1_x86_64_binary.layer
+offset: 624
+mountpoint: /tmp/tmp.aARThrJPoD/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run raincat.linyaps -- /opt/apps/raincat.linyaps/files/entrypoint.sh raincat
+[PID 7895] 进程已启动
+[PID 7895] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall raincat.linyaps
