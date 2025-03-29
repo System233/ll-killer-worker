@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: qps.linyaps
+  name: qps
+  version: 2.8.0.0
+  kind: app
+  description: |-
+    Qt process manager
+    Qt process manager ported to Qt5
+command:
+- /opt/apps/qps.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
