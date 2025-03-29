@@ -1,0 +1,35 @@
+正在测试: APPID=print-manager.linyaps LAYER=print-manager.linyaps_23.8.5.0_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install print-manager.linyaps_23.8.5.0_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:print-manager.linyaps
+Layer文件:print-manager.linyaps_23.8.5.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: print-manager.linyaps_23.8.5.0_arm64_binary.layer
+offset: 634
+mountpoint: /tmp/tmp.SgN7cQA45K/mnt
+dbglevel: 0
+find: ‘/opt/apps/print-manager.linyaps/files/share/icons’: No such file or directory
+[31m[失败] kcm_printer_manager.desktop:preferences-devices-printer: 找不到此图标 [0m
+[成功] /opt/apps/print-manager.linyaps/files/share/applications/kcm_printer_manager.desktop: /opt/apps/print-manager.linyaps/files/entrypoint.sh systemsettings kcm_printer_manager
+find: ‘/opt/apps/print-manager.linyaps/files/share/icons’: No such file or directory
+[成功] org.kde.ConfigurePrinter.desktop: printer -> /usr/share/icons/Adwaita/scalable/devices/printer.svg
+[成功] /opt/apps/print-manager.linyaps/files/share/applications/org.kde.ConfigurePrinter.desktop: /opt/apps/print-manager.linyaps/files/entrypoint.sh configure-printer
+find: ‘/opt/apps/print-manager.linyaps/files/share/icons’: No such file or directory
+[成功] org.kde.PrintQueue.desktop: printer -> /usr/share/icons/Adwaita/scalable/devices/printer.svg
+[成功] /opt/apps/print-manager.linyaps/files/share/applications/org.kde.PrintQueue.desktop: /opt/apps/print-manager.linyaps/files/entrypoint.sh kde-print-queue
+find: ‘/opt/apps/print-manager.linyaps/files/share/icons’: No such file or directory
+[成功] org.kde.kde-add-printer.desktop: printer -> /usr/share/icons/Adwaita/scalable/devices/printer.svg
+[成功] /opt/apps/print-manager.linyaps/files/share/applications/org.kde.kde-add-printer.desktop: /opt/apps/print-manager.linyaps/files/entrypoint.sh kde-add-printer
+[正在测试启动项]
+包名:print-manager.linyaps
+Layer文件:print-manager.linyaps_23.8.5.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: print-manager.linyaps_23.8.5.0_arm64_binary.layer
+offset: 634
+mountpoint: /tmp/tmp.eI1dm4mYp1/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall print-manager.linyaps
