@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: webscanserver.linyaps
+  name: webscanserver
+  version: 20240822.3.0.1933
+  kind: app
+  description: scanner
+command:
+- /opt/apps/webscanserver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
