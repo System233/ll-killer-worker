@@ -1,0 +1,31 @@
+version: "1"
+package:
+  id: wings3d.linyaps
+  name: wings3d
+  version: 2.3.0.1
+  kind: app
+  description: |-
+    Nendo-inspired 3D polygon mesh modeller
+    Wings 3D is a polygon mesh modeller written entirely in Erlang.  The
+    user interface was designed to be easy to use for both beginners and
+    advanced users alike.  It was inspired by the famous Nendo modeller
+    (from Izware.)
+
+    Unlike similar modelling programs (such as Blender), this program
+    does not provide native support for doing animations (though you can
+    output its models to an animation tool.)
+
+    Wings 3D supports the following import formats: Nendo (NDO),
+    3D Studio (3DS), Wavefront (OBJ), and Adobe Illustrator 8 (AI).
+
+    Wings 3D supports the following export formats: Nendo (NDO),
+    3D Studio (3DS), Wavefront (OBJ), VRML (WRL), Renderman (RIB),
+    Hash:Animation Master (MDL), Renderware (RWX), Yafray, Toxic,
+    and FBX via a third-party plug-in.
+
+    Open Source Erlang is a functional programming language designed at
+    the Ericsson Computer Science Laboratory.
+command:
+- /opt/apps/wings3d.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
