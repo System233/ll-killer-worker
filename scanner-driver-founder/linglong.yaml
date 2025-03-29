@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: scanner-driver-founder.linyaps
+  name: scanner-driver-founder
+  version: 0.1.0.24228
+  kind: app
+  description: SANE-Backend for Founder scanner
+command:
+- /opt/apps/scanner-driver-founder.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
