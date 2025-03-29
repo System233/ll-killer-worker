@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: qwo.linyaps
+  name: qwo
+  version: 0.5.0.4
+  kind: app
+  description: |-
+    efficient input method for touch screens
+    Qwo is an implementation of quikwriting, an input method to continuously
+    enter text on a touchscreen, without picking up the finger or stylus.
+command:
+- /opt/apps/qwo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
