@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: photocollage.linyaps
+  name: photocollage
+  version: 1.4.5.0
+  kind: app
+  description: |-
+    Graphical tool to make photo collage posters
+    PhotoCollage allows you to create photo collage posters. It assembles
+    the input photographs it is given to generate a big poster. Photos are
+    automatically arranged to fill the whole poster, then you can change the
+    final layout, dimensions, border or swap photos in the generated grid.
+    Eventually the final poster image can be saved in any size.
+command:
+- /opt/apps/photocollage.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
