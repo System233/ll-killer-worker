@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ukui-control-center.linyaps
+  name: ukui-control-center
+  version: 3.22.1.1
+  kind: app
+  description: |-
+    utilities to configure the UKUI desktop
+    The UKUI control center contains configuration applets for the UKUI desktop,
+    allowing to set accessibility configuration, desktop fonts, keyboard
+    and mouse properties, sound setup, desktop theme and background, user
+    interface properties, screen resolution, and other UKUI parameters.
+command:
+- /opt/apps/ukui-control-center.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
