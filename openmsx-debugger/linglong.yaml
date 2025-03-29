@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: openmsx-debugger.linyaps
+  name: openmsx-debugger
+  version: 0.1.0.1
+  kind: app
+  description: |-
+    Graphical debugger for openMSX
+    The openMSX debugger is a separate program that interfaces with
+    openMSX and controls its debugger from within a graphical user
+    interface.
+command:
+- /opt/apps/openmsx-debugger.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
