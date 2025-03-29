@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ukui-biometric-manager.linyaps
+  name: ukui-biometric-manager
+  version: 1.0.3.1
+  kind: app
+  description: |-
+    Manager for biometric authentication
+    This package is a tool to manage the drivers of biometric devices and
+    users' features and manage whether biometric authentication is enabled.
+    The service is provided by biometric-authentication.service in
+    biometric-auth package.
+command:
+- /opt/apps/ukui-biometric-manager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
