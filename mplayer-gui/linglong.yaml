@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: mplayer-gui.linyaps
+  name: mplayer-gui
+  version: 1.5.0.1
+  kind: app
+  description: |-
+    movie player for Unix-like systems (GUI variant)
+    MPlayer plays most MPEG, VOB, AVI, Ogg/OGM, VIVO,
+    ASF/WMA/WMV, QT/MOV/MP4, FLI, RM, NuppelVideo, yuv4mpeg, FILM, RoQ, PVA files,
+    supported by many native, XAnim, RealPlayer, and Win32 DLL codecs. It can
+    also play VideoCD, SVCD, DVD, 3ivx, RealMedia, and DivX movies.
+
+    Another big feature of MPlayer is the wide range of supported output
+    drivers. It works with X11, Xv, DGA, OpenGL, SVGAlib, fbdev,
+    but also SDL.
+
+    This package includes the GUI variant of MPlayer.
+command:
+- /opt/apps/mplayer-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
