@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: qnapi.linyaps
+  name: qnapi
+  version: 0.2.3.2
+  kind: app
+  description: |-
+    application that downloads Polish subtitles from www.napiprojekt.pl
+    QNapi is a graphical downloader of subtitles from napiprojekt.pl and
+    opensubtitles.org sites. Subtitles may be fetched in many different languages.
+
+    QNapi's capabilities are similar to napiproject.pl's original client. New
+    subtitles may be added to both, napiprojekt.pl and opensubtitles.org
+    databases. Also bugs may be reported against existing subtitles.
+command:
+- /opt/apps/qnapi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
