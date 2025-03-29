@@ -1,0 +1,220 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libdb5.3t64 libexpat1 libftdi1-2 libglib2.0-0t64 libhidapi-hidraw0
+  libieee1284-3t64 libpython3.12-minimal libpython3.12-stdlib libpython3.12t64
+  libreadline8t64 libserialport0 libsigrok4t64 libsigrokdecode4 libssl3t64
+  libzip4t64 python3.12 python3.12-minimal readline-common
+Suggested packages:
+  low-memory-monitor python3.12-venv python3.12-doc binfmt-support
+  readline-doc
+The following packages will be REMOVED:
+  gir1.2-atk-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0 gir1.2-glib-2.0
+  gir1.2-harfbuzz-0.0 gir1.2-pango-1.0 libdb5.3 libglib2.0-0 libglib2.0-bin
+  libpython3.12 libreadline8
+The following NEW packages will be installed:
+  libdb5.3t64 libftdi1-2 libglib2.0-0t64 libhidapi-hidraw0 libieee1284-3t64
+  libpython3.12t64 libreadline8t64 libserialport0 libsigrok4t64
+  libsigrokdecode4 libssl3t64 libzip4t64 sigrok-cli
+The following packages will be upgraded:
+  libexpat1 libpython3.12-minimal libpython3.12-stdlib python3.12
+  python3.12-minimal readline-common
+6 upgraded, 13 newly installed, 11 to remove and 442 not upgraded.
+Need to get 13.3 MB of archives.
+After this operation, 6723 kB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libssl3t64 arm64 3.0.13-0ubuntu3.5 [1797 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libexpat1 arm64 2.6.1-2ubuntu0.2 [76.4 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3.12 arm64 3.12.3-1ubuntu0.5 [651 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3.12-minimal arm64 3.12.3-1ubuntu0.5 [2254 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3.12-minimal arm64 3.12.3-1ubuntu0.5 [831 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libreadline8t64 arm64 8.2-4build1 [153 kB]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3.12-stdlib arm64 3.12.3-1ubuntu0.5 [2037 kB]
+Get:8 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libdb5.3t64 arm64 5.3.28+dfsg2-7 [732 kB]
+Get:9 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libglib2.0-0t64 arm64 2.80.0-6ubuntu3.2 [1531 kB]
+Get:10 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 readline-common all 8.2-4build1 [56.5 kB]
+Get:11 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libftdi1-2 arm64 1.5-6build5 [28.6 kB]
+Get:12 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libieee1284-3t64 arm64 0.2.11-14.1build1 [22.2 kB]
+Get:13 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3.12t64 arm64 3.12.3-1ubuntu0.5 [2281 kB]
+Get:14 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libhidapi-hidraw0 arm64 0.14.0-1build1 [13.2 kB]
+Get:15 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libserialport0 arm64 0.1.1-4 [21.1 kB]
+Get:16 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libzip4t64 arm64 1.7.3-1.1ubuntu2 [54.3 kB]
+Get:17 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libsigrok4t64 arm64 0.5.2-5.1build2 [478 kB]
+Get:18 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libsigrokdecode4 arm64 0.5.3-4build3 [260 kB]
+Get:19 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 sigrok-cli arm64 0.7.2-1build2 [50.3 kB]
+Fetched 13.3 MB in 3s (4660 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Removing gir1.2-atk-1.0:arm64 (2.50.0-1) ...
+Removing gir1.2-pango-1.0:arm64 (1.52.2+ds-1) ...
+Removing gir1.2-harfbuzz-0.0:arm64 (8.0.1-1+rb1) ...
+Removing gir1.2-freedesktop:arm64 (1.80.1-2) ...
+Removing gir1.2-gdkpixbuf-2.0:arm64 (2.42.10+dfsg-3) ...
+Removing gir1.2-glib-2.0:arm64 (2.80.1-1deepin1) ...
+Selecting previously unselected package libssl3t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27692 files and directories currently installed.)
+Preparing to unpack .../libssl3t64_3.0.13-0ubuntu3.5_arm64.deb ...
+Unpacking libssl3t64:arm64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:arm64 (3.2.0-2) ...
+Preparing to unpack .../libexpat1_2.6.1-2ubuntu0.2_arm64.deb ...
+Unpacking libexpat1:arm64 (2.6.1-2ubuntu0.2) over (2.5.0-2) ...
+Preparing to unpack .../python3.12_3.12.3-1ubuntu0.5_arm64.deb ...
+Unpacking python3.12 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+Preparing to unpack .../python3.12-minimal_3.12.3-1ubuntu0.5_arm64.deb ...
+Unpacking python3.12-minimal (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+Preparing to unpack .../libpython3.12-minimal_3.12.3-1ubuntu0.5_arm64.deb ...
+Unpacking libpython3.12-minimal:arm64 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+dpkg: libreadline8:arm64: dependency problems, but removing anyway as you requested:
+ sqlite3 depends on libreadline8 (>= 6.0).
+ pipewire-bin depends on libreadline8 (>= 6.0).
+ libpython3.12-stdlib:arm64 depends on libreadline8 (>= 7.0~beta).
+ libpython3.11-stdlib:arm64 depends on libreadline8 (>= 7.0~beta).
+ gpgsm depends on libreadline8 (>= 6.0).
+ gpgconf depends on libreadline8 (>= 6.0).
+ gpg depends on libreadline8 (>= 6.0).
+ gnupg-utils depends on libreadline8 (>= 6.0).
+ gawk depends on libreadline8 (>= 6.0).
+ fdisk depends on libreadline8 (>= 6.0).
+ bluez depends on libreadline8 (>= 6.0).
+ bc depends on libreadline8 (>= 6.0).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27695 files and directories currently installed.)
+Removing libreadline8:arm64 (8.2-3) ...
+Selecting previously unselected package libreadline8t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27682 files and directories currently installed.)
+Preparing to unpack .../libreadline8t64_8.2-4build1_arm64.deb ...
+Adding 'diversion of /lib/aarch64-linux-gnu/libhistory.so.8 to /lib/aarch64-linux-gnu/libhistory.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/aarch64-linux-gnu/libhistory.so.8.2 to /lib/aarch64-linux-gnu/libhistory.so.8.2.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/aarch64-linux-gnu/libreadline.so.8 to /lib/aarch64-linux-gnu/libreadline.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/aarch64-linux-gnu/libreadline.so.8.2 to /lib/aarch64-linux-gnu/libreadline.so.8.2.usr-is-merged by libreadline8t64'
+Unpacking libreadline8t64:arm64 (8.2-4build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27702 files and directories currently installed.)
+Removing libpython3.12:arm64 (3.12.0-1deepin1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27696 files and directories currently installed.)
+Preparing to unpack .../libpython3.12-stdlib_3.12.3-1ubuntu0.5_arm64.deb ...
+Unpacking libpython3.12-stdlib:arm64 (3.12.3-1ubuntu0.5) over (3.12.0-1deepin1) ...
+dpkg: libdb5.3:arm64: dependency problems, but removing anyway as you requested:
+ libsasl2-modules-db:arm64 depends on libdb5.3.
+ libpython3.11-stdlib:arm64 depends on libdb5.3.
+ libperl5.36:arm64 depends on libdb5.3.
+ libpam-modules:arm64 depends on libdb5.3.
+ libjack-jackd2-0:arm64 depends on libdb5.3.
+ libical3:arm64 depends on libdb5.3.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27715 files and directories currently installed.)
+Removing libdb5.3:arm64 (5.3.28+dfsg1-0.8) ...
+Selecting previously unselected package libdb5.3t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27709 files and directories currently installed.)
+Preparing to unpack .../libdb5.3t64_5.3.28+dfsg2-7_arm64.deb ...
+Unpacking libdb5.3t64:arm64 (5.3.28+dfsg2-7) ...
+Setting up libdb5.3t64:arm64 (5.3.28+dfsg2-7) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27715 files and directories currently installed.)
+Removing libglib2.0-bin (2.80.1-1deepin1) ...
+dpkg: libglib2.0-0:arm64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-gl depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-data-extra depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-data depends on libglib2.0-0 (>= 2.16.0).
+ shared-mime-info depends on libglib2.0-0 (>= 2.75.3).
+ pulseaudio-module-bluetooth depends on libglib2.0-0 (>= 2.12.0).
+ pulseaudio depends on libglib2.0-0 (>= 2.32.0).
+ libspa-0.2-bluetooth:arm64 depends on libglib2.0-0 (>= 2.38.0).
+ librsvg2-2:arm64 depends on libglib2.0-0 (>= 2.77.3).
+ libpulse-mainloop-glib0:arm64 depends on libglib2.0-0 (>= 2.28.0).
+ libpipewire-0.3-modules:arm64 depends on libglib2.0-0 (>= 2.32.0).
+ libpangoxft-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangoft2-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangocairo-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libpango-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libical3:arm64 depends on libglib2.0-0 (>= 2.42.0).
+ libharfbuzz0b:arm64 depends on libglib2.0-0 (>= 2.32.0).
+ libharfbuzz-gobject0:arm64 depends on libglib2.0-0 (>= 2.14.0).
+ libgtk2.0-0:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ libgtk-3-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libgstreamer1.0-0:arm64 depends on libglib2.0-0 (>= 2.77.0).
+ libgstreamer-plugins-base1.0-0:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ libglibmm-2.4-1v5:arm64 depends on libglib2.0-0 (>= 2.62.0).
+ libgdk-pixbuf-xlib-2.0-0:arm64 depends on libglib2.0-0 (>= 2.48.0).
+ libgdk-pixbuf-2.0-0:arm64 depends on libglib2.0-0 (>= 2.75.0).
+ libfcitx5gclient2:arm64 depends on libglib2.0-0 (>= 2.38.0).
+ libdconf1:arm64 depends on libglib2.0-0 (>= 2.77.0).
+ libcolord2:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ libcloudproviders0:arm64 depends on libglib2.0-0 (>= 2.56.0).
+ libcairo-gobject2:arm64 depends on libglib2.0-0 (>= 2.68.0).
+ libavcodec60:arm64 depends on libglib2.0-0 (>= 2.12.0).
+ libatspi2.0-0:arm64 depends on libglib2.0-0 (>= 2.62).
+ libatk1.0-0:arm64 depends on libglib2.0-0 (>= 2.62).
+ libatk-bridge2.0-0:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ gtk-update-icon-cache depends on libglib2.0-0 (>= 2.57.2).
+ glib-networking-services depends on libglib2.0-0 (>= 2.73.3).
+ glib-networking:arm64 depends on libglib2.0-0 (>= 2.73.3).
+ fcitx5-frontend-gtk3 depends on libglib2.0-0 (>= 2.75.3).
+ fcitx5-frontend-gtk2 depends on libglib2.0-0 (>= 2.75.3).
+ dconf-service depends on libglib2.0-0 (>= 2.77.0).
+ dconf-gsettings-backend:arm64 depends on libglib2.0-0 (>= 2.77.0).
+ bluez-obexd depends on libglib2.0-0 (>= 2.77.0).
+ bluez depends on libglib2.0-0 (>= 2.75.3).
+
+Removing libglib2.0-0:arm64 (2.80.1-1deepin1) ...
+Selecting previously unselected package libglib2.0-0t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27671 files and directories currently installed.)
+Preparing to unpack .../00-libglib2.0-0t64_2.80.0-6ubuntu3.2_arm64.deb ...
+libglib2.0-0t64.preinst: Removing /var/lib/dpkg/info/libglib2.0-0:arm64.postrm to avoid loss of /usr/share/glib-2.0/schemas/gschemas.compiled...
+removed '/var/lib/dpkg/info/libglib2.0-0:arm64.postrm'
+Unpacking libglib2.0-0t64:arm64 (2.80.0-6ubuntu3.2) ...
+Preparing to unpack .../01-readline-common_8.2-4build1_all.deb ...
+Unpacking readline-common (8.2-4build1) over (8.2-3) ...
+Selecting previously unselected package libftdi1-2:arm64.
+Preparing to unpack .../02-libftdi1-2_1.5-6build5_arm64.deb ...
+Unpacking libftdi1-2:arm64 (1.5-6build5) ...
+Selecting previously unselected package libieee1284-3t64:arm64.
+Preparing to unpack .../03-libieee1284-3t64_0.2.11-14.1build1_arm64.deb ...
+Unpacking libieee1284-3t64:arm64 (0.2.11-14.1build1) ...
+Selecting previously unselected package libpython3.12t64:arm64.
+Preparing to unpack .../04-libpython3.12t64_3.12.3-1ubuntu0.5_arm64.deb ...
+Unpacking libpython3.12t64:arm64 (3.12.3-1ubuntu0.5) ...
+Selecting previously unselected package libhidapi-hidraw0:arm64.
+Preparing to unpack .../05-libhidapi-hidraw0_0.14.0-1build1_arm64.deb ...
+Unpacking libhidapi-hidraw0:arm64 (0.14.0-1build1) ...
+Selecting previously unselected package libserialport0:arm64.
+Preparing to unpack .../06-libserialport0_0.1.1-4_arm64.deb ...
+Unpacking libserialport0:arm64 (0.1.1-4) ...
+Selecting previously unselected package libzip4t64:arm64.
+Preparing to unpack .../07-libzip4t64_1.7.3-1.1ubuntu2_arm64.deb ...
+Unpacking libzip4t64:arm64 (1.7.3-1.1ubuntu2) ...
+Selecting previously unselected package libsigrok4t64:arm64.
+Preparing to unpack .../08-libsigrok4t64_0.5.2-5.1build2_arm64.deb ...
+Adding 'diversion of /lib/udev/rules.d/60-libsigrok.rules to /lib/udev/rules.d/60-libsigrok.rules.usr-is-merged by usr-is-merged'
+Adding 'diversion of /lib/udev/rules.d/61-libsigrok-plugdev.rules to /lib/udev/rules.d/61-libsigrok-plugdev.rules.usr-is-merged by usr-is-merged'
+Adding 'diversion of /lib/udev/rules.d/61-libsigrok-uaccess.rules to /lib/udev/rules.d/61-libsigrok-uaccess.rules.usr-is-merged by usr-is-merged'
+Unpacking libsigrok4t64:arm64 (0.5.2-5.1build2) ...
+Selecting previously unselected package libsigrokdecode4:arm64.
+Preparing to unpack .../09-libsigrokdecode4_0.5.3-4build3_arm64.deb ...
+Unpacking libsigrokdecode4:arm64 (0.5.3-4build3) ...
+Selecting previously unselected package sigrok-cli.
+Preparing to unpack .../10-sigrok-cli_0.7.2-1build2_arm64.deb ...
+Unpacking sigrok-cli (0.7.2-1build2) ...
+Setting up libexpat1:arm64 (2.6.1-2ubuntu0.2) ...
+Setting up libieee1284-3t64:arm64 (0.2.11-14.1build1) ...
+Setting up libssl3t64:arm64 (3.0.13-0ubuntu3.5) ...
+Setting up libpython3.12-minimal:arm64 (3.12.3-1ubuntu0.5) ...
+Setting up libhidapi-hidraw0:arm64 (0.14.0-1build1) ...
+Setting up libftdi1-2:arm64 (1.5-6build5) ...
+Setting up libglib2.0-0t64:arm64 (2.80.0-6ubuntu3.2) ...
+Setting up libzip4t64:arm64 (1.7.3-1.1ubuntu2) ...
+Setting up libserialport0:arm64 (0.1.1-4) ...
+Setting up readline-common (8.2-4build1) ...
+Setting up python3.12-minimal (3.12.3-1ubuntu0.5) ...
+Setting up libreadline8t64:arm64 (8.2-4build1) ...
+Setting up libsigrok4t64:arm64 (0.5.2-5.1build2) ...
+Setting up libpython3.12-stdlib:arm64 (3.12.3-1ubuntu0.5) ...
+Setting up python3.12 (3.12.3-1ubuntu0.5) ...
+Setting up libpython3.12t64:arm64 (3.12.3-1ubuntu0.5) ...
+Setting up libsigrokdecode4:arm64 (0.5.3-4build3) ...
+Setting up sigrok-cli (0.7.2-1build2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for shared-mime-info (2.2-1) ...

@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: sigrok-cli.linyaps
+  name: sigrok-cli
+  version: 0.7.2.1
+  kind: app
+  description: |-
+    command-line frontend for the sigrok software
+    sigrok-cli is a command-line data acquisition and protocol decoding software.
+
+    It supports sample acquisition from logic analyzer, oscilloscope,
+    multimeter, and other hardware, as well as running protocol decoders over
+    the sample data (either from hardware or loaded from files).
+command:
+- /opt/apps/sigrok-cli.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
