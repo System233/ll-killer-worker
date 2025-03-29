@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: qrazercfg.linyaps
+  name: qrazercfg
+  version: 0.42.0.4
+  kind: app
+  description: |-
+    Graphical Razer device configuration tool
+    Python- and QT-powered configuration utility for the configuration of Razer
+    devices on Linux systems.
+command:
+- /opt/apps/qrazercfg.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
