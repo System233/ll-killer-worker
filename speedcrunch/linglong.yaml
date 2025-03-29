@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: speedcrunch.linyaps
+  name: speedcrunch
+  version: 0.12.0.6
+  kind: app
+  description: |-
+    High precision calculator
+    SpeedCrunch is a high precision and high speed calculator.
+
+    It's optimized for keyboard use and has advanced features: use of functions,
+    use of variables, result history, and syntax highlighting. It also shows the
+    result as you type.
+
+    SpeedCrunch has a very simple interface, so you can start to use it very
+    quickly.
+command:
+- /opt/apps/speedcrunch.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
