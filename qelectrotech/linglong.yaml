@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: qelectrotech.linyaps
+  name: qelectrotech
+  version: 0.9.0.2
+  kind: app
+  description: |-
+    Electric schematic editor
+    QElectroTech is a Qt5 application written in C++ .
+    This program helps you to design electrical schematic diagrams.
+    It includes a schematic editor, an element editor, and a titleblock editor.
+    It uses XML files to store the produced contents.
+command:
+- /opt/apps/qelectrotech.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
