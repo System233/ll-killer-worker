@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: studio-controls.linyaps
+  name: studio-controls
+  version: 2.3.9.0
+  kind: app
+  description: |-
+    Studio Controls - Jack Audio Configuration Tool
+    Studio Controls is a small application that enables/disables realtime
+    privilege for users and controls jackdbus. It allows Jackdbus to be run from
+    session start. It also will detect USB audio devices getting plugged in after
+    session start and optionally connect them to jackdbus as a client or switch
+    them in as jackdbus master.
+command:
+- /opt/apps/studio-controls.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
