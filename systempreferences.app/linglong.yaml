@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: systempreferences.app.linyaps
+  name: systempreferences.app
+  version: 1.2.0.2
+  kind: app
+  description: |-
+    GNUstep preferences application
+    System Preferences is an application which allows one to manage the
+    settings of many aspects of the GNUstep environment and its
+    applications.  The System Preferences application is made of Modules,
+    each one a bundle representing a single control panel, and is thus
+    extensible and modular.
+command:
+- /opt/apps/systempreferences.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
