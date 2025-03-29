@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: vim-common.linyaps
+  name: vim-common
+  version: 9.1.777.1
+  kind: app
+  description: |-
+    Vi IMproved - Common files
+    Vim is an almost compatible version of the UNIX editor Vi.
+
+    This package contains files shared by all non GUI-enabled vim variants
+    available in Debian.  Examples of such shared files are: manpages and
+    configuration files.
+command:
+- /opt/apps/vim-common.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
