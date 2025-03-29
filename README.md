@@ -1,12 +1,12 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|2648|1565 |1083 | 59.10%| 50.50%|
+|3099|2693|1586 |1107 | 58.89%| 51.18%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|2342|1452 |890 | 62.00%| 52.63%|
-|deepin-v23|340|306|113 |193 | 36.93%| 33.24%|
+|ubuntu-noble|2759|2384|1472 |912 | 61.74%| 53.35%|
+|deepin-v23|340|309|114 |195 | 36.89%| 33.53%|
 ## 详细结果
 | 包名  | 架构 |仓库| 版本 | 测试结果 | SHA256 |killer版本|
 |-------|-----|----|------|---------|--------|---------|
@@ -2649,12 +2649,57 @@
 | [teeworlds](./teeworlds) | arm64  | ubuntu-noble | 0.7.5-2 | ![screen0-5.jpg](./teeworlds/tests/screen0-5.jpg) | [SHA256](./teeworlds/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [teg](./teg) | arm64  | ubuntu-noble | 0.12.0-2build2-20250327 | 失败 | [SHA256](./teg/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [telegnome](./telegnome) | arm64  | ubuntu-noble | 0.3.6-5build2 | ![screen0-5.jpg](./telegnome/tests/screen0-5.jpg) | [SHA256](./telegnome/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tellico](./tellico) | arm64  | ubuntu-noble | 3.5.3-1ubuntu5 | ![screen0-5.jpg](./tellico/tests/screen0-5.jpg) | [SHA256](./tellico/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [tenace](./tenace) | arm64  | ubuntu-noble | 0.17-1build2 | ![screen0-5.jpg](./tenace/tests/screen0-5.jpg) | [SHA256](./tenace/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [tenmado](./tenmado) | arm64  | ubuntu-noble | 0.10-5 | ![screen0-5.jpg](./tenmado/tests/screen0-5.jpg) | [SHA256](./tenmado/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [tennix](./tennix) | arm64  | ubuntu-noble | 1.3.4-0.1build2 | ![screen0-5.jpg](./tennix/tests/screen0-5.jpg) | [SHA256](./tennix/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [terminal.app](./terminal.app) | arm64  | ubuntu-noble | 0.9.9-3build3-20250327 | 失败 | [SHA256](./terminal.app/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [terminator](./terminator) | arm64  | ubuntu-noble | 2.1.3-1-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
 | [terminatorx](./terminatorx) | arm64  | ubuntu-noble | 4.2.0-1build2 | ![screen0-5.jpg](./terminatorx/tests/screen0-5.jpg) | [SHA256](./terminatorx/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [terminology](./terminology) | arm64  | ubuntu-noble | 1.13.0-2build2 | ![screen0-5.jpg](./terminology/tests/screen0-5.jpg) | [SHA256](./terminology/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [terminus](./terminus) | arm64  | ubuntu-noble | 2.3.1-1ubuntu4-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
 | [termit](./termit) | arm64  | ubuntu-noble | 3.1-3build2 | ![screen0-5.jpg](./termit/tests/screen0-5.jpg) | [SHA256](./termit/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [terraintool](./terraintool) | arm64  | ubuntu-noble | 1.16-3-20250327 | 失败 | [SHA256](./terraintool/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [tetraproc](./tetraproc) | arm64  | ubuntu-noble | 0.9.2-1build2-20250327 | 失败 | [SHA256](./tetraproc/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tetzle](./tetzle) | arm64  | ubuntu-noble | 2.2.3-1ubuntu3 | ![screen0-5.jpg](./tetzle/tests/screen0-5.jpg) | [SHA256](./tetzle/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [texlive-base](./texlive-base) | arm64  | deepin-v23 | 2024.20241115-1deepin1-20250327 | 失败 | [SHA256](./texlive-base/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [texmaker](./texmaker) | arm64  | ubuntu-noble | 5.1.3+dfsg-1build8 | ![screen0-5.jpg](./texmaker/tests/screen0-5.jpg) | [SHA256](./texmaker/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [texstudio](./texstudio) | arm64  | ubuntu-noble | 4.7.2+ds-2build3 | ![screen0-5.jpg](./texstudio/tests/screen0-5.jpg) | [SHA256](./texstudio/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [textedit.app](./textedit.app) | arm64  | ubuntu-noble | 5.0-3-20250327 | 失败 | [SHA256](./textedit.app/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [texworks](./texworks) | arm64  | ubuntu-noble | 0.6.8-3build4 | ![screen0-5.jpg](./texworks/tests/screen0-5.jpg) | [SHA256](./texworks/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tf5](./tf5) | arm64  | ubuntu-noble | 5.0beta8-12build2-20250327 | 失败 | [SHA256](./tf5/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tgif](./tgif) | arm64  | ubuntu-noble | 4.2.5-1.3build4-20250327 | 失败 | [SHA256](./tgif/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [thawab](./thawab) | arm64  | ubuntu-noble | 4.1-2ubuntu1-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [therion](./therion) | arm64  | ubuntu-noble | 6.2.0-1build3-20250327 | 失败 | [SHA256](./therion/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [therion-viewer](./therion-viewer) | arm64  | ubuntu-noble | 6.2.0-1build3 | ![screen0-5.jpg](./therion-viewer/tests/screen0-5.jpg) | [SHA256](./therion-viewer/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [thonny](./thonny) | arm64  | ubuntu-noble | 4.0.1-1-20250327 | 失败 | [SHA256](./thonny/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [threadscope](./threadscope) | arm64  | ubuntu-noble | 0.2.14.1-1ubuntu2 | ![screen0-6.jpg](./threadscope/tests/screen0-6.jpg) | [SHA256](./threadscope/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [thunar](./thunar) | arm64  | ubuntu-noble | 4.18.8-1build3 | ![screen0-5.jpg](./thunar/tests/screen0-5.jpg) ![screen2-5.jpg](./thunar/tests/screen2-5.jpg) | [SHA256](./thunar/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [thunar-volman](./thunar-volman) | arm64  | ubuntu-noble | 4.18.0-1build2 | ![screen0-5.jpg](./thunar-volman/tests/screen0-5.jpg) | [SHA256](./thunar-volman/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [thunderbird](./thunderbird) | arm64  | deepin-v23 | 128.3.0esr-1deepin2 | ![screen0-5.jpg](./thunderbird/tests/screen0-5.jpg) | [SHA256](./thunderbird/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tiatracker](./tiatracker) | arm64  | ubuntu-noble | 1.3-3build2 | ![screen0-5.jpg](./tiatracker/tests/screen0-5.jpg) | [SHA256](./tiatracker/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [ticketbooth](./ticketbooth) | arm64  | ubuntu-noble | 1.0.3.1-2-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [tickr](./tickr) | arm64  | ubuntu-noble | 0.7.1-1build2 | ![screen0-5.jpg](./tickr/tests/screen0-5.jpg) | [SHA256](./tickr/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tiger](./tiger) | arm64  | ubuntu-noble | 3.2.4~rc1-3.2-20250327 | 失败 | [SHA256](./tiger/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tigervnc-viewer](./tigervnc-viewer) | arm64  | ubuntu-noble | 1.13.1+dfsg-2build2 | ![screen0-5.jpg](./tigervnc-viewer/tests/screen0-5.jpg) | [SHA256](./tigervnc-viewer/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tikzit](./tikzit) | arm64  | ubuntu-noble | 2.1.6-4build3 | ![screen0-5.jpg](./tikzit/tests/screen0-5.jpg) | [SHA256](./tikzit/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tilda](./tilda) | arm64  | ubuntu-noble | 2.0.0-1build2 | ![screen0-5.jpg](./tilda/tests/screen0-5.jpg) ![screen1-5.jpg](./tilda/tests/screen1-5.jpg) | [SHA256](./tilda/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tiled](./tiled) | arm64  | ubuntu-noble | 1.8.2-1build2 | ![screen0-5.jpg](./tiled/tests/screen0-5.jpg) | [SHA256](./tiled/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tilem](./tilem) | arm64  | ubuntu-noble | 2.0-5build3 | ![screen0-5.jpg](./tilem/tests/screen0-5.jpg) | [SHA256](./tilem/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tilix](./tilix) | arm64  | ubuntu-noble | 1.9.6-2build1-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [tilp2](./tilp2) | arm64  | ubuntu-noble | 1.19~git20231112.5a2ea63-1build2 | ![screen0-5.jpg](./tilp2/tests/screen0-5.jpg) | [SHA256](./tilp2/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [timekpr-next](./timekpr-next) | arm64  | ubuntu-noble | 0.5.4-1ubuntu3.1-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [timemachine](./timemachine) | arm64  | ubuntu-noble | 0.3.3-3build2-20250327 | 失败 | [SHA256](./timemachine/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [timemon.app](./timemon.app) | arm64  | ubuntu-noble | 4.2-2build5-20250327 | 失败 | [SHA256](./timemon.app/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [timeshift](./timeshift) | arm64  | ubuntu-noble | 24.01.1-1build2-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [timidity](./timidity) | arm64  | deepin-v23 | 2.14.0-deepin1-20250327 | 失败 | [SHA256](./timidity/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tint](./tint) | arm64  | ubuntu-noble | 0.07-20250327 | 失败 | [SHA256](./tint/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tint2](./tint2) | arm64  | ubuntu-noble | 17.0.1-1.1build2 | ![screen1-5.jpg](./tint2/tests/screen1-5.jpg) | [SHA256](./tint2/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tintin++](./tintin++) | arm64  | ubuntu-noble | 2.02.20-1build2-20250327 | 失败 | [SHA256](./tintin++/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tipp10](./tipp10) | arm64  | ubuntu-noble | 3.3.0-2build2-20250327 | 失败 | [SHA256](./tipp10/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [titanion](./titanion) | arm64  | ubuntu-noble | 0.3.dfsg1-8 | ![screen0-5.jpg](./titanion/tests/screen0-5.jpg) | [SHA256](./titanion/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tkabber](./tkabber) | arm64  | ubuntu-noble | 1.1.2+20191012-1-20250327 | 失败 | [SHA256](./tkabber/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tkcon](./tkcon) | arm64  | ubuntu-noble | 2.7.11-1-20250327 | 失败 | [SHA256](./tkcon/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tkcvs](./tkcvs) | arm64  | ubuntu-noble | 8.2.3-1.2-20250327 | 失败 | [SHA256](./tkcvs/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tkgate](./tkgate) | arm64  | ubuntu-noble | 2.1+repack-6build2-20250327 | 失败 | [SHA256](./tkgate/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [tkinfo](./tkinfo) | arm64  | ubuntu-noble | 2.11-4-20250327 | 失败 | [SHA256](./tkinfo/SHA256SUMS) | v1.5.2-arm64-nevm |
