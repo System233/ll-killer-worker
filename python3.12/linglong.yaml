@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: python3.12.linyaps
+  name: python3.12
+  version: 3.12.4.0
+  kind: app
+  description: |-
+    Interactive high-level object-oriented language (version 3.12)
+    Python is a high-level, interactive, object-oriented language. Its 3.12 version
+    includes an extensive class library with lots of goodies for
+    network programming, system administration, sounds and graphics.
+command:
+- /opt/apps/python3.12.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
