@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: redshift.linyaps
+  name: redshift
+  version: 1.12.0.4
+  kind: app
+  description: |-
+    Adjusts the color temperature of your screen
+    The color temperature is set according to the position of the sun. A
+    different color temperature is set during night and daytime. During
+    twilight and early morning, the color temperature transitions smoothly
+    from night to daytime temperature to allow your eyes to slowly
+    adapt.
+
+    This package provides the base program.
+command:
+- /opt/apps/redshift.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
