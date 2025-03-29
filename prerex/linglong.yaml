@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: prerex.linyaps
+  name: prerex
+  version: 6.8.0.1
+  kind: app
+  description: |-
+    course prerequisite chart editor for LaTeX/TikZ
+    prerex is an editor for creating esthetically pleasing course prerequisite
+    charts using the TikZ LaTeX package.
+
+    The editor supports add, remove, cut-and-paste, and edit operations on
+    diagram elements, and shifts of a list of specified elements or the
+    entire diagram. The edited diagram may be saved, re-processed, and viewed in
+    a PDF viewer, without exiting the editor.
+
+    Course prerequisite charts allow students to easily determine which
+    prerequisites, corequisites and recommended prerequisites they need for a
+    given course and their time slots. Course prerequisite charts also highlight
+    the courses required by a degree.
+
+    prerex is used by departments in several universities, including Queen's
+    University and Suffolk University.
+command:
+- /opt/apps/prerex.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
