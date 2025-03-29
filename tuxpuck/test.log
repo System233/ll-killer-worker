@@ -1,0 +1,34 @@
+正在测试: APPID=tuxpuck.linyaps LAYER=tuxpuck.linyaps_0.8.2.12_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install tuxpuck.linyaps_0.8.2.12_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:tuxpuck.linyaps
+Layer文件:tuxpuck.linyaps_0.8.2.12_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: tuxpuck.linyaps_0.8.2.12_arm64_binary.layer
+offset: 633
+mountpoint: /tmp/tmp.yiRPGweVw1/mnt
+dbglevel: 0
+[成功] tuxpuck.desktop: tuxpuck -> /opt/apps/tuxpuck.linyaps/files/share/icons/hicolor/64x64/apps/tuxpuck.png
+[成功] /opt/apps/tuxpuck.linyaps/files/share/applications/tuxpuck.desktop: /opt/apps/tuxpuck.linyaps/files/entrypoint.sh tuxpuck
+[正在测试启动项]
+包名:tuxpuck.linyaps
+Layer文件:tuxpuck.linyaps_0.8.2.12_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: tuxpuck.linyaps_0.8.2.12_arm64_binary.layer
+offset: 633
+mountpoint: /tmp/tmp.0vggcXimdz/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run tuxpuck.linyaps -- /opt/apps/tuxpuck.linyaps/files/entrypoint.sh tuxpuck
+[PID 5953] 进程已启动
+[PID 5953] 已检测到窗口:PID=37
+[PID 5953] 正在截图 0秒: tests/screen0-0.jpg
+[PID 5953] 正在截图 1秒: tests/screen0-1.jpg
+[PID 5953] 正在截图 3秒: tests/screen0-3.jpg
+[PID 5953] 正在截图 5秒: tests/screen0-5.jpg
+[PID 5953] 正在通知并等待进程退出
+[PID 5953] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall tuxpuck.linyaps
