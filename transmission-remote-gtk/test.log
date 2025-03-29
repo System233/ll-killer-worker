@@ -1,0 +1,34 @@
+正在测试: APPID=transmission-remote-gtk.linyaps LAYER=transmission-remote-gtk.linyaps_1.5.1.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install transmission-remote-gtk.linyaps_1.5.1.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:transmission-remote-gtk.linyaps
+Layer文件:transmission-remote-gtk.linyaps_1.5.1.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: transmission-remote-gtk.linyaps_1.5.1.1_arm64_binary.layer
+offset: 694
+mountpoint: /tmp/tmp.VjuMheF0Nh/mnt
+dbglevel: 0
+[成功] io.github.TransmissionRemoteGtk.desktop: transmission-remote-gtk -> /opt/apps/transmission-remote-gtk.linyaps/files/share/icons/hicolor/16x16/apps/transmission-remote-gtk.png
+[成功] /opt/apps/transmission-remote-gtk.linyaps/files/share/applications/io.github.TransmissionRemoteGtk.desktop: /opt/apps/transmission-remote-gtk.linyaps/files/entrypoint.sh transmission-remote-gtk %U
+[正在测试启动项]
+包名:transmission-remote-gtk.linyaps
+Layer文件:transmission-remote-gtk.linyaps_1.5.1.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: transmission-remote-gtk.linyaps_1.5.1.1_arm64_binary.layer
+offset: 694
+mountpoint: /tmp/tmp.IHPWXtYp67/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run transmission-remote-gtk.linyaps -- /opt/apps/transmission-remote-gtk.linyaps/files/entrypoint.sh transmission-remote-gtk
+[PID 8393] 进程已启动
+[PID 8393] 已检测到窗口:PID=37
+[PID 8393] 正在截图 0秒: tests/screen0-0.jpg
+[PID 8393] 正在截图 2秒: tests/screen0-2.jpg
+[PID 8393] 正在截图 4秒: tests/screen0-4.jpg
+[PID 8393] 正在截图 5秒: tests/screen0-5.jpg
+[PID 8393] 正在通知并等待进程退出
+[PID 8393] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall transmission-remote-gtk.linyaps
