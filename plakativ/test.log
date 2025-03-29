@@ -1,0 +1,31 @@
+正在测试: APPID=plakativ.linyaps LAYER=plakativ.linyaps_0.5.2.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install plakativ.linyaps_0.5.2.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:plakativ.linyaps
+Layer文件:plakativ.linyaps_0.5.2.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: plakativ.linyaps_0.5.2.1_arm64_binary.layer
+offset: 1060
+mountpoint: /tmp/tmp.zju8YC3YoY/mnt
+dbglevel: 0
+find: ‘/opt/apps/plakativ.linyaps/files/share/icons’: No such file or directory
+[成功] de.mister-muffin.plakativ.desktop: plakativ -> /opt/apps/plakativ.linyaps/files/share/pixmaps/plakativ.svg
+[成功] /opt/apps/plakativ.linyaps/files/share/applications/de.mister-muffin.plakativ.desktop: /opt/apps/plakativ.linyaps/files/entrypoint.sh plakativ-gui %f
+[正在测试启动项]
+包名:plakativ.linyaps
+Layer文件:plakativ.linyaps_0.5.2.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: plakativ.linyaps_0.5.2.1_arm64_binary.layer
+offset: 1060
+mountpoint: /tmp/tmp.7yjiVJ8I9w/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run plakativ.linyaps -- /opt/apps/plakativ.linyaps/files/entrypoint.sh plakativ-gui
+[PID 8933] 进程已启动
+[PID 8933] 等待超时，未能检测到窗口
+[PID 8933] 正在通知并等待进程退出
+[PID 8933] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall plakativ.linyaps
