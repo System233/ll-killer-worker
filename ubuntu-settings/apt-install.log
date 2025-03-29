@@ -1,0 +1,30 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  gnome-control-center-data
+The following NEW packages will be installed:
+  gnome-control-center-data ubuntu-settings
+0 upgraded, 2 newly installed, 0 to remove and 453 not upgraded.
+Need to get 174 kB of archives.
+After this operation, 581 kB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 gnome-control-center-data all 1:46.5-0ubuntu0.24.04.1 [164 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 ubuntu-settings all 24.04.5 [10.1 kB]
+Fetched 174 kB in 0s (1865 kB/s)
+Selecting previously unselected package gnome-control-center-data.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../gnome-control-center-data_1%3a46.5-0ubuntu0.24.04.1_all.deb ...
+Unpacking gnome-control-center-data (1:46.5-0ubuntu0.24.04.1) ...
+Selecting previously unselected package ubuntu-settings.
+Preparing to unpack .../ubuntu-settings_24.04.5_all.deb ...
+Unpacking ubuntu-settings (24.04.5) ...
+Setting up gnome-control-center-data (1:46.5-0ubuntu0.24.04.1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libglib2.0-0:amd64 (2.80.1-1deepin1) ...
+No such key “picture-uri-dark” in schema “org.gnome.desktop.background:GNOME-Greeter” as specified in override file “/usr/share/glib-2.0/schemas/10_ubuntu-settings.gschema.override”; ignoring override for this key.
+No such key “picture-uri-dark” in schema “org.gnome.desktop.background:ubuntu” as specified in override file “/usr/share/glib-2.0/schemas/10_ubuntu-settings.gschema.override”; ignoring override for this key.
+Setting up ubuntu-settings (24.04.5) ...
