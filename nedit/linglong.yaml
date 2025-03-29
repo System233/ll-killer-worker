@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: nedit.linyaps
+  name: nedit
+  version: 5.7.0.5
+  kind: app
+  description: |-
+    powerful, customizable, Motif based text editor
+    NEdit is a multi-purpose text editor for the X Window System, which
+    combines a standard, easy to use, graphical user interface with the
+    thorough functionality and stability required by users who edit text
+    eight hours a day. It provides intensive support for development in
+    a wide variety of languages, text processors, and other tools, but
+    at the same time can be used productively by just about anyone who
+    needs to edit text.
+
+    Because of its mature age, NEdit does not support UTF-8 text files,
+    nor will that be implemented.
+command:
+- /opt/apps/nedit.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
