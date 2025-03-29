@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: rgbpaint.linyaps
+  name: rgbpaint
+  version: 0.8.7.6
+  kind: app
+  description: |-
+    simple pixel-based painting program
+    This package provides the simplified painting program rgbPaint,
+    a spin-off from mtPaint by the same authors. Light on dependencies,
+    it can edit and save images in ICO, JPEG, or PNG format only,
+    though it can also read GIF, PCX, SVG, TGA, and TIFF formats.
+
+    The user interface is intentionally kept simple, without drop-down
+    menus. Ten brushes are provided, and a palette of twenty colors,
+    each of which can be replaced from a color blender. The available
+    actions are painting, filling, and area selection. The program can
+    also start by taking a screen snapshot to use as the initial image.
+
+    Originally aimed at the OLPC initiative, rgbPaint works well with
+    the Sugar desktop environment - especially with a graphics tablet;
+    even young children can quickly master it to produce true brushwork!
+command:
+- /opt/apps/rgbpaint.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
