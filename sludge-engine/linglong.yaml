@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: sludge-engine.linyaps
+  name: sludge-engine
+  version: 2.2.2.5
+  kind: app
+  description: |-
+    Runtime engine for playing SLUDGE adventure games
+    SLUDGE is an open source adventure game engine. It combines a scripting
+    language with IDE tools.
+
+    This package contains the runtime engine needed to run the games.
+    Freeware SLUDGE games include "Out Of Order", "Cubert Badbone, P.I." and
+    "The Game That Takes Place on a Cruise Ship".
+command:
+- /opt/apps/sludge-engine.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
