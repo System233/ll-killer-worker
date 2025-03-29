@@ -1,0 +1,35 @@
+正在测试: APPID=oneko.linyaps LAYER=oneko.linyaps_1.2.6.15_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install oneko.linyaps_1.2.6.15_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:oneko.linyaps
+Layer文件:oneko.linyaps_1.2.6.15_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: oneko.linyaps_1.2.6.15_arm64_binary.layer
+offset: 700
+mountpoint: /tmp/tmp.AOebRULgKB/mnt
+dbglevel: 0
+find: ‘/opt/apps/oneko.linyaps/files/share/icons’: No such file or directory
+[成功] oneko.desktop: oneko_cat -> /opt/apps/oneko.linyaps/files/share/pixmaps/oneko_cat.png
+find: ‘/opt/apps/oneko.linyaps/files/share/icons’: No such file or directory
+[成功] oneko.desktop: oneko_dog -> /opt/apps/oneko.linyaps/files/share/pixmaps/oneko_dog.png
+find: ‘/opt/apps/oneko.linyaps/files/share/icons’: No such file or directory
+[成功] oneko.desktop: oneko_stop -> /opt/apps/oneko.linyaps/files/share/pixmaps/oneko_stop.png
+[成功] /opt/apps/oneko.linyaps/files/share/applications/oneko.desktop: /opt/apps/oneko.linyaps/files/entrypoint.sh oneko -fg black -bg white
+[正在测试启动项]
+包名:oneko.linyaps
+Layer文件:oneko.linyaps_1.2.6.15_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: oneko.linyaps_1.2.6.15_arm64_binary.layer
+offset: 700
+mountpoint: /tmp/tmp.f1Fs5lSsFy/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run oneko.linyaps -- /opt/apps/oneko.linyaps/files/entrypoint.sh oneko -fg black -bg white
+[PID 5545] 进程已启动
+[PID 5545] 等待超时，未能检测到窗口
+[PID 5545] 正在通知并等待进程退出
+[PID 5545] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall oneko.linyaps
