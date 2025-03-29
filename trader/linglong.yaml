@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: trader.linyaps
+  name: trader
+  version: 7.18.0.1
+  kind: app
+  description: |-
+    simple game of interstellar trading
+    Star Traders is a simple game of interstellar trading, where the
+    objective is to create companies, buy and sell shares, borrow and repay
+    money, in order to become the wealthiest player (the winner).
+command:
+- /opt/apps/trader.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
