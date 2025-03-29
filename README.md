@@ -1,12 +1,12 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|2413|1442 |971 | 59.76%| 46.53%|
+|3099|2493|1485 |1008 | 59.57%| 47.92%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|2117|1333 |784 | 62.97%| 48.31%|
-|deepin-v23|340|296|109 |187 | 36.82%| 32.06%|
+|ubuntu-noble|2759|2190|1373 |817 | 62.69%| 49.76%|
+|deepin-v23|340|303|112 |191 | 36.96%| 32.94%|
 ## 详细结果
 | 包名  | 架构 |仓库| 版本 | 测试结果 | SHA256 |killer版本|
 |-------|-----|----|------|---------|--------|---------|
@@ -2423,3 +2423,83 @@
 | [rxvt-unicode](./rxvt-unicode) | arm64  | ubuntu-noble | 9.31-3build2 | ![screen0-5.jpg](./rxvt-unicode/tests/screen0-5.jpg) | [SHA256](./rxvt-unicode/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [rygel](./rygel) | arm64  | ubuntu-noble | 0.42.5-1ubuntu3-20250327 | 失败 | [SHA256](./rygel/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [rygel-preferences](./rygel-preferences) | arm64  | ubuntu-noble | 0.42.5-1ubuntu3 | ![screen0-5.jpg](./rygel-preferences/tests/screen0-5.jpg) | [SHA256](./rygel-preferences/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [sabnzbdplus](./sabnzbdplus) | arm64  | ubuntu-noble | 4.2.2+dfsg-3-20250327 | 失败 | [SHA256](./sabnzbdplus/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [sachesi](./sachesi) | arm64  | ubuntu-noble | 2.0.4+ds-7build3 | ![screen0-5.jpg](./sachesi/tests/screen0-5.jpg) | [SHA256](./sachesi/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [safeeyes](./safeeyes) | arm64  | ubuntu-noble | 2.1.5-0.1ubuntu0.1-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [saga](./saga) | arm64  | ubuntu-noble | 9.3.1+dfsg-3build3 | ![screen0-5.jpg](./saga/tests/screen0-5.jpg) | [SHA256](./saga/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [sagcad](./sagcad) | arm64  | ubuntu-noble | 0.9.14-0ubuntu6 | ![screen0-5.jpg](./sagcad/tests/screen0-5.jpg) | [SHA256](./sagcad/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [sailcut](./sailcut) | arm64  | ubuntu-noble | 1.4.1-2.1build2 | ![screen0-5.jpg](./sailcut/tests/screen0-5.jpg) | [SHA256](./sailcut/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [sakura](./sakura) | arm64  | deepin-v23 | 3.8.8-1 | ![screen0-5.jpg](./sakura/tests/screen0-5.jpg) | [SHA256](./sakura/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [saldo](./saldo) | arm64  | ubuntu-noble | 0.7.0-2-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [samplv1](./samplv1) | arm64  | ubuntu-noble | 0.9.34-1build3 | ![screen0-5.jpg](./samplv1/tests/screen0-5.jpg) | [SHA256](./samplv1/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [sane-start](./sane-start) | arm64  | deepin-v23 | 1.1.2-20250327 | 失败 | [SHA256](./sane-start/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [saods9](./saods9) | arm64  | ubuntu-noble | 8.5+repack-1build2-20250327 | 失败 | [SHA256](./saods9/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [sasm](./sasm) | arm64  | ubuntu-noble | 3.14.0+ds-1build2 | ![screen0-5.jpg](./sasm/tests/screen0-5.jpg) | [SHA256](./sasm/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [sasview](./sasview) | arm64  | ubuntu-noble | 5.0.6-2-20250327 | 失败 | [SHA256](./sasview/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [satellite-gtk](./satellite-gtk) | arm64  | ubuntu-noble | 0.4.2-1-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [sauerbraten](./sauerbraten) | arm64  | ubuntu-noble | 0.0.20201227-1 | ![screen0-5.jpg](./sauerbraten/tests/screen0-5.jpg) | [SHA256](./sauerbraten/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [savi](./savi) | arm64  | ubuntu-noble | 1.6.0-1-20250327 | 失败 | [SHA256](./savi/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [sawfish](./sawfish) | arm64  | ubuntu-noble | 1.11.90-1.2build3-20250327 | 失败 | [SHA256](./sawfish/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [sayonara](./sayonara) | arm64  | ubuntu-noble | 1.8.0-beta1-1build3-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [scanner-driver-avision-withtool](./scanner-driver-avision-withtool) | arm64  | deepin-v23 | 0.1.0-23177-20250327 | 失败 | [SHA256](./scanner-driver-avision-withtool/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [scanner-driver-founder](./scanner-driver-founder) | arm64  | deepin-v23 | 0.1.0-24228-20250327 | 失败 | [SHA256](./scanner-driver-founder/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [scanner-driver-microtek](./scanner-driver-microtek) | arm64  | deepin-v23 | 2.1.2.1-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [scanux-base](./scanux-base) | arm64  | deepin-v23 | 3.0.15.13 | ![screen1-5.jpg](./scanux-base/tests/screen1-5.jpg) | [SHA256](./scanux-base/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [schism](./schism) | arm64  | ubuntu-noble | 20240129-1-20250327 | 失败 | [SHA256](./schism/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [scid](./scid) | arm64  | ubuntu-noble | 4.7.4+dfsg1-2-20250327 | 失败 | [SHA256](./scid/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [scilab](./scilab) | arm64  | ubuntu-noble | 2024.0.0+dfsg-5build3-20250327 | 失败 | [SHA256](./scilab/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [scilab-cli](./scilab-cli) | arm64  | ubuntu-noble | 2024.0.0+dfsg-5build3-20250327 | 失败 | [SHA256](./scilab-cli/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [scim](./scim) | arm64  | deepin-v23 | 1.4.18-2-deepin1+rb1 | ![screen0-5.jpg](./scim/tests/screen0-5.jpg) | [SHA256](./scim/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [scite](./scite) | arm64  | ubuntu-noble | 5.4.1-1build2 | ![screen0-5.jpg](./scite/tests/screen0-5.jpg) | [SHA256](./scite/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [scoary](./scoary) | arm64  | ubuntu-noble | 1.6.16-6-20250327 | 失败 | [SHA256](./scoary/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [scolasync](./scolasync) | arm64  | ubuntu-noble | 5.5-1-20250327 | 失败 | [SHA256](./scolasync/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [scorched3d](./scorched3d) | arm64  | ubuntu-noble | 44+dfsg-8build3 | ![screen0-5.jpg](./scorched3d/tests/screen0-5.jpg) | [SHA256](./scorched3d/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [scram-gui](./scram-gui) | arm64  | ubuntu-noble | 0.16.2-3build4 | ![screen0-5.jpg](./scram-gui/tests/screen0-5.jpg) | [SHA256](./scram-gui/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [scratch](./scratch) | arm64  | ubuntu-noble | 1.4.0.6~dfsg1-6.1 | ![screen0-5.jpg](./scratch/tests/screen0-5.jpg) | [SHA256](./scratch/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [scrcpy](./scrcpy) | arm64  | ubuntu-noble | 1.25-1ubuntu1-20250327 | 失败 | [SHA256](./scrcpy/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [screengrab](./screengrab) | arm64  | ubuntu-noble | 2.7.0-0ubuntu4-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [screenkey](./screenkey) | arm64  | ubuntu-noble | 1.5-3-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [screenruler](./screenruler) | arm64  | ubuntu-noble | 1.2.1-1-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [scribus](./scribus) | arm64  | ubuntu-noble | 1.6.1-0ubuntu7 | ![screen0-5.jpg](./scribus/tests/screen0-5.jpg) | [SHA256](./scribus/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [scummvm](./scummvm) | arm64  | ubuntu-noble | 2.8.0+dfsg-1build5 | ![screen0-5.jpg](./scummvm/tests/screen0-5.jpg) | [SHA256](./scummvm/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [sddm-conf](./sddm-conf) | arm64  | ubuntu-noble | 0.2.0-0ubuntu7 | ![screen0-5.jpg](./sddm-conf/tests/screen0-5.jpg) | [SHA256](./sddm-conf/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [sdl-ball](./sdl-ball) | arm64  | ubuntu-noble | 1.04+dfsg-1 | ![screen0-5.jpg](./sdl-ball/tests/screen0-5.jpg) | [SHA256](./sdl-ball/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [seafile-gui](./seafile-gui) | arm64  | ubuntu-noble | 9.0.4+ds1-1ubuntu2 | ![screen0-5.jpg](./seafile-gui/tests/screen0-5.jpg) | [SHA256](./seafile-gui/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [seahorse](./seahorse) | arm64  | ubuntu-noble | 43.0-3build2 | ![screen0-5.jpg](./seahorse/tests/screen0-5.jpg) | [SHA256](./seahorse/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [seahorse-adventures](./seahorse-adventures) | arm64  | ubuntu-noble | 1.4-1 | ![screen0-5.jpg](./seahorse-adventures/tests/screen0-5.jpg) | [SHA256](./seahorse-adventures/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [searchandrescue](./searchandrescue) | arm64  | ubuntu-noble | 1.5.0-2.1-20250327 | 失败 | [SHA256](./searchandrescue/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [searchmonkey](./searchmonkey) | arm64  | ubuntu-noble | 0.8.3-1.2 | ![screen0-5.jpg](./searchmonkey/tests/screen0-5.jpg) | [SHA256](./searchmonkey/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [seascope](./seascope) | arm64  | ubuntu-noble | 0.9+8a669e0e-3 | ![screen0-5.jpg](./seascope/tests/screen0-5.jpg) | [SHA256](./seascope/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [seaview](./seaview) | arm64  | ubuntu-noble | 5.0.5-2build2 | ![screen0-5.jpg](./seaview/tests/screen0-5.jpg) | [SHA256](./seaview/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [secpanel](./secpanel) | arm64  | ubuntu-noble | 0.6.1-3-20250327 | 失败 | [SHA256](./secpanel/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [secrets](./secrets) | arm64  | ubuntu-noble | 9.3-1-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [seergdb](./seergdb) | arm64  | ubuntu-noble | 2.3+git20240117+ds-1build2 | ![screen0-5.jpg](./seergdb/tests/screen0-5.jpg) | [SHA256](./seergdb/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [selektor](./selektor) | arm64  | ubuntu-noble | 3.13.73-1-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [sense-emu-tools](./sense-emu-tools) | arm64  | ubuntu-noble | 1.2-0ubuntu1-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [sequeler](./sequeler) | arm64  | ubuntu-noble | 0.8.2-1build2 | ![screen0-5.jpg](./sequeler/tests/screen0-5.jpg) | [SHA256](./sequeler/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [ser-player](./ser-player) | arm64  | ubuntu-noble | 1.7.3-2build3 | ![screen0-5.jpg](./ser-player/tests/screen0-5.jpg) | [SHA256](./ser-player/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [session-shortcuts](./session-shortcuts) | arm64  | ubuntu-noble | 1.4-20250327 | 失败 | [SHA256](./session-shortcuts/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [setbfree](./setbfree) | arm64  | ubuntu-noble | 0.8.12+ds-2build2-20250327 | 失败 | [SHA256](./setbfree/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [setzer](./setzer) | arm64  | ubuntu-noble | 62-1-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [sfxr-qt](./sfxr-qt) | arm64  | ubuntu-noble | 1.5.0+ds-3build2-20250327 | 失败 | [SHA256](./sfxr-qt/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [sgt-launcher](./sgt-launcher) | arm64  | ubuntu-noble | 0.2.8-0ubuntu1.1-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [sgt-puzzles](./sgt-puzzles) | arm64  | ubuntu-noble | 20230410.71cf891-2build2 | ![screen0-5.jpg](./sgt-puzzles/tests/screen0-5.jpg) ![screen1-5.jpg](./sgt-puzzles/tests/screen1-5.jpg) ![screen2-5.jpg](./sgt-puzzles/tests/screen2-5.jpg) ![screen3-5.jpg](./sgt-puzzles/tests/screen3-5.jpg) ![screen4-5.jpg](./sgt-puzzles/tests/screen4-5.jpg) ![screen5-5.jpg](./sgt-puzzles/tests/screen5-5.jpg) ![screen6-5.jpg](./sgt-puzzles/tests/screen6-5.jpg) ![screen7-5.jpg](./sgt-puzzles/tests/screen7-5.jpg) ![screen8-5.jpg](./sgt-puzzles/tests/screen8-5.jpg) ![screen9-5.jpg](./sgt-puzzles/tests/screen9-5.jpg) ![screen10-5.jpg](./sgt-puzzles/tests/screen10-5.jpg) ![screen11-5.jpg](./sgt-puzzles/tests/screen11-5.jpg) ![screen12-5.jpg](./sgt-puzzles/tests/screen12-5.jpg) ![screen13-5.jpg](./sgt-puzzles/tests/screen13-5.jpg) ![screen14-5.jpg](./sgt-puzzles/tests/screen14-5.jpg) ![screen15-5.jpg](./sgt-puzzles/tests/screen15-5.jpg) ![screen16-5.jpg](./sgt-puzzles/tests/screen16-5.jpg) ![screen17-5.jpg](./sgt-puzzles/tests/screen17-5.jpg) ![screen18-5.jpg](./sgt-puzzles/tests/screen18-5.jpg) ![screen19-5.jpg](./sgt-puzzles/tests/screen19-5.jpg) ![screen20-5.jpg](./sgt-puzzles/tests/screen20-5.jpg) ![screen21-5.jpg](./sgt-puzzles/tests/screen21-5.jpg) ![screen22-5.jpg](./sgt-puzzles/tests/screen22-5.jpg) ![screen23-5.jpg](./sgt-puzzles/tests/screen23-5.jpg) ![screen24-5.jpg](./sgt-puzzles/tests/screen24-5.jpg) ![screen25-5.jpg](./sgt-puzzles/tests/screen25-5.jpg) ![screen26-5.jpg](./sgt-puzzles/tests/screen26-5.jpg) ![screen27-5.jpg](./sgt-puzzles/tests/screen27-5.jpg) ![screen28-5.jpg](./sgt-puzzles/tests/screen28-5.jpg) ![screen29-5.jpg](./sgt-puzzles/tests/screen29-5.jpg) ![screen30-5.jpg](./sgt-puzzles/tests/screen30-5.jpg) ![screen31-5.jpg](./sgt-puzzles/tests/screen31-5.jpg) ![screen32-5.jpg](./sgt-puzzles/tests/screen32-5.jpg) ![screen33-5.jpg](./sgt-puzzles/tests/screen33-5.jpg) ![screen34-5.jpg](./sgt-puzzles/tests/screen34-5.jpg) ![screen35-5.jpg](./sgt-puzzles/tests/screen35-5.jpg) ![screen36-5.jpg](./sgt-puzzles/tests/screen36-5.jpg) ![screen37-5.jpg](./sgt-puzzles/tests/screen37-5.jpg) ![screen38-5.jpg](./sgt-puzzles/tests/screen38-5.jpg) ![screen39-5.jpg](./sgt-puzzles/tests/screen39-5.jpg) | [SHA256](./sgt-puzzles/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [shelxle](./shelxle) | arm64  | ubuntu-noble | 1.0.1552-1build2 | ![screen0-5.jpg](./shelxle/tests/screen0-5.jpg) | [SHA256](./shelxle/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [shotcut](./shotcut) | arm64  | ubuntu-noble | 24.02.29+ds-1build1 | ![screen0-5.jpg](./shotcut/tests/screen0-5.jpg) | [SHA256](./shotcut/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [shotwell](./shotwell) | arm64  | ubuntu-noble | 0.32.6-1ubuntu3 | ![screen0-5.jpg](./shotwell/tests/screen0-5.jpg) | [SHA256](./shotwell/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [showfoto](./showfoto) | arm64  | ubuntu-noble | 8.2.0-0ubuntu6.2 | ![screen0-5.jpg](./showfoto/tests/screen0-5.jpg) | [SHA256](./showfoto/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [shutter](./shutter) | arm64  | ubuntu-noble | 0.99.2-4-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [sigil](./sigil) | arm64  | ubuntu-noble | 2.0.1+dfsg1-1build4 | ![screen0-5.jpg](./sigil/tests/screen0-5.jpg) | [SHA256](./sigil/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [signon-ui-x11](./signon-ui-x11) | arm64  | ubuntu-noble | 0.17+18.04.20171027+really20160406-0ubuntu7-20250327 | 失败 | [SHA256](./signon-ui-x11/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [sigrok-cli](./sigrok-cli) | arm64  | ubuntu-noble | 0.7.2-1build2-20250327 | 失败 | [SHA256](./sigrok-cli/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [sigviewer](./sigviewer) | arm64  | ubuntu-noble | 0.6.4-3build2 | ![screen0-5.jpg](./sigviewer/tests/screen0-5.jpg) | [SHA256](./sigviewer/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [silverjuke](./silverjuke) | arm64  | ubuntu-noble | 18.2.1-4.1build2 | ![screen0-5.jpg](./silverjuke/tests/screen0-5.jpg) | [SHA256](./silverjuke/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [silx](./silx) | arm64  | ubuntu-noble | 2.0.1+dfsg-3 | ![screen0-5.jpg](./silx/tests/screen0-5.jpg) | [SHA256](./silx/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [simple-image-filter](./simple-image-filter) | arm64  | ubuntu-noble | 1.1.2-1build2 | ![screen0-5.jpg](./simple-image-filter/tests/screen0-5.jpg) | [SHA256](./simple-image-filter/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [simple-image-reducer](./simple-image-reducer) | arm64  | ubuntu-noble | 1.0.2+git20191008-2-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [simple-scan](./simple-scan) | arm64  | ubuntu-noble | 46.0-0ubuntu2 | ![screen0-5.jpg](./simple-scan/tests/screen0-5.jpg) | [SHA256](./simple-scan/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [simplescreenrecorder](./simplescreenrecorder) | arm64  | ubuntu-noble | 0.4.4-3build4 | ![screen0-5.jpg](./simplescreenrecorder/tests/screen0-5.jpg) | [SHA256](./simplescreenrecorder/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [simutrans](./simutrans) | arm64  | ubuntu-noble | 123.0.1-3build2 | ![screen0-5.jpg](./simutrans/tests/screen0-5.jpg) | [SHA256](./simutrans/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [singularity](./singularity) | arm64  | ubuntu-noble | 1.0.0-1 | ![screen0-5.jpg](./singularity/tests/screen0-5.jpg) | [SHA256](./singularity/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [sioyek](./sioyek) | arm64  | ubuntu-noble | 2.0.0+dfsg-4build2 | ![screen0-5.jpg](./sioyek/tests/screen0-5.jpg) | [SHA256](./sioyek/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [sirikali](./sirikali) | arm64  | ubuntu-noble | 1.5.1-1build2 | ![screen0-5.jpg](./sirikali/tests/screen0-5.jpg) | [SHA256](./sirikali/SHA256SUMS) | v1.5.2-arm64-nevm |
