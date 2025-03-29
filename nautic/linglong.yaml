@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: nautic.linyaps
+  name: nautic
+  version: 1.5.0.6
+  kind: app
+  description: |-
+    computation of observer position in astro-navigation
+    Nautical ephemeris are included until 2030 with no relevant error for
+    all navigational bodies, 56 stars, Sun, Moon and 4 major planets.
+    The local meridian time can be computed directly from time UT: sextant
+    altitude correction is computed automatically after inserting the
+    value of height of eye with the correction tables of the Admiralty
+    Nautical Almanac.
+
+    A plotting sheet reports the calculated position and bodies' position
+    lines.  An info window indicates the body's most important celestial
+    parameters.
+command:
+- /opt/apps/nautic.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
