@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: scribus.linyaps
+  name: scribus
+  version: 1.6.1.0
+  kind: app
+  description: |-
+    Open Source Desktop Page Layout
+    Scribus is an open source desktop page layout program with the aim of
+    producing commercial grade output in PDF and Postscript.
+
+    Scribus can be used for many tasks; from brochure design to newspapers,
+    magazines, newsletters and posters to technical documentation.
+
+    Scribus supports professional DTP features, such as CMYK color and a
+    color management system to soft proof images for high quality color printing,
+    flexible PDF creation options, Encapsulated PostScript import/export and
+    creation of 4 color separations, import of EPS/PS and SVG as native vector
+    graphics, Unicode text including right to left scripts such as Arabic and
+    Hebrew via freetype. Graphic formats which can be placed in Scribus as images
+    include PDF, Encapsulated Post Script (eps), TIFF, JPEG, PNG and XPixMap(xpm),
+    and any bitmap type supported by QT5.
+
+    If you need to use the render frame install the texlive-latex-recommended
+    package (suggested).
+command:
+- /opt/apps/scribus.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
