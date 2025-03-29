@@ -1,0 +1,30 @@
+正在测试: APPID=pasystray.linyaps LAYER=pasystray.linyaps_0.8.2.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install pasystray.linyaps_0.8.2.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:pasystray.linyaps
+Layer文件:pasystray.linyaps_0.8.2.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pasystray.linyaps_0.8.2.1_arm64_binary.layer
+offset: 1045
+mountpoint: /tmp/tmp.rWmd4sCCFR/mnt
+dbglevel: 0
+[成功] pasystray.desktop: pasystray -> /opt/apps/pasystray.linyaps/files/share/icons/hicolor/scalable/apps/pasystray.svg
+[成功] /opt/apps/pasystray.linyaps/files/share/applications/pasystray.desktop: /opt/apps/pasystray.linyaps/files/entrypoint.sh pasystray
+[正在测试启动项]
+包名:pasystray.linyaps
+Layer文件:pasystray.linyaps_0.8.2.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pasystray.linyaps_0.8.2.1_arm64_binary.layer
+offset: 1045
+mountpoint: /tmp/tmp.JRMTQ5Xirw/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run pasystray.linyaps -- /opt/apps/pasystray.linyaps/files/entrypoint.sh pasystray
+[PID 8047] 进程已启动
+[PID 8047] 等待超时，未能检测到窗口
+[PID 8047] 正在通知并等待进程退出
+[PID 8047] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall pasystray.linyaps
