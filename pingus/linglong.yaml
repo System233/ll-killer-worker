@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: pingus.linyaps
+  name: pingus
+  version: 0.7.6.6
+  kind: app
+  description: |-
+    Free Lemmings(TM) clone
+    Pingus is a free clone of the popular Lemmings game.
+
+    Your goal is to guide a horde of penguins through a world full of obstacles
+    and penguin traps to safety. Although penguins (unlike lemmings) are rather
+    smart, they sometimes lack the necessary overview and now rely on you to
+    save them.
+
+    This package contains the main program.
+command:
+- /opt/apps/pingus.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
