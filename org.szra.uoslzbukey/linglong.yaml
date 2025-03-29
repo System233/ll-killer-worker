@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: org.szra.uoslzbukey.linyaps
+  name: org.szra.uoslzbukey
+  version: 3.33.2.5
+  kind: app
+  description: 柳州银行网盾管理工具(神州融安)
+command:
+- /opt/apps/org.szra.uoslzbukey.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

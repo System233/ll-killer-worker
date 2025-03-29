@@ -1,0 +1,28 @@
+正在测试: APPID=org.szra.uoslzbukey.linyaps LAYER=org.szra.uoslzbukey.linyaps_3.33.2.5_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install org.szra.uoslzbukey.linyaps_3.33.2.5_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:org.szra.uoslzbukey.linyaps
+Layer文件:org.szra.uoslzbukey.linyaps_3.33.2.5_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: org.szra.uoslzbukey.linyaps_3.33.2.5_arm64_binary.layer
+offset: 433
+mountpoint: /tmp/tmp.qHoGqtzpaE/mnt
+dbglevel: 0
+[成功] org.szra.uoslzbukey.desktop: org.szra.uoslzbukey.linyaps-iconlogo -> /opt/apps/org.szra.uoslzbukey.linyaps/files/share/icons/hicolor/16x16/apps/org.szra.uoslzbukey.linyaps-iconlogo.png
+[成功] /opt/apps/org.szra.uoslzbukey.linyaps/files/share/applications/org.szra.uoslzbukey.desktop: /opt/apps/org.szra.uoslzbukey.linyaps/files/entrypoint.sh /opt/apps/org.szra.uoslzbukey/files/bin/lzbukey
+[正在测试启动项]
+包名:org.szra.uoslzbukey.linyaps
+Layer文件:org.szra.uoslzbukey.linyaps_3.33.2.5_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: org.szra.uoslzbukey.linyaps_3.33.2.5_arm64_binary.layer
+offset: 433
+mountpoint: /tmp/tmp.9ciyGXNWXl/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run org.szra.uoslzbukey.linyaps -- /opt/apps/org.szra.uoslzbukey.linyaps/files/entrypoint.sh /opt/apps/org.szra.uoslzbukey/files/bin/lzbukey
+[PID 6307] 进程已启动
+[PID 6307] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall org.szra.uoslzbukey.linyaps
