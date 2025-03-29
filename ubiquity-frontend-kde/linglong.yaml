@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: ubiquity-frontend-kde.linyaps
+  name: ubiquity-frontend-kde
+  version: 24.4.5.0
+  kind: app
+  description: |-
+    KDE frontend for Ubiquity live installer
+    This package provides a KDE-based user interface frontend for the Ubiquity
+    live CD installer.
+command:
+- /opt/apps/ubiquity-frontend-kde.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
