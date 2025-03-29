@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: scrcpy.linyaps
+  name: scrcpy
+  version: 1.25.0.1
+  kind: app
+  description: |-
+    Display and control your Android device
+    This application provides display and control of Android devices connected on
+    USB (or over TCP/IP). It does not require any root access.
+
+    This package contains the client (desktop) binary.
+command:
+- /opt/apps/scrcpy.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

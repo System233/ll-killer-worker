@@ -1,0 +1,33 @@
+正在测试: APPID=scrcpy.linyaps LAYER=scrcpy.linyaps_1.25.0.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install scrcpy.linyaps_1.25.0.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:scrcpy.linyaps
+Layer文件:scrcpy.linyaps_1.25.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: scrcpy.linyaps_1.25.0.1_x86_64_binary.layer
+offset: 585
+mountpoint: /tmp/tmp.CcNyTf9xcX/mnt
+dbglevel: 0
+[成功] scrcpy-console.desktop: scrcpy -> /opt/apps/scrcpy.linyaps/files/share/icons/hicolor/256x256/apps/scrcpy.png
+[成功] /opt/apps/scrcpy.linyaps/files/share/applications/scrcpy-console.desktop: /opt/apps/scrcpy.linyaps/files/entrypoint.sh /bin/bash --norc --noprofile -i -c '"$SHELL" -i -c scrcpy || read -p "Press any key to quit..."'
+[成功] scrcpy.desktop: scrcpy -> /opt/apps/scrcpy.linyaps/files/share/icons/hicolor/256x256/apps/scrcpy.png
+[成功] /opt/apps/scrcpy.linyaps/files/share/applications/scrcpy.desktop: /opt/apps/scrcpy.linyaps/files/entrypoint.sh /bin/sh -c '"$SHELL" -i -c scrcpy'
+[正在测试启动项]
+包名:scrcpy.linyaps
+Layer文件:scrcpy.linyaps_1.25.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: scrcpy.linyaps_1.25.0.1_x86_64_binary.layer
+offset: 585
+mountpoint: /tmp/tmp.OsCvI7f0tv/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run scrcpy.linyaps -- /opt/apps/scrcpy.linyaps/files/entrypoint.sh /bin/bash --norc --noprofile -i -c '"$SHELL" -i -c scrcpy || read -p "Press any key to quit..."'
+[PID 7497] 进程已启动
+[PID 7497] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run scrcpy.linyaps -- /opt/apps/scrcpy.linyaps/files/entrypoint.sh /bin/sh -c '"$SHELL" -i -c scrcpy'
+[PID 7621] 进程已启动
+[PID 7621] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall scrcpy.linyaps
