@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: vanilla-gnome-default-settings.linyaps
+  name: vanilla-gnome-default-settings
+  version: 23.4.0.0
+  kind: app
+  description: |-
+    default settings for the Ubuntu GNOME desktop
+    This package contains the default settings used by Ubuntu GNOME.
+command:
+- /opt/apps/vanilla-gnome-default-settings.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
