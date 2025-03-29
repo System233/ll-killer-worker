@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: sayonara.linyaps
+  name: sayonara
+  version: 1.8.0.1
+  kind: app
+  description: |-
+    small, clear and fast audio player
+    Sayonara is a small, clear and fast audio player for Linux
+    written in C++, supported by the Qt framework. One of Sayonara's
+    goals is intuitive and easy usablility.
+command:
+- /opt/apps/sayonara.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
