@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: ucrpf1host.linyaps
+  name: ucrpf1host
+  version: 0.0.20181108.1
+  kind: app
+  description: |-
+    host program for Panowin F1 3D printer
+    ucrpf1host is a host program for a 3D printer called Panowin F1. It can also
+    be used on other 3D printers but beware that it might not work perfectly.
+command:
+- /opt/apps/ucrpf1host.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
