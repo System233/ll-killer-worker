@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: terminology.linyaps
+  name: terminology
+  version: 1.13.0.2
+  kind: app
+  description: |-
+    Enlightenment efl based terminal emulator
+    It emulates a slightly extended vt100 with some extensions and bling:
+    * Most escapes supported by xterm, rxvt, Xterm 256 color, etc. work
+    * Background effects, Transparency, bitmap and scalable fonts supported
+    * Themes for the layout and design, and a visual bell.
+    * URL, file path and email address detection and link-handling
+    * Inline display of link content
+    * Multiple copy and paste selections and buffer support
+    * Works in X11, Wayland and directly in the Linux framebuffer (fbcon)
+    * Finger/touch controlled, scan scale by UI scaling factors
+    * Render using OpenGL or OpenGL-ES2 or Software mode.
+    * Can display inlined multimedia, multiple tabs and split into multiple panes
+    * Block text selection. Drag and drop of text selections and links
+    * Can stream media from URLs
+    * Tab switcher has live thumbnail content
+    * Single process, multiple windows/terminals support
+command:
+- /opt/apps/terminology.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
