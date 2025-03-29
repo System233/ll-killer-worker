@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: rtcw.linyaps
+  name: rtcw
+  version: 1.51.1.7
+  kind: app
+  description: |-
+    game engine for Return to Castle Wolfenstein
+    Return to Castle Wolfenstein is a military- and occult-themed first-person
+    shooter game in a Second World War setting, originally released in 2001.
+    It is a sequel to Wolfenstein 3D, which is also available for Debian
+    (in the wolf4sdl package).
+
+    This package contains the iortcw game engines for the single-player campaign
+    and multiplayer, based on ioquake3 and the GPL source releases of RTCW.
+
+    For security reasons, this version has been modified to prevent native
+    executable code from being unpacked from game packages (PK3 files).
+    Some game modifications will not work as a result of this change.
+
+    Return to Castle Wolfenstein requires non-distributable game data files
+    in the rtcw-data package, prepared using the game-data-packager tool.
+command:
+- /opt/apps/rtcw.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
