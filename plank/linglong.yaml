@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: plank.linyaps
+  name: plank
+  version: 0.11.89.4
+  kind: app
+  description: |-
+    Elegant, simple, clean dock
+    Plank is a dock enabling you to start applications and manage your windows.
+
+    Plank is meant to be the simplest dock on the planet. The goal is to
+    provide just what a dock needs and absolutely nothing more. It is,
+    however, a library which can be extended to create other dock programs
+    with more advanced features.
+command:
+- /opt/apps/plank.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
