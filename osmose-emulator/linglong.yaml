@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: osmose-emulator.linyaps
+  name: osmose-emulator
+  version: 1.6.0.1
+  kind: app
+  description: |-
+    Sega Master System and Game Gear console emulator
+    A multi-machine emulator for platforms of Sega consoles
+    (Master System and Game Gear) and compatible for all games.
+
+    Simulates hardware extremely accurately which ensures that these
+    classic games are represented exactly like they were on the real systems.
+
+    Osmose has a clean graphical user interface based on QT and a simplified setup
+    process, and supports ROM archives in the SMS and GG formats.
+command:
+- /opt/apps/osmose-emulator.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
