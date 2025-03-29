@@ -1,0 +1,38 @@
+正在测试: APPID=phosh-mobile-settings.linyaps LAYER=phosh-mobile-settings.linyaps_0.38.0.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install phosh-mobile-settings.linyaps_0.38.0.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:phosh-mobile-settings.linyaps
+Layer文件:phosh-mobile-settings.linyaps_0.38.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: phosh-mobile-settings.linyaps_0.38.0.1_x86_64_binary.layer
+offset: 585
+mountpoint: /tmp/tmp.czOv8tOFmu/mnt
+dbglevel: 0
+[成功] mobi.phosh.MobileSettings.desktop: mobi.phosh.MobileSettings -> /opt/apps/phosh-mobile-settings.linyaps/files/share/icons/hicolor/scalable/apps/mobi.phosh.MobileSettings.svg
+[成功] /opt/apps/phosh-mobile-settings.linyaps/files/share/applications/mobi.phosh.MobileSettings.desktop: /opt/apps/phosh-mobile-settings.linyaps/files/entrypoint.sh phosh-mobile-settings
+grep: /opt/apps/phosh-mobile-settings.linyaps/files/share/applications/sm.puri.OSK0.desktop: No such file or directory
+grep: /opt/apps/phosh-mobile-settings.linyaps/files/share/applications/sm.puri.OSK0.desktop: No such file or directory
+[31m[失败] /opt/apps/phosh-mobile-settings.linyaps/files/share/applications/sm.puri.OSK0.desktop:: 找不到此启动文件 [0m
+[正在测试启动项]
+包名:phosh-mobile-settings.linyaps
+Layer文件:phosh-mobile-settings.linyaps_0.38.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: phosh-mobile-settings.linyaps_0.38.0.1_x86_64_binary.layer
+offset: 585
+mountpoint: /tmp/tmp.6dr0V2YekL/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+cat: /opt/apps/phosh-mobile-settings.linyaps/files/share/applications/sm.puri.OSK0.desktop: No such file or directory
+[PID ?] 启动进程: build-aux/ll-cli.sh run phosh-mobile-settings.linyaps -- /opt/apps/phosh-mobile-settings.linyaps/files/entrypoint.sh phosh-mobile-settings
+[PID 27623] 进程已启动
+[PID 27623] 已检测到窗口:PID=36
+[PID 27623] 正在截图 0秒: tests/screen0-0.jpg
+[PID 27623] 正在截图 1秒: tests/screen0-1.jpg
+[PID 27623] 正在截图 3秒: tests/screen0-3.jpg
+[PID 27623] 正在截图 5秒: tests/screen0-5.jpg
+[PID 27623] 正在通知并等待进程退出
+[PID 27623] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall phosh-mobile-settings.linyaps
