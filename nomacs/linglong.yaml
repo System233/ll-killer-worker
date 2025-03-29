@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: nomacs.linyaps
+  name: nomacs
+  version: 3.17.2282.2
+  kind: app
+  description: |-
+    image viewer with capability of syncing multiple instances
+    nomacs is a free image viewer for Windows and Linux systems, which is
+    licensed under the GNU General Public License v3. nomacs is small, fast and
+    able to handle the most common image formats. Additionally it is possible to
+    synchronize multiple viewers. A synchronization of viewers running on
+    the same computer or via LAN is possible. It allows one to compare images
+    and spot the differences (e.g. schemes of architects to show the
+    progress).
+command:
+- /opt/apps/nomacs.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
