@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: openjdk-17-jre.linyaps
+  name: openjdk-17-jre
+  version: 17.0.14.1
+  kind: app
+  description: |-
+    OpenJDK Java runtime, using Hotspot JIT
+    Full Java runtime environment - needed for executing Java GUI and Webstart
+    programs, using Hotspot JIT.
+command:
+- /opt/apps/openjdk-17-jre.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
