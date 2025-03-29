@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: qabcs.linyaps
+  name: qabcs
+  version: 1.0.2.6
+  kind: app
+  description: |-
+    educational software to learn the alphabet and get familiar with a keyboard
+    qABCs is an educational tool/game targeted at children. It is designed to aid
+    in learning alphabet through visual and audio samples. As a side function it
+    can also help to familiarize one with a keyboard.
+
+    This package is useful for elementary schools.
+command:
+- /opt/apps/qabcs.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
