@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: visolate.linyaps
+  name: visolate
+  version: 2.1.6.1
+  kind: app
+  description: |-
+    tool for engraving PCBs using CNCs
+    Visolate reads the gerber files describing printed circuit boards and converts
+    them into the G-code (RS-274 code) needed to engrave the layout into a board
+    using a CNC machine. Precise renditions of the original layout can be created
+    as well as voronoi fillings of the original layout, shortening the toolpath.
+command:
+- /opt/apps/visolate.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
