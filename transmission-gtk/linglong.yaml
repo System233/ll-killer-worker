@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: transmission-gtk.linyaps
+  name: transmission-gtk
+  version: 4.0.5.1
+  kind: app
+  description: |-
+    lightweight BitTorrent client (GTK+ interface)
+    Transmission is a set of lightweight BitTorrent clients (in GUI, CLI
+    and daemon form). All its incarnations feature a very simple, intuitive
+    interface on top on an efficient, cross-platform back-end.
+
+    This package contains the GTK+ stand-alone client.
+command:
+- /opt/apps/transmission-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
