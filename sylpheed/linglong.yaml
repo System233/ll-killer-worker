@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: sylpheed.linyaps
+  name: sylpheed
+  version: 3.8.0.1
+  kind: app
+  description: |-
+    Light weight e-mail client with GTK+
+    Sylpheed is an e-mail client which aims for:
+    * Quick response
+    * Graceful, and sophisticated interface
+    * Easy configuration, intuitive operation
+    * Abundant features
+    The appearance and interface are similar to some popular e-mail clients for
+    Windows, such as Outlook Express or so.
+    The interface is also designed to emulate the mailers on Emacsen, and almost
+    all commands are accessible with the keyboard.
+command:
+- /opt/apps/sylpheed.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
