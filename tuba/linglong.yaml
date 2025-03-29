@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: tuba.linyaps
+  name: tuba
+  version: 0.6.3.1
+  kind: app
+  description: |-
+    Mastodon and Fediverse client based on GTK4
+    Tuba is a lightweight desktop client for Mastodon and other fediverse
+    services using GTK4 and libadwaita. As such, it is well integrated with the
+    GNOME desktop.
+
+    Tuba is also an adaptive application, usable on both desktop and mobile
+    devices.
+command:
+- /opt/apps/tuba.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
