@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: ubuntu-mate-guide.linyaps
+  name: ubuntu-mate-guide
+  version: 22.4.0.0
+  kind: app
+  description: |-
+    Official Ubuntu MATE Guide
+    The official Ubuntu MATE guide, to help new users navigate their system.
+    It's written in XML and is viewable by using Yelp (default) or other tools.
+command:
+- /opt/apps/ubuntu-mate-guide.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
