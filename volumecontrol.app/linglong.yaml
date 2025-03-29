@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: volumecontrol.app.linyaps
+  name: volumecontrol.app
+  version: 0.8.0.1
+  kind: app
+  description: |-
+    Audio mixer for GNUstep
+    VolumeControl is a GNUstep program for adjusting the audio mixer on
+    systems that use the ALSA or OSS APIs. It allows the sound level,
+    left/right speakers, muting for master, PCM, bass, and treble levels
+    to be controlled.
+command:
+- /opt/apps/volumecontrol.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
