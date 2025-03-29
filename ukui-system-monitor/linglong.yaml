@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: ukui-system-monitor.linyaps
+  name: ukui-system-monitor
+  version: 1.0.4.1
+  kind: app
+  description: |-
+    Monitor for UKUI desktop environment
+    UKUI system monitor allows you to graphically view and manipulate the
+    running processes, It also provides an overview of the resources (such
+    as CPU and memory) and File Systems on your system.
+command:
+- /opt/apps/ukui-system-monitor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
