@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: widelands.linyaps
+  name: widelands
+  version: 1.1.0.4
+  kind: app
+  description: |-
+    fantasy real-time strategy game
+    Widelands is a strategy game aiming for gameplay similar to Settlers II by
+    BlueByte.
+
+    In this game, you start out on a small piece of land with nothing more than
+    a few of useful resources. Using those, you can build yourself an empire
+    with many thousands of inhabitants. On your way towards this goal, you will
+    have to build up an economic infrastructure, explore the lands around you
+    and face enemies who are trying to rule the world just like you do.
+command:
+- /opt/apps/widelands.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
