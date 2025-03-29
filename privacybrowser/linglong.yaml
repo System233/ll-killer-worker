@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: privacybrowser.linyaps
+  name: privacybrowser
+  version: 0.5.0.1
+  kind: app
+  description: |-
+    web browser that respects your privacy
+    Privacy Browser is a web browser based on Qt WebEngine with a focus on privacy
+    and security. Features like JavaScript and cookies are disabled by default but
+    are easy to automatically enable on-the-fly or by domain.
+command:
+- /opt/apps/privacybrowser.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
