@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: pikopixel.app.linyaps
+  name: pikopixel.app
+  version: 1.0.0.1
+  kind: app
+  description: |-
+    Pixel-art editor
+    PikoPixel is a free, open-source application for drawing & editing
+    pixel-art images & icons.
+
+    Features:
+    * Easy to use
+    * Unlimited undo
+    * Supports multiple layers
+    * Customizable canvas background & grid patterns
+    * Hotkey-activated popup panels
+    * Export upscaled images
+    * Supports linear (gamma-correct) color blending
+
+    Originally a Mac app, PikoPixel runs natively on GNU/Linux by using
+    the GNUstep framework.
+command:
+- /opt/apps/pikopixel.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
