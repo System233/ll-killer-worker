@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: pax-britannica.linyaps
+  name: pax-britannica
+  version: 1.0.0.5
+  kind: app
+  description: |-
+    one-button multi-player real-time strategy game
+    Pax Britannica is a one-button real-time strategy game by No Fun Games.
+    Up to four players battle it out underwater, struggling to be the last
+    one standing!
+
+    Each player uses one button to spawn ships that fight automatically using
+    the latest in artificial aquatelligence technology. Gamepads are also
+    supported.  The player who keeps their factory ship alive wins!
+
+    This package contains the game binary.
+command:
+- /opt/apps/pax-britannica.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
