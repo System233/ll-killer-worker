@@ -1,0 +1,34 @@
+version: "1"
+package:
+  id: openbox-lxde-session.linyaps
+  name: openbox-lxde-session
+  version: 0.99.2.5
+  kind: app
+  description: |-
+    LXDE session manager and configuration files
+    LXDE (the Lightweight X11 Desktop Environment) is a project aimed
+    to provide a desktop environment which is lightweight and fast.
+
+    It's not designed to be powerful and bloated, but to be usable and slim
+    enough, and keep the resource usage low. Different from other desktop
+    environments, LXDE doesn't tightly integrate every component. Instead,
+    LXDE tries to make all components independent, and each of them can be
+    used independently with fewer dependencies.
+
+    Features:
+
+    * Lightweight, runs with reasonable memory usage
+    * Fast, runs well even on older machines produced in 1999
+    * Good-looking, GTK+ 2 internationalized user interface
+    * Easy-to-use, the user interface is simple, but usable enough
+    * Desktop independent (surprise! Every component can be used without LXDE)
+    * Standard compliant, follows the specs on freedesktop.org
+
+    This package depends on minimal set of components (lxsession, openbox,
+    and lxde-screenlock.desktop file), and contains all the session-specific
+    configuration files required to start a LXDE desktop session from a
+    display manager such as GDM.
+command:
+- /opt/apps/openbox-lxde-session.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
