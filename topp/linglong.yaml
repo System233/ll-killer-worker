@@ -1,0 +1,35 @@
+version: "1"
+package:
+  id: topp.linyaps
+  name: topp
+  version: 2.6.0.4
+  kind: app
+  description: |-
+    set of programs implementing The OpenMS Proteomic Pipeline
+    TOPP (the OpenMS proteomic pipeline) is a pipeline for the analysis
+    of HPLC/MS data. It consists of a set of numerous small applications
+    that can be chained together to create analysis pipelines tailored
+    for a specific problem. The applications make use of the libopenms
+    library. Some examples of these applications are :
+
+    - TOPPView: A viewer for mass spectrometry data.
+    - TOPPAS: An assistant for GUI-driven TOPP workflow design.
+    - DTAExtractor: Extracts spectra of an MS run file to several
+    files in DTA format.
+    - FileConverter:  Converts between different MS file formats.
+    - FileFilter: Extracts or manipulates portions of data from peak,
+    feature or consensus feature files.
+    - SpectraMerger: Merges spectra from an LC/MS map, either by
+    precursor or by RT blocks.
+    - BaselineFilter: Removes the baseline from profile spectra using a
+    top-hat filter.
+    - InternalCalibration: Applies an internal calibration.
+    - PTModel: Trains a model for the prediction of proteotypic
+    peptides from a training set.
+    - RTPredict: Predicts retention times for peptides using a model
+    trained by RTModel.
+    - ExecutePipeline: Executes workflows created by TOPPAS.
+command:
+- /opt/apps/topp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
