@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: thunar.linyaps
+  name: thunar
+  version: 4.18.8.1
+  kind: app
+  description: |-
+    File Manager for Xfce
+    Thunar is the file manager designed to be the default file manager for the
+    Xfce desktop environment. It has been designed to be fast and easy to use.
+
+    Also included is an Xfce panel plugin which can manage the desktop trash.
+command:
+- /opt/apps/thunar.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
