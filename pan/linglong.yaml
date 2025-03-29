@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: pan.linyaps
+  name: pan
+  version: 0.155.0.1
+  kind: app
+  description: |-
+    newsreader based on GTK3, which looks like Forte Agent
+    Pan is a newsreader, loosely based on Agent and Gravity, which attempts to be
+    pleasant to use for new and advanced users alike. It has all the typical
+    features found in newsreaders and also supports offline newsreading,
+    sophisticated filtering, multiple connections, and a number of extra features
+    for power users and alt.binaries fans.
+command:
+- /opt/apps/pan.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
