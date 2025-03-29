@@ -1,0 +1,53 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libncurses6 libncursesw6 libtinfo6 ncurses-base ncurses-bin ncurses-term
+Recommended packages:
+  libgpm2
+The following NEW packages will be installed:
+  ncurses-term stterm
+The following packages will be upgraded:
+  libncurses6 libncursesw6 libtinfo6 ncurses-base ncurses-bin
+5 upgraded, 2 newly installed, 0 to remove and 446 not upgraded.
+Need to get 891 kB of archives.
+After this operation, 4641 kB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libncurses6 arm64 6.4+20240113-1ubuntu2 [110 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libncursesw6 arm64 6.4+20240113-1ubuntu2 [145 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libtinfo6 arm64 6.4+20240113-1ubuntu2 [104 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 ncurses-bin arm64 6.4+20240113-1ubuntu2 [186 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 ncurses-base all 6.4+20240113-1ubuntu2 [25.5 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 ncurses-term all 6.4+20240113-1ubuntu2 [275 kB]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 stterm arm64 0.9-1 [44.7 kB]
+Fetched 891 kB in 1s (846 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libncurses6_6.4+20240113-1ubuntu2_arm64.deb ...
+Unpacking libncurses6:arm64 (6.4+20240113-1ubuntu2) over (6.4-4) ...
+Preparing to unpack .../libncursesw6_6.4+20240113-1ubuntu2_arm64.deb ...
+Unpacking libncursesw6:arm64 (6.4+20240113-1ubuntu2) over (6.4-4) ...
+Preparing to unpack .../libtinfo6_6.4+20240113-1ubuntu2_arm64.deb ...
+Unpacking libtinfo6:arm64 (6.4+20240113-1ubuntu2) over (6.4-4) ...
+Setting up libtinfo6:arm64 (6.4+20240113-1ubuntu2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27739 files and directories currently installed.)
+Preparing to unpack .../ncurses-bin_6.4+20240113-1ubuntu2_arm64.deb ...
+Unpacking ncurses-bin (6.4+20240113-1ubuntu2) over (6.4-4) ...
+Setting up ncurses-bin (6.4+20240113-1ubuntu2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27738 files and directories currently installed.)
+Preparing to unpack .../ncurses-base_6.4+20240113-1ubuntu2_all.deb ...
+Unpacking ncurses-base (6.4+20240113-1ubuntu2) over (6.4-4) ...
+Setting up ncurses-base (6.4+20240113-1ubuntu2) ...
+Selecting previously unselected package ncurses-term.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27735 files and directories currently installed.)
+Preparing to unpack .../ncurses-term_6.4+20240113-1ubuntu2_all.deb ...
+Unpacking ncurses-term (6.4+20240113-1ubuntu2) ...
+Selecting previously unselected package stterm.
+Preparing to unpack .../stterm_0.9-1_arm64.deb ...
+Unpacking stterm (0.9-1) ...
+Setting up libncurses6:arm64 (6.4+20240113-1ubuntu2) ...
+Setting up libncursesw6:arm64 (6.4+20240113-1ubuntu2) ...
+Setting up ncurses-term (6.4+20240113-1ubuntu2) ...
+Setting up stterm (0.9-1) ...
+update-alternatives: using /usr/bin/st to provide /usr/bin/x-terminal-emulator (x-terminal-emulator) in auto mode
+Processing triggers for libc-bin (2.38-6deepin4) ...

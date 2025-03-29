@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: stterm.linyaps
+  name: stterm
+  version: 0.9.0.1
+  kind: app
+  description: |-
+    simple terminal emulator for X
+    st is a terminal emulator from the suckless project with a focus on
+    simplicity, clarity and frugality. The project's philosophy is about
+    keeping things simple, minimal and usable.
+
+    st supports most VT10X escape sequences, serial lines, XIM, utmp via
+    utmp(1), clipboard handling, mouse and keyboard shortcuts, UTF-8, wide
+    characters, resize, 256 colors, true colors, antialiased fonts (using
+    fontconfig), fallback fonts, and line drawing. It does *not* provide
+    a scrollback buffer: users are encouraged to use a terminal multiplexter.
+
+    This Debian package is called 'stterm' for historical reasons.
+command:
+- /opt/apps/stterm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
