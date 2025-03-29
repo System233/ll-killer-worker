@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: qterm.linyaps
+  name: qterm
+  version: 0.7.4.2
+  kind: app
+  description: |-
+    BBS client for X Window System written in Qt
+    QTerm is a BBS client for X Window System. It supports telnet, ssh1 and ssh2
+    protocols. It also supports zmodem, URL detect, mouse action.
+command:
+- /opt/apps/qterm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
