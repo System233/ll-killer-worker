@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: python3-whiteboard.linyaps
+  name: python3-whiteboard
+  version: 1.0.0.2
+  kind: app
+  description: |-
+    Make your own electronic whiteboard
+    python whiteboard is a program that lets you build your own
+    electronic whiteboard. You only need a wii remote and a IR pen
+command:
+- /opt/apps/python3-whiteboard.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
