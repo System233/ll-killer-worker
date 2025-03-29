@@ -1,0 +1,79 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libxaw7 libxmu6 libxt6t64 nethack-common
+The following packages will be REMOVED:
+  libxt6
+The following NEW packages will be installed:
+  libxt6t64 nethack-common nethack-x11
+The following packages will be upgraded:
+  libxaw7 libxmu6
+2 upgraded, 3 newly installed, 1 to remove and 451 not upgraded.
+Need to get 2534 kB of archives.
+After this operation, 5578 kB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxmu6 amd64 2:1.1.3-3build2 [47.6 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxaw7 amd64 2:1.0.14-1build2 [187 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxt6t64 amd64 1:1.2.1-1.2build1 [171 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 nethack-common amd64 3.6.7-1build3 [637 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 nethack-x11 amd64 3.6.7-1build3 [1491 kB]
+Fetched 2534 kB in 0s (14.3 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libxmu6_2%3a1.1.3-3build2_amd64.deb ...
+Unpacking libxmu6:amd64 (2:1.1.3-3build2) over (2:1.1.2-deepin1) ...
+Preparing to unpack .../libxaw7_2%3a1.0.14-1build2_amd64.deb ...
+Unpacking libxaw7:amd64 (2:1.0.14-1build2) over (2:1.0.13-1.1) ...
+dpkg: libxt6:amd64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libxt6.
+ xscreensaver-gl depends on libxt6.
+ xscreensaver-data-extra depends on libxt6.
+ xscreensaver-data depends on libxt6.
+ x11-xkb-utils depends on libxt6.
+ libxmu6:amd64 depends on libxt6.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27592 files and directories currently installed.)
+Removing libxt6:amd64 (1:1.2.0-1) ...
+Selecting previously unselected package libxt6t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27586 files and directories currently installed.)
+Preparing to unpack .../libxt6t64_1%3a1.2.1-1.2build1_amd64.deb ...
+Unpacking libxt6t64:amd64 (1:1.2.1-1.2build1) ...
+Selecting previously unselected package nethack-common.
+Preparing to unpack .../nethack-common_3.6.7-1build3_amd64.deb ...
+Unpacking nethack-common (3.6.7-1build3) ...
+Selecting previously unselected package nethack-x11.
+Preparing to unpack .../nethack-x11_3.6.7-1build3_amd64.deb ...
+Unpacking nethack-x11 (3.6.7-1build3) ...
+Setting up libxt6t64:amd64 (1:1.2.1-1.2build1) ...
+Setting up nethack-common (3.6.7-1build3) ...
+
+Configuration file '/etc/init.d/nethack-common', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/nethack/nethackrc.tty', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/nethack/sysconf', does not exist on system.
+Installing new config file as you requested.
+Can't exec "systemctl": No such file or directory at /usr/sbin/update-rc.d line 98.
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-helper line 682.
+/var/lib/dpkg/info/nethack-common.postinst: 85: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+nethack-common.service is a disabled or a static unit, not starting it.
+Setting up libxmu6:amd64 (2:1.1.3-3build2) ...
+Setting up libxaw7:amd64 (2:1.0.14-1build2) ...
+Setting up nethack-x11 (3.6.7-1build3) ...
+
+Configuration file '/etc/X11/app-defaults/NetHack', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/nethack/nethackrc.x11', does not exist on system.
+Installing new config file as you requested.
+update-alternatives: using /usr/lib/games/nethack/nethack-x11-tty.sh to provide /usr/games/nethack (nethack) in auto mode
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for fontconfig (2.14.2-6) ...
