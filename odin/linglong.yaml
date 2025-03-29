@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: odin.linyaps
+  name: odin
+  version: 2.0.5.5
+  kind: app
+  description: |-
+    develop, simulate and run magnetic resonance sequences
+    ODIN is a framework for magnetic resonance imaging (MRI).
+    It covers the whole toolchain of MRI, from low-level data acquisition
+    to image reconstruction. In particular, it aims at rapid prototyping
+    of MRI sequences. The sequences can be programmed using a high-level,
+    object oriented, C++ programming interface.  It provides advanced
+    sequence analysis tools, such as interactive plotting of k-space
+    trajectories, a user interface for a fast compile-link-test cycle
+    and a powerful MRI simulator which supports different virtual samples.
+    For fast and flexible image reconstruction, ODIN contains a highly
+    customizable, multi-threaded data-processing framework.
+command:
+- /opt/apps/odin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
