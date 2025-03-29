@@ -1,0 +1,37 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libvte-2.91-0 libvte-2.91-common
+The following NEW packages will be installed:
+  libvte-2.91-0 libvte-2.91-common sakura
+0 upgraded, 3 newly installed, 0 to remove and 234 not upgraded.
+Need to get 1548 kB of archives.
+After this operation, 2789 kB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main arm64 libvte-2.91-common arm64 0.75.92-1 [671 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main arm64 libvte-2.91-0 arm64 0.75.92-1 [822 kB]
+Get:3 https://community-packages.deepin.com/beige beige/community arm64 sakura arm64 3.8.8-1 [54.5 kB]
+Fetched 1548 kB in 1s (1057 kB/s)
+Selecting previously unselected package libvte-2.91-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libvte-2.91-common_0.75.92-1_arm64.deb ...
+Unpacking libvte-2.91-common (0.75.92-1) ...
+Selecting previously unselected package libvte-2.91-0:arm64.
+Preparing to unpack .../libvte-2.91-0_0.75.92-1_arm64.deb ...
+Unpacking libvte-2.91-0:arm64 (0.75.92-1) ...
+Selecting previously unselected package sakura.
+Preparing to unpack .../sakura_3.8.8-1_arm64.deb ...
+Unpacking sakura (3.8.8-1) ...
+Setting up libvte-2.91-common (0.75.92-1) ...
+
+Configuration file '/etc/profile.d/vte-2.91.sh', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/profile.d/vte.csh', does not exist on system.
+Installing new config file as you requested.
+Setting up libvte-2.91-0:arm64 (0.75.92-1) ...
+Setting up sakura (3.8.8-1) ...
+update-alternatives: using /usr/bin/sakura to provide /usr/bin/x-terminal-emulator (x-terminal-emulator) in auto mode
+Processing triggers for libc-bin (2.38-6deepin4) ...

@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: sakura.linyaps
+  name: sakura
+  version: 3.8.8.1
+  kind: app
+  description: |-
+    simple but powerful libvte-based terminal emulator
+    Sakura is a terminal emulator based on GTK+ and VTE. It's a
+    terminal emulator with few dependencies, so you don't need a
+    full GNOME desktop installed to have a decent terminal emulator.
+command:
+- /opt/apps/sakura.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
