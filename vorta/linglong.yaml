@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: vorta.linyaps
+  name: vorta
+  version: 0.8.12.2
+  kind: app
+  description: |-
+    Desktop Client for Borg Backup
+    Vorta is a GUI backup client for macOS and Linux desktops. It enables less
+    technical users, or users who prefer GUIs, to benefit from the mighty
+    BorgBackup.  Now anyone can easily and conveniently protect their data from
+    disk failure, ransomware, theft, and user error.
+
+    Features:
+    * Encrypted, deduplicated, and compressed backups via Borg.
+    * Backup to disk (DAS: direct-attached storage), server (NAS: network
+    attached storage), or a hosting service that supports Borg (BorgBase,
+    rsync.net, et al).
+    * Backups over SSH using "borg server".
+    * Profiles for grouping source folders, backup destinations, and schedules.
+    * Unified interface for viewing and managing all archives.
+    * Enhanced ease of use when restoring individual files.
+    * Built-in backup scheduling method that does not depend on system-level
+    facilities such as cron or systemd timers.
+command:
+- /opt/apps/vorta.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
