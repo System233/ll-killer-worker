@@ -1,0 +1,33 @@
+version: "1"
+package:
+  id: syncthingtray.linyaps
+  name: syncthingtray
+  version: 1.4.12.1
+  kind: app
+  description: |-
+    desktop integration for Syncthing
+    Syncthing Tray is a user-friendly frontend for Syncthing.  The tray applet
+    contains a dashboard and remote controls for Syncthing.
+
+    This package makes Syncthing easier to use because it provides desktop
+    integration; The familiarity of a desktop interface makes it easier to
+    add shared folders and remote nodes, as well as to associate them with
+    each other.  It also provides quick access to the Device ID QR code so
+    that phones can be more easily added to the mesh network.
+
+    Syncthing Tray is also typically used to enable, monitor, and control the
+    Syncthing systemd service.  Finally, a program called "syncthingctl" is
+    provided as an additional remote control; it may be useful in scripts.
+
+    Syncthing is an application for decentralised file synchronisation and p2p
+    folder sharing.  It is an alternative solution to Dropbox, Google Drive,
+    and WebDav.  Syncthing also fulfills (or exceeds) the requirements for
+    file synchronisation that users of iCloud, ownCloud, or Nextcloud expect.
+
+    This package contains the tray applet, and syncthingctl.  Users of KDE
+    Plasma will benefit from superior integration as well as addition features
+    provided in the "syncthingtray-kde-plasma" package.
+command:
+- /opt/apps/syncthingtray.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
