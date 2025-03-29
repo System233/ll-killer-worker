@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: stretchplayer.linyaps
+  name: stretchplayer
+  version: 0.503.0.4
+  kind: app
+  description: |-
+    Audio file player with time stretch and pitch shifting
+    StretchPlayer will play back an audio file and allow you to
+    time stretch (without affecting pitch) and/or pitch shift (without
+    affecting the time) the audio, even while you are listening to it.
+
+    Warning: this package contains the development version (potentially
+    unstable) released for testing purpose only.
+command:
+- /opt/apps/stretchplayer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
