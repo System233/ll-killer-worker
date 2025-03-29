@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: openrocket.linyaps
+  name: openrocket
+  version: 15.3.6.0
+  kind: app
+  description: |-
+    Model Rocket Simulator
+    OpenRocket is a free, fully featured model rocket simulator that allows
+    you to design and simulate your rockets before actually building and
+    flying them.
+
+    OpenRocket features a full six-degree-of-freedom simulation, realistic
+    wind modeling, a multitude of different components including free-form
+    and canted fins, clustering and staging.
+
+    This package therefore downloads the pre-built OpenRocket .jar file from
+    the upstream site and installs it.
+command:
+- /opt/apps/openrocket.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
