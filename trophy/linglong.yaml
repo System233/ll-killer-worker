@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: trophy.linyaps
+  name: trophy
+  version: 2.0.4.1
+  kind: app
+  description: |-
+    2D car racing action game
+    Trophy is a single-player racing game which combines elements from
+    traditional race and action games. Lots of available extras enable
+    features such as shooting, mines, barrels and many others.
+
+    This package contains the executable.
+command:
+- /opt/apps/trophy.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
