@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: pente.linyaps
+  name: pente
+  version: 2.2.5.11
+  kind: app
+  description: |-
+    five in a row game for X and the console
+    Pente is the English name for the Asian game ni-nuki, which itself
+    is a version of the game go-moku. The game is a variant of the well
+    known five in a row. Placing five stones in a row is one way to win,
+    the other is to capture five pairs of the opponents stones.
+
+    Pente can run in three different modes: X, curses or text. You can
+    play against the computer or another human, and there is also support
+    for playing over a network.
+command:
+- /opt/apps/pente.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
