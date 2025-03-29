@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: starvoyager.linyaps
+  name: starvoyager
+  version: 0.4.4.10
+  kind: app
+  description: |-
+    2D space arcade game, themed around 'Star Trek' - binary
+    Star Voyager is a Frontier/Elite class game in a more arcade style 2D
+    environment, themed to the 'Star Trek' universe. It utilizes the SDL library
+    for portability.
+
+    This package contains the game binary
+command:
+- /opt/apps/starvoyager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
