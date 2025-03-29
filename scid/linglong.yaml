@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: scid.linyaps
+  name: scid
+  version: 4.7.4.2
+  kind: app
+  description: |-
+    chess database with play and training functionality
+    Shane's Chess Information Database is a chess database application with
+    a graphical user interface. You can browse databases of chess games,
+    edit them and search for games by various criteria. Scid uses its
+    own compact and fast database format, but can convert to and from PGN.
+    Its also possible to play live on the internet and practice tactical
+    knowledge.
+
+    This package contains the main program.
+command:
+- /opt/apps/scid.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
