@@ -1,0 +1,31 @@
+正在测试: APPID=sabnzbdplus.linyaps LAYER=sabnzbdplus.linyaps_4.2.2.3_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install sabnzbdplus.linyaps_4.2.2.3_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:sabnzbdplus.linyaps
+Layer文件:sabnzbdplus.linyaps_4.2.2.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: sabnzbdplus.linyaps_4.2.2.3_x86_64_binary.layer
+offset: 1197
+mountpoint: /tmp/tmp.fcNtdw9Erq/mnt
+dbglevel: 0
+find: ‘/opt/apps/sabnzbdplus.linyaps/files/share/icons’: No such file or directory
+[成功] sabnzbdplus.desktop: sabnzbdplus -> /opt/apps/sabnzbdplus.linyaps/files/share/pixmaps/sabnzbdplus.svg
+[成功] /opt/apps/sabnzbdplus.linyaps/files/share/applications/sabnzbdplus.desktop: /opt/apps/sabnzbdplus.linyaps/files/entrypoint.sh sabnzbdplus --browser 1 %F
+[正在测试启动项]
+包名:sabnzbdplus.linyaps
+Layer文件:sabnzbdplus.linyaps_4.2.2.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: sabnzbdplus.linyaps_4.2.2.3_x86_64_binary.layer
+offset: 1197
+mountpoint: /tmp/tmp.g8so8ptgcM/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run sabnzbdplus.linyaps -- /opt/apps/sabnzbdplus.linyaps/files/entrypoint.sh sabnzbdplus --browser 1
+[PID 17457] 进程已启动
+[PID 17457] 等待超时，未能检测到窗口
+[PID 17457] 正在通知并等待进程退出
+[PID 17457] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall sabnzbdplus.linyaps
