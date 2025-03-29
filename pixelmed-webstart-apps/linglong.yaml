@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: pixelmed-webstart-apps.linyaps
+  name: pixelmed-webstart-apps
+  version: 20220618.0.0.2
+  kind: app
+  description: |-
+    DICOM implementation containing Image Viewer and a ECG Viewer - jnlp
+    This is a stand-alone DICOM toolkit that implements code for reading
+    and creating DICOM data, DICOM network and file support, a database of
+    DICOM objects, support for display of directories, images, reports and
+    spectra, and DICOM object validation.
+
+    Provide JNLP applications as command line apps
+command:
+- /opt/apps/pixelmed-webstart-apps.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
