@@ -1,0 +1,293 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  gnutls-bin gsasl-common libc-bin libc-dev-bin libc6 libc6-dev
+  libglib2.0-0t64 libgmime-3.0-0t64 libgnutls-dane0t64 libgnutls30t64
+  libgpgme11t64 libgsasl18 libgssglue1 libhogweed6t64 liblmdb0 liblua5.4-0
+  libnettle8t64 libnotmuch5t64 libntlm0 libp11-kit0 libsexp2 libtalloc2
+  libtokyocabinet9t64 libunistring5 libxapian30 locales mailcap p11-kit
+  p11-kit-modules
+Suggested packages:
+  manpages glibc-doc libnss-nis libnss-nisplus manpages-dev low-memory-monitor
+  dns-root-data xapian-tools default-mta | mail-transport-agent urlview aspell
+  | ispell
+Recommended packages:
+  manpages manpages-dev libc-devtools
+The following packages will be REMOVED:
+  gir1.2-atk-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0 gir1.2-glib-2.0
+  gir1.2-harfbuzz-0.0 gir1.2-pango-1.0 libglib2.0-0 libglib2.0-bin
+  libgnutls-dane0 libgnutls30 libhogweed6 libnettle8
+The following NEW packages will be installed:
+  gsasl-common libglib2.0-0t64 libgmime-3.0-0t64 libgnutls-dane0t64
+  libgnutls30t64 libgpgme11t64 libgsasl18 libgssglue1 libhogweed6t64 liblmdb0
+  liblua5.4-0 libnettle8t64 libnotmuch5t64 libntlm0 libsexp2 libtalloc2
+  libtokyocabinet9t64 libunistring5 libxapian30 mailcap neomutt
+The following packages will be upgraded:
+  gnutls-bin libc-bin libc-dev-bin libc6 libc6-dev libp11-kit0 locales p11-kit
+  p11-kit-modules
+9 upgraded, 21 newly installed, 12 to remove and 441 not upgraded.
+Need to get 18.8 MB of archives.
+After this operation, 14.2 MB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc-dev-bin amd64 2.39-0ubuntu8.4 [20.4 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6-dev amd64 2.39-0ubuntu8.4 [2124 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 locales all 2.39-0ubuntu8.4 [4229 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6 amd64 2.39-0ubuntu8.4 [3264 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc-bin amd64 2.39-0ubuntu8.4 [682 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libglib2.0-0t64 amd64 2.80.0-6ubuntu3.2 [1546 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 gnutls-bin amd64 3.8.3-1.1ubuntu3.3 [270 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libnettle8t64 amd64 3.9.1-2.2build1.1 [182 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libhogweed6t64 amd64 3.9.1-2.2build1.1 [199 kB]
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 p11-kit-modules amd64 0.25.3-4ubuntu2.1 [328 kB]
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libp11-kit0 amd64 0.25.3-4ubuntu2.1 [300 kB]
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libunistring5 amd64 1.1-2build1.1 [536 kB]
+Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgnutls30t64 amd64 3.8.3-1.1ubuntu3.3 [995 kB]
+Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgnutls-dane0t64 amd64 3.8.3-1.1ubuntu3.3 [23.5 kB]
+Get:15 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 liblmdb0 amd64 0.9.31-1build1 [48.1 kB]
+Get:16 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 gsasl-common all 2.2.1-1willsync1build2 [5056 B]
+Get:17 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libgpgme11t64 amd64 1.18.0-4.1ubuntu4 [136 kB]
+Get:18 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libgmime-3.0-0t64 amd64 3.2.13+dfsg-2.1build2 [176 kB]
+Get:19 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libgssglue1 amd64 0.9-1build1 [20.7 kB]
+Get:20 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libntlm0 amd64 1.7-1build1 [19.4 kB]
+Get:21 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libgsasl18 amd64 2.2.1-1willsync1build2 [72.8 kB]
+Get:22 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 liblua5.4-0 amd64 5.4.6-3build2 [166 kB]
+Get:23 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libsexp2 amd64 1.4.1-2 [23.7 kB]
+Get:24 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libtalloc2 amd64 2.4.2-1build2 [27.3 kB]
+Get:25 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libxapian30 amd64 1.4.22-1build1 [716 kB]
+Get:26 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libnotmuch5t64 amd64 0.38.3-1ubuntu2 [112 kB]
+Get:27 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libtokyocabinet9t64 amd64 1.4.48-15.1build1 [398 kB]
+Get:28 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 mailcap all 3.70+nmu1ubuntu1 [23.8 kB]
+Get:29 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 neomutt amd64 20231103+dfsg1-1build3 [2025 kB]
+Get:30 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 p11-kit amd64 0.25.3-4ubuntu2.1 [141 kB]
+Fetched 18.8 MB in 0s (59.7 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libc-dev-bin_2.39-0ubuntu8.4_amd64.deb ...
+Unpacking libc-dev-bin (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Preparing to unpack .../libc6-dev_2.39-0ubuntu8.4_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Preparing to unpack .../locales_2.39-0ubuntu8.4_all.deb ...
+Unpacking locales (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Preparing to unpack .../libc6_2.39-0ubuntu8.4_amd64.deb ...
+Unpacking libc6:amd64 (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Setting up libc6:amd64 (2.39-0ubuntu8.4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27611 files and directories currently installed.)
+Preparing to unpack .../libc-bin_2.39-0ubuntu8.4_amd64.deb ...
+Unpacking libc-bin (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Setting up libc-bin (2.39-0ubuntu8.4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27611 files and directories currently installed.)
+Removing gir1.2-atk-1.0:amd64 (2.50.0-1) ...
+Removing gir1.2-pango-1.0:amd64 (1.52.2+ds-1) ...
+Removing gir1.2-harfbuzz-0.0:amd64 (8.0.1-1+rb1) ...
+Removing gir1.2-freedesktop:amd64 (1.80.1-2) ...
+Removing gir1.2-gdkpixbuf-2.0:amd64 (2.42.10+dfsg-3) ...
+Removing gir1.2-glib-2.0:amd64 (2.80.1-1deepin1) ...
+Removing libglib2.0-bin (2.80.1-1deepin1) ...
+dpkg: libglib2.0-0:amd64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-gl depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-data-extra depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-data depends on libglib2.0-0 (>= 2.16.0).
+ shared-mime-info depends on libglib2.0-0 (>= 2.75.3).
+ pulseaudio-module-bluetooth depends on libglib2.0-0 (>= 2.12.0).
+ pulseaudio depends on libglib2.0-0 (>= 2.32.0).
+ libspa-0.2-bluetooth:amd64 depends on libglib2.0-0 (>= 2.38.0).
+ librsvg2-2:amd64 depends on libglib2.0-0 (>= 2.77.3).
+ libpulse-mainloop-glib0:amd64 depends on libglib2.0-0 (>= 2.28.0).
+ libpipewire-0.3-modules:amd64 depends on libglib2.0-0 (>= 2.32.0).
+ libpangoxft-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangoft2-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangocairo-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libpango-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libical3:amd64 depends on libglib2.0-0 (>= 2.42.0).
+ libharfbuzz0b:amd64 depends on libglib2.0-0 (>= 2.32.0).
+ libharfbuzz-gobject0:amd64 depends on libglib2.0-0 (>= 2.14.0).
+ libgtk2.0-0:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ libgtk-3-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libgstreamer1.0-0:amd64 depends on libglib2.0-0 (>= 2.77.0).
+ libgstreamer-plugins-base1.0-0:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ libglibmm-2.4-1v5:amd64 depends on libglib2.0-0 (>= 2.62.0).
+ libgdk-pixbuf-xlib-2.0-0:amd64 depends on libglib2.0-0 (>= 2.48.0).
+ libgdk-pixbuf-2.0-0:amd64 depends on libglib2.0-0 (>= 2.75.0).
+ libfcitx5gclient2:amd64 depends on libglib2.0-0 (>= 2.38.0).
+ libdconf1:amd64 depends on libglib2.0-0 (>= 2.77.0).
+ libcolord2:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ libcloudproviders0:amd64 depends on libglib2.0-0 (>= 2.56.0).
+ libcairo-gobject2:amd64 depends on libglib2.0-0 (>= 2.68.0).
+ libavcodec60:amd64 depends on libglib2.0-0 (>= 2.12.0).
+ libatspi2.0-0:amd64 depends on libglib2.0-0 (>= 2.62).
+ libatk1.0-0:amd64 depends on libglib2.0-0 (>= 2.62).
+ libatk-bridge2.0-0:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ gtk-update-icon-cache depends on libglib2.0-0 (>= 2.57.2).
+ glib-networking-services depends on libglib2.0-0 (>= 2.73.3).
+ glib-networking:amd64 depends on libglib2.0-0 (>= 2.73.3).
+ fcitx5-frontend-gtk3 depends on libglib2.0-0 (>= 2.75.3).
+ fcitx5-frontend-gtk2 depends on libglib2.0-0 (>= 2.75.3).
+ dconf-service depends on libglib2.0-0 (>= 2.77.0).
+ dconf-gsettings-backend:amd64 depends on libglib2.0-0 (>= 2.77.0).
+ bluez-obexd depends on libglib2.0-0 (>= 2.77.0).
+ bluez depends on libglib2.0-0 (>= 2.75.3).
+
+Removing libglib2.0-0:amd64 (2.80.1-1deepin1) ...
+Selecting previously unselected package libglib2.0-0t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27519 files and directories currently installed.)
+Preparing to unpack .../libglib2.0-0t64_2.80.0-6ubuntu3.2_amd64.deb ...
+libglib2.0-0t64.preinst: Removing /var/lib/dpkg/info/libglib2.0-0:amd64.postrm to avoid loss of /usr/share/glib-2.0/schemas/gschemas.compiled...
+removed '/var/lib/dpkg/info/libglib2.0-0:amd64.postrm'
+Unpacking libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.2) ...
+Preparing to unpack .../gnutls-bin_3.8.3-1.1ubuntu3.3_amd64.deb ...
+Unpacking gnutls-bin (3.8.3-1.1ubuntu3.3) over (3.7.9-2) ...
+dpkg: libhogweed6:amd64: dependency problems, but removing anyway as you requested:
+ libunbound8:amd64 depends on libhogweed6.
+ librtmp1:amd64 depends on libhogweed6.
+ libgnutls30:amd64 depends on libhogweed6 (>= 3.6).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27537 files and directories currently installed.)
+Removing libhogweed6:amd64 (3.7.3-1) ...
+dpkg: libnettle8:amd64: dependency problems, but removing anyway as you requested:
+ libunbound8:amd64 depends on libnettle8.
+ librtmp1:amd64 depends on libnettle8.
+ libgnutls30:amd64 depends on libnettle8 (>= 3.7~).
+ libcurl3-gnutls:amd64 depends on libnettle8.
+ libarchive13:amd64 depends on libnettle8.
+
+Removing libnettle8:amd64 (3.7.3-1) ...
+Selecting previously unselected package libnettle8t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27523 files and directories currently installed.)
+Preparing to unpack .../libnettle8t64_3.9.1-2.2build1.1_amd64.deb ...
+Unpacking libnettle8t64:amd64 (3.9.1-2.2build1.1) ...
+Selecting previously unselected package libhogweed6t64:amd64.
+Preparing to unpack .../libhogweed6t64_3.9.1-2.2build1.1_amd64.deb ...
+Unpacking libhogweed6t64:amd64 (3.9.1-2.2build1.1) ...
+Preparing to unpack .../p11-kit-modules_0.25.3-4ubuntu2.1_amd64.deb ...
+Unpacking p11-kit-modules:amd64 (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Preparing to unpack .../libp11-kit0_0.25.3-4ubuntu2.1_amd64.deb ...
+Unpacking libp11-kit0:amd64 (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Selecting previously unselected package libunistring5:amd64.
+Preparing to unpack .../libunistring5_1.1-2build1.1_amd64.deb ...
+Unpacking libunistring5:amd64 (1.1-2build1.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27541 files and directories currently installed.)
+Removing libgnutls-dane0:amd64 (3.7.9-2) ...
+dpkg: libgnutls30:amd64: dependency problems, but removing anyway as you requested:
+ librtmp1:amd64 depends on libgnutls30 (>= 3.7.5).
+ libqpdf29:amd64 depends on libgnutls30 (>= 3.7.0).
+ libldap-2.5-0:amd64 depends on libgnutls30 (>= 3.7.5).
+ libcurl3-gnutls:amd64 depends on libgnutls30 (>= 3.7.5).
+ libcups2:amd64 depends on libgnutls30 (>= 3.7.5).
+ glib-networking:amd64 depends on libgnutls30 (>= 3.7.5).
+ dirmngr depends on libgnutls30 (>= 3.7.5).
+ apt depends on libgnutls30 (>= 3.7.5).
+
+Removing libgnutls30:amd64 (3.7.9-2) ...
+Selecting previously unselected package libgnutls30t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27507 files and directories currently installed.)
+Preparing to unpack .../libgnutls30t64_3.8.3-1.1ubuntu3.3_amd64.deb ...
+Unpacking libgnutls30t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+Setting up libnettle8t64:amd64 (3.9.1-2.2build1.1) ...
+Setting up libhogweed6t64:amd64 (3.9.1-2.2build1.1) ...
+Setting up libp11-kit0:amd64 (0.25.3-4ubuntu2.1) ...
+Setting up libunistring5:amd64 (1.1-2build1.1) ...
+Setting up libgnutls30t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+
+Configuration file '/etc/gnutls/config', does not exist on system.
+Installing new config file as you requested.
+Selecting previously unselected package libgnutls-dane0t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27519 files and directories currently installed.)
+Preparing to unpack .../00-libgnutls-dane0t64_3.8.3-1.1ubuntu3.3_amd64.deb ...
+Unpacking libgnutls-dane0t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+Selecting previously unselected package liblmdb0:amd64.
+Preparing to unpack .../01-liblmdb0_0.9.31-1build1_amd64.deb ...
+Unpacking liblmdb0:amd64 (0.9.31-1build1) ...
+Selecting previously unselected package gsasl-common.
+Preparing to unpack .../02-gsasl-common_2.2.1-1willsync1build2_all.deb ...
+Unpacking gsasl-common (2.2.1-1willsync1build2) ...
+Selecting previously unselected package libgpgme11t64:amd64.
+Preparing to unpack .../03-libgpgme11t64_1.18.0-4.1ubuntu4_amd64.deb ...
+Unpacking libgpgme11t64:amd64 (1.18.0-4.1ubuntu4) ...
+Selecting previously unselected package libgmime-3.0-0t64:amd64.
+Preparing to unpack .../04-libgmime-3.0-0t64_3.2.13+dfsg-2.1build2_amd64.deb ...
+Unpacking libgmime-3.0-0t64:amd64 (3.2.13+dfsg-2.1build2) ...
+Selecting previously unselected package libgssglue1:amd64.
+Preparing to unpack .../05-libgssglue1_0.9-1build1_amd64.deb ...
+Unpacking libgssglue1:amd64 (0.9-1build1) ...
+Selecting previously unselected package libntlm0:amd64.
+Preparing to unpack .../06-libntlm0_1.7-1build1_amd64.deb ...
+Unpacking libntlm0:amd64 (1.7-1build1) ...
+Selecting previously unselected package libgsasl18:amd64.
+Preparing to unpack .../07-libgsasl18_2.2.1-1willsync1build2_amd64.deb ...
+Unpacking libgsasl18:amd64 (2.2.1-1willsync1build2) ...
+Selecting previously unselected package liblua5.4-0:amd64.
+Preparing to unpack .../08-liblua5.4-0_5.4.6-3build2_amd64.deb ...
+Unpacking liblua5.4-0:amd64 (5.4.6-3build2) ...
+Selecting previously unselected package libsexp2:amd64.
+Preparing to unpack .../09-libsexp2_1.4.1-2_amd64.deb ...
+Unpacking libsexp2:amd64 (1.4.1-2) ...
+Selecting previously unselected package libtalloc2:amd64.
+Preparing to unpack .../10-libtalloc2_2.4.2-1build2_amd64.deb ...
+Unpacking libtalloc2:amd64 (2.4.2-1build2) ...
+Selecting previously unselected package libxapian30:amd64.
+Preparing to unpack .../11-libxapian30_1.4.22-1build1_amd64.deb ...
+Unpacking libxapian30:amd64 (1.4.22-1build1) ...
+Selecting previously unselected package libnotmuch5t64.
+Preparing to unpack .../12-libnotmuch5t64_0.38.3-1ubuntu2_amd64.deb ...
+Unpacking libnotmuch5t64 (0.38.3-1ubuntu2) ...
+Selecting previously unselected package libtokyocabinet9t64:amd64.
+Preparing to unpack .../13-libtokyocabinet9t64_1.4.48-15.1build1_amd64.deb ...
+Unpacking libtokyocabinet9t64:amd64 (1.4.48-15.1build1) ...
+Selecting previously unselected package mailcap.
+Preparing to unpack .../14-mailcap_3.70+nmu1ubuntu1_all.deb ...
+Unpacking mailcap (3.70+nmu1ubuntu1) ...
+Selecting previously unselected package neomutt.
+Preparing to unpack .../15-neomutt_20231103+dfsg1-1build3_amd64.deb ...
+Unpacking neomutt (20231103+dfsg1-1build3) ...
+Preparing to unpack .../16-p11-kit_0.25.3-4ubuntu2.1_amd64.deb ...
+Unpacking p11-kit (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Setting up libsexp2:amd64 (1.4.1-2) ...
+Setting up liblmdb0:amd64 (0.9.31-1build1) ...
+Setting up libxapian30:amd64 (1.4.22-1build1) ...
+Setting up libtokyocabinet9t64:amd64 (1.4.48-15.1build1) ...
+Setting up locales (2.39-0ubuntu8.4) ...
+Installing new version of config file /etc/locale.alias ...
+Generating locales (this might take a while)...
+Generation complete.
+Setting up libtalloc2:amd64 (2.4.2-1build2) ...
+Setting up p11-kit-modules:amd64 (0.25.3-4ubuntu2.1) ...
+Setting up libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.2) ...
+Setting up libgnutls-dane0t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+Setting up libntlm0:amd64 (1.7-1build1) ...
+Setting up libgssglue1:amd64 (0.9-1build1) ...
+
+Configuration file '/etc/gssapi_mech.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up libgsasl18:amd64 (2.2.1-1willsync1build2) ...
+Setting up liblua5.4-0:amd64 (5.4.6-3build2) ...
+Setting up libgpgme11t64:amd64 (1.18.0-4.1ubuntu4) ...
+Setting up gsasl-common (2.2.1-1willsync1build2) ...
+Setting up p11-kit (0.25.3-4ubuntu2.1) ...
+Setting up libc-dev-bin (2.39-0ubuntu8.4) ...
+Setting up libgmime-3.0-0t64:amd64 (3.2.13+dfsg-2.1build2) ...
+Setting up mailcap (3.70+nmu1ubuntu1) ...
+
+Configuration file '/etc/mailcap.order', does not exist on system.
+Installing new config file as you requested.
+Setting up gnutls-bin (3.8.3-1.1ubuntu3.3) ...
+Setting up libnotmuch5t64 (0.38.3-1ubuntu2) ...
+Setting up neomutt (20231103+dfsg1-1build3) ...
+
+Configuration file '/etc/neomuttrc', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/neomuttrc.d/charset.rc', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/neomuttrc.d/colors.rc', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/neomuttrc.d/compressed-folders.rc', does not exist on system.
+Installing new config file as you requested.
+Setting up libc6-dev:amd64 (2.39-0ubuntu8.4) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
