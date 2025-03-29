@@ -1,0 +1,28 @@
+正在测试: APPID=trackballs.linyaps LAYER=trackballs.linyaps_1.3.4.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install trackballs.linyaps_1.3.4.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:trackballs.linyaps
+Layer文件:trackballs.linyaps_1.3.4.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: trackballs.linyaps_1.3.4.1_x86_64_binary.layer
+offset: 1020
+mountpoint: /tmp/tmp.eQCY22XNZI/mnt
+dbglevel: 0
+[成功] trackballs.desktop: trackballs -> /opt/apps/trackballs.linyaps/files/share/icons/hicolor/128x128/apps/trackballs.png
+[成功] /opt/apps/trackballs.linyaps/files/share/applications/trackballs.desktop: /opt/apps/trackballs.linyaps/files/entrypoint.sh trackballs
+[正在测试启动项]
+包名:trackballs.linyaps
+Layer文件:trackballs.linyaps_1.3.4.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: trackballs.linyaps_1.3.4.1_x86_64_binary.layer
+offset: 1020
+mountpoint: /tmp/tmp.0GkOVGUSYM/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run trackballs.linyaps -- /opt/apps/trackballs.linyaps/files/entrypoint.sh trackballs
+[PID 8302] 进程已启动
+[PID 8302] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall trackballs.linyaps
