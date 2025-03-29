@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: screengrab.linyaps
+  name: screengrab
+  version: 2.7.0.0
+  kind: app
+  description: |-
+    Crossplatform tool for getting screenshots
+    Screengrab working in Linux and Windows. The program uses Qt and is
+    independent of any desktop environment.
+    Main features:
+    * Get desktop screenshots
+    * Get active window screenshots
+    * Get secreenshots of desktop selection area
+    * Copy screenshot to clipboard
+    * Saving your image files in formats PNG or JPEG or BMP
+    * Ability to set delay in getting screenshots (from 1 to 90 seconds)
+command:
+- /opt/apps/screengrab.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
