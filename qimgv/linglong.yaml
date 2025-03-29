@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: qimgv.linyaps
+  name: qimgv
+  version: 1.0.2.1
+  kind: app
+  description: |-
+    Qt5 image viewer with optional video support
+    Qimgv is an image viewer written in Qt5. It is fast, configurable
+    and easy to use. It also provides optional video support.
+command:
+- /opt/apps/qimgv.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
