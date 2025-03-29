@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: spacebar.linyaps
+  name: spacebar
+  version: 23.1.0.1
+  kind: app
+  description: |-
+    SMS/MMS application for Plasma Mobile
+    Spacebar is an SMS/MMS application that primarily targets Plasma Mobile.
+    It depends on Qt and few KDE Frameworks (Kirigami2, KI18n, KPeople, and
+    ModemManagerQt).
+command:
+- /opt/apps/spacebar.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
