@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: ncbi-cn3d.linyaps
+  name: ncbi-cn3d
+  version: 3.0.20170106.2
+  kind: app
+  description: |-
+    3-dimensional viewer for biological molecules
+    Cn3D is a helper application for your web browser that allows you to
+    view 3-dimensional structures from NCBI's Entrez retrieval service.
+command:
+- /opt/apps/ncbi-cn3d.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
