@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: mrboom.linyaps
+  name: mrboom
+  version: 5.4.0.1
+  kind: app
+  description: |-
+    8 player Bomberman
+    This is an SDL2 version of the original 1999 version of Mr. Boom. The goal of
+    the game is to bomb away your enemies and other players.
+command:
+- /opt/apps/mrboom.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
