@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: piperka-client.linyaps
+  name: piperka-client
+  version: 0.2.2.1
+  kind: app
+  description: |-
+    Mobile oriented web comics reader client
+    Piperka is a web comic tracking and bookmarking service with over
+    5000 comics listed on it.  It doesn't host any web comics by itself
+    but maintains a list of them and an index of their archive pages.
+
+    Piperka Client uses Piperka's database to provide browsing and
+    navigation for web comics' archives in a unified manner with an
+    embedded browser. It stores user's bookmarks and periodically
+    contacts the server to check for any updates to the comics that a
+    user reads.
+
+    This program is geared towards mobile use.
+command:
+- /opt/apps/piperka-client.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
