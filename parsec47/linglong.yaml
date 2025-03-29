@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: parsec47.linyaps
+  name: parsec47
+  version: 0.2.1.9
+  kind: app
+  description: |-
+    retromodern hispeed shmup
+    PARSEC47 is a retromodern hi-speed shoot 'em up where you get to defeat
+    retro enemies modernly. The player must destroy enemies while avoiding
+    their projectiles and collecting green clusters of boxes for points.
+
+    PARSEC47 is another gem among many by Kenta Cho.
+command:
+- /opt/apps/parsec47.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
