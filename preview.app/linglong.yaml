@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: preview.app.linyaps
+  name: preview.app
+  version: 0.8.5.11
+  kind: app
+  description: |-
+    General purpose image viewer for GNUstep
+    Preview is an application that can be used to display images. It is
+    designed to be easy to use and will support all GNUstep features (images
+    design support, pasteboard/services, printing and layout...). It tries to
+    follow the NeXTSTEP spirit.
+command:
+- /opt/apps/preview.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
