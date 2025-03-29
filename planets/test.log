@@ -1,0 +1,31 @@
+正在测试: APPID=planets.linyaps LAYER=planets.linyaps_0.1.13.22_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install planets.linyaps_0.1.13.22_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:planets.linyaps
+Layer文件:planets.linyaps_0.1.13.22_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: planets.linyaps_0.1.13.22_arm64_binary.layer
+offset: 681
+mountpoint: /tmp/tmp.zsz2MZBSb1/mnt
+dbglevel: 0
+find: ‘/opt/apps/planets.linyaps/files/share/icons’: No such file or directory
+[成功] planets.desktop: planets -> /opt/apps/planets.linyaps/files/share/pixmaps/planets.png
+[成功] /opt/apps/planets.linyaps/files/share/applications/planets.desktop: /opt/apps/planets.linyaps/files/entrypoint.sh planets
+[正在测试启动项]
+包名:planets.linyaps
+Layer文件:planets.linyaps_0.1.13.22_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: planets.linyaps_0.1.13.22_arm64_binary.layer
+offset: 681
+mountpoint: /tmp/tmp.dLmthwb3Wk/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run planets.linyaps -- /opt/apps/planets.linyaps/files/entrypoint.sh planets
+[PID 5526] 进程已启动
+[PID 5526] 等待超时，未能检测到窗口
+[PID 5526] 正在通知并等待进程退出
+[PID 5526] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall planets.linyaps
