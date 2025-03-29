@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: orbital-eunuchs-sniper.linyaps
+  name: orbital-eunuchs-sniper
+  version: 1.30.0.4
+  kind: app
+  description: |-
+    anti-terrorist, pro-Eunuchs, satellite sniping game
+    Orbital Eunuchs Sniper is an overhead shooting game. You (the Eunuch on
+    the orbital laser platform) are tasked with protecting the VIPs (blue)
+    from the terrorists (red)!
+command:
+- /opt/apps/orbital-eunuchs-sniper.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
