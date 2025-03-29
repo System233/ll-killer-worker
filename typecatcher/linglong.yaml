@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: typecatcher.linyaps
+  name: typecatcher
+  version: 0.4.0.0
+  kind: app
+  description: |-
+    Download Google webfonts for off-line use
+    TypeCatcher allows you to search, browse, and download Google webfonts
+    for off-line use. You can preview fonts with adjustable size and text.
+command:
+- /opt/apps/typecatcher.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
