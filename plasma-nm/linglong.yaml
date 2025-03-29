@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: plasma-nm.linyaps
+  name: plasma-nm
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    Plasma network connections management
+    plasma-nm provides a Plasma applet written in QML for managing network
+    connections using Network Manager.
+
+    This package is part of the KDE Plasma.
+command:
+- /opt/apps/plasma-nm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
