@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: robotfindskitten.linyaps
+  name: robotfindskitten
+  version: 2.8284271.702.1
+  kind: app
+  description: |-
+    Zen Simulation of robot finding kitten
+    In this simulation, you play the part of robot. Your task is to
+    complete the simulation by finding kitten, as is your destiny, and
+    indeed your wont.  You (robot) are represented by the # character, and
+    you move around with the arrow keys touching things.  If the thing you
+    touch is kitten, you get a cute little animation (which was cuter in
+    the DOS version) and the simulation ends. Otherwise, you get a brief
+    description of what it is you touched.
+command:
+- /opt/apps/robotfindskitten.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
