@@ -1,12 +1,12 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|2311|1373 |938 | 59.41%| 44.30%|
+|3099|2313|1375 |938 | 59.45%| 44.37%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|2019|1266 |753 | 62.70%| 45.89%|
-|deepin-v23|340|292|107 |185 | 36.64%| 31.47%|
+|ubuntu-noble|2759|2020|1267 |753 | 62.72%| 45.92%|
+|deepin-v23|340|293|108 |185 | 36.86%| 31.76%|
 ## 详细结果
 | 包名  | 架构 |仓库| 版本 | 测试结果 | SHA256 |killer版本|
 |-------|-----|----|------|---------|--------|---------|
@@ -2316,8 +2316,10 @@
 | [qt5ct](./qt5ct) | arm64  | ubuntu-noble | 1.5-1build11 | ![screen0-5.jpg](./qt5ct/tests/screen0-5.jpg) | [SHA256](./qt5ct/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [qt6ct](./qt6ct) | arm64  | ubuntu-noble | 0.9-2build2 | ![screen0-5.jpg](./qt6ct/tests/screen0-5.jpg) | [SHA256](./qt6ct/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [qtads](./qtads) | arm64  | ubuntu-noble | 3.4.0+dfsg-1build3-20250327 | 失败 | [SHA256](./qtads/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qtcreator](./qtcreator) | arm64  | deepin-v23 | 15.0.0~beta2-2 | ![screen0-5.jpg](./qtcreator/tests/screen0-5.jpg) | [SHA256](./qtcreator/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [qtel](./qtel) | arm64  | ubuntu-noble | 19.09.2-1.1build3 | ![screen0-5.jpg](./qtel/tests/screen0-5.jpg) | [SHA256](./qtel/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [qterm](./qterm) | arm64  | ubuntu-noble | 0.7.4-2build4 | ![screen0-5.jpg](./qterm/tests/screen0-5.jpg) | [SHA256](./qterm/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [qterminal](./qterminal) | arm64  | ubuntu-noble | 1.4.0-0ubuntu5 | ![screen0-5.jpg](./qterminal/tests/screen0-5.jpg) ![screen1-5.jpg](./qterminal/tests/screen1-5.jpg) | [SHA256](./qterminal/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [qtgain](./qtgain) | arm64  | ubuntu-noble | 1.0.0-0ubuntu3 | ![screen0-5.jpg](./qtgain/tests/screen0-5.jpg) | [SHA256](./qtgain/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [qthid-fcd-controller](./qthid-fcd-controller) | arm64  | ubuntu-noble | 4.1-6build2 | ![screen0-5.jpg](./qthid-fcd-controller/tests/screen0-5.jpg) ![screen1-5.jpg](./qthid-fcd-controller/tests/screen1-5.jpg) | [SHA256](./qthid-fcd-controller/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qtikz](./qtikz) | arm64  | ubuntu-noble | 0.13.2+ds1-1build3 | ![screen0-5.jpg](./qtikz/tests/screen0-5.jpg) | [SHA256](./qtikz/SHA256SUMS) | v1.5.2-arm64-nevm |
