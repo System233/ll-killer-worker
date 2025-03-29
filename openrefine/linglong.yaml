@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: openrefine.linyaps
+  name: openrefine
+  version: 3.7.7.1
+  kind: app
+  description: |-
+    powerful tool for working with messy data
+    OpenRefine is a power tool for working with messy data. Use it to improve data
+    consistency, link it to data registries like Wikidata, augment it with data
+    from other sources, transform it into different formats for other tools to
+    consume, and contribute it back to the original sources. OpenRefine is not a
+    web service but a desktop app that runs on your own computer, so you can
+    process sensitive data with privacy.
+command:
+- /opt/apps/openrefine.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
