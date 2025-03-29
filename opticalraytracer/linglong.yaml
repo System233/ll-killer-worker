@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: opticalraytracer.linyaps
+  name: opticalraytracer
+  version: 9.6.0.4
+  kind: app
+  description: |-
+    Virtual lens/mirror design workshop
+    OpticalRayTracer is an application that analyzes systems of lenses and mirrors.
+    It uses optical principles and a virtual optical bench to predict the behavior
+    of many kinds of ordinary and exotic lens types as well as flat and curved
+    mirrors. OpticalRayTracer includes an advanced, easy-to-use interface that
+    allows the user to rearrange the optical configuration by dragging objects
+    around using the mouse.
+
+    OpticalRayTracer fully analyzes lens optical properties, including refraction
+    and dispersion. The dispersion display uses color-coded light beams to simplify
+    interpretation of the results.
+
+    OpticalRayTracer allows the creation of mirrors, flat and curved. In modern
+    optical designs, mirrors often produce better results than lenses, for example
+    in astronomical instruments. Such instruments can be roughed out in
+    OpticalRayTracer's virtual workbench.
+command:
+- /opt/apps/opticalraytracer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
