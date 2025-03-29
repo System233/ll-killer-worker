@@ -1,0 +1,124 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libasound2-data libasound2t64 libmikmod3 libopenal-data libopenal1
+  libpng16-16t64 libsdl2-2.0-0 libsndio7.0 libvorbis0a libvorbisenc2
+  libvorbisfile3 libxss1 uqm-content uqm-music
+Suggested packages:
+  alsa-utils libportaudio2 xdg-utils sndiod uqm-voice
+Recommended packages:
+  alsa-ucm-conf alsa-topology-conf
+The following packages will be REMOVED:
+  libasound2 libpng16-16
+The following NEW packages will be installed:
+  libasound2t64 libmikmod3 libopenal-data libopenal1 libpng16-16t64
+  libsdl2-2.0-0 libsndio7.0 libvorbisfile3 libxss1 uqm uqm-content uqm-music
+The following packages will be upgraded:
+  libasound2-data libvorbis0a libvorbisenc2
+3 upgraded, 12 newly installed, 2 to remove and 448 not upgraded.
+Need to get 30.6 MB of archives.
+After this operation, 36.5 MB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libasound2-data all 1.2.11-1build2 [21.0 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libasound2t64 arm64 1.2.11-1build2 [387 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libpng16-16t64 arm64 1.6.43-5build1 [185 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libopenal-data all 1:1.23.1-4build1 [161 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libsndio7.0 arm64 1.9.0-0.3build3 [29.0 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libopenal1 arm64 1:1.23.1-4build1 [510 kB]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxss1 arm64 1:1.2.3-1build3 [7244 B]
+Get:8 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libsdl2-2.0-0 arm64 2.30.0+dfsg-1build3 [671 kB]
+Get:9 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libmikmod3 arm64 3.3.11.1-7build1 [131 kB]
+Get:10 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libvorbisenc2 arm64 1.3.7-1build3 [80.0 kB]
+Get:11 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libvorbis0a arm64 1.3.7-1build3 [94.0 kB]
+Get:12 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libvorbisfile3 arm64 1.3.7-1build3 [17.1 kB]
+Get:13 https://azure.ports.ubuntu.com/ubuntu-ports noble/multiverse arm64 uqm-content all 0.8.0+deb-1 [8788 kB]
+Get:14 https://azure.ports.ubuntu.com/ubuntu-ports noble/multiverse arm64 uqm arm64 0.8.0+dfsg-2build2 [717 kB]
+Get:15 https://azure.ports.ubuntu.com/ubuntu-ports noble/multiverse arm64 uqm-music all 0.8.0+deb-1 [18.9 MB]
+Fetched 30.6 MB in 3s (11.4 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libasound2-data_1.2.11-1build2_all.deb ...
+Unpacking libasound2-data (1.2.11-1build2) over (1.2.8-1) ...
+dpkg: libasound2:arm64: dependency problems, but removing anyway as you requested:
+ pulseaudio depends on libasound2 (>= 1.2.1.1).
+ pipewire-bin depends on libasound2 (>= 1.2.1.1).
+ libspa-0.2-modules:arm64 depends on libasound2 (>= 1.2.1.1).
+ libasound2-plugins:arm64 depends on libasound2 (>= 1.2.5).
+ bluez depends on libasound2 (>= 1.0.17).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Removing libasound2:arm64 (1.2.8-1) ...
+Selecting previously unselected package libasound2t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27733 files and directories currently installed.)
+Preparing to unpack .../libasound2t64_1.2.11-1build2_arm64.deb ...
+Unpacking libasound2t64:arm64 (1.2.11-1build2) ...
+dpkg: libpng16-16:arm64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:arm64 depends on libpng16-16 (>= 1.6.2).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27741 files and directories currently installed.)
+Removing libpng16-16:arm64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27730 files and directories currently installed.)
+Preparing to unpack .../00-libpng16-16t64_1.6.43-5build1_arm64.deb ...
+Unpacking libpng16-16t64:arm64 (1.6.43-5build1) ...
+Selecting previously unselected package libopenal-data.
+Preparing to unpack .../01-libopenal-data_1%3a1.23.1-4build1_all.deb ...
+Unpacking libopenal-data (1:1.23.1-4build1) ...
+Selecting previously unselected package libsndio7.0:arm64.
+Preparing to unpack .../02-libsndio7.0_1.9.0-0.3build3_arm64.deb ...
+Unpacking libsndio7.0:arm64 (1.9.0-0.3build3) ...
+Selecting previously unselected package libopenal1:arm64.
+Preparing to unpack .../03-libopenal1_1%3a1.23.1-4build1_arm64.deb ...
+Unpacking libopenal1:arm64 (1:1.23.1-4build1) ...
+Selecting previously unselected package libxss1:arm64.
+Preparing to unpack .../04-libxss1_1%3a1.2.3-1build3_arm64.deb ...
+Unpacking libxss1:arm64 (1:1.2.3-1build3) ...
+Selecting previously unselected package libsdl2-2.0-0:arm64.
+Preparing to unpack .../05-libsdl2-2.0-0_2.30.0+dfsg-1build3_arm64.deb ...
+Unpacking libsdl2-2.0-0:arm64 (2.30.0+dfsg-1build3) ...
+Selecting previously unselected package libmikmod3:arm64.
+Preparing to unpack .../06-libmikmod3_3.3.11.1-7build1_arm64.deb ...
+Unpacking libmikmod3:arm64 (3.3.11.1-7build1) ...
+Preparing to unpack .../07-libvorbisenc2_1.3.7-1build3_arm64.deb ...
+Unpacking libvorbisenc2:arm64 (1.3.7-1build3) over (1.3.7-1) ...
+Preparing to unpack .../08-libvorbis0a_1.3.7-1build3_arm64.deb ...
+Unpacking libvorbis0a:arm64 (1.3.7-1build3) over (1.3.7-1) ...
+Selecting previously unselected package libvorbisfile3:arm64.
+Preparing to unpack .../09-libvorbisfile3_1.3.7-1build3_arm64.deb ...
+Unpacking libvorbisfile3:arm64 (1.3.7-1build3) ...
+Selecting previously unselected package uqm-content.
+Preparing to unpack .../10-uqm-content_0.8.0+deb-1_all.deb ...
+Unpacking uqm-content (0.8.0+deb-1) ...
+Selecting previously unselected package uqm.
+Preparing to unpack .../11-uqm_0.8.0+dfsg-2build2_arm64.deb ...
+Unpacking uqm (0.8.0+dfsg-2build2) ...
+Selecting previously unselected package uqm-music.
+Preparing to unpack .../12-uqm-music_0.8.0+deb-1_all.deb ...
+Unpacking uqm-music (0.8.0+deb-1) ...
+Setting up libasound2-data (1.2.11-1build2) ...
+Setting up libasound2t64:arm64 (1.2.11-1build2) ...
+Setting up libpng16-16t64:arm64 (1.6.43-5build1) ...
+Setting up libvorbis0a:arm64 (1.3.7-1build3) ...
+Setting up libsndio7.0:arm64 (1.9.0-0.3build3) ...
+Setting up libopenal-data (1:1.23.1-4build1) ...
+
+Configuration file '/etc/openal/alsoft.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up libxss1:arm64 (1:1.2.3-1build3) ...
+Setting up libsdl2-2.0-0:arm64 (2.30.0+dfsg-1build3) ...
+Setting up libvorbisenc2:arm64 (1.3.7-1build3) ...
+Setting up libopenal1:arm64 (1:1.23.1-4build1) ...
+Setting up libvorbisfile3:arm64 (1.3.7-1build3) ...
+Setting up libmikmod3:arm64 (3.3.11.1-7build1) ...
+Setting up uqm-content (0.8.0+deb-1) ...
+Setting up uqm (0.8.0+dfsg-2build2) ...
+Setting up uqm-music (0.8.0+deb-1) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
