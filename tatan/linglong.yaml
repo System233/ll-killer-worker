@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: tatan.linyaps
+  name: tatan
+  version: 1.0.2.1
+  kind: app
+  description: |-
+    pointing STG shooter game
+    Tatan is a shooter game with simplified controls: use the mouse to aim and
+    shoot, and the space bar to toggle your position. You have to collect the
+    yellow stars (or shoot the white ones circumscribed in spheres) for
+    power-ups.
+
+    The game is played in some sort of quantum universe, and you are either
+    positioned on the left or the right.
+command:
+- /opt/apps/tatan.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
