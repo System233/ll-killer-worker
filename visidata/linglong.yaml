@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: visidata.linyaps
+  name: visidata
+  version: 3.0.2.1
+  kind: app
+  description: |-
+    rapidly explore columnar data in the terminal
+    VisiData is a multipurpose terminal utility for exploring, cleaning,
+    restructuring and analysing tabular data. Current supported sources are
+    TSV, CSV, fixed-width text, JSON, SQLite, HTTP, HTML, .xls, and .xlsx
+    (Microsoft Excel).
+command:
+- /opt/apps/visidata.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
