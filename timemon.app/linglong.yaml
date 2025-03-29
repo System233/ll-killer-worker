@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: timemon.app.linyaps
+  name: timemon.app
+  version: 4.2.0.2
+  kind: app
+  description: |-
+    CPU time usage monitor for GNUstep
+    TimeMon gives a graphical representation of where the CPU cycles
+    are going. It's coarse, but better than nothing. The best feature
+    is that it runs in an icon on your dock, so that you never lose it.
+command:
+- /opt/apps/timemon.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
