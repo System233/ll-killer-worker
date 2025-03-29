@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: netgen.linyaps
+  name: netgen
+  version: 6.2.2401.1
+  kind: app
+  description: |-
+    Automatic 3d tetrahedral mesh generator
+    NETGEN is an automatic 3d tetrahedral mesh generator. It accepts
+    input from constructive solid geometry (CSG) or boundary
+    representation (BRep) from STL file format.  NETGEN contains modules
+    for mesh optimization and hierarchical mesh refinement.
+command:
+- /opt/apps/netgen.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
