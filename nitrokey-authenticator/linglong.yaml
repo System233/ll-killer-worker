@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: nitrokey-authenticator.linyaps
+  name: nitrokey-authenticator
+  version: 1.2.4.2
+  kind: app
+  description: |-
+    TOTP authenticator app that's using Nitrokey Pro2 and/or LibremKey
+    A TOTP authenticator app similar to Google Authenticator. This app, unlike
+    Google Authenticator, does not store TOTP shared secrets on the computer,
+    but inside the USB key. The application supports both, Nitrokey Pro2 and
+    LibremKey. For the latter, however, you need to have libnitrokey version
+    3.6 or newer installed on your system.
+command:
+- /opt/apps/nitrokey-authenticator.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
