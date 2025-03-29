@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: pdfarranger.linyaps
+  name: pdfarranger
+  version: 1.10.1.1
+  kind: app
+  description: |-
+    merge, split and re-arrange pages from PDF documents
+    PDF Arranger is a small application which allows one to merge or split pdf
+    documents and rotate, crop and rearrange their pages using an interactive
+    and intuitive graphical interface.
+
+    PDF Arranger was formerly known as PDF-Shuffler.
+command:
+- /opt/apps/pdfarranger.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
