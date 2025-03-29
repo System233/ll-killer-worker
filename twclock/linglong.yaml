@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: twclock.linyaps
+  name: twclock
+  version: 3.5.0.1
+  kind: app
+  description: |-
+    World clock for ham radio operators
+    It also has an ID timer to generate a CW ID via your soundcard and
+    pulseaudio.  Connect the output of your soundcard to the audio-in pin
+    of your rig's accessory jack to have it transmitted.
+
+    This program is a clock designed for ham radio operators, anyone who
+    needs the time of day someplace else in the world, or anyone tired of
+    the same old look of their clock.  It can display the current time and
+    date in hundreds of cities around the world.
+command:
+- /opt/apps/twclock.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
