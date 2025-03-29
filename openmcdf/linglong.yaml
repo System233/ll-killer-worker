@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: openmcdf.linyaps
+  name: openmcdf
+  version: 1.5.4.3
+  kind: app
+  description: |-
+    Structured Storage Explorer
+    OpenMCDF is a 100% managed CLI component that allows client applications to
+    manipulate COM structured storage files, also known as Microsoft Compound
+    Document Format files.
+
+    This file format is used under the hood by a lot of applications: the files
+    created by Microsoft Office until the 2007 product release are all structured
+    storage files. They include multiple streams of information (document summary,
+    user data) in a single physical container (the file). Also the omnipresent
+    Thumbs.db, used by Windows as thumbnails cache, is a structured storage file.
+
+    OpenMCDF makes available to the developer an easy interface to read, write, add
+    and remove structured storage primitives. Structured storage items are
+    organized in a hierarchical tree where 'storage' nodes act like a directory and
+    'stream' nodes like a file. Developers can use OpenMCDF to view storages and
+    streams, traverse hierarchical trees of items, explore existing compound file
+    and modify them or create a new compound file from scratch.
+command:
+- /opt/apps/openmcdf.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
