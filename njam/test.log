@@ -1,0 +1,35 @@
+正在测试: APPID=njam.linyaps LAYER=njam.linyaps_1.25.0.12_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install njam.linyaps_1.25.0.12_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:njam.linyaps
+Layer文件:njam.linyaps_1.25.0.12_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: njam.linyaps_1.25.0.12_arm64_binary.layer
+offset: 733
+mountpoint: /tmp/tmp.etoFvWKlng/mnt
+dbglevel: 0
+find: ‘/opt/apps/njam.linyaps/files/share/icons’: No such file or directory
+[成功] njam.desktop: njamicon -> /opt/apps/njam.linyaps/files/share/pixmaps/njamicon.xpm
+[成功] /opt/apps/njam.linyaps/files/share/applications/njam.desktop: /opt/apps/njam.linyaps/files/entrypoint.sh njam
+[正在测试启动项]
+包名:njam.linyaps
+Layer文件:njam.linyaps_1.25.0.12_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: njam.linyaps_1.25.0.12_arm64_binary.layer
+offset: 733
+mountpoint: /tmp/tmp.49ajxMhkzN/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run njam.linyaps -- /opt/apps/njam.linyaps/files/entrypoint.sh njam
+[PID 7918] 进程已启动
+[PID 7918] 已检测到窗口:PID=36
+[PID 7918] 正在截图 0秒: tests/screen0-0.jpg
+[PID 7918] 正在截图 2秒: tests/screen0-2.jpg
+[PID 7918] 正在截图 4秒: tests/screen0-4.jpg
+[PID 7918] 正在截图 5秒: tests/screen0-5.jpg
+[PID 7918] 正在通知并等待进程退出
+[PID 7918] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall njam.linyaps
