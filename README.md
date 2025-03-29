@@ -1,11 +1,11 @@
 # amd64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3161|2507|1470 |1037 | 58.64%| 46.50%|
+|3161|2508|1471 |1037 | 58.65%| 46.54%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2779|2165|1340 |825 | 61.89%| 48.22%|
+|ubuntu-noble|2779|2166|1341 |825 | 61.91%| 48.25%|
 |deepin-v23|380|340|128 |212 | 37.65%| 33.68%|
 |shiftkey|1|1|1 |0 | 100.00%| 100.00%|
 |obs-studio|1|1|1 |0 | 100.00%| 100.00%|
@@ -2491,6 +2491,7 @@
 | [sasm](./sasm) | amd64  | ubuntu-noble | 3.14.0+ds-1build2 | ![screen0-5.jpg](./sasm/tests/screen0-5.jpg) | [SHA256](./sasm/SHA256SUMS) | v1.5.2-amd64-nevm |
 | [sasview](./sasview) | amd64  | ubuntu-noble | 5.0.6-2-20250327 | 失败 | [SHA256](./sasview/SHA256SUMS) | v1.5.2-amd64-nevm |
 | [satellite-gtk](./satellite-gtk) | amd64  | ubuntu-noble | 0.4.2-1-20250327 | 失败 | N/A | v1.5.2-amd64-nevm |
+| [sauerbraten](./sauerbraten) | amd64  | ubuntu-noble | 0.0.20201227-1 | ![screen0-5.jpg](./sauerbraten/tests/screen0-5.jpg) | [SHA256](./sauerbraten/SHA256SUMS) | v1.5.2-amd64-nevm |
 | [savi](./savi) | amd64  | ubuntu-noble | 1.6.0-1-20250327 | 失败 | [SHA256](./savi/SHA256SUMS) | v1.5.2-amd64-nevm |
 | [sawfish](./sawfish) | amd64  | ubuntu-noble | 1.11.90-1.2build3-20250327 | 失败 | [SHA256](./sawfish/SHA256SUMS) | v1.5.2-amd64-nevm |
 | [sayonara](./sayonara) | amd64  | ubuntu-noble | 1.8.0-beta1-1build3-20250327 | 失败 | N/A | v1.5.2-amd64-nevm |
