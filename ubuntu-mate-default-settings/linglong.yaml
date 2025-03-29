@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: ubuntu-mate-default-settings.linyaps
+  name: ubuntu-mate-default-settings
+  version: 24.4.4.0
+  kind: app
+  description: |-
+    Default settings for Ubuntu MATE
+    Various system settings tailored for Ubuntu MATE.
+command:
+- /opt/apps/ubuntu-mate-default-settings.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
