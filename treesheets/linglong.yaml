@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: treesheets.linyaps
+  name: treesheets
+  version: 1.0.2.1
+  kind: app
+  description: |-
+    Data organizer that covers spreadsheets, mind mappers, and small databases
+    Suitable for any kind of data organization, such as Todo lists, calendars,
+    project management, brainstorming, organizing ideas, planning, requirements
+    gathering, presentation of information, etc.
+
+    It shares many characteristics with more familiar tools, and augments their
+    abilities - like a spreadsheet, but supporting hierarchical data; like a mind
+    mapper, but more organized and compact; like an outliner, but in more than one
+    dimension; and like a text editor, but with structure.
+command:
+- /opt/apps/treesheets.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
