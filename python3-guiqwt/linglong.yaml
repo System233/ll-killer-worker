@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: python3-guiqwt.linyaps
+  name: python3-guiqwt
+  version: 4.4.4.1
+  kind: app
+  description: |-
+    efficient 2D data-plotting library - Python 3
+    The guiqwt Python library provides efficient 2D data-plotting
+    features (curve/image visualization and related tools) for
+    signal/image processing application development and interactive
+    computing. It's based on the scientific modules NumPy and SciPy, and
+    the PyQwt plotting widgets for PyQt4 graphical user interfaces.
+
+    This is the Python 3 version of the package.
+command:
+- /opt/apps/python3-guiqwt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
