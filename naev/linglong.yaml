@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: naev.linyaps
+  name: naev
+  version: 0.8.2.1
+  kind: app
+  description: |-
+    2D action/rpg space game
+    2D space trading and combat game, in a similar vein to Escape Velocity. Naev
+    is played from a top-down perspective, featuring fast-paced combat, many
+    ships, a large variety of equipment and a large galaxy to explore.
+    The game is open-ended, letting you proceed at your own pace.
+command:
+- /opt/apps/naev.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
