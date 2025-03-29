@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: vor.linyaps
+  name: vor
+  version: 0.5.8.1
+  kind: app
+  description: |-
+    2D action game about dodging rocks in space
+    VoR is a simple, fast-paced action game that will challenge your reflexes. It
+    has excellent gameplay, great physics, good graphics, and a retro/synthoid
+    thumpy beat to help put you in the mood for old-school 2D gaming.
+command:
+- /opt/apps/vor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
