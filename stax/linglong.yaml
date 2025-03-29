@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: stax.linyaps
+  name: stax
+  version: 1.37.0.2
+  kind: app
+  description: |-
+    collection of puzzle games similar to Tetris Attack
+    Another way of playing Tetris and some other cool puzzle games. Includes
+    multiplayer feature and supports themes. Enjoy!
+command:
+- /opt/apps/stax.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
