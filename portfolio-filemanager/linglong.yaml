@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: portfolio-filemanager.linyaps
+  name: portfolio-filemanager
+  version: 1.0.1.1
+  kind: app
+  description: |-
+    Minimalist file manager for Linux mobile devices
+    PortFolio is a file manager which is designed for Linux mobile devices.
+    It uses the libhandy toolkit to provide a mobile friendly, GTK based,
+    user interface.
+command:
+- /opt/apps/portfolio-filemanager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
