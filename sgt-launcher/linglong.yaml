@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: sgt-launcher.linyaps
+  name: sgt-launcher
+  version: 0.2.8.0
+  kind: app
+  description: |-
+    launcher for sgt-puzzles collection
+    SGT Puzzles Collection is a launcher application for Simon Tatham's
+    Portable Puzzle Collection. The launcher embeds each game into a single
+    application window and reduces menu clutter.
+command:
+- /opt/apps/sgt-launcher.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
