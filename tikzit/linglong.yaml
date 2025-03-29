@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: tikzit.linyaps
+  name: tikzit
+  version: 2.1.6.4
+  kind: app
+  description: |-
+    visual PGF/TikZ graph editor
+    TikZiT is a super simple GUI editor for graphs and string diagrams.
+    Its native file format is a subset of PGF/TikZ, which means TikZiT
+    files can be included directly in papers typeset using LaTeX.
+command:
+- /opt/apps/tikzit.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
