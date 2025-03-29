@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: qprogram-starter.linyaps
+  name: qprogram-starter
+  version: 1.7.4.1
+  kind: app
+  description: |-
+    Qt program to start programs or commands
+    qprogram-starter is a Qt program to start programs or commands. You can
+    set a time or date when the processes should start, log error output
+    and normal output each in a file. After the processes are finished
+    qprogram-starter shows a "finished" message box, or if you want it can
+    quit or shutdown the system.
+command:
+- /opt/apps/qprogram-starter.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
