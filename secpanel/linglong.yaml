@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: secpanel.linyaps
+  name: secpanel
+  version: 0.6.1.3
+  kind: app
+  description: |-
+    graphical user interface for SSH and SCP
+    SecPanel is a graphical user interface for managining
+    and running secure shell (ssh) and secure network copy
+    (scp) connections via OpenSSH. It eases key distribution
+    and other tasks related to using these programs.
+command:
+- /opt/apps/secpanel.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
