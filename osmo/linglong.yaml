@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: osmo.linyaps
+  name: osmo
+  version: 0.4.4.2
+  kind: app
+  description: |-
+    personal organizer for GTK+
+    Osmo is a personal organizer, which includes calendar, task
+    manager and address book modules. It aims to be easy to use and
+    configurable to meet the user's preferences.
+command:
+- /opt/apps/osmo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
