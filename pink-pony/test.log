@@ -1,0 +1,28 @@
+正在测试: APPID=pink-pony.linyaps LAYER=pink-pony.linyaps_1.4.1.3_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install pink-pony.linyaps_1.4.1.3_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:pink-pony.linyaps
+Layer文件:pink-pony.linyaps_1.4.1.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pink-pony.linyaps_1.4.1.3_x86_64_binary.layer
+offset: 672
+mountpoint: /tmp/tmp.qEKEqS3rbh/mnt
+dbglevel: 0
+[成功] pink-pony.desktop: pink-pony.linyaps-pink-pony -> /opt/apps/pink-pony.linyaps/files/share/icons/hicolor/64x64/apps/pink-pony.linyaps-pink-pony.png
+[成功] /opt/apps/pink-pony.linyaps/files/share/applications/pink-pony.desktop: /opt/apps/pink-pony.linyaps/files/entrypoint.sh /usr/games/pink-pony
+[正在测试启动项]
+包名:pink-pony.linyaps
+Layer文件:pink-pony.linyaps_1.4.1.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pink-pony.linyaps_1.4.1.3_x86_64_binary.layer
+offset: 672
+mountpoint: /tmp/tmp.l8OCyV3T35/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run pink-pony.linyaps -- /opt/apps/pink-pony.linyaps/files/entrypoint.sh /usr/games/pink-pony
+[PID 7991] 进程已启动
+[PID 7991] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall pink-pony.linyaps
