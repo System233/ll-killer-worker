@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: runescape.linyaps
+  name: runescape
+  version: 0.8.0.2
+  kind: app
+  description: |-
+    Multiplayer online game set in a fantasy world
+    This software is a simple script that downloads and runs
+    the Old School Runescape client file on unofficial GNU/Linux distributions.
+
+    The game works on several different platforms (supported or not by Jagex)
+    using Java installed on the system, avoiding common risks encountered
+    by players using a web browser.
+
+    After downloading the official client file, the script will prepare the sandbox
+    environment located in "$HOME/.local/share/runescape" and run the game.
+
+    About the game, you will explore in an open and mysterious world,
+    with devastated landscapes and sinister powers.
+
+    Having chosen an adventurer, players are free to find their role
+    within it: to live by the sword and spells facing hundreds
+    of enemies, to further the storyline in quests, or to train
+    in any of a number of skills.
+command:
+- /opt/apps/runescape.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
