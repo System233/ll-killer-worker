@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: textedit.app.linyaps
+  name: textedit.app
+  version: 5.0.0.3
+  kind: app
+  description: |-
+    Text editor for GNUstep
+    TextEdit is a relatively basic text editor. It handles plain text, RTF, and
+    RTFD  has a nice "Wrap to Page" mode, has search/replace functionality, and
+    can display any file as text.
+command:
+- /opt/apps/textedit.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
