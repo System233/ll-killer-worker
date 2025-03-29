@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: quodlibet.linyaps
+  name: quodlibet
+  version: 4.6.0.3
+  kind: app
+  description: |-
+    audio library manager and player for GTK3
+    Quod Libet is a music management program. It provides several different ways
+    to view your audio library, as well as support for Internet radio and
+    audio feeds. It has extremely flexible metadata tag editing and searching
+    capabilities, using the same interface as Ex Falso.
+
+    Supported formats include MP3, Ogg Vorbis, FLAC, Musepack (MPC), WavPack,
+    and MOD/XM/IT.
+command:
+- /opt/apps/quodlibet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
