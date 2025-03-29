@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: plasma-browser-integration.linyaps
+  name: plasma-browser-integration
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    Chromium, Google Chrome, Firefox integration for Plasma
+    Plasma Browser Integration is an extension for common browsers
+    to closer fit into the Plasma shell. This includes:
+    - Media Controls
+    Lets you control video and audio players in websites using the
+    Media Controller plasmoid, media keys on your keyboard, and
+    even remotely from your phone.
+    - Send links via KDE Connect
+    Adds a context menu entry to links enabling you to send them
+    to your phone and other paired devices.
+    - Show downloads in and control them from Plasma’s notification area.
+    - Find browser tabs in the Run Command (Alt-Space) window
+    Make sure the "Browser Tabs" module is enabled in Plasma Search
+    (KRunner) settings.
+command:
+- /opt/apps/plasma-browser-integration.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
