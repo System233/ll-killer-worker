@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: warmux.linyaps
+  name: warmux
+  version: 11.4.1.4
+  kind: app
+  description: |-
+    turn-based artillery game on 2D maps
+    WarMUX is a free game in the genre of "turn-based artillery games"
+    like Scorched Earth or Worms.
+    Several players can play together, either locally or over the network.
+    It is also possible to compete against computer-driven teams.
+    The teams are styled after the mascots of various free software projects.
+command:
+- /opt/apps/warmux.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
