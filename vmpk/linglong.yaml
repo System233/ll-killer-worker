@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: vmpk.linyaps
+  name: vmpk
+  version: 0.9.0.1
+  kind: app
+  description: |-
+    Virtual MIDI Piano Keyboard
+    Virtual MIDI Piano Keyboard is a MIDI events generator and
+    receiver. It doesn't produce any sound by itself, but can be used to
+    drive a MIDI synthesizer (either hardware or software, internal or
+    external). You can use the computer's keyboard to play MIDI notes,
+    and also the mouse. You can use the Virtual MIDI Piano Keyboard to
+    display the played MIDI notes from another instrument or MIDI file
+    player.
+command:
+- /opt/apps/vmpk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
