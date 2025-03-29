@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: nut-monitor.linyaps
+  name: nut-monitor
+  version: 2.8.1.3
+  kind: app
+  description: |-
+    network UPS tools - GUI application to monitor UPS status
+    Network UPS Tools (NUT) is a client/server monitoring system that
+    allows computers to share uninterruptible power supply (UPS) and
+    power distribution unit (PDU) hardware. Clients access the hardware
+    through the server, and are notified whenever the power status
+    changes.
+
+    This package provides nut-monitor, a GUI application to monitor UPS status.
+command:
+- /opt/apps/nut-monitor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
