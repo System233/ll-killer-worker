@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: scite.linyaps
+  name: scite
+  version: 5.4.1.1
+  kind: app
+  description: |-
+    Lightweight GTK-based programming editor
+    GTK-based programming editor with syntax highlighting support for
+    many languages. Also supports folding sections, exporting
+    highlighted text into colored HTML and RTF.
+command:
+- /opt/apps/scite.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
