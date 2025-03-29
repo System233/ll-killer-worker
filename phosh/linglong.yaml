@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: phosh.linyaps
+  name: phosh
+  version: 0.38.0.1
+  kind: app
+  description: |-
+    Pure Wayland shell for mobile devices
+    Phosh is a graphical shell for Wayland compositors speaking the layer-surface
+    protocol and aimed at mobile devices like smart phones and tablets using touch
+    based inputs and small screens.
+
+    It's part of the Phosh Mobile Environment based on GNOME/GTK. For the full
+    stack see the phosh-full and phosh-core metapackages.
+command:
+- /opt/apps/phosh.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
