@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: terminator.linyaps
+  name: terminator
+  version: 2.1.3.1
+  kind: app
+  description: |-
+    multiple GNOME terminals in one window
+    Terminator is a little project to produce an efficient way of
+    filling a large area of screen space with terminals.
+
+    The user can have multiple terminals in one window and use
+    key bindings to switch between them. See the manpage for
+    details.
+command:
+- /opt/apps/terminator.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
