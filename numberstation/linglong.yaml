@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: numberstation.linyaps
+  name: numberstation
+  version: 1.4.0.1
+  kind: app
+  description: |-
+    TOTP Authenticator application
+    A Gnome Authenticator clone. This generates 2fa tokens based on secrets
+    installed. It registers as uri-handler for otpauth:// urls so they can be
+    added from Megapixels.
+
+    Note this app is designed for small screens, and works perfectly on mobile
+    phones.
+command:
+- /opt/apps/numberstation.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
