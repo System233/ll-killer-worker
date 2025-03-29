@@ -1,0 +1,29 @@
+正在测试: APPID=mudita24.linyaps LAYER=mudita24.linyaps_1.0.3.7_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install mudita24.linyaps_1.0.3.7_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:mudita24.linyaps
+Layer文件:mudita24.linyaps_1.0.3.7_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: mudita24.linyaps_1.0.3.7_x86_64_binary.layer
+offset: 1655
+mountpoint: /tmp/tmp.p3iVuiwKOk/mnt
+dbglevel: 0
+find: ‘/opt/apps/mudita24.linyaps/files/share/icons’: No such file or directory
+[成功] mudita24.desktop: mudita24 -> /opt/apps/mudita24.linyaps/files/share/pixmaps/mudita24.xpm
+[成功] /opt/apps/mudita24.linyaps/files/share/applications/mudita24.desktop: /opt/apps/mudita24.linyaps/files/entrypoint.sh mudita24
+[正在测试启动项]
+包名:mudita24.linyaps
+Layer文件:mudita24.linyaps_1.0.3.7_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: mudita24.linyaps_1.0.3.7_x86_64_binary.layer
+offset: 1655
+mountpoint: /tmp/tmp.oh6OHJrmTl/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run mudita24.linyaps -- /opt/apps/mudita24.linyaps/files/entrypoint.sh mudita24
+[PID 8054] 进程已启动
+[PID 8054] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall mudita24.linyaps

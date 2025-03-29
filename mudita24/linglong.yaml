@@ -1,0 +1,32 @@
+version: "1"
+package:
+  id: mudita24.linyaps
+  name: mudita24
+  version: 1.0.3.7
+  kind: app
+  description: |-
+    ALSA GUI control tool for Envy24 (ice1712) soundcards
+    Mudita24 is a modification of the Linux alsa-tools' envy24control: an
+    application controlling the digital mixer, channel gains and other hardware
+    settings for sound cards based on the VIA Ice1712 chipset aka Envy24. Unlike
+    most ALSA mixer controls, this application displays a level meter for each
+    input and output channel and maintains peak level indicators. This is based
+    on Envy24's hardware peak metering feature.
+
+    Mudita24 provides alternate name to avoid confusion with "envy24control
+    0.6.0" until changes in this version propagate upstream. As balance to the
+    "Envy", this project needed some Mudita "In Buddhism the third of the four
+    divine abidings is mudita, taking joy in the good fortune of another. This
+    virtue is considered the antidote to envy and the opposite of
+    schadenfreude."
+
+    This utility is preferable to alsamixer for those with ice1712-based
+    cards: M-Audio Delta 1010, Delta 1010LT, Delta DiO 2496, Delta 66, Delta 44,
+    Delta 410 and Audiophile 2496. Terratec EWS 88MT, EWS 88D, EWX 24/96, DMX
+    6Fire, Phase 88. Hoontech Soundtrack DSP 24, Soundtrack DSP 24 Value,
+    Soundtrack DSP 24 Media 7.1. Event Electronics EZ8. Digigram VX442.
+    Lionstracs, Mediastaton. Terrasoniq TS 88. Roland/Edirol DA-2496.
+command:
+- /opt/apps/mudita24.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
