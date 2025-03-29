@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: qlipper.linyaps
+  name: qlipper
+  version: 5.1.2.1
+  kind: app
+  description: |-
+    Lightweight and cross-platform clipboard history applet
+    A Lightweight and cross-platform clipboard history applet. It
+    provides the following features:
+
+    - saves clipboard history entries and restores them
+    - lightweight
+    - systray docking app
+    - few requirements
+    - can be used in GNOME and Windows (and more)
+command:
+- /opt/apps/qlipper.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
