@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: starshine-scantool.linyaps
+  name: starshine-scantool
+  version: 6.7.66.1
+  kind: app
+  description: This is scanner driver.
+command:
+- /opt/apps/starshine-scantool.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
