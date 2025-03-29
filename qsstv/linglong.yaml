@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: qsstv.linyaps
+  name: qsstv
+  version: 9.5.8.3
+  kind: app
+  description: |-
+    Qt-based slow-scan TV and fax
+    Qsstv is a program for receiving slow-scan television and fax.
+    These are modes used by hamradio operators. Qsstv uses a
+    soundcard to send and receive images.
+command:
+- /opt/apps/qsstv.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
