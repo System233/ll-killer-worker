@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: plasma-thunderbolt.linyaps
+  name: plasma-thunderbolt
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    Plasma addons for managing Thunderbolt devices
+    Plasma System settings module and a KDED module to handle authorization
+    of Thunderbolt devices connected to the computer.
+command:
+- /opt/apps/plasma-thunderbolt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
