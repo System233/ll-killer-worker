@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: org.deepin.browser.linyaps
+  name: org.deepin.browser
+  version: 6.5.2.1
+  kind: app
+  description: |-
+    org.deepin.browser
+    A fast web browser with simple interface.
+command:
+- /opt/apps/org.deepin.browser.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
