@@ -1,0 +1,74 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libasound2-data libasound2t64 libccd2 libglut3.12 libode8t64 libplib1t64
+  stormbaancoureur-data
+Suggested packages:
+  alsa-utils
+Recommended packages:
+  alsa-ucm-conf alsa-topology-conf
+The following packages will be REMOVED:
+  libasound2
+The following NEW packages will be installed:
+  libasound2t64 libccd2 libglut3.12 libode8t64 libplib1t64 stormbaancoureur
+  stormbaancoureur-data
+The following packages will be upgraded:
+  libasound2-data
+1 upgraded, 7 newly installed, 1 to remove and 450 not upgraded.
+Need to get 4517 kB of archives.
+After this operation, 7523 kB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libasound2-data all 1.2.11-1build2 [21.0 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libasound2t64 arm64 1.2.11-1build2 [387 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libglut3.12 arm64 3.4.0-1build1 [96.2 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libccd2 arm64 2.1-2 [19.1 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libode8t64 arm64 2:0.16.2-1.1build1 [384 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libplib1t64 arm64 1.8.5-14.1build1 [530 kB]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 stormbaancoureur-data all 2.1.6-3.1build2 [2999 kB]
+Get:8 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 stormbaancoureur arm64 2.1.6-3.1build2 [81.5 kB]
+Fetched 4517 kB in 1s (3900 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libasound2-data_1.2.11-1build2_all.deb ...
+Unpacking libasound2-data (1.2.11-1build2) over (1.2.8-1) ...
+dpkg: libasound2:arm64: dependency problems, but removing anyway as you requested:
+ pulseaudio depends on libasound2 (>= 1.2.1.1).
+ pipewire-bin depends on libasound2 (>= 1.2.1.1).
+ libspa-0.2-modules:arm64 depends on libasound2 (>= 1.2.1.1).
+ libasound2-plugins:arm64 depends on libasound2 (>= 1.2.5).
+ bluez depends on libasound2 (>= 1.0.17).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Removing libasound2:arm64 (1.2.8-1) ...
+Selecting previously unselected package libasound2t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27733 files and directories currently installed.)
+Preparing to unpack .../0-libasound2t64_1.2.11-1build2_arm64.deb ...
+Unpacking libasound2t64:arm64 (1.2.11-1build2) ...
+Selecting previously unselected package libglut3.12:arm64.
+Preparing to unpack .../1-libglut3.12_3.4.0-1build1_arm64.deb ...
+Unpacking libglut3.12:arm64 (3.4.0-1build1) ...
+Selecting previously unselected package libccd2:arm64.
+Preparing to unpack .../2-libccd2_2.1-2_arm64.deb ...
+Unpacking libccd2:arm64 (2.1-2) ...
+Selecting previously unselected package libode8t64.
+Preparing to unpack .../3-libode8t64_2%3a0.16.2-1.1build1_arm64.deb ...
+Unpacking libode8t64 (2:0.16.2-1.1build1) ...
+Selecting previously unselected package libplib1t64:arm64.
+Preparing to unpack .../4-libplib1t64_1.8.5-14.1build1_arm64.deb ...
+Unpacking libplib1t64:arm64 (1.8.5-14.1build1) ...
+Selecting previously unselected package stormbaancoureur-data.
+Preparing to unpack .../5-stormbaancoureur-data_2.1.6-3.1build2_all.deb ...
+Unpacking stormbaancoureur-data (2.1.6-3.1build2) ...
+Selecting previously unselected package stormbaancoureur.
+Preparing to unpack .../6-stormbaancoureur_2.1.6-3.1build2_arm64.deb ...
+Unpacking stormbaancoureur (2.1.6-3.1build2) ...
+Setting up stormbaancoureur-data (2.1.6-3.1build2) ...
+Setting up libccd2:arm64 (2.1-2) ...
+Setting up libode8t64 (2:0.16.2-1.1build1) ...
+Setting up libplib1t64:arm64 (1.8.5-14.1build1) ...
+Setting up libasound2-data (1.2.11-1build2) ...
+Setting up libasound2t64:arm64 (1.2.11-1build2) ...
+Setting up libglut3.12:arm64 (3.4.0-1build1) ...
+Setting up stormbaancoureur (2.1.6-3.1build2) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
