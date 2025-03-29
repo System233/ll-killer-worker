@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: simulide.linyaps
+  name: simulide
+  version: 1.1.0.4
+  kind: app
+  description: |-
+    simple real time electronic circuit simulator
+    Simulide is a real time electronic circuit simulator intended for hobbist and
+    student experimentation with simple general purpose electronic circuits and
+    PIC, AVR and Arduino microcontroller simulations.
+command:
+- /opt/apps/simulide.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
