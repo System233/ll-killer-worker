@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ngraph-gtk.linyaps
+  name: ngraph-gtk
+  version: 6.9.7.1
+  kind: app
+  description: |-
+    create scientific 2-dimensional graphs
+    Ngraph is the program to create scientific 2-dimensional graphs for
+    researchers and engineers. This program can create advanced graphs
+    which can't be created by spreadsheets. Graphs can be exported to
+    postscript.
+command:
+- /opt/apps/ngraph-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
