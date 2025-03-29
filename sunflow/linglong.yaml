@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: sunflow.linyaps
+  name: sunflow
+  version: 0.7.2.18
+  kind: app
+  description: |-
+    rendering system for photo-realistic image synthesis (GUI)
+    Sunflow is an open source rendering system for photo-realistic image
+    synthesis. It is written in Java and built around a flexible ray
+    tracing core and an extensible object-oriented design. It was created
+    as a framework for experimenting with global illumination algorithms
+    and new surface shading models.
+
+    This package contains the sunflow GUI.
+command:
+- /opt/apps/sunflow.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
