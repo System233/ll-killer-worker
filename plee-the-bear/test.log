@@ -1,0 +1,28 @@
+正在测试: APPID=plee-the-bear.linyaps LAYER=plee-the-bear.linyaps_0.6.0.8_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install plee-the-bear.linyaps_0.6.0.8_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:plee-the-bear.linyaps
+Layer文件:plee-the-bear.linyaps_0.6.0.8_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: plee-the-bear.linyaps_0.6.0.8_arm64_binary.layer
+offset: 1031
+mountpoint: /tmp/tmp.wu0zfQvy8D/mnt
+dbglevel: 0
+[成功] plee-the-bear.desktop: ptb -> /opt/apps/plee-the-bear.linyaps/files/share/icons/hicolor/128x128/apps/ptb.png
+[成功] /opt/apps/plee-the-bear.linyaps/files/share/applications/plee-the-bear.desktop: /opt/apps/plee-the-bear.linyaps/files/entrypoint.sh /usr/games/plee-the-bear
+[正在测试启动项]
+包名:plee-the-bear.linyaps
+Layer文件:plee-the-bear.linyaps_0.6.0.8_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: plee-the-bear.linyaps_0.6.0.8_arm64_binary.layer
+offset: 1031
+mountpoint: /tmp/tmp.rINGPmUTRw/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run plee-the-bear.linyaps -- /opt/apps/plee-the-bear.linyaps/files/entrypoint.sh /usr/games/plee-the-bear
+[PID 8427] 进程已启动
+[PID 8427] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall plee-the-bear.linyaps
