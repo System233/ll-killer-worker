@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: nmapsi4.linyaps
+  name: nmapsi4
+  version: 0.5.0.4
+  kind: app
+  description: |-
+    graphical interface to nmap, the network scanner
+    NmapSI4 is a complete Qt-based Gui with the design goal to provide a complete
+    nmap interface for users, in order to manage all options of this power
+    security net scanner.
+command:
+- /opt/apps/nmapsi4.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
