@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: powermanga.linyaps
+  name: powermanga
+  version: 0.93.1.6
+  kind: app
+  description: |-
+    vertical shoot 'em up with colourful 3D graphics
+    Powermanga is a shoot 'em up with 60 different enemies, 40 meteors, numerous
+    weapons, many end of level baddies, spaceship power-ups and lots of other
+    surprises.
+command:
+- /opt/apps/powermanga.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
