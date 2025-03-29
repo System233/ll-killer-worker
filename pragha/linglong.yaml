@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: pragha.linyaps
+  name: pragha
+  version: 1.3.4.2
+  kind: app
+  description: |-
+    Lightweight Music Player
+    Pragha is a Lightweight Music Player for GNU/Linux, based on Gtk, sqlite,
+    and completely written in C, constructed to be fast, light, and
+    simultaneously tries to be complete without obstructing the daily work.
+command:
+- /opt/apps/pragha.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
