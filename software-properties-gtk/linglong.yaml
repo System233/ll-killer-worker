@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: software-properties-gtk.linyaps
+  name: software-properties-gtk
+  version: 0.99.49.1
+  kind: app
+  description: |-
+    manage the repositories that you install software from (gtk)
+    This software provides an abstraction of the used apt repositories.
+    It allows you to easily manage your distribution and independent software
+    vendor software sources.
+
+    This package contains a GTK+ based graphical interface.
+command:
+- /opt/apps/software-properties-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
