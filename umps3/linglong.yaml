@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: umps3.linyaps
+  name: umps3
+  version: 3.0.5.1
+  kind: app
+  description: |-
+    Virtual machine simulator based around the MIPS R2/3000 microprocessor
+    µMPS is an educational computer system architecture and an accompanying
+    emulator designed from the ground up to achieve the right trade-off between
+    simplicity and elegance on one side, and realism on the other. This makes µMPS
+    ideally suited for use in education, such as hands-on operating systems or
+    computer architecture university courses.
+
+    The µMPS processor implements the MIPS I instruction set, and can therefore be
+    supported out of the box by existing MIPS compilers. The architecture details
+    a complete set of I/O devices (terminals, disks, flash devices, printers, and
+    network adapters) that feature a clean, consistent, programming interface.
+    The previous revision of the µMPS architecture (µMPS2) brings multiprocessor
+    support.
+
+    The emulator comes with built-in debugging features and an easy to use
+    graphical user interface. Apart from the emulator itself, several support
+    utilities are provided that can get you quickly started in developing programs
+    for µMPS.
+command:
+- /opt/apps/umps3.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
