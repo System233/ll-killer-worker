@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: qthid-fcd-controller.linyaps
+  name: qthid-fcd-controller
+  version: 4.1.0.6
+  kind: app
+  description: |-
+    Funcube Dongle controller
+    Controller application for the Funcube Dongle software defined radio receiver,
+    built using the HID API library and the Qt GUI toolkit.
+
+    The Funcube Dongle is a small software defined radio receiver for
+    64 MHz - 1.7 GHz. It fits into a computer's USB port and uses USB audio
+    to transfer complex I/Q data to SDR applications. The control API for
+    setting frequency, gain, filter, etc. uses the USB HID standard.
+
+    It provides full support for the Funcube Dongle API::
+    * Change frequency and apply frequency correction.
+    * Change RF gains and filters.
+    * Change IF gains and filters.
+    * LNA enhancement, bias current, etc.
+    * I/Q correction.
+    * Auto-repeat tuning buttons (click and hold button to scan).
+    * Variable frequency step.
+    * Upgrade and verify the firmware.
+command:
+- /opt/apps/qthid-fcd-controller.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
