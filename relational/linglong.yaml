@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: relational.linyaps
+  name: relational
+  version: 3.1.0.1
+  kind: app
+  description: |-
+    Educational tool for relational algebra (graphical user interface)
+    Relational is primarily a tool to provide a workspace for experimenting with
+    relational algebra, an offshoot of first-order logic.
+
+    This package provides a graphical user interface that can be used to
+    execute relational queries.
+command:
+- /opt/apps/relational.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
