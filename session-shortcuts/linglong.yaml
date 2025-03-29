@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: session-shortcuts.linyaps
+  name: session-shortcuts
+  version: 1.4.0.0
+  kind: app
+  description: |-
+    Allows you to shutdown, logout, and reboot from dash
+    Adds several .desktop files that allow you to shutdown, logout,
+    and reboot from the Unity dash.
+command:
+- /opt/apps/session-shortcuts.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
