@@ -1,0 +1,243 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  curl gnutls-bin libboost-filesystem1.83.0 libboost-locale1.83.0
+  libboost-program-options1.83.0 libboost-thread1.83.0 libcurl3t64-gnutls
+  libcurl4t64 libfftw3-double3 libfftw3-single3 libgnutls-dane0t64
+  libgnutls30t64 libhogweed6t64 libldap-common libldap2 libmpdclient2t64
+  libnettle8t64 libp11-kit0 libpsl5t64 libreadline8t64 libssh-4 libssl3t64
+  libtag1v5 libtag1v5-vanilla libunistring5 p11-kit p11-kit-modules
+  publicsuffix readline-common
+Suggested packages:
+  libfftw3-bin libfftw3-dev dns-root-data mpd desktop-file-utils readline-doc
+The following packages will be REMOVED:
+  libcurl3-gnutls libcurl4 libgnutls-dane0 libgnutls30 libhogweed6 libnettle8
+  libpsl5 libreadline8
+The following NEW packages will be installed:
+  libboost-filesystem1.83.0 libboost-locale1.83.0
+  libboost-program-options1.83.0 libboost-thread1.83.0 libcurl3t64-gnutls
+  libcurl4t64 libfftw3-double3 libgnutls-dane0t64 libgnutls30t64
+  libhogweed6t64 libldap-common libldap2 libmpdclient2t64 libnettle8t64
+  libpsl5t64 libreadline8t64 libssh-4 libssl3t64 libtag1v5 libtag1v5-vanilla
+  libunistring5 ncmpcpp publicsuffix
+The following packages will be upgraded:
+  curl gnutls-bin libfftw3-single3 libp11-kit0 p11-kit p11-kit-modules
+  readline-common
+7 upgraded, 23 newly installed, 8 to remove and 446 not upgraded.
+Need to get 10.8 MB of archives.
+After this operation, 24.7 MB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgnutls-dane0t64 amd64 3.8.3-1.1ubuntu3.3 [23.5 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 gnutls-bin amd64 3.8.3-1.1ubuntu3.3 [270 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libnettle8t64 amd64 3.9.1-2.2build1.1 [182 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libhogweed6t64 amd64 3.9.1-2.2build1.1 [199 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 p11-kit-modules amd64 0.25.3-4ubuntu2.1 [328 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libp11-kit0 amd64 0.25.3-4ubuntu2.1 [300 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libunistring5 amd64 1.1-2build1.1 [536 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgnutls30t64 amd64 3.8.3-1.1ubuntu3.3 [995 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libldap2 amd64 2.6.7+dfsg-1~exp1ubuntu8.2 [196 kB]
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 curl amd64 8.5.0-2ubuntu10.6 [226 kB]
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpsl5t64 amd64 0.21.2-1.1build1 [57.1 kB]
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libssl3t64 amd64 3.0.13-0ubuntu3.5 [1940 kB]
+Get:13 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libssh-4 amd64 0.10.6-2build2 [188 kB]
+Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libcurl4t64 amd64 8.5.0-2ubuntu10.6 [341 kB]
+Get:15 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 readline-common all 8.2-4build1 [56.5 kB]
+Get:16 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libreadline8t64 amd64 8.2-4build1 [153 kB]
+Get:17 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 publicsuffix all 20231001.0357-0.1 [129 kB]
+Get:18 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libboost-filesystem1.83.0 amd64 1.83.0-2.1ubuntu3.1 [283 kB]
+Get:19 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libboost-thread1.83.0 amd64 1.83.0-2.1ubuntu3.1 [276 kB]
+Get:20 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libboost-locale1.83.0 amd64 1.83.0-2.1ubuntu3.1 [413 kB]
+Get:21 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libboost-program-options1.83.0 amd64 1.83.0-2.1ubuntu3.1 [320 kB]
+Get:22 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libcurl3t64-gnutls amd64 8.5.0-2ubuntu10.6 [333 kB]
+Get:23 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libfftw3-double3 amd64 3.3.10-1ubuntu3 [838 kB]
+Get:24 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libfftw3-single3 amd64 3.3.10-1ubuntu3 [868 kB]
+Get:25 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libldap-common all 2.6.7+dfsg-1~exp1ubuntu8.2 [31.7 kB]
+Get:26 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libmpdclient2t64 amd64 2.22-1.1build1 [48.4 kB]
+Get:27 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libtag1v5-vanilla amd64 1.13.1-1build1 [326 kB]
+Get:28 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libtag1v5 amd64 1.13.1-1build1 [11.7 kB]
+Get:29 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 ncmpcpp amd64 0.9.2-2build9 [775 kB]
+Get:30 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 p11-kit amd64 0.25.3-4ubuntu2.1 [141 kB]
+Fetched 10.8 MB in 0s (42.6 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing libcurl3-gnutls:amd64 (8.5.0-2) ...
+dpkg: libgnutls-dane0:amd64: dependency problems, but removing anyway as you requested:
+ gnutls-bin depends on libgnutls-dane0 (>= 3.7.0).
+
+Removing libgnutls-dane0:amd64 (3.7.9-2) ...
+Selecting previously unselected package libgnutls-dane0t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27580 files and directories currently installed.)
+Preparing to unpack .../libgnutls-dane0t64_3.8.3-1.1ubuntu3.3_amd64.deb ...
+Unpacking libgnutls-dane0t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+Preparing to unpack .../gnutls-bin_3.8.3-1.1ubuntu3.3_amd64.deb ...
+Unpacking gnutls-bin (3.8.3-1.1ubuntu3.3) over (3.7.9-2) ...
+dpkg: libhogweed6:amd64: dependency problems, but removing anyway as you requested:
+ libunbound8:amd64 depends on libhogweed6.
+ librtmp1:amd64 depends on libhogweed6.
+ libgnutls30:amd64 depends on libhogweed6 (>= 3.6).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27583 files and directories currently installed.)
+Removing libhogweed6:amd64 (3.7.3-1) ...
+dpkg: libnettle8:amd64: dependency problems, but removing anyway as you requested:
+ libunbound8:amd64 depends on libnettle8.
+ librtmp1:amd64 depends on libnettle8.
+ libgnutls30:amd64 depends on libnettle8 (>= 3.7~).
+ libarchive13:amd64 depends on libnettle8.
+
+Removing libnettle8:amd64 (3.7.3-1) ...
+Selecting previously unselected package libnettle8t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27569 files and directories currently installed.)
+Preparing to unpack .../libnettle8t64_3.9.1-2.2build1.1_amd64.deb ...
+Unpacking libnettle8t64:amd64 (3.9.1-2.2build1.1) ...
+Selecting previously unselected package libhogweed6t64:amd64.
+Preparing to unpack .../libhogweed6t64_3.9.1-2.2build1.1_amd64.deb ...
+Unpacking libhogweed6t64:amd64 (3.9.1-2.2build1.1) ...
+Preparing to unpack .../p11-kit-modules_0.25.3-4ubuntu2.1_amd64.deb ...
+Unpacking p11-kit-modules:amd64 (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Preparing to unpack .../libp11-kit0_0.25.3-4ubuntu2.1_amd64.deb ...
+Unpacking libp11-kit0:amd64 (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Selecting previously unselected package libunistring5:amd64.
+Preparing to unpack .../libunistring5_1.1-2build1.1_amd64.deb ...
+Unpacking libunistring5:amd64 (1.1-2build1.1) ...
+dpkg: libgnutls30:amd64: dependency problems, but removing anyway as you requested:
+ librtmp1:amd64 depends on libgnutls30 (>= 3.7.5).
+ libqpdf29:amd64 depends on libgnutls30 (>= 3.7.0).
+ libldap-2.5-0:amd64 depends on libgnutls30 (>= 3.7.5).
+ libcups2:amd64 depends on libgnutls30 (>= 3.7.5).
+ glib-networking:amd64 depends on libgnutls30 (>= 3.7.5).
+ dirmngr depends on libgnutls30 (>= 3.7.5).
+ apt depends on libgnutls30 (>= 3.7.5).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27587 files and directories currently installed.)
+Removing libgnutls30:amd64 (3.7.9-2) ...
+Selecting previously unselected package libgnutls30t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27559 files and directories currently installed.)
+Preparing to unpack .../libgnutls30t64_3.8.3-1.1ubuntu3.3_amd64.deb ...
+Unpacking libgnutls30t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+Setting up libnettle8t64:amd64 (3.9.1-2.2build1.1) ...
+Setting up libhogweed6t64:amd64 (3.9.1-2.2build1.1) ...
+Setting up libp11-kit0:amd64 (0.25.3-4ubuntu2.1) ...
+Setting up libunistring5:amd64 (1.1-2build1.1) ...
+Setting up libgnutls30t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+
+Configuration file '/etc/gnutls/config', does not exist on system.
+Installing new config file as you requested.
+Selecting previously unselected package libldap2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27571 files and directories currently installed.)
+Preparing to unpack .../libldap2_2.6.7+dfsg-1~exp1ubuntu8.2_amd64.deb ...
+Unpacking libldap2:amd64 (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+Preparing to unpack .../curl_8.5.0-2ubuntu10.6_amd64.deb ...
+Unpacking curl (8.5.0-2ubuntu10.6) over (8.5.0-2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27578 files and directories currently installed.)
+Removing libcurl4:amd64 (8.5.0-2) ...
+Removing libpsl5:amd64 (0.21.0-1.2) ...
+Selecting previously unselected package libpsl5t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27566 files and directories currently installed.)
+Preparing to unpack .../libpsl5t64_0.21.2-1.1build1_amd64.deb ...
+Unpacking libpsl5t64:amd64 (0.21.2-1.1build1) ...
+Selecting previously unselected package libssl3t64:amd64.
+Preparing to unpack .../libssl3t64_3.0.13-0ubuntu3.5_amd64.deb ...
+Unpacking libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:amd64 (3.2.0-2) ...
+Selecting previously unselected package libssh-4:amd64.
+Preparing to unpack .../libssh-4_0.10.6-2build2_amd64.deb ...
+Unpacking libssh-4:amd64 (0.10.6-2build2) ...
+Selecting previously unselected package libcurl4t64:amd64.
+Preparing to unpack .../libcurl4t64_8.5.0-2ubuntu10.6_amd64.deb ...
+Unpacking libcurl4t64:amd64 (8.5.0-2ubuntu10.6) ...
+Preparing to unpack .../readline-common_8.2-4build1_all.deb ...
+Unpacking readline-common (8.2-4build1) over (8.2-3) ...
+dpkg: libreadline8:amd64: dependency problems, but removing anyway as you requested:
+ sqlite3 depends on libreadline8 (>= 6.0).
+ pipewire-bin depends on libreadline8 (>= 6.0).
+ libpython3.12-stdlib:amd64 depends on libreadline8 (>= 7.0~beta).
+ libpython3.11-stdlib:amd64 depends on libreadline8 (>= 7.0~beta).
+ gpgsm depends on libreadline8 (>= 6.0).
+ gpgconf depends on libreadline8 (>= 6.0).
+ gpg depends on libreadline8 (>= 6.0).
+ gnupg-utils depends on libreadline8 (>= 6.0).
+ gawk depends on libreadline8 (>= 6.0).
+ fdisk depends on libreadline8 (>= 6.0).
+ bluez depends on libreadline8 (>= 6.0).
+ bc depends on libreadline8 (>= 6.0).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27588 files and directories currently installed.)
+Removing libreadline8:amd64 (8.2-3) ...
+Selecting previously unselected package libreadline8t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27575 files and directories currently installed.)
+Preparing to unpack .../00-libreadline8t64_8.2-4build1_amd64.deb ...
+Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8 to /lib/x86_64-linux-gnu/libhistory.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8.2 to /lib/x86_64-linux-gnu/libhistory.so.8.2.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8 to /lib/x86_64-linux-gnu/libreadline.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8.2 to /lib/x86_64-linux-gnu/libreadline.so.8.2.usr-is-merged by libreadline8t64'
+Unpacking libreadline8t64:amd64 (8.2-4build1) ...
+Selecting previously unselected package publicsuffix.
+Preparing to unpack .../01-publicsuffix_20231001.0357-0.1_all.deb ...
+Unpacking publicsuffix (20231001.0357-0.1) ...
+Selecting previously unselected package libboost-filesystem1.83.0:amd64.
+Preparing to unpack .../02-libboost-filesystem1.83.0_1.83.0-2.1ubuntu3.1_amd64.deb ...
+Unpacking libboost-filesystem1.83.0:amd64 (1.83.0-2.1ubuntu3.1) ...
+Selecting previously unselected package libboost-thread1.83.0:amd64.
+Preparing to unpack .../03-libboost-thread1.83.0_1.83.0-2.1ubuntu3.1_amd64.deb ...
+Unpacking libboost-thread1.83.0:amd64 (1.83.0-2.1ubuntu3.1) ...
+Selecting previously unselected package libboost-locale1.83.0:amd64.
+Preparing to unpack .../04-libboost-locale1.83.0_1.83.0-2.1ubuntu3.1_amd64.deb ...
+Unpacking libboost-locale1.83.0:amd64 (1.83.0-2.1ubuntu3.1) ...
+Selecting previously unselected package libboost-program-options1.83.0:amd64.
+Preparing to unpack .../05-libboost-program-options1.83.0_1.83.0-2.1ubuntu3.1_amd64.deb ...
+Unpacking libboost-program-options1.83.0:amd64 (1.83.0-2.1ubuntu3.1) ...
+Selecting previously unselected package libcurl3t64-gnutls:amd64.
+Preparing to unpack .../06-libcurl3t64-gnutls_8.5.0-2ubuntu10.6_amd64.deb ...
+Unpacking libcurl3t64-gnutls:amd64 (8.5.0-2ubuntu10.6) ...
+Selecting previously unselected package libfftw3-double3:amd64.
+Preparing to unpack .../07-libfftw3-double3_3.3.10-1ubuntu3_amd64.deb ...
+Unpacking libfftw3-double3:amd64 (3.3.10-1ubuntu3) ...
+Preparing to unpack .../08-libfftw3-single3_3.3.10-1ubuntu3_amd64.deb ...
+Unpacking libfftw3-single3:amd64 (3.3.10-1ubuntu3) over (3.3.8-2) ...
+Selecting previously unselected package libldap-common.
+Preparing to unpack .../09-libldap-common_2.6.7+dfsg-1~exp1ubuntu8.2_all.deb ...
+Unpacking libldap-common (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+Selecting previously unselected package libmpdclient2t64:amd64.
+Preparing to unpack .../10-libmpdclient2t64_2.22-1.1build1_amd64.deb ...
+Unpacking libmpdclient2t64:amd64 (2.22-1.1build1) ...
+Selecting previously unselected package libtag1v5-vanilla:amd64.
+Preparing to unpack .../11-libtag1v5-vanilla_1.13.1-1build1_amd64.deb ...
+Unpacking libtag1v5-vanilla:amd64 (1.13.1-1build1) ...
+Selecting previously unselected package libtag1v5:amd64.
+Preparing to unpack .../12-libtag1v5_1.13.1-1build1_amd64.deb ...
+Unpacking libtag1v5:amd64 (1.13.1-1build1) ...
+Selecting previously unselected package ncmpcpp.
+Preparing to unpack .../13-ncmpcpp_0.9.2-2build9_amd64.deb ...
+Unpacking ncmpcpp (0.9.2-2build9) ...
+Preparing to unpack .../14-p11-kit_0.25.3-4ubuntu2.1_amd64.deb ...
+Unpacking p11-kit (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Setting up libboost-program-options1.83.0:amd64 (1.83.0-2.1ubuntu3.1) ...
+Setting up libtag1v5-vanilla:amd64 (1.13.1-1build1) ...
+Setting up libfftw3-single3:amd64 (3.3.10-1ubuntu3) ...
+Setting up libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Setting up libpsl5t64:amd64 (0.21.2-1.1build1) ...
+Setting up libboost-thread1.83.0:amd64 (1.83.0-2.1ubuntu3.1) ...
+Setting up libboost-filesystem1.83.0:amd64 (1.83.0-2.1ubuntu3.1) ...
+Setting up libldap-common (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+
+Configuration file '/etc/ldap/ldap.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up p11-kit-modules:amd64 (0.25.3-4ubuntu2.1) ...
+Setting up libgnutls-dane0t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+Setting up libfftw3-double3:amd64 (3.3.10-1ubuntu3) ...
+Setting up libssh-4:amd64 (0.10.6-2build2) ...
+Setting up libtag1v5:amd64 (1.13.1-1build1) ...
+Setting up libmpdclient2t64:amd64 (2.22-1.1build1) ...
+Setting up p11-kit (0.25.3-4ubuntu2.1) ...
+Setting up readline-common (8.2-4build1) ...
+Setting up publicsuffix (20231001.0357-0.1) ...
+Setting up libldap2:amd64 (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+Setting up gnutls-bin (3.8.3-1.1ubuntu3.3) ...
+Setting up libcurl4t64:amd64 (8.5.0-2ubuntu10.6) ...
+Setting up libboost-locale1.83.0:amd64 (1.83.0-2.1ubuntu3.1) ...
+Setting up libcurl3t64-gnutls:amd64 (8.5.0-2ubuntu10.6) ...
+Setting up libreadline8t64:amd64 (8.2-4build1) ...
+Setting up curl (8.5.0-2ubuntu10.6) ...
+Setting up ncmpcpp (0.9.2-2build9) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
