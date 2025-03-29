@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: okular-backend-odp.linyaps
+  name: okular-backend-odp
+  version: 3.2.1.8
+  kind: app
+  description: |-
+    Okular backend for ODP documents
+    This package provides a backend for Okular to view OpenDocument Presentation
+    (ODP) documents, but also PowerPoint and PPTX documents.
+
+    This package is part of the Calligra Suite.
+command:
+- /opt/apps/okular-backend-odp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
