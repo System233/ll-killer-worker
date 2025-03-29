@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: signon-ui-x11.linyaps
+  name: signon-ui-x11
+  version: 0.17.4.0
+  kind: app
+  description: |-
+    Single Sign-on UI
+    UI for the signond Single Signon service
+command:
+- /opt/apps/signon-ui-x11.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
