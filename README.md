@@ -1,12 +1,12 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|2313|1375 |938 | 59.45%| 44.37%|
+|3099|2382|1418 |964 | 59.53%| 45.76%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|2020|1267 |753 | 62.72%| 45.92%|
-|deepin-v23|340|293|108 |185 | 36.86%| 31.76%|
+|ubuntu-noble|2759|2086|1309 |777 | 62.75%| 47.44%|
+|deepin-v23|340|296|109 |187 | 36.82%| 32.06%|
 ## 详细结果
 | 包名  | 架构 |仓库| 版本 | 测试结果 | SHA256 |killer版本|
 |-------|-----|----|------|---------|--------|---------|
@@ -2323,3 +2323,72 @@
 | [qtgain](./qtgain) | arm64  | ubuntu-noble | 1.0.0-0ubuntu3 | ![screen0-5.jpg](./qtgain/tests/screen0-5.jpg) | [SHA256](./qtgain/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [qthid-fcd-controller](./qthid-fcd-controller) | arm64  | ubuntu-noble | 4.1-6build2 | ![screen0-5.jpg](./qthid-fcd-controller/tests/screen0-5.jpg) ![screen1-5.jpg](./qthid-fcd-controller/tests/screen1-5.jpg) | [SHA256](./qthid-fcd-controller/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [qtikz](./qtikz) | arm64  | ubuntu-noble | 0.13.2+ds1-1build3 | ![screen0-5.jpg](./qtikz/tests/screen0-5.jpg) | [SHA256](./qtikz/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qtmir-tests](./qtmir-tests) | arm64  | ubuntu-noble | 0.8.0~git20240131.2f99df3-1build5 | ![screen0-5.jpg](./qtmir-tests/tests/screen0-5.jpg) | [SHA256](./qtmir-tests/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qtop](./qtop) | arm64  | ubuntu-noble | 2.3.4-3build2 | ![screen0-5.jpg](./qtop/tests/screen0-5.jpg) | [SHA256](./qtop/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qtox](./qtox) | arm64  | ubuntu-noble | 1.17.6-0.1build5 | ![screen0-5.jpg](./qtox/tests/screen0-5.jpg) | [SHA256](./qtox/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qtpass](./qtpass) | arm64  | ubuntu-noble | 1.4.0-1build3 | ![screen0-5.jpg](./qtpass/tests/screen0-5.jpg) | [SHA256](./qtpass/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qtqr](./qtqr) | arm64  | ubuntu-noble | 2.1~bzr52-1 | ![screen0-5.jpg](./qtqr/tests/screen0-5.jpg) | [SHA256](./qtqr/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qtractor](./qtractor) | arm64  | ubuntu-noble | 0.9.39-1build3 | ![screen0-5.jpg](./qtractor/tests/screen0-5.jpg) | [SHA256](./qtractor/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qtscrob](./qtscrob) | arm64  | ubuntu-noble | 0.11+git-5build3 | ![screen0-5.jpg](./qtscrob/tests/screen0-5.jpg) | [SHA256](./qtscrob/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qttinysa](./qttinysa) | arm64  | ubuntu-noble | 0.10.1-1 | ![screen0-5.jpg](./qttinysa/tests/screen0-5.jpg) | [SHA256](./qttinysa/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qttools5-dev-tools](./qttools5-dev-tools) | arm64  | ubuntu-noble | 5.15.13-1 | ![screen0-5.jpg](./qttools5-dev-tools/tests/screen0-5.jpg) ![screen1-5.jpg](./qttools5-dev-tools/tests/screen1-5.jpg) | [SHA256](./qttools5-dev-tools/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [quadrapassel](./quadrapassel) | arm64  | ubuntu-noble | 40.2-1build2 | ![screen0-5.jpg](./quadrapassel/tests/screen0-5.jpg) | [SHA256](./quadrapassel/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [quake](./quake) | arm64  | ubuntu-noble | 77ubuntu2-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [quake2](./quake2) | arm64  | ubuntu-noble | 77ubuntu2-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [quake3](./quake3) | arm64  | ubuntu-noble | 77ubuntu2-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [quassel](./quassel) | arm64  | ubuntu-noble | 0.14.0-2ubuntu3 | ![screen0-5.jpg](./quassel/tests/screen0-5.jpg) | [SHA256](./quassel/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [quassel-client](./quassel-client) | arm64  | ubuntu-noble | 0.14.0-2ubuntu3 | ![screen0-5.jpg](./quassel-client/tests/screen0-5.jpg) | [SHA256](./quassel-client/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [quaternion](./quaternion) | arm64  | ubuntu-noble | 0.0.95.1-1ubuntu3 | ![screen0-5.jpg](./quaternion/tests/screen0-5.jpg) | [SHA256](./quaternion/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [quickcal](./quickcal) | arm64  | ubuntu-noble | 2.4-1-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [quickroute-gps](./quickroute-gps) | arm64  | ubuntu-noble | 2.4-15-20250327 | 失败 | [SHA256](./quickroute-gps/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [quisk](./quisk) | arm64  | ubuntu-noble | 4.2.30-1 | ![screen0-5.jpg](./quisk/tests/screen0-5.jpg) | [SHA256](./quisk/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [quitcount](./quitcount) | arm64  | ubuntu-noble | 3.1.4-3build2 | ![screen0-5.jpg](./quitcount/tests/screen0-5.jpg) | [SHA256](./quitcount/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [quiterss](./quiterss) | arm64  | ubuntu-noble | 0.19.4+dfsg-1build2 | ![screen0-5.jpg](./quiterss/tests/screen0-5.jpg) | [SHA256](./quiterss/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [quodlibet](./quodlibet) | arm64  | deepin-v23 | 4.6.0-3 | ![screen0-5.jpg](./quodlibet/tests/screen0-5.jpg) | [SHA256](./quodlibet/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qutebrowser](./qutebrowser) | arm64  | ubuntu-noble | 2.5.4-2ubuntu1 | ![screen0-5.jpg](./qutebrowser/tests/screen0-5.jpg) | [SHA256](./qutebrowser/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qutemol](./qutemol) | arm64  | ubuntu-noble | 0.4.1~cvs20081111-15build2 | ![screen0-5.jpg](./qutemol/tests/screen0-5.jpg) | [SHA256](./qutemol/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qv4l2](./qv4l2) | arm64  | ubuntu-noble | 1.26.1-4build3 | ![screen0-5.jpg](./qv4l2/tests/screen0-5.jpg) | [SHA256](./qv4l2/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qvge](./qvge) | arm64  | ubuntu-noble | 0.6.3-4build2 | ![screen0-5.jpg](./qvge/tests/screen0-5.jpg) | [SHA256](./qvge/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qviaggiatreno](./qviaggiatreno) | arm64  | ubuntu-noble | 2013.7.3-12build2 | ![screen0-5.jpg](./qviaggiatreno/tests/screen0-5.jpg) | [SHA256](./qviaggiatreno/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qvidcap](./qvidcap) | arm64  | ubuntu-noble | 1.26.1-4build3-20250327 | 失败 | [SHA256](./qvidcap/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qweborf](./qweborf) | arm64  | ubuntu-noble | 1.0-1ubuntu0.1 | ![screen0-5.jpg](./qweborf/tests/screen0-5.jpg) | [SHA256](./qweborf/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qwinff](./qwinff) | arm64  | ubuntu-noble | 0.2.1+git20201215-2build3 | ![screen0-5.jpg](./qwinff/tests/screen0-5.jpg) | [SHA256](./qwinff/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qwo](./qwo) | arm64  | ubuntu-noble | 0.5-4build2-20250327 | 失败 | [SHA256](./qwo/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qxgedit](./qxgedit) | arm64  | ubuntu-noble | 0.9.12-1build2 | ![screen0-5.jpg](./qxgedit/tests/screen0-5.jpg) | [SHA256](./qxgedit/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [qxw](./qxw) | arm64  | ubuntu-noble | 20200708-2build2 | ![screen0-5.jpg](./qxw/tests/screen0-5.jpg) | [SHA256](./qxw/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [r-base-core](./r-base-core) | arm64  | deepin-v23 | 4.4.1-3-20250327 | 失败 | [SHA256](./r-base-core/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [r-cran-rcmdr](./r-cran-rcmdr) | arm64  | ubuntu-noble | 2.9-2-1-20250327 | 失败 | [SHA256](./r-cran-rcmdr/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [racket](./racket) | arm64  | ubuntu-noble | 8.10+dfsg1-2ubuntu1 | ![screen0-5.jpg](./racket/tests/screen0-5.jpg) | [SHA256](./racket/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [railway-gtk](./railway-gtk) | arm64  | ubuntu-noble | 2.4.0-3 | ![screen0-5.jpg](./railway-gtk/tests/screen0-5.jpg) | [SHA256](./railway-gtk/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [raincat](./raincat) | arm64  | ubuntu-noble | 1.2.1-1-20250327 | 失败 | [SHA256](./raincat/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rakarrack](./rakarrack) | arm64  | ubuntu-noble | 0.6.1-8ubuntu1 | ![screen0-5.jpg](./rakarrack/tests/screen0-5.jpg) | [SHA256](./rakarrack/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [ranger](./ranger) | arm64  | ubuntu-noble | 1.9.3-5ubuntu0.24.04.1-20250327 | 失败 | [SHA256](./ranger/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rapid-photo-downloader](./rapid-photo-downloader) | arm64  | ubuntu-noble | 0.9.36-0ubuntu3-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [rasmol](./rasmol) | arm64  | ubuntu-noble | 2.7.6.0-3build3 | ![screen1-5.jpg](./rasmol/tests/screen1-5.jpg) | [SHA256](./rasmol/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rasterview](./rasterview) | arm64  | ubuntu-noble | 1.8-1build2 | ![screen0-5.jpg](./rasterview/tests/screen0-5.jpg) | [SHA256](./rasterview/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rawtherapee](./rawtherapee) | arm64  | ubuntu-noble | 5.10-1build4 | ![screen0-5.jpg](./rawtherapee/tests/screen0-5.jpg) | [SHA256](./rawtherapee/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [raysession](./raysession) | arm64  | ubuntu-noble | 0.14.3-0ubuntu2 | ![screen0-5.jpg](./raysession/tests/screen0-5.jpg) | [SHA256](./raysession/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rclone-browser](./rclone-browser) | arm64  | ubuntu-noble | 1.8.0-4build2 | ![screen0-5.jpg](./rclone-browser/tests/screen0-5.jpg) | [SHA256](./rclone-browser/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [reader-ty19-all](./reader-ty19-all) | arm64  | deepin-v23 | 1.0.0-20250327 | 失败 | [SHA256](./reader-ty19-all/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [recollgui](./recollgui) | arm64  | ubuntu-noble | 1.36.1-1build2 | ![screen0-5.jpg](./recollgui/tests/screen0-5.jpg) | [SHA256](./recollgui/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [redeclipse](./redeclipse) | arm64  | ubuntu-noble | 1.6.0-1build1 | ![screen0-5.jpg](./redeclipse/tests/screen0-5.jpg) | [SHA256](./redeclipse/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rednotebook](./rednotebook) | arm64  | ubuntu-noble | 2.32+ds-2-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [redshift](./redshift) | arm64  | ubuntu-noble | 1.12-4.2ubuntu4-20250327 | 失败 | [SHA256](./redshift/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [redshift-gtk](./redshift-gtk) | arm64  | ubuntu-noble | 1.12-4.2ubuntu4-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [redshift-qt](./redshift-qt) | arm64  | ubuntu-noble | 0.6-3build3 | ![screen0-5.jpg](./redshift-qt/tests/screen0-5.jpg) | [SHA256](./redshift-qt/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [regexxer](./regexxer) | arm64  | ubuntu-noble | 0.10-6build2 | ![screen0-5.jpg](./regexxer/tests/screen0-5.jpg) | [SHA256](./regexxer/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [relational](./relational) | arm64  | ubuntu-noble | 3.1-1 | ![screen0-5.jpg](./relational/tests/screen0-5.jpg) | [SHA256](./relational/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [reminiscence](./reminiscence) | arm64  | ubuntu-noble | 0.2.1-2build2-20250327 | 失败 | [SHA256](./reminiscence/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [remmina](./remmina) | arm64  | ubuntu-noble | 1.4.35+dfsg-0ubuntu5 | ![screen0-5.jpg](./remmina/tests/screen0-5.jpg) | [SHA256](./remmina/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [renpy](./renpy) | arm64  | ubuntu-noble | 8.1.3+dfsg-1build2-20250327 | 失败 | [SHA256](./renpy/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [renpy-demo](./renpy-demo) | arm64  | ubuntu-noble | 8.1.3+dfsg-1build2-20250327 | 失败 | [SHA256](./renpy-demo/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [renpy-thequestion](./renpy-thequestion) | arm64  | ubuntu-noble | 8.1.3+dfsg-1build2-20250327 | 失败 | [SHA256](./renpy-thequestion/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [repetier-host](./repetier-host) | arm64  | ubuntu-noble | 0.85+dfsg-5-20250327 | 失败 | [SHA256](./repetier-host/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [reportbug-gtk](./reportbug-gtk) | arm64  | ubuntu-noble | 13.0.1ubuntu1-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [revelation](./revelation) | arm64  | ubuntu-noble | 0.5.5-1-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [revolt](./revolt) | arm64  | ubuntu-noble | 0.0+git20211216.7f6f762-2-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
+| [rfdump](./rfdump) | arm64  | ubuntu-noble | 1.6-9.1build2 | ![screen0-5.jpg](./rfdump/tests/screen0-5.jpg) | [SHA256](./rfdump/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rgbpaint](./rgbpaint) | arm64  | ubuntu-noble | 0.8.7-6.1build3 | ![screen0-5.jpg](./rgbpaint/tests/screen0-5.jpg) | [SHA256](./rgbpaint/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [rhinote](./rhinote) | arm64  | ubuntu-noble | 0.7.4-5-20250327 | 失败 | [SHA256](./rhinote/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [ri-li](./ri-li) | arm64  | ubuntu-noble | 3.1.4-1build2 | ![screen0-5.jpg](./ri-li/tests/screen0-5.jpg) | [SHA256](./ri-li/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [ricochet](./ricochet) | arm64  | ubuntu-noble | 0.10-20250327 | 失败 | [SHA256](./ricochet/SHA256SUMS) | v1.5.2-arm64-nevm |
