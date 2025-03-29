@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: qdacco.linyaps
+  name: qdacco
+  version: 1.1.2.1
+  kind: app
+  description: |-
+    Offline Catalan <-> English dictionary desktop application
+    qdacco it's a graphical application providing a frontend to DACCO, a free
+    Catalan-English dictionary. It's a small desktop application using Qt as
+    widget library.
+command:
+- /opt/apps/qdacco.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
