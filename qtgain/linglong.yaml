@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: qtgain.linyaps
+  name: qtgain
+  version: 1.0.0.0
+  kind: app
+  description: |-
+    graphical user interface for various "gain" utils
+    With this application you can easily replay gain your OGG-Vorbis, Flac
+    and MP3 files.
+command:
+- /opt/apps/qtgain.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
