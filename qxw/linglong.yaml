@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: qxw.linyaps
+  name: qxw
+  version: 20200708.0.0.2
+  kind: app
+  description: |-
+    advanced crossword construction tool
+    Qxw is a program to help you create and publish crosswords,
+    from the simplest blocked grid to sophisticated thematic
+    puzzles. It can make rectangular-, hexagonal- or
+    circular-format grids with blocks, bars or both. It
+    has an automatic grid-filling facility that can handle a
+    wide range of answer treatments and you can even add your
+    own answer treatment methods. Grids can be filled using
+    letters, digits, or a mixture of both; non-Roman and
+    custom alphabets are also supported. Qxw can produce
+    output in a range of formats ready for publication.
+
+    Qxw also has a non-interactive mode that can solve a wide
+    range of word-based constraint satisfaction problems and
+    can help automate the exploration of grid designs.
+
+    Qxw is written in C and has a GUI based on GTK+.
+command:
+- /opt/apps/qxw.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
