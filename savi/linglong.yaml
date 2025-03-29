@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: savi.linyaps
+  name: savi
+  version: 1.6.0.1
+  kind: app
+  description: |-
+    satellite constellation visualisation
+    SaVi allows you to simulate satellite orbits and coverage,
+    in two and three dimensions. SaVi is particularly useful for
+    simulating satellite constellations such as Iridium and Globalstar.
+
+    SaVi can use Geomview, an optional but useful package,
+    for 3D rendering.
+command:
+- /opt/apps/savi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

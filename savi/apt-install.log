@@ -1,0 +1,40 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libtcl8.6 libtk8.6 libxss1
+Suggested packages:
+  tcl8.6 tk8.6 geomview
+The following NEW packages will be installed:
+  libtcl8.6 libtk8.6 libxss1 savi
+0 upgraded, 4 newly installed, 0 to remove and 451 not upgraded.
+Need to get 2568 kB of archives.
+After this operation, 9204 kB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libtcl8.6 arm64 8.6.14+dfsg-1build1 [978 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxss1 arm64 1:1.2.3-1build3 [7244 B]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libtk8.6 arm64 8.6.14-1build1 [767 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 savi arm64 1.6.0-1 [814 kB]
+Fetched 2568 kB in 1s (2175 kB/s)
+Selecting previously unselected package libtcl8.6:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libtcl8.6_8.6.14+dfsg-1build1_arm64.deb ...
+Unpacking libtcl8.6:arm64 (8.6.14+dfsg-1build1) ...
+Selecting previously unselected package libxss1:arm64.
+Preparing to unpack .../libxss1_1%3a1.2.3-1build3_arm64.deb ...
+Unpacking libxss1:arm64 (1:1.2.3-1build3) ...
+Selecting previously unselected package libtk8.6:arm64.
+Preparing to unpack .../libtk8.6_8.6.14-1build1_arm64.deb ...
+Unpacking libtk8.6:arm64 (8.6.14-1build1) ...
+Selecting previously unselected package savi.
+Preparing to unpack .../savi_1.6.0-1_arm64.deb ...
+Unpacking savi (1.6.0-1) ...
+Setting up libtcl8.6:arm64 (8.6.14+dfsg-1build1) ...
+Setting up libxss1:arm64 (1:1.2.3-1build3) ...
+Setting up libtk8.6:arm64 (8.6.14-1build1) ...
+Setting up savi (1.6.0-1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libc-bin (2.38-6deepin4) ...
