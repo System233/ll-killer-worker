@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: terminus.linyaps
+  name: terminus
+  version: 2.3.1.1
+  kind: app
+  description: |-
+    Drop-down or in-window terminal for X11 and Wayland
+    A new-generation (post-Guake) terminal for X11 and Wayland featuring
+    a hot-key Quake-console-like drop-down mode. Other features include a
+    scroll-back buffer, multiple tabs, split screen both horizontal and
+    vertical, and the usual compatibility features.
+command:
+- /opt/apps/terminus.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
