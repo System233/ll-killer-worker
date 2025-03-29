@@ -1,0 +1,29 @@
+正在测试: APPID=pacman.linyaps LAYER=pacman.linyaps_10.0.0.19_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install pacman.linyaps_10.0.0.19_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:pacman.linyaps
+Layer文件:pacman.linyaps_10.0.0.19_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pacman.linyaps_10.0.0.19_x86_64_binary.layer
+offset: 797
+mountpoint: /tmp/tmp.q5xQSf5Lx0/mnt
+dbglevel: 0
+find: ‘/opt/apps/pacman.linyaps/files/share/icons’: No such file or directory
+[成功] pacman.desktop: pacmania -> /opt/apps/pacman.linyaps/files/share/pixmaps/pacmania.xpm
+[成功] /opt/apps/pacman.linyaps/files/share/applications/pacman.desktop: /opt/apps/pacman.linyaps/files/entrypoint.sh pacman
+[正在测试启动项]
+包名:pacman.linyaps
+Layer文件:pacman.linyaps_10.0.0.19_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pacman.linyaps_10.0.0.19_x86_64_binary.layer
+offset: 797
+mountpoint: /tmp/tmp.nfj7BtH4hZ/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run pacman.linyaps -- /opt/apps/pacman.linyaps/files/entrypoint.sh pacman
+[PID 5353] 进程已启动
+[PID 5353] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall pacman.linyaps
