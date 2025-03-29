@@ -1,0 +1,33 @@
+version: "1"
+package:
+  id: rmlint-gui.linyaps
+  name: rmlint-gui
+  version: 2.9.0.2
+  kind: app
+  description: |-
+    GTK+ frontend to rmlint
+    rmlint-gui (a.k.a. Shredder) is a graphical user interface to rmlint
+    using GTK+. It uses rmlint to find space waste and other broken things
+    on your filesystem and offers to remove them.
+
+    It is able to find:
+    * Duplicate files & directories.
+    * Non-stripped binaries.
+    * Broken symlinks.
+    * Empty files.
+    * Recursive empty directories.
+    * Files with broken user or group ID.
+
+    Key Features:
+    * Extremely fast.
+    * Flexible and easy command-line options.
+    * Choice of several hashes for hash-based duplicate detection.
+    * Option for exact byte-by-byte comparison (only slightly slower).
+    * Numerous output options.
+    * Option to store time  of last run; next time will only scan new files.
+    * Many options for original selection/prioritisation.
+    * Can handle very large file sets (millions of files).
+command:
+- /opt/apps/rmlint-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
