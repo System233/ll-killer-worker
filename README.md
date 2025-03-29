@@ -1,11 +1,11 @@
 # amd64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3161|2125|1250 |875 | 58.82%| 39.54%|
+|3161|2128|1251 |877 | 58.79%| 39.58%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2779|1805|1130 |675 | 62.60%| 40.66%|
+|ubuntu-noble|2779|1808|1131 |677 | 62.56%| 40.70%|
 |deepin-v23|380|318|119 |199 | 37.42%| 31.32%|
 |shiftkey|1|1|1 |0 | 100.00%| 100.00%|
 |obs-studio|1|1|0 |1 | 0.00%| 0.00%|
@@ -2137,3 +2137,6 @@
 | [peony](./peony) | amd64  | ubuntu-noble | 4.0.0.1-1-20250327 | 失败 | N/A | v1.5.2-amd64-nevm |
 | [performous](./performous) | amd64  | ubuntu-noble | 1.3.0+ds-1build4 | ![screen0-5.jpg](./performous/tests/screen0-5.jpg) | [SHA256](./performous/SHA256SUMS) | v1.5.2-amd64-nevm |
 | [perlprimer](./perlprimer) | amd64  | ubuntu-noble | 1.2.4-2-20250327 | 失败 | [SHA256](./perlprimer/SHA256SUMS) | v1.5.2-amd64-nevm |
+| [persalys](./persalys) | amd64  | ubuntu-noble | 15.0+ds-3build5 | ![screen0-5.jpg](./persalys/tests/screen0-5.jpg) | [SHA256](./persalys/SHA256SUMS) | v1.5.2-amd64-nevm |
+| [petris](./petris) | amd64  | ubuntu-noble | 1.0.1-11-20250327 | 失败 | [SHA256](./petris/SHA256SUMS) | v1.5.2-amd64-nevm |
+| [pfm](./pfm) | amd64  | ubuntu-noble | 2.0.8-3-20250327 | 失败 | [SHA256](./pfm/SHA256SUMS) | v1.5.2-amd64-nevm |
