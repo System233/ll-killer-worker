@@ -1,0 +1,30 @@
+正在测试: APPID=snd-gui-pulse.linyaps LAYER=snd-gui-pulse.linyaps_24.1.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install snd-gui-pulse.linyaps_24.1.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:snd-gui-pulse.linyaps
+Layer文件:snd-gui-pulse.linyaps_24.1.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: snd-gui-pulse.linyaps_24.1.0.1_arm64_binary.layer
+offset: 636
+mountpoint: /tmp/tmp.JUaRpqJXhM/mnt
+dbglevel: 0
+[成功] snd-gui-pulse.desktop: snd -> /opt/apps/snd-gui-pulse.linyaps/files/share/icons/hicolor/96x96/apps/snd.png
+[成功] /opt/apps/snd-gui-pulse.linyaps/files/share/applications/snd-gui-pulse.desktop: /opt/apps/snd-gui-pulse.linyaps/files/entrypoint.sh /usr/bin/snd.gui-pulse
+[正在测试启动项]
+包名:snd-gui-pulse.linyaps
+Layer文件:snd-gui-pulse.linyaps_24.1.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: snd-gui-pulse.linyaps_24.1.0.1_arm64_binary.layer
+offset: 636
+mountpoint: /tmp/tmp.FE8mcQX0ww/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run snd-gui-pulse.linyaps -- /opt/apps/snd-gui-pulse.linyaps/files/entrypoint.sh /usr/bin/snd.gui-pulse
+[PID 8202] 进程已启动
+[PID 8202] 等待超时，未能检测到窗口
+[PID 8202] 正在通知并等待进程退出
+[PID 8202] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall snd-gui-pulse.linyaps
