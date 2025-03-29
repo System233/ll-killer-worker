@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: regexxer.linyaps
+  name: regexxer
+  version: 0.10.0.6
+  kind: app
+  description: |-
+    visual search and replace tool using Perl Regex
+    Regexxer is a nifty GUI search/replace tool featuring Perl-style
+    regular expressions (PCRE - Perl Regex). If you need project-wide
+    substitution and you're tired of hacking sed command lines together,
+    then you should definitely give it a try.
+
+    The tool can be used to search files or contents inside of a file.
+command:
+- /opt/apps/regexxer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
