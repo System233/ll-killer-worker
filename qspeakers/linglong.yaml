@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: qspeakers.linyaps
+  name: qspeakers
+  version: 1.6.9.1
+  kind: app
+  description: |-
+    loudspeaker design software
+    QSpeakers is a simple graphical program that
+    simulates common acoustical enclosures behaviour
+    to help designing loudspeaker systems, based on
+    the loudspeaker driver's Thiele / Small parameters
+    and the chosen enclosure type.
+
+    This software is mostly useful for do-it-yourself
+    loudspeaker enthusiasts, acoustics teaching, and
+    to a lesser extent, for loudspeaker engineering.
+command:
+- /opt/apps/qspeakers.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
