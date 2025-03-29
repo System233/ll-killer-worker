@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: qt5-assistant.linyaps
+  name: qt5-assistant
+  version: 5.15.13.1
+  kind: app
+  description: |-
+    Qt 5 Assistant
+    Qt is a cross-platform C++ application framework. Qt's primary feature
+    is its rich set of widgets that provide standard GUI functionality.
+
+    Qt Assistant is a tool for viewing on-line documentation in Qt help file
+    format.
+command:
+- /opt/apps/qt5-assistant.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
