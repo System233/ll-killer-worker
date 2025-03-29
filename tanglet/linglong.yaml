@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: tanglet.linyaps
+  name: tanglet
+  version: 1.6.5.1
+  kind: app
+  description: |-
+    single player word finding game based on Boggle
+    The Object of the game is to list as many words as you can before
+    the time runs out. Every time you find a new word, you are given
+    more time. Each word must be at least three letters long.
+command:
+- /opt/apps/tanglet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
