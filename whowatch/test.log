@@ -1,0 +1,27 @@
+正在测试: APPID=whowatch.linyaps LAYER=whowatch.linyaps_1.8.6.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install whowatch.linyaps_1.8.6.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:whowatch.linyaps
+Layer文件:whowatch.linyaps_1.8.6.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: whowatch.linyaps_1.8.6.1_arm64_binary.layer
+offset: 655
+mountpoint: /tmp/tmp.X8Ftlu5x4z/mnt
+dbglevel: 0
+[成功] /opt/apps/whowatch.linyaps/files/share/applications/whowatch.desktop: /opt/apps/whowatch.linyaps/files/entrypoint.sh whowatch
+[正在测试启动项]
+包名:whowatch.linyaps
+Layer文件:whowatch.linyaps_1.8.6.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: whowatch.linyaps_1.8.6.1_arm64_binary.layer
+offset: 655
+mountpoint: /tmp/tmp.YMCqB1Xviu/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run whowatch.linyaps -- /opt/apps/whowatch.linyaps/files/entrypoint.sh whowatch
+[PID 5390] 进程已启动
+[PID 5390] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall whowatch.linyaps
