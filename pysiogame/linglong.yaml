@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: pysiogame.linyaps
+  name: pysiogame
+  version: 4.20.1.1
+  kind: app
+  description: |-
+    educational activity pack for kids
+    pySioGame is a set of educational activities and games for children aged
+    between 3 and 10. The activities are grid based and can be played all in
+    a single window. pySioGame includes maths, reading, writing, painting, and
+    memory activities.
+command:
+- /opt/apps/pysiogame.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
