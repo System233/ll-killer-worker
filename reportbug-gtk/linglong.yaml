@@ -1,0 +1,30 @@
+version: "1"
+package:
+  id: reportbug-gtk.linyaps
+  name: reportbug-gtk
+  version: 13.0.1.0
+  kind: app
+  description: |-
+    reports bugs in the Debian distribution (GTK+ UI)
+    reportbug is a tool designed to make the reporting of bugs in Debian
+    and derived distributions relatively painless.  Its features include:
+
+    * Integration with many mail user agents.
+    * Access to outstanding bug reports to make it easier to identify
+    whether problems have already been reported.
+    * Automatic checking for newer versions of packages.
+    * Optional automatic verification of integrity of packages via debsums.
+    * Support for following-up on outstanding reports.
+    * Optional PGP/GnuPG integration.
+
+    Bug reporting in Debian relies on email; reportbug can use a local
+    mail transport agent (like exim or sendmail), submit directly through
+    an external mail server, or pass messages to an installed mail user
+    agent (e.g., mutt) for submission.
+
+    This package contains a desktop file and icon, and has dependencies
+    to enable the GTK+ UI mode of reportbug to work.
+command:
+- /opt/apps/reportbug-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
