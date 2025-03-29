@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: noiz2sa.linyaps
+  name: noiz2sa
+  version: 0.51.0.13
+  kind: app
+  description: |-
+    abstract arcade shooter
+    A classical vertical arcade shooter with an abstract theme and
+    matching electronic music
+command:
+- /opt/apps/noiz2sa.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
