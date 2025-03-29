@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: vala-panel.linyaps
+  name: vala-panel
+  version: 0.5.0.2
+  kind: app
+  description: |-
+    Desktop panel written in Vala and GTK+ 3
+    Vala Panel is a rewrite of SimplePanel. It is a GTK+ 3 desktop panel
+    written in Vala and based on ideas from LXPanel.
+
+    Vala Panel can be extended with plugins that provide application menus,
+    clock, tasklist, system tray, etc.
+command:
+- /opt/apps/vala-panel.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
