@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: scanux-base.linyaps
+  name: scanux-base
+  version: 3.0.15.13
+  kind: app
+  description: scanux-base is an application of unis for scan in linux.
+command:
+- /opt/apps/scanux-base.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

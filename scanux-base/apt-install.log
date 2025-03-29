@@ -1,0 +1,52 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  deepin-app-store-runtime libtiff5
+The following NEW packages will be installed:
+  deepin-app-store-runtime libtiff5 scanux-base
+0 upgraded, 3 newly installed, 0 to remove and 234 not upgraded.
+Need to get 28.8 MB of archives.
+After this operation, 664 kB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main arm64 deepin-app-store-runtime arm64 1.0.2+community [2332 B]
+Get:2 https://community-packages.deepin.com/driver-23 driver/non-free arm64 libtiff5 arm64 4.1.0+git191117-2~deb10u9 [250 kB]
+Get:3 https://community-packages.deepin.com/driver-23 driver/non-free arm64 scanux-base arm64 3.0.15.13 [28.6 MB]
+Fetched 28.8 MB in 2s (13.7 MB/s)
+Selecting previously unselected package deepin-app-store-runtime.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../deepin-app-store-runtime_1.0.2+community_arm64.deb ...
+Unpacking deepin-app-store-runtime (1.0.2+community) ...
+Selecting previously unselected package libtiff5:arm64.
+Preparing to unpack .../libtiff5_4.1.0+git191117-2~deb10u9_arm64.deb ...
+Unpacking libtiff5:arm64 (4.1.0+git191117-2~deb10u9) ...
+Selecting previously unselected package scanux-base.
+Preparing to unpack .../scanux-base_3.0.15.13_arm64.deb ...
+Unpacking scanux-base (3.0.15.13) ...
+Setting up deepin-app-store-runtime (1.0.2+community) ...
+Setting up libtiff5:arm64 (4.1.0+git191117-2~deb10u9) ...
+Setting up scanux-base (3.0.15.13) ...
+/var/lib/dpkg/info/scanux-base.postinst: line 8: sudo: command not found
+/var/lib/dpkg/info/scanux-base.postinst: line 9: sudo: command not found
+/opt/apps/ exist, create scanuxbase dir in it to save tmpfile.
+creat path /opt/apps/unis/.scanux-base/ to save tmp file,owner and grouper is root.
+/var/lib/dpkg/info/scanux-base.postinst: line 54: sudo: command not found
+Checking libusb-0.1
+libusb-0.1 : [ NO ]
+
+Checking libusb-0.1
+libusb-0.1 : [ NO ]
+
+Checking libusb-1.0
+libusb-1.0 : [ YES ]
+
+/usr/bin/udevadm
+/usr/bin/udevadm control --reload
+Running in chroot, ignoring request.
+/usr/bin/udevadm trigger --action=add
+Running in chroot, ignoring request.
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
