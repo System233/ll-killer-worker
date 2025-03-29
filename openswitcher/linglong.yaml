@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: openswitcher.linyaps
+  name: openswitcher
+  version: 0.10.0.1
+  kind: app
+  description: |-
+    Control application for Blackmagic Design ATEM video switchers
+    Open Switcher is a control application for the Blackmagic Design ATEM video
+    switchers. These are normally controlled with the propriatary Windows or Osx
+    application over a network connection. In some cases it's also possible to
+    control these switchers using hardware buttons but that doesn't expose the full
+    functionality of these mixers.
+
+    Switcher Control is a re-implementation that aims to be as close to the
+    supported features of ATEM Software Control as possible. Getting to 100%
+    compatibility would be quite hard since it exposes quite a lot of extra
+    functionalities for specific models of mixers which would be technically
+    difficult to implement or hard to do due to lack of access to the more
+    expensive hardware.
+
+    This is the GTK+3 control application package.
+command:
+- /opt/apps/openswitcher.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
