@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: okular-mobile.linyaps
+  name: okular-mobile
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    mobile support for Okular
+    These plugins allow Okular to view additional document formats for mobile:
+    * Portable Document Format (PDF)
+    * PostScript
+    * Device Independent Format (DVI)
+    * DeJaVu Format
+    * Comic Books
+    * Images (JPEG, PNG, GIF, and many more)
+    * TIFF Image Format
+    * FictionBook Format
+    * Plucker Format
+    * OpenDocument Text Format
+    * Microsofts CHM Format
+    * Microsofts XML Document Format
+
+    This package is part of the KDE graphics module.
+command:
+- /opt/apps/okular-mobile.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
