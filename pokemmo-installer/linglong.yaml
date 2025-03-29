@@ -1,0 +1,35 @@
+version: "1"
+package:
+  id: pokemmo-installer.linyaps
+  name: pokemmo-installer
+  version: 1.4.8.1
+  kind: app
+  description: |-
+    Installer and Launcher for the PokeMMO emulator
+    This program will download and install the PokeMMO client in
+    a user's home directory.
+
+    With the launcher, it will assist in the download, installation
+    and maintenance of the game client.
+
+    PokeMMO client is an online multiplayer emulator created by fans,
+    allowing you to play the saga of pokemon games, where you can interact with
+    other trainers by talking, fighting and swapping the monsters you encounter.
+
+    This emulator has an important requirement where you need to have
+    the ROMs of the games in question available for the game to work,
+    it is absolutely necessary.
+
+    You must obtain the compatible ROMs for the emulator and add to the directory:
+    ($HOME/.local/share/pokemmo/roms)
+    * Current Required Compatible ROMS: Black/White 1 (NDS)
+    * Current Optional Content Compatible ROMS: Fire Red, Emerald (GBA)
+    * Current Optional Visuals Compatible ROMS: HeartGold, SoulSilver (NDS)
+
+    NOTICE: You must have the legal right to use ROMs. This emulator is not
+    provided and has no option to help you find them, as the files are protected
+    by copyright.
+command:
+- /opt/apps/pokemmo-installer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
