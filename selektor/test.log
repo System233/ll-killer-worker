@@ -1,0 +1,38 @@
+正在测试: APPID=selektor.linyaps LAYER=selektor.linyaps_3.13.73.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install selektor.linyaps_3.13.73.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:selektor.linyaps
+Layer文件:selektor.linyaps_3.13.73.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: selektor.linyaps_3.13.73.1_x86_64_binary.layer
+offset: 656
+mountpoint: /tmp/tmp.AUX6gfbSGB/mnt
+dbglevel: 0
+[成功] selektor-autostart.desktop: selektor.linyaps-selektor -> /opt/apps/selektor.linyaps/files/share/icons/hicolor/128x128/apps/selektor.linyaps-selektor.png
+[成功] /opt/apps/selektor.linyaps/files/share/applications/selektor-autostart.desktop: /opt/apps/selektor.linyaps/files/entrypoint.sh /usr/bin/selektor --cleanup --start-delay 5
+[成功] selektor-proxy-reset.desktop: selektor.linyaps-selektor -> /opt/apps/selektor.linyaps/files/share/icons/hicolor/128x128/apps/selektor.linyaps-selektor.png
+[成功] /opt/apps/selektor.linyaps/files/share/applications/selektor-proxy-reset.desktop: /opt/apps/selektor.linyaps/files/entrypoint.sh /usr/bin/selektor --default-proxy
+[成功] selektor.desktop: selektor.linyaps-selektor -> /opt/apps/selektor.linyaps/files/share/icons/hicolor/128x128/apps/selektor.linyaps-selektor.png
+[成功] /opt/apps/selektor.linyaps/files/share/applications/selektor.desktop: /opt/apps/selektor.linyaps/files/entrypoint.sh /usr/bin/selektor
+[正在测试启动项]
+包名:selektor.linyaps
+Layer文件:selektor.linyaps_3.13.73.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: selektor.linyaps_3.13.73.1_x86_64_binary.layer
+offset: 656
+mountpoint: /tmp/tmp.dllzV0GHu9/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run selektor.linyaps -- /opt/apps/selektor.linyaps/files/entrypoint.sh /usr/bin/selektor --cleanup --start-delay 5
+[PID 9564] 进程已启动
+[PID 9564] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run selektor.linyaps -- /opt/apps/selektor.linyaps/files/entrypoint.sh /usr/bin/selektor --default-proxy
+[PID 9689] 进程已启动
+[PID 9689] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run selektor.linyaps -- /opt/apps/selektor.linyaps/files/entrypoint.sh /usr/bin/selektor
+[PID 9814] 进程已启动
+[PID 9814] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall selektor.linyaps

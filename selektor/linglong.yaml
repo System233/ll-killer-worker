@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: selektor.linyaps
+  name: selektor
+  version: 3.13.73.1
+  kind: app
+  description: |-
+    Tor exit node selector and traffic router
+    SelekTOR is a GUI frontend for the network Tor client. Used for security and
+    anonymization purposes or to bypass some firewall. Simplifies the process of
+    selecting Tor exit nodes and manages selective URL pattern based on routing
+    via system proxying.
+command:
+- /opt/apps/selektor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
