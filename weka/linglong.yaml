@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: weka.linyaps
+  name: weka
+  version: 3.6.14.4
+  kind: app
+  description: |-
+    Machine learning algorithms for data mining tasks
+    Weka is a collection of machine learning algorithms in Java that can
+    either be used from the command-line, or called from your own Java
+    code. Weka is also ideally suited for developing new machine learning
+    schemes.
+
+    Implemented schemes cover decision tree inducers, rule learners, model
+    tree generators, support vector machines, locally weighted regression,
+    instance-based learning, bagging, boosting, and stacking. Also included
+    are clustering methods, and an association rule learner. Apart from
+    actual learning schemes, Weka also contains a large variety of tools
+    that can be used for pre-processing datasets.
+
+    This package contains the binaries and examples.
+command:
+- /opt/apps/weka.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
