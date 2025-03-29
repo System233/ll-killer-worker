@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: openboard.linyaps
+  name: openboard
+  version: 1.6.4.1
+  kind: app
+  description: |-
+    Interactive White Board Application
+    OpenBoard is an open source cross-platform interactive white board
+    application designed primarily for use in schools.
+
+    It was originally forked from Open-Sankoré, which was itself based on
+    Uniboard.
+command:
+- /opt/apps/openboard.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
