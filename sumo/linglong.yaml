@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: sumo.linyaps
+  name: sumo
+  version: 1.18.0.3
+  kind: app
+  description: |-
+    Simulation of Urban MObility (SUMO)
+    SUMO is an open source,
+    highly portable, microscopic road traffic simulation package
+    designed to handle large road networks.
+    Main binary.
+command:
+- /opt/apps/sumo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
