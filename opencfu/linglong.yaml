@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: opencfu.linyaps
+  name: opencfu
+  version: 4.0.0.2
+  kind: app
+  description: |-
+    count cell colonies (CFUs) on agar plates by processing digital pictures
+    OpenCFU is a completely open source lightweight application designed to
+    enumerate clustered circular objects such as bacterial colonies. It can
+    handle digital pictures as well as live stream from a video
+    device/webcam. OpenCFU is cross-platform, fast, reliable and allows the
+    user to implement intuitive filters.
+command:
+- /opt/apps/opencfu.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
