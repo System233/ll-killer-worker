@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: plasma-remotecontrollers.linyaps
+  name: plasma-remotecontrollers
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    Remote controller support for the Plasma desktop
+    Translate various input device events into keyboard and pointer events.
+command:
+- /opt/apps/plasma-remotecontrollers.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
