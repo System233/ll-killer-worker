@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: openorienteering-mapper.linyaps
+  name: openorienteering-mapper
+  version: 0.9.5.3
+  kind: app
+  description: |-
+    Orienteering map drawing application
+    OpenOrienteering Mapper is an application to draw maps for forest,
+    sprint, MTB and radio orienteering races. It comes with predefined
+    symbol sets implementing the IOF standards ISOM (1:15000, 1:10000)
+    and ISSOM (1:5000, 1:4000). It is easy to implement additional symbol
+    sets.
+
+    It provides a Free alternative to existing proprietary map drawing
+    applications and supports multiple platforms. It is available for
+    Android, Windows, Mac OS X and Linux.
+
+    While it is under continuous development and considered in beta
+    state, it has been used to produce maps for orienteering races. All
+    required functions for drawing maps are implemented and the program
+    works very stable. So it can be considered ready for productive use,
+    although it is like always a good idea to keep backups of your files.
+command:
+- /opt/apps/openorienteering-mapper.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
