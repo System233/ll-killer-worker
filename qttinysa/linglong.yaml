@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: qttinysa.linyaps
+  name: qttinysa
+  version: 0.10.1.1
+  kind: app
+  description: |-
+    QT Gui for a tiny SA Spectrum Analyser
+    A Python 'TinySA Ultra' (and original 'TinySA') GUI
+    program using Qt5 and PyQt5, which replicates some
+    of the on-screen commands of the TinySA.
+
+    Generator control is not implemented.
+
+    Working features are LNA, selectable Scan Points, Band
+    selection, Averaging, Colour Traces, 3D Plots,
+    exportable graphs.
+command:
+- /opt/apps/qttinysa.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
