@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: pyfai.linyaps
+  name: pyfai
+  version: 2024.2.0.1
+  kind: app
+  description: |-
+    Fast Azimuthal Integration scripts
+    PyFAI is a Python library for azimuthal integration; it allows the conversion
+    of diffraction images taken with 2D detectors like CCD cameras into X-Ray
+    powder patterns that can be used by other software like Rietveld refinement
+    tools (i.e. FullProf), phase analysis or texture analysis.
+
+    As PyFAI is a library, its main goal is to be integrated in other tools like
+    PyMca, LiMa or EDNA. To perform online data analysis, the precise description
+    of the experimental setup has to be known. This is the reason why PyFAI
+    includes geometry optimization code working on "powder rings" of reference
+    samples. Alternatively, PyFAI can also import geometries fitted with other
+    tools like Fit2D.
+
+    PyFAI has been designed to work with any kind of detector with any geometry
+    (transmission, reflection, off-axis, ...). It uses the Python library FabIO
+    to read most images taken by diffractometer.
+command:
+- /opt/apps/pyfai.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
