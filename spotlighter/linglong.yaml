@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: spotlighter.linyaps
+  name: spotlighter
+  version: 0.3.0.1
+  kind: app
+  description: |-
+    gtk interface to make annotations on the screen
+    Spotlighter is a tool that shows a movable and resizable spotlight  on the
+    desktop screen. This is especially useful when making presentations, to
+    highlight point of interest.
+
+    Spotlighter is XInput-Aware, so you can use it with a graphic tablet or a
+    whiteboard.
+
+    This program has been implemented for educational purposes.
+command:
+- /opt/apps/spotlighter.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
