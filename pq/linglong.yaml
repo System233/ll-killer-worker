@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: pq.linyaps
+  name: pq
+  version: 6.2.0.0
+  kind: app
+  description: |-
+    Progress Quest is a "fire and forget" computer role-playing game
+    In Progress Quest you create a fantasy character and watch it advance.
+    You may play alone or contact an online realm for a shared gaming experience.
+command:
+- /opt/apps/pq.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
