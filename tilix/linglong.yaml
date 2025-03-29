@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: tilix.linyaps
+  name: tilix
+  version: 1.9.6.2
+  kind: app
+  description: |-
+    Tiling terminal emulator for GNOME
+    Tilix is a feature-rich tiling terminal emulator following the
+    GNOME human interface design guidelines.
+    Its many features include:
+
+    * Layout terminals in any fashion by splitting them horizontally or
+    vertically.
+    * Terminals can be re-arranged using drag and drop both within and
+    between windows.
+    * Terminals can be detached into a new window via drag and drop.
+    * Input can be synchronized between terminals so commands typed in
+    one terminal are replicated to the others.
+    * Supports notifications when processes are completed out of view.
+command:
+- /opt/apps/tilix.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
