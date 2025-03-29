@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: openlp.linyaps
+  name: openlp
+  version: 3.1.0.1
+  kind: app
+  description: |-
+    Church lyrics projection application
+    OpenLP is free church presentation software, or lyrics projection software,
+    used to display slides of songs, Bible verses, videos, images, and even
+    presentations for church worship using a computer and a data projector.
+command:
+- /opt/apps/openlp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
