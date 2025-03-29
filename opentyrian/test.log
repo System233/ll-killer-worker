@@ -1,0 +1,28 @@
+正在测试: APPID=opentyrian.linyaps LAYER=opentyrian.linyaps_2.1.20221123.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install opentyrian.linyaps_2.1.20221123.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:opentyrian.linyaps
+Layer文件:opentyrian.linyaps_2.1.20221123.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: opentyrian.linyaps_2.1.20221123.1_arm64_binary.layer
+offset: 748
+mountpoint: /tmp/tmp.zLZYP9dD0m/mnt
+dbglevel: 0
+[成功] opentyrian.desktop: opentyrian -> /opt/apps/opentyrian.linyaps/files/share/icons/hicolor/128x128/apps/opentyrian.png
+[成功] /opt/apps/opentyrian.linyaps/files/share/applications/opentyrian.desktop: /opt/apps/opentyrian.linyaps/files/entrypoint.sh opentyrian
+[正在测试启动项]
+包名:opentyrian.linyaps
+Layer文件:opentyrian.linyaps_2.1.20221123.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: opentyrian.linyaps_2.1.20221123.1_arm64_binary.layer
+offset: 748
+mountpoint: /tmp/tmp.EDBFZeLBwx/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run opentyrian.linyaps -- /opt/apps/opentyrian.linyaps/files/entrypoint.sh opentyrian
+[PID 11056] 进程已启动
+[PID 11056] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall opentyrian.linyaps
