@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: needrestart-session.linyaps
+  name: needrestart-session
+  version: 0.3.0.12
+  kind: app
+  description: |-
+    check for processes need to be restarted in user sessions
+    needrestart checks which processes need to be restarted after library upgrades.
+    needrestart-session implements a notification of user sessions about their
+    obsolete processes after system upgrades.
+command:
+- /opt/apps/needrestart-session.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
