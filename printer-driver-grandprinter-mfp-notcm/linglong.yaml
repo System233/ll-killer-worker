@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: printer-driver-grandprinter-mfp-notcm.linyaps
+  name: printer-driver-grandprinter-mfp-notcm
+  version: 1.0.0.22312
+  kind: app
+  description: Grandprinter MFP Linux Driver
+command:
+- /opt/apps/printer-driver-grandprinter-mfp-notcm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
