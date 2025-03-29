@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: setbfree.linyaps
+  name: setbfree
+  version: 0.8.12.2
+  kind: app
+  description: |-
+    DSP tonewheel organ
+    setBfree is a MIDI-controlled, software synthesizer designed to imitate
+    the sound and properties of the electromechanical organs and sound
+    modification devices that brought world-wide fame to the names and
+    products of Laurens Hammond and Don Leslie.
+command:
+- /opt/apps/setbfree.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
