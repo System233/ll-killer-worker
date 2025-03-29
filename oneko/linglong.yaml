@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: oneko.linyaps
+  name: oneko
+  version: 1.2.6.15
+  kind: app
+  description: |-
+    cat chases the cursor (now a mouse) around the screen
+    A cat (neko) chases the cursor (now a mouse) around the screen while
+    you work.  Alternatively, a dog chases a bone. There are menu options
+    for starting and stopping the program easily on cat and dog modes.
+    Other variations and detailed configurations are available through
+    command line options.
+command:
+- /opt/apps/oneko.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
