@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: robocut.linyaps
+  name: robocut
+  version: 1.0.11.1
+  kind: app
+  description: |-
+    Control program for Graphtec cutting plotters
+    Robocut is a simple graphical program to allow you to cut graphics with a
+    Graphtec Craft Robo 2 Vinyl Cutter model CC220-20 and Silhouette SD. It can
+    read SVG files produced by Inkscape, but it should also work with other
+    SVG files.
+command:
+- /opt/apps/robocut.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
