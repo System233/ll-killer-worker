@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: unity-control-center.linyaps
+  name: unity-control-center
+  version: 15.4.0.0
+  kind: app
+  description: |-
+    utilities to configure the GNOME desktop
+    This package contains configuration applets for the GNOME desktop,
+    allowing to set accessibility configuration, desktop fonts, keyboard
+    and mouse properties, sound setup, desktop theme and background, user
+    interface properties, screen resolution, and other GNOME parameters.
+
+    It also contains a front end to these applets, which can also be
+    accessed with the GNOME panel or the Nautilus file manager.
+command:
+- /opt/apps/unity-control-center.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
