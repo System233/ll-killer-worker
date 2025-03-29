@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: pim-data-exporter.linyaps
+  name: pim-data-exporter
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    back up and archive PIM data
+    An application to assist you with backing up and archiving PIM data,
+    including the necessary configuration, for archival or transfer to another
+    computer.
+command:
+- /opt/apps/pim-data-exporter.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
