@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: swayimg.linyaps
+  name: swayimg
+  version: 2.1.0.1
+  kind: app
+  description: |-
+    image viewer for Sway/Wayland
+    The program uses Sway IPC to determine the geometry of the currently focused
+    container. This data is used to calculate the position and size of the new
+    "overlay" window that will be used to draw the image. In the next step, swayimg
+    adds two Sway rules for the self window: "floating enable" and "move position".
+    Then it creates a new Wayland window and draws the image from the specified
+    file.
+command:
+- /opt/apps/swayimg.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

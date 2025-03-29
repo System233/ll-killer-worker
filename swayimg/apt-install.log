@@ -1,0 +1,195 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libabsl20220623t64 libavif16 libdav1d7 libde265-0 libgav1-1 libgif7
+  libglib2.0-0t64 libheif-plugin-aomdec libheif-plugin-aomenc
+  libheif-plugin-libde265 libheif1 libimath-3-1-29t64 libjpeg-turbo8 libjpeg8
+  libopenexr-3-1-30 libpng16-16t64 libyuv0
+Suggested packages:
+  low-memory-monitor libheif-plugin-x265 libheif-plugin-ffmpegdec
+  libheif-plugin-jpegdec libheif-plugin-jpegenc libheif-plugin-j2kdec
+  libheif-plugin-j2kenc libheif-plugin-rav1e libheif-plugin-svtenc
+The following packages will be REMOVED:
+  gir1.2-atk-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0 gir1.2-glib-2.0
+  gir1.2-harfbuzz-0.0 gir1.2-pango-1.0 libglib2.0-0 libglib2.0-bin
+  libjpeg-turbo-progs libpng16-16 libturbojpeg0 xscreensaver-data-extra
+The following NEW packages will be installed:
+  libabsl20220623t64 libavif16 libdav1d7 libde265-0 libgav1-1 libgif7
+  libglib2.0-0t64 libheif-plugin-aomdec libheif-plugin-aomenc
+  libheif-plugin-libde265 libheif1 libimath-3-1-29t64 libjpeg-turbo8 libjpeg8
+  libopenexr-3-1-30 libpng16-16t64 libyuv0 swayimg
+0 upgraded, 18 newly installed, 12 to remove and 449 not upgraded.
+Need to get 5188 kB of archives.
+After this operation, 1176 kB disk space will be freed.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libglib2.0-0t64 amd64 2.80.0-6ubuntu3.2 [1546 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpng16-16t64 amd64 1.6.43-5build1 [187 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libabsl20220623t64 amd64 20220623.1-3.1ubuntu3 [423 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libdav1d7 amd64 1.4.1-1build1 [604 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libgav1-1 amd64 0.18.0-1build3 [357 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-turbo8 amd64 2.1.5-2ubuntu2 [150 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg8 amd64 8c-2ubuntu11 [2148 B]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libyuv0 amd64 0.0~git202401110.af6ac82-1 [178 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libavif16 amd64 1.0.4-1ubuntu3 [91.2 kB]
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libde265-0 amd64 1.0.15-1build3 [166 kB]
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libgif7 amd64 5.2.2-1ubuntu1 [35.2 kB]
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif-plugin-libde265 amd64 1.17.6-1ubuntu4.1 [8176 B]
+Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif1 amd64 1.17.6-1ubuntu4.1 [275 kB]
+Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif-plugin-aomdec amd64 1.17.6-1ubuntu4.1 [10.4 kB]
+Get:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif-plugin-aomenc amd64 1.17.6-1ubuntu4.1 [14.7 kB]
+Get:16 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libimath-3-1-29t64 amd64 3.1.9-3.1ubuntu2 [72.2 kB]
+Get:17 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libopenexr-3-1-30 amd64 3.1.5-5.1build3 [1004 kB]
+Get:18 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 swayimg amd64 2.1-1build2 [62.5 kB]
+Fetched 5188 kB in 0s (15.9 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing gir1.2-atk-1.0:amd64 (2.50.0-1) ...
+Removing gir1.2-pango-1.0:amd64 (1.52.2+ds-1) ...
+Removing gir1.2-harfbuzz-0.0:amd64 (8.0.1-1+rb1) ...
+Removing gir1.2-freedesktop:amd64 (1.80.1-2) ...
+Removing gir1.2-gdkpixbuf-2.0:amd64 (2.42.10+dfsg-3) ...
+Removing gir1.2-glib-2.0:amd64 (2.80.1-1deepin1) ...
+Removing libglib2.0-bin (2.80.1-1deepin1) ...
+Removing xscreensaver-data-extra (6.02+dfsg1-3) ...
+dpkg: libglib2.0-0:amd64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-gl depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-data depends on libglib2.0-0 (>= 2.16.0).
+ shared-mime-info depends on libglib2.0-0 (>= 2.75.3).
+ pulseaudio-module-bluetooth depends on libglib2.0-0 (>= 2.12.0).
+ pulseaudio depends on libglib2.0-0 (>= 2.32.0).
+ libspa-0.2-bluetooth:amd64 depends on libglib2.0-0 (>= 2.38.0).
+ librsvg2-2:amd64 depends on libglib2.0-0 (>= 2.77.3).
+ libpulse-mainloop-glib0:amd64 depends on libglib2.0-0 (>= 2.28.0).
+ libpipewire-0.3-modules:amd64 depends on libglib2.0-0 (>= 2.32.0).
+ libpangoxft-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangoft2-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangocairo-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libpango-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libical3:amd64 depends on libglib2.0-0 (>= 2.42.0).
+ libharfbuzz0b:amd64 depends on libglib2.0-0 (>= 2.32.0).
+ libharfbuzz-gobject0:amd64 depends on libglib2.0-0 (>= 2.14.0).
+ libgtk2.0-0:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ libgtk-3-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libgstreamer1.0-0:amd64 depends on libglib2.0-0 (>= 2.77.0).
+ libgstreamer-plugins-base1.0-0:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ libglibmm-2.4-1v5:amd64 depends on libglib2.0-0 (>= 2.62.0).
+ libgdk-pixbuf-xlib-2.0-0:amd64 depends on libglib2.0-0 (>= 2.48.0).
+ libgdk-pixbuf-2.0-0:amd64 depends on libglib2.0-0 (>= 2.75.0).
+ libfcitx5gclient2:amd64 depends on libglib2.0-0 (>= 2.38.0).
+ libdconf1:amd64 depends on libglib2.0-0 (>= 2.77.0).
+ libcolord2:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ libcloudproviders0:amd64 depends on libglib2.0-0 (>= 2.56.0).
+ libcairo-gobject2:amd64 depends on libglib2.0-0 (>= 2.68.0).
+ libavcodec60:amd64 depends on libglib2.0-0 (>= 2.12.0).
+ libatspi2.0-0:amd64 depends on libglib2.0-0 (>= 2.62).
+ libatk1.0-0:amd64 depends on libglib2.0-0 (>= 2.62).
+ libatk-bridge2.0-0:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ gtk-update-icon-cache depends on libglib2.0-0 (>= 2.57.2).
+ glib-networking-services depends on libglib2.0-0 (>= 2.73.3).
+ glib-networking:amd64 depends on libglib2.0-0 (>= 2.73.3).
+ fcitx5-frontend-gtk3 depends on libglib2.0-0 (>= 2.75.3).
+ fcitx5-frontend-gtk2 depends on libglib2.0-0 (>= 2.75.3).
+ dconf-service depends on libglib2.0-0 (>= 2.77.0).
+ dconf-gsettings-backend:amd64 depends on libglib2.0-0 (>= 2.77.0).
+ bluez-obexd depends on libglib2.0-0 (>= 2.77.0).
+ bluez depends on libglib2.0-0 (>= 2.75.3).
+
+Removing libglib2.0-0:amd64 (2.80.1-1deepin1) ...
+Selecting previously unselected package libglib2.0-0t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27102 files and directories currently installed.)
+Preparing to unpack .../libglib2.0-0t64_2.80.0-6ubuntu3.2_amd64.deb ...
+libglib2.0-0t64.preinst: Removing /var/lib/dpkg/info/libglib2.0-0:amd64.postrm to avoid loss of /usr/share/glib-2.0/schemas/gschemas.compiled...
+removed '/var/lib/dpkg/info/libglib2.0-0:amd64.postrm'
+Unpacking libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27123 files and directories currently installed.)
+Removing libjpeg-turbo-progs (1:2.1.5-2) ...
+dpkg: libpng16-16:amd64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:amd64 depends on libpng16-16 (>= 1.6.2).
+
+Removing libpng16-16:amd64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27090 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_amd64.deb ...
+Unpacking libpng16-16t64:amd64 (1.6.43-5build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27101 files and directories currently installed.)
+Removing libturbojpeg0:amd64 (1:2.1.5-2) ...
+Selecting previously unselected package libabsl20220623t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27094 files and directories currently installed.)
+Preparing to unpack .../00-libabsl20220623t64_20220623.1-3.1ubuntu3_amd64.deb ...
+Unpacking libabsl20220623t64:amd64 (20220623.1-3.1ubuntu3) ...
+Selecting previously unselected package libdav1d7:amd64.
+Preparing to unpack .../01-libdav1d7_1.4.1-1build1_amd64.deb ...
+Unpacking libdav1d7:amd64 (1.4.1-1build1) ...
+Selecting previously unselected package libgav1-1:amd64.
+Preparing to unpack .../02-libgav1-1_0.18.0-1build3_amd64.deb ...
+Unpacking libgav1-1:amd64 (0.18.0-1build3) ...
+Selecting previously unselected package libjpeg-turbo8:amd64.
+Preparing to unpack .../03-libjpeg-turbo8_2.1.5-2ubuntu2_amd64.deb ...
+Unpacking libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Selecting previously unselected package libjpeg8:amd64.
+Preparing to unpack .../04-libjpeg8_8c-2ubuntu11_amd64.deb ...
+Unpacking libjpeg8:amd64 (8c-2ubuntu11) ...
+Selecting previously unselected package libyuv0:amd64.
+Preparing to unpack .../05-libyuv0_0.0~git202401110.af6ac82-1_amd64.deb ...
+Unpacking libyuv0:amd64 (0.0~git202401110.af6ac82-1) ...
+Selecting previously unselected package libavif16:amd64.
+Preparing to unpack .../06-libavif16_1.0.4-1ubuntu3_amd64.deb ...
+Unpacking libavif16:amd64 (1.0.4-1ubuntu3) ...
+Selecting previously unselected package libde265-0:amd64.
+Preparing to unpack .../07-libde265-0_1.0.15-1build3_amd64.deb ...
+Unpacking libde265-0:amd64 (1.0.15-1build3) ...
+Selecting previously unselected package libgif7:amd64.
+Preparing to unpack .../08-libgif7_5.2.2-1ubuntu1_amd64.deb ...
+Unpacking libgif7:amd64 (5.2.2-1ubuntu1) ...
+Selecting previously unselected package libheif-plugin-libde265:amd64.
+Preparing to unpack .../09-libheif-plugin-libde265_1.17.6-1ubuntu4.1_amd64.deb ...
+Unpacking libheif-plugin-libde265:amd64 (1.17.6-1ubuntu4.1) ...
+Selecting previously unselected package libheif1:amd64.
+Preparing to unpack .../10-libheif1_1.17.6-1ubuntu4.1_amd64.deb ...
+Unpacking libheif1:amd64 (1.17.6-1ubuntu4.1) ...
+Selecting previously unselected package libheif-plugin-aomdec:amd64.
+Preparing to unpack .../11-libheif-plugin-aomdec_1.17.6-1ubuntu4.1_amd64.deb ...
+Unpacking libheif-plugin-aomdec:amd64 (1.17.6-1ubuntu4.1) ...
+Selecting previously unselected package libheif-plugin-aomenc:amd64.
+Preparing to unpack .../12-libheif-plugin-aomenc_1.17.6-1ubuntu4.1_amd64.deb ...
+Unpacking libheif-plugin-aomenc:amd64 (1.17.6-1ubuntu4.1) ...
+Selecting previously unselected package libimath-3-1-29t64:amd64.
+Preparing to unpack .../13-libimath-3-1-29t64_3.1.9-3.1ubuntu2_amd64.deb ...
+Unpacking libimath-3-1-29t64:amd64 (3.1.9-3.1ubuntu2) ...
+Selecting previously unselected package libopenexr-3-1-30:amd64.
+Preparing to unpack .../14-libopenexr-3-1-30_3.1.5-5.1build3_amd64.deb ...
+Unpacking libopenexr-3-1-30:amd64 (3.1.5-5.1build3) ...
+Selecting previously unselected package swayimg.
+Preparing to unpack .../15-swayimg_2.1-1build2_amd64.deb ...
+Unpacking swayimg (2.1-1build2) ...
+Setting up libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.2) ...
+Setting up libpng16-16t64:amd64 (1.6.43-5build1) ...
+Setting up libimath-3-1-29t64:amd64 (3.1.9-3.1ubuntu2) ...
+Setting up libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Setting up libgif7:amd64 (5.2.2-1ubuntu1) ...
+Setting up libdav1d7:amd64 (1.4.1-1build1) ...
+Setting up libabsl20220623t64:amd64 (20220623.1-3.1ubuntu3) ...
+Setting up libde265-0:amd64 (1.0.15-1build3) ...
+Setting up libjpeg8:amd64 (8c-2ubuntu11) ...
+Setting up libopenexr-3-1-30:amd64 (3.1.5-5.1build3) ...
+Setting up libgav1-1:amd64 (0.18.0-1build3) ...
+Setting up libyuv0:amd64 (0.0~git202401110.af6ac82-1) ...
+Setting up libavif16:amd64 (1.0.4-1ubuntu3) ...
+Setting up libheif-plugin-aomdec:amd64 (1.17.6-1ubuntu4.1) ...
+Setting up libheif-plugin-libde265:amd64 (1.17.6-1ubuntu4.1) ...
+Setting up libheif1:amd64 (1.17.6-1ubuntu4.1) ...
+Setting up swayimg (2.1-1build2) ...
+Setting up libheif-plugin-aomenc:amd64 (1.17.6-1ubuntu4.1) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
