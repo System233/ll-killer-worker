@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: retroarch.linyaps
+  name: retroarch
+  version: 1.18.0.1
+  kind: app
+  description: |-
+    Simple frontend for the libretro library
+    RetroArch is an open source, multi-platform frontend for the libretro API.
+    It can be used as a modular multi emulator system, game engine, media player
+    and 3D technical demonstration. These features are available through
+    libretro cores.
+
+    It provides four built-in interfaces: Ozone, GLUI, RGUI and XMB.
+command:
+- /opt/apps/retroarch.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
