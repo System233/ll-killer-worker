@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: qjoypad.linyaps
+  name: qjoypad
+  version: 4.3.1.3
+  kind: app
+  description: |-
+    map gamepad/joystick events to mouse/keyboard event
+    QJoyPad takes input from a gamepad or joystick and translates it into
+    key strokes or mouse actions, letting you control any X-Windows program
+    with your game controller.  This lets you play all those games that for
+    some reason don't have joystick support with your joystick.
+command:
+- /opt/apps/qjoypad.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
