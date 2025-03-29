@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: python2.7.linyaps
+  name: python2.7
+  version: 2.7.18.1
+  kind: app
+  description: |-
+    Interactive high-level object-oriented language (version 2.7)
+    Python is a high-level, interactive, object-oriented language. Its 2.7 version
+    includes an extensive class library with lots of goodies for
+    network programming, system administration, sounds and graphics.
+command:
+- /opt/apps/python2.7.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
