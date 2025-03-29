@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: numptyphysics.linyaps
+  name: numptyphysics
+  version: 0.3.10.0
+  kind: app
+  description: |-
+    crayon based physics puzzle game
+    Numpty Physics is a drawing puzzle game in the spirit (and style?) of
+    Crayon Physics using the same excellent Box2D engine. It melds cute
+    schoolbook-style graphics with a kind of realistic physics engine.
+
+    It includes a built-in editor so that you may build (and submit) your
+    own levels.
+command:
+- /opt/apps/numptyphysics.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
