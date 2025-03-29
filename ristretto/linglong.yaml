@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: ristretto.linyaps
+  name: ristretto
+  version: 0.13.1.1
+  kind: app
+  description: |-
+    lightweight picture-viewer for the Xfce desktop environment
+    Ristretto is a fast and lightweight picture-viewer for the Xfce desktop
+    environment.
+command:
+- /opt/apps/ristretto.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
