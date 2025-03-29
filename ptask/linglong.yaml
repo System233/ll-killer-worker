@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ptask.linyaps
+  name: ptask
+  version: 1.0.0.1
+  kind: app
+  description: |-
+    GTK+ graphical user interface for managing tasks
+    ptask is a GTK+ graphical user interface for managing tasks.  It is based on
+    taskwarrior, a well-known and robust command line tasks manager.  Unlike
+    taskwarrior, it is possible to associate a note (long description) to each
+    task.
+command:
+- /opt/apps/ptask.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
