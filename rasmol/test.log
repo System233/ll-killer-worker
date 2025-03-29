@@ -1,0 +1,41 @@
+正在测试: APPID=rasmol.linyaps LAYER=rasmol.linyaps_2.7.6.3_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install rasmol.linyaps_2.7.6.3_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:rasmol.linyaps
+Layer文件:rasmol.linyaps_2.7.6.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: rasmol.linyaps_2.7.6.3_x86_64_binary.layer
+offset: 1405
+mountpoint: /tmp/tmp.Ce5yRXMr3w/mnt
+dbglevel: 0
+[成功] rasmol-classic.desktop: rasmol -> /opt/apps/rasmol.linyaps/files/share/pixmaps/rasmol.png
+[成功] /opt/apps/rasmol.linyaps/files/share/applications/rasmol-classic.desktop: /opt/apps/rasmol.linyaps/files/entrypoint.sh rasmol-classic %F
+[成功] rasmol-gtk.desktop: rasmol -> /opt/apps/rasmol.linyaps/files/share/pixmaps/rasmol.png
+[成功] /opt/apps/rasmol.linyaps/files/share/applications/rasmol-gtk.desktop: /opt/apps/rasmol.linyaps/files/entrypoint.sh rasmol-gtk %F
+[正在测试启动项]
+包名:rasmol.linyaps
+Layer文件:rasmol.linyaps_2.7.6.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: rasmol.linyaps_2.7.6.3_x86_64_binary.layer
+offset: 1405
+mountpoint: /tmp/tmp.A30RAc8VgA/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run rasmol.linyaps -- /opt/apps/rasmol.linyaps/files/entrypoint.sh rasmol-classic
+[PID 8232] 进程已启动
+[PID 8232] 等待超时，未能检测到窗口
+[PID 8232] 正在通知并等待进程退出
+[PID 8232] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run rasmol.linyaps -- /opt/apps/rasmol.linyaps/files/entrypoint.sh rasmol-gtk
+[PID 8667] 进程已启动
+[PID 8667] 已检测到窗口:PID=36
+[PID 8667] 正在截图 0秒: tests/screen1-0.jpg
+[PID 8667] 正在截图 1秒: tests/screen1-1.jpg
+[PID 8667] 正在截图 3秒: tests/screen1-3.jpg
+[PID 8667] 正在截图 5秒: tests/screen1-5.jpg
+[PID 8667] 正在通知并等待进程退出
+[PID 8667] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall rasmol.linyaps
