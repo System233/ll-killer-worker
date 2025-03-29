@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: shelxle.linyaps
+  name: shelxle
+  version: 1.0.1552.1
+  kind: app
+  description: |-
+    graphical user interface for SHELXL
+    ShelXle combines an editor with syntax highlighting for the
+    SHELXL-associated .ins (input) and .res (output) files with an interactive
+    graphical display for visualization of a three-dimensional structure including
+    the electron density (Fo) and difference density (Fo-Fc) maps.
+
+    https://dx.doi.org/10.1107/S0021889811043202
+command:
+- /opt/apps/shelxle.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
