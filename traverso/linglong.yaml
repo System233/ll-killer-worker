@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: traverso.linyaps
+  name: traverso
+  version: 0.49.6.1
+  kind: app
+  description: |-
+    Multitrack audio recorder and editor
+    This is a free, cross platform multitrack audio recording and editing
+    suite, with an innovative and easy to master user interface. It is suited
+    for both the professional and home user, who needs a robust and solid DAW.
+command:
+- /opt/apps/traverso.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
