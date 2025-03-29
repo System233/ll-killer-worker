@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ricochet.linyaps
+  name: ricochet
+  version: 0.10.0.0
+  kind: app
+  description: |-
+    multi-user networked version of the Ricochet Robots game
+    Ricochet Robots is a multi-player board game which involves each user
+    simultaneously solving a geometric challenge. This implementation is
+    a networked version of the game with both client and server programs
+    written in nickle using the nichrome toolkit.
+command:
+- /opt/apps/ricochet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

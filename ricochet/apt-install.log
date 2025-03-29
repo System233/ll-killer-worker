@@ -1,0 +1,74 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  cairo-5c libcairo-5c0 libreadline8t64 nickle readline-common
+Suggested packages:
+  readline-doc
+The following packages will be REMOVED:
+  libreadline8
+The following NEW packages will be installed:
+  cairo-5c libcairo-5c0 libreadline8t64 nickle ricochet
+The following packages will be upgraded:
+  readline-common
+1 upgraded, 5 newly installed, 1 to remove and 452 not upgraded.
+Need to get 2817 kB of archives.
+After this operation, 5182 kB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 readline-common all 8.2-4build1 [56.5 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libreadline8t64 amd64 8.2-4build1 [153 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 nickle amd64 2.97build2 [2473 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libcairo-5c0 amd64 1.21build1 [48.6 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 cairo-5c all 1.21build1 [39.6 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 ricochet all 0.10 [47.1 kB]
+Fetched 2817 kB in 0s (10.0 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../readline-common_8.2-4build1_all.deb ...
+Unpacking readline-common (8.2-4build1) over (8.2-3) ...
+dpkg: libreadline8:amd64: dependency problems, but removing anyway as you requested:
+ sqlite3 depends on libreadline8 (>= 6.0).
+ pipewire-bin depends on libreadline8 (>= 6.0).
+ libpython3.12-stdlib:amd64 depends on libreadline8 (>= 7.0~beta).
+ libpython3.11-stdlib:amd64 depends on libreadline8 (>= 7.0~beta).
+ gpgsm depends on libreadline8 (>= 6.0).
+ gpgconf depends on libreadline8 (>= 6.0).
+ gpg depends on libreadline8 (>= 6.0).
+ gnupg-utils depends on libreadline8 (>= 6.0).
+ gawk depends on libreadline8 (>= 6.0).
+ fdisk depends on libreadline8 (>= 6.0).
+ bluez depends on libreadline8 (>= 6.0).
+ bc depends on libreadline8 (>= 6.0).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27593 files and directories currently installed.)
+Removing libreadline8:amd64 (8.2-3) ...
+Selecting previously unselected package libreadline8t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27580 files and directories currently installed.)
+Preparing to unpack .../libreadline8t64_8.2-4build1_amd64.deb ...
+Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8 to /lib/x86_64-linux-gnu/libhistory.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8.2 to /lib/x86_64-linux-gnu/libhistory.so.8.2.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8 to /lib/x86_64-linux-gnu/libreadline.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8.2 to /lib/x86_64-linux-gnu/libreadline.so.8.2.usr-is-merged by libreadline8t64'
+Unpacking libreadline8t64:amd64 (8.2-4build1) ...
+Selecting previously unselected package nickle.
+Preparing to unpack .../nickle_2.97build2_amd64.deb ...
+Unpacking nickle (2.97build2) ...
+Selecting previously unselected package libcairo-5c0:amd64.
+Preparing to unpack .../libcairo-5c0_1.21build1_amd64.deb ...
+Unpacking libcairo-5c0:amd64 (1.21build1) ...
+Selecting previously unselected package cairo-5c.
+Preparing to unpack .../cairo-5c_1.21build1_all.deb ...
+Unpacking cairo-5c (1.21build1) ...
+Selecting previously unselected package ricochet.
+Preparing to unpack .../archives/ricochet_0.10_all.deb ...
+Unpacking ricochet (0.10) ...
+Setting up libcairo-5c0:amd64 (1.21build1) ...
+Setting up readline-common (8.2-4build1) ...
+Setting up libreadline8t64:amd64 (8.2-4build1) ...
+Setting up nickle (2.97build2) ...
+Setting up cairo-5c (1.21build1) ...
+Setting up ricochet (0.10) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
