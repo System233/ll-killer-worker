@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: shotcut.linyaps
+  name: shotcut
+  version: 24.2.29.1
+  kind: app
+  description: |-
+    video editor
+    This is a video editor with features like 4k resolution support,
+    network stream playback, audio/webcam captures, and many more.
+command:
+- /opt/apps/shotcut.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
