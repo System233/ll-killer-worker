@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: octave.linyaps
+  name: octave
+  version: 8.4.0.1
+  kind: app
+  description: |-
+    GNU Octave language for numerical computations
+    Octave is a (mostly MATLAB® compatible) high-level language, primarily
+    intended for numerical computations. It provides a convenient command-line
+    interface for solving linear and nonlinear problems numerically.
+
+    Octave can be dynamically extended with user-supplied C++ files.
+command:
+- /opt/apps/octave.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
