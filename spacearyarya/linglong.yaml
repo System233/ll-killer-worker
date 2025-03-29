@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: spacearyarya.linyaps
+  name: spacearyarya
+  version: 1.0.2.8
+  kind: app
+  description: |-
+    third person shooter in pseudo-3D
+    Space Aryarya is a third person shoot'em-up similar to classic arcade games
+    such as Afterburner or Star Fox, where you control a jetpack-carrying fighter
+    and need to destroy all baddies.
+command:
+- /opt/apps/spacearyarya.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
