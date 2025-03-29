@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: revolt.linyaps
+  name: revolt
+  version: 0.0.7.2
+  kind: app
+  description: |-
+    better desktop integration for Element
+    Revolt is a small application which wraps the Element webapp to provide better
+    integration with desktop environments in general, and GNOME in particular:
+
+    * Having Element as a "standalone" application with its own window, launcher,
+    icon, etc. instead of it living in a browser tab.
+    * Persistent notifications (for desktop environments supporting them, i.e.
+    GNOME). Notifications are automatically prevented when the Revolt window
+    is focused.
+    * Status icon for desktop environment which have a tray bar applet (XFCE,
+    Budgie, likely many others).
+
+    Element is a chat client for Matrix, an open, federated communications
+    protocol.
+command:
+- /opt/apps/revolt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
