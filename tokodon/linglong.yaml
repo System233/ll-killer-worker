@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: tokodon.linyaps
+  name: tokodon
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    modern Mastodon client
+    Tokodon is a modern client for Mastodon, Pleroma, and Nextcloud Social, built
+    using the Kirigami technology.
+
+    Tokodon allows you to interact with the Fediverse community.
+command:
+- /opt/apps/tokodon.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
