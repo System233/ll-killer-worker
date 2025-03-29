@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: qjackrcd.linyaps
+  name: qjackrcd
+  version: 1.2.0.2
+  kind: app
+  description: |-
+    Qt4 application to record JACK server outputs
+    QJackRcd is a simple stereo recorder for Jack with few features as
+    silence processing for automatic pause, file splitting, background
+    file post-processing. It can be used with QJackCtl.
+
+    Features:
+    * QT simple GUI with disk usage and vumeter.
+    * Jack support for recording, jack transport support.
+    * Silence compressing with auto pause and optional file splitting.
+    * Background WAV post processing for format conversion and signal
+    processing.
+    * Automatic connection with first launched jack source facility.
+command:
+- /opt/apps/qjackrcd.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

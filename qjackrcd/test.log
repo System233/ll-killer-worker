@@ -1,0 +1,28 @@
+正在测试: APPID=qjackrcd.linyaps LAYER=qjackrcd.linyaps_1.2.0.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install qjackrcd.linyaps_1.2.0.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:qjackrcd.linyaps
+Layer文件:qjackrcd.linyaps_1.2.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: qjackrcd.linyaps_1.2.0.2_arm64_binary.layer
+offset: 918
+mountpoint: /tmp/tmp.liQIsXXuDt/mnt
+dbglevel: 0
+[成功] qjackrcd.desktop: qjackrcd -> /opt/apps/qjackrcd.linyaps/files/share/pixmaps/qjackrcd.png
+[成功] /opt/apps/qjackrcd.linyaps/files/share/applications/qjackrcd.desktop: /opt/apps/qjackrcd.linyaps/files/entrypoint.sh qjackrcd
+[正在测试启动项]
+包名:qjackrcd.linyaps
+Layer文件:qjackrcd.linyaps_1.2.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: qjackrcd.linyaps_1.2.0.2_arm64_binary.layer
+offset: 918
+mountpoint: /tmp/tmp.3KpkLbuOUJ/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run qjackrcd.linyaps -- /opt/apps/qjackrcd.linyaps/files/entrypoint.sh qjackrcd
+[PID 12557] 进程已启动
+[PID 12557] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall qjackrcd.linyaps
