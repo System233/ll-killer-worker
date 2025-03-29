@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: qmidiroute.linyaps
+  name: qmidiroute
+  version: 0.4.0.2
+  kind: app
+  description: |-
+    MIDI event router and filter
+    MIDI note, control change,program change and pitch bend events
+    are logged, and can be filtered, redirected and transformed
+    into other events according to MIDI maps defined as tabs
+    in the main control surface.
+
+    You can copy midi MAPS into new tabs using the 'Clone MIDI map' button.
+    All MIDI maps can be saved in a .qma text file.
+command:
+- /opt/apps/qmidiroute.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
