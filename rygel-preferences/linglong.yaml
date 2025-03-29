@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: rygel-preferences.linyaps
+  name: rygel-preferences
+  version: 0.42.5.1
+  kind: app
+  description: |-
+    GNOME UPnP/DLNA services - preferences tool
+    Rygel is a home media solution that allows you to easily share audio, video
+    and pictures, and control of media player on your home network. In technical
+    terms it is both a UPnP AV MediaServer and MediaRenderer implemented through
+    a plug-in mechanism. Interoperability with other devices in the market is
+    achieved by conformance to very strict requirements of DLNA and on the fly
+    conversion of media to format that client devices are capable of handling.
+
+    This package provides a graphical tool to configure Rygel and set
+    custom preferences. Normally you'd configure your sharing preferences
+    with GNOME Control Center and not need this tool.
+command:
+- /opt/apps/rygel-preferences.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
