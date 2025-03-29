@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: python3-opensnitch-ui.linyaps
+  name: python3-opensnitch-ui
+  version: 1.5.8.1
+  kind: app
+  description: |-
+    GNU/Linux interactive application firewall GUI
+    opensnitch-ui is a GUI for opensnitch written in Python.
+    It allows the user to view live outgoing connections, as well as search
+    for details of the intercepted connections.
+
+    The user can decide if block outgoing connections based on properties of
+    the connection: by port, by uid, by dst ip, by program or a combination
+    of them.
+
+    These rules can last forever, until restart the daemon or just one time.
+
+    OpenSnitch can also work as a system-wide domains blocker, by using lists
+    of domains, list of IPs or list of regular expressions.
+command:
+- /opt/apps/python3-opensnitch-ui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

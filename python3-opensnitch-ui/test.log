@@ -1,0 +1,28 @@
+正在测试: APPID=python3-opensnitch-ui.linyaps LAYER=python3-opensnitch-ui.linyaps_1.5.8.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install python3-opensnitch-ui.linyaps_1.5.8.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:python3-opensnitch-ui.linyaps
+Layer文件:python3-opensnitch-ui.linyaps_1.5.8.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: python3-opensnitch-ui.linyaps_1.5.8.1_arm64_binary.layer
+offset: 986
+mountpoint: /tmp/tmp.1kdVNWk2g2/mnt
+dbglevel: 0
+[成功] opensnitch_ui.desktop: opensnitch-ui -> /opt/apps/python3-opensnitch-ui.linyaps/files/share/icons/hicolor/48x48/apps/opensnitch-ui.png
+[成功] /opt/apps/python3-opensnitch-ui.linyaps/files/share/applications/opensnitch_ui.desktop: /opt/apps/python3-opensnitch-ui.linyaps/files/entrypoint.sh /bin/sh -c "pkill -15 opensnitch-ui; opensnitch-ui"
+[正在测试启动项]
+包名:python3-opensnitch-ui.linyaps
+Layer文件:python3-opensnitch-ui.linyaps_1.5.8.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: python3-opensnitch-ui.linyaps_1.5.8.1_arm64_binary.layer
+offset: 986
+mountpoint: /tmp/tmp.F5UUtsUNTw/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run python3-opensnitch-ui.linyaps -- /opt/apps/python3-opensnitch-ui.linyaps/files/entrypoint.sh /bin/sh -c "pkill -15 opensnitch-ui; opensnitch-ui"
+[PID 13212] 进程已启动
+[PID 13212] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall python3-opensnitch-ui.linyaps
