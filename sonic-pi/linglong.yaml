@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: sonic-pi.linyaps
+  name: sonic-pi
+  version: 3.2.2.8
+  kind: app
+  description: |-
+    Live Coding for Everyone
+    A free live coding synth for everyone. Originally designed to support
+    computing and music lessons within schools. Use code to compose and
+    perform in classical and contemporary styles ranging from Canons to
+    Dubstep.
+command:
+- /opt/apps/sonic-pi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
