@@ -1,0 +1,28 @@
+正在测试: APPID=plm.linyaps LAYER=plm.linyaps_2.9.2.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install plm.linyaps_2.9.2.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:plm.linyaps
+Layer文件:plm.linyaps_2.9.2.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: plm.linyaps_2.9.2.1_x86_64_binary.layer
+offset: 1609
+mountpoint: /tmp/tmp.4qrfN2SqNV/mnt
+dbglevel: 0
+[成功] plm.desktop: plm.linyaps-plm -> /opt/apps/plm.linyaps/files/share/icons/hicolor/16x16/apps/plm.linyaps-plm.png
+[成功] /opt/apps/plm.linyaps/files/share/applications/plm.desktop: /opt/apps/plm.linyaps/files/entrypoint.sh plm %U
+[正在测试启动项]
+包名:plm.linyaps
+Layer文件:plm.linyaps_2.9.2.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: plm.linyaps_2.9.2.1_x86_64_binary.layer
+offset: 1609
+mountpoint: /tmp/tmp.UfC4odhdHK/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run plm.linyaps -- /opt/apps/plm.linyaps/files/entrypoint.sh plm
+[PID 16644] 进程已启动
+[PID 16644] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall plm.linyaps
