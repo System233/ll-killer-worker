@@ -1,0 +1,35 @@
+version: "1"
+package:
+  id: rofi.linyaps
+  name: rofi
+  version: 1.7.5.0
+  kind: app
+  description: |-
+    window switcher, run dialog and dmenu replacement
+    rofi can act as an application launcher, window switcher, ssh launcher and
+    dmenu replacement.
+
+    Included features:
+    * Full (configurable) keyboard navigation
+    * Type to filter
+    + Tokenized: Type any word in any order to filter
+    + Case insensitive
+    * UTF-8 enabled
+    + UTF-8 aware string collating
+    + intl. keyboard support (`e -> è)
+    * Pango font rendering
+    * RTL language support
+    * Window Switcher
+    + I3 support (requires i3-wm to be installed)
+    + EWMH compatible WM
+    * Run dialog
+    * Desktop File Run dialog
+    * SSH launcher
+    * History based ordering based on use. (optional)
+    * Levenshtein distance ordering of matches. (optional)
+    * Drop in dmenu replacement (with many added improvements).
+    * Can be easily extended using scripts.
+command:
+- /opt/apps/rofi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

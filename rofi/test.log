@@ -1,0 +1,45 @@
+正在测试: APPID=rofi.linyaps LAYER=rofi.linyaps_1.7.5.0_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install rofi.linyaps_1.7.5.0_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:rofi.linyaps
+Layer文件:rofi.linyaps_1.7.5.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: rofi.linyaps_1.7.5.0_x86_64_binary.layer
+offset: 1137
+mountpoint: /tmp/tmp.vubLHEnuzP/mnt
+dbglevel: 0
+[成功] rofi-theme-selector.desktop: rofi -> /opt/apps/rofi.linyaps/files/share/icons/hicolor/apps/rofi.svg
+[成功] /opt/apps/rofi.linyaps/files/share/applications/rofi-theme-selector.desktop: /opt/apps/rofi.linyaps/files/entrypoint.sh rofi-theme-selector
+[成功] rofi.desktop: rofi -> /opt/apps/rofi.linyaps/files/share/icons/hicolor/apps/rofi.svg
+[成功] /opt/apps/rofi.linyaps/files/share/applications/rofi.desktop: /opt/apps/rofi.linyaps/files/entrypoint.sh rofi -show
+[正在测试启动项]
+包名:rofi.linyaps
+Layer文件:rofi.linyaps_1.7.5.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: rofi.linyaps_1.7.5.0_x86_64_binary.layer
+offset: 1137
+mountpoint: /tmp/tmp.CpDSJtYHI9/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run rofi.linyaps -- /opt/apps/rofi.linyaps/files/entrypoint.sh rofi-theme-selector
+[PID 5537] 进程已启动
+[PID 5537] 已检测到窗口:PID=165
+[PID 5537] 正在截图 0秒: tests/screen0-0.jpg
+[PID 5537] 正在截图 1秒: tests/screen0-1.jpg
+[PID 5537] 正在截图 3秒: tests/screen0-3.jpg
+[PID 5537] 正在截图 5秒: tests/screen0-5.jpg
+[PID 5537] 正在通知并等待进程退出
+[PID 5537] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run rofi.linyaps -- /opt/apps/rofi.linyaps/files/entrypoint.sh rofi -show
+[PID 5839] 进程已启动
+[PID 5839] 已检测到窗口:PID=39
+[PID 5839] 正在截图 0秒: tests/screen1-0.jpg
+[PID 5839] 正在截图 1秒: tests/screen1-1.jpg
+[PID 5839] 正在截图 3秒: tests/screen1-3.jpg
+[PID 5839] 正在截图 5秒: tests/screen1-5.jpg
+[PID 5839] 正在通知并等待进程退出
+[PID 5839] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall rofi.linyaps
