@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: qgo.linyaps
+  name: qgo
+  version: 2.1.0.1
+  kind: app
+  description: |-
+    Go client and full featured SGF editor
+    qGo is a computerized board on which you can play the game of Go
+    against another player, view and edit smart-go files, and connect to
+    Go servers on the internet. It can also interface with computer Go
+    programs such as GNU Go that speak the Go modem protocol. Have a look
+    at the cgoban package if you are interested in a Go client with less
+    package dependencies.
+
+    See description of the gnugo package for a short description of the
+    game.
+command:
+- /opt/apps/qgo.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
