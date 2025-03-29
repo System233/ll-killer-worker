@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: neurodebian-desktop.linyaps
+  name: neurodebian-desktop
+  version: 0.42.1.0
+  kind: app
+  description: |-
+    neuroscience-oriented distribution - desktop integration
+    The NeuroDebian project integrates and maintains a variety of software
+    projects within Debian that are useful for neuroscience (such as AFNI,
+    FSL, PsychoPy, etc.) or generic computation (such as HTCondor,
+    pandas, etc.).
+
+    This package provides NeuroDebian artwork (icons, background image)
+    and a NeuroDebian menu featuring the most popular neuroscience tools,
+    which will be automatically installed upon initial invocation.
+command:
+- /opt/apps/neurodebian-desktop.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
