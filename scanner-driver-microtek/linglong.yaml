@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: scanner-driver-microtek.linyaps
+  name: scanner-driver-microtek
+  version: 2.1.2.0
+  kind: app
+  description: |-
+    Microtek Scanner;
+    中晶扫描应用软件
+command:
+- /opt/apps/scanner-driver-microtek.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
