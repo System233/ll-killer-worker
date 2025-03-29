@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: opendrop.linyaps
+  name: opendrop
+  version: 3.3.1.6
+  kind: app
+  description: |-
+    fully-featured pendant drop tensiometry software
+    OpenDrop is a fully-featured pendant drop tensiometry software,
+    allowing acquisition, analysis and fitting of pendant drop profiles
+    to obtain surface and interfacial tension. OpenDrop also includes
+    functionality for measuring sessile drop contact angles.
+command:
+- /opt/apps/opendrop.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
