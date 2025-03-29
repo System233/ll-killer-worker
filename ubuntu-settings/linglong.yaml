@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: ubuntu-settings.linyaps
+  name: ubuntu-settings
+  version: 24.4.5.0
+  kind: app
+  description: |-
+    default settings for the Ubuntu desktop
+    This package contains the default settings used by Ubuntu.
+command:
+- /opt/apps/ubuntu-settings.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
