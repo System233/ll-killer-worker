@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: obconf.linyaps
+  name: obconf
+  version: 2.0.4.3
+  kind: app
+  description: |-
+    preferences manager for Openbox window manager
+    ObConf is a small graphical utility which configures the window manager
+    Openbox' preferences and configuration settings on the fly.
+
+    If you are an Openbox user, you may want this package.
+command:
+- /opt/apps/obconf.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
