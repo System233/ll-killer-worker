@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: peek.linyaps
+  name: peek
+  version: 1.5.1.1
+  kind: app
+  description: |-
+    Simple animated GIF screen recorder with GUI
+    Peek is a simple screen recorder. It is optimized for generating
+    animated GIFs but you can also directly record to WebM or MP4
+    if you prefer.
+command:
+- /opt/apps/peek.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
