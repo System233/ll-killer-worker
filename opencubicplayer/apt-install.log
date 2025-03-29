@@ -1,0 +1,155 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  freepats libancient2 libasound2-data libasound2t64 libcjson1 libdiscid0
+  libflac12t64 libgme0 libjpeg-turbo8 libjpeg8 libmad0 libpng16-16t64
+  libsdl2-2.0-0 libvorbis0a libvorbisenc2 libvorbisfile3 libxss1
+  opencubicplayer-doc
+Suggested packages:
+  alsa-utils xdg-utils
+Recommended packages:
+  alsa-ucm-conf alsa-topology-conf
+The following packages will be REMOVED:
+  libasound2 libjpeg-turbo-progs libpng16-16 libturbojpeg0
+  xscreensaver-data-extra
+The following NEW packages will be installed:
+  freepats libancient2 libasound2t64 libcjson1 libdiscid0 libflac12t64 libgme0
+  libjpeg-turbo8 libjpeg8 libmad0 libpng16-16t64 libsdl2-2.0-0 libvorbisfile3
+  libxss1 opencubicplayer opencubicplayer-doc
+The following packages will be upgraded:
+  libasound2-data libvorbis0a libvorbisenc2
+3 upgraded, 16 newly installed, 5 to remove and 449 not upgraded.
+Need to get 31.7 MB of archives.
+After this operation, 31.9 MB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libasound2-data all 1.2.11-1build2 [21.0 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libasound2t64 amd64 1.2.11-1build2 [399 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpng16-16t64 amd64 1.6.43-5build1 [187 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 freepats all 20060219-4 [27.9 MB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libancient2 amd64 2.1.0+ds-1build1 [152 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libcjson1 amd64 1.7.17-1 [24.8 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libdiscid0 amd64 0.6.4-2build1 [13.9 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libflac12t64 amd64 1.4.3+ds-2.1ubuntu2 [197 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libgme0 amd64 0.6.3-7build1 [134 kB]
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-turbo8 amd64 2.1.5-2ubuntu2 [150 kB]
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg8 amd64 8c-2ubuntu11 [2148 B]
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libmad0 amd64 0.15.1b-10.2ubuntu1 [65.5 kB]
+Get:13 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxss1 amd64 1:1.2.3-1build3 [7204 B]
+Get:14 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsdl2-2.0-0 amd64 2.30.0+dfsg-1build3 [685 kB]
+Get:15 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libvorbisenc2 amd64 1.3.7-1build3 [80.8 kB]
+Get:16 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libvorbis0a amd64 1.3.7-1build3 [97.6 kB]
+Get:17 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libvorbisfile3 amd64 1.3.7-1build3 [17.1 kB]
+Get:18 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 opencubicplayer amd64 1:0.2.107+ds-1build3 [1532 kB]
+Get:19 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 opencubicplayer-doc all 1:0.2.107+ds-1build3 [3914 B]
+Fetched 31.7 MB in 2s (17.8 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libasound2-data_1.2.11-1build2_all.deb ...
+Unpacking libasound2-data (1.2.11-1build2) over (1.2.8-1) ...
+dpkg: libasound2:amd64: dependency problems, but removing anyway as you requested:
+ pulseaudio depends on libasound2 (>= 1.2.1.1).
+ pipewire-bin depends on libasound2 (>= 1.2.1.1).
+ libspa-0.2-modules:amd64 depends on libasound2 (>= 1.2.1.1).
+ libasound2-plugins:amd64 depends on libasound2 (>= 1.2.5).
+ bluez depends on libasound2 (>= 1.0.17).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing libasound2:amd64 (1.2.8-1) ...
+Selecting previously unselected package libasound2t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27587 files and directories currently installed.)
+Preparing to unpack .../libasound2t64_1.2.11-1build2_amd64.deb ...
+Unpacking libasound2t64:amd64 (1.2.11-1build2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27595 files and directories currently installed.)
+Removing xscreensaver-data-extra (6.02+dfsg1-3) ...
+Removing libjpeg-turbo-progs (1:2.1.5-2) ...
+dpkg: libpng16-16:amd64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:amd64 depends on libpng16-16 (>= 1.6.2).
+
+Removing libpng16-16:amd64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27162 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_amd64.deb ...
+Unpacking libpng16-16t64:amd64 (1.6.43-5build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27173 files and directories currently installed.)
+Removing libturbojpeg0:amd64 (1:2.1.5-2) ...
+Selecting previously unselected package freepats.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27166 files and directories currently installed.)
+Preparing to unpack .../00-freepats_20060219-4_all.deb ...
+Unpacking freepats (20060219-4) ...
+Selecting previously unselected package libancient2.
+Preparing to unpack .../01-libancient2_2.1.0+ds-1build1_amd64.deb ...
+Unpacking libancient2 (2.1.0+ds-1build1) ...
+Selecting previously unselected package libcjson1:amd64.
+Preparing to unpack .../02-libcjson1_1.7.17-1_amd64.deb ...
+Unpacking libcjson1:amd64 (1.7.17-1) ...
+Selecting previously unselected package libdiscid0:amd64.
+Preparing to unpack .../03-libdiscid0_0.6.4-2build1_amd64.deb ...
+Unpacking libdiscid0:amd64 (0.6.4-2build1) ...
+Selecting previously unselected package libflac12t64:amd64.
+Preparing to unpack .../04-libflac12t64_1.4.3+ds-2.1ubuntu2_amd64.deb ...
+Unpacking libflac12t64:amd64 (1.4.3+ds-2.1ubuntu2) ...
+Selecting previously unselected package libgme0:amd64.
+Preparing to unpack .../05-libgme0_0.6.3-7build1_amd64.deb ...
+Unpacking libgme0:amd64 (0.6.3-7build1) ...
+Selecting previously unselected package libjpeg-turbo8:amd64.
+Preparing to unpack .../06-libjpeg-turbo8_2.1.5-2ubuntu2_amd64.deb ...
+Unpacking libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Selecting previously unselected package libjpeg8:amd64.
+Preparing to unpack .../07-libjpeg8_8c-2ubuntu11_amd64.deb ...
+Unpacking libjpeg8:amd64 (8c-2ubuntu11) ...
+Selecting previously unselected package libmad0:amd64.
+Preparing to unpack .../08-libmad0_0.15.1b-10.2ubuntu1_amd64.deb ...
+Unpacking libmad0:amd64 (0.15.1b-10.2ubuntu1) ...
+Selecting previously unselected package libxss1:amd64.
+Preparing to unpack .../09-libxss1_1%3a1.2.3-1build3_amd64.deb ...
+Unpacking libxss1:amd64 (1:1.2.3-1build3) ...
+Selecting previously unselected package libsdl2-2.0-0:amd64.
+Preparing to unpack .../10-libsdl2-2.0-0_2.30.0+dfsg-1build3_amd64.deb ...
+Unpacking libsdl2-2.0-0:amd64 (2.30.0+dfsg-1build3) ...
+Preparing to unpack .../11-libvorbisenc2_1.3.7-1build3_amd64.deb ...
+Unpacking libvorbisenc2:amd64 (1.3.7-1build3) over (1.3.7-1) ...
+Preparing to unpack .../12-libvorbis0a_1.3.7-1build3_amd64.deb ...
+Unpacking libvorbis0a:amd64 (1.3.7-1build3) over (1.3.7-1) ...
+Selecting previously unselected package libvorbisfile3:amd64.
+Preparing to unpack .../13-libvorbisfile3_1.3.7-1build3_amd64.deb ...
+Unpacking libvorbisfile3:amd64 (1.3.7-1build3) ...
+Selecting previously unselected package opencubicplayer.
+Preparing to unpack .../14-opencubicplayer_1%3a0.2.107+ds-1build3_amd64.deb ...
+Unpacking opencubicplayer (1:0.2.107+ds-1build3) ...
+Selecting previously unselected package opencubicplayer-doc.
+Preparing to unpack .../15-opencubicplayer-doc_1%3a0.2.107+ds-1build3_all.deb ...
+Unpacking opencubicplayer-doc (1:0.2.107+ds-1build3) ...
+Setting up libgme0:amd64 (0.6.3-7build1) ...
+Setting up freepats (20060219-4) ...
+
+Configuration file '/etc/timidity/freepats.cfg', does not exist on system.
+Installing new config file as you requested.
+Setting up opencubicplayer-doc (1:0.2.107+ds-1build3) ...
+Setting up libcjson1:amd64 (1.7.17-1) ...
+Setting up libasound2-data (1.2.11-1build2) ...
+Setting up libasound2t64:amd64 (1.2.11-1build2) ...
+Setting up libdiscid0:amd64 (0.6.4-2build1) ...
+Setting up libpng16-16t64:amd64 (1.6.43-5build1) ...
+Setting up libvorbis0a:amd64 (1.3.7-1build3) ...
+Setting up libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Setting up libmad0:amd64 (0.15.1b-10.2ubuntu1) ...
+Setting up libflac12t64:amd64 (1.4.3+ds-2.1ubuntu2) ...
+Setting up libxss1:amd64 (1:1.2.3-1build3) ...
+Setting up libsdl2-2.0-0:amd64 (2.30.0+dfsg-1build3) ...
+Setting up libancient2 (2.1.0+ds-1build1) ...
+Setting up libvorbisenc2:amd64 (1.3.7-1build3) ...
+Setting up libjpeg8:amd64 (8c-2ubuntu11) ...
+Setting up libvorbisfile3:amd64 (1.3.7-1build3) ...
+Setting up opencubicplayer (1:0.2.107+ds-1build3) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
