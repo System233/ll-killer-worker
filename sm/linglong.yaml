@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: sm.linyaps
+  name: sm
+  version: 0.26.0.3
+  kind: app
+  description: |-
+    Displays a short text fullscreen
+    Screen Message will display a given multi-line message as large as
+    possible, fullscreen and black on white. You can specify the text either
+    when launching sm, or edit it while the program is running.
+
+    It is useful to send messages across a room, e.g. during an university
+    lecture. For fast startup, it is recommended to bind it to a key in your
+    Desktop Environment.
+command:
+- /opt/apps/sm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
