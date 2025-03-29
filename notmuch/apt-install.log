@@ -1,0 +1,159 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  dh-elpa-helper elpa-notmuch libc-bin libc-dev-bin libc6 libc6-dev
+  libglib2.0-0t64 libgmime-3.0-0t64 libgpgme11t64 libnotmuch5t64 libsexp2
+  libtalloc2 libxapian30 locales
+Suggested packages:
+  elpa-mailscripts manpages glibc-doc libnss-nis libnss-nisplus manpages-dev
+  low-memory-monitor xapian-tools mailscripts notmuch-doc
+Recommended packages:
+  manpages manpages-dev libc-devtools
+The following packages will be REMOVED:
+  gir1.2-atk-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0 gir1.2-glib-2.0
+  gir1.2-harfbuzz-0.0 gir1.2-pango-1.0 libglib2.0-0 libglib2.0-bin
+The following NEW packages will be installed:
+  dh-elpa-helper elpa-notmuch libglib2.0-0t64 libgmime-3.0-0t64 libgpgme11t64
+  libnotmuch5t64 libsexp2 libtalloc2 libxapian30 notmuch
+The following packages will be upgraded:
+  libc-bin libc-dev-bin libc6 libc6-dev locales
+5 upgraded, 10 newly installed, 8 to remove and 443 not upgraded.
+Need to get 12.3 MB of archives.
+After this operation, 2232 kB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libc-dev-bin arm64 2.39-0ubuntu8.4 [19.7 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libc6-dev arm64 2.39-0ubuntu8.4 [1595 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 locales all 2.39-0ubuntu8.4 [4229 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libc6 arm64 2.39-0ubuntu8.4 [2775 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libc-bin arm64 2.39-0ubuntu8.4 [591 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libglib2.0-0t64 arm64 2.80.0-6ubuntu3.2 [1531 kB]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 dh-elpa-helper all 2.0.17ubuntu1 [8948 B]
+Get:8 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 elpa-notmuch all 0.38.3-1ubuntu2 [188 kB]
+Get:9 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libgpgme11t64 arm64 1.18.0-4.1ubuntu4 [136 kB]
+Get:10 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libgmime-3.0-0t64 arm64 3.2.13+dfsg-2.1build2 [172 kB]
+Get:11 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libsexp2 arm64 1.4.1-2 [22.1 kB]
+Get:12 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libtalloc2 arm64 2.4.2-1build2 [26.7 kB]
+Get:13 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libxapian30 arm64 1.4.22-1build1 [680 kB]
+Get:14 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libnotmuch5t64 arm64 0.38.3-1ubuntu2 [109 kB]
+Get:15 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 notmuch arm64 0.38.3-1ubuntu2 [181 kB]
+Fetched 12.3 MB in 3s (4255 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libc-dev-bin_2.39-0ubuntu8.4_arm64.deb ...
+Unpacking libc-dev-bin (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Preparing to unpack .../libc6-dev_2.39-0ubuntu8.4_arm64.deb ...
+Unpacking libc6-dev:arm64 (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Preparing to unpack .../locales_2.39-0ubuntu8.4_all.deb ...
+Unpacking locales (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Preparing to unpack .../libc6_2.39-0ubuntu8.4_arm64.deb ...
+Unpacking libc6:arm64 (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Setting up libc6:arm64 (2.39-0ubuntu8.4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27754 files and directories currently installed.)
+Preparing to unpack .../libc-bin_2.39-0ubuntu8.4_arm64.deb ...
+Unpacking libc-bin (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Setting up libc-bin (2.39-0ubuntu8.4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27754 files and directories currently installed.)
+Removing gir1.2-atk-1.0:arm64 (2.50.0-1) ...
+Removing gir1.2-pango-1.0:arm64 (1.52.2+ds-1) ...
+Removing gir1.2-harfbuzz-0.0:arm64 (8.0.1-1+rb1) ...
+Removing gir1.2-freedesktop:arm64 (1.80.1-2) ...
+Removing gir1.2-gdkpixbuf-2.0:arm64 (2.42.10+dfsg-3) ...
+Removing gir1.2-glib-2.0:arm64 (2.80.1-1deepin1) ...
+Removing libglib2.0-bin (2.80.1-1deepin1) ...
+dpkg: libglib2.0-0:arm64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-gl depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-data-extra depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-data depends on libglib2.0-0 (>= 2.16.0).
+ shared-mime-info depends on libglib2.0-0 (>= 2.75.3).
+ pulseaudio-module-bluetooth depends on libglib2.0-0 (>= 2.12.0).
+ pulseaudio depends on libglib2.0-0 (>= 2.32.0).
+ libspa-0.2-bluetooth:arm64 depends on libglib2.0-0 (>= 2.38.0).
+ librsvg2-2:arm64 depends on libglib2.0-0 (>= 2.77.3).
+ libpulse-mainloop-glib0:arm64 depends on libglib2.0-0 (>= 2.28.0).
+ libpipewire-0.3-modules:arm64 depends on libglib2.0-0 (>= 2.32.0).
+ libpangoxft-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangoft2-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangocairo-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libpango-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libical3:arm64 depends on libglib2.0-0 (>= 2.42.0).
+ libharfbuzz0b:arm64 depends on libglib2.0-0 (>= 2.32.0).
+ libharfbuzz-gobject0:arm64 depends on libglib2.0-0 (>= 2.14.0).
+ libgtk2.0-0:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ libgtk-3-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libgstreamer1.0-0:arm64 depends on libglib2.0-0 (>= 2.77.0).
+ libgstreamer-plugins-base1.0-0:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ libglibmm-2.4-1v5:arm64 depends on libglib2.0-0 (>= 2.62.0).
+ libgdk-pixbuf-xlib-2.0-0:arm64 depends on libglib2.0-0 (>= 2.48.0).
+ libgdk-pixbuf-2.0-0:arm64 depends on libglib2.0-0 (>= 2.75.0).
+ libfcitx5gclient2:arm64 depends on libglib2.0-0 (>= 2.38.0).
+ libdconf1:arm64 depends on libglib2.0-0 (>= 2.77.0).
+ libcolord2:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ libcloudproviders0:arm64 depends on libglib2.0-0 (>= 2.56.0).
+ libcairo-gobject2:arm64 depends on libglib2.0-0 (>= 2.68.0).
+ libavcodec60:arm64 depends on libglib2.0-0 (>= 2.12.0).
+ libatspi2.0-0:arm64 depends on libglib2.0-0 (>= 2.62).
+ libatk1.0-0:arm64 depends on libglib2.0-0 (>= 2.62).
+ libatk-bridge2.0-0:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ gtk-update-icon-cache depends on libglib2.0-0 (>= 2.57.2).
+ glib-networking-services depends on libglib2.0-0 (>= 2.73.3).
+ glib-networking:arm64 depends on libglib2.0-0 (>= 2.73.3).
+ fcitx5-frontend-gtk3 depends on libglib2.0-0 (>= 2.75.3).
+ fcitx5-frontend-gtk2 depends on libglib2.0-0 (>= 2.75.3).
+ dconf-service depends on libglib2.0-0 (>= 2.77.0).
+ dconf-gsettings-backend:arm64 depends on libglib2.0-0 (>= 2.77.0).
+ bluez-obexd depends on libglib2.0-0 (>= 2.77.0).
+ bluez depends on libglib2.0-0 (>= 2.75.3).
+
+Removing libglib2.0-0:arm64 (2.80.1-1deepin1) ...
+Selecting previously unselected package libglib2.0-0t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27662 files and directories currently installed.)
+Preparing to unpack .../0-libglib2.0-0t64_2.80.0-6ubuntu3.2_arm64.deb ...
+libglib2.0-0t64.preinst: Removing /var/lib/dpkg/info/libglib2.0-0:arm64.postrm to avoid loss of /usr/share/glib-2.0/schemas/gschemas.compiled...
+removed '/var/lib/dpkg/info/libglib2.0-0:arm64.postrm'
+Unpacking libglib2.0-0t64:arm64 (2.80.0-6ubuntu3.2) ...
+Selecting previously unselected package dh-elpa-helper.
+Preparing to unpack .../1-dh-elpa-helper_2.0.17ubuntu1_all.deb ...
+Unpacking dh-elpa-helper (2.0.17ubuntu1) ...
+Selecting previously unselected package elpa-notmuch.
+Preparing to unpack .../2-elpa-notmuch_0.38.3-1ubuntu2_all.deb ...
+Unpacking elpa-notmuch (0.38.3-1ubuntu2) ...
+Selecting previously unselected package libgpgme11t64:arm64.
+Preparing to unpack .../3-libgpgme11t64_1.18.0-4.1ubuntu4_arm64.deb ...
+Unpacking libgpgme11t64:arm64 (1.18.0-4.1ubuntu4) ...
+Selecting previously unselected package libgmime-3.0-0t64:arm64.
+Preparing to unpack .../4-libgmime-3.0-0t64_3.2.13+dfsg-2.1build2_arm64.deb ...
+Unpacking libgmime-3.0-0t64:arm64 (3.2.13+dfsg-2.1build2) ...
+Selecting previously unselected package libsexp2:arm64.
+Preparing to unpack .../5-libsexp2_1.4.1-2_arm64.deb ...
+Unpacking libsexp2:arm64 (1.4.1-2) ...
+Selecting previously unselected package libtalloc2:arm64.
+Preparing to unpack .../6-libtalloc2_2.4.2-1build2_arm64.deb ...
+Unpacking libtalloc2:arm64 (2.4.2-1build2) ...
+Selecting previously unselected package libxapian30:arm64.
+Preparing to unpack .../7-libxapian30_1.4.22-1build1_arm64.deb ...
+Unpacking libxapian30:arm64 (1.4.22-1build1) ...
+Selecting previously unselected package libnotmuch5t64.
+Preparing to unpack .../8-libnotmuch5t64_0.38.3-1ubuntu2_arm64.deb ...
+Unpacking libnotmuch5t64 (0.38.3-1ubuntu2) ...
+Selecting previously unselected package notmuch.
+Preparing to unpack .../9-notmuch_0.38.3-1ubuntu2_arm64.deb ...
+Unpacking notmuch (0.38.3-1ubuntu2) ...
+Setting up libsexp2:arm64 (1.4.1-2) ...
+Setting up libxapian30:arm64 (1.4.22-1build1) ...
+Setting up locales (2.39-0ubuntu8.4) ...
+Installing new version of config file /etc/locale.alias ...
+Generating locales (this might take a while)...
+Generation complete.
+Setting up libtalloc2:arm64 (2.4.2-1build2) ...
+Setting up libglib2.0-0t64:arm64 (2.80.0-6ubuntu3.2) ...
+Setting up dh-elpa-helper (2.0.17ubuntu1) ...
+Setting up elpa-notmuch (0.38.3-1ubuntu2) ...
+Setting up libgpgme11t64:arm64 (1.18.0-4.1ubuntu4) ...
+Setting up libc-dev-bin (2.39-0ubuntu8.4) ...
+Setting up libgmime-3.0-0t64:arm64 (3.2.13+dfsg-2.1build2) ...
+Setting up libnotmuch5t64 (0.38.3-1ubuntu2) ...
+Setting up libc6-dev:arm64 (2.39-0ubuntu8.4) ...
+Setting up notmuch (0.38.3-1ubuntu2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
