@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: onedriver.linyaps
+  name: onedriver
+  version: 0.14.1.1
+  kind: app
+  description: |-
+    native Linux filesystem for Microsoft OneDrive
+    This is a native Linux filesystem for Microsoft Onedrive Onedriver is a native
+    Linux filesystem for Microsoft Onedrive. Files and metadata are downloaded
+    on-demand instead of requiring you to sync your entire account to disk.
+command:
+- /opt/apps/onedriver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
