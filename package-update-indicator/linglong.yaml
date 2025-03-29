@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: package-update-indicator.linyaps
+  name: package-update-indicator
+  version: 8.0.0.2
+  kind: app
+  description: |-
+    Notify about available software updates
+    This small utility which regularly checks for software updates and notifies
+    the user about available updates using desktop notifications and either
+    a status notifier icon or a system tray icon.
+
+    It is primarily intended for desktops which do not already have this
+    functionality built-in, such as Xfce.
+command:
+- /opt/apps/package-update-indicator.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
