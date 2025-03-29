@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: pim-sieve-editor.linyaps
+  name: pim-sieve-editor
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    IMAP Sieve filter editor
+    An application to assist with editing IMAP Sieve filters.
+command:
+- /opt/apps/pim-sieve-editor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
