@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: pgn2web.linyaps
+  name: pgn2web
+  version: 0.4.0.3
+  kind: app
+  description: |-
+    convert PGN chess game files into webpages
+    conversion tool to generate webpages from chess "portable game notation"
+    PGN files. The webpages allow the replaying of chess games within a web
+    browser. It has a commandline client and a gtk graphical user interface
+    for convenience. The html output is highly customisable, it is using
+    javascript and the webpages are standards compliant and working with
+    all major browsers.
+command:
+- /opt/apps/pgn2web.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
