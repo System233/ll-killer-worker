@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: scratch.linyaps
+  name: scratch
+  version: 1.4.0.6
+  kind: app
+  description: |-
+    easy to use programming environment for ages 8 and up
+    Scratch is an easy, interactive, collaborative programming
+    environment designed for creation of interactive stories, animations,
+    games, music, and art -- and sharing these on the web.
+    Scratch is designed to help young people (ages 8 and up) develop 21st
+    century learning skills. As they create Scratch projects, young people
+    learn important mathematical and computational ideas, while also
+    gaining a deeper understanding of the process of design.
+command:
+- /opt/apps/scratch.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
