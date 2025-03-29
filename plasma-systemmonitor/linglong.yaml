@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: plasma-systemmonitor.linyaps
+  name: plasma-systemmonitor
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    System monitor for the Plasma desktop
+    Plasma System Monitor provides an interface for monitoring system sensors,
+    process information and other system resources.
+command:
+- /opt/apps/plasma-systemmonitor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
