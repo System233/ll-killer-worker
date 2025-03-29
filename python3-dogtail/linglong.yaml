@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: python3-dogtail.linyaps
+  name: python3-dogtail
+  version: 0.9.11.12
+  kind: app
+  description: |-
+    GUI test tool and automation framework
+    dogtail is a GUI test tool and automation framework written in Python.
+    It uses Accessibility (a11y) technologies to communicate with desktop
+    applications. dogtail scripts are written in Python.
+command:
+- /opt/apps/python3-dogtail.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
