@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: terminatorx.linyaps
+  name: terminatorx
+  version: 4.2.0.1
+  kind: app
+  description: |-
+    realtime audio synthesizer
+    terminatorX is a realtime audio synthesizer that allows you to
+    "scratch" on digitally sampled audio data (*.wav, *.au, *.mp3, etc.)
+    the way hiphop-DJs scratch on vinyl records. It features multiple
+    turntables, realtime effects (built-in as well as LADSPA plugin
+    effects), a sequencer and an easy-to-use GTK+ GUI.
+command:
+- /opt/apps/terminatorx.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
