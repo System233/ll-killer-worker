@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: terraintool.linyaps
+  name: terraintool
+  version: 1.16.0.3
+  kind: app
+  description: |-
+    Generates survex/therion terrain models from SRTM/NASADEM data.
+    This tool generates terrain meshes for cave survey tools from online
+    terrain altitude datasets. It uses the NASA SRTM and later NASADEM
+    datasets (The latter has the voids removed using ASTER data).
+    The relevant data is downloaded and excerpted, geolocated to the desired
+    co-ordinate system, resampled to a mesh grid, an offset to local grid
+    added if required, the result displayed, and saved in survex (.svx)
+    or therion (.th) format. It is written in java.
+command:
+- /opt/apps/terraintool.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
