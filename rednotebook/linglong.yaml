@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: rednotebook.linyaps
+  name: rednotebook
+  version: 2.32.0.2
+  kind: app
+  description: |-
+    Modern desktop diary and personal journaling tool
+    It lets you format, tag and search your entries. You can also add pictures,
+    links and customisable templates, spell check your notes, and export to plain
+    text, HTML, LaTeX or PDF.
+command:
+- /opt/apps/rednotebook.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
