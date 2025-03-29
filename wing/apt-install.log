@@ -1,0 +1,65 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  liballegro4.4t64 libasound2-data libasound2t64 libxxf86dga1 wing-data
+Suggested packages:
+  alsa-utils
+Recommended packages:
+  alsa-ucm-conf alsa-topology-conf
+The following packages will be REMOVED:
+  libasound2
+The following NEW packages will be installed:
+  liballegro4.4t64 libasound2t64 libxxf86dga1 wing wing-data
+The following packages will be upgraded:
+  libasound2-data
+1 upgraded, 5 newly installed, 1 to remove and 450 not upgraded.
+Need to get 1460 kB of archives.
+After this operation, 3731 kB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libasound2-data all 1.2.11-1build2 [21.0 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libasound2t64 arm64 1.2.11-1build2 [387 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxxf86dga1 arm64 2:1.1.5-1build1 [11.3 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 liballegro4.4t64 arm64 2:4.4.3.1-4.1build3 [408 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 wing-data all 0.7-32build2 [606 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 wing arm64 0.7-32build2 [26.9 kB]
+Fetched 1460 kB in 1s (1428 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libasound2-data_1.2.11-1build2_all.deb ...
+Unpacking libasound2-data (1.2.11-1build2) over (1.2.8-1) ...
+dpkg: libasound2:arm64: dependency problems, but removing anyway as you requested:
+ pulseaudio depends on libasound2 (>= 1.2.1.1).
+ pipewire-bin depends on libasound2 (>= 1.2.1.1).
+ libspa-0.2-modules:arm64 depends on libasound2 (>= 1.2.1.1).
+ libasound2-plugins:arm64 depends on libasound2 (>= 1.2.5).
+ bluez depends on libasound2 (>= 1.0.17).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Removing libasound2:arm64 (1.2.8-1) ...
+Selecting previously unselected package libasound2t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27733 files and directories currently installed.)
+Preparing to unpack .../libasound2t64_1.2.11-1build2_arm64.deb ...
+Unpacking libasound2t64:arm64 (1.2.11-1build2) ...
+Selecting previously unselected package libxxf86dga1:arm64.
+Preparing to unpack .../libxxf86dga1_2%3a1.1.5-1build1_arm64.deb ...
+Unpacking libxxf86dga1:arm64 (2:1.1.5-1build1) ...
+Selecting previously unselected package liballegro4.4t64:arm64.
+Preparing to unpack .../liballegro4.4t64_2%3a4.4.3.1-4.1build3_arm64.deb ...
+Unpacking liballegro4.4t64:arm64 (2:4.4.3.1-4.1build3) ...
+Selecting previously unselected package wing-data.
+Preparing to unpack .../wing-data_0.7-32build2_all.deb ...
+Unpacking wing-data (0.7-32build2) ...
+Selecting previously unselected package wing.
+Preparing to unpack .../wing_0.7-32build2_arm64.deb ...
+Unpacking wing (0.7-32build2) ...
+Setting up libxxf86dga1:arm64 (2:1.1.5-1build1) ...
+Setting up libasound2-data (1.2.11-1build2) ...
+Setting up libasound2t64:arm64 (1.2.11-1build2) ...
+Setting up wing-data (0.7-32build2) ...
+Setting up liballegro4.4t64:arm64 (2:4.4.3.1-4.1build3) ...
+Setting up wing (0.7-32build2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libc-bin (2.38-6deepin4) ...

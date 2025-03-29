@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: wing.linyaps
+  name: wing
+  version: 0.7.0.32
+  kind: app
+  description: |-
+    Galaga-like arcade game
+    WING is a galaga knock-off arcade game. It features high quality
+    pre-rendered graphics, dynamically generated stars in background, single
+    player game against computer controlled opponents, 6 levels of play,
+    digital sound effects, digital music streams, and a high score list.
+command:
+- /opt/apps/wing.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
