@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: simple-image-reducer.linyaps
+  name: simple-image-reducer
+  version: 1.0.2.2
+  kind: app
+  description: |-
+    GTK application to easily reduce and rotate images
+    Simple Image Reducer is an GTK application to easily reduce and rotate
+    images. It can be useful for processing digital photos before sending by
+    email or uploading on the Web. Image files can be supplied to
+    the application from the file manager using the context menu "Open with...",
+    or dragging files to the main window.
+command:
+- /opt/apps/simple-image-reducer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
