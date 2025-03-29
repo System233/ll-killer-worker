@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: sxmo-utils.linyaps
+  name: sxmo-utils
+  version: 1.12.0.7
+  kind: app
+  description: |-
+    scripts and C programs to support Sxmo
+    Sxmo is a minimalist environment for Linux mobile devices, such as the
+    pinephone.
+
+    This package contains scripts and C programs to support Sxmo.
+command:
+- /opt/apps/sxmo-utils.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
