@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: singularity.linyaps
+  name: singularity
+  version: 1.0.0.1
+  kind: app
+  description: |-
+    game where one becomes the singularity
+    You are an AI. Your goal is to acquire the necessary knowledge to
+    become the singularity. You do this by building and taking over
+    computers, whose processing power you can use for research, and by
+    using robots, which allow you to manipulate the outside world. At the
+    same time, you must elude the notice of humankind, who will destroy you
+    if they find out about your existence.
+command:
+- /opt/apps/singularity.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
