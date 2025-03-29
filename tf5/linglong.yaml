@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: tf5.linyaps
+  name: tf5
+  version: 5.0.0.12
+  kind: app
+  description: |-
+    text-based MU* and chatserver client
+    TinyFugue is a text-based, line-based client designed for connecting to
+    most flavors of MU* servers (TinyMUSH, TinyMUX, LP, Diku, etc.) or any
+    telnet-based chatserver.  It includes support for 256-color terminals,
+    MCCP versions 1 and 2, a powerful trigger and scripting language, and
+    many other features.  Encryption of communications with SSL/TLS is
+    supported, but not validation of certificates.  Unicode is not currently
+    supported.
+
+    This package is the current development version of TinyFugue (major
+    version 5).  For the current stable version (major version 4), install
+    the "tf" package instead.
+command:
+- /opt/apps/tf5.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
