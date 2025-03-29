@@ -1,0 +1,30 @@
+正在测试: APPID=tkinfo.linyaps LAYER=tkinfo.linyaps_2.11.0.4_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install tkinfo.linyaps_2.11.0.4_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:tkinfo.linyaps
+Layer文件:tkinfo.linyaps_2.11.0.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: tkinfo.linyaps_2.11.0.4_arm64_binary.layer
+offset: 667
+mountpoint: /tmp/tmp.iBvkZnot4m/mnt
+dbglevel: 0
+[成功] tkinfo.desktop: tkinfo.linyaps-TkInfo -> /opt/apps/tkinfo.linyaps/files/share/icons/hicolor/scalable/apps/tkinfo.linyaps-TkInfo.svg
+[成功] /opt/apps/tkinfo.linyaps/files/share/applications/tkinfo.desktop: /opt/apps/tkinfo.linyaps/files/entrypoint.sh tkinfo
+[正在测试启动项]
+包名:tkinfo.linyaps
+Layer文件:tkinfo.linyaps_2.11.0.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: tkinfo.linyaps_2.11.0.4_arm64_binary.layer
+offset: 667
+mountpoint: /tmp/tmp.uISoEo9zJM/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run tkinfo.linyaps -- /opt/apps/tkinfo.linyaps/files/entrypoint.sh tkinfo
+[PID 5698] 进程已启动
+[PID 5698] 等待超时，未能检测到窗口
+[PID 5698] 正在通知并等待进程退出
+[PID 5698] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall tkinfo.linyaps
