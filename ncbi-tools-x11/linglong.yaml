@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ncbi-tools-x11.linyaps
+  name: ncbi-tools-x11
+  version: 6.1.20170106.2
+  kind: app
+  description: |-
+    NCBI libraries for biology applications (X-based utilities)
+    This package includes some X-based utilities distributed with the
+    NCBI C SDK: Network Entrez, Sequin, ddv, and udv.  These programs
+    are not part of ncbi-tools-bin because they depend on several
+    additional library packages.
+command:
+- /opt/apps/ncbi-tools-x11.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
