@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: unity-lens-photos.linyaps
+  name: unity-lens-photos
+  version: 1.0.10.0
+  kind: app
+  description: |-
+    Photos lens for Unity
+    This package contains photos scopes which allow Unity
+    to search for local photos using Shotwell.
+command:
+- /opt/apps/unity-lens-photos.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
