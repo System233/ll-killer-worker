@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: python3-ufo-tofu.linyaps
+  name: python3-ufo-tofu
+  version: 0.12.0.3
+  kind: app
+  description: |-
+    Fast, versatile and user-friendly image processing toolkit
+    This repository contains Python data processing scripts to be used
+    with the UFO framework. At the moment they are targeted at
+    high-performance reconstruction of tomographic data sets.
+command:
+- /opt/apps/python3-ufo-tofu.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
