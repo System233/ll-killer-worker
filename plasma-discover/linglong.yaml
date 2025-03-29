@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: plasma-discover.linyaps
+  name: plasma-discover
+  version: 5.27.12.0
+  kind: app
+  description: |-
+    Discover software management suite
+    Discover is a graphical software manager for the Plasma workspace.
+    It helps users easily and quickly find applications and other software
+    they might want to install.
+
+    By allowing to navigate a software library by search, categories, top lists
+    along with detailed application information that includes screenshots
+    and reviews, users can more quickly find applications that suit their needs.
+
+    Discover will also keep the system up to date by notifying about updates and
+    installing them.
+command:
+- /opt/apps/plasma-discover.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
