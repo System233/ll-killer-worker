@@ -1,0 +1,26 @@
+正在测试: APPID=twclock.linyaps LAYER=twclock.linyaps_3.5.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install twclock.linyaps_3.5.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:twclock.linyaps
+Layer文件:twclock.linyaps_3.5.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: twclock.linyaps_3.5.0.1_arm64_binary.layer
+offset: 841
+mountpoint: /tmp/tmp.uAgDujymcw/mnt
+dbglevel: 0
+find: ‘/opt/apps/twclock.linyaps/files/share/icons’: No such file or directory
+[31m[失败] twclock.desktop:twclock.png: 找不到此图标 [0m
+[31m[失败] /opt/apps/twclock.linyaps/files/share/applications/twclock.desktop:: 找不到此启动文件 [0m
+[正在测试启动项]
+包名:twclock.linyaps
+Layer文件:twclock.linyaps_3.5.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: twclock.linyaps_3.5.0.1_arm64_binary.layer
+offset: 841
+mountpoint: /tmp/tmp.HuQTv7zj51/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall twclock.linyaps
