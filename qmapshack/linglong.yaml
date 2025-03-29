@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: qmapshack.linyaps
+  name: qmapshack
+  version: 1.17.1.1
+  kind: app
+  description: |-
+    GPS mapping (GeoTiff and vector) and GPSr management
+    This package provides a versatile tool for GPS maps in GeoTiff format as
+    well as Garmin's img vector map format.
+    You can also view and edit your GPX tracks.
+    QMapShack is the successor of QLandkarteGT.
+
+    Main features:
+    - Use of several workspaces.
+    - Use several maps on a workspace.
+    - Handle data project-oriented.
+command:
+- /opt/apps/qmapshack.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
