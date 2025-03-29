@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: slimevolley.linyaps
+  name: slimevolley
+  version: 2.4.2.3
+  kind: app
+  description: |-
+    unrealistic 2D volleyball simulation
+    Slime Volley is a 2D arcade-oriented volleyball simulation, in the spirit of
+    some Java games of the same name.
+    Two teams, 1-3 players each, try to be the first to get 10 points. This happens
+    when the one ball touches the floor on the other side of the net.
+    There can be 1 to 8 balls in game.
+    Each player use 4 keys, 2 direction keys, one for jump and one for changing its
+    skin.
+command:
+- /opt/apps/slimevolley.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
