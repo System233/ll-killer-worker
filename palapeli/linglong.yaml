@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: palapeli.linyaps
+  name: palapeli
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    jigsaw puzzle game
+    Palapeli is a jigsaw puzzle game. Unlike other games in that genre,
+    you are not limited to aligning pieces on imaginary grids. The
+    pieces are freely moveable.
+
+    Palapeli is the Finnish word for jigsaw puzzle.
+
+    This package is part of the KDE games module.
+command:
+- /opt/apps/palapeli.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
