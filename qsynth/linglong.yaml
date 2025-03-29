@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: qsynth.linyaps
+  name: qsynth
+  version: 0.9.13.1
+  kind: app
+  description: |-
+    fluidsynth MIDI sound synthesiser front-end
+    QSynth is a fluidsynth GUI front-end application written in C++ around the Qt
+    toolkit. Eventually it may evolve into a softsynth management application
+    allowing the user to control and manage a variety of command line softsynths
+    but for the moment it wraps FluidSynth (http://www.fluidsynth.org).
+
+    FluidSynth is a command line software synthesiser based on the Soundfont
+    specification.
+command:
+- /opt/apps/qsynth.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
