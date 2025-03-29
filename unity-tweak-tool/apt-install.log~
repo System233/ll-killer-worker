@@ -1,0 +1,110 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ compiz-core : Depends: libglib2.0-0t64 (>= 2.30.0) but it is not installable
+ compiz-gnome : Depends: libatk1.0-0t64 (>= 1.12.4) but it is not installable
+                Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                Depends: libgtk-3-0t64 (>= 3.9.10) but it is not installable
+                Recommends: gnome-system-monitor but it is not installable or
+                            mate-system-monitor but it is not installable
+ gir1.2-freedesktop : Depends: libcairo-gobject2 (>= 1.10.0) but it is not going to be installed
+ gir1.2-gtk-3.0 : Depends: libgtk-3-0t64 (>= 3.24.30) but it is not installable
+ libappstream-glib8 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libcanberra-gtk3-0t64 : Depends: libglib2.0-0t64 (>= 2.12.0) but it is not installable
+                         Depends: libgtk-3-0t64 (>= 3.0.0) but it is not installable
+                         Recommends: libcanberra-gtk3-module but it is not installable
+ libdbusmenu-glib4 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libfcitx-gclient1 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libgee-0.8-2 : Depends: libglib2.0-0t64 (>= 2.44.0) but it is not installable
+ libgirepository-1.0-1 : Depends: libglib2.0-0t64 (>= 2.80.0) but it is not installable
+ libgnome-desktop-3-20t64 : Depends: libgtk-3-0t64 (>= 3.9.10) but it is not installable
+ libgtk-3-0 : Depends: libcairo-gobject2 (>= 1.14.0) but it is not going to be installed
+              Recommends: libgtk-3-bin but it is not going to be installed
+              Recommends: librsvg2-common but it is not going to be installed
+ libgudev-1.0-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libibus-1.0-5 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libido3-0.1-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                 Depends: libgtk-3-0t64 (>= 3.8.2-0ubuntu2) but it is not installable
+ liblightdm-gobject-1-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                          Recommends: accountsservice but it is not installable
+ libmetacity3 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                Depends: libgtk-3-0t64 (>= 3.24.6) but it is not installable
+ libnm0 : Depends: libglib2.0-0t64 (>= 2.44.0) but it is not installable
+ libnux-4.0-0 : Depends: libglib2.0-0t64 (>= 2.32.0) but it is not installable
+ libpulse-mainloop-glib0 : Depends: libglib2.0-0t64 (>= 2.28.0) but it is not installable
+ libsoup-2.4-1 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libsoup-gnome-2.4-1 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libunity-core-6.0-9 : Depends: libglib2.0-0t64 (>= 2.42.0) but it is not installable
+ libunity-misc4 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                  Depends: libgtk-3-0t64 (>= 3.0.0) but it is not installable
+ libunity-settings-daemon1 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                             Depends: libgtk-3-0t64 (>= 3.9.10) but it is not installable
+ libupower-glib3 : Depends: libglib2.0-0t64 (>= 2.66) but it is not installable
+                   Recommends: upower but it is not installable
+ libwacom9 : Depends: libglib2.0-0t64 (>= 2.68.0) but it is not installable
+ libwnck-3-0 : Depends: libatk1.0-0t64 (>= 1.12.4) but it is not installable
+               Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+               Depends: libgtk-3-0t64 (>= 3.22.0) but it is not installable
+ libxklavier16 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libzeitgeist-2.0-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ notify-osd : Depends: libatk1.0-0t64 (>= 1.12.4) but it is not installable
+              Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+              Depends: libgtk-3-0t64 (>= 3.9.10) but it is not installable
+ python3-gi : Depends: libglib2.0-0t64 (>= 2.77.0) but it is not installable
+ session-migration : Depends: libglib2.0-0t64 (>= 2.51.1) but it is not installable
+ unity : Depends: libatk-bridge2.0-0t64 (>= 2.5.3) but it is not installable
+         Depends: libatk1.0-0t64 (>= 2.2.0) but it is not installable
+         Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+         Depends: libgtk-3-0t64 (>= 3.21.4) but it is not installable
+         Depends: bamfdaemon but it is not installable
+         Recommends: unity-control-center but it is not installable
+         Recommends: nemo but it is not installable
+         Recommends: gnome-disk-utility but it is not installable
+         Recommends: hud but it is not installable
+         Recommends: session-shortcuts but it is not installable
+         Recommends: unity-session but it is not installable
+         Recommends: unity-uwidgets but it is not installable
+ unity-greeter : Depends: libatk1.0-0t64 (>= 1.12.4) but it is not installable
+                 Depends: libcairo-gobject2 (>= 1.10.0) but it is not going to be installed
+                 Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                 Depends: libgtk-3-0t64 (>= 3.16.2) but it is not installable
+                 Recommends: indicator-application but it is not installable
+                 Recommends: indicator-datetime but it is not installable
+                 Recommends: indicator-keyboard but it is not installable
+                 Recommends: indicator-power but it is not installable
+                 Recommends: indicator-session but it is not installable
+                 Recommends: indicator-sound but it is not installable
+                 Recommends: network-manager-gnome but it is not installable
+ unity-scope-home : Depends: libglib2.0-0t64 (>= 2.44.0) but it is not installable
+ unity-services : Depends: libatk-bridge2.0-0t64 (>= 2.5.3) but it is not installable
+                  Depends: libatk1.0-0t64 (>= 1.12.4) but it is not installable
+                  Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                  Depends: libgtk-3-0t64 (>= 3.9.10) but it is not installable
+                  Recommends: indicator-appmenu (>= 15.02.0) but it is not installable
+                  Recommends: indicator-application but it is not installable
+                  Recommends: indicator-sound but it is not installable
+                  Recommends: indicator-bluetooth but it is not installable
+                  Recommends: indicator-datetime but it is not installable
+                  Recommends: indicator-keyboard but it is not installable
+                  Recommends: indicator-notifications but it is not installable
+                  Recommends: indicator-printers but it is not installable
+                  Recommends: indicator-power but it is not installable
+                  Recommends: indicator-session but it is not installable
+ unity-settings-daemon : Depends: libaccountsservice0 (>= 0.6.40) but it is not installable
+                         Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                         Depends: libgtk-3-0t64 (>= 3.9.10) but it is not installable
+                         Depends: librsvg2-2 (>= 2.36.2) but it is not going to be installed
+                         Depends: accountsservice (>= 0.6.34) but it is not installable
+                         Recommends: ibus (>= 1.5.0) but it is not installable
+                         Recommends: pulseaudio but it is not going to be installed
+                         Recommends: systemd-services but it is not installable
+E: Unable to correct problems, you have held broken packages.
