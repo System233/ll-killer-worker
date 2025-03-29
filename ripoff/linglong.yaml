@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: ripoff.linyaps
+  name: ripoff
+  version: 0.8.3.0
+  kind: app
+  description: |-
+    modular and intuitive GTK+-based CD-ripper
+    RipOff is a GTK+ based CD Ripper for Linux that sports a simple interface,
+    CDDB lookups, and a plugin-based encoder architecture.
+
+    This version doesn't have MP3 support compiled in, you'll need to install
+    the ripoff-mp3-plugin package to rip into mp3.
+
+    This package contains the ripoff executable.
+command:
+- /opt/apps/ripoff.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
