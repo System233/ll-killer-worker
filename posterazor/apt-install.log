@@ -1,0 +1,96 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libfltk-images1.3t64 libfltk1.3t64 libfreeimage3 libimath-3-1-29t64
+  libjpeg-turbo8 libjpeg8 libjxr0t64 libopenexr-3-1-30 libpng16-16t64
+  libraw23t64
+The following packages will be REMOVED:
+  libjpeg-turbo-progs libpng16-16 libturbojpeg0 xscreensaver-data-extra
+The following NEW packages will be installed:
+  libfltk-images1.3t64 libfltk1.3t64 libfreeimage3 libimath-3-1-29t64
+  libjpeg-turbo8 libjpeg8 libjxr0t64 libopenexr-3-1-30 libpng16-16t64
+  libraw23t64 posterazor
+0 upgraded, 11 newly installed, 4 to remove and 450 not upgraded.
+Need to get 2950 kB of archives.
+After this operation, 150 kB disk space will be freed.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libpng16-16t64 arm64 1.6.43-5build1 [185 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libfltk1.3t64 arm64 1.3.8-6.1build2 [597 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjpeg-turbo8 arm64 2.1.5-2ubuntu2 [163 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjpeg8 arm64 8c-2ubuntu11 [2148 B]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libfltk-images1.3t64 arm64 1.3.8-6.1build2 [27.5 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libimath-3-1-29t64 arm64 3.1.9-3.1ubuntu2 [68.2 kB]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libjxr0t64 arm64 1.2~git20170615.f752187-5.1ubuntu2 [177 kB]
+Get:8 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libopenexr-3-1-30 arm64 3.1.5-5.1build3 [939 kB]
+Get:9 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libraw23t64 arm64 0.21.2-2.1build1 [382 kB]
+Get:10 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libfreeimage3 arm64 3.18.0+ds2-10build4 [280 kB]
+Get:11 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 posterazor arm64 1.5.1-10build2 [130 kB]
+Fetched 2950 kB in 1s (2051 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Removing xscreensaver-data-extra (6.02+dfsg1-3) ...
+Removing libjpeg-turbo-progs (1:2.1.5-2) ...
+dpkg: libpng16-16:arm64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:arm64 depends on libpng16-16 (>= 1.6.2).
+
+Removing libpng16-16:arm64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27307 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_arm64.deb ...
+Unpacking libpng16-16t64:arm64 (1.6.43-5build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27318 files and directories currently installed.)
+Removing libturbojpeg0:arm64 (1:2.1.5-2) ...
+Selecting previously unselected package libfltk1.3t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27311 files and directories currently installed.)
+Preparing to unpack .../0-libfltk1.3t64_1.3.8-6.1build2_arm64.deb ...
+Unpacking libfltk1.3t64:arm64 (1.3.8-6.1build2) ...
+Selecting previously unselected package libjpeg-turbo8:arm64.
+Preparing to unpack .../1-libjpeg-turbo8_2.1.5-2ubuntu2_arm64.deb ...
+Unpacking libjpeg-turbo8:arm64 (2.1.5-2ubuntu2) ...
+Selecting previously unselected package libjpeg8:arm64.
+Preparing to unpack .../2-libjpeg8_8c-2ubuntu11_arm64.deb ...
+Unpacking libjpeg8:arm64 (8c-2ubuntu11) ...
+Selecting previously unselected package libfltk-images1.3t64:arm64.
+Preparing to unpack .../3-libfltk-images1.3t64_1.3.8-6.1build2_arm64.deb ...
+Unpacking libfltk-images1.3t64:arm64 (1.3.8-6.1build2) ...
+Selecting previously unselected package libimath-3-1-29t64:arm64.
+Preparing to unpack .../4-libimath-3-1-29t64_3.1.9-3.1ubuntu2_arm64.deb ...
+Unpacking libimath-3-1-29t64:arm64 (3.1.9-3.1ubuntu2) ...
+Selecting previously unselected package libjxr0t64:arm64.
+Preparing to unpack .../5-libjxr0t64_1.2~git20170615.f752187-5.1ubuntu2_arm64.deb ...
+Unpacking libjxr0t64:arm64 (1.2~git20170615.f752187-5.1ubuntu2) ...
+Selecting previously unselected package libopenexr-3-1-30:arm64.
+Preparing to unpack .../6-libopenexr-3-1-30_3.1.5-5.1build3_arm64.deb ...
+Unpacking libopenexr-3-1-30:arm64 (3.1.5-5.1build3) ...
+Selecting previously unselected package libraw23t64:arm64.
+Preparing to unpack .../7-libraw23t64_0.21.2-2.1build1_arm64.deb ...
+Unpacking libraw23t64:arm64 (0.21.2-2.1build1) ...
+Selecting previously unselected package libfreeimage3:arm64.
+Preparing to unpack .../8-libfreeimage3_3.18.0+ds2-10build4_arm64.deb ...
+Unpacking libfreeimage3:arm64 (3.18.0+ds2-10build4) ...
+Selecting previously unselected package posterazor.
+Preparing to unpack .../9-posterazor_1.5.1-10build2_arm64.deb ...
+Unpacking posterazor (1.5.1-10build2) ...
+Setting up libjxr0t64:arm64 (1.2~git20170615.f752187-5.1ubuntu2) ...
+Setting up libpng16-16t64:arm64 (1.6.43-5build1) ...
+Setting up libimath-3-1-29t64:arm64 (3.1.9-3.1ubuntu2) ...
+Setting up libjpeg-turbo8:arm64 (2.1.5-2ubuntu2) ...
+Setting up libfltk1.3t64:arm64 (1.3.8-6.1build2) ...
+Setting up libjpeg8:arm64 (8c-2ubuntu11) ...
+Setting up libfltk-images1.3t64:arm64 (1.3.8-6.1build2) ...
+Setting up libopenexr-3-1-30:arm64 (3.1.5-5.1build3) ...
+Setting up libraw23t64:arm64 (0.21.2-2.1build1) ...
+Setting up libfreeimage3:arm64 (3.18.0+ds2-10build4) ...
+Setting up posterazor (1.5.1-10build2) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed

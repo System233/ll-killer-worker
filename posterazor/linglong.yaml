@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: posterazor.linyaps
+  name: posterazor
+  version: 1.5.1.10
+  kind: app
+  description: |-
+    splits an image across multiple pages for assembly into a poster
+    The PosteRazor splits an image to form a multi-page PDF document. When
+    printed, the sheets can be arranged to form a large poster of the original
+    picture. An easy to use (wizard like) user interface guides through 5 simple
+    steps.
+
+    It relies upon libfreeimage and libxpm supporting many input file formats
+    such as BMP, GIF, ICO, JPG, PNG, TIFF, XPM among others handled by FreeImage
+    like DDS, Dr. Halo, IFF, JBIG, JPEG/JIF, KOALA, LBM, Kodak PhotoCD, PCX, PBM,
+    PGM, PPM, PhotoShop PSD, Sun RAS, TARGA, WBMP, XBM, etc...
+
+    Also, PosteRazor can handle the following image color types: Monochrome,
+    Grayscale, 4 Bit palette, 8 Bit palette, 24 Bit RGB, 48 Bit RGB (only via
+    TIFF and PNG), 32 Bit CMYK (only via TIFF). 32 Bit RGBA images can be loaded,
+    but are transformed to 24 Bit RGB by "merging" them with a white background.
+
+    It supports dimension units like m, mm, cm, inch, ft, pt(72th inch) and it
+    prints the PDF output file in A4, A3, Legal, Letter or Tabloid layout.
+command:
+- /opt/apps/posterazor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
