@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: tuna.linyaps
+  name: tuna
+  version: 0.15.0.1
+  kind: app
+  description: |-
+    Low-level system performance tuning for realtime systems
+    Tuna is used to change the attributes of application and kernel threads, IRQs,
+    CPUs, and CPU sockets. It can change scheduling policy, scheduler priority and
+    processor affinity for processes and process threads. It can also change the
+    processor affinity for interrupts, isolate CPUs, and spread threads or IRQs
+    across CPUs.
+command:
+- /opt/apps/tuna.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
