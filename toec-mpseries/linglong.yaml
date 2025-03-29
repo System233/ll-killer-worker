@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: toec-mpseries.linyaps
+  name: toec-mpseries
+  version: 2.1.0.7
+  kind: app
+  description: Driver for TOEC A4 Series.
+command:
+- /opt/apps/toec-mpseries.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
