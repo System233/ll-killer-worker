@@ -1,0 +1,28 @@
+正在测试: APPID=mythtv-backend.linyaps LAYER=mythtv-backend.linyaps_34.0.20240210.0_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install mythtv-backend.linyaps_34.0.20240210.0_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:mythtv-backend.linyaps
+Layer文件:mythtv-backend.linyaps_34.0.20240210.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: mythtv-backend.linyaps_34.0.20240210.0_x86_64_binary.layer
+offset: 1045
+mountpoint: /tmp/tmp.2JwZkbxyEo/mnt
+dbglevel: 0
+[成功] mythtv-setup.desktop: mythtv -> /opt/apps/mythtv-backend.linyaps/files/share/pixmaps/mythtv.png
+[成功] /opt/apps/mythtv-backend.linyaps/files/share/applications/mythtv-setup.desktop: /opt/apps/mythtv-backend.linyaps/files/entrypoint.sh mythtv-setup
+[正在测试启动项]
+包名:mythtv-backend.linyaps
+Layer文件:mythtv-backend.linyaps_34.0.20240210.0_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: mythtv-backend.linyaps_34.0.20240210.0_x86_64_binary.layer
+offset: 1045
+mountpoint: /tmp/tmp.CJSxohgy7u/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run mythtv-backend.linyaps -- /opt/apps/mythtv-backend.linyaps/files/entrypoint.sh mythtv-setup
+[PID 29632] 进程已启动
+[PID 29632] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall mythtv-backend.linyaps
