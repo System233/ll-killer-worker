@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: qlcplus.linyaps
+  name: qlcplus
+  version: 4.12.7.1
+  kind: app
+  description: |-
+    Control DMX or analog lighting systems
+    Q Light Controller Plus is a software lighting desk for controlling
+    DMX or analog lighting systems like moving heads, dimmers, scanners.
+
+    This project is a fork of the great QLC project written by Heikki Junnila
+    that aims to continue the QLC development and to introduce new features. The
+    primary goal is to bring QLC+ at the level of other lighting control commercial
+    software.
+command:
+- /opt/apps/qlcplus.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
