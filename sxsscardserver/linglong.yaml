@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: sxsscardserver.linyaps
+  name: sxsscardserver
+  version: 3.5.15.0
+  kind: app
+  description: sxsscard server<br>在安装完成后必须重启操作系统
+command:
+- /opt/apps/sxsscardserver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
