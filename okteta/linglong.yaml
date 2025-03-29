@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: okteta.linyaps
+  name: okteta
+  version: 0.26.15.1
+  kind: app
+  description: |-
+    hexadecimal editor for binary files
+    Okteta is a simple editor for the raw data of files. This type of program is
+    also called hexadecimal editor or binary editor.
+
+    The data is displayed in two variants: as the numeric values of the bytes
+    and as the character assigned to the values. Values and characters can be
+    shown either in two columns (the traditional display in hex editors) or in
+    rows with the value on top of the character. Editing can be done both for
+    the values and for the characters.
+
+    Besides the usual editing capabilities Okteta also brings a small set of
+    tools, like a table listing decodings into common simple data types, a table
+    listing all possible bytes with their character and value equivalents, an
+    info view with a statistic, a checksum calculator, a filter tool and a string
+    extraction tool.
+command:
+- /opt/apps/okteta.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
