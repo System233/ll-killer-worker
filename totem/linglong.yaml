@@ -1,0 +1,33 @@
+version: "1"
+package:
+  id: totem.linyaps
+  name: totem
+  version: 43.0.0.2
+  kind: app
+  description: |-
+    Simple media player for the GNOME desktop based on GStreamer
+    Totem is a simple yet featureful media player for GNOME which can read
+    a large number of file formats. It features :
+
+    * Shoutcast, m3u, asx, SMIL and ra playlists support
+    * DVD (with menus), VCD and Digital CD (with CDDB) playback
+    * TV-Out configuration with optional resolution switching
+    * 4.0, 5.0, 5.1 and stereo audio output
+    * Full-screen mode (move your mouse and you get nice controls) with
+    Xinerama, dual-head and RandR support
+    * Aspect ratio toggling, scaling based on the video's original size
+    * Full keyboard control
+    * Simple playlist with repeat mode and saving feature
+    * GNOME, Nautilus and GIO integration
+    * Screenshot of the current movie
+    * Brightness and Contrast control
+    * Visualisation plugin when playing audio-only files
+    * Video thumbnailer for nautilus
+    * Nautilus properties page
+    * Works on remote displays
+    * DVD, VCD and OGG/OGM subtitles with automatic language selection
+    * Extensible with plugins
+command:
+- /opt/apps/totem.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
