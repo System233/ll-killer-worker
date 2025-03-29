@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: sylph-searcher.linyaps
+  name: sylph-searcher
+  version: 1.2.0.15
+  kind: app
+  description: |-
+    Full-text search program for Sylpheed or MH folders
+    Sylph-Searcher is a Full-text search program for messages stored in the
+    mailboxes of Sylpheed, or generic MH folders.
+command:
+- /opt/apps/sylph-searcher.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
