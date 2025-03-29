@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: obs-studio.linyaps
+  name: obs-studio
+  version: 31.0.3.0
+  kind: app
+  description: Free and open source software for video recording and live streaming
+command:
+- /opt/apps/obs-studio.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
