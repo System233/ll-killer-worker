@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: praat.linyaps
+  name: praat
+  version: 6.4.6.1
+  kind: app
+  description: |-
+    program for speech analysis and synthesis
+    According to its authors, praat is "doing phonetics by computer".  Through
+    its graphical interface, several speech analysis functionalities are
+    available: spectrograms, cochleograms, and pitch and formant
+    extraction.  Articulatory synthesis, as well as synthesis from pitch,
+    formant, and intensity are also available.  Other features are
+    segmentation, labelling using the phonetic alphabet, and computation of
+    statistics.  Praat is configurable and extensible through its own scripting
+    language and has provisions for communicating with other programs.
+command:
+- /opt/apps/praat.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
