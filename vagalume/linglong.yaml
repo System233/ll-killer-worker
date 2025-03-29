@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: vagalume.linyaps
+  name: vagalume
+  version: 0.8.6.3
+  kind: app
+  description: |-
+    GTK+-based client for Last.fm-compatible radio services
+    Vagalume is a Last.fm client designed for the GNOME desktop
+    environment. It's small and provides the basic Last.fm features, such
+    as scrobbling, tags, recommendations, etc.
+
+    Although Last.fm itself stopped providing its radio service in 2014,
+    Vagalume can be used with other Last.fm-compatible services such as
+    Libre.fm.
+command:
+- /opt/apps/vagalume.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
