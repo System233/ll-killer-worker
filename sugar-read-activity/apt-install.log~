@@ -1,0 +1,43 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ gstreamer1.0-plugins-base : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                             Depends: libgstreamer-plugins-base1.0-0 (>= 1.24.0) but 1.22.6-1deepin1 is to be installed
+ libatk-bridge2.0-0t64 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libatk1.0-0t64 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libatspi2.0-0t64 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                    Recommends: at-spi2-core (= 2.52.0-1build1) but it is not going to be installed
+ libdbus-glib-1-2 : Depends: libglib2.0-0t64 (>= 2.32.0) but it is not installable
+ libenchant-2-2 : Depends: libglib2.0-0t64 (>= 2.28.0) but it is not installable
+                  Recommends: enchant-2 but it is not installable
+ libevdocument3-4t64 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libevview3-3t64 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libgspell-1-2 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libgstreamer1.0-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libgtk-3-0t64 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+                 Recommends: libgtk-3-bin but it is not going to be installed
+                 Recommends: librsvg2-common but it is not going to be installed
+ libgxps2t64 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libpoppler-glib8t64 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libsugarext0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libtelepathy-glib0t64 : Depends: libglib2.0-0t64 (>= 2.36.0) but it is not installable
+ python3-dbus : Depends: libglib2.0-0t64 (>= 2.16.0) but it is not installable
+                Recommends: python3-gi but it is not installable
+ python3-gi-cairo : Depends: python3-gi (= 3.48.2-1) but it is not installable
+                    Depends: libglib2.0-0t64 (>= 2.64.0) but it is not installable
+ python3-sugar3 : Depends: python3-gi but it is not installable
+                  Recommends: gir1.2-webkit2-4.1 but it is not installable
+                  Recommends: gstreamer1.0-espeak but it is not installable
+                  Recommends: gstreamer1.0-plugins-good but it is not installable
+                  Recommends: telepathy-mission-control-5 but it is not installable
+ sugar-read-activity : Depends: python3-gi but it is not installable
+E: Unable to correct problems, you have held broken packages.
