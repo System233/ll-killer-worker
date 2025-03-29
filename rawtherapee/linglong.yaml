@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: rawtherapee.linyaps
+  name: rawtherapee
+  version: 5.10.0.1
+  kind: app
+  description: |-
+    raw image converter and digital photo processor
+    RawTherapee is an advanced program for developing raw photos and for processing
+    non-raw photos. It is non-destructive, makes use of OpenMP, supports all the
+    cameras supported by dcraw and carries out its calculations in a high precision
+    32bit floating point engine. RawTherapee supports JPEG, PNG, and TIFF as output
+    format for processed photos.
+command:
+- /opt/apps/rawtherapee.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
