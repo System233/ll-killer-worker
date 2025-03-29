@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: python3-guidata.linyaps
+  name: python3-guidata
+  version: 3.0.4.1
+  kind: app
+  description: |-
+    dataset manipulation GUI generator - Python 3
+    Based on the Qt Python binding module PyQt4, guidata is a Python
+    library generating graphical user interfaces for easy dataset editing
+    and display. It also provides helpers and application development
+    tools for PyQt4.
+
+    This is the Python 3 version of the package.
+command:
+- /opt/apps/python3-guidata.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
