@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: treeline.linyaps
+  name: treeline
+  version: 3.1.5.1
+  kind: app
+  description: |-
+    versatile tree-like structured custom data manager
+    TreeLine is a versatile tool for working with all kind of information
+    that fits into a tree-like structure.
+
+    It can be used to edit bookmark files, create mini-databases (e.g., for
+    addresses, tasks, records, CDs, etc.), outline documents, or just
+    collect ideas. It can also be used as a generic editor for XML files.
+
+    The data schemas for any node in the data tree can be customized and
+    new types of nodes can be defined. The way data is presented on the
+    screen, exported to HTML, or printed can be defined with HTML-like
+    templates. Plug-ins can be written to load and save data from and to
+    custom file formats or external data sources and extend the
+    functionality of TreeLine.
+command:
+- /opt/apps/treeline.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
