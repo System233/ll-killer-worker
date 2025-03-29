@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: stopwatch.linyaps
+  name: stopwatch
+  version: 3.5.0.9
+  kind: app
+  description: |-
+    Virtual stopwatch and timer
+    This is a stopwatch and timer program that uses the Tk toolkit. It has
+    millisecond accuracy. Stopwatch can act as a graphical chronometer (it
+    will provides a GUI interface to user).
+command:
+- /opt/apps/stopwatch.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
