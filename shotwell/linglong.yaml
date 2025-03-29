@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: shotwell.linyaps
+  name: shotwell
+  version: 0.32.6.1
+  kind: app
+  description: |-
+    digital photo organizer
+    Shotwell is a digital photo organizer designed for the GNOME desktop
+    environment. It allows you to import photos, pictures, images and videos
+    from disk or camera. Shotwell can organize them in collections and in other
+    various ways. The viewer shows them in full-window or fullscreen mode and
+    presents them as galleries or slideshows. The integrated editor can rotate,
+    flip, crop and tag the photos, adjust the colors und remove red eyes. Export
+    is possible to facebook, Flickr or Youtube to share with others. It is able
+    to manage a lot of image formats such as JPEG, PNG, BMP, TIFF and Raw CR2.
+command:
+- /opt/apps/shotwell.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
