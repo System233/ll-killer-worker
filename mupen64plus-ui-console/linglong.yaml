@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: mupen64plus-ui-console.linyaps
+  name: mupen64plus-ui-console
+  version: 2.5.9.3
+  kind: app
+  description: |-
+    console frontend for mupen64plus
+    Minimal console user interface for mupen64plus. Features provided:
+    * Changeable emulation plugins for audio, core, input, rsp, video
+    * Selection of emulation core
+    * Graphical OSD for status output
+    * Setting of configuration variable per session or in configuration file
+    * Cheat database support
+    * Loading of roms
+
+    It does not provide any sort of graphical setup or functionality to
+    uncompress files.
+command:
+- /opt/apps/mupen64plus-ui-console.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
