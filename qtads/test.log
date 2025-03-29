@@ -1,0 +1,28 @@
+正在测试: APPID=qtads.linyaps LAYER=qtads.linyaps_3.4.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install qtads.linyaps_3.4.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:qtads.linyaps
+Layer文件:qtads.linyaps_3.4.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: qtads.linyaps_3.4.0.1_arm64_binary.layer
+offset: 1244
+mountpoint: /tmp/tmp.hNY9wEOq18/mnt
+dbglevel: 0
+[成功] nikos.chantziaras.qtads.desktop: qtads -> /opt/apps/qtads.linyaps/files/share/icons/hicolor/256x256/apps/qtads.png
+[成功] /opt/apps/qtads.linyaps/files/share/applications/nikos.chantziaras.qtads.desktop: /opt/apps/qtads.linyaps/files/entrypoint.sh qtads %f
+[正在测试启动项]
+包名:qtads.linyaps
+Layer文件:qtads.linyaps_3.4.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: qtads.linyaps_3.4.0.1_arm64_binary.layer
+offset: 1244
+mountpoint: /tmp/tmp.g2erbDxxAH/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run qtads.linyaps -- /opt/apps/qtads.linyaps/files/entrypoint.sh qtads
+[PID 11039] 进程已启动
+[PID 11039] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall qtads.linyaps
