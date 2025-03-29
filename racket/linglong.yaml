@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: racket.linyaps
+  name: racket
+  version: 8.10.0.2
+  kind: app
+  description: |-
+    extensible programming language in the Scheme family
+    Racket (previously PLT Scheme) is a programming language suitable for
+    scripting and application development, including GUIs and web
+    services.
+
+    It supports the creation of new programming languages through a rich,
+    expressive syntax system. Supplied languages include Typed Racket,
+    ACL2, FrTime, and Lazy Racket, and R6RS Scheme.
+
+    Racket includes the DrRacket programming environment, a virtual
+    machine with a just-in-time compiler, tools for creating stand-alone
+    executables, the Racket web server, extensive libraries, and
+    documentation for both beginners and experts.
+command:
+- /opt/apps/racket.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
