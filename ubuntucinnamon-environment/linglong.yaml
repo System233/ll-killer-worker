@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: ubuntucinnamon-environment.linyaps
+  name: ubuntucinnamon-environment
+  version: 24.4.3.0
+  kind: app
+  description: |-
+    Ubuntu Cinnamon's Desktop Environment
+    This package contains Ubuntu Cinnamon's Desktop Environment which
+    comes with photos, and other applications that fit your touch at
+    first glance, and is customizable to work anywhere, anytime you want at
+    anywhere you need.
+command:
+- /opt/apps/ubuntucinnamon-environment.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
