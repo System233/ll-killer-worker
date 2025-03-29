@@ -1,0 +1,28 @@
+正在测试: APPID=sugar-etoys-activity.linyaps LAYER=sugar-etoys-activity.linyaps_116.0.0.10_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install sugar-etoys-activity.linyaps_116.0.0.10_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:sugar-etoys-activity.linyaps
+Layer文件:sugar-etoys-activity.linyaps_116.0.0.10_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: sugar-etoys-activity.linyaps_116.0.0.10_x86_64_binary.layer
+offset: 1593
+mountpoint: /tmp/tmp.jAEKjTgpFD/mnt
+dbglevel: 0
+[成功] org.vpri.EtoysActivity.activity.desktop: sugar-etoys-activity.linyaps-activity-etoys -> /opt/apps/sugar-etoys-activity.linyaps/files/share/icons/hicolor/scalable/apps/sugar-etoys-activity.linyaps-activity-etoys.svg
+[31m[失败] /opt/apps/sugar-etoys-activity.linyaps/files/share/applications/org.vpri.EtoysActivity.activity.desktop:etoys-activity: 找不到此启动文件 [0m
+[正在测试启动项]
+包名:sugar-etoys-activity.linyaps
+Layer文件:sugar-etoys-activity.linyaps_116.0.0.10_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: sugar-etoys-activity.linyaps_116.0.0.10_x86_64_binary.layer
+offset: 1593
+mountpoint: /tmp/tmp.uSrZsrKDCf/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run sugar-etoys-activity.linyaps -- /opt/apps/sugar-etoys-activity.linyaps/files/entrypoint.sh etoys-activity
+[PID 9689] 进程已启动
+[PID 9689] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall sugar-etoys-activity.linyaps
