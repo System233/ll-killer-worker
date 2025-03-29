@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: parlatype.linyaps
+  name: parlatype
+  version: 3.1.0.3
+  kind: app
+  description: |-
+    Minimal audio player for manual speech transcription
+    Plays audio sources to transcribe them in your favourite text application.
+    Speed of playback can be changed without changing the pitch and on pause it
+    will rewind for a few seconds according to your preferences. Parlatype can be
+    controlled with the "Play" button from your keyboard even if its window is not
+    focused.
+command:
+- /opt/apps/parlatype.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
