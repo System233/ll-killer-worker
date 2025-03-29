@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: rockdodger.linyaps
+  name: rockdodger
+  version: 1.1.4.2
+  kind: app
+  description: |-
+    Fly through an asteroid field avoiding rocks and greeblies
+    Rock Dodger is a horizontal scrolling action game where you have to
+    navigate your spaceship through a stream of rocks flying in from the
+    right. Your only help is a laser to destroy rocks and a limited amount
+    of shield. This game had once upon in time the 4th place in NoStarch
+    game contest.
+command:
+- /opt/apps/rockdodger.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
