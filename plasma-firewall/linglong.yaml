@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: plasma-firewall.linyaps
+  name: plasma-firewall
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    Plasma configuration module for firewalls
+    Plasma Firewall provides a way to graphically configure a firewall service.
+
+    Supported firewalls are:
+    - firewalld
+    - ufw
+command:
+- /opt/apps/plasma-firewall.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
