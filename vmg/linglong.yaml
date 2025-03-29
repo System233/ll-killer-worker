@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: vmg.linyaps
+  name: vmg
+  version: 3.7.1.8
+  kind: app
+  description: |-
+    Virtual Magnifying Glass
+    Virtual Magnifying Glass is designed for visually-impaired and others who need
+    to magnify a part of the screen. Unlike most similar programs it does not open
+    a separate window for the magnification but instead puts a movable magnifying
+    glass on screen.
+command:
+- /opt/apps/vmg.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
