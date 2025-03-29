@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: pithos.linyaps
+  name: pithos
+  version: 1.6.1.0
+  kind: app
+  description: |-
+    Pandora Radio client for the GNOME desktop
+    Pithos is a cross-platform desktop client for the personalized web
+    radio Pandora, supporting all important features the official Flash™
+    client has.
+
+    Pithos was based on pianobar, a console client for Pandora. In addition
+    to sporting a GTK+ GUI, Pithos has feature-parity with pianobar.
+
+    Out of concern for the longevity of Pandora Media Inc., the
+    software authors would recommend subscribing to Pandora One.
+
+    Use of this application requires a Pandora account; one can be created
+    for free at https://pandora.com.
+command:
+- /opt/apps/pithos.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
