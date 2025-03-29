@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: nitrokey-app.linyaps
+  name: nitrokey-app
+  version: 1.4.2.1
+  kind: app
+  description: |-
+    Application to manage the Nitrokey
+    Nitrokey is an open source/open hardware USB key supporting
+    secure encryption and signing. This package installs the
+    official application to manage the features of the different
+    USB keys.
+command:
+- /opt/apps/nitrokey-app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
