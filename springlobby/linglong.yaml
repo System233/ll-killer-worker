@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: springlobby.linyaps
+  name: springlobby
+  version: 0.274.0.1
+  kind: app
+  description: |-
+    single/multiplayer lobby for the Spring RTS engine
+    This package provides a single-player and multiplayer lobby for Spring.
+    Other features include a P2P system for downloading maps and mods and
+    a built-in IRC-like chat client.
+command:
+- /opt/apps/springlobby.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
