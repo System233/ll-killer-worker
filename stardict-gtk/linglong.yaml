@@ -1,0 +1,28 @@
+version: "1"
+package:
+  id: stardict-gtk.linyaps
+  name: stardict-gtk
+  version: 3.0.7.4
+  kind: app
+  description: |-
+    International dictionary lookup program - gtk
+    StarDict is a cross-platform international dictionary lookup program.
+
+    Main features:
+    * Glob-style pattern matching search
+    * Fuzzy search
+    * Working from system tray
+    * Scanning mouse selection and showing pop-up windows with translation of
+    selected words
+    * Pronouncing of the translated words
+    * Plugins support
+    * ..and more
+
+    This package is compiled without GNOME support and contains only
+    the program of stardict and will be of limited use without the
+    dictionary files. For more information about how to get the
+    dictionary files, please read /usr/share/doc/stardict/README.Debian.
+command:
+- /opt/apps/stardict-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
