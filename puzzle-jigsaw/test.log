@@ -1,0 +1,34 @@
+正在测试: APPID=puzzle-jigsaw.linyaps LAYER=puzzle-jigsaw.linyaps_1.0.2.4_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install puzzle-jigsaw.linyaps_1.0.2.4_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:puzzle-jigsaw.linyaps
+Layer文件:puzzle-jigsaw.linyaps_1.0.2.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: puzzle-jigsaw.linyaps_1.0.2.4_arm64_binary.layer
+offset: 503
+mountpoint: /tmp/tmp.w4SdX0Blq1/mnt
+dbglevel: 0
+[成功] puzzle-jigsaw.desktop: puzzle-jigsaw -> /opt/apps/puzzle-jigsaw.linyaps/files/share/icons/hicolor/16x16/apps/puzzle-jigsaw.png
+[成功] /opt/apps/puzzle-jigsaw.linyaps/files/share/applications/puzzle-jigsaw.desktop: /opt/apps/puzzle-jigsaw.linyaps/files/entrypoint.sh puzzle-jigsaw
+[正在测试启动项]
+包名:puzzle-jigsaw.linyaps
+Layer文件:puzzle-jigsaw.linyaps_1.0.2.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: puzzle-jigsaw.linyaps_1.0.2.4_arm64_binary.layer
+offset: 503
+mountpoint: /tmp/tmp.2YdQ5gvKNR/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run puzzle-jigsaw.linyaps -- /opt/apps/puzzle-jigsaw.linyaps/files/entrypoint.sh puzzle-jigsaw
+[PID 9184] 进程已启动
+[PID 9184] 已检测到窗口:PID=37
+[PID 9184] 正在截图 0秒: tests/screen0-0.jpg
+[PID 9184] 正在截图 1秒: tests/screen0-1.jpg
+[PID 9184] 正在截图 3秒: tests/screen0-3.jpg
+[PID 9184] 正在截图 5秒: tests/screen0-5.jpg
+[PID 9184] 正在通知并等待进程退出
+[PID 9184] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall puzzle-jigsaw.linyaps
