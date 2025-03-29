@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: wesnoth-1.16-core.linyaps
+  name: wesnoth-1.16-core
+  version: 1.16.11.1
+  kind: app
+  description: |-
+    fantasy turn-based strategy game (branch 1.16)
+    This package contains the main program for wesnoth. It can be used to play
+    multiplayer games.  If you want to play campaigns you will have to install
+    them individually, but if you prefer to have all the official campaigns
+    installed please be advised to install the wesnoth-1.16 package which depends
+    on all of them.
+
+    Battle for control of villages, using variety of units which have advantages
+    and disadvantages in different types of terrains and against different types
+    of attacks.  Units gain experience and advance levels, and are carried over
+    from one scenario to the next in a campaign.
+command:
+- /opt/apps/wesnoth-1.16-core.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
