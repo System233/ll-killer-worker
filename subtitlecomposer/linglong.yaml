@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: subtitlecomposer.linyaps
+  name: subtitlecomposer
+  version: 0.8.0.1
+  kind: app
+  description: |-
+    text-based subtitle editor
+    A text-based subtitles editor supporting basic operations (text, time and
+    style edition), realtime previewing and spell checking. Other fancy features
+    are delaying all subtitles in the current subtitle file, checking errors or
+    creating translations.
+
+    Different backends (GStreamer, MPlayer, MPV, or Phonon) can be used to play
+    the realtime video preview which helps to synchronize the subtitles.
+command:
+- /opt/apps/subtitlecomposer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
