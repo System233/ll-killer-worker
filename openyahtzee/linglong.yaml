@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: openyahtzee.linyaps
+  name: openyahtzee
+  version: 1.9.3.5
+  kind: app
+  description: |-
+    classic dice game of Yahtzee
+    Open Yahtzee is a version of the classic dice game
+    Yahtzee. Also known as Knubbel or Pasch.
+
+    Open Yahtzee is built to be a full-featured Yahtzee
+    implementation, with a user-friendly interface
+    including animated dice rolls.
+
+    For other implementations see the gtali game in the
+    gnome-games package.
+command:
+- /opt/apps/openyahtzee.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
