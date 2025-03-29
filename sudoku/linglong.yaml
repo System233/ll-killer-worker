@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: sudoku.linyaps
+  name: sudoku
+  version: 1.0.5.2
+  kind: app
+  description: |-
+    console based sudoku
+    This sudoku puzzle generator/solver features:
+    * character based (curses) interface;
+    * cross-platform (Minix, Unix, Windows) with full source code (ANSI C);
+    * generates hints upon request;
+    * classification of board difficulty (very easy, easy, medium, hard or
+    fiendish);
+    * generation of new boards;
+    * easy entry of boards published in newspapers, Internet, ...;
+    * multiple output formats (text, csv, HTML, PostScript).
+command:
+- /opt/apps/sudoku.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
