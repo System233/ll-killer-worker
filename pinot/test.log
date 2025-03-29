@@ -1,0 +1,45 @@
+正在测试: APPID=pinot.linyaps LAYER=pinot.linyaps_1.21.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install pinot.linyaps_1.21.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:pinot.linyaps
+Layer文件:pinot.linyaps_1.21.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pinot.linyaps_1.21.0.1_arm64_binary.layer
+offset: 1003
+mountpoint: /tmp/tmp.41Et2xtMxW/mnt
+dbglevel: 0
+[成功] pinot-prefs.desktop: pinot -> /opt/apps/pinot.linyaps/files/share/icons/hicolor/16x16/apps/pinot.png
+[成功] /opt/apps/pinot.linyaps/files/share/applications/pinot-prefs.desktop: /opt/apps/pinot.linyaps/files/entrypoint.sh pinot-prefs
+[成功] pinot.desktop: pinot -> /opt/apps/pinot.linyaps/files/share/icons/hicolor/16x16/apps/pinot.png
+[成功] /opt/apps/pinot.linyaps/files/share/applications/pinot.desktop: /opt/apps/pinot.linyaps/files/entrypoint.sh pinot
+[正在测试启动项]
+包名:pinot.linyaps
+Layer文件:pinot.linyaps_1.21.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: pinot.linyaps_1.21.0.1_arm64_binary.layer
+offset: 1003
+mountpoint: /tmp/tmp.124u2ySvgY/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run pinot.linyaps -- /opt/apps/pinot.linyaps/files/entrypoint.sh pinot-prefs
+[PID 31685] 进程已启动
+[PID 31685] 已检测到窗口:PID=36
+[PID 31685] 正在截图 0秒: tests/screen0-0.jpg
+[PID 31685] 正在截图 1秒: tests/screen0-1.jpg
+[PID 31685] 正在截图 3秒: tests/screen0-3.jpg
+[PID 31685] 正在截图 5秒: tests/screen0-5.jpg
+[PID 31685] 正在通知并等待进程退出
+[PID 31685] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run pinot.linyaps -- /opt/apps/pinot.linyaps/files/entrypoint.sh pinot
+[PID 31894] 进程已启动
+[PID 31894] 已检测到窗口:PID=36
+[PID 31894] 正在截图 0秒: tests/screen1-0.jpg
+[PID 31894] 正在截图 1秒: tests/screen1-1.jpg
+[PID 31894] 正在截图 3秒: tests/screen1-3.jpg
+[PID 31894] 正在截图 5秒: tests/screen1-5.jpg
+[PID 31894] 正在通知并等待进程退出
+[PID 31894] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall pinot.linyaps
