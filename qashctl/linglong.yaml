@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: qashctl.linyaps
+  name: qashctl
+  version: 1.4.0.1
+  kind: app
+  description: |-
+    mixer for ALSA's High level Control Interface
+    QasTools is a collection of desktop applications for the
+    Linux sound system ALSA.
+
+    The applications included are:
+    - QasConfig - browser for the ALSA configuration tree
+    - QasHctl - mixer for ALSA's High level Control Interface
+    - QasMixer - desktop mixer with features similar to alsamixer
+
+    QasHctl is a mixer application for ALSA's
+    "High level Control Interface". This interface allows more complex
+    interaction than the "Simple Mixer Interface" which is used by
+    alsamixer and QasMixer.
+command:
+- /opt/apps/qashctl.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
