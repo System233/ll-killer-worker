@@ -1,0 +1,30 @@
+version: "1"
+package:
+  id: okular.linyaps
+  name: okular
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    universal document viewer
+    Okular is a universal document viewer with support for advanced document
+    features, such as annotations, forms, and embedded files.
+
+    This package provides the document viewer application, plus plugins for a wide
+    variety of document formats such as:
+    * PostScript (PS)
+    * Portable Document Format (PDF)
+    * TeX Device independent file format (DVI)
+    * XML Paper Specification (XPS)
+    * G3 fax
+    * various electronic book formats: ComicBook, FictionBook, and Plucker
+
+    Additional document formats are in the okular-extra-backends package.
+
+    The Calligra suite provides Okular plugins for OpenDocument formats that can
+    be found in the okular-backend-odt and okular-backend-odp packages.
+
+    This package is part of the KDE graphics module.
+command:
+- /opt/apps/okular.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
