@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: syncmaildir-applet.linyaps
+  name: syncmaildir-applet
+  version: 1.3.0.2
+  kind: app
+  description: |-
+    mailbox synchronization tools - GNOME applet
+    Sync Mail Dir is a set of utilities to synchronize a pair of mailboxes
+    in Maildir format, using SSH to transfer data.
+
+    This package provides an applet that integrates smd-loop with GNOME; that
+    is, it notifies the user with popups, starts smd-loop when the user logs
+    in, and provides a simple user interface to deal with synchronization
+    errors.
+command:
+- /opt/apps/syncmaildir-applet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

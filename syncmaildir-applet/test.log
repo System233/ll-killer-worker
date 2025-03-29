@@ -1,0 +1,32 @@
+正在测试: APPID=syncmaildir-applet.linyaps LAYER=syncmaildir-applet.linyaps_1.3.0.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install syncmaildir-applet.linyaps_1.3.0.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:syncmaildir-applet.linyaps
+Layer文件:syncmaildir-applet.linyaps_1.3.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: syncmaildir-applet.linyaps_1.3.0.2_arm64_binary.layer
+offset: 780
+mountpoint: /tmp/tmp.OlieVLqTAQ/mnt
+dbglevel: 0
+find: ‘/opt/apps/syncmaildir-applet.linyaps/files/share/icons’: No such file or directory
+find: ‘/opt/apps/syncmaildir-applet.linyaps/files/share/pixmaps’: No such file or directory
+[成功] smd-applet.desktop: mail-send-receive -> /usr/share/icons/Humanity/actions/22/mail-send-receive.svg
+[成功] /opt/apps/syncmaildir-applet.linyaps/files/share/applications/smd-applet.desktop: /opt/apps/syncmaildir-applet.linyaps/files/entrypoint.sh smd-applet
+[正在测试启动项]
+包名:syncmaildir-applet.linyaps
+Layer文件:syncmaildir-applet.linyaps_1.3.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: syncmaildir-applet.linyaps_1.3.0.2_arm64_binary.layer
+offset: 780
+mountpoint: /tmp/tmp.JlaxQBBVdF/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run syncmaildir-applet.linyaps -- /opt/apps/syncmaildir-applet.linyaps/files/entrypoint.sh smd-applet
+[PID 8512] 进程已启动
+[PID 8512] 等待超时，未能检测到窗口
+[PID 8512] 正在通知并等待进程退出
+[PID 8512] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall syncmaildir-applet.linyaps
