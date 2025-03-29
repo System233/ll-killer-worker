@@ -1,0 +1,28 @@
+正在测试: APPID=progvis.linyaps LAYER=progvis.linyaps_0.6.20.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install progvis.linyaps_0.6.20.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:progvis.linyaps
+Layer文件:progvis.linyaps_0.6.20.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: progvis.linyaps_0.6.20.1_arm64_binary.layer
+offset: 662
+mountpoint: /tmp/tmp.hPa03EbCbk/mnt
+dbglevel: 0
+[成功] org.storm_lang.progvis.desktop: org.storm_lang.progvis -> /opt/apps/progvis.linyaps/files/share/icons/hicolor/256x256/apps/org.storm_lang.progvis.png
+[成功] /opt/apps/progvis.linyaps/files/share/applications/org.storm_lang.progvis.desktop: /opt/apps/progvis.linyaps/files/entrypoint.sh /usr/bin/progvis
+[正在测试启动项]
+包名:progvis.linyaps
+Layer文件:progvis.linyaps_0.6.20.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: progvis.linyaps_0.6.20.1_arm64_binary.layer
+offset: 662
+mountpoint: /tmp/tmp.rkF80Wujt4/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run progvis.linyaps -- /opt/apps/progvis.linyaps/files/entrypoint.sh /usr/bin/progvis
+[PID 9032] 进程已启动
+[PID 9032] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall progvis.linyaps
