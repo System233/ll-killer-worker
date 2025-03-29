@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: spatialite-gui.linyaps
+  name: spatialite-gui
+  version: 2.1.0.2
+  kind: app
+  description: |-
+    user-friendly graphical user interface for SpatiaLite
+    spatialite-gui is a Graphical User Interface (GUI) for SpatiaLite.
+
+    SpatiaLite is a SQLite extension that enables support of spatial (geometry)
+    data in a way conformant to OpenGis specifications, with both WKT and WKB
+    formats.
+
+    Spatialite also includes Virtualshape and Virtualtext to enable accessing
+    shapefiles and csv/text files as virtual tables.
+command:
+- /opt/apps/spatialite-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
