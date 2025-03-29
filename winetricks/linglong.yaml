@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: winetricks.linyaps
+  name: winetricks
+  version: 20240105.0.0.2
+  kind: app
+  description: |-
+    simple tool to work around common problems in Wine
+    Winetricks lets you install missing DLLs or tweak various Wine settings
+    individually.  It also has a menu of supported games/apps for which it
+    can do all the workarounds automatically.
+
+    It can be used via GUI or commandline, whichever you prefer; the
+    commandline mode is particularly useful as a building block in fancier
+    wine frontends and in automated regression testing.
+command:
+- /opt/apps/winetricks.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
