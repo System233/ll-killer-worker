@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: partitionmanager.linyaps
+  name: partitionmanager
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    file, disk and partition management for KDE
+    Partition Manager is a utility program to help you manage the disk devices,
+    partitions and file systems on your computer. It allows you to easily create,
+    copy, move, delete, resize without losing data, backup and restore partitions.
+
+    Partition Manager supports a large number of file systems, including ext2/3/4,
+    reiserfs, NTFS, FAT16/32, jfs, xfs and more. Note that to gain support for a
+    specific file system other than ext2/3/4, you should install the corresponding
+    suggested package.
+
+    Partition Manager is based on libparted (like gparted) and makes use of the
+    KDE libraries for its user interface.
+command:
+- /opt/apps/partitionmanager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
