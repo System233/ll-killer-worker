@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: rlvm.linyaps
+  name: rlvm
+  version: 0.14.0.5
+  kind: app
+  description: |-
+    RealLive virtual machine clone
+    rlvm is a Free Software reimplementation of VisualArt's KK's RealLive
+    interpreter. RealLive is a game engine used to write visual novels, used in
+    the games Kanon, Air, CLANNAD, Planetarian, Tomoyo After and Little Busters,
+    among many others.
+command:
+- /opt/apps/rlvm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
