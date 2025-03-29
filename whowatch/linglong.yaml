@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: whowatch.linyaps
+  name: whowatch
+  version: 1.8.6.1
+  kind: app
+  description: |-
+    Real-time user logins monitoring tool
+    whowatch is a ncurses who-like utility that displays information about the
+    users currently logged on to the machine, in real-time.  Besides standard
+    information (login name, tty, host, user's process), the type of the
+    connection (ie. telnet or ssh) is shown.
+command:
+- /opt/apps/whowatch.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
