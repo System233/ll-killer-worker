@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: pixelize.linyaps
+  name: pixelize
+  version: 2.0.0.1
+  kind: app
+  description: |-
+    Create an image consisting of many small images
+    Pixelize is a program that will use many scaled down images to
+    try to duplicate, as closely as possible, another image.
+
+    Pixelize works by splitting up the image you want rendered (or
+    duplicated) into a grid of small rectangular areas. Each area
+    is analyzed, and replaced with an image chosen from a large
+    database of images. Pixelize tries to pick images that best
+    match each area.
+command:
+- /opt/apps/pixelize.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
