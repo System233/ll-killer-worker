@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: sugar-calculate-activity.linyaps
+  name: sugar-calculate-activity
+  version: 47.0.0.1
+  kind: app
+  description: |-
+    Sugar Learning Platform - calculation activity
+    Sugar Learning Platform promotes collaborative learning
+    through Sugar Activities that encourage critical thinking,
+    the heart of a quality education.
+    Designed from the ground up especially for children,
+    Sugar offers an alternative to traditional "office-desktop" software.
+
+    Learner applications in Sugar are called Activities.
+    They are software packages that automatically save your work -
+    producing specific instances of the Activity
+    that can be resumed at a later time.
+    Many Activities support learner collaboration,
+    where multiple learners may be invited
+    to join a collective Activity session.
+
+    The Calculate Activity is an infix-notation graphing calculator.
+    Type an expression or select components from the toolbars,
+    and press Return to evaluate it.
+command:
+- /opt/apps/sugar-calculate-activity.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
