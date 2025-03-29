@@ -1,0 +1,29 @@
+正在测试: APPID=phosh.linyaps LAYER=phosh.linyaps_0.38.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install phosh.linyaps_0.38.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:phosh.linyaps
+Layer文件:phosh.linyaps_0.38.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: phosh.linyaps_0.38.0.1_arm64_binary.layer
+offset: 710
+mountpoint: /tmp/tmp.oHZqPc6jdo/mnt
+dbglevel: 0
+grep: /opt/apps/phosh.linyaps/files/share/applications/sm.puri.OSK0.desktop: No such file or directory
+grep: /opt/apps/phosh.linyaps/files/share/applications/sm.puri.OSK0.desktop: No such file or directory
+[31m[失败] /opt/apps/phosh.linyaps/files/share/applications/sm.puri.OSK0.desktop:: 找不到此启动文件 [0m
+[31m[失败] sm.puri.Phosh.desktop:sm.puri.Phosh: 找不到此图标 [0m
+[成功] /opt/apps/phosh.linyaps/files/share/applications/sm.puri.Phosh.desktop: /opt/apps/phosh.linyaps/files/entrypoint.sh /usr/libexec/phosh
+[正在测试启动项]
+包名:phosh.linyaps
+Layer文件:phosh.linyaps_0.38.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: phosh.linyaps_0.38.0.1_arm64_binary.layer
+offset: 710
+mountpoint: /tmp/tmp.SYCodCrAWw/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+cat: /opt/apps/phosh.linyaps/files/share/applications/sm.puri.OSK0.desktop: No such file or directory
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall phosh.linyaps
