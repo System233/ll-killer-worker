@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: petris.linyaps
+  name: petris
+  version: 1.0.1.11
+  kind: app
+  description: |-
+    Peter's Tetris - a Tetris(TM) clone
+    Petris supports colours and even features a highscore list.
+command:
+- /opt/apps/petris.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

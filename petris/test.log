@@ -1,0 +1,28 @@
+正在测试: APPID=petris.linyaps LAYER=petris.linyaps_1.0.1.11_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install petris.linyaps_1.0.1.11_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:petris.linyaps
+Layer文件:petris.linyaps_1.0.1.11_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: petris.linyaps_1.0.1.11_arm64_binary.layer
+offset: 446
+mountpoint: /tmp/tmp.uKGOYFLQ4g/mnt
+dbglevel: 0
+[成功] petris.desktop: petris-icon -> /opt/apps/petris.linyaps/files/share/icons/hicolor/128x128/apps/petris-icon.png
+[成功] /opt/apps/petris.linyaps/files/share/applications/petris.desktop: /opt/apps/petris.linyaps/files/entrypoint.sh petris
+[正在测试启动项]
+包名:petris.linyaps
+Layer文件:petris.linyaps_1.0.1.11_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: petris.linyaps_1.0.1.11_arm64_binary.layer
+offset: 446
+mountpoint: /tmp/tmp.iYU2MqvHSN/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run petris.linyaps -- /opt/apps/petris.linyaps/files/entrypoint.sh petris
+[PID 5387] 进程已启动
+[PID 5387] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall petris.linyaps
