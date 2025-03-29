@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: qtscrob.linyaps
+  name: qtscrob
+  version: 0.11.0.5
+  kind: app
+  description: |-
+    audioscrobbler submitter for portable media players - Qt frontend
+    qtscrob is a GUI tool which reads playback information from iPods,
+    MTP (aka Plays for Sure) or Rockbox (open source audio player
+    firmware) devices and submits them to an audioscrobbler service, such
+    as "last.fm" or "libre.fm".
+
+    This is the graphical version of the tool. For a CLI version, see the
+    'scrobbler' package.
+command:
+- /opt/apps/qtscrob.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
