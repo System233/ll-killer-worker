@@ -1,0 +1,30 @@
+正在测试: APPID=rockhopper.linyaps LAYER=rockhopper.linyaps_2.0.3.4_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install rockhopper.linyaps_2.0.3.4_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:rockhopper.linyaps
+Layer文件:rockhopper.linyaps_2.0.3.4_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: rockhopper.linyaps_2.0.3.4_x86_64_binary.layer
+offset: 1204
+mountpoint: /tmp/tmp.mHmpEUlFjE/mnt
+dbglevel: 0
+[成功] rockhoppergui.desktop: rockhopper -> /opt/apps/rockhopper.linyaps/files/share/icons/hicolor/64x64/apps/rockhopper.png
+[成功] /opt/apps/rockhopper.linyaps/files/share/applications/rockhoppergui.desktop: /opt/apps/rockhopper.linyaps/files/entrypoint.sh rockhoppergui
+[正在测试启动项]
+包名:rockhopper.linyaps
+Layer文件:rockhopper.linyaps_2.0.3.4_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: rockhopper.linyaps_2.0.3.4_x86_64_binary.layer
+offset: 1204
+mountpoint: /tmp/tmp.zoI7qlg8kt/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run rockhopper.linyaps -- /opt/apps/rockhopper.linyaps/files/entrypoint.sh rockhoppergui
+[PID 12999] 进程已启动
+[PID 12999] 等待超时，未能检测到窗口
+[PID 12999] 正在通知并等待进程退出
+[PID 12999] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall rockhopper.linyaps
