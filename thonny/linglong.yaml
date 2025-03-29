@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: thonny.linyaps
+  name: thonny
+  version: 4.0.1.1
+  kind: app
+  description: |-
+    Python IDE for beginners
+    Thonny is a simple Python IDE with features useful for learning programming.
+
+    It comes with a debugger which is able to visualize all the conceptual steps
+    taken to run a Python program (executing statements, evaluating expressions,
+    maintaining the call stack). There is a GUI for installing 3rd party packages
+    and special mode for learning about references.
+
+    See the homepage for more information and screenshots.
+command:
+- /opt/apps/thonny.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
