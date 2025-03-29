@@ -1,0 +1,252 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  file libasound2-data libasound2t64 libflac12t64 libfuse2t64 libmagic-mgc
+  libmagic1t64 libmpg123-0t64 libopencore-amrnb0 libopencore-amrwb0
+  libpng16-16t64 libsnack-oss libsox-fmt-alsa libsox-fmt-base libsox3
+  libtcl8.6 libtk8.6 libvorbis0a libvorbisenc2 libvorbisfile3 libwavpack1
+  libxss1 osspd osspd-pulseaudio sox tcl tcl-snack tcl-tclex tcl8.6 tk tk8.6
+Suggested packages:
+  alsa-utils fuse libsox-fmt-all tcl-snack-doc tcl-tclreadline
+Recommended packages:
+  alsa-ucm-conf alsa-topology-conf
+The following packages will be REMOVED:
+  libasound2 libmagic1 libpng16-16
+The following NEW packages will be installed:
+  libasound2t64 libflac12t64 libfuse2t64 libmagic1t64 libmpg123-0t64
+  libopencore-amrnb0 libopencore-amrwb0 libpng16-16t64 libsnack-oss
+  libsox-fmt-alsa libsox-fmt-base libsox3 libtcl8.6 libtk8.6 libvorbisfile3
+  libwavpack1 libxss1 osspd osspd-pulseaudio sox tcl tcl-snack tcl-tclex
+  tcl8.6 tk tk8.6 transcriber
+The following packages will be upgraded:
+  file libasound2-data libmagic-mgc libvorbis0a libvorbisenc2
+5 upgraded, 27 newly installed, 3 to remove and 446 not upgraded.
+Need to get 5286 kB of archives.
+After this operation, 14.4 MB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libasound2-data all 1.2.11-1build2 [21.0 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libasound2t64 arm64 1.2.11-1build2 [387 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 file arm64 1:5.45-3build1 [22.0 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libmagic-mgc arm64 1:5.45-3build1 [307 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libmagic1t64 arm64 1:5.45-3build1 [85.7 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libpng16-16t64 arm64 1.6.43-5build1 [185 kB]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 osspd-pulseaudio arm64 1.3.2-13.1build3 [19.7 kB]
+Get:8 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libfuse2t64 arm64 2.9.9-8.1build1 [89.9 kB]
+Get:9 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 osspd arm64 1.3.2-13.1build3 [25.8 kB]
+Get:10 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libflac12t64 arm64 1.4.3+ds-2.1ubuntu2 [170 kB]
+Get:11 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libmpg123-0t64 arm64 1.32.5-1ubuntu1.1 [172 kB]
+Get:12 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libopencore-amrnb0 arm64 0.1.6-1build1 [97.0 kB]
+Get:13 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libopencore-amrwb0 arm64 0.1.6-1build1 [50.3 kB]
+Get:14 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libsnack-oss arm64 2.2.10.20090624+dfsg-1build3 [191 kB]
+Get:15 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libsox3 arm64 14.4.2+git20190427-4build4 [236 kB]
+Get:16 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libsox-fmt-alsa arm64 14.4.2+git20190427-4build4 [10.9 kB]
+Get:17 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libvorbisenc2 arm64 1.3.7-1build3 [80.0 kB]
+Get:18 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libvorbis0a arm64 1.3.7-1build3 [94.0 kB]
+Get:19 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libvorbisfile3 arm64 1.3.7-1build3 [17.1 kB]
+Get:20 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libwavpack1 arm64 5.6.0-1build1 [79.2 kB]
+Get:21 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libsox-fmt-base arm64 14.4.2+git20190427-4build4 [34.8 kB]
+Get:22 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libtcl8.6 arm64 8.6.14+dfsg-1build1 [978 kB]
+Get:23 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxss1 arm64 1:1.2.3-1build3 [7244 B]
+Get:24 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libtk8.6 arm64 8.6.14-1build1 [767 kB]
+Get:25 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 sox arm64 14.4.2+git20190427-4build4 [101 kB]
+Get:26 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 tcl8.6 arm64 8.6.14+dfsg-1build1 [14.6 kB]
+Get:27 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 tcl arm64 8.6.14build1 [4124 B]
+Get:28 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 tcl-snack arm64 2.2.10.20090624+dfsg-1build3 [35.5 kB]
+Get:29 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 tk8.6 arm64 8.6.14-1build1 [12.3 kB]
+Get:30 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 tk arm64 8.6.14build1 [3076 B]
+Get:31 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 tcl-tclex arm64 1.2a1-17 [43.9 kB]
+Get:32 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 transcriber arm64 1.5.1.1-10build1 [945 kB]
+Fetched 5286 kB in 3s (1731 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libasound2-data_1.2.11-1build2_all.deb ...
+Unpacking libasound2-data (1.2.11-1build2) over (1.2.8-1) ...
+dpkg: libasound2:arm64: dependency problems, but removing anyway as you requested:
+ pulseaudio depends on libasound2 (>= 1.2.1.1).
+ pipewire-bin depends on libasound2 (>= 1.2.1.1).
+ libspa-0.2-modules:arm64 depends on libasound2 (>= 1.2.1.1).
+ libasound2-plugins:arm64 depends on libasound2 (>= 1.2.5).
+ bluez depends on libasound2 (>= 1.0.17).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Removing libasound2:arm64 (1.2.8-1) ...
+Selecting previously unselected package libasound2t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27733 files and directories currently installed.)
+Preparing to unpack .../libasound2t64_1.2.11-1build2_arm64.deb ...
+Unpacking libasound2t64:arm64 (1.2.11-1build2) ...
+Preparing to unpack .../file_1%3a5.45-3build1_arm64.deb ...
+Unpacking file (1:5.45-3build1) over (1:5.45-2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Removing libmagic1:arm64 (1:5.45-2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27729 files and directories currently installed.)
+Preparing to unpack .../libmagic-mgc_1%3a5.45-3build1_arm64.deb ...
+Unpacking libmagic-mgc (1:5.45-3build1) over (1:5.45-2) ...
+Selecting previously unselected package libmagic1t64:arm64.
+Preparing to unpack .../libmagic1t64_1%3a5.45-3build1_arm64.deb ...
+Unpacking libmagic1t64:arm64 (1:5.45-3build1) ...
+dpkg: libpng16-16:arm64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:arm64 depends on libpng16-16 (>= 1.6.2).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27739 files and directories currently installed.)
+Removing libpng16-16:arm64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27728 files and directories currently installed.)
+Preparing to unpack .../00-libpng16-16t64_1.6.43-5build1_arm64.deb ...
+Unpacking libpng16-16t64:arm64 (1.6.43-5build1) ...
+Selecting previously unselected package osspd-pulseaudio.
+Preparing to unpack .../01-osspd-pulseaudio_1.3.2-13.1build3_arm64.deb ...
+Unpacking osspd-pulseaudio (1.3.2-13.1build3) ...
+Selecting previously unselected package libfuse2t64:arm64.
+Preparing to unpack .../02-libfuse2t64_2.9.9-8.1build1_arm64.deb ...
+Unpacking libfuse2t64:arm64 (2.9.9-8.1build1) ...
+Selecting previously unselected package osspd.
+Preparing to unpack .../03-osspd_1.3.2-13.1build3_arm64.deb ...
+Unpacking osspd (1.3.2-13.1build3) ...
+Selecting previously unselected package libflac12t64:arm64.
+Preparing to unpack .../04-libflac12t64_1.4.3+ds-2.1ubuntu2_arm64.deb ...
+Unpacking libflac12t64:arm64 (1.4.3+ds-2.1ubuntu2) ...
+Selecting previously unselected package libmpg123-0t64:arm64.
+Preparing to unpack .../05-libmpg123-0t64_1.32.5-1ubuntu1.1_arm64.deb ...
+Unpacking libmpg123-0t64:arm64 (1.32.5-1ubuntu1.1) ...
+Selecting previously unselected package libopencore-amrnb0:arm64.
+Preparing to unpack .../06-libopencore-amrnb0_0.1.6-1build1_arm64.deb ...
+Unpacking libopencore-amrnb0:arm64 (0.1.6-1build1) ...
+Selecting previously unselected package libopencore-amrwb0:arm64.
+Preparing to unpack .../07-libopencore-amrwb0_0.1.6-1build1_arm64.deb ...
+Unpacking libopencore-amrwb0:arm64 (0.1.6-1build1) ...
+Selecting previously unselected package libsnack-oss.
+Preparing to unpack .../08-libsnack-oss_2.2.10.20090624+dfsg-1build3_arm64.deb ...
+Unpacking libsnack-oss (2.2.10.20090624+dfsg-1build3) ...
+Selecting previously unselected package libsox3:arm64.
+Preparing to unpack .../09-libsox3_14.4.2+git20190427-4build4_arm64.deb ...
+Unpacking libsox3:arm64 (14.4.2+git20190427-4build4) ...
+Selecting previously unselected package libsox-fmt-alsa:arm64.
+Preparing to unpack .../10-libsox-fmt-alsa_14.4.2+git20190427-4build4_arm64.deb ...
+Unpacking libsox-fmt-alsa:arm64 (14.4.2+git20190427-4build4) ...
+Preparing to unpack .../11-libvorbisenc2_1.3.7-1build3_arm64.deb ...
+Unpacking libvorbisenc2:arm64 (1.3.7-1build3) over (1.3.7-1) ...
+Preparing to unpack .../12-libvorbis0a_1.3.7-1build3_arm64.deb ...
+Unpacking libvorbis0a:arm64 (1.3.7-1build3) over (1.3.7-1) ...
+Selecting previously unselected package libvorbisfile3:arm64.
+Preparing to unpack .../13-libvorbisfile3_1.3.7-1build3_arm64.deb ...
+Unpacking libvorbisfile3:arm64 (1.3.7-1build3) ...
+Selecting previously unselected package libwavpack1:arm64.
+Preparing to unpack .../14-libwavpack1_5.6.0-1build1_arm64.deb ...
+Unpacking libwavpack1:arm64 (5.6.0-1build1) ...
+Selecting previously unselected package libsox-fmt-base:arm64.
+Preparing to unpack .../15-libsox-fmt-base_14.4.2+git20190427-4build4_arm64.deb ...
+Unpacking libsox-fmt-base:arm64 (14.4.2+git20190427-4build4) ...
+Selecting previously unselected package libtcl8.6:arm64.
+Preparing to unpack .../16-libtcl8.6_8.6.14+dfsg-1build1_arm64.deb ...
+Unpacking libtcl8.6:arm64 (8.6.14+dfsg-1build1) ...
+Selecting previously unselected package libxss1:arm64.
+Preparing to unpack .../17-libxss1_1%3a1.2.3-1build3_arm64.deb ...
+Unpacking libxss1:arm64 (1:1.2.3-1build3) ...
+Selecting previously unselected package libtk8.6:arm64.
+Preparing to unpack .../18-libtk8.6_8.6.14-1build1_arm64.deb ...
+Unpacking libtk8.6:arm64 (8.6.14-1build1) ...
+Selecting previously unselected package sox.
+Preparing to unpack .../19-sox_14.4.2+git20190427-4build4_arm64.deb ...
+Unpacking sox (14.4.2+git20190427-4build4) ...
+Selecting previously unselected package tcl8.6.
+Preparing to unpack .../20-tcl8.6_8.6.14+dfsg-1build1_arm64.deb ...
+Unpacking tcl8.6 (8.6.14+dfsg-1build1) ...
+Selecting previously unselected package tcl.
+Preparing to unpack .../21-tcl_8.6.14build1_arm64.deb ...
+Unpacking tcl (8.6.14build1) ...
+Selecting previously unselected package tcl-snack.
+Preparing to unpack .../22-tcl-snack_2.2.10.20090624+dfsg-1build3_arm64.deb ...
+Unpacking tcl-snack (2.2.10.20090624+dfsg-1build3) ...
+Selecting previously unselected package tk8.6.
+Preparing to unpack .../23-tk8.6_8.6.14-1build1_arm64.deb ...
+Unpacking tk8.6 (8.6.14-1build1) ...
+Selecting previously unselected package tk.
+Preparing to unpack .../24-tk_8.6.14build1_arm64.deb ...
+Unpacking tk (8.6.14build1) ...
+Selecting previously unselected package tcl-tclex.
+Preparing to unpack .../25-tcl-tclex_1.2a1-17_arm64.deb ...
+Unpacking tcl-tclex (1.2a1-17) ...
+Selecting previously unselected package transcriber.
+Preparing to unpack .../26-transcriber_1.5.1.1-10build1_arm64.deb ...
+Unpacking transcriber (1.5.1.1-10build1) ...
+Setting up libmagic-mgc (1:5.45-3build1) ...
+Setting up osspd-pulseaudio (1.3.2-13.1build3) ...
+update-alternatives: using /usr/lib/osspd/ossp-padsp to provide /usr/lib/osspd/ossp-slave (ossp-slave) in auto mode
+Setting up libmagic1t64:arm64 (1:5.45-3build1) ...
+Setting up file (1:5.45-3build1) ...
+Setting up libmpg123-0t64:arm64 (1.32.5-1ubuntu1.1) ...
+Setting up libasound2-data (1.2.11-1build2) ...
+Setting up libopencore-amrwb0:arm64 (0.1.6-1build1) ...
+Setting up libasound2t64:arm64 (1.2.11-1build2) ...
+Setting up libpng16-16t64:arm64 (1.6.43-5build1) ...
+Setting up libvorbis0a:arm64 (1.3.7-1build3) ...
+Setting up libtcl8.6:arm64 (8.6.14+dfsg-1build1) ...
+Setting up libwavpack1:arm64 (5.6.0-1build1) ...
+Setting up libopencore-amrnb0:arm64 (0.1.6-1build1) ...
+Setting up libflac12t64:arm64 (1.4.3+ds-2.1ubuntu2) ...
+Setting up libxss1:arm64 (1:1.2.3-1build3) ...
+Setting up libfuse2t64:arm64 (2.9.9-8.1build1) ...
+Setting up libvorbisenc2:arm64 (1.3.7-1build3) ...
+Setting up tcl8.6 (8.6.14+dfsg-1build1) ...
+Setting up libsox3:arm64 (14.4.2+git20190427-4build4) ...
+Setting up libtk8.6:arm64 (8.6.14-1build1) ...
+Setting up osspd (1.3.2-13.1build3) ...
+
+Configuration file '/etc/init.d/osspd', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/modprobe.d/osspd.conf', does not exist on system.
+Installing new config file as you requested.
+Can't exec "systemctl": No such file or directory at /usr/sbin/update-rc.d line 98.
+/usr/sbin/invoke-rc.d: 290: systemctl: not found
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: WARNING: No init system and policy-rc.d missing! Defaulting to block.
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-helper line 682.
+/var/lib/dpkg/info/osspd.postinst: 36: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+osspd.service is a disabled or a static unit, not starting it.
+Setting up libvorbisfile3:arm64 (1.3.7-1build3) ...
+Setting up libsox-fmt-alsa:arm64 (14.4.2+git20190427-4build4) ...
+Setting up tcl (8.6.14build1) ...
+Setting up tcl-tclex (1.2a1-17) ...
+Setting up libsox-fmt-base:arm64 (14.4.2+git20190427-4build4) ...
+Setting up tk8.6 (8.6.14-1build1) ...
+Setting up libsnack-oss (2.2.10.20090624+dfsg-1build3) ...
+Setting up tcl-snack (2.2.10.20090624+dfsg-1build3) ...
+Setting up sox (14.4.2+git20190427-4build4) ...
+Setting up tk (8.6.14build1) ...
+Setting up transcriber (1.5.1.1-10build1) ...
+
+Configuration file '/etc/transcriber/beep.au', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/transcriber/default.txt', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/transcriber/local.txt', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/transcriber/local_cs.txt', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/transcriber/local_fr.txt', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/transcriber/local_pt.txt', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/transcriber/trans-14.dtd', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/transcriber/trans-cha.dtd', does not exist on system.
+Installing new config file as you requested.
+Processing triggers for libc-bin (2.38-6deepin4) ...
