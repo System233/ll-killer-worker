@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: netsurf-gtk.linyaps
+  name: netsurf-gtk
+  version: 3.11.0.1
+  kind: app
+  description: |-
+    small web browser with CSS support for GTK
+    NetSurf is a multi-platform lightweight web browser. It aims to provide
+    comprehensive rendering of HTML 5 with CSS 2 in a small resource footprint
+    without compromising performance.
+
+    This version uses the GTK+ toolkit.
+command:
+- /opt/apps/netsurf-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
