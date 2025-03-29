@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: tryton-client.linyaps
+  name: tryton-client
+  version: 6.0.34.1
+  kind: app
+  description: |-
+    Tryton application platform - desktop client
+    Tryton is a high-level general purpose application platform. It is the base
+    of a complete business solution as well as a comprehensive health and hospital
+    information system (GNUHealth).
+
+    This package contains the desktop client. Tryton is a Graphical User Interface
+    used to connect to a Tryton server and to operate Tryton databases.
+command:
+- /opt/apps/tryton-client.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
