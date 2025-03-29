@@ -1,0 +1,37 @@
+version: "1"
+package:
+  id: qmidiarp.linyaps
+  name: qmidiarp
+  version: 0.7.0.1
+  kind: app
+  description: |-
+    MIDI arpeggiator for ALSA
+    QMidiArp is an advanced MIDI arpeggiator, programmable step sequencer
+    and LFO for the ALSA sequencer. It can hold any number of arpeggiator,
+    sequencer, or LFO modules running in parallel.
+
+    Arpeggiator modules produce sequences depending on the notes sent
+    to their input port, which is typically connected to a keyboard or
+    another sequencer.
+
+    Step sequencer modules allow one to create simple linear, monophonic
+    and globally transposable sequences similar to the first analog
+    sequencers.
+
+    MIDI LFO modules independently produce MIDI controller data of
+    adjustable waveform, time resolution, amplitude and duration.
+
+    For each module, an input note filter is available, and the output
+    port and channel can be set independently. Since the modules use a
+    common sequencer queue, they are automatically in sync with each other.
+    QMidiArp works with an internal tick resolution of 192 ticks per beat.
+    The queue can be synchronized to an incoming MIDI realtime clock or as
+    a JACK transport client. Most of the relevant control elements are
+    accessible via MIDI controller through a MIDI-learn infrastructure.
+    QMidiArp also has a log tool displaying the history of incoming MIDI
+    events in colors depending on their type. QMidiArp is based on the Qt
+    toolkit.
+command:
+- /opt/apps/qmidiarp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
