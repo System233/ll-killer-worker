@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: soundkonverter.linyaps
+  name: soundkonverter
+  version: 3.0.1.3
+  kind: app
+  description: |-
+    audio converter frontend for KDE
+    soundKonverter is a frontend to various audio converters.
+
+    The key features are:
+    - Audio conversion
+    - Replay Gain calculation
+    - CD ripping
+
+    soundKonverter supports reading and writing tags for many formats, so the tags
+    are preserved when converting files.
+
+    See README.Debian for more information on supported formats.
+command:
+- /opt/apps/soundkonverter.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
