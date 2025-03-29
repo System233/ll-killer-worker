@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: seaview.linyaps
+  name: seaview
+  version: 5.0.5.2
+  kind: app
+  description: |-
+    Multiplatform interface for sequence alignment and phylogeny
+    SeaView is a viewer and editor of multiple sequence alignments, i.e.
+    DNA or protein sequences are positioned each in their own separate line,
+    such that the nucleotide/amino acid at a particular position (column) is
+    presumed to have the same biochemical property.
+
+    SeaView reads and writes various file formats (NEXUS, MSF, CLUSTAL, FASTA,
+    PHYLIP, MASE, Newick) of DNA and protein sequences and of phylogenetic trees.
+    Alignments can be manually edited. It drives the programs Muscle or Clustal
+    Omega for multiple sequence alignment, and also allows one to use any external
+    alignment algorithm able to read and write FASTA-formatted files. It computes
+    phylogenetic trees by parsimony using PHYLIP's dnapars/protpars algorithm, by
+    distance with NJ or BioNJ algorithms on a variety of evolutionary distances, or
+    by maximum likelihood using the program PhyML 3.0.
+
+    SeaView draws phylogenetic
+    trees on screen or PostScript files, and allows one to download sequences from
+    EMBL/GenBank/UniProt using the Internet.
+command:
+- /opt/apps/seaview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
