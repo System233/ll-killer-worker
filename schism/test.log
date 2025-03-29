@@ -1,0 +1,28 @@
+正在测试: APPID=schism.linyaps LAYER=schism.linyaps_20240129.0.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install schism.linyaps_20240129.0.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:schism.linyaps
+Layer文件:schism.linyaps_20240129.0.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: schism.linyaps_20240129.0.0.1_arm64_binary.layer
+offset: 751
+mountpoint: /tmp/tmp.Am6CzS5EGc/mnt
+dbglevel: 0
+[成功] schism.desktop: schism-icon-128 -> /opt/apps/schism.linyaps/files/share/icons/schism-icon-128.png
+[成功] /opt/apps/schism.linyaps/files/share/applications/schism.desktop: /opt/apps/schism.linyaps/files/entrypoint.sh schismtracker %f
+[正在测试启动项]
+包名:schism.linyaps
+Layer文件:schism.linyaps_20240129.0.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: schism.linyaps_20240129.0.0.1_arm64_binary.layer
+offset: 751
+mountpoint: /tmp/tmp.qnpuRjI7eD/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run schism.linyaps -- /opt/apps/schism.linyaps/files/entrypoint.sh schismtracker
+[PID 5457] 进程已启动
+[PID 5457] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall schism.linyaps
