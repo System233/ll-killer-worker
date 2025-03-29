@@ -1,0 +1,38 @@
+正在测试: APPID=uima-utils.linyaps LAYER=uima-utils.linyaps_2.10.2.4_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install uima-utils.linyaps_2.10.2.4_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:uima-utils.linyaps
+Layer文件:uima-utils.linyaps_2.10.2.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: uima-utils.linyaps_2.10.2.4_arm64_binary.layer
+offset: 1043
+mountpoint: /tmp/tmp.F5IPoeW0xB/mnt
+dbglevel: 0
+[成功] uima-annotationviewer.desktop: UIMA -> /opt/apps/uima-utils.linyaps/files/share/pixmaps/UIMA.xpm
+[成功] /opt/apps/uima-utils.linyaps/files/share/applications/uima-annotationviewer.desktop: /opt/apps/uima-utils.linyaps/files/entrypoint.sh annotationViewer
+[成功] uima-cpegui.desktop: UIMA -> /opt/apps/uima-utils.linyaps/files/share/pixmaps/UIMA.xpm
+[成功] /opt/apps/uima-utils.linyaps/files/share/applications/uima-cpegui.desktop: /opt/apps/uima-utils.linyaps/files/entrypoint.sh cpeGui
+[成功] uima-documentanalyzer.desktop: UIMA -> /opt/apps/uima-utils.linyaps/files/share/pixmaps/UIMA.xpm
+[成功] /opt/apps/uima-utils.linyaps/files/share/applications/uima-documentanalyzer.desktop: /opt/apps/uima-utils.linyaps/files/entrypoint.sh documentAnalyzer
+[正在测试启动项]
+包名:uima-utils.linyaps
+Layer文件:uima-utils.linyaps_2.10.2.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: uima-utils.linyaps_2.10.2.4_arm64_binary.layer
+offset: 1043
+mountpoint: /tmp/tmp.1L69H4cf2k/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run uima-utils.linyaps -- /opt/apps/uima-utils.linyaps/files/entrypoint.sh annotationViewer
+[PID 7369] 进程已启动
+[PID 7369] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run uima-utils.linyaps -- /opt/apps/uima-utils.linyaps/files/entrypoint.sh cpeGui
+[PID 7495] 进程已启动
+[PID 7495] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run uima-utils.linyaps -- /opt/apps/uima-utils.linyaps/files/entrypoint.sh documentAnalyzer
+[PID 7623] 进程已启动
+[PID 7623] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall uima-utils.linyaps
