@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: nec2c.linyaps
+  name: nec2c
+  version: 1.3.1.2
+  kind: app
+  description: |-
+    NEC2 simulates near and far field radiation patterns of antennas
+    This updated and modernized translation of NEC2 from Fortran to C has
+    been hand optimized and removes many limitations in the original code.
+    It includes SOMNEC to produce Sommerfield ground solutions.
+    Translation of the NEC2 FORTRAN source code to the C language
+command:
+- /opt/apps/nec2c.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
