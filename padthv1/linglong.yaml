@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: padthv1.linyaps
+  name: padthv1
+  version: 0.9.34.1
+  kind: app
+  description: |-
+    old-school polyphonic additive synthesizer - standalone app
+    padthv1 is an old-school polyphonic additive synthesizer
+    with stereo effects. It is provided in both forms
+    of a LV2 plugin and a pure stand-alone JACK
+    client with JACK-session and both JACK MIDI and ALSA
+    MIDI input support.
+
+    This package provides the standalone app.
+command:
+- /opt/apps/padthv1.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
