@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: powerdevil.linyaps
+  name: powerdevil
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    Global power saver settings.
+    Power Devil allows you to define your all power settings.
+command:
+- /opt/apps/powerdevil.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
