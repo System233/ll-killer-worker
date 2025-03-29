@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: nvtop.linyaps
+  name: nvtop
+  version: 3.0.2.1
+  kind: app
+  description: |-
+    Interactive NVIDIA GPU process monitor
+    Nvtop is a ncurses-based GPU monitoring interface which provides information
+    on the GPU states (GPU and memory utilization, temperature, etc) and well as
+    information about the processes executing on the GPUs.
+command:
+- /opt/apps/nvtop.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
