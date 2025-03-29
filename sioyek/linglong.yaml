@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: sioyek.linyaps
+  name: sioyek
+  version: 2.0.0.4
+  kind: app
+  description: |-
+    PDF viewer with a focus on technical books and research papers
+    Sioyek is a PDF viewer with a focus on textbooks and research papers. It is a
+    power user's PDF viewer, featuring smart open, table of contents generation,
+    and jumping to references and figures, even if not linked.
+command:
+- /opt/apps/sioyek.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
