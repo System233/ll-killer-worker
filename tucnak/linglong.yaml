@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: tucnak.linyaps
+  name: tucnak
+  version: 4.55.0.1
+  kind: app
+  description: |-
+    VHF/UHF/SHF Hamradio contest logging program
+    Tucnak is a VHF/UHF/SHF logging program for hamradio contests.
+    It supports multi bands, free input, networking,
+    voice and CW keyer, WWL database and much more.
+command:
+- /opt/apps/tucnak.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
