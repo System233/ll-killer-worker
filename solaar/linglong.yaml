@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: solaar.linyaps
+  name: solaar
+  version: 1.1.11.2
+  kind: app
+  description: |-
+    Logitech Unifying Receiver peripherals manager for Linux
+    Solaar is a Linux device manager for Logitech's Unifying Receiver wireless
+    peripherals. It is able to pair/unpair devices to the receiver, and for
+    some devices to read battery status.
+command:
+- /opt/apps/solaar.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
