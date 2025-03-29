@@ -1,0 +1,31 @@
+version: "1"
+package:
+  id: quake.linyaps
+  name: quake
+  version: 77.0.0.0
+  kind: app
+  description: |-
+    classic gothic/horror-themed first person shooter
+    Quake is a classic first-person shooter game by id Software,
+    released in 1996. This package contains a launcher script and menu
+    entry to play Quake with any suitable engine.
+
+    To make this package useful, you will need to create and install the
+    non-distributable quake-registered or quake-shareware package, by using the
+    game-data-packager package.
+
+    Creating quake-registered requires data files from a Quake installation or
+    CD-ROM.
+
+    Creating quake-shareware requires the shareware version of Quake.
+
+    game-data-packager (>= 45) can also produce packages for the official Episode
+    5, Dimensions of the Past (developed by MachineGames to mark Quake's 20th
+    anniversary), and for the official mission
+    packs Scourge of Armagon (developed by Hipnotic Software) and Dissolution
+    of Eternity (developed by Rogue Entertainment). Additional menu entries
+    should appear automatically if those expansions are installed.
+command:
+- /opt/apps/quake.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
