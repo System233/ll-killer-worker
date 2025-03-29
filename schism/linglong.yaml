@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: schism.linyaps
+  name: schism
+  version: 20240129.0.0.1
+  kind: app
+  description: |-
+    ImpulseTracker clone aiming at providing the same look&feel
+    This is an editor for "tracked" music, i.e. audio samples of instruments
+    pitch shifted according to the note data.
+
+    The Impulse Tracker is one of the most popular "tracker" programs at
+    present, and Schism Tracker attempts to follow their UI layout wherever
+    possible in order to make it easy for existing users to switch.
+command:
+- /opt/apps/schism.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
