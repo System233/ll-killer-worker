@@ -1,0 +1,28 @@
+正在测试: APPID=vitables.linyaps LAYER=vitables.linyaps_3.0.2.4_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install vitables.linyaps_3.0.2.4_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:vitables.linyaps
+Layer文件:vitables.linyaps_3.0.2.4_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: vitables.linyaps_3.0.2.4_x86_64_binary.layer
+offset: 1070
+mountpoint: /tmp/tmp.m6BnHSnaYR/mnt
+dbglevel: 0
+[成功] vitables.desktop: vitables -> /opt/apps/vitables.linyaps/files/share/icons/hicolor/scalable/apps/vitables.svg
+[成功] /opt/apps/vitables.linyaps/files/share/applications/vitables.desktop: /opt/apps/vitables.linyaps/files/entrypoint.sh vitables %U
+[正在测试启动项]
+包名:vitables.linyaps
+Layer文件:vitables.linyaps_3.0.2.4_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: vitables.linyaps_3.0.2.4_x86_64_binary.layer
+offset: 1070
+mountpoint: /tmp/tmp.YN6S0NVDo9/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run vitables.linyaps -- /opt/apps/vitables.linyaps/files/entrypoint.sh vitables
+[PID 23391] 进程已启动
+[PID 23391] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall vitables.linyaps
