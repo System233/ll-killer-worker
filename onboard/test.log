@@ -1,0 +1,45 @@
+正在测试: APPID=onboard.linyaps LAYER=onboard.linyaps_1.4.1.7_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install onboard.linyaps_1.4.1.7_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:onboard.linyaps
+Layer文件:onboard.linyaps_1.4.1.7_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: onboard.linyaps_1.4.1.7_x86_64_binary.layer
+offset: 589
+mountpoint: /tmp/tmp.mke4sC0Axq/mnt
+dbglevel: 0
+[成功] onboard-settings.desktop: onboard -> /opt/apps/onboard.linyaps/files/share/icons/HighContrast/scalable/apps/onboard.svg
+[成功] /opt/apps/onboard.linyaps/files/share/applications/onboard-settings.desktop: /opt/apps/onboard.linyaps/files/entrypoint.sh onboard-settings
+[成功] onboard.desktop: onboard -> /opt/apps/onboard.linyaps/files/share/icons/HighContrast/scalable/apps/onboard.svg
+[成功] /opt/apps/onboard.linyaps/files/share/applications/onboard.desktop: /opt/apps/onboard.linyaps/files/entrypoint.sh onboard
+[正在测试启动项]
+包名:onboard.linyaps
+Layer文件:onboard.linyaps_1.4.1.7_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: onboard.linyaps_1.4.1.7_x86_64_binary.layer
+offset: 589
+mountpoint: /tmp/tmp.8voxxXS3XZ/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run onboard.linyaps -- /opt/apps/onboard.linyaps/files/entrypoint.sh onboard-settings
+[PID 10414] 进程已启动
+[PID 10414] 已检测到窗口:PID=36
+[PID 10414] 正在截图 0秒: tests/screen0-0.jpg
+[PID 10414] 正在截图 1秒: tests/screen0-1.jpg
+[PID 10414] 正在截图 3秒: tests/screen0-3.jpg
+[PID 10414] 正在截图 5秒: tests/screen0-5.jpg
+[PID 10414] 正在通知并等待进程退出
+[PID 10414] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run onboard.linyaps -- /opt/apps/onboard.linyaps/files/entrypoint.sh onboard
+[PID 10597] 进程已启动
+[PID 10597] 已检测到窗口:PID=36
+[PID 10597] 正在截图 0秒: tests/screen1-0.jpg
+[PID 10597] 正在截图 1秒: tests/screen1-1.jpg
+[PID 10597] 正在截图 3秒: tests/screen1-3.jpg
+[PID 10597] 正在截图 5秒: tests/screen1-5.jpg
+[PID 10597] 正在通知并等待进程退出
+[PID 10597] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall onboard.linyaps
