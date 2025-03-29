@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: vvmplayer.linyaps
+  name: vvmplayer
+  version: 2.5.0.1
+  kind: app
+  description: |-
+    Visual Voicemail Player
+    Visual Voicemail Player is a GUI app that plays and deletes Visual voicemails
+    retrieved by Visual Voicemail Daemon (vvmd).
+
+    Visual voicemail is direct-access voicemail with a visual interface.
+    Such an interface presents a list of messages for playback,
+    as opposed to the sequential listening required using traditional voicemail,
+    and may include a transcript of each message.
+command:
+- /opt/apps/vvmplayer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
