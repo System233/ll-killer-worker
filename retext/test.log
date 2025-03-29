@@ -1,0 +1,34 @@
+正在测试: APPID=retext.linyaps LAYER=retext.linyaps_8.0.2.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install retext.linyaps_8.0.2.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:retext.linyaps
+Layer文件:retext.linyaps_8.0.2.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: retext.linyaps_8.0.2.1_x86_64_binary.layer
+offset: 697
+mountpoint: /tmp/tmp.J0tXTNdZHD/mnt
+dbglevel: 0
+[成功] me.mitya57.ReText.desktop: retext -> /opt/apps/retext.linyaps/files/share/icons/hicolor/128x128/apps/retext.png
+[成功] /opt/apps/retext.linyaps/files/share/applications/me.mitya57.ReText.desktop: /opt/apps/retext.linyaps/files/entrypoint.sh /usr/bin/retext %F
+[正在测试启动项]
+包名:retext.linyaps
+Layer文件:retext.linyaps_8.0.2.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: retext.linyaps_8.0.2.1_x86_64_binary.layer
+offset: 697
+mountpoint: /tmp/tmp.0qPMOyR9Ei/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run retext.linyaps -- /opt/apps/retext.linyaps/files/entrypoint.sh /usr/bin/retext
+[PID 20708] 进程已启动
+[PID 20708] 已检测到窗口:PID=36
+[PID 20708] 正在截图 0秒: tests/screen0-0.jpg
+[PID 20708] 正在截图 1秒: tests/screen0-1.jpg
+[PID 20708] 正在截图 3秒: tests/screen0-3.jpg
+[PID 20708] 正在截图 5秒: tests/screen0-5.jpg
+[PID 20708] 正在通知并等待进程退出
+[PID 20708] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall retext.linyaps
