@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: vinagre.linyaps
+  name: vinagre
+  version: 3.22.0.8
+  kind: app
+  description: |-
+    remote desktop client for the GNOME Desktop
+    Vinagre is a remote desktop client integrated into the GNOME Desktop.
+
+    With Vinagre you can have several connections open simultaneously,
+    bookmark your servers thanks to the Favorites support, store the
+    passwords in the GNOME keyring, and browse the network to look for
+    VNC servers.
+
+    Supported protocols are VNC, SSH, and RDP.
+command:
+- /opt/apps/vinagre.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
