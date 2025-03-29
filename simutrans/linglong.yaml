@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: simutrans.linyaps
+  name: simutrans
+  version: 123.0.1.3
+  kind: app
+  description: |-
+    transportation simulator
+    Simutrans is a free transportation simulator: The player operates a
+    transportation company and has to transport goods and passengers between
+    factories and different cities.
+command:
+- /opt/apps/simutrans.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
