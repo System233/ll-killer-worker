@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: owncloud-client.linyaps
+  name: owncloud-client
+  version: 5.2.1.2
+  kind: app
+  description: |-
+    folder synchronization with an ownCloud server - GUI
+    The ownCloudSync system lets you always have your latest files wherever
+    you are. Just specify one or more folders on the local machine to and a server
+    to synchronize to. You can configure more computers to synchronize to the same
+    server and any change to the files on one computer will silently and reliably
+    flow across to every other.
+
+    owncloud-client provides the graphical client specialising in
+    synchronizing with cloud storage provided by ownCloud.
+command:
+- /opt/apps/owncloud-client.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
