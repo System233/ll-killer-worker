@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: qpdfview.linyaps
+  name: qpdfview
+  version: 0.5.0.4
+  kind: app
+  description: |-
+    tabbed document viewer
+    qpdfview is a simple tabbed document viewer which uses the Poppler library for
+    PDF rendering and CUPS for printing and provides a clear and simple Qt
+    graphical user interface. Support for the DjVu and PostScript formats can be
+    added via plugins.
+
+    Current features include:
+    - Outline, properties and thumbnail panes
+    - Scale, rotate and fit
+    - Fullscreen and presentation views
+    - Continuous and multi-page layouts
+    - Search for text (PDF and DjVu only)
+    - Configurable toolbars
+    - SyncTeX support (PDF only)
+    - Partial annotation support (PDF only, Poppler version 0.20.1 or newer)
+    - Partial form support (PDF only)
+    - Persistent per-file settings
+    - Support for DjVu and PostScript documents via plugins
+command:
+- /opt/apps/qpdfview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
