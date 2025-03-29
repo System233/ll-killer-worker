@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: pspp.linyaps
+  name: pspp
+  version: 2.0.0.3
+  kind: app
+  description: |-
+    Statistical analysis tool
+    PSPP is a program for statistical analysis of sampled data. It is a free
+    replacement for the proprietary program SPSS.
+
+    PSPP supports T-tests, ANOVA, GLM, factor analysis, non-parametric tests, and
+    other statistical features. PSPP produces statistical reports in plain text,
+    PDF, PostScript, CSV, HTML, SVG, and OpenDocument formats.
+
+    PSPP has both text-based and graphical user interfaces. The PSPP user interface
+    has been translated into a number of languages.
+command:
+- /opt/apps/pspp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
