@@ -1,0 +1,28 @@
+正在测试: APPID=robocode.linyaps LAYER=robocode.linyaps_1.9.3.3_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install robocode.linyaps_1.9.3.3_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:robocode.linyaps
+Layer文件:robocode.linyaps_1.9.3.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: robocode.linyaps_1.9.3.3_arm64_binary.layer
+offset: 637
+mountpoint: /tmp/tmp.FQMDFANm7r/mnt
+dbglevel: 0
+[成功] robocode.desktop: robocode -> /opt/apps/robocode.linyaps/files/share/icons/hicolor/64x64/apps/robocode.png
+[成功] /opt/apps/robocode.linyaps/files/share/applications/robocode.desktop: /opt/apps/robocode.linyaps/files/entrypoint.sh robocode
+[正在测试启动项]
+包名:robocode.linyaps
+Layer文件:robocode.linyaps_1.9.3.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: robocode.linyaps_1.9.3.3_arm64_binary.layer
+offset: 637
+mountpoint: /tmp/tmp.lQ0FQ1pLN6/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run robocode.linyaps -- /opt/apps/robocode.linyaps/files/entrypoint.sh robocode
+[PID 14535] 进程已启动
+[PID 14535] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall robocode.linyaps
