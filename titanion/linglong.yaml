@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: titanion.linyaps
+  name: titanion
+  version: 0.3.1.8
+  kind: app
+  description: |-
+    strike down super high-velocity swooping insects
+    Titanion is an abstract shooter game. While you fire with one button, the
+    other one acts as a tractor ray to attract the enemies and take them to
+    the combat line. The game in itself is quite simple, but with such
+    graphics and playability that it's worth a try.
+
+    Titanion is another gem among many by Kenta Cho.
+command:
+- /opt/apps/titanion.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
