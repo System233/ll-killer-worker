@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: wireshark.linyaps
+  name: wireshark
+  version: 4.4.0.1
+  kind: app
+  description: |-
+    network traffic analyzer - graphical interface
+    Wireshark is a network "sniffer" - a tool that captures and analyzes
+    packets off the wire. Wireshark can decode too many protocols to list
+    here.
+command:
+- /opt/apps/wireshark.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
