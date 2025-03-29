@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: tennix.linyaps
+  name: tennix
+  version: 1.3.4.0
+  kind: app
+  description: |-
+    2D tennis game
+    Tennix is a funny tennis game in 2D. You can play against the computer or
+    against another player using the keyboard. The game runs in-window at 640x480
+    resolution or fullscreen.
+
+    Refer to manpage tennix(6) for gameplay instructions and command-line options.
+command:
+- /opt/apps/tennix.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
