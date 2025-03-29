@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: sfxr-qt.linyaps
+  name: sfxr-qt
+  version: 1.5.0.3
+  kind: app
+  description: |-
+    sound effect generator, QtQuick port of sfxr
+    This little tool was made to provide a simple means of getting basic sound
+    effects into a game. You just need to hit a few buttons in this application
+    to get some largely randomized effects. All the parameters used to create
+    each sound are manually tweakable to allow fine-tuning if you feel like
+    getting your hands dirty.
+command:
+- /opt/apps/sfxr-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
