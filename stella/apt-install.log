@@ -1,0 +1,110 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  evemu-tools evtest inputattach joystick libasound2-data libasound2t64
+  libevdev2 libevemu3t64 libpng16-16t64 libsdl2-2.0-0 libxss1
+Suggested packages:
+  alsa-utils xdg-utils
+Recommended packages:
+  alsa-ucm-conf alsa-topology-conf
+The following packages will be REMOVED:
+  libasound2 libpng16-16
+The following NEW packages will be installed:
+  evemu-tools evtest inputattach joystick libasound2t64 libevdev2 libevemu3t64
+  libpng16-16t64 libsdl2-2.0-0 libxss1 stella
+The following packages will be upgraded:
+  libasound2-data
+1 upgraded, 11 newly installed, 2 to remove and 452 not upgraded.
+Need to get 3836 kB of archives.
+After this operation, 12.0 MB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libasound2-data all 1.2.11-1build2 [21.0 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libasound2t64 amd64 1.2.11-1build2 [399 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpng16-16t64 amd64 1.6.43-5build1 [187 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libevdev2 amd64 1.13.1+dfsg-1build1 [37.8 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libevemu3t64 amd64 2.7.0-4build1 [12.2 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 evemu-tools amd64 2.7.0-4build1 [13.6 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxss1 amd64 1:1.2.3-1build3 [7204 B]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsdl2-2.0-0 amd64 2.30.0+dfsg-1build3 [685 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 stella amd64 6.7.1+dfsg-1build2 [2384 kB]
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 evtest amd64 1:1.35-1 [18.3 kB]
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 inputattach amd64 1:1.8.1-2build1 [24.0 kB]
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 joystick amd64 1:1.8.1-2build1 [47.5 kB]
+Fetched 3836 kB in 1s (6938 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../libasound2-data_1.2.11-1build2_all.deb ...
+Unpacking libasound2-data (1.2.11-1build2) over (1.2.8-1) ...
+dpkg: libasound2:amd64: dependency problems, but removing anyway as you requested:
+ pulseaudio depends on libasound2 (>= 1.2.1.1).
+ pipewire-bin depends on libasound2 (>= 1.2.1.1).
+ libspa-0.2-modules:amd64 depends on libasound2 (>= 1.2.1.1).
+ libasound2-plugins:amd64 depends on libasound2 (>= 1.2.5).
+ bluez depends on libasound2 (>= 1.0.17).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing libasound2:amd64 (1.2.8-1) ...
+Selecting previously unselected package libasound2t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27587 files and directories currently installed.)
+Preparing to unpack .../libasound2t64_1.2.11-1build2_amd64.deb ...
+Unpacking libasound2t64:amd64 (1.2.11-1build2) ...
+dpkg: libpng16-16:amd64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:amd64 depends on libpng16-16 (>= 1.6.2).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27595 files and directories currently installed.)
+Removing libpng16-16:amd64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27584 files and directories currently installed.)
+Preparing to unpack .../0-libpng16-16t64_1.6.43-5build1_amd64.deb ...
+Unpacking libpng16-16t64:amd64 (1.6.43-5build1) ...
+Selecting previously unselected package libevdev2:amd64.
+Preparing to unpack .../1-libevdev2_1.13.1+dfsg-1build1_amd64.deb ...
+Unpacking libevdev2:amd64 (1.13.1+dfsg-1build1) ...
+Selecting previously unselected package libevemu3t64:amd64.
+Preparing to unpack .../2-libevemu3t64_2.7.0-4build1_amd64.deb ...
+Unpacking libevemu3t64:amd64 (2.7.0-4build1) ...
+Selecting previously unselected package evemu-tools.
+Preparing to unpack .../3-evemu-tools_2.7.0-4build1_amd64.deb ...
+Unpacking evemu-tools (2.7.0-4build1) ...
+Selecting previously unselected package libxss1:amd64.
+Preparing to unpack .../4-libxss1_1%3a1.2.3-1build3_amd64.deb ...
+Unpacking libxss1:amd64 (1:1.2.3-1build3) ...
+Selecting previously unselected package libsdl2-2.0-0:amd64.
+Preparing to unpack .../5-libsdl2-2.0-0_2.30.0+dfsg-1build3_amd64.deb ...
+Unpacking libsdl2-2.0-0:amd64 (2.30.0+dfsg-1build3) ...
+Selecting previously unselected package stella.
+Preparing to unpack .../6-stella_6.7.1+dfsg-1build2_amd64.deb ...
+Unpacking stella (6.7.1+dfsg-1build2) ...
+Selecting previously unselected package evtest.
+Preparing to unpack .../7-evtest_1%3a1.35-1_amd64.deb ...
+Unpacking evtest (1:1.35-1) ...
+Selecting previously unselected package inputattach.
+Preparing to unpack .../8-inputattach_1%3a1.8.1-2build1_amd64.deb ...
+Unpacking inputattach (1:1.8.1-2build1) ...
+Selecting previously unselected package joystick.
+Preparing to unpack .../9-joystick_1%3a1.8.1-2build1_amd64.deb ...
+Unpacking joystick (1:1.8.1-2build1) ...
+Setting up libasound2-data (1.2.11-1build2) ...
+Setting up libasound2t64:amd64 (1.2.11-1build2) ...
+Setting up inputattach (1:1.8.1-2build1) ...
+Setting up libpng16-16t64:amd64 (1.6.43-5build1) ...
+Setting up libxss1:amd64 (1:1.2.3-1build3) ...
+Setting up evtest (1:1.35-1) ...
+Setting up libsdl2-2.0-0:amd64 (2.30.0+dfsg-1build3) ...
+Setting up libevdev2:amd64 (1.13.1+dfsg-1build1) ...
+Setting up stella (6.7.1+dfsg-1build2) ...
+Setting up joystick (1:1.8.1-2build1) ...
+Setting up libevemu3t64:amd64 (2.7.0-4build1) ...
+Setting up evemu-tools (2.7.0-4build1) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
