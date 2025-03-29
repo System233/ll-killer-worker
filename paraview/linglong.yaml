@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: paraview.linyaps
+  name: paraview
+  version: 5.11.2.6
+  kind: app
+  description: |-
+    Parallel Visualization Application
+    ParaView is an open-source, multi-platform application designed to
+    visualize data sets of size varying from small to very large. The
+    goals of the ParaView project include the following:
+
+    * Develop an open-source, multi-platform visualization application.
+    * Support distributed computation models to process large data sets.
+    * Create an open, flexible, and intuitive user interface.
+    * Develop an extensible architecture based on open standards.
+
+    ParaView runs on distributed and shared memory parallel as well as
+    single processor systems and has been successfully tested on Windows,
+    Mac OS X, Linux and various Unix workstations, clusters and
+    supercomputers. Under the hood, ParaView uses the Visualization
+    Toolkit as the data processing and rendering engine and has a user
+    interface written using Qt.
+command:
+- /opt/apps/paraview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
