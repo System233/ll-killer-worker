@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: openmw-cs.linyaps
+  name: openmw-cs
+  version: 0.48.0.1
+  kind: app
+  description: |-
+    Content editor for use with OpenMW
+    OpenMW-CS is a content editor for OpenMW which gives full control of the
+    game's content and the ability to create new content, games and mods.
+
+    While initially similar to Bethesda's "Construction Set" for Mororwind, it is
+    now fully independent and can be used to create mods, games and other content
+    that do not depend on Morrowind.
+command:
+- /opt/apps/openmw-cs.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
