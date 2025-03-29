@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: plover.linyaps
+  name: plover
+  version: 4.0.0.0
+  kind: app
+  description: |-
+    free stenography engine and typing tool
+    Plover is a small, slick Python application that runs in the
+    background and acts as a translator to read steno movements and
+    emulate keystrokes in a way that the programs you are using can't
+    even tell you're using steno.
+
+    Plover is used today by hundreds of people, ranging from professional
+    stenographers, transcriptionists, programmers, and hobbyists.  It
+    supports:
+
+    - Regular keyboards and real steno machines
+    - Media key support to control media, change volume, etc.
+    - Comes with a well-developed theory extended from StenEd,
+    but with over 50,000 new strokes.
+    - Supports JSON and RTF/CRE dictionaries
+    - Includes training tools to help you learn
+command:
+- /opt/apps/plover.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
