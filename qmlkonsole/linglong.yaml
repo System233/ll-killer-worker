@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: qmlkonsole.linyaps
+  name: qmlkonsole
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Terminal app for Plasma Mobile
+    This terminal application is optimized for touch devices and to integrate
+    nicely in Plasma Mobile systems.
+
+    It is based on Qmltermwidget (QML port of
+    qtermwidget) and Kirigami (framework to design convergent apps with a user
+    interface that adapts to desktops, phones, big screens and potentially
+    everything else).
+
+    It depends on Qt graphical libraries and a few KDE Frameworks.
+command:
+- /opt/apps/qmlkonsole.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
