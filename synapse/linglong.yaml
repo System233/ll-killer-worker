@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: synapse.linyaps
+  name: synapse
+  version: 0.2.99.4
+  kind: app
+  description: |-
+    semantic file launcher
+    Synapse is a graphical launcher enabling you to start applications and also
+    to quickly find and access relevant documents and files (by making use of the
+    Zeitgeist engine).
+command:
+- /opt/apps/synapse.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
