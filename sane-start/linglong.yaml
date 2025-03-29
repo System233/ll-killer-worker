@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: sane-start.linyaps
+  name: sane-start
+  version: 1.1.2.0
+  kind: app
+  description: The Scanner of Start Printer Driver Modules
+command:
+- /opt/apps/sane-start.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
