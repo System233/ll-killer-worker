@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: pulseeffects.linyaps
+  name: pulseeffects
+  version: 4.8.7.2
+  kind: app
+  description: |-
+    Audio effects for PulseAudio applications
+    PulseEffects is an advanced system-wide equalizer that works with
+    PulseAudio. It can apply system-wide effects to all running application
+    or selected apps.
+
+    PulseEffects also provides many pre-defined sound effects for PulseAudio
+    input and output.
+command:
+- /opt/apps/pulseeffects.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
