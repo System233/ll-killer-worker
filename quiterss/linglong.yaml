@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: quiterss.linyaps
+  name: quiterss
+  version: 0.19.4.1
+  kind: app
+  description: |-
+    RSS/Atom news feeds reader
+    QuiteRSS is "fast and comfortable to user" cross-platform RSS/Atom
+    news feeds reader written on Qt/C++.
+command:
+- /opt/apps/quiterss.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
