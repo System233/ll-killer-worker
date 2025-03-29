@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: step.linyaps
+  name: step
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    interactive physical simulator for KDE
+    With Step you can not only learn but feel how physics works. You place some
+    bodies on the scene, add some forces such as gravity or springs, then click
+    "Simulate" and Step shows you how your scene will evolve according to the
+    laws of physics. You can change every property of bodies/forces in your
+    experiment (even during simulation) and see how this will change evolution
+    of the experiment.
+
+    This package is part of the KDE education module.
+command:
+- /opt/apps/step.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
