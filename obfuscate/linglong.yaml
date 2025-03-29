@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: obfuscate.linyaps
+  name: obfuscate
+  version: 0.0.9.3
+  kind: app
+  description: |-
+    simple app to censor images
+    Obfuscate is a simple app to redact private information from
+    image files with either black boxes or with the less secure method
+    of blurring.
+
+    Obfuscate is a GNOME Circle app.
+command:
+- /opt/apps/obfuscate.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
