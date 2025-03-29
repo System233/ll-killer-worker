@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: songwrite.linyaps
+  name: songwrite
+  version: 3.2.0.1
+  kind: app
+  description: |-
+    guitar tablature editor and player
+    Songwrite is a guitar tablature (fingering notation) editor and player,
+    quite similar to TablEdit. In addition to tablatures, it also supports
+    staff, lyrics and drums.
+
+    Printing support and playback are available through external programs.
+
+    Songwrite was formerly know as GTablature.
+command:
+- /opt/apps/songwrite.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
