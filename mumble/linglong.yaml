@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: mumble.linyaps
+  name: mumble
+  version: 1.5.517.1
+  kind: app
+  description: |-
+    Low latency encrypted VoIP client
+    Mumble is a low-latency, high quality voice chat program for gaming.
+    It features noise suppression, encrypted connections for both voice
+    and instant messaging, automatic gain control and low latency audio
+    with support for multiple audio standards. Mumble includes an in-game
+    overlay compatible with most open-source and commercial 3D applications.
+    Mumble is just a client and uses a non-standard protocol. You will need
+    a dedicated server to talk to other users. Server functionality is
+    provided by the package "mumble-server".
+command:
+- /opt/apps/mumble.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
