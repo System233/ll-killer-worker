@@ -1,0 +1,80 @@
+version: "1"
+package:
+  id: qmmp.linyaps
+  name: qmmp
+  version: 1.6.2.1
+  kind: app
+  description: |-
+    feature-rich audio player with support of many formats
+    Qmmp is feature-rich audio player with support of many formats.
+    It is written in Qt.
+
+    Supported formats:
+    - MPEG1 layer 2/3
+    - Ogg Vorbis
+    - Ogg Opus
+    - Native FLAC, Ogg FLAC
+    - Musepack
+    - WavePack
+    - tracker modules (mod, s3m, it, xm, etc)
+    - ADTS AAC
+    - CD Audio
+    - WMA, Monkey's Audio (and other formats provided by FFmpeg library)
+    - PCM WAVE (and other formats provided by libsndfile library)
+    - midi
+    - SID
+    - chiptune formats (AY, GBS, GYM, HES, KSS, NSF, NSFE, SAP, SPC, VGM, VGZ,
+    VTX)
+
+    DSP effects:
+    - BS2B effect
+    - sample rate converter
+    - LADSPA effects
+    - extra stereo
+    - crossfade
+
+    Visual effects:
+    - projectM visualization
+    - spectrum analyzer
+
+    Audio output through:
+    - ALSA
+    - OSS
+    - Pulse Audio
+    - PipeWire
+    - JACK
+    - QTMultimedia
+    - Icecast
+
+    Other features:
+    - XMMS and Winamp 2.x skins support
+    - alternative user interface based on standard widgets set
+    - 10-band equalizer
+    - MP3, Vorbis, AAC, AAC+ streams support
+    - mms support
+    - MPRIS
+    - removable device detection (via UDisks)
+    - video playback via Mplayer
+    - lyrics
+    - cover art support
+    - CUE sheet support
+    - embedded CUE support (for FLAC, WavPack and Monkey's Audio)
+    - multiple playlists
+    - automatic charset detection for cue files and ShoutCast metadata
+    - playlist formats: m3u, pls, xspf
+    - ReplayGain support
+    - sending listening history to Last.fm, Libre.fm and ListenBrainz
+    - CDDB support
+    - audio converter
+    - stream browser
+    - audio formats converter
+    - external programs execution on track change
+    - ReplayGain scanner
+    - archive reader (RAR and 7z)
+    - audio recording
+    - listening history
+    - media library
+command:
+- /opt/apps/qmmp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
