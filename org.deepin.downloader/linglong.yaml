@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: org.deepin.downloader.linyaps
+  name: org.deepin.downloader
+  version: 5.3.77.0
+  kind: app
+  description: |-
+    it's a user-friendly download manager, supporting URLs and torrent files.
+    downloader for deepin desktop environment.
+command:
+- /opt/apps/org.deepin.downloader.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
