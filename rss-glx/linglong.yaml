@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: rss-glx.linyaps
+  name: rss-glx
+  version: 0.9.1.6
+  kind: app
+  description: |-
+    Really Slick Screensavers GLX Port
+    rss-glx is a GLX port of the Really Slick Screensavers collection by
+    Terry Welsh (http://www.reallyslick.com/). Also included are several
+    other OpenGL screensavers ported from other platforms.
+
+    The screensavers can either be run as stand-alone applications or get
+    integrated into XScreenSaver's list of active screensavers. More
+    information about using these with xscreensaver can be found in
+    /usr/share/doc/rss-glx.
+
+    Screensavers included in this package are: Biof, Busy Spheres,
+    Colorfire, Cyclone, Drempels, Euphoria, Feedback, Fieldlines, Flocks, Flux,
+    Helios, Hufo's Smoke, Hufo's Tunnel, Hyperspace, Lattice, Lorenz Attractor,
+    MatrixView, Plasma, Pixel City, Skyrocket, Solarwinds, SpirographX, and
+    Sundancer2.
+command:
+- /opt/apps/rss-glx.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

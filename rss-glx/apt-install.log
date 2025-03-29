@@ -1,0 +1,314 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  imagemagick-6-common libalut0 libasound2-data libasound2t64 libde265-0
+  libfftw3-double3 libfftw3-single3 libglc0 libglew2.2 libglewmx1.13
+  libglib2.0-0t64 libheif-plugin-aomdec libheif-plugin-aomenc
+  libheif-plugin-libde265 libheif1 libjpeg-turbo8 libjpeg8 liblqr-1-0
+  libmagickcore-6.q16-7t64 libmagickwand-6.q16-7t64 libopenal-data libopenal1
+  libpng16-16t64 libraw23t64 libsndio7.0
+Suggested packages:
+  alsa-utils libfftw3-bin libfftw3-dev glew-utils low-memory-monitor
+  libheif-plugin-x265 libheif-plugin-ffmpegdec libheif-plugin-jpegdec
+  libheif-plugin-jpegenc libheif-plugin-j2kdec libheif-plugin-j2kenc
+  libheif-plugin-rav1e libheif-plugin-svtenc libmagickcore-6.q16-7-extra
+  libportaudio2 sndiod xscreensaver | gnome-screensaver
+Recommended packages:
+  alsa-ucm-conf alsa-topology-conf
+The following packages will be REMOVED:
+  gir1.2-atk-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0 gir1.2-glib-2.0
+  gir1.2-harfbuzz-0.0 gir1.2-pango-1.0 libasound2 libglib2.0-0 libglib2.0-bin
+  libjpeg-turbo-progs libpng16-16 libturbojpeg0 xscreensaver-data-extra
+The following NEW packages will be installed:
+  imagemagick-6-common libalut0 libasound2t64 libde265-0 libfftw3-double3
+  libglc0 libglew2.2 libglewmx1.13 libglib2.0-0t64 libheif-plugin-aomdec
+  libheif-plugin-aomenc libheif-plugin-libde265 libheif1 libjpeg-turbo8
+  libjpeg8 liblqr-1-0 libmagickcore-6.q16-7t64 libmagickwand-6.q16-7t64
+  libopenal-data libopenal1 libpng16-16t64 libraw23t64 libsndio7.0 rss-glx
+The following packages will be upgraded:
+  libasound2-data libfftw3-single3
+2 upgraded, 24 newly installed, 13 to remove and 445 not upgraded.
+Need to get 12.2 MB of archives.
+After this operation, 13.7 MB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libasound2-data all 1.2.11-1build2 [21.0 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libasound2t64 arm64 1.2.11-1build2 [387 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libglib2.0-0t64 arm64 2.80.0-6ubuntu3.2 [1531 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libpng16-16t64 arm64 1.6.43-5build1 [185 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libfftw3-double3 arm64 3.3.10-1ubuntu3 [384 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libheif-plugin-aomdec arm64 1.17.6-1ubuntu4.1 [10.2 kB]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libde265-0 arm64 1.0.15-1build3 [143 kB]
+Get:8 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libheif-plugin-libde265 arm64 1.17.6-1ubuntu4.1 [8030 B]
+Get:9 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libheif1 arm64 1.17.6-1ubuntu4.1 [260 kB]
+Get:10 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjpeg-turbo8 arm64 2.1.5-2ubuntu2 [163 kB]
+Get:11 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjpeg8 arm64 8c-2ubuntu11 [2148 B]
+Get:12 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 liblqr-1-0 arm64 0.4.2-2.1build2 [27.1 kB]
+Get:13 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libraw23t64 arm64 0.21.2-2.1build1 [382 kB]
+Get:14 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 imagemagick-6-common all 8:6.9.12.98+dfsg1-5.2build2 [69.5 kB]
+Get:15 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libmagickcore-6.q16-7t64 arm64 8:6.9.12.98+dfsg1-5.2build2 [1714 kB]
+Get:16 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libmagickwand-6.q16-7t64 arm64 8:6.9.12.98+dfsg1-5.2build2 [276 kB]
+Get:17 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libopenal-data all 1:1.23.1-4build1 [161 kB]
+Get:18 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libsndio7.0 arm64 1.9.0-0.3build3 [29.0 kB]
+Get:19 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libopenal1 arm64 1:1.23.1-4build1 [510 kB]
+Get:20 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libalut0 arm64 1.1.0-6build1 [23.6 kB]
+Get:21 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libfftw3-single3 arm64 3.3.10-1ubuntu3 [583 kB]
+Get:22 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libglewmx1.13 arm64 1.13.0-5build1 [131 kB]
+Get:23 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libglc0 arm64 0.7.2-7 [53.0 kB]
+Get:24 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libglew2.2 arm64 2.2.0-4build1 [191 kB]
+Get:25 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libheif-plugin-aomenc arm64 1.17.6-1ubuntu4.1 [13.7 kB]
+Get:26 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 rss-glx arm64 0.9.1-6.5build2 [4968 kB]
+Fetched 12.2 MB in 4s (2874 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Removing gir1.2-atk-1.0:arm64 (2.50.0-1) ...
+Removing gir1.2-pango-1.0:arm64 (1.52.2+ds-1) ...
+Removing gir1.2-harfbuzz-0.0:arm64 (8.0.1-1+rb1) ...
+Removing gir1.2-freedesktop:arm64 (1.80.1-2) ...
+Removing gir1.2-gdkpixbuf-2.0:arm64 (2.42.10+dfsg-3) ...
+Removing gir1.2-glib-2.0:arm64 (2.80.1-1deepin1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27692 files and directories currently installed.)
+Preparing to unpack .../libasound2-data_1.2.11-1build2_all.deb ...
+Unpacking libasound2-data (1.2.11-1build2) over (1.2.8-1) ...
+dpkg: libasound2:arm64: dependency problems, but removing anyway as you requested:
+ pulseaudio depends on libasound2 (>= 1.2.1.1).
+ pipewire-bin depends on libasound2 (>= 1.2.1.1).
+ libspa-0.2-modules:arm64 depends on libasound2 (>= 1.2.1.1).
+ libasound2-plugins:arm64 depends on libasound2 (>= 1.2.5).
+ bluez depends on libasound2 (>= 1.0.17).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27692 files and directories currently installed.)
+Removing libasound2:arm64 (1.2.8-1) ...
+Selecting previously unselected package libasound2t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27685 files and directories currently installed.)
+Preparing to unpack .../libasound2t64_1.2.11-1build2_arm64.deb ...
+Unpacking libasound2t64:arm64 (1.2.11-1build2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27693 files and directories currently installed.)
+Removing libglib2.0-bin (2.80.1-1deepin1) ...
+Removing xscreensaver-data-extra (6.02+dfsg1-3) ...
+dpkg: libglib2.0-0:arm64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-gl depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-data depends on libglib2.0-0 (>= 2.16.0).
+ shared-mime-info depends on libglib2.0-0 (>= 2.75.3).
+ pulseaudio-module-bluetooth depends on libglib2.0-0 (>= 2.12.0).
+ pulseaudio depends on libglib2.0-0 (>= 2.32.0).
+ libspa-0.2-bluetooth:arm64 depends on libglib2.0-0 (>= 2.38.0).
+ librsvg2-2:arm64 depends on libglib2.0-0 (>= 2.77.3).
+ libpulse-mainloop-glib0:arm64 depends on libglib2.0-0 (>= 2.28.0).
+ libpipewire-0.3-modules:arm64 depends on libglib2.0-0 (>= 2.32.0).
+ libpangoxft-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangoft2-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangocairo-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libpango-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libical3:arm64 depends on libglib2.0-0 (>= 2.42.0).
+ libharfbuzz0b:arm64 depends on libglib2.0-0 (>= 2.32.0).
+ libharfbuzz-gobject0:arm64 depends on libglib2.0-0 (>= 2.14.0).
+ libgtk2.0-0:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ libgtk-3-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libgstreamer1.0-0:arm64 depends on libglib2.0-0 (>= 2.77.0).
+ libgstreamer-plugins-base1.0-0:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ libglibmm-2.4-1v5:arm64 depends on libglib2.0-0 (>= 2.62.0).
+ libgdk-pixbuf-xlib-2.0-0:arm64 depends on libglib2.0-0 (>= 2.48.0).
+ libgdk-pixbuf-2.0-0:arm64 depends on libglib2.0-0 (>= 2.75.0).
+ libfcitx5gclient2:arm64 depends on libglib2.0-0 (>= 2.38.0).
+ libdconf1:arm64 depends on libglib2.0-0 (>= 2.77.0).
+ libcolord2:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ libcloudproviders0:arm64 depends on libglib2.0-0 (>= 2.56.0).
+ libcairo-gobject2:arm64 depends on libglib2.0-0 (>= 2.68.0).
+ libavcodec60:arm64 depends on libglib2.0-0 (>= 2.12.0).
+ libatspi2.0-0:arm64 depends on libglib2.0-0 (>= 2.62).
+ libatk1.0-0:arm64 depends on libglib2.0-0 (>= 2.62).
+ libatk-bridge2.0-0:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ gtk-update-icon-cache depends on libglib2.0-0 (>= 2.57.2).
+ glib-networking-services depends on libglib2.0-0 (>= 2.73.3).
+ glib-networking:arm64 depends on libglib2.0-0 (>= 2.73.3).
+ fcitx5-frontend-gtk3 depends on libglib2.0-0 (>= 2.75.3).
+ fcitx5-frontend-gtk2 depends on libglib2.0-0 (>= 2.75.3).
+ dconf-service depends on libglib2.0-0 (>= 2.77.0).
+ dconf-gsettings-backend:arm64 depends on libglib2.0-0 (>= 2.77.0).
+ bluez-obexd depends on libglib2.0-0 (>= 2.77.0).
+ bluez depends on libglib2.0-0 (>= 2.75.3).
+
+Removing libglib2.0-0:arm64 (2.80.1-1deepin1) ...
+Selecting previously unselected package libglib2.0-0t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27249 files and directories currently installed.)
+Preparing to unpack .../libglib2.0-0t64_2.80.0-6ubuntu3.2_arm64.deb ...
+libglib2.0-0t64.preinst: Removing /var/lib/dpkg/info/libglib2.0-0:arm64.postrm to avoid loss of /usr/share/glib-2.0/schemas/gschemas.compiled...
+removed '/var/lib/dpkg/info/libglib2.0-0:arm64.postrm'
+Unpacking libglib2.0-0t64:arm64 (2.80.0-6ubuntu3.2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27270 files and directories currently installed.)
+Removing libjpeg-turbo-progs (1:2.1.5-2) ...
+dpkg: libpng16-16:arm64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:arm64 depends on libpng16-16 (>= 1.6.2).
+
+Removing libpng16-16:arm64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27237 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_arm64.deb ...
+Unpacking libpng16-16t64:arm64 (1.6.43-5build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27248 files and directories currently installed.)
+Removing libturbojpeg0:arm64 (1:2.1.5-2) ...
+Selecting previously unselected package libfftw3-double3:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27241 files and directories currently installed.)
+Preparing to unpack .../00-libfftw3-double3_3.3.10-1ubuntu3_arm64.deb ...
+Unpacking libfftw3-double3:arm64 (3.3.10-1ubuntu3) ...
+Selecting previously unselected package libheif-plugin-aomdec:arm64.
+Preparing to unpack .../01-libheif-plugin-aomdec_1.17.6-1ubuntu4.1_arm64.deb ...
+Unpacking libheif-plugin-aomdec:arm64 (1.17.6-1ubuntu4.1) ...
+Selecting previously unselected package libde265-0:arm64.
+Preparing to unpack .../02-libde265-0_1.0.15-1build3_arm64.deb ...
+Unpacking libde265-0:arm64 (1.0.15-1build3) ...
+Selecting previously unselected package libheif-plugin-libde265:arm64.
+Preparing to unpack .../03-libheif-plugin-libde265_1.17.6-1ubuntu4.1_arm64.deb ...
+Unpacking libheif-plugin-libde265:arm64 (1.17.6-1ubuntu4.1) ...
+Selecting previously unselected package libheif1:arm64.
+Preparing to unpack .../04-libheif1_1.17.6-1ubuntu4.1_arm64.deb ...
+Unpacking libheif1:arm64 (1.17.6-1ubuntu4.1) ...
+Selecting previously unselected package libjpeg-turbo8:arm64.
+Preparing to unpack .../05-libjpeg-turbo8_2.1.5-2ubuntu2_arm64.deb ...
+Unpacking libjpeg-turbo8:arm64 (2.1.5-2ubuntu2) ...
+Selecting previously unselected package libjpeg8:arm64.
+Preparing to unpack .../06-libjpeg8_8c-2ubuntu11_arm64.deb ...
+Unpacking libjpeg8:arm64 (8c-2ubuntu11) ...
+Selecting previously unselected package liblqr-1-0:arm64.
+Preparing to unpack .../07-liblqr-1-0_0.4.2-2.1build2_arm64.deb ...
+Unpacking liblqr-1-0:arm64 (0.4.2-2.1build2) ...
+Selecting previously unselected package libraw23t64:arm64.
+Preparing to unpack .../08-libraw23t64_0.21.2-2.1build1_arm64.deb ...
+Unpacking libraw23t64:arm64 (0.21.2-2.1build1) ...
+Selecting previously unselected package imagemagick-6-common.
+Preparing to unpack .../09-imagemagick-6-common_8%3a6.9.12.98+dfsg1-5.2build2_all.deb ...
+Unpacking imagemagick-6-common (8:6.9.12.98+dfsg1-5.2build2) ...
+Selecting previously unselected package libmagickcore-6.q16-7t64:arm64.
+Preparing to unpack .../10-libmagickcore-6.q16-7t64_8%3a6.9.12.98+dfsg1-5.2build2_arm64.deb ...
+Unpacking libmagickcore-6.q16-7t64:arm64 (8:6.9.12.98+dfsg1-5.2build2) ...
+Selecting previously unselected package libmagickwand-6.q16-7t64:arm64.
+Preparing to unpack .../11-libmagickwand-6.q16-7t64_8%3a6.9.12.98+dfsg1-5.2build2_arm64.deb ...
+Unpacking libmagickwand-6.q16-7t64:arm64 (8:6.9.12.98+dfsg1-5.2build2) ...
+Selecting previously unselected package libopenal-data.
+Preparing to unpack .../12-libopenal-data_1%3a1.23.1-4build1_all.deb ...
+Unpacking libopenal-data (1:1.23.1-4build1) ...
+Selecting previously unselected package libsndio7.0:arm64.
+Preparing to unpack .../13-libsndio7.0_1.9.0-0.3build3_arm64.deb ...
+Unpacking libsndio7.0:arm64 (1.9.0-0.3build3) ...
+Selecting previously unselected package libopenal1:arm64.
+Preparing to unpack .../14-libopenal1_1%3a1.23.1-4build1_arm64.deb ...
+Unpacking libopenal1:arm64 (1:1.23.1-4build1) ...
+Selecting previously unselected package libalut0:arm64.
+Preparing to unpack .../15-libalut0_1.1.0-6build1_arm64.deb ...
+Unpacking libalut0:arm64 (1.1.0-6build1) ...
+Preparing to unpack .../16-libfftw3-single3_3.3.10-1ubuntu3_arm64.deb ...
+Unpacking libfftw3-single3:arm64 (3.3.10-1ubuntu3) over (3.3.8-2) ...
+Selecting previously unselected package libglewmx1.13:arm64.
+Preparing to unpack .../17-libglewmx1.13_1.13.0-5build1_arm64.deb ...
+Unpacking libglewmx1.13:arm64 (1.13.0-5build1) ...
+Selecting previously unselected package libglc0:arm64.
+Preparing to unpack .../18-libglc0_0.7.2-7_arm64.deb ...
+Unpacking libglc0:arm64 (0.7.2-7) ...
+Selecting previously unselected package libglew2.2:arm64.
+Preparing to unpack .../19-libglew2.2_2.2.0-4build1_arm64.deb ...
+Unpacking libglew2.2:arm64 (2.2.0-4build1) ...
+Selecting previously unselected package libheif-plugin-aomenc:arm64.
+Preparing to unpack .../20-libheif-plugin-aomenc_1.17.6-1ubuntu4.1_arm64.deb ...
+Unpacking libheif-plugin-aomenc:arm64 (1.17.6-1ubuntu4.1) ...
+Selecting previously unselected package rss-glx.
+Preparing to unpack .../21-rss-glx_0.9.1-6.5build2_arm64.deb ...
+Unpacking rss-glx (0.9.1-6.5build2) ...
+Setting up imagemagick-6-common (8:6.9.12.98+dfsg1-5.2build2) ...
+
+Configuration file '/etc/ImageMagick-6/coder.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/colors.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/delegates.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/log.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/magic.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/mime.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/policy-debian.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/policy-limited.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/policy-open.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/policy-secure.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/policy-websafe.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/policy.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/quantization-table.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/thresholds.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/type-apple.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/type-dejavu.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/type-ghostscript.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/type-urw-base35.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/type-windows.xml', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ImageMagick-6/type.xml', does not exist on system.
+Installing new config file as you requested.
+Setting up libfftw3-single3:arm64 (3.3.10-1ubuntu3) ...
+Setting up libasound2-data (1.2.11-1build2) ...
+Setting up libglib2.0-0t64:arm64 (2.80.0-6ubuntu3.2) ...
+Setting up libasound2t64:arm64 (1.2.11-1build2) ...
+Setting up libpng16-16t64:arm64 (1.6.43-5build1) ...
+Setting up libjpeg-turbo8:arm64 (2.1.5-2ubuntu2) ...
+Setting up libfftw3-double3:arm64 (3.3.10-1ubuntu3) ...
+Setting up libglew2.2:arm64 (2.2.0-4build1) ...
+Setting up libsndio7.0:arm64 (1.9.0-0.3build3) ...
+Setting up liblqr-1-0:arm64 (0.4.2-2.1build2) ...
+Setting up libglewmx1.13:arm64 (1.13.0-5build1) ...
+Setting up libopenal-data (1:1.23.1-4build1) ...
+
+Configuration file '/etc/openal/alsoft.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up libde265-0:arm64 (1.0.15-1build3) ...
+Setting up libjpeg8:arm64 (8c-2ubuntu11) ...
+Setting up libglc0:arm64 (0.7.2-7) ...
+Setting up libopenal1:arm64 (1:1.23.1-4build1) ...
+Setting up libraw23t64:arm64 (0.21.2-2.1build1) ...
+Setting up libalut0:arm64 (1.1.0-6build1) ...
+Setting up libheif-plugin-aomdec:arm64 (1.17.6-1ubuntu4.1) ...
+Setting up libheif-plugin-libde265:arm64 (1.17.6-1ubuntu4.1) ...
+Setting up libheif1:arm64 (1.17.6-1ubuntu4.1) ...
+Setting up libmagickcore-6.q16-7t64:arm64 (8:6.9.12.98+dfsg1-5.2build2) ...
+Setting up libmagickwand-6.q16-7t64:arm64 (8:6.9.12.98+dfsg1-5.2build2) ...
+Setting up rss-glx (0.9.1-6.5build2) ...
+Setting up libheif-plugin-aomenc:arm64 (1.17.6-1ubuntu4.1) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
