@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: texstudio.linyaps
+  name: texstudio
+  version: 4.7.2.2
+  kind: app
+  description: |-
+    fully featured LaTeX editor
+    TeXstudio is an integrated writing environment for creating LaTeX documents.
+    The software aims to simplify and enhance the LaTeX writing process, providing
+    users with a range of features, including:
+
+    - Advanced syntax highlighting
+    - Live reference checking
+    - An integrated PDF viewer
+    - Live inline preview
+    - LaTeX command completion and syntax checking
+    - Local and global structure view
+    - Citations checking and completion
+    - Live grammar checking
+    - Spellchecking
+command:
+- /opt/apps/texstudio.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
