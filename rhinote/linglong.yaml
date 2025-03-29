@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: rhinote.linyaps
+  name: rhinote
+  version: 0.7.4.5
+  kind: app
+  description: |-
+    virtual sticky-notes for your desktop
+    Rhinote is a small program that provides virtual sticky-notes. It's handy
+    for jotting down quick notes or holding copied text that you plan to paste
+    elsewhere later.
+
+    Notes can be saved as plain text for later viewing/editing with Rhinote or
+    any other text editor.
+
+    Rhinote is designed to be "keyboard friendly", that is, every single action
+    is bound to a specific keystroke.
+command:
+- /opt/apps/rhinote.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
