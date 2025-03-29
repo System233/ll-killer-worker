@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: openjazz.linyaps
+  name: openjazz
+  version: 20231028.0.0.2
+  kind: app
+  description: |-
+    Jazz Jackrabbit™ game engine reimplementation
+    OpenJazz is a free, open-source version of the classic Jazz Jackrabbit™ games.
+
+    Jazz Jackrabbit™ is a PC platform game. Produced by Epic Games (then Epic
+    MegaGames), it was first released in 1994. The fast-paced, colourful gameplay
+    proved popular, and the game won PC Format's Arcade Game of the Year award.
+    Many people still fondly recall the shareware versions.
+
+    With the demise of DOS-based operating systems, it has become necessary to use
+    emulators to play old DOS games. Jazz Jackrabbit™ deserves more - and would
+    benefit greatly from new features.
+
+    To play, you will need the files from one of the original games. Current
+    releases of `game-data-packager' are able to generate a suitable data package
+    from the Jazz Jackrabbit Collection as published on GOG.
+command:
+- /opt/apps/openjazz.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
