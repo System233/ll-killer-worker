@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: persepolis.linyaps
+  name: persepolis
+  version: 3.0.1.1
+  kind: app
+  description: |-
+    Graphical download manager based on Aria2
+    Persepolis is a graphical user interface on the Aria2 download manager.
+
+    Aria2 is a high speed download utility which is capable of making several
+    connections to download files. It will boost the download in some cases,
+    specially if you have a limited network connection.
+
+    Persepolis makes the usage of Aria2 easier by providing a graphical
+    interface for it and in addition, it includes some extra functionalities
+    like scheduled downloads.
+command:
+- /opt/apps/persepolis.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
