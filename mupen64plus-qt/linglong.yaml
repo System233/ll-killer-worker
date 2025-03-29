@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: mupen64plus-qt.linyaps
+  name: mupen64plus-qt
+  version: 1.15.0.1
+  kind: app
+  description: |-
+    customizable launcher for Mupen64Plus
+    Mupen64Plus-Qt is a customizable launcher for the standard console UI frontend
+    of Mupen64Plus. It supports downloading game information and cover images from
+    thegamesdb.net.
+command:
+- /opt/apps/mupen64plus-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
