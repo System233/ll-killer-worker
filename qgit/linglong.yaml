@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: qgit.linyaps
+  name: qgit
+  version: 2.10.0.2
+  kind: app
+  description: |-
+    Qt application for viewing GIT trees
+    With qgit you will be able to browse revision tree, view patch content
+    and changed files, graphically following different development branches.
+    Main features:
+    - View revisions, diffs, files history, files annotation, archive tree.
+    - Commit changes visually cherry picking modified files.
+    - Apply or format patch series from selected commits, drag and
+    drop commits between two instances of qgit.
+    - qgit implements a GUI for the most common StGIT commands like push/pop
+    and apply/format patches. You can also create new patches or refresh
+    current top one using the same semantics of git commit, i.e.
+    cherry picking single modified files.
+command:
+- /opt/apps/qgit.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
