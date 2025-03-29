@@ -1,0 +1,34 @@
+version: "1"
+package:
+  id: syncplay.linyaps
+  name: syncplay
+  version: 1.7.0.2
+  kind: app
+  description: |-
+    Synchronize playback of various video players via internet (Client)
+    Allows you to watch movies with friends or family at different places
+    synchronized via the internet.
+
+    When a viewer pauses/continues playback or seeks within their media player
+    this will be replicated across all media players connected to the same server
+    in the same viewing session. A chat function is included so viewers can
+    discuss the movie while watching it. To improve the communication experience
+    for viewers, the Syncplay developers and therefore the syncplay-client package
+    suggest to use additional VoIP software (package mumble) or video phone
+    software (packages jami or linphone-desktop).
+
+    Technically, it synchronizes the position and play states of multiple mpv,
+    VLC, MPC-HC and MPC-BEmedia player instances so viewers' players present the
+    same movie at the same time.
+
+    In case your friends and family do not use Debian, Syncplay is available for
+    other operating systems on the upstream website.
+    To learn what Syncplay is read the description of package 'syncplay'.
+
+    This package installs the graphical desktop client program that does the actual
+    synchronization of your video player. Therefore it must connect to a Syncplay
+    server.
+command:
+- /opt/apps/syncplay.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

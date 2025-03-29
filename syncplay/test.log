@@ -1,0 +1,28 @@
+正在测试: APPID=syncplay.linyaps LAYER=syncplay.linyaps_1.7.0.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install syncplay.linyaps_1.7.0.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:syncplay.linyaps
+Layer文件:syncplay.linyaps_1.7.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: syncplay.linyaps_1.7.0.2_arm64_binary.layer
+offset: 1592
+mountpoint: /tmp/tmp.UYzDKwFfdT/mnt
+dbglevel: 0
+[成功] syncplay.desktop: syncplay -> /opt/apps/syncplay.linyaps/files/share/icons/hicolor/256x256/apps/syncplay.png
+[成功] /opt/apps/syncplay.linyaps/files/share/applications/syncplay.desktop: /opt/apps/syncplay.linyaps/files/entrypoint.sh syncplay %u
+[正在测试启动项]
+包名:syncplay.linyaps
+Layer文件:syncplay.linyaps_1.7.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: syncplay.linyaps_1.7.0.2_arm64_binary.layer
+offset: 1592
+mountpoint: /tmp/tmp.UVqEIBXPIQ/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run syncplay.linyaps -- /opt/apps/syncplay.linyaps/files/entrypoint.sh syncplay
+[PID 21765] 进程已启动
+[PID 21765] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall syncplay.linyaps
