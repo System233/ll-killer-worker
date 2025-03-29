@@ -1,0 +1,28 @@
+正在测试: APPID=photoqt.linyaps LAYER=photoqt.linyaps_4.4.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install photoqt.linyaps_4.4.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:photoqt.linyaps
+Layer文件:photoqt.linyaps_4.4.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: photoqt.linyaps_4.4.0.1_arm64_binary.layer
+offset: 482
+mountpoint: /tmp/tmp.9TvbijsAnV/mnt
+dbglevel: 0
+[成功] org.photoqt.PhotoQt.desktop: org.photoqt.PhotoQt -> /opt/apps/photoqt.linyaps/files/share/icons/hicolor/1024x1024/apps/org.photoqt.PhotoQt.png
+[成功] /opt/apps/photoqt.linyaps/files/share/applications/org.photoqt.PhotoQt.desktop: /opt/apps/photoqt.linyaps/files/entrypoint.sh photoqt %f
+[正在测试启动项]
+包名:photoqt.linyaps
+Layer文件:photoqt.linyaps_4.4.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: photoqt.linyaps_4.4.0.1_arm64_binary.layer
+offset: 482
+mountpoint: /tmp/tmp.ukxmM13o7d/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run photoqt.linyaps -- /opt/apps/photoqt.linyaps/files/entrypoint.sh photoqt
+[PID 19528] 进程已启动
+[PID 19528] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall photoqt.linyaps
