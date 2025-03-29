@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: qjackctl.linyaps
+  name: qjackctl
+  version: 0.9.13.1
+  kind: app
+  description: |-
+    User interface for controlling the JACK sound server
+    Qjackctl offers a user interface for controlling the JACK sound server
+    daemon. At the same time it figures as a JACK patch bay and monitoring
+    tool.
+command:
+- /opt/apps/qjackctl.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
