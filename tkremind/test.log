@@ -1,0 +1,31 @@
+正在测试: APPID=tkremind.linyaps LAYER=tkremind.linyaps_4.3.1.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install tkremind.linyaps_4.3.1.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:tkremind.linyaps
+Layer文件:tkremind.linyaps_4.3.1.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: tkremind.linyaps_4.3.1.1_arm64_binary.layer
+offset: 904
+mountpoint: /tmp/tmp.iiUiF6ULoS/mnt
+dbglevel: 0
+find: ‘/opt/apps/tkremind.linyaps/files/share/icons’: No such file or directory
+[成功] tkremind.desktop: tkremind -> /opt/apps/tkremind.linyaps/files/share/pixmaps/tkremind.png
+[成功] /opt/apps/tkremind.linyaps/files/share/applications/tkremind.desktop: /opt/apps/tkremind.linyaps/files/entrypoint.sh tkremind
+[正在测试启动项]
+包名:tkremind.linyaps
+Layer文件:tkremind.linyaps_4.3.1.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: tkremind.linyaps_4.3.1.1_arm64_binary.layer
+offset: 904
+mountpoint: /tmp/tmp.Gs5buOpNrI/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run tkremind.linyaps -- /opt/apps/tkremind.linyaps/files/entrypoint.sh tkremind
+[PID 10582] 进程已启动
+[PID 10582] 等待超时，未能检测到窗口
+[PID 10582] 正在通知并等待进程退出
+[PID 10582] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall tkremind.linyaps

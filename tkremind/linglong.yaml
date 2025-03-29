@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: tkremind.linyaps
+  name: tkremind
+  version: 4.3.1.1
+  kind: app
+  description: |-
+    sophisticated calendar and alarm program - Tk GUI interface
+    Remind allows you to remind yourself of upcoming events and
+    appointments.  Each reminder or alarm can consist of a message sent
+    to standard output, or a program to be executed.
+
+    It also features: sophisticated date calculation, moon phases,
+    sunrise/sunset, Hebrew calendar, alarms, PostScript output, tcl/tk
+    front-end and proper handling of holidays.
+
+    Tkremind provides a GUI which allows viewing a calendar and adding or editing
+    reminders without learning the syntax of Remind.
+command:
+- /opt/apps/tkremind.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

@@ -1,0 +1,387 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  inotify-tools iproute2 libasound2-data libatm1t64 libbpf1 libcairo-perl
+  libcpanel-json-xs-perl libdb5.3t64 libdw1t64 libelf1t64
+  libextutils-depends-perl libgdbm-compat4t64 libgdbm6t64 libglib-perl
+  libglib2.0-0t64 libhtml-parser-perl libinotifytools0 libjson-maybexs-perl
+  libjsonparser1.1 libnet-ssleay-perl libpango-perl libperl5.38t64 libssl3t64
+  libtcl8.6 libtirpc-common libtirpc-dev libtirpc3t64 libtk8.6 libxss1
+  libxtables12 perl perl-base perl-modules-5.38 remind remind-tools tcl tcl8.6
+  tcllib tk tk8.6
+Suggested packages:
+  iproute2-doc alsa-utils libfont-freetype-perl gdbm-l10n low-memory-monitor
+  libdata-dump-perl perl-doc libterm-readline-gnu-perl
+  | libterm-readline-perl-perl make libtap-harness-archive-perl wyrd
+  tcl-tclreadline tcllib-critcl
+Recommended packages:
+  alsa-ucm-conf alsa-topology-conf
+The following packages will be REMOVED:
+  dictionaries-common gir1.2-atk-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0
+  gir1.2-glib-2.0 gir1.2-harfbuzz-0.0 gir1.2-pango-1.0 libdb5.3 libdw1 libelf1
+  libgdbm-compat4 libgdbm6 libglib2.0-0 libglib2.0-bin libtext-iconv-perl
+  libtirpc3 xscreensaver-data-extra
+The following NEW packages will be installed:
+  inotify-tools iproute2 libatm1t64 libbpf1 libcairo-perl
+  libcpanel-json-xs-perl libdb5.3t64 libdw1t64 libelf1t64
+  libextutils-depends-perl libgdbm-compat4t64 libgdbm6t64 libglib-perl
+  libglib2.0-0t64 libinotifytools0 libjson-maybexs-perl libjsonparser1.1
+  libpango-perl libperl5.38t64 libssl3t64 libtcl8.6 libtirpc3t64 libtk8.6
+  libxss1 libxtables12 perl-modules-5.38 remind remind-tools tcl tcl8.6 tcllib
+  tk tk8.6 tkremind
+The following packages will be upgraded:
+  libasound2-data libhtml-parser-perl libnet-ssleay-perl libtirpc-common
+  libtirpc-dev perl perl-base
+7 upgraded, 34 newly installed, 17 to remove and 439 not upgraded.
+Need to get 23.9 MB of archives.
+After this operation, 80.3 MB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libhtml-parser-perl arm64 3.81-1build3 [85.0 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libssl3t64 arm64 3.0.13-0ubuntu3.5 [1797 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libnet-ssleay-perl arm64 1.94-1build4 [311 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 perl-modules-5.38 all 5.38.2-3.2build2.1 [3110 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libdb5.3t64 arm64 5.3.28+dfsg2-7 [732 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libgdbm6t64 arm64 1.23-5.1build1 [34.4 kB]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libgdbm-compat4t64 arm64 1.23-5.1build1 [6578 B]
+Get:8 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libperl5.38t64 arm64 5.38.2-3.2build2.1 [4773 kB]
+Get:9 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 perl arm64 5.38.2-3.2build2.1 [231 kB]
+Get:10 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 perl-base arm64 5.38.2-3.2build2.1 [1778 kB]
+Get:11 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libdw1t64 arm64 0.190-1.1ubuntu0.1 [258 kB]
+Get:12 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libelf1t64 arm64 0.190-1.1ubuntu0.1 [58.4 kB]
+Get:13 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libglib2.0-0t64 arm64 2.80.0-6ubuntu3.2 [1531 kB]
+Get:14 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libtirpc-common all 1.3.4+ds-1.1build1 [8094 B]
+Get:15 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libtirpc-dev arm64 1.3.4+ds-1.1build1 [201 kB]
+Get:16 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libtirpc3t64 arm64 1.3.4+ds-1.1build1 [83.6 kB]
+Get:17 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libbpf1 arm64 1:1.3.0-2build2 [168 kB]
+Get:18 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxtables12 arm64 1.8.10-3ubuntu2 [35.9 kB]
+Get:19 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 iproute2 arm64 6.1.0-1ubuntu6 [1121 kB]
+Get:20 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libatm1t64 arm64 1:2.5.1-5.1build1 [23.5 kB]
+Get:21 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libinotifytools0 arm64 3.22.6.0-4 [21.9 kB]
+Get:22 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 inotify-tools arm64 3.22.6.0-4 [31.1 kB]
+Get:23 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libasound2-data all 1.2.11-1build2 [21.0 kB]
+Get:24 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libcairo-perl arm64 1.109-4build1 [90.0 kB]
+Get:25 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libcpanel-json-xs-perl arm64 4.37-1build3 [113 kB]
+Get:26 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libextutils-depends-perl all 0.8001-2 [14.4 kB]
+Get:27 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libglib-perl arm64 3:1.329.3-3build3 [315 kB]
+Get:28 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjson-maybexs-perl all 1.004005-1 [11.3 kB]
+Get:29 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libjsonparser1.1 arm64 1.1.0-2 [7952 B]
+Get:30 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libpango-perl arm64 1.227-4build4 [142 kB]
+Get:31 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libtcl8.6 arm64 8.6.14+dfsg-1build1 [978 kB]
+Get:32 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxss1 arm64 1:1.2.3-1build3 [7244 B]
+Get:33 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libtk8.6 arm64 8.6.14-1build1 [767 kB]
+Get:34 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 remind arm64 04.03.01-1build1 [208 kB]
+Get:35 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 remind-tools arm64 04.03.01-1build1 [102 kB]
+Get:36 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 tcl8.6 arm64 8.6.14+dfsg-1build1 [14.6 kB]
+Get:37 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 tcl arm64 8.6.14build1 [4124 B]
+Get:38 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 tcllib all 1.21+dfsg-1 [4664 kB]
+Get:39 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 tk8.6 arm64 8.6.14-1build1 [12.3 kB]
+Get:40 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 tk arm64 8.6.14build1 [3076 B]
+Get:41 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 tkremind all 04.03.01-1build1 [41.7 kB]
+Fetched 23.9 MB in 5s (5066 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libhtml-parser-perl_3.81-1build3_arm64.deb ...
+Unpacking libhtml-parser-perl:arm64 (3.81-1build3) over (3.76-1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27741 files and directories currently installed.)
+Removing xscreensaver-data-extra (6.02+dfsg1-3) ...
+Removing dictionaries-common (1.28.12) ...
+Removing 'diversion of /usr/share/dict/words to /usr/share/dict/words.pre-dictionaries-common by dictionaries-common'
+Removing libtext-iconv-perl (1.7-deepin1) ...
+Selecting previously unselected package libssl3t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27266 files and directories currently installed.)
+Preparing to unpack .../libssl3t64_3.0.13-0ubuntu3.5_arm64.deb ...
+Unpacking libssl3t64:arm64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:arm64 (3.2.0-2) ...
+Preparing to unpack .../libnet-ssleay-perl_1.94-1build4_arm64.deb ...
+Unpacking libnet-ssleay-perl:arm64 (1.94-1build4) over (1.92-2) ...
+Preparing to unpack .../perl_5.38.2-3.2build2.1_arm64.deb ...
+Unpacking perl (5.38.2-3.2build2.1) over (5.36.0-10) ...
+Selecting previously unselected package perl-modules-5.38.
+Preparing to unpack .../perl-modules-5.38_5.38.2-3.2build2.1_all.deb ...
+Unpacking perl-modules-5.38 (5.38.2-3.2build2.1) ...
+dpkg: libdb5.3:arm64: dependency problems, but removing anyway as you requested:
+ libsasl2-modules-db:arm64 depends on libdb5.3.
+ libpython3.12-stdlib:arm64 depends on libdb5.3.
+ libpython3.11-stdlib:arm64 depends on libdb5.3.
+ libperl5.36:arm64 depends on libdb5.3.
+ libpam-modules:arm64 depends on libdb5.3.
+ libjack-jackd2-0:arm64 depends on libdb5.3.
+ libical3:arm64 depends on libdb5.3.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28678 files and directories currently installed.)
+Removing libdb5.3:arm64 (5.3.28+dfsg1-0.8) ...
+Selecting previously unselected package libdb5.3t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28672 files and directories currently installed.)
+Preparing to unpack .../libdb5.3t64_5.3.28+dfsg2-7_arm64.deb ...
+Unpacking libdb5.3t64:arm64 (5.3.28+dfsg2-7) ...
+Setting up libdb5.3t64:arm64 (5.3.28+dfsg2-7) ...
+dpkg: libgdbm6:arm64: dependency problems, but removing anyway as you requested:
+ libperl5.36:arm64 depends on libgdbm6 (>= 1.21).
+ libgdbm-compat4:arm64 depends on libgdbm6 (>= 1.16).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28678 files and directories currently installed.)
+Removing libgdbm6:arm64 (1.22-1) ...
+Selecting previously unselected package libgdbm6t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28672 files and directories currently installed.)
+Preparing to unpack .../libgdbm6t64_1.23-5.1build1_arm64.deb ...
+Unpacking libgdbm6t64:arm64 (1.23-5.1build1) ...
+dpkg: libgdbm-compat4:arm64: dependency problems, but removing anyway as you requested:
+ libperl5.36:arm64 depends on libgdbm-compat4 (>= 1.18-3).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28678 files and directories currently installed.)
+Removing libgdbm-compat4:arm64 (1.22-1) ...
+Selecting previously unselected package libgdbm-compat4t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28672 files and directories currently installed.)
+Preparing to unpack .../libgdbm-compat4t64_1.23-5.1build1_arm64.deb ...
+Unpacking libgdbm-compat4t64:arm64 (1.23-5.1build1) ...
+Selecting previously unselected package libperl5.38t64:arm64.
+Preparing to unpack .../libperl5.38t64_5.38.2-3.2build2.1_arm64.deb ...
+Unpacking libperl5.38t64:arm64 (5.38.2-3.2build2.1) ...
+Preparing to unpack .../perl-base_5.38.2-3.2build2.1_arm64.deb ...
+Unpacking perl-base (5.38.2-3.2build2.1) over (5.36.0-10) ...
+Setting up perl-base (5.38.2-3.2build2.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29209 files and directories currently installed.)
+Removing gir1.2-atk-1.0:arm64 (2.50.0-1) ...
+Removing gir1.2-pango-1.0:arm64 (1.52.2+ds-1) ...
+Removing gir1.2-harfbuzz-0.0:arm64 (8.0.1-1+rb1) ...
+Removing gir1.2-freedesktop:arm64 (1.80.1-2) ...
+Removing gir1.2-gdkpixbuf-2.0:arm64 (2.42.10+dfsg-3) ...
+Removing gir1.2-glib-2.0:arm64 (2.80.1-1deepin1) ...
+Removing libglib2.0-bin (2.80.1-1deepin1) ...
+dpkg: libdw1:arm64: dependency problems, but removing anyway as you requested:
+ libgstreamer1.0-0:arm64 depends on libdw1 (>= 0.126).
+ bluez depends on libdw1 (>= 0.127).
+
+Removing libdw1:arm64 (0.188-2.1deepin1) ...
+Selecting previously unselected package libdw1t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29132 files and directories currently installed.)
+Preparing to unpack .../libdw1t64_0.190-1.1ubuntu0.1_arm64.deb ...
+Unpacking libdw1t64:arm64 (0.190-1.1ubuntu0.1) ...
+dpkg: libelf1:arm64: dependency problems, but removing anyway as you requested:
+ mesa-vulkan-drivers:arm64 depends on libelf1 (>= 0.142).
+ mesa-vdpau-drivers:arm64 depends on libelf1 (>= 0.142).
+ libgl1-mesa-dri:arm64 depends on libelf1 (>= 0.142).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29137 files and directories currently installed.)
+Removing libelf1:arm64 (0.188-2.1deepin1) ...
+Selecting previously unselected package libelf1t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29124 files and directories currently installed.)
+Preparing to unpack .../libelf1t64_0.190-1.1ubuntu0.1_arm64.deb ...
+Unpacking libelf1t64:arm64 (0.190-1.1ubuntu0.1) ...
+dpkg: libglib2.0-0:arm64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-gl depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-data depends on libglib2.0-0 (>= 2.16.0).
+ shared-mime-info depends on libglib2.0-0 (>= 2.75.3).
+ pulseaudio-module-bluetooth depends on libglib2.0-0 (>= 2.12.0).
+ pulseaudio depends on libglib2.0-0 (>= 2.32.0).
+ libspa-0.2-bluetooth:arm64 depends on libglib2.0-0 (>= 2.38.0).
+ librsvg2-2:arm64 depends on libglib2.0-0 (>= 2.77.3).
+ libpulse-mainloop-glib0:arm64 depends on libglib2.0-0 (>= 2.28.0).
+ libpipewire-0.3-modules:arm64 depends on libglib2.0-0 (>= 2.32.0).
+ libpangoxft-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangoft2-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangocairo-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libpango-1.0-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libical3:arm64 depends on libglib2.0-0 (>= 2.42.0).
+ libharfbuzz0b:arm64 depends on libglib2.0-0 (>= 2.32.0).
+ libharfbuzz-gobject0:arm64 depends on libglib2.0-0 (>= 2.14.0).
+ libgtk2.0-0:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ libgtk-3-0:arm64 depends on libglib2.0-0 (>= 2.79.0).
+ libgstreamer1.0-0:arm64 depends on libglib2.0-0 (>= 2.77.0).
+ libgstreamer-plugins-base1.0-0:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ libglibmm-2.4-1v5:arm64 depends on libglib2.0-0 (>= 2.62.0).
+ libgdk-pixbuf-xlib-2.0-0:arm64 depends on libglib2.0-0 (>= 2.48.0).
+ libgdk-pixbuf-2.0-0:arm64 depends on libglib2.0-0 (>= 2.75.0).
+ libfcitx5gclient2:arm64 depends on libglib2.0-0 (>= 2.38.0).
+ libdconf1:arm64 depends on libglib2.0-0 (>= 2.77.0).
+ libcolord2:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ libcloudproviders0:arm64 depends on libglib2.0-0 (>= 2.56.0).
+ libcairo-gobject2:arm64 depends on libglib2.0-0 (>= 2.68.0).
+ libavcodec60:arm64 depends on libglib2.0-0 (>= 2.12.0).
+ libatspi2.0-0:arm64 depends on libglib2.0-0 (>= 2.62).
+ libatk1.0-0:arm64 depends on libglib2.0-0 (>= 2.62).
+ libatk-bridge2.0-0:arm64 depends on libglib2.0-0 (>= 2.75.3).
+ gtk-update-icon-cache depends on libglib2.0-0 (>= 2.57.2).
+ glib-networking-services depends on libglib2.0-0 (>= 2.73.3).
+ glib-networking:arm64 depends on libglib2.0-0 (>= 2.73.3).
+ fcitx5-frontend-gtk3 depends on libglib2.0-0 (>= 2.75.3).
+ fcitx5-frontend-gtk2 depends on libglib2.0-0 (>= 2.75.3).
+ dconf-service depends on libglib2.0-0 (>= 2.77.0).
+ dconf-gsettings-backend:arm64 depends on libglib2.0-0 (>= 2.77.0).
+ bluez-obexd depends on libglib2.0-0 (>= 2.77.0).
+ bluez depends on libglib2.0-0 (>= 2.75.3).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29129 files and directories currently installed.)
+Removing libglib2.0-0:arm64 (2.80.1-1deepin1) ...
+Selecting previously unselected package libglib2.0-0t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29108 files and directories currently installed.)
+Preparing to unpack .../libglib2.0-0t64_2.80.0-6ubuntu3.2_arm64.deb ...
+libglib2.0-0t64.preinst: Removing /var/lib/dpkg/info/libglib2.0-0:arm64.postrm to avoid loss of /usr/share/glib-2.0/schemas/gschemas.compiled...
+removed '/var/lib/dpkg/info/libglib2.0-0:arm64.postrm'
+Unpacking libglib2.0-0t64:arm64 (2.80.0-6ubuntu3.2) ...
+Preparing to unpack .../libtirpc-common_1.3.4+ds-1.1build1_all.deb ...
+Unpacking libtirpc-common (1.3.4+ds-1.1build1) over (1.3.2-2) ...
+Preparing to unpack .../libtirpc-dev_1.3.4+ds-1.1build1_arm64.deb ...
+Unpacking libtirpc-dev:arm64 (1.3.4+ds-1.1build1) over (1.3.2-2) ...
+dpkg: libtirpc3:arm64: dependency problems, but removing anyway as you requested:
+ libpython3.12-stdlib:arm64 depends on libtirpc3 (>= 1.0.2).
+ libpython3.11-stdlib:arm64 depends on libtirpc3 (>= 1.0.2).
+ libnsl2:arm64 depends on libtirpc3 (>= 1.0.2).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29127 files and directories currently installed.)
+Removing libtirpc3:arm64 (1.3.2-2) ...
+Selecting previously unselected package libtirpc3t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29120 files and directories currently installed.)
+Preparing to unpack .../00-libtirpc3t64_1.3.4+ds-1.1build1_arm64.deb ...
+Adding 'diversion of /lib/aarch64-linux-gnu/libtirpc.so.3 to /lib/aarch64-linux-gnu/libtirpc.so.3.usr-is-merged by libtirpc3t64'
+Adding 'diversion of /lib/aarch64-linux-gnu/libtirpc.so.3.0.0 to /lib/aarch64-linux-gnu/libtirpc.so.3.0.0.usr-is-merged by libtirpc3t64'
+Unpacking libtirpc3t64:arm64 (1.3.4+ds-1.1build1) ...
+Selecting previously unselected package libbpf1:arm64.
+Preparing to unpack .../01-libbpf1_1%3a1.3.0-2build2_arm64.deb ...
+Unpacking libbpf1:arm64 (1:1.3.0-2build2) ...
+Selecting previously unselected package libxtables12:arm64.
+Preparing to unpack .../02-libxtables12_1.8.10-3ubuntu2_arm64.deb ...
+Unpacking libxtables12:arm64 (1.8.10-3ubuntu2) ...
+Selecting previously unselected package iproute2.
+Preparing to unpack .../03-iproute2_6.1.0-1ubuntu6_arm64.deb ...
+Unpacking iproute2 (6.1.0-1ubuntu6) ...
+Selecting previously unselected package libatm1t64:arm64.
+Preparing to unpack .../04-libatm1t64_1%3a2.5.1-5.1build1_arm64.deb ...
+Unpacking libatm1t64:arm64 (1:2.5.1-5.1build1) ...
+Selecting previously unselected package libinotifytools0:arm64.
+Preparing to unpack .../05-libinotifytools0_3.22.6.0-4_arm64.deb ...
+Unpacking libinotifytools0:arm64 (3.22.6.0-4) ...
+Selecting previously unselected package inotify-tools.
+Preparing to unpack .../06-inotify-tools_3.22.6.0-4_arm64.deb ...
+Unpacking inotify-tools (3.22.6.0-4) ...
+Preparing to unpack .../07-libasound2-data_1.2.11-1build2_all.deb ...
+Unpacking libasound2-data (1.2.11-1build2) over (1.2.8-1) ...
+Selecting previously unselected package libcairo-perl.
+Preparing to unpack .../08-libcairo-perl_1.109-4build1_arm64.deb ...
+Unpacking libcairo-perl (1.109-4build1) ...
+Selecting previously unselected package libcpanel-json-xs-perl:arm64.
+Preparing to unpack .../09-libcpanel-json-xs-perl_4.37-1build3_arm64.deb ...
+Unpacking libcpanel-json-xs-perl:arm64 (4.37-1build3) ...
+Selecting previously unselected package libextutils-depends-perl.
+Preparing to unpack .../10-libextutils-depends-perl_0.8001-2_all.deb ...
+Unpacking libextutils-depends-perl (0.8001-2) ...
+Selecting previously unselected package libglib-perl:arm64.
+Preparing to unpack .../11-libglib-perl_3%3a1.329.3-3build3_arm64.deb ...
+Unpacking libglib-perl:arm64 (3:1.329.3-3build3) ...
+Selecting previously unselected package libjson-maybexs-perl.
+Preparing to unpack .../12-libjson-maybexs-perl_1.004005-1_all.deb ...
+Unpacking libjson-maybexs-perl (1.004005-1) ...
+Selecting previously unselected package libjsonparser1.1:arm64.
+Preparing to unpack .../13-libjsonparser1.1_1.1.0-2_arm64.deb ...
+Unpacking libjsonparser1.1:arm64 (1.1.0-2) ...
+Selecting previously unselected package libpango-perl.
+Preparing to unpack .../14-libpango-perl_1.227-4build4_arm64.deb ...
+Unpacking libpango-perl (1.227-4build4) ...
+Selecting previously unselected package libtcl8.6:arm64.
+Preparing to unpack .../15-libtcl8.6_8.6.14+dfsg-1build1_arm64.deb ...
+Unpacking libtcl8.6:arm64 (8.6.14+dfsg-1build1) ...
+Selecting previously unselected package libxss1:arm64.
+Preparing to unpack .../16-libxss1_1%3a1.2.3-1build3_arm64.deb ...
+Unpacking libxss1:arm64 (1:1.2.3-1build3) ...
+Selecting previously unselected package libtk8.6:arm64.
+Preparing to unpack .../17-libtk8.6_8.6.14-1build1_arm64.deb ...
+Unpacking libtk8.6:arm64 (8.6.14-1build1) ...
+Selecting previously unselected package remind.
+Preparing to unpack .../18-remind_04.03.01-1build1_arm64.deb ...
+Unpacking remind (04.03.01-1build1) ...
+Selecting previously unselected package remind-tools.
+Preparing to unpack .../19-remind-tools_04.03.01-1build1_arm64.deb ...
+Unpacking remind-tools (04.03.01-1build1) ...
+Selecting previously unselected package tcl8.6.
+Preparing to unpack .../20-tcl8.6_8.6.14+dfsg-1build1_arm64.deb ...
+Unpacking tcl8.6 (8.6.14+dfsg-1build1) ...
+Selecting previously unselected package tcl.
+Preparing to unpack .../21-tcl_8.6.14build1_arm64.deb ...
+Unpacking tcl (8.6.14build1) ...
+Selecting previously unselected package tcllib.
+Preparing to unpack .../22-tcllib_1.21+dfsg-1_all.deb ...
+Unpacking tcllib (1.21+dfsg-1) ...
+Selecting previously unselected package tk8.6.
+Preparing to unpack .../23-tk8.6_8.6.14-1build1_arm64.deb ...
+Unpacking tk8.6 (8.6.14-1build1) ...
+Selecting previously unselected package tk.
+Preparing to unpack .../24-tk_8.6.14build1_arm64.deb ...
+Unpacking tk (8.6.14build1) ...
+Selecting previously unselected package tkremind.
+Preparing to unpack .../25-tkremind_04.03.01-1build1_all.deb ...
+Unpacking tkremind (04.03.01-1build1) ...
+Setting up libinotifytools0:arm64 (3.22.6.0-4) ...
+Setting up libatm1t64:arm64 (1:2.5.1-5.1build1) ...
+Setting up libgdbm6t64:arm64 (1.23-5.1build1) ...
+Setting up libgdbm-compat4t64:arm64 (1.23-5.1build1) ...
+Setting up libssl3t64:arm64 (3.0.13-0ubuntu3.5) ...
+Setting up libtirpc-common (1.3.4+ds-1.1build1) ...
+Setting up libelf1t64:arm64 (0.190-1.1ubuntu0.1) ...
+Setting up libdw1t64:arm64 (0.190-1.1ubuntu0.1) ...
+Setting up libasound2-data (1.2.11-1build2) ...
+Setting up libglib2.0-0t64:arm64 (2.80.0-6ubuntu3.2) ...
+Setting up libjsonparser1.1:arm64 (1.1.0-2) ...
+Setting up perl-modules-5.38 (5.38.2-3.2build2.1) ...
+Setting up libtcl8.6:arm64 (8.6.14+dfsg-1build1) ...
+Setting up libxtables12:arm64 (1.8.10-3ubuntu2) ...
+Setting up inotify-tools (3.22.6.0-4) ...
+Setting up remind (04.03.01-1build1) ...
+Setting up libxss1:arm64 (1:1.2.3-1build3) ...
+Setting up libperl5.38t64:arm64 (5.38.2-3.2build2.1) ...
+Setting up libbpf1:arm64 (1:1.3.0-2build2) ...
+Setting up tcl8.6 (8.6.14+dfsg-1build1) ...
+Setting up libtirpc3t64:arm64 (1.3.4+ds-1.1build1) ...
+Setting up iproute2 (6.1.0-1ubuntu6) ...
+
+Configuration file '/etc/iproute2/bpf_pinning', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/iproute2/ematch_map', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/iproute2/group', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/iproute2/nl_protos', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/iproute2/rt_dsfield', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/iproute2/rt_protos', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/iproute2/rt_protos.d/README', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/iproute2/rt_realms', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/iproute2/rt_scopes', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/iproute2/rt_tables', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/iproute2/rt_tables.d/README', does not exist on system.
+Installing new config file as you requested.
+Setting up libtk8.6:arm64 (8.6.14-1build1) ...
+Setting up perl (5.38.2-3.2build2.1) ...
+Setting up libtirpc-dev:arm64 (1.3.4+ds-1.1build1) ...
+Setting up libhtml-parser-perl:arm64 (3.81-1build3) ...
+Setting up tcl (8.6.14build1) ...
+Setting up libcairo-perl (1.109-4build1) ...
+Setting up libnet-ssleay-perl:arm64 (1.94-1build4) ...
+Setting up tk8.6 (8.6.14-1build1) ...
+Setting up libcpanel-json-xs-perl:arm64 (4.37-1build3) ...
+Setting up libextutils-depends-perl (0.8001-2) ...
+Setting up libjson-maybexs-perl (1.004005-1) ...
+Setting up tcllib (1.21+dfsg-1) ...
+Setting up tk (8.6.14build1) ...
+Setting up libglib-perl:arm64 (3:1.329.3-3build3) ...
+Setting up libpango-perl (1.227-4build4) ...
+Setting up remind-tools (04.03.01-1build1) ...
+Setting up tkremind (04.03.01-1build1) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
