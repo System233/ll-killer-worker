@@ -1,0 +1,30 @@
+正在测试: APPID=ksh93u_m.linyaps LAYER=ksh93u_m.linyaps_1.0.8.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install ksh93u_m.linyaps_1.0.8.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:ksh93u_m.linyaps
+Layer文件:ksh93u_m.linyaps_1.0.8.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: ksh93u_m.linyaps_1.0.8.1_x86_64_binary.layer
+offset: 910
+mountpoint: /tmp/tmp.gBbUlkjKUB/mnt
+dbglevel: 0
+find: ‘/opt/apps/ksh93u_m.linyaps/files/share/icons’: No such file or directory
+find: ‘/opt/apps/ksh93u_m.linyaps/files/share/pixmaps’: No such file or directory
+[成功] ksh93.desktop: utilities-terminal -> /usr/share/icons/Humanity/apps/16/utilities-terminal.svg
+[成功] /opt/apps/ksh93u_m.linyaps/files/share/applications/ksh93.desktop: /opt/apps/ksh93u_m.linyaps/files/entrypoint.sh ksh93
+[正在测试启动项]
+包名:ksh93u_m.linyaps
+Layer文件:ksh93u_m.linyaps_1.0.8.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: ksh93u_m.linyaps_1.0.8.1_x86_64_binary.layer
+offset: 910
+mountpoint: /tmp/tmp.jqjcj0phpI/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run ksh93u_m.linyaps -- /opt/apps/ksh93u_m.linyaps/files/entrypoint.sh ksh93
+[PID 5407] 进程已启动
+[PID 5407] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall ksh93u_m.linyaps
