@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: q4wine.linyaps
+  name: q4wine
+  version: 1.3.13.1
+  kind: app
+  description: |-
+    Qt GUI for WINE
+    Q4Wine will help you manage wine prefixes and installed applications.
+
+    General features:
+    - Can export Qt color theme into wine colors settings.
+    - Can easy work with different wine versions at same time.
+    - Easy creating, deleting and managing prefixes (WINEPREFIX).
+    - Easy controlling for wine process.
+    - Easy installer wizard for wine applications.
+    - Autostart icons support.
+    - Easy CD-image use.
+    - You can extract icons from PE files (.exe .dll).
+    - Easy backup and restore for managed prefixes.
+    - Winetricks support.
+    - And more...
+command:
+- /opt/apps/q4wine.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
