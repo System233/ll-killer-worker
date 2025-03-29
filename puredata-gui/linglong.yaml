@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: puredata-gui.linyaps
+  name: puredata-gui
+  version: 0.54.1.4
+  kind: app
+  description: |-
+    realtime computer music and graphics system - GUI
+    Pure Data (also known as Pd) is a real-time graphical programming environment
+    for audio and graphics processing.
+
+    This package provides the graphical user-interface for Pure Data.
+    Most likely you will want to install "puredata-core" (or even "puredata")
+    as well.
+    Installing this package without the accompanying puredata-core is only useful
+    if you want to run the GUI and the DSP on different machines.
+command:
+- /opt/apps/puredata-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
