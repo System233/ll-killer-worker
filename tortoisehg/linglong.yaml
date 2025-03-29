@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: tortoisehg.linyaps
+  name: tortoisehg
+  version: 6.6.3.1
+  kind: app
+  description: |-
+    Graphical tool for working with Mercurial
+    TortoiseHg provides a graphical tool for interacting with the distributed
+    revision control system Mercurial.  GUI support is provided for over a dozen
+    operations, including add files, commit changes, manage ignore filter, view
+    change log, merge, recover/rollback, edit configuration, synchronize
+    repository, and many others.   The highlight is the interactive commit tool
+    which allows easy selection of diffs from multiple files and packaging into
+    changesets, and which is more powerful and easier to use than available
+    alternatives such as qct and hgct (commit-tool).
+command:
+- /opt/apps/tortoisehg.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
