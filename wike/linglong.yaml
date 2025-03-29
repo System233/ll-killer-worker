@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: wike.linyaps
+  name: wike
+  version: 2.1.0.1
+  kind: app
+  description: |-
+    Wikipedia reader for the GNOME Desktop
+    Wike provides access to all the content of this online encyclopedia in a
+    native application, with a simpler and distraction-free view of articles.
+
+    Wike is a GNOME Circle app.
+command:
+- /opt/apps/wike.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
