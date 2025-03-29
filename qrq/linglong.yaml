@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: qrq.linyaps
+  name: qrq
+  version: 0.3.5.2
+  kind: app
+  description: |-
+    high speed morse trainer, similar to DL4MM's Rufz
+    qrq is an open source morse telegraphy trainer for Linux and Unix operating
+    systems, similar to the classic DOS version of Rufz by DL4MM.
+
+    It is not intended for learning telegraphy, but to improve the ability
+    to copy callsigns at high speeds, as needed for example for Contesting.
+command:
+- /opt/apps/qrq.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
