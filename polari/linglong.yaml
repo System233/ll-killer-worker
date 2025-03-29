@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: polari.linyaps
+  name: polari
+  version: 45.0.0.3
+  kind: app
+  description: |-
+    Internet Relay Chat (IRC) client
+    Polari is an Internet Relay Chat (IRC) client designed for GNOME.
+
+    Polari is a GNOME Circle app.
+command:
+- /opt/apps/polari.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
