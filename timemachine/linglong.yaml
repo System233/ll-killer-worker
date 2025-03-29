@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: timemachine.linyaps
+  name: timemachine
+  version: 0.3.3.3
+  kind: app
+  description: |-
+    JACK audio recorder for spontaneous use
+    Timemachine writes the last 10 seconds of audio _before_ the button press
+    and everything from then on up to the next button press into a WAV-file.
+
+    The idea is that you doodle away with whatever is kicking around in your
+    studio and when you hear an interesting noise, you press record and
+    capture it, without having to try and recreate it.
+
+    It uses the JACK audio connection kit, an API that lets audio applications
+    communicate with each other and share audio data in realtime.
+command:
+- /opt/apps/timemachine.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
