@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: wallch.linyaps
+  name: wallch
+  version: 4.0.0.0
+  kind: app
+  description: |-
+    wallpaper changer
+    Wallch is a wallpaper changer for keeping your desktop
+    fresh and new. It supports the following Desktop Environments:
+    Gnome (with or without Unity integration), LXDE, XFCE and Mate.
+
+    Some random features:
+    - Live Website - set as wallpaper any webpage you wish
+    - Live Earth - a live picture of the earth
+    - Picture Of The Day - taken from wikipedia, changing daily
+    - Wallpaper Clocks - wallpapers that tell you the time
+    - Folder Monitoring
+command:
+- /opt/apps/wallch.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
