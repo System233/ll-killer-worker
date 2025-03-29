@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: open3d-viewer.linyaps
+  name: open3d-viewer
+  version: 0.18.0.3
+  kind: app
+  description: |-
+    Library for 3D data processing - viewer GUI
+    Open3D is an open-source library that supports rapid development of
+    software that deals with 3D data. The Open3D frontend exposes a set
+    of carefully selected data structures and algorithms in both C++ and
+    Python. The backend is highly optimized and is set up for parallelization.
+
+    This package provides the stand-alone viewer for data visualization.
+command:
+- /opt/apps/open3d-viewer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

@@ -1,0 +1,17 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ libopen3d0.18t64 : Depends: libcurl4t64 (>= 7.16.2) but it is not going to be installed
+                    Depends: libfilament1.9 (>= 1.9.25+dfsg2) but it is not installable
+                    Depends: libpng16-16t64 (>= 1.6.2) but it is not going to be installed
+                    Depends: libvtk9.1t64 (>= 9.1.0+really9.1.0+dfsg2) but it is not going to be installed
+E: Unable to correct problems, you have held broken packages.
