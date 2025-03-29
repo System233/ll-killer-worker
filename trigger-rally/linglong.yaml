@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: trigger-rally.linyaps
+  name: trigger-rally
+  version: 0.6.6.3
+  kind: app
+  description: |-
+    3D rally car racing game
+    Trigger is a free 3D rally car racing game. Fun for all the family!
+
+    Trigger comes with a number of challenges where you have to race several
+    tracks to finish each challenge.
+
+    When racing a track, you have to reach several locations marked by pulsating
+    rings in sequence. To win a race you have to reach the last location in time.
+
+    Trigger is highly customisable, and it's easy to add new levels and vehicles.
+
+    An OpenGL accelerated video card is required to play Trigger.
+command:
+- /opt/apps/trigger-rally.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
