@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: pong2.linyaps
+  name: pong2
+  version: 0.1.3.3
+  kind: app
+  description: |-
+    Remake of old arcade classic in OpenGL
+    Pong2 is an up till now two player (networked) game inspired
+    by the classical "Pong" from Amiga, which adds another
+    dimension to the playing field. It makes use of features found
+    on modern 3d graphics cards, so decent hardware is a requirement.
+
+    It also has multiplayer support! 2 players can play against
+    each other via network.
+command:
+- /opt/apps/pong2.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
