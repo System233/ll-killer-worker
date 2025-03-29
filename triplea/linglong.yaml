@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: triplea.linyaps
+  name: triplea
+  version: 1.9.0.2
+  kind: app
+  description: |-
+    Turn based strategy game
+    TripleA is a turn based strategy game. TripleA comes with multiple
+    games and over 100 more games can be downloaded from the user
+    community. Supports single player vs AI, hot-seat, Play by Email,
+    and a hosted online lobby.
+command:
+- /opt/apps/triplea.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

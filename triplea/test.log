@@ -1,0 +1,28 @@
+正在测试: APPID=triplea.linyaps LAYER=triplea.linyaps_1.9.0.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install triplea.linyaps_1.9.0.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:triplea.linyaps
+Layer文件:triplea.linyaps_1.9.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: triplea.linyaps_1.9.0.2_arm64_binary.layer
+offset: 603
+mountpoint: /tmp/tmp.fJYOYnIsXs/mnt
+dbglevel: 0
+[成功] triplea.desktop: triplea -> /opt/apps/triplea.linyaps/files/share/icons/hicolor/256x256/apps/triplea.png
+[成功] /opt/apps/triplea.linyaps/files/share/applications/triplea.desktop: /opt/apps/triplea.linyaps/files/entrypoint.sh triplea
+[正在测试启动项]
+包名:triplea.linyaps
+Layer文件:triplea.linyaps_1.9.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: triplea.linyaps_1.9.0.2_arm64_binary.layer
+offset: 603
+mountpoint: /tmp/tmp.POAnGJuR6c/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run triplea.linyaps -- /opt/apps/triplea.linyaps/files/entrypoint.sh triplea
+[PID 11638] 进程已启动
+[PID 11638] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall triplea.linyaps
