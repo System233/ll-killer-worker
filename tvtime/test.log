@@ -1,0 +1,28 @@
+正在测试: APPID=tvtime.linyaps LAYER=tvtime.linyaps_1.0.11.8_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install tvtime.linyaps_1.0.11.8_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:tvtime.linyaps
+Layer文件:tvtime.linyaps_1.0.11.8_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: tvtime.linyaps_1.0.11.8_arm64_binary.layer
+offset: 1323
+mountpoint: /tmp/tmp.Fzy6XO4V5e/mnt
+dbglevel: 0
+[成功] tvtime.desktop: tvtime -> /opt/apps/tvtime.linyaps/files/share/icons/hicolor/16x16/apps/tvtime.png
+[成功] /opt/apps/tvtime.linyaps/files/share/applications/tvtime.desktop: /opt/apps/tvtime.linyaps/files/entrypoint.sh tvtime
+[正在测试启动项]
+包名:tvtime.linyaps
+Layer文件:tvtime.linyaps_1.0.11.8_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: tvtime.linyaps_1.0.11.8_arm64_binary.layer
+offset: 1323
+mountpoint: /tmp/tmp.KERXrfD8Mv/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run tvtime.linyaps -- /opt/apps/tvtime.linyaps/files/entrypoint.sh tvtime
+[PID 13060] 进程已启动
+[PID 13060] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall tvtime.linyaps
