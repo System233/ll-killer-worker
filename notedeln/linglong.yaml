@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: notedeln.linyaps
+  name: notedeln
+  version: 1.5.2.1
+  kind: app
+  description: |-
+    Electronic Lab Notebook called NotedELN
+    NotedELN is an electronic lab notebook with an emphasis on solid data
+    storage. It is designed for scientists of all stripes, and supports:
+
+    * Taking notes during experiments since it automatically saves your
+    input every 10 seconds so that your notes will never be lost;
+
+    * Keeping track of data analysis results since screen shots and
+    other graphics can be added to a notebook page by drag-and-drop or
+    copy-and-paste;
+
+    * Recording your lit searches, since it will automatically download
+    papers from PubMed and archive them with your notebook;
+
+    * Recording your thought processes, since it will never get in the
+    way of your typing with arbitrary constraints on input formatting.
+command:
+- /opt/apps/notedeln.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
