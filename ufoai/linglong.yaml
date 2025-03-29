@@ -1,0 +1,39 @@
+version: "1"
+package:
+  id: ufoai.linyaps
+  name: ufoai
+  version: 2.5.0.7
+  kind: app
+  description: |-
+    UFO: Alien Invasion -- build your team and stop the aliens
+    UFO: Alien Invasion is a squad-based tactical strategy game in the tradition
+    of the old X-COM PC games. It combines military realism with hard
+    science-fiction and the weirdness of an alien invasion. The carefully
+    constructed turn-based system gives you pin-point control of your squad while
+    maintaining a sense of pace and danger.
+
+    UFO:AI has two main modes of play: Geoscape mode and Tactical mode.
+
+    In Geoscape mode you manage the activities and finances of PHALANX, a secret
+    organisation charged with defending Earth from a brutal alien enemy. You
+    control bases, installations, aircraft and squads of armed-response troops.
+    You will research new technologies and use their results in battle against the
+    aliens. You can build, buy and produce anything you like, as long as your
+    technology level and your budget will allow it. Easy-to-use time buttons make
+    it possible to control the passage of time.
+
+    In Tactical mode the game is about taking command of your team in various
+    missions to combat the aliens wherever they might appear. Tactical mode uses a
+    turn-based system, where your team and the aliens take turns to make moves.
+    You can order your troops around, fire their weapons, throw grenades and use
+    other equipment. All actions require Time Units to perform. Once a soldier is
+    out of Time Units, he or she can't do anything more until the next turn. Your
+    mission objectives will vary for each mission and there are many to perform as
+    the aliens' terrifying plot unfolds. You'll have to watch your back, be quick
+    on your feet and take the fight to them.
+
+    If you don't, humanity is doomed.
+command:
+- /opt/apps/ufoai.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
