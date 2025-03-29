@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: virtualbox-qt.linyaps
+  name: virtualbox-qt
+  version: 7.0.20.1
+  kind: app
+  description: |-
+    x86 virtualization solution - Qt based user interface
+    VirtualBox is a free x86 virtualization solution allowing a wide range
+    of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
+    Linux system.
+
+    This package provides the Qt based graphical user interface for VirtualBox.
+command:
+- /opt/apps/virtualbox-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
