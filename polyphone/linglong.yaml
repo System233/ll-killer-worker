@@ -1,0 +1,35 @@
+version: "1"
+package:
+  id: polyphone.linyaps
+  name: polyphone
+  version: 2.2.0.3
+  kind: app
+  description: |-
+    cross-platform SoundFont editor
+    Polyphone is an open-source soundfont editor, available for platforms
+    supported by Qt5 (GNU/Linux, MacOS X, Windows). It can be used to
+    create musical instruments by putting together a multitude of audio
+    samples and configure them appropriately, which can then be used by
+    synthesisers such as FluidSynth (also in MuseScore) and Timidity and
+    played using a MIDI keyboard or other instrument. Polyphone provides
+    a simple, efficient and portable interface for creating and editing
+    soundfonts in various formats, and tools to facilitate and automate
+    the setting of different parameters, making it possible to handle a
+    large amount of data. It is available in several languages.
+
+    Features include:
+    - import from SF2, SF3, SFZ and sfArk file formats
+    - export to SF2, SF3, SFZ file formats
+    - support of SF2 format v2.01 and v2.04 (with 24-bit samples)
+    - compatible with JACK and ASIO audio servers
+    - built-in synthesiser, controlled by a virtual keyboard or MIDI signals
+    - automatic recognition of root keys, sample pitch and correction
+    - automatic loop of samples
+    - simultaneous editing of parameters
+    - specific tools for musical instrument creation
+    - sound recorder to keep track of what is played in a WAV file
+    - soundfont browser connected to the online repository
+command:
+- /opt/apps/polyphone.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
