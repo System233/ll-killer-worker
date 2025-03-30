@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: xfdashboard.linyaps
+  name: xfdashboard
+  version: 1.0.0.0
+  kind: app
+  description: |-
+    GNOME shell like dashboard for Xfce
+    xfdashboard provides an overview of applications currently open enabling the
+    user to switch between different applications. The search feature works like
+    Xfce's appfinder which makes it convenient to search for and start
+    applications.
+command:
+- /opt/apps/xfdashboard.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
