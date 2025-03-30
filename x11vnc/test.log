@@ -1,0 +1,32 @@
+正在测试: APPID=x11vnc.linyaps LAYER=x11vnc.linyaps_0.9.16.10_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install x11vnc.linyaps_0.9.16.10_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:x11vnc.linyaps
+Layer文件:x11vnc.linyaps_0.9.16.10_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: x11vnc.linyaps_0.9.16.10_x86_64_binary.layer
+offset: 781
+mountpoint: /tmp/tmp.Ctlzlj8owA/mnt
+dbglevel: 0
+find: ‘/opt/apps/x11vnc.linyaps/files/share/icons’: No such file or directory
+find: ‘/opt/apps/x11vnc.linyaps/files/share/pixmaps’: No such file or directory
+[成功] x11vnc.desktop: computer -> /usr/share/icons/Humanity/devices/16/computer.svg
+[成功] /opt/apps/x11vnc.linyaps/files/share/applications/x11vnc.desktop: /opt/apps/x11vnc.linyaps/files/entrypoint.sh x11vnc -gui tray=setpass -rfbport PROMPT -bg -o %%HOME/.x11vnc.log.%%VNCDISPLAY
+[正在测试启动项]
+包名:x11vnc.linyaps
+Layer文件:x11vnc.linyaps_0.9.16.10_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: x11vnc.linyaps_0.9.16.10_x86_64_binary.layer
+offset: 781
+mountpoint: /tmp/tmp.fBkwktpACR/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run x11vnc.linyaps -- /opt/apps/x11vnc.linyaps/files/entrypoint.sh x11vnc -gui tray=setpass -rfbport PROMPT -bg -o %%HOME/.x11vnc.log.%%VNCDISPLAY
+[PID 6541] 进程已启动
+[PID 6541] 等待超时，未能检测到窗口
+[PID 6541] 正在通知并等待进程退出
+[PID 6541] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall x11vnc.linyaps
