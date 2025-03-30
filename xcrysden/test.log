@@ -1,0 +1,28 @@
+正在测试: APPID=xcrysden.linyaps LAYER=xcrysden.linyaps_1.6.2.4_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xcrysden.linyaps_1.6.2.4_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xcrysden.linyaps
+Layer文件:xcrysden.linyaps_1.6.2.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xcrysden.linyaps_1.6.2.4_arm64_binary.layer
+offset: 1021
+mountpoint: /tmp/tmp.ENdYbfUkmp/mnt
+dbglevel: 0
+[成功] xcrysden.desktop: xcrysden.linyaps-xcrysden -> /opt/apps/xcrysden.linyaps/files/share/icons/hicolor/16x16/apps/xcrysden.linyaps-xcrysden.png
+[成功] /opt/apps/xcrysden.linyaps/files/share/applications/xcrysden.desktop: /opt/apps/xcrysden.linyaps/files/entrypoint.sh xcrysden
+[正在测试启动项]
+包名:xcrysden.linyaps
+Layer文件:xcrysden.linyaps_1.6.2.4_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xcrysden.linyaps_1.6.2.4_arm64_binary.layer
+offset: 1021
+mountpoint: /tmp/tmp.QIVCnsxWrc/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xcrysden.linyaps -- /opt/apps/xcrysden.linyaps/files/entrypoint.sh xcrysden
+[PID 9450] 进程已启动
+[PID 9450] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xcrysden.linyaps
