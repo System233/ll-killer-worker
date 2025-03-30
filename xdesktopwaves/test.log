@@ -1,0 +1,37 @@
+正在测试: APPID=xdesktopwaves.linyaps LAYER=xdesktopwaves.linyaps_1.3.0.4_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xdesktopwaves.linyaps_1.3.0.4_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xdesktopwaves.linyaps
+Layer文件:xdesktopwaves.linyaps_1.3.0.4_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xdesktopwaves.linyaps_1.3.0.4_x86_64_binary.layer
+offset: 679
+mountpoint: /tmp/tmp.zwSrrIVUzQ/mnt
+dbglevel: 0
+find: ‘/opt/apps/xdesktopwaves.linyaps/files/share/icons’: No such file or directory
+[成功] xdesktopwaves-start.desktop: xdesktopwaves -> /opt/apps/xdesktopwaves.linyaps/files/share/pixmaps/xdesktopwaves.png
+[成功] /opt/apps/xdesktopwaves.linyaps/files/share/applications/xdesktopwaves-start.desktop: /opt/apps/xdesktopwaves.linyaps/files/entrypoint.sh xdesktopwaves -rain 5
+find: ‘/opt/apps/xdesktopwaves.linyaps/files/share/icons’: No such file or directory
+[成功] xdesktopwaves-stop.desktop: xdesktopwaves-stop -> /opt/apps/xdesktopwaves.linyaps/files/share/pixmaps/xdesktopwaves-stop.png
+[成功] /opt/apps/xdesktopwaves.linyaps/files/share/applications/xdesktopwaves-stop.desktop: /opt/apps/xdesktopwaves.linyaps/files/entrypoint.sh xdesktopwaves -end
+[正在测试启动项]
+包名:xdesktopwaves.linyaps
+Layer文件:xdesktopwaves.linyaps_1.3.0.4_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xdesktopwaves.linyaps_1.3.0.4_x86_64_binary.layer
+offset: 679
+mountpoint: /tmp/tmp.nNt9A2Ygwv/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xdesktopwaves.linyaps -- /opt/apps/xdesktopwaves.linyaps/files/entrypoint.sh xdesktopwaves -rain 5
+[PID 5392] 进程已启动
+[PID 5392] 等待超时，未能检测到窗口
+[PID 5392] 正在通知并等待进程退出
+[PID 5392] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run xdesktopwaves.linyaps -- /opt/apps/xdesktopwaves.linyaps/files/entrypoint.sh xdesktopwaves -end
+[PID 5737] 进程已启动
+[PID 5737] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xdesktopwaves.linyaps
