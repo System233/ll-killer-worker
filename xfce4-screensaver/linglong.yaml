@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: xfce4-screensaver.linyaps
+  name: xfce4-screensaver
+  version: 4.18.3.1
+  kind: app
+  description: |-
+    screen saver and locker that is integrated with the xfce4 desktop
+    Xfce Screensaver is a screen saver and locker that aims to have simple,
+    sane, secure defaults and be well integrated with the Xfce desktop.
+
+    It is a port of MATE Screensaver, itself a port of GNOME Screensaver.
+    It has been tightly integrated with the Xfce desktop, utilizing Xfce
+    libraries and the Xfconf configuration backend.
+command:
+- /opt/apps/xfce4-screensaver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

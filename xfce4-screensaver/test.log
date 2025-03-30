@@ -1,0 +1,64 @@
+正在测试: APPID=xfce4-screensaver.linyaps LAYER=xfce4-screensaver.linyaps_4.18.3.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xfce4-screensaver.linyaps_4.18.3.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xfce4-screensaver.linyaps
+Layer文件:xfce4-screensaver.linyaps_4.18.3.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xfce4-screensaver.linyaps_4.18.3.1_arm64_binary.layer
+offset: 783
+mountpoint: /tmp/tmp.HXoyb4NNW4/mnt
+dbglevel: 0
+[成功] /opt/apps/xfce4-screensaver.linyaps/files/share/applications/screensavers/xfce-floaters.desktop: /opt/apps/xfce4-screensaver.linyaps/files/entrypoint.sh /usr/libexec/xfce4-screensaver/floaters /usr/share/pixmaps/xfce-logo-white.svg
+[成功] /opt/apps/xfce4-screensaver.linyaps/files/share/applications/screensavers/xfce-personal-slideshow.desktop: /opt/apps/xfce4-screensaver.linyaps/files/entrypoint.sh /usr/libexec/xfce4-screensaver/slideshow
+[成功] /opt/apps/xfce4-screensaver.linyaps/files/share/applications/screensavers/xfce-popsquares.desktop: /opt/apps/xfce4-screensaver.linyaps/files/entrypoint.sh /usr/libexec/xfce4-screensaver/popsquares
+[成功] xfce4-screensaver-preferences.desktop: org.xfce.ScreenSaver -> /opt/apps/xfce4-screensaver.linyaps/files/share/icons/hicolor/128x128/apps/org.xfce.ScreenSaver.png
+[成功] /opt/apps/xfce4-screensaver.linyaps/files/share/applications/xfce4-screensaver-preferences.desktop: /opt/apps/xfce4-screensaver.linyaps/files/entrypoint.sh xfce4-screensaver-preferences
+[正在测试启动项]
+包名:xfce4-screensaver.linyaps
+Layer文件:xfce4-screensaver.linyaps_4.18.3.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xfce4-screensaver.linyaps_4.18.3.1_arm64_binary.layer
+offset: 783
+mountpoint: /tmp/tmp.gsEtLB1gWO/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xfce4-screensaver.linyaps -- /opt/apps/xfce4-screensaver.linyaps/files/entrypoint.sh /usr/libexec/xfce4-screensaver/floaters /usr/share/pixmaps/xfce-logo-white.svg
+[PID 10821] 进程已启动
+[PID 10821] 已检测到窗口:PID=37
+[PID 10821] 正在截图 0秒: tests/screen0-0.jpg
+[PID 10821] 正在截图 2秒: tests/screen0-2.jpg
+[PID 10821] 正在截图 4秒: tests/screen0-4.jpg
+[PID 10821] 正在截图 5秒: tests/screen0-5.jpg
+[PID 10821] 正在通知并等待进程退出
+[PID 10821] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run xfce4-screensaver.linyaps -- /opt/apps/xfce4-screensaver.linyaps/files/entrypoint.sh /usr/libexec/xfce4-screensaver/slideshow
+[PID 10995] 进程已启动
+[PID 10995] 已检测到窗口:PID=36
+[PID 10995] 正在截图 0秒: tests/screen1-0.jpg
+[PID 10995] 正在截图 1秒: tests/screen1-1.jpg
+[PID 10995] 正在截图 3秒: tests/screen1-3.jpg
+[PID 10995] 正在截图 5秒: tests/screen1-5.jpg
+[PID 10995] 正在通知并等待进程退出
+[PID 10995] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run xfce4-screensaver.linyaps -- /opt/apps/xfce4-screensaver.linyaps/files/entrypoint.sh /usr/libexec/xfce4-screensaver/popsquares
+[PID 11156] 进程已启动
+[PID 11156] 已检测到窗口:PID=36
+[PID 11156] 正在截图 0秒: tests/screen2-0.jpg
+[PID 11156] 正在截图 1秒: tests/screen2-1.jpg
+[PID 11156] 正在截图 3秒: tests/screen2-3.jpg
+[PID 11156] 正在截图 5秒: tests/screen2-5.jpg
+[PID 11156] 正在通知并等待进程退出
+[PID 11156] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run xfce4-screensaver.linyaps -- /opt/apps/xfce4-screensaver.linyaps/files/entrypoint.sh xfce4-screensaver-preferences
+[PID 11312] 进程已启动
+[PID 11312] 已检测到窗口:PID=36
+[PID 11312] 正在截图 0秒: tests/screen3-0.jpg
+[PID 11312] 正在截图 1秒: tests/screen3-1.jpg
+[PID 11312] 正在截图 3秒: tests/screen3-3.jpg
+[PID 11312] 正在截图 5秒: tests/screen3-5.jpg
+[PID 11312] 正在通知并等待进程退出
+[PID 11312] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xfce4-screensaver.linyaps
