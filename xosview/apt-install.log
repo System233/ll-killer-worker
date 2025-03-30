@@ -1,0 +1,36 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  xfonts-base
+Suggested packages:
+  xfs | xserver
+The following NEW packages will be installed:
+  xfonts-base xosview
+0 upgraded, 2 newly installed, 0 to remove and 451 not upgraded.
+Need to get 6037 kB of archives.
+After this operation, 7604 kB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 xfonts-base all 1:1.0.5+nmu1 [5941 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 xosview arm64 1.24-1 [95.8 kB]
+Fetched 6037 kB in 2s (3970 kB/s)
+Selecting previously unselected package xfonts-base.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../xfonts-base_1%3a1.0.5+nmu1_all.deb ...
+Unpacking xfonts-base (1:1.0.5+nmu1) ...
+Selecting previously unselected package xosview.
+Preparing to unpack .../xosview_1.24-1_arm64.deb ...
+Unpacking xosview (1.24-1) ...
+Setting up xfonts-base (1:1.0.5+nmu1) ...
+
+Configuration file '/etc/X11/fonts/misc/xfonts-base.alias', does not exist on system.
+Installing new config file as you requested.
+Setting up xosview (1.24-1) ...
+
+Configuration file '/etc/X11/app-defaults/XOsview', does not exist on system.
+Installing new config file as you requested.
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for fontconfig (2.14.2-6) ...

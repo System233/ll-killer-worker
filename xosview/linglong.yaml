@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: xosview.linyaps
+  name: xosview
+  version: 1.24.0.1
+  kind: app
+  description: |-
+    X based system monitor
+    Xosview is a monitor which displays the status of several system based
+    parameters. These include CPU usage, load average, memory usage, swap space
+    usage, network usage, Wireless LAN meter, interrupts and serial port status.
+    Appearance is fully configurable via command line or X resources.
+command:
+- /opt/apps/xosview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
