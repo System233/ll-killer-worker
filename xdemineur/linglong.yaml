@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: xdemineur.linyaps
+  name: xdemineur
+  version: 2.1.1.21
+  kind: app
+  description: |-
+    Yet another minesweeper for X
+    The object of this game is to find the location of the mines
+    hidden in the minefield and to mark their location by placing a
+    warning flag.
+
+    There are many minesweeper clones. This one is the most similar to the
+    Windows one in terms of look and feel.
+command:
+- /opt/apps/xdemineur.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
