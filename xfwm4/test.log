@@ -1,0 +1,44 @@
+正在测试: APPID=xfwm4.linyaps LAYER=xfwm4.linyaps_4.18.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xfwm4.linyaps_4.18.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xfwm4.linyaps
+Layer文件:xfwm4.linyaps_4.18.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xfwm4.linyaps_4.18.0.1_arm64_binary.layer
+offset: 781
+mountpoint: /tmp/tmp.UJqbilvDpL/mnt
+dbglevel: 0
+[成功] xfce-wm-settings.desktop: org.xfce.xfwm4 -> /opt/apps/xfwm4.linyaps/files/share/icons/hicolor/128x128/apps/org.xfce.xfwm4.png
+[成功] /opt/apps/xfwm4.linyaps/files/share/applications/xfce-wm-settings.desktop: /opt/apps/xfwm4.linyaps/files/entrypoint.sh xfwm4-settings
+[成功] xfce-wmtweaks-settings.desktop: org.xfce.xfwm4-tweaks -> /opt/apps/xfwm4.linyaps/files/share/icons/hicolor/128x128/apps/org.xfce.xfwm4-tweaks.png
+[成功] /opt/apps/xfwm4.linyaps/files/share/applications/xfce-wmtweaks-settings.desktop: /opt/apps/xfwm4.linyaps/files/entrypoint.sh xfwm4-tweaks-settings
+[成功] xfce-workspaces-settings.desktop: org.xfce.workspaces -> /opt/apps/xfwm4.linyaps/files/share/icons/hicolor/128x128/apps/org.xfce.workspaces.png
+[成功] /opt/apps/xfwm4.linyaps/files/share/applications/xfce-workspaces-settings.desktop: /opt/apps/xfwm4.linyaps/files/entrypoint.sh xfwm4-workspace-settings
+[正在测试启动项]
+包名:xfwm4.linyaps
+Layer文件:xfwm4.linyaps_4.18.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xfwm4.linyaps_4.18.0.1_arm64_binary.layer
+offset: 781
+mountpoint: /tmp/tmp.qp2EqEoGFe/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xfwm4.linyaps -- /opt/apps/xfwm4.linyaps/files/entrypoint.sh xfwm4-settings
+[PID 9010] 进程已启动
+[PID 9010] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run xfwm4.linyaps -- /opt/apps/xfwm4.linyaps/files/entrypoint.sh xfwm4-tweaks-settings
+[PID 9147] 进程已启动
+[PID 9147] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run xfwm4.linyaps -- /opt/apps/xfwm4.linyaps/files/entrypoint.sh xfwm4-workspace-settings
+[PID 9276] 进程已启动
+[PID 9276] 已检测到窗口:PID=36
+[PID 9276] 正在截图 0秒: tests/screen2-0.jpg
+[PID 9276] 正在截图 1秒: tests/screen2-1.jpg
+[PID 9276] 正在截图 3秒: tests/screen2-3.jpg
+[PID 9276] 正在截图 5秒: tests/screen2-5.jpg
+[PID 9276] 正在通知并等待进程退出
+[PID 9276] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xfwm4.linyaps
