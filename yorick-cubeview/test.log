@@ -1,0 +1,29 @@
+正在测试: APPID=yorick-cubeview.linyaps LAYER=yorick-cubeview.linyaps_2.2.0.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install yorick-cubeview.linyaps_2.2.0.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:yorick-cubeview.linyaps
+Layer文件:yorick-cubeview.linyaps_2.2.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: yorick-cubeview.linyaps_2.2.0.2_arm64_binary.layer
+offset: 924
+mountpoint: /tmp/tmp.wNNWGE8k2G/mnt
+dbglevel: 0
+find: ‘/opt/apps/yorick-cubeview.linyaps/files/share/icons’: No such file or directory
+[成功] cubeview.desktop: cubeview48 -> /opt/apps/yorick-cubeview.linyaps/files/share/pixmaps/cubeview48.png
+[成功] /opt/apps/yorick-cubeview.linyaps/files/share/applications/cubeview.desktop: /opt/apps/yorick-cubeview.linyaps/files/entrypoint.sh yorick -i cubeview.i --stand-alone %F
+[正在测试启动项]
+包名:yorick-cubeview.linyaps
+Layer文件:yorick-cubeview.linyaps_2.2.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: yorick-cubeview.linyaps_2.2.0.2_arm64_binary.layer
+offset: 924
+mountpoint: /tmp/tmp.89VirRGwE6/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run yorick-cubeview.linyaps -- /opt/apps/yorick-cubeview.linyaps/files/entrypoint.sh yorick -i cubeview.i --stand-alone
+[PID 13167] 进程已启动
+[PID 13167] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall yorick-cubeview.linyaps
