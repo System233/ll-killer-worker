@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: xfdesktop4.linyaps
+  name: xfdesktop4
+  version: 4.18.1.1
+  kind: app
+  description: |-
+    Xfce desktop background, icons and root menu manager
+    xfdesktop4 sets the background image, provides a right-click menu to
+    launch applications and can optionally show files (including application
+    launchers) or iconified windows. It includes gradient support for
+    background color, saturation support for background image, real multiscreen
+    and xinerama support.
+command:
+- /opt/apps/xfdesktop4.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
