@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: xfce4-power-manager.linyaps
+  name: xfce4-power-manager
+  version: 4.18.3.2
+  kind: app
+  description: |-
+    power manager for Xfce desktop
+    This power manager for the Xfce desktop enables laptop users to set up
+    a power profile for two different modes "on battery power" and "on ac
+    power" while still allowing desktop users to at least change the DPMS
+    settings and CPU frequency using the settings dialogue..
+
+    It features:
+    * battery monitoring
+    * cpu frequency settings
+    * monitor DPMS settings
+    * suspend/Hibernate
+    * LCD brightness control
+    * Lid, sleep and power switches control
+command:
+- /opt/apps/xfce4-power-manager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
