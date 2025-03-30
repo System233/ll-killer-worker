@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: wmmisc.linyaps
+  name: wmmisc
+  version: 1.2.0.2
+  kind: app
+  description: |-
+    dockapp that monitors your system
+    wmmisc is a simple dockapp that monitors the following: the amount of
+    users logged in, the total number of processes, the number of running
+    (or 'alive') processes, the total number of forks and the system load
+    average.
+command:
+- /opt/apps/wmmisc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
