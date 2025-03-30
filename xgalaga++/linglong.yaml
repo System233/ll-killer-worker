@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: xgalaga__.linyaps
+  name: xgalaga++
+  version: 0.9.0.2
+  kind: app
+  description: |-
+    classic single screen vertical shooter, inspired by xgalaga
+    XGalaga++ is a classic vertical scrolling shoot'em up. It requires no X
+    Window extension and its window is freely resizable. It is inspired by
+    XGalaga, but rewritten from scratch, except for the graphics.
+command:
+- /opt/apps/xgalaga__.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
