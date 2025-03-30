@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: x-tile.linyaps
+  name: x-tile
+  version: 3.3.9.1
+  kind: app
+  description: |-
+    tile selected windows in different ways
+    X-tile is an application that allows you to select a number of
+    windows and tile them in different ways. Works on any X desktop.
+
+    Main features include:
+    * Several tiling geometries
+    * Undo tiling
+    * Invert tiling order
+    * Optional system tray docking and menu
+    * Filter to exclude windows
+    * Filter to include windows by default
+    * Command line interface
+command:
+- /opt/apps/x-tile.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
