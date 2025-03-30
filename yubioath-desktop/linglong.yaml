@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: yubioath-desktop.linyaps
+  name: yubioath-desktop
+  version: 5.1.0.3
+  kind: app
+  description: |-
+    Graphical interface for displaying OATH codes with a Yubikey
+    The Yubico Authenticator is a graphical desktop tool for generating Open
+    AuTHentication (OATH) event-based HOTP and time-based TOTP one-time password
+    codes, with the help of a Yubikey that protects the shared secrets.
+command:
+- /opt/apps/yubioath-desktop.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
