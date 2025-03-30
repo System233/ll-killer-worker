@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: xchm.linyaps
+  name: xchm
+  version: 1.36.0.1
+  kind: app
+  description: |-
+    Compiled HTML Help (CHM) file viewer for X
+    xCHM is a viewer for Compiled HTML Help (CHM) files. It can show the contents
+    tree if one is available, print the current page and do the usual history
+    stunts. It allows one to change fonts and search for text in all the pages of
+    the file, or in the page's titles.
+
+    xCHM does not support JavaScript in books.
+command:
+- /opt/apps/xchm.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
