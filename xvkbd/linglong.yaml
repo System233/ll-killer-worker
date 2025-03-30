@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: xvkbd.linyaps
+  name: xvkbd
+  version: 4.1.0.2
+  kind: app
+  description: |-
+    software virtual keyboard for X11
+    xvkbd is a virtual (graphical) keyboard program for X Window System
+    which provides facility to enter characters onto other clients
+    (software) by clicking on a keyboard displayed on the screen.  This
+    may be used for systems without a hardware keyboard such as kiosk
+    terminals or handheld devices.  This program also has facility to
+    send characters specified as the command line option to another
+    client.
+command:
+- /opt/apps/xvkbd.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
