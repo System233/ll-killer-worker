@@ -1,0 +1,84 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libutempter0 libxaw7 libxmu6 libxt6t64 xbitmaps
+Suggested packages:
+  xfonts-cyrillic
+Recommended packages:
+  luit | x11-utils
+The following packages will be REMOVED:
+  libxt6
+The following NEW packages will be installed:
+  libutempter0 libxt6t64 xbitmaps xterm
+The following packages will be upgraded:
+  libxaw7 libxmu6
+2 upgraded, 4 newly installed, 1 to remove and 449 not upgraded.
+Need to get 1318 kB of archives.
+After this operation, 2908 kB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxmu6 arm64 2:1.1.3-3build2 [47.5 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxaw7 arm64 2:1.0.14-1build2 [183 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxt6t64 arm64 1:1.2.1-1.2build1 [168 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libutempter0 arm64 1.2.1-3build1 [9590 B]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 xbitmaps all 1.1.1-2.2 [22.4 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 xterm arm64 390-1ubuntu3 [886 kB]
+Fetched 1318 kB in 1s (1271 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libxmu6_2%3a1.1.3-3build2_arm64.deb ...
+Unpacking libxmu6:arm64 (2:1.1.3-3build2) over (2:1.1.2-deepin1) ...
+Preparing to unpack .../libxaw7_2%3a1.0.14-1build2_arm64.deb ...
+Unpacking libxaw7:arm64 (2:1.0.14-1build2) over (2:1.0.13-1.1) ...
+dpkg: libxt6:arm64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libxt6.
+ xscreensaver-gl depends on libxt6.
+ xscreensaver-data-extra depends on libxt6.
+ xscreensaver-data depends on libxt6.
+ x11-xkb-utils depends on libxt6.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27738 files and directories currently installed.)
+Removing libxt6:arm64 (1:1.2.0-1) ...
+Selecting previously unselected package libxt6t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27732 files and directories currently installed.)
+Preparing to unpack .../libxt6t64_1%3a1.2.1-1.2build1_arm64.deb ...
+Unpacking libxt6t64:arm64 (1:1.2.1-1.2build1) ...
+Selecting previously unselected package libutempter0:arm64.
+Preparing to unpack .../libutempter0_1.2.1-3build1_arm64.deb ...
+Unpacking libutempter0:arm64 (1.2.1-3build1) ...
+Selecting previously unselected package xbitmaps.
+Preparing to unpack .../xbitmaps_1.1.1-2.2_all.deb ...
+Unpacking xbitmaps (1.1.1-2.2) ...
+Selecting previously unselected package xterm.
+Preparing to unpack .../xterm_390-1ubuntu3_arm64.deb ...
+Unpacking xterm (390-1ubuntu3) ...
+Setting up libxt6t64:arm64 (1:1.2.1-1.2build1) ...
+Setting up libutempter0:arm64 (1.2.1-3build1) ...
+Setting up xbitmaps (1.1.1-2.2) ...
+Setting up libxmu6:arm64 (2:1.1.3-3build2) ...
+Setting up libxaw7:arm64 (2:1.0.14-1build2) ...
+Setting up xterm (390-1ubuntu3) ...
+
+Configuration file '/etc/X11/app-defaults/KOI8RXTerm', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/KOI8RXTerm-color', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/UXTerm', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/UXTerm-color', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/XTerm', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/XTerm-color', does not exist on system.
+Installing new config file as you requested.
+update-alternatives: using /usr/bin/xterm to provide /usr/bin/x-terminal-emulator (x-terminal-emulator) in auto mode
+update-alternatives: using /usr/bin/lxterm to provide /usr/bin/x-terminal-emulator (x-terminal-emulator) in auto mode
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
