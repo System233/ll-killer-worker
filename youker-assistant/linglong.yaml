@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: youker-assistant.linyaps
+  name: youker-assistant
+  version: 3.0.2.0
+  kind: app
+  description: |-
+    Integrated tool to aid in routine system maintenance tasks
+    Kylin Assistant is a tool designed to help Ubuntu and Ubuntu Kylin
+    desktop users manage and maintain many aspects of their working
+    environment conveniently in a single application, providing a consistent
+    user experience.
+
+    Features currently included:
+    * Detecting and displaying general system information
+    * Unity and Mate user interface customization
+    * System garbage cleaning
+command:
+- /opt/apps/youker-assistant.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
