@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: xdiagnose.linyaps
+  name: xdiagnose
+  version: 3.8.12.4
+  kind: app
+  description: |-
+    X.org diagnosis tool
+    This package is a friendly GUI application for diagnosing several
+    common X.org problems on Ubuntu.
+command:
+- /opt/apps/xdiagnose.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
