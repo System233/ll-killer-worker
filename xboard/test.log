@@ -1,0 +1,42 @@
+正在测试: APPID=xboard.linyaps LAYER=xboard.linyaps_4.9.1.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xboard.linyaps_4.9.1.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xboard.linyaps
+Layer文件:xboard.linyaps_4.9.1.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xboard.linyaps_4.9.1.2_arm64_binary.layer
+offset: 887
+mountpoint: /tmp/tmp.nJuYiWdBiV/mnt
+dbglevel: 0
+[成功] xboard-config.desktop: xboard -> /opt/apps/xboard.linyaps/files/share/icons/hicolor/48x48/apps/xboard.png
+[成功] /opt/apps/xboard.linyaps/files/share/applications/xboard-config.desktop: /opt/apps/xboard.linyaps/files/entrypoint.sh xboard -opt %f
+[成功] xboard-fen-viewer.desktop: xboard -> /opt/apps/xboard.linyaps/files/share/icons/hicolor/48x48/apps/xboard.png
+[成功] /opt/apps/xboard.linyaps/files/share/applications/xboard-fen-viewer.desktop: /opt/apps/xboard.linyaps/files/entrypoint.sh xboard -ncp -lpf %f
+[成功] xboard-pgn-viewer.desktop: xboard -> /opt/apps/xboard.linyaps/files/share/icons/hicolor/48x48/apps/xboard.png
+[成功] /opt/apps/xboard.linyaps/files/share/applications/xboard-pgn-viewer.desktop: /opt/apps/xboard.linyaps/files/entrypoint.sh xboard -viewer -lgf %f
+[成功] xboard-tourney.desktop: xboard -> /opt/apps/xboard.linyaps/files/share/icons/hicolor/48x48/apps/xboard.png
+[成功] /opt/apps/xboard.linyaps/files/share/applications/xboard-tourney.desktop: /opt/apps/xboard.linyaps/files/entrypoint.sh xboard -mm -tf %f
+[成功] xboard.desktop: xboard -> /opt/apps/xboard.linyaps/files/share/icons/hicolor/48x48/apps/xboard.png
+[成功] /opt/apps/xboard.linyaps/files/share/applications/xboard.desktop: /opt/apps/xboard.linyaps/files/entrypoint.sh xboard
+[正在测试启动项]
+包名:xboard.linyaps
+Layer文件:xboard.linyaps_4.9.1.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xboard.linyaps_4.9.1.2_arm64_binary.layer
+offset: 887
+mountpoint: /tmp/tmp.XYNJWZ26nT/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xboard.linyaps -- /opt/apps/xboard.linyaps/files/entrypoint.sh xboard
+[PID 8816] 进程已启动
+[PID 8816] 已检测到窗口:PID=36
+[PID 8816] 正在截图 0秒: tests/screen0-0.jpg
+[PID 8816] 正在截图 2秒: tests/screen0-2.jpg
+[PID 8816] 正在截图 4秒: tests/screen0-4.jpg
+[PID 8816] 正在截图 5秒: tests/screen0-5.jpg
+[PID 8816] 正在通知并等待进程退出
+[PID 8816] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xboard.linyaps
