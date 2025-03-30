@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: xgalaga.linyaps
+  name: xgalaga
+  version: 2.1.1.6
+  kind: app
+  description: |-
+    X version of the famous Galaga game
+    A clone of the classic game Galaga for the X Window System.
+    Xgalaga is a space-invader like game with additional features to produce
+    a more interesting game.
+command:
+- /opt/apps/xgalaga.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
