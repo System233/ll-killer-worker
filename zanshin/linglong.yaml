@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: zanshin.linyaps
+  name: zanshin
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    to-do list manager
+    Zanshin is a powerful yet simple application for managing your day to day
+    actions and notes. It helps you organize and reduce the cognitive pressure of
+    what one has to do in one's job and personal life. You'll never forget
+    anything anymore, having a "mind like water".
+command:
+- /opt/apps/zanshin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
