@@ -1,0 +1,28 @@
+正在测试: APPID=zita-mu1.linyaps LAYER=zita-mu1.linyaps_0.3.3.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install zita-mu1.linyaps_0.3.3.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:zita-mu1.linyaps
+Layer文件:zita-mu1.linyaps_0.3.3.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: zita-mu1.linyaps_0.3.3.2_arm64_binary.layer
+offset: 813
+mountpoint: /tmp/tmp.p5oFht5R3q/mnt
+dbglevel: 0
+[成功] zita-mu1.desktop: zita-mu1 -> /opt/apps/zita-mu1.linyaps/files/share/icons/hicolor/scalable/apps/zita-mu1.svg
+[成功] /opt/apps/zita-mu1.linyaps/files/share/applications/zita-mu1.desktop: /opt/apps/zita-mu1.linyaps/files/entrypoint.sh zita-mu1
+[正在测试启动项]
+包名:zita-mu1.linyaps
+Layer文件:zita-mu1.linyaps_0.3.3.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: zita-mu1.linyaps_0.3.3.2_arm64_binary.layer
+offset: 813
+mountpoint: /tmp/tmp.p7bBvAA5U8/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run zita-mu1.linyaps -- /opt/apps/zita-mu1.linyaps/files/entrypoint.sh zita-mu1
+[PID 5339] 进程已启动
+[PID 5339] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall zita-mu1.linyaps
