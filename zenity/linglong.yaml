@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: zenity.linyaps
+  name: zenity
+  version: 4.0.2.1
+  kind: app
+  description: |-
+    Display graphical dialog boxes from shell scripts
+    Zenity allows you to display GTK+ dialogs from shell scripts; it is a
+    rewrite of the `gdialog' command from GNOME 1.
+
+    Zenity includes a gdialog wrapper script so that it can be used with
+    legacy scripts.
+command:
+- /opt/apps/zenity.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
