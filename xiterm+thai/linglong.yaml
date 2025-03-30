@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: xiterm_thai.linyaps
+  name: xiterm+thai
+  version: 1.10.0.2
+  kind: app
+  description: |-
+    X terminal program with Thai languague support
+    xiterm+thai is an X terminal emulator program with Thai language
+    support. It has built-in Thai keyboard input support. You could
+    also use the X11 XKB extension to input Thai characters.
+
+    A Thai TIS-620 font, such as one from xfonts-thai-nectec is needed
+    to display Thai characters.
+command:
+- /opt/apps/xiterm_thai.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

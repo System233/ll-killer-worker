@@ -1,0 +1,29 @@
+正在测试: APPID=xiterm_thai.linyaps LAYER=xiterm_thai.linyaps_1.10.0.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xiterm_thai.linyaps_1.10.0.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xiterm_thai.linyaps
+Layer文件:xiterm_thai.linyaps_1.10.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xiterm_thai.linyaps_1.10.0.2_arm64_binary.layer
+offset: 699
+mountpoint: /tmp/tmp.vP774cKIeh/mnt
+dbglevel: 0
+find: ‘/opt/apps/xiterm_thai.linyaps/files/share/icons’: No such file or directory
+[成功] xiterm+thai.desktop: xiterm+thai -> /opt/apps/xiterm_thai.linyaps/files/share/pixmaps/xiterm+thai.png
+[成功] /opt/apps/xiterm_thai.linyaps/files/share/applications/xiterm+thai.desktop: /opt/apps/xiterm_thai.linyaps/files/entrypoint.sh txiterm -ls -cursorColor yellow -cursorColorThai red -bg black -fg white
+[正在测试启动项]
+包名:xiterm_thai.linyaps
+Layer文件:xiterm_thai.linyaps_1.10.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xiterm_thai.linyaps_1.10.0.2_arm64_binary.layer
+offset: 699
+mountpoint: /tmp/tmp.y3M1heq2bX/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xiterm_thai.linyaps -- /opt/apps/xiterm_thai.linyaps/files/entrypoint.sh txiterm -ls -cursorColor yellow -cursorColorThai red -bg black -fg white
+[PID 6134] 进程已启动
+[PID 6134] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xiterm_thai.linyaps
