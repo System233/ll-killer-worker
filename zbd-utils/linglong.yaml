@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: zbd-utils.linyaps
+  name: zbd-utils
+  version: 2.0.4.1
+  kind: app
+  description: |-
+    Utilities to manipulate zoned block devices
+    zbd is a command line utility to report, open, close, reset and finish zones
+    of a device.
+
+    gzbd is similar to zbd but using a graphical user interface.
+
+    gzbd-viewer is a graphical user interface showing the condition and state of
+    zones of a zoned block device.
+command:
+- /opt/apps/zbd-utils.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
