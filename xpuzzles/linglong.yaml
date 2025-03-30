@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: xpuzzles.linyaps
+  name: xpuzzles
+  version: 7.7.1.1
+  kind: app
+  description: |-
+    collection of puzzles for X (plain X version)
+    The following puzzles are included:
+
+    - Rotational 3D Puzzles: xrubik, xpyraminx, xoct, xskewb, xdino, xmball
+    - Sliding Block Puzzles: xcubes, xtriangles, xhexagons, xpanex
+    - Combination: xbarrel, xmlink
+
+    This version was compiled without the Motif GUI widget library and thus
+    shows limited user interface functionality. See xmpuzzles for the
+    extended version.
+command:
+- /opt/apps/xpuzzles.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
