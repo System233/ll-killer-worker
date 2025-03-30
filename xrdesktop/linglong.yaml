@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: xrdesktop.linyaps
+  name: xrdesktop
+  version: 0.15.1.5
+  kind: app
+  description: |-
+    XR desktop interaction library -- settings application
+    library for XR interaction with classical desktop compositors.
+
+    This package includes the settings application.
+command:
+- /opt/apps/xrdesktop.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
