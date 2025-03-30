@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: wmbutton.linyaps
+  name: wmbutton
+  version: 0.7.1.2
+  kind: app
+  description: |-
+    dockapp displaying nine configurable buttons
+    Wmbutton displays nine buttons which can be configured through a config file.
+    Each button can be assigned up to three commands (one per mouse button).
+    It is intended as a dockapp for X window managers such as Window Maker
+    (wmaker package), AfterStep, BlackBox, and Enlightenment.
+command:
+- /opt/apps/wmbutton.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
