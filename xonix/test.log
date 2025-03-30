@@ -1,0 +1,30 @@
+正在测试: APPID=xonix.linyaps LAYER=xonix.linyaps_1.4.0.35_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xonix.linyaps_1.4.0.35_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xonix.linyaps
+Layer文件:xonix.linyaps_1.4.0.35_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xonix.linyaps_1.4.0.35_arm64_binary.layer
+offset: 586
+mountpoint: /tmp/tmp.aS3LdpG3Xi/mnt
+dbglevel: 0
+[成功] xonix.desktop: xonix -> /opt/apps/xonix.linyaps/files/share/icons/hicolor/24x24/apps/xonix.png
+[成功] /opt/apps/xonix.linyaps/files/share/applications/xonix.desktop: /opt/apps/xonix.linyaps/files/entrypoint.sh /usr/games/xonix
+[正在测试启动项]
+包名:xonix.linyaps
+Layer文件:xonix.linyaps_1.4.0.35_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xonix.linyaps_1.4.0.35_arm64_binary.layer
+offset: 586
+mountpoint: /tmp/tmp.0yNeMCCId7/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xonix.linyaps -- /opt/apps/xonix.linyaps/files/entrypoint.sh /usr/games/xonix
+[PID 5558] 进程已启动
+[PID 5558] 等待超时，未能检测到窗口
+[PID 5558] 正在通知并等待进程退出
+[PID 5558] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xonix.linyaps
