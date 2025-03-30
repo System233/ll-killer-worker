@@ -1,0 +1,11 @@
+version: "1"
+package:
+  id: winmage-sane-backend-dual.linyaps
+  name: winmage-sane-backend-dual
+  version: 20240911.0.0.4
+  kind: app
+  description: Winmage Document Scanning Software
+command:
+- /opt/apps/winmage-sane-backend-dual.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

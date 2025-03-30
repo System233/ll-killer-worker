@@ -1,0 +1,33 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following NEW packages will be installed:
+  winmage-sane-backend-dual
+0 upgraded, 1 newly installed, 0 to remove and 236 not upgraded.
+Need to get 156 MB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/driver-23 driver/non-free amd64 winmage-sane-backend-dual amd64 20240911-4.6.10.053 [156 MB]
+Fetched 156 MB in 6s (25.7 MB/s)
+Selecting previously unselected package winmage-sane-backend-dual.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../winmage-sane-backend-dual_20240911-4.6.10.053_amd64.deb ...
+Unpacking winmage-sane-backend-dual (20240911-4.6.10.053) ...
+Setting up winmage-sane-backend-dual (20240911-4.6.10.053) ...
+
+Checking libusb-0.1
+libusb-0.1 : [ NO ]
+
+Checking libusb-1.0
+	libusb-1.0.so.0 (libc6,x86-64) => /lib/x86_64-linux-gnu/libusb-1.0.so.0
+libusb-1.0 : [ YES ]
+
+/etc/sane.d/dll.conf or /usr/local/etc/sane.d/dll.conf is not exist!
+/var/lib/dpkg/info/winmage-sane-backend-dual.postinst: line 203: return: can only `return' from a function or sourced script
+cp: cannot stat '/etc/sane.d/dll.conf': No such file or directory
+/usr/bin/udevadm
+/usr/bin/udevadm control --reload
+Running in chroot, ignoring request.
+/usr/bin/udevadm trigger --action=add
+Running in chroot, ignoring request.
