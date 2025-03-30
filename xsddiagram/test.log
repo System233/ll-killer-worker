@@ -1,0 +1,31 @@
+正在测试: APPID=xsddiagram.linyaps LAYER=xsddiagram.linyaps_1.0.0.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xsddiagram.linyaps_1.0.0.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xsddiagram.linyaps
+Layer文件:xsddiagram.linyaps_1.0.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xsddiagram.linyaps_1.0.0.2_arm64_binary.layer
+offset: 986
+mountpoint: /tmp/tmp.7QIN2KMQFR/mnt
+dbglevel: 0
+find: ‘/opt/apps/xsddiagram.linyaps/files/share/icons’: No such file or directory
+[成功] xsddiagram.desktop: xsddiagram -> /opt/apps/xsddiagram.linyaps/files/share/pixmaps/xsddiagram.xpm
+[成功] /opt/apps/xsddiagram.linyaps/files/share/applications/xsddiagram.desktop: /opt/apps/xsddiagram.linyaps/files/entrypoint.sh xsddiagram
+[正在测试启动项]
+包名:xsddiagram.linyaps
+Layer文件:xsddiagram.linyaps_1.0.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xsddiagram.linyaps_1.0.0.2_arm64_binary.layer
+offset: 986
+mountpoint: /tmp/tmp.lfiryl346k/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xsddiagram.linyaps -- /opt/apps/xsddiagram.linyaps/files/entrypoint.sh xsddiagram
+[PID 12137] 进程已启动
+[PID 12137] 等待超时，未能检测到窗口
+[PID 12137] 正在通知并等待进程退出
+[PID 12137] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xsddiagram.linyaps
