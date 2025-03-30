@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: xpra.linyaps
+  name: xpra
+  version: 3.1.5.0
+  kind: app
+  description: |-
+    tool to detach/reattach running X programs
+    Xpra gives you the functionality of GNU Screen for X applications.
+
+    It allows the user to view remote X applications on their local machine, and
+    disconnect and reconnect from the remote machine without losing the state of
+    the running applications.
+
+    Unlike VNC, these applications are "rootless".  They appear as individual
+    windows inside your window manager rather than being contained within a single
+    window.
+command:
+- /opt/apps/xpra.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
