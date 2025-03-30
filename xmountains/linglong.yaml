@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: xmountains.linyaps
+  name: xmountains
+  version: 2.10.0.2
+  kind: app
+  description: |-
+    Fractal landscape generator for X
+    Generates random fractal mountains and displays them in a
+    window (even in the X root window).
+
+    While the program is running the fractal is continuously
+    extended on the right and the image is scrolled from right
+    to left to expose the newly generated area.
+command:
+- /opt/apps/xmountains.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
