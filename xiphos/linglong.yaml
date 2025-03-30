@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: xiphos.linyaps
+  name: xiphos
+  version: 4.2.1.8
+  kind: app
+  description: |-
+    environment for Bible reading, study, and research
+    Xiphos is a Bible study program for the GNOME desktop environment, based on The
+    SWORD Project by the CrossWire Bible Society, a framework for developing Bible
+    study tools and of associated texts such as commentaries and dictionaries.
+
+    This package provides the main Xiphos program, a digital text reader with
+    bookmarks and full-text search. It allows viewing multiple versions of the same
+    text, for parallel reading of alternatives or translations. It also supports
+    personal verse-specific notes and a rich-text study pad, both of which have
+    spell checking and full-text search.
+
+    Xiphos has a built-in facility to browse and install freely-distributed content
+    from CrossWire repositories.
+command:
+- /opt/apps/xiphos.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
