@@ -5,8 +5,9 @@
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|2759|1644 |1115 | 59.59%| 59.59%|
+|ubuntu-noble|2758|2758|1643 |1115 | 59.57%| 59.57%|
 |deepin-v23|340|328|125 |203 | 38.11%| 36.76%|
+|kicad|1|1|1 |0 | 100.00%| 100.00%|
 ## 详细结果
 | 包名  | 架构 |仓库| 版本 | 测试结果 | SHA256 |killer版本|
 |-------|-----|----|------|---------|--------|---------|
@@ -1458,7 +1459,7 @@
 | [kgpg](./kgpg) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./kgpg/tests/screen0-5.jpg) | [SHA256](./kgpg/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [khangman](./khangman) | arm64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./khangman/tests/screen0-5.jpg) | [SHA256](./khangman/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [khelpcenter](./khelpcenter) | arm64  | ubuntu-noble | 23.08.5-0ubuntu4 | ![screen0-5.jpg](./khelpcenter/tests/screen0-5.jpg) | [SHA256](./khelpcenter/SHA256SUMS) | v1.5.1-arm64-nevm |
-| [kicad](./kicad) | arm64  | ubuntu-noble | 7.0.11+dfsg-1build4 | ![screen0-5.jpg](./kicad/tests/screen0-5.jpg) ![screen1-5.jpg](./kicad/tests/screen1-5.jpg) ![screen2-5.jpg](./kicad/tests/screen2-5.jpg) ![screen3-5.jpg](./kicad/tests/screen3-5.jpg) ![screen4-5.jpg](./kicad/tests/screen4-5.jpg) ![screen5-5.jpg](./kicad/tests/screen5-5.jpg) | [SHA256](./kicad/SHA256SUMS) | v1.5.1-arm64-nevm |
+| [kicad](./kicad) | arm64  | kicad | 7.0.11+dfsg-1build4 | ![screen0-5.jpg](./kicad/tests/screen0-5.jpg) ![screen1-5.jpg](./kicad/tests/screen1-5.jpg) ![screen2-5.jpg](./kicad/tests/screen2-5.jpg) ![screen3-5.jpg](./kicad/tests/screen3-5.jpg) ![screen4-5.jpg](./kicad/tests/screen4-5.jpg) ![screen5-5.jpg](./kicad/tests/screen5-5.jpg) | [SHA256](./kicad/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [kid3](./kid3) | arm64  | ubuntu-noble | 3.9.5-1build4 | ![screen0-5.jpg](./kid3/tests/screen0-5.jpg) | [SHA256](./kid3/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [kid3-qt](./kid3-qt) | arm64  | ubuntu-noble | 3.9.5-1build4 | ![screen0-5.jpg](./kid3-qt/tests/screen0-5.jpg) | [SHA256](./kid3-qt/SHA256SUMS) | v1.5.1-arm64-nevm |
 | [kig](./kig) | arm64  | ubuntu-noble | 23.08.5-0ubuntu5 | ![screen0-5.jpg](./kig/tests/screen0-5.jpg) | [SHA256](./kig/SHA256SUMS) | v1.5.1-arm64-nevm |
