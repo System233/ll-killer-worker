@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: wmsysmon.linyaps
+  name: wmsysmon
+  version: 0.8.1.1
+  kind: app
+  description: |-
+    Window Maker dockapp for monitoring your system
+    wmsysmon is a dockable application for Window Maker (and possibly AfterStep).
+    It monitors system information on interrupt activity, memory use, swap use,
+    and IO.
+command:
+- /opt/apps/wmsysmon.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
