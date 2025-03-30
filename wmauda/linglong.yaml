@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: wmauda.linyaps
+  name: wmauda
+  version: 0.9.0.4
+  kind: app
+  description: |-
+    remote-control dockapp for Audacious
+    wmauda is a dockapp for WindowMaker and other window managers that support
+    dockable applets. It acts as a remote control for the Audacious media player.
+
+    wmauda is a port of wmxmms to Audacious, itself seen as a replacement for
+    XMMS.
+command:
+- /opt/apps/wmauda.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
