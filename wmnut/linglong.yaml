@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: wmnut.linyaps
+  name: wmnut
+  version: 0.69.0.1
+  kind: app
+  description: |-
+    WindowMaker dock app that displays UPS statistics from NUT's upsd
+    WMNUT monitors UPS statistics through the NUT (Network UPS Tools,
+    http://www.networkupstools.org) framework on Linux and other systems. This
+    information, presented in a nice visual format, can be invaluable on stations
+    using an UPS.
+command:
+- /opt/apps/wmnut.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
