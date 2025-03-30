@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: yelp.linyaps
+  name: yelp
+  version: 42.2.0.1
+  kind: app
+  description: |-
+    Help browser for GNOME
+    Yelp is the help browser for the GNOME desktop.  Yelp provides a simple
+    graphical interface for viewing DocBook, Mallard, HTML, man, and info
+    formatted documentation.
+command:
+- /opt/apps/yelp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
