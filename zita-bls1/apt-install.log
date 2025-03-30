@@ -1,0 +1,67 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libclthreads2t64 libclxclient3t64 libfftw3-single3 libpng16-16t64
+  libzita-convolver4
+Suggested packages:
+  libfftw3-bin libfftw3-dev
+The following packages will be REMOVED:
+  libpng16-16
+The following NEW packages will be installed:
+  libclthreads2t64 libclxclient3t64 libpng16-16t64 libzita-convolver4
+  zita-bls1
+The following packages will be upgraded:
+  libfftw3-single3
+1 upgraded, 5 newly installed, 1 to remove and 452 not upgraded.
+Need to get 1179 kB of archives.
+After this operation, 330 kB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpng16-16t64 amd64 1.6.43-5build1 [187 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libclthreads2t64 amd64 2.4.2-1.1build1 [12.3 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libclxclient3t64 amd64 3.9.2-2.1build1 [39.4 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libfftw3-single3 amd64 3.3.10-1ubuntu3 [868 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libzita-convolver4 amd64 4.0.3-2build1 [16.0 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 zita-bls1 amd64 0.3.3-3build2 [56.7 kB]
+Fetched 1179 kB in 0s (4644 kB/s)
+dpkg: libpng16-16:amd64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:amd64 depends on libpng16-16 (>= 1.6.2).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing libpng16-16:amd64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27583 files and directories currently installed.)
+Preparing to unpack .../0-libpng16-16t64_1.6.43-5build1_amd64.deb ...
+Unpacking libpng16-16t64:amd64 (1.6.43-5build1) ...
+Selecting previously unselected package libclthreads2t64:amd64.
+Preparing to unpack .../1-libclthreads2t64_2.4.2-1.1build1_amd64.deb ...
+Unpacking libclthreads2t64:amd64 (2.4.2-1.1build1) ...
+Selecting previously unselected package libclxclient3t64:amd64.
+Preparing to unpack .../2-libclxclient3t64_3.9.2-2.1build1_amd64.deb ...
+Unpacking libclxclient3t64:amd64 (3.9.2-2.1build1) ...
+Preparing to unpack .../3-libfftw3-single3_3.3.10-1ubuntu3_amd64.deb ...
+Unpacking libfftw3-single3:amd64 (3.3.10-1ubuntu3) over (3.3.8-2) ...
+Selecting previously unselected package libzita-convolver4:amd64.
+Preparing to unpack .../4-libzita-convolver4_4.0.3-2build1_amd64.deb ...
+Unpacking libzita-convolver4:amd64 (4.0.3-2build1) ...
+Selecting previously unselected package zita-bls1.
+Preparing to unpack .../5-zita-bls1_0.3.3-3build2_amd64.deb ...
+Unpacking zita-bls1 (0.3.3-3build2) ...
+Setting up libfftw3-single3:amd64 (3.3.10-1ubuntu3) ...
+Setting up libclthreads2t64:amd64 (2.4.2-1.1build1) ...
+Setting up libpng16-16t64:amd64 (1.6.43-5build1) ...
+Setting up libclxclient3t64:amd64 (3.9.2-2.1build1) ...
+Setting up libzita-convolver4:amd64 (4.0.3-2build1) ...
+Setting up zita-bls1 (0.3.3-3build2) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
