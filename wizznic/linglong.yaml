@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: wizznic.linyaps
+  name: wizznic
+  version: 0.9.9.1
+  kind: app
+  description: |-
+    implementation of the arcade classic Puzznic
+    As in the original game your mission is to clear the level of
+    bricks. This is done by moving the bricks around. When two or
+    more bricks of the same kind are next to each other or on top
+    of each other they will disappear and points will be given.
+    The level has to be clear of bricks before the time runs out
+    or you will lose a life.
+command:
+- /opt/apps/wizznic.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

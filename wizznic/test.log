@@ -1,0 +1,29 @@
+正在测试: APPID=wizznic.linyaps LAYER=wizznic.linyaps_0.9.9.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install wizznic.linyaps_0.9.9.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:wizznic.linyaps
+Layer文件:wizznic.linyaps_0.9.9.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: wizznic.linyaps_0.9.9.1_x86_64_binary.layer
+offset: 736
+mountpoint: /tmp/tmp.7IJ3OX4rDK/mnt
+dbglevel: 0
+find: ‘/opt/apps/wizznic.linyaps/files/share/icons’: No such file or directory
+[成功] wizznic.desktop: wizznic -> /opt/apps/wizznic.linyaps/files/share/pixmaps/wizznic.png
+[成功] /opt/apps/wizznic.linyaps/files/share/applications/wizznic.desktop: /opt/apps/wizznic.linyaps/files/entrypoint.sh wizznic
+[正在测试启动项]
+包名:wizznic.linyaps
+Layer文件:wizznic.linyaps_0.9.9.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: wizznic.linyaps_0.9.9.1_x86_64_binary.layer
+offset: 736
+mountpoint: /tmp/tmp.vmlZYSrq2I/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run wizznic.linyaps -- /opt/apps/wizznic.linyaps/files/entrypoint.sh wizznic
+[PID 7886] 进程已启动
+[PID 7886] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall wizznic.linyaps
