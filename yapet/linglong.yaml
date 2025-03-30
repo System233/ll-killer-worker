@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: yapet.linyaps
+  name: yapet
+  version: 2.6.0.1
+  kind: app
+  description: |-
+    Yet Another Password Encryption Tool
+    Yapet is a curses based password encryption tool using the Blowfish
+    encryption algorithm to store password records encrypted on disk. Its
+    primary aim is to provide a safe way to store passwords in a file on
+    disk while having a small footprint.
+command:
+- /opt/apps/yapet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
