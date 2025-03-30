@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: youtubedl-gui.linyaps
+  name: youtubedl-gui
+  version: 3.0.0.2
+  kind: app
+  description: |-
+    GUI on yt-dlp (ie, youtube-dl) to download videos from a variety of sites
+    Graphical interface to yt-dlp, the CLI for downloading videos
+    from a variety of sites. Allows control of format, resolution, audio
+    and video codecs, etc.
+command:
+- /opt/apps/youtubedl-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
