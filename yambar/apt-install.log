@@ -1,0 +1,266 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libasound2-data libasound2t64 libfcft4t64 libglib2.0-0t64 libjson-glib-1.0-0
+  libjson-glib-1.0-common libmpdclient2t64 libpipewire-0.3-0t64
+  libpipewire-0.3-common libpipewire-0.3-modules libpsl5t64 libreadline8t64
+  libsbc1 libsnapd-glib-2-1 libsoup-3.0-0 libsoup-3.0-common
+  libspa-0.2-bluetooth libspa-0.2-modules libssl3t64 libunistring5
+  libutf8proc3 libyaml-0-2 pipewire pipewire-bin pipewire-pulse publicsuffix
+  readline-common
+Suggested packages:
+  alsa-utils low-memory-monitor snapd readline-doc
+Recommended packages:
+  alsa-ucm-conf alsa-topology-conf dbus-user-session wireplumber rtkit
+The following packages will be REMOVED:
+  gir1.2-atk-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0 gir1.2-glib-2.0
+  gir1.2-harfbuzz-0.0 gir1.2-pango-1.0 libasound2 libglib2.0-0 libglib2.0-bin
+  libpipewire-0.3-0 libpsl5 libreadline8
+The following NEW packages will be installed:
+  libasound2t64 libfcft4t64 libglib2.0-0t64 libjson-glib-1.0-0
+  libjson-glib-1.0-common libmpdclient2t64 libpipewire-0.3-0t64
+  libpipewire-0.3-common libpsl5t64 libreadline8t64 libsnapd-glib-2-1
+  libsoup-3.0-0 libsoup-3.0-common libssl3t64 libunistring5 libutf8proc3
+  libyaml-0-2 publicsuffix yambar
+The following packages will be upgraded:
+  libasound2-data libpipewire-0.3-modules libsbc1 libspa-0.2-bluetooth
+  libspa-0.2-modules pipewire pipewire-bin pipewire-pulse readline-common
+9 upgraded, 19 newly installed, 12 to remove and 441 not upgraded.
+Need to get 8248 kB of archives.
+After this operation, 6928 kB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libasound2-data all 1.2.11-1build2 [21.0 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 pipewire-pulse amd64 1.0.5-1ubuntu3 [8450 B]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libspa-0.2-bluetooth amd64 1.0.5-1ubuntu3 [330 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpipewire-0.3-modules amd64 1.0.5-1ubuntu3 [814 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libspa-0.2-modules amd64 1.0.5-1ubuntu3 [626 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 pipewire amd64 1.0.5-1ubuntu3 [90.1 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 pipewire-bin amd64 1.0.5-1ubuntu3 [365 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libasound2t64 amd64 1.2.11-1build2 [399 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libglib2.0-0t64 amd64 2.80.0-6ubuntu3.2 [1546 kB]
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsbc1 amd64 2.0-1build1 [33.9 kB]
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpipewire-0.3-0t64 amd64 1.0.5-1ubuntu3 [252 kB]
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjson-glib-1.0-common all 1.8.0-2build2 [4244 B]
+Get:13 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjson-glib-1.0-0 amd64 1.8.0-2build2 [68.0 kB]
+Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsoup-3.0-common all 3.4.4-5ubuntu0.1 [10.3 kB]
+Get:15 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpsl5t64 amd64 0.21.2-1.1build1 [57.1 kB]
+Get:16 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libunistring5 amd64 1.1-2build1.1 [536 kB]
+Get:17 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsoup-3.0-0 amd64 3.4.4-5ubuntu0.1 [287 kB]
+Get:18 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsnapd-glib-2-1 amd64 1.64-0ubuntu5 [107 kB]
+Get:19 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libssl3t64 amd64 3.0.13-0ubuntu3.5 [1940 kB]
+Get:20 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libreadline8t64 amd64 8.2-4build1 [153 kB]
+Get:21 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 readline-common all 8.2-4build1 [56.5 kB]
+Get:22 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libyaml-0-2 amd64 0.2.5-1build1 [51.5 kB]
+Get:23 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 publicsuffix all 20231001.0357-0.1 [129 kB]
+Get:24 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libutf8proc3 amd64 2.9.0-1build1 [70.6 kB]
+Get:25 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libfcft4t64 amd64 3.1.8-1.1build1 [57.4 kB]
+Get:26 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libmpdclient2t64 amd64 2.22-1.1build1 [48.4 kB]
+Get:27 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpipewire-0.3-common all 1.0.5-1ubuntu3 [18.8 kB]
+Get:28 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 yambar amd64 1.10.0-1build2 [169 kB]
+Fetched 8248 kB in 0s (39.1 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing gir1.2-atk-1.0:amd64 (2.50.0-1) ...
+Removing gir1.2-pango-1.0:amd64 (1.52.2+ds-1) ...
+Removing gir1.2-harfbuzz-0.0:amd64 (8.0.1-1+rb1) ...
+Removing gir1.2-freedesktop:amd64 (1.80.1-2) ...
+Removing gir1.2-gdkpixbuf-2.0:amd64 (2.42.10+dfsg-3) ...
+Removing gir1.2-glib-2.0:amd64 (2.80.1-1deepin1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27546 files and directories currently installed.)
+Preparing to unpack .../libasound2-data_1.2.11-1build2_all.deb ...
+Unpacking libasound2-data (1.2.11-1build2) over (1.2.8-1) ...
+Preparing to unpack .../pipewire-pulse_1.0.5-1ubuntu3_amd64.deb ...
+Unpacking pipewire-pulse (1.0.5-1ubuntu3) over (1.0.0-1) ...
+Preparing to unpack .../libspa-0.2-bluetooth_1.0.5-1ubuntu3_amd64.deb ...
+Unpacking libspa-0.2-bluetooth:amd64 (1.0.5-1ubuntu3) over (1.0.0-1) ...
+Preparing to unpack .../libpipewire-0.3-modules_1.0.5-1ubuntu3_amd64.deb ...
+Unpacking libpipewire-0.3-modules:amd64 (1.0.5-1ubuntu3) over (1.0.0-1) ...
+dpkg: libpipewire-0.3-0:amd64: dependency problems, but removing anyway as you requested:
+ pipewire-bin depends on libpipewire-0.3-0 (= 1.0.0-1).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27544 files and directories currently installed.)
+Removing libpipewire-0.3-0:amd64 (1.0.0-1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27539 files and directories currently installed.)
+Preparing to unpack .../libspa-0.2-modules_1.0.5-1ubuntu3_amd64.deb ...
+Unpacking libspa-0.2-modules:amd64 (1.0.5-1ubuntu3) over (1.0.0-1) ...
+Preparing to unpack .../pipewire_1.0.5-1ubuntu3_amd64.deb ...
+Unpacking pipewire:amd64 (1.0.5-1ubuntu3) over (1.0.0-1) ...
+Preparing to unpack .../pipewire-bin_1.0.5-1ubuntu3_amd64.deb ...
+Unpacking pipewire-bin (1.0.5-1ubuntu3) over (1.0.0-1) ...
+dpkg: libasound2:amd64: dependency problems, but removing anyway as you requested:
+ pulseaudio depends on libasound2 (>= 1.2.1.1).
+ libasound2-plugins:amd64 depends on libasound2 (>= 1.2.5).
+ bluez depends on libasound2 (>= 1.0.17).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27551 files and directories currently installed.)
+Removing libasound2:amd64 (1.2.8-1) ...
+Selecting previously unselected package libasound2t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27544 files and directories currently installed.)
+Preparing to unpack .../libasound2t64_1.2.11-1build2_amd64.deb ...
+Unpacking libasound2t64:amd64 (1.2.11-1build2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27552 files and directories currently installed.)
+Removing libglib2.0-bin (2.80.1-1deepin1) ...
+dpkg: libglib2.0-0:amd64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-gl depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-data-extra depends on libglib2.0-0 (>= 2.16.0).
+ xscreensaver-data depends on libglib2.0-0 (>= 2.16.0).
+ shared-mime-info depends on libglib2.0-0 (>= 2.75.3).
+ pulseaudio-module-bluetooth depends on libglib2.0-0 (>= 2.12.0).
+ pulseaudio depends on libglib2.0-0 (>= 2.32.0).
+ librsvg2-2:amd64 depends on libglib2.0-0 (>= 2.77.3).
+ libpulse-mainloop-glib0:amd64 depends on libglib2.0-0 (>= 2.28.0).
+ libpangoxft-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangoft2-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libpangocairo-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libpango-1.0-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libical3:amd64 depends on libglib2.0-0 (>= 2.42.0).
+ libharfbuzz0b:amd64 depends on libglib2.0-0 (>= 2.32.0).
+ libharfbuzz-gobject0:amd64 depends on libglib2.0-0 (>= 2.14.0).
+ libgtk2.0-0:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ libgtk-3-0:amd64 depends on libglib2.0-0 (>= 2.79.0).
+ libgstreamer1.0-0:amd64 depends on libglib2.0-0 (>= 2.77.0).
+ libgstreamer-plugins-base1.0-0:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ libglibmm-2.4-1v5:amd64 depends on libglib2.0-0 (>= 2.62.0).
+ libgdk-pixbuf-xlib-2.0-0:amd64 depends on libglib2.0-0 (>= 2.48.0).
+ libgdk-pixbuf-2.0-0:amd64 depends on libglib2.0-0 (>= 2.75.0).
+ libfcitx5gclient2:amd64 depends on libglib2.0-0 (>= 2.38.0).
+ libdconf1:amd64 depends on libglib2.0-0 (>= 2.77.0).
+ libcolord2:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ libcloudproviders0:amd64 depends on libglib2.0-0 (>= 2.56.0).
+ libcairo-gobject2:amd64 depends on libglib2.0-0 (>= 2.68.0).
+ libavcodec60:amd64 depends on libglib2.0-0 (>= 2.12.0).
+ libatspi2.0-0:amd64 depends on libglib2.0-0 (>= 2.62).
+ libatk1.0-0:amd64 depends on libglib2.0-0 (>= 2.62).
+ libatk-bridge2.0-0:amd64 depends on libglib2.0-0 (>= 2.75.3).
+ gtk-update-icon-cache depends on libglib2.0-0 (>= 2.57.2).
+ glib-networking-services depends on libglib2.0-0 (>= 2.73.3).
+ glib-networking:amd64 depends on libglib2.0-0 (>= 2.73.3).
+ fcitx5-frontend-gtk3 depends on libglib2.0-0 (>= 2.75.3).
+ fcitx5-frontend-gtk2 depends on libglib2.0-0 (>= 2.75.3).
+ dconf-service depends on libglib2.0-0 (>= 2.77.0).
+ dconf-gsettings-backend:amd64 depends on libglib2.0-0 (>= 2.77.0).
+ bluez-obexd depends on libglib2.0-0 (>= 2.77.0).
+ bluez depends on libglib2.0-0 (>= 2.75.3).
+
+Removing libglib2.0-0:amd64 (2.80.1-1deepin1) ...
+Selecting previously unselected package libglib2.0-0t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27508 files and directories currently installed.)
+Preparing to unpack .../0-libglib2.0-0t64_2.80.0-6ubuntu3.2_amd64.deb ...
+libglib2.0-0t64.preinst: Removing /var/lib/dpkg/info/libglib2.0-0:amd64.postrm to avoid loss of /usr/share/glib-2.0/schemas/gschemas.compiled...
+removed '/var/lib/dpkg/info/libglib2.0-0:amd64.postrm'
+Unpacking libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.2) ...
+Preparing to unpack .../1-libsbc1_2.0-1build1_amd64.deb ...
+Unpacking libsbc1:amd64 (2.0-1build1) over (1.5-3) ...
+Selecting previously unselected package libpipewire-0.3-0t64:amd64.
+Preparing to unpack .../2-libpipewire-0.3-0t64_1.0.5-1ubuntu3_amd64.deb ...
+Unpacking libpipewire-0.3-0t64:amd64 (1.0.5-1ubuntu3) ...
+Selecting previously unselected package libjson-glib-1.0-common.
+Preparing to unpack .../3-libjson-glib-1.0-common_1.8.0-2build2_all.deb ...
+Unpacking libjson-glib-1.0-common (1.8.0-2build2) ...
+Selecting previously unselected package libjson-glib-1.0-0:amd64.
+Preparing to unpack .../4-libjson-glib-1.0-0_1.8.0-2build2_amd64.deb ...
+Unpacking libjson-glib-1.0-0:amd64 (1.8.0-2build2) ...
+Selecting previously unselected package libsoup-3.0-common.
+Preparing to unpack .../5-libsoup-3.0-common_3.4.4-5ubuntu0.1_all.deb ...
+Unpacking libsoup-3.0-common (3.4.4-5ubuntu0.1) ...
+dpkg: libpsl5:amd64: dependency problems, but removing anyway as you requested:
+ libcurl4:amd64 depends on libpsl5 (>= 0.16.0).
+ libcurl3-gnutls:amd64 depends on libpsl5 (>= 0.16.0).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27546 files and directories currently installed.)
+Removing libpsl5:amd64 (0.21.0-1.2) ...
+Selecting previously unselected package libpsl5t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27540 files and directories currently installed.)
+Preparing to unpack .../libpsl5t64_0.21.2-1.1build1_amd64.deb ...
+Unpacking libpsl5t64:amd64 (0.21.2-1.1build1) ...
+Selecting previously unselected package libunistring5:amd64.
+Preparing to unpack .../libunistring5_1.1-2build1.1_amd64.deb ...
+Unpacking libunistring5:amd64 (1.1-2build1.1) ...
+Selecting previously unselected package libsoup-3.0-0:amd64.
+Preparing to unpack .../libsoup-3.0-0_3.4.4-5ubuntu0.1_amd64.deb ...
+Unpacking libsoup-3.0-0:amd64 (3.4.4-5ubuntu0.1) ...
+Selecting previously unselected package libsnapd-glib-2-1:amd64.
+Preparing to unpack .../libsnapd-glib-2-1_1.64-0ubuntu5_amd64.deb ...
+Unpacking libsnapd-glib-2-1:amd64 (1.64-0ubuntu5) ...
+Selecting previously unselected package libssl3t64:amd64.
+Preparing to unpack .../libssl3t64_3.0.13-0ubuntu3.5_amd64.deb ...
+Unpacking libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:amd64 (3.2.0-2) ...
+dpkg: libreadline8:amd64: dependency problems, but removing anyway as you requested:
+ sqlite3 depends on libreadline8 (>= 6.0).
+ libpython3.12-stdlib:amd64 depends on libreadline8 (>= 7.0~beta).
+ libpython3.11-stdlib:amd64 depends on libreadline8 (>= 7.0~beta).
+ gpgsm depends on libreadline8 (>= 6.0).
+ gpgconf depends on libreadline8 (>= 6.0).
+ gpg depends on libreadline8 (>= 6.0).
+ gnupg-utils depends on libreadline8 (>= 6.0).
+ gawk depends on libreadline8 (>= 6.0).
+ fdisk depends on libreadline8 (>= 6.0).
+ bluez depends on libreadline8 (>= 6.0).
+ bc depends on libreadline8 (>= 6.0).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27568 files and directories currently installed.)
+Removing libreadline8:amd64 (8.2-3) ...
+Selecting previously unselected package libreadline8t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27555 files and directories currently installed.)
+Preparing to unpack .../0-libreadline8t64_8.2-4build1_amd64.deb ...
+Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8 to /lib/x86_64-linux-gnu/libhistory.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8.2 to /lib/x86_64-linux-gnu/libhistory.so.8.2.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8 to /lib/x86_64-linux-gnu/libreadline.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8.2 to /lib/x86_64-linux-gnu/libreadline.so.8.2.usr-is-merged by libreadline8t64'
+Unpacking libreadline8t64:amd64 (8.2-4build1) ...
+Preparing to unpack .../1-readline-common_8.2-4build1_all.deb ...
+Unpacking readline-common (8.2-4build1) over (8.2-3) ...
+Selecting previously unselected package libyaml-0-2:amd64.
+Preparing to unpack .../2-libyaml-0-2_0.2.5-1build1_amd64.deb ...
+Unpacking libyaml-0-2:amd64 (0.2.5-1build1) ...
+Selecting previously unselected package publicsuffix.
+Preparing to unpack .../3-publicsuffix_20231001.0357-0.1_all.deb ...
+Unpacking publicsuffix (20231001.0357-0.1) ...
+Selecting previously unselected package libutf8proc3:amd64.
+Preparing to unpack .../4-libutf8proc3_2.9.0-1build1_amd64.deb ...
+Unpacking libutf8proc3:amd64 (2.9.0-1build1) ...
+Selecting previously unselected package libfcft4t64.
+Preparing to unpack .../5-libfcft4t64_3.1.8-1.1build1_amd64.deb ...
+Unpacking libfcft4t64 (3.1.8-1.1build1) ...
+Selecting previously unselected package libmpdclient2t64:amd64.
+Preparing to unpack .../6-libmpdclient2t64_2.22-1.1build1_amd64.deb ...
+Unpacking libmpdclient2t64:amd64 (2.22-1.1build1) ...
+Selecting previously unselected package libpipewire-0.3-common.
+Preparing to unpack .../7-libpipewire-0.3-common_1.0.5-1ubuntu3_all.deb ...
+Unpacking libpipewire-0.3-common (1.0.5-1ubuntu3) ...
+Selecting previously unselected package yambar.
+Preparing to unpack .../8-yambar_1.10.0-1build2_amd64.deb ...
+Unpacking yambar (1.10.0-1build2) ...
+Setting up libpipewire-0.3-common (1.0.5-1ubuntu3) ...
+Setting up libsbc1:amd64 (2.0-1build1) ...
+Setting up libutf8proc3:amd64 (2.9.0-1build1) ...
+Setting up libyaml-0-2:amd64 (0.2.5-1build1) ...
+Setting up libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Setting up libsoup-3.0-common (3.4.4-5ubuntu0.1) ...
+Setting up libfcft4t64 (3.1.8-1.1build1) ...
+Setting up libasound2-data (1.2.11-1build2) ...
+Setting up libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.2) ...
+Setting up libasound2t64:amd64 (1.2.11-1build2) ...
+Setting up libspa-0.2-modules:amd64 (1.0.5-1ubuntu3) ...
+Setting up libunistring5:amd64 (1.1-2build1.1) ...
+Setting up libmpdclient2t64:amd64 (2.22-1.1build1) ...
+Setting up libspa-0.2-bluetooth:amd64 (1.0.5-1ubuntu3) ...
+Setting up libjson-glib-1.0-common (1.8.0-2build2) ...
+Setting up readline-common (8.2-4build1) ...
+Setting up libpipewire-0.3-0t64:amd64 (1.0.5-1ubuntu3) ...
+Setting up publicsuffix (20231001.0357-0.1) ...
+Setting up libpsl5t64:amd64 (0.21.2-1.1build1) ...
+Setting up libjson-glib-1.0-0:amd64 (1.8.0-2build2) ...
+Setting up yambar (1.10.0-1build2) ...
+Setting up libreadline8t64:amd64 (8.2-4build1) ...
+Setting up libsoup-3.0-0:amd64 (3.4.4-5ubuntu0.1) ...
+Setting up libsnapd-glib-2-1:amd64 (1.64-0ubuntu5) ...
+Setting up libpipewire-0.3-modules:amd64 (1.0.5-1ubuntu3) ...
+Setting up pipewire-bin (1.0.5-1ubuntu3) ...
+Installing new version of config file /etc/security/limits.d/25-pw-rlimits.conf ...
+Setting up pipewire:amd64 (1.0.5-1ubuntu3) ...
+Setting up pipewire-pulse (1.0.5-1ubuntu3) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
