@@ -1,0 +1,41 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ libfm-extra4t64 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libfm-qt14 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+              Depends: libqt5gui5t64 (>= 5.12.2) but it is not installable or
+                       libqt5gui5-gles (>= 5.12.2) but it is not installable
+ libglib2.0-dev : Depends: libglib2.0-0t64 (= 2.80.0-6ubuntu3.2) but it is not installable
+                  Depends: libglib2.0-bin (= 2.80.0-6ubuntu3.2) but 2.80.1-1deepin1 is to be installed
+                  Depends: libglib2.0-dev-bin (= 2.80.0-6ubuntu3.2) but it is not going to be installed
+                  Depends: libglib2.0-dev-bin-linux (= 2.80.0-6ubuntu3.2)
+                  Depends: libgirepository-2.0-0 (= 2.80.0-6ubuntu3.2) but it is not going to be installed
+ libjson-glib-1.0-0 : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ libkf5windowsystem5 : Depends: libqt5gui5t64 (>= 5.15.2~) but it is not installable or
+                                libqt5gui5-gles (>= 5.15.2~) but it is not installable
+                       Recommends: kwayland-integration but it is not installable
+                       Recommends: qtwayland5 but it is not installable
+ libmenu-cache-bin : Depends: libglib2.0-0t64 (>= 2.75.3) but it is not installable
+ libmenu-cache3 : Depends: libglib2.0-0t64 (>= 2.75.3) but it is not installable
+ libqt5core5t64 : Depends: libglib2.0-0t64 (>= 2.22.0) but it is not installable
+ libqt5printsupport5t64 : Depends: libqt5gui5t64 (>= 5.14.1) but it is not installable or
+                                   libqt5gui5-gles (>= 5.14.1) but it is not installable
+ libqt5widgets5t64 : Depends: libqt5gui5t64 (>= 5.15.1) but it is not installable or
+                              libqt5gui5-gles (>= 5.15.1) but it is not installable
+ libqt5x11extras5 : Depends: libqt5gui5t64 (>= 5.15.13+dfsg~) but it is not installable or
+                             libqt5gui5-gles (>= 5.15.13+dfsg~) but it is not installable
+ qtbase5-dev : Depends: libqt5gui5t64 (= 5.15.13+dfsg-1ubuntu1) but it is not installable
+               Recommends: libqt5opengl5-dev (= 5.15.13+dfsg-1ubuntu1) but it is not installable
+ xdg-desktop-portal : Depends: libglib2.0-0t64 (>= 2.79.0) but it is not installable
+ xdg-desktop-portal-lxqt : Depends: libqt5gui5t64 (>= 5.0.2) but it is not installable or
+                                    libqt5gui5-gles (>= 5.0.2) but it is not installable
+E: Unable to correct problems, you have held broken packages.
