@@ -1,0 +1,33 @@
+version: "1"
+package:
+  id: x2goserver-fmbindings.linyaps
+  name: x2goserver-fmbindings
+  version: 4.1.0.1
+  kind: app
+  description: |-
+    X2Go Server (file manager bindings)
+    X2Go is a server based computing environment with
+    - session resuming
+    - low bandwidth support
+    - session brokerage support
+    - client-side mass storage mounting support
+    - client-side printing support
+    - audio support
+    - authentication by smartcard and USB stick
+
+    x2goserver-fmbindings contains generic MIME type information for X2Go's
+    local folder sharing. It can be used with all freedesktop.org compliant
+    desktop shells.
+
+    However, this package will be superseded by other, more specific destkop
+    binding components, if installed and being used with the corresponding
+    desktop shell:
+
+    - under LXDE by x2golxdebindings
+    - under GNOMEv2 by x2gognomebindings
+    - under MATE by x2gomatebindings
+    - under KDE4/5 by plasma-widget-x2go
+command:
+- /opt/apps/x2goserver-fmbindings.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
