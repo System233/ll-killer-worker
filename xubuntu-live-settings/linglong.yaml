@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: xubuntu-live-settings.linyaps
+  name: xubuntu-live-settings
+  version: 24.4.4.0
+  kind: app
+  description: |-
+    configuration for the Xubuntu live cd
+    This package contains live cd customizations used by Xubuntu.
+command:
+- /opt/apps/xubuntu-live-settings.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
