@@ -1,0 +1,31 @@
+正在测试: APPID=xdemineur.linyaps LAYER=xdemineur.linyaps_2.1.1.21_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xdemineur.linyaps_2.1.1.21_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xdemineur.linyaps
+Layer文件:xdemineur.linyaps_2.1.1.21_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xdemineur.linyaps_2.1.1.21_arm64_binary.layer
+offset: 644
+mountpoint: /tmp/tmp.dVyeNtb73s/mnt
+dbglevel: 0
+find: ‘/opt/apps/xdemineur.linyaps/files/share/icons’: No such file or directory
+[成功] xdemineur.desktop: xdemineur.linyaps-xdemineur-icon -> /opt/apps/xdemineur.linyaps/files/share/pixmaps/xdemineur.linyaps-xdemineur-icon.xpm
+[成功] /opt/apps/xdemineur.linyaps/files/share/applications/xdemineur.desktop: /opt/apps/xdemineur.linyaps/files/entrypoint.sh /usr/games/xdemineur
+[正在测试启动项]
+包名:xdemineur.linyaps
+Layer文件:xdemineur.linyaps_2.1.1.21_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xdemineur.linyaps_2.1.1.21_arm64_binary.layer
+offset: 644
+mountpoint: /tmp/tmp.o7N2o3TXTI/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xdemineur.linyaps -- /opt/apps/xdemineur.linyaps/files/entrypoint.sh /usr/games/xdemineur
+[PID 5303] 进程已启动
+[PID 5303] 等待超时，未能检测到窗口
+[PID 5303] 正在通知并等待进程退出
+[PID 5303] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xdemineur.linyaps
