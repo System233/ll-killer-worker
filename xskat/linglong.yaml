@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: xskat.linyaps
+  name: xskat
+  version: 4.0.0.8
+  kind: app
+  description: |-
+    3-player card game "Skat"
+    Xskat lets you play the card game Skat as defined by the official
+    German "Skatordnung".
+
+    You can play by sending a window to the other player's X display, or
+    via an IRC server. The computer can also simulate players.
+
+    Many unofficial rules like "Ramsch" or "Bock" are supported.
+command:
+- /opt/apps/xskat.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
