@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: xmahjongg.linyaps
+  name: xmahjongg
+  version: 3.7.0.5
+  kind: app
+  description: |-
+    tile-based solitaire game
+    Xmahjongg is a simple implementation of the popular solitaire Mah Jongg game.
+    The object is to remove all 144 tiles from the playing area by matching them
+    two at a time. Xmahjongg is the classical version with little in the way of
+    requirements and enough aesthetical and gameplay features to provide hours
+    and hours of fun.
+command:
+- /opt/apps/xmahjongg.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
