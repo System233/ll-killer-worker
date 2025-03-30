@@ -1,0 +1,29 @@
+正在测试: APPID=wmweather.linyaps LAYER=wmweather.linyaps_2.4.7.3_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install wmweather.linyaps_2.4.7.3_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:wmweather.linyaps
+Layer文件:wmweather.linyaps_2.4.7.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: wmweather.linyaps_2.4.7.3_arm64_binary.layer
+offset: 836
+mountpoint: /tmp/tmp.XKch76hv6x/mnt
+dbglevel: 0
+[成功] /opt/apps/wmweather.linyaps/files/share/applications/wmweather.desktop: /opt/apps/wmweather.linyaps/files/entrypoint.sh /usr/bin/wmweather
+[正在测试启动项]
+包名:wmweather.linyaps
+Layer文件:wmweather.linyaps_2.4.7.3_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: wmweather.linyaps_2.4.7.3_arm64_binary.layer
+offset: 836
+mountpoint: /tmp/tmp.5sEe8nsXJg/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run wmweather.linyaps -- /opt/apps/wmweather.linyaps/files/entrypoint.sh /usr/bin/wmweather
+[PID 6038] 进程已启动
+[PID 6038] 等待超时，未能检测到窗口
+[PID 6038] 正在通知并等待进程退出
+[PID 6038] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall wmweather.linyaps
