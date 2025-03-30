@@ -1,0 +1,100 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libasound2-data libasound2t64 libc-bin libc-dev-bin libc6 libc6-dev
+  libfftw3-single3 libfltk1.3t64 liblo7 libmxml1 locales zynaddsubfx-data
+Suggested packages:
+  alsa-utils manpages glibc-doc libnss-nis libnss-nisplus manpages-dev
+  libfftw3-bin libfftw3-dev liblo-dev
+Recommended packages:
+  alsa-ucm-conf alsa-topology-conf manpages manpages-dev libc-devtools
+  libmxml-bin
+The following packages will be REMOVED:
+  libasound2
+The following NEW packages will be installed:
+  libasound2t64 libfltk1.3t64 liblo7 libmxml1 zynaddsubfx zynaddsubfx-data
+The following packages will be upgraded:
+  libasound2-data libc-bin libc-dev-bin libc6 libc6-dev libfftw3-single3
+  locales
+7 upgraded, 6 newly installed, 1 to remove and 444 not upgraded.
+Need to get 15.2 MB of archives.
+After this operation, 16.1 MB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libc-dev-bin arm64 2.39-0ubuntu8.4 [19.7 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libc6-dev arm64 2.39-0ubuntu8.4 [1595 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 locales all 2.39-0ubuntu8.4 [4229 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libc6 arm64 2.39-0ubuntu8.4 [2775 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libc-bin arm64 2.39-0ubuntu8.4 [591 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libasound2-data all 1.2.11-1build2 [21.0 kB]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libasound2t64 arm64 1.2.11-1build2 [387 kB]
+Get:8 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libfftw3-single3 arm64 3.3.10-1ubuntu3 [583 kB]
+Get:9 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libfltk1.3t64 arm64 1.3.8-6.1build2 [597 kB]
+Get:10 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 liblo7 arm64 0.31-1build1 [35.4 kB]
+Get:11 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libmxml1 arm64 3.3.1-1build1 [25.4 kB]
+Get:12 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 zynaddsubfx-data all 3.0.6-6build3 [3116 kB]
+Get:13 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 zynaddsubfx arm64 3.0.6-6build3 [1196 kB]
+Fetched 15.2 MB in 3s (5815 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libc-dev-bin_2.39-0ubuntu8.4_arm64.deb ...
+Unpacking libc-dev-bin (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Preparing to unpack .../libc6-dev_2.39-0ubuntu8.4_arm64.deb ...
+Unpacking libc6-dev:arm64 (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Preparing to unpack .../locales_2.39-0ubuntu8.4_all.deb ...
+Unpacking locales (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Preparing to unpack .../libc6_2.39-0ubuntu8.4_arm64.deb ...
+Unpacking libc6:arm64 (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Setting up libc6:arm64 (2.39-0ubuntu8.4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27754 files and directories currently installed.)
+Preparing to unpack .../libc-bin_2.39-0ubuntu8.4_arm64.deb ...
+Unpacking libc-bin (2.39-0ubuntu8.4) over (2.38-6deepin4) ...
+Setting up libc-bin (2.39-0ubuntu8.4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27754 files and directories currently installed.)
+Preparing to unpack .../libasound2-data_1.2.11-1build2_all.deb ...
+Unpacking libasound2-data (1.2.11-1build2) over (1.2.8-1) ...
+dpkg: libasound2:arm64: dependency problems, but removing anyway as you requested:
+ pulseaudio depends on libasound2 (>= 1.2.1.1).
+ pipewire-bin depends on libasound2 (>= 1.2.1.1).
+ libspa-0.2-modules:arm64 depends on libasound2 (>= 1.2.1.1).
+ libasound2-plugins:arm64 depends on libasound2 (>= 1.2.5).
+ bluez depends on libasound2 (>= 1.0.17).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27754 files and directories currently installed.)
+Removing libasound2:arm64 (1.2.8-1) ...
+Selecting previously unselected package libasound2t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27747 files and directories currently installed.)
+Preparing to unpack .../0-libasound2t64_1.2.11-1build2_arm64.deb ...
+Unpacking libasound2t64:arm64 (1.2.11-1build2) ...
+Preparing to unpack .../1-libfftw3-single3_3.3.10-1ubuntu3_arm64.deb ...
+Unpacking libfftw3-single3:arm64 (3.3.10-1ubuntu3) over (3.3.8-2) ...
+Selecting previously unselected package libfltk1.3t64:arm64.
+Preparing to unpack .../2-libfltk1.3t64_1.3.8-6.1build2_arm64.deb ...
+Unpacking libfltk1.3t64:arm64 (1.3.8-6.1build2) ...
+Selecting previously unselected package liblo7:arm64.
+Preparing to unpack .../3-liblo7_0.31-1build1_arm64.deb ...
+Unpacking liblo7:arm64 (0.31-1build1) ...
+Selecting previously unselected package libmxml1:arm64.
+Preparing to unpack .../4-libmxml1_3.3.1-1build1_arm64.deb ...
+Unpacking libmxml1:arm64 (3.3.1-1build1) ...
+Selecting previously unselected package zynaddsubfx-data.
+Preparing to unpack .../5-zynaddsubfx-data_3.0.6-6build3_all.deb ...
+Unpacking zynaddsubfx-data (3.0.6-6build3) ...
+Selecting previously unselected package zynaddsubfx.
+Preparing to unpack .../6-zynaddsubfx_3.0.6-6build3_arm64.deb ...
+Unpacking zynaddsubfx (3.0.6-6build3) ...
+Setting up libfftw3-single3:arm64 (3.3.10-1ubuntu3) ...
+Setting up locales (2.39-0ubuntu8.4) ...
+Installing new version of config file /etc/locale.alias ...
+Generating locales (this might take a while)...
+Generation complete.
+Setting up libasound2-data (1.2.11-1build2) ...
+Setting up libasound2t64:arm64 (1.2.11-1build2) ...
+Setting up zynaddsubfx-data (3.0.6-6build3) ...
+Setting up libmxml1:arm64 (3.3.1-1build1) ...
+Setting up liblo7:arm64 (0.31-1build1) ...
+Setting up libc-dev-bin (2.39-0ubuntu8.4) ...
+Setting up libfltk1.3t64:arm64 (1.3.8-6.1build2) ...
+Setting up zynaddsubfx (3.0.6-6build3) ...
+Setting up libc6-dev:arm64 (2.39-0ubuntu8.4) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
