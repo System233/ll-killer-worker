@@ -1,0 +1,28 @@
+正在测试: APPID=xastir.linyaps LAYER=xastir.linyaps_2.2.0.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xastir.linyaps_2.2.0.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xastir.linyaps
+Layer文件:xastir.linyaps_2.2.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xastir.linyaps_2.2.0.1_x86_64_binary.layer
+offset: 619
+mountpoint: /tmp/tmp.DdTje2PbZO/mnt
+dbglevel: 0
+[成功] xastir.desktop: xastir.linyaps-icon -> /opt/apps/xastir.linyaps/files/share/icons/hicolor/16x16/apps/xastir.linyaps-icon.png
+[成功] /opt/apps/xastir.linyaps/files/share/applications/xastir.desktop: /opt/apps/xastir.linyaps/files/entrypoint.sh xastir
+[正在测试启动项]
+包名:xastir.linyaps
+Layer文件:xastir.linyaps_2.2.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xastir.linyaps_2.2.0.1_x86_64_binary.layer
+offset: 619
+mountpoint: /tmp/tmp.QzNjsbBIsh/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xastir.linyaps -- /opt/apps/xastir.linyaps/files/entrypoint.sh xastir
+[PID 7546] 进程已启动
+[PID 7546] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xastir.linyaps
