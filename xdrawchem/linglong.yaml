@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: xdrawchem.linyaps
+  name: xdrawchem
+  version: 1.11.0.4
+  kind: app
+  description: |-
+    Chemical structures and reactions editor
+    Xdrawchem is a 2D editor for chemical structures and reactions.  It
+    mirrors the abilities of the commercial ChemDraw suite and has file
+    compatibility with it as well as other chemical formats through
+    OpenBabel.
+
+    This packaged version comes from a fork available at
+    https://gitlab.com/yamanq/xdrawchem, as the previous version was no
+    longer actively maintained. More information about it in the copyright
+    file.
+command:
+- /opt/apps/xdrawchem.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
