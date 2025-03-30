@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: xfce4-sensors-plugin.linyaps
+  name: xfce4-sensors-plugin
+  version: 1.4.4.1
+  kind: app
+  description: |-
+    hardware sensors plugin for the Xfce4 panel
+    The sensors plugin provides a handy way to monitor your hard disk,
+    processor, fans, and other critical hardware right on your
+    Xfce panel.
+command:
+- /opt/apps/xfce4-sensors-plugin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
