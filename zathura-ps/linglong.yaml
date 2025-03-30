@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: zathura-ps.linyaps
+  name: zathura-ps
+  version: 0.2.7.2
+  kind: app
+  description: |-
+    PostScript support for zathura
+    zathura is a document viewer with a minimalistic and space saving interface.
+    It offers a vim-like experience and has a focus on keyboard interaction.
+    The key bindings, commands and most other settings can be customized.
+
+    Some of the features are:
+    * bookmarking pages
+    * printing the whole document or specific pages
+    * following links
+    * searching in the document
+    * browsing the document index
+    * SyncTex forward and backward synchronization
+
+    This package contains zathura's PostScript plugin.
+command:
+- /opt/apps/zathura-ps.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
