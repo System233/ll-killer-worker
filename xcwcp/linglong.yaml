@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: xcwcp.linyaps
+  name: xcwcp
+  version: 3.6.0.6
+  kind: app
+  description: |-
+    Morse code tutor - graphical user interface
+    The unixcw project provides support for learning to use Morse code.
+
+    This package provides an interactive Morse code tutor with a Qt4
+    user interface. It allows choosing from a number of options for
+    practice, including sending random characters, random words, and
+    characters from the keyboard. It will also receive Morse code sent
+    using the keyboard or mouse as a Morse keyer, and display the
+    characters it sees.
+command:
+- /opt/apps/xcwcp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
