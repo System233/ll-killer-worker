@@ -1,0 +1,35 @@
+正在测试: APPID=zbd-utils.linyaps LAYER=zbd-utils.linyaps_2.0.4.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install zbd-utils.linyaps_2.0.4.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:zbd-utils.linyaps
+Layer文件:zbd-utils.linyaps_2.0.4.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: zbd-utils.linyaps_2.0.4.1_arm64_binary.layer
+offset: 669
+mountpoint: /tmp/tmp.ohZ8oMAWFd/mnt
+dbglevel: 0
+find: ‘/opt/apps/zbd-utils.linyaps/files/share/icons’: No such file or directory
+[成功] gzbd-viewer.desktop: gzbd-viewer -> /opt/apps/zbd-utils.linyaps/files/share/pixmaps/gzbd-viewer.png
+[31m[失败] /opt/apps/zbd-utils.linyaps/files/share/applications/gzbd-viewer.desktop:pkexec: 找不到此启动文件 [0m
+find: ‘/opt/apps/zbd-utils.linyaps/files/share/icons’: No such file or directory
+[成功] gzbd.desktop: gzbd -> /opt/apps/zbd-utils.linyaps/files/share/pixmaps/gzbd.png
+[31m[失败] /opt/apps/zbd-utils.linyaps/files/share/applications/gzbd.desktop:pkexec: 找不到此启动文件 [0m
+[正在测试启动项]
+包名:zbd-utils.linyaps
+Layer文件:zbd-utils.linyaps_2.0.4.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: zbd-utils.linyaps_2.0.4.1_arm64_binary.layer
+offset: 669
+mountpoint: /tmp/tmp.ZP6mbAkgIs/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run zbd-utils.linyaps -- /opt/apps/zbd-utils.linyaps/files/entrypoint.sh pkexec --disable-internal-agent "/usr/bin/gzbd-viewer"
+[PID 8078] 进程已启动
+[PID 8078] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run zbd-utils.linyaps -- /opt/apps/zbd-utils.linyaps/files/entrypoint.sh pkexec --disable-internal-agent "/usr/bin/gzbd"
+[PID 8203] 进程已启动
+[PID 8203] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall zbd-utils.linyaps
