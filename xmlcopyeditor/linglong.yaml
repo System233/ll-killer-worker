@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: xmlcopyeditor.linyaps
+  name: xmlcopyeditor
+  version: 1.3.0.1
+  kind: app
+  description: |-
+    fast, free, validating XML editor
+    XML Copy Editor is an XML editor focusing on editing document markup
+    languages like DITA, DocBook, WordprocessingML. It features DTD/XML
+    Schema/RELAX NG validation, XSLT, XPath, pretty-printing, syntax
+    highlighting, folding, tag completion/locking, and a spelling/style check.
+command:
+- /opt/apps/xmlcopyeditor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
