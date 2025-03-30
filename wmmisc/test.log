@@ -1,0 +1,29 @@
+正在测试: APPID=wmmisc.linyaps LAYER=wmmisc.linyaps_1.2.0.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install wmmisc.linyaps_1.2.0.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:wmmisc.linyaps
+Layer文件:wmmisc.linyaps_1.2.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: wmmisc.linyaps_1.2.0.2_arm64_binary.layer
+offset: 605
+mountpoint: /tmp/tmp.0aNvrOYxZA/mnt
+dbglevel: 0
+[成功] /opt/apps/wmmisc.linyaps/files/share/applications/wmmisc.desktop: /opt/apps/wmmisc.linyaps/files/entrypoint.sh wmmisc
+[正在测试启动项]
+包名:wmmisc.linyaps
+Layer文件:wmmisc.linyaps_1.2.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: wmmisc.linyaps_1.2.0.2_arm64_binary.layer
+offset: 605
+mountpoint: /tmp/tmp.RsWhoiebCa/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run wmmisc.linyaps -- /opt/apps/wmmisc.linyaps/files/entrypoint.sh wmmisc
+[PID 5340] 进程已启动
+[PID 5340] 等待超时，未能检测到窗口
+[PID 5340] 正在通知并等待进程退出
+[PID 5340] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall wmmisc.linyaps
