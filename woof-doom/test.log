@@ -1,0 +1,45 @@
+正在测试: APPID=woof-doom.linyaps LAYER=woof-doom.linyaps_14.1.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install woof-doom.linyaps_14.1.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:woof-doom.linyaps
+Layer文件:woof-doom.linyaps_14.1.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: woof-doom.linyaps_14.1.0.1_arm64_binary.layer
+offset: 1738
+mountpoint: /tmp/tmp.F5pNgOgzw3/mnt
+dbglevel: 0
+[成功] io.github.fabiangreffrath.woof-setup.desktop: woof-setup -> /opt/apps/woof-doom.linyaps/files/share/icons/hicolor/128x128/apps/woof-setup.png
+[成功] /opt/apps/woof-doom.linyaps/files/share/applications/io.github.fabiangreffrath.woof-setup.desktop: /opt/apps/woof-doom.linyaps/files/entrypoint.sh woof-setup
+[成功] io.github.fabiangreffrath.woof.desktop: woof -> /opt/apps/woof-doom.linyaps/files/share/icons/hicolor/128x128/apps/woof.png
+[成功] /opt/apps/woof-doom.linyaps/files/share/applications/io.github.fabiangreffrath.woof.desktop: /opt/apps/woof-doom.linyaps/files/entrypoint.sh woof
+[正在测试启动项]
+包名:woof-doom.linyaps
+Layer文件:woof-doom.linyaps_14.1.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: woof-doom.linyaps_14.1.0.1_arm64_binary.layer
+offset: 1738
+mountpoint: /tmp/tmp.Gg9L9Q0EYd/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run woof-doom.linyaps -- /opt/apps/woof-doom.linyaps/files/entrypoint.sh woof-setup
+[PID 7453] 进程已启动
+[PID 7453] 已检测到窗口:PID=37
+[PID 7453] 正在截图 0秒: tests/screen0-0.jpg
+[PID 7453] 正在截图 1秒: tests/screen0-1.jpg
+[PID 7453] 正在截图 3秒: tests/screen0-3.jpg
+[PID 7453] 正在截图 5秒: tests/screen0-5.jpg
+[PID 7453] 正在通知并等待进程退出
+[PID 7453] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run woof-doom.linyaps -- /opt/apps/woof-doom.linyaps/files/entrypoint.sh woof
+[PID 7621] 进程已启动
+[PID 7621] 已检测到窗口:PID=36
+[PID 7621] 正在截图 0秒: tests/screen1-0.jpg
+[PID 7621] 正在截图 1秒: tests/screen1-1.jpg
+[PID 7621] 正在截图 3秒: tests/screen1-3.jpg
+[PID 7621] 正在截图 5秒: tests/screen1-5.jpg
+[PID 7621] 正在通知并等待进程退出
+[PID 7621] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall woof-doom.linyaps
