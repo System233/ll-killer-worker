@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: xmoto.linyaps
+  name: xmoto
+  version: 0.6.2.2
+  kind: app
+  description: |-
+    2D motocross platform game
+    X-Moto is a challenging 2D motocross platform game, where physics play
+    an all important role in the gameplay. You need to control your bike to
+    its limit, if you want to have a chance finishing the more difficult of
+    the challenges.
+command:
+- /opt/apps/xmoto.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
