@@ -1,0 +1,37 @@
+version: "1"
+package:
+  id: xjed.linyaps
+  name: xjed
+  version: 0.99.20.2
+  kind: app
+  description: |-
+    editor for programmers (x11 version)
+    Jed is a small, fast (faster startup than xterm with bash),
+    and powerful text editor.
+
+    Completely customizable with prepared emulation modes for Emacs, CUA
+    (similar to KDE/Gnome/Openoffice), Borland-IDE, Brief, and EDT. Extensible
+    in the S-Lang scripting language (with a syntax resembling C).
+
+    Editing functions: folding support; rectangular cut/paste; regular
+    expression search/replace; incremental searches; search/replace across
+    multiple files; multiple windows; multiple buffers; ...
+
+    Special modes (syntax highlight, indention, compile, ...) for
+    Basic, C, C++, DCL, FORTRAN, IDL, Java, NROFF, Pascal,
+    Perl, PHP, PostScript, Python, SH.
+    Modes for markup languages include HTML and (La)TeX (with AUC-TeX style
+    editing and BibTeX)
+
+    Tools: directory editor (dired); info (browse GNU info files); mail;
+    rmail; ispell; shell mode; ...
+
+    The native X11 version provides improved mouse support, key configuration
+    and X selection interaction. If no display is available, xjed falls back to
+    text mode, thus there is no need to install both jed and xjed packages.
+
+    Additional tools and modes can be found in the jed-extra package.
+command:
+- /opt/apps/xjed.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

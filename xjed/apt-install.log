@@ -1,0 +1,76 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  jed-common libonig5 libpng16-16t64 libslang2 libslang2-modules slsh
+The following packages will be REMOVED:
+  libpng16-16
+The following NEW packages will be installed:
+  jed-common libonig5 libpng16-16t64 libslang2 libslang2-modules slsh xjed
+0 upgraded, 7 newly installed, 1 to remove and 453 not upgraded.
+Need to get 1664 kB of archives.
+After this operation, 6774 kB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpng16-16t64 amd64 1.6.43-5build1 [187 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libslang2 amd64 2.3.3-3build2 [506 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libonig5 amd64 6.9.9-1build1 [172 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libslang2-modules amd64 2.3.3-3build2 [89.8 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 slsh amd64 2.3.3-3build2 [136 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 jed-common all 1:0.99.20~pre.180+dfsg-2 [389 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 xjed amd64 1:0.99.20~pre.180+dfsg-2 [185 kB]
+Fetched 1664 kB in 0s (4927 kB/s)
+dpkg: libpng16-16:amd64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:amd64 depends on libpng16-16 (>= 1.6.2).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing libpng16-16:amd64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27583 files and directories currently installed.)
+Preparing to unpack .../0-libpng16-16t64_1.6.43-5build1_amd64.deb ...
+Unpacking libpng16-16t64:amd64 (1.6.43-5build1) ...
+Selecting previously unselected package libslang2:amd64.
+Preparing to unpack .../1-libslang2_2.3.3-3build2_amd64.deb ...
+Unpacking libslang2:amd64 (2.3.3-3build2) ...
+Selecting previously unselected package libonig5:amd64.
+Preparing to unpack .../2-libonig5_6.9.9-1build1_amd64.deb ...
+Unpacking libonig5:amd64 (6.9.9-1build1) ...
+Selecting previously unselected package libslang2-modules:amd64.
+Preparing to unpack .../3-libslang2-modules_2.3.3-3build2_amd64.deb ...
+Unpacking libslang2-modules:amd64 (2.3.3-3build2) ...
+Selecting previously unselected package slsh.
+Preparing to unpack .../4-slsh_2.3.3-3build2_amd64.deb ...
+Unpacking slsh (2.3.3-3build2) ...
+Selecting previously unselected package jed-common.
+Preparing to unpack .../5-jed-common_1%3a0.99.20~pre.180+dfsg-2_all.deb ...
+Unpacking jed-common (1:0.99.20~pre.180+dfsg-2) ...
+Selecting previously unselected package xjed.
+Preparing to unpack .../6-xjed_1%3a0.99.20~pre.180+dfsg-2_amd64.deb ...
+Unpacking xjed (1:0.99.20~pre.180+dfsg-2) ...
+Setting up libslang2:amd64 (2.3.3-3build2) ...
+Setting up libpng16-16t64:amd64 (1.6.43-5build1) ...
+Setting up libonig5:amd64 (6.9.9-1build1) ...
+Setting up libslang2-modules:amd64 (2.3.3-3build2) ...
+Setting up slsh (2.3.3-3build2) ...
+
+Configuration file '/etc/slsh.rc', does not exist on system.
+Installing new config file as you requested.
+Setting up jed-common (1:0.99.20~pre.180+dfsg-2) ...
+
+Configuration file '/etc/jed.d/05jed-common.sl', does not exist on system.
+Installing new config file as you requested.
+Setting up xjed (1:0.99.20~pre.180+dfsg-2) ...
+update-alternatives: using /usr/bin/xjed to provide /usr/bin/editor (editor) in auto mode
+update-alternatives: using /usr/bin/xjed to provide /usr/bin/jed-script (jed-script) in auto mode
+Updating precompiled files... done
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
