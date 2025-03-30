@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: yabause-qt.linyaps
+  name: yabause-qt
+  version: 0.9.15.3
+  kind: app
+  description: |-
+    beautiful and under-rated Saturn emulator - Qt port
+    Yabause is a Sega Saturn emulator. It has the following features:
+    * booting games from CD-ROM and ISO files
+    * booting games with either an emulated or original BIOS
+    * screenshot support
+    * savegame backups
+    * cheat system
+    * fullscreen playing
+    * multiple debugging options
+    * joystick support
+    * region select
+
+    This package contains the Qt version of Yabause.
+command:
+- /opt/apps/yabause-qt.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
