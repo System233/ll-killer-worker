@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: xmpuzzles.linyaps
+  name: xmpuzzles
+  version: 7.7.1.1
+  kind: app
+  description: |-
+    collection of puzzles for X (Motif version)
+    The following puzzles are included:
+
+    - Rotational 3D Puzzles: xmrubik, xmpyraminx, xmoct, xmskewb, xmdino, xmmball
+    - Sliding Block Puzzles: xmcubes, xmtriangles, xmhexagons, xmpanex
+    - Combination: xmbarrel, xmmlink
+
+    This is the Motif version which shows additional functionality.
+    Motif is a GUI widget library for the X Window  system.
+command:
+- /opt/apps/xmpuzzles.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
