@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: zaz.linyaps
+  name: zaz
+  version: 1.0.1.1
+  kind: app
+  description: |-
+    arcade action puzzle game
+    Zaz is an arcade action puzzle game where the goal is to get rid of
+    all incoming balls by rearranging their order and making triplets.
+    It currently includes 12 different levels. The game's name is recursive
+    and stands for "Zaz ain't Z".
+
+    A 3D accelerator is needed for decent gameplay.
+command:
+- /opt/apps/zaz.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
