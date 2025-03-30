@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: xscreensaver-screensaver-webcollage.linyaps
+  name: xscreensaver-screensaver-webcollage
+  version: 6.8.0.1
+  kind: app
+  description: |-
+    Webcollage screen saver module from XScreenSaver
+    This package ships the mode webcollage which displays images from random
+    web searches on the Internet.
+
+    WARNING: The Internet being what it is, absolutely anything might show up
+    in the collage of search results including -- quite possibly -- pornography,
+    or even nudity. Please act accordingly.
+command:
+- /opt/apps/xscreensaver-screensaver-webcollage.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
