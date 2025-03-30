@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: xsddiagram.linyaps
+  name: xsddiagram
+  version: 1.0.0.2
+  kind: app
+  description: |-
+    XML Schema Definition (XSD) diagram viewer
+    XSD Diagram is a XML Schema Definition (XSD) diagram viewer
+
+    Features:
+    - Display the elements, the groups and the attributes
+    - Show the text/HTML documentation of element and attribute when available
+    - Print the diagram
+    - Export the diagram to SVG, PNG, JPG and EMF (EMF only with Windows)
+    - Zoom the diagram with the mouse wheel while holding the control key
+    - XML validation based on the loaded XSD file
+    - Registration in the Windows Explorer contextual menu (for Windows only)
+    - Drag'n drop a xsd file or url on the main window header
+    - Command line image generation
+command:
+- /opt/apps/xsddiagram.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
