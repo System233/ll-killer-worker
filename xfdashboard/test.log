@@ -1,0 +1,45 @@
+正在测试: APPID=xfdashboard.linyaps LAYER=xfdashboard.linyaps_1.0.0.0_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xfdashboard.linyaps_1.0.0.0_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xfdashboard.linyaps
+Layer文件:xfdashboard.linyaps_1.0.0.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xfdashboard.linyaps_1.0.0.0_arm64_binary.layer
+offset: 639
+mountpoint: /tmp/tmp.STiluoSO4Z/mnt
+dbglevel: 0
+[成功] org.xfce.xfdashboard-settings.desktop: org.xfce.xfdashboard -> /opt/apps/xfdashboard.linyaps/files/share/icons/hicolor/128x128/apps/org.xfce.xfdashboard.png
+[成功] /opt/apps/xfdashboard.linyaps/files/share/applications/org.xfce.xfdashboard-settings.desktop: /opt/apps/xfdashboard.linyaps/files/entrypoint.sh /usr/bin/xfdashboard-settings
+[成功] org.xfce.xfdashboard.desktop: org.xfce.xfdashboard -> /opt/apps/xfdashboard.linyaps/files/share/icons/hicolor/128x128/apps/org.xfce.xfdashboard.png
+[成功] /opt/apps/xfdashboard.linyaps/files/share/applications/org.xfce.xfdashboard.desktop: /opt/apps/xfdashboard.linyaps/files/entrypoint.sh /usr/bin/xfdashboard
+[正在测试启动项]
+包名:xfdashboard.linyaps
+Layer文件:xfdashboard.linyaps_1.0.0.0_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xfdashboard.linyaps_1.0.0.0_arm64_binary.layer
+offset: 639
+mountpoint: /tmp/tmp.TOaGO9dgzz/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xfdashboard.linyaps -- /opt/apps/xfdashboard.linyaps/files/entrypoint.sh /usr/bin/xfdashboard-settings
+[PID 9302] 进程已启动
+[PID 9302] 已检测到窗口:PID=36
+[PID 9302] 正在截图 0秒: tests/screen0-0.jpg
+[PID 9302] 正在截图 1秒: tests/screen0-1.jpg
+[PID 9302] 正在截图 3秒: tests/screen0-3.jpg
+[PID 9302] 正在截图 5秒: tests/screen0-5.jpg
+[PID 9302] 正在通知并等待进程退出
+[PID 9302] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run xfdashboard.linyaps -- /opt/apps/xfdashboard.linyaps/files/entrypoint.sh /usr/bin/xfdashboard
+[PID 9497] 进程已启动
+[PID 9497] 已检测到窗口:PID=36
+[PID 9497] 正在截图 0秒: tests/screen1-0.jpg
+[PID 9497] 正在截图 1秒: tests/screen1-1.jpg
+[PID 9497] 正在截图 3秒: tests/screen1-3.jpg
+[PID 9497] 正在截图 5秒: tests/screen1-5.jpg
+[PID 9497] 正在通知并等待进程退出
+[PID 9497] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xfdashboard.linyaps
