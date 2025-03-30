@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: xastir.linyaps
+  name: xastir
+  version: 2.2.0.1
+  kind: app
+  description: |-
+    X Amateur Station Tracking and Information Reporting
+    Xastir is an APRS client for X. APRS is the Automatic Position Reporting
+    System, a system where objects report their position (usually obtained from
+    GPS) on the air; Xastir displays this information graphically.
+command:
+- /opt/apps/xastir.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
