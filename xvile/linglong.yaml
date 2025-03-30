@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: xvile.linyaps
+  name: xvile
+  version: 9.8.0.1
+  kind: app
+  description: |-
+    VI Like Emacs - vi work-alike (X11)
+    vile is a text editor which is extremely compatible with vi in terms of
+    ``finger feel''.  In addition, it has extended capabilities in many areas,
+    notably multi-file editing and viewing, syntax highlighting, key rebinding,
+    an optional embedded perl interpreter, and real X window system support.
+
+    This package contains the X11 binary.  Required support files are
+    contained in vile-common.  Source code highlighting filters are in
+    vile-filters.  A character-mode binary is in the vile package.
+command:
+- /opt/apps/xvile.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

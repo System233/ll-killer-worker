@@ -1,0 +1,38 @@
+正在测试: APPID=xvile.linyaps LAYER=xvile.linyaps_9.8.0.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xvile.linyaps_9.8.0.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xvile.linyaps
+Layer文件:xvile.linyaps_9.8.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xvile.linyaps_9.8.0.1_arm64_binary.layer
+offset: 883
+mountpoint: /tmp/tmp.1ApRCiFbDL/mnt
+dbglevel: 0
+[成功] lxvile.desktop: vile -> /opt/apps/xvile.linyaps/files/share/icons/hicolor/48x48/apps/vile.png
+[成功] /opt/apps/xvile.linyaps/files/share/applications/lxvile.desktop: /opt/apps/xvile.linyaps/files/entrypoint.sh lxvile
+[成功] uxvile.desktop: vile -> /opt/apps/xvile.linyaps/files/share/icons/hicolor/48x48/apps/vile.png
+[成功] /opt/apps/xvile.linyaps/files/share/applications/uxvile.desktop: /opt/apps/xvile.linyaps/files/entrypoint.sh uxvile
+[成功] xvile.desktop: vile -> /opt/apps/xvile.linyaps/files/share/icons/hicolor/48x48/apps/vile.png
+[成功] /opt/apps/xvile.linyaps/files/share/applications/xvile.desktop: /opt/apps/xvile.linyaps/files/entrypoint.sh xvile %f
+[正在测试启动项]
+包名:xvile.linyaps
+Layer文件:xvile.linyaps_9.8.0.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xvile.linyaps_9.8.0.1_arm64_binary.layer
+offset: 883
+mountpoint: /tmp/tmp.XknxRTnG3S/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xvile.linyaps -- /opt/apps/xvile.linyaps/files/entrypoint.sh lxvile
+[PID 8918] 进程已启动
+[PID 8918] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run xvile.linyaps -- /opt/apps/xvile.linyaps/files/entrypoint.sh uxvile
+[PID 9047] 进程已启动
+[PID 9047] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run xvile.linyaps -- /opt/apps/xvile.linyaps/files/entrypoint.sh xvile
+[PID 9176] 进程已启动
+[PID 9176] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xvile.linyaps
