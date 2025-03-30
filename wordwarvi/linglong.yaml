@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: wordwarvi.linyaps
+  name: wordwarvi
+  version: 1.0.4.2
+  kind: app
+  description: |-
+    retro-styled side-scrolling shoot'em up arcade game
+    Word War vi is your basic side-scrolling shoot 'em up '80s style arcade
+    game. You pilot your "vi"per craft through core memory, rescuing lost .swp
+    files, avoiding OS defenses, and wiping out those memory hogging emacs
+    processes.
+
+    Includes support for joysticks with force-feedback.
+command:
+- /opt/apps/wordwarvi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
