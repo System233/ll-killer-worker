@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: xygrib.linyaps
+  name: xygrib
+  version: 1.2.6.3
+  kind: app
+  description: |-
+    Weather data visualization,  GRIB file viewer
+    This application, written with the Qt toolkit, enables:
+    * Visualisation of meteo data from files in GRIB Format 1
+    * Automatic GRIB data download
+    * Automatic Download from IAC (fleetcode) Data
+command:
+- /opt/apps/xygrib.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
