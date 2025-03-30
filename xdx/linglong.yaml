@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: xdx.linyaps
+  name: xdx
+  version: 2.91.0.2
+  kind: app
+  description: |-
+    DX-cluster tcp/ip client for amateur radio
+    Xdx is a client to connect to a DX-cluster. Dx messages will be displayed
+    in a list, announcements will go to a text display.
+
+    As well as the usual functions, if you have hamlib installed it can control
+    the radio and set the frequency simply by double clicking a DX-spot
+    (using rigctl).
+command:
+- /opt/apps/xdx.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
