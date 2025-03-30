@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: xfce4-appfinder.linyaps
+  name: xfce4-appfinder
+  version: 4.18.0.1
+  kind: app
+  description: |-
+    Application finder for the Xfce4 desktop environment
+    This is an application finder for the Xfce4 desktop environment.
+    It will search for installed applications on your system. It can also be used
+    to browse installed applications by category, run them or edit their launchers.
+
+    xfce4-appfinder can also be used with a shortcut command to quickly run
+    applications, and also supports custom prefixes to execute custom commands on
+    provided paramers.
+command:
+- /opt/apps/xfce4-appfinder.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
