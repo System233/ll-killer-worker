@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: x3270.linyaps
+  name: x3270
+  version: 4.1.0.1
+  kind: app
+  description: |-
+    X11 program for telnet sessions to IBM mainframes
+    x3270 opens a telnet connection to an IBM mainframe host in an X11
+    window.  It can also connect to an IBM AS/400 as a 5250 terminal
+    using the AS/400's 3270 emulation.  The window created by x3270 can
+    use its own font for displaying characters, so it is a fairly
+    accurate representation of an IBM 3278 or 3279.
+
+    x3270 is similar to tn3270(1) and c3270(1) except that it is X-based,
+    not curses-based.
+
+    x3270 implements RFCs 2355 (TN3270E), 1576 (TN3270),
+    and 1646 (LU name selection), and supports IND$FILE file transfer.
+
+    You will need to install x3270's fonts locally, or on your font-server -
+    they are required.
+command:
+- /opt/apps/x3270.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
