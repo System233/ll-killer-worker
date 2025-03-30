@@ -1,0 +1,29 @@
+正在测试: APPID=xinput-calibrator.linyaps LAYER=xinput-calibrator.linyaps_0.7.5.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xinput-calibrator.linyaps_0.7.5.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xinput-calibrator.linyaps
+Layer文件:xinput-calibrator.linyaps_0.7.5.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xinput-calibrator.linyaps_0.7.5.1_arm64_binary.layer
+offset: 773
+mountpoint: /tmp/tmp.IxfZzs88EB/mnt
+dbglevel: 0
+find: ‘/opt/apps/xinput-calibrator.linyaps/files/share/icons’: No such file or directory
+[成功] xinput_calibrator.desktop: xinput_calibrator -> /opt/apps/xinput-calibrator.linyaps/files/share/pixmaps/xinput_calibrator.svg
+[成功] /opt/apps/xinput-calibrator.linyaps/files/share/applications/xinput_calibrator.desktop: /opt/apps/xinput-calibrator.linyaps/files/entrypoint.sh /bin/sh -c "xinput_calibrator; cat"
+[正在测试启动项]
+包名:xinput-calibrator.linyaps
+Layer文件:xinput-calibrator.linyaps_0.7.5.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xinput-calibrator.linyaps_0.7.5.1_arm64_binary.layer
+offset: 773
+mountpoint: /tmp/tmp.RF11aRnm3g/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xinput-calibrator.linyaps -- /opt/apps/xinput-calibrator.linyaps/files/entrypoint.sh /bin/sh -c "xinput_calibrator; cat"
+[PID 5224] 进程已启动
+[PID 5224] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xinput-calibrator.linyaps
