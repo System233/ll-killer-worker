@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: xwayland.linyaps
+  name: xwayland
+  version: 24.1.4.0
+  kind: app
+  description: |-
+    X server for running X clients under Wayland
+    This package provides an X server running on top of wayland, using wayland
+    input devices for input and forwarding either the root window or individual
+    top-level windows as wayland surfaces.
+command:
+- /opt/apps/xwayland.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
