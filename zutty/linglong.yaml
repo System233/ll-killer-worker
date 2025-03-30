@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: zutty.linyaps
+  name: zutty
+  version: 0.14.8.1
+  kind: app
+  description: |-
+    Efficient full-featured X11 terminal emulator
+    Zutty is a terminal emulator for the X Window System, functionally
+    similar to several other X terminal emulators such as xterm, rxvt and
+    others. It is also similar to other, much more modern, GPU-accelerated
+    terminal emulators.
+
+    Zutty uses a radically simple, yet extremely efficient rendering
+    implementation, coupled with a sufficiently complete feature set to
+    make it useful for a wide range of users. It also offers high
+    throughput with low latency, and strives to conform to relevant
+    standards, either published or de-facto.
+
+    Notice this program requires your GPU OpenGL to support compute,
+    fragment and vertex shaders, otherwise it will fail to start.
+command:
+- /opt/apps/zutty.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
