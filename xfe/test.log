@@ -1,0 +1,51 @@
+正在测试: APPID=xfe.linyaps LAYER=xfe.linyaps_1.45.0.2_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xfe.linyaps_1.45.0.2_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xfe.linyaps
+Layer文件:xfe.linyaps_1.45.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xfe.linyaps_1.45.0.2_arm64_binary.layer
+offset: 966
+mountpoint: /tmp/tmp.mrvsBiH3Mi/mnt
+dbglevel: 0
+[成功] xfe.desktop: xfe -> /opt/apps/xfe.linyaps/files/share/icons/hicolor/32x32/apps/xfe.xpm
+[成功] /opt/apps/xfe.linyaps/files/share/applications/xfe.desktop: /opt/apps/xfe.linyaps/files/entrypoint.sh xfe
+[成功] xfi.desktop: xfi -> /opt/apps/xfe.linyaps/files/share/icons/hicolor/32x32/apps/xfi.xpm
+[成功] /opt/apps/xfe.linyaps/files/share/applications/xfi.desktop: /opt/apps/xfe.linyaps/files/entrypoint.sh xfimage %f
+[成功] xfp.desktop: xfp -> /opt/apps/xfe.linyaps/files/share/icons/hicolor/32x32/apps/xfp.xpm
+[成功] /opt/apps/xfe.linyaps/files/share/applications/xfp.desktop: /opt/apps/xfe.linyaps/files/entrypoint.sh xfpack %f
+[成功] xfw.desktop: xfw -> /opt/apps/xfe.linyaps/files/share/icons/hicolor/32x32/apps/xfw.xpm
+[成功] /opt/apps/xfe.linyaps/files/share/applications/xfw.desktop: /opt/apps/xfe.linyaps/files/entrypoint.sh xfwrite %F
+[正在测试启动项]
+包名:xfe.linyaps
+Layer文件:xfe.linyaps_1.45.0.2_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xfe.linyaps_1.45.0.2_arm64_binary.layer
+offset: 966
+mountpoint: /tmp/tmp.K5sGi602gs/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xfe.linyaps -- /opt/apps/xfe.linyaps/files/entrypoint.sh xfe
+[PID 30592] 进程已启动
+[PID 30592] 等待超时，未能检测到窗口
+[PID 30592] 正在通知并等待进程退出
+[PID 30592] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run xfe.linyaps -- /opt/apps/xfe.linyaps/files/entrypoint.sh xfimage
+[PID 34420] 进程已启动
+[PID 34420] 等待超时，未能检测到窗口
+[PID 34420] 正在通知并等待进程退出
+[PID 34420] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run xfe.linyaps -- /opt/apps/xfe.linyaps/files/entrypoint.sh xfpack
+[PID 37216] 进程已启动
+[PID 37216] 等待超时，未能检测到窗口
+[PID 37216] 正在通知并等待进程退出
+[PID 37216] 进程已退出
+[PID ?] 启动进程: build-aux/ll-cli.sh run xfe.linyaps -- /opt/apps/xfe.linyaps/files/entrypoint.sh xfwrite
+[PID 38089] 进程已启动
+[PID 38089] 等待超时，未能检测到窗口
+[PID 38089] 正在通知并等待进程退出
+[PID 38089] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xfe.linyaps

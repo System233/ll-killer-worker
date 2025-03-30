@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: xfe.linyaps
+  name: xfe
+  version: 1.45.0.2
+  kind: app
+  description: |-
+    lightweight file manager for X11
+    Xfe is based on the popular but discontinued X Win Commander. It is
+    desktop independent and is written using the C++ Fox Toolkit. Its
+    appearance is similar to the Windows file-manager Total Commander
+    or Windows Explorer. It is very fast and simple.
+
+    The main features are: file associations, mount/umount devices,
+    directory tree for quick cd, change file attributes, auto save
+    registry, compressed archives view/creation/extraction, compatibility
+    with GNOME/KDE/Xfce, and much more.
+
+    Containing a simple text editor (Xfwrite), image viewer (Xfimage) and
+    package manager (Xfpack).
+command:
+- /opt/apps/xfe.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
