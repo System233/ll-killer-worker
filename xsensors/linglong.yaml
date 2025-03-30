@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: xsensors.linyaps
+  name: xsensors
+  version: 0.80.0.1
+  kind: app
+  description: |-
+    hardware health information viewer
+    xsensors reads data from the libsensors library regarding hardware health such
+    as temperature, voltage and fan speed and displays the information in a digital
+    read-out.
+command:
+- /opt/apps/xsensors.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
