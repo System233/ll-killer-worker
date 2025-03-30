@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: zita-dc1.linyaps
+  name: zita-dc1
+  version: 0.3.3.2
+  kind: app
+  description: |-
+    Dynamics Compressor
+    Dynamic range compression reduces the volume of loud sounds or amplifies quiet
+    sounds thus reducing or compressing an audio signal's dynamic range. DC1
+    provides a dynamics compressor for use with JACK Audio Connection Kit. It can
+    be used as master effect or as an effect on individual instrument tracks as
+    well.
+command:
+- /opt/apps/zita-dc1.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
