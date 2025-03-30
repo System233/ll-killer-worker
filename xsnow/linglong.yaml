@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: xsnow.linyaps
+  name: xsnow
+  version: 3.7.8.1
+  kind: app
+  description: |-
+    brings Christmas to your desktop
+    Xsnow is a X Window application that will snow on the desktop background.
+    Santa and his reindeer will complete your festive-season feeling.
+    Xsnow runs in GNOME, KDE, FVWM and desktops that are derived from those.
+command:
+- /opt/apps/xsnow.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
