@@ -1,0 +1,35 @@
+正在测试: APPID=xgalaga.linyaps LAYER=xgalaga.linyaps_2.1.1.6_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xgalaga.linyaps_2.1.1.6_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xgalaga.linyaps
+Layer文件:xgalaga.linyaps_2.1.1.6_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xgalaga.linyaps_2.1.1.6_x86_64_binary.layer
+offset: 550
+mountpoint: /tmp/tmp.yjBl9eupzJ/mnt
+dbglevel: 0
+find: ‘/opt/apps/xgalaga.linyaps/files/share/icons’: No such file or directory
+[成功] xgalaga-hyperspace.desktop: xgalaga-icon -> /opt/apps/xgalaga.linyaps/files/share/pixmaps/xgalaga-icon.xpm
+[成功] /opt/apps/xgalaga.linyaps/files/share/applications/xgalaga-hyperspace.desktop: /opt/apps/xgalaga.linyaps/files/entrypoint.sh xgalaga-hyperspace
+find: ‘/opt/apps/xgalaga.linyaps/files/share/icons’: No such file or directory
+[成功] xgalaga.desktop: xgalaga-icon -> /opt/apps/xgalaga.linyaps/files/share/pixmaps/xgalaga-icon.xpm
+[成功] /opt/apps/xgalaga.linyaps/files/share/applications/xgalaga.desktop: /opt/apps/xgalaga.linyaps/files/entrypoint.sh xgalaga
+[正在测试启动项]
+包名:xgalaga.linyaps
+Layer文件:xgalaga.linyaps_2.1.1.6_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xgalaga.linyaps_2.1.1.6_x86_64_binary.layer
+offset: 550
+mountpoint: /tmp/tmp.nxaLayp5ts/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xgalaga.linyaps -- /opt/apps/xgalaga.linyaps/files/entrypoint.sh xgalaga-hyperspace
+[PID 5393] 进程已启动
+[PID 5393] 进程提前退出，测试失败
+[PID ?] 启动进程: build-aux/ll-cli.sh run xgalaga.linyaps -- /opt/apps/xgalaga.linyaps/files/entrypoint.sh xgalaga
+[PID 5538] 进程已启动
+[PID 5538] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xgalaga.linyaps
