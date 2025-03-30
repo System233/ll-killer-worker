@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: wmshutdown.linyaps
+  name: wmshutdown
+  version: 1.6.0.2
+  kind: app
+  description: |-
+    dockapp to shutdown or reboot your machine
+    This is a dock applications for Window Maker that allows you to
+    shutdown or reboot your machine just by clickig a button on desktop
+    and confirming. It's useful just for desktop machines.
+command:
+- /opt/apps/wmshutdown.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
