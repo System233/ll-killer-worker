@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: zathura-pdf-poppler.linyaps
+  name: zathura-pdf-poppler
+  version: 0.3.2.1
+  kind: app
+  description: |-
+    PDF support for zathura
+    zathura is a document viewer with a minimalistic and space saving interface.
+    It offers a vim-like experience and has a focus on keyboard interaction.
+    The key bindings, commands and most other settings can be customized.
+
+    Some of the features are:
+    * bookmarking pages
+    * printing the whole document or specific pages
+    * following links
+    * searching in the document
+    * browsing the document index
+    * SyncTex forward and backward synchronization
+
+    This package contains zathura's PDF plugin.
+command:
+- /opt/apps/zathura-pdf-poppler.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
