@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: xfburn.linyaps
+  name: xfburn
+  version: 0.7.0.1
+  kind: app
+  description: |-
+    CD-burner application for Xfce Desktop Environment
+    Xfburn is a tool to help burning CDs and DVDs. It fits well in the Xfce
+    Desktop Environment but can be used anywhere.
+command:
+- /opt/apps/xfburn.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
