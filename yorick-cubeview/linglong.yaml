@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: yorick-cubeview.linyaps
+  name: yorick-cubeview
+  version: 2.2.0.2
+  kind: app
+  description: |-
+    3D FITS data viewer specialized in spectro-imaging
+    Cubeview is a viewer for 3D data store in FITS files, a file format
+    extensively used among astronomers. It is specialized in displaying
+    spectro-imaging data but can be used to do basic visualization on any
+    FITS file containing a 3D array.
+
+    Cubeview features a stand-alone graphical user interface which
+    adheres to the GTK+ look-and-feel. Being written in
+    Yorick, it is inherently scriptable. A system of hooks allows custom
+    actions to be repeated automatically when certain events occur.
+command:
+- /opt/apps/yorick-cubeview.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
