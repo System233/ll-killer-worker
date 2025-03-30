@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: xdot.linyaps
+  name: xdot
+  version: 1.3.0.1
+  kind: app
+  description: |-
+    interactive viewer for Graphviz dot files
+    xdot is an interactive viewer for graphs written in Graphviz's dot language.
+    It uses internally the graphviz's xdot output format as an intermediate
+    format, and PyGTK and Cairo for rendering. xdot can be used either as a
+    standalone application from command line, or as a library embedded in your
+    Python 3 application.
+
+    Features:
+    * Since it doesn't use bitmaps it is fast and has a small memory footprint.
+    * Arbitrary zoom.
+    * Keyboard/mouse navigation.
+    * Supports events on the nodes with URLs.
+    * Animated jumping between nodes.
+    * Highlights node/edge under mouse.
+command:
+- /opt/apps/xdot.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
