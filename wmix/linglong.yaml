@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: wmix.linyaps
+  name: wmix
+  version: 3.5.0.2
+  kind: app
+  description: |-
+    Dockapp mixer for OSS
+    Allows toggling record source, muting individual channels,
+    adjusting volume and balance, all in a compact dockapp size,
+    with TV-like on-screen-display for volume levels.
+
+    Supports mousewheel to adjust current channelvolume
+    and can be controlled remotely with SIGUSR1 / SIGUSR2 to adjust the volume.
+    Keeps a simple configuration file for user-defined settings.
+command:
+- /opt/apps/wmix.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
