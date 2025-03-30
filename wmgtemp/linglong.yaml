@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: wmgtemp.linyaps
+  name: wmgtemp
+  version: 1.2.0.3
+  kind: app
+  description: |-
+    Temperature sensor dockapp for Window Maker
+    wmgtemp is a dock app (a 64x64 window) which graphically displays the
+    CPU and SYS temperatures of motherboards supported by lm_sensors.
+
+    To make wmgtemp work, one needs to set up lm_sensors.
+command:
+- /opt/apps/wmgtemp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
