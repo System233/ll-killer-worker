@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: wordgrinder-x11.linyaps
+  name: wordgrinder-x11
+  version: 0.8.0.1
+  kind: app
+  description: |-
+    simple word processor for writing first drafts (X11 version)
+    WordGrinder is a simple, Unicode-aware word processor. It supports basic
+    paragraph styles, character styles, just enough screen markup to be useful,
+    and is driven via an easy to use menu interface.
+
+    This version runs on X.
+command:
+- /opt/apps/wordgrinder-x11.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
