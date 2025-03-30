@@ -1,11 +1,11 @@
 # arm64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3099|3080|1768 |1312 | 57.40%| 57.05%|
+|3099|3087|1769 |1318 | 57.30%| 57.08%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
-|ubuntu-noble|2759|2752|1643 |1109 | 59.70%| 59.55%|
+|ubuntu-noble|2759|2759|1644 |1115 | 59.59%| 59.59%|
 |deepin-v23|340|328|125 |203 | 38.11%| 36.76%|
 ## 详细结果
 | 包名  | 架构 |仓库| 版本 | 测试结果 | SHA256 |killer版本|
@@ -2791,6 +2791,7 @@
 | [ulcc](./ulcc) | arm64  | ubuntu-noble | 1.0.2-3build3 | ![screen0-5.jpg](./ulcc/tests/screen0-5.jpg) | [SHA256](./ulcc/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [umbrello](./umbrello) | arm64  | ubuntu-noble | 23.08.5-0ubuntu3 | ![screen0-5.jpg](./umbrello/tests/screen0-5.jpg) | [SHA256](./umbrello/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [umps3](./umps3) | arm64  | ubuntu-noble | 3.0.5-1build3 | ![screen0-5.jpg](./umps3/tests/screen0-5.jpg) | [SHA256](./umps3/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [unicode-screensaver](./unicode-screensaver) | arm64  | ubuntu-noble | 0.5.2-4build2-20250327 | 失败 | [SHA256](./unicode-screensaver/SHA256SUMS) | v1.5.3-arm64-nevm |
 | [unison-2.53-gtk](./unison-2.53-gtk) | arm64  | ubuntu-noble | 2.53.3-2build2 | ![screen0-5.jpg](./unison-2.53-gtk/tests/screen0-5.jpg) | [SHA256](./unison-2.53-gtk/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [units-master](./units-master) | arm64  | ubuntu-noble | 4.2.1-1 | ![screen0-5.jpg](./units-master/tests/screen0-5.jpg) | [SHA256](./units-master/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [unity-control-center](./unity-control-center) | arm64  | ubuntu-noble | 15.04.0+23.04.20230220-0ubuntu8-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
@@ -3016,6 +3017,12 @@
 | [xrdesktop](./xrdesktop) | arm64  | ubuntu-noble | 0.15.1-5.1build3-20250327 | 失败 | [SHA256](./xrdesktop/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [xsane](./xsane) | arm64  | deepin-v23 | 0.999-12.1 | ![screen0-5.jpg](./xsane/tests/screen0-5.jpg) | [SHA256](./xsane/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [xscavenger](./xscavenger) | arm64  | ubuntu-noble | 1.4.5-6-20250327 | 失败 | [SHA256](./xscavenger/SHA256SUMS) | v1.5.2-arm64-nevm |
+| [xscreensaver](./xscreensaver) | arm64  | ubuntu-noble | 6.08+dfsg1-1ubuntu3 | ![screen0-5.jpg](./xscreensaver/tests/screen0-5.jpg) | [SHA256](./xscreensaver/SHA256SUMS) | v1.5.3-arm64-nevm |
+| [xscreensaver-data](./xscreensaver-data) | arm64  | ubuntu-noble | 6.08+dfsg1-1ubuntu3-20250327 | 失败 | [SHA256](./xscreensaver-data/SHA256SUMS) | v1.5.3-arm64-nevm |
+| [xscreensaver-data-extra](./xscreensaver-data-extra) | arm64  | ubuntu-noble | 6.08+dfsg1-1ubuntu3-20250327 | 失败 | [SHA256](./xscreensaver-data-extra/SHA256SUMS) | v1.5.3-arm64-nevm |
+| [xscreensaver-gl](./xscreensaver-gl) | arm64  | ubuntu-noble | 6.08+dfsg1-1ubuntu3-20250327 | 失败 | [SHA256](./xscreensaver-gl/SHA256SUMS) | v1.5.3-arm64-nevm |
+| [xscreensaver-gl-extra](./xscreensaver-gl-extra) | arm64  | ubuntu-noble | 6.08+dfsg1-1ubuntu3-20250327 | 失败 | [SHA256](./xscreensaver-gl-extra/SHA256SUMS) | v1.5.3-arm64-nevm |
+| [xscreensaver-screensaver-bsod](./xscreensaver-screensaver-bsod) | arm64  | ubuntu-noble | 6.08+dfsg1-1ubuntu3-20250327 | 失败 | [SHA256](./xscreensaver-screensaver-bsod/SHA256SUMS) | v1.5.3-arm64-nevm |
 | [xscreensaver-screensaver-webcollage](./xscreensaver-screensaver-webcollage) | arm64  | ubuntu-noble | 6.08+dfsg1-1ubuntu3-20250327 | 失败 | N/A | v1.5.2-arm64-nevm |
 | [xsddiagram](./xsddiagram) | arm64  | ubuntu-noble | 1.0-2-20250327 | 失败 | [SHA256](./xsddiagram/SHA256SUMS) | v1.5.2-arm64-nevm |
 | [xsensors](./xsensors) | arm64  | ubuntu-noble | 0.80-1build2-20250327 | 失败 | [SHA256](./xsensors/SHA256SUMS) | v1.5.2-arm64-nevm |
