@@ -1,0 +1,95 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libglut3.12 libjpeg-turbo8 libjpeg8 libmotif-common libpng16-16t64 libxm4
+  libxmu6 libxt6t64
+Suggested packages:
+  gifsicle imagemagick openbabel transfig
+The following packages will be REMOVED:
+  libjpeg-turbo-progs libpng16-16 libturbojpeg0 libxt6 xscreensaver-data-extra
+The following NEW packages will be installed:
+  libglut3.12 libjpeg-turbo8 libjpeg8 libmotif-common libpng16-16t64 libxm4
+  libxt6t64 xmakemol-gl
+The following packages will be upgraded:
+  libxmu6
+1 upgraded, 8 newly installed, 5 to remove and 451 not upgraded.
+Need to get 1898 kB of archives.
+After this operation, 5427 kB disk space will be freed.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpng16-16t64 amd64 1.6.43-5build1 [187 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxmu6 amd64 2:1.1.3-3build2 [47.6 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxt6t64 amd64 1:1.2.1-1.2build1 [171 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libmotif-common all 2.3.8-3.1build1 [10.1 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-turbo8 amd64 2.1.5-2ubuntu2 [150 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg8 amd64 8c-2ubuntu11 [2148 B]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libxm4 amd64 2.3.8-3.1build1 [1091 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libglut3.12 amd64 3.4.0-1build1 [98.0 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 xmakemol-gl amd64 5.16-10build3 [142 kB]
+Fetched 1898 kB in 0s (11.2 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing xscreensaver-data-extra (6.02+dfsg1-3) ...
+Removing libjpeg-turbo-progs (1:2.1.5-2) ...
+dpkg: libpng16-16:amd64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:amd64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:amd64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:amd64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:amd64 depends on libpng16-16 (>= 1.6.2).
+
+Removing libpng16-16:amd64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27161 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_amd64.deb ...
+Unpacking libpng16-16t64:amd64 (1.6.43-5build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27172 files and directories currently installed.)
+Removing libturbojpeg0:amd64 (1:2.1.5-2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27165 files and directories currently installed.)
+Preparing to unpack .../libxmu6_2%3a1.1.3-3build2_amd64.deb ...
+Unpacking libxmu6:amd64 (2:1.1.3-3build2) over (2:1.1.2-deepin1) ...
+dpkg: libxt6:amd64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libxt6.
+ xscreensaver-gl depends on libxt6.
+ xscreensaver-data depends on libxt6.
+ x11-xkb-utils depends on libxt6.
+ libxmu6:amd64 depends on libxt6.
+ libxaw7:amd64 depends on libxt6.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27164 files and directories currently installed.)
+Removing libxt6:amd64 (1:1.2.0-1) ...
+Selecting previously unselected package libxt6t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27158 files and directories currently installed.)
+Preparing to unpack .../0-libxt6t64_1%3a1.2.1-1.2build1_amd64.deb ...
+Unpacking libxt6t64:amd64 (1:1.2.1-1.2build1) ...
+Selecting previously unselected package libmotif-common.
+Preparing to unpack .../1-libmotif-common_2.3.8-3.1build1_all.deb ...
+Unpacking libmotif-common (2.3.8-3.1build1) ...
+Selecting previously unselected package libjpeg-turbo8:amd64.
+Preparing to unpack .../2-libjpeg-turbo8_2.1.5-2ubuntu2_amd64.deb ...
+Unpacking libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Selecting previously unselected package libjpeg8:amd64.
+Preparing to unpack .../3-libjpeg8_8c-2ubuntu11_amd64.deb ...
+Unpacking libjpeg8:amd64 (8c-2ubuntu11) ...
+Selecting previously unselected package libxm4:amd64.
+Preparing to unpack .../4-libxm4_2.3.8-3.1build1_amd64.deb ...
+Unpacking libxm4:amd64 (2.3.8-3.1build1) ...
+Selecting previously unselected package libglut3.12:amd64.
+Preparing to unpack .../5-libglut3.12_3.4.0-1build1_amd64.deb ...
+Unpacking libglut3.12:amd64 (3.4.0-1build1) ...
+Selecting previously unselected package xmakemol-gl.
+Preparing to unpack .../6-xmakemol-gl_5.16-10build3_amd64.deb ...
+Unpacking xmakemol-gl (5.16-10build3) ...
+Setting up libmotif-common (2.3.8-3.1build1) ...
+Setting up libglut3.12:amd64 (3.4.0-1build1) ...
+Setting up libxt6t64:amd64 (1:1.2.1-1.2build1) ...
+Setting up libpng16-16t64:amd64 (1.6.43-5build1) ...
+Setting up libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Setting up libjpeg8:amd64 (8c-2ubuntu11) ...
+Setting up libxmu6:amd64 (2:1.1.3-3build2) ...
+Setting up libxm4:amd64 (2.3.8-3.1build1) ...
+Setting up xmakemol-gl (5.16-10build3) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...

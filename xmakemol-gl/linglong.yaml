@@ -1,0 +1,29 @@
+version: "1"
+package:
+  id: xmakemol-gl.linyaps
+  name: xmakemol-gl
+  version: 5.16.0.10
+  kind: app
+  description: |-
+    program for visualizing atomic and molecular systems (OpenGL)
+    XMakemol is a mouse-based program, written using the LessTif widget set, for
+    viewing and manipulating atomic and other chemical systems.  It reads XYZ
+    input and renders atoms, bonds and hydrogen bonds.
+
+    Features include:
+    - Animating multiple frame files
+    - Interactive measurement of bond lengths, bond angles and torsion angles
+    - Control over atom/bond sizes
+    - Exporting to Xpm, Encapsulated PostScript and XYZ formats
+    - Toggling the visibility of groups of atoms
+    - Editing the positions of subsets of atoms
+
+    This is the OpenGL-enabled XMakemol package. The images are rendered using
+    true 3D graphics primitives, and can be exported using the Xpm format;
+    red/blue stereo images can also be produced. The OpenGL package provides more
+    display options, along with better support for displaying vectors. Ellipses
+    can also be rendered.
+command:
+- /opt/apps/xmakemol-gl.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
