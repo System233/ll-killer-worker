@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: xperia-flashtool.linyaps
+  name: xperia-flashtool
+  version: 0.9.34.1
+  kind: app
+  description: |-
+    flashtool for xperia devices
+    Flashtool is a software used to flash Sony [Ericsson] phones that use
+    the S1 protocol like Xperia line phones.
+command:
+- /opt/apps/xperia-flashtool.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
