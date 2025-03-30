@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: zita-bls1.linyaps
+  name: zita-bls1
+  version: 0.3.3.3
+  kind: app
+  description: |-
+    binaural stereo signals converter
+    zita-bls1 - The Blumlein Shuffler convert
+    binaural stereo signals into a form suitable
+    for reproduction using a convential stereo speaker pair.
+command:
+- /opt/apps/zita-bls1.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
