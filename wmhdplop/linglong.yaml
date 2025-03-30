@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: wmhdplop.linyaps
+  name: wmhdplop
+  version: 0.9.12.1
+  kind: app
+  description: |-
+    hard drive activity monitor dockapp
+    It monitors your hard drives by sending visual stimuli to your cortex
+    each time your /dev/hdx writes or reads anything. Try to launch
+    openoffice and enjoy the wmhdplop show.
+
+    wmhdplop is a dockapp for Window Maker.
+command:
+- /opt/apps/wmhdplop.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
