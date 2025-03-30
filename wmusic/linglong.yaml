@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: wmusic.linyaps
+  name: wmusic
+  version: 2.1.1.1
+  kind: app
+  description: |-
+    remote-control DockApp for MPRIS-compatible media players
+    Features include:
+
+    - VCR-style controls including fast rewind and fast forward
+    - Time and playlist position display
+    - Supa stylee rotating arrow.
+command:
+- /opt/apps/wmusic.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
