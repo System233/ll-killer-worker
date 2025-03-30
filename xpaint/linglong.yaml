@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: xpaint.linyaps
+  name: xpaint
+  version: 2.9.1.4
+  kind: app
+  description: |-
+    simple paint program for X
+    XPaint is suitable for producing simple graphics. It does offer some
+    advanced features such as image processing functions and gradient
+    fill.
+
+    In the C Script Editor of XPaint, the External editor in the File menu
+    will invoke x-terminal-emulator -e sensible-editor.
+
+    The gv package will be needed for PDF/PS reading, netpbm will be needed
+    for external conversion, lpr for printing.
+command:
+- /opt/apps/xpaint.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
