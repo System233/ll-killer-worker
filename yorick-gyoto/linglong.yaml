@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: yorick-gyoto.linyaps
+  name: yorick-gyoto
+  version: 2.0.2.1
+  kind: app
+  description: |-
+    General relativistic geodesic integration for the Yorick language
+    Gyoto aims at providing a framework for computing orbits and
+    ray-traced images in General relativity.
+
+    This package provides a plug-in for the Yorick programming language
+    exposing the Gyoto facilities. It allows using Gyoto interactively
+    from the yorick prompt or running complex Gyoto scripts.
+command:
+- /opt/apps/yorick-gyoto.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
