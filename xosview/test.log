@@ -1,0 +1,28 @@
+正在测试: APPID=xosview.linyaps LAYER=xosview.linyaps_1.24.0.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xosview.linyaps_1.24.0.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xosview.linyaps
+Layer文件:xosview.linyaps_1.24.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xosview.linyaps_1.24.0.1_x86_64_binary.layer
+offset: 671
+mountpoint: /tmp/tmp.KtKUN9Lc2P/mnt
+dbglevel: 0
+[成功] xosview.desktop: xosview -> /opt/apps/xosview.linyaps/files/share/icons/hicolor/32x32/apps/xosview.png
+[成功] /opt/apps/xosview.linyaps/files/share/applications/xosview.desktop: /opt/apps/xosview.linyaps/files/entrypoint.sh xosview
+[正在测试启动项]
+包名:xosview.linyaps
+Layer文件:xosview.linyaps_1.24.0.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xosview.linyaps_1.24.0.1_x86_64_binary.layer
+offset: 671
+mountpoint: /tmp/tmp.u8WtknzAwE/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xosview.linyaps -- /opt/apps/xosview.linyaps/files/entrypoint.sh xosview
+[PID 5341] 进程已启动
+[PID 5341] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xosview.linyaps
