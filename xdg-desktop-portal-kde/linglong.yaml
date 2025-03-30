@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: xdg-desktop-portal-kde.linyaps
+  name: xdg-desktop-portal-kde
+  version: 5.27.11.0
+  kind: app
+  description: |-
+    backend implementation for xdg-desktop-portal using Qt
+    xdg-desktop-portal-kde provides a Qt implementation for the
+    desktop-agnostic xdg-desktop-portal service. This allows sandboxed
+    applications to request services from outside the sandbox using KDE
+    GUIs (app chooser, file chooser, print dialog) or using KDE services
+    (session manager, screenshot provider).
+command:
+- /opt/apps/xdg-desktop-portal-kde.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
