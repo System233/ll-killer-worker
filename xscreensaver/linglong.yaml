@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: xscreensaver.linyaps
+  name: xscreensaver
+  version: 6.8.0.1
+  kind: app
+  description: |-
+    Screensaver daemon and frontend for X11
+    XScreenSaver is a modular screen saver and locker for X11,
+    containing more than 200 screen savers.
+
+    This package includes the bare minimum needed to blank and lock your
+    screen. Install this package if you want to use the xscreensaver engine
+    to control screen blanking and launching display modes ("hacks"). If
+    you only want to use other screensaver engines, you don't need to
+    install this package.
+
+    The graphical display modes are in the xscreensaver-data,
+    xscreensaver-data-extra, xscreensaver-gl and xscreensaver-gl-extra
+    packages.
+command:
+- /opt/apps/xscreensaver.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
