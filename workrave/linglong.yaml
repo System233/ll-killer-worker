@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: workrave.linyaps
+  name: workrave
+  version: 1.10.52.2
+  kind: app
+  description: |-
+    Repetitive Strain Injury prevention tool
+    Workrave is a program that assists in the recovery and prevention of
+    Repetitive Strain Injury (RSI). The program frequently alerts you to
+    take micro-pauses, rest breaks and restricts you to your daily limit.
+
+    It includes a system tray applet that works with GNOME and KDE
+    and has network capabilities to monitor your activity even if
+    switching back and forth between different computers is part of your
+    job.
+
+    Workrave offers many more configuration options than other similar
+    tools.
+command:
+- /opt/apps/workrave.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
