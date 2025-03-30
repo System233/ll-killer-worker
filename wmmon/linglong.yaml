@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: wmmon.linyaps
+  name: wmmon
+  version: 1.4.0.2
+  kind: app
+  description: |-
+    Window Maker dockapp for monitoring system information
+    WMMon monitors the realtime CPU load as well as the average system load,
+    and gives you some nice additional features too. It is intended for
+    docking in Window Maker.
+
+    It currently provides:
+
+    * a realtime CPU stress meter;
+    * an auto-scaled average system load meter, like xload and wmavgload;
+    * a realtime disk I/O stress meter;
+    * auto-scaled disk I/O load meter;
+    * realtime memory and swap usage meters;
+    * a display for system uptime;
+    * three user-defined commands to launch.
+command:
+- /opt/apps/wmmon.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
