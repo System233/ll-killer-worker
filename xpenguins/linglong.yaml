@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: xpenguins.linyaps
+  name: xpenguins
+  version: 3.2.1.2
+  kind: app
+  description: |-
+    little penguins walk on your windows
+    Ever wanted cute little penguins walking along the tops of your
+    windows? Ever wanted to send an army of cute little penguins to invade
+    the screen of someone else on your network? Probably not, but why not
+    try this program out anyway, it's cool!
+command:
+- /opt/apps/xpenguins.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
