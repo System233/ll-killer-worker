@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: wrapperfactory.app.linyaps
+  name: wrapperfactory.app
+  version: 0.1.0.5
+  kind: app
+  description: |-
+    Application wrappers configuration tool for GNUstep
+    This provides an easy way to create GNUstep app-wrappers of non-GNUstep
+    applications. It is the most useful in conjunction with GWorkspace
+    environment.
+command:
+- /opt/apps/wrapperfactory.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
