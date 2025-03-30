@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: xfce4-clipman.linyaps
+  name: xfce4-clipman
+  version: 1.6.5.1
+  kind: app
+  description: |-
+    clipboard history utility
+    Clipman enables you to store and recall X selections, as well as GTK+
+    clipboard content. You can also define actions to be triggered by selecting
+    some text pattern.
+
+    This package uses Xfce libraries but can be used without the Xfce panel
+    and only requires a system tray (notification area).
+command:
+- /opt/apps/xfce4-clipman.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
