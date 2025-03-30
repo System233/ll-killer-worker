@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: wmmoonclock.linyaps
+  name: wmmoonclock
+  version: 1.30.0.2
+  kind: app
+  description: |-
+    Window Maker moon phase dockapp
+    wmMoonClock displays a small pixmap of the current phase of the moon.
+    You have to enter your latitude and longitude for it to work correctly.
+    wmMoonClock is designed to work with the Window Maker dock, but will
+    work with other window managers as well.
+command:
+- /opt/apps/wmmoonclock.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
