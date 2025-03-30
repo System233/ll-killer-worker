@@ -1,0 +1,120 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libasound2-data libasound2t64 libjpeg-turbo8 libjpeg8 libpng16-16t64
+  libsdl-image1.2 libsdl-ttf2.0-0 libsdl1.2debian libsdl2-2.0-0
+  libtinyxml2.6.2v5 libxss1 xye-data
+Suggested packages:
+  alsa-utils xdg-utils
+Recommended packages:
+  alsa-ucm-conf alsa-topology-conf
+The following packages will be REMOVED:
+  libasound2 libjpeg-turbo-progs libpng16-16 libturbojpeg0
+  xscreensaver-data-extra
+The following NEW packages will be installed:
+  libasound2t64 libjpeg-turbo8 libjpeg8 libpng16-16t64 libsdl-image1.2
+  libsdl-ttf2.0-0 libsdl1.2debian libsdl2-2.0-0 libtinyxml2.6.2v5 libxss1 xye
+  xye-data
+The following packages will be upgraded:
+  libasound2-data
+1 upgraded, 12 newly installed, 5 to remove and 449 not upgraded.
+Need to get 3639 kB of archives.
+After this operation, 3481 kB disk space will be freed.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libasound2-data all 1.2.11-1build2 [21.0 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libasound2t64 arm64 1.2.11-1build2 [387 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libpng16-16t64 arm64 1.6.43-5build1 [185 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjpeg-turbo8 arm64 2.1.5-2ubuntu2 [163 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjpeg8 arm64 8c-2ubuntu11 [2148 B]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libxss1 arm64 1:1.2.3-1build3 [7244 B]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libsdl2-2.0-0 arm64 2.30.0+dfsg-1build3 [671 kB]
+Get:8 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libsdl1.2debian arm64 1.2.68-2 [103 kB]
+Get:9 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libsdl-image1.2 arm64 1.2.12-13build4 [31.5 kB]
+Get:10 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libsdl-ttf2.0-0 arm64 2.0.11-6 [14.7 kB]
+Get:11 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libtinyxml2.6.2v5 arm64 2.6.2-6.1 [37.6 kB]
+Get:12 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 xye-data all 0.12.2+dfsg-12 [1789 kB]
+Get:13 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 xye arm64 0.12.2+dfsg-12 [228 kB]
+Fetched 3639 kB in 3s (1387 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libasound2-data_1.2.11-1build2_all.deb ...
+Unpacking libasound2-data (1.2.11-1build2) over (1.2.8-1) ...
+dpkg: libasound2:arm64: dependency problems, but removing anyway as you requested:
+ pulseaudio depends on libasound2 (>= 1.2.1.1).
+ pipewire-bin depends on libasound2 (>= 1.2.1.1).
+ libspa-0.2-modules:arm64 depends on libasound2 (>= 1.2.1.1).
+ libasound2-plugins:arm64 depends on libasound2 (>= 1.2.5).
+ bluez depends on libasound2 (>= 1.0.17).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Removing libasound2:arm64 (1.2.8-1) ...
+Selecting previously unselected package libasound2t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27733 files and directories currently installed.)
+Preparing to unpack .../libasound2t64_1.2.11-1build2_arm64.deb ...
+Unpacking libasound2t64:arm64 (1.2.11-1build2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27741 files and directories currently installed.)
+Removing xscreensaver-data-extra (6.02+dfsg1-3) ...
+Removing libjpeg-turbo-progs (1:2.1.5-2) ...
+dpkg: libpng16-16:arm64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:arm64 depends on libpng16-16 (>= 1.6.2).
+
+Removing libpng16-16:arm64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27308 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_arm64.deb ...
+Unpacking libpng16-16t64:arm64 (1.6.43-5build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27319 files and directories currently installed.)
+Removing libturbojpeg0:arm64 (1:2.1.5-2) ...
+Selecting previously unselected package libjpeg-turbo8:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27312 files and directories currently installed.)
+Preparing to unpack .../0-libjpeg-turbo8_2.1.5-2ubuntu2_arm64.deb ...
+Unpacking libjpeg-turbo8:arm64 (2.1.5-2ubuntu2) ...
+Selecting previously unselected package libjpeg8:arm64.
+Preparing to unpack .../1-libjpeg8_8c-2ubuntu11_arm64.deb ...
+Unpacking libjpeg8:arm64 (8c-2ubuntu11) ...
+Selecting previously unselected package libxss1:arm64.
+Preparing to unpack .../2-libxss1_1%3a1.2.3-1build3_arm64.deb ...
+Unpacking libxss1:arm64 (1:1.2.3-1build3) ...
+Selecting previously unselected package libsdl2-2.0-0:arm64.
+Preparing to unpack .../3-libsdl2-2.0-0_2.30.0+dfsg-1build3_arm64.deb ...
+Unpacking libsdl2-2.0-0:arm64 (2.30.0+dfsg-1build3) ...
+Selecting previously unselected package libsdl1.2debian:arm64.
+Preparing to unpack .../4-libsdl1.2debian_1.2.68-2_arm64.deb ...
+Unpacking libsdl1.2debian:arm64 (1.2.68-2) ...
+Selecting previously unselected package libsdl-image1.2:arm64.
+Preparing to unpack .../5-libsdl-image1.2_1.2.12-13build4_arm64.deb ...
+Unpacking libsdl-image1.2:arm64 (1.2.12-13build4) ...
+Selecting previously unselected package libsdl-ttf2.0-0:arm64.
+Preparing to unpack .../6-libsdl-ttf2.0-0_2.0.11-6_arm64.deb ...
+Unpacking libsdl-ttf2.0-0:arm64 (2.0.11-6) ...
+Selecting previously unselected package libtinyxml2.6.2v5:arm64.
+Preparing to unpack .../7-libtinyxml2.6.2v5_2.6.2-6.1_arm64.deb ...
+Unpacking libtinyxml2.6.2v5:arm64 (2.6.2-6.1) ...
+Selecting previously unselected package xye-data.
+Preparing to unpack .../8-xye-data_0.12.2+dfsg-12_all.deb ...
+Unpacking xye-data (0.12.2+dfsg-12) ...
+Selecting previously unselected package xye.
+Preparing to unpack .../9-xye_0.12.2+dfsg-12_arm64.deb ...
+Unpacking xye (0.12.2+dfsg-12) ...
+Setting up libasound2-data (1.2.11-1build2) ...
+Setting up libasound2t64:arm64 (1.2.11-1build2) ...
+Setting up xye-data (0.12.2+dfsg-12) ...
+Setting up libpng16-16t64:arm64 (1.6.43-5build1) ...
+Setting up libtinyxml2.6.2v5:arm64 (2.6.2-6.1) ...
+Setting up libjpeg-turbo8:arm64 (2.1.5-2ubuntu2) ...
+Setting up libxss1:arm64 (1:1.2.3-1build3) ...
+Setting up libsdl2-2.0-0:arm64 (2.30.0+dfsg-1build3) ...
+Setting up libjpeg8:arm64 (8c-2ubuntu11) ...
+Setting up libsdl1.2debian:arm64 (1.2.68-2) ...
+Setting up libsdl-ttf2.0-0:arm64 (2.0.11-6) ...
+Setting up libsdl-image1.2:arm64 (1.2.12-13build4) ...
+Setting up xye (0.12.2+dfsg-12) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
