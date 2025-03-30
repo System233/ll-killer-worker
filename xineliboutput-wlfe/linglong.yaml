@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: xineliboutput-wlfe.linyaps
+  name: xineliboutput-wlfe
+  version: 2.2.0.2
+  kind: app
+  description: |-
+    Remote X-Server frontend for vdr-plugin-xineliboutput
+    This Wayland remote frontend plays back streams provided by
+    vdr-plugin-xineliboutput.
+command:
+- /opt/apps/xineliboutput-wlfe.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
