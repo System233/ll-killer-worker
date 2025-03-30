@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: wxmaxima.linyaps
+  name: wxmaxima
+  version: 24.2.1.1
+  kind: app
+  description: |-
+    GUI for the computer algebra system Maxima
+    wxMaxima is a graphical user interface for the computer algebra system
+    Maxima. It eases the use of Maxima by making most of its commands available
+    through a menu system and by providing input dialogs for commands that
+    require more than one argument. It also implements its own display engine
+    that outputs mathematical symbols directly instead of depicting them with
+    ASCII characters.
+
+    wxMaxima also features 2D and 3D inline plots, simple animations, mixing of
+    text and mathematical calculations to create documents, exporting of input
+    and output to TeX, and a browser for Maxima's manual including command index
+    and full text searching.
+command:
+- /opt/apps/wxmaxima.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
