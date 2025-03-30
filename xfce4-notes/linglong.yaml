@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: xfce4-notes.linyaps
+  name: xfce4-notes
+  version: 1.10.0.1
+  kind: app
+  description: |-
+    Notes application for the Xfce4 desktop
+    The notes tool provides you a simple text editor in a little window for the
+    Xfce 4 desktop.  Notes are especially useful for temporary stuff.
+
+    It supports multiple notes through a notebook. Click on the upper left
+    corner button to open a new note.
+command:
+- /opt/apps/xfce4-notes.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
