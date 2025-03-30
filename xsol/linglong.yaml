@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: xsol.linyaps
+  name: xsol
+  version: 0.31.0.15
+  kind: app
+  description: |-
+    Solitaire game for the X Window system
+    This is a simple Motif/Lesstif version of the classic solitaire game:
+    Klondike Solitaire.
+
+    This version of the game runs under X Window System.
+command:
+- /opt/apps/xsol.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
