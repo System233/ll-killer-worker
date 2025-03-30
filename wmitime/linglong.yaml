@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: wmitime.linyaps
+  name: wmitime
+  version: 0.5.0.3
+  kind: app
+  description: |-
+    clock dock app showing time and internet time
+    WMitime is clock dock app, which shows standard time,
+    date. The unique feature is that it can also show Internet time
+    with notation @TIME. See <http://www.swatch.com/> for more about
+    Internet time.
+command:
+- /opt/apps/wmitime.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
