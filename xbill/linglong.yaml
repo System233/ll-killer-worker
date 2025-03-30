@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: xbill.linyaps
+  name: xbill
+  version: 2.1.0.9
+  kind: app
+  description: |-
+    Get rid of those Wingdows Viruses!
+    Ever get the feeling that nothing is going right?  You're a sysadmin, and
+    someone's trying to destroy your computers.  The little people running
+    around the screen are trying to infect your computers with Wingdows [TM],
+    a virus cleverly designed to resemble a popular operating system.  Your
+    objective is to click the mouse on them, ending their potential threat.
+    If one of the people reaches a computer, it will attempt to replace your
+    operating system with the virus it carries. It will then attempt to run off
+    the screen with your vital software.
+command:
+- /opt/apps/xbill.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
