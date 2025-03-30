@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: yokadi.linyaps
+  name: yokadi
+  version: 1.2.0.4
+  kind: app
+  description: |-
+    commandline todo system
+    Yokadi is a command-line oriented, SQLite powered, TODO list tool. It helps
+    you organize all the things you have to do and you must not forget. It aims to
+    be simple, intuitive and very efficient.
+
+    In Yokadi you manage projects, which contains tasks. At the minimum, a task
+    has a title, but it can also have a description, a due date, an urgency or
+    keywords. Keywords can be any word that help you to find and sort your tasks.
+command:
+- /opt/apps/yokadi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
