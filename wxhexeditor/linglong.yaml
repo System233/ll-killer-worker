@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: wxhexeditor.linyaps
+  name: wxhexeditor
+  version: 0.24.0.2
+  kind: app
+  description: |-
+    hexadecimal editor for massive files
+    wxHexEditor is a hexadecimal file editor suitable
+    for editing very big files. Supported file size
+    is up to 2^64 bytes.
+command:
+- /opt/apps/wxhexeditor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
