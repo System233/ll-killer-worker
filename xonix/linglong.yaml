@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: xonix.linyaps
+  name: xonix
+  version: 1.4.0.35
+  kind: app
+  description: |-
+    game to carve up the screen whilst dodging monsters
+    A clone of the Xonix game for DOS. Start with a rectangle, and munch
+    corners off until you get below the winning area: then proceed to the
+    next level. But beware of the roaming aliens!
+command:
+- /opt/apps/xonix.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
