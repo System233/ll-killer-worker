@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: yasw.linyaps
+  name: yasw
+  version: 0.6.0.2
+  kind: app
+  description: |-
+    Yet Another Scan Wizard
+    YASW (Yet Another Scan Wizard) is an application used to correct images
+    taken with a camera. It can be used to post process the scanning of a book
+    or to correct an individual image taken with a camera.
+command:
+- /opt/apps/yasw.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
