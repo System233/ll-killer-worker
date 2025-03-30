@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: xshisen.linyaps
+  name: xshisen
+  version: 1.51.0.8
+  kind: app
+  description: |-
+    Shisen-sho puzzle game for X11
+    XShisen is a puzzle game for X11.  Similar to the famous "Shang-hai", your
+    objective is to remove all the pieces on the board.
+
+    This game allows you to use either "original" xshisen images, or - at your
+    choice - images from kshisen.
+command:
+- /opt/apps/xshisen.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
