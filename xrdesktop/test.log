@@ -1,0 +1,28 @@
+正在测试: APPID=xrdesktop.linyaps LAYER=xrdesktop.linyaps_0.15.1.5_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xrdesktop.linyaps_0.15.1.5_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xrdesktop.linyaps
+Layer文件:xrdesktop.linyaps_0.15.1.5_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xrdesktop.linyaps_0.15.1.5_x86_64_binary.layer
+offset: 530
+mountpoint: /tmp/tmp.68f4N7Rnoh/mnt
+dbglevel: 0
+[成功] org.xrdesktop.settings.desktop: org.xrdesktop.settings -> /opt/apps/xrdesktop.linyaps/files/share/icons/hicolor/scalable/apps/org.xrdesktop.settings.svg
+[成功] /opt/apps/xrdesktop.linyaps/files/share/applications/org.xrdesktop.settings.desktop: /opt/apps/xrdesktop.linyaps/files/entrypoint.sh xrd-settings
+[正在测试启动项]
+包名:xrdesktop.linyaps
+Layer文件:xrdesktop.linyaps_0.15.1.5_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xrdesktop.linyaps_0.15.1.5_x86_64_binary.layer
+offset: 530
+mountpoint: /tmp/tmp.2DanXMfF9D/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xrdesktop.linyaps -- /opt/apps/xrdesktop.linyaps/files/entrypoint.sh xrd-settings
+[PID 8099] 进程已启动
+[PID 8099] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xrdesktop.linyaps
