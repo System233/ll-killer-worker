@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: xshogi.linyaps
+  name: xshogi
+  version: 1.4.2.2
+  kind: app
+  description: |-
+    X11 frontend to gnushogi
+    Gnushogi is a computer player for Shogi (Japanese chess).
+
+    XShogi provides an X Window interface to play Shogi against gnushogi,
+    and can also be used as an interface for a game between two humans on
+    the same computer.
+command:
+- /opt/apps/xshogi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
