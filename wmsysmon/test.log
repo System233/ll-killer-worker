@@ -1,0 +1,29 @@
+正在测试: APPID=wmsysmon.linyaps LAYER=wmsysmon.linyaps_0.8.1.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install wmsysmon.linyaps_0.8.1.1_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:wmsysmon.linyaps
+Layer文件:wmsysmon.linyaps_0.8.1.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: wmsysmon.linyaps_0.8.1.1_arm64_binary.layer
+offset: 567
+mountpoint: /tmp/tmp.5T9gOCdA33/mnt
+dbglevel: 0
+[成功] /opt/apps/wmsysmon.linyaps/files/share/applications/wmsysmon.desktop: /opt/apps/wmsysmon.linyaps/files/entrypoint.sh wmsysmon
+[正在测试启动项]
+包名:wmsysmon.linyaps
+Layer文件:wmsysmon.linyaps_0.8.1.1_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: wmsysmon.linyaps_0.8.1.1_arm64_binary.layer
+offset: 567
+mountpoint: /tmp/tmp.rZzsHCeeyj/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run wmsysmon.linyaps -- /opt/apps/wmsysmon.linyaps/files/entrypoint.sh wmsysmon
+[PID 5427] 进程已启动
+[PID 5427] 等待超时，未能检测到窗口
+[PID 5427] 正在通知并等待进程退出
+[PID 5427] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall wmsysmon.linyaps
