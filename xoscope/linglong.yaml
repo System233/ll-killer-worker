@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: xoscope.linyaps
+  name: xoscope
+  version: 2.3.0.1
+  kind: app
+  description: |-
+    digital oscilloscope
+    Xoscope is a oscilloscope using input from a sound card or EsounD server
+    and/or a COMEDI hardware. Includes 8 signal displays, variable time scale,
+    math, memory, measurements, and file save/load.
+command:
+- /opt/apps/xoscope.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
