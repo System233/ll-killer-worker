@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: z88.linyaps
+  name: z88
+  version: 13.0.0.6
+  kind: app
+  description: |-
+    Finite Element Analysis Program - runtime
+    Z88 features 20 finite element types covering plane stress, plate bending,
+    axial symmetric structures and spacial structures up to 20-node Serendipity
+    hexahedrons. Z88 comes with a user-friendly interface, a powerful mesh
+    generator, a DXF-converter, two plot programs and, of course, two powerful
+    solvers. Import of COSMOS files from Pro/ENGINEER and Pro/MECHANICA is
+    supported.
+command:
+- /opt/apps/z88.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
