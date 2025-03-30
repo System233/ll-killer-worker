@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: xpad.linyaps
+  name: xpad
+  version: 5.8.0.1
+  kind: app
+  description: |-
+    sticky note application for X
+    This program consists of independent pad windows, each is basically a text box
+    in which notes can be written. Xpad attempts to emulate the look of postit
+    notes, although the look of the notes can be customized any way you like.
+command:
+- /opt/apps/xpad.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
