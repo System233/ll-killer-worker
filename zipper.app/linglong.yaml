@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: zipper.app.linyaps
+  name: zipper.app
+  version: 1.5.0.3
+  kind: app
+  description: |-
+    Archive manager for GNUstep
+    Zipper is a tool for extracting and viewing archive files for GNUstep.
+    It provides the following features:
+
+    * Decompression of Tar (.tar.gz, .tar.bz2, .tar.xz), LHA (.lha,
+    .lzx), RAR (.rar), ZIP (.zip), 7z (.7z, .7za), ZOO (.zoo), ACE
+    (.ace) and ARJ (.arj) archives
+    * Archive creation (.tar.gz, .tar.bz2, .tar.xz, .lha, .zip, .7z/.7za
+    and .zoo)
+    * GNUstep "Create archive" service
+command:
+- /opt/apps/zipper.app.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

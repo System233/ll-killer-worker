@@ -1,0 +1,31 @@
+正在测试: APPID=zipper.app.linyaps LAYER=zipper.app.linyaps_1.5.0.3_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install zipper.app.linyaps_1.5.0.3_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:zipper.app.linyaps
+Layer文件:zipper.app.linyaps_1.5.0.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: zipper.app.linyaps_1.5.0.3_x86_64_binary.layer
+offset: 782
+mountpoint: /tmp/tmp.T56E7X5KSR/mnt
+dbglevel: 0
+find: ‘/opt/apps/zipper.app.linyaps/files/share/icons’: No such file or directory
+[31m[失败] Zipper.desktop:/usr/lib/GNUstep/Applications/Zipper.app/Resources/zipper.tiff: 找不到此图标 [0m
+[成功] /opt/apps/zipper.app.linyaps/files/share/applications/Zipper.desktop: /opt/apps/zipper.app.linyaps/files/entrypoint.sh Zipper %f
+[正在测试启动项]
+包名:zipper.app.linyaps
+Layer文件:zipper.app.linyaps_1.5.0.3_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: zipper.app.linyaps_1.5.0.3_x86_64_binary.layer
+offset: 782
+mountpoint: /tmp/tmp.0DiIBzZ5dh/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run zipper.app.linyaps -- /opt/apps/zipper.app.linyaps/files/entrypoint.sh Zipper
+[PID 10770] 进程已启动
+[PID 10770] 等待超时，未能检测到窗口
+[PID 10770] 正在通知并等待进程退出
+[PID 10770] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall zipper.app.linyaps
