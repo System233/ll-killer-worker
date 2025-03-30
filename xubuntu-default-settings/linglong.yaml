@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: xubuntu-default-settings.linyaps
+  name: xubuntu-default-settings
+  version: 24.4.4.0
+  kind: app
+  description: |-
+    default settings for the Xubuntu desktop
+    This package contains the default settings used by Xubuntu.
+command:
+- /opt/apps/xubuntu-default-settings.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
