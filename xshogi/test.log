@@ -1,0 +1,30 @@
+正在测试: APPID=xshogi.linyaps LAYER=xshogi.linyaps_1.4.2.2_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xshogi.linyaps_1.4.2.2_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xshogi.linyaps
+Layer文件:xshogi.linyaps_1.4.2.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xshogi.linyaps_1.4.2.2_x86_64_binary.layer
+offset: 598
+mountpoint: /tmp/tmp.bWzIvoLruJ/mnt
+dbglevel: 0
+[成功] xshogi.desktop: xshogi -> /opt/apps/xshogi.linyaps/files/share/icons/hicolor/32x32/apps/xshogi.png
+[成功] /opt/apps/xshogi.linyaps/files/share/applications/xshogi.desktop: /opt/apps/xshogi.linyaps/files/entrypoint.sh xshogi
+[正在测试启动项]
+包名:xshogi.linyaps
+Layer文件:xshogi.linyaps_1.4.2.2_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xshogi.linyaps_1.4.2.2_x86_64_binary.layer
+offset: 598
+mountpoint: /tmp/tmp.KTpM9svxyW/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xshogi.linyaps -- /opt/apps/xshogi.linyaps/files/entrypoint.sh xshogi
+[PID 8642] 进程已启动
+[PID 8642] 等待超时，未能检测到窗口
+[PID 8642] 正在通知并等待进程退出
+[PID 8642] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xshogi.linyaps
