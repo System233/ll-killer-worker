@@ -1,0 +1,28 @@
+正在测试: APPID=ydpdict.linyaps LAYER=ydpdict.linyaps_1.0.5.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install ydpdict.linyaps_1.0.5.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:ydpdict.linyaps
+Layer文件:ydpdict.linyaps_1.0.5.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: ydpdict.linyaps_1.0.5.1_x86_64_binary.layer
+offset: 792
+mountpoint: /tmp/tmp.LDtK2rr8FN/mnt
+dbglevel: 0
+[成功] ydpdict.desktop: ydpdict -> /opt/apps/ydpdict.linyaps/files/share/icons/hicolor/128x128/apps/ydpdict.png
+[成功] /opt/apps/ydpdict.linyaps/files/share/applications/ydpdict.desktop: /opt/apps/ydpdict.linyaps/files/entrypoint.sh ydpdict
+[正在测试启动项]
+包名:ydpdict.linyaps
+Layer文件:ydpdict.linyaps_1.0.5.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: ydpdict.linyaps_1.0.5.1_x86_64_binary.layer
+offset: 792
+mountpoint: /tmp/tmp.9RLEGQCU5s/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run ydpdict.linyaps -- /opt/apps/ydpdict.linyaps/files/entrypoint.sh ydpdict
+[PID 5873] 进程已启动
+[PID 5873] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall ydpdict.linyaps
