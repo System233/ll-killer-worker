@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: yagv.linyaps
+  name: yagv
+  version: 0.4.234.2
+  kind: app
+  description: |-
+    yet another G-code viewer
+    yagv is a fast 3D Gcode Viewer for Reprap-style 3D printers, in Python and
+    OpenGL (via pyglet)
+
+    It has the following features:
+    - Load large files painlessly
+    - Select specific layers to look at
+    - Colour segments according to function
+    - Shows a full 3D view for better undersrtanding the G-code.
+command:
+- /opt/apps/yagv.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
