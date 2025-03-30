@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: xfce4-screenshooter.linyaps
+  name: xfce4-screenshooter
+  version: 1.10.5.1
+  kind: app
+  description: |-
+    screenshots utility for Xfce
+    Screenshooter is an utility for the Xfce Desktop Environment. It can take
+    desktop, rectangles or selected window screenshots, and you can bind it to
+    your "Print Screen" key. A panel plugin is provided too.
+command:
+- /opt/apps/xfce4-screenshooter.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
