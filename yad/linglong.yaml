@@ -1,0 +1,14 @@
+version: "1"
+package:
+  id: yad.linyaps
+  name: yad
+  version: 0.40.0.1
+  kind: app
+  description: |-
+    tool for creating graphical dialogs from shell scripts
+    Yad allows you to display GTK+ dialog boxes from command line or shell
+    scripts. It is similar to Zenity but with more dialog types and options.
+command:
+- /opt/apps/yad.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
