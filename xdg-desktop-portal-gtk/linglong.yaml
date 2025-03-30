@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: xdg-desktop-portal-gtk.linyaps
+  name: xdg-desktop-portal-gtk
+  version: 1.15.1.1
+  kind: app
+  description: |-
+    GTK+/GNOME portal backend for xdg-desktop-portal
+    xdg-desktop-portal-gtk provides a GTK+/GNOME implementation for the
+    desktop-agnostic xdg-desktop-portal service. This allows sandboxed
+    applications to request services from outside the sandbox using
+    GTK+ GUIs (app chooser, file chooser, print dialog) or using GNOME
+    services (session manager, screenshot provider).
+command:
+- /opt/apps/xdg-desktop-portal-gtk.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
