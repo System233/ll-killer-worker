@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: xscreensaver-screensaver-bsod.linyaps
+  name: xscreensaver-screensaver-bsod
+  version: 6.8.0.1
+  kind: app
+  description: |-
+    BSOD screen saver module from XScreenSaver
+    This package ships the mode BSOD that shows the popular Blue Screens of Death
+    from several OSes including BSD, Windows, Linux, Solaris, Apple and much more.
+
+    WARNING: This screensaver could be confused with a real BSOD and could lead an
+    user to reboot the machine with consequences like data loss.
+command:
+- /opt/apps/xscreensaver-screensaver-bsod.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
