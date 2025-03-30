@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: wmgui.linyaps
+  name: wmgui
+  version: 0.6.91.4
+  kind: app
+  description: |-
+    GUI interface to the wiimote
+    CWiid is a working userspace driver along with various
+    applications implementing event drivers, multiple wiimote
+    connectivity, gesture recognition, and other Wiimote-based
+    functionality.
+
+    This package provides the GUI to test and display the wiimote data.
+command:
+- /opt/apps/wmgui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
