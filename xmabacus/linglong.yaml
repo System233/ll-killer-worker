@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: xmabacus.linyaps
+  name: xmabacus
+  version: 8.5.1.1
+  kind: app
+  description: |-
+    simulation of the ancient calculator (Motif version)
+    This program is an implementation of the original abacus, it provides
+    the Chinese, Japanese, Korean, Roman and Russian version and can be
+    modified to allow others.
+
+    This is the Motif version which shows additional functionality. Motif
+    is a GUI widget library for the X Window system.
+command:
+- /opt/apps/xmabacus.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
