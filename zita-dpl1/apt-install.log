@@ -1,0 +1,52 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libclthreads2t64 libclxclient3t64 libpng16-16t64
+The following packages will be REMOVED:
+  libpng16-16
+The following NEW packages will be installed:
+  libclthreads2t64 libclxclient3t64 libpng16-16t64 zita-dpl1
+0 upgraded, 4 newly installed, 1 to remove and 451 not upgraded.
+Need to get 271 kB of archives.
+After this operation, 254 kB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libpng16-16t64 arm64 1.6.43-5build1 [185 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libclthreads2t64 arm64 2.4.2-1.1build1 [12.1 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libclxclient3t64 arm64 3.9.2-2.1build1 [39.0 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 zita-dpl1 arm64 0.3.3-1build2 [34.9 kB]
+Fetched 271 kB in 1s (342 kB/s)
+dpkg: libpng16-16:arm64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:arm64 depends on libpng16-16 (>= 1.6.2).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Removing libpng16-16:arm64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27729 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_arm64.deb ...
+Unpacking libpng16-16t64:arm64 (1.6.43-5build1) ...
+Selecting previously unselected package libclthreads2t64:arm64.
+Preparing to unpack .../libclthreads2t64_2.4.2-1.1build1_arm64.deb ...
+Unpacking libclthreads2t64:arm64 (2.4.2-1.1build1) ...
+Selecting previously unselected package libclxclient3t64:arm64.
+Preparing to unpack .../libclxclient3t64_3.9.2-2.1build1_arm64.deb ...
+Unpacking libclxclient3t64:arm64 (3.9.2-2.1build1) ...
+Selecting previously unselected package zita-dpl1.
+Preparing to unpack .../zita-dpl1_0.3.3-1build2_arm64.deb ...
+Unpacking zita-dpl1 (0.3.3-1build2) ...
+Setting up libclthreads2t64:arm64 (2.4.2-1.1build1) ...
+Setting up libpng16-16t64:arm64 (1.6.43-5build1) ...
+Setting up libclxclient3t64:arm64 (3.9.2-2.1build1) ...
+Setting up zita-dpl1 (0.3.3-1build2) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
