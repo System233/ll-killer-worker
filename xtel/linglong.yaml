@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: xtel.linyaps
+  name: xtel
+  version: 3.3.0.26
+  kind: app
+  description: |-
+    X emulator of the French Minitel
+    This is a lesstif Minitel client that runs on color/black and white
+    X Display and a xteld daemon that can make Minitel connection with
+    one or more modems.
+
+    The Minitel is a dedicated terminal for accessing the Teletel,
+    the French videotex network.
+    Thus, this package is almost only for French users.
+    This package now supports the 3622 I-Minitel protocol
+    (more information on http://www.i-minitel.com).
+command:
+- /opt/apps/xtel.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
