@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: xpdf.linyaps
+  name: xpdf
+  version: 3.4.0.1
+  kind: app
+  description: |-
+    Motif-based PDF reader using the Poppler library
+    xpdf is a light-weight open source viewer for Portable Document Format (PDF)
+    files (also called 'Adobe Acrobat' or 'Acrobat' files).  This is just the
+    xpdf viewer client; various command-line pdf tools are now provided via the
+    poppler-utils package.
+
+    Debian's xpdf is a fork of Xpdf version 3, modified to use the Poppler
+    PDF rendering library but keeping the Motif toolkit, and nowadays maintained
+    as the xpopple project.
+command:
+- /opt/apps/xpdf.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
