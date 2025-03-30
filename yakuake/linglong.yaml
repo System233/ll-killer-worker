@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: yakuake.linyaps
+  name: yakuake
+  version: 23.8.5.0
+  kind: app
+  description: |-
+    Quake-style terminal emulator based on KDE Konsole technology
+    YaKuake is inspired from the terminal in the Quake game: when you press a key
+    (by default F12, but that can be changed) a terminal window slides down from
+    the top of the screen. Press the key again, and the terminal slides back.
+
+    It is faster than a keyboard shortcut because it is already loaded into memory
+    and as such is very useful to anyone who frequently finds themselves switching
+    in and out of terminal sessions.
+command:
+- /opt/apps/yakuake.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
