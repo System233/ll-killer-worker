@@ -1,0 +1,34 @@
+version: "1"
+package:
+  id: xhtml2ps.linyaps
+  name: xhtml2ps
+  version: 1.0.0.6
+  kind: app
+  description: |-
+    HTML to PostScript converter (Tcl/Tk GUI frontend)
+    This program converts HTML directly to PostScript. The HTML code can be
+    retrieved from one or more URLs or local files, specified as parameters
+    on the command line. A comprehensive level of HTML is supported,
+    including inline images, CSS 1.0, and some features of HTML 4.0.
+
+    This package provides an (outdated) GUI frontend to the html2ps
+    converter.
+
+    This is our justification for the suggests list:
+
+    We suggest weblint-perl because it is the default method for checking
+    HTML syntax (see Operations | Preferences).
+
+    We suggest lpr because it is the default printing command (see
+    Operations | Preferences).
+
+    We suggest mailcap because see is the default command used to open
+    the postscript viewer (see Operations | Preferences).
+
+    We suggest postscript-viewer because this package generates postscripts
+    which can be viewed with postscript-viewer (see Operations |
+    Preferences).
+command:
+- /opt/apps/xhtml2ps.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
