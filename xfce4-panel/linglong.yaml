@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: xfce4-panel.linyaps
+  name: xfce4-panel
+  version: 4.18.4.1
+  kind: app
+  description: |-
+    panel for Xfce4 desktop environment
+    This is the panel provided by the Xfce4 desktop project.  If you want a
+    multi-functional panel that can even handle plugins and the like, xfce4-panel
+    might be worth a try.
+command:
+- /opt/apps/xfce4-panel.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
