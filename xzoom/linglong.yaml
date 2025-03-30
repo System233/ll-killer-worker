@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: xzoom.linyaps
+  name: xzoom
+  version: 0.3.0.27
+  kind: app
+  description: |-
+    magnify part of X display, with real-time updates
+    Like xmag, xzoom magnifies a section of the X display. Xzoom is different
+    because it will continuously update the magnified area as the display
+    changes. It is fast enough to enlarge small animations, for example.
+
+    It can also mirror or rotate a part of the screen.
+command:
+- /opt/apps/xzoom.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
