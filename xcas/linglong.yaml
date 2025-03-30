@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: xcas.linyaps
+  name: xcas
+  version: 1.9.0.2
+  kind: app
+  description: |-
+    Computer Algebra System - console and graphical calculator
+    Giac is a computer algebra system, following the development of the CAS for HP
+    calculators. It has fast implementation of algorithms for polynomial
+    operations, and compatibility mode with Maple or Mupad CAS as well as TI
+    calculators.
+
+    This package contains the user-facing giac programs: xcas, icas, and pgiac;
+    as well as the cas_help program for providing user-oriented help.
+command:
+- /opt/apps/xcas.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

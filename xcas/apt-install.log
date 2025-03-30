@@ -1,0 +1,153 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libfltk-gl1.3t64 libfltk-images1.3t64 libfltk1.3t64 libgf2x3 libgiac0t64
+  libgl2ps1.4 libgsl27 libgslcblas0 libjpeg-turbo8 libjpeg8 libmpfi0 libntl44
+  libpari-gmp-tls8t64 libpng16-16t64 libreadline8t64 readline-common
+Suggested packages:
+  giac-doc gsl-ref-psdoc | gsl-doc-pdf | gsl-doc-info | gsl-ref-html
+  libmpfi-doc readline-doc hevea imagemagick texlive-binaries
+  texlive-latex-base wget xterm
+The following packages will be REMOVED:
+  libjpeg-turbo-progs libpng16-16 libreadline8 libturbojpeg0
+  xscreensaver-data-extra
+The following NEW packages will be installed:
+  libfltk-gl1.3t64 libfltk-images1.3t64 libfltk1.3t64 libgf2x3 libgiac0t64
+  libgl2ps1.4 libgsl27 libgslcblas0 libjpeg-turbo8 libjpeg8 libmpfi0 libntl44
+  libpari-gmp-tls8t64 libpng16-16t64 libreadline8t64 xcas
+The following packages will be upgraded:
+  readline-common
+1 upgraded, 16 newly installed, 5 to remove and 449 not upgraded.
+Need to get 16.3 MB of archives.
+After this operation, 36.5 MB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libpng16-16t64 arm64 1.6.43-5build1 [185 kB]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 readline-common all 8.2-4build1 [56.5 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libreadline8t64 arm64 8.2-4build1 [153 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libfltk1.3t64 arm64 1.3.8-6.1build2 [597 kB]
+Get:5 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libfltk-gl1.3t64 arm64 1.3.8-6.1build2 [42.1 kB]
+Get:6 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjpeg-turbo8 arm64 2.1.5-2ubuntu2 [163 kB]
+Get:7 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libjpeg8 arm64 8c-2ubuntu11 [2148 B]
+Get:8 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libfltk-images1.3t64 arm64 1.3.8-6.1build2 [27.5 kB]
+Get:9 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libgf2x3 arm64 1.3.0-2build1 [27.6 kB]
+Get:10 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libgslcblas0 arm64 2.7.1+dfsg-6ubuntu2 [72.8 kB]
+Get:11 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libgsl27 arm64 2.7.1+dfsg-6ubuntu2 [918 kB]
+Get:12 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libmpfi0 arm64 1.5.3+ds-6build1 [33.0 kB]
+Get:13 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libntl44 arm64 11.5.1-1 [776 kB]
+Get:14 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libpari-gmp-tls8t64 arm64 2.15.4-2.1build1 [4297 kB]
+Get:15 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libgiac0t64 arm64 1.9.0.93+dfsg2-2 [7197 kB]
+Get:16 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 libgl2ps1.4 arm64 1.4.2+dfsg1-2build1 [40.6 kB]
+Get:17 https://azure.ports.ubuntu.com/ubuntu-ports noble/universe arm64 xcas arm64 1.9.0.93+dfsg2-2 [1708 kB]
+Fetched 16.3 MB in 3s (5282 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Removing xscreensaver-data-extra (6.02+dfsg1-3) ...
+Removing libjpeg-turbo-progs (1:2.1.5-2) ...
+dpkg: libpng16-16:arm64: dependency problems, but removing anyway as you requested:
+ netpbm depends on libpng16-16 (>= 1.6.2).
+ libzvbi0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libpoppler118:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgs9:arm64 depends on libpng16-16 (>= 1.6.2).
+ libgdk-pixbuf-2.0-0:arm64 depends on libpng16-16 (>= 1.6.2).
+ libfreetype6:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcupsfilters1:arm64 depends on libpng16-16 (>= 1.6.2).
+ libcairo2:arm64 depends on libpng16-16 (>= 1.6.2).
+
+Removing libpng16-16:arm64 (1.6.40-2) ...
+Selecting previously unselected package libpng16-16t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27307 files and directories currently installed.)
+Preparing to unpack .../libpng16-16t64_1.6.43-5build1_arm64.deb ...
+Unpacking libpng16-16t64:arm64 (1.6.43-5build1) ...
+Preparing to unpack .../readline-common_8.2-4build1_all.deb ...
+Unpacking readline-common (8.2-4build1) over (8.2-3) ...
+dpkg: libreadline8:arm64: dependency problems, but removing anyway as you requested:
+ sqlite3 depends on libreadline8 (>= 6.0).
+ pipewire-bin depends on libreadline8 (>= 6.0).
+ libpython3.12-stdlib:arm64 depends on libreadline8 (>= 7.0~beta).
+ libpython3.11-stdlib:arm64 depends on libreadline8 (>= 7.0~beta).
+ gpgsm depends on libreadline8 (>= 6.0).
+ gpgconf depends on libreadline8 (>= 6.0).
+ gpg depends on libreadline8 (>= 6.0).
+ gnupg-utils depends on libreadline8 (>= 6.0).
+ gawk depends on libreadline8 (>= 6.0).
+ fdisk depends on libreadline8 (>= 6.0).
+ bluez depends on libreadline8 (>= 6.0).
+ bc depends on libreadline8 (>= 6.0).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27317 files and directories currently installed.)
+Removing libreadline8:arm64 (8.2-3) ...
+Selecting previously unselected package libreadline8t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27304 files and directories currently installed.)
+Preparing to unpack .../libreadline8t64_8.2-4build1_arm64.deb ...
+Adding 'diversion of /lib/aarch64-linux-gnu/libhistory.so.8 to /lib/aarch64-linux-gnu/libhistory.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/aarch64-linux-gnu/libhistory.so.8.2 to /lib/aarch64-linux-gnu/libhistory.so.8.2.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/aarch64-linux-gnu/libreadline.so.8 to /lib/aarch64-linux-gnu/libreadline.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/aarch64-linux-gnu/libreadline.so.8.2 to /lib/aarch64-linux-gnu/libreadline.so.8.2.usr-is-merged by libreadline8t64'
+Unpacking libreadline8t64:arm64 (8.2-4build1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27324 files and directories currently installed.)
+Removing libturbojpeg0:arm64 (1:2.1.5-2) ...
+Selecting previously unselected package libfltk1.3t64:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27317 files and directories currently installed.)
+Preparing to unpack .../00-libfltk1.3t64_1.3.8-6.1build2_arm64.deb ...
+Unpacking libfltk1.3t64:arm64 (1.3.8-6.1build2) ...
+Selecting previously unselected package libfltk-gl1.3t64:arm64.
+Preparing to unpack .../01-libfltk-gl1.3t64_1.3.8-6.1build2_arm64.deb ...
+Unpacking libfltk-gl1.3t64:arm64 (1.3.8-6.1build2) ...
+Selecting previously unselected package libjpeg-turbo8:arm64.
+Preparing to unpack .../02-libjpeg-turbo8_2.1.5-2ubuntu2_arm64.deb ...
+Unpacking libjpeg-turbo8:arm64 (2.1.5-2ubuntu2) ...
+Selecting previously unselected package libjpeg8:arm64.
+Preparing to unpack .../03-libjpeg8_8c-2ubuntu11_arm64.deb ...
+Unpacking libjpeg8:arm64 (8c-2ubuntu11) ...
+Selecting previously unselected package libfltk-images1.3t64:arm64.
+Preparing to unpack .../04-libfltk-images1.3t64_1.3.8-6.1build2_arm64.deb ...
+Unpacking libfltk-images1.3t64:arm64 (1.3.8-6.1build2) ...
+Selecting previously unselected package libgf2x3:arm64.
+Preparing to unpack .../05-libgf2x3_1.3.0-2build1_arm64.deb ...
+Unpacking libgf2x3:arm64 (1.3.0-2build1) ...
+Selecting previously unselected package libgslcblas0:arm64.
+Preparing to unpack .../06-libgslcblas0_2.7.1+dfsg-6ubuntu2_arm64.deb ...
+Unpacking libgslcblas0:arm64 (2.7.1+dfsg-6ubuntu2) ...
+Selecting previously unselected package libgsl27:arm64.
+Preparing to unpack .../07-libgsl27_2.7.1+dfsg-6ubuntu2_arm64.deb ...
+Unpacking libgsl27:arm64 (2.7.1+dfsg-6ubuntu2) ...
+Selecting previously unselected package libmpfi0:arm64.
+Preparing to unpack .../08-libmpfi0_1.5.3+ds-6build1_arm64.deb ...
+Unpacking libmpfi0:arm64 (1.5.3+ds-6build1) ...
+Selecting previously unselected package libntl44:arm64.
+Preparing to unpack .../09-libntl44_11.5.1-1_arm64.deb ...
+Unpacking libntl44:arm64 (11.5.1-1) ...
+Selecting previously unselected package libpari-gmp-tls8t64:arm64.
+Preparing to unpack .../10-libpari-gmp-tls8t64_2.15.4-2.1build1_arm64.deb ...
+Unpacking libpari-gmp-tls8t64:arm64 (2.15.4-2.1build1) ...
+Selecting previously unselected package libgiac0t64:arm64.
+Preparing to unpack .../11-libgiac0t64_1.9.0.93+dfsg2-2_arm64.deb ...
+Unpacking libgiac0t64:arm64 (1.9.0.93+dfsg2-2) ...
+Selecting previously unselected package libgl2ps1.4.
+Preparing to unpack .../12-libgl2ps1.4_1.4.2+dfsg1-2build1_arm64.deb ...
+Unpacking libgl2ps1.4 (1.4.2+dfsg1-2build1) ...
+Selecting previously unselected package xcas.
+Preparing to unpack .../13-xcas_1.9.0.93+dfsg2-2_arm64.deb ...
+Unpacking xcas (1.9.0.93+dfsg2-2) ...
+Setting up libgslcblas0:arm64 (2.7.1+dfsg-6ubuntu2) ...
+Setting up libgf2x3:arm64 (1.3.0-2build1) ...
+Setting up libgsl27:arm64 (2.7.1+dfsg-6ubuntu2) ...
+Setting up libgl2ps1.4 (1.4.2+dfsg1-2build1) ...
+Setting up libpari-gmp-tls8t64:arm64 (2.15.4-2.1build1) ...
+Setting up libpng16-16t64:arm64 (1.6.43-5build1) ...
+Setting up libmpfi0:arm64 (1.5.3+ds-6build1) ...
+Setting up libjpeg-turbo8:arm64 (2.1.5-2ubuntu2) ...
+Setting up libntl44:arm64 (11.5.1-1) ...
+Setting up readline-common (8.2-4build1) ...
+Setting up libfltk1.3t64:arm64 (1.3.8-6.1build2) ...
+Setting up libjpeg8:arm64 (8c-2ubuntu11) ...
+Setting up libfltk-images1.3t64:arm64 (1.3.8-6.1build2) ...
+Setting up libfltk-gl1.3t64:arm64 (1.3.8-6.1build2) ...
+Setting up libgiac0t64:arm64 (1.9.0.93+dfsg2-2) ...
+Setting up libreadline8t64:arm64 (8.2-4build1) ...
+Setting up xcas (1.9.0.93+dfsg2-2) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
