@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: xscreensaver-data.linyaps
+  name: xscreensaver-data
+  version: 6.8.0.1
+  kind: app
+  description: |-
+    Screen saver modules for screensaver frontends
+    XScreenSaver is a modular screen saver and locker for X11,
+    containing more than 200 screen savers.
+
+    This package contains a small selection of graphical screen saver
+    modules (listed below) from the xscreensaver collection. This package
+    can be used by xscreensaver and also some other screensaver engines.
+
+    This is the selected set of non-GL screensavers shipped by default:
+    abstractile, binaryhorizon, binaryring, cwaves, deco, distort,
+    droste, fiberlamp, fuzzyflakes, galaxy, hexadrop, m6502, marbling,
+    metaballs, penrose, ripples, scooter, shadebobs, slidescreen, swirl,
+    tessellimage, xlyap.
+
+    More display modes can be found in xscreensaver-data-extra,
+    xscreensaver-gl and xscreensaver-gl-extra packages.
+command:
+- /opt/apps/xscreensaver-data.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
