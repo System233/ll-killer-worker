@@ -1,0 +1,17 @@
+version: "1"
+package:
+  id: yoshimi.linyaps
+  name: yoshimi
+  version: 2.3.2.1
+  kind: app
+  description: |-
+    software synthesizer originally based on ZynAddSubFX2
+    Yoshimi is a software synthesizer for GNU/Linux, based on
+    ZynAddSubFX 2.4.0.
+
+    Yoshimi maintains sound and instrument compatibility
+    but now has extended features and accessibility.
+command:
+- /opt/apps/yoshimi.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
