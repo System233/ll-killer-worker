@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: x2gothinclient-minidesktop.linyaps
+  name: x2gothinclient-minidesktop
+  version: 1.5.0.10
+  kind: app
+  description: |-
+    Minimal desktop for X2Go Thin Client chroot (based on MATE)
+    X2Go is a server based computing environment with
+    - session resuming
+    - low bandwidth support
+    - session broker support
+    - client-side mass storage mounting support
+    - client-side printing support
+    - audio support
+    - authentication by smartcard and USB stick
+
+    x2gothinclient-minidesktop:
+    ---------------------------
+    This metapackage provides a minimal desktop (based on MATE) as the
+    TCE's workspace area. From there you can launch X2Go Sessions, but
+    you also have a set of basic applications that run on the thinclient
+    CPU (e.g. Firefox (ESR) with Flash).
+command:
+- /opt/apps/x2gothinclient-minidesktop.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
