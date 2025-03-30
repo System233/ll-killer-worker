@@ -1,0 +1,22 @@
+version: "1"
+package:
+  id: zita-at1.linyaps
+  name: zita-at1
+  version: 0.6.2.2
+  kind: app
+  description: |-
+    JACK autotuner
+    AT1 is an 'autotuner', normally used to correct the pitch of a voice
+    singing (slightly) out of tune. Compared to 'Autotalent' it provides
+    an improved pitch estimation algorithm, and much cleaner resampling.
+
+    AT1 does not include formant correction, so it should be used to
+    correct small errors only and not to really transpose a song. The
+    'expected' pitch can be controlled by Midi (via Jack only), or be a
+    fixed set of notes. AT1 can probably be used on some instruments as
+    well, but is primarily designed to cover the vocal range. It's also
+    usable as a quick and dirty guitar tuner.
+command:
+- /opt/apps/zita-at1.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
