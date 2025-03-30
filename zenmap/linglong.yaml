@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: zenmap.linyaps
+  name: zenmap
+  version: 7.94.3.3
+  kind: app
+  description: |-
+    The Network Mapper Front End
+    Zenmap is an Nmap frontend. It is meant to be useful for advanced users
+    and to make Nmap easy to use by beginners. It was originally derived
+    from Umit, an Nmap GUI created as part of the Google Summer of Code.
+command:
+- /opt/apps/zenmap.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
