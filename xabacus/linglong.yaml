@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: xabacus.linyaps
+  name: xabacus
+  version: 8.5.1.1
+  kind: app
+  description: |-
+    simulation of the ancient calculator (plain X version)
+    This program is an implementation of the original abacus, it provides
+    the Chinese, Japanese, Korean, Roman and Russian version and can be
+    modified to allow others.
+
+    This version was compiled without the Motif GUI widget library and thus
+    shows limited user interface functionality. See xmabacus for the
+    extended version.
+command:
+- /opt/apps/xabacus.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
