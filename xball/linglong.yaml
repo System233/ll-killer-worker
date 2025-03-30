@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: xball.linyaps
+  name: xball
+  version: 3.0.1.1
+  kind: app
+  description: |-
+    Simulate bouncing balls in a window
+    A simple educational game that simulates bouncing balls in a window. Gravity,
+    elasticity, and ability to collide can all be adjusted.
+
+    Young children enjoy watching the balls bounce around the screen and are
+    fascinated by the program. This is an ideal program for teaching rudimentary
+    mouse skills to very young children.
+command:
+- /opt/apps/xball.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
