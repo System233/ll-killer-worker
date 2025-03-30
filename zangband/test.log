@@ -1,0 +1,29 @@
+正在测试: APPID=zangband.linyaps LAYER=zangband.linyaps_2.7.5.14_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install zangband.linyaps_2.7.5.14_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:zangband.linyaps
+Layer文件:zangband.linyaps_2.7.5.14_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: zangband.linyaps_2.7.5.14_arm64_binary.layer
+offset: 785
+mountpoint: /tmp/tmp.ViEHHO0DRc/mnt
+dbglevel: 0
+find: ‘/opt/apps/zangband.linyaps/files/share/icons’: No such file or directory
+[成功] zangband.desktop: zangband -> /opt/apps/zangband.linyaps/files/share/pixmaps/zangband.png
+[成功] /opt/apps/zangband.linyaps/files/share/applications/zangband.desktop: /opt/apps/zangband.linyaps/files/entrypoint.sh zangband
+[正在测试启动项]
+包名:zangband.linyaps
+Layer文件:zangband.linyaps_2.7.5.14_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: zangband.linyaps_2.7.5.14_arm64_binary.layer
+offset: 785
+mountpoint: /tmp/tmp.pKKVFWg8BP/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run zangband.linyaps -- /opt/apps/zangband.linyaps/files/entrypoint.sh zangband
+[PID 5683] 进程已启动
+[PID 5683] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall zangband.linyaps
