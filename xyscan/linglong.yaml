@@ -1,0 +1,18 @@
+version: "1"
+package:
+  id: xyscan.linyaps
+  name: xyscan
+  version: 4.64.0.2
+  kind: app
+  description: |-
+    data thief for scientists
+    xyscan is a tool for the scientist in the need to extract data points,
+    i.e. numeric values, from a plot. It allows you to scan the plots and
+    extract data points including the size of the error bars (both in x
+    and y). It can handle plots with linear and logarithmic scales. In
+    fact xyscan can be used for extracting numeric values from any kind
+    of 2D technical drawings.
+command:
+- /opt/apps/xyscan.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
