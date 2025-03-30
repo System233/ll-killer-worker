@@ -1,0 +1,24 @@
+version: "1"
+package:
+  id: wmmixer.linyaps
+  name: wmmixer
+  version: 1.9.0.2
+  kind: app
+  description: |-
+    mixer application designed for WindowMaker
+    wmmixer displays the mixer status of your computer in a small icon.
+    Most common channels are identified with an appropriate icon. Control
+    include a stereo (mono where appropriate) volume control and a recording
+    source toggle button.
+
+    It is possible to change between the different channels using two small
+    buttons (previous channel, next channel) and to change the volume of the
+    channel.
+
+    There's nothing in the program that makes it require WindowMaker, except maybe
+    the NeXTStep look and the fact that it properly docks. It can be used with
+    other window managers without problems.
+command:
+- /opt/apps/wmmixer.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
