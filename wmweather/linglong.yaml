@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: wmweather.linyaps
+  name: wmweather
+  version: 2.4.7.3
+  kind: app
+  description: |-
+    WindowMaker dockapp that shows your current weather
+    wmweather provides a monitor on a 64x64 mini window that displays the current
+    weather. The weather reports are received from NOAA's National Weather
+    Service at http://www.nws.noaa.gov/, that is the same source that pilots use.
+
+    wmweather is designed to work with the WindowMaker dock, but will work with
+    other window managers as well. xbase-clients are required for the left click
+    to bring up the complete METAR record.
+command:
+- /opt/apps/wmweather.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

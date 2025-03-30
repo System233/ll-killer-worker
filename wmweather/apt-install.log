@@ -1,0 +1,235 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  curl gnutls-bin libcurl3t64-gnutls libcurl4t64 libgnutls-dane0t64
+  libgnutls30t64 libhogweed6t64 libldap-common libldap2 libnettle8t64
+  libp11-kit0 libpsl5t64 libssh-4 libssl3t64 libunistring5 libxaw7 libxmu6
+  libxmuu1 libxt6t64 libxxf86dga1 p11-kit p11-kit-modules publicsuffix
+  x11-utils
+Suggested packages:
+  dns-root-data wmaker | afterstep mesa-utils
+Recommended packages:
+  luit
+The following packages will be REMOVED:
+  libcurl3-gnutls libcurl4 libgnutls-dane0 libgnutls30 libhogweed6 libnettle8
+  libpsl5 libxt6
+The following NEW packages will be installed:
+  libcurl3t64-gnutls libcurl4t64 libgnutls-dane0t64 libgnutls30t64
+  libhogweed6t64 libldap-common libldap2 libnettle8t64 libpsl5t64 libssh-4
+  libssl3t64 libunistring5 libxmuu1 libxt6t64 libxxf86dga1 publicsuffix
+  wmweather x11-utils
+The following packages will be upgraded:
+  curl gnutls-bin libp11-kit0 libxaw7 libxmu6 p11-kit p11-kit-modules
+7 upgraded, 18 newly installed, 8 to remove and 446 not upgraded.
+Need to get 7061 kB of archives.
+After this operation, 9135 kB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgnutls-dane0t64 amd64 3.8.3-1.1ubuntu3.3 [23.5 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 gnutls-bin amd64 3.8.3-1.1ubuntu3.3 [270 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libnettle8t64 amd64 3.9.1-2.2build1.1 [182 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libhogweed6t64 amd64 3.9.1-2.2build1.1 [199 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 p11-kit-modules amd64 0.25.3-4ubuntu2.1 [328 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libp11-kit0 amd64 0.25.3-4ubuntu2.1 [300 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libunistring5 amd64 1.1-2build1.1 [536 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgnutls30t64 amd64 3.8.3-1.1ubuntu3.3 [995 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libldap2 amd64 2.6.7+dfsg-1~exp1ubuntu8.2 [196 kB]
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 curl amd64 8.5.0-2ubuntu10.6 [226 kB]
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpsl5t64 amd64 0.21.2-1.1build1 [57.1 kB]
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libssl3t64 amd64 3.0.13-0ubuntu3.5 [1940 kB]
+Get:13 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libssh-4 amd64 0.10.6-2build2 [188 kB]
+Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libcurl4t64 amd64 8.5.0-2ubuntu10.6 [341 kB]
+Get:15 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxmu6 amd64 2:1.1.3-3build2 [47.6 kB]
+Get:16 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxaw7 amd64 2:1.0.14-1build2 [187 kB]
+Get:17 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxt6t64 amd64 1:1.2.1-1.2build1 [171 kB]
+Get:18 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxmuu1 amd64 2:1.1.3-3build2 [8958 B]
+Get:19 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 publicsuffix all 20231001.0357-0.1 [129 kB]
+Get:20 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libcurl3t64-gnutls amd64 8.5.0-2ubuntu10.6 [333 kB]
+Get:21 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libldap-common all 2.6.7+dfsg-1~exp1ubuntu8.2 [31.7 kB]
+Get:22 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxxf86dga1 amd64 2:1.1.5-1build1 [11.6 kB]
+Get:23 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 wmweather amd64 2.4.7-3build2 [29.9 kB]
+Get:24 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 x11-utils amd64 7.7+6build2 [189 kB]
+Get:25 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 p11-kit amd64 0.25.3-4ubuntu2.1 [141 kB]
+Fetched 7061 kB in 0s (21.3 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Removing libcurl3-gnutls:amd64 (8.5.0-2) ...
+dpkg: libgnutls-dane0:amd64: dependency problems, but removing anyway as you requested:
+ gnutls-bin depends on libgnutls-dane0 (>= 3.7.0).
+
+Removing libgnutls-dane0:amd64 (3.7.9-2) ...
+Selecting previously unselected package libgnutls-dane0t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27580 files and directories currently installed.)
+Preparing to unpack .../libgnutls-dane0t64_3.8.3-1.1ubuntu3.3_amd64.deb ...
+Unpacking libgnutls-dane0t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+Preparing to unpack .../gnutls-bin_3.8.3-1.1ubuntu3.3_amd64.deb ...
+Unpacking gnutls-bin (3.8.3-1.1ubuntu3.3) over (3.7.9-2) ...
+dpkg: libhogweed6:amd64: dependency problems, but removing anyway as you requested:
+ libunbound8:amd64 depends on libhogweed6.
+ librtmp1:amd64 depends on libhogweed6.
+ libgnutls30:amd64 depends on libhogweed6 (>= 3.6).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27583 files and directories currently installed.)
+Removing libhogweed6:amd64 (3.7.3-1) ...
+dpkg: libnettle8:amd64: dependency problems, but removing anyway as you requested:
+ libunbound8:amd64 depends on libnettle8.
+ librtmp1:amd64 depends on libnettle8.
+ libgnutls30:amd64 depends on libnettle8 (>= 3.7~).
+ libarchive13:amd64 depends on libnettle8.
+
+Removing libnettle8:amd64 (3.7.3-1) ...
+Selecting previously unselected package libnettle8t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27569 files and directories currently installed.)
+Preparing to unpack .../libnettle8t64_3.9.1-2.2build1.1_amd64.deb ...
+Unpacking libnettle8t64:amd64 (3.9.1-2.2build1.1) ...
+Selecting previously unselected package libhogweed6t64:amd64.
+Preparing to unpack .../libhogweed6t64_3.9.1-2.2build1.1_amd64.deb ...
+Unpacking libhogweed6t64:amd64 (3.9.1-2.2build1.1) ...
+Preparing to unpack .../p11-kit-modules_0.25.3-4ubuntu2.1_amd64.deb ...
+Unpacking p11-kit-modules:amd64 (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Preparing to unpack .../libp11-kit0_0.25.3-4ubuntu2.1_amd64.deb ...
+Unpacking libp11-kit0:amd64 (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Selecting previously unselected package libunistring5:amd64.
+Preparing to unpack .../libunistring5_1.1-2build1.1_amd64.deb ...
+Unpacking libunistring5:amd64 (1.1-2build1.1) ...
+dpkg: libgnutls30:amd64: dependency problems, but removing anyway as you requested:
+ librtmp1:amd64 depends on libgnutls30 (>= 3.7.5).
+ libqpdf29:amd64 depends on libgnutls30 (>= 3.7.0).
+ libldap-2.5-0:amd64 depends on libgnutls30 (>= 3.7.5).
+ libcups2:amd64 depends on libgnutls30 (>= 3.7.5).
+ glib-networking:amd64 depends on libgnutls30 (>= 3.7.5).
+ dirmngr depends on libgnutls30 (>= 3.7.5).
+ apt depends on libgnutls30 (>= 3.7.5).
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27587 files and directories currently installed.)
+Removing libgnutls30:amd64 (3.7.9-2) ...
+Selecting previously unselected package libgnutls30t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27559 files and directories currently installed.)
+Preparing to unpack .../libgnutls30t64_3.8.3-1.1ubuntu3.3_amd64.deb ...
+Unpacking libgnutls30t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+Setting up libnettle8t64:amd64 (3.9.1-2.2build1.1) ...
+Setting up libhogweed6t64:amd64 (3.9.1-2.2build1.1) ...
+Setting up libp11-kit0:amd64 (0.25.3-4ubuntu2.1) ...
+Setting up libunistring5:amd64 (1.1-2build1.1) ...
+Setting up libgnutls30t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+
+Configuration file '/etc/gnutls/config', does not exist on system.
+Installing new config file as you requested.
+Selecting previously unselected package libldap2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27571 files and directories currently installed.)
+Preparing to unpack .../libldap2_2.6.7+dfsg-1~exp1ubuntu8.2_amd64.deb ...
+Unpacking libldap2:amd64 (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+Preparing to unpack .../curl_8.5.0-2ubuntu10.6_amd64.deb ...
+Unpacking curl (8.5.0-2ubuntu10.6) over (8.5.0-2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27578 files and directories currently installed.)
+Removing libcurl4:amd64 (8.5.0-2) ...
+Removing libpsl5:amd64 (0.21.0-1.2) ...
+Selecting previously unselected package libpsl5t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27566 files and directories currently installed.)
+Preparing to unpack .../0-libpsl5t64_0.21.2-1.1build1_amd64.deb ...
+Unpacking libpsl5t64:amd64 (0.21.2-1.1build1) ...
+Selecting previously unselected package libssl3t64:amd64.
+Preparing to unpack .../1-libssl3t64_3.0.13-0ubuntu3.5_amd64.deb ...
+Unpacking libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Replacing files in old package libssl3:amd64 (3.2.0-2) ...
+Selecting previously unselected package libssh-4:amd64.
+Preparing to unpack .../2-libssh-4_0.10.6-2build2_amd64.deb ...
+Unpacking libssh-4:amd64 (0.10.6-2build2) ...
+Selecting previously unselected package libcurl4t64:amd64.
+Preparing to unpack .../3-libcurl4t64_8.5.0-2ubuntu10.6_amd64.deb ...
+Unpacking libcurl4t64:amd64 (8.5.0-2ubuntu10.6) ...
+Preparing to unpack .../4-libxmu6_2%3a1.1.3-3build2_amd64.deb ...
+Unpacking libxmu6:amd64 (2:1.1.3-3build2) over (2:1.1.2-deepin1) ...
+Preparing to unpack .../5-libxaw7_2%3a1.0.14-1build2_amd64.deb ...
+Unpacking libxaw7:amd64 (2:1.0.14-1build2) over (2:1.0.13-1.1) ...
+dpkg: libxt6:amd64: dependency problems, but removing anyway as you requested:
+ xscreensaver-gl-extra depends on libxt6.
+ xscreensaver-gl depends on libxt6.
+ xscreensaver-data-extra depends on libxt6.
+ xscreensaver-data depends on libxt6.
+ x11-xkb-utils depends on libxt6.
+ libxmu6:amd64 depends on libxt6.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27587 files and directories currently installed.)
+Removing libxt6:amd64 (1:1.2.0-1) ...
+Selecting previously unselected package libxt6t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27581 files and directories currently installed.)
+Preparing to unpack .../0-libxt6t64_1%3a1.2.1-1.2build1_amd64.deb ...
+Unpacking libxt6t64:amd64 (1:1.2.1-1.2build1) ...
+Selecting previously unselected package libxmuu1:amd64.
+Preparing to unpack .../1-libxmuu1_2%3a1.1.3-3build2_amd64.deb ...
+Unpacking libxmuu1:amd64 (2:1.1.3-3build2) ...
+Selecting previously unselected package publicsuffix.
+Preparing to unpack .../2-publicsuffix_20231001.0357-0.1_all.deb ...
+Unpacking publicsuffix (20231001.0357-0.1) ...
+Selecting previously unselected package libcurl3t64-gnutls:amd64.
+Preparing to unpack .../3-libcurl3t64-gnutls_8.5.0-2ubuntu10.6_amd64.deb ...
+Unpacking libcurl3t64-gnutls:amd64 (8.5.0-2ubuntu10.6) ...
+Selecting previously unselected package libldap-common.
+Preparing to unpack .../4-libldap-common_2.6.7+dfsg-1~exp1ubuntu8.2_all.deb ...
+Unpacking libldap-common (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+Selecting previously unselected package libxxf86dga1:amd64.
+Preparing to unpack .../5-libxxf86dga1_2%3a1.1.5-1build1_amd64.deb ...
+Unpacking libxxf86dga1:amd64 (2:1.1.5-1build1) ...
+Selecting previously unselected package wmweather.
+Preparing to unpack .../6-wmweather_2.4.7-3build2_amd64.deb ...
+Unpacking wmweather (2.4.7-3build2) ...
+Selecting previously unselected package x11-utils.
+Preparing to unpack .../7-x11-utils_7.7+6build2_amd64.deb ...
+Unpacking x11-utils (7.7+6build2) ...
+Preparing to unpack .../8-p11-kit_0.25.3-4ubuntu2.1_amd64.deb ...
+Unpacking p11-kit (0.25.3-4ubuntu2.1) over (0.24.0-5) ...
+Setting up libssl3t64:amd64 (3.0.13-0ubuntu3.5) ...
+Setting up libpsl5t64:amd64 (0.21.2-1.1build1) ...
+Setting up libxxf86dga1:amd64 (2:1.1.5-1build1) ...
+Setting up libldap-common (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+
+Configuration file '/etc/ldap/ldap.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up p11-kit-modules:amd64 (0.25.3-4ubuntu2.1) ...
+Setting up libgnutls-dane0t64:amd64 (3.8.3-1.1ubuntu3.3) ...
+Setting up libxt6t64:amd64 (1:1.2.1-1.2build1) ...
+Setting up libssh-4:amd64 (0.10.6-2build2) ...
+Setting up p11-kit (0.25.3-4ubuntu2.1) ...
+Setting up publicsuffix (20231001.0357-0.1) ...
+Setting up libldap2:amd64 (2.6.7+dfsg-1~exp1ubuntu8.2) ...
+Setting up libxmuu1:amd64 (2:1.1.3-3build2) ...
+Setting up gnutls-bin (3.8.3-1.1ubuntu3.3) ...
+Setting up libxmu6:amd64 (2:1.1.3-3build2) ...
+Setting up libcurl4t64:amd64 (8.5.0-2ubuntu10.6) ...
+Setting up libcurl3t64-gnutls:amd64 (8.5.0-2ubuntu10.6) ...
+Setting up libxaw7:amd64 (2:1.0.14-1build2) ...
+Setting up x11-utils (7.7+6build2) ...
+
+Configuration file '/etc/X11/app-defaults/Editres', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/Editres-color', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/Viewres', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/Viewres-color', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/XFontSel', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/Xfd', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/Xmessage', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/Xmessage-color', does not exist on system.
+Installing new config file as you requested.
+Setting up curl (8.5.0-2ubuntu10.6) ...
+Setting up wmweather (2.4.7-3build2) ...
+
+Configuration file '/etc/ppp/ip-up.d/wmweather', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/wmweather.conf', does not exist on system.
+Installing new config file as you requested.
+Processing triggers for libc-bin (2.38-6deepin4) ...
