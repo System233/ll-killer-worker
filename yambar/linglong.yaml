@@ -1,0 +1,34 @@
+version: "1"
+package:
+  id: yambar.linyaps
+  name: yambar
+  version: 1.10.0.1
+  kind: app
+  description: |-
+    Lightweight and configurable status panel
+    yambar is a lightweight and configurable status panel (bar, for short) for X11
+    and Wayland, that goes to great lengths to be both CPU and battery efficient -
+    polling is only done when absolutely necessary.
+
+    It has a number of modules that provide information in the form of tags. For
+    example, the clock module has a date tag that contains the current date.
+
+    The modules do not know how to present the information though. This is instead
+    done by particles. And the user, you, decides which particles (and thus how to
+    present the data) to use.
+
+    Furthermore, each particle can have a decoration - a background color or a
+    graphical underline, for example.
+
+    There is no support for images or icons. use an icon font (e.g. Font Awesome,
+    or Material Icons) if you want a graphical representation.
+
+    There are a number of modules and particles builtin. More can be added as
+    plugins. You can even write your own!
+
+    To summarize: a bar displays information provided by modules, using particles
+    and decorations. How is configured by you.
+command:
+- /opt/apps/yambar.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
