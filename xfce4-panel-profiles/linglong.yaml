@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: xfce4-panel-profiles.linyaps
+  name: xfce4-panel-profiles
+  version: 1.0.14.1
+  kind: app
+  description: |-
+    layout manager for the Xfce panel
+    Xfce Panel Profiles (xfce4-panel-profiles) is a simple application to
+    manage Xfce panel layouts. This tool makes it possible to backup,
+    restore, import, and export these panel layouts.
+command:
+- /opt/apps/xfce4-panel-profiles.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
