@@ -1,0 +1,23 @@
+version: "1"
+package:
+  id: xcrysden.linyaps
+  name: xcrysden
+  version: 1.6.2.4
+  kind: app
+  description: |-
+    Crystalline and Molecular Structure Visualizer
+    XCrySDen is a crystalline and molecular structure visualisation
+    program, which aims at display of isosurfaces and contours, which can
+    be superimposed on crystalline structures and interactively rotated
+    and manipulated. It can run on most UNIX platforms, without any
+    special hardware requirements.
+
+    XCrySDen allows for real-time capture of display. Several movie encoders
+    are supported, in particular for Animated-GIF convert (imagemagick),
+    gifsicle, or whirlgif are necessary. For AVI/MPEG mencoder or
+    ppmtompeg (netpbm) is required. For window dumps either imagemagick or
+    xwd (x11-apps) needs to be present.
+command:
+- /opt/apps/xcrysden.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
