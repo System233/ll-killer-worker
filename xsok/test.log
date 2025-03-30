@@ -1,0 +1,30 @@
+正在测试: APPID=xsok.linyaps LAYER=xsok.linyaps_1.2.0.19_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install xsok.linyaps_1.2.0.19_arm64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:xsok.linyaps
+Layer文件:xsok.linyaps_1.2.0.19_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xsok.linyaps_1.2.0.19_arm64_binary.layer
+offset: 676
+mountpoint: /tmp/tmp.Ae8F0jy0eL/mnt
+dbglevel: 0
+[成功] xsok.desktop: xsok -> /opt/apps/xsok.linyaps/files/share/icons/hicolor/256x256/apps/xsok.png
+[成功] /opt/apps/xsok.linyaps/files/share/applications/xsok.desktop: /opt/apps/xsok.linyaps/files/entrypoint.sh xsok
+[正在测试启动项]
+包名:xsok.linyaps
+Layer文件:xsok.linyaps_1.2.0.19_arm64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: xsok.linyaps_1.2.0.19_arm64_binary.layer
+offset: 676
+mountpoint: /tmp/tmp.jW9qsqttRn/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run xsok.linyaps -- /opt/apps/xsok.linyaps/files/entrypoint.sh xsok
+[PID 5433] 进程已启动
+[PID 5433] 等待超时，未能检测到窗口
+[PID 5433] 正在通知并等待进程退出
+[PID 5433] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall xsok.linyaps
