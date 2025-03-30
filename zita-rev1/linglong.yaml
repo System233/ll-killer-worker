@@ -1,0 +1,25 @@
+version: "1"
+package:
+  id: zita-rev1.linyaps
+  name: zita-rev1
+  version: 0.2.2.2
+  kind: app
+  description: |-
+    pro-audio reverb effect
+    REV1 is a reworked version of the reverb originally developed for Aeolus.
+    Its character is more 'hall' than 'plate', but it can be used on a wide
+    variety of instruments or voices. It is not a spatialiser - the early
+    reflections are different for the L and R inputs, but do not correspond
+    to any real room. They have been tuned to match left and right sources to
+    some extent.
+
+    In Stereo mode a dry/wet mix control is provided, so it can be used either
+    as an insert or in send/return mode. For mono just connect one of the
+    two channels.
+
+    In Ambisonic mode (selected by the -B command line option) the only option
+    is the send/return mode.
+command:
+- /opt/apps/zita-rev1.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
