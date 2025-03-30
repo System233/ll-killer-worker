@@ -1,0 +1,19 @@
+version: "1"
+package:
+  id: xfce4-taskmanager.linyaps
+  name: xfce4-taskmanager
+  version: 1.5.7.1
+  kind: app
+  description: |-
+    process manager for the Xfce4 Desktop Environment
+    A GUI application for monitoring and controlling running processes,
+    written for Xfce. Its features include:
+
+    * support for Linux, OpenBSD, FreeBSD and OpenSolaris
+    * monitors the CPU and memory usage
+    * tree view columns can be reordered
+    * display window icons/names.
+command:
+- /opt/apps/xfce4-taskmanager.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
