@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: wmcalc.linyaps
+  name: wmcalc
+  version: 0.7.0.2
+  kind: app
+  description: |-
+    dockable calculator application
+    Wmcalc is a small calculator meant for the WindowMaker dock or
+    Afterstep Wharf. It is a simple calculator with basic functions and
+    memory slots, and can launch any external application for more
+    complex calculations.
+command:
+- /opt/apps/wmcalc.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
