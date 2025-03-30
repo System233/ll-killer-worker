@@ -1,0 +1,26 @@
+version: "1"
+package:
+  id: zathura.linyaps
+  name: zathura
+  version: 0.5.4.1
+  kind: app
+  description: |-
+    document viewer with a minimalistic interface
+    zathura is a document viewer for PDF and other formats with a minimalistic and
+    space saving interface. It offers a vim-like experience and has a focus on
+    keyboard interaction. The key bindings, commands and most other settings can
+    be customized.
+
+    Some of the features are:
+    * bookmarking pages
+    * printing the whole document or specific pages
+    * following links
+    * searching in the document
+    * browsing the document index
+    * SyncTex forward and backward synchronization
+
+    zathura can be extended to support other file formats via a plugin system.
+command:
+- /opt/apps/zathura.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
