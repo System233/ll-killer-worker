@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: xdg-desktop-portal-xapp.linyaps
+  name: xdg-desktop-portal-xapp
+  version: 1.0.4.1
+  kind: app
+  description: |-
+    Xapp's Cinnamon, MATE and Xfce backends for xdg-desktop-portal
+    xdg-desktop-portal-xapp provides an implementation for the desktop-agnostic
+    xdg-desktop-portal service for Cinnamon, MATE and Xfce.
+    This allows sandboxed applications to request services and information from
+    outside the sandbox in the MATE, Xfce and Cinnamon environments.
+command:
+- /opt/apps/xdg-desktop-portal-xapp.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
