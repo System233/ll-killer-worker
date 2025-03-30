@@ -1,0 +1,16 @@
+version: "1"
+package:
+  id: xvattr.linyaps
+  name: xvattr
+  version: 1.3.0.0
+  kind: app
+  description: |-
+    Utility to change Xv attributes
+    This is a small command line program to change Xv attributes like
+    brightness, contrast,...
+
+    This package also include a gtk front-end.
+command:
+- /opt/apps/xvattr.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
