@@ -1,0 +1,30 @@
+正在测试: APPID=worker.linyaps LAYER=worker.linyaps_4.12.1.1_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install worker.linyaps_4.12.1.1_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:worker.linyaps
+Layer文件:worker.linyaps_4.12.1.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: worker.linyaps_4.12.1.1_x86_64_binary.layer
+offset: 904
+mountpoint: /tmp/tmp.mNNCrdouzJ/mnt
+dbglevel: 0
+[成功] worker.desktop: Worker -> /opt/apps/worker.linyaps/files/share/icons/hicolor/64x64/apps/Worker.png
+[成功] /opt/apps/worker.linyaps/files/share/applications/worker.desktop: /opt/apps/worker.linyaps/files/entrypoint.sh worker
+[正在测试启动项]
+包名:worker.linyaps
+Layer文件:worker.linyaps_4.12.1.1_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: worker.linyaps_4.12.1.1_x86_64_binary.layer
+offset: 904
+mountpoint: /tmp/tmp.1Gul9S3TSi/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run worker.linyaps -- /opt/apps/worker.linyaps/files/entrypoint.sh worker
+[PID 7789] 进程已启动
+[PID 7789] 等待超时，未能检测到窗口
+[PID 7789] 正在通知并等待进程退出
+[PID 7789] 进程已退出
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall worker.linyaps
