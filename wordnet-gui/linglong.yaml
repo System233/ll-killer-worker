@@ -1,0 +1,27 @@
+version: "1"
+package:
+  id: wordnet-gui.linyaps
+  name: wordnet-gui
+  version: 3.0.0.37
+  kind: app
+  description: |-
+    electronic lexical database of English language (GUI)
+    WordNet(C) is an on-line lexical reference system whose design is
+    inspired by current psycholinguistic theories of human lexical
+    memory. English nouns, verbs, adjectives and adverbs are organized
+    into synonym sets, each representing one underlying lexical
+    concept. Different relations link the synonym sets.
+
+    WordNet was developed by the Cognitive Science Laboratory at Princeton
+    University under the direction of Professor George A. Miller (Principal
+    Investigator).
+
+    WordNet is considered to be the most important resource available to
+    researchers in computational linguistics, text analysis, and many
+    related areas.
+
+    This package contains a Tcl/Tk Gui to browse wordnet dictionary.
+command:
+- /opt/apps/wordnet-gui.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
