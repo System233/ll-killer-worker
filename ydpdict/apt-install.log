@@ -1,0 +1,46 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  libao-common libao4 libydpdict2
+Suggested packages:
+  libaudio2 libsndio6.1
+The following NEW packages will be installed:
+  libao-common libao4 libydpdict2 ydpdict
+0 upgraded, 4 newly installed, 0 to remove and 451 not upgraded.
+Need to get 115 kB of archives.
+After this operation, 742 kB of additional disk space will be used.
+Get:1 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libao-common all 1.2.2+20180113-1.1ubuntu4 [5534 B]
+Get:2 https://azure.ports.ubuntu.com/ubuntu-ports noble/main arm64 libao4 arm64 1.2.2+20180113-1.1ubuntu4 [34.6 kB]
+Get:3 https://azure.ports.ubuntu.com/ubuntu-ports noble/multiverse arm64 libydpdict2 arm64 1.0.4-3build1 [11.2 kB]
+Get:4 https://azure.ports.ubuntu.com/ubuntu-ports noble/multiverse arm64 ydpdict arm64 1.0.5-1 [63.3 kB]
+Fetched 115 kB in 1s (167 kB/s)
+Selecting previously unselected package libao-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../libao-common_1.2.2+20180113-1.1ubuntu4_all.deb ...
+Unpacking libao-common (1.2.2+20180113-1.1ubuntu4) ...
+Selecting previously unselected package libao4:arm64.
+Preparing to unpack .../libao4_1.2.2+20180113-1.1ubuntu4_arm64.deb ...
+Unpacking libao4:arm64 (1.2.2+20180113-1.1ubuntu4) ...
+Selecting previously unselected package libydpdict2:arm64.
+Preparing to unpack .../libydpdict2_1.0.4-3build1_arm64.deb ...
+Unpacking libydpdict2:arm64 (1.0.4-3build1) ...
+Selecting previously unselected package ydpdict.
+Preparing to unpack .../ydpdict_1.0.5-1_arm64.deb ...
+Unpacking ydpdict (1.0.5-1) ...
+Setting up libao-common (1.2.2+20180113-1.1ubuntu4) ...
+
+Configuration file '/etc/libao.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up libao4:arm64 (1.2.2+20180113-1.1ubuntu4) ...
+Setting up libydpdict2:arm64 (1.0.4-3build1) ...
+Setting up ydpdict (1.0.5-1) ...
+
+Configuration file '/etc/ydpdict.conf', does not exist on system.
+Installing new config file as you requested.
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
