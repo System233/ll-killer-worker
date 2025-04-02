@@ -2860,7 +2860,7 @@
 | [unity-lens-photos](./unity-lens-photos) | amd64  | ubuntu-noble | 1.0+17.10.20170605-0ubuntu9-20250327 | 失败 | N/A | v1.5.2-amd64-nevm |
 | [unity-tweak-tool](./unity-tweak-tool) | amd64  | ubuntu-noble | 0.0.7+-0ubuntu11-20250327 | 失败 | N/A | v1.5.2-amd64-nevm |
 | [unknown-horizons](./unknown-horizons) | amd64  | ubuntu-noble | 2019.1-7-20250327 | 失败 | [SHA256](./unknown-horizons/SHA256SUMS) | v1.5.2-amd64-nevm |
-| [uos-ai](./uos-ai) | amd64  | deepin-v23 | 2.3.2-1-20250327 | 失败 | N/A | v1.5.2-amd64-nevm |
+| [uos-ai](./uos-ai) | amd64  | deepin-v23 | 2.6.300-1-20250327 | 失败 | N/A | v1.5.3-amd64-nevm |
 | [update-manager](./update-manager) | amd64  | ubuntu-noble | 24.04.9-20250327 | 失败 | N/A | v1.5.2-amd64-nevm |
 | [uqm](./uqm) | amd64  | ubuntu-noble | 0.8.0+dfsg-2build2-20250327 | 失败 | [SHA256](./uqm/SHA256SUMS) | v1.5.2-amd64-nevm |
 | [usb-creator-gtk](./usb-creator-gtk) | amd64  | ubuntu-noble | 0.3.17-20250327 | 失败 | N/A | v1.5.2-amd64-nevm |
