@@ -1,13 +1,13 @@
 # amd64 - 构建统计
 | 索引数  | 构建数 | 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|--------|-------|---------| -------|-----|
-|3161|3147|1784 |1363 | 56.69%| 56.44%|
+|3161|3147|1783 |1364 | 56.66%| 56.41%|
 ## 仓库统计
 | 仓库  | 索引数 |构建数| 成功数 | 失败数  | 成功率  | 完成度  |
 |--------|------|-----|-------|---------| -------|-----|
 |ubuntu-noble|2778|2778|1639 |1139 | 59.00%| 59.00%|
 |deepin-v23|380|366|142 |224 | 38.80%| 37.37%|
-|shiftkey|1|1|1 |0 | 100.00%| 100.00%|
+|shiftkey|1|1|0 |1 | 0.00%| 0.00%|
 |kicad|1|1|1 |0 | 100.00%| 100.00%|
 |obs-studio|1|1|1 |0 | 100.00%| 100.00%|
 ## 详细结果
@@ -1003,7 +1003,7 @@
 | [git-annex](./git-annex) | amd64  | ubuntu-noble | 10.20240129-1build1 | ![screen0-5.jpg](./git-annex/tests/screen0-5.jpg) | [SHA256](./git-annex/SHA256SUMS) | N/A |
 | [git-cola](./git-cola) | amd64  | ubuntu-noble | 4.6.1-1 | ![screen0-5.jpg](./git-cola/tests/screen0-5.jpg) ![screen1-5.jpg](./git-cola/tests/screen1-5.jpg) | [SHA256](./git-cola/SHA256SUMS) | N/A |
 | [gitg](./gitg) | amd64  | ubuntu-noble | 44-1build2-20250327 | 失败 | N/A | N/A |
-| [github-desktop](./github-desktop) | amd64  | shiftkey | 3.4.12-linux1 | ![screen0-5.jpg](./github-desktop/tests/screen0-5.jpg) | [SHA256](./github-desktop/SHA256SUMS) | v1.5.0-amd64-nevm |
+| [github-desktop](./github-desktop) | amd64  | shiftkey | -20250327 | 失败 | N/A | v1.5.3-amd64-nevm |
 | [gitso](./gitso) | amd64  | ubuntu-noble | 0.6.2+svn158+dfsg-4 | ![screen0-5.jpg](./gitso/tests/screen0-5.jpg) | [SHA256](./gitso/SHA256SUMS) | N/A |
 | [gjacktransport](./gjacktransport) | amd64  | ubuntu-noble | 0.6.4-1build2 | ![screen0-5.jpg](./gjacktransport/tests/screen0-5.jpg) ![screen1-5.jpg](./gjacktransport/tests/screen1-5.jpg) | [SHA256](./gjacktransport/SHA256SUMS) | N/A |
 | [gjiten](./gjiten) | amd64  | ubuntu-noble | 3.1-2build2 | ![screen0-5.jpg](./gjiten/tests/screen0-5.jpg) | [SHA256](./gjiten/SHA256SUMS) | N/A |
