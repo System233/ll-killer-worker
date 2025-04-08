@@ -918,8 +918,8 @@
 | [gearhead2-sdl](./gearhead2-sdl) | arm64  | ubuntu-noble | 0.701-2 | ![screen0-5.jpg](./gearhead2-sdl/tests/screen0-5.jpg) | [SHA256](./gearhead2-sdl/SHA256SUMS) | N/A |
 | [geary](./geary) | arm64  | ubuntu-noble | 44.1-2build2 | ![screen0-5.jpg](./geary/tests/screen0-5.jpg) | [SHA256](./geary/SHA256SUMS) | N/A |
 | [gedit](./gedit) | arm64  | ubuntu-noble | 46.2-2-20250327 | 失败 | N/A | N/A |
-| [geeqie](./geeqie) | arm64  | ubuntu-noble | 2.2-2build4-20250327 | 失败 | [SHA256](./geeqie/SHA256SUMS) | N/A |
-| [geeqie-common](./geeqie-common) | arm64  | ubuntu-noble | 2.2-2build4-20250327 | 失败 | [SHA256](./geeqie-common/SHA256SUMS) | N/A |
+| [geeqie](./geeqie) | arm64  | ubuntu-noble | 2.2-2ubuntu0.1-20250327 | 失败 | [SHA256](./geeqie/SHA256SUMS) | v1.5.3-arm64-nevm |
+| [geeqie-common](./geeqie-common) | arm64  | ubuntu-noble | 2.2-2ubuntu0.1-20250327 | 失败 | [SHA256](./geeqie-common/SHA256SUMS) | v1.5.3-arm64-nevm |
 | [geg](./geg) | arm64  | ubuntu-noble | 2.0.9-4build2 | ![screen0-5.jpg](./geg/tests/screen0-5.jpg) | [SHA256](./geg/SHA256SUMS) | N/A |
 | [geis-tools](./geis-tools) | arm64  | ubuntu-noble | 2.2.17+16.04.20160126-0ubuntu10-20250327 | 失败 | [SHA256](./geis-tools/SHA256SUMS) | N/A |
 | [geki2](./geki2) | arm64  | ubuntu-noble | 2.0.3-10 | ![screen0-5.jpg](./geki2/tests/screen0-5.jpg) | [SHA256](./geki2/SHA256SUMS) | N/A |
