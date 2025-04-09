@@ -2585,9 +2585,9 @@
 | [snek](./snek) | amd64  | ubuntu-noble | 1.9-3build2-20250327 | 失败 | [SHA256](./snek/SHA256SUMS) | v1.5.2-amd64-nevm |
 | [snek-bin](./snek-bin) | amd64  | ubuntu-noble | 1.9-3build2-20250327 | 失败 | [SHA256](./snek-bin/SHA256SUMS) | v1.5.2-amd64-nevm |
 | [socnetv](./socnetv) | amd64  | ubuntu-noble | 2.8-1build2 | ![screen0-5.jpg](./socnetv/tests/screen0-5.jpg) | [SHA256](./socnetv/SHA256SUMS) | v1.5.2-amd64-nevm |
-| [software-properties-gtk](./software-properties-gtk) | amd64  | ubuntu-noble | 0.99.49.1-20250327 | 失败 | N/A | v1.5.2-amd64-nevm |
+| [software-properties-gtk](./software-properties-gtk) | amd64  | ubuntu-noble | 0.99.49.2-20250327 | 失败 | N/A | v1.5.3-amd64-nevm |
 | [software-properties-kde](./software-properties-kde) | amd64  | deepin-v23 | 0.96.20.2-2.1-20250327 | 失败 | N/A | v1.5.2-amd64-nevm |
-| [software-properties-qt](./software-properties-qt) | amd64  | ubuntu-noble | 0.99.49.1-20250327 | 失败 | N/A | v1.5.2-amd64-nevm |
+| [software-properties-qt](./software-properties-qt) | amd64  | ubuntu-noble | 0.99.49.2-20250327 | 失败 | N/A | v1.5.3-amd64-nevm |
 | [solaar](./solaar) | amd64  | ubuntu-noble | 1.1.11+dfsg-2-20250327 | 失败 | N/A | v1.5.2-amd64-nevm |
 | [solarwolf](./solarwolf) | amd64  | ubuntu-noble | 1.5+dfsg1-6 | ![screen0-5.jpg](./solarwolf/tests/screen0-5.jpg) | [SHA256](./solarwolf/SHA256SUMS) | v1.5.2-amd64-nevm |
 | [solfege](./solfege) | amd64  | ubuntu-noble | 3.23.4-12-20250327 | 失败 | N/A | v1.5.2-amd64-nevm |
