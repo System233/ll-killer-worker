@@ -1220,7 +1220,7 @@
 | [gtg](./gtg) | amd64  | ubuntu-noble | 0.6-7-20250327 | 失败 | N/A | N/A |
 | [gthumb](./gthumb) | amd64  | ubuntu-noble | 3.12.6-1 | ![screen0-5.jpg](./gthumb/tests/screen0-5.jpg) | [SHA256](./gthumb/SHA256SUMS) | N/A |
 | [gtimelog](./gtimelog) | amd64  | ubuntu-noble | 0.12.0-1-20250327 | 失败 | N/A | N/A |
-| [gtk-3-examples](./gtk-3-examples) | amd64  | ubuntu-noble | 3.24.41-4ubuntu1.2-20250327 | 失败 | [SHA256](./gtk-3-examples/SHA256SUMS) | N/A |
+| [gtk-3-examples](./gtk-3-examples) | amd64  | ubuntu-noble | 3.24.41-4ubuntu1.3-20250327 | 失败 | [SHA256](./gtk-3-examples/SHA256SUMS) | v1.5.3-amd64-nevm |
 | [gtk-4-examples](./gtk-4-examples) | amd64  | ubuntu-noble | 4.14.2+ds-1ubuntu2 | ![screen0-5.jpg](./gtk-4-examples/tests/screen0-5.jpg) ![screen1-5.jpg](./gtk-4-examples/tests/screen1-5.jpg) ![screen2-5.jpg](./gtk-4-examples/tests/screen2-5.jpg) ![screen4-5.jpg](./gtk-4-examples/tests/screen4-5.jpg) | [SHA256](./gtk-4-examples/SHA256SUMS) | N/A |
 | [gtk-chtheme](./gtk-chtheme) | amd64  | ubuntu-noble | 0.3.1-6.1ubuntu1 | ![screen0-5.jpg](./gtk-chtheme/tests/screen0-5.jpg) | [SHA256](./gtk-chtheme/SHA256SUMS) | N/A |
 | [gtk-vector-screenshot](./gtk-vector-screenshot) | amd64  | ubuntu-noble | 0.3.3-2build2 | ![screen0-5.jpg](./gtk-vector-screenshot/tests/screen0-5.jpg) | [SHA256](./gtk-vector-screenshot/SHA256SUMS) | N/A |
