@@ -1,0 +1,734 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  base-passwd bsdextrautils bsdutils dbus-user-session dns-root-data
+  dnsmasq-base eject fdisk gcr gnome-icon-theme gnome-keyring
+  gnome-keyring-pkcs11 libayatana-appindicator3-1 libayatana-ido3-0.4-0
+  libayatana-indicator3-7 libblkid1 libdbusmenu-glib4 libdbusmenu-gtk3-4
+  libduktape207 libfdisk1 libgck-1-0 libgcr-base-3-1 libgcr-ui-3-1
+  libgudev-1.0-0 libjim0.79 libjson-glib-1.0-0 libjson-glib-1.0-common
+  libmbim-glib4 libmbim-proxy libmbim-utils libmm-glib0 libmount1 libndp0
+  libnetfilter-conntrack3 libnewt0.52 libnfnetlink0 libnl-3-200
+  libnl-genl-3-200 libnl-route-3-200 libnm0 libnma-common libnma0
+  libnss-myhostname libnss-systemd libpam-gnome-keyring libpam-systemd
+  libpcap0.8 libpcsclite1 libpolkit-agent-1-0 libpolkit-gobject-1-0
+  libqmi-glib5 libqmi-proxy libqmi-utils libqrtr-glib0 librsvg2-2
+  librsvg2-common libsecret-1-0 libsecret-common libselinux1 libslang2
+  libsmartcols1 libsystemd-shared libsystemd0 libteamdctl0 libudev1 libuuid1
+  login login.defs mobile-broadband-provider-info modemmanager mount
+  network-manager nm-connection-editor notification-daemon passwd
+  pinentry-gnome3 policykit-1-gnome polkitd ppp rfkill sgml-base systemd
+  systemd-dev systemd-sysv systemd-timesyncd udev usb-modeswitch
+  usb-modeswitch-data util-linux wireless-regdb wpasupplicant xml-core
+Suggested packages:
+  pcscd librsvg2-bin uuid-runtime nfs-common libteam-utils iptables
+  network-manager-openconnect-gnome network-manager-openvpn-gnome
+  network-manager-vpnc-gnome network-manager-pptp-gnome pinentry-doc
+  polkitd-pkla sgml-base-doc systemd-container systemd-homed systemd-userdbd
+  systemd-boot systemd-resolved libip4tc2 libqrencode4 libtss2-rc0 comgt
+  wvdial dosfstools util-linux-extra util-linux-locales wtmpdb wpagui
+  libengine-pkcs11-openssl debhelper
+The following packages will be REMOVED:
+  systemd-standalone-sysusers
+The following NEW packages will be installed:
+  dbus-user-session dns-root-data dnsmasq-base gcr gnome-icon-theme
+  gnome-keyring gnome-keyring-pkcs11 libayatana-appindicator3-1
+  libayatana-ido3-0.4-0 libayatana-indicator3-7 libdbusmenu-glib4
+  libdbusmenu-gtk3-4 libduktape207 libgck-1-0 libgcr-base-3-1 libgcr-ui-3-1
+  libgudev-1.0-0 libjim0.79 libjson-glib-1.0-0 libjson-glib-1.0-common
+  libmbim-glib4 libmbim-proxy libmbim-utils libmm-glib0 libndp0
+  libnetfilter-conntrack3 libnewt0.52 libnfnetlink0 libnl-3-200
+  libnl-genl-3-200 libnl-route-3-200 libnm0 libnma-common libnma0
+  libnss-systemd libpam-gnome-keyring libpam-systemd libpcap0.8 libpcsclite1
+  libpolkit-agent-1-0 libpolkit-gobject-1-0 libqmi-glib5 libqmi-proxy
+  libqmi-utils libqrtr-glib0 librsvg2-common libsecret-1-0 libsecret-common
+  libslang2 libteamdctl0 login.defs mobile-broadband-provider-info
+  modemmanager mount network-manager network-manager-applet
+  nm-connection-editor notification-daemon pinentry-gnome3 policykit-1-gnome
+  polkitd ppp sgml-base systemd systemd-sysv systemd-timesyncd usb-modeswitch
+  usb-modeswitch-data wireless-regdb wpasupplicant xml-core
+The following packages will be upgraded:
+  base-passwd bsdextrautils bsdutils eject fdisk libblkid1 libfdisk1 libmount1
+  libnss-myhostname librsvg2-2 libselinux1 libsmartcols1 libsystemd-shared
+  libsystemd0 libudev1 libuuid1 login passwd rfkill systemd-dev udev
+  util-linux
+22 upgraded, 71 newly installed, 1 to remove and 231 not upgraded.
+Need to get 38.9 MB of archives.
+After this operation, 84.9 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main amd64 bsdutils amd64 1:2.40.4-3deepin4 [106 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main amd64 login.defs all 1:4.16.0-7deepin1 [185 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main amd64 login amd64 1:4.16.0-2+really2.40.4-3deepin4 [85.8 kB]
+Get:4 https://community-packages.deepin.com/beige beige/main amd64 eject amd64 2.40.4-3deepin4 [59.8 kB]
+Get:5 https://community-packages.deepin.com/beige beige/main amd64 bsdextrautils amd64 2.40.4-3deepin4 [97.2 kB]
+Get:6 https://community-packages.deepin.com/beige beige/main amd64 rfkill amd64 2.40.4-3deepin4 [42.8 kB]
+Get:7 https://community-packages.deepin.com/beige beige/main amd64 libsmartcols1 amd64 2.40.4-3deepin4 [139 kB]
+Get:8 https://community-packages.deepin.com/beige beige/main amd64 fdisk amd64 2.40.4-3deepin4 [153 kB]
+Get:9 https://community-packages.deepin.com/beige beige/main amd64 libblkid1 amd64 2.40.4-3deepin4 [168 kB]
+Get:10 https://community-packages.deepin.com/beige beige/main amd64 libmount1 amd64 2.40.4-3deepin4 [199 kB]
+Get:11 https://community-packages.deepin.com/beige beige/main amd64 libuuid1 amd64 2.40.4-3deepin4 [36.4 kB]
+Get:12 https://community-packages.deepin.com/beige beige/main amd64 util-linux amd64 2.40.4-3deepin4 [1218 kB]
+Get:13 https://community-packages.deepin.com/beige beige/main amd64 libfdisk1 amd64 2.40.4-3deepin4 [210 kB]
+Get:14 https://community-packages.deepin.com/beige beige/main amd64 libselinux1 amd64 3.5-1deepin5 [82.6 kB]
+Get:15 https://community-packages.deepin.com/beige beige/main amd64 libsystemd0 amd64 255.2-4deepin6 [362 kB]
+Get:16 https://community-packages.deepin.com/beige beige/main amd64 base-passwd amd64 3.6.5 [53.0 kB]
+Get:17 https://community-packages.deepin.com/beige beige/main amd64 systemd-dev all 255.2-4deepin6 [58.4 kB]
+Get:18 https://community-packages.deepin.com/beige beige/main amd64 libsystemd-shared amd64 255.2-4deepin6 [1935 kB]
+Get:19 https://community-packages.deepin.com/beige beige/main amd64 mount amd64 2.40.4-3deepin4 [155 kB]
+Get:20 https://community-packages.deepin.com/beige beige/main amd64 udev amd64 255.2-4deepin6 [1794 kB]
+Get:21 https://community-packages.deepin.com/beige beige/main amd64 systemd amd64 255.2-4deepin6 [3530 kB]
+Get:22 https://community-packages.deepin.com/beige beige/main amd64 systemd-sysv amd64 255.2-4deepin6 [49.1 kB]
+Get:23 https://community-packages.deepin.com/beige beige/main amd64 sgml-base all 1.30 [10.8 kB]
+Get:24 https://community-packages.deepin.com/beige beige/main amd64 passwd amd64 1:4.16.0-7deepin1 [1233 kB]
+Get:25 https://community-packages.deepin.com/beige beige/main amd64 libudev1 amd64 255.2-4deepin6 [124 kB]
+Get:26 https://community-packages.deepin.com/beige beige/main amd64 libnss-systemd amd64 255.2-4deepin6 [188 kB]
+Get:27 https://community-packages.deepin.com/beige beige/main amd64 libpam-systemd amd64 255.2-4deepin6 [259 kB]
+Get:28 https://community-packages.deepin.com/beige beige/main amd64 systemd-timesyncd amd64 255.2-4deepin6 [71.9 kB]
+Get:29 https://community-packages.deepin.com/beige beige/main amd64 dbus-user-session amd64 1.14.10-3 [78.8 kB]
+Get:30 https://community-packages.deepin.com/beige beige/main amd64 dns-root-data all 2021011101 [4312 B]
+Get:31 https://community-packages.deepin.com/beige beige/main amd64 libnfnetlink0 amd64 1.0.1-deepin1 [13.0 kB]
+Get:32 https://community-packages.deepin.com/beige beige/main amd64 libnetfilter-conntrack3 amd64 1.0.9-6 [41.1 kB]
+Get:33 https://community-packages.deepin.com/beige beige/main amd64 dnsmasq-base amd64 2.86-1.1 [470 kB]
+Get:34 https://community-packages.deepin.com/beige beige/main amd64 libgck-1-0 amd64 3.41.1-3 [75.0 kB]
+Get:35 https://community-packages.deepin.com/beige beige/main amd64 libgcr-base-3-1 amd64 3.41.1-3 [197 kB]
+Get:36 https://community-packages.deepin.com/beige beige/main amd64 libgcr-ui-3-1 amd64 3.41.1-3 [129 kB]
+Get:37 https://community-packages.deepin.com/beige beige/main amd64 libsecret-common all 0.21.4-1 [26.9 kB]
+Get:38 https://community-packages.deepin.com/beige beige/main amd64 libsecret-1-0 amd64 0.21.4-1 [110 kB]
+Get:39 https://community-packages.deepin.com/beige beige/main amd64 gcr amd64 3.41.1-3 [271 kB]
+Get:40 https://community-packages.deepin.com/beige beige/main amd64 librsvg2-2 amd64 2.58.0+dfsg-1 [1914 kB]
+Get:41 https://community-packages.deepin.com/beige beige/main amd64 librsvg2-common amd64 2.58.0+dfsg-1 [16.9 kB]
+Get:42 https://community-packages.deepin.com/beige beige/main amd64 gnome-icon-theme all 3.12.0-5 [9863 kB]
+Get:43 https://community-packages.deepin.com/beige beige/main amd64 pinentry-gnome3 amd64 1.2.0-2 [75.0 kB]
+Get:44 https://community-packages.deepin.com/beige beige/main amd64 gnome-keyring amd64 46.2-1deepin2 [1028 kB]
+Get:45 https://community-packages.deepin.com/beige beige/main amd64 gnome-keyring-pkcs11 amd64 46.2-1deepin2 [322 kB]
+Get:46 https://community-packages.deepin.com/beige beige/main amd64 libayatana-ido3-0.4-0 amd64 0.10.1-1 [55.2 kB]
+Get:47 https://community-packages.deepin.com/beige beige/main amd64 libayatana-indicator3-7 amd64 0.9.3-1 [31.7 kB]
+Get:48 https://community-packages.deepin.com/beige beige/main amd64 libdbusmenu-glib4 amd64 18.10.20180917~bzr492+repack1-deepin1 [40.0 kB]
+Get:49 https://community-packages.deepin.com/beige beige/main amd64 libdbusmenu-gtk3-4 amd64 18.10.20180917~bzr492+repack1-deepin1 [26.7 kB]
+Get:50 https://community-packages.deepin.com/beige beige/main amd64 libayatana-appindicator3-1 amd64 0.5.92-1 [23.9 kB]
+Get:51 https://community-packages.deepin.com/beige beige/main amd64 libduktape207 amd64 2.7.0-2 [133 kB]
+Get:52 https://community-packages.deepin.com/beige beige/main amd64 libgudev-1.0-0 amd64 238-2deepin1 [14.0 kB]
+Get:53 https://community-packages.deepin.com/beige beige/main amd64 libjim0.79 amd64 0.79+dfsg0.1-1+dde [120 kB]
+Get:54 https://community-packages.deepin.com/beige beige/main amd64 libjson-glib-1.0-common all 1.8.0-2 [57.4 kB]
+Get:55 https://community-packages.deepin.com/beige beige/main amd64 libjson-glib-1.0-0 amd64 1.8.0-2 [63.4 kB]
+Get:56 https://community-packages.deepin.com/beige beige/main amd64 libmbim-glib4 amd64 1.30.0-1 [214 kB]
+Get:57 https://community-packages.deepin.com/beige beige/main amd64 libmbim-proxy amd64 1.30.0-1 [8760 B]
+Get:58 https://community-packages.deepin.com/beige beige/main amd64 libmbim-utils amd64 1.30.0-1 [69.3 kB]
+Get:59 https://community-packages.deepin.com/beige beige/main amd64 libmm-glib0 amd64 1.22.0-1 [229 kB]
+Get:60 https://community-packages.deepin.com/beige beige/main amd64 libndp0 amd64 1.8-1deepin1 [12.0 kB]
+Get:61 https://community-packages.deepin.com/beige beige/main amd64 libslang2 amd64 2.3.2-5 [501 kB]
+Get:62 https://community-packages.deepin.com/beige beige/main amd64 libnewt0.52 amd64 0.52.21-5deepin1 [58.5 kB]
+Get:63 https://community-packages.deepin.com/beige beige/main amd64 libnl-3-200 amd64 3.4.0-deepin1 [58.8 kB]
+Get:64 https://community-packages.deepin.com/beige beige/main amd64 libnl-genl-3-200 amd64 3.4.0-deepin1 [17.2 kB]
+Get:65 https://community-packages.deepin.com/beige beige/main amd64 libnl-route-3-200 amd64 3.4.0-deepin1 [159 kB]
+Get:66 https://community-packages.deepin.com/beige beige/main amd64 libnm0 amd64 1.44.2-7deepin5 [444 kB]
+Get:67 https://community-packages.deepin.com/beige beige/main amd64 libnma-common all 1.10.6-2 [136 kB]
+Get:68 https://community-packages.deepin.com/beige beige/main amd64 libnma0 amd64 1.10.6-2 [89.8 kB]
+Get:69 https://community-packages.deepin.com/beige beige/main amd64 libnss-myhostname amd64 255.2-4deepin6 [97.8 kB]
+Get:70 https://community-packages.deepin.com/beige beige/main amd64 libpam-gnome-keyring amd64 46.2-1deepin2 [318 kB]
+Get:71 https://community-packages.deepin.com/beige beige/main amd64 libpcap0.8 amd64 1.10.1-4 [151 kB]
+Get:72 https://community-packages.deepin.com/beige beige/main amd64 libpcsclite1 amd64 2.3.1-1 [55.3 kB]
+Get:73 https://community-packages.deepin.com/beige beige/main amd64 libpolkit-gobject-1-0 amd64 123-3deepin6 [57.2 kB]
+Get:74 https://community-packages.deepin.com/beige beige/main amd64 libpolkit-agent-1-0 amd64 123-3deepin6 [40.9 kB]
+Get:75 https://community-packages.deepin.com/beige beige/main amd64 libqrtr-glib0 amd64 1.2.2-1 [16.2 kB]
+Get:76 https://community-packages.deepin.com/beige beige/main amd64 libqmi-glib5 amd64 1.34.0-2 [841 kB]
+Get:77 https://community-packages.deepin.com/beige beige/main amd64 libqmi-proxy amd64 1.34.0-2 [9452 B]
+Get:78 https://community-packages.deepin.com/beige beige/main amd64 libqmi-utils amd64 1.34.0-2 [194 kB]
+Get:79 https://community-packages.deepin.com/beige beige/main amd64 libteamdctl0 amd64 1.31-1 [11.3 kB]
+Get:80 https://community-packages.deepin.com/beige beige/main amd64 mobile-broadband-provider-info all 20210805-1 [61.4 kB]
+Get:81 https://community-packages.deepin.com/beige beige/main amd64 xml-core all 0.18+nmu1 [20.1 kB]
+Get:82 https://community-packages.deepin.com/beige beige/main amd64 polkitd amd64 123-3deepin6 [153 kB]
+Get:83 https://community-packages.deepin.com/beige beige/main amd64 modemmanager amd64 1.22.0-1 [993 kB]
+Get:84 https://community-packages.deepin.com/beige beige/main amd64 network-manager amd64 1.44.2-7deepin5 [3215 kB]
+Get:85 https://community-packages.deepin.com/beige beige/main amd64 policykit-1-gnome amd64 0.105-8 [64.0 kB]
+Get:86 https://community-packages.deepin.com/beige beige/main amd64 nm-connection-editor amd64 1.36.0-3 [815 kB]
+Get:87 https://community-packages.deepin.com/beige beige/main amd64 network-manager-applet amd64 1.36.0-3 [81.3 kB]
+Get:88 https://community-packages.deepin.com/beige beige/main amd64 notification-daemon amd64 3.20.0-deepin1 [54.4 kB]
+Get:89 https://community-packages.deepin.com/beige beige/main amd64 ppp amd64 2.4.9-1+1 [347 kB]
+Get:90 https://community-packages.deepin.com/beige beige/main amd64 usb-modeswitch-data all 20191128-4deepin1 [36.4 kB]
+Get:91 https://community-packages.deepin.com/beige beige/main amd64 usb-modeswitch amd64 2.6.1-3 [50.4 kB]
+Get:92 https://community-packages.deepin.com/beige beige/main amd64 wireless-regdb all 2022.06.06-1 [10.1 kB]
+Get:93 https://community-packages.deepin.com/beige beige/main amd64 wpasupplicant amd64 2:2.10-deepin3 [1425 kB]
+Fetched 38.9 MB in 3s (11.3 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27594 files and directories currently installed.)
+Preparing to unpack .../bsdutils_1%3a2.40.4-3deepin4_amd64.deb ...
+Unpacking bsdutils (1:2.40.4-3deepin4) over (1:2.39.3-6deepin1) ...
+Setting up bsdutils (1:2.40.4-3deepin4) ...
+Selecting previously unselected package login.defs.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27595 files and directories currently installed.)
+Preparing to unpack .../login.defs_1%3a4.16.0-7deepin1_all.deb ...
+Unpacking login.defs (1:4.16.0-7deepin1) ...
+Replacing files in old package login (1:4.14+dfsg1-0deepin3) ...
+Setting up login.defs (1:4.16.0-7deepin1) ...
+Installing new version of config file /etc/login.defs ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27600 files and directories currently installed.)
+Preparing to unpack .../login_1%3a4.16.0-2+really2.40.4-3deepin4_amd64.deb ...
+Unpacking login (1:4.16.0-2+really2.40.4-3deepin4) over (1:4.14+dfsg1-0deepin3) ...
+Setting up login (1:4.16.0-2+really2.40.4-3deepin4) ...
+Installing new version of config file /etc/pam.d/login ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27490 files and directories currently installed.)
+Preparing to unpack .../eject_2.40.4-3deepin4_amd64.deb ...
+Unpacking eject (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Preparing to unpack .../bsdextrautils_2.40.4-3deepin4_amd64.deb ...
+Unpacking bsdextrautils (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Preparing to unpack .../rfkill_2.40.4-3deepin4_amd64.deb ...
+Unpacking rfkill (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Preparing to unpack .../libsmartcols1_2.40.4-3deepin4_amd64.deb ...
+Unpacking libsmartcols1:amd64 (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Setting up libsmartcols1:amd64 (2.40.4-3deepin4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27493 files and directories currently installed.)
+Preparing to unpack .../fdisk_2.40.4-3deepin4_amd64.deb ...
+Unpacking fdisk (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Preparing to unpack .../libblkid1_2.40.4-3deepin4_amd64.deb ...
+Unpacking libblkid1:amd64 (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Setting up libblkid1:amd64 (2.40.4-3deepin4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27495 files and directories currently installed.)
+Preparing to unpack .../libmount1_2.40.4-3deepin4_amd64.deb ...
+Unpacking libmount1:amd64 (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Setting up libmount1:amd64 (2.40.4-3deepin4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27496 files and directories currently installed.)
+Preparing to unpack .../libuuid1_2.40.4-3deepin4_amd64.deb ...
+Unpacking libuuid1:amd64 (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Setting up libuuid1:amd64 (2.40.4-3deepin4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27497 files and directories currently installed.)
+Preparing to unpack .../util-linux_2.40.4-3deepin4_amd64.deb ...
+Unpacking util-linux (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Setting up util-linux (2.40.4-3deepin4) ...
+update-alternatives: warning: forcing reinstallation of alternative /bin/more because link group pager is broken
+/var/lib/dpkg/info/util-linux.postinst: 28: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+fstrim.timer is a disabled or a static unit not running, not starting it.
+/var/lib/dpkg/info/util-linux.postinst: 41: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+fstrim.service is a disabled or a static unit not running, not starting it.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27469 files and directories currently installed.)
+Preparing to unpack .../libfdisk1_2.40.4-3deepin4_amd64.deb ...
+Unpacking libfdisk1:amd64 (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Preparing to unpack .../libselinux1_3.5-1deepin5_amd64.deb ...
+Unpacking libselinux1:amd64 (3.5-1deepin5) over (3.5-1) ...
+Setting up libselinux1:amd64 (3.5-1deepin5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27470 files and directories currently installed.)
+Preparing to unpack .../libsystemd0_255.2-4deepin6_amd64.deb ...
+Unpacking libsystemd0:amd64 (255.2-4deepin6) over (255.2-4) ...
+Setting up libsystemd0:amd64 (255.2-4deepin6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27470 files and directories currently installed.)
+Preparing to unpack .../base-passwd_3.6.5_amd64.deb ...
+Unpacking base-passwd (3.6.5) over (3.6.3) ...
+Setting up base-passwd (3.6.5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27471 files and directories currently installed.)
+Preparing to unpack .../systemd-dev_255.2-4deepin6_all.deb ...
+Unpacking systemd-dev (255.2-4deepin6) over (255.2-4) ...
+Preparing to unpack .../libsystemd-shared_255.2-4deepin6_amd64.deb ...
+Unpacking libsystemd-shared:amd64 (255.2-4deepin6) over (255.2-4) ...
+Selecting previously unselected package mount.
+Preparing to unpack .../mount_2.40.4-3deepin4_amd64.deb ...
+Unpacking mount (2.40.4-3deepin4) ...
+Preparing to unpack .../udev_255.2-4deepin6_amd64.deb ...
+Unpacking udev (255.2-4deepin6) over (255.2-4) ...
+dpkg: systemd-standalone-sysusers: dependency problems, but removing anyway as you requested:
+ udev depends on systemd | systemd-standalone-sysusers | systemd-sysusers; however:
+  Package systemd is not installed.
+  Package systemd-standalone-sysusers is to be removed.
+  Package systemd-sysusers is not installed.
+  Package systemd-standalone-sysusers which provides systemd-sysusers is to be removed.
+ udev depends on systemd | systemd-standalone-sysusers | systemd-sysusers; however:
+  Package systemd is not installed.
+  Package systemd-standalone-sysusers is to be removed.
+  Package systemd-sysusers is not installed.
+  Package systemd-standalone-sysusers which provides systemd-sysusers is to be removed.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27498 files and directories currently installed.)
+Removing systemd-standalone-sysusers (255.2-4) ...
+Selecting previously unselected package systemd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27491 files and directories currently installed.)
+Preparing to unpack .../systemd_255.2-4deepin6_amd64.deb ...
+Unpacking systemd (255.2-4deepin6) ...
+Setting up libfdisk1:amd64 (2.40.4-3deepin4) ...
+Setting up libsystemd-shared:amd64 (255.2-4deepin6) ...
+Setting up systemd-dev (255.2-4deepin6) ...
+Setting up mount (2.40.4-3deepin4) ...
+Setting up systemd (255.2-4deepin6) ...
+
+Configuration file '/etc/systemd/journald.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/logind.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/networkd.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/pstore.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/sleep.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/system.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/user.conf', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/system/getty.target.wants/getty@tty1.service → /usr/lib/systemd/system/getty@.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target → /usr/lib/systemd/system/remote-fs.target.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-pstore.service → /usr/lib/systemd/system/systemd-pstore.service.
+Setting access ACL "u::rwx,g::r-x,g:adm:r-x,m::r-x,o::r-x" on /var/log/journal failed: Invalid argument
+Selecting previously unselected package systemd-sysv.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28442 files and directories currently installed.)
+Preparing to unpack .../systemd-sysv_255.2-4deepin6_amd64.deb ...
+Unpacking systemd-sysv (255.2-4deepin6) ...
+Selecting previously unselected package sgml-base.
+Preparing to unpack .../sgml-base_1.30_all.deb ...
+Unpacking sgml-base (1.30) ...
+Preparing to unpack .../passwd_1%3a4.16.0-7deepin1_amd64.deb ...
+Unpacking passwd (1:4.16.0-7deepin1) over (1:4.14+dfsg1-0deepin3) ...
+Setting up passwd (1:4.16.0-7deepin1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28515 files and directories currently installed.)
+Preparing to unpack .../libudev1_255.2-4deepin6_amd64.deb ...
+Unpacking libudev1:amd64 (255.2-4deepin6) over (255.2-4) ...
+Setting up libudev1:amd64 (255.2-4deepin6) ...
+Selecting previously unselected package libnss-systemd:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28515 files and directories currently installed.)
+Preparing to unpack .../00-libnss-systemd_255.2-4deepin6_amd64.deb ...
+Unpacking libnss-systemd:amd64 (255.2-4deepin6) ...
+Selecting previously unselected package libpam-systemd:amd64.
+Preparing to unpack .../01-libpam-systemd_255.2-4deepin6_amd64.deb ...
+Unpacking libpam-systemd:amd64 (255.2-4deepin6) ...
+Selecting previously unselected package systemd-timesyncd.
+Preparing to unpack .../02-systemd-timesyncd_255.2-4deepin6_amd64.deb ...
+Unpacking systemd-timesyncd (255.2-4deepin6) ...
+Selecting previously unselected package dbus-user-session.
+Preparing to unpack .../03-dbus-user-session_1.14.10-3_amd64.deb ...
+Unpacking dbus-user-session (1.14.10-3) ...
+Selecting previously unselected package dns-root-data.
+Preparing to unpack .../04-dns-root-data_2021011101_all.deb ...
+Unpacking dns-root-data (2021011101) ...
+Selecting previously unselected package libnfnetlink0:amd64.
+Preparing to unpack .../05-libnfnetlink0_1.0.1-deepin1_amd64.deb ...
+Unpacking libnfnetlink0:amd64 (1.0.1-deepin1) ...
+Selecting previously unselected package libnetfilter-conntrack3:amd64.
+Preparing to unpack .../06-libnetfilter-conntrack3_1.0.9-6_amd64.deb ...
+Unpacking libnetfilter-conntrack3:amd64 (1.0.9-6) ...
+Selecting previously unselected package dnsmasq-base.
+Preparing to unpack .../07-dnsmasq-base_2.86-1.1_amd64.deb ...
+Unpacking dnsmasq-base (2.86-1.1) ...
+Selecting previously unselected package libgck-1-0:amd64.
+Preparing to unpack .../08-libgck-1-0_3.41.1-3_amd64.deb ...
+Unpacking libgck-1-0:amd64 (3.41.1-3) ...
+Selecting previously unselected package libgcr-base-3-1:amd64.
+Preparing to unpack .../09-libgcr-base-3-1_3.41.1-3_amd64.deb ...
+Unpacking libgcr-base-3-1:amd64 (3.41.1-3) ...
+Selecting previously unselected package libgcr-ui-3-1:amd64.
+Preparing to unpack .../10-libgcr-ui-3-1_3.41.1-3_amd64.deb ...
+Unpacking libgcr-ui-3-1:amd64 (3.41.1-3) ...
+Selecting previously unselected package libsecret-common.
+Preparing to unpack .../11-libsecret-common_0.21.4-1_all.deb ...
+Unpacking libsecret-common (0.21.4-1) ...
+Selecting previously unselected package libsecret-1-0:amd64.
+Preparing to unpack .../12-libsecret-1-0_0.21.4-1_amd64.deb ...
+Unpacking libsecret-1-0:amd64 (0.21.4-1) ...
+Selecting previously unselected package gcr.
+Preparing to unpack .../13-gcr_3.41.1-3_amd64.deb ...
+Unpacking gcr (3.41.1-3) ...
+Preparing to unpack .../14-librsvg2-2_2.58.0+dfsg-1_amd64.deb ...
+Unpacking librsvg2-2:amd64 (2.58.0+dfsg-1) over (2.54.7+dfsg-2deepin1) ...
+Selecting previously unselected package librsvg2-common:amd64.
+Preparing to unpack .../15-librsvg2-common_2.58.0+dfsg-1_amd64.deb ...
+Unpacking librsvg2-common:amd64 (2.58.0+dfsg-1) ...
+Selecting previously unselected package gnome-icon-theme.
+Preparing to unpack .../16-gnome-icon-theme_3.12.0-5_all.deb ...
+Unpacking gnome-icon-theme (3.12.0-5) ...
+Selecting previously unselected package pinentry-gnome3.
+Preparing to unpack .../17-pinentry-gnome3_1.2.0-2_amd64.deb ...
+Unpacking pinentry-gnome3 (1.2.0-2) ...
+Selecting previously unselected package gnome-keyring.
+Preparing to unpack .../18-gnome-keyring_46.2-1deepin2_amd64.deb ...
+Unpacking gnome-keyring (46.2-1deepin2) ...
+Selecting previously unselected package gnome-keyring-pkcs11:amd64.
+Preparing to unpack .../19-gnome-keyring-pkcs11_46.2-1deepin2_amd64.deb ...
+Unpacking gnome-keyring-pkcs11:amd64 (46.2-1deepin2) ...
+Selecting previously unselected package libayatana-ido3-0.4-0:amd64.
+Preparing to unpack .../20-libayatana-ido3-0.4-0_0.10.1-1_amd64.deb ...
+Unpacking libayatana-ido3-0.4-0:amd64 (0.10.1-1) ...
+Selecting previously unselected package libayatana-indicator3-7:amd64.
+Preparing to unpack .../21-libayatana-indicator3-7_0.9.3-1_amd64.deb ...
+Unpacking libayatana-indicator3-7:amd64 (0.9.3-1) ...
+Selecting previously unselected package libdbusmenu-glib4:amd64.
+Preparing to unpack .../22-libdbusmenu-glib4_18.10.20180917~bzr492+repack1-deepin1_amd64.deb ...
+Unpacking libdbusmenu-glib4:amd64 (18.10.20180917~bzr492+repack1-deepin1) ...
+Selecting previously unselected package libdbusmenu-gtk3-4:amd64.
+Preparing to unpack .../23-libdbusmenu-gtk3-4_18.10.20180917~bzr492+repack1-deepin1_amd64.deb ...
+Unpacking libdbusmenu-gtk3-4:amd64 (18.10.20180917~bzr492+repack1-deepin1) ...
+Selecting previously unselected package libayatana-appindicator3-1.
+Preparing to unpack .../24-libayatana-appindicator3-1_0.5.92-1_amd64.deb ...
+Unpacking libayatana-appindicator3-1 (0.5.92-1) ...
+Selecting previously unselected package libduktape207:amd64.
+Preparing to unpack .../25-libduktape207_2.7.0-2_amd64.deb ...
+Unpacking libduktape207:amd64 (2.7.0-2) ...
+Selecting previously unselected package libgudev-1.0-0:amd64.
+Preparing to unpack .../26-libgudev-1.0-0_238-2deepin1_amd64.deb ...
+Unpacking libgudev-1.0-0:amd64 (238-2deepin1) ...
+Selecting previously unselected package libjim0.79:amd64.
+Preparing to unpack .../27-libjim0.79_0.79+dfsg0.1-1+dde_amd64.deb ...
+Unpacking libjim0.79:amd64 (0.79+dfsg0.1-1+dde) ...
+Selecting previously unselected package libjson-glib-1.0-common.
+Preparing to unpack .../28-libjson-glib-1.0-common_1.8.0-2_all.deb ...
+Unpacking libjson-glib-1.0-common (1.8.0-2) ...
+Selecting previously unselected package libjson-glib-1.0-0:amd64.
+Preparing to unpack .../29-libjson-glib-1.0-0_1.8.0-2_amd64.deb ...
+Unpacking libjson-glib-1.0-0:amd64 (1.8.0-2) ...
+Selecting previously unselected package libmbim-glib4:amd64.
+Preparing to unpack .../30-libmbim-glib4_1.30.0-1_amd64.deb ...
+Unpacking libmbim-glib4:amd64 (1.30.0-1) ...
+Selecting previously unselected package libmbim-proxy.
+Preparing to unpack .../31-libmbim-proxy_1.30.0-1_amd64.deb ...
+Unpacking libmbim-proxy (1.30.0-1) ...
+Selecting previously unselected package libmbim-utils.
+Preparing to unpack .../32-libmbim-utils_1.30.0-1_amd64.deb ...
+Unpacking libmbim-utils (1.30.0-1) ...
+Selecting previously unselected package libmm-glib0:amd64.
+Preparing to unpack .../33-libmm-glib0_1.22.0-1_amd64.deb ...
+Unpacking libmm-glib0:amd64 (1.22.0-1) ...
+Selecting previously unselected package libndp0:amd64.
+Preparing to unpack .../34-libndp0_1.8-1deepin1_amd64.deb ...
+Unpacking libndp0:amd64 (1.8-1deepin1) ...
+Selecting previously unselected package libslang2:amd64.
+Preparing to unpack .../35-libslang2_2.3.2-5_amd64.deb ...
+Unpacking libslang2:amd64 (2.3.2-5) ...
+Selecting previously unselected package libnewt0.52:amd64.
+Preparing to unpack .../36-libnewt0.52_0.52.21-5deepin1_amd64.deb ...
+Unpacking libnewt0.52:amd64 (0.52.21-5deepin1) ...
+Selecting previously unselected package libnl-3-200:amd64.
+Preparing to unpack .../37-libnl-3-200_3.4.0-deepin1_amd64.deb ...
+Unpacking libnl-3-200:amd64 (3.4.0-deepin1) ...
+Selecting previously unselected package libnl-genl-3-200:amd64.
+Preparing to unpack .../38-libnl-genl-3-200_3.4.0-deepin1_amd64.deb ...
+Unpacking libnl-genl-3-200:amd64 (3.4.0-deepin1) ...
+Selecting previously unselected package libnl-route-3-200:amd64.
+Preparing to unpack .../39-libnl-route-3-200_3.4.0-deepin1_amd64.deb ...
+Unpacking libnl-route-3-200:amd64 (3.4.0-deepin1) ...
+Selecting previously unselected package libnm0:amd64.
+Preparing to unpack .../40-libnm0_1.44.2-7deepin5_amd64.deb ...
+Unpacking libnm0:amd64 (1.44.2-7deepin5) ...
+Selecting previously unselected package libnma-common.
+Preparing to unpack .../41-libnma-common_1.10.6-2_all.deb ...
+Unpacking libnma-common (1.10.6-2) ...
+Selecting previously unselected package libnma0:amd64.
+Preparing to unpack .../42-libnma0_1.10.6-2_amd64.deb ...
+Unpacking libnma0:amd64 (1.10.6-2) ...
+Preparing to unpack .../43-libnss-myhostname_255.2-4deepin6_amd64.deb ...
+Unpacking libnss-myhostname:amd64 (255.2-4deepin6) over (255.2-4) ...
+Selecting previously unselected package libpam-gnome-keyring:amd64.
+Preparing to unpack .../44-libpam-gnome-keyring_46.2-1deepin2_amd64.deb ...
+Unpacking libpam-gnome-keyring:amd64 (46.2-1deepin2) ...
+Selecting previously unselected package libpcap0.8:amd64.
+Preparing to unpack .../45-libpcap0.8_1.10.1-4_amd64.deb ...
+Unpacking libpcap0.8:amd64 (1.10.1-4) ...
+Selecting previously unselected package libpcsclite1:amd64.
+Preparing to unpack .../46-libpcsclite1_2.3.1-1_amd64.deb ...
+Unpacking libpcsclite1:amd64 (2.3.1-1) ...
+Selecting previously unselected package libpolkit-gobject-1-0:amd64.
+Preparing to unpack .../47-libpolkit-gobject-1-0_123-3deepin6_amd64.deb ...
+Unpacking libpolkit-gobject-1-0:amd64 (123-3deepin6) ...
+Selecting previously unselected package libpolkit-agent-1-0:amd64.
+Preparing to unpack .../48-libpolkit-agent-1-0_123-3deepin6_amd64.deb ...
+Unpacking libpolkit-agent-1-0:amd64 (123-3deepin6) ...
+Selecting previously unselected package libqrtr-glib0:amd64.
+Preparing to unpack .../49-libqrtr-glib0_1.2.2-1_amd64.deb ...
+Unpacking libqrtr-glib0:amd64 (1.2.2-1) ...
+Selecting previously unselected package libqmi-glib5:amd64.
+Preparing to unpack .../50-libqmi-glib5_1.34.0-2_amd64.deb ...
+Unpacking libqmi-glib5:amd64 (1.34.0-2) ...
+Selecting previously unselected package libqmi-proxy.
+Preparing to unpack .../51-libqmi-proxy_1.34.0-2_amd64.deb ...
+Unpacking libqmi-proxy (1.34.0-2) ...
+Selecting previously unselected package libqmi-utils.
+Preparing to unpack .../52-libqmi-utils_1.34.0-2_amd64.deb ...
+Unpacking libqmi-utils (1.34.0-2) ...
+Selecting previously unselected package libteamdctl0:amd64.
+Preparing to unpack .../53-libteamdctl0_1.31-1_amd64.deb ...
+Unpacking libteamdctl0:amd64 (1.31-1) ...
+Selecting previously unselected package mobile-broadband-provider-info.
+Preparing to unpack .../54-mobile-broadband-provider-info_20210805-1_all.deb ...
+Unpacking mobile-broadband-provider-info (20210805-1) ...
+Selecting previously unselected package xml-core.
+Preparing to unpack .../55-xml-core_0.18+nmu1_all.deb ...
+Unpacking xml-core (0.18+nmu1) ...
+Selecting previously unselected package polkitd.
+Preparing to unpack .../56-polkitd_123-3deepin6_amd64.deb ...
+Unpacking polkitd (123-3deepin6) ...
+Selecting previously unselected package modemmanager.
+Preparing to unpack .../57-modemmanager_1.22.0-1_amd64.deb ...
+Unpacking modemmanager (1.22.0-1) ...
+Selecting previously unselected package network-manager.
+Preparing to unpack .../58-network-manager_1.44.2-7deepin5_amd64.deb ...
+Unpacking network-manager (1.44.2-7deepin5) ...
+Selecting previously unselected package policykit-1-gnome.
+Preparing to unpack .../59-policykit-1-gnome_0.105-8_amd64.deb ...
+Unpacking policykit-1-gnome (0.105-8) ...
+Selecting previously unselected package nm-connection-editor.
+Preparing to unpack .../60-nm-connection-editor_1.36.0-3_amd64.deb ...
+Unpacking nm-connection-editor (1.36.0-3) ...
+Selecting previously unselected package network-manager-applet.
+Preparing to unpack .../61-network-manager-applet_1.36.0-3_amd64.deb ...
+Unpacking network-manager-applet (1.36.0-3) ...
+Selecting previously unselected package notification-daemon.
+Preparing to unpack .../62-notification-daemon_3.20.0-deepin1_amd64.deb ...
+Unpacking notification-daemon (3.20.0-deepin1) ...
+Selecting previously unselected package ppp.
+Preparing to unpack .../63-ppp_2.4.9-1+1_amd64.deb ...
+Running in chroot, ignoring command 'daemon-reload'
+Unpacking ppp (2.4.9-1+1) ...
+Selecting previously unselected package usb-modeswitch-data.
+Preparing to unpack .../64-usb-modeswitch-data_20191128-4deepin1_all.deb ...
+Unpacking usb-modeswitch-data (20191128-4deepin1) ...
+Selecting previously unselected package usb-modeswitch.
+Preparing to unpack .../65-usb-modeswitch_2.6.1-3_amd64.deb ...
+Unpacking usb-modeswitch (2.6.1-3) ...
+Selecting previously unselected package wireless-regdb.
+Preparing to unpack .../66-wireless-regdb_2022.06.06-1_all.deb ...
+Unpacking wireless-regdb (2022.06.06-1) ...
+Selecting previously unselected package wpasupplicant.
+Preparing to unpack .../67-wpasupplicant_2%3a2.10-deepin3_amd64.deb ...
+Unpacking wpasupplicant (2:2.10-deepin3) ...
+Setting up systemd-sysv (255.2-4deepin6) ...
+Setting up libjim0.79:amd64 (0.79+dfsg0.1-1+dde) ...
+Setting up bsdextrautils (2.40.4-3deepin4) ...
+Setting up mobile-broadband-provider-info (20210805-1) ...
+Setting up libdbusmenu-glib4:amd64 (18.10.20180917~bzr492+repack1-deepin1) ...
+Setting up wireless-regdb (2022.06.06-1) ...
+update-alternatives: using /lib/firmware/regulatory.db-debian to provide /lib/firmware/regulatory.db (regulatory.db) in auto mode
+Setting up libnss-systemd:amd64 (255.2-4deepin6) ...
+Setting up libayatana-ido3-0.4-0:amd64 (0.10.1-1) ...
+Setting up fdisk (2.40.4-3deepin4) ...
+Setting up notification-daemon (3.20.0-deepin1) ...
+Setting up dns-root-data (2021011101) ...
+Setting up librsvg2-2:amd64 (2.58.0+dfsg-1) ...
+Setting up eject (2.40.4-3deepin4) ...
+Setting up libqrtr-glib0:amd64 (1.2.2-1) ...
+Setting up libslang2:amd64 (2.3.2-5) ...
+Setting up libpcap0.8:amd64 (1.10.1-4) ...
+Setting up libteamdctl0:amd64 (1.31-1) ...
+Setting up rfkill (2.40.4-3deepin4) ...
+Setting up usb-modeswitch-data (20191128-4deepin1) ...
+Setting up systemd-timesyncd (255.2-4deepin6) ...
+
+Configuration file '/etc/dhcp/dhclient-exit-hooks.d/timesyncd', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/timesyncd.conf', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/system/dbus-org.freedesktop.timesync1.service → /usr/lib/systemd/system/systemd-timesyncd.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-timesyncd.service → /usr/lib/systemd/system/systemd-timesyncd.service.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Setting up udev (255.2-4deepin6) ...
+fchmod() of /dev/loop-control failed: Operation not permitted
+fchmod() of /dev/kvm failed: Operation not permitted
+fchmod() of /dev/vhost-net failed: Operation not permitted
+fchmod() of /dev/vhost-vsock failed: Operation not permitted
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'restart'
+Setting up libnss-myhostname:amd64 (255.2-4deepin6) ...
+Setting up libnma-common (1.10.6-2) ...
+Setting up libpcsclite1:amd64 (2.3.1-1) ...
+Setting up librsvg2-common:amd64 (2.58.0+dfsg-1) ...
+Setting up libnm0:amd64 (1.44.2-7deepin5) ...
+Setting up ppp (2.4.9-1+1) ...
+
+Configuration file '/etc/chatscripts/gprs', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/chatscripts/pap', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/logrotate.d/ppp', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/pam.d/ppp', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ppp/ip-down', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ppp/ip-down.d/0000usepeerdns', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ppp/ip-pre-up', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ppp/ip-up', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ppp/ip-up.d/0000usepeerdns', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ppp/ipv6-down', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ppp/ipv6-up', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ppp/options', does not exist on system.
+Installing new config file as you requested.
+Setting up gnome-keyring-pkcs11:amd64 (46.2-1deepin2) ...
+Setting up libduktape207:amd64 (2.7.0-2) ...
+Setting up libmm-glib0:amd64 (1.22.0-1) ...
+Setting up libnfnetlink0:amd64 (1.0.1-deepin1) ...
+Setting up libnl-3-200:amd64 (3.4.0-deepin1) ...
+
+Configuration file '/etc/libnl-3/classid', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/libnl-3/pktloc', does not exist on system.
+Installing new config file as you requested.
+Setting up libpam-systemd:amd64 (255.2-4deepin6) ...
+Setting up libjson-glib-1.0-common (1.8.0-2) ...
+Setting up sgml-base (1.30) ...
+Setting up usb-modeswitch (2.6.1-3) ...
+
+Configuration file '/etc/usb_modeswitch.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up libndp0:amd64 (1.8-1deepin1) ...
+Setting up libgck-1-0:amd64 (3.41.1-3) ...
+Setting up libayatana-indicator3-7:amd64 (0.9.3-1) ...
+Setting up libgcr-base-3-1:amd64 (3.41.1-3) ...
+Setting up libpam-gnome-keyring:amd64 (46.2-1deepin2) ...
+Setting up libgudev-1.0-0:amd64 (238-2deepin1) ...
+Setting up libpolkit-gobject-1-0:amd64 (123-3deepin6) ...
+Setting up libsecret-common (0.21.4-1) ...
+Setting up libmbim-glib4:amd64 (1.30.0-1) ...
+Setting up libgcr-ui-3-1:amd64 (3.41.1-3) ...
+Setting up libdbusmenu-gtk3-4:amd64 (18.10.20180917~bzr492+repack1-deepin1) ...
+Setting up libnewt0.52:amd64 (0.52.21-5deepin1) ...
+Setting up libmbim-proxy (1.30.0-1) ...
+Setting up gnome-icon-theme (3.12.0-5) ...
+update-alternatives: using /usr/share/icons/gnome/scalable/places/debian-swirl.svg to provide /usr/share/icons/gnome/scalable/places/start-here.svg (start-here.svg) in auto mode
+Setting up libjson-glib-1.0-0:amd64 (1.8.0-2) ...
+Setting up libnl-route-3-200:amd64 (3.4.0-deepin1) ...
+Setting up dbus-user-session (1.14.10-3) ...
+
+Configuration file '/etc/X11/Xsession.d/20dbus_xdg-runtime', does not exist on system.
+Installing new config file as you requested.
+Setting up libsecret-1-0:amd64 (0.21.4-1) ...
+Setting up libayatana-appindicator3-1 (0.5.92-1) ...
+Setting up libnetfilter-conntrack3:amd64 (1.0.9-6) ...
+Setting up xml-core (0.18+nmu1) ...
+
+Configuration file '/etc/sgml/xml-core.cat', does not exist on system.
+Installing new config file as you requested.
+Setting up libnl-genl-3-200:amd64 (3.4.0-deepin1) ...
+Setting up libpolkit-agent-1-0:amd64 (123-3deepin6) ...
+Setting up libmbim-utils (1.30.0-1) ...
+Setting up libqmi-glib5:amd64 (1.34.0-2) ...
+Setting up dnsmasq-base (2.86-1.1) ...
+
+Configuration file '/etc/dbus-1/system.d/dnsmasq.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up gcr (3.41.1-3) ...
+Created symlink /etc/systemd/user/graphical-session-pre.target.wants/gcr-ssh-agent.service → /usr/lib/systemd/user/gcr-ssh-agent.service.
+Created symlink /etc/systemd/user/sockets.target.wants/gcr-ssh-agent.socket → /usr/lib/systemd/user/gcr-ssh-agent.socket.
+Setting up wpasupplicant (2:2.10-deepin3) ...
+
+Configuration file '/etc/wpa_supplicant/action_wpa.sh', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/wpa_supplicant/functions.sh', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/wpa_supplicant/ifupdown.sh', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/system/dbus-fi.w1.wpa_supplicant1.service → /usr/lib/systemd/system/wpa_supplicant.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/wpa_supplicant.service → /usr/lib/systemd/system/wpa_supplicant.service.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Setting up libqmi-proxy (1.34.0-2) ...
+Setting up libqmi-utils (1.34.0-2) ...
+Processing triggers for initramfs-tools (0.142) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libglib2.0-0:amd64 (2.80.1-1deepin1) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Setting up libnma0:amd64 (1.10.6-2) ...
+Setting up pinentry-gnome3 (1.2.0-2) ...
+Processing triggers for dbus (1.14.10-3) ...
+Processing triggers for shared-mime-info (2.2-1) ...
+Processing triggers for libgdk-pixbuf-2.0-0:amd64 (2.42.10+dfsg-3) ...
+Setting up gnome-keyring (46.2-1deepin2) ...
+
+Configuration file '/etc/xdg/autostart/gnome-keyring-pkcs11.desktop', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/xdg/autostart/gnome-keyring-secrets.desktop', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/xdg/autostart/gnome-keyring-ssh.desktop', does not exist on system.
+Installing new config file as you requested.
+Processing triggers for sgml-base (1.30) ...
+Setting up polkitd (123-3deepin6) ...
+Failed to check if group polkitd already exists: Connection refused
+id: ‘polkitd’: no such user
+chown: invalid group: ‘root:polkitd’
+dpkg: error processing package polkitd (--configure):
+ installed polkitd package post-installation script subprocess returned error exit status 1
+dpkg: nm-connection-editor: dependency problems, but configuring anyway as you requested:
+ nm-connection-editor depends on network-manager.
+ nm-connection-editor depends on policykit-1-gnome | polkit-1-auth-agent; however:
+  Package polkit-1-auth-agent is not installed.
+
+Setting up nm-connection-editor (1.36.0-3) ...
+dpkg: network-manager-applet: dependency problems, but configuring anyway as you requested:
+ network-manager-applet depends on network-manager.
+ network-manager-applet depends on policykit-1-gnome | polkit-1-auth-agent; however:
+  Package polkit-1-auth-agent is not installed.
+
+Setting up network-manager-applet (1.36.0-3) ...
+
+Configuration file '/etc/xdg/autostart/nm-applet.desktop', does not exist on system.
+Installing new config file as you requested.
+dpkg: modemmanager: dependency problems, but configuring anyway as you requested:
+ modemmanager depends on polkitd; however:
+  Package polkitd is not configured yet.
+
+Setting up modemmanager (1.22.0-1) ...
+Created symlink /etc/systemd/system/dbus-org.freedesktop.ModemManager1.service → /usr/lib/systemd/system/ModemManager.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ModemManager.service → /usr/lib/systemd/system/ModemManager.service.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+dpkg: policykit-1-gnome: dependency problems, but configuring anyway as you requested:
+ policykit-1-gnome depends on polkitd | policykit-1; however:
+  Package polkitd is not configured yet.
+  Package policykit-1 is not installed.
+
+Setting up policykit-1-gnome (0.105-8) ...
+
+Configuration file '/etc/xdg/autostart/polkit-gnome-authentication-agent-1.desktop', does not exist on system.
+Installing new config file as you requested.
+dpkg: network-manager: dependency problems, but configuring anyway as you requested:
+ network-manager depends on polkitd | policykit-1; however:
+  Package polkitd is not configured yet.
+  Package policykit-1 is not installed.
+
+Setting up network-manager (1.44.2-7deepin5) ...
+
+Configuration file '/etc/NetworkManager/NetworkManager.conf', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service → /usr/lib/systemd/system/NetworkManager-dispatcher.service.
+Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-wait-online.service → /usr/lib/systemd/system/NetworkManager-wait-online.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/NetworkManager.service → /usr/lib/systemd/system/NetworkManager.service.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Errors were encountered while processing:
+ polkitd
+E: Sub-process /usr/bin/dpkg returned an error code (1)
