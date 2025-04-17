@@ -1,0 +1,15 @@
+version: "1"
+package:
+  id: rsetup.linyaps
+  name: rsetup
+  version: 0.4.12.1
+  kind: app
+  description: |-
+    Radxa system setup utility
+    Radxa system setup utility (rsetup) provides an user friendly menu to
+    perform many essential system configuration tasks. It also provides
+    an on-boot configuration service to allow customization.
+command:
+- /opt/apps/rsetup.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh

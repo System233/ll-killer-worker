@@ -1,0 +1,422 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+The following additional packages will be installed:
+  base-passwd bsdextrautils bsdutils dbus-user-session device-tree-compiler
+  eject fdisk gdisk groff-base jq libblkid1 libduktape207 libfdisk1 libfdt1
+  libjq1 libjson-glib-1.0-0 libjson-glib-1.0-common libmount1 libnewt0.52
+  libnss-myhostname libnss-systemd libonig5 libpam-systemd libparted2
+  libpolkit-agent-1-0 libpolkit-gobject-1-0 librtui libselinux1 libslang2
+  libsmartcols1 libsystemd-shared libsystemd0 libuchardet0 libudev1 libuuid1
+  libyaml-0-2 login login.defs mount parted passwd pkexec polkitd python3-yaml
+  rfkill sgml-base systemd systemd-dev systemd-sysv systemd-timesyncd
+  u-boot-menu udev util-linux whiptail xml-core
+Suggested packages:
+  groff libparted-dev libparted-i18n uuid-runtime nfs-common parted-doc
+  polkitd-pkla aicrf-test gpiod sudo x-terminal-emulator sgml-base-doc
+  systemd-container systemd-homed systemd-userdbd systemd-boot
+  systemd-resolved libip4tc2 libqrencode4 libtss2-rc0 flash-kernel dosfstools
+  util-linux-extra util-linux-locales wtmpdb debhelper
+The following packages will be REMOVED:
+  systemd-standalone-sysusers
+The following NEW packages will be installed:
+  dbus-user-session device-tree-compiler gdisk groff-base jq libduktape207
+  libfdt1 libjq1 libjson-glib-1.0-0 libjson-glib-1.0-common libnewt0.52
+  libnss-systemd libonig5 libpam-systemd libparted2 libpolkit-agent-1-0
+  libpolkit-gobject-1-0 librtui libslang2 libuchardet0 libyaml-0-2 login.defs
+  mount parted pkexec polkitd python3-yaml rsetup sgml-base systemd
+  systemd-sysv systemd-timesyncd u-boot-menu whiptail xml-core
+The following packages will be upgraded:
+  base-passwd bsdextrautils bsdutils eject fdisk libblkid1 libfdisk1 libmount1
+  libnss-myhostname libselinux1 libsmartcols1 libsystemd-shared libsystemd0
+  libudev1 libuuid1 login passwd rfkill systemd-dev udev util-linux
+21 upgraded, 35 newly installed, 1 to remove and 230 not upgraded.
+Need to get 15.9 MB of archives.
+After this operation, 30.8 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main arm64 bsdutils arm64 1:2.40.4-3deepin4 [105 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main arm64 login.defs all 1:4.16.0-7deepin1 [185 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main arm64 login arm64 1:4.16.0-2+really2.40.4-3deepin4 [84.3 kB]
+Get:4 https://community-packages.deepin.com/beige beige/main arm64 eject arm64 2.40.4-3deepin4 [62.5 kB]
+Get:5 https://community-packages.deepin.com/beige beige/main arm64 bsdextrautils arm64 2.40.4-3deepin4 [96.5 kB]
+Get:6 https://community-packages.deepin.com/beige beige/main arm64 rfkill arm64 2.40.4-3deepin4 [45.3 kB]
+Get:7 https://community-packages.deepin.com/beige beige/main arm64 libsmartcols1 arm64 2.40.4-3deepin4 [135 kB]
+Get:8 https://community-packages.deepin.com/beige beige/main arm64 fdisk arm64 2.40.4-3deepin4 [150 kB]
+Get:9 https://community-packages.deepin.com/beige beige/main arm64 libblkid1 arm64 2.40.4-3deepin4 [162 kB]
+Get:10 https://community-packages.deepin.com/beige beige/main arm64 libmount1 arm64 2.40.4-3deepin4 [190 kB]
+Get:11 https://community-packages.deepin.com/beige beige/main arm64 libuuid1 arm64 2.40.4-3deepin4 [36.0 kB]
+Get:12 https://community-packages.deepin.com/beige beige/main arm64 util-linux arm64 2.40.4-3deepin4 [1178 kB]
+Get:13 https://community-packages.deepin.com/beige beige/main arm64 libfdisk1 arm64 2.40.4-3deepin4 [198 kB]
+Get:14 https://community-packages.deepin.com/beige beige/main arm64 libselinux1 arm64 3.5-1deepin5 [76.9 kB]
+Get:15 https://community-packages.deepin.com/beige beige/main arm64 libsystemd0 arm64 255.2-4deepin6 [336 kB]
+Get:16 https://community-packages.deepin.com/beige beige/main arm64 base-passwd arm64 3.6.5 [52.6 kB]
+Get:17 https://community-packages.deepin.com/beige beige/main arm64 systemd-dev all 255.2-4deepin6 [58.4 kB]
+Get:18 https://community-packages.deepin.com/beige beige/main arm64 libsystemd-shared arm64 255.2-4deepin6 [1719 kB]
+Get:19 https://community-packages.deepin.com/beige beige/main arm64 mount arm64 2.40.4-3deepin4 [154 kB]
+Get:20 https://community-packages.deepin.com/beige beige/main arm64 udev arm64 255.2-4deepin6 [1710 kB]
+Get:21 https://community-packages.deepin.com/beige beige/main arm64 systemd arm64 255.2-4deepin6 [3285 kB]
+Get:22 https://community-packages.deepin.com/beige beige/main arm64 systemd-sysv arm64 255.2-4deepin6 [49.1 kB]
+Get:23 https://community-packages.deepin.com/beige beige/main arm64 sgml-base all 1.30 [10.8 kB]
+Get:24 https://community-packages.deepin.com/beige beige/main arm64 passwd arm64 1:4.16.0-7deepin1 [1209 kB]
+Get:25 https://community-packages.deepin.com/beige beige/main arm64 libudev1 arm64 255.2-4deepin6 [117 kB]
+Get:26 https://community-packages.deepin.com/beige beige/main arm64 libuchardet0 arm64 0.0.7-1deepin0 [67.9 kB]
+Get:27 https://community-packages.deepin.com/beige beige/main arm64 groff-base arm64 1.23.0-7deepin1 [1127 kB]
+Get:28 https://community-packages.deepin.com/beige beige/main arm64 libnss-systemd arm64 255.2-4deepin6 [174 kB]
+Get:29 https://community-packages.deepin.com/beige beige/main arm64 libpam-systemd arm64 255.2-4deepin6 [240 kB]
+Get:30 https://community-packages.deepin.com/beige beige/main arm64 libfdt1 arm64 1.6.0-1 [18.0 kB]
+Get:31 https://community-packages.deepin.com/beige beige/main arm64 libyaml-0-2 arm64 0.2.2-1 [44.3 kB]
+Get:32 https://community-packages.deepin.com/beige beige/main arm64 device-tree-compiler arm64 1.6.0-1 [221 kB]
+Get:33 https://community-packages.deepin.com/beige beige/main arm64 gdisk arm64 1.0.9-2deepin0 [208 kB]
+Get:34 https://community-packages.deepin.com/beige beige/main arm64 libonig5 arm64 6.9.7.1-2 [176 kB]
+Get:35 https://community-packages.deepin.com/beige beige/main arm64 libjq1 arm64 1.6-2.1 [119 kB]
+Get:36 https://community-packages.deepin.com/beige beige/main arm64 jq arm64 1.6-2.1 [63.2 kB]
+Get:37 https://community-packages.deepin.com/beige beige/main arm64 libslang2 arm64 2.3.2-5 [465 kB]
+Get:38 https://community-packages.deepin.com/beige beige/main arm64 libnewt0.52 arm64 0.52.21-5deepin1 [55.3 kB]
+Get:39 https://community-packages.deepin.com/beige beige/main arm64 whiptail arm64 0.52.21-5deepin1 [22.7 kB]
+Get:40 https://community-packages.deepin.com/beige beige/community arm64 librtui all 0.1.6 [6876 B]
+Get:41 https://community-packages.deepin.com/beige beige/main arm64 libparted2 arm64 3.4-deepin [295 kB]
+Get:42 https://community-packages.deepin.com/beige beige/main arm64 parted arm64 3.4-deepin [190 kB]
+Get:43 https://community-packages.deepin.com/beige beige/main arm64 xml-core all 0.18+nmu1 [20.1 kB]
+Get:44 https://community-packages.deepin.com/beige beige/main arm64 libduktape207 arm64 2.7.0-2 [124 kB]
+Get:45 https://community-packages.deepin.com/beige beige/main arm64 libjson-glib-1.0-common all 1.8.0-2 [57.4 kB]
+Get:46 https://community-packages.deepin.com/beige beige/main arm64 libjson-glib-1.0-0 arm64 1.8.0-2 [57.6 kB]
+Get:47 https://community-packages.deepin.com/beige beige/main arm64 libpolkit-gobject-1-0 arm64 123-3deepin6 [56.7 kB]
+Get:48 https://community-packages.deepin.com/beige beige/main arm64 libpolkit-agent-1-0 arm64 123-3deepin6 [39.9 kB]
+Get:49 https://community-packages.deepin.com/beige beige/main arm64 polkitd arm64 123-3deepin6 [148 kB]
+Get:50 https://community-packages.deepin.com/beige beige/main arm64 pkexec arm64 123-3deepin6 [36.8 kB]
+Get:51 https://community-packages.deepin.com/beige beige/main arm64 python3-yaml arm64 6.0.1-2 [152 kB]
+Get:52 https://community-packages.deepin.com/beige beige/community arm64 u-boot-menu all 4.2.2 [9428 B]
+Get:53 https://community-packages.deepin.com/beige beige/community arm64 rsetup all 0.4.12-1deepin1 [28.8 kB]
+Get:54 https://community-packages.deepin.com/beige beige/main arm64 systemd-timesyncd arm64 255.2-4deepin6 [70.0 kB]
+Get:55 https://community-packages.deepin.com/beige beige/main arm64 dbus-user-session arm64 1.14.10-3 [78.8 kB]
+Get:56 https://community-packages.deepin.com/beige beige/main arm64 libnss-myhostname arm64 255.2-4deepin6 [94.5 kB]
+Fetched 15.9 MB in 2s (7170 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../bsdutils_1%3a2.40.4-3deepin4_arm64.deb ...
+Unpacking bsdutils (1:2.40.4-3deepin4) over (1:2.39.3-6deepin1) ...
+Setting up bsdutils (1:2.40.4-3deepin4) ...
+Selecting previously unselected package login.defs.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27741 files and directories currently installed.)
+Preparing to unpack .../login.defs_1%3a4.16.0-7deepin1_all.deb ...
+Unpacking login.defs (1:4.16.0-7deepin1) ...
+Replacing files in old package login (1:4.14+dfsg1-0deepin3) ...
+Setting up login.defs (1:4.16.0-7deepin1) ...
+Installing new version of config file /etc/login.defs ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27746 files and directories currently installed.)
+Preparing to unpack .../login_1%3a4.16.0-2+really2.40.4-3deepin4_arm64.deb ...
+Unpacking login (1:4.16.0-2+really2.40.4-3deepin4) over (1:4.14+dfsg1-0deepin3) ...
+Setting up login (1:4.16.0-2+really2.40.4-3deepin4) ...
+Installing new version of config file /etc/pam.d/login ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27636 files and directories currently installed.)
+Preparing to unpack .../eject_2.40.4-3deepin4_arm64.deb ...
+Unpacking eject (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Preparing to unpack .../bsdextrautils_2.40.4-3deepin4_arm64.deb ...
+Unpacking bsdextrautils (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Preparing to unpack .../rfkill_2.40.4-3deepin4_arm64.deb ...
+Unpacking rfkill (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Preparing to unpack .../libsmartcols1_2.40.4-3deepin4_arm64.deb ...
+Unpacking libsmartcols1:arm64 (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Setting up libsmartcols1:arm64 (2.40.4-3deepin4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27639 files and directories currently installed.)
+Preparing to unpack .../fdisk_2.40.4-3deepin4_arm64.deb ...
+Unpacking fdisk (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Preparing to unpack .../libblkid1_2.40.4-3deepin4_arm64.deb ...
+Unpacking libblkid1:arm64 (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Setting up libblkid1:arm64 (2.40.4-3deepin4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27641 files and directories currently installed.)
+Preparing to unpack .../libmount1_2.40.4-3deepin4_arm64.deb ...
+Unpacking libmount1:arm64 (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Setting up libmount1:arm64 (2.40.4-3deepin4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27642 files and directories currently installed.)
+Preparing to unpack .../libuuid1_2.40.4-3deepin4_arm64.deb ...
+Unpacking libuuid1:arm64 (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Setting up libuuid1:arm64 (2.40.4-3deepin4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27643 files and directories currently installed.)
+Preparing to unpack .../util-linux_2.40.4-3deepin4_arm64.deb ...
+Unpacking util-linux (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Setting up util-linux (2.40.4-3deepin4) ...
+update-alternatives: warning: forcing reinstallation of alternative /bin/more because link group pager is broken
+/var/lib/dpkg/info/util-linux.postinst: 28: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+fstrim.timer is a disabled or a static unit not running, not starting it.
+/var/lib/dpkg/info/util-linux.postinst: 41: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+fstrim.service is a disabled or a static unit not running, not starting it.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27615 files and directories currently installed.)
+Preparing to unpack .../libfdisk1_2.40.4-3deepin4_arm64.deb ...
+Unpacking libfdisk1:arm64 (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Preparing to unpack .../libselinux1_3.5-1deepin5_arm64.deb ...
+Unpacking libselinux1:arm64 (3.5-1deepin5) over (3.5-1) ...
+Setting up libselinux1:arm64 (3.5-1deepin5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27616 files and directories currently installed.)
+Preparing to unpack .../libsystemd0_255.2-4deepin6_arm64.deb ...
+Unpacking libsystemd0:arm64 (255.2-4deepin6) over (255.2-4) ...
+Setting up libsystemd0:arm64 (255.2-4deepin6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27616 files and directories currently installed.)
+Preparing to unpack .../base-passwd_3.6.5_arm64.deb ...
+Unpacking base-passwd (3.6.5) over (3.6.3) ...
+Setting up base-passwd (3.6.5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27617 files and directories currently installed.)
+Preparing to unpack .../systemd-dev_255.2-4deepin6_all.deb ...
+Unpacking systemd-dev (255.2-4deepin6) over (255.2-4) ...
+Preparing to unpack .../libsystemd-shared_255.2-4deepin6_arm64.deb ...
+Unpacking libsystemd-shared:arm64 (255.2-4deepin6) over (255.2-4) ...
+Selecting previously unselected package mount.
+Preparing to unpack .../mount_2.40.4-3deepin4_arm64.deb ...
+Unpacking mount (2.40.4-3deepin4) ...
+Preparing to unpack .../udev_255.2-4deepin6_arm64.deb ...
+Unpacking udev (255.2-4deepin6) over (255.2-4) ...
+dpkg: systemd-standalone-sysusers: dependency problems, but removing anyway as you requested:
+ udev depends on systemd | systemd-standalone-sysusers | systemd-sysusers; however:
+  Package systemd is not installed.
+  Package systemd-standalone-sysusers is to be removed.
+  Package systemd-sysusers is not installed.
+  Package systemd-standalone-sysusers which provides systemd-sysusers is to be removed.
+ udev depends on systemd | systemd-standalone-sysusers | systemd-sysusers; however:
+  Package systemd is not installed.
+  Package systemd-standalone-sysusers is to be removed.
+  Package systemd-sysusers is not installed.
+  Package systemd-standalone-sysusers which provides systemd-sysusers is to be removed.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27644 files and directories currently installed.)
+Removing systemd-standalone-sysusers (255.2-4) ...
+Selecting previously unselected package systemd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27637 files and directories currently installed.)
+Preparing to unpack .../systemd_255.2-4deepin6_arm64.deb ...
+Unpacking systemd (255.2-4deepin6) ...
+Setting up libfdisk1:arm64 (2.40.4-3deepin4) ...
+Setting up libsystemd-shared:arm64 (255.2-4deepin6) ...
+Setting up systemd-dev (255.2-4deepin6) ...
+Setting up mount (2.40.4-3deepin4) ...
+Setting up systemd (255.2-4deepin6) ...
+
+Configuration file '/etc/systemd/journald.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/logind.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/networkd.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/pstore.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/sleep.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/system.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/user.conf', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/system/getty.target.wants/getty@tty1.service → /usr/lib/systemd/system/getty@.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target → /usr/lib/systemd/system/remote-fs.target.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-pstore.service → /usr/lib/systemd/system/systemd-pstore.service.
+Setting access ACL "u::rwx,g::r-x,g:adm:r-x,m::r-x,o::r-x" on /var/log/journal failed: Invalid argument
+Selecting previously unselected package systemd-sysv.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28589 files and directories currently installed.)
+Preparing to unpack .../systemd-sysv_255.2-4deepin6_arm64.deb ...
+Unpacking systemd-sysv (255.2-4deepin6) ...
+Selecting previously unselected package sgml-base.
+Preparing to unpack .../sgml-base_1.30_all.deb ...
+Unpacking sgml-base (1.30) ...
+Preparing to unpack .../passwd_1%3a4.16.0-7deepin1_arm64.deb ...
+Unpacking passwd (1:4.16.0-7deepin1) over (1:4.14+dfsg1-0deepin3) ...
+Setting up passwd (1:4.16.0-7deepin1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28662 files and directories currently installed.)
+Preparing to unpack .../libudev1_255.2-4deepin6_arm64.deb ...
+Unpacking libudev1:arm64 (255.2-4deepin6) over (255.2-4) ...
+Setting up libudev1:arm64 (255.2-4deepin6) ...
+Selecting previously unselected package libuchardet0:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28662 files and directories currently installed.)
+Preparing to unpack .../00-libuchardet0_0.0.7-1deepin0_arm64.deb ...
+Unpacking libuchardet0:arm64 (0.0.7-1deepin0) ...
+Selecting previously unselected package groff-base.
+Preparing to unpack .../01-groff-base_1.23.0-7deepin1_arm64.deb ...
+Unpacking groff-base (1.23.0-7deepin1) ...
+Selecting previously unselected package libnss-systemd:arm64.
+Preparing to unpack .../02-libnss-systemd_255.2-4deepin6_arm64.deb ...
+Unpacking libnss-systemd:arm64 (255.2-4deepin6) ...
+Selecting previously unselected package libpam-systemd:arm64.
+Preparing to unpack .../03-libpam-systemd_255.2-4deepin6_arm64.deb ...
+Unpacking libpam-systemd:arm64 (255.2-4deepin6) ...
+Selecting previously unselected package libfdt1:arm64.
+Preparing to unpack .../04-libfdt1_1.6.0-1_arm64.deb ...
+Unpacking libfdt1:arm64 (1.6.0-1) ...
+Selecting previously unselected package libyaml-0-2:arm64.
+Preparing to unpack .../05-libyaml-0-2_0.2.2-1_arm64.deb ...
+Unpacking libyaml-0-2:arm64 (0.2.2-1) ...
+Selecting previously unselected package device-tree-compiler.
+Preparing to unpack .../06-device-tree-compiler_1.6.0-1_arm64.deb ...
+Unpacking device-tree-compiler (1.6.0-1) ...
+Selecting previously unselected package gdisk.
+Preparing to unpack .../07-gdisk_1.0.9-2deepin0_arm64.deb ...
+Unpacking gdisk (1.0.9-2deepin0) ...
+Selecting previously unselected package libonig5:arm64.
+Preparing to unpack .../08-libonig5_6.9.7.1-2_arm64.deb ...
+Unpacking libonig5:arm64 (6.9.7.1-2) ...
+Selecting previously unselected package libjq1:arm64.
+Preparing to unpack .../09-libjq1_1.6-2.1_arm64.deb ...
+Unpacking libjq1:arm64 (1.6-2.1) ...
+Selecting previously unselected package jq.
+Preparing to unpack .../10-jq_1.6-2.1_arm64.deb ...
+Unpacking jq (1.6-2.1) ...
+Selecting previously unselected package libslang2:arm64.
+Preparing to unpack .../11-libslang2_2.3.2-5_arm64.deb ...
+Unpacking libslang2:arm64 (2.3.2-5) ...
+Selecting previously unselected package libnewt0.52:arm64.
+Preparing to unpack .../12-libnewt0.52_0.52.21-5deepin1_arm64.deb ...
+Unpacking libnewt0.52:arm64 (0.52.21-5deepin1) ...
+Selecting previously unselected package whiptail.
+Preparing to unpack .../13-whiptail_0.52.21-5deepin1_arm64.deb ...
+Unpacking whiptail (0.52.21-5deepin1) ...
+Selecting previously unselected package librtui.
+Preparing to unpack .../14-librtui_0.1.6_all.deb ...
+Unpacking librtui (0.1.6) ...
+Selecting previously unselected package libparted2:arm64.
+Preparing to unpack .../15-libparted2_3.4-deepin_arm64.deb ...
+Unpacking libparted2:arm64 (3.4-deepin) ...
+Selecting previously unselected package parted.
+Preparing to unpack .../16-parted_3.4-deepin_arm64.deb ...
+Unpacking parted (3.4-deepin) ...
+Selecting previously unselected package xml-core.
+Preparing to unpack .../17-xml-core_0.18+nmu1_all.deb ...
+Unpacking xml-core (0.18+nmu1) ...
+Selecting previously unselected package libduktape207:arm64.
+Preparing to unpack .../18-libduktape207_2.7.0-2_arm64.deb ...
+Unpacking libduktape207:arm64 (2.7.0-2) ...
+Selecting previously unselected package libjson-glib-1.0-common.
+Preparing to unpack .../19-libjson-glib-1.0-common_1.8.0-2_all.deb ...
+Unpacking libjson-glib-1.0-common (1.8.0-2) ...
+Selecting previously unselected package libjson-glib-1.0-0:arm64.
+Preparing to unpack .../20-libjson-glib-1.0-0_1.8.0-2_arm64.deb ...
+Unpacking libjson-glib-1.0-0:arm64 (1.8.0-2) ...
+Selecting previously unselected package libpolkit-gobject-1-0:arm64.
+Preparing to unpack .../21-libpolkit-gobject-1-0_123-3deepin6_arm64.deb ...
+Unpacking libpolkit-gobject-1-0:arm64 (123-3deepin6) ...
+Selecting previously unselected package libpolkit-agent-1-0:arm64.
+Preparing to unpack .../22-libpolkit-agent-1-0_123-3deepin6_arm64.deb ...
+Unpacking libpolkit-agent-1-0:arm64 (123-3deepin6) ...
+Selecting previously unselected package polkitd.
+Preparing to unpack .../23-polkitd_123-3deepin6_arm64.deb ...
+Unpacking polkitd (123-3deepin6) ...
+Selecting previously unselected package pkexec.
+Preparing to unpack .../24-pkexec_123-3deepin6_arm64.deb ...
+Unpacking pkexec (123-3deepin6) ...
+Selecting previously unselected package python3-yaml.
+Preparing to unpack .../25-python3-yaml_6.0.1-2_arm64.deb ...
+Unpacking python3-yaml (6.0.1-2) ...
+Selecting previously unselected package u-boot-menu.
+Preparing to unpack .../26-u-boot-menu_4.2.2_all.deb ...
+Unpacking u-boot-menu (4.2.2) ...
+Selecting previously unselected package rsetup.
+Preparing to unpack .../27-rsetup_0.4.12-1deepin1_all.deb ...
+Unpacking rsetup (0.4.12-1deepin1) ...
+Selecting previously unselected package systemd-timesyncd.
+Preparing to unpack .../28-systemd-timesyncd_255.2-4deepin6_arm64.deb ...
+Unpacking systemd-timesyncd (255.2-4deepin6) ...
+Selecting previously unselected package dbus-user-session.
+Preparing to unpack .../29-dbus-user-session_1.14.10-3_arm64.deb ...
+Unpacking dbus-user-session (1.14.10-3) ...
+Preparing to unpack .../30-libnss-myhostname_255.2-4deepin6_arm64.deb ...
+Unpacking libnss-myhostname:arm64 (255.2-4deepin6) over (255.2-4) ...
+Setting up systemd-sysv (255.2-4deepin6) ...
+Setting up u-boot-menu (4.2.2) ...
+
+Configuration file '/etc/default/u-boot', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/kernel/postinst.d/zz-u-boot-menu', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/kernel/postrm.d/zz-u-boot-menu', does not exist on system.
+Installing new config file as you requested.
+Setting up bsdextrautils (2.40.4-3deepin4) ...
+Setting up libyaml-0-2:arm64 (0.2.2-1) ...
+Setting up libnss-systemd:arm64 (255.2-4deepin6) ...
+Setting up python3-yaml (6.0.1-2) ...
+Setting up libfdt1:arm64 (1.6.0-1) ...
+Setting up fdisk (2.40.4-3deepin4) ...
+Setting up eject (2.40.4-3deepin4) ...
+Setting up gdisk (1.0.9-2deepin0) ...
+Setting up libslang2:arm64 (2.3.2-5) ...
+Setting up rfkill (2.40.4-3deepin4) ...
+Setting up systemd-timesyncd (255.2-4deepin6) ...
+
+Configuration file '/etc/dhcp/dhclient-exit-hooks.d/timesyncd', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/timesyncd.conf', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/system/dbus-org.freedesktop.timesync1.service → /usr/lib/systemd/system/systemd-timesyncd.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-timesyncd.service → /usr/lib/systemd/system/systemd-timesyncd.service.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Setting up udev (255.2-4deepin6) ...
+fchmod() of /dev/loop-control failed: Operation not permitted
+fchmod() of /dev/vhost-net failed: Operation not permitted
+fchmod() of /dev/vhost-vsock failed: Operation not permitted
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'restart'
+Setting up libnss-myhostname:arm64 (255.2-4deepin6) ...
+Setting up device-tree-compiler (1.6.0-1) ...
+Setting up libparted2:arm64 (3.4-deepin) ...
+Setting up libduktape207:arm64 (2.7.0-2) ...
+Setting up libuchardet0:arm64 (0.0.7-1deepin0) ...
+Setting up libpam-systemd:arm64 (255.2-4deepin6) ...
+Setting up libjson-glib-1.0-common (1.8.0-2) ...
+Setting up sgml-base (1.30) ...
+Setting up libonig5:arm64 (6.9.7.1-2) ...
+Setting up libpolkit-gobject-1-0:arm64 (123-3deepin6) ...
+Setting up libnewt0.52:arm64 (0.52.21-5deepin1) ...
+Setting up libjq1:arm64 (1.6-2.1) ...
+Setting up parted (3.4-deepin) ...
+Setting up libjson-glib-1.0-0:arm64 (1.8.0-2) ...
+Setting up dbus-user-session (1.14.10-3) ...
+
+Configuration file '/etc/X11/Xsession.d/20dbus_xdg-runtime', does not exist on system.
+Installing new config file as you requested.
+Setting up whiptail (0.52.21-5deepin1) ...
+Setting up groff-base (1.23.0-7deepin1) ...
+
+Configuration file '/etc/groff/man.local', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/groff/mdoc.local', does not exist on system.
+Installing new config file as you requested.
+Setting up xml-core (0.18+nmu1) ...
+
+Configuration file '/etc/sgml/xml-core.cat', does not exist on system.
+Installing new config file as you requested.
+Setting up jq (1.6-2.1) ...
+Setting up libpolkit-agent-1-0:arm64 (123-3deepin6) ...
+Setting up librtui (0.1.6) ...
+Processing triggers for initramfs-tools (0.142) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Processing triggers for dbus (1.14.10-3) ...
+Processing triggers for sgml-base (1.30) ...
+Setting up polkitd (123-3deepin6) ...
+Failed to check if group polkitd already exists: Connection refused
+id: ‘polkitd’: no such user
+chown: invalid group: ‘root:polkitd’
+dpkg: error processing package polkitd (--configure):
+ installed polkitd package post-installation script subprocess returned error exit status 1
+dpkg: pkexec: dependency problems, but configuring anyway as you requested:
+ pkexec depends on polkitd (= 123-3deepin6); however:
+  Package polkitd is not configured yet.
+
+Setting up pkexec (123-3deepin6) ...
+Setting up rsetup (0.4.12-1deepin1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/rsetup.service → /usr/lib/systemd/system/rsetup.service.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Errors were encountered while processing:
+ polkitd
+E: Sub-process /usr/bin/dpkg returned an error code (1)
