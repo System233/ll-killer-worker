@@ -1,31 +1,29 @@
-正在测试: APPID=occt-draw.linyaps LAYER=occt-draw.linyaps_7.6.3.7_x86_64_binary.layer
-build-aux/ll-cli.sh 忽略命令：install occt-draw.linyaps_7.6.3.7_x86_64_binary.layer
+正在测试: APPID=occt-draw.linyaps LAYER=occt-draw.linyaps_7.8.1.3_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install occt-draw.linyaps_7.8.1.3_x86_64_binary.layer
 [正在测试快捷方式/服务单元]
 包名:occt-draw.linyaps
-Layer文件:occt-draw.linyaps_7.6.3.7_x86_64_binary.layer
+Layer文件:occt-draw.linyaps_7.8.1.3_x86_64_binary.layer
 Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
 Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
-disk: occt-draw.linyaps_7.6.3.7_x86_64_binary.layer
-offset: 854
-mountpoint: /tmp/tmp.4y4puI8agn/mnt
+disk: occt-draw.linyaps_7.8.1.3_x86_64_binary.layer
+offset: 853
+mountpoint: /tmp/tmp.Gz47AZEmYW/mnt
 dbglevel: 0
 find: ‘/opt/apps/occt-draw.linyaps/files/share/pixmaps’: No such file or directory
 [31m[失败] occt-draw.desktop:occ-icon-64: 找不到此图标 [0m
-[成功] /opt/apps/occt-draw.linyaps/files/share/applications/occt-draw.desktop: /opt/apps/occt-draw.linyaps/files/entrypoint.sh occt-draw
+[31m[失败] /opt/apps/occt-draw.linyaps/files/share/applications/occt-draw.desktop:occt-draw: 找不到此启动文件 [0m
 [正在测试启动项]
 包名:occt-draw.linyaps
-Layer文件:occt-draw.linyaps_7.6.3.7_x86_64_binary.layer
+Layer文件:occt-draw.linyaps_7.8.1.3_x86_64_binary.layer
 Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
 Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
-disk: occt-draw.linyaps_7.6.3.7_x86_64_binary.layer
-offset: 854
-mountpoint: /tmp/tmp.unqfXXakxD/mnt
+disk: occt-draw.linyaps_7.8.1.3_x86_64_binary.layer
+offset: 853
+mountpoint: /tmp/tmp.teQk6vPCVX/mnt
 dbglevel: 0
 启动项排除列表：NoDisplay
 [PID ?] 启动进程: build-aux/ll-cli.sh run occt-draw.linyaps -- /opt/apps/occt-draw.linyaps/files/entrypoint.sh occt-draw
-[PID 6459] 进程已启动
-[PID 6459] 等待超时，未能检测到窗口
-[PID 6459] 正在通知并等待进程退出
-[PID 6459] 进程已退出
+[PID 5251] 进程已启动
+[PID 5251] 进程提前退出，测试失败
 测试完成，可在tests中查看测试输出。
 build-aux/ll-cli.sh 忽略命令：uninstall occt-draw.linyaps
