@@ -1,0 +1,28 @@
+正在测试: APPID=emacs-nox.linyaps LAYER=emacs-nox.linyaps_29.4.0.4_x86_64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install emacs-nox.linyaps_29.4.0.4_x86_64_binary.layer
+[正在测试快捷方式/服务单元]
+包名:emacs-nox.linyaps
+Layer文件:emacs-nox.linyaps_29.4.0.4_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: emacs-nox.linyaps_29.4.0.4_x86_64_binary.layer
+offset: 580
+mountpoint: /tmp/tmp.jWJAFj1FfX/mnt
+dbglevel: 0
+[成功] emacs-term.desktop: emacs -> /opt/apps/emacs-nox.linyaps/files/share/icons/hicolor/128x128/apps/emacs.png
+[成功] /opt/apps/emacs-nox.linyaps/files/share/applications/emacs-term.desktop: /opt/apps/emacs-nox.linyaps/files/entrypoint.sh /usr/bin/emacs -nw %F
+[正在测试启动项]
+包名:emacs-nox.linyaps
+Layer文件:emacs-nox.linyaps_29.4.0.4_x86_64_binary.layer
+Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/x86_64/binary/files
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: emacs-nox.linyaps_29.4.0.4_x86_64_binary.layer
+offset: 580
+mountpoint: /tmp/tmp.B2OhzfFmWg/mnt
+dbglevel: 0
+启动项排除列表：NoDisplay
+[PID ?] 启动进程: build-aux/ll-cli.sh run emacs-nox.linyaps -- /opt/apps/emacs-nox.linyaps/files/entrypoint.sh /usr/bin/emacs -nw
+[PID 6433] 进程已启动
+[PID 6433] 进程提前退出，测试失败
+测试完成，可在tests中查看测试输出。
+build-aux/ll-cli.sh 忽略命令：uninstall emacs-nox.linyaps
