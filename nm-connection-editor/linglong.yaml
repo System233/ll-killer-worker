@@ -1,0 +1,20 @@
+version: "1"
+package:
+  id: nm-connection-editor.linyaps
+  name: nm-connection-editor
+  version: 1.36.0.3
+  kind: app
+  description: |-
+    network management framework (connection configuration editor)
+    NetworkManager is a system network service that manages your network devices
+    and connections, attempting to keep active network connectivity when
+    available. It manages ethernet, Wi-Fi, mobile broadband (WWAN), and PPPoE
+    devices, and provides VPN integration with a variety of different VPN
+    services.
+
+    This package contains nm-connection-editor which allows users to edit
+    NetworkManager connection settings.
+command:
+- /opt/apps/nm-connection-editor.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
