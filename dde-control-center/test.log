@@ -1,13 +1,13 @@
-正在测试: APPID=dde-control-center.linyaps LAYER=dde-control-center.linyaps_6.0.75.0_arm64_binary.layer
-build-aux/ll-cli.sh 忽略命令：install dde-control-center.linyaps_6.0.75.0_arm64_binary.layer
+正在测试: APPID=dde-control-center.linyaps LAYER=dde-control-center.linyaps_6.0.78.1_arm64_binary.layer
+build-aux/ll-cli.sh 忽略命令：install dde-control-center.linyaps_6.0.78.1_arm64_binary.layer
 [正在测试快捷方式/服务单元]
 包名:dde-control-center.linyaps
-Layer文件:dde-control-center.linyaps_6.0.75.0_arm64_binary.layer
+Layer文件:dde-control-center.linyaps_6.0.78.1_arm64_binary.layer
 Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
-Runtime文件系统:
-disk: dde-control-center.linyaps_6.0.75.0_arm64_binary.layer
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: dde-control-center.linyaps_6.0.78.1_arm64_binary.layer
 offset: 1030
-mountpoint: /tmp/tmp.DABqLzFz9r/mnt
+mountpoint: /tmp/tmp.oA8957yddw/mnt
 dbglevel: 0
 find: ‘/opt/apps/dde-control-center.linyaps/files/share/icons’: No such file or directory
 find: ‘/opt/apps/dde-control-center.linyaps/files/share/pixmaps’: No such file or directory
@@ -15,16 +15,16 @@ find: ‘/opt/apps/dde-control-center.linyaps/files/share/pixmaps’: No such fi
 [成功] /opt/apps/dde-control-center.linyaps/files/share/applications/org.deepin.dde.control-center.desktop: /opt/apps/dde-control-center.linyaps/files/entrypoint.sh dde-control-center --show %f
 [正在测试启动项]
 包名:dde-control-center.linyaps
-Layer文件:dde-control-center.linyaps_6.0.75.0_arm64_binary.layer
+Layer文件:dde-control-center.linyaps_6.0.78.1_arm64_binary.layer
 Base文件系统:/home/runner/.cache/linglong-builder/repo/../layers/main/org.deepin.base/23.1.0/arm64/binary/files
-Runtime文件系统:
-disk: dde-control-center.linyaps_6.0.75.0_arm64_binary.layer
+Runtime文件系统:/home/runner/.cache/linglong-builder/repo/../layers//binary/files
+disk: dde-control-center.linyaps_6.0.78.1_arm64_binary.layer
 offset: 1030
-mountpoint: /tmp/tmp.UIVYaWIfdj/mnt
+mountpoint: /tmp/tmp.bgRIX2j8MB/mnt
 dbglevel: 0
 启动项排除列表：NoDisplay
 [PID ?] 启动进程: build-aux/ll-cli.sh run dde-control-center.linyaps -- /opt/apps/dde-control-center.linyaps/files/entrypoint.sh dde-control-center --show
-[PID 12194] 进程已启动
-[PID 12194] 进程提前退出，测试失败
+[PID 14173] 进程已启动
+[PID 14173] 进程提前退出，测试失败
 测试完成，可在tests中查看测试输出。
 build-aux/ll-cli.sh 忽略命令：uninstall dde-control-center.linyaps
