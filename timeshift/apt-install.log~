@@ -3,12 +3,1094 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 
 Reading package lists...
 Building dependency tree...
-Some packages could not be installed. This may mean that you have
-requested an impossible situation or if you are using the unstable
-distribution that some required packages have not yet been created
-or been moved out of Incoming.
-The following information may help to resolve the situation:
+The following additional packages will be installed:
+  base-passwd bind9-dnsutils bind9-host bind9-libs bsd-mailx bsdextrautils
+  bsdutils cpp cpp-12 cron dbus-user-session dmidecode dnsutils eject
+  exim4-base exim4-config exim4-daemon-light fdisk fonts-lato gcc-12-base
+  gir1.2-freedesktop gir1.2-girepository-2.0 gist inxi iproute2
+  javascript-common libblkid1 libbpf1 libdbusmenu-glib4 libdbusmenu-gtk3-4
+  libduktape207 libfdisk1 libfile-basedir-perl libfile-desktopentry-perl
+  libfile-fcntllock-perl libfile-mimeinfo-perl libfstrm0 libgee-0.8-2
+  libgirepository-1.0-1 libgnomekbd-common libgnomekbd8 libio-stringy-perl
+  libipc-system-simple-perl libisl23 libjemalloc2 libjs-jquery
+  libjson-glib-1.0-0 libjson-glib-1.0-common liblmdb0 liblockfile-bin
+  liblockfile1 libmaxminddb0 libmount1 libmpc3 libnet-dbus-perl
+  libnss-myhostname libnss-systemd libpam-systemd libpci3 libpolkit-agent-1-0
+  libpolkit-gobject-1-0 libprotobuf-c1 libruby3.0 libselinux1 libsmartcols1
+  libsystemd-shared libsystemd0 libtie-ixhash-perl libudev1 liburcu8 libuuid1
+  libvte-2.91-0 libvte-2.91-common libx11-protocol-perl libxapp1 libxklavier16
+  libxml-parser-perl libxml-twig-perl libxml-xpathengine-perl libxmu6 libxmuu1
+  libxtables12 libxxf86dga1 libyaml-0-2 lm-sensors login login.defs mesa-utils
+  mesa-utils-bin mount passwd pci.ids pciutils pkexec polkitd psmisc
+  python3-gi rake rfkill rsync ruby ruby-json ruby-net-telnet ruby-rubygems
+  ruby-xmlrpc ruby3.0 rubygems-integration sgml-base sudo systemd systemd-dev
+  systemd-sysv systemd-timesyncd tree udev usbutils util-linux x11-utils
+  x11-xserver-utils xapps-common xdg-utils xml-core zip zutty
+Suggested packages:
+  cpp-doc gcc-12-locales cpp-12-doc anacron logrotate checksecurity
+  exim4-doc-html | exim4-doc-info eximon4 spf-tools-perl swaks
+  libxml-dumper-perl apache2 | lighttpd | httpd gcc | c-compiler mmdb-bin
+  uuid-runtime libunicode-map8-perl libunicode-string-perl xml-twig-tools
+  fancontrol read-edid i2c-tools nfs-common polkitd-pkla openssh-client
+  openssh-server python3-braceexpand ri ruby-dev bundler sgml-base-doc
+  systemd-container systemd-homed systemd-userdbd systemd-boot
+  systemd-resolved libip4tc2 libqrencode4 libtss2-rc0 dosfstools
+  util-linux-extra util-linux-locales wtmpdb nickle cairo-5c xorg-docs-core
+  debhelper
+The following packages will be REMOVED:
+  systemd-standalone-sysusers
+The following NEW packages will be installed:
+  bind9-dnsutils bind9-host bind9-libs bsd-mailx cpp cpp-12 cron
+  dbus-user-session dmidecode dnsutils exim4-base exim4-config
+  exim4-daemon-light fonts-lato gcc-12-base gir1.2-girepository-2.0 gist inxi
+  iproute2 javascript-common libbpf1 libdbusmenu-glib4 libdbusmenu-gtk3-4
+  libduktape207 libfile-basedir-perl libfile-desktopentry-perl
+  libfile-fcntllock-perl libfile-mimeinfo-perl libfstrm0 libgee-0.8-2
+  libgirepository-1.0-1 libgnomekbd-common libgnomekbd8 libio-stringy-perl
+  libipc-system-simple-perl libisl23 libjemalloc2 libjs-jquery
+  libjson-glib-1.0-0 libjson-glib-1.0-common liblmdb0 liblockfile-bin
+  liblockfile1 libmaxminddb0 libmpc3 libnet-dbus-perl libnss-systemd
+  libpam-systemd libpci3 libpolkit-agent-1-0 libpolkit-gobject-1-0
+  libprotobuf-c1 libruby3.0 libtie-ixhash-perl liburcu8 libvte-2.91-0
+  libvte-2.91-common libx11-protocol-perl libxapp1 libxklavier16
+  libxml-parser-perl libxml-twig-perl libxml-xpathengine-perl libxmuu1
+  libxtables12 libxxf86dga1 libyaml-0-2 lm-sensors login.defs mesa-utils
+  mesa-utils-bin mount pci.ids pciutils pkexec polkitd psmisc python3-gi rake
+  rsync ruby ruby-json ruby-net-telnet ruby-rubygems ruby-xmlrpc ruby3.0
+  rubygems-integration sgml-base sudo systemd systemd-sysv systemd-timesyncd
+  timeshift tree usbutils x11-utils x11-xserver-utils xapps-common xdg-utils
+  xml-core zip zutty
+The following packages will be upgraded:
+  base-passwd bsdextrautils bsdutils eject fdisk gir1.2-freedesktop libblkid1
+  libfdisk1 libmount1 libnss-myhostname libselinux1 libsmartcols1
+  libsystemd-shared libsystemd0 libudev1 libuuid1 libxmu6 login passwd rfkill
+  systemd-dev udev util-linux
+23 upgraded, 102 newly installed, 1 to remove and 228 not upgraded.
+Need to get 47.1 MB of archives.
+After this operation, 149 MB of additional disk space will be used.
+Get:1 https://community-packages.deepin.com/beige beige/main arm64 bsdutils arm64 1:2.40.4-3deepin4 [105 kB]
+Get:2 https://community-packages.deepin.com/beige beige/main arm64 login.defs all 1:4.16.0-7deepin1 [185 kB]
+Get:3 https://community-packages.deepin.com/beige beige/main arm64 login arm64 1:4.16.0-2+really2.40.4-3deepin4 [84.3 kB]
+Get:4 https://community-packages.deepin.com/beige beige/main arm64 eject arm64 2.40.4-3deepin4 [62.5 kB]
+Get:5 https://community-packages.deepin.com/beige beige/main arm64 bsdextrautils arm64 2.40.4-3deepin4 [96.5 kB]
+Get:6 https://community-packages.deepin.com/beige beige/main arm64 rfkill arm64 2.40.4-3deepin4 [45.3 kB]
+Get:7 https://community-packages.deepin.com/beige beige/main arm64 libsmartcols1 arm64 2.40.4-3deepin4 [135 kB]
+Get:8 https://community-packages.deepin.com/beige beige/main arm64 fdisk arm64 2.40.4-3deepin4 [150 kB]
+Get:9 https://community-packages.deepin.com/beige beige/main arm64 libblkid1 arm64 2.40.4-3deepin4 [162 kB]
+Get:10 https://community-packages.deepin.com/beige beige/main arm64 libmount1 arm64 2.40.4-3deepin4 [190 kB]
+Get:11 https://community-packages.deepin.com/beige beige/main arm64 libuuid1 arm64 2.40.4-3deepin4 [36.0 kB]
+Get:12 https://community-packages.deepin.com/beige beige/main arm64 util-linux arm64 2.40.4-3deepin4 [1178 kB]
+Get:13 https://community-packages.deepin.com/beige beige/main arm64 libfdisk1 arm64 2.40.4-3deepin4 [198 kB]
+Get:14 https://community-packages.deepin.com/beige beige/main arm64 libselinux1 arm64 3.5-1deepin5 [76.9 kB]
+Get:15 https://community-packages.deepin.com/beige beige/main arm64 libsystemd0 arm64 255.2-4deepin6 [336 kB]
+Get:16 https://community-packages.deepin.com/beige beige/main arm64 base-passwd arm64 3.6.5 [52.6 kB]
+Get:17 https://community-packages.deepin.com/beige beige/main arm64 systemd-dev all 255.2-4deepin6 [58.4 kB]
+Get:18 https://community-packages.deepin.com/beige beige/main arm64 libsystemd-shared arm64 255.2-4deepin6 [1719 kB]
+Get:19 https://community-packages.deepin.com/beige beige/main arm64 mount arm64 2.40.4-3deepin4 [154 kB]
+Get:20 https://community-packages.deepin.com/beige beige/main arm64 udev arm64 255.2-4deepin6 [1710 kB]
+Get:21 https://community-packages.deepin.com/beige beige/main arm64 systemd arm64 255.2-4deepin6 [3285 kB]
+Get:22 https://community-packages.deepin.com/beige beige/main arm64 cron arm64 3.0pl1-137 [71.1 kB]
+Get:23 https://community-packages.deepin.com/beige beige/main arm64 systemd-sysv arm64 255.2-4deepin6 [49.1 kB]
+Get:24 https://community-packages.deepin.com/beige beige/main arm64 fonts-lato all 2.0-2.1 [2698 kB]
+Get:25 https://community-packages.deepin.com/beige beige/main arm64 rsync arm64 3.3.0+ds1-4 [406 kB]
+Get:26 https://community-packages.deepin.com/beige beige/main arm64 sgml-base all 1.30 [10.8 kB]
+Get:27 https://community-packages.deepin.com/beige beige/main arm64 sudo arm64 1.9.15p5-3 [1948 kB]
+Get:28 https://community-packages.deepin.com/beige beige/main arm64 passwd arm64 1:4.16.0-7deepin1 [1209 kB]
+Get:29 https://community-packages.deepin.com/beige beige/main arm64 libudev1 arm64 255.2-4deepin6 [117 kB]
+Get:30 https://community-packages.deepin.com/beige beige/main arm64 dmidecode arm64 3.3.1-deepin [45.9 kB]
+Get:31 https://community-packages.deepin.com/beige beige/main arm64 libbpf1 arm64 1:1.4.1-1 [152 kB]
+Get:32 https://community-packages.deepin.com/beige beige/main arm64 libxtables12 arm64 1.8.10-4 [30.2 kB]
+Get:33 https://community-packages.deepin.com/beige beige/main arm64 iproute2 arm64 6.9.0-1 [1026 kB]
+Get:34 https://community-packages.deepin.com/beige beige/main arm64 libfstrm0 arm64 0.6.0-deepin1 [20.1 kB]
+Get:35 https://community-packages.deepin.com/beige beige/main arm64 libjemalloc2 arm64 5.3.0-2 [215 kB]
+Get:36 https://community-packages.deepin.com/beige beige/main arm64 liblmdb0 arm64 0.9.31-1 [42.4 kB]
+Get:37 https://community-packages.deepin.com/beige beige/main arm64 libmaxminddb0 arm64 1.5.2-1 [29.0 kB]
+Get:38 https://community-packages.deepin.com/beige beige/main arm64 libprotobuf-c1 arm64 1.4.1-1deepin0 [26.1 kB]
+Get:39 https://community-packages.deepin.com/beige beige/main arm64 liburcu8 arm64 0.14.0-1+loong64 [70.9 kB]
+Get:40 https://community-packages.deepin.com/beige beige/main arm64 bind9-libs arm64 1:9.19.19-1 [1287 kB]
+Get:41 https://community-packages.deepin.com/beige beige/main arm64 bind9-host arm64 1:9.19.19-1 [310 kB]
+Get:42 https://community-packages.deepin.com/beige beige/main arm64 bind9-dnsutils arm64 1:9.19.19-1 [412 kB]
+Get:43 https://community-packages.deepin.com/beige beige/main arm64 liblockfile-bin arm64 1.17-deepin1 [15.3 kB]
+Get:44 https://community-packages.deepin.com/beige beige/main arm64 liblockfile1 arm64 1.17-deepin1 [11.8 kB]
+Get:45 https://community-packages.deepin.com/beige beige/main arm64 libnss-systemd arm64 255.2-4deepin6 [174 kB]
+Get:46 https://community-packages.deepin.com/beige beige/main arm64 libpam-systemd arm64 255.2-4deepin6 [240 kB]
+Get:47 https://community-packages.deepin.com/beige beige/main arm64 pci.ids all 0.0~2025.03.03-0deepin1 [266 kB]
+Get:48 https://community-packages.deepin.com/beige beige/main arm64 libpci3 arm64 1:3.10.0-2 [69.5 kB]
+Get:49 https://community-packages.deepin.com/beige beige/main arm64 pciutils arm64 1:3.10.0-2 [102 kB]
+Get:50 https://community-packages.deepin.com/beige beige/main arm64 systemd-timesyncd arm64 255.2-4deepin6 [70.0 kB]
+Get:51 https://community-packages.deepin.com/beige beige/community arm64 exim4-config all 4.98-2 [248 kB]
+Get:52 https://community-packages.deepin.com/beige beige/main arm64 libfile-fcntllock-perl arm64 0.22-3 [34.7 kB]
+Get:53 https://community-packages.deepin.com/beige beige/community arm64 exim4-base arm64 4.98-2 [1141 kB]
+Get:54 https://community-packages.deepin.com/beige beige/community arm64 exim4-daemon-light arm64 4.98-2 [577 kB]
+Get:55 https://community-packages.deepin.com/beige beige/main arm64 bsd-mailx arm64 8.1.2-0.20180807cvs-2 [77.9 kB]
+Get:56 https://community-packages.deepin.com/beige beige/main arm64 gcc-12-base arm64 12.3.0-17deepin12 [49.3 kB]
+Get:57 https://community-packages.deepin.com/beige beige/main arm64 libisl23 arm64 0.26-3 [629 kB]
+Get:58 https://community-packages.deepin.com/beige beige/main arm64 libmpc3 arm64 1.2.1-1 [42.2 kB]
+Get:59 https://community-packages.deepin.com/beige beige/main arm64 cpp-12 arm64 12.3.0-17deepin12 [8224 kB]
+Get:60 https://community-packages.deepin.com/beige beige/main arm64 cpp arm64 4:13.2.0+really12.3.0-0deepin2 [7132 B]
+Get:61 https://community-packages.deepin.com/beige beige/main arm64 dbus-user-session arm64 1.14.10-3 [78.8 kB]
+Get:62 https://community-packages.deepin.com/beige beige/main arm64 dnsutils all 1:9.19.19-1 [270 kB]
+Get:63 https://community-packages.deepin.com/beige beige/main arm64 gir1.2-freedesktop arm64 1.80.1-3deepin1 [47.0 kB]
+Get:64 https://community-packages.deepin.com/beige beige/main arm64 libgirepository-1.0-1 arm64 1.80.1-3deepin1 [105 kB]
+Get:65 https://community-packages.deepin.com/beige beige/main arm64 gir1.2-girepository-2.0 arm64 1.80.1-3deepin1 [37.7 kB]
+Get:66 https://community-packages.deepin.com/beige beige/main arm64 rubygems-integration all 1.18 [5324 B]
+Get:67 https://community-packages.deepin.com/beige beige/main arm64 rake all 13.0.3-1 [65.4 kB]
+Get:68 https://community-packages.deepin.com/beige beige/main arm64 ruby-net-telnet all 0.1.1-2 [12.6 kB]
+Get:69 https://community-packages.deepin.com/beige beige/main arm64 ruby-xmlrpc all 0.3.2-1 [24.3 kB]
+Get:70 https://community-packages.deepin.com/beige beige/main arm64 libyaml-0-2 arm64 0.2.2-1 [44.3 kB]
+Get:71 https://community-packages.deepin.com/beige beige/main arm64 libruby3.0 arm64 3.0.3-1 [5241 kB]
+Get:72 https://community-packages.deepin.com/beige beige/main arm64 ruby3.0 arm64 3.0.3-1 [644 kB]
+Get:73 https://community-packages.deepin.com/beige beige/main arm64 ruby-rubygems all 3.3.15-2deepin [293 kB]
+Get:74 https://community-packages.deepin.com/beige beige/main arm64 ruby arm64 1:3.0+1 [5232 B]
+Get:75 https://community-packages.deepin.com/beige beige/main arm64 ruby-json arm64 2.5.1+dfsg-2 [57.1 kB]
+Get:76 https://community-packages.deepin.com/beige beige/main arm64 gist all 6.0.0-2 [17.4 kB]
+Get:77 https://community-packages.deepin.com/beige beige/main arm64 inxi all 3.3.31-2-1deepin1 [565 kB]
+Get:78 https://community-packages.deepin.com/beige beige/main arm64 javascript-common all 11+nmu1 [5192 B]
+Get:79 https://community-packages.deepin.com/beige beige/main arm64 libdbusmenu-glib4 arm64 18.10.20180917~bzr492+repack1-deepin1 [37.3 kB]
+Get:80 https://community-packages.deepin.com/beige beige/main arm64 libdbusmenu-gtk3-4 arm64 18.10.20180917~bzr492+repack1-deepin1 [24.8 kB]
+Get:81 https://community-packages.deepin.com/beige beige/main arm64 libduktape207 arm64 2.7.0-2 [124 kB]
+Get:82 https://community-packages.deepin.com/beige beige/main arm64 libipc-system-simple-perl all 1.30-1 [26.9 kB]
+Get:83 https://community-packages.deepin.com/beige beige/main arm64 libfile-basedir-perl all 0.09-1 [16.0 kB]
+Get:84 https://community-packages.deepin.com/beige beige/main arm64 libfile-desktopentry-perl all 0.22-2 [17.5 kB]
+Get:85 https://community-packages.deepin.com/beige beige/main arm64 libfile-mimeinfo-perl all 0.30-1 [46.3 kB]
+Get:86 https://community-packages.deepin.com/beige beige/main arm64 libgee-0.8-2 arm64 0.20.6-1 [210 kB]
+Get:87 https://community-packages.deepin.com/beige beige/community arm64 libgnomekbd-common all 3.28.1-1 [71.8 kB]
+Get:88 https://community-packages.deepin.com/beige beige/main arm64 libxklavier16 arm64 5.4-4 [41.8 kB]
+Get:89 https://community-packages.deepin.com/beige beige/community arm64 libgnomekbd8 arm64 3.28.1-1 [40.8 kB]
+Get:90 https://community-packages.deepin.com/beige beige/main arm64 libio-stringy-perl all 2.111-3 [55.3 kB]
+Get:91 https://community-packages.deepin.com/beige beige/main arm64 libjs-jquery all 3.6.1+dfsg+~3.5.14-1 [326 kB]
+Get:92 https://community-packages.deepin.com/beige beige/main arm64 libjson-glib-1.0-common all 1.8.0-2 [57.4 kB]
+Get:93 https://community-packages.deepin.com/beige beige/main arm64 libjson-glib-1.0-0 arm64 1.8.0-2 [57.6 kB]
+Get:94 https://community-packages.deepin.com/beige beige/main arm64 libxml-parser-perl arm64 2.46-3 [198 kB]
+Get:95 https://community-packages.deepin.com/beige beige/main arm64 libxml-twig-perl all 1:3.52-1 [178 kB]
+Get:96 https://community-packages.deepin.com/beige beige/main arm64 libnet-dbus-perl arm64 1.2.0-1 [174 kB]
+Get:97 https://community-packages.deepin.com/beige beige/main arm64 libnss-myhostname arm64 255.2-4deepin6 [94.5 kB]
+Get:98 https://community-packages.deepin.com/beige beige/main arm64 libpolkit-gobject-1-0 arm64 123-3deepin6 [56.7 kB]
+Get:99 https://community-packages.deepin.com/beige beige/main arm64 libpolkit-agent-1-0 arm64 123-3deepin6 [39.9 kB]
+Get:100 https://community-packages.deepin.com/beige beige/main arm64 libtie-ixhash-perl all 1.23-2.1 [11.8 kB]
+Get:101 https://community-packages.deepin.com/beige beige/main arm64 libvte-2.91-common arm64 0.75.92-1 [671 kB]
+Get:102 https://community-packages.deepin.com/beige beige/main arm64 libvte-2.91-0 arm64 0.75.92-1 [822 kB]
+Get:103 https://community-packages.deepin.com/beige beige/main arm64 libx11-protocol-perl all 0.56-7.1 [138 kB]
+Get:104 https://community-packages.deepin.com/beige beige/main arm64 python3-gi arm64 3.48.2-1 [267 kB]
+Get:105 https://community-packages.deepin.com/beige beige/main arm64 xdg-utils all 1.1.3-4.1deepin1 [68.8 kB]
+Get:106 https://community-packages.deepin.com/beige beige/community arm64 xapps-common all 2.2.4-1 [51.6 kB]
+Get:107 https://community-packages.deepin.com/beige beige/community arm64 libxapp1 arm64 2.2.4-1 [85.3 kB]
+Get:108 https://community-packages.deepin.com/beige beige/main arm64 libxml-xpathengine-perl all 0.14-1 [32.9 kB]
+Get:109 https://community-packages.deepin.com/beige beige/main arm64 libxmu6 arm64 2:1.1.3-3 [55.3 kB]
+Get:110 https://community-packages.deepin.com/beige beige/main arm64 libxmuu1 arm64 2:1.1.3-3 [21.5 kB]
+Get:111 https://community-packages.deepin.com/beige beige/main arm64 libxxf86dga1 arm64 2:1.1.4-deepin1 [19.8 kB]
+Get:112 https://community-packages.deepin.com/beige beige/main arm64 lm-sensors arm64 1:3.6.0-7 [88.3 kB]
+Get:113 https://community-packages.deepin.com/beige beige/main arm64 mesa-utils-bin arm64 9.0.0-2 [196 kB]
+Get:114 https://community-packages.deepin.com/beige beige/main arm64 mesa-utils arm64 9.0.0-2 [953 kB]
+Get:115 https://community-packages.deepin.com/beige beige/main arm64 xml-core all 0.18+nmu1 [20.1 kB]
+Get:116 https://community-packages.deepin.com/beige beige/main arm64 polkitd arm64 123-3deepin6 [148 kB]
+Get:117 https://community-packages.deepin.com/beige beige/main arm64 pkexec arm64 123-3deepin6 [36.8 kB]
+Get:118 https://community-packages.deepin.com/beige beige/main arm64 psmisc arm64 23.7-1 [264 kB]
+Get:119 https://community-packages.deepin.com/beige beige/community arm64 timeshift arm64 24.06.6-1 [699 kB]
+Get:120 https://community-packages.deepin.com/beige beige/main arm64 tree arm64 1.8.0-deepin1 [44.9 kB]
+Get:121 https://community-packages.deepin.com/beige beige/main arm64 usbutils arm64 1:014-1 [70.2 kB]
+Get:122 https://community-packages.deepin.com/beige beige/main arm64 x11-utils arm64 7.7+5-deepin [187 kB]
+Get:123 https://community-packages.deepin.com/beige beige/main arm64 x11-xserver-utils arm64 7.7+9-deepin [154 kB]
+Get:124 https://community-packages.deepin.com/beige beige/main arm64 zip arm64 3.0-deepin [221 kB]
+Get:125 https://community-packages.deepin.com/beige beige/community arm64 zutty arm64 0.14.0.20230218+dfsg1-1 [163 kB]
+Fetched 47.1 MB in 6s (7975 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27740 files and directories currently installed.)
+Preparing to unpack .../bsdutils_1%3a2.40.4-3deepin4_arm64.deb ...
+Unpacking bsdutils (1:2.40.4-3deepin4) over (1:2.39.3-6deepin1) ...
+Setting up bsdutils (1:2.40.4-3deepin4) ...
+Selecting previously unselected package login.defs.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27741 files and directories currently installed.)
+Preparing to unpack .../login.defs_1%3a4.16.0-7deepin1_all.deb ...
+Unpacking login.defs (1:4.16.0-7deepin1) ...
+Replacing files in old package login (1:4.14+dfsg1-0deepin3) ...
+Setting up login.defs (1:4.16.0-7deepin1) ...
+Installing new version of config file /etc/login.defs ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27746 files and directories currently installed.)
+Preparing to unpack .../login_1%3a4.16.0-2+really2.40.4-3deepin4_arm64.deb ...
+Unpacking login (1:4.16.0-2+really2.40.4-3deepin4) over (1:4.14+dfsg1-0deepin3) ...
+Setting up login (1:4.16.0-2+really2.40.4-3deepin4) ...
+Installing new version of config file /etc/pam.d/login ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27636 files and directories currently installed.)
+Preparing to unpack .../eject_2.40.4-3deepin4_arm64.deb ...
+Unpacking eject (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Preparing to unpack .../bsdextrautils_2.40.4-3deepin4_arm64.deb ...
+Unpacking bsdextrautils (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Preparing to unpack .../rfkill_2.40.4-3deepin4_arm64.deb ...
+Unpacking rfkill (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Preparing to unpack .../libsmartcols1_2.40.4-3deepin4_arm64.deb ...
+Unpacking libsmartcols1:arm64 (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Setting up libsmartcols1:arm64 (2.40.4-3deepin4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27639 files and directories currently installed.)
+Preparing to unpack .../fdisk_2.40.4-3deepin4_arm64.deb ...
+Unpacking fdisk (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Preparing to unpack .../libblkid1_2.40.4-3deepin4_arm64.deb ...
+Unpacking libblkid1:arm64 (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Setting up libblkid1:arm64 (2.40.4-3deepin4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27641 files and directories currently installed.)
+Preparing to unpack .../libmount1_2.40.4-3deepin4_arm64.deb ...
+Unpacking libmount1:arm64 (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Setting up libmount1:arm64 (2.40.4-3deepin4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27642 files and directories currently installed.)
+Preparing to unpack .../libuuid1_2.40.4-3deepin4_arm64.deb ...
+Unpacking libuuid1:arm64 (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Setting up libuuid1:arm64 (2.40.4-3deepin4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27643 files and directories currently installed.)
+Preparing to unpack .../util-linux_2.40.4-3deepin4_arm64.deb ...
+Unpacking util-linux (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Setting up util-linux (2.40.4-3deepin4) ...
+update-alternatives: warning: forcing reinstallation of alternative /bin/more because link group pager is broken
+/var/lib/dpkg/info/util-linux.postinst: 28: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+fstrim.timer is a disabled or a static unit not running, not starting it.
+/var/lib/dpkg/info/util-linux.postinst: 41: systemctl: not found
+sh: 1: systemctl: not found
+Can't exec "systemctl": No such file or directory at /usr/bin/deb-systemd-invoke line 136.
+fstrim.service is a disabled or a static unit not running, not starting it.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27615 files and directories currently installed.)
+Preparing to unpack .../libfdisk1_2.40.4-3deepin4_arm64.deb ...
+Unpacking libfdisk1:arm64 (2.40.4-3deepin4) over (2.39.3-6deepin1) ...
+Preparing to unpack .../libselinux1_3.5-1deepin5_arm64.deb ...
+Unpacking libselinux1:arm64 (3.5-1deepin5) over (3.5-1) ...
+Setting up libselinux1:arm64 (3.5-1deepin5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27616 files and directories currently installed.)
+Preparing to unpack .../libsystemd0_255.2-4deepin6_arm64.deb ...
+Unpacking libsystemd0:arm64 (255.2-4deepin6) over (255.2-4) ...
+Setting up libsystemd0:arm64 (255.2-4deepin6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27616 files and directories currently installed.)
+Preparing to unpack .../base-passwd_3.6.5_arm64.deb ...
+Unpacking base-passwd (3.6.5) over (3.6.3) ...
+Setting up base-passwd (3.6.5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27617 files and directories currently installed.)
+Preparing to unpack .../systemd-dev_255.2-4deepin6_all.deb ...
+Unpacking systemd-dev (255.2-4deepin6) over (255.2-4) ...
+Preparing to unpack .../libsystemd-shared_255.2-4deepin6_arm64.deb ...
+Unpacking libsystemd-shared:arm64 (255.2-4deepin6) over (255.2-4) ...
+Selecting previously unselected package mount.
+Preparing to unpack .../mount_2.40.4-3deepin4_arm64.deb ...
+Unpacking mount (2.40.4-3deepin4) ...
+Preparing to unpack .../udev_255.2-4deepin6_arm64.deb ...
+Unpacking udev (255.2-4deepin6) over (255.2-4) ...
+dpkg: systemd-standalone-sysusers: dependency problems, but removing anyway as you requested:
+ udev depends on systemd | systemd-standalone-sysusers | systemd-sysusers; however:
+  Package systemd is not installed.
+  Package systemd-standalone-sysusers is to be removed.
+  Package systemd-sysusers is not installed.
+  Package systemd-standalone-sysusers which provides systemd-sysusers is to be removed.
+ udev depends on systemd | systemd-standalone-sysusers | systemd-sysusers; however:
+  Package systemd is not installed.
+  Package systemd-standalone-sysusers is to be removed.
+  Package systemd-sysusers is not installed.
+  Package systemd-standalone-sysusers which provides systemd-sysusers is to be removed.
 
-The following packages have unmet dependencies:
- libglib2.0-0 : Breaks: libglib2.0-0 (< 2.80.0-7~)
-E: Unable to correct problems, you have held broken packages.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27644 files and directories currently installed.)
+Removing systemd-standalone-sysusers (255.2-4) ...
+Selecting previously unselected package systemd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27637 files and directories currently installed.)
+Preparing to unpack .../systemd_255.2-4deepin6_arm64.deb ...
+Unpacking systemd (255.2-4deepin6) ...
+Selecting previously unselected package cron.
+Preparing to unpack .../cron_3.0pl1-137_arm64.deb ...
+Unpacking cron (3.0pl1-137) ...
+Setting up libfdisk1:arm64 (2.40.4-3deepin4) ...
+Setting up libsystemd-shared:arm64 (255.2-4deepin6) ...
+Setting up systemd-dev (255.2-4deepin6) ...
+Setting up mount (2.40.4-3deepin4) ...
+Setting up systemd (255.2-4deepin6) ...
+
+Configuration file '/etc/systemd/journald.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/logind.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/networkd.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/pstore.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/sleep.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/system.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/user.conf', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/system/getty.target.wants/getty@tty1.service → /usr/lib/systemd/system/getty@.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target → /usr/lib/systemd/system/remote-fs.target.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-pstore.service → /usr/lib/systemd/system/systemd-pstore.service.
+Setting access ACL "u::rwx,g::r-x,g:adm:r-x,m::r-x,o::r-x" on /var/log/journal failed: Invalid argument
+Selecting previously unselected package systemd-sysv.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28626 files and directories currently installed.)
+Preparing to unpack .../0-systemd-sysv_255.2-4deepin6_arm64.deb ...
+Unpacking systemd-sysv (255.2-4deepin6) ...
+Selecting previously unselected package fonts-lato.
+Preparing to unpack .../1-fonts-lato_2.0-2.1_all.deb ...
+Unpacking fonts-lato (2.0-2.1) ...
+Selecting previously unselected package rsync.
+Preparing to unpack .../2-rsync_3.3.0+ds1-4_arm64.deb ...
+Unpacking rsync (3.3.0+ds1-4) ...
+Selecting previously unselected package sgml-base.
+Preparing to unpack .../3-sgml-base_1.30_all.deb ...
+Unpacking sgml-base (1.30) ...
+Selecting previously unselected package sudo.
+Preparing to unpack .../4-sudo_1.9.15p5-3_arm64.deb ...
+Unpacking sudo (1.9.15p5-3) ...
+Preparing to unpack .../5-passwd_1%3a4.16.0-7deepin1_arm64.deb ...
+Unpacking passwd (1:4.16.0-7deepin1) over (1:4.14+dfsg1-0deepin3) ...
+Setting up passwd (1:4.16.0-7deepin1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28898 files and directories currently installed.)
+Preparing to unpack .../libudev1_255.2-4deepin6_arm64.deb ...
+Unpacking libudev1:arm64 (255.2-4deepin6) over (255.2-4) ...
+Setting up libudev1:arm64 (255.2-4deepin6) ...
+Selecting previously unselected package dmidecode.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28898 files and directories currently installed.)
+Preparing to unpack .../00-dmidecode_3.3.1-deepin_arm64.deb ...
+Unpacking dmidecode (3.3.1-deepin) ...
+Selecting previously unselected package libbpf1:arm64.
+Preparing to unpack .../01-libbpf1_1%3a1.4.1-1_arm64.deb ...
+Unpacking libbpf1:arm64 (1:1.4.1-1) ...
+Selecting previously unselected package libxtables12:arm64.
+Preparing to unpack .../02-libxtables12_1.8.10-4_arm64.deb ...
+Unpacking libxtables12:arm64 (1.8.10-4) ...
+Selecting previously unselected package iproute2.
+Preparing to unpack .../03-iproute2_6.9.0-1_arm64.deb ...
+Unpacking iproute2 (6.9.0-1) ...
+Selecting previously unselected package libfstrm0:arm64.
+Preparing to unpack .../04-libfstrm0_0.6.0-deepin1_arm64.deb ...
+Unpacking libfstrm0:arm64 (0.6.0-deepin1) ...
+Selecting previously unselected package libjemalloc2:arm64.
+Preparing to unpack .../05-libjemalloc2_5.3.0-2_arm64.deb ...
+Unpacking libjemalloc2:arm64 (5.3.0-2) ...
+Selecting previously unselected package liblmdb0:arm64.
+Preparing to unpack .../06-liblmdb0_0.9.31-1_arm64.deb ...
+Unpacking liblmdb0:arm64 (0.9.31-1) ...
+Selecting previously unselected package libmaxminddb0:arm64.
+Preparing to unpack .../07-libmaxminddb0_1.5.2-1_arm64.deb ...
+Unpacking libmaxminddb0:arm64 (1.5.2-1) ...
+Selecting previously unselected package libprotobuf-c1:arm64.
+Preparing to unpack .../08-libprotobuf-c1_1.4.1-1deepin0_arm64.deb ...
+Unpacking libprotobuf-c1:arm64 (1.4.1-1deepin0) ...
+Selecting previously unselected package liburcu8:arm64.
+Preparing to unpack .../09-liburcu8_0.14.0-1+loong64_arm64.deb ...
+Unpacking liburcu8:arm64 (0.14.0-1+loong64) ...
+Selecting previously unselected package bind9-libs:arm64.
+Preparing to unpack .../10-bind9-libs_1%3a9.19.19-1_arm64.deb ...
+Unpacking bind9-libs:arm64 (1:9.19.19-1) ...
+Selecting previously unselected package bind9-host.
+Preparing to unpack .../11-bind9-host_1%3a9.19.19-1_arm64.deb ...
+Unpacking bind9-host (1:9.19.19-1) ...
+Selecting previously unselected package bind9-dnsutils.
+Preparing to unpack .../12-bind9-dnsutils_1%3a9.19.19-1_arm64.deb ...
+Unpacking bind9-dnsutils (1:9.19.19-1) ...
+Selecting previously unselected package liblockfile-bin.
+Preparing to unpack .../13-liblockfile-bin_1.17-deepin1_arm64.deb ...
+Unpacking liblockfile-bin (1.17-deepin1) ...
+Selecting previously unselected package liblockfile1:arm64.
+Preparing to unpack .../14-liblockfile1_1.17-deepin1_arm64.deb ...
+Unpacking liblockfile1:arm64 (1.17-deepin1) ...
+Selecting previously unselected package libnss-systemd:arm64.
+Preparing to unpack .../15-libnss-systemd_255.2-4deepin6_arm64.deb ...
+Unpacking libnss-systemd:arm64 (255.2-4deepin6) ...
+Selecting previously unselected package libpam-systemd:arm64.
+Preparing to unpack .../16-libpam-systemd_255.2-4deepin6_arm64.deb ...
+Unpacking libpam-systemd:arm64 (255.2-4deepin6) ...
+Selecting previously unselected package pci.ids.
+Preparing to unpack .../17-pci.ids_0.0~2025.03.03-0deepin1_all.deb ...
+Unpacking pci.ids (0.0~2025.03.03-0deepin1) ...
+Selecting previously unselected package libpci3:arm64.
+Preparing to unpack .../18-libpci3_1%3a3.10.0-2_arm64.deb ...
+Unpacking libpci3:arm64 (1:3.10.0-2) ...
+Selecting previously unselected package pciutils.
+Preparing to unpack .../19-pciutils_1%3a3.10.0-2_arm64.deb ...
+Unpacking pciutils (1:3.10.0-2) ...
+Selecting previously unselected package systemd-timesyncd.
+Preparing to unpack .../20-systemd-timesyncd_255.2-4deepin6_arm64.deb ...
+Unpacking systemd-timesyncd (255.2-4deepin6) ...
+Selecting previously unselected package exim4-config.
+Preparing to unpack .../21-exim4-config_4.98-2_all.deb ...
+Unpacking exim4-config (4.98-2) ...
+Selecting previously unselected package libfile-fcntllock-perl.
+Preparing to unpack .../22-libfile-fcntllock-perl_0.22-3_arm64.deb ...
+Unpacking libfile-fcntllock-perl (0.22-3) ...
+Selecting previously unselected package exim4-base.
+Preparing to unpack .../23-exim4-base_4.98-2_arm64.deb ...
+Unpacking exim4-base (4.98-2) ...
+Selecting previously unselected package exim4-daemon-light.
+Preparing to unpack .../24-exim4-daemon-light_4.98-2_arm64.deb ...
+Unpacking exim4-daemon-light (4.98-2) ...
+Selecting previously unselected package bsd-mailx.
+Preparing to unpack .../25-bsd-mailx_8.1.2-0.20180807cvs-2_arm64.deb ...
+Unpacking bsd-mailx (8.1.2-0.20180807cvs-2) ...
+Selecting previously unselected package gcc-12-base:arm64.
+Preparing to unpack .../26-gcc-12-base_12.3.0-17deepin12_arm64.deb ...
+Unpacking gcc-12-base:arm64 (12.3.0-17deepin12) ...
+Selecting previously unselected package libisl23:arm64.
+Preparing to unpack .../27-libisl23_0.26-3_arm64.deb ...
+Unpacking libisl23:arm64 (0.26-3) ...
+Selecting previously unselected package libmpc3:arm64.
+Preparing to unpack .../28-libmpc3_1.2.1-1_arm64.deb ...
+Unpacking libmpc3:arm64 (1.2.1-1) ...
+Selecting previously unselected package cpp-12.
+Preparing to unpack .../29-cpp-12_12.3.0-17deepin12_arm64.deb ...
+Unpacking cpp-12 (12.3.0-17deepin12) ...
+Selecting previously unselected package cpp.
+Preparing to unpack .../30-cpp_4%3a13.2.0+really12.3.0-0deepin2_arm64.deb ...
+Unpacking cpp (4:13.2.0+really12.3.0-0deepin2) ...
+Selecting previously unselected package dbus-user-session.
+Preparing to unpack .../31-dbus-user-session_1.14.10-3_arm64.deb ...
+Unpacking dbus-user-session (1.14.10-3) ...
+Selecting previously unselected package dnsutils.
+Preparing to unpack .../32-dnsutils_1%3a9.19.19-1_all.deb ...
+Unpacking dnsutils (1:9.19.19-1) ...
+Preparing to unpack .../33-gir1.2-freedesktop_1.80.1-3deepin1_arm64.deb ...
+Unpacking gir1.2-freedesktop:arm64 (1.80.1-3deepin1) over (1.80.1-2) ...
+Selecting previously unselected package libgirepository-1.0-1:arm64.
+Preparing to unpack .../34-libgirepository-1.0-1_1.80.1-3deepin1_arm64.deb ...
+Unpacking libgirepository-1.0-1:arm64 (1.80.1-3deepin1) ...
+Selecting previously unselected package gir1.2-girepository-2.0:arm64.
+Preparing to unpack .../35-gir1.2-girepository-2.0_1.80.1-3deepin1_arm64.deb ...
+Unpacking gir1.2-girepository-2.0:arm64 (1.80.1-3deepin1) ...
+Selecting previously unselected package rubygems-integration.
+Preparing to unpack .../36-rubygems-integration_1.18_all.deb ...
+Unpacking rubygems-integration (1.18) ...
+Selecting previously unselected package rake.
+Preparing to unpack .../37-rake_13.0.3-1_all.deb ...
+Unpacking rake (13.0.3-1) ...
+Selecting previously unselected package ruby-net-telnet.
+Preparing to unpack .../38-ruby-net-telnet_0.1.1-2_all.deb ...
+Unpacking ruby-net-telnet (0.1.1-2) ...
+Selecting previously unselected package ruby-xmlrpc.
+Preparing to unpack .../39-ruby-xmlrpc_0.3.2-1_all.deb ...
+Unpacking ruby-xmlrpc (0.3.2-1) ...
+Selecting previously unselected package libyaml-0-2:arm64.
+Preparing to unpack .../40-libyaml-0-2_0.2.2-1_arm64.deb ...
+Unpacking libyaml-0-2:arm64 (0.2.2-1) ...
+Selecting previously unselected package libruby3.0:arm64.
+Preparing to unpack .../41-libruby3.0_3.0.3-1_arm64.deb ...
+Unpacking libruby3.0:arm64 (3.0.3-1) ...
+Selecting previously unselected package ruby3.0.
+Preparing to unpack .../42-ruby3.0_3.0.3-1_arm64.deb ...
+Unpacking ruby3.0 (3.0.3-1) ...
+Selecting previously unselected package ruby-rubygems.
+Preparing to unpack .../43-ruby-rubygems_3.3.15-2deepin_all.deb ...
+Unpacking ruby-rubygems (3.3.15-2deepin) ...
+Selecting previously unselected package ruby.
+Preparing to unpack .../44-ruby_1%3a3.0+1_arm64.deb ...
+Unpacking ruby (1:3.0+1) ...
+Selecting previously unselected package ruby-json:arm64.
+Preparing to unpack .../45-ruby-json_2.5.1+dfsg-2_arm64.deb ...
+Unpacking ruby-json:arm64 (2.5.1+dfsg-2) ...
+Selecting previously unselected package gist.
+Preparing to unpack .../46-gist_6.0.0-2_all.deb ...
+Unpacking gist (6.0.0-2) ...
+Selecting previously unselected package inxi.
+Preparing to unpack .../47-inxi_3.3.31-2-1deepin1_all.deb ...
+Unpacking inxi (3.3.31-2-1deepin1) ...
+Selecting previously unselected package javascript-common.
+Preparing to unpack .../48-javascript-common_11+nmu1_all.deb ...
+Unpacking javascript-common (11+nmu1) ...
+Selecting previously unselected package libdbusmenu-glib4:arm64.
+Preparing to unpack .../49-libdbusmenu-glib4_18.10.20180917~bzr492+repack1-deepin1_arm64.deb ...
+Unpacking libdbusmenu-glib4:arm64 (18.10.20180917~bzr492+repack1-deepin1) ...
+Selecting previously unselected package libdbusmenu-gtk3-4:arm64.
+Preparing to unpack .../50-libdbusmenu-gtk3-4_18.10.20180917~bzr492+repack1-deepin1_arm64.deb ...
+Unpacking libdbusmenu-gtk3-4:arm64 (18.10.20180917~bzr492+repack1-deepin1) ...
+Selecting previously unselected package libduktape207:arm64.
+Preparing to unpack .../51-libduktape207_2.7.0-2_arm64.deb ...
+Unpacking libduktape207:arm64 (2.7.0-2) ...
+Selecting previously unselected package libipc-system-simple-perl.
+Preparing to unpack .../52-libipc-system-simple-perl_1.30-1_all.deb ...
+Unpacking libipc-system-simple-perl (1.30-1) ...
+Selecting previously unselected package libfile-basedir-perl.
+Preparing to unpack .../53-libfile-basedir-perl_0.09-1_all.deb ...
+Unpacking libfile-basedir-perl (0.09-1) ...
+Selecting previously unselected package libfile-desktopentry-perl.
+Preparing to unpack .../54-libfile-desktopentry-perl_0.22-2_all.deb ...
+Unpacking libfile-desktopentry-perl (0.22-2) ...
+Selecting previously unselected package libfile-mimeinfo-perl.
+Preparing to unpack .../55-libfile-mimeinfo-perl_0.30-1_all.deb ...
+Unpacking libfile-mimeinfo-perl (0.30-1) ...
+Selecting previously unselected package libgee-0.8-2:arm64.
+Preparing to unpack .../56-libgee-0.8-2_0.20.6-1_arm64.deb ...
+Unpacking libgee-0.8-2:arm64 (0.20.6-1) ...
+Selecting previously unselected package libgnomekbd-common.
+Preparing to unpack .../57-libgnomekbd-common_3.28.1-1_all.deb ...
+Unpacking libgnomekbd-common (3.28.1-1) ...
+Selecting previously unselected package libxklavier16:arm64.
+Preparing to unpack .../58-libxklavier16_5.4-4_arm64.deb ...
+Unpacking libxklavier16:arm64 (5.4-4) ...
+Selecting previously unselected package libgnomekbd8:arm64.
+Preparing to unpack .../59-libgnomekbd8_3.28.1-1_arm64.deb ...
+Unpacking libgnomekbd8:arm64 (3.28.1-1) ...
+Selecting previously unselected package libio-stringy-perl.
+Preparing to unpack .../60-libio-stringy-perl_2.111-3_all.deb ...
+Unpacking libio-stringy-perl (2.111-3) ...
+Selecting previously unselected package libjs-jquery.
+Preparing to unpack .../61-libjs-jquery_3.6.1+dfsg+~3.5.14-1_all.deb ...
+Unpacking libjs-jquery (3.6.1+dfsg+~3.5.14-1) ...
+Selecting previously unselected package libjson-glib-1.0-common.
+Preparing to unpack .../62-libjson-glib-1.0-common_1.8.0-2_all.deb ...
+Unpacking libjson-glib-1.0-common (1.8.0-2) ...
+Selecting previously unselected package libjson-glib-1.0-0:arm64.
+Preparing to unpack .../63-libjson-glib-1.0-0_1.8.0-2_arm64.deb ...
+Unpacking libjson-glib-1.0-0:arm64 (1.8.0-2) ...
+Selecting previously unselected package libxml-parser-perl:arm64.
+Preparing to unpack .../64-libxml-parser-perl_2.46-3_arm64.deb ...
+Unpacking libxml-parser-perl:arm64 (2.46-3) ...
+Selecting previously unselected package libxml-twig-perl.
+Preparing to unpack .../65-libxml-twig-perl_1%3a3.52-1_all.deb ...
+Unpacking libxml-twig-perl (1:3.52-1) ...
+Selecting previously unselected package libnet-dbus-perl.
+Preparing to unpack .../66-libnet-dbus-perl_1.2.0-1_arm64.deb ...
+Unpacking libnet-dbus-perl (1.2.0-1) ...
+Preparing to unpack .../67-libnss-myhostname_255.2-4deepin6_arm64.deb ...
+Unpacking libnss-myhostname:arm64 (255.2-4deepin6) over (255.2-4) ...
+Selecting previously unselected package libpolkit-gobject-1-0:arm64.
+Preparing to unpack .../68-libpolkit-gobject-1-0_123-3deepin6_arm64.deb ...
+Unpacking libpolkit-gobject-1-0:arm64 (123-3deepin6) ...
+Selecting previously unselected package libpolkit-agent-1-0:arm64.
+Preparing to unpack .../69-libpolkit-agent-1-0_123-3deepin6_arm64.deb ...
+Unpacking libpolkit-agent-1-0:arm64 (123-3deepin6) ...
+Selecting previously unselected package libtie-ixhash-perl.
+Preparing to unpack .../70-libtie-ixhash-perl_1.23-2.1_all.deb ...
+Unpacking libtie-ixhash-perl (1.23-2.1) ...
+Selecting previously unselected package libvte-2.91-common.
+Preparing to unpack .../71-libvte-2.91-common_0.75.92-1_arm64.deb ...
+Unpacking libvte-2.91-common (0.75.92-1) ...
+Selecting previously unselected package libvte-2.91-0:arm64.
+Preparing to unpack .../72-libvte-2.91-0_0.75.92-1_arm64.deb ...
+Unpacking libvte-2.91-0:arm64 (0.75.92-1) ...
+Selecting previously unselected package libx11-protocol-perl.
+Preparing to unpack .../73-libx11-protocol-perl_0.56-7.1_all.deb ...
+Unpacking libx11-protocol-perl (0.56-7.1) ...
+Selecting previously unselected package python3-gi.
+Preparing to unpack .../74-python3-gi_3.48.2-1_arm64.deb ...
+Unpacking python3-gi (3.48.2-1) ...
+Selecting previously unselected package xdg-utils.
+Preparing to unpack .../75-xdg-utils_1.1.3-4.1deepin1_all.deb ...
+Unpacking xdg-utils (1.1.3-4.1deepin1) ...
+Selecting previously unselected package xapps-common.
+Preparing to unpack .../76-xapps-common_2.2.4-1_all.deb ...
+Unpacking xapps-common (2.2.4-1) ...
+Selecting previously unselected package libxapp1:arm64.
+Preparing to unpack .../77-libxapp1_2.2.4-1_arm64.deb ...
+Unpacking libxapp1:arm64 (2.2.4-1) ...
+Selecting previously unselected package libxml-xpathengine-perl.
+Preparing to unpack .../78-libxml-xpathengine-perl_0.14-1_all.deb ...
+Unpacking libxml-xpathengine-perl (0.14-1) ...
+Preparing to unpack .../79-libxmu6_2%3a1.1.3-3_arm64.deb ...
+Unpacking libxmu6:arm64 (2:1.1.3-3) over (2:1.1.2-deepin1) ...
+Selecting previously unselected package libxmuu1:arm64.
+Preparing to unpack .../80-libxmuu1_2%3a1.1.3-3_arm64.deb ...
+Unpacking libxmuu1:arm64 (2:1.1.3-3) ...
+Selecting previously unselected package libxxf86dga1:arm64.
+Preparing to unpack .../81-libxxf86dga1_2%3a1.1.4-deepin1_arm64.deb ...
+Unpacking libxxf86dga1:arm64 (2:1.1.4-deepin1) ...
+Selecting previously unselected package lm-sensors.
+Preparing to unpack .../82-lm-sensors_1%3a3.6.0-7_arm64.deb ...
+Unpacking lm-sensors (1:3.6.0-7) ...
+Selecting previously unselected package mesa-utils-bin:arm64.
+Preparing to unpack .../83-mesa-utils-bin_9.0.0-2_arm64.deb ...
+Unpacking mesa-utils-bin:arm64 (9.0.0-2) ...
+Selecting previously unselected package mesa-utils.
+Preparing to unpack .../84-mesa-utils_9.0.0-2_arm64.deb ...
+Unpacking mesa-utils (9.0.0-2) ...
+Selecting previously unselected package xml-core.
+Preparing to unpack .../85-xml-core_0.18+nmu1_all.deb ...
+Unpacking xml-core (0.18+nmu1) ...
+Selecting previously unselected package polkitd.
+Preparing to unpack .../86-polkitd_123-3deepin6_arm64.deb ...
+Unpacking polkitd (123-3deepin6) ...
+Selecting previously unselected package pkexec.
+Preparing to unpack .../87-pkexec_123-3deepin6_arm64.deb ...
+Unpacking pkexec (123-3deepin6) ...
+Selecting previously unselected package psmisc.
+Preparing to unpack .../88-psmisc_23.7-1_arm64.deb ...
+Unpacking psmisc (23.7-1) ...
+Selecting previously unselected package timeshift.
+Preparing to unpack .../89-timeshift_24.06.6-1_arm64.deb ...
+Unpacking timeshift (24.06.6-1) ...
+Selecting previously unselected package tree.
+Preparing to unpack .../90-tree_1.8.0-deepin1_arm64.deb ...
+Unpacking tree (1.8.0-deepin1) ...
+Selecting previously unselected package usbutils.
+Preparing to unpack .../91-usbutils_1%3a014-1_arm64.deb ...
+Unpacking usbutils (1:014-1) ...
+Selecting previously unselected package x11-utils.
+Preparing to unpack .../92-x11-utils_7.7+5-deepin_arm64.deb ...
+Unpacking x11-utils (7.7+5-deepin) ...
+Selecting previously unselected package x11-xserver-utils.
+Preparing to unpack .../93-x11-xserver-utils_7.7+9-deepin_arm64.deb ...
+Unpacking x11-xserver-utils (7.7+9-deepin) ...
+Selecting previously unselected package zip.
+Preparing to unpack .../94-zip_3.0-deepin_arm64.deb ...
+Unpacking zip (3.0-deepin) ...
+Selecting previously unselected package zutty.
+Preparing to unpack .../95-zutty_0.14.0.20230218+dfsg1-1_arm64.deb ...
+Unpacking zutty (0.14.0.20230218+dfsg1-1) ...
+Setting up libxklavier16:arm64 (5.4-4) ...
+Setting up liblmdb0:arm64 (0.9.31-1) ...
+Setting up javascript-common (11+nmu1) ...
+
+Configuration file '/etc/apache2/conf-available/javascript-common.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/lighttpd/conf-available/90-javascript-alias.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up libxml-parser-perl:arm64 (2.46-3) ...
+Setting up systemd-sysv (255.2-4deepin6) ...
+Setting up pci.ids (0.0~2025.03.03-0deepin1) ...
+Setting up libxmu6:arm64 (2:1.1.3-3) ...
+Setting up gir1.2-freedesktop:arm64 (1.80.1-3deepin1) ...
+Setting up libtie-ixhash-perl (1.23-2.1) ...
+Setting up fonts-lato (2.0-2.1) ...
+Setting up liblockfile-bin (1.17-deepin1) ...
+Setting up bsdextrautils (2.40.4-3deepin4) ...
+Setting up libvte-2.91-common (0.75.92-1) ...
+
+Configuration file '/etc/profile.d/vte-2.91.sh', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/profile.d/vte.csh', does not exist on system.
+Installing new config file as you requested.
+Setting up libfile-fcntllock-perl (0.22-3) ...
+Setting up psmisc (23.7-1) ...
+Setting up libyaml-0-2:arm64 (0.2.2-1) ...
+Setting up libio-stringy-perl (2.111-3) ...
+Setting up libmaxminddb0:arm64 (1.5.2-1) ...
+Setting up libdbusmenu-glib4:arm64 (18.10.20180917~bzr492+repack1-deepin1) ...
+Setting up libfstrm0:arm64 (0.6.0-deepin1) ...
+Setting up cron (3.0pl1-137) ...
+
+Configuration file '/etc/cron.d/.placeholder', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/cron.daily/.placeholder', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/cron.hourly/.placeholder', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/cron.monthly/.placeholder', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/cron.weekly/.placeholder', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/crontab', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/default/cron', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/init.d/cron', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/pam.d/cron', does not exist on system.
+Installing new config file as you requested.
+Adding group `crontab' (GID 109) ...
+Done.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring request.
+Running in chroot, ignoring command 'show'
+Created symlink /etc/systemd/system/multi-user.target.wants/cron.service → /usr/lib/systemd/system/cron.service.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Setting up libxml-twig-perl (1:3.52-1) ...
+Setting up libxxf86dga1:arm64 (2:1.1.4-deepin1) ...
+Setting up libnet-dbus-perl (1.2.0-1) ...
+Setting up libnss-systemd:arm64 (255.2-4deepin6) ...
+Setting up rubygems-integration (1.18) ...
+Setting up libjemalloc2:arm64 (5.3.0-2) ...
+Setting up libvte-2.91-0:arm64 (0.75.92-1) ...
+Setting up libprotobuf-c1:arm64 (1.4.1-1deepin0) ...
+Setting up usbutils (1:014-1) ...
+Setting up fdisk (2.40.4-3deepin4) ...
+Setting up gcc-12-base:arm64 (12.3.0-17deepin12) ...
+Setting up eject (2.40.4-3deepin4) ...
+Setting up zip (3.0-deepin) ...
+Setting up libgnomekbd-common (3.28.1-1) ...
+Setting up mesa-utils-bin:arm64 (9.0.0-2) ...
+Setting up libipc-system-simple-perl (1.30-1) ...
+Setting up libxml-xpathengine-perl (0.14-1) ...
+Setting up ruby-net-telnet (0.1.1-2) ...
+Setting up rfkill (2.40.4-3deepin4) ...
+Setting up tree (1.8.0-deepin1) ...
+Setting up libmpc3:arm64 (1.2.1-1) ...
+Setting up libgee-0.8-2:arm64 (0.20.6-1) ...
+Setting up systemd-timesyncd (255.2-4deepin6) ...
+
+Configuration file '/etc/dhcp/dhclient-exit-hooks.d/timesyncd', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/systemd/timesyncd.conf', does not exist on system.
+Installing new config file as you requested.
+Created symlink /etc/systemd/system/dbus-org.freedesktop.timesync1.service → /usr/lib/systemd/system/systemd-timesyncd.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-timesyncd.service → /usr/lib/systemd/system/systemd-timesyncd.service.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+Setting up udev (255.2-4deepin6) ...
+fchmod() of /dev/loop-control failed: Operation not permitted
+fchmod() of /dev/vhost-net failed: Operation not permitted
+fchmod() of /dev/vhost-vsock failed: Operation not permitted
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'restart'
+Setting up libnss-myhostname:arm64 (255.2-4deepin6) ...
+Setting up sudo (1.9.15p5-3) ...
+
+Configuration file '/etc/init.d/sudo', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/pam.d/sudo', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/pam.d/sudo-i', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sudo.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sudo_logsrvd.conf', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sudoers', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/sudoers.d/README', does not exist on system.
+Installing new config file as you requested.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring request.
+Running in chroot, ignoring command 'show'
+Setting up libxtables12:arm64 (1.8.10-4) ...
+Setting up liburcu8:arm64 (0.14.0-1+loong64) ...
+Setting up lm-sensors (1:3.6.0-7) ...
+
+Configuration file '/etc/init.d/lm-sensors', does not exist on system.
+Installing new config file as you requested.
+Running in chroot, ignoring command 'daemon-reload'
+Created symlink /etc/systemd/system/multi-user.target.wants/lm-sensors.service → /usr/lib/systemd/system/lm-sensors.service.
+Setting up zutty (0.14.0.20230218+dfsg1-1) ...
+update-alternatives: using /usr/bin/zutty to provide /usr/bin/x-terminal-emulator (x-terminal-emulator) in auto mode
+Setting up libpci3:arm64 (1:3.10.0-2) ...
+Setting up libduktape207:arm64 (2.7.0-2) ...
+Setting up exim4-config (4.98-2) ...
+
+Configuration file '/etc/email-addresses', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/acl/00_exim4-config_header', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/acl/20_exim4-config_local_deny_exceptions', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/acl/30_exim4-config_check_mail', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/acl/30_exim4-config_check_rcpt', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/acl/40_exim4-config_check_data', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/auth/00_exim4-config_header', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/auth/30_exim4-config_examples', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/main/01_exim4-config_listmacrosdefs', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/main/02_exim4-config_options', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/main/03_exim4-config_tlsoptions', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/main/90_exim4-config_log_selector', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/retry/00_exim4-config_header', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/retry/30_exim4-config', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/rewrite/00_exim4-config_header', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/rewrite/31_exim4-config_rewriting', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/router/00_exim4-config_header', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/router/100_exim4-config_domain_literal', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/router/150_exim4-config_hubbed_hosts', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/router/200_exim4-config_primary', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/router/300_exim4-config_real_local', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/router/400_exim4-config_system_aliases', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/router/500_exim4-config_hubuser', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/router/600_exim4-config_userforward', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/router/700_exim4-config_procmail', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/router/800_exim4-config_maildrop', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/router/850_exim4-config_lowuid', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/router/900_exim4-config_local_user', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/router/mmm_mail4root', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/transport/00_exim4-config_header', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/transport/10_exim4-config_transport-macros', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/transport/30_exim4-config_address_file', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/transport/30_exim4-config_address_pipe', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/transport/30_exim4-config_address_reply', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/transport/30_exim4-config_mail_spool', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/transport/30_exim4-config_maildir_home', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/transport/30_exim4-config_maildrop_pipe', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/transport/30_exim4-config_procmail_pipe', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/transport/30_exim4-config_remote_smtp', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/transport/30_exim4-config_remote_smtp_smarthost', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/conf.d/transport/35_exim4-config_address_directory', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/exim4.conf.template', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/exim4/passwd.client', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/ppp/ip-up.d/exim4', does not exist on system.
+Installing new config file as you requested.
+Adding system-user for exim (v4)
+exim: setgroups() failed: Operation not permitted
+Invalid new configfile /var/lib/exim4/config.autogenerated.tmp, not installing 
+/var/lib/exim4/config.autogenerated.tmp to /var/lib/exim4/config.autogenerated
+dpkg: error processing package exim4-config (--configure):
+ installed exim4-config package post-installation script subprocess returned error exit status 1
+Setting up libpam-systemd:arm64 (255.2-4deepin6) ...
+Setting up libgirepository-1.0-1:arm64 (1.80.1-3deepin1) ...
+Setting up libjson-glib-1.0-common (1.8.0-2) ...
+Setting up sgml-base (1.30) ...
+Setting up liblockfile1:arm64 (1.17-deepin1) ...
+Setting up libjs-jquery (3.6.1+dfsg+~3.5.14-1) ...
+Setting up dmidecode (3.3.1-deepin) ...
+Setting up libisl23:arm64 (0.26-3) ...
+Setting up ruby-xmlrpc (0.3.2-1) ...
+Setting up xdg-utils (1.1.3-4.1deepin1) ...
+update-alternatives: using /usr/bin/xdg-open to provide /usr/bin/open (open) in auto mode
+Setting up libxmuu1:arm64 (2:1.1.3-3) ...
+Setting up libx11-protocol-perl (0.56-7.1) ...
+Setting up libpolkit-gobject-1-0:arm64 (123-3deepin6) ...
+Setting up libbpf1:arm64 (1:1.4.1-1) ...
+Setting up rsync (3.3.0+ds1-4) ...
+
+Configuration file '/etc/default/rsync', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/init.d/rsync', does not exist on system.
+Installing new config file as you requested.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring request.
+Running in chroot, ignoring command 'show'
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+rsync.service is a disabled or a static unit, not starting it.
+Setting up libdbusmenu-gtk3-4:arm64 (18.10.20180917~bzr492+repack1-deepin1) ...
+Setting up cpp-12 (12.3.0-17deepin12) ...
+Setting up libfile-basedir-perl (0.09-1) ...
+Setting up bind9-libs:arm64 (1:9.19.19-1) ...
+Setting up iproute2 (6.9.0-1) ...
+Setting up libjson-glib-1.0-0:arm64 (1.8.0-2) ...
+Setting up dbus-user-session (1.14.10-3) ...
+
+Configuration file '/etc/X11/Xsession.d/20dbus_xdg-runtime', does not exist on system.
+Installing new config file as you requested.
+Setting up mesa-utils (9.0.0-2) ...
+Setting up gir1.2-girepository-2.0:arm64 (1.80.1-3deepin1) ...
+Setting up python3-gi (3.48.2-1) ...
+Setting up pciutils (1:3.10.0-2) ...
+Setting up libfile-desktopentry-perl (0.22-2) ...
+Setting up cpp (4:13.2.0+really12.3.0-0deepin2) ...
+Setting up xml-core (0.18+nmu1) ...
+
+Configuration file '/etc/sgml/xml-core.cat', does not exist on system.
+Installing new config file as you requested.
+Setting up x11-utils (7.7+5-deepin) ...
+
+Configuration file '/etc/X11/app-defaults/Editres', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/Editres-color', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/Viewres', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/Viewres-color', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/XFontSel', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/Xfd', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/Xmessage', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/X11/app-defaults/Xmessage-color', does not exist on system.
+Installing new config file as you requested.
+Setting up libpolkit-agent-1-0:arm64 (123-3deepin6) ...
+Setting up bind9-host (1:9.19.19-1) ...
+Setting up libfile-mimeinfo-perl (0.30-1) ...
+Setting up xapps-common (2.2.4-1) ...
+
+Configuration file '/etc/X11/Xsession.d/80xapp-gtk3-module', does not exist on system.
+Installing new config file as you requested.
+Setting up inxi (3.3.31-2-1deepin1) ...
+
+Configuration file '/etc/inxi.conf', does not exist on system.
+Installing new config file as you requested.
+Setting up x11-xserver-utils (7.7+9-deepin) ...
+
+Configuration file '/etc/X11/app-defaults/Xvidtune', does not exist on system.
+Installing new config file as you requested.
+Setting up bind9-dnsutils (1:9.19.19-1) ...
+Setting up dnsutils (1:9.19.19-1) ...
+Setting up rake (13.0.3-1) ...
+Setting up libruby3.0:arm64 (3.0.3-1) ...
+Setting up ruby-rubygems (3.3.15-2deepin) ...
+Setting up ruby3.0 (3.0.3-1) ...
+Setting up ruby (1:3.0+1) ...
+Setting up ruby-json:arm64 (2.5.1+dfsg-2) ...
+Setting up gist (6.0.0-2) ...
+Processing triggers for initramfs-tools (0.142) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+gtk-update-icon-cache: No theme index file.
+WARNING: icon cache generation failed
+Processing triggers for libglib2.0-0:arm64 (2.80.1-1deepin1) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Setting up libgnomekbd8:arm64 (3.28.1-1) ...
+Processing triggers for dbus (1.14.10-3) ...
+Setting up libxapp1:arm64 (2.2.4-1) ...
+
+Configuration file '/etc/xdg/autostart/xapp-sn-watcher.desktop', does not exist on system.
+Installing new config file as you requested.
+Processing triggers for fontconfig (2.14.2-6) ...
+Setting up timeshift (24.06.6-1) ...
+
+Configuration file '/etc/timeshift/default.json', does not exist on system.
+Installing new config file as you requested.
+Processing triggers for sgml-base (1.30) ...
+Setting up polkitd (123-3deepin6) ...
+Failed to check if group polkitd already exists: Connection refused
+id: ‘polkitd’: no such user
+chown: invalid group: ‘root:polkitd’
+dpkg: error processing package polkitd (--configure):
+ installed polkitd package post-installation script subprocess returned error exit status 1
+dpkg: bsd-mailx: dependency problems, but configuring anyway as you requested:
+ bsd-mailx depends on default-mta | mail-transport-agent; however:
+  Package default-mta is not installed.
+  Package mail-transport-agent is not installed.
+
+Setting up bsd-mailx (8.1.2-0.20180807cvs-2) ...
+
+Configuration file '/etc/mail.rc', does not exist on system.
+Installing new config file as you requested.
+update-alternatives: using /usr/bin/bsd-mailx to provide /usr/bin/mailx (mailx) in auto mode
+dpkg: exim4-daemon-light: dependency problems, but configuring anyway as you requested:
+ exim4-daemon-light depends on exim4-base (>= 4.98).
+
+Setting up exim4-daemon-light (4.98-2) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/exim4.service → /usr/lib/systemd/system/exim4.service.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+dpkg: exim4-base: dependency problems, but configuring anyway as you requested:
+ exim4-base depends on exim4-config (>= 4.94) | exim4-config-2; however:
+  Package exim4-config is not configured yet.
+  Package exim4-config-2 is not installed.
+  Package exim4-config which provides exim4-config-2 is not configured yet.
+
+Setting up exim4-base (4.98-2) ...
+
+Configuration file '/etc/cron.daily/exim4-base', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/init.d/exim4', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/logrotate.d/exim4-base', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file '/etc/logrotate.d/exim4-paniclog', does not exist on system.
+Installing new config file as you requested.
+exim: DB upgrade, deleting hints-db
+Running in chroot, ignoring command 'daemon-reload'
+Created symlink /etc/systemd/system/timers.target.wants/exim4-base.timer → /usr/lib/systemd/system/exim4-base.timer.
+Running in chroot, ignoring command 'daemon-reload'
+Running in chroot, ignoring command 'is-active'
+exim4-base.service is a disabled or a static unit, not starting it.
+Running in chroot, ignoring command 'is-active'
+Running in chroot, ignoring command 'start'
+dpkg: pkexec: dependency problems, but configuring anyway as you requested:
+ pkexec depends on polkitd (= 123-3deepin6); however:
+  Package polkitd is not configured yet.
+
+Setting up pkexec (123-3deepin6) ...
+Processing triggers for libc-bin (2.38-6deepin4) ...
+Errors were encountered while processing:
+ exim4-config
+ polkitd
+E: Sub-process /usr/bin/dpkg returned an error code (1)
