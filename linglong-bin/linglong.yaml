@@ -1,0 +1,13 @@
+version: "1"
+package:
+  id: linglong-bin.linyaps
+  name: linglong-bin
+  version: 1.7.11.1
+  kind: app
+  description: |-
+    Linglong package manager.
+    Linglong package management command line tool.
+command:
+- /opt/apps/linglong-bin.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
