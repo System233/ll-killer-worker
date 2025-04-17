@@ -1,0 +1,21 @@
+version: "1"
+package:
+  id: network-manager-applet.linyaps
+  name: network-manager-applet
+  version: 1.36.0.3
+  kind: app
+  description: |-
+    network management framework (notification area applet)
+    NetworkManager is a system network service that manages your network devices
+    and connections, attempting to keep active network connectivity when
+    available. It manages ethernet, Wi-Fi, mobile broadband (WWAN), and PPPoE
+    devices, and provides VPN integration with a variety of different VPN
+    services.
+
+    This package contains nm-applet which is a GTK‐based GUI applet to monitor
+    network status and devices and allows users to start and stop network
+    connections managed by NetworkManager.
+command:
+- /opt/apps/network-manager-applet.linyaps/files/entrypoint.sh
+base: org.deepin.base/23.1.0
+build: build-aux/setup.sh
